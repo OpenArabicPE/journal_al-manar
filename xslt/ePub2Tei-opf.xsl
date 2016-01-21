@@ -13,7 +13,7 @@
     
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p>This stylesheet will transform an ePub from shamela.ws to TEI P5. Input is the core opf file</xd:p>
+            <xd:p>This stylesheet will transform an ePub from shamela.ws to TEI P5. Input is the core opf file. In order to make everything work, it makes sense to un-zip the ePub and check whether all the contained xhtml files are well-formed XML. The main problem are unescaped ampersands.</xd:p>
         </xd:desc>
     </xd:doc>
     
@@ -30,7 +30,7 @@
     </xsl:template>
     
     <xsl:template match="opf:package">
-        <xsl:result-document href="/BachUni/projekte/XML/EPub2Tei/output/a.TEIP5.xml">
+        <xsl:result-document href="../xml/output/ePub2Tei_{$vDateTodayIso}.TEIP5.xml">
             <TEI>
                 <teiHeader>
                     <fileDesc>

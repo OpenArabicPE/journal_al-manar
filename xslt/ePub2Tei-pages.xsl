@@ -30,6 +30,7 @@
         <xsl:element name="pb">
             <!-- construct an ID from the issue and page numbers provided in human-readible form only -->
             <xsl:attribute name="n">
+                <!-- this, unfortunately, seems to be different for every ePub -->
                 <xsl:analyze-string select="following-sibling::html:div[@class='center']" regex="(الجزء\s*:\s*)(\d+).+(الصفحة\s*:\s*)(\d+)|(الصفحة\s*:\s*)(\d+)">
                     <xsl:matching-substring>
                         <xsl:choose>
@@ -43,6 +44,8 @@
                     </xsl:matching-substring>
                 </xsl:analyze-string>
             </xsl:attribute>
+            <!-- add information on the source edition -->
+            <xsl:attribute name="ed" select="'shamela'"/>
             <!-- point to the source file -->
             <xsl:attribute name="corresp" select="base-uri()"/>
         </xsl:element>
