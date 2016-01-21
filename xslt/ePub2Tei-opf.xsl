@@ -13,13 +13,13 @@
     
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p>This stylesheet will transform an ePub from shamela.ws to TEI P5</xd:p>
+            <xd:p>This stylesheet will transform an ePub from shamela.ws to TEI P5. Input is the core opf file</xd:p>
         </xd:desc>
     </xd:doc>
     
     <xsl:output method="xml" omit-xml-declaration="no" indent="yes" encoding="UTF-8"/>
     
-    <xsl:include href="ePub2Tei%20pages.xsl"/>
+    <xsl:include href="ePub2Tei-pages.xsl"/>
     
     <!-- some variables -->
     <xsl:variable name="vDateTodayIso" select="format-date( current-date(),'[Y0001]-[M01]-[D01]')"/>
