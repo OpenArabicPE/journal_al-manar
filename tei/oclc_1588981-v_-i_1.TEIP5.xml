@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <tei:teiHeader>
+      <tei:fileDesc>
+         <titleStmt>
+            <title>مجلة المنار</title>
+            <title type="sub">TEI edition</title>
+            <author>محمد رشيد رضا</author>
+            <tei:respStmt xml:lang="en">
+               <tei:resp>TEI edition</tei:resp>
+               <tei:persName xml:id="pers_TG">
+                  <tei:forename>Till</tei:forename>
+                  <tei:surname>Grallert</tei:surname>
+               </tei:persName>
+            </tei:respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpulished TEI edition</p>
+         </publicationStmt>
+         <tei:sourceDesc>
+            <tei:biblStruct xml:lang="ar">
+               <tei:monogr>
+                  <title level="j" xml:lang="ar">المنار</title>
+                  <title
+                         level="j"
+                         xml:lang="ar-Latn-x-ijmes">al-Manār</title>
+                  <idno type="jid" xml:lang="ar">33</idno>
+                  <idno type="OCLC">1588981</idno>
+                  <idno type="URI">http://waqfeya.com/book.php?bid=7374</idno>
+                  <idno type="URI">http://shamela.ws/index.php/book/6947</idno>
+                  <textLang mainLang="ar"/>
+                  <editor xml:lang="ar">
+                                <persName ref="oape:pers:689 viaf:51716068" xml:lang="ar">
+                                    <forename xml:lang="ar">محمد</forename>
+                                    <forename xml:lang="ar">رشيد</forename>
+                                    <surname xml:lang="ar">رضا</surname>
+                                </persName>
+                            </editor>
+                  <imprint xml:lang="ar">
+                                <publisher/>
+                                <pubPlace xml:lang="ar">
+                                    <placeName xml:lang="ar" ref="geon:360630">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630">Cairo</placeName>
+                                </pubPlace>
+                                <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
+                            </imprint>
+                  <tei:biblScope unit="volume" from="" to="" change="#d2e128"/>
+                  <tei:biblScope unit="issue" from="1" to="1" change="#d2e128">1</tei:biblScope>
+                  <tei:biblScope unit="page" from="" to=""/>
+               </tei:monogr>
+            </tei:biblStruct>
+         </tei:sourceDesc>
+      </tei:fileDesc>
+      <revisionDesc>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi>div</gi> relate to a single issue and marked them as such.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
+      </revisionDesc>
+   </tei:teiHeader>
+   <tei:text xml:lang="ar">
+      <tei:body>
+            <pb
+             n=""
+             ed="shamela"
+             corresp="../epub/6947/OEBPS/xhtml/P1.xhtml"/>
+
+
+مجلة المنار<lb/>لصاحبها: محمد رشيد رضا<lb/>أنشئت سنة 1315 هـ<lb/>(رقم الجزء، هو رقم المجلد. ورقم الصفحة، هي الصفحة التي يبدأ عندها المقال في المجلد المطبوع)
+<pb
+             n=""
+             ed="shamela"
+             corresp="../epub/6947/OEBPS/xhtml/P2.xhtml"/>
+
+
+            </tei:body>
+   </tei:text>
+</tei:TEI>
