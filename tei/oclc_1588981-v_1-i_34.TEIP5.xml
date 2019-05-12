@@ -49,7 +49,7 @@
             </tei:biblStruct>
          </tei:sourceDesc>
       </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
          <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
@@ -60,7 +60,7 @@
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P179.xhtml"/>
       <tei:body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
-            <date calendar="#cal_islamic" change="#d2e141" xml:lang="ar">23 جمادى الآخرة 1316</date>هـ</head>
+            <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1316-06-23" datingMethod="#cal_islamic" when="1898-11-08">23 جمادى الآخرة 1316</date>هـ</head>
             <lb/><date calendar="#cal_gregorian" when="1898" change="#d2e141" xml:lang="ar">نوفمبر - 1898م</date>
 <pb n="n1-p649" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P180.xhtml"/>
 
@@ -107,7 +107,7 @@
          </byline>
          <note type="footnote" location="bottom" change="#d2e141" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">شذرات علمية</head>
-               <lb/>يؤخذ من الإحصاءات الأخيرة: أن عدد لغات البشر - وفي جملتها اللهجات<lb/>المتقاربة - 275 لغة.<lb/>يقول أحد علماء الألمان: إن دماغ الإنسان مؤلف من ثلاث مائة مليون<lb/>حويصلة عصبية.<lb/>تنفق إنكلترا على جنودها برًّا وبحراً 63.500.000 جنيه، وتنفق فرنسا<lb/>36.387.000 جنيه، وألمانيا 35.226.000، وروسيا 38.569.000.<lb/>يقدرون مساحة مملكة الإنكليز في العالم بنحو 11.000.000ميل مربع،<lb/>وهي تشغل خمس اليبس، وسكانها خمس سكان الأرض وفيها 10.000 جزيرة،<lb/>و2.000 نهر، وتحتوي على خمس ماشية الأرض وواحد من اثني عشر من<lb/>خيولها.<lb/>(عوالم الميكروب) : لا شيء يمثل عظمة الخالق كالتأمل في عالم<lb/>الميكروب؛ فإن كثرته تكاد تفوق التصديق، ومن غرائب ذلك أنك إذا جمعت من<lb/>تلك الأحياء ما وزنه 1000 من (أو جزء من خمسين من القمحة) لبلغ عددها<lb/>خمسة أضعاف عدد سكان الأرض.<lb/>(وزن الميكروب ومساحته) : اتصل الدكتور كلاين في إنكلترا إلى تقدير<lb/>وزن الميكروب وهو الحُييوين الصغير المشهور فوجد أن كل 127.000.000<lb/>منه تزن غرامًا واحدًا، وقدر أيضًا مساحته فوجد أن كل500.000.000 منه<lb/>لو رتبت محاذية لشغلت مساحة بقدر مساحة طابع البريد.<lb/>
+               <lb/>يؤخذ من الإحصاءات الأخيرة: أن عدد لغات البشر - وفي جملتها اللهجات<lb/>المتقاربة - 275 لغة.<lb/>يقول أحد علماء الألمان: إن دماغ الإنسان مؤلف من ثلاث مائة مليون<lb/>حويصلة عصبية.<lb/>تنفق إنكلترا على جنودها برًّا وبحراً 63.500.000 جنيه، وتنفق فرنسا<lb/>36.387.000 جنيه، وألمانيا 35.226.000، وروسيا 38.569.000.<lb/>يقدرون مساحة مملكة الإنكليز في العالم بنحو 11.000.<tei:date calendar="#cal_gregorian" when="0000" change="#d3e146">000</tei:date>ميل مربع،<lb/>وهي تشغل خمس اليبس، وسكانها خمس سكان الأرض وفيها 10.000 جزيرة،<lb/>و2.000 نهر، وتحتوي على خمس ماشية الأرض وواحد من اثني عشر من<lb/>خيولها.<lb/>(عوالم الميكروب) : لا شيء يمثل عظمة الخالق كالتأمل في عالم<lb/>الميكروب؛ فإن كثرته تكاد تفوق التصديق، ومن غرائب ذلك أنك إذا جمعت من<lb/>تلك الأحياء ما وزنه <tei:date calendar="#cal_gregorian" when="1000" change="#d3e146">1000</tei:date> من (أو جزء من خمسين من القمحة) لبلغ عددها<lb/>خمسة أضعاف عدد سكان الأرض.<lb/>(وزن الميكروب ومساحته) : اتصل الدكتور كلاين في إنكلترا إلى تقدير<lb/>وزن الميكروب وهو الحُييوين الصغير المشهور فوجد أن كل 127.000.000<lb/>منه تزن غرامًا واحدًا، وقدر أيضًا مساحته فوجد أن كل500.000.<tei:date calendar="#cal_gregorian" when="0000" change="#d3e146">000</tei:date> منه<lb/>لو رتبت محاذية لشغلت مساحة بقدر مساحة طابع البريد.<lb/>
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 

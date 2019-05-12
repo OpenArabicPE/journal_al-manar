@@ -49,7 +49,7 @@
             </tei:biblStruct>
          </tei:sourceDesc>
       </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
          <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
@@ -60,7 +60,7 @@
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P339.xhtml"/>
       <tei:body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
-            <date calendar="#cal_islamic" change="#d2e141" xml:lang="ar">26 ذو الحجة 1317</date>هـ</head>
+            <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1317-12-26" datingMethod="#cal_islamic" when="1900-04-27">26 ذو الحجة 1317</date>هـ</head>
             <lb/>
          <date calendar="#cal_gregorian" change="#d2e141" xml:lang="ar">6 مايو 1899</date>م
 <pb n="n2-p113" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P340.xhtml"/>
@@ -107,7 +107,7 @@
          <note type="footnote" location="bottom" change="#d2e141" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">مقتطفات</head>
                <lb/>
-               <lb/>(اليابان)<lb/>يؤخذ من تقرير وزير المعارف في اليابان عام 1894 أن عدد سكان اليابان<lb/>بلغ- إذ ذاك -: 42426921 نفسًا وعدد الطلبة: 7320191 ولم تكن تجد ثلثهم<lb/>عام 1873 وبلغ عدد المدارس: 23874 مدرسة وعدد المعلمين والمعلمات:<lb/>69845.<lb/>وبلغ عدد سكان اليابان في الإحصاء الصادر في السنة الجديدة: 43 مليونًا<lb/>و229 ألفًا من النفوس، نصفهم ذكور ونصفهم إناث على وجه التقريب، وقدرت<lb/>ميزانيتها للسنة الجارية: 189 مليون (ين) للواردات و113 مليونًا للنفقات؛<lb/>فتكون الزيادة في النفقات: 30 مليون (ين) والين - من الفضة - يساوي فرنكين<lb/>ونصفًا وهو يقابل (الكروان) الإنكليزي قيمة.<lb/>***<lb/>أهدانا الفاضل الأديب الشيخ محمد بشير ظافر المدني الأزهري قصيدة من<lb/>نظمه في التنفير عن المدارس الأجنبية؛ لأنها أُسست على دعائم الدعوة إلى<lb/>النصرانية والاستمالة إليها ونقش تعاليمها في ألواح نفوس الولدان، حتى كان الذي<lb/>يرسل ولده إليها لا يبالي أخرج مسلمًا أم غير مسلم! ، فنحثّ معه سائر الشعراء<lb/>على النظم في مثل هذا من المواضيع الاجتماعية، والخروج بالشعر من مضيق<lb/>الأماديح والأهاجي الشخصية. <note type="footnote" location="bottom"/>
+               <lb/>(اليابان)<lb/>يؤخذ من تقرير وزير المعارف في اليابان عام 1894 أن عدد سكان اليابان<lb/>بلغ- إذ ذاك -: 42426921 نفسًا وعدد الطلبة: 7320191 ولم تكن تجد ثلثهم<lb/>عام 1873 وبلغ عدد المدارس: 2<tei:date calendar="#cal_gregorian" when="3874" change="#d3e146">3874</tei:date> مدرسة وعدد المعلمين والمعلمات:<lb/>69845.<lb/>وبلغ عدد سكان اليابان في الإحصاء الصادر في السنة الجديدة: 43 مليونًا<lb/>و229 ألفًا من النفوس، نصفهم ذكور ونصفهم إناث على وجه التقريب، وقدرت<lb/>ميزانيتها للسنة الجارية: <tei:date calendar="#cal_gregorian" when="0189" change="#d3e146">189</tei:date> مليون (ين) للواردات و<tei:date calendar="#cal_gregorian" when="0113" change="#d3e146">113</tei:date> مليونًا للنفقات؛<lb/>فتكون الزيادة في النفقات: 30 مليون (ين) والين - من الفضة - يساوي فرنكين<lb/>ونصفًا وهو يقابل (الكروان) الإنكليزي قيمة.<lb/>***<lb/>أهدانا الفاضل الأديب الشيخ محمد بشير ظافر المدني الأزهري قصيدة من<lb/>نظمه في التنفير عن المدارس الأجنبية؛ لأنها أُسست على دعائم الدعوة إلى<lb/>النصرانية والاستمالة إليها ونقش تعاليمها في ألواح نفوس الولدان، حتى كان الذي<lb/>يرسل ولده إليها لا يبالي أخرج مسلمًا أم غير مسلم! ، فنحثّ معه سائر الشعراء<lb/>على النظم في مثل هذا من المواضيع الاجتماعية، والخروج بالشعر من مضيق<lb/>الأماديح والأهاجي الشخصية. <note type="footnote" location="bottom"/>
             </note>
             <pb n="n2-p128" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P345.xhtml"/>
 

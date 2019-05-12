@@ -49,7 +49,7 @@
             </tei:biblStruct>
          </tei:sourceDesc>
       </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
          <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
@@ -60,7 +60,7 @@
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P322.xhtml"/>
       <tei:body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
-            <date calendar="#cal_islamic" change="#d2e141" xml:lang="ar">27 ذو القعدة 1316</date>هـ</head>
+            <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1316-11-27" datingMethod="#cal_islamic" when="1899-04-08">27 ذو القعدة 1316</date>هـ</head>
             <lb/>
          <date calendar="#cal_gregorian" change="#d2e141" xml:lang="ar">8 إبريل 1899</date>م
 <pb n="n2-p65" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P323.xhtml"/>
@@ -201,7 +201,7 @@
                            <lb/>المصروفات<lb/>مصروفات الأوقاف الخيرية<lb/>63327 <gap resp="#org_MS"/> إقامة الشعائر<lb/>18435 <gap resp="#org_MS"/> حفظ وترميم المساجد والأملاك عدا الإنشاء.<lb/>38449 <gap resp="#org_MS"/> مصاريف عقارية وزراعية.<lb/>53648 <gap resp="#org_MS"/> مصاريف الإدارة العمومية. <note type="footnote" location="bottom" change="#d2e141" xml:lang="ar">173859<lb/>بيان عدد الأوقاف التي يديرها الديوان وعدد المساجد والتكايا والمكاتب<lb/>والمستشفيات وعدد الخدمة القائمين بالعمل<lb/>عدد <gap resp="#org_MS"/> 
                               <gap resp="#org_MS"/> 
                               <gap resp="#org_MS"/> 
-                              <gap resp="#org_MS"/> الأوقاف<lb/>1707 أوقاف خيرية<lb/>176 <gap resp="#org_MS"/> أوقاف أهلية<lb/>1362 مساجد وزوايا وأضرحة<lb/>20 <gap resp="#org_MS"/> تكايا<lb/>37 <gap resp="#org_MS"/> مكاتب<lb/>2 <gap resp="#org_MS"/> مستشفيات بالأزهر وب قلاوون<lb/>5200 خدمة إقامة الشعائر.<lb/>815 <gap resp="#org_MS"/> خدمة الإدارة العمومية.<lb/>بيان النقدية الموجودة بخزينة ديوان الأوقاف لغاية يوم الأحد 2 أبريل<lb/>سنة 1899 أي يوم الاحتفال بمحل الديوان الجديد<lb/>جنيه<lb/>878 <gap resp="#org_MS"/> ورق بون<lb/>150592 <gap resp="#org_MS"/> نقود<lb/>151470 <gap resp="#org_MS"/> الجملة <note type="footnote" location="bottom"/>
+                              <gap resp="#org_MS"/> الأوقاف<lb/>1707 أوقاف خيرية<lb/>176 <gap resp="#org_MS"/> أوقاف أهلية<lb/><tei:date calendar="#cal_gregorian" when="1362" change="#d3e146">1362</tei:date> مساجد وزوايا وأضرحة<lb/>20 <gap resp="#org_MS"/> تكايا<lb/>37 <gap resp="#org_MS"/> مكاتب<lb/>2 <gap resp="#org_MS"/> مستشفيات بالأزهر وب قلاوون<lb/>5200 خدمة إقامة الشعائر.<lb/>815 <gap resp="#org_MS"/> خدمة الإدارة العمومية.<lb/>بيان النقدية الموجودة بخزينة ديوان الأوقاف لغاية يوم الأحد 2 أبريل<lb/>سنة 1899 أي يوم الاحتفال بمحل الديوان الجديد<lb/>جنيه<lb/>878 <gap resp="#org_MS"/> ورق بون<lb/>150592 <gap resp="#org_MS"/> نقود<lb/>151470 <gap resp="#org_MS"/> الجملة <note type="footnote" location="bottom"/>
                            </note>
                         </note>
                      </note>

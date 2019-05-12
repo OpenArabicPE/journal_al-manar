@@ -49,7 +49,7 @@
             </tei:biblStruct>
          </tei:sourceDesc>
       </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
          <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
@@ -60,7 +60,7 @@
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P813.xhtml"/>
       <tei:body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
-            <date calendar="#cal_islamic" change="#d2e141" xml:lang="ar">16 ذو القعدة 1318</date>هـ</head>
+            <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1318-11-16" datingMethod="#cal_islamic" when="1901-03-07">16 ذو القعدة 1318</date>هـ</head>
             <lb/>
          <date calendar="#cal_gregorian" change="#d2e141" xml:lang="ar">7 مارس 1901</date>م
 <pb n="n4-p41" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P814.xhtml"/>

@@ -49,7 +49,7 @@
             </tei:biblStruct>
          </tei:sourceDesc>
       </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
          <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
@@ -59,7 +59,7 @@
    <tei:text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P3060.xhtml"/>
       <tei:body change="#d2e141" xml:lang="ar">
-            <head change="#d2e141" xml:lang="ar">شوال - 1336هـ</head>
+            <head change="#d2e141" xml:lang="ar">شوال - <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1336" change="#d3e146">1336</tei:date>هـ</head>
             <lb/><date calendar="#cal_gregorian" when="1918" change="#d2e141" xml:lang="ar">يوليو - 1918م</date>
 <pb n="n20-p395" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P3061.xhtml"/>
 
@@ -89,7 +89,7 @@
          <note type="footnote" location="bottom" change="#d2e141" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">السيد الهمام - آل رضا</head>
                <lb/>
-               <lb/>في آخر الساعة الثانية بعد النصف من ليلة الخميس لثمانٍ بقين من شهر ذي<lb/>القعدة الحرام الحالّ (الموافق لحلول الشمس في الدرجة الخامسة من برج السنبلة سنة<lb/>1296 هـ ش - 29 أغسطس) قد وهب الله جل ثناؤه لصاحب هذه المجلة غلامًا<lb/>سويًّا أزهر اللون جميل الخلق كأخيه (محمد شفيع) إلا أنه أوسع غُرة وأنحف بنية،<lb/>فسميناه الهُمَام (بضم الهاء وتخفيف الميم) ، فنحمد الله ونشكره على ما حبانا به من<lb/>مزيد نعمه، ونسأله تعالى أن يجعل له أوفر نصيب من اسمه، حتى يكون قرة عين<lb/>لنا ولأمته وقومه، ومثل ذلك لأخيه وأخته، {رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ<lb/>أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَاماً} (الفرقان: 74) . <note type="footnote" location="bottom"/>
+               <lb/>في آخر الساعة الثانية بعد النصف من ليلة الخميس لثمانٍ بقين من شهر ذي<lb/>القعدة الحرام الحالّ (الموافق لحلول الشمس في الدرجة الخامسة من برج السنبلة سنة<lb/><tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1296" change="#d3e146">1296</tei:date> هـ ش - 29 أغسطس) قد وهب الله جل ثناؤه لصاحب هذه المجلة غلامًا<lb/>سويًّا أزهر اللون جميل الخلق كأخيه (محمد شفيع) إلا أنه أوسع غُرة وأنحف بنية،<lb/>فسميناه الهُمَام (بضم الهاء وتخفيف الميم) ، فنحمد الله ونشكره على ما حبانا به من<lb/>مزيد نعمه، ونسأله تعالى أن يجعل له أوفر نصيب من اسمه، حتى يكون قرة عين<lb/>لنا ولأمته وقومه، ومثل ذلك لأخيه وأخته، {رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ<lb/>أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَاماً} (الفرقان: 74) . <note type="footnote" location="bottom"/>
             </note>
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P3064.xhtml"/>
 

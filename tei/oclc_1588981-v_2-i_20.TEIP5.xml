@@ -49,7 +49,7 @@
             </tei:biblStruct>
          </tei:sourceDesc>
       </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
          <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
@@ -60,7 +60,7 @@
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P411.xhtml"/>
       <tei:body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
-            <date calendar="#cal_islamic" change="#d2e141" xml:lang="ar">21 ربيع الأول 1317</date>هـ</head>
+            <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1317-03-21" datingMethod="#cal_islamic" when="1899-07-30">21 ربيع الأول 1317</date>هـ</head>
             <lb/>
          <date calendar="#cal_gregorian" change="#d2e141" xml:lang="ar">29 يوليو 1899</date>م
 <pb n="n2-p306" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P412.xhtml"/>
@@ -115,7 +115,7 @@
          </byline>
          <note type="footnote" location="bottom" change="#d2e141" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">إحصاء عن عدد سكان أوربا</head>
-               <lb/>وضعت إحدى الجرائد الفرنسوية إحصاء عن عدد سكان أوربا، فقالت: إنهم<lb/>يبلغون الآن 380 مليونًا، وكانوا في عام 1887 نحو 343 مليونًا، فيكون عدد سكان<lb/>أوروبا قد زاد منذ نحو اثنتي عشرة سنة 37 مليونًا، ويوجد من هذا العدد 106<lb/>ملايين، و200 ألف نفس في روسيا، و52 مليونًا و800 ألف في ألمانيا، و43<lb/>مليونًا ونصف مليون في النمسا، و39 مليونًا و800 ألف في إنكلترا و38 مليونًا<lb/>ونصف مليون في فرنسا، و31 مليونًا و300 ألف في إيطاليا، و18 مليونًا في<lb/>أسبانيا، و6 ملايين ونصف مليون في بلجيكا، و5 ملايين و800 ألف في تركيا<lb/>أوروبا، و5 ملايين و600 ألف في رومانيا، وخمسة ملايين في البرتغال، و5<lb/>ملايين في أسوج، و4 ملايين و900 في هولندا، و3 ملايين و300 ألف في<lb/>بلغاريا، و3 ملايين في سويسرا، ومليونان و400 في الدنمارك، ومثل هذا العدد في<lb/>سربيا، ومليونان في نروج.<lb/>
+               <lb/>وضعت إحدى الجرائد الفرنسوية إحصاء عن عدد سكان أوربا، فقالت: إنهم<lb/>يبلغون الآن <tei:date calendar="#cal_gregorian" when="0380" change="#d3e146">380</tei:date> مليونًا، وكانوا في عام 1887 نحو <tei:date calendar="#cal_gregorian" when="0343" change="#d3e146">343</tei:date> مليونًا، فيكون عدد سكان<lb/>أوروبا قد زاد منذ نحو اثنتي عشرة سنة 37 مليونًا، ويوجد من هذا العدد 106<lb/>ملايين، و200 ألف نفس في روسيا، و52 مليونًا و800 ألف في ألمانيا، و43<lb/>مليونًا ونصف مليون في النمسا، و39 مليونًا و800 ألف في إنكلترا و38 مليونًا<lb/>ونصف مليون في فرنسا، و31 مليونًا و300 ألف في إيطاليا، و18 مليونًا في<lb/>أسبانيا، و6 ملايين ونصف مليون في بلجيكا، و5 ملايين و800 ألف في تركيا<lb/>أوروبا، و5 ملايين و600 ألف في رومانيا، وخمسة ملايين في البرتغال، و5<lb/>ملايين في أسوج، و4 ملايين و900 في هولندا، و3 ملايين و300 ألف في<lb/>بلغاريا، و3 ملايين في سويسرا، ومليونان و400 في الدنمارك، ومثل هذا العدد في<lb/>سربيا، ومليونان في نروج.<lb/>
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 

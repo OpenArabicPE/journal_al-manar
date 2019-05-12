@@ -49,7 +49,7 @@
             </tei:biblStruct>
          </tei:sourceDesc>
       </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
          <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
@@ -59,7 +59,7 @@
    <tei:text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P2147.xhtml"/>
       <tei:body change="#d2e141" xml:lang="ar">
-            <head change="#d2e141" xml:lang="ar">جمادى الأولى - 1327هـ</head>
+            <head change="#d2e141" xml:lang="ar">جمادى الأولى - <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1327" change="#d3e146">1327</tei:date>هـ</head>
             <lb/><date calendar="#cal_gregorian" when="1909" change="#d2e141" xml:lang="ar">يونيو - 1909م</date>
 <pb n="n12-p337" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P2148.xhtml"/>
 
@@ -85,7 +85,7 @@
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
-               <gap resp="#org_MS"/> عثمان عارف الرفاعي<lb/>(ج) صرح الإمام مالك في بعض أجوبته بكراهة الشطرنج وأطلق، فحمل<lb/>أكثر أصحابه ذلك على كراهة التحريم، وقال الإمام الشافعي فيه: إنه لهو يشبه<lb/>الباطل أكرهه ولا يتبين لي تحريمه. فحمل أصحابه ذلك على كراهة التنزيه،<lb/>واشتهر بين الناس أن الشافعي أباح الشطرنج، والصواب ما قلنا، ولا نعرف نصًّا<lb/>عن الشارع في تحريم الشطرنج ولا غيره مما ذكر من اللعب إلا النرد (الطاولة) ،<lb/>ولنا في ذلك فتوى مفصلة في المجلد السادس (راجع ص 373 - 378 منه) .<lb/>****<lb/>معاوية بن أبي سفيان<lb/>(س 24) من سنغافورة<lb/>سأل سائل من سنغافورة عن معاوية، هل ثبت موته على الإيمان، وهل يجوز<lb/>لعنه. وقال: إن بعض السادة الحضارمة ألف كتابًا يثبت فيه جواز لعنه، وكيت<lb/>وكيت <gap resp="#org_MS"/> إلخ، فطعن الناس فيه.<lb/>نقول: قد سأل بعض هؤلاء الحضارمة عن مسألة اللعن من قبل، فأجبنا بما<lb/>نراه. وأما مسألة موته فهي مما يفوض إلى الله - تعالى - من جهه الباطن، ونحن<lb/>لنا الظاهر؛ وهو أنه مات مسلمًا ودفن بين المسلمين , وقد علمنا أن القوم<lb/>مختلفون ومتعادون في ذلك، فنوصيهم بترك الكلام فيه؛ لأنه يخشى شره، ولا<lb/>تُرجى منه فائدة، بخلاف تحقيق بَغْيه على علي - كرم الله وجهه - فتلك من أهم<lb/>مسائل تاريخنا. <note type="footnote" location="bottom"/>
+               <gap resp="#org_MS"/> عثمان عارف الرفاعي<lb/>(ج) صرح الإمام مالك في بعض أجوبته بكراهة الشطرنج وأطلق، فحمل<lb/>أكثر أصحابه ذلك على كراهة التحريم، وقال الإمام الشافعي فيه: إنه لهو يشبه<lb/>الباطل أكرهه ولا يتبين لي تحريمه. فحمل أصحابه ذلك على كراهة التنزيه،<lb/>واشتهر بين الناس أن الشافعي أباح الشطرنج، والصواب ما قلنا، ولا نعرف نصًّا<lb/>عن الشارع في تحريم الشطرنج ولا غيره مما ذكر من اللعب إلا النرد (الطاولة) ،<lb/>ولنا في ذلك فتوى مفصلة في المجلد السادس (راجع ص 373 - <tei:date calendar="#cal_gregorian" when="0378" change="#d3e146">378</tei:date> منه) .<lb/>****<lb/>معاوية بن أبي سفيان<lb/>(س 24) من سنغافورة<lb/>سأل سائل من سنغافورة عن معاوية، هل ثبت موته على الإيمان، وهل يجوز<lb/>لعنه. وقال: إن بعض السادة الحضارمة ألف كتابًا يثبت فيه جواز لعنه، وكيت<lb/>وكيت <gap resp="#org_MS"/> إلخ، فطعن الناس فيه.<lb/>نقول: قد سأل بعض هؤلاء الحضارمة عن مسألة اللعن من قبل، فأجبنا بما<lb/>نراه. وأما مسألة موته فهي مما يفوض إلى الله - تعالى - من جهه الباطن، ونحن<lb/>لنا الظاهر؛ وهو أنه مات مسلمًا ودفن بين المسلمين , وقد علمنا أن القوم<lb/>مختلفون ومتعادون في ذلك، فنوصيهم بترك الكلام فيه؛ لأنه يخشى شره، ولا<lb/>تُرجى منه فائدة، بخلاف تحقيق بَغْيه على علي - كرم الله وجهه - فتلك من أهم<lb/>مسائل تاريخنا. <note type="footnote" location="bottom"/>
             </note>
             <pb n="n12-p340" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P2149.xhtml"/>
 
