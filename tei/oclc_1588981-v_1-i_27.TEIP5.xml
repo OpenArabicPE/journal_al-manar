@@ -49,7 +49,7 @@
             </tei:biblStruct>
          </tei:sourceDesc>
       </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
+      <revisionDesc><tei:change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
          <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
                <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
@@ -74,7 +74,11 @@
          <pb n="n1-p504" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P145.xhtml"/>
 
 
-         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">محمد رشيد رضا</persName>
+         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:689 viaf:51716068">
+                            <forename>محمد</forename>
+                            <forename>رشيد</forename>
+                            <surname>رضا</surname>
+                        </persName>
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">التعصب [*]<lb/>(2)<lb/>تتمة ما سبق<lb/>
                <lb/>لم يكن الاستمساك بعروة الدين على عهد العباسيين كما كان على عهد الخلفاء<lb/>الراشدين، فيساووا بين رجل من آحاد يهود وبين أعظم مسلم علمًا ودينًا ومكانة<lb/>وقربًا من رسول الله صلى الله عليه وآله وسلم، كعلي كرّم الله تعالى وجهه،<lb/>ويحاسبون أنفسهم وينكر بعضهم على بعض إذا أخل بالعدل والمساواة ولو في اللقب<lb/>والكنية كما علمت، ولكنهم (أي العباسيين) لقربهم من عهد النبوة كانوا على<lb/>مقربة من ذلك: يحكمون بالشريعة ويتأدبون بآدابها بالجملة، والشاهد الذي أريد<lb/>إيراده من تاريخهم قريب من الشاهد الذي أوردته عن عمر وعلي (عليهما الرضوان)<lb/>في معاملة اليهودي وهو بعض خبر أبي إسحاق الصابئ. لا أعني بذلك<lb/>اعتراف الخلفاء بفضله، وتقليدهم إياه الأعمال الجلائل مع ديوان الرسائل، وإنما<lb/>أعني ما كان بينه وبين الطبقة العليا من المسلمين من الموادة والمحالفة، نذكر منها<lb/>بعض خبره مع الشريف الرضي، وهو مَن علمت مكانه من الشرف الباذخ والسؤدد<lb/>الرفيع، وكان في العلم لا يضاف إليه كفيح، ولا يقرن به نديد، وهو من أئمة<lb/>الشيعة، وكفاك أنه اجتمعت له الإجادة في المنظوم والمنثور معًا، وهي كما قال ابن<lb/>خلدون: لا تتفق إلا للأقل، ولقد كان يعامل أبا إسحاق معاملة الأكفاء والنظراء، مع<lb/>أنه كان يسامي الخلفاء ويطاولهم في مجالسهم، حتى إن الخليفة القادر بالله كان يتهمه<lb/>بالتطلع إلى الخلافه لأنه يرى نفسه أحق بها لمكانة نسبه وعلمه، هذا وأبو إسحاق من<lb/>الصابئة الذين هم أضعف وأحقر فرقة من فرق الأديان، لكنه كان فاضلاً بليغًا، فلم<lb/>يحُل خلاف دينه وضعف طائفته دون معاملته بما يستحق فضله من الإجلال وتقليد<lb/>الأعمال.<lb/>ولقد كان مثل الشريف يجله لفضله وأدبه، لا لوظيفته ومنصبه، ومن آية ذلك<lb/>مرثاته التي رثاه فيها بعد موته، فإن فيها من الثناء عليه ما يربي على ما كان يكتبه<lb/>له في حياته من المراسلات المنظومة والمنثورة، وإننا نأتي ببعض أبياتها وإن<lb/>كانت مشهورة زيادة في البيان.<lb/>مطلع القصيدة<lb/>أعلمتَ مَن حملوا على الأعواد؟ أرأيتَ كيف خبا ضياء النادي؟<lb/>ومنها:<lb/>بعدًا ليومك في الزمان فإنه <gap resp="#org_MS"/> أقذى العيون وفتَّ في الأعضاد<lb/>لا ينفد الدمع الذي يبكي به <gap resp="#org_MS"/> إن القلوب له من الأمداد<lb/>كيف انمحى ذاك الجناب وعطلت <gap resp="#org_MS"/> تلك الفجاج وضل ذاك الهادي<lb/>قد كنت أهوى أن أشاطرك الردى <gap resp="#org_MS"/> لكن أراد الله غير مرادي<lb/>سودت ما بين الفضاء وناظري <gap resp="#org_MS"/> وغسلت من عينيّ كل سواد<lb/>ثكلتك أرض لم تلد لك ثانيًا <gap resp="#org_MS"/> أنى ومثلك معوز الميلاد<lb/>ليس الفجائع بالذخائر مثلها <gap resp="#org_MS"/> يا ماجد الأعيان والأفراد<lb/>لا تطلبي يا نفس خلاًّ بعده <gap resp="#org_MS"/> فَلَمَثله أعيى على المرتاد<lb/>الفضل ناسب بيننا إن لم يكن <gap resp="#org_MS"/> شرفي يناسبه ولا ميلادي<lb/>إن لم تكن من أسرتي وقبيلتي <gap resp="#org_MS"/> فلأنت أعلَقُهُم يدًا بودادي<lb/>إن الوفاء كما اقترحت فلو تكن <gap resp="#org_MS"/> حيًّا إذًا ما كنت بالمزداد<lb/>ضاقت عليّ الأرض بعدك كلها <gap resp="#org_MS"/> وتركت أضيقها عليّ بلادي<lb/>لك في الحشا قبر وإن لم تَأوِه <gap resp="#org_MS"/> ومن الدموع روائح وغواد<lb/>إلى أن قال في آخرها:<lb/>صفح الثرى عن حر وجهك إنه <gap resp="#org_MS"/> مغرى بطي محاسن الأمجاد<lb/>وتماسكت تلك البنان فطالما <gap resp="#org_MS"/> عبث البلى بأنامل الأجواد<lb/>وسقاك فضلك إنه أروى حيا <gap resp="#org_MS"/> من رائح متعرس أو غاد<lb/>إن الشريف الذي قال: إن الفضل ناسب بينه وبين أبي إسحق، وأنه كان<lb/>أعلق نسبائه وأسرته بوداده هو الذي أنشد الخليفة القادر بالله هذه الأبيات<lb/>(من قصيدة) في مجلسه وهي:<lb/>مهلاً أمير المؤمنين فإننا <gap resp="#org_MS"/> في دوحة العلياء لا نتفرق<lb/>ما بيننا يوم الفخار تفاوت <gap resp="#org_MS"/> أبدًا كلانا في المفاخر معرق<lb/>إلا الخلافة ميزتك فإنني <gap resp="#org_MS"/> أنا عاطل منها وأنت مطوّق<lb/>وهو الذي رثى الخليفة العادل والإمام المجتهد عمر بن عبد العزيز الذي رفع<lb/>من شأن آل البيت الكرام بعد اضطهادهم من سلفه الأمويين، والذي مناقبه ومآثره لا<lb/>تحصى، فاقتصر من مدحه على مثل قوله:<lb/>يا ابن عبد العزيز لو بكت العين <gap resp="#org_MS"/> فتى من أمية لبكيتك<lb/>غير أني أقول إنك قد طبت <gap resp="#org_MS"/> وإن لم يطب ولم يزكُ بيتك<lb/>وعجيب أني قليت بني مروان <gap resp="#org_MS"/> طُرًّا وإنني ما قليتك<lb/>يقول: إنه لا يمكن البكاء على عمر بن عبد العزيز، وقال: إن الدمع الذي<lb/>يبكي به أبا إسحق لا ينفد؛ لأن له مداداً من القلب، ويعجب أنه لم يقْلُ عمر<lb/>ويبغضه، ولم يقل أنه يحبه، وقد عهد إلى نفسه أن لا تتخذ خلاًّ بعد أبي إسحق،<lb/>وقال: إنه أعلق أهله وأنسبائه بوداده، وهذا مما يؤيد قولنا السابق: إن الإفراط في<lb/>
@@ -83,7 +87,11 @@
             <pb n="n1-p516" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P146.xhtml"/>
 
 
-         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">محمد رشيد رضا</persName>
+         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:689 viaf:51716068">
+                            <forename>محمد</forename>
+                            <forename>رشيد</forename>
+                            <surname>رضا</surname>
+                        </persName>
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">مقتطفات من الجرائد</head>
@@ -118,7 +126,11 @@
             <pb n="n1-p519" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P147.xhtml"/>
 
 
-         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">محمد رشيد رضا</persName>
+         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:689 viaf:51716068">
+                            <forename>محمد</forename>
+                            <forename>رشيد</forename>
+                            <surname>رضا</surname>
+                        </persName>
          </byline>
          <note type="footnote" place="bottom" change="#d2e141" xml:lang="ar">تقريظ<lb/>
                <lb/>(كتاب الحكمة الشرعية في محاكمة القادرية والرفاعية)<lb/>سفر كبير ألفه منشئ هذه الجريدة في سنة 1308 عندما اشتد النزاع وعظم<lb/>النفور بين الرفاعية والقادرية، وطفق بعضهم يطعن بالبعض الآخر بالقول والكتابة،<lb/>وألفوا الكتب الكثيرة في ذلك، ونسبوا بعضها للمتقدمين، ليروجوا ادعاءهم<lb/>المنازعة بين القطبين الجليلين سيدي عبد القادر الجيلي وسيدي أحمد الرفاعي<lb/>(قدس سرهما) ويقبل كلامهم في المفاضلة بينهما <gap resp="#org_MS"/>
@@ -142,7 +154,11 @@
             <pb n="n1-p522" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P148.xhtml"/>
 
 
-         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">محمد رشيد رضا</persName>
+         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:689 viaf:51716068">
+                            <forename>محمد</forename>
+                            <forename>رشيد</forename>
+                            <surname>رضا</surname>
+                        </persName>
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">تصريح إنكلترا بامتلاك السودان</head>

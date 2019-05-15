@@ -49,7 +49,7 @@
             </tei:biblStruct>
          </tei:sourceDesc>
       </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
+      <revisionDesc><tei:change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
          <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
                <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
@@ -74,7 +74,11 @@
          <pb n="n1-p483" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P140.xhtml"/>
 
 
-         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">محمد رشيد رضا</persName>
+         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:689 viaf:51716068">
+                            <forename>محمد</forename>
+                            <forename>رشيد</forename>
+                            <surname>رضا</surname>
+                        </persName>
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">التعصب [*]<lb/>(1)<lb/>
                <lb/>قد علمت أن التعصب هو عبارة عن القيام بالعصبية، وأن مناط العصبية في<lb/>اصطلاح هذا العصر هو: الجنس أو الدين، وأن الإفرنج ومن احتذى مثالهم من<lb/>أبناء المشرق حذو القذة للقذة يغرقون في مدح التعصب للجنس على إطلاقه،<lb/>ويعدونه المشكِّل للدول، والمقوِّم للأمم، ويفتخرون بالتغالي به والاستبسال في سبيله<lb/>ويرون أن الشرف الأعلى والكمال الأرفع في بذل النفس والنفيس في تقوية<lb/>الجنسية ونصب الأشراك والأحابيل لإيقاع سائر الشعوب فيها.<lb/>ويخصون التعصب للدين بالإزراء والازدراء والثلب والسب والطعن والقدح،<lb/>ويعدونه منبع الشرور، ومولد الفتن، وعدو المدنية، ومنار الحروب، ومقطع<lb/>الصلات بين الأمم، ويتقذرون الاتصاف به، ويتنصلون من الانتساب إليه، بل<lb/>استعملوا لفظه للسباب والشتيمة، ويزعمون أن صاحبه خابط في ظلمات الجهالة،<lb/>والتعصب غشاوة على عينه، أو حجاب كثيف يحول بينه وبين نور المعرفة، بل هو<lb/>أكمه، لا قابلية فيه لإدراك نور المدنية الصحيحة!<lb/>فليت شعري، هل يرى هؤلاء الدين المطلق هو منبع الشرور ومصدر<lb/>الرذائل، والعقبة الكؤود في طريق المعارف! وأن اللغة من حيث هي لغة مجمع<lb/>أزِمّة الفضائل، ومنبعث أشعة العلوم والعرفان! كيف وجلهم أو كلهم ينتسب للدين<lb/>تشرفًا به، ولو رمي بلقب الكفر تقوم قيامته ويتبرأ من هذا اللقب الشائن الذي رماه<lb/>به الشانئ، بل إن عقلاء الكفار من هؤلاء المتمدنين يعترفون بفضل الدين، وإن<lb/>كانوا لا يدينون به، ويشهدون أنه المهذب للنفوس، الرادع لها عن الشرور، وأنه<lb/>يَزَعُ ما لا يزع السلطان؛ لأنه مهيمن على النفوس لا يفارقها في حنادس الليالي،<lb/>ولا يزايلها وراء الحجب والأستار، حيث تنام أعين القضاة، ولا تصل أيدي<lb/>الشرطة والأعوان.<lb/>لا ترجع الأنفس عن غيها <gap resp="#org_MS"/> ما لم يكن منها لها زاجر<lb/>فلم يبق من شبهة لمن يخص التعصب الديني بالمقت والذم، والجنسي<lb/>بالشرف والإطراء - إلا الغرض، وأنا أقص عليك غرض الأوروبيين منه، فاستمع<lb/>لما يتلى.<lb/>أنت تعلم أن المنفعة مدار كل عمل عند هؤلاء القوم. فأما انتفاعهم من<lb/>
@@ -84,7 +88,11 @@
             <pb n="n1-p493" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P141.xhtml"/>
 
 
-         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">محمد رشيد رضا</persName>
+         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:689 viaf:51716068">
+                            <forename>محمد</forename>
+                            <forename>رشيد</forename>
+                            <surname>رضا</surname>
+                        </persName>
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">اقتراح القيصر</head>
@@ -93,7 +101,11 @@
             <pb n="n1-p497" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P142.xhtml"/>
 
 
-         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">محمد رشيد رضا</persName>
+         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:689 viaf:51716068">
+                            <forename>محمد</forename>
+                            <forename>رشيد</forename>
+                            <surname>رضا</surname>
+                        </persName>
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">ثورة السودان</head>
@@ -117,7 +129,11 @@
             <pb n="n1-p501" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P143.xhtml"/>
 
 
-         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">محمد رشيد رضا</persName>
+         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:689 viaf:51716068">
+                            <forename>محمد</forename>
+                            <forename>رشيد</forename>
+                            <surname>رضا</surname>
+                        </persName>
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">متفرقات</head>

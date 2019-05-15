@@ -49,7 +49,7 @@
             </tei:biblStruct>
          </tei:sourceDesc>
       </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
+      <revisionDesc><tei:change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
          <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
                <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
@@ -74,7 +74,11 @@
          <pb n="n1-p788" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P223.xhtml"/>
 
 
-         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">محمد رشيد رضا</persName>
+         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:689 viaf:51716068">
+                            <forename>محمد</forename>
+                            <forename>رشيد</forename>
+                            <surname>رضا</surname>
+                        </persName>
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">الإصلاح الديني المقترح على مقام الخلافة الإسلامية</head> [*]<lb/>
@@ -83,7 +87,7 @@
             <pb n="n1-p794" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P224.xhtml"/>
 
 
-         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">ن. الفويكي</persName>
+         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:4030">ن. الفويكي</persName>
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">الغرب الأقصى</head>
@@ -111,7 +115,11 @@
             <pb n="n1-p802" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P225.xhtml"/>
 
 
-         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">محمد رشيد رضا</persName>
+         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:689 viaf:51716068">
+                            <forename>محمد</forename>
+                            <forename>رشيد</forename>
+                            <surname>رضا</surname>
+                        </persName>
          </byline>
          <note type="footnote" place="bottom" change="#d2e141" xml:lang="ar">قضايا مسلَّمة<lb/>في طعن عوام الشرقيين في الأوروبيين<lb/>
                <lb/>من القضايا المسلمة عند جماهير الشرقيين أن الأوروبيين ما بلغوا شأو<lb/>الشرقيين في الطب ولا قاربوا، وأن الذين يسيرون على آثارهم في مداواة الصحة<lb/>وفي التطبب تضعف بنيتهم وتضوى أجسادهم وتفشو فيهم الأمراض والأدواء. وأن<lb/>عقولهم ضعيفة لا تدرك العلوم العويصة ولا تصل إلى المسائل الدقيقة، وما امتازوا<lb/>على الشرقيين بشيء من العلم إلا بالصناعات العملية، ويعبرون عن هذا الاعتقاد<lb/>بقولهم: (الإفرنج عقولهم في أيديهم، وبعضهم يقول: في أعينهم) وأن الفضائل<lb/>بعيدة عنهم بمراحل، فهم أصحاب خفة وطيش، سريعو الحركة يعدون في المشي<lb/>عدوًا، قليلو الأدب، يجلسون مادين أرجلهم مهما كان جلساؤهم عظامًا، بخلاء أشحاء<lb/>لا يرحمون فقيرًا، ولا يحضون على طعام المسكين، يستأذن أحدهم زائره في القيام<lb/>إلى المائدة ولا يدعوه إلى مشاركته في تناول الطعام الذي حضر، سواء كان الزائر<lb/>صديقًا أو حبيبًا أم قريبًا أم غريبًا، شهواتهم غالبة على أمرهم، وأرواحهم في<lb/>وحشة من جسومهم، ولا يكتفون بالاستدلال على ذلك بكثرة شربهم للخمور،<lb/>وتهتكهم في الفجور، بل يعدون من أدلته شدة تكريمهم وتعظيمهم للنساء، بحيث<lb/>يشرك الرجل قرينته معه في جميع الشؤون، ويشاورها في كل أمر، ويرافقها إلى<lb/>الملاعب والمنتزهات العامة والخاصة، ويسافر بها إلى البلاد القاصية لمحض التنزه<lb/>بل ارتقوا في تعظيم أمرهن إلى تصديرهن في المجالس وتقبيل الملوك أيديهن، بل<lb/>إلى تقليدهن الأعمال والوظائف في الحكومة.<lb/>ما كل مسلَّم بصحيح، فالأوروبيون أربوا على الشرقيين في الطب، وأما<lb/>ضعف أبدان الذين يسيرون على آثارهم في مداواة الصحة، فليس السبب فيه الطب<lb/>ومداواة الصحة على طريقتهم، وإنما سببه الترف والانغماس في الشهوات والإفراط<lb/>في اللذات التي يتولد منها ما ذكر من الأمراض. ومن لاحظ الإحصاءات الصحية<lb/>في بلادهم ينجلي له كيف قلَّت بتقدم الطب الوفيات، وخف فتك الأمراض والأدواء.<lb/>وأما قولهم: إن عقولهم ضعيفة إلخ. فهذا يقوله من لا يعرف ما عندهم من<lb/>العلوم، ومن يعتقد أن العلوم الصحيحة هي التخيلات والسفسطات الفكرية التي لا<lb/>ترشد إلى عمل ولا تنطبق على حقيقة واقعة، وأما كلامهم في أخلاقهم وآدابهم فمنها<lb/>الصحيح والفاسد، وأكثر رذائل القوم مبنية على فساد الاعتقاد، فهم لا يأتون ما<lb/>ننتقده عليهم إلا وهم يرون حسنه في الغالب.<lb/>وأما إفراطهم في تعظيم النساء، فيقابله تفريطنا في ذلك، وليس ذلك التعظيم<lb/>لمجرد الشهوة، بل فيه مصلحة عظيمة للأمة، ولكنهم أفرطوا كما قلنا، وإن لنا<lb/>كلامًا آخر في هذه المسائل نرجئه للفرص. <note type="footnote" place="bottom"/>
@@ -119,7 +127,11 @@
             <pb n="n1-p803" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P226.xhtml"/>
 
 
-         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">محمد رشيد رضا</persName>
+         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:689 viaf:51716068">
+                            <forename>محمد</forename>
+                            <forename>رشيد</forename>
+                            <surname>رضا</surname>
+                        </persName>
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">خطبة ناظر خارجية ألمانيا</head>
