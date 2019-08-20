@@ -49,7 +49,7 @@
             </tei:biblStruct>
          </tei:sourceDesc>
       </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
+      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
          <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
                <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
@@ -166,7 +166,7 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">تاريخ ميلاد ولدنا محمد شفيع</head>
                <lb/>
-               <lb/>(لصديقي الوفي شيخ الخطباء والمحامين (وكلاء الدعاوي) إسماعيل بك<lb/>عاصم) .<lb/>تاريخ ميلاد محمد شفيع نجل حضرة صديقي العزيز الأستاذ العلامة السيد محمد<lb/>رشيد رضا صاحب مجلة <tei:title level="j" change="#d2e191">المنار</tei:title> الزهراء:<lb/>سر يا بشير التهاني للرشيد وقل <gap resp="#org_MS"/> (بشرى فقد أنجز الإقبال ما وعدا)<lb/>قد لاح نور ابنه نعم الشفيع به <gap resp="#org_MS"/> (وكوكب السعد في أفق العلا صعدا)<lb/>فرع نما عن أصول طاب عنصرها <gap resp="#org_MS"/> أنعم بمولده أكرم بمن ولدا<lb/>وكان في رمضان يمن طالعه <gap resp="#org_MS"/> كليلة القدر فيها للنفوس هدى<lb/>محمد دام يسمو للفضائل عن <gap resp="#org_MS"/> أب يقر به عينًا وقد حمدا<lb/>عساه يأتي بنفع مثل والده <gap resp="#org_MS"/> وإنه يتحرى مثله رشدا<lb/>وعاصم عن رضاء عنه أرَّخه <gap resp="#org_MS"/> رشيد بُشراك في نجل سناه بدا<lb/>سنة 1333 <gap resp="#org_MS"/> 
+               <lb/>(لصديقي الوفي شيخ الخطباء والمحامين (وكلاء الدعاوي) إسماعيل بك<lb/>عاصم) .<lb/>تاريخ ميلاد محمد شفيع نجل حضرة صديقي العزيز الأستاذ العلامة السيد محمد<lb/>رشيد رضا صاحب مجلة <tei:title level="j" change="#d2e191 #d5e196" ref="oape:bibl:2 oclc:1588981">المنار</tei:title> الزهراء:<lb/>سر يا بشير التهاني للرشيد وقل <gap resp="#org_MS"/> (بشرى فقد أنجز الإقبال ما وعدا)<lb/>قد لاح نور ابنه نعم الشفيع به <gap resp="#org_MS"/> (وكوكب السعد في أفق العلا صعدا)<lb/>فرع نما عن أصول طاب عنصرها <gap resp="#org_MS"/> أنعم بمولده أكرم بمن ولدا<lb/>وكان في رمضان يمن طالعه <gap resp="#org_MS"/> كليلة القدر فيها للنفوس هدى<lb/>محمد دام يسمو للفضائل عن <gap resp="#org_MS"/> أب يقر به عينًا وقد حمدا<lb/>عساه يأتي بنفع مثل والده <gap resp="#org_MS"/> وإنه يتحرى مثله رشدا<lb/>وعاصم عن رضاء عنه أرَّخه <gap resp="#org_MS"/> رشيد بُشراك في نجل سناه بدا<lb/>سنة 1333 <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
