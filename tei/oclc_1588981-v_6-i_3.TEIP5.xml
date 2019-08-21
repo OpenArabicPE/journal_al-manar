@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,32 +42,32 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="6" to="6" change="#d2e128 #d2e141" xml:lang="ar">6</tei:biblScope>
-                  <tei:biblScope unit="issue" from="3" to="3" change="#d2e128 #d2e141" xml:lang="ar">3</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="6" to="6" change="#d2e128 #d2e141" xml:lang="ar">6</biblScope>
+                  <biblScope unit="issue" from="3" to="3" change="#d2e128 #d2e141" xml:lang="ar">3</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P1208.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
-            <head change="#d2e141" xml:lang="ar">غرة صفر - <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1321" change="#d3e146">1321</tei:date>هـ</head>
+      <body change="#d2e141" xml:lang="ar">
+            <head change="#d2e141" xml:lang="ar">غرة صفر - <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1321" change="#d3e146">1321</date>هـ</head>
             <lb/>
          <date calendar="#cal_gregorian" when="1903" change="#d2e141" xml:lang="ar">مايو - 1903م</date>
          <pb n="n6-p87" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P1209.xhtml"/>
@@ -118,7 +118,7 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">دعوى صلب المسيح</head>
                <lb/>(2)<lb/>
-               <lb/>تكلمنا في الجزء الماضي عن تمويه محرر مجلة <tei:title level="j" change="#d2e191">البروتستانت</tei:title> على بعض<lb/>عوام المسلمين في هذه المسألة وأقوى ما يخادعون به أنه لا يعقل أن رجلاً مشهورًا<lb/>كالمسيح يشتبه على اليهود وشرطة الرومان فلا يميزونه من غيره. وفاتنا أن نذكر<lb/>أن في الأناجيل عبارات كثيرة تدل على أن الاشتباه حصل بالفعل. وقد كتب إلينا<lb/>من السويس كاتب في ذلك فرأينا أن ننقل عبارته بنصها وهي:<lb/>(قد اطَّلعت على ما جاء في المنار ردًّا على بشائر السلام في مسألة صلب<lb/>المسيح) .<lb/>ولما كنت قد كتبت على المجلة المرسلة إليَّ من نقولا كتابة في هذا الشأن<lb/>ورددتها إليه رأيت أن أطلع حضرتكم على مضمون ما كتبت فلعلك تجد فيه ما<lb/>يناسب المنار، وإن كان ما كتبته موجزًا فعلى المنار الإيضاح والمراجعة والتفصيل.<lb/>قلت عند قوله: (قال المفسرون إن الله ألقى شبهه.. إلخ) إن المفسرين<lb/>قسمان قسم يفسر من طريق الإيمان على سنة المسيحية وهم الذين نقلت قولهم، وقسم<lb/>يفسر من طريق العلم والعقل على سنة الإسلام وقد فسروا هذه الآية بما لا يبعد عما<lb/>ورد في أناجيلكم التي تقرؤونها ولا تفهمونها، ورد في الإنجيل أن المسيح قال<lb/>لتلامذته: إنكم ستنكرونني قبل أن يصيح الديك.. إلخ (أنكرت الشيء لم أعرفه)<lb/>وورد أيضًا فيه أن المسيح خرج من البستان فوجد أعداءه فقال لهم: مَن تطلبون؟<lb/>فقالوا: المسيح. فقال: هو أنا ذا فقالوا: إنما أنت بستاني ولست بالمسيح وهكذا<lb/>كانوا كلما وجدوه أنكروه وخانتهم أبصارهم في رؤيته وعمي عليهم واشتبه منظره<lb/>(وخيانة النظر ثابتة قطعًا) فلما أعيتهم الحيل استأجروا يهوذا الإسخريوطي بثلاثين<lb/>درهمًا ليدلهم عليه لتمكُّّّنه منه فلا يشتبه عليهم، وهذا في الإنجيل أيضًا فهذه الحيرة<lb/>المفضية إلى استئجار دليل يدل عليه مع ملاحظة أنه رُبِّيَ في وسطهم وكانوا<lb/>يعجبون بفصاحته وحكمته كما هو وارد في الإنجيل أيضًا تدل بأجلى بيان وأوضحه<lb/>على أنهم كانوا في شك منه، وكان يشبه لهم بغيره فكلما اجتمعوا عليه اشتبه عليهم<lb/>وعمي في نظرهم وخانتهم أبصارهم وظنوه غيره وما حصل لهم حصل لدليلهم<lb/>(يهوذا) وقد ورد في الإنجيل أنهم حينما ساقوه للصلب كانوا يستحلفونه: هل أنت<lb/>المسيح؟ فكان يقول: هذا ذا فمنه يعلم أنهم كانوا لم يزالوا في شكهم حتى بعد<lb/>الاستئجار ووجود المرشد والدليل، فلما أعياهم الأمر عمدوا إلى مَن غلب على ظنهم<lb/>أنه هو المسيح والمسيح في السحابة البيضاء مع موسى كما في الإنجيل أيضًا ثم<lb/>صلبوا ذلك الرجل الذي كانوا يستحلفونه، وغلب على ظنهم أنه هو المسيح فهل كل<lb/>هذا كان لظهور المسيح واضحًا لهم أو لأنهم كلما طلبوه شُبه لهم وألقى شبه غيره<lb/>عليه وعمي عليهم وخانتهم أبصارهم فعمدوا إلى يهوذا واستأجروه ليدلهم عليه، فما<lb/>كان بأمثل منهم في ذلك وأدتهم خاتمة المطاف إلى أخذ من غلب على ظنهم أنه هو<lb/>وصلبوه، وما هو منه بشيء بل المسيح ساخر منهم ضاحك عليهم يقول: أنا المسيح!<lb/>فيقولون: لست هو، حتى قتلوا غيره وصلبوه وهو محجوب عن أنظارهم<lb/>مشتبه عليهم قد شُبه لهم بالبستاني مرة وبغيره أخرى وبذلك نجَّاه الله من كيدهم فما<lb/>نالوه بسوء {وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَكِن شُبِّهَ لَهُمْ وَإِنَّ الَّذِينَ اخْتَلَفُوا فِيهِ لَفِي شَكٍّ<lb/>مِّنْهُ مَا لَهُم بِهِ مِنْ عِلْمٍ إِلاَّ اتِّبَاعَ الظَّن} (النساء: 157) المبني على إرشاد يهوذا<lb/>المشكوك فيه كما علمت من نص الإنجيل {وَمَا قَتَلُوهُ يَقِينًا} (النساء: 157) .<lb/>هل فهمت يا حضرة المبشر الآية وكيف كانت عبارات الإنجيل حجة للإسلام<lb/>لا عليه؟ . فاقرؤوا الأناجيل وافهموها؛ فقد وسع الله لكم على يد البروتستانت ولا<lb/>تكونوا كالذي يحمل أسفارًا اهـ.<lb/>أركان الدين الصحيح<lb/>ضاق هذا الجزء عن رد شبهات النصارى على القرآن وغير ذلك مما كنا<lb/>وعدنا به لطول مقالة (النبأ العظيم) أكثر مما كنا نتوقع، وقد صدر الجزء الخامس<lb/>من المجلة البروتستنتية قبل صدور هذا المنار قرأنا فيها نبذة في أركان الدين<lb/>الصحيح يقول فيه الكاتب الذي ينتمي إلى المسيح ما نصه:<lb/>وإن المذهب الذي يجب على كل فرد أن يختاره لنفسه هو أكثر المذاهب<lb/>مشابهة لروح الآلهة وأقربها لصفاتهم.. إلى آخر ما قاله وكرر فيه لفظ (الآلهة)<lb/>ثم فسر هذا المذهب بقوله: (ذلك المذهب الذي ينادي: أن يا قوم أحسنوا إلى مَن<lb/>أساء إليكم فتلك صفات الله، ذلك المذهب إنما هو مذهب إلهي بلا مراء) ، ثم ذكر<lb/>أن المذهب إذا قال لتابعيه جاهدوا في سبيل الله ودافعوا عن أنفسكم في سبيل الله<lb/>يكون بريئًا من الله والله بريئًا منه؛ لأن العزة الإلهية لا تأمر بالقتال مهما كان<lb/>الغرض شريفًا. وأجاب عن أمر التوراة بني إسرائيل بإبادة بعض الأمم<lb/>المجاورين لهم (بأنه) كان أمرًا وقتيًّا لازمًا للتوصل إلى المسيحية ديانة السلام<lb/>والمحبة) ! .<lb/>ثم ذكر اعتراض الناس على هذا المذهب بكون محبة الأعداء وترك المدافعة<lb/>عن النفس مستحيل، واعترف بأن هذا صحيح بالنسبة إلى معارف البشر الآن وقال:<lb/>إن معارفهم سترتقي في المستقبل إلى فهمه.<lb/>فملخص هذا الدين الإلهي:<lb/>(1) أنه يوجد آلهة متعددة وأن أخلاقهم متفقة على محبة أعدائهم ولا شك<lb/>أن أعداءهم هم الذين لا يؤمنون بهم، ولا معنى لمحبتهم إلا عدم مؤاخذتهم على الكفر<lb/>فالنتيجة أن هذا الدين دين إباحة ومبطل لنفسه ولغيره.<lb/>(2) أنه يأمر بمحبة الأعداء وترك المدافعة وذلك مستحيل بحسب ما<lb/>وصلت إليه معارف البشر إلى القرن العشرين من ظهوره؛ ونتيجة هذا أنه لم يتبعه<lb/>أحد حتى الآن.<lb/>و (3) أن هذا المذهب يخالف قول المسيح: (وهذه هي الحياة الحقيقية أن<lb/>يعرفوك أنت الإله الحقيقي وحدك. ويسوع المسيح الذي أرسلته) (يوحنا 17)<lb/>وقوله: (لا تظنوا أني جئت لألقي سلامًا على الأرض، ما جئت لألقي سلامًا؛ بل<lb/>سيفًا؛ فإني جئت لأفرق الإنسان ضد أبيه والابنة ضد أمها، والكنة ضد حماتها<lb/>وأعداء الإنسان أهل بيته) (متّى 10-34و35) وقوله: (جئت لألقي نارًا على<lb/>الأرض) (لوقا 13-94) وقوله: (إن كان أحد يأتي إليَّ ولا يبغض أباه وأمه<lb/>وامرأته وأولاده وإخوته وأخواته حتى نفسه أيضًا فلا يقدر أن يكون لي تلميذًا)<lb/>(لوقا 14-26) وقوله: (أما أعدائي أولئك الذين لم يريدوا أن أملك عليهم فأتوا<lb/>بهم إلى هنا واذبحوهم قدامي) (لوقا 19-27) وأمثال ذلك.<lb/>فأي الدينين دين المسيح عليه السلام؟ ! <note type="footnote" place="bottom"/>
+               <lb/>تكلمنا في الجزء الماضي عن تمويه محرر مجلة <title level="j" change="#d2e191">البروتستانت</title> على بعض<lb/>عوام المسلمين في هذه المسألة وأقوى ما يخادعون به أنه لا يعقل أن رجلاً مشهورًا<lb/>كالمسيح يشتبه على اليهود وشرطة الرومان فلا يميزونه من غيره. وفاتنا أن نذكر<lb/>أن في الأناجيل عبارات كثيرة تدل على أن الاشتباه حصل بالفعل. وقد كتب إلينا<lb/>من السويس كاتب في ذلك فرأينا أن ننقل عبارته بنصها وهي:<lb/>(قد اطَّلعت على ما جاء في المنار ردًّا على بشائر السلام في مسألة صلب<lb/>المسيح) .<lb/>ولما كنت قد كتبت على المجلة المرسلة إليَّ من نقولا كتابة في هذا الشأن<lb/>ورددتها إليه رأيت أن أطلع حضرتكم على مضمون ما كتبت فلعلك تجد فيه ما<lb/>يناسب المنار، وإن كان ما كتبته موجزًا فعلى المنار الإيضاح والمراجعة والتفصيل.<lb/>قلت عند قوله: (قال المفسرون إن الله ألقى شبهه.. إلخ) إن المفسرين<lb/>قسمان قسم يفسر من طريق الإيمان على سنة المسيحية وهم الذين نقلت قولهم، وقسم<lb/>يفسر من طريق العلم والعقل على سنة الإسلام وقد فسروا هذه الآية بما لا يبعد عما<lb/>ورد في أناجيلكم التي تقرؤونها ولا تفهمونها، ورد في الإنجيل أن المسيح قال<lb/>لتلامذته: إنكم ستنكرونني قبل أن يصيح الديك.. إلخ (أنكرت الشيء لم أعرفه)<lb/>وورد أيضًا فيه أن المسيح خرج من البستان فوجد أعداءه فقال لهم: مَن تطلبون؟<lb/>فقالوا: المسيح. فقال: هو أنا ذا فقالوا: إنما أنت بستاني ولست بالمسيح وهكذا<lb/>كانوا كلما وجدوه أنكروه وخانتهم أبصارهم في رؤيته وعمي عليهم واشتبه منظره<lb/>(وخيانة النظر ثابتة قطعًا) فلما أعيتهم الحيل استأجروا يهوذا الإسخريوطي بثلاثين<lb/>درهمًا ليدلهم عليه لتمكُّّّنه منه فلا يشتبه عليهم، وهذا في الإنجيل أيضًا فهذه الحيرة<lb/>المفضية إلى استئجار دليل يدل عليه مع ملاحظة أنه رُبِّيَ في وسطهم وكانوا<lb/>يعجبون بفصاحته وحكمته كما هو وارد في الإنجيل أيضًا تدل بأجلى بيان وأوضحه<lb/>على أنهم كانوا في شك منه، وكان يشبه لهم بغيره فكلما اجتمعوا عليه اشتبه عليهم<lb/>وعمي في نظرهم وخانتهم أبصارهم وظنوه غيره وما حصل لهم حصل لدليلهم<lb/>(يهوذا) وقد ورد في الإنجيل أنهم حينما ساقوه للصلب كانوا يستحلفونه: هل أنت<lb/>المسيح؟ فكان يقول: هذا ذا فمنه يعلم أنهم كانوا لم يزالوا في شكهم حتى بعد<lb/>الاستئجار ووجود المرشد والدليل، فلما أعياهم الأمر عمدوا إلى مَن غلب على ظنهم<lb/>أنه هو المسيح والمسيح في السحابة البيضاء مع موسى كما في الإنجيل أيضًا ثم<lb/>صلبوا ذلك الرجل الذي كانوا يستحلفونه، وغلب على ظنهم أنه هو المسيح فهل كل<lb/>هذا كان لظهور المسيح واضحًا لهم أو لأنهم كلما طلبوه شُبه لهم وألقى شبه غيره<lb/>عليه وعمي عليهم وخانتهم أبصارهم فعمدوا إلى يهوذا واستأجروه ليدلهم عليه، فما<lb/>كان بأمثل منهم في ذلك وأدتهم خاتمة المطاف إلى أخذ من غلب على ظنهم أنه هو<lb/>وصلبوه، وما هو منه بشيء بل المسيح ساخر منهم ضاحك عليهم يقول: أنا المسيح!<lb/>فيقولون: لست هو، حتى قتلوا غيره وصلبوه وهو محجوب عن أنظارهم<lb/>مشتبه عليهم قد شُبه لهم بالبستاني مرة وبغيره أخرى وبذلك نجَّاه الله من كيدهم فما<lb/>نالوه بسوء {وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَكِن شُبِّهَ لَهُمْ وَإِنَّ الَّذِينَ اخْتَلَفُوا فِيهِ لَفِي شَكٍّ<lb/>مِّنْهُ مَا لَهُم بِهِ مِنْ عِلْمٍ إِلاَّ اتِّبَاعَ الظَّن} (النساء: 157) المبني على إرشاد يهوذا<lb/>المشكوك فيه كما علمت من نص الإنجيل {وَمَا قَتَلُوهُ يَقِينًا} (النساء: 157) .<lb/>هل فهمت يا حضرة المبشر الآية وكيف كانت عبارات الإنجيل حجة للإسلام<lb/>لا عليه؟ . فاقرؤوا الأناجيل وافهموها؛ فقد وسع الله لكم على يد البروتستانت ولا<lb/>تكونوا كالذي يحمل أسفارًا اهـ.<lb/>أركان الدين الصحيح<lb/>ضاق هذا الجزء عن رد شبهات النصارى على القرآن وغير ذلك مما كنا<lb/>وعدنا به لطول مقالة (النبأ العظيم) أكثر مما كنا نتوقع، وقد صدر الجزء الخامس<lb/>من المجلة البروتستنتية قبل صدور هذا المنار قرأنا فيها نبذة في أركان الدين<lb/>الصحيح يقول فيه الكاتب الذي ينتمي إلى المسيح ما نصه:<lb/>وإن المذهب الذي يجب على كل فرد أن يختاره لنفسه هو أكثر المذاهب<lb/>مشابهة لروح الآلهة وأقربها لصفاتهم.. إلى آخر ما قاله وكرر فيه لفظ (الآلهة)<lb/>ثم فسر هذا المذهب بقوله: (ذلك المذهب الذي ينادي: أن يا قوم أحسنوا إلى مَن<lb/>أساء إليكم فتلك صفات الله، ذلك المذهب إنما هو مذهب إلهي بلا مراء) ، ثم ذكر<lb/>أن المذهب إذا قال لتابعيه جاهدوا في سبيل الله ودافعوا عن أنفسكم في سبيل الله<lb/>يكون بريئًا من الله والله بريئًا منه؛ لأن العزة الإلهية لا تأمر بالقتال مهما كان<lb/>الغرض شريفًا. وأجاب عن أمر التوراة بني إسرائيل بإبادة بعض الأمم<lb/>المجاورين لهم (بأنه) كان أمرًا وقتيًّا لازمًا للتوصل إلى المسيحية ديانة السلام<lb/>والمحبة) ! .<lb/>ثم ذكر اعتراض الناس على هذا المذهب بكون محبة الأعداء وترك المدافعة<lb/>عن النفس مستحيل، واعترف بأن هذا صحيح بالنسبة إلى معارف البشر الآن وقال:<lb/>إن معارفهم سترتقي في المستقبل إلى فهمه.<lb/>فملخص هذا الدين الإلهي:<lb/>(1) أنه يوجد آلهة متعددة وأن أخلاقهم متفقة على محبة أعدائهم ولا شك<lb/>أن أعداءهم هم الذين لا يؤمنون بهم، ولا معنى لمحبتهم إلا عدم مؤاخذتهم على الكفر<lb/>فالنتيجة أن هذا الدين دين إباحة ومبطل لنفسه ولغيره.<lb/>(2) أنه يأمر بمحبة الأعداء وترك المدافعة وذلك مستحيل بحسب ما<lb/>وصلت إليه معارف البشر إلى القرن العشرين من ظهوره؛ ونتيجة هذا أنه لم يتبعه<lb/>أحد حتى الآن.<lb/>و (3) أن هذا المذهب يخالف قول المسيح: (وهذه هي الحياة الحقيقية أن<lb/>يعرفوك أنت الإله الحقيقي وحدك. ويسوع المسيح الذي أرسلته) (يوحنا 17)<lb/>وقوله: (لا تظنوا أني جئت لألقي سلامًا على الأرض، ما جئت لألقي سلامًا؛ بل<lb/>سيفًا؛ فإني جئت لأفرق الإنسان ضد أبيه والابنة ضد أمها، والكنة ضد حماتها<lb/>وأعداء الإنسان أهل بيته) (متّى 10-34و35) وقوله: (جئت لألقي نارًا على<lb/>الأرض) (لوقا 13-94) وقوله: (إن كان أحد يأتي إليَّ ولا يبغض أباه وأمه<lb/>وامرأته وأولاده وإخوته وأخواته حتى نفسه أيضًا فلا يقدر أن يكون لي تلميذًا)<lb/>(لوقا 14-26) وقوله: (أما أعدائي أولئك الذين لم يريدوا أن أملك عليهم فأتوا<lb/>بهم إلى هنا واذبحوهم قدامي) (لوقا 19-27) وأمثال ذلك.<lb/>فأي الدينين دين المسيح عليه السلام؟ ! <note type="footnote" place="bottom"/>
             </div>
             <pb n="n6-p119" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P1212.xhtml"/>
 
@@ -143,6 +143,6 @@
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P1213.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>

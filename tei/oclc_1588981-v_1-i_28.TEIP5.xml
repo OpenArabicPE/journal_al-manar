@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,31 +42,31 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="1" to="1" change="#d2e128 #d2e141" xml:lang="ar">1</tei:biblScope>
-                  <tei:biblScope unit="issue" from="28" to="28" change="#d2e128 #d2e141" xml:lang="ar">28</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="1" to="1" change="#d2e128 #d2e141" xml:lang="ar">1</biblScope>
+                  <biblScope unit="issue" from="28" to="28" change="#d2e128 #d2e141" xml:lang="ar">28</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P149.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
+      <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1316-05-10" datingMethod="#cal_islamic" when="1898-09-26">10 جمادى الأولى 1316</date>هـ</head>
             <lb/>
@@ -118,8 +118,8 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">مقتطفات من الجرائد</head>
                <lb/>
-               <lb/>(مثال للفرق بين أمة تحيا وأخرى تموت)<lb/>كتبنا منذ أيام بضعة سطور في محليات المؤيد اشتملت على مثال يوضح الفرق<lb/>بين حالتي التعلم عند مسلمي ومسيحيي مصر، قياسًا على إحصاء مدارس وتلامذة<lb/>الفريقين في مدينة أسيوط أكبر مدن الصعيد.<lb/>والآن نريد أن نقدم مثالاً من هذا القبيل أكبر من ذلك، يوضح الفرق بين حالة<lb/>الأمة المصرية بحذافيرها، وحالة أمة أخرى في ولاية ممتازة بين ولايات الدولة<lb/>العلية، قد منحت منذ عشرين سنة الاستقلال الإداري الذي منحته مصر منذ ستين<lb/>سنة وأكثر، ليرى القراء كيف تحيا أمة بإزاء أمة تموت.<lb/>ونعني بتلك الولاية الشبيهة بولاية مصر في الامتيازات وإن كانت أحدث منها<lb/>عهدًا في الاستقلال الإداري: ولاية بلغاريا التي تجدُّ السير في طريق الحضارة<lb/>والترقي بواسطة تحصيل العلوم، وهي الواسطة الوحيدة التي بها حياة الأمم<lb/>وسعادتها.<lb/>ففي صوفيا (عاصمة بلغاريا) كلية جامعة مؤلفة من ثلاث مدارس عليا،<lb/>إحداهن تاريخية فلسفية، والثانية طبيعية رياضية، والثالثة حقوقية.<lb/>وفي الولاية <tei:date calendar="#cal_gregorian" when="0150" change="#d3e146">150</tei:date> مدرسة للتعليم الثانوي (التجهيزى) منها 85 للطلاب الذكور<lb/>و44 للبنات و14 للفريقين معًا، وست مدارس للمعلمين وواحدة حربية.<lb/>وأما المدارس الابتدائية في الولاية فعددها <tei:date calendar="#cal_gregorian" when="4481" change="#d3e146">4481</tei:date> مدرسة، تنقسم كما يأتي:<lb/>
-            <tei:date calendar="#cal_gregorian" when="3079" change="#d3e146">3079</tei:date> مدرسة بلغارية أرثوذوكسية، و19 بلغارية كاثوليكية، و 8 بلغارية<lb/>بروتستانية، و 25 بلغارية إسلامية، و1243 تركية، و16 تاتارية، و29<lb/>يونانية، و13 أرمنية، و27 إسرائيلية، و4 كاثوليكية، و3 فرنساوية، و2<lb/>رومانية، وواحدة ألمانية، وواحدة روسية.<lb/>وتدفع الحكومة ثلثي نفقات <tei:date calendar="#cal_gregorian" when="3079" change="#d3e146">3079</tei:date> مدرسة من هذه المدارس وهي المدارس<lb/>البلغارية الأرثوذوكسية.<lb/>أما الثلث الباقي من نفقات تلك المدارس الوطنية الملية فتقوم به مجالس<lb/>البلديات في الولاية، وأما بقية المدارس التي للمسلمين وغيرهم من المذاهب<lb/>الأخرى وعددها <tei:date calendar="#cal_gregorian" when="1402" change="#d3e146">1402</tei:date> مدرسة، فعلى نفقة أصحابها ومؤسسيها.<lb/>وميزانية المعارف العمومية في الحكومة البلغارية مقدرة بمبلغ 9188560<lb/>فرنكاً (عبارة عن 367542 جنيهًا إنكليزيًّا) .<lb/>وبما أن عدد سكان هذه الإمارة حسب إحصاء سنة 1893 يبلغ 3309816<lb/>نسمة، فيكون مثل هذه الأمة عنوان أمة تسير في طريق الحياة الحقيقية بعد أن<lb/>عرفت كيف تحيا وتسعد.<lb/>وإذا ذكرنا تلقاء ما تقدم أن الأمة المصرية يبلغ عددها عشرة ملايين إلا ربعًا،<lb/>أي نحو ثلاثة أمثال عدد بلغاريا إلا قليلاً، وأن كل ما فيها من المدارس التجهيزية<lb/>اثنتان ونصف بدل 150، وأن كل ما تنفق الحكومة عليها نحو 115 ألف جنيه بما<lb/>في ذلك ما تتناوله نظارة المعارف من ديوان الأوقاف وغلة أرض موقوفة، وأن<lb/>أكثر هذه الميزانية ضائع على ثمن أدوات وكتب غير نافعة تستورد من أوروبا،<lb/>ومرتبات باهظة لأساتذة أكثرهم يجهل ما هو منوط بتعليمه، وأن عدد المدارس<lb/>صائر - فضلاً عن ذلك - من الكثرة إلى القلة - بينَّا كيف يكون تقهقر الأمم<lb/>ومصيرها في خمود حركتها إلى الموت والفناء.<lb/>
+               <lb/>(مثال للفرق بين أمة تحيا وأخرى تموت)<lb/>كتبنا منذ أيام بضعة سطور في محليات المؤيد اشتملت على مثال يوضح الفرق<lb/>بين حالتي التعلم عند مسلمي ومسيحيي مصر، قياسًا على إحصاء مدارس وتلامذة<lb/>الفريقين في مدينة أسيوط أكبر مدن الصعيد.<lb/>والآن نريد أن نقدم مثالاً من هذا القبيل أكبر من ذلك، يوضح الفرق بين حالة<lb/>الأمة المصرية بحذافيرها، وحالة أمة أخرى في ولاية ممتازة بين ولايات الدولة<lb/>العلية، قد منحت منذ عشرين سنة الاستقلال الإداري الذي منحته مصر منذ ستين<lb/>سنة وأكثر، ليرى القراء كيف تحيا أمة بإزاء أمة تموت.<lb/>ونعني بتلك الولاية الشبيهة بولاية مصر في الامتيازات وإن كانت أحدث منها<lb/>عهدًا في الاستقلال الإداري: ولاية بلغاريا التي تجدُّ السير في طريق الحضارة<lb/>والترقي بواسطة تحصيل العلوم، وهي الواسطة الوحيدة التي بها حياة الأمم<lb/>وسعادتها.<lb/>ففي صوفيا (عاصمة بلغاريا) كلية جامعة مؤلفة من ثلاث مدارس عليا،<lb/>إحداهن تاريخية فلسفية، والثانية طبيعية رياضية، والثالثة حقوقية.<lb/>وفي الولاية <date calendar="#cal_gregorian" when="0150" change="#d3e146">150</date> مدرسة للتعليم الثانوي (التجهيزى) منها 85 للطلاب الذكور<lb/>و44 للبنات و14 للفريقين معًا، وست مدارس للمعلمين وواحدة حربية.<lb/>وأما المدارس الابتدائية في الولاية فعددها <date calendar="#cal_gregorian" when="4481" change="#d3e146">4481</date> مدرسة، تنقسم كما يأتي:<lb/>
+            <date calendar="#cal_gregorian" when="3079" change="#d3e146">3079</date> مدرسة بلغارية أرثوذوكسية، و19 بلغارية كاثوليكية، و 8 بلغارية<lb/>بروتستانية، و 25 بلغارية إسلامية، و1243 تركية، و16 تاتارية، و29<lb/>يونانية، و13 أرمنية، و27 إسرائيلية، و4 كاثوليكية، و3 فرنساوية، و2<lb/>رومانية، وواحدة ألمانية، وواحدة روسية.<lb/>وتدفع الحكومة ثلثي نفقات <date calendar="#cal_gregorian" when="3079" change="#d3e146">3079</date> مدرسة من هذه المدارس وهي المدارس<lb/>البلغارية الأرثوذوكسية.<lb/>أما الثلث الباقي من نفقات تلك المدارس الوطنية الملية فتقوم به مجالس<lb/>البلديات في الولاية، وأما بقية المدارس التي للمسلمين وغيرهم من المذاهب<lb/>الأخرى وعددها <date calendar="#cal_gregorian" when="1402" change="#d3e146">1402</date> مدرسة، فعلى نفقة أصحابها ومؤسسيها.<lb/>وميزانية المعارف العمومية في الحكومة البلغارية مقدرة بمبلغ 9188560<lb/>فرنكاً (عبارة عن 367542 جنيهًا إنكليزيًّا) .<lb/>وبما أن عدد سكان هذه الإمارة حسب إحصاء سنة 1893 يبلغ 3309816<lb/>نسمة، فيكون مثل هذه الأمة عنوان أمة تسير في طريق الحياة الحقيقية بعد أن<lb/>عرفت كيف تحيا وتسعد.<lb/>وإذا ذكرنا تلقاء ما تقدم أن الأمة المصرية يبلغ عددها عشرة ملايين إلا ربعًا،<lb/>أي نحو ثلاثة أمثال عدد بلغاريا إلا قليلاً، وأن كل ما فيها من المدارس التجهيزية<lb/>اثنتان ونصف بدل 150، وأن كل ما تنفق الحكومة عليها نحو 115 ألف جنيه بما<lb/>في ذلك ما تتناوله نظارة المعارف من ديوان الأوقاف وغلة أرض موقوفة، وأن<lb/>أكثر هذه الميزانية ضائع على ثمن أدوات وكتب غير نافعة تستورد من أوروبا،<lb/>ومرتبات باهظة لأساتذة أكثرهم يجهل ما هو منوط بتعليمه، وأن عدد المدارس<lb/>صائر - فضلاً عن ذلك - من الكثرة إلى القلة - بينَّا كيف يكون تقهقر الأمم<lb/>ومصيرها في خمود حركتها إلى الموت والفناء.<lb/>
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
@@ -141,11 +141,11 @@
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
-               <gap resp="#org_MS"/> (الأخبار)<lb/>***<lb/>(حرية الأديان في الدولة العلية)<lb/>جاء في جريدة محمدان الهندية ما ترجمته:<lb/>حصلت مشاحنة في سالونيك بأراضي الدولة العلية بين جماعة من اليهود<lb/>الأسبانيين وبين جماعة من البرغال، فأتى الأتراك في الحال إلى محل الواقعة<lb/>وانتصروا لليهود، حيث كان الحق في جانبهم، وهذه المشاغبة كانت ناشئة من<lb/>أحقاد سيئة بين الفريقين من زمن مديد. وقد نُشرت هذه الحادثة على إثر ذلك في<lb/>أعمدة جريدة (<tei:title level="j" change="#d2e191">جويش كرونكل</tei:title>) وليس من الضروري أن نأتي على نصها، لكنه<lb/>يهمنا أن نقتطف منها ما له علاقة بالدولة العلية من حيث الأديان وهو: (لا يوجد<lb/>بلد واحد في أوروبا على وجه الإجمال يتمتع فيه اليهود بنعمة الحرية الدينية التامة<lb/>كما يتمتعون بها في أرض الدولة العلية، ولا يمكن أن يجدوا من الارتياح وحسن<lb/>المعاشرة كما يجدون في ظل الحكومة العثمانية، فحكومة السلطان - والحق يقال -<lb/>ساهرة على راحتهم، ولديهم الأدلة القاطعة على ذلك، خصوصاً أيام الحرب<lb/>العثمانية اليونانية الأخيرة) اهـ. نقلاً عن (جويش كرونكل) الرائد الإسرائيلي<lb/>الصادر في 10 يونيو سنة 1898.<lb/>***<lb/>(إنكلترا وفرنسا في السودان)<lb/>أرسل سعادة السردار بعد فتح أم درمان والاستيلاء على الخرطوم سرية بحرية<lb/>مؤلفة من المدفعيات النيلية التي لديه، وأمَّر عليها هنتر باشا وسيرها في النيل<lb/>الأزرق لاحتلال القضارف وقتال أحمد الفضيل.<lb/>وسار السردار نفسه بسرية مؤلفة من فرقة (أورطة) سودانية ومائة جندي<lb/>إنكليزي، والمدفعية التي خصصها لذلك لأجل الاستيلاء على فشوده وإخراج مرشان<lb/>الفرنسوي وسريته منها.<lb/>أما السرية الأولى فقد استولت على القضارف، وهي بلاد خصبة بالقرب من<lb/>بلاد الحبشة، وكان أشيع أن الأحباش احتلوها مدعين أنها لهم، ولذلك كان السردار<lb/>أصدر أمره لبرسونز باشا محافظ سواكن بأن يرسل حامية كسلا لمساعدة السرية<lb/>والقضارف في جنوبي كسلا، وقد حصل بين المصريين والدراويش معركة قتل فيها<lb/>من الأولين أحد عشر جنديًّا وجرح اثنان وثمانون، وقتل من الآخرين خمسمائة<lb/>درويش.<lb/>وأما السردار وسريته فقد وصلوا إلى فشودة، وطلب من مرشان الفرنسوي أن<lb/>يأتي القطر المصري - قيل: أو أم درمان - فأجابه بأنه احتل فشوده باسم الحكومة<lb/>الفرنساوية فلا يغادرها إلا بأمر منها. فأنشأ السردار في الحال موقعًا عسكريًّا في<lb/>جانب فشودة، ورفع عليه الرايتين الإنكليزية والمصرية ورجع أدراجه، وظهر<lb/>للناس أن إرجاف الجرائد الإنكليزية وزعمها بأن السردار يخرج مرشان من فشوده<lb/>طوعاً أو كرهاً من تغريرها وإيهامها المعهود مثله من الإنكليز، ثم إنهم يفعلون ذلك<lb/>مع المستضعفين.<lb/>تخفق الآن في جو فشودة ثلاث رايات: راية شرعية وهي المصرية العثمانية<lb/>وأخريان طامعتان وهما: الفرنساوية والإنكليزية، واجتماعهما هو الذي فتح باب<lb/>المسألة السودانية، بل والمصرية، كما صرحت بمقتضي ذلك الجرائد الفرنساوية<lb/>من قبل، فإن تم الفلج لبريطانيا وألقيت إليها مقاليد مصر والسودان وأقرت على<lb/>السيادة على وادي النيل كله، تتحقق أماني سسل رود، وتعلو إنكلترا على أوروبا<lb/>كلها علوًّا كبيرًا، يصح أن يقال فيه: لبريطانيا العظمى الحياة السعيدة والعز والرفعة<lb/>ولأوروبا الصغرى الغباوة والبلادة، ولفرنسا الحقيرة الجهل والحمق والطيش<lb/>والتعصب الأعمى، ولتركيا المظلومة السقوط من عداد الدول، بل ما هو أعظم،<lb/>والعياذ بالله تعالى. <note type="footnote" place="bottom"/>
+               <gap resp="#org_MS"/> (الأخبار)<lb/>***<lb/>(حرية الأديان في الدولة العلية)<lb/>جاء في جريدة محمدان الهندية ما ترجمته:<lb/>حصلت مشاحنة في سالونيك بأراضي الدولة العلية بين جماعة من اليهود<lb/>الأسبانيين وبين جماعة من البرغال، فأتى الأتراك في الحال إلى محل الواقعة<lb/>وانتصروا لليهود، حيث كان الحق في جانبهم، وهذه المشاغبة كانت ناشئة من<lb/>أحقاد سيئة بين الفريقين من زمن مديد. وقد نُشرت هذه الحادثة على إثر ذلك في<lb/>أعمدة جريدة (<title level="j" change="#d2e191">جويش كرونكل</title>) وليس من الضروري أن نأتي على نصها، لكنه<lb/>يهمنا أن نقتطف منها ما له علاقة بالدولة العلية من حيث الأديان وهو: (لا يوجد<lb/>بلد واحد في أوروبا على وجه الإجمال يتمتع فيه اليهود بنعمة الحرية الدينية التامة<lb/>كما يتمتعون بها في أرض الدولة العلية، ولا يمكن أن يجدوا من الارتياح وحسن<lb/>المعاشرة كما يجدون في ظل الحكومة العثمانية، فحكومة السلطان - والحق يقال -<lb/>ساهرة على راحتهم، ولديهم الأدلة القاطعة على ذلك، خصوصاً أيام الحرب<lb/>العثمانية اليونانية الأخيرة) اهـ. نقلاً عن (جويش كرونكل) الرائد الإسرائيلي<lb/>الصادر في 10 يونيو سنة 1898.<lb/>***<lb/>(إنكلترا وفرنسا في السودان)<lb/>أرسل سعادة السردار بعد فتح أم درمان والاستيلاء على الخرطوم سرية بحرية<lb/>مؤلفة من المدفعيات النيلية التي لديه، وأمَّر عليها هنتر باشا وسيرها في النيل<lb/>الأزرق لاحتلال القضارف وقتال أحمد الفضيل.<lb/>وسار السردار نفسه بسرية مؤلفة من فرقة (أورطة) سودانية ومائة جندي<lb/>إنكليزي، والمدفعية التي خصصها لذلك لأجل الاستيلاء على فشوده وإخراج مرشان<lb/>الفرنسوي وسريته منها.<lb/>أما السرية الأولى فقد استولت على القضارف، وهي بلاد خصبة بالقرب من<lb/>بلاد الحبشة، وكان أشيع أن الأحباش احتلوها مدعين أنها لهم، ولذلك كان السردار<lb/>أصدر أمره لبرسونز باشا محافظ سواكن بأن يرسل حامية كسلا لمساعدة السرية<lb/>والقضارف في جنوبي كسلا، وقد حصل بين المصريين والدراويش معركة قتل فيها<lb/>من الأولين أحد عشر جنديًّا وجرح اثنان وثمانون، وقتل من الآخرين خمسمائة<lb/>درويش.<lb/>وأما السردار وسريته فقد وصلوا إلى فشودة، وطلب من مرشان الفرنسوي أن<lb/>يأتي القطر المصري - قيل: أو أم درمان - فأجابه بأنه احتل فشوده باسم الحكومة<lb/>الفرنساوية فلا يغادرها إلا بأمر منها. فأنشأ السردار في الحال موقعًا عسكريًّا في<lb/>جانب فشودة، ورفع عليه الرايتين الإنكليزية والمصرية ورجع أدراجه، وظهر<lb/>للناس أن إرجاف الجرائد الإنكليزية وزعمها بأن السردار يخرج مرشان من فشوده<lb/>طوعاً أو كرهاً من تغريرها وإيهامها المعهود مثله من الإنكليز، ثم إنهم يفعلون ذلك<lb/>مع المستضعفين.<lb/>تخفق الآن في جو فشودة ثلاث رايات: راية شرعية وهي المصرية العثمانية<lb/>وأخريان طامعتان وهما: الفرنساوية والإنكليزية، واجتماعهما هو الذي فتح باب<lb/>المسألة السودانية، بل والمصرية، كما صرحت بمقتضي ذلك الجرائد الفرنساوية<lb/>من قبل، فإن تم الفلج لبريطانيا وألقيت إليها مقاليد مصر والسودان وأقرت على<lb/>السيادة على وادي النيل كله، تتحقق أماني سسل رود، وتعلو إنكلترا على أوروبا<lb/>كلها علوًّا كبيرًا، يصح أن يقال فيه: لبريطانيا العظمى الحياة السعيدة والعز والرفعة<lb/>ولأوروبا الصغرى الغباوة والبلادة، ولفرنسا الحقيرة الجهل والحمق والطيش<lb/>والتعصب الأعمى، ولتركيا المظلومة السقوط من عداد الدول، بل ما هو أعظم،<lb/>والعياذ بالله تعالى. <note type="footnote" place="bottom"/>
             </div>
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P153.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>

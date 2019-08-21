@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,31 +42,31 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="4" to="4" change="#d2e128 #d2e141" xml:lang="ar">4</tei:biblScope>
-                  <tei:biblScope unit="issue" from="2" to="2" change="#d2e128 #d2e141" xml:lang="ar">2</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="4" to="4" change="#d2e128 #d2e141" xml:lang="ar">4</biblScope>
+                  <biblScope unit="issue" from="2" to="2" change="#d2e128 #d2e141" xml:lang="ar">2</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P813.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
+      <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1318-11-16" datingMethod="#cal_islamic" when="1901-03-07">16 ذو القعدة 1318</date>هـ</head>
             <lb/>
@@ -74,7 +74,7 @@
 <pb n="n4-p41" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P814.xhtml"/>
 
 
-         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">نقلا عن جريدة <tei:title level="j" change="#d2e191">العروة</tei:title> الوثقى</persName>
+         <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">نقلا عن جريدة <title level="j" change="#d2e191">العروة</title> الوثقى</persName>
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">الفضائل والرذائل</head> [1]<lb/>
@@ -176,7 +176,7 @@
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">الهدايا والتقاريظ</head>
-               <lb/>(الحيوان والإنسان أو خاتمة رسائل إخوان الصفا)<lb/>هذه الرسائل مشهورة عند أهل العلم والاطلاع، فمنهم من يتنافس فيها لما<lb/>احتوت عليه من الفلسفة والتصوف وغرائب العلوم، ومنهم من يحظر النظر فيها<lb/>لذلك، وقلّ من يعرف مؤلفيها وهم على ما نُقل عن أبي حيان التوحيدي: زيد ابن<lb/>رفاعة، وأبو سليمان محمد بن مشعر البستي، وأبو حسن علي بن هارون الزنجاني،<lb/>وأبو أحمد المهرجاني، والعوفي وآخرون، ومرادهم بتأليفها إلباس الفلسفة لباس<lb/>الدين؛ ليقبلها أو يقبل عليها منكروها من جماهير المسلمين، وأسلوبهم في كتابتها<lb/>غريب تلذ قراءته، وتستملح عبارته، وعذرهم في هذا الطريق الوعر، والمركب<lb/>الخشن، أنهم فُتنوا بفلسفة اليونان، ورأوا أنه لا بد منها للإنسان، ورأوا المسلمين<lb/>يناصبون المشتغلين بها ويناهضونهم، ويضللونهم ويكفرونهم، وحسبوا أن هذا<lb/>الملك لا يُعارض، وصاحبه ينهض ولا يُناهض، فخاب الأمل، وحبط العمل،<lb/>وكانوا عند تأليف رسائلهم بثوها في الوراقين، لتنتشر بسرعة في العالمين، وربما<lb/>كانوا في أنفسهم مخلصين؛ ولكن ما عتَّم أن عتمت، وبطنت عقيب أن ظهرت،<lb/>إلى أن أحيت الطباعة رفاتها، والأمور مرهونة بأوقاتها.<lb/>طُبعت الرسائل في الهند فراجت حتى لا تكاد توجد نسخها، وطُبع منها في<lb/>مصر الجزء الأول، ولم يتسن لطابعه إتمامها، وفي هذه الأيام تصدى النشيط<lb/>الفاضل، محمد علي أفندي كامل، لطبع الجزء الأخير الذي هو زبدة الرسائل<lb/>وخاتمتها في مطبعة دار الترقي المتقنة بشكل لطيف، على ورق نظيف.<lb/>وهذا الجزء يصف تداعي الحيوانات على الإنسان، لدى ملك الجان، وما<lb/>جرى بينهم من المحاورات، والمناظرات والمجادلات، ونتيجة ذلك حكم ملك الجان<lb/>بأن تكون أنواع الحيوان، في تصرف الإنسان، فنحث أهل العلم والفضل،<lb/>وذوي الذكاء والنبل، على الاطلاع على هذا الأسلوب الساحر، مما ترك الأول<lb/>للآخر، ولكن رأينا أن لا تُحتذى هذه الرسائل بمزج الفلسفة بالدين، فذلك مضيعة<lb/>للأمرين.<lb/>***<lb/>(تاريخ دولة آل سلجوق)<lb/>من إنشاء الشهير عماد الدين محمد بن محمد بن حامد الأصفهاني، واختصره<lb/>الفتح بن علي بن محمد البنداري الأصفهاني رحمهما الله تعالى، والكتاب كله سجع<lb/>مما يسمونه السهل الممتنع، والوقوف على تاريخ هذه الدولة الإسلامية العظيمة لا<lb/>يستغني عنه من يهمه الوقوف على شؤون المسلمين ومعرفة أحوالهم الاجتماعية،<lb/>وقد طُبع على نفقة شركة طبع الكتب العربية في مطبعة الموسوعات طبعًا متقنًا<lb/>على ورق جيد وثمنه عشرة قروش أميرية.<lb/>***<lb/>(تتمة البيان في تاريخ الأفغان)<lb/>كان السيد جمال الدين الأفغاني الفيلسوف الإسلامي الشهير كتب رسائل سماها<lb/>(البيان في الإنكليز والأفغان) كان لها وقع شديد في البلاد الإنكليزية عندما نُشرت<lb/>في الجرائد المصرية التي أنشأها تلامذة السيد في مصر بإرشاده، وردَّت عليها<lb/>الجرائد الإنكليزية معظمة شأن السيد معجبة به، ولم يكن قد اشتهر اسمه في أوربا<lb/>فتصدى هو للرد عليها؛ حتى إن المستر غلادستون اضطر إلى الرد على السيد<lb/>بنفسه، ثم سأل السيد تلامذته أن يملي عليهم تاريخ الأفغان فأملى عليهم مقالات<lb/>نشرت في جريدة مصر التي كانت يصدرها في الإسكندرية فقيد الأدب والصحافة<lb/>أديب بك إسحاق، وسمى مجموعها تتمة البيان في الإنكليز والأفغان، وذكر فيها<lb/>محاربة الإنكليز للأفغان والاستيلاء على بلادهم، ثم إخراج الأفغان لهم منها بالقوة<lb/>وفيها ذكر أصل الأفغان وتاريخهم وعاداتهم وسائر شؤونهم، وقد عثر على هذا<lb/>التاريخ الأديب النشيط علي أفندي يوسف الكريدلي صاحب ومحرر جريدة <tei:title level="j" change="#d2e191 #d5e196" ref="oape:bibl:">العلم</tei:title><lb/>العثماني، وطبعه في مطبعة الموسوعات طبعًا متقنًا على ورق جيد وصدَّره برسم<lb/>أمير الأفغان الحالي الأمير عبد الرحمن وأهداه إياه، وفيه أيضًا رسم السيد جمال<lb/>الدين، وثمن النسخة منه خمسة قروش أميرية، ويباع في جميع المكاتب الشهيرة<lb/>في القاهرة.<lb/>***<lb/>(وردة)<lb/>أسطورة علمية تاريخية تمثل أخلاق المصريين وعاداتهم في عهد رمسيس<lb/>الثاني، وترسم للقارئ نظام حكومتهم وما وصلوا إليه من التقدم في العلوم والمعارف،<lb/>أبرزها من الآثار القديمة وأوراق البردي الدكتور جورج إيبرس الألماني، ونقلها إلى<lb/>العربية صديقنا الكاتب الفاضل محمد أفندي مسعود أحد محرري جريدة <tei:title level="j" change="#d2e191 #d5e196" ref="oape:bibl:25 oclc:792755902">المؤيد</tei:title> الغراء<lb/>ونابغي الناشئة المصرية في هذا العصر، وقد كان سبقه إلى تعريبها من حيث لا يعلم<lb/>الدكتور العالم الشهير يعقوب أفندي صروف محرر مجلة <tei:title level="j" change="#d2e191 #d5e196" ref="oape:bibl:5 oclc:931941685">المقتطف</tei:title>، ولم يطبعها؛<lb/>لأنه لم يستأذن بطبعها من مؤلفها؛ ولكن محمد أفندي مسعود استأذن قبل أن يُعَرِّب،<lb/>وقد طُبع الجزء الأول منها وهو يزيد على ثلاثمائة صفحة بالحرف الصغير، وتُطلب<lb/>من مُعَرِّبها في إدارة المؤيد بمصر، فنحث جميع القراء على مطالعتها.<lb/>***<lb/>(تنبيه مهم جدًّا)<lb/>لدينا مقالة لفضيلة مفتي الديار المصرية في أعظم شبهة على الدين في كتب<lb/>المسلمين، وهي مسألة الغرانيق، وتفسير الآية التي استدل بها عليها، وستنشر في<lb/>باب التفسير من الجزء الآتي. <note type="footnote" place="bottom"/>
+               <lb/>(الحيوان والإنسان أو خاتمة رسائل إخوان الصفا)<lb/>هذه الرسائل مشهورة عند أهل العلم والاطلاع، فمنهم من يتنافس فيها لما<lb/>احتوت عليه من الفلسفة والتصوف وغرائب العلوم، ومنهم من يحظر النظر فيها<lb/>لذلك، وقلّ من يعرف مؤلفيها وهم على ما نُقل عن أبي حيان التوحيدي: زيد ابن<lb/>رفاعة، وأبو سليمان محمد بن مشعر البستي، وأبو حسن علي بن هارون الزنجاني،<lb/>وأبو أحمد المهرجاني، والعوفي وآخرون، ومرادهم بتأليفها إلباس الفلسفة لباس<lb/>الدين؛ ليقبلها أو يقبل عليها منكروها من جماهير المسلمين، وأسلوبهم في كتابتها<lb/>غريب تلذ قراءته، وتستملح عبارته، وعذرهم في هذا الطريق الوعر، والمركب<lb/>الخشن، أنهم فُتنوا بفلسفة اليونان، ورأوا أنه لا بد منها للإنسان، ورأوا المسلمين<lb/>يناصبون المشتغلين بها ويناهضونهم، ويضللونهم ويكفرونهم، وحسبوا أن هذا<lb/>الملك لا يُعارض، وصاحبه ينهض ولا يُناهض، فخاب الأمل، وحبط العمل،<lb/>وكانوا عند تأليف رسائلهم بثوها في الوراقين، لتنتشر بسرعة في العالمين، وربما<lb/>كانوا في أنفسهم مخلصين؛ ولكن ما عتَّم أن عتمت، وبطنت عقيب أن ظهرت،<lb/>إلى أن أحيت الطباعة رفاتها، والأمور مرهونة بأوقاتها.<lb/>طُبعت الرسائل في الهند فراجت حتى لا تكاد توجد نسخها، وطُبع منها في<lb/>مصر الجزء الأول، ولم يتسن لطابعه إتمامها، وفي هذه الأيام تصدى النشيط<lb/>الفاضل، محمد علي أفندي كامل، لطبع الجزء الأخير الذي هو زبدة الرسائل<lb/>وخاتمتها في مطبعة دار الترقي المتقنة بشكل لطيف، على ورق نظيف.<lb/>وهذا الجزء يصف تداعي الحيوانات على الإنسان، لدى ملك الجان، وما<lb/>جرى بينهم من المحاورات، والمناظرات والمجادلات، ونتيجة ذلك حكم ملك الجان<lb/>بأن تكون أنواع الحيوان، في تصرف الإنسان، فنحث أهل العلم والفضل،<lb/>وذوي الذكاء والنبل، على الاطلاع على هذا الأسلوب الساحر، مما ترك الأول<lb/>للآخر، ولكن رأينا أن لا تُحتذى هذه الرسائل بمزج الفلسفة بالدين، فذلك مضيعة<lb/>للأمرين.<lb/>***<lb/>(تاريخ دولة آل سلجوق)<lb/>من إنشاء الشهير عماد الدين محمد بن محمد بن حامد الأصفهاني، واختصره<lb/>الفتح بن علي بن محمد البنداري الأصفهاني رحمهما الله تعالى، والكتاب كله سجع<lb/>مما يسمونه السهل الممتنع، والوقوف على تاريخ هذه الدولة الإسلامية العظيمة لا<lb/>يستغني عنه من يهمه الوقوف على شؤون المسلمين ومعرفة أحوالهم الاجتماعية،<lb/>وقد طُبع على نفقة شركة طبع الكتب العربية في مطبعة الموسوعات طبعًا متقنًا<lb/>على ورق جيد وثمنه عشرة قروش أميرية.<lb/>***<lb/>(تتمة البيان في تاريخ الأفغان)<lb/>كان السيد جمال الدين الأفغاني الفيلسوف الإسلامي الشهير كتب رسائل سماها<lb/>(البيان في الإنكليز والأفغان) كان لها وقع شديد في البلاد الإنكليزية عندما نُشرت<lb/>في الجرائد المصرية التي أنشأها تلامذة السيد في مصر بإرشاده، وردَّت عليها<lb/>الجرائد الإنكليزية معظمة شأن السيد معجبة به، ولم يكن قد اشتهر اسمه في أوربا<lb/>فتصدى هو للرد عليها؛ حتى إن المستر غلادستون اضطر إلى الرد على السيد<lb/>بنفسه، ثم سأل السيد تلامذته أن يملي عليهم تاريخ الأفغان فأملى عليهم مقالات<lb/>نشرت في جريدة مصر التي كانت يصدرها في الإسكندرية فقيد الأدب والصحافة<lb/>أديب بك إسحاق، وسمى مجموعها تتمة البيان في الإنكليز والأفغان، وذكر فيها<lb/>محاربة الإنكليز للأفغان والاستيلاء على بلادهم، ثم إخراج الأفغان لهم منها بالقوة<lb/>وفيها ذكر أصل الأفغان وتاريخهم وعاداتهم وسائر شؤونهم، وقد عثر على هذا<lb/>التاريخ الأديب النشيط علي أفندي يوسف الكريدلي صاحب ومحرر جريدة <title level="j" change="#d2e191 #d5e196" ref="oape:bibl:">العلم</title><lb/>العثماني، وطبعه في مطبعة الموسوعات طبعًا متقنًا على ورق جيد وصدَّره برسم<lb/>أمير الأفغان الحالي الأمير عبد الرحمن وأهداه إياه، وفيه أيضًا رسم السيد جمال<lb/>الدين، وثمن النسخة منه خمسة قروش أميرية، ويباع في جميع المكاتب الشهيرة<lb/>في القاهرة.<lb/>***<lb/>(وردة)<lb/>أسطورة علمية تاريخية تمثل أخلاق المصريين وعاداتهم في عهد رمسيس<lb/>الثاني، وترسم للقارئ نظام حكومتهم وما وصلوا إليه من التقدم في العلوم والمعارف،<lb/>أبرزها من الآثار القديمة وأوراق البردي الدكتور جورج إيبرس الألماني، ونقلها إلى<lb/>العربية صديقنا الكاتب الفاضل محمد أفندي مسعود أحد محرري جريدة <title level="j" change="#d2e191 #d5e196" ref="oape:bibl:25 oclc:792755902">المؤيد</title> الغراء<lb/>ونابغي الناشئة المصرية في هذا العصر، وقد كان سبقه إلى تعريبها من حيث لا يعلم<lb/>الدكتور العالم الشهير يعقوب أفندي صروف محرر مجلة <title level="j" change="#d2e191 #d5e196" ref="oape:bibl:5 oclc:931941685">المقتطف</title>، ولم يطبعها؛<lb/>لأنه لم يستأذن بطبعها من مؤلفها؛ ولكن محمد أفندي مسعود استأذن قبل أن يُعَرِّب،<lb/>وقد طُبع الجزء الأول منها وهو يزيد على ثلاثمائة صفحة بالحرف الصغير، وتُطلب<lb/>من مُعَرِّبها في إدارة المؤيد بمصر، فنحث جميع القراء على مطالعتها.<lb/>***<lb/>(تنبيه مهم جدًّا)<lb/>لدينا مقالة لفضيلة مفتي الديار المصرية في أعظم شبهة على الدين في كتب<lb/>المسلمين، وهي مسألة الغرانيق، وتفسير الآية التي استدل بها عليها، وستنشر في<lb/>باب التفسير من الجزء الآتي. <note type="footnote" place="bottom"/>
             </div>
             <pb n="n4-p72" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P820.xhtml"/>
 
@@ -211,6 +211,6 @@
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P823.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>

@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,32 +42,32 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="20" to="20" change="#d2e128 #d2e141" xml:lang="ar">20</tei:biblScope>
-                  <tei:biblScope unit="issue" from="4" to="4" change="#d2e128 #d2e141" xml:lang="ar">4</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="20" to="20" change="#d2e128 #d2e141" xml:lang="ar">20</biblScope>
+                  <biblScope unit="issue" from="4" to="4" change="#d2e128 #d2e141" xml:lang="ar">4</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P3034.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
-            <head change="#d2e141" xml:lang="ar">المحرم - <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1336" change="#d3e146">1336</tei:date>هـ</head>
+      <body change="#d2e141" xml:lang="ar">
+            <head change="#d2e141" xml:lang="ar">المحرم - <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1336" change="#d3e146">1336</date>هـ</head>
             <lb/>
          <date calendar="#cal_gregorian" when="1917" change="#d2e141" xml:lang="ar">نوفمبر - 1917م</date>
          <pb n="n20-p188" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P3035.xhtml"/>
@@ -131,7 +131,7 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">مختارات من الجرائد</head>
                <lb/>
-               <lb/>(الطعن في رئيس وزراء الإنكليز)<lb/>الطعن في العظماء والمصلحين في الأمم سُنة من سنن الاجتماع، حوادثها<lb/>كثيرة في التاريخ، وقد اتهمت جريدتان من الجرائد الإنكليزية مستر لويد جورج<lb/>رئيس وزرائهم - الذي أظهرت الحرب كفاءته وتفوقه على الأقران - فزعمت أنه<lb/>فَرَّ من لندن إلى فرنسة عند علمه بإحدى غارات الطيارات الألمانية على العاصمة،<lb/>وقد كذَّبت الحكومة الجريدتين، فلم تعتذرا عن كذبهما، فرفع الوزير عليهما دعوى<lb/>لسوء تأثير طعنهما في العامة. وقد عجبنا مما أظهرته الدعوى من كثرة ما سبق من<lb/>الطعن في الوزير، وهو موضع العبرة التي أردنا ضمها إلى أمثالها من حوادث<lb/>التاريخ. فقد جاء في مقطم 24 المحرم - 10 نوفمبر، من مقالة في شرح هذه<lb/>القضية ما نصه:<lb/>ولما عرضت القضية قال المحامي عن المستر لويد جورج إن موكله يقول:<lb/>إنه لو كان ما عَزَتْه الجريدتان والشركة عليه طعنًا شخصيًّا في شخصه فقط لرأى<lb/>أن كرامته ومقامه كرئيس وزراء بريطانيا العظمى يقضيان عليه بأن يتغاضى عنه،<lb/>ويكتفي بتكذيبه في الصحف التي نشرته، فإن المستر لويد جورج استهدف في<lb/>حياته السياسية لما لم يستهدف له سياسي آخر من الحملات والمطاعن الشخصية<lb/>والسياسية، فقابلها كما يجب على الساسة أن يقابلوها، أي أنه عدَّها من الأمور<lb/>التي لا مناص للسياسي من الاستهداف لها في حياته السياسية.<lb/>قال المحامي: والمستر لويد جورج يعذرني إذا قلت: إن خصومه ما كانوا<lb/>يخرجون من مناضلته فائزين. على أن الذي يهم رئيس الوزارة في قضيتنا هذه هو<lb/>سوء الوقع الذي يقع في نفوس الجمهور من اتهامه كذبًا بالجبن، فقد بلغه أن الناس<lb/>- ولا سيما في القسم الشرقي من لندن - ساءهم خبر مغادرة كبير وزرائهم للندن<lb/>للتخلص مما تعرضوا له، ولما كانت هذه التهمة كاذبة لجأ الرئيس إلى المحاكم<lb/>لينفي فيها على رءوس الأشهاد هذه التهمة الباطلة، ويُطْلع مواطنيه على الحقيقة.<lb/>ثم ذكر المقطم أن الوزير لما حضر المحكمة وحلف اليمين ألقى عليه المحامي<lb/>أسئلة أجاب عنها، منها السؤال الآتي مع جوابه:<lb/>س: ألم أفهم منك أنه لو كان الطعن شخصيًّا موجهًا إلى شخصك فقط لما<lb/>رفعت هذه القضية؟ .<lb/>ج: كنت أكتفي بنفي الخبر الذي روته الجريدتان؛ لأني لو سِرت على قاعدة<lb/>رفع القضايا على كل مَن يطعن فيَّ لما أتيح لي أن أفعل شيئًا آخر.<lb/>* * *<lb/>(الإسرائيليون وفلسطين)<lb/>ترجمة برقية خصوصية للمقطم من مكاتبه بلندن أيدتها برقيات روتر.<lb/>لندن؛ الجمعة في 9 نوفمبر الساعة 3 بعد الظهر.<lb/>ذكرت جريدة (<tei:title level="j" change="#d2e191">جويش كرونكل</tei:title>) أن المستر بلفور وزير الخارجية البريطانية<lb/>كتب إلى اللورد روتشلد يقول ما نصه:<lb/>" يسرني جدًّا أن أبلغكم بالنيابة عن حكومة جلالة الملك أنها تنظر بعين الرضى<lb/>والارتياح إلى المشروع الذي يراد به أن ينشأ في فلسطين وطن قومي لشعب اليهود،<lb/>وتفرغ خير مساعيها لتسهيل إدراك هذا الغرض. ولكن ليكن معلومًا أنه لا يُسمح<lb/>بإجراء شيء يُلحق الضرر بالحقوق المدنية والدينية التي للطوائف غير اليهودية<lb/>الموجودة في فلسطين الآن، أو بالحقوق التي يتمتع بها اليهود في البلدان الأخرى<lb/>وبمركزهم السياسي فيها ". مكاتبكم بلندن.<lb/>* * *<lb/>(مظاهرة الصهيونيين لتحقيق أمانيّهم في فلسطين)<lb/>جاء في مقطم 16 المحرم - 13 نوفمبر ما نصه:<lb/>قال وكيلنا الإسكندري أمس: أقام الإسرائيليون - ولا سيما الصهيونيين منهم<lb/>- احتفالاً كبيرًا أمس في حديقة رشيد بالإسكندرية على إِثْر البيان الذي أبلغه المستر<lb/>بلفور إلى اللورد روتشلد في شأن تحقيق أماني الإسرائيليين بجعْل فلسطين وطنًا<lb/>قوميًّا لهم. وقد ألقى بعض خطبائهم في هذا الاحتفال خطبًا تناسب المقام، فشكروا<lb/>للحلفاء عامة، ولبريطانيا خاصة هذا الوعد الشريف، آملين تحقيقه في القريب<lb/>العاجل.<lb/>ثم طاف المحتفلون - وهم في أحسن نظام في شوارع المدينة الكبرى -<lb/>تتقدمهم الموسيقى وفرقة الكشافة الإسرائيلية، وهم فرحون جذلون بتلك البشرى<lb/>السارة هاتفون للحلفاء، ولبريطانية العظمى بدوام النصر والظفر. اهـ.<lb/>* * *<lb/>(معركة غزة ونتائجها)<lb/>نشر المقطم تحت هذا العنوان البرقية الآتية: باريس في 8 نوفمبر:<lb/>إن سقوط غزة من الحوادث التي يمكن أن تنشأ عنها نتائج عظيمة جدًّا،<lb/>والتي تعد مقدمة لأفول نجم تركيا في الأماكن المقدسة، وتحرير البلاد التي هي مهد<lb/>الديانة المسيحية. وقد قطعت المواصلات التركية تمامًا مع القوات التي تحارب في<lb/>بلاد العرب، وصار مصير (المدينة) معروفًا من الآن، وقد احتلت إنكلترا -<lb/>حليفة ملك الحجاز - كل العراق تقريبًا، وجنوبي بلاد فلسطين.<lb/>
+               <lb/>(الطعن في رئيس وزراء الإنكليز)<lb/>الطعن في العظماء والمصلحين في الأمم سُنة من سنن الاجتماع، حوادثها<lb/>كثيرة في التاريخ، وقد اتهمت جريدتان من الجرائد الإنكليزية مستر لويد جورج<lb/>رئيس وزرائهم - الذي أظهرت الحرب كفاءته وتفوقه على الأقران - فزعمت أنه<lb/>فَرَّ من لندن إلى فرنسة عند علمه بإحدى غارات الطيارات الألمانية على العاصمة،<lb/>وقد كذَّبت الحكومة الجريدتين، فلم تعتذرا عن كذبهما، فرفع الوزير عليهما دعوى<lb/>لسوء تأثير طعنهما في العامة. وقد عجبنا مما أظهرته الدعوى من كثرة ما سبق من<lb/>الطعن في الوزير، وهو موضع العبرة التي أردنا ضمها إلى أمثالها من حوادث<lb/>التاريخ. فقد جاء في مقطم 24 المحرم - 10 نوفمبر، من مقالة في شرح هذه<lb/>القضية ما نصه:<lb/>ولما عرضت القضية قال المحامي عن المستر لويد جورج إن موكله يقول:<lb/>إنه لو كان ما عَزَتْه الجريدتان والشركة عليه طعنًا شخصيًّا في شخصه فقط لرأى<lb/>أن كرامته ومقامه كرئيس وزراء بريطانيا العظمى يقضيان عليه بأن يتغاضى عنه،<lb/>ويكتفي بتكذيبه في الصحف التي نشرته، فإن المستر لويد جورج استهدف في<lb/>حياته السياسية لما لم يستهدف له سياسي آخر من الحملات والمطاعن الشخصية<lb/>والسياسية، فقابلها كما يجب على الساسة أن يقابلوها، أي أنه عدَّها من الأمور<lb/>التي لا مناص للسياسي من الاستهداف لها في حياته السياسية.<lb/>قال المحامي: والمستر لويد جورج يعذرني إذا قلت: إن خصومه ما كانوا<lb/>يخرجون من مناضلته فائزين. على أن الذي يهم رئيس الوزارة في قضيتنا هذه هو<lb/>سوء الوقع الذي يقع في نفوس الجمهور من اتهامه كذبًا بالجبن، فقد بلغه أن الناس<lb/>- ولا سيما في القسم الشرقي من لندن - ساءهم خبر مغادرة كبير وزرائهم للندن<lb/>للتخلص مما تعرضوا له، ولما كانت هذه التهمة كاذبة لجأ الرئيس إلى المحاكم<lb/>لينفي فيها على رءوس الأشهاد هذه التهمة الباطلة، ويُطْلع مواطنيه على الحقيقة.<lb/>ثم ذكر المقطم أن الوزير لما حضر المحكمة وحلف اليمين ألقى عليه المحامي<lb/>أسئلة أجاب عنها، منها السؤال الآتي مع جوابه:<lb/>س: ألم أفهم منك أنه لو كان الطعن شخصيًّا موجهًا إلى شخصك فقط لما<lb/>رفعت هذه القضية؟ .<lb/>ج: كنت أكتفي بنفي الخبر الذي روته الجريدتان؛ لأني لو سِرت على قاعدة<lb/>رفع القضايا على كل مَن يطعن فيَّ لما أتيح لي أن أفعل شيئًا آخر.<lb/>* * *<lb/>(الإسرائيليون وفلسطين)<lb/>ترجمة برقية خصوصية للمقطم من مكاتبه بلندن أيدتها برقيات روتر.<lb/>لندن؛ الجمعة في 9 نوفمبر الساعة 3 بعد الظهر.<lb/>ذكرت جريدة (<title level="j" change="#d2e191">جويش كرونكل</title>) أن المستر بلفور وزير الخارجية البريطانية<lb/>كتب إلى اللورد روتشلد يقول ما نصه:<lb/>" يسرني جدًّا أن أبلغكم بالنيابة عن حكومة جلالة الملك أنها تنظر بعين الرضى<lb/>والارتياح إلى المشروع الذي يراد به أن ينشأ في فلسطين وطن قومي لشعب اليهود،<lb/>وتفرغ خير مساعيها لتسهيل إدراك هذا الغرض. ولكن ليكن معلومًا أنه لا يُسمح<lb/>بإجراء شيء يُلحق الضرر بالحقوق المدنية والدينية التي للطوائف غير اليهودية<lb/>الموجودة في فلسطين الآن، أو بالحقوق التي يتمتع بها اليهود في البلدان الأخرى<lb/>وبمركزهم السياسي فيها ". مكاتبكم بلندن.<lb/>* * *<lb/>(مظاهرة الصهيونيين لتحقيق أمانيّهم في فلسطين)<lb/>جاء في مقطم 16 المحرم - 13 نوفمبر ما نصه:<lb/>قال وكيلنا الإسكندري أمس: أقام الإسرائيليون - ولا سيما الصهيونيين منهم<lb/>- احتفالاً كبيرًا أمس في حديقة رشيد بالإسكندرية على إِثْر البيان الذي أبلغه المستر<lb/>بلفور إلى اللورد روتشلد في شأن تحقيق أماني الإسرائيليين بجعْل فلسطين وطنًا<lb/>قوميًّا لهم. وقد ألقى بعض خطبائهم في هذا الاحتفال خطبًا تناسب المقام، فشكروا<lb/>للحلفاء عامة، ولبريطانيا خاصة هذا الوعد الشريف، آملين تحقيقه في القريب<lb/>العاجل.<lb/>ثم طاف المحتفلون - وهم في أحسن نظام في شوارع المدينة الكبرى -<lb/>تتقدمهم الموسيقى وفرقة الكشافة الإسرائيلية، وهم فرحون جذلون بتلك البشرى<lb/>السارة هاتفون للحلفاء، ولبريطانية العظمى بدوام النصر والظفر. اهـ.<lb/>* * *<lb/>(معركة غزة ونتائجها)<lb/>نشر المقطم تحت هذا العنوان البرقية الآتية: باريس في 8 نوفمبر:<lb/>إن سقوط غزة من الحوادث التي يمكن أن تنشأ عنها نتائج عظيمة جدًّا،<lb/>والتي تعد مقدمة لأفول نجم تركيا في الأماكن المقدسة، وتحرير البلاد التي هي مهد<lb/>الديانة المسيحية. وقد قطعت المواصلات التركية تمامًا مع القوات التي تحارب في<lb/>بلاد العرب، وصار مصير (المدينة) معروفًا من الآن، وقد احتلت إنكلترا -<lb/>حليفة ملك الحجاز - كل العراق تقريبًا، وجنوبي بلاد فلسطين.<lb/>
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
@@ -165,6 +165,6 @@
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P3041.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>

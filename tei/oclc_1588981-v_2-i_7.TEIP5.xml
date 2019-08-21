@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,31 +42,31 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="2" to="2" change="#d2e128 #d2e141" xml:lang="ar">2</tei:biblScope>
-                  <tei:biblScope unit="issue" from="7" to="7" change="#d2e128 #d2e141" xml:lang="ar">7</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="2" to="2" change="#d2e128 #d2e141" xml:lang="ar">2</biblScope>
+                  <biblScope unit="issue" from="7" to="7" change="#d2e128 #d2e141" xml:lang="ar">7</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P334.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
+      <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1316-12-19" datingMethod="#cal_islamic" when="1899-04-30">19 ذو الحجة 1316</date>هـ</head>
             <lb/>
@@ -94,7 +94,7 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">الساكت عن الحق شيطان أخرس</head>
                <lb/>لأحد أفاضل الأمراء والكتاب في الشام<lb/>
-               <lb/>عثرت - بطريق المصادفة والاتفاق - على مقالة في جريدة طرابلس في<lb/>العلاج الشافي من داء التأخر الملمّ بنا برّأ بها محررها ساحة العلماء من تبعة هذا<lb/>التأخر، وادعى أن العلاج الشافي هو عقد الشركات، وسكت عما سوى ذلك من الأمور المهمة مكتفيًا بالعَرَض عن الجوهر، فلم أشأ أن أسكت عن بيان الحق؛ لأن الساكت عن الحق شيطان أخرس فأقول:<lb/>أما تبرئته ساحة العلماء فلا أراه مصيبًا فيه؛ لأن العلماء هم هداة الأمة<lb/>ومرشدوها وهم المطالبون بالأمر بالمعروف والنهي عن المنكر، فهم إذًا المسئولون<lb/>بعد الأمراء الذين بيدهم الحل والعقد؛ لقوله عليه الصلاة والسلام: (ألا كلكم<lb/>راعٍ وكلكم مسؤول عن رعيته) ، ولقوله أيضًا: (ما من عبد يسترعيه الله رعية<lb/>فلم يحطها بنصحه إلا لم يجد رائحة الجنة) إلى غير ذلك من الآثار الكثيرة التي<lb/>نكتفي منها بما تقدَّم.<lb/>ووجه مسئولية العلماء هي لأنهم عدلوا عن الأمر بالمعروف والنهي عن المنكر<lb/>إلى التزلف والتملق للأمراء وأصحاب الجاه واليسار، وعن الإرشاد الصحيح إلى<lb/>التضليل، وعن بث العلوم الصحيحة إلى التعلق بأهداب الخرافات والتُّرَّهَات، أما<lb/>الأول فهو ظاهر فيما نراه من إقبالهم على الأمراء وإطرائهم إياهم وتزيينهم لهم سوء<lb/>أعمالهم لرتبة ينالونها أو مال يصيبونه أو جاه يحصلون عليه؛ حتى إن واحدًا منهم<lb/>ألف كتابًا ضخمًا في مجلدين في إطراء أحد الظلمة الخونة. وأما الثاني فهو معلوم<lb/>من وعظهم وإرشادهم بحكايات يحكونها وروايات يروونها، ما أنزل الله بها من<lb/>سلطان؛ يُضلون بها العقول، ويفسدون الأفهام ويثبطون الهمم ويُقْعدون<lb/>العزائم، وهم يحسبون أنهم يحسنون صنعًا، ألا ساء ما يعملون. وأما الثالث فلعدولهم<lb/>عن العلوم الصحيحة الحقة إلى السفاسف، ومزْجهم الحق بالباطل كما هو مثبت بتقاريرهم التي يلقونها في دروسهم المشحونة بالأقاصيص والحكايات، وبتآليفهم<lb/>السخيفة البعيدة عن التحقيق الحاوية ما تمجّه الأذواق وتأباه العقول السليمة.<lb/>نكتفي منها بإيراد ما يأتي من كتاب (الفواكه الجنوية في الملتقَطات النجوية<lb/>تأليف العالم العلامة البحر الفهامة مَن فضله في الأقطار ساري الأستاذ الشيخ عبد<lb/>الهادي نجا الإبياري أمد الله في حياته ونفع المسلمين بمؤلفاته، آمين) (كذا في<lb/>الأصل) ، فقد جاء في الصحيفة <tei:date calendar="#cal_gregorian" when="0145" change="#d3e146">145</tei:date> من النسخة المطبوعة في القاهرة ما نصه<lb/>بالحرف الواحد:<lb/>(ومما جرب للقرينة وأخذناه عن بعض الأكابر أن يسقى الطفل لبن معزى<lb/>حمراء، ويدهن جسده كله من هذا اللبن، وأن يعلق عليه بندقى، وأن يحك عود<lb/>الصليب الهندي الأصلي في لبن البز، ويسقى له، وأن يؤخذ فراخ الحمام الصغار<lb/>وينتف ما على دبرها من الوبر ويوضع منفذ الدبر منها على منفذ دبر الصبي، فكل<lb/>حمامة ماتت توضع غيرها وهكذا. إلى أن يصيب الأخيرة شيء فيعلم أنها ذهبت،<lb/>ومما جربناه للقرينة أيضًا أن تحضر عجوز قد آيست من الحيض وتوضع وجه الطفل<lb/>أمام <hi style="color:red;" change="#d2e141" xml:lang="ar">…</hi> وهو مفتوح، وتوضع إصبعها فتلطخه برطوبة <gap resp="#org_MS"/> وتخط به (صليبًا!)<lb/>على جبهة الطفل، ثم تأخذ قطعة شبه زفرة قدر البندقة وتخط بها (سبع) خطوط<lb/>على جبهته أيضًا، ثم تحرقها وتضعها في رغيف وترميه لكلب أسود يأكله، والشب<lb/>المذكور إذا وضع على رف في البيت بعد أن حك به جبهة الصبي مرارًا وأحرق<lb/>وكان بالصبي نظرة - فإنها تذهب ولا تعود) (انتهى) .<lb/>فهؤلاء هم العلماء والمرشدون في هذا العصر، وفي كل يوم نسمع منهم أشياء<lb/>كثيرة تماثل ذلك أو تزيد عليه ومن أنكر عليهم رموه بالزندقة وقالوا: إنه مارق من<lb/>الدين. ونفروا العامة منه، فعلى مثل هذا الجهل يؤاخَذ العلماء. أما ما ذهب إليه من<lb/>عقد الشركات فهو من الأمور الثانوية و (حاجتنا الكبرى) إنما هي إلى عمال<lb/>أمناء صادقين أكْفَاء عفيفين متهالكين متفانين في حب الدولة والوطن، يساعدون سيدنا ومولانا الخليفة الأعظم على إنفاذ رغائبه في تعميم الإصلاح بنشر ألوية<lb/>العدل والضرب على أيدي الظلمة الخونة؛ فإن الظلم مُؤْذِن بخراب العمران، كما<lb/>أثبت ذلك العلامة ابن خلدون في مقدمته. وهذا لا يتم إلا بتوسيد المناصب<lb/>إلى أهلها، وتعميم العلوم والمعارف بين طبقات الناس والسيطرة على الأعمال<lb/>ومكافأة الأمين الصادق ومجازاة الخائن المارق ونهضة العلماء لإرشاد الناس لما<lb/>فيه صلاح دينهم ودنياهم فعندها تتوفر الأموال وتتوطد الأمنية فتعقد الشركات وتحيا<lb/>الصنائع وتنمو الثروة..إلخ، فعلى الجرائد الصادقة أن ترمي إلى هذا الغرض<lb/>وتبوح بهذا السر وتكشف عن هذا المُعمى؛ فإن كتمان الداء يزيده عياءً، والناصح<lb/>الأمين لا يماحك ولا يوارب ولا يغش ولا يخادع. وبالله التوفيق.<lb/>(المنار)<lb/>طفقت الأمة تتنبه إلى عذل العلماء ولومهم على تقصيرهم في إرشادها إلى ما<lb/>تقوم به مصالحها المعاشية والمَعادية وفقًا لدينها القويم، فهذه رسالة من أحد بلاد<lb/>سوريا، وعندنا رسالة أخرى أشد عذلاً من هذه. تنبهت الأفكار في جميع الأقطار فإذا<lb/>لم يلتفت العلماء إلى النظر الدقيق في أحوال العصر وما تقتضيه مصلحة الأمة فيه،<lb/>ويقوموا بالإرشاد الصحيح الموصل للغاية يوشك أن لا يمر بضع سنين إلا والرأي<lb/>العام منحرف عنهم أشد الانحراف بل ينتظر ما هو أعظم من هذا.<lb/>نعم، إن هذا مما تتوقع مضرته وتخشى مغبته، ولكنه ليس بأضر من الخضوع<lb/>الأعمى لهم، وهم على ما هم من الشؤون التي تكلمنا عنها في مقالات كثيرة وسنزيدها<lb/>شرحًا وبيانًا، أليس من العار أن تكون كتب المشهورين بالنباهة منهم مملوءة<lb/>بالخرافات والهذيان والغش من غير نكير، وأن ينقل عن بعض أكابرهم القول بأن فن<lb/>تقويم البلدان - بل وسائل الفنون الرياضية والطبيعية - لا لزوم لها ألبتة؟ !<lb/>أليس من الفضيحة أن يقول بعضهم: إن الانتظام والترتيب مفسد للأزهر ومُذهب<lb/>لبركته؛ لأن في الخلل القديم سرًّا روحانيًّا؟!<lb/>كفى كفى؛ مَن كتم داءه قتله. ليأخذ من لم يعرف أحوال العصر برأي من<lb/>عرف. ليخضع من تقوم عليه الحجة لها، وليتفقوا جميعًا على العمل قبل أن يخرج<lb/>الأمر من يدهم. والسلام. <note type="footnote" place="bottom"/>
+               <lb/>عثرت - بطريق المصادفة والاتفاق - على مقالة في جريدة طرابلس في<lb/>العلاج الشافي من داء التأخر الملمّ بنا برّأ بها محررها ساحة العلماء من تبعة هذا<lb/>التأخر، وادعى أن العلاج الشافي هو عقد الشركات، وسكت عما سوى ذلك من الأمور المهمة مكتفيًا بالعَرَض عن الجوهر، فلم أشأ أن أسكت عن بيان الحق؛ لأن الساكت عن الحق شيطان أخرس فأقول:<lb/>أما تبرئته ساحة العلماء فلا أراه مصيبًا فيه؛ لأن العلماء هم هداة الأمة<lb/>ومرشدوها وهم المطالبون بالأمر بالمعروف والنهي عن المنكر، فهم إذًا المسئولون<lb/>بعد الأمراء الذين بيدهم الحل والعقد؛ لقوله عليه الصلاة والسلام: (ألا كلكم<lb/>راعٍ وكلكم مسؤول عن رعيته) ، ولقوله أيضًا: (ما من عبد يسترعيه الله رعية<lb/>فلم يحطها بنصحه إلا لم يجد رائحة الجنة) إلى غير ذلك من الآثار الكثيرة التي<lb/>نكتفي منها بما تقدَّم.<lb/>ووجه مسئولية العلماء هي لأنهم عدلوا عن الأمر بالمعروف والنهي عن المنكر<lb/>إلى التزلف والتملق للأمراء وأصحاب الجاه واليسار، وعن الإرشاد الصحيح إلى<lb/>التضليل، وعن بث العلوم الصحيحة إلى التعلق بأهداب الخرافات والتُّرَّهَات، أما<lb/>الأول فهو ظاهر فيما نراه من إقبالهم على الأمراء وإطرائهم إياهم وتزيينهم لهم سوء<lb/>أعمالهم لرتبة ينالونها أو مال يصيبونه أو جاه يحصلون عليه؛ حتى إن واحدًا منهم<lb/>ألف كتابًا ضخمًا في مجلدين في إطراء أحد الظلمة الخونة. وأما الثاني فهو معلوم<lb/>من وعظهم وإرشادهم بحكايات يحكونها وروايات يروونها، ما أنزل الله بها من<lb/>سلطان؛ يُضلون بها العقول، ويفسدون الأفهام ويثبطون الهمم ويُقْعدون<lb/>العزائم، وهم يحسبون أنهم يحسنون صنعًا، ألا ساء ما يعملون. وأما الثالث فلعدولهم<lb/>عن العلوم الصحيحة الحقة إلى السفاسف، ومزْجهم الحق بالباطل كما هو مثبت بتقاريرهم التي يلقونها في دروسهم المشحونة بالأقاصيص والحكايات، وبتآليفهم<lb/>السخيفة البعيدة عن التحقيق الحاوية ما تمجّه الأذواق وتأباه العقول السليمة.<lb/>نكتفي منها بإيراد ما يأتي من كتاب (الفواكه الجنوية في الملتقَطات النجوية<lb/>تأليف العالم العلامة البحر الفهامة مَن فضله في الأقطار ساري الأستاذ الشيخ عبد<lb/>الهادي نجا الإبياري أمد الله في حياته ونفع المسلمين بمؤلفاته، آمين) (كذا في<lb/>الأصل) ، فقد جاء في الصحيفة <date calendar="#cal_gregorian" when="0145" change="#d3e146">145</date> من النسخة المطبوعة في القاهرة ما نصه<lb/>بالحرف الواحد:<lb/>(ومما جرب للقرينة وأخذناه عن بعض الأكابر أن يسقى الطفل لبن معزى<lb/>حمراء، ويدهن جسده كله من هذا اللبن، وأن يعلق عليه بندقى، وأن يحك عود<lb/>الصليب الهندي الأصلي في لبن البز، ويسقى له، وأن يؤخذ فراخ الحمام الصغار<lb/>وينتف ما على دبرها من الوبر ويوضع منفذ الدبر منها على منفذ دبر الصبي، فكل<lb/>حمامة ماتت توضع غيرها وهكذا. إلى أن يصيب الأخيرة شيء فيعلم أنها ذهبت،<lb/>ومما جربناه للقرينة أيضًا أن تحضر عجوز قد آيست من الحيض وتوضع وجه الطفل<lb/>أمام <hi style="color:red;" change="#d2e141" xml:lang="ar">…</hi> وهو مفتوح، وتوضع إصبعها فتلطخه برطوبة <gap resp="#org_MS"/> وتخط به (صليبًا!)<lb/>على جبهة الطفل، ثم تأخذ قطعة شبه زفرة قدر البندقة وتخط بها (سبع) خطوط<lb/>على جبهته أيضًا، ثم تحرقها وتضعها في رغيف وترميه لكلب أسود يأكله، والشب<lb/>المذكور إذا وضع على رف في البيت بعد أن حك به جبهة الصبي مرارًا وأحرق<lb/>وكان بالصبي نظرة - فإنها تذهب ولا تعود) (انتهى) .<lb/>فهؤلاء هم العلماء والمرشدون في هذا العصر، وفي كل يوم نسمع منهم أشياء<lb/>كثيرة تماثل ذلك أو تزيد عليه ومن أنكر عليهم رموه بالزندقة وقالوا: إنه مارق من<lb/>الدين. ونفروا العامة منه، فعلى مثل هذا الجهل يؤاخَذ العلماء. أما ما ذهب إليه من<lb/>عقد الشركات فهو من الأمور الثانوية و (حاجتنا الكبرى) إنما هي إلى عمال<lb/>أمناء صادقين أكْفَاء عفيفين متهالكين متفانين في حب الدولة والوطن، يساعدون سيدنا ومولانا الخليفة الأعظم على إنفاذ رغائبه في تعميم الإصلاح بنشر ألوية<lb/>العدل والضرب على أيدي الظلمة الخونة؛ فإن الظلم مُؤْذِن بخراب العمران، كما<lb/>أثبت ذلك العلامة ابن خلدون في مقدمته. وهذا لا يتم إلا بتوسيد المناصب<lb/>إلى أهلها، وتعميم العلوم والمعارف بين طبقات الناس والسيطرة على الأعمال<lb/>ومكافأة الأمين الصادق ومجازاة الخائن المارق ونهضة العلماء لإرشاد الناس لما<lb/>فيه صلاح دينهم ودنياهم فعندها تتوفر الأموال وتتوطد الأمنية فتعقد الشركات وتحيا<lb/>الصنائع وتنمو الثروة..إلخ، فعلى الجرائد الصادقة أن ترمي إلى هذا الغرض<lb/>وتبوح بهذا السر وتكشف عن هذا المُعمى؛ فإن كتمان الداء يزيده عياءً، والناصح<lb/>الأمين لا يماحك ولا يوارب ولا يغش ولا يخادع. وبالله التوفيق.<lb/>(المنار)<lb/>طفقت الأمة تتنبه إلى عذل العلماء ولومهم على تقصيرهم في إرشادها إلى ما<lb/>تقوم به مصالحها المعاشية والمَعادية وفقًا لدينها القويم، فهذه رسالة من أحد بلاد<lb/>سوريا، وعندنا رسالة أخرى أشد عذلاً من هذه. تنبهت الأفكار في جميع الأقطار فإذا<lb/>لم يلتفت العلماء إلى النظر الدقيق في أحوال العصر وما تقتضيه مصلحة الأمة فيه،<lb/>ويقوموا بالإرشاد الصحيح الموصل للغاية يوشك أن لا يمر بضع سنين إلا والرأي<lb/>العام منحرف عنهم أشد الانحراف بل ينتظر ما هو أعظم من هذا.<lb/>نعم، إن هذا مما تتوقع مضرته وتخشى مغبته، ولكنه ليس بأضر من الخضوع<lb/>الأعمى لهم، وهم على ما هم من الشؤون التي تكلمنا عنها في مقالات كثيرة وسنزيدها<lb/>شرحًا وبيانًا، أليس من العار أن تكون كتب المشهورين بالنباهة منهم مملوءة<lb/>بالخرافات والهذيان والغش من غير نكير، وأن ينقل عن بعض أكابرهم القول بأن فن<lb/>تقويم البلدان - بل وسائل الفنون الرياضية والطبيعية - لا لزوم لها ألبتة؟ !<lb/>أليس من الفضيحة أن يقول بعضهم: إن الانتظام والترتيب مفسد للأزهر ومُذهب<lb/>لبركته؛ لأن في الخلل القديم سرًّا روحانيًّا؟!<lb/>كفى كفى؛ مَن كتم داءه قتله. ليأخذ من لم يعرف أحوال العصر برأي من<lb/>عرف. ليخضع من تقوم عليه الحجة لها، وليتفقوا جميعًا على العمل قبل أن يخرج<lb/>الأمر من يدهم. والسلام. <note type="footnote" place="bottom"/>
             </div>
             <pb n="n2-p107" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P337.xhtml"/>
 
@@ -128,6 +128,6 @@
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P339.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>

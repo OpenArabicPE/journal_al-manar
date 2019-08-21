@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,32 +42,32 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="35" to="35" change="#d2e128 #d2e141" xml:lang="ar">35</tei:biblScope>
-                  <tei:biblScope unit="issue" from="8" to="8" change="#d2e128 #d2e141" xml:lang="ar">8</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="35" to="35" change="#d2e128 #d2e141" xml:lang="ar">35</biblScope>
+                  <biblScope unit="issue" from="8" to="8" change="#d2e128 #d2e141" xml:lang="ar">8</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4527.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
-            <head change="#d2e141" xml:lang="ar">ربيع الثاني - <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1359" change="#d3e146">1359</tei:date>هـ</head>
+      <body change="#d2e141" xml:lang="ar">
+            <head change="#d2e141" xml:lang="ar">ربيع الثاني - <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1359" change="#d3e146">1359</date>هـ</head>
             <lb/>
          <date calendar="#cal_gregorian" when="1940" change="#d2e141" xml:lang="ar">مايو - 1940م</date>
          <pb n="n35-p552" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4528.xhtml"/>
@@ -203,7 +203,7 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">انتقاد المنار</head>
                <lb/>حول ما نُشر في آيات الصفات وأحاديثها أيضًا<lb/>
-               <lb/>جاءنا هذا الخطاب بتوقيع مبهم، ونحن نتسامح بنشره إيثارًا لتجلية الموضوع<lb/>تجليةً تامةً - بحول الله وقوته - مع ردنا عليه:<lb/>بسم الله الرحمن الرحيم<lb/>حضرة صاحب الفضيلة الشيح حسن البنا رئيس تحرير مجلة <tei:title level="j" change="#d2e191">المنار</tei:title>: السلام<lb/>عليكم ورحمة الله وبركاته. وبعد، فقد اطلعنا على ما نشر في العدد الأخير من<lb/>المنار تحت عنوان نقد المنار، ردًّا على رسالة أحد القراء الكرام، وشجعنا ذلك<lb/>على الكتابة إليكم في شيء من الصراحة.<lb/>لما اطلعت على عدد المنار الذي بدأتم بإصداره وبادرنا إلى تصفحه، حاك<lb/>في نفسي ما جاء في رسالة القارئ إليكم، وفهمت من كلامكم فيما بين المجلتين<lb/>(الهدى والإسلام) من الخلاف نفس ما فهمه الناقد، ولعلي أخطأت الفهم أنا أيضًا،<lb/>إلا أنكم في ذلك المقال لم تقولوا بخطأ المجلتين، ولم تشيروا إلا إلى إخلاصهما<lb/>وجهادهما، وكان من العجب في رأينا ما ذكرتم في العدد الأخير من خطأ المجلتين<lb/>فيما ذهبتا إليه.<lb/>وبالرجوع إلى أقوال المجلتين ومقالات كتابهما ظننا أن حكمك بخطأ المجلتين<lb/>يكاد يكون حكمًا على طائفتين غيرهما، فقد أجهدنا أنفسنا في مطالعة المجلتين فلم<lb/>نعثر على عقيدة تفسير الاستواء بالاستقرار، كما لم يجزم الفريق الآخر بتأويل<lb/>الاستواء إلى الاستيلاء وحده.<lb/>فلعلكم تأثرتم في حكمكم هذا بما يقال ويشاع فقط، وهذا ما نرجو أن يكون<lb/>المنار بعيدًا عنه.<lb/>ولذلك نرى - إحقاقًا للحق ووضعًا للأمور في نصابها - أن ترجعوا إلى كلام<lb/>المجلتين، وتحكموا عليهما بما تقولان لا بما يقول بعضهم على بعض، ولا بما<lb/>يشاع عنهما بين العامة والدهماء.<lb/>وملاحظة أخرى في العدد الأخير نحب أن تبينوا لنا حقيقتها، وهي ما<lb/>نسبتموه لعلي بن أبي طالب - كرم الله وجهه - في باب التفسير، ذلك الكلام<lb/>العجيب الذي لا يشبه في أسلوبه ولا معانيه ما تواتر إلينا من كلامه رضي الله<lb/>تعالى عنه، ففي أي ديوان من دواوين السنة المعتبرة عند المسلمين وجدتم هذا<lb/>الخبر؟ أفيدونا رحمكم الله، وإن لم يوجد في شيء منها، فهل ترون أن أمثال<lb/>هذه (الحواديت) التي ملئت بها بعض الكتب المجهولة الأصل مثل نهج البلاغة<lb/>وغيره، تصلح للاحتجاج ولتقرير عقيدة إسلامية؟<lb/>وإني وإن كانت بيني وبين فضيلتكم معرفة، إلا أني أحب أن أكون - إلى<lb/>حين - مستترًا والسلام عليكم ورحمة الله.<lb/>
+               <lb/>جاءنا هذا الخطاب بتوقيع مبهم، ونحن نتسامح بنشره إيثارًا لتجلية الموضوع<lb/>تجليةً تامةً - بحول الله وقوته - مع ردنا عليه:<lb/>بسم الله الرحمن الرحيم<lb/>حضرة صاحب الفضيلة الشيح حسن البنا رئيس تحرير مجلة <title level="j" change="#d2e191">المنار</title>: السلام<lb/>عليكم ورحمة الله وبركاته. وبعد، فقد اطلعنا على ما نشر في العدد الأخير من<lb/>المنار تحت عنوان نقد المنار، ردًّا على رسالة أحد القراء الكرام، وشجعنا ذلك<lb/>على الكتابة إليكم في شيء من الصراحة.<lb/>لما اطلعت على عدد المنار الذي بدأتم بإصداره وبادرنا إلى تصفحه، حاك<lb/>في نفسي ما جاء في رسالة القارئ إليكم، وفهمت من كلامكم فيما بين المجلتين<lb/>(الهدى والإسلام) من الخلاف نفس ما فهمه الناقد، ولعلي أخطأت الفهم أنا أيضًا،<lb/>إلا أنكم في ذلك المقال لم تقولوا بخطأ المجلتين، ولم تشيروا إلا إلى إخلاصهما<lb/>وجهادهما، وكان من العجب في رأينا ما ذكرتم في العدد الأخير من خطأ المجلتين<lb/>فيما ذهبتا إليه.<lb/>وبالرجوع إلى أقوال المجلتين ومقالات كتابهما ظننا أن حكمك بخطأ المجلتين<lb/>يكاد يكون حكمًا على طائفتين غيرهما، فقد أجهدنا أنفسنا في مطالعة المجلتين فلم<lb/>نعثر على عقيدة تفسير الاستواء بالاستقرار، كما لم يجزم الفريق الآخر بتأويل<lb/>الاستواء إلى الاستيلاء وحده.<lb/>فلعلكم تأثرتم في حكمكم هذا بما يقال ويشاع فقط، وهذا ما نرجو أن يكون<lb/>المنار بعيدًا عنه.<lb/>ولذلك نرى - إحقاقًا للحق ووضعًا للأمور في نصابها - أن ترجعوا إلى كلام<lb/>المجلتين، وتحكموا عليهما بما تقولان لا بما يقول بعضهم على بعض، ولا بما<lb/>يشاع عنهما بين العامة والدهماء.<lb/>وملاحظة أخرى في العدد الأخير نحب أن تبينوا لنا حقيقتها، وهي ما<lb/>نسبتموه لعلي بن أبي طالب - كرم الله وجهه - في باب التفسير، ذلك الكلام<lb/>العجيب الذي لا يشبه في أسلوبه ولا معانيه ما تواتر إلينا من كلامه رضي الله<lb/>تعالى عنه، ففي أي ديوان من دواوين السنة المعتبرة عند المسلمين وجدتم هذا<lb/>الخبر؟ أفيدونا رحمكم الله، وإن لم يوجد في شيء منها، فهل ترون أن أمثال<lb/>هذه (الحواديت) التي ملئت بها بعض الكتب المجهولة الأصل مثل نهج البلاغة<lb/>وغيره، تصلح للاحتجاج ولتقرير عقيدة إسلامية؟<lb/>وإني وإن كانت بيني وبين فضيلتكم معرفة، إلا أني أحب أن أكون - إلى<lb/>حين - مستترًا والسلام عليكم ورحمة الله.<lb/>
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
@@ -236,6 +236,6 @@
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4537.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>

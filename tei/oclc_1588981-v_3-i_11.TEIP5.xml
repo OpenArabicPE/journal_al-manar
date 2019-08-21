@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,31 +42,31 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="3" to="3" change="#d2e128 #d2e141" xml:lang="ar">3</tei:biblScope>
-                  <tei:biblScope unit="issue" from="11" to="11" change="#d2e128 #d2e141" xml:lang="ar">11</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="3" to="3" change="#d2e128 #d2e141" xml:lang="ar">3</biblScope>
+                  <biblScope unit="issue" from="11" to="11" change="#d2e128 #d2e141" xml:lang="ar">11</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P654.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
+      <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1318-02-21" datingMethod="#cal_islamic" when="1900-06-20">21 صفر  1318</date>هـ</head>
             <lb/>
@@ -89,7 +89,7 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">نصيحة أمير أفغانستان إلى ولده وولى عهده</head>
                <lb/>الأمير حبيب الله خان<lb/>
-               <lb/>اطلعنا على نصيحة ألقاها الأمير عبد الرحمن أمير أفغانستان على ولده حبيب<lb/>الله خان نشرتها جريدة (<tei:title level="j" change="#d2e191">الحبل</tei:title> المتين) التي تصدر باللغة الفارسية في مدينة<lb/>كلكتا , وقد ترجمت هذه النصيحة جريدة محمدان إلى اللغة الإنكليزية , ونحن ننشر<lb/>للقراء ترجمتها باللغة العربية , فقد حوت من جليل الآراء وسامي الأفكار<lb/>الإدارية والسياسية ما هو جدير بمثل أمير الأفغان حفظه الله , وها هي:<lb/>(في ذات يوم دعا الأمير عبد الرحمن ولده حبيب الله خان وألقى على مسامعه<lb/>العبارات الآتية) :<lb/>ولدى العزيز: لا يخفى عليك أنني سلمت لك زمام الحكومة في مدة حياتي ,<lb/>وأن هذا العمل بلا شك مخالف لنظام الحكومات ومعاملات الدول الأوربية في<lb/>الغرب والسلاطين في الشرق , ولكن غرضي من ذلك هو أن أعلمك كيف تحكم<lb/>وكيف تفعل؛ لكي تكون على بصيرة وحكمة حينما يخلص إليك الملك وترقى على<lb/>عرش هذه الدولة , ولي في ذلك أيضًا غرض آخر وهو أن يعرف مقامك رؤساء<lb/>القبائل الأفغانية فيخشوا بأسك ويخضعوا لرأيك.<lb/>والآن أريد أن ألقي على مسامعك بعض كلمات في قالب النصيحة , وأعتقد<lb/>أنك إذا سِرت على خطتها تأمن على سلامة بلادك , ولا ترتكب خطأ في حكومتك<lb/>يؤدي إلى ضياع نفوذك وهذه نصيحتي إليك:<lb/>(1) يجب عليك يا بني أن تتمسك بمبادئ دينك الشريف , فتجعل له المقام<lb/>الأول , وتنظر للواجبات الخاصة به قبل نظرك إلى أشغالك وسياستك , وبعبارة<lb/>أخرى: يجب عليك أن تكون قدوة حسنة في التقى والدين لكافة أفراد رعيتك.<lb/>(2) يجب عليك أيضًا أن توجه عنايتك إلى سعادة أمتك وراحة رعيتك ,<lb/>وتوطيد دعائم السلام والسكون في أرجاء بلادك. واعلم أن نجاح البلاد وفلاحها<lb/>متوقفان على الثروة , وأن الثروة والنفوذ لا يدرَكان بغير وسائط الزراعة والتجارة<lb/>والصناعة , وأن هذه الوسائل تحتاج في ترقيتها وتنجيحها إلى التعليم والتربية<lb/>العموميين.<lb/>إن أمتنا يا بني لا تزال في الدرجة الدنيا من درجات المدنية , ولم يوجه<lb/>أفرادها أنظارهم إلى تحصيل العلوم وتربية الأفكار , ولقد كانت أميالي القلبية من<lb/>زمن طويل موجهة إلى تشييد المدارس وإرسال أنوار العرفان إلى سائر الأقطار<lb/>الأفغانية على طريق المدارس ودور الفنون الموجودة في البلاد الغربية , ولكن مثل<lb/>هذه الغاية لا تدرك بمجرد الإرادة , ولا تحقق في زمن قليل؛ لأنها تحتاج إلى<lb/>التنمية والترقية التدريجية وحينئذ يلزمك أن توجه عنايتك التامة إلى هذه النقطة<lb/>المهمة , وأن تعتقد أن من أقدس الواجبات عليك هو أن تبعث في نفوس رعيتك<lb/>ميلاً إلى التربية والتعليم.<lb/>(3) حيث أنك ستستلم زمام الأحكام بيدك , وتكون أنت أفضل رجل في<lb/>هذه الديار وأسماهم عقلاً وأكبرهم فكرًا وأعلاهم مقامًا - فأحسن معاملة أتباعك<lb/>ومَن تحت حكمك. عامل رعيتك باللطف والمحبة الأبوية ليعتقدوا اعتقادًا ثابتًا<lb/>بشفقتك عليهم وحرصك على سعادتهم وراحتهم؛ إذ هذا العمل يزيد في محبتهم لك<lb/>ويجعلك أسمى مكانة في أعينهم , ولكن لا يجب أن تعامل الأجانب بمثل<lb/>هذه المعاملة الأبوية لأنها تزيد في جسارتهم ووقاحتهم.<lb/>(4) يجب عليك أن تقدر أعمال رجالك ولا تنسَ فضل الفضلاء منهم<lb/>فتكافئهم؛ لأن ذلك يقوي عزائمهم وينشطهم على خدمتك بالدقة والإخلاص<lb/>والاستقامة.<lb/>(5) كن بعيدًا عن المحاباة والمجاملة في إنصاف المظلوم من الظالم ومعاقبة<lb/>المجرم على جريمته , ولو كان المذنب ولدك وفلذة كبدك , واعرف أنك بذلك<lb/>تسترقُّ القلوب وتستعبدها.<lb/>(6) لا تمكِّن الأجانب من فرصة ينالون بها حقًّا من الحقوق أو نفوذًا كيف<lb/>كان , لأنك لو ملكتهم قليلاً من الفرصة فإنك تمهد لهم الطريق إلى خراب مملكتك<lb/>وضياع بلادك.<lb/>(7) حيث أن الحكومة الإنكليزية بقيت معي إلى هذا العهد مسالمة مصافية<lb/>فكن معها كما كنت أنا , ولكن على أي حال ضع نصب عينيك سلامة أفغانستان<lb/>واستقلالها.<lb/>(8) ليكن من أول الواجبات التي تكلف نفسك بها: حماية مصالح رعاياك في<lb/>كل حال من الأحوال.<lb/>(9) أما ما يختص بالمسائل السياسية فيجب عليك أن لا ترتكن فيها على<lb/>وزرائك وأعوانك , بل يجب عليك أن توجه اهتمامك لكل شئ صغيرًا كان أو كبيرًا<lb/>بنفسك.<lb/>(10) وأما ما يتعلق بالمسائل الحربية فاعلم أنه يلزمك أن تكون قواتك<lb/>الحربية على قدم الاستعداد كأنما تريد أن تزحف بها في الغد إلى ساحة القتال<lb/>لمحاربة دولة أقوى منك جأشًا وأكثر عددًا وعِدَدًا , واعلم يا بني أن الأيام علمتنا<lb/>دروسًا يجب أن نستفيد منها , فقد عرفنا أن من أول الضروريات أن يكون الجيش<lb/>دائمًا على أهبة الاستعداد التام , ثم لا تنس زيادة الآلات والذخائر الحربية في زمن<lb/>السلم لأنه كما لا يخفى عليك من الصعب أن تزود جيشك بما يكفيه من المؤونة<lb/>والذخائر والآلات في زمن الحرب.<lb/>(11) يجب على الملوك أن يجتهدوا في جذب قلوب الجند وازدياد محبتهم<lb/>لهم فاجعل جنودك سعداء مرتاحين فيحبوك فلا يتأخروا للوراء في ساعة يفيدك فيها<lb/>أن يضحوا حياتهم حبًا فيك وحرصًا على سلامتك , واعلم أن الجنود يبيعون<lb/>أرواحهم الغالية بمرتبات قليلة تعطى دائمًا في مواعيدها , وإذا لم تسر معهم على<lb/>هذه الخطة فإنهم يضنون في ساعة شدة أن يبيعوك أرواحهم بثمن أغلى<lb/>وقيمة أسمى.<lb/>(12) يجب أن تعلم يا بني أن بيت مال الحكومة هو ملك الأمة , وليس<lb/>مقام السلطان أو الأمير تجاهه إلا مقام الحارس الأمين على ما فيه , فإذا ابتدأ الحاكم<lb/>يصرف المال المودع عنده على مصالحه ومطالبه الخصوصية؛ فإنه يكون خائنًا<lb/>لمن ولوه الأمانة , وسلموه القيادة , واعتقدوا فيه الاستقامة , ومن المقرر المعلوم أن<lb/>الخائن لا قيمة له في أعين الأمة مطلقًا , وأنه مبغض عند الله وعند الناس أجمعين ,<lb/>ويجب أن يكون بيت المال دائمًا ممتلئًا لأن ضعف الحكومة يظهر في قلة مالها<lb/>أكثر من ظهوره في شيء آخر , كذلك يلزمك أن تدقق في ضروب المصروفات<lb/>والإيرادات , وكل ما يزيد يضم على بيت المال بالتوالي.<lb/>ويجب عليك أن تعمل كل ما في إمكانك من الوسائل لزيادة ثروة بيت المال<lb/>لكي تتمكن من إنجاز الأعمال التي تريد إنجازها سواء كانت حربية أو سياسية أو<lb/>تجارية أو صناعية أو تعليمية في الأوقات المناسبة لها؛ لأن الزمن يا بني يحتاج<lb/>إلى كل هذه الأعمال والسير على هذا النهج القويم لكي تعيش آمنًا مطمئنًا قويًّا<lb/>عزيز الجانب) اهـ من ترجمة المؤيد بتصرف قليل.<lb/>(المنار)<lb/>يا حبذا لو اعتبر بهذه النصيحة جميع الحكومات الإسلامية , فإن<lb/>الإمارة الأفغانية ما أصبحت أعزها وأقواها على صغرها إلا بحزم وحكمة أميرها<lb/>الذي أفاده نور البصيرة وحسن التجربة هذه النصائح التي هي أساس السياسة وروح<lb/>الرئاسة. <note type="footnote" place="bottom"/>
+               <lb/>اطلعنا على نصيحة ألقاها الأمير عبد الرحمن أمير أفغانستان على ولده حبيب<lb/>الله خان نشرتها جريدة (<title level="j" change="#d2e191">الحبل</title> المتين) التي تصدر باللغة الفارسية في مدينة<lb/>كلكتا , وقد ترجمت هذه النصيحة جريدة محمدان إلى اللغة الإنكليزية , ونحن ننشر<lb/>للقراء ترجمتها باللغة العربية , فقد حوت من جليل الآراء وسامي الأفكار<lb/>الإدارية والسياسية ما هو جدير بمثل أمير الأفغان حفظه الله , وها هي:<lb/>(في ذات يوم دعا الأمير عبد الرحمن ولده حبيب الله خان وألقى على مسامعه<lb/>العبارات الآتية) :<lb/>ولدى العزيز: لا يخفى عليك أنني سلمت لك زمام الحكومة في مدة حياتي ,<lb/>وأن هذا العمل بلا شك مخالف لنظام الحكومات ومعاملات الدول الأوربية في<lb/>الغرب والسلاطين في الشرق , ولكن غرضي من ذلك هو أن أعلمك كيف تحكم<lb/>وكيف تفعل؛ لكي تكون على بصيرة وحكمة حينما يخلص إليك الملك وترقى على<lb/>عرش هذه الدولة , ولي في ذلك أيضًا غرض آخر وهو أن يعرف مقامك رؤساء<lb/>القبائل الأفغانية فيخشوا بأسك ويخضعوا لرأيك.<lb/>والآن أريد أن ألقي على مسامعك بعض كلمات في قالب النصيحة , وأعتقد<lb/>أنك إذا سِرت على خطتها تأمن على سلامة بلادك , ولا ترتكب خطأ في حكومتك<lb/>يؤدي إلى ضياع نفوذك وهذه نصيحتي إليك:<lb/>(1) يجب عليك يا بني أن تتمسك بمبادئ دينك الشريف , فتجعل له المقام<lb/>الأول , وتنظر للواجبات الخاصة به قبل نظرك إلى أشغالك وسياستك , وبعبارة<lb/>أخرى: يجب عليك أن تكون قدوة حسنة في التقى والدين لكافة أفراد رعيتك.<lb/>(2) يجب عليك أيضًا أن توجه عنايتك إلى سعادة أمتك وراحة رعيتك ,<lb/>وتوطيد دعائم السلام والسكون في أرجاء بلادك. واعلم أن نجاح البلاد وفلاحها<lb/>متوقفان على الثروة , وأن الثروة والنفوذ لا يدرَكان بغير وسائط الزراعة والتجارة<lb/>والصناعة , وأن هذه الوسائل تحتاج في ترقيتها وتنجيحها إلى التعليم والتربية<lb/>العموميين.<lb/>إن أمتنا يا بني لا تزال في الدرجة الدنيا من درجات المدنية , ولم يوجه<lb/>أفرادها أنظارهم إلى تحصيل العلوم وتربية الأفكار , ولقد كانت أميالي القلبية من<lb/>زمن طويل موجهة إلى تشييد المدارس وإرسال أنوار العرفان إلى سائر الأقطار<lb/>الأفغانية على طريق المدارس ودور الفنون الموجودة في البلاد الغربية , ولكن مثل<lb/>هذه الغاية لا تدرك بمجرد الإرادة , ولا تحقق في زمن قليل؛ لأنها تحتاج إلى<lb/>التنمية والترقية التدريجية وحينئذ يلزمك أن توجه عنايتك التامة إلى هذه النقطة<lb/>المهمة , وأن تعتقد أن من أقدس الواجبات عليك هو أن تبعث في نفوس رعيتك<lb/>ميلاً إلى التربية والتعليم.<lb/>(3) حيث أنك ستستلم زمام الأحكام بيدك , وتكون أنت أفضل رجل في<lb/>هذه الديار وأسماهم عقلاً وأكبرهم فكرًا وأعلاهم مقامًا - فأحسن معاملة أتباعك<lb/>ومَن تحت حكمك. عامل رعيتك باللطف والمحبة الأبوية ليعتقدوا اعتقادًا ثابتًا<lb/>بشفقتك عليهم وحرصك على سعادتهم وراحتهم؛ إذ هذا العمل يزيد في محبتهم لك<lb/>ويجعلك أسمى مكانة في أعينهم , ولكن لا يجب أن تعامل الأجانب بمثل<lb/>هذه المعاملة الأبوية لأنها تزيد في جسارتهم ووقاحتهم.<lb/>(4) يجب عليك أن تقدر أعمال رجالك ولا تنسَ فضل الفضلاء منهم<lb/>فتكافئهم؛ لأن ذلك يقوي عزائمهم وينشطهم على خدمتك بالدقة والإخلاص<lb/>والاستقامة.<lb/>(5) كن بعيدًا عن المحاباة والمجاملة في إنصاف المظلوم من الظالم ومعاقبة<lb/>المجرم على جريمته , ولو كان المذنب ولدك وفلذة كبدك , واعرف أنك بذلك<lb/>تسترقُّ القلوب وتستعبدها.<lb/>(6) لا تمكِّن الأجانب من فرصة ينالون بها حقًّا من الحقوق أو نفوذًا كيف<lb/>كان , لأنك لو ملكتهم قليلاً من الفرصة فإنك تمهد لهم الطريق إلى خراب مملكتك<lb/>وضياع بلادك.<lb/>(7) حيث أن الحكومة الإنكليزية بقيت معي إلى هذا العهد مسالمة مصافية<lb/>فكن معها كما كنت أنا , ولكن على أي حال ضع نصب عينيك سلامة أفغانستان<lb/>واستقلالها.<lb/>(8) ليكن من أول الواجبات التي تكلف نفسك بها: حماية مصالح رعاياك في<lb/>كل حال من الأحوال.<lb/>(9) أما ما يختص بالمسائل السياسية فيجب عليك أن لا ترتكن فيها على<lb/>وزرائك وأعوانك , بل يجب عليك أن توجه اهتمامك لكل شئ صغيرًا كان أو كبيرًا<lb/>بنفسك.<lb/>(10) وأما ما يتعلق بالمسائل الحربية فاعلم أنه يلزمك أن تكون قواتك<lb/>الحربية على قدم الاستعداد كأنما تريد أن تزحف بها في الغد إلى ساحة القتال<lb/>لمحاربة دولة أقوى منك جأشًا وأكثر عددًا وعِدَدًا , واعلم يا بني أن الأيام علمتنا<lb/>دروسًا يجب أن نستفيد منها , فقد عرفنا أن من أول الضروريات أن يكون الجيش<lb/>دائمًا على أهبة الاستعداد التام , ثم لا تنس زيادة الآلات والذخائر الحربية في زمن<lb/>السلم لأنه كما لا يخفى عليك من الصعب أن تزود جيشك بما يكفيه من المؤونة<lb/>والذخائر والآلات في زمن الحرب.<lb/>(11) يجب على الملوك أن يجتهدوا في جذب قلوب الجند وازدياد محبتهم<lb/>لهم فاجعل جنودك سعداء مرتاحين فيحبوك فلا يتأخروا للوراء في ساعة يفيدك فيها<lb/>أن يضحوا حياتهم حبًا فيك وحرصًا على سلامتك , واعلم أن الجنود يبيعون<lb/>أرواحهم الغالية بمرتبات قليلة تعطى دائمًا في مواعيدها , وإذا لم تسر معهم على<lb/>هذه الخطة فإنهم يضنون في ساعة شدة أن يبيعوك أرواحهم بثمن أغلى<lb/>وقيمة أسمى.<lb/>(12) يجب أن تعلم يا بني أن بيت مال الحكومة هو ملك الأمة , وليس<lb/>مقام السلطان أو الأمير تجاهه إلا مقام الحارس الأمين على ما فيه , فإذا ابتدأ الحاكم<lb/>يصرف المال المودع عنده على مصالحه ومطالبه الخصوصية؛ فإنه يكون خائنًا<lb/>لمن ولوه الأمانة , وسلموه القيادة , واعتقدوا فيه الاستقامة , ومن المقرر المعلوم أن<lb/>الخائن لا قيمة له في أعين الأمة مطلقًا , وأنه مبغض عند الله وعند الناس أجمعين ,<lb/>ويجب أن يكون بيت المال دائمًا ممتلئًا لأن ضعف الحكومة يظهر في قلة مالها<lb/>أكثر من ظهوره في شيء آخر , كذلك يلزمك أن تدقق في ضروب المصروفات<lb/>والإيرادات , وكل ما يزيد يضم على بيت المال بالتوالي.<lb/>ويجب عليك أن تعمل كل ما في إمكانك من الوسائل لزيادة ثروة بيت المال<lb/>لكي تتمكن من إنجاز الأعمال التي تريد إنجازها سواء كانت حربية أو سياسية أو<lb/>تجارية أو صناعية أو تعليمية في الأوقات المناسبة لها؛ لأن الزمن يا بني يحتاج<lb/>إلى كل هذه الأعمال والسير على هذا النهج القويم لكي تعيش آمنًا مطمئنًا قويًّا<lb/>عزيز الجانب) اهـ من ترجمة المؤيد بتصرف قليل.<lb/>(المنار)<lb/>يا حبذا لو اعتبر بهذه النصيحة جميع الحكومات الإسلامية , فإن<lb/>الإمارة الأفغانية ما أصبحت أعزها وأقواها على صغرها إلا بحزم وحكمة أميرها<lb/>الذي أفاده نور البصيرة وحسن التجربة هذه النصائح التي هي أساس السياسة وروح<lb/>الرئاسة. <note type="footnote" place="bottom"/>
             </div>
             <pb n="n3-p250" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P657.xhtml"/>
 
@@ -145,6 +145,6 @@
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P661.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>

@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,31 +42,31 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="2" to="2" change="#d2e128 #d2e141" xml:lang="ar">2</tei:biblScope>
-                  <tei:biblScope unit="issue" from="19" to="19" change="#d2e128 #d2e141" xml:lang="ar">19</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="2" to="2" change="#d2e128 #d2e141" xml:lang="ar">2</biblScope>
+                  <biblScope unit="issue" from="19" to="19" change="#d2e128 #d2e141" xml:lang="ar">19</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P404.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
+      <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1317-03-14" datingMethod="#cal_islamic" when="1899-07-23">14 ربيع الأول 1317</date>هـ</head>
             <lb/>
@@ -115,7 +115,7 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">تأييد عالم وتفنيد واهم</head>
                <lb/>
-               <lb/>ليس في قوة البشر أن يحيط الرجل بجميع العلوم، أو يتقن جميع الأعمال،<lb/>ويتوقف نجاح الأمم وتقدمها في العلوم والفنون والصنائع وسائر الشؤون العامة<lb/>على اتباع قاعدة التوزيع، وإناطة كل علم وكل نوع من العمل بطائفة من الناس<lb/>ينفردون بالعناية به، حتى يبلغوا درجة التبريز فيه؛ بحيث تكون الأمة - في<lb/>مجموعها - نابغة في كل شيء، وقد اهتدت إلى هذه القاعدة الأمم المتمدنة،<lb/>وعملت بها؛ فانتهت في كل علم وعمل إلى الغايات التي نسمع ونشاهد. وقد<lb/>اتسعت عندهم دوائر المعارف؛ حتى صار ينفرد للفرع الواحد من العلم طوائف<lb/>مخصوصة، يحررونه، ويفردونه بالتأليف. ولا يزال قومنا في غفلة من هذا؛<lb/>ولذلك لا يبرع عندنا أحد في شيء من الأشياء. ومن الخذلان أن تضل الأمة عن<lb/>طرق رشادها، ومناهج إسعادها، ولكن ماذا نقول في قوم يعيبون الهدى والرشاد،<lb/>ويذمون مناهج التوفيق والسداد، ويقدحون في عِرض مَن يبرز في علم أو فن،<lb/>فيُظهر غوامضه، ويبدي خوافِيَه؛ محتجين بأن الأمة أحوج إلى غير المسائل التي<lb/>حررها منها إليها، وكأني بهؤلاء النوكى يطعنون بمَن يتكلم في دقائق المساحة<lb/>وتقويم البلدان؛ لأن البلاد المصرية أحوج إلى فن الزراعة منها إلى هذين الفنين،<lb/>وإن كانوا يعلمون أن الجهل بدقائق تقويم البلدان وعدم التفرقة بين (سرس)<lb/>و (فرس) اختزل جزءًا مهمًا من البلاد المصرية، وألحقه بالحكومة<lb/>السودانية.<lb/>ساق الله إلى هذه البلاد رجلاً من الغرب، قد نبغ في علوم اللغة وآدابها روايةً<lb/>ودرايةً؛ حتى صار إمامًا يُقتدَى به فيها، ألا وهو العلامة المُحَدِّث الشيخ محمد<lb/>محمود الشنقيطي، واللغة - كما لا يَخفى على بصير - هي من سائر العلوم بمثابة<lb/>الجسد من الروح، فمَن يذم المشتغل بدقائقها زاعمًا أن الأوْلى له الاشتغال بعلم<lb/>الأخلاق الباحث عن صفات النفس مثلاً - هو كمَن يذم المشتغل بدقائق الطب،<lb/>زاعمًا أن الفلسفة العقلية أفضل منه؛ لأن العقل والنفس أفضل من الجسد.<lb/>لو كان المصريون على هدى في طلب العلم؛ لأحلّوا الأستاذ الشنقيطي أعلى<lb/>مكانة في الأزهر، ولكان الطلاب في حلقته يعدون بالألوف، ولكنهم لم يرضوا<lb/>بهضم حقه، وعدم إحلاله محلَّه؛ حتى وُجد فيهم مَن ينتقصه على إظهار دقائق لغة<lb/>دينهم وكشف مخبّآتها!<lb/>نُشر في عدد سابق من (المنار) وفي (مصباح الشرق) سؤال منظوم لهذا<lb/>الأستاذ، يطلب فيه بيان كلمتين جاءتا في شعر الأخطل وهما لفظ (نوفل)<lb/>و (هشام) ، هل هما شخصان أم جنسان؟ ولا يَخفى أن مَن لا يفهم كلام أهل الطبقة<lb/>الأولى من بُلغاء لغته، ولا يفرق بين أسماء الأشخاص والأجناس في لسان أمته<lb/>ودينه - يكون في دركة من الجهالة سافلة. ولكن لم يكد السؤال ينتشر إلا وأنشأ<lb/>المتحذلقون ينددون بالأستاذ الذي يشتغل بمثل هذه المسائل، ويعذلوننا و (مصباح<lb/>الشرق) على نشر سؤاله، ولم يقفوا عند حد الكلام باللسان؛ حتى كتب أحدهم -<lb/>محمد طلعت - نبذة في جريدة (<tei:title level="j" change="#d2e191">الرائد</tei:title> المصري) في شأن المسألة - ويا خجلتاه مما<lb/>كتب! - كتب إلى مدير تلك الجريدة (نقولا شحاده) ، يقول: (إنني - بكل شوق<lb/>ورغبة - أطالع جريدتكم الغرّاء، وأستوعب كل ما تحويه من المواضيع المستحبة<lb/>التي تستحقون عليها أطيب الثناء، على أني ألاحظ أنكم نسيتم - أو تناسيتم - أمر<lb/>العلماء الذين أهملوا واجباتهم الأدبية والدينية، وشُغلوا بسواها) ثم ذكر<lb/>الأستاذ الشنقيطي ومسألته، وختم نُبذته بقوله: (فأنَّى للأمة المصرية أن تتقدم<lb/>إذا كان علماؤها يشتغلون بحل مثل هذه المسائل) . اهـ<lb/>هذا، وإن السماء والأرض تقولان أنَّى للأمة المصرية أن تتقدم إذا كان شبانها<lb/>يحتقرون التدقيق في لغتهم وفهم كلام بُلغائها ومعرفة تاريخها، ويستوعبون جميع ما<lb/>يُنشر في مثل (الرائد المصري) ، ويرونها مفيدة للأمة، ويرفعون صاحبها إلى<lb/>درجة يطلبون منه بمقتضاها أن يُرشد علماءهم إلى واجباتهم الدينية والأدبية، أما<lb/>خجل هذا المصري - الذي يبحث عن ترقية أمته من العهد إلى الأجنبي عن الدين<lb/>بتعليم علماء الدين واجباتهم الدينية والأدبية؟ !<lb/>لقد هزلت حتى بدا من هزالها <gap resp="#org_MS"/> كُلاها وحتى سامها كل مفلس<lb/>أما رصيفنا صاحب (الرائد) المحترم، فلا نلومه بمشايعة الكاتب عليه،<lb/>وقوله بعدم فائدة الاشتغال بهذه المسائل، ولكننا نستلفته إلى مراجعة السؤال،<lb/>والتأمل فيه؛ ليتضح له أن في تخصيص النصارى بالذكر مدحًا لهم وثناءً عليهم،<lb/>فإننا تنسَّمنا مما ذيّل به نبذة محمد أفندي طلعت أنه استثقل هذا التخصيص،<lb/>واستشعر منه ما لم يقصده صاحبه، ولا يدل عليه اللفظ في نفسه.<lb/>ونسأل الله تعالى أن يلهمنا رشدنا؛ لنمدح عن بينة، وننتقد عن بينة، ونلزم<lb/>حدودنا عن بينة {وَمَن لَّمْ يَجْعَلِ اللَّهُ لَهُ نُوراً فَمَا لَهُ مِن نُّورٍ} (النور: 40) . <note type="footnote" place="bottom"/>
+               <lb/>ليس في قوة البشر أن يحيط الرجل بجميع العلوم، أو يتقن جميع الأعمال،<lb/>ويتوقف نجاح الأمم وتقدمها في العلوم والفنون والصنائع وسائر الشؤون العامة<lb/>على اتباع قاعدة التوزيع، وإناطة كل علم وكل نوع من العمل بطائفة من الناس<lb/>ينفردون بالعناية به، حتى يبلغوا درجة التبريز فيه؛ بحيث تكون الأمة - في<lb/>مجموعها - نابغة في كل شيء، وقد اهتدت إلى هذه القاعدة الأمم المتمدنة،<lb/>وعملت بها؛ فانتهت في كل علم وعمل إلى الغايات التي نسمع ونشاهد. وقد<lb/>اتسعت عندهم دوائر المعارف؛ حتى صار ينفرد للفرع الواحد من العلم طوائف<lb/>مخصوصة، يحررونه، ويفردونه بالتأليف. ولا يزال قومنا في غفلة من هذا؛<lb/>ولذلك لا يبرع عندنا أحد في شيء من الأشياء. ومن الخذلان أن تضل الأمة عن<lb/>طرق رشادها، ومناهج إسعادها، ولكن ماذا نقول في قوم يعيبون الهدى والرشاد،<lb/>ويذمون مناهج التوفيق والسداد، ويقدحون في عِرض مَن يبرز في علم أو فن،<lb/>فيُظهر غوامضه، ويبدي خوافِيَه؛ محتجين بأن الأمة أحوج إلى غير المسائل التي<lb/>حررها منها إليها، وكأني بهؤلاء النوكى يطعنون بمَن يتكلم في دقائق المساحة<lb/>وتقويم البلدان؛ لأن البلاد المصرية أحوج إلى فن الزراعة منها إلى هذين الفنين،<lb/>وإن كانوا يعلمون أن الجهل بدقائق تقويم البلدان وعدم التفرقة بين (سرس)<lb/>و (فرس) اختزل جزءًا مهمًا من البلاد المصرية، وألحقه بالحكومة<lb/>السودانية.<lb/>ساق الله إلى هذه البلاد رجلاً من الغرب، قد نبغ في علوم اللغة وآدابها روايةً<lb/>ودرايةً؛ حتى صار إمامًا يُقتدَى به فيها، ألا وهو العلامة المُحَدِّث الشيخ محمد<lb/>محمود الشنقيطي، واللغة - كما لا يَخفى على بصير - هي من سائر العلوم بمثابة<lb/>الجسد من الروح، فمَن يذم المشتغل بدقائقها زاعمًا أن الأوْلى له الاشتغال بعلم<lb/>الأخلاق الباحث عن صفات النفس مثلاً - هو كمَن يذم المشتغل بدقائق الطب،<lb/>زاعمًا أن الفلسفة العقلية أفضل منه؛ لأن العقل والنفس أفضل من الجسد.<lb/>لو كان المصريون على هدى في طلب العلم؛ لأحلّوا الأستاذ الشنقيطي أعلى<lb/>مكانة في الأزهر، ولكان الطلاب في حلقته يعدون بالألوف، ولكنهم لم يرضوا<lb/>بهضم حقه، وعدم إحلاله محلَّه؛ حتى وُجد فيهم مَن ينتقصه على إظهار دقائق لغة<lb/>دينهم وكشف مخبّآتها!<lb/>نُشر في عدد سابق من (المنار) وفي (مصباح الشرق) سؤال منظوم لهذا<lb/>الأستاذ، يطلب فيه بيان كلمتين جاءتا في شعر الأخطل وهما لفظ (نوفل)<lb/>و (هشام) ، هل هما شخصان أم جنسان؟ ولا يَخفى أن مَن لا يفهم كلام أهل الطبقة<lb/>الأولى من بُلغاء لغته، ولا يفرق بين أسماء الأشخاص والأجناس في لسان أمته<lb/>ودينه - يكون في دركة من الجهالة سافلة. ولكن لم يكد السؤال ينتشر إلا وأنشأ<lb/>المتحذلقون ينددون بالأستاذ الذي يشتغل بمثل هذه المسائل، ويعذلوننا و (مصباح<lb/>الشرق) على نشر سؤاله، ولم يقفوا عند حد الكلام باللسان؛ حتى كتب أحدهم -<lb/>محمد طلعت - نبذة في جريدة (<title level="j" change="#d2e191">الرائد</title> المصري) في شأن المسألة - ويا خجلتاه مما<lb/>كتب! - كتب إلى مدير تلك الجريدة (نقولا شحاده) ، يقول: (إنني - بكل شوق<lb/>ورغبة - أطالع جريدتكم الغرّاء، وأستوعب كل ما تحويه من المواضيع المستحبة<lb/>التي تستحقون عليها أطيب الثناء، على أني ألاحظ أنكم نسيتم - أو تناسيتم - أمر<lb/>العلماء الذين أهملوا واجباتهم الأدبية والدينية، وشُغلوا بسواها) ثم ذكر<lb/>الأستاذ الشنقيطي ومسألته، وختم نُبذته بقوله: (فأنَّى للأمة المصرية أن تتقدم<lb/>إذا كان علماؤها يشتغلون بحل مثل هذه المسائل) . اهـ<lb/>هذا، وإن السماء والأرض تقولان أنَّى للأمة المصرية أن تتقدم إذا كان شبانها<lb/>يحتقرون التدقيق في لغتهم وفهم كلام بُلغائها ومعرفة تاريخها، ويستوعبون جميع ما<lb/>يُنشر في مثل (الرائد المصري) ، ويرونها مفيدة للأمة، ويرفعون صاحبها إلى<lb/>درجة يطلبون منه بمقتضاها أن يُرشد علماءهم إلى واجباتهم الدينية والأدبية، أما<lb/>خجل هذا المصري - الذي يبحث عن ترقية أمته من العهد إلى الأجنبي عن الدين<lb/>بتعليم علماء الدين واجباتهم الدينية والأدبية؟ !<lb/>لقد هزلت حتى بدا من هزالها <gap resp="#org_MS"/> كُلاها وحتى سامها كل مفلس<lb/>أما رصيفنا صاحب (الرائد) المحترم، فلا نلومه بمشايعة الكاتب عليه،<lb/>وقوله بعدم فائدة الاشتغال بهذه المسائل، ولكننا نستلفته إلى مراجعة السؤال،<lb/>والتأمل فيه؛ ليتضح له أن في تخصيص النصارى بالذكر مدحًا لهم وثناءً عليهم،<lb/>فإننا تنسَّمنا مما ذيّل به نبذة محمد أفندي طلعت أنه استثقل هذا التخصيص،<lb/>واستشعر منه ما لم يقصده صاحبه، ولا يدل عليه اللفظ في نفسه.<lb/>ونسأل الله تعالى أن يلهمنا رشدنا؛ لنمدح عن بينة، وننتقد عن بينة، ونلزم<lb/>حدودنا عن بينة {وَمَن لَّمْ يَجْعَلِ اللَّهُ لَهُ نُوراً فَمَا لَهُ مِن نُّورٍ} (النور: 40) . <note type="footnote" place="bottom"/>
             </div>
             <pb n="n2-p303" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P410.xhtml"/>
 
@@ -130,6 +130,6 @@
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P411.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>

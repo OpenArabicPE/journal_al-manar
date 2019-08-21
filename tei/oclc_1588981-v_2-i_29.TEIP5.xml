@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,31 +42,31 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="2" to="2" change="#d2e128 #d2e141" xml:lang="ar">2</tei:biblScope>
-                  <tei:biblScope unit="issue" from="29" to="29" change="#d2e128 #d2e141" xml:lang="ar">29</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="2" to="2" change="#d2e128 #d2e141" xml:lang="ar">2</biblScope>
+                  <biblScope unit="issue" from="29" to="29" change="#d2e128 #d2e141" xml:lang="ar">29</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P469.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
+      <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1317-05-24" datingMethod="#cal_islamic" when="1899-09-30">24 جمادى الأولى 1317</date>هـ</head>
             <lb/>
@@ -109,11 +109,11 @@
                <head change="#d2e141" xml:lang="ar">قليل من الحقائق عن تركيا<lb/>في عهد جلالة السلطان عبد الحميد الثاني</head>
                <lb/>
                <lb/>(العمارة البحرية العثمانية)<lb/>إن العمارة البحرية العثمانية وإن كانت قد أبلت أحسن بلاء في حرب سنة<lb/>
-               <hi style="color:red;" change="#d2e141" xml:lang="ar">1877-1778</hi>م إلا أنها قد خرجت منها بعد أن وضعت أوزارها متضعضعة مختلة<lb/>النظام بعض الاختلال، واقتضت حالتها هذه تجديدها أيضًا، كما اقتضت التجديد<lb/>أيضًا حالة الجيش، وقد عملت جلالة السلطان على هذا التجديد حتى تم الآن<lb/>(مبالغة) بما أوتيته من بُعد النظر في عواقب الأمور، وصدق العزيمة الذي<lb/>يقارن تنفيذ جميع مشروعاتها الإصلاحية، فلم يبق إلا مجرد الاختبار النهائي الذي<lb/>يعقب تحريك العمارة تفصيلاً، وهو أمر تابع لأصول الإصلاح التي وضعت،<lb/>أصبحت العمارة العثمانية اليوم تشتمل كما في الإحصاء الأخير لسنة <tei:date calendar="#cal_gregorian" when="1894" change="#d3e146">1894</tei:date>م هذه<lb/>السفن وهي:<lb/>من المدرعات سبع بوارج كبيرة وثلاثة يخوت ملوكية، وثلاث سفن صغيرة<lb/>وواحدة وعشرون من النسافات (التوربيد) وقد تضاعف هذا العدد الآن،<lb/>وسفينتان غواصتان من طراز فوردنفيلد تسع جميعها 69697 طونولاتو وقوتها<lb/>الاسمية قدرها 39946 حصانًا بخاريًّا، وفيهما <tei:date calendar="#cal_gregorian" when="0360" change="#d3e146">360</tei:date>من مدافع كروب واسترونج<lb/>وفوردنفيلد، وعدة عساكرها5420جنديًّا يديرهم 505 ضباط، واثنتي عشرة من<lb/>السفن الخشبية التجارية، وثلاث بوارج، وسبع سفن صغيرة، و 12 سفينة من<lb/>حافظة الشواطئ و18 من ذات الدقلين، فجملتها أربعون سفينة تسع 40912<lb/>طونولاتو وقوتها الاسمية 1913 حصانًا بخاريًا، وفيها <tei:date calendar="#cal_gregorian" when="0318" change="#d3e146">318</tei:date> مدفعًا مختلفة<lb/>الأقطار، وعدة عساكرها 7454 جنديًا يديرهم 695 ضابطًا، من السفن الشراعية،<lb/>واحدة من السفن الجارة وأخرى من ذات الدقلين، وواحدة من السفن المستطلعة،<lb/>و30 من السفن النقالة، وجميعها تسع 8275 طونولاتو، من البوارج المدرعة<lb/>يجب أن نذكر البارجة الحميدية التي ركبت البحر في سنة <tei:date calendar="#cal_gregorian" when="1885" change="#d3e146">1885</tei:date>م من معمل<lb/>الأميرالية في القسطنطينية وهي سفينة فاخرة تدل على أن الأتراك في صناعة<lb/>البوارج البحرية يقدرون على مجاراة الدول الأخرى ذات القوى البحرية، تشتمل<lb/>الآن المعامل العثمانية في القسطنطينية وأزمير بإصلاح عدد من السفن الكبيرة<lb/>والصغيرة، وتجربتها لجعلها ملائمة للحركات العصرية.<lb/>قد اختارت حكومة جلالة السلطان للمدافعة عن شواطئ المملكة وتسليح<lb/>مدرعاتها المواد النسافة، وذلك لبساطة تركيبها وعظيم أثرها، فلو أن عمارة أجنبية<lb/>حاولت الهجوم على بوغاز الدردنيل لتدخله، لصبت عليها مصائب عظمى من<lb/>الخسائر، فإنها تكون محصورة بين نيران الحصون التي على الشاطئين- الأوروبي<lb/>والآسيوي - ومعرضة في كل دقيقة لنسف النسافات (التوربيد) التي بتوالي<lb/>صفوفها تقطع عليها طريقها، ولا تمكنها بحال من الأحوال من وصولها إلى<lb/>رأس نجارا، ومع ذلك لو أن بعض السفن الحربية الأجنبية نجحت بقوة التيار<lb/>في اجتياز هذا المعقل الأول، فلا بد لها أن تصادف السفن الحربية العثمانية،<lb/>وتكون ملاصقة له، فتحطم منها هذه في أقرب وقت بمساعدة القلاع المتواصلة<lb/>على الشاطئ ما بقي سليمًا بعد اجتياز ذلك المعقل، وفضلاً عن ذلك فإن من<lb/>يملك بوغازالدردنيل فهو الذي يملك الشاطئ الأوروبي؛ لأن الشاطئ الأسيوي أقل<lb/>منه أهمية، فأي محاولة من العدو في إنزال جنوده عليه - إما في شبهة جزيرة<lb/>غاليبولي أو غربها - لا بد أن تؤدي به إلى هزيمة فاضحة، وبعد أن تطحن جنودَه<lb/>قوى الجيش العثماني المراقب الفائق عليه يبلغ به العجز إلى حد أنه لا يمكنه أن يجد<lb/>سبيلاً للالتجاء إلى مراكبه، ويضطر بلا شك إلى تسليم أسلحته.<lb/>مدة الخدمة في العمارة البحرية اثنتا عشرة سنة، خمسة منها في القسم العامل<lb/>(النظام) وثلاثة في القسم الاحتياطي لهذا القسم، وأربعة في القسم الاحتياطي<lb/>الحقيقي (الرديف) .<lb/>لا ينقص فرقة الضباط التي تخرج من مدرسة حلقى البحرية شيئًا تحسد عليه<lb/>ضباط فرنسا وإنكلترا البحريين، قد شغفت جلالة السلطان بأن تمنح للعمارة التجارية<lb/>ما يلزم لانتشارها من وسائل التشجيع والتنشيط، فالفضل لحكومتها الحالية في إسداء<lb/>تركيا المدرسة التجارية البحرية التي أسست في حلقى من أربع سنين، وهي<lb/>تربي رؤساء السفن (القبودانات) الكبيرة والصغيرة التي يتجر بها على الشواطئ،<lb/>كما تخرج رؤساء السفن المعدة للاتّجار في البلاد البعيدة الذين سيكون لهم خدم مشهورة<lb/>في التجنيد البحري، يتعلق بنظارة البحرية أيضًا من مشاة العساكر البحرية ما عدده<lb/>5000 أو 6000 عسكري، تستحق النظر هنا لأنها مختارة من أحسن جنود<lb/>المملكة العثمانية.<lb/>تنقسم تركيا من حيث ترتيب العمارة البحرية إلى تسعة مراكز بحرية وهي:<lb/>القسطنطينية وأسكودار وتشيو وبريفيزا وسالونيك وكريت وطرابلس الغرب<lb/>والبصرة وفيها خليج العجم، وجدة وفيها البحر الأحمر، قد قضت فرنسا بعد مصائب<lb/>حرب 1870و 1871 عشرين سنة في إصلاح خلل نظامها الحربي، وإعادته إلى<lb/>ما كان عليه، أما تركيا فقد نجحت في إتمام هذا العمل نفسه في نصف هذا الزمن،<lb/>وهو أحسن مدح يمكن للإنسان أن يمتدح به الدولة العلية ومليكها القادر (مبالغة) .<lb/>(لها بقية)<lb/>((يتبع بمقال تالٍ)) <note type="footnote" place="bottom"/>
+               <hi style="color:red;" change="#d2e141" xml:lang="ar">1877-1778</hi>م إلا أنها قد خرجت منها بعد أن وضعت أوزارها متضعضعة مختلة<lb/>النظام بعض الاختلال، واقتضت حالتها هذه تجديدها أيضًا، كما اقتضت التجديد<lb/>أيضًا حالة الجيش، وقد عملت جلالة السلطان على هذا التجديد حتى تم الآن<lb/>(مبالغة) بما أوتيته من بُعد النظر في عواقب الأمور، وصدق العزيمة الذي<lb/>يقارن تنفيذ جميع مشروعاتها الإصلاحية، فلم يبق إلا مجرد الاختبار النهائي الذي<lb/>يعقب تحريك العمارة تفصيلاً، وهو أمر تابع لأصول الإصلاح التي وضعت،<lb/>أصبحت العمارة العثمانية اليوم تشتمل كما في الإحصاء الأخير لسنة <date calendar="#cal_gregorian" when="1894" change="#d3e146">1894</date>م هذه<lb/>السفن وهي:<lb/>من المدرعات سبع بوارج كبيرة وثلاثة يخوت ملوكية، وثلاث سفن صغيرة<lb/>وواحدة وعشرون من النسافات (التوربيد) وقد تضاعف هذا العدد الآن،<lb/>وسفينتان غواصتان من طراز فوردنفيلد تسع جميعها 69697 طونولاتو وقوتها<lb/>الاسمية قدرها 39946 حصانًا بخاريًّا، وفيهما <date calendar="#cal_gregorian" when="0360" change="#d3e146">360</date>من مدافع كروب واسترونج<lb/>وفوردنفيلد، وعدة عساكرها5420جنديًّا يديرهم 505 ضباط، واثنتي عشرة من<lb/>السفن الخشبية التجارية، وثلاث بوارج، وسبع سفن صغيرة، و 12 سفينة من<lb/>حافظة الشواطئ و18 من ذات الدقلين، فجملتها أربعون سفينة تسع 40912<lb/>طونولاتو وقوتها الاسمية 1913 حصانًا بخاريًا، وفيها <date calendar="#cal_gregorian" when="0318" change="#d3e146">318</date> مدفعًا مختلفة<lb/>الأقطار، وعدة عساكرها 7454 جنديًا يديرهم 695 ضابطًا، من السفن الشراعية،<lb/>واحدة من السفن الجارة وأخرى من ذات الدقلين، وواحدة من السفن المستطلعة،<lb/>و30 من السفن النقالة، وجميعها تسع 8275 طونولاتو، من البوارج المدرعة<lb/>يجب أن نذكر البارجة الحميدية التي ركبت البحر في سنة <date calendar="#cal_gregorian" when="1885" change="#d3e146">1885</date>م من معمل<lb/>الأميرالية في القسطنطينية وهي سفينة فاخرة تدل على أن الأتراك في صناعة<lb/>البوارج البحرية يقدرون على مجاراة الدول الأخرى ذات القوى البحرية، تشتمل<lb/>الآن المعامل العثمانية في القسطنطينية وأزمير بإصلاح عدد من السفن الكبيرة<lb/>والصغيرة، وتجربتها لجعلها ملائمة للحركات العصرية.<lb/>قد اختارت حكومة جلالة السلطان للمدافعة عن شواطئ المملكة وتسليح<lb/>مدرعاتها المواد النسافة، وذلك لبساطة تركيبها وعظيم أثرها، فلو أن عمارة أجنبية<lb/>حاولت الهجوم على بوغاز الدردنيل لتدخله، لصبت عليها مصائب عظمى من<lb/>الخسائر، فإنها تكون محصورة بين نيران الحصون التي على الشاطئين- الأوروبي<lb/>والآسيوي - ومعرضة في كل دقيقة لنسف النسافات (التوربيد) التي بتوالي<lb/>صفوفها تقطع عليها طريقها، ولا تمكنها بحال من الأحوال من وصولها إلى<lb/>رأس نجارا، ومع ذلك لو أن بعض السفن الحربية الأجنبية نجحت بقوة التيار<lb/>في اجتياز هذا المعقل الأول، فلا بد لها أن تصادف السفن الحربية العثمانية،<lb/>وتكون ملاصقة له، فتحطم منها هذه في أقرب وقت بمساعدة القلاع المتواصلة<lb/>على الشاطئ ما بقي سليمًا بعد اجتياز ذلك المعقل، وفضلاً عن ذلك فإن من<lb/>يملك بوغازالدردنيل فهو الذي يملك الشاطئ الأوروبي؛ لأن الشاطئ الأسيوي أقل<lb/>منه أهمية، فأي محاولة من العدو في إنزال جنوده عليه - إما في شبهة جزيرة<lb/>غاليبولي أو غربها - لا بد أن تؤدي به إلى هزيمة فاضحة، وبعد أن تطحن جنودَه<lb/>قوى الجيش العثماني المراقب الفائق عليه يبلغ به العجز إلى حد أنه لا يمكنه أن يجد<lb/>سبيلاً للالتجاء إلى مراكبه، ويضطر بلا شك إلى تسليم أسلحته.<lb/>مدة الخدمة في العمارة البحرية اثنتا عشرة سنة، خمسة منها في القسم العامل<lb/>(النظام) وثلاثة في القسم الاحتياطي لهذا القسم، وأربعة في القسم الاحتياطي<lb/>الحقيقي (الرديف) .<lb/>لا ينقص فرقة الضباط التي تخرج من مدرسة حلقى البحرية شيئًا تحسد عليه<lb/>ضباط فرنسا وإنكلترا البحريين، قد شغفت جلالة السلطان بأن تمنح للعمارة التجارية<lb/>ما يلزم لانتشارها من وسائل التشجيع والتنشيط، فالفضل لحكومتها الحالية في إسداء<lb/>تركيا المدرسة التجارية البحرية التي أسست في حلقى من أربع سنين، وهي<lb/>تربي رؤساء السفن (القبودانات) الكبيرة والصغيرة التي يتجر بها على الشواطئ،<lb/>كما تخرج رؤساء السفن المعدة للاتّجار في البلاد البعيدة الذين سيكون لهم خدم مشهورة<lb/>في التجنيد البحري، يتعلق بنظارة البحرية أيضًا من مشاة العساكر البحرية ما عدده<lb/>5000 أو 6000 عسكري، تستحق النظر هنا لأنها مختارة من أحسن جنود<lb/>المملكة العثمانية.<lb/>تنقسم تركيا من حيث ترتيب العمارة البحرية إلى تسعة مراكز بحرية وهي:<lb/>القسطنطينية وأسكودار وتشيو وبريفيزا وسالونيك وكريت وطرابلس الغرب<lb/>والبصرة وفيها خليج العجم، وجدة وفيها البحر الأحمر، قد قضت فرنسا بعد مصائب<lb/>حرب 1870و 1871 عشرين سنة في إصلاح خلل نظامها الحربي، وإعادته إلى<lb/>ما كان عليه، أما تركيا فقد نجحت في إتمام هذا العمل نفسه في نصف هذا الزمن،<lb/>وهو أحسن مدح يمكن للإنسان أن يمتدح به الدولة العلية ومليكها القادر (مبالغة) .<lb/>(لها بقية)<lb/>((يتبع بمقال تالٍ)) <note type="footnote" place="bottom"/>
             </div>
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P474.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>

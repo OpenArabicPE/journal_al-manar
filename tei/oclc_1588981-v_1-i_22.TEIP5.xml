@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,31 +42,31 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="1" to="1" change="#d2e128 #d2e141" xml:lang="ar">1</tei:biblScope>
-                  <tei:biblScope unit="issue" from="22" to="22" change="#d2e128 #d2e141" xml:lang="ar">22</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="1" to="1" change="#d2e128 #d2e141" xml:lang="ar">1</biblScope>
+                  <biblScope unit="issue" from="22" to="22" change="#d2e128 #d2e141" xml:lang="ar">22</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P118.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
+      <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1316-03-28" datingMethod="#cal_islamic" when="1898-08-16">28 ربيع الأول 1316</date>هـ</head>
             <lb/>
@@ -116,7 +116,7 @@
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">مقتطفات من الجرائد</head>
-               <lb/>(التسلح في العثمانية)<lb/>نشرت جريدة (<tei:title level="j" change="#d2e191">الستندرد</tei:title>) منذ أيام رسالة وردتها من فيينا موسومة بهذا العنوان،<lb/>معربها كما يأتي:<lb/>الظاهر أن الحكومة العثمانية تروم أن تسالم جيرانها بالإصلاحات العسكرية،<lb/>فهي ليست فقط باذلة جهدها وعنايتها في تحسين أحوال جيشها، بل قد ورد أخيرًا<lb/>من الآستانة أن المساعي مبذولة فيها لزيادة هذا التحسين والمبالغة في ذلك التنظيم.<lb/>وقد ظهر تقدم جدير بالذكر في جميع أنواع السلاح التي لديها، ولا سيما<lb/>المدافع، فقد كانت مدافعها في الحرب الأخيرة من طرز كروب الحديث، ولكن منذ<lb/>زمن وجيز بدئ في الطوبخانة بإنشاء معمل لصنع مدافع سهلية من طرز هويتزر<lb/>فأصبحت كياتر بذلك تسابق معامل ألمانيا وأوستريا في صنع هذه المدافع،<lb/>وستجهز مدفعية السهل بمدافع من ذوات الطلق السريع، ويقال: إن الحكومة تخابر<lb/>الآن معمل كروب بشأن إرسال هذه المدافع، ولا يمضي زمن طويل حتى تصبح<lb/>جميع العساكر مسلحة ببنادق موزر، وهي قد أنشأت منذ مدة معملاً لصنع البارود<lb/>الذي بلا دخان في موضع يدعى زيتون برنو قرب الآستانة، ولكن البارود الذي<lb/>يصنع فيه ليس وافيًا بالمراد، فلذلك أرسلت وزارة الحربية توصي معامل ألمانيا<lb/>على صنع مقدار منه برسمها، وعمل مائة مليون من قراطيس البارود<lb/>(الخرطوش) .<lb/>ثم إن مسألة القلاع والحصون شاغلة أفكار رضا باشا وزير الحرب، ويقال إن<lb/>المعاقل التي حول أدرنة ومعاقل دجوماجا الواقعة على الحدود البلغارية ستعزز<lb/>بأسلحة جديدة، ويكمل تسليح استحكامات كرك كيليس (لعله يريد قرق كليسا)<lb/>الواقعة بين أدرنة والبحر الأسود.<lb/>أما فيما يتعلق بتنظيم الجيش، فقد تقرر منذ بضعة أيام إنشاء 170 أورطة<lb/>جديدة من الجنود الاحتياطية التي لا تخدم خدمة منتظمة، والتي تتمرن على الفنون<lb/>العسكرية في أوطانها في أيام الأعياد والعطلة، وقد صدرت الأوامر الآن إلى حكام<lb/>الإقليمين المجاورين للجبل الأسود وصربيا وبلغاريا بتشكيل ذلك العدد من الأورط<lb/>من أهاليها، فتستدعى في زمن السلم مدة شهر أو شهرين، وتقدر نفقاتها بثلاثة<lb/>ملايين فرنك في السنة، ثم إن الخيالة المعروفة بالحميدية المؤلفة الآن من 61 فرقة<lb/>سيغير نظامها ويشكل منها ستة ألوية من الفرسان، وينفذ المشروع القديم القاضي<lb/>بإضافة كوكبة أو نصف كوكبة من سائر الفرسان إلى كل فرقة من الفرق الحميدية،<lb/>ومما يذكر في هذا السياق أن جماعة من الضباط الأتراك قد اشتروا أخيرًا عددًا كبيرًا<lb/>من الخيول من هنغاريا الشرقية برسم الخيالة العثمانية.<lb/>
+               <lb/>(التسلح في العثمانية)<lb/>نشرت جريدة (<title level="j" change="#d2e191">الستندرد</title>) منذ أيام رسالة وردتها من فيينا موسومة بهذا العنوان،<lb/>معربها كما يأتي:<lb/>الظاهر أن الحكومة العثمانية تروم أن تسالم جيرانها بالإصلاحات العسكرية،<lb/>فهي ليست فقط باذلة جهدها وعنايتها في تحسين أحوال جيشها، بل قد ورد أخيرًا<lb/>من الآستانة أن المساعي مبذولة فيها لزيادة هذا التحسين والمبالغة في ذلك التنظيم.<lb/>وقد ظهر تقدم جدير بالذكر في جميع أنواع السلاح التي لديها، ولا سيما<lb/>المدافع، فقد كانت مدافعها في الحرب الأخيرة من طرز كروب الحديث، ولكن منذ<lb/>زمن وجيز بدئ في الطوبخانة بإنشاء معمل لصنع مدافع سهلية من طرز هويتزر<lb/>فأصبحت كياتر بذلك تسابق معامل ألمانيا وأوستريا في صنع هذه المدافع،<lb/>وستجهز مدفعية السهل بمدافع من ذوات الطلق السريع، ويقال: إن الحكومة تخابر<lb/>الآن معمل كروب بشأن إرسال هذه المدافع، ولا يمضي زمن طويل حتى تصبح<lb/>جميع العساكر مسلحة ببنادق موزر، وهي قد أنشأت منذ مدة معملاً لصنع البارود<lb/>الذي بلا دخان في موضع يدعى زيتون برنو قرب الآستانة، ولكن البارود الذي<lb/>يصنع فيه ليس وافيًا بالمراد، فلذلك أرسلت وزارة الحربية توصي معامل ألمانيا<lb/>على صنع مقدار منه برسمها، وعمل مائة مليون من قراطيس البارود<lb/>(الخرطوش) .<lb/>ثم إن مسألة القلاع والحصون شاغلة أفكار رضا باشا وزير الحرب، ويقال إن<lb/>المعاقل التي حول أدرنة ومعاقل دجوماجا الواقعة على الحدود البلغارية ستعزز<lb/>بأسلحة جديدة، ويكمل تسليح استحكامات كرك كيليس (لعله يريد قرق كليسا)<lb/>الواقعة بين أدرنة والبحر الأسود.<lb/>أما فيما يتعلق بتنظيم الجيش، فقد تقرر منذ بضعة أيام إنشاء 170 أورطة<lb/>جديدة من الجنود الاحتياطية التي لا تخدم خدمة منتظمة، والتي تتمرن على الفنون<lb/>العسكرية في أوطانها في أيام الأعياد والعطلة، وقد صدرت الأوامر الآن إلى حكام<lb/>الإقليمين المجاورين للجبل الأسود وصربيا وبلغاريا بتشكيل ذلك العدد من الأورط<lb/>من أهاليها، فتستدعى في زمن السلم مدة شهر أو شهرين، وتقدر نفقاتها بثلاثة<lb/>ملايين فرنك في السنة، ثم إن الخيالة المعروفة بالحميدية المؤلفة الآن من 61 فرقة<lb/>سيغير نظامها ويشكل منها ستة ألوية من الفرسان، وينفذ المشروع القديم القاضي<lb/>بإضافة كوكبة أو نصف كوكبة من سائر الفرسان إلى كل فرقة من الفرق الحميدية،<lb/>ومما يذكر في هذا السياق أن جماعة من الضباط الأتراك قد اشتروا أخيرًا عددًا كبيرًا<lb/>من الخيول من هنغاريا الشرقية برسم الخيالة العثمانية.<lb/>
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
@@ -126,7 +126,7 @@
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
-               <gap resp="#org_MS"/> (الأهرام)<lb/>***<lb/>(ترقي الصنائع في ألمانيا)<lb/>نشر مؤخرًا في برلين إحصاء جدير بالاعتبار، تفهم منه درجة ارتقاء الصنائع<lb/>في ألمانيا، فقد كان عدد المشتغلين في معاملها عام 1882 غربية 5831622<lb/>من الرجال و150<tei:date calendar="#cal_gregorian" when="9167" change="#d3e146">9167</tei:date> من النساء، وفي سنة 1895 بلغ عدد الصناع<lb/>7921942 رجلاً و2339325 امرأة، وكان عدد الأنوال التي يشتغل بها من<lb/>العامل الواحد إلى الخمسة عام 1882 نحو 2882718 نولاً، وعدد عملتها<lb/>4435882، وفي سنة 1895 بلغ عدد هذه الأنوال الصغيرة 2924732 نولاً،<lb/>ومقدار عملتها 47765 شخصًا، والأنوال المتوسطة التي تستخدم من الستة صناع<lb/>إلى خمسين صانعًا كان عددها سنة 1882 نحو 112715 نولاً، وعدد عملتها<lb/>1391720 عاملاً، وعام 1895 بلغ عدد الأنوال 191299، وعدد العملة<lb/>2454257 عاملاً، وسنة 1882 كان عدد المعامل الكبيرة التي تستخدم من الواحد<lb/>وخمسين عاملاً إلى ألف عامل <tei:date calendar="#cal_gregorian" when="9974" change="#d3e146">9974</tei:date> معملاً، وعدد عملتها 1613247 عاملاً،<lb/>وفي عام 1895 بلغ عدد هذه المعامل 1<tei:date calendar="#cal_gregorian" when="8955" change="#d3e146">8955</tei:date> معملاً وعدد عملتها 3404343<lb/>عاملاً، وما زال عدد المستخدمين والمستخدمات في هذه المعامل يزداد آنًا فآنًا،<lb/>حتى كان عدد المستخدمين عام 1882 نحو 20<tei:date calendar="#cal_gregorian" when="5061" change="#d3e146">5061</tei:date> مستخدمًا فبلغوا عام 95 نحو<lb/>44<tei:date calendar="#cal_gregorian" when="8134" change="#d3e146">8134</tei:date> مستخدمًا.<lb/>أما عدد الذين لم يبلغوا السادسة عشرة من العمر المشتغلين في هذه المعامل فهم<lb/>عبارة عن 464424 ولدًا و138736 بنتًا، وعدد الذين جاوزوا هذه السن هم كناية<lb/>عن 6871504، وقد بلغت قيمة مصنوعات هاته المعامل عام 1882 زهاء<lb/>127990<tei:date calendar="#cal_gregorian" when="0000" change="#d3e146">0000</tei:date> مارك (المارك فرنك وربع) وبلغ مقدار ما صدر منها<lb/>17200009 طن (الطن أربع قناطير شامية) وقد بلغت صادرات عام 92 نحو<lb/>2380000000، وقيمة الصادرات 342400<tei:date calendar="#cal_gregorian" when="0000" change="#d3e146">0000</tei:date> مارك، فهذه الزيادة المهمة<lb/>تدل على ما وصلت إليه البلاد الألمانية في خلال السنين الأخيرة من الترقي الخارق<lb/>للعادة، فلله ما يفعل الإقدام والثبات.<lb/>***<lb/>(نبات يُضحك بالعَهُ!)<lb/>قالت جريدة (<tei:title level="j" change="#d2e191">آهنك</tei:title>) الأزميرية: إنه قد اكتشفت في بلاد العرب شجيرة<lb/>خضراء الأوراق لامعتها، لها ثمر يشبه الفاصولية، يحتوي على حبتين أو ثلاث<lb/>سوداء اللون، وهذه الحبات ذات رائحة تميل للأفيون حلوة الطعم، فإذا سحقت<lb/>سحقًا جيدًا وبلع منها الإنسان مقدارًا، يستغرق حالاً في الضحك الطويل بصفة لا<lb/>تقاوم، ويزداد ضحكه بالتدريج، فيطفق يقفز ويلعب ويتغنى ويتحرك فيه هذا الهوس<lb/>مدة ساعة ثم يسكن، وعندها يستولي النعاس عليه فينام ملء جفونه ساعات طوال،<lb/>ومتى أفاق من غفلته يصبح ما اعتراه نسيًا منسيًّا، فإذا ضاق ذرع المرء أو بكى بكاءً<lb/>مرًّا، وبلع من هاته الحبات يعتريه ذلك الحال، على أنه إذا أدمن على ابتلاعها<lb/>يعرض نفسه لمرض الأعصاب، وقد أوصى الأطباء كل عبوس قمطرير أن يبتلع من<lb/>هذا النبات على نحو ما قررناه، فيزول ما به من الكآبة. هذا كلام الجريدة ترجمناه<lb/>على سبيل الفكاهة، والله أعلم بحقيقة الشجيرات وثمراتها.<lb/>
+               <gap resp="#org_MS"/> (الأهرام)<lb/>***<lb/>(ترقي الصنائع في ألمانيا)<lb/>نشر مؤخرًا في برلين إحصاء جدير بالاعتبار، تفهم منه درجة ارتقاء الصنائع<lb/>في ألمانيا، فقد كان عدد المشتغلين في معاملها عام 1882 غربية 5831622<lb/>من الرجال و150<date calendar="#cal_gregorian" when="9167" change="#d3e146">9167</date> من النساء، وفي سنة 1895 بلغ عدد الصناع<lb/>7921942 رجلاً و2339325 امرأة، وكان عدد الأنوال التي يشتغل بها من<lb/>العامل الواحد إلى الخمسة عام 1882 نحو 2882718 نولاً، وعدد عملتها<lb/>4435882، وفي سنة 1895 بلغ عدد هذه الأنوال الصغيرة 2924732 نولاً،<lb/>ومقدار عملتها 47765 شخصًا، والأنوال المتوسطة التي تستخدم من الستة صناع<lb/>إلى خمسين صانعًا كان عددها سنة 1882 نحو 112715 نولاً، وعدد عملتها<lb/>1391720 عاملاً، وعام 1895 بلغ عدد الأنوال 191299، وعدد العملة<lb/>2454257 عاملاً، وسنة 1882 كان عدد المعامل الكبيرة التي تستخدم من الواحد<lb/>وخمسين عاملاً إلى ألف عامل <date calendar="#cal_gregorian" when="9974" change="#d3e146">9974</date> معملاً، وعدد عملتها 1613247 عاملاً،<lb/>وفي عام 1895 بلغ عدد هذه المعامل 1<date calendar="#cal_gregorian" when="8955" change="#d3e146">8955</date> معملاً وعدد عملتها 3404343<lb/>عاملاً، وما زال عدد المستخدمين والمستخدمات في هذه المعامل يزداد آنًا فآنًا،<lb/>حتى كان عدد المستخدمين عام 1882 نحو 20<date calendar="#cal_gregorian" when="5061" change="#d3e146">5061</date> مستخدمًا فبلغوا عام 95 نحو<lb/>44<date calendar="#cal_gregorian" when="8134" change="#d3e146">8134</date> مستخدمًا.<lb/>أما عدد الذين لم يبلغوا السادسة عشرة من العمر المشتغلين في هذه المعامل فهم<lb/>عبارة عن 464424 ولدًا و138736 بنتًا، وعدد الذين جاوزوا هذه السن هم كناية<lb/>عن 6871504، وقد بلغت قيمة مصنوعات هاته المعامل عام 1882 زهاء<lb/>127990<date calendar="#cal_gregorian" when="0000" change="#d3e146">0000</date> مارك (المارك فرنك وربع) وبلغ مقدار ما صدر منها<lb/>17200009 طن (الطن أربع قناطير شامية) وقد بلغت صادرات عام 92 نحو<lb/>2380000000، وقيمة الصادرات 342400<date calendar="#cal_gregorian" when="0000" change="#d3e146">0000</date> مارك، فهذه الزيادة المهمة<lb/>تدل على ما وصلت إليه البلاد الألمانية في خلال السنين الأخيرة من الترقي الخارق<lb/>للعادة، فلله ما يفعل الإقدام والثبات.<lb/>***<lb/>(نبات يُضحك بالعَهُ!)<lb/>قالت جريدة (<title level="j" change="#d2e191">آهنك</title>) الأزميرية: إنه قد اكتشفت في بلاد العرب شجيرة<lb/>خضراء الأوراق لامعتها، لها ثمر يشبه الفاصولية، يحتوي على حبتين أو ثلاث<lb/>سوداء اللون، وهذه الحبات ذات رائحة تميل للأفيون حلوة الطعم، فإذا سحقت<lb/>سحقًا جيدًا وبلع منها الإنسان مقدارًا، يستغرق حالاً في الضحك الطويل بصفة لا<lb/>تقاوم، ويزداد ضحكه بالتدريج، فيطفق يقفز ويلعب ويتغنى ويتحرك فيه هذا الهوس<lb/>مدة ساعة ثم يسكن، وعندها يستولي النعاس عليه فينام ملء جفونه ساعات طوال،<lb/>ومتى أفاق من غفلته يصبح ما اعتراه نسيًا منسيًّا، فإذا ضاق ذرع المرء أو بكى بكاءً<lb/>مرًّا، وبلع من هاته الحبات يعتريه ذلك الحال، على أنه إذا أدمن على ابتلاعها<lb/>يعرض نفسه لمرض الأعصاب، وقد أوصى الأطباء كل عبوس قمطرير أن يبتلع من<lb/>هذا النبات على نحو ما قررناه، فيزول ما به من الكآبة. هذا كلام الجريدة ترجمناه<lb/>على سبيل الفكاهة، والله أعلم بحقيقة الشجيرات وثمراتها.<lb/>
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> 
@@ -142,6 +142,6 @@
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P123.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>

@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,31 +42,31 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="1" to="1" change="#d2e128 #d2e141" xml:lang="ar">1</tei:biblScope>
-                  <tei:biblScope unit="issue" from="15" to="15" change="#d2e128 #d2e141" xml:lang="ar">15</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="1" to="1" change="#d2e128 #d2e141" xml:lang="ar">1</biblScope>
+                  <biblScope unit="issue" from="15" to="15" change="#d2e128 #d2e141" xml:lang="ar">15</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P71.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
+      <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1316-02-09" datingMethod="#cal_islamic" when="1898-06-29">9 صفر  1316</date>هـ</head>
             <lb/>
@@ -108,7 +108,7 @@
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">الحرب بين أمريكا وأسبانيا</head>
-               <lb/>لقد طال على الحرب أمد المطاولة، وكاد يقع اليأس من المناجزة والملاحمة،<lb/>إلا ما كان ويكون من المناوشات الصغرى التي تقع بين شراذم الأمريكيين الذين<lb/>نزلوا إلى سنتياغو وبين الأسبانيين، والحرب بينهما سجال، ولقد كان الفلج أخيرًا<lb/>للجنود الأسبانية، كما ترى في الأنباء البرقية. أما حركات الأساطيل فقد علمت أن<lb/>براعة الأميرال سرفيرا الأسباني في قطع عرض القاموس العظيم (الأتلانتيك)<lb/>تحت حجاب الخفاء، قد انتهت بحصر أسطوله في ميناء سنتياغو، وأما أسطول<lb/>الأميرال كمارا الأسباني، فقد وصل أمس إلى بورسعيد قاصدًا جزائر فيلبين من<lb/>طريق السويس الأمين.<lb/>وقد ورد على جريدة <tei:title level="j" change="#d2e191">المقطم</tei:title> رسالة برقية من بورسعيد، بأنه صدر الأمر إلى<lb/>ولاة الأمور فيها باتخاذ التدابير اللازمة لمنع الأسطول من شحن الفحم منها، حتى<lb/>تأتيهم أوامر أخرى بذلك، وقد ذكرت جريدة <tei:title level="j" change="#d2e191">السلام</tei:title> (أن من شروط ترعة السويس<lb/>أن لا يصح لدوارع إحدى الدول المحاربة أن تأخذ فحمًا من بورسعيد إلا مقدار<lb/>ما يكفيها للوصول إلى نقطة الحرب، أي أنه لا يصح لها أن تأخذ فحمًا<lb/>وتحارب به بعد وصولها؛ ولذلك فإن أسطول أسبانيا إذا مر بترعة السويس فلا<lb/>يأخذ منها إلا كفاية وصوله فقط، ثم تنقطع بعد ذلك المواني التي تعطيه الفحم؛ لأن<lb/>إنكلترا والدولة العلية وسواهما معتزلة الحرب، فلا تمده بشيء، والمرجح أن<lb/>هذا الأسطول سيتضايق جدًّا إلا إذا صحب معه سفنًا خاصة مشحونة بالفحم، وعلى<lb/>هذا ربما كانت عاقبة هذا الأسطول شرًّا من عاقبة ذلك، والله أعلم بمصير<lb/>الأمور.<lb/>أخبار بريد أوروبا عن الحرب متعارضة: نفي وإثبات ونقض وإبرام،<lb/>والمتفق عليه أن جزائر فيلبين التي يقصد أسطول كامارا إغاثتها قد تفاقمت خطوبها،<lb/>وعظمت كروبها وأضر بمنلّا حصار الثائرين، وقد أضوى الأسبانيين الجوع<lb/>فخارت قواهم، وخانتهم عزائمهم، وقد طلب الأميرال ديوي الأميركي من حكومته<lb/>نجدة، فسيرتها إليه، ولا بد أن تصل قبل وصول أسطول كامار، حتى إذا كان لديه<lb/>من الفحم ما يبلغه موضع قصده لا يرجى أن يستفيد من سعيه وكده، وربما وجد<lb/>الأسطول ديوي له بالمرصاد، فكان كما قيل:<lb/>مثل الغريق نجا ووافى ساحلاً <gap resp="#org_MS"/> فإذا الأسود روابض بجواره<lb/>أما أخبار كوبا: فقد نقل أن الأسبان في رضا عنها، وأن الأميركان أجَّلوا<lb/>الهجوم العام عليها إلى الخريف القادم، حيث يقل فتك الحمى وإنهم يكتفون الآن<lb/>بالاستيلاء على سنتياغو وأسر أسطول سرفيرا، ولذلك أرسل الأسبانيون إليها جيشًا<lb/>من هفانا بقيادة الجنرال باندو للدفاع عنها، كما أن الأميركيين أرسلوا نحو عشرة<lb/>آلاف رجل إمدادًا للجنرال شفتر الذي أنزل جنوده إليها، والثائرون يمدون هذا<lb/>ويصدون ذاك.<lb/>إن الأسبانيين برهنوا على بسالتهم وثباتهم في جميع مواقف الحرب، ولكن<lb/>خصمهم أكثر منهم عَددًا وعُددًا، وأهالي البلاد في مواقع الحرب يناوئونهم ويمالئون<lb/>خصمهم، وهذه عواقب الجهل بحالة العصر، وكون النجاح فيه منوطًا بالعلم<lb/>والثروة أكثر مما هو منوط بالبأس والشدة.<lb/>((يتبع بمقال تالٍ)) <note type="footnote" place="bottom"/>
+               <lb/>لقد طال على الحرب أمد المطاولة، وكاد يقع اليأس من المناجزة والملاحمة،<lb/>إلا ما كان ويكون من المناوشات الصغرى التي تقع بين شراذم الأمريكيين الذين<lb/>نزلوا إلى سنتياغو وبين الأسبانيين، والحرب بينهما سجال، ولقد كان الفلج أخيرًا<lb/>للجنود الأسبانية، كما ترى في الأنباء البرقية. أما حركات الأساطيل فقد علمت أن<lb/>براعة الأميرال سرفيرا الأسباني في قطع عرض القاموس العظيم (الأتلانتيك)<lb/>تحت حجاب الخفاء، قد انتهت بحصر أسطوله في ميناء سنتياغو، وأما أسطول<lb/>الأميرال كمارا الأسباني، فقد وصل أمس إلى بورسعيد قاصدًا جزائر فيلبين من<lb/>طريق السويس الأمين.<lb/>وقد ورد على جريدة <title level="j" change="#d2e191">المقطم</title> رسالة برقية من بورسعيد، بأنه صدر الأمر إلى<lb/>ولاة الأمور فيها باتخاذ التدابير اللازمة لمنع الأسطول من شحن الفحم منها، حتى<lb/>تأتيهم أوامر أخرى بذلك، وقد ذكرت جريدة <title level="j" change="#d2e191">السلام</title> (أن من شروط ترعة السويس<lb/>أن لا يصح لدوارع إحدى الدول المحاربة أن تأخذ فحمًا من بورسعيد إلا مقدار<lb/>ما يكفيها للوصول إلى نقطة الحرب، أي أنه لا يصح لها أن تأخذ فحمًا<lb/>وتحارب به بعد وصولها؛ ولذلك فإن أسطول أسبانيا إذا مر بترعة السويس فلا<lb/>يأخذ منها إلا كفاية وصوله فقط، ثم تنقطع بعد ذلك المواني التي تعطيه الفحم؛ لأن<lb/>إنكلترا والدولة العلية وسواهما معتزلة الحرب، فلا تمده بشيء، والمرجح أن<lb/>هذا الأسطول سيتضايق جدًّا إلا إذا صحب معه سفنًا خاصة مشحونة بالفحم، وعلى<lb/>هذا ربما كانت عاقبة هذا الأسطول شرًّا من عاقبة ذلك، والله أعلم بمصير<lb/>الأمور.<lb/>أخبار بريد أوروبا عن الحرب متعارضة: نفي وإثبات ونقض وإبرام،<lb/>والمتفق عليه أن جزائر فيلبين التي يقصد أسطول كامارا إغاثتها قد تفاقمت خطوبها،<lb/>وعظمت كروبها وأضر بمنلّا حصار الثائرين، وقد أضوى الأسبانيين الجوع<lb/>فخارت قواهم، وخانتهم عزائمهم، وقد طلب الأميرال ديوي الأميركي من حكومته<lb/>نجدة، فسيرتها إليه، ولا بد أن تصل قبل وصول أسطول كامار، حتى إذا كان لديه<lb/>من الفحم ما يبلغه موضع قصده لا يرجى أن يستفيد من سعيه وكده، وربما وجد<lb/>الأسطول ديوي له بالمرصاد، فكان كما قيل:<lb/>مثل الغريق نجا ووافى ساحلاً <gap resp="#org_MS"/> فإذا الأسود روابض بجواره<lb/>أما أخبار كوبا: فقد نقل أن الأسبان في رضا عنها، وأن الأميركان أجَّلوا<lb/>الهجوم العام عليها إلى الخريف القادم، حيث يقل فتك الحمى وإنهم يكتفون الآن<lb/>بالاستيلاء على سنتياغو وأسر أسطول سرفيرا، ولذلك أرسل الأسبانيون إليها جيشًا<lb/>من هفانا بقيادة الجنرال باندو للدفاع عنها، كما أن الأميركيين أرسلوا نحو عشرة<lb/>آلاف رجل إمدادًا للجنرال شفتر الذي أنزل جنوده إليها، والثائرون يمدون هذا<lb/>ويصدون ذاك.<lb/>إن الأسبانيين برهنوا على بسالتهم وثباتهم في جميع مواقف الحرب، ولكن<lb/>خصمهم أكثر منهم عَددًا وعُددًا، وأهالي البلاد في مواقع الحرب يناوئونهم ويمالئون<lb/>خصمهم، وهذه عواقب الجهل بحالة العصر، وكون النجاح فيه منوطًا بالعلم<lb/>والثروة أكثر مما هو منوط بالبأس والشدة.<lb/>((يتبع بمقال تالٍ)) <note type="footnote" place="bottom"/>
             </div>
             <pb n="n1-p272" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P75.xhtml"/>
 
@@ -121,7 +121,7 @@
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">مراكش</head>
-               <lb/>جاء في جريدة <tei:title level="j" change="#d2e191">السلام</tei:title> الغراء ما نصه:<lb/>تفيد الأخبار الواردة من مراكش أن حالها في اضطراب شديد، وهي تتأخر<lb/>كل يوم تأخُّرًا سريعًا، سيفضي إلى اضمحلالها، وذلك لشدة تداخل الأجانب فيها<lb/>ومعاكستها لهم، حتى أصبح ذلك همها الوحيد، ولم يعد لها صناعة سوى دفع ديات<lb/>القتلى، ومفاوضة الحكومات الأجنبية في شأنهم، ذلك عدا ما ينتابها من الثورات<lb/>الداخلية التي لا تكاد تنقضي بالرغم من صرامة الحكومة، وتعليقها رءوس القتلى<lb/>على أسوار المدن أو حملها على الرماح وعرضها على الناس في الشوارع، ويظهر<lb/>أن نصيب هذه المملكة التعيسة سيكون كنصيب الجزائر وتونس ومصر، فيكون<lb/>هذا الخط الجنوبي الطويل الممتد من بورسعيد إلى طنجة مصابًا بعلة واحدة، وهي<lb/>الاحتلال الأجنبي، ولا يبعد من بعد نهاية هذه الحرب الأميركية أن تتفرغ الأذهان<lb/>إلى شأن مراكش لمجاورتها لأسبانيا، فيقضي عليها القضاء الأوروبي كجارتها،<lb/>ولكننا نظن أن امتلاك مراكش كلها صعب جدًّا إلا بدهر طويل؛ لأن أكثر أهلها<lb/>محاربون ذوو بأس شديد وأنفة عربية، ولهم من صعوبة السير في بلادهم ومنعة<lb/>معاقلهم الطبيعية ما يرد عنهم كل يد، ولكن إذا كان لابد من التداخل فيها فلا يكون<lb/>إلا بامتلاك شواطئها وثغورها، ولعل هذا هو المهم عند أوروبا، أما هذه القسمة<lb/>فالأرجح أنها تكون لفرنسا؛ لما لها من شفاعة الجوار، فضلاً عما يقال من أنها<lb/>تسعف أسبانيا الآن لتتنازل لها عما يخصها من شفاعة الجوار، وسيكشف لنا<lb/>المستقبل ذلك بعد قريب. اهـ<lb/>(المنار)<lb/>أما نحن فنقول: إن الأوربيين لا تقف أمامهم المصاعب، والأمم الهمجية لا<lb/>تقدر على مناوأة الأمم المتمدنة، وإذا دام أهل مراكش على جهلهم بالفنون العصرية<lb/>التي عليها مدار العمران اليوم، تقليدًا لآبائهم، وإبقاءً لما كان على ما كان - فلا بد<lb/>أن يغمرهم طوفان أوروبا كما غمر جيرانهم، وإذا وفق الله مولاي عبد العزيز،<lb/>وفتحت عين بصيرته، فرأى أن الاتباع للأولين؛ لأنهم أوَّلون مذموم غير محمود،<lb/>سواء في ذلك نظر الشرع والعقل، وإنما هدانا الشرع ودلنا العقل على أن نعتبر<lb/>بأحوال الأمم في صعودها وهبوطها، وأن نستمع القول فنتبع أحسنه، لا أن نقول<lb/>{إِنَّا وَجَدْنَا آبَاءَنَا عَلَى أُمَّةٍ وَإِنَّا عَلَى آثَارِهِم مُّقْتَدُونَ} (الزخرف: 23) إذا تبصر<lb/>بهذا واعتبر بما بين يديه وما خلفه، واتعظ بما عن يمينه وشماله - فلا شك أنه<lb/>يندفع بهمته كلها إلى التربية والتعليم اللذين تقضيهما حالة العصر، ولا يتم له هذا إلا<lb/>بالاستعانة بسيدنا ومولانا أمير المؤمنين والسلطان الأكبر لجميع المسلمين؛ إذ لا<lb/>يجد معلمين للفنون العسكرية والمدنية والاقتصادية من أهل الإسلام إلا عند الدولة<lb/>العلية، وحالة بلاده لا تقبل غير المسلمين، الذين لم يصطبغوا بالصبغة الأجنبية،<lb/>وإذا اندفع بهمته إلى ما ذكرناه، وأمده مولانا السلطان الأعظم بالمعلمين البارعين،<lb/>وهم كثيرون، لا سيما في الآستانة العلية - يرجى أن يندفع ذلك الطوفان الذي يتهدد<lb/>بلاده، وما هو إلا النفوذ الأجنبي الذي غمر جيرانه. والله الموفق وبه المستعان. <note type="footnote" place="bottom"/>
+               <lb/>جاء في جريدة <title level="j" change="#d2e191">السلام</title> الغراء ما نصه:<lb/>تفيد الأخبار الواردة من مراكش أن حالها في اضطراب شديد، وهي تتأخر<lb/>كل يوم تأخُّرًا سريعًا، سيفضي إلى اضمحلالها، وذلك لشدة تداخل الأجانب فيها<lb/>ومعاكستها لهم، حتى أصبح ذلك همها الوحيد، ولم يعد لها صناعة سوى دفع ديات<lb/>القتلى، ومفاوضة الحكومات الأجنبية في شأنهم، ذلك عدا ما ينتابها من الثورات<lb/>الداخلية التي لا تكاد تنقضي بالرغم من صرامة الحكومة، وتعليقها رءوس القتلى<lb/>على أسوار المدن أو حملها على الرماح وعرضها على الناس في الشوارع، ويظهر<lb/>أن نصيب هذه المملكة التعيسة سيكون كنصيب الجزائر وتونس ومصر، فيكون<lb/>هذا الخط الجنوبي الطويل الممتد من بورسعيد إلى طنجة مصابًا بعلة واحدة، وهي<lb/>الاحتلال الأجنبي، ولا يبعد من بعد نهاية هذه الحرب الأميركية أن تتفرغ الأذهان<lb/>إلى شأن مراكش لمجاورتها لأسبانيا، فيقضي عليها القضاء الأوروبي كجارتها،<lb/>ولكننا نظن أن امتلاك مراكش كلها صعب جدًّا إلا بدهر طويل؛ لأن أكثر أهلها<lb/>محاربون ذوو بأس شديد وأنفة عربية، ولهم من صعوبة السير في بلادهم ومنعة<lb/>معاقلهم الطبيعية ما يرد عنهم كل يد، ولكن إذا كان لابد من التداخل فيها فلا يكون<lb/>إلا بامتلاك شواطئها وثغورها، ولعل هذا هو المهم عند أوروبا، أما هذه القسمة<lb/>فالأرجح أنها تكون لفرنسا؛ لما لها من شفاعة الجوار، فضلاً عما يقال من أنها<lb/>تسعف أسبانيا الآن لتتنازل لها عما يخصها من شفاعة الجوار، وسيكشف لنا<lb/>المستقبل ذلك بعد قريب. اهـ<lb/>(المنار)<lb/>أما نحن فنقول: إن الأوربيين لا تقف أمامهم المصاعب، والأمم الهمجية لا<lb/>تقدر على مناوأة الأمم المتمدنة، وإذا دام أهل مراكش على جهلهم بالفنون العصرية<lb/>التي عليها مدار العمران اليوم، تقليدًا لآبائهم، وإبقاءً لما كان على ما كان - فلا بد<lb/>أن يغمرهم طوفان أوروبا كما غمر جيرانهم، وإذا وفق الله مولاي عبد العزيز،<lb/>وفتحت عين بصيرته، فرأى أن الاتباع للأولين؛ لأنهم أوَّلون مذموم غير محمود،<lb/>سواء في ذلك نظر الشرع والعقل، وإنما هدانا الشرع ودلنا العقل على أن نعتبر<lb/>بأحوال الأمم في صعودها وهبوطها، وأن نستمع القول فنتبع أحسنه، لا أن نقول<lb/>{إِنَّا وَجَدْنَا آبَاءَنَا عَلَى أُمَّةٍ وَإِنَّا عَلَى آثَارِهِم مُّقْتَدُونَ} (الزخرف: 23) إذا تبصر<lb/>بهذا واعتبر بما بين يديه وما خلفه، واتعظ بما عن يمينه وشماله - فلا شك أنه<lb/>يندفع بهمته كلها إلى التربية والتعليم اللذين تقضيهما حالة العصر، ولا يتم له هذا إلا<lb/>بالاستعانة بسيدنا ومولانا أمير المؤمنين والسلطان الأكبر لجميع المسلمين؛ إذ لا<lb/>يجد معلمين للفنون العسكرية والمدنية والاقتصادية من أهل الإسلام إلا عند الدولة<lb/>العلية، وحالة بلاده لا تقبل غير المسلمين، الذين لم يصطبغوا بالصبغة الأجنبية،<lb/>وإذا اندفع بهمته إلى ما ذكرناه، وأمده مولانا السلطان الأعظم بالمعلمين البارعين،<lb/>وهم كثيرون، لا سيما في الآستانة العلية - يرجى أن يندفع ذلك الطوفان الذي يتهدد<lb/>بلاده، وما هو إلا النفوذ الأجنبي الذي غمر جيرانه. والله الموفق وبه المستعان. <note type="footnote" place="bottom"/>
             </div>
             <pb n="n1-p274" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P76.xhtml"/>
 
@@ -165,6 +165,6 @@
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P79.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>

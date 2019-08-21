@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,31 +42,31 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="1" to="1" change="#d2e128 #d2e141" xml:lang="ar">1</tei:biblScope>
-                  <tei:biblScope unit="issue" from="37" to="37" change="#d2e128 #d2e141" xml:lang="ar">37</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="1" to="1" change="#d2e128 #d2e141" xml:lang="ar">1</biblScope>
+                  <biblScope unit="issue" from="37" to="37" change="#d2e128 #d2e141" xml:lang="ar">37</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P200.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
+      <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1316-07-19" datingMethod="#cal_islamic" when="1898-12-03">19 رجب  1316</date>هـ</head>
             <lb/>
@@ -127,7 +127,7 @@
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">المنار في بلاد البرازيل</head>
-               <lb/>نقدم خالص الشكر لرفيقتنا جريدة <tei:title level="j" change="#d2e191">الأصمعي</tei:title> الغراء على تنويهها بشأن جريدتنا<lb/>وتكرار الثناء عليها، مما يزيد النزالة السورية في بلاد البرازيل رغبة فيها، كما<lb/>نشكر أبناء وطننا السوريين في تلك البلاد على مؤازرتنا، فلقد أقبلوا على الجريدة<lb/>مع أنهم مسيحيون ومشرب الجريدة إسلامي، لكنها تحترم الدين المطلق، وتقرر أنه<lb/>مبعث أشعة الفضائل والكمالات، وأن الرجوع إلى تعاليمه الصحيحة، لا سيما<lb/>مواعظ القرآن والإنجيل هو الذي يجمع القلوب على الاتفاق والائتلاف المؤدي إلى<lb/>سعادة الأوطان، والانحراف عن ذلك ميلاً مع ريح السياسات الأوروبية هو الذي<lb/>يلقي العداوة والبغضاء في النفوس بحجة الدين، كما هو مشاهد في كل مكان ثبتت<lb/>فيه أقدامهم وانبثت فيه تعاليمهم. ويسرنا أن نرى العقلاء من العثمانيين وعلى<lb/>الخصوص المسلمين والمسيحيين قد تنبهوا لهذا الأمر، وقد قام الكتاب يسعون في<lb/>نشره بين الناس وتقريره في عقولهم، وقد امتازت جريدتنا بكثرة الخوض في هذا<lb/>الموضوع والاجتهاد في إقناع الأمة العثمانية به واعترف لها بهذه المزية المسلمون<lb/>والنصارى، فقد قالت جريدة <tei:title level="j" change="#d2e191 #d5e210" ref="oape:bibl:5 oclc:931941685">المقتطف</tei:title> الشهيرة: إن الجرائد العربية النافعة للأمة<lb/>قليلة جدًّا والمنار منها. وقد قرأنا في العدد 15 من جريدة <tei:title level="j" change="#d2e191">الأصمعي</tei:title> الغراء التي<lb/>ذكرناها في صدر هذه النبذة ما نصه:<lb/>(المنار أحسن جريدة في جرائد الإسلام، كنا نطالع أعدادها منذ صدورها<lb/>بإمعان فلا نجد إلا كل مقالة بليغة مملوءة بالأقوال الحكيمة الفلسفية، مما يدل على<lb/>اقتدار صاحبها وتمكنه من العلم، وقد حمل على عاتقه - وفقه الله - أن يبث في<lb/>صدور أهل الشرق من الإسلام روح التهذيب الحقيقي، وأن ينسخ من عقولهم<lb/>الخرافات والأضاليل، وربما أنشأنا مقالة عن قريب عنوانها (جرائد الإسلام<lb/>والمنار) .<lb/>(وفي العدد الأخير منها (يعني 17) مقالة عنوانها: (الجيوش الغربية<lb/>المعنوية في الفتوحات الشرقية) بالغة منتهى الإعجاز من منطق العقل وحسن<lb/>السبك، ذهب فيها إلى أن الجيوش المعنوية هي الخمر والميسر والربا والبغاء<lb/>والتجارة، خمسة فيالق أدخلها الغرب إلى الشرق ففاز عليه الفوز المبين، وقد شرح<lb/>مفصلاً عن كل فيلق منها فوفاه حقه، ويا ليت أن دولتنا العلية أيدها الله تصم أذنها<lb/>عن أقوال الوشاة، وتسمح لهذه الجريدة النادرة المثال أن يدوم دخولها إلى بلادها،<lb/>فقد قرأنا فيها أنهم يسعون في منعها) اهـ.<lb/>فتأملوا رعاكم الله أيها القراء هذا الإنصاف والبعد عن التعصب، فهكذا ينبغي<lb/>الاتفاق والائتلاف والتعاون على خدمة الأوطان، لا سيما من أرباب الجرائد الذين<lb/>نصبوا أنفسهم للخدمة العامة، فحسبنا ما رأيناه من العبر في الخلاف والخصام. <note type="footnote" place="bottom"/>
+               <lb/>نقدم خالص الشكر لرفيقتنا جريدة <title level="j" change="#d2e191">الأصمعي</title> الغراء على تنويهها بشأن جريدتنا<lb/>وتكرار الثناء عليها، مما يزيد النزالة السورية في بلاد البرازيل رغبة فيها، كما<lb/>نشكر أبناء وطننا السوريين في تلك البلاد على مؤازرتنا، فلقد أقبلوا على الجريدة<lb/>مع أنهم مسيحيون ومشرب الجريدة إسلامي، لكنها تحترم الدين المطلق، وتقرر أنه<lb/>مبعث أشعة الفضائل والكمالات، وأن الرجوع إلى تعاليمه الصحيحة، لا سيما<lb/>مواعظ القرآن والإنجيل هو الذي يجمع القلوب على الاتفاق والائتلاف المؤدي إلى<lb/>سعادة الأوطان، والانحراف عن ذلك ميلاً مع ريح السياسات الأوروبية هو الذي<lb/>يلقي العداوة والبغضاء في النفوس بحجة الدين، كما هو مشاهد في كل مكان ثبتت<lb/>فيه أقدامهم وانبثت فيه تعاليمهم. ويسرنا أن نرى العقلاء من العثمانيين وعلى<lb/>الخصوص المسلمين والمسيحيين قد تنبهوا لهذا الأمر، وقد قام الكتاب يسعون في<lb/>نشره بين الناس وتقريره في عقولهم، وقد امتازت جريدتنا بكثرة الخوض في هذا<lb/>الموضوع والاجتهاد في إقناع الأمة العثمانية به واعترف لها بهذه المزية المسلمون<lb/>والنصارى، فقد قالت جريدة <title level="j" change="#d2e191 #d5e210" ref="oape:bibl:5 oclc:931941685">المقتطف</title> الشهيرة: إن الجرائد العربية النافعة للأمة<lb/>قليلة جدًّا والمنار منها. وقد قرأنا في العدد 15 من جريدة <title level="j" change="#d2e191">الأصمعي</title> الغراء التي<lb/>ذكرناها في صدر هذه النبذة ما نصه:<lb/>(المنار أحسن جريدة في جرائد الإسلام، كنا نطالع أعدادها منذ صدورها<lb/>بإمعان فلا نجد إلا كل مقالة بليغة مملوءة بالأقوال الحكيمة الفلسفية، مما يدل على<lb/>اقتدار صاحبها وتمكنه من العلم، وقد حمل على عاتقه - وفقه الله - أن يبث في<lb/>صدور أهل الشرق من الإسلام روح التهذيب الحقيقي، وأن ينسخ من عقولهم<lb/>الخرافات والأضاليل، وربما أنشأنا مقالة عن قريب عنوانها (جرائد الإسلام<lb/>والمنار) .<lb/>(وفي العدد الأخير منها (يعني 17) مقالة عنوانها: (الجيوش الغربية<lb/>المعنوية في الفتوحات الشرقية) بالغة منتهى الإعجاز من منطق العقل وحسن<lb/>السبك، ذهب فيها إلى أن الجيوش المعنوية هي الخمر والميسر والربا والبغاء<lb/>والتجارة، خمسة فيالق أدخلها الغرب إلى الشرق ففاز عليه الفوز المبين، وقد شرح<lb/>مفصلاً عن كل فيلق منها فوفاه حقه، ويا ليت أن دولتنا العلية أيدها الله تصم أذنها<lb/>عن أقوال الوشاة، وتسمح لهذه الجريدة النادرة المثال أن يدوم دخولها إلى بلادها،<lb/>فقد قرأنا فيها أنهم يسعون في منعها) اهـ.<lb/>فتأملوا رعاكم الله أيها القراء هذا الإنصاف والبعد عن التعصب، فهكذا ينبغي<lb/>الاتفاق والائتلاف والتعاون على خدمة الأوطان، لا سيما من أرباب الجرائد الذين<lb/>نصبوا أنفسهم للخدمة العامة، فحسبنا ما رأيناه من العبر في الخلاف والخصام. <note type="footnote" place="bottom"/>
             </div>
             <pb n="n1-p735" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P205.xhtml"/>
 
@@ -152,7 +152,7 @@
                         </persName>
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
-               <head change="#d2e141" xml:lang="ar">أخبار تونسية<lb/>ملخصة من جريدة <tei:title level="j" change="#d2e191">الحاضرة</tei:title> الغراء</head>
+               <head change="#d2e141" xml:lang="ar">أخبار تونسية<lb/>ملخصة من جريدة <title level="j" change="#d2e191">الحاضرة</title> الغراء</head>
                <lb/>
                <lb/>بواعث التحصيل<lb/>لا يخفى أن المرء بكماله لا بجماله، وأن فضل الأدب أسمى وأجل من فضل<lb/>النسب، وأن منهل العلوم ومورد الكمالات يسعى إليه من كل صوب وحدب،<lb/>وجريًا على هذه القاعدة قد قررت الحكومة المحمدية أن لا يتولى الوظائف الإدارية<lb/>في المستقبل إلا من توفرت فيه شروط اللياقة والأهلية، فزيادة على تحصيل العلوم<lb/>الغربية يتعين على طالب الوظيفة أن يبرهن على إحرازه الملكة الكافية في تثقيف<lb/>الذهن بالفنون الوقتية من العقلية والنقلية التي اقتضتها الظروف الحالية، كالجغرافيا<lb/>والحساب والتاريخ، ولا شك أن هذا التنظيم من بواعث التنشيط على اقتناء<lb/>الكمالات والمعارف النافعة، ولذلك نحث عموم الشبان التونسيين الذين يقصدون<lb/>الانخراط في سلك الخدمات الإدارية أن يقبلوا على مناهل التعليم بجد وهمة تمكنهم<lb/>من إحراز قصبة السبق في هذا الميدان، وهذا نص الأمر العالي الصادر في هذا<lb/>الشأن:<lb/>من عبد الله - سبحانه - المتوكل عليه، المفوض جميع الأمور إليه: علي<lb/>باشا باي - صاحب المملكة التونسية، سدد الله تعالى أعماله، وبلغه آماله - إلى من<lb/>يقف على أمرنا هذا من الخاصة والعامة:<lb/>أما بعد، فبناء على أنه من اللازم أن تكون للمستخدمين المسلمين بسائر<lb/>الإدارات التونسية معارف عمومية في علم الحساب والتاريخ والجغرافيا، وبمقتضى<lb/>ما قرره مدير العلوم والمعارف وتقرر من وزيرنا الأكبر - أصدرنا أمرنا هذا بما يأتي:<lb/>(الفصل الأول)<lb/>جعلنا شهادة في المعارف العملية يقع إعطاؤها عقب امتحان يشتمل قانونه على<lb/>المواد المذكورة في الفصل الثالث.<lb/>(الفصل الثاني)<lb/>الأنفار الحائزون على هذه الشهادة يفضَّلون على غيرهم من المترشحين الغير<lb/>المحصلين على غيرها من الشهادات التي تراها الدولة مساوية لها، وبقطع النظر<lb/>عن الامتحانات الفنية، وذلك للحصول على الخطط الآتي ذكرها:<lb/>خطة الخلفاء، وخطة مستخدمي إدارة المال، وإدارة الأداءات، وجمعية<lb/>الأوقاف، وخطة الوكالة، وخطة حكام بالمجالس العدلية.<lb/>(الفصل الثالث)<lb/>يشتمل قانون المعارف على المواد الآتي ذكرها:<lb/>علم الحساب: العمليات الأربع والكسور العشرية والكسور الاعتيادية وقاعدة<lb/>الثلاث وقاعدة الشركة والنسب والطريقة الميترية ومكاييل المساحة والجرام.<lb/>علم الهندسة: القواعد الابتدائية والعملية وقواعد المساحة علم الجغرافيا -<lb/>جغرافيا أقطار الدنيا الخمسة الابتدائية، وجغرافيا حائط البحر المتوسط من حيث<lb/>الطبيعة والسياسة والثروة، وجغرافيا القطر التونسي والجزائر منفصلة.<lb/>علم التاريخ: تاريخ شمال إفريقيا والقطر التونسي خصوصًا، وتاريخ التمدن<lb/>الأورباوي ملخصًا، وتاريخ العرب. اهـ باختصار. <note type="footnote" place="bottom"/>
             </div>
@@ -170,6 +170,6 @@
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P208.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>

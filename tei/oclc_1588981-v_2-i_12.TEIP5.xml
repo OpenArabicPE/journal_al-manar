@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,31 +42,31 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="2" to="2" change="#d2e128 #d2e141" xml:lang="ar">2</tei:biblScope>
-                  <tei:biblScope unit="issue" from="12" to="12" change="#d2e128 #d2e141" xml:lang="ar">12</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="2" to="2" change="#d2e128 #d2e141" xml:lang="ar">2</biblScope>
+                  <biblScope unit="issue" from="12" to="12" change="#d2e128 #d2e141" xml:lang="ar">12</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P362.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
+      <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1317-01-24" datingMethod="#cal_islamic" when="1899-06-04">24 محرم  1317</date>هـ</head>
             <lb/>
@@ -107,7 +107,7 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">قليل من الحقائق عن تركيا<lb/>في عهد جلالة السلطان عبد الحميد الثاني</head>
                <lb/>(تابع عدد 36 من السنة الأولى)<lb/>(دَيْن تركيا) :<lb/>جرت بين تركيا ودائنيها مخابرات على خطة من الصدق ارتاحت إليها أنفس<lb/>هؤلاء فأحلوها محلها من القبول وسارت من على نمط من الحنق عجيب يشاكل<lb/>المعجزة في خواصها فأفضت إلى حل مسألة الدين في 20 ديسمبر سنة 1881.<lb/>وكان كل الدين قد بلغ في ذلك الوقت 254292000 جنيه إنكليزي؛ لأن القروض<lb/>التي حصلت في عهد السلاطين السالفة من سنة 1858 إلى سنة 1875 وفي ضمنها<lb/>قرض السهام التركية ذات الفائض وهو رأس مال إيراده السنوي 14000 فرنك عن<lb/>كل كيلو متر من السكك الحديدية التي تنشأ في تركيا تضمنه سكة حديد الرومللي كل<lb/>هذه القروض مجموعها يبلغ 218436540 جنيهًا إنكليزيًّا وكان الذي دفع من هذا<lb/>المبلغ إلى وقت تأخر تركيا عن دفع أقساط الدين (الكوبون) هو 25947825<lb/>جنيهًا إنكليزيًّا فنقص بذلك الدين إلى 192488715 جنيهًا إنكليزيًّا، لكن بسبب<lb/>زيادة مبلغ 61803915 جنيهًا وهو متأخرات الفوائد المستحقة من شهر سبتمبر سنة<lb/>1875 قد وصل مجموع الدين العمومي في 20 ديسمبر سنة 1881 إلى المبلغ<lb/>السائب ذكره أي: 254292000 جنيه.<lb/>يجب أن يضاف إلى هذا المبلغ هذه المبالغ الأخرى وهي:<lb/>أولاً: مبلغ 8590000 جنيه مجيدي وهو مجموع مبالغ اقترضت من<lb/>مصارف غلطة قبل حلول سنة 1880 سدًّا لحاجات الخزينة وذلك الفرع من الدين قد<lb/>تنازلت بسببه حكومة تركيا لدائنيها بمقتضى الاتفاق المبرم في 22 نوفمبر - عن<lb/>إيرادات الِملْح والتبغ و (المشروبات الروحية) وطوابع البوستة والحرير والأسماك.<lb/>ثانيًا: الغرامة الحربية المستحقة لروسيا بمقتضى معاهدة الصلح وهي تقرب<lb/>من مبلغ 802500000 فرنك.<lb/>ثالثًا: التعويض المستحق للتجار الروسيين بسبب خسائر الحرب من سنة<lb/>1877 إلى سنة 1878.<lb/>لم يكن الغرض من الاتفاق المبرم في 20 ديسمبر سنة 1881 التعويض لما<lb/>كان يتوقع أن يكون لروسيا قبل تركيا من المطالب؛ فإن معاهدة برلين قد كفت<lb/>المتفقين مؤنة البحث في ذلك؛ إذ نص فيها صريحًا على أن هذه المطالب يقوم<lb/>بأدائها حاملو السندات التركية وإنما كان القصد من الاتفاق المذكور حينئذ مجرد<lb/>البحث في مسألة الدين العمومي.<lb/>بني هذا الاتفاق على أمرين؛ أحدهما: الحقيقي، وهو مجموع القروض التي<lb/>حصلت في سنين 1858 و 1860 و 1862 و1863 و 1865 و 1867 و 1872<lb/>و1875 والثاني: الأسهم التركية، وقُسم الدين الحقيقي هكذا:<lb/>أولاً: مبلغ 176756510 جنيهات إنكليزية وهو مجموع القروض الثمانية<lb/>المذكورة، استنزل منها مبلغ 18932060 جنيهًا إنكليزيًّا هو مجموع تسديدات<lb/>(استهلاكات) مختلفة حصلت إلى وقت كف تركيا عن دفع أقساط الدين واستنزل منه<lb/>بعد ذلك أيضًا مبلغ 8668450 جنيهًا إنكليزيًّا، كان إذ ذاك في الخزينة فانحط بذلك<lb/>رأس المال المقترض إلى 159156000 جنيه إنكليزي.<lb/>ثانيًا: مبلغ 1829685 أصدرت به سندات وقتية تدعى سندات رمضان<lb/>بمقتضى إرادة سنية صدرت في 6 أكتوبر سنة 1875 الموافق 6 رمضان سنة<lb/>
-            <tei:date calendar="#cal_gregorian" when="1292" change="#d3e146">1292</tei:date> من أجل سداد المبلغ المستحق في سبتمبر سنة 1875 وهذه السندات تعطي<lb/>لحاملها الحق في نصف الربح ونصف المبلغ المستهلك من الدين بسببها.<lb/>هذا المجموع العام هو مبلغ 160985688 جنيهًا إنكليزيًّا قد نقص إلى مبلغ<lb/>92225827 جنيهًا إنكليزيًّا ومنشأ هذا النقص حط الدائنين لتركيا من رأس المال<lb/>الأصلي 71. 42 في المائة وهذا المبلغ كان يعطي فائدة سنوية قدرها 1 في المائة<lb/>وكان في حالة من شأنه فيها أن يزيد ربحه تدريجًا تبعًا للظروف إلى 4 في المائة.<lb/>أما الأسهم التركية فقد جزئت إلى 1980000 سهم قيمة كل منها 400 فرنك<lb/>وربحه السنوي 3 في المائة تسدد (تستهلك) في 104 سنين بست سحبات سنوية<lb/>تحصل في أول فبراير وإبريل ويونيه وأغسطس وأكتوبر وديسمبر من كل سنة.<lb/>والذي استهلك منها حتى أول أكتوبر سنة 1875 هو 11000 سهم من ذات<lb/>الأربعمائة فرنك أي: 4440000 أو 177600 جنيه إنكليزي وبقي منها في أيدي<lb/>حامليها ما قيمته 31512400 جنيه إنكليزي وقد نقصت قيمة كل سهم من هذه<lb/>السهام بمقتضى اتفاق 20 ديسمبر سنة 1881 - 09. 45 في المائة فصار ثمن<lb/>السهم على صورته الجديدة 180 فرنكًا و36 سنتيمًا، وحدد رأس مال السهام التركية<lb/>الجديدة بمبلغ 14211406 جنيهات إنكليزية. بلغ عدد السندات التركية ذات<lb/>الفائض التي أصدرت في خلال المدة الفاصلة بين الأمرين العاليين الصادرين في<lb/>أكتوبر وديسمبر سنة 1875 وجعل استهلاكها في هذه المدة 15350 سهمًا وهي<lb/>رأس مال اسمي قدره 28180000 فرنك وقد جعلت تركيا لنفسها في هذه السهام<lb/>الحق في حطيطة 25 في المائة من الدفعة السنوية المضافة إلى السهام التركية من<lb/>عهد رجوعها إلى دفع الأقساط والمضافة أيضًا مبلغ العشرين في المائة من قيم<lb/>السهام ذات الفائض المستهلكة.<lb/>كفت تركيا عن دفع فائدة السهام ولم يكن عليها أن تعود إلى الدفع حتى يتوفر<lb/>لديها مبلغ يزيد عن اللازم لسد طلبات السندات ذات الفائض، فإذا توفر هذا المبلغ<lb/>تكون الفائدة مستحقة الدفع هي وقيم السندات المسحوبة. ولما نقص الدين بهذه<lb/>الطريقة قد خصصت الحكومة التركية لمصلحته جملة إيرادات تنازلت عنها لدائنيها<lb/>حتى يتولوا إدارتها بأنفسهم وهذه الإيرادات هي <gap resp="#org_MS"/>
+            <date calendar="#cal_gregorian" when="1292" change="#d3e146">1292</date> من أجل سداد المبلغ المستحق في سبتمبر سنة 1875 وهذه السندات تعطي<lb/>لحاملها الحق في نصف الربح ونصف المبلغ المستهلك من الدين بسببها.<lb/>هذا المجموع العام هو مبلغ 160985688 جنيهًا إنكليزيًّا قد نقص إلى مبلغ<lb/>92225827 جنيهًا إنكليزيًّا ومنشأ هذا النقص حط الدائنين لتركيا من رأس المال<lb/>الأصلي 71. 42 في المائة وهذا المبلغ كان يعطي فائدة سنوية قدرها 1 في المائة<lb/>وكان في حالة من شأنه فيها أن يزيد ربحه تدريجًا تبعًا للظروف إلى 4 في المائة.<lb/>أما الأسهم التركية فقد جزئت إلى 1980000 سهم قيمة كل منها 400 فرنك<lb/>وربحه السنوي 3 في المائة تسدد (تستهلك) في 104 سنين بست سحبات سنوية<lb/>تحصل في أول فبراير وإبريل ويونيه وأغسطس وأكتوبر وديسمبر من كل سنة.<lb/>والذي استهلك منها حتى أول أكتوبر سنة 1875 هو 11000 سهم من ذات<lb/>الأربعمائة فرنك أي: 4440000 أو 177600 جنيه إنكليزي وبقي منها في أيدي<lb/>حامليها ما قيمته 31512400 جنيه إنكليزي وقد نقصت قيمة كل سهم من هذه<lb/>السهام بمقتضى اتفاق 20 ديسمبر سنة 1881 - 09. 45 في المائة فصار ثمن<lb/>السهم على صورته الجديدة 180 فرنكًا و36 سنتيمًا، وحدد رأس مال السهام التركية<lb/>الجديدة بمبلغ 14211406 جنيهات إنكليزية. بلغ عدد السندات التركية ذات<lb/>الفائض التي أصدرت في خلال المدة الفاصلة بين الأمرين العاليين الصادرين في<lb/>أكتوبر وديسمبر سنة 1875 وجعل استهلاكها في هذه المدة 15350 سهمًا وهي<lb/>رأس مال اسمي قدره 28180000 فرنك وقد جعلت تركيا لنفسها في هذه السهام<lb/>الحق في حطيطة 25 في المائة من الدفعة السنوية المضافة إلى السهام التركية من<lb/>عهد رجوعها إلى دفع الأقساط والمضافة أيضًا مبلغ العشرين في المائة من قيم<lb/>السهام ذات الفائض المستهلكة.<lb/>كفت تركيا عن دفع فائدة السهام ولم يكن عليها أن تعود إلى الدفع حتى يتوفر<lb/>لديها مبلغ يزيد عن اللازم لسد طلبات السندات ذات الفائض، فإذا توفر هذا المبلغ<lb/>تكون الفائدة مستحقة الدفع هي وقيم السندات المسحوبة. ولما نقص الدين بهذه<lb/>الطريقة قد خصصت الحكومة التركية لمصلحته جملة إيرادات تنازلت عنها لدائنيها<lb/>حتى يتولوا إدارتها بأنفسهم وهذه الإيرادات هي <gap resp="#org_MS"/>
                <lb/>(لها بقية)<lb/>((يتبع بمقال تالٍ)) <note type="footnote" place="bottom"/>
             </div>
             <pb n="n2-p192" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P367.xhtml"/>
@@ -122,6 +122,6 @@
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P368.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>

@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,31 +42,31 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="1" to="1" change="#d2e128 #d2e141" xml:lang="ar">1</tei:biblScope>
-                  <tei:biblScope unit="issue" from="21" to="21" change="#d2e128 #d2e141" xml:lang="ar">21</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="1" to="1" change="#d2e128 #d2e141" xml:lang="ar">1</biblScope>
+                  <biblScope unit="issue" from="21" to="21" change="#d2e128 #d2e141" xml:lang="ar">21</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P109.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
+      <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1316-03-21" datingMethod="#cal_islamic" when="1898-08-09">21 ربيع الأول 1316</date>هـ</head>
             <lb/>
@@ -96,7 +96,7 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">نهضة مسلمي الهند</head>
                <lb/>(2)<lb/>(تابع ما قبله)<lb/>
-               <lb/>أول مَن نهض لنشر التعليم وتعميم التربية في مسلمي الهند هو الرجل العظيم<lb/>(السيد أحمد خان) مؤسس مدرسة (دار العلوم الشرقية الكبرى) .<lb/>نظر هذا الرجل المجدد في شؤون بلاده فرأى أن الوثنيين قد سبقوا المسلمين<lb/>في العلوم والمعارف والعمل والكسب، وفي نتائجها من الثروة الواسعة والعزة<lb/>الرافعة، وسائر ما أسأره (أبقأه) الإنكليز لأهل تلك البلاد من سلطة ومنفعة، رأى<lb/>هذا كما يراه كثيرون من أهل البصيرة، ولكن أشعة بصره تخطَّت المعلولات<lb/>إلى العلل، وانتقلت من العلل إلى كشف علاج الأمراض التي منت أفكار المسلمين<lb/>بالسكون، وألسنتهم بالسكوت، وأيديهم بالشلل، وأرجلهم بالقزل، حتى باتوا بلا<lb/>علم ولا عمل - نظر نظرة حكيم، فاهتدى إلى الصراط المستقيم، وما هو إلا تعميم<lb/>التربية والتعليم.<lb/>كم من عالم لا يعمل بعلمه، وكأيِّن من طبيب لا ينفع مريضًا بطبه،ولكن السيد أحمد<lb/>خان علم فعمل، وطب لمن حب فنفع وأفاد، وهدى إلى سبيل الرشاد.<lb/>كان زيت هذا الرجل في مشكاة نفسه الزكية صافيًا يكاد يضيء ولو لم تمسسه<lb/>نار، فلما زار إنكلترا ورأى ما فيها من الجد والكد، مسته نار الغيرة، فاشتعل نورًا<lb/>على نور، واعتزم من ذلك الحين على إنشاء مدرسة جامعة في وطنه تشابه إحدى<lb/>المدرستين الكبيرتين في إنكلترا (كلية كامبردج) أو (كلية أكسفورد) فرجع إلى<lb/>وطنه بلسان خاطب وسعي دائب، يذكر ويحذر وينذر ويبشر، فقابله قومه<lb/>بالسخرية والاستخفاف، وكثر في شأنه اللغط والإرجاف، سنة الله في المصلحين<lb/>مع المفسدين، وفي المحقين بين الواهمين، وفي العالمين لدى الجاهلين، وفي<lb/>الأنبياء والمرسلين مع الأمم الكافرين، ولكن الرجل لم يثنِ عزيمته عن الإيضاح<lb/>والإيجاف ما قوبل به من الاستخفاف، ولم يبالِ بعدم المساعدة والمؤازرة، فبدأ<lb/>بالعمل على نفقة نفسه، فحمل ذلك بعض عشيرته الأقربين وأصحابه الصادقين، على<lb/>أن يساعدوه ويعضدوه، فانتشر رأيه رويدًا رويدًا، كما هو الشأن في كل<lb/>مشروع مفيد، وكان هو المبدأ لهذه النهضة الحاضرة في الهند، والمفيض لروح<lb/>التربية والتعليم على جثمان مسلمي تلك الممالك.<lb/>أسس مدرسته الشهيرة (دار العلوم الشرقية الكبرى) في مدينة (عليكره) من<lb/>أنحاء الهند الشمالية الغربية في سنة <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1289" change="#d3e146">1289</tei:date> هـ <tei:date calendar="#cal_gregorian" when="1872" change="#d3e146">1872</tei:date> م، وفي سِنِيها الأولى لم<lb/>يرد إليها إلا قليل من الطلبة، ولم يكن فيها إلا بعض الأساتذة الوطنيين، ولم يأتِ<lb/>عليها بضع سنين حتى تحولت إلى مدرسة كلية جامعة، وتلامذتها اليوم يكادون<lb/>يبلغون بضع مئين، وأحضر لها بعض الأساتذة والمعلمين من الأوروبيين، وقد<lb/>تخرج منها شبان بارعون في جميع الفنون، وهم موضوع فخر البلاد الهندية،<lb/>وموضع أملها ورجائها في تعميم التربية الفاضلة والتعليم الصحيح مع الاستغناء عن<lb/>الأجانب.<lb/>مات السيد أحمد خان من نحو ثلاثة أشهر، فكان لمصابه رنَّة أسف في تلك<lb/>الديار، وطيَّر البرق نعيه إلى سائر الأقطار، ولقد أبَّنه بعض الفضلاء عند جدثه،<lb/>فقال كلمة جليلة نقلتها الجرائد وحفظها التاريخ، كلمة كانت أبلغ نعت للفقيد،<lb/>وأحسن تعريف له وهي قوله مشيرا إلى القبر: (هذا قبر أمتنا) ولعمري إن ذلك<lb/>المفرد العَلَم هو الذي يصح أن يقال فيه (يا مفردًا هو في أثوابه أمم) لأن من أوجد<lb/>الأمة وأحياها كان هو إياها. عظُم قدر الرجل في نفوس قومه بعد فقده، ولا يزال<lb/>يعظم وينمو بنمو تعاليمه وانتشارها، ولا يعرف أقدار الرجال العظام في حياتهم إلا<lb/>الأمم العالمة الراقية أعلى مراقي التمدن، كذا أفادنا التاريخ القديم والحديث. اتفق<lb/>مسلمو الهند العارفون بقدر الرجل الذين قدروا الروح الذي أفاضه على الأمة بخطبه<lb/>وسعيه حق قدره - على إنشاء مدرسة جامعة مشابهة لمدرسته تسمى باسمه، وتكون<lb/>تذكارًا لحياته الطيبة واعترافًا بفضله، وتألفت جمعية لتنفيذ المشروع سميت:<lb/>(جمعية أحباء المرحوم السيد أحمد خان) وقد بعث كاتب سر الجمعية (السكرتير)<lb/>رقيمًا إلى جميع أعيان المسلمين وفضلائهم الدين يعرفون فضل الفقيد يدعوهم فيه<lb/>إلى مد ساعد المساعدة للجمعية، افتتحه بالثناء الأوفى على فقيد الملة والوطن،<lb/>مصرحًا فيه بمعنى قول الشاعر:<lb/>هيهات أن يأتي الزمان بمثله <gap resp="#org_MS"/> إن الزمان بمثله لبخيل<lb/>ثم قال: (ولكننا لا نرتاب في أن الحركة الفكرية والنهضة العلمية، اللتين<lb/>أوجدهما المرحوم السيد أحمد خان لا يعتريهما سكون ولا سقوط ما لم يفاجئنا الدهر<lb/>بحادث غير منتظر، ومن أعظم واجباتنا وأقدسها أن نعمل بكل ما في إمكاننا لإتمام<lb/>مشروعاته الجليلة، والسير على منهاجه في أعماله) .<lb/>ثم ذكر أن أول من اقترح هذا العمل المفيد هو السيد قطب أحمد خان، وأن<lb/>مليون روبية (مائة ألف جنيه) تكفي لإنجازه، واستنهض همم الشبان الأذكياء<lb/>لتأليف اللجان في جميع المدائن والقرى للحض على الاكتتاب، وخصص بالذكر<lb/>الشبان الذين تخرجوا من مدرسة (عليكره) وحتم على جميع الجرائد الإسلامية<lb/>موالاة الكتابة في الموضوع والتحضيض على الاكتتاب، وأوجب على رئيس<lb/>الجمعية وكبار أعضائها المؤسسين التجوال في البلاد ما استطاعوا إلى ذلك سبيلاً،<lb/>وصرح بأن على الجمعية أن تقبل قليل التبرع وكثيره، مع الشكر والامتنان،<lb/>ليتمكن مجموع الأمة من الاشتراك في هذا المشروع الشريف. ولقد لبى الهنديون<lb/>النداء بكل رغبة وحمية، فانبرت جرائدهم للكتابة، وفصحاؤهم للخطابة، وعامتهم<lb/>وخاصتهم للإجابة، انتهازًا للفرصة، واغتنامًا للنهزة، فعسى أن يقتدي بهم<lb/>المصريون وسائر العثمانيين، فيلتفتوا إلى هذا الأمر الذي هو كل أمر وهو<lb/>(التربية والتعليم) والله يهدي من شاء إلى صراط مستقيم. <note type="footnote" place="bottom"/>
+               <lb/>أول مَن نهض لنشر التعليم وتعميم التربية في مسلمي الهند هو الرجل العظيم<lb/>(السيد أحمد خان) مؤسس مدرسة (دار العلوم الشرقية الكبرى) .<lb/>نظر هذا الرجل المجدد في شؤون بلاده فرأى أن الوثنيين قد سبقوا المسلمين<lb/>في العلوم والمعارف والعمل والكسب، وفي نتائجها من الثروة الواسعة والعزة<lb/>الرافعة، وسائر ما أسأره (أبقأه) الإنكليز لأهل تلك البلاد من سلطة ومنفعة، رأى<lb/>هذا كما يراه كثيرون من أهل البصيرة، ولكن أشعة بصره تخطَّت المعلولات<lb/>إلى العلل، وانتقلت من العلل إلى كشف علاج الأمراض التي منت أفكار المسلمين<lb/>بالسكون، وألسنتهم بالسكوت، وأيديهم بالشلل، وأرجلهم بالقزل، حتى باتوا بلا<lb/>علم ولا عمل - نظر نظرة حكيم، فاهتدى إلى الصراط المستقيم، وما هو إلا تعميم<lb/>التربية والتعليم.<lb/>كم من عالم لا يعمل بعلمه، وكأيِّن من طبيب لا ينفع مريضًا بطبه،ولكن السيد أحمد<lb/>خان علم فعمل، وطب لمن حب فنفع وأفاد، وهدى إلى سبيل الرشاد.<lb/>كان زيت هذا الرجل في مشكاة نفسه الزكية صافيًا يكاد يضيء ولو لم تمسسه<lb/>نار، فلما زار إنكلترا ورأى ما فيها من الجد والكد، مسته نار الغيرة، فاشتعل نورًا<lb/>على نور، واعتزم من ذلك الحين على إنشاء مدرسة جامعة في وطنه تشابه إحدى<lb/>المدرستين الكبيرتين في إنكلترا (كلية كامبردج) أو (كلية أكسفورد) فرجع إلى<lb/>وطنه بلسان خاطب وسعي دائب، يذكر ويحذر وينذر ويبشر، فقابله قومه<lb/>بالسخرية والاستخفاف، وكثر في شأنه اللغط والإرجاف، سنة الله في المصلحين<lb/>مع المفسدين، وفي المحقين بين الواهمين، وفي العالمين لدى الجاهلين، وفي<lb/>الأنبياء والمرسلين مع الأمم الكافرين، ولكن الرجل لم يثنِ عزيمته عن الإيضاح<lb/>والإيجاف ما قوبل به من الاستخفاف، ولم يبالِ بعدم المساعدة والمؤازرة، فبدأ<lb/>بالعمل على نفقة نفسه، فحمل ذلك بعض عشيرته الأقربين وأصحابه الصادقين، على<lb/>أن يساعدوه ويعضدوه، فانتشر رأيه رويدًا رويدًا، كما هو الشأن في كل<lb/>مشروع مفيد، وكان هو المبدأ لهذه النهضة الحاضرة في الهند، والمفيض لروح<lb/>التربية والتعليم على جثمان مسلمي تلك الممالك.<lb/>أسس مدرسته الشهيرة (دار العلوم الشرقية الكبرى) في مدينة (عليكره) من<lb/>أنحاء الهند الشمالية الغربية في سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1289" change="#d3e146">1289</date> هـ <date calendar="#cal_gregorian" when="1872" change="#d3e146">1872</date> م، وفي سِنِيها الأولى لم<lb/>يرد إليها إلا قليل من الطلبة، ولم يكن فيها إلا بعض الأساتذة الوطنيين، ولم يأتِ<lb/>عليها بضع سنين حتى تحولت إلى مدرسة كلية جامعة، وتلامذتها اليوم يكادون<lb/>يبلغون بضع مئين، وأحضر لها بعض الأساتذة والمعلمين من الأوروبيين، وقد<lb/>تخرج منها شبان بارعون في جميع الفنون، وهم موضوع فخر البلاد الهندية،<lb/>وموضع أملها ورجائها في تعميم التربية الفاضلة والتعليم الصحيح مع الاستغناء عن<lb/>الأجانب.<lb/>مات السيد أحمد خان من نحو ثلاثة أشهر، فكان لمصابه رنَّة أسف في تلك<lb/>الديار، وطيَّر البرق نعيه إلى سائر الأقطار، ولقد أبَّنه بعض الفضلاء عند جدثه،<lb/>فقال كلمة جليلة نقلتها الجرائد وحفظها التاريخ، كلمة كانت أبلغ نعت للفقيد،<lb/>وأحسن تعريف له وهي قوله مشيرا إلى القبر: (هذا قبر أمتنا) ولعمري إن ذلك<lb/>المفرد العَلَم هو الذي يصح أن يقال فيه (يا مفردًا هو في أثوابه أمم) لأن من أوجد<lb/>الأمة وأحياها كان هو إياها. عظُم قدر الرجل في نفوس قومه بعد فقده، ولا يزال<lb/>يعظم وينمو بنمو تعاليمه وانتشارها، ولا يعرف أقدار الرجال العظام في حياتهم إلا<lb/>الأمم العالمة الراقية أعلى مراقي التمدن، كذا أفادنا التاريخ القديم والحديث. اتفق<lb/>مسلمو الهند العارفون بقدر الرجل الذين قدروا الروح الذي أفاضه على الأمة بخطبه<lb/>وسعيه حق قدره - على إنشاء مدرسة جامعة مشابهة لمدرسته تسمى باسمه، وتكون<lb/>تذكارًا لحياته الطيبة واعترافًا بفضله، وتألفت جمعية لتنفيذ المشروع سميت:<lb/>(جمعية أحباء المرحوم السيد أحمد خان) وقد بعث كاتب سر الجمعية (السكرتير)<lb/>رقيمًا إلى جميع أعيان المسلمين وفضلائهم الدين يعرفون فضل الفقيد يدعوهم فيه<lb/>إلى مد ساعد المساعدة للجمعية، افتتحه بالثناء الأوفى على فقيد الملة والوطن،<lb/>مصرحًا فيه بمعنى قول الشاعر:<lb/>هيهات أن يأتي الزمان بمثله <gap resp="#org_MS"/> إن الزمان بمثله لبخيل<lb/>ثم قال: (ولكننا لا نرتاب في أن الحركة الفكرية والنهضة العلمية، اللتين<lb/>أوجدهما المرحوم السيد أحمد خان لا يعتريهما سكون ولا سقوط ما لم يفاجئنا الدهر<lb/>بحادث غير منتظر، ومن أعظم واجباتنا وأقدسها أن نعمل بكل ما في إمكاننا لإتمام<lb/>مشروعاته الجليلة، والسير على منهاجه في أعماله) .<lb/>ثم ذكر أن أول من اقترح هذا العمل المفيد هو السيد قطب أحمد خان، وأن<lb/>مليون روبية (مائة ألف جنيه) تكفي لإنجازه، واستنهض همم الشبان الأذكياء<lb/>لتأليف اللجان في جميع المدائن والقرى للحض على الاكتتاب، وخصص بالذكر<lb/>الشبان الذين تخرجوا من مدرسة (عليكره) وحتم على جميع الجرائد الإسلامية<lb/>موالاة الكتابة في الموضوع والتحضيض على الاكتتاب، وأوجب على رئيس<lb/>الجمعية وكبار أعضائها المؤسسين التجوال في البلاد ما استطاعوا إلى ذلك سبيلاً،<lb/>وصرح بأن على الجمعية أن تقبل قليل التبرع وكثيره، مع الشكر والامتنان،<lb/>ليتمكن مجموع الأمة من الاشتراك في هذا المشروع الشريف. ولقد لبى الهنديون<lb/>النداء بكل رغبة وحمية، فانبرت جرائدهم للكتابة، وفصحاؤهم للخطابة، وعامتهم<lb/>وخاصتهم للإجابة، انتهازًا للفرصة، واغتنامًا للنهزة، فعسى أن يقتدي بهم<lb/>المصريون وسائر العثمانيين، فيلتفتوا إلى هذا الأمر الذي هو كل أمر وهو<lb/>(التربية والتعليم) والله يهدي من شاء إلى صراط مستقيم. <note type="footnote" place="bottom"/>
             </div>
             <pb n="n1-p392" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P112.xhtml"/>
 
@@ -198,6 +198,6 @@
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P118.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>

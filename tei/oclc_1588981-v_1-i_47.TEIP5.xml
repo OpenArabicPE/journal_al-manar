@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,31 +42,31 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="1" to="1" change="#d2e128 #d2e141" xml:lang="ar">1</tei:biblScope>
-                  <tei:biblScope unit="issue" from="47" to="47" change="#d2e128 #d2e141" xml:lang="ar">47</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="1" to="1" change="#d2e128 #d2e141" xml:lang="ar">1</biblScope>
+                  <biblScope unit="issue" from="47" to="47" change="#d2e128 #d2e141" xml:lang="ar">47</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P267.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
+      <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1316-10-08" datingMethod="#cal_islamic" when="1899-02-19">8 شوال  1316</date>هـ</head>
             <lb/>
@@ -157,7 +157,7 @@
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">فرنسا والسودان</head>
-               <lb/>لا تزال الجرائد الفرنسوية تقيم الحجج والبراهين على مخالفة (وفاق السودان)<lb/>لجميع الأصول القانونية والشرائع الدولية، ومما نشرته جريدة <tei:title level="j" change="#d2e191">الديبا</tei:title> في ذلك من<lb/>عهد قريب رسالة من القاهرة ملخصها: أن مصر ولاية تابعة للدولة العلية في جميع<lb/>شؤونها الداخلية الكبرى والخارجية العظمى، مقيدة بفرامين سلطانية أقدمها فرمان<lb/>سنة 1810، وأحدثها فرمان سنة 1892، فلا حق لحكومتها أن تعقد وفاقًا أو<lb/>معاهدة مع دولة ما، وأوضح دليل على هذا أن الدول تأبى عليها تعيين وكلاء<lb/>ومعتمدين في بلادها، وما وكلاء الدول في مصر إلا قناصل جنرالية لا يمكن أن<lb/>يعطى لهم غير هذا اللقب، وأن جلالة السلطان هو الذي أذن للخديوي في سنة<lb/>1874 بأن يوافق الدول على معاهدات الإصلاح القضائي، وفي سنة 79 بأن يعقد<lb/>قرضًا في البلاد الأجنبية لحل المسائل المالية. ولما أذن له في فرماني سنة 79<lb/>وسنة 92 بعقد المعاهدات التجارية والجمركية قيد ذلك بهذا النص: (ليس للخديوي<lb/>أن يتنازل لآخرين بأية حجة وسبب عن الامتيازات الممنوحة لمصر كلها أو بعضها،<lb/>ولا عن أي جزء من الأراضي) .<lb/>وعلى هذا كان يجب أن يكون وفاق السودان بإذن خاص من جلالة السلطان<lb/>ليكون صحيحًا، وأما الاعتراض بأن إنكلترا مشاركة في الفتح والفاعل مستحق<lb/>أجرته على قول الإنجيل الشريف، فهو ضعيف لأن الولايات السودانية لم تخلها<lb/>الجنود المصرية على الإطلاق منذ سنة 1882، وإنما هي ولايات ثارت وعصت<lb/>وأدبت، فإخماد الثورة شيء والفتح شيء آخر، وقد صرحت إنكلترا بلسان حكومتها<lb/>وجرائدها بأن مصر أبقت حقوق سيادتها على السودان غير ممسوسة، وأن الحملة<lb/>لم يك المقصود منها إلا تسكين مقاطعات ثائرة. وصرح اللورد كرزون وكيل<lb/>خارجيتها - حاكم الهند الآن - في مجلس العموم سنة 1896 بأن شرق السودان التي<lb/>تقرر أمرها عائد كله إلى الحكومة المصرية وحدها، والنتيجة أن وفاق السودان فيه<lb/>غمط لحقوق السلطان وحقوق أوروبا، وقد أورد الكاتب كلمتين من كتب فن<lb/>الحقوق الدولية محتجًّا بهما على الإنكليز:<lb/>الأولى: (أن المعاهدة المعقودة بين مملكتين تنفذ في جميع الأملاك والأراضي<lb/>التي تنفذ فيهما سلطتهما، وتقرر عليهما سيادتهما) .<lb/>والثانية: (أنه حينما تضم الدولة دولة أرضًا ما إليها، فكل المعاهدات التي<lb/>تربط بها هذه الدولة تنفذ لساعتها في الأرض التي تضمها إليها) .<lb/>وختم كلامه بأنه سوف يرى إذا كانت تصبر أوروبا على هضم حقوقها أم لا،<lb/>انتهى.<lb/>(المنار)<lb/>قد ذكرت جريدة <tei:title level="j" change="#d2e191">الأهرام</tei:title> ما نشرته الديبا بإسهاب، ونحن نقول<lb/>كما قلنا من قبل: إن المسألة مبنية على القوة لا على الحق، وإلا فما بال سواكن<lb/>ووادي حلفا، فلو كان عند الفرنسويين أسطول كأسطول الإنكليز لنهضت حججهم،<lb/>وأصابوا غرضهم، نعم إن فرنسا ليست كفؤًا لإنكلترا، ولكنها دولة قوية،<lb/>والاحتجاج لا بد أن يمنحها فائدة ما، فقد جاء في أنباء البرق العمومية ما يُشعر بأن<lb/>إنكلترا قد تسمح لفرنسا بمنفذ في النيل، ولكن المصيبة الكبرى على من له كل شيء<lb/>ولا يسمح له بشيء؛ لأنه لا يستطيع أن يقول لأنه لا يستطيع أن يفعل، فعلى<lb/>المصريين أن لا يغتروا بأحد ولا يثقوا بأحد، وأن يتفكروا في كيفية حياتهم في هذه<lb/>الأطوار الجديدة التي طرأت عليهم، فالإنكليز لا يمنعونهم من منافعهم إن لم يقوموا<lb/>بها بعنوان مناهضتهم ومعاداتهم، فليشيدوا المدارس الوطنية، وليعقدوا الشركات<lb/>المالية، وليسابقوا الأوروبي إلى السودان للاتجار وابتياع الأراضي الواسعة<lb/>الرخيصة، فهم أقدر على سكنى السودان واستعماره من الأوروبيين، إن كانوا<lb/>يعقلون. <note type="footnote" place="bottom"/>
+               <lb/>لا تزال الجرائد الفرنسوية تقيم الحجج والبراهين على مخالفة (وفاق السودان)<lb/>لجميع الأصول القانونية والشرائع الدولية، ومما نشرته جريدة <title level="j" change="#d2e191">الديبا</title> في ذلك من<lb/>عهد قريب رسالة من القاهرة ملخصها: أن مصر ولاية تابعة للدولة العلية في جميع<lb/>شؤونها الداخلية الكبرى والخارجية العظمى، مقيدة بفرامين سلطانية أقدمها فرمان<lb/>سنة 1810، وأحدثها فرمان سنة 1892، فلا حق لحكومتها أن تعقد وفاقًا أو<lb/>معاهدة مع دولة ما، وأوضح دليل على هذا أن الدول تأبى عليها تعيين وكلاء<lb/>ومعتمدين في بلادها، وما وكلاء الدول في مصر إلا قناصل جنرالية لا يمكن أن<lb/>يعطى لهم غير هذا اللقب، وأن جلالة السلطان هو الذي أذن للخديوي في سنة<lb/>1874 بأن يوافق الدول على معاهدات الإصلاح القضائي، وفي سنة 79 بأن يعقد<lb/>قرضًا في البلاد الأجنبية لحل المسائل المالية. ولما أذن له في فرماني سنة 79<lb/>وسنة 92 بعقد المعاهدات التجارية والجمركية قيد ذلك بهذا النص: (ليس للخديوي<lb/>أن يتنازل لآخرين بأية حجة وسبب عن الامتيازات الممنوحة لمصر كلها أو بعضها،<lb/>ولا عن أي جزء من الأراضي) .<lb/>وعلى هذا كان يجب أن يكون وفاق السودان بإذن خاص من جلالة السلطان<lb/>ليكون صحيحًا، وأما الاعتراض بأن إنكلترا مشاركة في الفتح والفاعل مستحق<lb/>أجرته على قول الإنجيل الشريف، فهو ضعيف لأن الولايات السودانية لم تخلها<lb/>الجنود المصرية على الإطلاق منذ سنة 1882، وإنما هي ولايات ثارت وعصت<lb/>وأدبت، فإخماد الثورة شيء والفتح شيء آخر، وقد صرحت إنكلترا بلسان حكومتها<lb/>وجرائدها بأن مصر أبقت حقوق سيادتها على السودان غير ممسوسة، وأن الحملة<lb/>لم يك المقصود منها إلا تسكين مقاطعات ثائرة. وصرح اللورد كرزون وكيل<lb/>خارجيتها - حاكم الهند الآن - في مجلس العموم سنة 1896 بأن شرق السودان التي<lb/>تقرر أمرها عائد كله إلى الحكومة المصرية وحدها، والنتيجة أن وفاق السودان فيه<lb/>غمط لحقوق السلطان وحقوق أوروبا، وقد أورد الكاتب كلمتين من كتب فن<lb/>الحقوق الدولية محتجًّا بهما على الإنكليز:<lb/>الأولى: (أن المعاهدة المعقودة بين مملكتين تنفذ في جميع الأملاك والأراضي<lb/>التي تنفذ فيهما سلطتهما، وتقرر عليهما سيادتهما) .<lb/>والثانية: (أنه حينما تضم الدولة دولة أرضًا ما إليها، فكل المعاهدات التي<lb/>تربط بها هذه الدولة تنفذ لساعتها في الأرض التي تضمها إليها) .<lb/>وختم كلامه بأنه سوف يرى إذا كانت تصبر أوروبا على هضم حقوقها أم لا،<lb/>انتهى.<lb/>(المنار)<lb/>قد ذكرت جريدة <title level="j" change="#d2e191">الأهرام</title> ما نشرته الديبا بإسهاب، ونحن نقول<lb/>كما قلنا من قبل: إن المسألة مبنية على القوة لا على الحق، وإلا فما بال سواكن<lb/>ووادي حلفا، فلو كان عند الفرنسويين أسطول كأسطول الإنكليز لنهضت حججهم،<lb/>وأصابوا غرضهم، نعم إن فرنسا ليست كفؤًا لإنكلترا، ولكنها دولة قوية،<lb/>والاحتجاج لا بد أن يمنحها فائدة ما، فقد جاء في أنباء البرق العمومية ما يُشعر بأن<lb/>إنكلترا قد تسمح لفرنسا بمنفذ في النيل، ولكن المصيبة الكبرى على من له كل شيء<lb/>ولا يسمح له بشيء؛ لأنه لا يستطيع أن يقول لأنه لا يستطيع أن يفعل، فعلى<lb/>المصريين أن لا يغتروا بأحد ولا يثقوا بأحد، وأن يتفكروا في كيفية حياتهم في هذه<lb/>الأطوار الجديدة التي طرأت عليهم، فالإنكليز لا يمنعونهم من منافعهم إن لم يقوموا<lb/>بها بعنوان مناهضتهم ومعاداتهم، فليشيدوا المدارس الوطنية، وليعقدوا الشركات<lb/>المالية، وليسابقوا الأوروبي إلى السودان للاتجار وابتياع الأراضي الواسعة<lb/>الرخيصة، فهم أقدر على سكنى السودان واستعماره من الأوروبيين، إن كانوا<lb/>يعقلون. <note type="footnote" place="bottom"/>
             </div>
             <pb n="n1-p914" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P273.xhtml"/>
 
@@ -183,7 +183,7 @@
          </byline>
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">الصوم والفطر</head>
-               <lb/>تناقلت الجرائد المحلية أن كثيرًا من أهل الريف أفطروا في يوم السبت<lb/>(30 رمضان) بناء على أن التقاويم (النتائج والإمساكيات) متفقة على أن الشهر<lb/>29 يومًا، ولا سبب لهذا إلا الجهل بالحكم الشرعي، فمن عرف الحكم لا يبالي<lb/>بالتقاويم، ومن الغريب أن بعض أهل القاهرة قد أفطروا بحجة اتفاق التقاويم<lb/>وتوهموا أن فطرهم صادف الواقع، حيث تبين أن الهلال رؤي في ليلة الأحد<lb/>مرتفعًا وكبيرًا بحيث يجزم أنه ابن ليلتين، وكل هذا لا اعتبار له في نظر الشرع.<lb/>الدين الإسلامي لم يجعل أمر العبادة منوطًا برئيس ولا عالم، بل جعله مما<lb/>يتناوله الكافة؛ لأن إناطة العبادات بالرؤساء قد جر على الأمم السابقة شقاءً طويلاً،<lb/>فلو أن إثبات الصوم والفطر موكول إلى الفلكيين، ولو على تقدير وجودهم لجاز أن<lb/>لا يوجد في البلد الكبير أو القطر العظيم إلا واحد منهم، وربما كان هذا الواحد أو<lb/>الآحاد من أصحاب الأهواء الذين يتلاعبون بأمر الدين، إجابة لداعي الشهوة، أو<lb/>لرغائب الأمراء والكبراء، أو لغير ذلك من الأسباب، وفي ذلك فساد كبير لا يخفى<lb/>على المستبصرين.<lb/>لاحظ الشرع الحكيم هذا فجعل أمر الصوم والفطر مبنيًّا على رؤية الهلال،<lb/>فإن لم يُر فعلى كمال عدة الشهر ثلاثين يومًا، وأول ليلة يُرى فيها الهلال من الشهر<lb/>هي أول الشهر في الاصطلاح الشرعي، سواء كان مرتفعًا أم منخفضاً، ولا مشاحة<lb/>في الاصطلاح، والحكمة ظاهرة، إذ يتساوى بهذا الحكم جميع المسلمين، لا فرق<lb/>بين الأعرابي في باديته والحضري في مصره، يعمل كل مسلم بعلمه إلا إذا ثبت<lb/>شرعًا برؤية الهلال أن يوم الثلاثين من شعبان هو أول رمضان، أو يوم الثلاثين<lb/>من رمضان أنه العيد، فيصوم ويفطر بحسب رؤيته، وإن لم يثبت ذلك شرعًا بأن<lb/>لم يشهد أو لم يحكم بشهادته، ولكن ينبغي أن لا يتظاهر بخلاف ما عليه الناس،<lb/>لئلا يظن به السوء.<lb/>ينحي أكثر الناس باللوم فيما حصل من الخطأ في الفطر على الحكومة<lb/>ويقولون: كان من وظيفتها إعلام سائر جهات القطر بعدم ثبوت العيد ليلة السبت،<lb/>وقالت جريدة <tei:title level="j" change="#d2e191">المقطم</tei:title>: كان ينبغي الإعلام بعدم إمكان رؤية الهلال.<lb/>والصواب: معرفة الحكم الشرعي كافية لعدم الخطأ، وأن التعريف به من<lb/>وظيفة الخطباء والمدرسين، فأكثر المسلمين يحضرون صلاة الجمعة، فلو استبدل<lb/>الخطباء في آخر جمعة من رمضان بيان هذا الحكم بوداع رمضان وإعلام الناس بما<lb/>يعلمونه من إيقاد المصابيح وإطفائها ونحو ذلك مما لا فائدة فيه - لاهتدى الناس ولما<lb/>وقعوا في هذا الالتباس، فعسى أن يلاحظوا هذا في السنين المقبلة، وبالله التوفيق. <note type="footnote" place="bottom"/>
+               <lb/>تناقلت الجرائد المحلية أن كثيرًا من أهل الريف أفطروا في يوم السبت<lb/>(30 رمضان) بناء على أن التقاويم (النتائج والإمساكيات) متفقة على أن الشهر<lb/>29 يومًا، ولا سبب لهذا إلا الجهل بالحكم الشرعي، فمن عرف الحكم لا يبالي<lb/>بالتقاويم، ومن الغريب أن بعض أهل القاهرة قد أفطروا بحجة اتفاق التقاويم<lb/>وتوهموا أن فطرهم صادف الواقع، حيث تبين أن الهلال رؤي في ليلة الأحد<lb/>مرتفعًا وكبيرًا بحيث يجزم أنه ابن ليلتين، وكل هذا لا اعتبار له في نظر الشرع.<lb/>الدين الإسلامي لم يجعل أمر العبادة منوطًا برئيس ولا عالم، بل جعله مما<lb/>يتناوله الكافة؛ لأن إناطة العبادات بالرؤساء قد جر على الأمم السابقة شقاءً طويلاً،<lb/>فلو أن إثبات الصوم والفطر موكول إلى الفلكيين، ولو على تقدير وجودهم لجاز أن<lb/>لا يوجد في البلد الكبير أو القطر العظيم إلا واحد منهم، وربما كان هذا الواحد أو<lb/>الآحاد من أصحاب الأهواء الذين يتلاعبون بأمر الدين، إجابة لداعي الشهوة، أو<lb/>لرغائب الأمراء والكبراء، أو لغير ذلك من الأسباب، وفي ذلك فساد كبير لا يخفى<lb/>على المستبصرين.<lb/>لاحظ الشرع الحكيم هذا فجعل أمر الصوم والفطر مبنيًّا على رؤية الهلال،<lb/>فإن لم يُر فعلى كمال عدة الشهر ثلاثين يومًا، وأول ليلة يُرى فيها الهلال من الشهر<lb/>هي أول الشهر في الاصطلاح الشرعي، سواء كان مرتفعًا أم منخفضاً، ولا مشاحة<lb/>في الاصطلاح، والحكمة ظاهرة، إذ يتساوى بهذا الحكم جميع المسلمين، لا فرق<lb/>بين الأعرابي في باديته والحضري في مصره، يعمل كل مسلم بعلمه إلا إذا ثبت<lb/>شرعًا برؤية الهلال أن يوم الثلاثين من شعبان هو أول رمضان، أو يوم الثلاثين<lb/>من رمضان أنه العيد، فيصوم ويفطر بحسب رؤيته، وإن لم يثبت ذلك شرعًا بأن<lb/>لم يشهد أو لم يحكم بشهادته، ولكن ينبغي أن لا يتظاهر بخلاف ما عليه الناس،<lb/>لئلا يظن به السوء.<lb/>ينحي أكثر الناس باللوم فيما حصل من الخطأ في الفطر على الحكومة<lb/>ويقولون: كان من وظيفتها إعلام سائر جهات القطر بعدم ثبوت العيد ليلة السبت،<lb/>وقالت جريدة <title level="j" change="#d2e191">المقطم</title>: كان ينبغي الإعلام بعدم إمكان رؤية الهلال.<lb/>والصواب: معرفة الحكم الشرعي كافية لعدم الخطأ، وأن التعريف به من<lb/>وظيفة الخطباء والمدرسين، فأكثر المسلمين يحضرون صلاة الجمعة، فلو استبدل<lb/>الخطباء في آخر جمعة من رمضان بيان هذا الحكم بوداع رمضان وإعلام الناس بما<lb/>يعلمونه من إيقاد المصابيح وإطفائها ونحو ذلك مما لا فائدة فيه - لاهتدى الناس ولما<lb/>وقعوا في هذا الالتباس، فعسى أن يلاحظوا هذا في السنين المقبلة، وبالله التوفيق. <note type="footnote" place="bottom"/>
             </div>
             <pb n="n1-p916" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P275.xhtml"/>
 
@@ -215,6 +215,6 @@
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P277.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>

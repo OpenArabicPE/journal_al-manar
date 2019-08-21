@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc change="#d2e141" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" xml:lang="">
+   <teiHeader xml:lang="en">
+      <fileDesc change="#d2e141" xml:lang="en">
          <titleStmt change="#d2e141" xml:lang="en">
             <title change="#d2e141" xml:lang="en">مجلة المنار</title>
             <title type="sub" change="#d2e141" xml:lang="en">TEI edition</title>
             <author change="#d2e141" xml:lang="en">محمد رشيد رضا</author>
-            <tei:respStmt xml:lang="en">
-               <tei:resp change="#d2e141" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
-                  <tei:forename change="#d2e141" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e141" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
-            </tei:respStmt>
+            <respStmt xml:lang="en">
+               <resp change="#d2e141" xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" change="#d2e141" xml:lang="en">
+                  <forename change="#d2e141" xml:lang="en">Till</forename>
+                  <surname change="#d2e141" xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt change="#d2e141" xml:lang="en">
             <p change="#d2e141" xml:lang="en">Unpulished TEI edition</p>
          </publicationStmt>
-         <tei:sourceDesc change="#d2e141" xml:lang="en">
-            <tei:biblStruct xml:lang="ar">
-               <tei:monogr change="#d2e141" xml:lang="ar">
+         <sourceDesc change="#d2e141" xml:lang="en">
+            <biblStruct xml:lang="ar">
+               <monogr change="#d2e141" xml:lang="ar">
                   <title level="j" xml:lang="ar">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes">al-Manār</title>
                   <idno type="jid" xml:lang="ar">33</idno>
@@ -42,31 +42,31 @@
                                 </pubPlace>
                                 <date when="1904-08-01" xml:lang="ar">1 أغسطس 1904</date>
                             </imprint>
-                  <tei:biblScope unit="volume" from="3" to="3" change="#d2e128 #d2e141" xml:lang="ar">3</tei:biblScope>
-                  <tei:biblScope unit="issue" from="30" to="30" change="#d2e128 #d2e141" xml:lang="ar">30</tei:biblScope>
-                  <tei:biblScope unit="page" from="" to=""/>
-               </tei:monogr>
-            </tei:biblStruct>
-         </tei:sourceDesc>
-      </tei:fileDesc>
-      <revisionDesc><tei:change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</tei:gi> into <tei:gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</tei:gi>s.</change>
-         <tei:change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <tei:list>
-               <tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item>
-               <tei:item>
-                  <tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
-               <tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
-            </tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change>
-         <tei:change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <tei:gi xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xml:lang="en">tei:p</tei:gi>s.</change>
+                  <biblScope unit="volume" from="3" to="3" change="#d2e128 #d2e141" xml:lang="ar">3</biblScope>
+                  <biblScope unit="issue" from="30" to="30" change="#d2e128 #d2e141" xml:lang="ar">30</biblScope>
+                  <biblScope unit="page" from="" to=""/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
+         <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
+               <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
+               <item>
+                  <gi>num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item>
+               <item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item>
+            </list> in a <gi>date</gi> with the appropriate <att>calendar</att> and <att>datingMethod</att> attributes</change>
+         <change when="2019-05-12" who="#pers_TG" change="d2e141" xml:lang="en">Added the <att xml:lang="en">xml:lang</att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
+         <change when="2019-05-10" who="#pers_TG" xml:id="d2e128" xml:lang="en">Grouped divs along the presence of <gi xml:lang="en">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xml:lang="en">tei:p</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Discovered that all <gi change="#d2e141" xml:lang="en">div</gi> relate to a single issue and marked them as such.</change>
-         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-03-29" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <gi xml:lang="en">tei:head</gi> into <gi xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-03-29" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
-   </tei:teiHeader>
-   <tei:text xml:lang="ar">
+   </teiHeader>
+   <text xml:lang="ar">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P777.xhtml"/>
-      <tei:body change="#d2e141" xml:lang="ar">
+      <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1318-09-16" datingMethod="#cal_islamic" when="1901-01-07">16 رمضان  1318</date>هـ</head>
             <lb/>
@@ -146,7 +146,7 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar">
                <head change="#d2e141" xml:lang="ar">الجامع الأزهر</head>
                <lb/>
-               <lb/>وقفنا على مقالة ضافية في جريدة (<tei:title level="j" change="#d2e191">بيسه أخبار</tei:title>) الهندية الإسلامية كان بعثها<lb/>صاحب هذه الجريدة الفاضل من مصر عندما جاءها في سياحته التي تكلمنا عنها في<lb/>جزء مضى. يصف فيها مصر وصفًا تاريخيًّا سياسيًّا أدبيًّا علميًّا جاء فيه بالفتيل<lb/>والنقير: وتكلم حتى عن راكبي الحمير. وشبه الحكومة المصرية بالشطرنج يلعب<lb/>به اللورد كرومر.. . وأطال الكلام على الجامع الأزهر فنلخص من كلامه فيه ما<lb/>يأتي:<lb/>قال: دخلت الجامع الأزهر الذي هو أشهر المساجد في العالم من حيث التعليم<lb/>وأما من حيث السعة والزخرف فيوجد ما يفضله في القاهرة وغيرها - ثم تكلم<lb/>بالمناسبة على جامع القلعة وغيره وقال - أنا أدع الكلام على هذه المساجد العظيمة<lb/>كجامع السلطان حسن وابن طولون والمؤيد والغوري وأتكلم على الأزهر لأن كل<lb/>المسلمين يعرفون اسمه ولا سيما قراء جريدتنا.<lb/>هو أكبر المدارس الجامعة في الدنيا وقد جئته مرات متعددة في أوقات مختلفة<lb/>من ليل وصباح وظهيرة ومساء من نهار وهو مخصوص للتعليم لا للصلاة فلا<lb/>يجيئه الناس من الخارج للصلاة , ومتى أذّن المؤذن من مناراته الأربع (هي خمس)<lb/>يقوم بعض طلاب العلم فيه وفي أروقته للصلاة. ولكنهم يصلون متفرقين.. .<lb/>وبعضهم يبقى مشغولاً بالقراءة والمطالعة وبعضهم بالأكل والاضطجاع.. .<lb/>(قدرت الذين يتعلمون فيه بزهاء عشرة آلاف، والأساتذة بمائة، أو يزيدون<lb/>(الصواب أنهم مئات) وسن الطلاب يبتدىء من 7 سنين إلى سبعين سنة.. .)<lb/>ثم تكلم عن الرواتب وأنها قليلة جدًّا إلا راتب شيخ الجامع فإنه كثير جدًّا<lb/>وتكلم عن الجراية وعن الإدام ما هو , وكيف يكون الأكل , وعن الأروقة وتعدد<lb/>الأمم والشعوب فيه بما لا حاجة لنقله إلا قوله (والتعليم فيه يبتدئ من قراءة<lb/>القرآن للأطفال إلى أعلى العلوم الإسلامية , ويقرأ بعض الأستاذين لطالب واحد<lb/>وبعضهم لجماعة كثيرة) ثم قال ما ترجمته بالحرف:<lb/>(أنا أبدي رأيي في الأزهر وإن تألم له كل مسلم يراه وهو أن معرفتي بهذا<lb/>المكان الذي هو دار العلوم الإسلامية الكبرى ما أورثني إلا التأسف. قلما يخرج من<lb/>هذه المدرسة عالم ينفع الملة والأمة , وإن المتخرج منها يأخذ عمامة الفضيلة (يريد<lb/>درجة التدريس) بعد دراسة 12 سنة إلى 24 سنة.<lb/>أصحاب الجرائد الإسلامية يمدحون طريقة إصلاح التعليم الجديدة في الأزهر<lb/>ويذهبون إلى أنها ضرورية لا بد منها , ولكن علماء الأزهر (أي بعضهم) يقولون:<lb/>إنها بدعة وإن الطريقة القديمة خير منها.<lb/>سألت لطيف باشا سليم عن علماء الأزهر النابغين فأجابني بما رجعت معه<lb/>يائسًا وهو أن قال: إنه لم يتخرج من الأزهر عالم يستحق أن يخرج اسمه من<lb/>مصر ويطوف البلاد الأخرى.<lb/>يريد علماء المسلمين أن يكونوا كأنبياء بني إسرائيل , ولكن هؤلاء العلماء لم<lb/>يصلوا في الحقيقة إلى مرتبة العلماء فكيف يعرجون إلى أفق الأنبياء؟ ! ترى من<lb/>العلماء من يأمر بالمعروف ولا يأتمر , ويَنْهَى عن المنكر ولا ينتهي) , وهنا ذكر<lb/>الكاتب بيتين من الشعر الفارسي معناهما أن الخطيب على المنبر يقرع الأسماع<lb/>بزواجر الوعظ في الجلوة ويعمل بخلاف ذلك في الخلوة. يأمرون الناس بالتوبة<lb/>ولكنهم هم لا يتوبون فهلا وعظوهم بأفعالهم كما يعظونهم بأقوالهم فإن العمل أقوى<lb/>تأثيرًا. اهـ المراد منه.<lb/>***<lb/>تعيين أمين<lb/>علمنا أن مجلس إدارة الأزهر قد اختار الأستاذ النزيه الشيخ أمين أفندي<lb/>السحيمي وكيلاً لرواق الأتراك لعجز شيخه بالمرض والكبر عن النظر في شؤونه ,<lb/>وهو تعيين أصاب أهله ووقع موقعه؛ لأن هذا الفاضل يرجى أن يصلح به حال<lb/>الرواق ويرتقي أحسن ارتقاء , فنهنئ صديقنا الشيخ أمين أفندي بهذه الخدمة الجليلة<lb/>ونرجو له التوفيق بالقيام بشئونها خير قيام. <note type="footnote" place="bottom"/>
+               <lb/>وقفنا على مقالة ضافية في جريدة (<title level="j" change="#d2e191">بيسه أخبار</title>) الهندية الإسلامية كان بعثها<lb/>صاحب هذه الجريدة الفاضل من مصر عندما جاءها في سياحته التي تكلمنا عنها في<lb/>جزء مضى. يصف فيها مصر وصفًا تاريخيًّا سياسيًّا أدبيًّا علميًّا جاء فيه بالفتيل<lb/>والنقير: وتكلم حتى عن راكبي الحمير. وشبه الحكومة المصرية بالشطرنج يلعب<lb/>به اللورد كرومر.. . وأطال الكلام على الجامع الأزهر فنلخص من كلامه فيه ما<lb/>يأتي:<lb/>قال: دخلت الجامع الأزهر الذي هو أشهر المساجد في العالم من حيث التعليم<lb/>وأما من حيث السعة والزخرف فيوجد ما يفضله في القاهرة وغيرها - ثم تكلم<lb/>بالمناسبة على جامع القلعة وغيره وقال - أنا أدع الكلام على هذه المساجد العظيمة<lb/>كجامع السلطان حسن وابن طولون والمؤيد والغوري وأتكلم على الأزهر لأن كل<lb/>المسلمين يعرفون اسمه ولا سيما قراء جريدتنا.<lb/>هو أكبر المدارس الجامعة في الدنيا وقد جئته مرات متعددة في أوقات مختلفة<lb/>من ليل وصباح وظهيرة ومساء من نهار وهو مخصوص للتعليم لا للصلاة فلا<lb/>يجيئه الناس من الخارج للصلاة , ومتى أذّن المؤذن من مناراته الأربع (هي خمس)<lb/>يقوم بعض طلاب العلم فيه وفي أروقته للصلاة. ولكنهم يصلون متفرقين.. .<lb/>وبعضهم يبقى مشغولاً بالقراءة والمطالعة وبعضهم بالأكل والاضطجاع.. .<lb/>(قدرت الذين يتعلمون فيه بزهاء عشرة آلاف، والأساتذة بمائة، أو يزيدون<lb/>(الصواب أنهم مئات) وسن الطلاب يبتدىء من 7 سنين إلى سبعين سنة.. .)<lb/>ثم تكلم عن الرواتب وأنها قليلة جدًّا إلا راتب شيخ الجامع فإنه كثير جدًّا<lb/>وتكلم عن الجراية وعن الإدام ما هو , وكيف يكون الأكل , وعن الأروقة وتعدد<lb/>الأمم والشعوب فيه بما لا حاجة لنقله إلا قوله (والتعليم فيه يبتدئ من قراءة<lb/>القرآن للأطفال إلى أعلى العلوم الإسلامية , ويقرأ بعض الأستاذين لطالب واحد<lb/>وبعضهم لجماعة كثيرة) ثم قال ما ترجمته بالحرف:<lb/>(أنا أبدي رأيي في الأزهر وإن تألم له كل مسلم يراه وهو أن معرفتي بهذا<lb/>المكان الذي هو دار العلوم الإسلامية الكبرى ما أورثني إلا التأسف. قلما يخرج من<lb/>هذه المدرسة عالم ينفع الملة والأمة , وإن المتخرج منها يأخذ عمامة الفضيلة (يريد<lb/>درجة التدريس) بعد دراسة 12 سنة إلى 24 سنة.<lb/>أصحاب الجرائد الإسلامية يمدحون طريقة إصلاح التعليم الجديدة في الأزهر<lb/>ويذهبون إلى أنها ضرورية لا بد منها , ولكن علماء الأزهر (أي بعضهم) يقولون:<lb/>إنها بدعة وإن الطريقة القديمة خير منها.<lb/>سألت لطيف باشا سليم عن علماء الأزهر النابغين فأجابني بما رجعت معه<lb/>يائسًا وهو أن قال: إنه لم يتخرج من الأزهر عالم يستحق أن يخرج اسمه من<lb/>مصر ويطوف البلاد الأخرى.<lb/>يريد علماء المسلمين أن يكونوا كأنبياء بني إسرائيل , ولكن هؤلاء العلماء لم<lb/>يصلوا في الحقيقة إلى مرتبة العلماء فكيف يعرجون إلى أفق الأنبياء؟ ! ترى من<lb/>العلماء من يأمر بالمعروف ولا يأتمر , ويَنْهَى عن المنكر ولا ينتهي) , وهنا ذكر<lb/>الكاتب بيتين من الشعر الفارسي معناهما أن الخطيب على المنبر يقرع الأسماع<lb/>بزواجر الوعظ في الجلوة ويعمل بخلاف ذلك في الخلوة. يأمرون الناس بالتوبة<lb/>ولكنهم هم لا يتوبون فهلا وعظوهم بأفعالهم كما يعظونهم بأقوالهم فإن العمل أقوى<lb/>تأثيرًا. اهـ المراد منه.<lb/>***<lb/>تعيين أمين<lb/>علمنا أن مجلس إدارة الأزهر قد اختار الأستاذ النزيه الشيخ أمين أفندي<lb/>السحيمي وكيلاً لرواق الأتراك لعجز شيخه بالمرض والكبر عن النظر في شؤونه ,<lb/>وهو تعيين أصاب أهله ووقع موقعه؛ لأن هذا الفاضل يرجى أن يصلح به حال<lb/>الرواق ويرتقي أحسن ارتقاء , فنهنئ صديقنا الشيخ أمين أفندي بهذه الخدمة الجليلة<lb/>ونرجو له التوفيق بالقيام بشئونها خير قيام. <note type="footnote" place="bottom"/>
             </div>
             <pb n="n3-p776" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P784.xhtml"/>
 
@@ -171,6 +171,6 @@
             <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P786.xhtml"/>
 
 
-            </tei:body>
-   </tei:text>
-</tei:TEI>
+            </body>
+   </text>
+</TEI>
