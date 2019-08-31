@@ -17,3 +17,5 @@ The digital text was taken from shamela.ws.
         + volumes: `<div type="volume" n="\d+"/>`
         + issues: `<div type="issue"/>` as children of the volumes
     - This was then split into one file per issue using the volume and the issue counts
+3. Authorship information: a lot of the articles carry generic bylines with the following pattern: "الكاتب: محمد رشيد رضا". These are not found in the originals, if one consults the facsimiles available from <http://archive.alsharekh.org/> (formerly archive.sakhrit.co), but must have been added by later editors to the text.
+    + their accuracy is unclear.
