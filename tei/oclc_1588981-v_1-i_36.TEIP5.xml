@@ -49,7 +49,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-09-04" who="#pers_TG" xml:id="d3e232" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><tei:change when="2019-08-22" who="#pers_TG" xml:id="d5e221" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+      <revisionDesc><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-09-04" who="#pers_TG" xml:id="d3e232" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><tei:change when="2019-08-22" who="#pers_TG" xml:id="d5e221" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
                <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
@@ -65,13 +65,13 @@
       </revisionDesc>
    </teiHeader>
    <text xml:lang="ar">
-      <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P193.xhtml"/>
+      <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P193.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n=""/>
       <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1316-07-12" datingMethod="#cal_islamic" when="1898-11-26">12 رجب  1316</date>هـ</head>
             <lb/>
          <date calendar="#cal_gregorian" when="1898" change="#d2e141" xml:lang="ar">ديسمبر - 1898م</date>
-         <pb n="n1-p696" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P194.xhtml"/>
+         <pb n="n1-p696" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P194.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="696"/>
 
 
          
@@ -83,7 +83,7 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p704" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P195.xhtml"/>
+            <pb n="n1-p704" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P195.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="704"/>
 
 
          
@@ -94,7 +94,7 @@
                <lb/>ومما يزعزع سياسة الملك الداخلية ويسبب تقويض أركان الدولة: كثرة<lb/>الأجناس واختلاف الأديان، ولهذا كلما كانت رعية الدولة مؤلفة من أجناس متعددة<lb/>كلما صعبت قيادتها، وكانت أقرب إلى الهياج من السكينة، وإلى القلق من الراحة،<lb/>فإن اختلاف الأجناس والأديان مما يؤدي إلى الاختلاف في الطباع والعادات، ومتى<lb/>كانت هذه متغايرة والأخلاق متباينة جر ذلك إلى النزاع في المعاملة والتنافس في<lb/>المصلحة، ثم إن أبناء الجنس الواحد متى وجدوا بين أجناس أخرى ينبت فيهم نوع<lb/>من العصبية والتآلف يحملهم على الثورة والخروج عن الطاعة لأقل سبب وأوهى<lb/>حجة، ولهذا كانت سياسة الدولة العلية في أمورها الداخلية من أصعب السياسات؛<lb/>لأن رعيتها مختلفة الأجناس والأديان، فقد كانت من وقت غير بعيد صاحبة السيادة<lb/>على الصرب وبوسنة والجبل الأسود واليونان والبلغار وقبرص، وقد أصبحت هذه<lb/>البلاد اليوم في معزل عن حكمها وسيادتها، فأكبر عامل ترجع إليه هذه الحركات<lb/>هو الاختلاف الذي بينته.<lb/>فلابد للدولة المؤلفة من الأجناس المختلفة من أن تكون راقية أوجًا عاليًا من<lb/>المدنية، وأفرادها بالغين مبلغًا عظيمًا من الكمال والهداية، حتى يمكن أن يستتب<lb/>فيها نظام ويقوم لها حال؛ لأن ذلك الكمال يعرفهم أنهم باجتماعهم تحت راية واحدة<lb/>أصبحوا يدًا واحدة، يهمهم المحافظة على تلك الراية؛ لأنها هي التي تقيهم من<lb/>كوارث الدهر وعوادي الأيام، وأنهم متى كانوا يقطنون أرضًا واحدة فعلاقات<lb/>المعيشة تحوجهم إلى تحسين المعاملات فيما بينهم، ويجب عليهم احترام تلك العلاقة<lb/>والسعي في توطيدها حتى تدوم فيهم المعاشرة ويصل كل منهم إلى غايته ومنفعته،<lb/>وأرباب الأديان المختلفة لو رجعوا إلى أصول كل دين لرأوها متحدة، ولوجدوا أن<lb/>كل دين ما نزل إلا لأمر واحد، هو تهذيب النفس وتحسين علاقتها مع من يخالطها،<lb/>فكل دين قد أتى لهذه الغاية، حث على الفضائل وحض على التوفيق بين الناس،<lb/>ولو فهمت كل طائفة حقيقة دينها لما نشأ بين الناس تباغض، ولا حدث بين أهل<lb/>الأديان المختلفة تنافر، وتلك سنة الله تعالى في خلقه وهو القائل {وَلَوْ شَاءَ رَبُّكَ<lb/>لَجَعَلَ النَّاسَ أُمَّةً وَاحِدَةً} (هود: 118) ولكن ضل أناس في كل دين واعتقدوا<lb/>أن الاختلاف في الدين يوجب النفرة من غير أهله ويأمر بالتباعد عمن خالفهم فيه،<lb/>ومن هذا تخالفت العلاقات بين أرباب الأديان المختلفة، وأصبح اختلاف الدين عَلمًا<lb/>على المعاداة والتنفير، وهذا كله سببه الجهل، وهو راجع إلى تقصير أنصار الدين<lb/>في كل أمة فإنهم هم الملزمون بتبيان ما يصلح العقائد ويقوم الأفكار فيما يختص<lb/>بالأديان.<lb/>ربما يعتقد القائمون بأمر الأديان أن انتشار التعليم يكشف الغطاء عن الحقيقة<lb/>ويمحو أثر هذا العدوان المنتشر بين أهل الأديان، ويركنون إلى ذلك ويقولون: لا<lb/>لوم علينا ولا تثريب. نعم، لا ننكر أن التعليم له بعض التأثير في تحسين العقائد<lb/>الساقطة ولكن الأشياء الراسخة التي تلقن إلى الطفل في طفوليته على أنها من الدين<lb/>تبقى لا يقاومها التعليم مهما كانت درجتها من السخافة، وكثيرًا ما نسمع بعلماء في<lb/>الهند يغوصون بحار العلوم، ويمضون أزمانهم في سبر غور الفنون، ومع ذلك<lb/>تراهم يعتقدون أن إلههم هو الشمس، والبعض يعتقد أنه النار، والآخر يعتقد أنه<lb/>القمر، وغير ذلك من عقائد التخريف والهذيان، فلو كان التعليم يحسن العقائد لكان<lb/>هؤلاء أولى بتركهم هذه الخزعبلات، فالواجب على أهل الدين من كل أمة أن<lb/>يقوموا ببث معالم الدين حق القيام ويزيلوا هذا العدوان.<lb/>هذا بعض ما تقوم به السياسية الداخلية في الدول، وتتوطد به دعامتها.<lb/>ولنتكلم الآن على السياسية الخارجية.<lb/>أما السياسة الخارجية: فهي ما تلزم الملك في علاقته مع الدول الأخرى،<lb/>ودعامة هذه السياسة هي: المحافظة على حقوق الملك وعدم التفريط في شيء يعود<lb/>ضرره عليه، ومن أقوى أساساتها: حب السلم وعدم تعريض الدول إلى حرب<lb/>تنشب بينها وبين دولة أخرى أعز منها قوة وأكبر انتظامًا، وقواعدها الحقيقية هي<lb/>معرفة الأمم الغابرة ودرس العلوم الجغرافية والتاريخية، والوقوف على الأحوال<lb/>الحاضرة التي تجري بين الدول والعلاقات التي تتجدد بينهم حتى إذا دعي القائم<lb/>بأمرها في الدولة إلى أمر يشترك فيه معهم كان بصيرًا في الإقدام عليه، ويلزمه أن<lb/>يكون مجربًا يقيس مجريات الحوادث بعضها على بعض، وهذه السياسة لا قانون<lb/>لها، وإنما قد يحصل بين الدول معاهدات تختص بأمور يجري العمل عليها، إلا<lb/>أنها لا تراعي حرمتها عند تحكم الأغراض السياسية والأهواء الذاتية، فالمدار<lb/>الحقيقي لها هو الأخذ بالحزم والروية، والنظر إلى العاقبة، هذا ما يمكن أن يقال في<lb/>معنى السياسة، وبعضهم يخلطها بالنفاق، فيجعله من ضروب السياسة، وهذا شطط<lb/>في سوء الأخلاق، وفساد الطباع، ونقص الآداب، نعوذ بالله من سوء النية ومن<lb/>خبث الذمة والرياء، ونسأله الهداية ونسترفده العناية. <note type="footnote" place="bottom"/>
             </tei:p><byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:3618">حمودهافنديبكعبدهالمحامي</persName>
          </byline></div>
-            <pb n="n1-p707" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P196.xhtml"/>
+            <pb n="n1-p707" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P196.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="707"/>
 
 
          
@@ -124,7 +124,7 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p710" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P197.xhtml"/>
+            <pb n="n1-p710" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P197.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="710"/>
 
 
          
@@ -138,7 +138,7 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p711" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P198.xhtml"/>
+            <pb n="n1-p711" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P198.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="711"/>
 
 
          
@@ -153,7 +153,7 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p715" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P199.xhtml"/>
+            <pb n="n1-p715" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P199.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="715"/>
 
 
          
@@ -167,7 +167,7 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P200.xhtml"/>
+            <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P200.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n=""/>
 
 
             </body>
