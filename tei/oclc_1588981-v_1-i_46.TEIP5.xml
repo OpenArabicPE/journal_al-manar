@@ -49,7 +49,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-09-04" who="#pers_TG" xml:id="d3e232" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><tei:change when="2019-08-22" who="#pers_TG" xml:id="d5e221" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+      <revisionDesc><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-09-04" who="#pers_TG" xml:id="d3e232" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><tei:change when="2019-08-22" who="#pers_TG" xml:id="d5e221" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
                <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
@@ -65,13 +65,13 @@
       </revisionDesc>
    </teiHeader>
    <text xml:lang="ar">
-      <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P256.xhtml"/>
+      <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P256.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n=""/>
       <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1316-09-23" datingMethod="#cal_islamic" when="1899-02-04">23 رمضان  1316</date>هـ</head>
             <lb/>
          <date calendar="#cal_gregorian" when="1899" change="#d2e141" xml:lang="ar">فبراير - 1899م</date>
-         <pb n="n1-p881" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P257.xhtml"/>
+         <pb n="n1-p881" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P257.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="881"/>
 
 
          
@@ -84,7 +84,7 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p885" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P258.xhtml"/>
+            <pb n="n1-p885" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P258.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="885"/>
 
 
          
@@ -99,7 +99,7 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p889" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P259.xhtml"/>
+            <pb n="n1-p889" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P259.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="889"/>
 
 
          
@@ -109,7 +109,7 @@
                <lb/>(تتمة ما سبق)<lb/>وأما القول بأن العمات والخالات النَّسَبية لولد المرضعة هن العمات<lb/>والخالات الرضاعية له بعينها - فباطل؛ إذ مع أنه يشبه هذا هذيانات المجانين،<lb/>نفرض أن ولد المرضعة لم يرتضع من أمه، فحينئذ لا يتحقق له الرضاع رأسًا، لا<lb/>بالمعنى اللغوي ولا بالمعنى الشرعي، وليس هذا مجرد فرض بل هو متحقق في<lb/>نفس الأمر، ألم تعلم أنه كم من ولد لا يرتضع من أمه ولا من ثدي آدمية، بل ينشر<lb/>لحمه وعظمه من حليب بقرة، وأيضًا الشق الأول من الترديد الثاني يهدم بنيانه كما<lb/>لا يخفى فحصحص لك أن دخوله تحت خطاب قوله: {وَبَنَاتُ الأَخِ} (النساء: 23) مستحيل، أي: حرمة بنت الرضيع على ولد المرضعة محال،<lb/>وإلا لزم المحال وكل ما هو مستلزم للمحال محال، ويتألف منه قياس اقتراني منتج<lb/>للمطلوب هكذا: حرمة بنت الرضيع على ولد المرضعة يستلزم المحال، وكل ما<lb/>يستلزم المحال محال، فحرمة بنت الرضيع على ولد المرضعة محال. ولك أن تؤلف<lb/>قياسًا استثنائيًّا منتجًا للمطلوب أيضًا هكذا: لو حرمت بنت الرضيع على ولد<lb/>المرضعة لدخل تحت خطاب قوله تعالى: (وبنات الأخ) لكن دخوله تحت<lb/>خطاب قوله تعالى: (وبنات الأخ) محال، فحرمة بنت الرضيع على ولد<lb/>المرضعة محال.<lb/>وأيضًا تقرر الدليل بوجه حسن جامع مختصر هو أن حرمة المحرمات من<lb/>الرضاع ثابتة بقوله صلى الله عليه وسلم: (يحرم من الرضاع ما يحرم من<lb/>النسب) فالمحكوم عليه بحرمة هذه المحرمات إما أن يكون ممن صدر منه فعل<lb/>الرضاع أولاً، والثاني: صريح الاستحالة من وجوه.<lb/>أما أولاً: فلأن قوله صلى الله عليه وسلم: (يحرم من الرضاع ما يحرم من<lb/>النسب) يحكم بأعلى صوت أن الحرمة الرضاعية متحققة من الرضاع ألبتة، فلزوم<lb/>الحرمة من دونه مخالف لحكم الحديث.<lb/>وأما ثانيًا: فلأن الرضاع هو علة تامة لحرمة المحرمات من الرضاع كما<lb/>ينص به الحديث، فعدم العلة التامة ووجود المعلول محال قطعًا.<lb/>وأما ثالثًا: فلأنه يلزم منه أن يثبت لكل فرد من أفراد أمة النبي صلى الله عليه<lb/>وسلم، تلك المحرمات من الرضاع من دون صدور فعل الرضاع منه، وهو كما<lb/>ترى.<lb/>وعلى الأول: إن حرمت بنت الرضيع على ولد المرضعة فإما أن يكون هو<lb/>كالرضيع ممن يصدر منه فعل الرضاع أو لا يكون، فعلى الشق الأول يلزم أن<lb/>تحرم من الرضاعة مجموع العمات والخالات والأخوات وغيرهن من الرضاع كما<lb/>تحرم مجموع تلك المحرمات في النسب من نسبه وإلا بطل مقتضى الحديث وهو<lb/>محال.<lb/>وعلى الثاني: حرمة بنت الرضيع على ولد المرضعة صريح البطلان والوجه<lb/>ما تقدم.<lb/>(فإن قلت) : إن ولد المرضعة وإن لم يكن ممن يصدر منه فعل الرضاع<lb/>لكن له علاقة رضاعية لارتضاع الرضيع من أمه فتحرم بنت الرضيع عليه من<lb/>رضاع الرضيع.<lb/>(قلت) : ليت شعري ما شجعه على هذا القول؟ إذ هو باطل من وجوه:<lb/>أما أولاً: فلأن علة الحرمة لكل واحدة من بنات الأخ والعمات والخالات<lb/>وغيرهن سواء كن من النسب أو الرضاع واحدة، فلو حرمت بنت الرضيع على<lb/>ولد المرضعة بناء على أنها بنت الأخ له من الرضاع من رضاع الرضيع للزم أن<lb/>تحرم عليه العمات والخالات من الرضاع أيضًا.<lb/>أما ثانيًا: فلأن ثبوت الحرمة من رضاع الرضيع بعلاقة رضاعية بما رويناه<lb/>من الحديث غير مسلَّم، ومن ادعى فعليه البيان من الحديث والقرآن.<lb/>أما ثالثاً: فلأن ولد المرضعة وإن كانت له علاقة رضاعية لكنه ليس ممن<lb/>يصدر منه فعل الرضاع، وثبوت الحرمة لمن لا يصدر منه فعل الرضاع باطل من<lb/>الوجوه التي تقدم ذكرها.<lb/>أما رابعًا: فلأنه ههنا شخصان: أحدهما هو الذي صدر منه فعل الرضاع<lb/>وهو الرضيع، فقد حرمت من رضاعه الأمهات وبنات الأخ والعمات والخالات<lb/>وغيرهن من الرضاع بمقتضى الحديث، وثانيهما: هو الذي لم يصدر منه الرضاع<lb/>لكن له علاقة رضاعية، وهو ولد المرضعة، فحينئذ إن حرمت عليه بنت الرضيع<lb/>من رضاعه فإما تثبت الحرمة بقوله صلى الله عليه وسلم: (يحرم من الرضاع ما<lb/>يحرم من النسب) أو لا، والثاني: صريح الاستحالة إذ الحرمة الرضاعية ثابتة بهذا<lb/>الحديث، فهل يجترئ أحد على القول بالحرمة بدونه.<lb/>وعلى الأول: لو سلم ثبوتها منه للزم أن تحرم من هذا الرضاع مجموع<lb/>الأمهات والعمات والخالات وغيرهن من الرضاع بمقتضى الحديث، وإلا بطل<lb/>مقتضاه، وهو صريح الاستحالة، وأما ثبوت حرمة بنت الرضيع فقط على ولد<lb/>المرضعة فمحال قطعًا.<lb/>واعلم أن حكم الرضاع والجزئية واحد، إذ على القول بعلِّية الجزئية وتسليمها<lb/>لا بد أن يعبر عن الرضاع والنسب في قوله صلى الله عليه وسلم: (يحرم من<lb/>الرضاع ما يحرم من النسب) بالجزئية النسبية، إبقاءً للحديث الذي هو المستدل به<lb/>عند الكل، فهما سيان في الحكم، وهذا هو المحقق لدى المحققين الكاملين، وإن<lb/>كان القوم عنه غافلين.<lb/>(وأيضًا) تقرر دليلاً آخر أحسن، وهو يقتضي تمهيد مقدمات:<lb/>الأولى: أن قوله صلى الله عليه وسلم: (إن الله حرم من الرضاعة ما حرم<lb/>من الولادة) يحكم بأن الولادة هي علة تامة لحرمة المحرمات السبع من النسب،<lb/>وينص بأن وزان الرضاع وزان النسب بعينه.<lb/>والثانية: أن الظاهر من قوله تعالى: {حُرِّمَتْ عَلَيْكُمْ أُمَّهَاتُكُمْ وَبَنَاتُكُمْ<lb/>وَأَخَوَاتُكُمْ وَعَمَّاتُكُمْ وَخَالاتُكُمْ وَبَنَاتُ الأَخِ وَبَنَاتُ الأُخْتِ} (النساء: 23) أن<lb/>المخاطبين بقوله تعالى: (حرمت عليكم) الآية: كل فرد من أفراد أمة النبي صلى<lb/>الله عليه وسلم، وقد ثبت في المقدمة الأولى أن الولادة هي علة الحرمة في<lb/>المحرمات السبع، فوجب أن تكون علة الحرمة، وهي الولادة كما يفصح من<lb/>الأحاديث أن الله حرم من الرضاعة ما حرم من الولادة، فلو لم توجد العلة لم يوجد<lb/>السبب، وانعدام السبب يستلزم انعدام المسبب، فالحرمة كما ترى، على أن وجود<lb/>الحرمة بلا قيام علة الحرمة بالمخاطب باطل من وجوه:<lb/>أما أولاً: فإن الخطاب بأنه حرمت عليكم أيها المخاطبون عماتكم من الولادة،<lb/>والولادة قائمة بغيرهم مستحيل؛ إذ هو ينبئ عن السفاهة والجهالة، والله تعالى عنهما<lb/>علوًّا كبيرًا.<lb/>وأما ثانيًا: فلأن حرمة العمات لزيد عليه لما كانت مُعلَّة بالولادة لزم قيام العلة<lb/>به، فلو لم تكن العلة قائمة به لزم وجود المعلول بلا وجود العلة، وهو مُحَال، على<lb/>أن حرمة المحرمات السبع إذا كانت معللة بالولادة فمن قامت به الولادة حرمت عليه<lb/>لا على غيره، كما لا يخفى.<lb/>وأما ثالثًا: فلأنه يلزم منه أن تحرم أخت عمرو على زيد مثلاً من العلة<lb/>المُحرِّمة القائمة بعمرو، ومآله أن يرتفع حينئذ عقد النكاح الذي هو متحقق من الله<lb/>ورسوله عن سطح الأرض إذ يلزم منه أن تحرم بنت كل واحد وأخته مثلاً على<lb/>الآخر بالعلة القائمة به وهو كما ترى.<lb/>وأما رابعًا: فلأن المخاطبين بهذا الخطاب كل واحد واحد على حياله، وكل<lb/>واحد من العباد سواء عند الله في الحق، فثبوت الحرمة من العلة القائمة بالغير<lb/>تخصيص بلا مخصص، وهو محال، والتخصيص من الله أيضًا باطل إذ نسبته إلى<lb/>جميع الممكنات واحدة كما لا يخفى.<lb/>وأما خامسًا: فلأنه لما كان كل واحد مخاطبًا ومحرمًا عليه بعلة الولادة، وجب<lb/>قيام الولادة بكل واحد حتمًا، وإلا استحال وجود المخاطب والمحرم عليه فضلاً عن<lb/>ثبوت المحرمات له، وكذا الحكم في الرضاع بعينه بحكم المقدمة الأولى.<lb/>والثالثة: أن قوله صلى الله عليه وسلم: (يحرم من الرضاع ما يحرم من<lb/>النسب) يحكم بأن حرمة المحرمات الرضاعية ثابتة من الرضاع كما أن حرمة<lb/>المحرمات النسبية ثابتة من النسب، وإن الرضاع علة تامة للمحرمات من الرضاع<lb/>كما أن النسب علة للمحرمات من النسب.<lb/>والرابعة: أن الحرمة الرضاعية مستحيلة بدون الرضاع بحكم المقدمة الثالثة.<lb/>والخامسة: أن الضرورة شاهدة بأنه لا بد من قيام علة الحرمة بالمحرم عليه<lb/>أو المحرم بالذات، وإلا حكم بحرمة المباحات بأسرها كما لا يخفى.<lb/>فإذا تمهدت هذه المقدمات فنقول: إنه لو فرضنا أن زيدًا مثلاً ارتضع من<lb/>طلحة لحرمت رضاعة المحرمات السبع من الرضاع بحكم المقدمة الثالثة. وأما ولد<lb/>المرضعة فلا يخلو إما أن يكون حصُل له الرضاع أم لا، فعلى الأول لزم أن تحرم<lb/>من رضاعه أيضًا المحرمات السبع من الرضاع بلا فرق بحكم المقدمة الثالثة، وعلى<lb/>الثاني ثبوت الحرمة له مستحيل جدًّا بحكم المقدمة الرابعة، وأيضًا القول بأن بنت<lb/>الرضيع محرمة على ولد المرضعة من رضاع الرضيع محال قطعًا بحكم المقدمة<lb/>الثانية وأيضًا من الخامسة، فقد استبان لك أن بنت الرضيع غير محرمة على ولد<lb/>المرضعة ألبتة، هذا حكم حديث الرسول الكريم، والحق عند الرحمن الرحيم.<lb/>(<title change="#d5e221" ref="oape:bibl:2 oclc:1588981">المنار</title>)<lb/>أثبتنا هذه الرسالة بحروفها، ونرغب إلى أفاضل علماء الأزهر الشريف<lb/>انتقادها، إجابة لطلب مؤلفها وبيانًا للحق ونحن ننشر ما يكتبون لنا في ذلك،<lb/>ونرجو منهم مراعاة الاختصار. <note type="footnote" place="bottom"/>
             </tei:p><byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:4022">مولوي عبد الرحمن</persName>
          </byline></div>
-            <pb n="n1-p893" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P260.xhtml"/>
+            <pb n="n1-p893" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P260.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="893"/>
 
 
          
@@ -123,7 +123,7 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p894" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P261.xhtml"/>
+            <pb n="n1-p894" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P261.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="894"/>
 
 
          
@@ -151,7 +151,7 @@
                <gap resp="#org_MS"/> بمدرسة الحقوق الخديوية <note type="footnote" place="bottom"/>
             </tei:p><byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:2422">محمود سامي</persName>
          </byline></div>
-            <pb n="n1-p896" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P262.xhtml"/>
+            <pb n="n1-p896" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P262.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="896"/>
 
 
          
@@ -176,7 +176,7 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p898" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P263.xhtml"/>
+            <pb n="n1-p898" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P263.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="898"/>
 
 
          
@@ -190,7 +190,7 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p898" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P264.xhtml"/>
+            <pb n="n1-p898" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P264.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="898"/>
 
 
          
@@ -204,14 +204,14 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p899" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P265.xhtml"/>
+            <pb n="n1-p899" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P265.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="899"/>
 
 
          
          <note type="footnote" place="bottom" change="#d2e141" xml:lang="ar">أخبار وآراء<lb/>
                <lb/>(فتن مكدونية)<lb/>تفيد الجرائد الأوروبية أن الدولة العلية في قلق من القلاقل في مكدونية، وأنها<lb/>تحشد الجيوش وترسل الذخائر إلى حدود البلغار، فنسأل الله أن يجعل النهاية خيرًا.<lb/>***<lb/>(إعانة مسلمي سنغافورة للدولة)<lb/>أرسل مسلمو سنغافورة 249 ليرة عثمانية إلى الآستانة إعانة لأولاد الشهداء.<lb/>***<lb/>(مرصع الزاج)<lb/>أهدانا عالم الشعراء وشاعر العلماء في حاضرة تونس سيدى محمد النيفر نجل<lb/>العلامة الكامل الشيخ القاضي المالكي - أرجوزة حِكمية مِن نظمه سماها: (مرصع<lb/>الزاج، من سلسلة واسطة التاج، فيما إليه من عيون الحِكم والوصايا يُحتاج)<lb/>جعلها ثمانية أبوب:<lb/>(1) فيما يستعان به على فضيلة العلم والعقل.<lb/>و (2) على الزهد والعبادة.<lb/>و (3) على أدب اللسان.<lb/>و (4) على أدب النفس.<lb/>و (5) من مكارم الأخلاق.<lb/>و (6) على حسن السيرة.<lb/>و (7) على حسن السياسة.<lb/>و (8) على حسن البلاغ.<lb/>وقد رخص لكل من أراد إعادة طبعه أو ترجمته لأية لغة تعميماً للنفع، ولولا<lb/>ضيق المقام لأوردنا في العدد شيئاً من تلك الحِكم، فجزى الله الناظم فوق ما تستحقه<lb/>عنايته وإخلاصه ونفع بحِكمه وآدابه. <note type="footnote" place="bottom"/>
             </note>
-            <pb n="n1-p900" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P266.xhtml"/>
+            <pb n="n1-p900" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P266.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="900"/>
 
 
          
@@ -227,7 +227,7 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P267.xhtml"/>
+            <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P267.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n=""/>
 
 
             </body>

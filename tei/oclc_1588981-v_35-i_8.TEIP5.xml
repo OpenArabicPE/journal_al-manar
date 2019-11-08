@@ -49,7 +49,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+      <revisionDesc><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
                <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
@@ -65,12 +65,12 @@
       </revisionDesc>
    </teiHeader>
    <text xml:lang="ar">
-      <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4527.xhtml"/>
+      <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4527.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n=""/>
       <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">ربيع الثاني - <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1359" change="#d3e146">1359</date>هـ</head>
             <lb/>
          <date calendar="#cal_gregorian" when="1940" change="#d2e141" xml:lang="ar">مايو - 1940م</date>
-         <pb n="n35-p552" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4528.xhtml"/>
+         <pb n="n35-p552" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4528.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="552"/>
 
 
          
@@ -81,7 +81,7 @@
                <lb/>تأخر صدور المنار عن موعده هذه الشهور الماضية لأسباب رسمية كانت بيننا<lb/>وبين وزارة الداخلية المصرية، وقد زالت والحمد لله، وها هي المنار تعود إلى<lb/>الظهور لتقوم بواجبها في ميدان الدفاع عن الإسلام الحنيف والدعوة إليه.<lb/>ولغلوِّ الورق غلوًّا عظيمًا وصل إلى أكثر من الضعف، اضطررنا إلى جعل<lb/>العدد ثمانٍ وأربعين صفحة بدلاً من ثمانين، ونحن نأسف لهذا أسفًا شديدًا، ولكن<lb/>للضرورة حكمها.<lb/>وسيصدر العدد التاسع - إن شاء الله - في أوائل شهر جمادى الأولى، والعاشر<lb/>في أوائل جمادى الثانية بحول الله وقوته، وبذلك يتم المجلد الخامس والثلاثون<lb/>ويبدأ السادس والثلاثون، والله الموفق والمستعان. <note type="footnote" place="bottom"/>
             </tei:p><byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">حسن البنا</persName>
          </byline></div>
-            <pb n="n35-p573" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4529.xhtml"/>
+            <pb n="n35-p573" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4529.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="573"/>
 
 
          
@@ -101,7 +101,7 @@
                <gap resp="#org_MS"/> محمد رشيد رضا <note type="footnote" place="bottom" change="#d2e141" xml:lang="ar">(1) كجبل سعفان الذي يتقاتل عليه صاحبا <placeName>اليمن</placeName> وعسير، ووادي طربة الذي يتنازع فيه صاحبا <placeName>الحجاز</placeName> ونجد.</note>
             </tei:p><byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">محمد رشيد رضا</persName>
          </byline></div>
-            <pb n="n35-p550" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4530.xhtml"/>
+            <pb n="n35-p550" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4530.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="550"/>
 
 
          
@@ -115,7 +115,7 @@
                <gap resp="#org_MS"/> حسن البنا<lb/>((يتبع بمقال تالٍ)) <note type="footnote" place="bottom"/>
             </tei:p><byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">حسن البنا</persName>
          </byline></div>
-            <pb n="n35-p553" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4531.xhtml"/>
+            <pb n="n35-p553" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4531.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="553"/>
 
 
          
@@ -155,7 +155,7 @@
                <gap resp="#org_MS"/> حسن البنا <note type="footnote" place="bottom"/>
             </tei:p><byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">حسن البنا</persName>
          </byline></div>
-            <pb n="n35-p561" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4532.xhtml"/>
+            <pb n="n35-p561" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4532.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="561"/>
 
 
          
@@ -176,7 +176,7 @@
                <gap resp="#org_MS"/> محمد الغزالي <note type="footnote" place="bottom"/>
             </tei:p><byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">محمد الغزالي</persName>
          </byline></div>
-            <pb n="n35-p566" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4533.xhtml"/>
+            <pb n="n35-p566" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4533.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="566"/>
 
 
          
@@ -187,7 +187,7 @@
                <lb/>كتبنا في الأعداد السابقة في فتاوى المنار عما وصل إلى علمنا عن طالبين<lb/>ألبانيين أحمديين ينتسبان إلى القسم العام بالأزهر، وقلنا: إن من واجب المشيخة أن<lb/>تتحرى أمرهما وأن تبادر بفصلهما؛ حتى لا تسري منهما عدوى الفكرة الخاطئة إلى<lb/>غيرهما من الطلاب.<lb/>ويسرنا الآن أن نقول: إن زميلتنا (الفتح) الغراء قد نشرت براءة لهذين<lb/>الطالبين من المذهب القادياني، صرحا فيها بتوبتهما توبة نصوحًا ورجوعهما إلى<lb/>عقيدة الإسلام الصحيحة، وبراءتهما كل البراءة من المذهب الأحمدي بقسميه<lb/>اللاهوري والقادياني معًا.<lb/>ولقد كان لأخينا الداعية المسلم الموفق محمد أفندي توفيق أحمد في إقناعها أثر<lb/>صالح، فجزاه الله خيرًا.<lb/>وسننشر نص هذه البراءة في العدد القادم، إن شاء الله. <note type="footnote" place="bottom"/>
             </tei:p><byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">حسن البنا</persName>
          </byline></div>
-            <pb n="n35-p567" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4534.xhtml"/>
+            <pb n="n35-p567" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4534.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="567"/>
 
 
          
@@ -200,7 +200,7 @@
                <gap resp="#org_MS"/> 
                <gap resp="#org_MS"/> عبد الحفيظ أبو السعود <div type="item" subtype="article" change="#d2e141 #d2e170" xml:lang="ar"><tei:p>(*) اعتمدنا في هذه الترجمة على مجموعات المنار، والضياء لليازروجي، ومشاهير الشرق، ومصنفات<head change="#d2e141" xml:lang="ar"> الشيخ محمد عبده، </head>وجمال الدين الأفغاني، وكتاب الإسلام والتجويد في مصر، وغير ذلك مجلات وصحف كثيرة، منها العروة الوثقى والهلال والأهرام.</tei:p></div>
             </note>
-            <pb n="n35-p569" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4535.xhtml"/>
+            <pb n="n35-p569" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4535.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="569"/>
 
 
          
@@ -231,7 +231,7 @@
                <gap resp="#org_MS"/> حسن البنا <note type="footnote" place="bottom"/>
             </tei:p><byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">حسن البنا</persName>
          </byline></div>
-            <pb n="n35-p572" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4536.xhtml"/>
+            <pb n="n35-p572" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4536.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="572"/>
 
 
          
@@ -239,7 +239,7 @@
                <lb/>لبى نداء ربه<head change="#d2e141" xml:lang="ar"> السيد الكامل آل رضا، رحمه الله، </head>وهو عم السيد محمد<lb/>رشيد رضا منشئ المنار، ووالد صديقنا المفضال السيد عبد الرحمن عاصم رضا،<lb/>نفع الله به، عن عمر مبارك قضاه في طاعة الله والمبادرة إلى الخيرات.<lb/>وكان السيد رشيد - رحمه الله - يقول عنه إنه حجة الله على أهل هذا العصر؛<lb/>إذ كان - أفسح الله له في جنته - رغم كبر سنه وضعف بدنه حريصًا كل<lb/>الحرص على المبادرة بالأعمال الصالحة، بعيدًا كل البعد عن كل ما يؤدي إلى<lb/>الشبهة - فضلاً عن الحرام - لا نرى في مجلسه إلا ذكر الله وما والاه، والتذكير<lb/>بالخير، والنصح لعباد الله، وقد ورث عنه هذه الخصال نجله المفضال السيد عبد<lb/>الرحمن حفظه الله؛ فما علمنا عليه إلا خيرًا، ولا نزكي على الله أحدًا.<lb/>وإنا لنتقدم بالتعزية إلى آل رضا، ألهمهم الله الصبر، وأجزل لهم الأجر،<lb/>وعوضهم الخير، ونسأل الله للسيد الراحل المغفرة والرضوان.<lb/>وقد حال احتجاب المنار عن أن يصدر هذا العزاء في حينه، ولعل صديقنا<lb/>السيد عبد الرحمن عاصم يوافي قراء المنار بترجمة مفصلة لحياة السيد الوالد -<lb/>عليه الرحمة - لتكون لنا وللقراء عظة وذكرى، والذكرى تنفع المؤمنين. <note type="footnote" place="bottom"/>
             </tei:p><byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141" xml:lang="ar">حسن البنا</persName>
          </byline></div>
-            <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4537.xhtml"/>
+            <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4537.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n=""/>
 
 
             </body>

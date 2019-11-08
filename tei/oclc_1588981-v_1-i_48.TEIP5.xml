@@ -49,7 +49,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-09-04" who="#pers_TG" xml:id="d3e232" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><tei:change when="2019-08-22" who="#pers_TG" xml:id="d5e221" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
+      <revisionDesc><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-09-04" who="#pers_TG" xml:id="d3e232" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><tei:change when="2019-08-22" who="#pers_TG" xml:id="d5e221" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><change when="2019-08-19" who="#pers_TG" xml:id="d5e210" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-15" who="#pers_TG" xml:id="d2e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-05-13" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list>
                <item>occurrences of "سنة" and "عام" followed by a <gi>num</gi> node </item>
@@ -65,13 +65,13 @@
       </revisionDesc>
    </teiHeader>
    <text xml:lang="ar">
-      <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P277.xhtml"/>
+      <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P277.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n=""/>
       <body change="#d2e141" xml:lang="ar">
             <head change="#d2e141" xml:lang="ar">
             <date calendar="#cal_islamic" change="#d2e141 #d3e146" xml:lang="ar" when-custom="1316-10-15" datingMethod="#cal_islamic" when="1899-02-26">15 شوال  1316</date>هـ</head>
             <lb/>
          <date calendar="#cal_gregorian" when="1899" change="#d2e141" xml:lang="ar">فبراير - 1899م</date>
-         <pb n="n1-p917" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P278.xhtml"/>
+         <pb n="n1-p917" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P278.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="917"/>
 
 
          
@@ -84,7 +84,7 @@
                             <surname xml:lang="ar">عبده</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p923" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P279.xhtml"/>
+            <pb n="n1-p923" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P279.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="923"/>
 
 
          
@@ -99,7 +99,7 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p929" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P280.xhtml"/>
+            <pb n="n1-p929" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P280.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="929"/>
 
 
          
@@ -113,7 +113,7 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p931" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P281.xhtml"/>
+            <pb n="n1-p931" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P281.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="931"/>
 
 
          
@@ -134,7 +134,7 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p932" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P282.xhtml"/>
+            <pb n="n1-p932" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P282.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="932"/>
 
 
          
@@ -148,14 +148,14 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p933" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P283.xhtml"/>
+            <pb n="n1-p933" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P283.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="933"/>
 
 
          
          <note type="footnote" place="bottom" change="#d2e141" xml:lang="ar">أخبار وآراء<lb/>
                <lb/>(مراكش)<lb/>كل يوم تبدي صروف الليالي <gap resp="#org_MS"/> خلقًا من أبي سعيد عجيبا<lb/>ما كفى بلاد مراكش فتنها الداخلية حتى تشن عليها دول أوروبا كل يوم غارة<lb/>جديدة ينتحلون لها سبباً، فلا يزالون يمتصون دماءها باسم التعويض عن إهانة أو<lb/>خسارة لمن يلم بأطرافها من رعاياهم، حتى تكون حرضاً أو تكون من الهالكين.<lb/>كانوا يطلبون منها المغارم فرادى، فصرن يطلبنها مجتمعات، فقد جاء في<lb/>الأهرام أن وكلاء الدول في طنجة اجتمعوا في دار السفارة الإنكليزية في 14 الجاري<lb/>ليقرروا طلب تعويض عام من سلطان مراكش عن القلاقل التي وقعت في سنة<lb/>1896 في ناحية ميزاب؛ لأن جواب حاكم كازابلانكة على مطالب التجار الإنكليز<lb/>وغيرهم لم يكن مرضيًا لهم.<lb/>***<lb/>(التعايشي وفارة السودان)<lb/>انضم إلى التعايشي ومن انهزم معه بضعة أوزاع من الفارِّين بعد هزيمته،<lb/>فألف منهم جيشًا عظيمًا، وكان نازلاً على بحيرة شركلة على مسافة <date calendar="#cal_gregorian" when="0112" change="#d3e146">112</date> ميلاً من<lb/>النيل، فغادرها وتوجه شمالاً وقاتل بعض الأعراب، فهزمهم ونكل بهم، بهذا<lb/>جاءت رواد الأخبار من كردفان إلى أم درمان، وطير الخبر مع البرق إلى العاصمة،<lb/>وفيه أن التعايشي قطع بجيشه ثلثي المسافة بين بحيرة شركلة والنيل.<lb/>وقد صدر أمر السردار حاكم السودان إلى ضباط الجيش المصري الذين هنا<lb/>من الإنكليز والسودانيين أن يعودوا إلى أم درمان ليكون دائمًا على أهبة واستعداد<lb/>للقائه وهم يسافرون تباعًا. <note type="footnote" place="bottom"/>
             </note>
-            <pb n="n1-p934" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P284.xhtml"/>
+            <pb n="n1-p934" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P284.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="934"/>
 
 
          
@@ -178,7 +178,7 @@
                             <surname>رضا</surname>
                         </persName>
          </byline></div>
-            <pb n="n1-p935" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P285.xhtml"/>
+            <pb n="n1-p935" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P285.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n="935"/>
 
 
          <byline change="#d2e141" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e196" xml:lang="ar" ref="oape:pers:689 viaf:51716068">
@@ -189,7 +189,7 @@
          </byline>
          <note type="footnote" place="bottom" change="#d2e141" xml:lang="ar">تقاريظ<lb/>(مجموعة سعادة الدارين)<lb/>أهدانا نسخة منها جامعها المعن المفن، الضارب بسهمه في كل فن، الملا<lb/>عثمان الموصلي الغني بشهرته عن التعريف، مشطر اللامية والباقيات الصالحات،<lb/>والمجموعة تحتوي على (المنظومة الموصلية العثمانية في أسماء السور القرآنية)<lb/>وهي من نظمه، ومتن الحِكم للعارف ابن عطاء الله السكندري، ومنظومة (أسماء<lb/>الله الحسنى) المنسوبة للإمام العارف بالله تعالى سيدي عبد القادر الجيلي مخمسة<lb/>بأسماء النبي صلى الله عليه وسلم من نظمه (أي الملا عثمان) وقد أذن لمن شاء<lb/>بطبعها ليعم في الناس نفعها فجزاه الله تعالى خير.<lb/>***<lb/>(حافظة الآداب وموقظة الألباب)<lb/>كتاب صغير منشور لمؤلفه الأستاذ الفاضل الشيخ محمد الجنبيهي حملته على<lb/>تأليفه وطبعه الغيرة الدينية على حرمة الأدب من هؤلاء الشبان الفاسدي التربية،<lb/>المنغمسين في المنكرات والفواحش، فنحث محبي الفضيلة الذين لم تطمس من<lb/>قلوبهم أعلام الهداية، ولم تدرس من نفوسهم رسوم الخير من هؤلاء الشبان على<lb/>مطالعة الكتاب، وهو يباع عند السيد عبد الواحد بك الطوبي والسيد محمد صالح في<lb/>السكة الجديدة، والشيخ حسنين محمد في درب الجماميز وعلي أفندي أبي زيد في<lb/>الحلوجي ومحمد أفندي حبيب في باب الخلق.<lb/>***<lb/>(آداب الفتاة)<lb/>كتيب لطيف ألفه الفاضل علي أفندي فكري من الموظفين في نظارة المعارف<lb/>المصرية، جمع فيه كثيرًا من الحكم والوصايا الدينية والأدبية والصحية، التي لا<lb/>تستغني عنها الفتيات، وعبارته في السهولة بحيث لا يتوقفن في فهمه مهما كن<lb/>جاهلات، بل فيه كثير من المفردات والأساليب المولدة والعصرية، وأقل ما فيه<lb/>الوصايا الدينية، فلو استبدل بغسل الوجه والفم والوجه كل صباح وتنظيف الأسنان<lb/>(بواسطة الخلة أو من منظف الأسنان) الوصية بالوضوء والسواك لكان أولى وعسى<lb/>أن ينتبه الشبان إلى أنه لا يمكن صيانة النساء وتهذيبهن إلا بالدين (فعليك بذات الدين<lb/>تربت يداك) .<lb/>***<lb/>(الجامعة العثمانية)<lb/>مجلة سياسية أدبية علمية ذات عشرين صفحة، تصدر ثلاث مرات في الشهر، وستكون شهر مارث المقبل مبدأ ظهورها، وهي لمديرها الوجيه ميخائيل أفندي<lb/>كرم، ومنشئها الكاتب الفاضل فرح أفندي أنطون، وأحسن ما يكتب الآن عنها<lb/>إعلام قراء الجرائد بأن صاحبيها كفؤان لإدامة إصدارها على الوجه الذي سيرونه<lb/>من نموذجها لما عندهما من المادة الوافرة: مالية وقلمية، فنحث عليها سلفًا.<lb/>***<lb/>(البريد المصري)<lb/>يشتكي كثير من قراء المنار في مصر من عدم وصوله إليهم في أوقاته، ومن<lb/>احتجاب بعض أعداده عنهم، ولقد كنا من قبل ننيط الإهمال بمستخدمي إدارة<lb/>الجريدة الذين يتولون تغليفها وإرسالها إلى البريد، ثقة بأمانة إدارة البريد المصري<lb/>وانتظام أعمالها، ثم لما تكررت الشكوى بعد التنبيه على مستخدمي الجريدة ممن<lb/>ذكر، والاستيثاق منهم، علمنا أن التقصير من مُستخدمي البريد، ويشكو وكلاؤنا<lb/>في القطر التونسي منذ شهرين من تأخر وصول الجريدة إليهم عن مواعيدها الأولى،<lb/>فقد كانت تصل إلى تونس في نحو تسعة أيام، وهي لا تصل الآن إلا في سبعة<lb/>عشر يومًا، فنستلفت المكلفين بهذا الأمر أن يتداركوا الأمر ويكفونا مؤنة الشكوى. <note type="footnote" place="bottom"/>
             </note>
-            <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P286.xhtml"/>
+            <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P286.xhtml"/><pb change="#d2e120" ed="print" edRef="#edition_1" n=""/>
 
 
             </body>
