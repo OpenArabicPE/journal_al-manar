@@ -18,5 +18,5 @@ The digital text was taken from shamela.ws.
         + issues: `<div type="issue"/>` as children of the volumes
     - This was then split into one file per issue using the volume and the issue counts
 3. Authorship information: a lot of the articles carry generic bylines with the following pattern: "الكاتب: محمد رشيد رضا". These are not found in the originals, if one consults the facsimiles available from <http://archive.alsharekh.org/> (formerly archive.sakhrit.co), but must have been added by later editors to the text.
-    + their accuracy is unclear.
+    + their accuracy is unclear, some articles by Riḍā where either published posthumously after his death in 1935 or the attribution is wrong
 4. The facsimiles from <http://archive.alsharekh.org/> confirm that shamela's page numbers correspond to the original print edition. However, there are only page numbers between articles! This means, they can only be used as an approximation.
