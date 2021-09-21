@@ -15,7 +15,7 @@ The digital text was downloaded from shamela.ws. Digital facsimiles are availabl
 
 # **IMPORANT NOTES**:
 
-1. According to Florian Zemmin, the text from shamela.ws is missing all of Riḍā's tafṣīr that made up some 30 per cent of *al-Manār*'s text corpus.
+1. According to Florian Zemmin, the text from shamela.ws is missing all of Riḍā's tafṣīr that made up "more than one fifth" of *al-Manār*'s text corpus [-@Zemmin+2016, 232].
 2. The EPub / HTML from shamela.ws looks very different from other works I have seen and which were easly converted to TEI XML (re-)using the same code. I therefore asume that it is of a different origin than the other early twentieth-century texts.
     - I used regex to structure the file into
         + volumes: `<div type="volume" n="\d+"/>`
