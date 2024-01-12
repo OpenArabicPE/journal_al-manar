@@ -21,9 +21,15 @@ The digital text was downloaded from shamela.ws. Digital facsimiles are availabl
         + volumes: `<div type="volume" n="\d+"/>`
         + issues: `<div type="issue"/>` as children of the volumes
     - This was then split into one file per issue using the volume and the issue counts
-3. Authorship information: a lot of the articles carry generic bylines with the following pattern: "الكاتب: محمد رشيد رضا". These are not found in the originals, if one consults the facsimiles available from <http://archive.alsharekh.org/> (formerly archive.sakhrit.co), but must have been added by later editors to the text.
-    + their accuracy is unclear, some articles by Riḍā where either published posthumously after his death in 1935 or the attribution is wrong
-4. The facsimiles from <http://archive.alsharekh.org/> confirm that shamela's page numbers correspond to the **second** printed edition (published in 1327 aH.). However, there are only page numbers between articles! This means, they can only be used as an approximation.
+    - The division into articles and sections is imperfect as shamela did not record all section titles
+        - consider, for instance [v.25(3)](tei/oclc_1588981-v_25-i_3.TEIP5.xml) published in March 1924:
+            - The text from shamela commences with an article titled "التبشير والمبشرون في نظر المسلمين" and attributed to Rashīd Riḍa.
+            - Looking at the facsimiles from [sakhrit](https://archive.alsharekh.org/Articles/33/3412/94046), we see that this article was part of the section "فتاوى المنار"
+3. **Authorship information**: a lot of the articles carry generic bylines with the following pattern: "الكاتب: محمد رشيد رضا". These are not found in the originals, if one consults the facsimiles available from [sakhrit][sakhrit] (formerly archive.sakhrit.co), but must have been added by later editors to the text. Their accuracy is unclear, some articles by Riḍā where either published posthumously after his death in 1935 or the attribution is wrong.
+    - consider, for instance [v.25(3)](tei/oclc_1588981-v_25-i_3.TEIP5.xml) published in March 1924 (facsimiles are [here](https://archive.alsharekh.org/contents/33/3412)):
+        - The text "[سكة الحديد الحجازية](tei/oclc_1588981-v_25-i_3.TEIP5.xml#div_3.d2e1002)" clearly states in its opening paragraph that it was written by an anonymous "Syrian scholar" but shamela added Muḥammad Rashīd Riḍā as author anyway.
+        - The same is true for the following article "[الوثائق الرسمية في المسألة العربية](tei/oclc_1588981-v_25-i_3.TEIP5.xml#div_4.d2e1348)", which provides some texts from other sources and adds a very short comment from al-Manār. Again shamela added Muḥammad Rashīd Riḍā as author.
+4. The facsimiles from [sakhrit][sakhrit] confirm that shamela's page numbers correspond to the **second** printed edition (published in 1327 aH.). However, there are only page numbers between articles! This means, they can only be used as an approximation.
 
 # to do
 ## structure
@@ -47,3 +53,5 @@ The digital text was downloaded from shamela.ws. Digital facsimiles are availabl
             + replace: `$1"section"$2`
         2. XSLT: wrap the entire content of these `<div>`s in `<div type="item" subtype="article">`
 - empty notes
+
+[sakhrit]: https://archive.alsharekh.org/
