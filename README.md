@@ -39,13 +39,13 @@ The digital text was downloaded from shamela.ws. Digital facsimiles are availabl
 - poetry:
 - sections:
     + titles:
-        * new publications/ review section
-            + done تقريظ المطبوعات الجديدة
-            + done تقريظ المطبوعات الحديثة
-            + done تقريظ المطبوعات
-        + done الأخبار والآراء
-    + dividers of articles in sections
-        * a line with 3 asterisks
+        * [ ] new publications/ review section
+            + [x] تقريظ المطبوعات الجديدة
+            + [x] تقريظ المطبوعات الحديثة
+            + [x] تقريظ المطبوعات
+        + [x] الأخبار والآراء
+    + [ ] dividers of articles in sections
+        * [ ] a line with 3 asterisks
         * the next line is wrapped in brackets
     + workflow:
         1. Regex: search and replace
