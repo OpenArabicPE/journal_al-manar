@@ -10,7 +10,7 @@
         </xsl:copy>
     </xsl:template>
     <!-- remove milestones -->
-    <xsl:template match="tei:lb">
+    <xsl:template match="tei:lb[ancestor::tei:text]">
         <xsl:text>
 </xsl:text>
     </xsl:template>

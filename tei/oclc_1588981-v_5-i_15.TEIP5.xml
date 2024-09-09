@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><tei:change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><tei:change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <tei:list change="#d2e120" xml:id="list_1.d2e124"><tei:item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <tei:gi change="#d2e120" xml:id="gi_1.d2e127">num</tei:gi> node </tei:item><tei:item change="#d2e120" xml:id="item_1.d2e130"><tei:gi change="#d2e120" xml:id="gi_1.d2e131">num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi change="#d2e120" xml:id="gi_1.d2e137">date</tei:gi> with the appropriate <tei:att change="#d2e120" xml:id="att_1.d2e140">calendar</tei:att> and <tei:att change="#d2e120" xml:id="att_1.d2e143">datingMethod</tei:att> attributes</tei:change><tei:change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi change="#d2e120" xml:id="gi_1.d2e151">titles</tei:gi>s without such references based on  <tei:gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tei:tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tei:tag>.</tei:change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
+      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><tei:change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><tei:change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <tei:list change="#d2e120" xml:id="list_1.d2e124"><tei:item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <tei:gi change="#d2e120" xml:id="gi_1.d2e127">num</tei:gi> node </tei:item><tei:item change="#d2e120" xml:id="item_1.d2e130"><tei:gi change="#d2e120" xml:id="gi_1.d2e131">num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi change="#d2e120" xml:id="gi_1.d2e137">date</tei:gi> with the appropriate <tei:att change="#d2e120" xml:id="att_1.d2e140">calendar</tei:att> and <tei:att change="#d2e120" xml:id="att_1.d2e143">datingMethod</tei:att> attributes</tei:change><tei:change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi change="#d2e120" xml:id="gi_1.d2e151">titles</tei:gi>s without such references based on  <tei:gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tei:tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tei:tag>.</tei:change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e181">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e184">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e190">
                <item change="#d2e120" xml:id="item_1.d2e192">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e194">num</gi> node </item>
@@ -62,13 +62,389 @@
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P1132.xhtml" change="#d2e120" xml:id="pb_1.d2e256"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="" xml:id="pb_2.d2e257"/>
       <body change="#d2e141 #d2e120" xml:lang="ar" xml:id="body_1.d2e259">
             <tei:div type="item" subtype="masthead" change="#d2e293"><head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_1.d2e261">غرة شعبان - هـ</head><tei:dateline change="#d2e293"><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1320" change="#d3e146 #d2e120" xml:id="date_2.d2e263">1320</date><date calendar="#cal_gregorian" change="#d2e141 #d3e223 #d2e120" xml:lang="ar" when="1902-11-01" xml:id="date_3.d2e269">1 نوفمبر 1902</date></tei:dateline></tei:div>
-            <lb change="#d2e120" xml:id="lb_1.d2e267"/>
+            
+
          <date calendar="#cal_gregorian" change="#d2e141 #d3e223 #d2e120" xml:lang="ar" when="1902-11-01" xml:id="date_3.d2e269">1 نوفمبر 1902</date>م
 <pb n="n5-p561" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P1133.xhtml" change="#d2e120" xml:id="pb_3.d2e272"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="561" xml:id="pb_4.d2e273"/>
 
 
          
-         <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_1.d2e275"><tei:p change="#d2e120" xml:id="p_2.d2e276">الإسلام والنصرانية مع العلم والمدنية<lb change="#d2e120" xml:id="lb_2.d2e278"/>وهو المقال السادس لذلك الإمام الحكيم<lb change="#d2e120" xml:id="lb_3.d2e280"/>(حرية العلم في أوربا الآن، ونسبتها إلى الماضي والحاضر في الإسلام)<lb change="#d2e120" xml:id="lb_4.d2e282"/>لم يبق علينا من الكلام إلا ما يتعلق بالأمر الرابع مما ذكرته الجامعة [1] وهو<lb change="#d2e120" xml:id="lb_5.d2e284"/>(أن يتمكن العلم والفلسفة من التغلب على الاضطهاد المسيحي في أوربا، وعدم<lb change="#d2e120" xml:id="lb_6.d2e286"/>تمكنهما من التغلب على الاضطهاد الإسلامي دليل واقعي على أن النصرانية كانت<lb change="#d2e120" xml:id="lb_7.d2e289"/>أكثر تسامحًا مع الفلسفة) .<lb change="#d2e120" xml:id="lb_8.d2e291"/>ليس من السهل عليَّ أن أعتقد أن أديبًا كصاحب الجامعة يقول هذا القول وهو<lb change="#d2e120" xml:id="lb_9.d2e293"/>ناظر إلى الحقيقة بكلتا عينيه مع معرفته بلسان الغربيين واطلاعه على ما كتبوا في<lb change="#d2e120" xml:id="lb_10.d2e295"/>هذه المسألة وهي من أهم المسائل التاريخية. وإنما هي عين الرضا تناولت من<lb change="#d2e120" xml:id="lb_11.d2e297"/>حاضر الحال ومما انتهى إليه سير التاريخ ما تناولت ثم أملت على قلبه ما جرى به<lb change="#d2e120" xml:id="lb_12.d2e299"/>قلمه.<lb change="#d2e120" xml:id="lb_13.d2e302"/>هل يصح أن تُسمَّى الاستكانة للغالب تسامحًا؟ وهل يُسمَّى العجز مع التطلع<lb change="#d2e120" xml:id="lb_14.d2e304"/>للنزاع عند القدرة حلمًا، أم يُسمَّى غلّ الأيدي عن الشر بوسائل القهر كرمًا؟ هل<lb change="#d2e120" xml:id="lb_15.d2e306"/>تعد مساكنة جناب البابا لملك إيطاليا في مدينة واحدة واجتماع الكرسيين العظيمين<lb change="#d2e120" xml:id="lb_16.d2e308"/>كرسي المملكة الإيطالية والمملكة البابوية في عاصمة واحدة تسامحًا من قداسة البابا<lb change="#d2e120" xml:id="lb_17.d2e310"/>مع الملك؟ أليس الأجدر بالمنصف أن يسمي ذلك تسامحًا من الملك مع البابا؛ لأنه<lb change="#d2e120" xml:id="lb_18.d2e312"/>صاحب القوة والجيش والسلطنة، ويمكنه أن يسلب البابا تلك الثمالة التي بقيت له من<lb change="#d2e120" xml:id="lb_19.d2e315"/>السلطة الملكية؟ كما أن الأليق به أن يسمي تلك الحالة التي عليها أهل أوربا اليوم<lb change="#d2e120" xml:id="lb_20.d2e317"/>من طمأنينة العلم بينهم بجانب الدين تساهلاً من العلم مع الدين لا تسامحًا من الدين<lb change="#d2e120" xml:id="lb_21.d2e319"/>مع العلم بعد ما كان بينهما من الحوادث ما كان وبعد غلبة العلم واستيلائه على<lb change="#d2e120" xml:id="lb_22.d2e321"/>عرش السلطان في جميع الممالك ورضاء الدين بأن يكون تابعًا له في أغلبها.<lb change="#d2e120" xml:id="lb_23.d2e323"/>***<lb change="#d2e120" xml:id="lb_24.d2e325"/>(اقتباس مدنية أوربا من الإسلام، وأسباب ظهورها التام)<lb change="#d2e120" xml:id="lb_25.d2e328"/>السبب الأول الجمعيات: كان جلاد بين العلم والدين في أوربا وتألفت لنصرة<lb change="#d2e120" xml:id="lb_26.d2e330"/>العلم جمعيات وأحزاب منها ما اتخذ السرَّ حجابًا له حتى يقوى ومنها ما ابتدأ<lb change="#d2e120" xml:id="lb_27.d2e332"/>بالمجاهرة. وكان الدين يظفر بالعلم كما سبق بيانه لكثرة أعوانه وضعف أعوان<lb change="#d2e120" xml:id="lb_28.d2e334"/>العلم حتى أشرقت الآداب المحمدية على تلك البلاد من سماء الأندلس وتبع إشراق<lb change="#d2e120" xml:id="lb_29.d2e336"/>تلك الآداب واشتعال الناس بها سطوع نور العلم العربي من الجانب الشرقي كما<lb change="#d2e120" xml:id="lb_30.d2e338"/>ذكرنا. وقد وجد هذان النوران استعدادًا من النفوس للاستضاءة بهما في السبيل<lb change="#d2e120" xml:id="lb_31.d2e341"/>التي تؤدي بهما إلى المدنية التي كانا يحملانها. هذا الاستعداد كسبته الأنفس بما<lb change="#d2e120" xml:id="lb_32.d2e343"/>ضايقها من غلوّ رؤساء الدين في استعمال سلطانهم واشتدادهم في استعباد العقل<lb change="#d2e120" xml:id="lb_33.d2e345"/>والوجدان حتى ضاق ذرع الفطرة عن الاحتمال، فأخذ الشعور الإنساني يتلمّس<lb change="#d2e120" xml:id="lb_34.d2e347"/>السبيل إلى الخلاص وإذ لاح له هذان النوران اتخذهما له هداية واستقبلهما بوجهه،<lb change="#d2e120" xml:id="lb_35.d2e349"/>وكان بعد ذلك ما كان من تأثُّر الدين لأهل العلم وإحراقهم بالنيران، ونفيهم من<lb change="#d2e120" xml:id="lb_36.d2e351"/>الأوطان، ومقاومة رؤساء الدين للحكومات ولأهل الأفكار المستقلة في أدنى الأشياء<lb change="#d2e120" xml:id="lb_37.d2e354"/>وأعلاها حتى إنه عندما شرع ملوك فرنسا في فرش شوارع باريس بالبلاط على<lb change="#d2e120" xml:id="lb_38.d2e356"/>الأسلوب الذي وجدوه في مدينة قرطبة، وصدر الأمر بمنع تربية الخنازير في تلك<lb change="#d2e120" xml:id="lb_39.d2e358"/>الشوارع أغضب ذلك قسوس القديس أنطوان ونادوا بأن خنازير القديس لا بد أن<lb change="#d2e120" xml:id="lb_40.d2e360"/>تمر في الشوارع على حريتها الأولى. وحصل لذلك شغب عظيم اضطر الحكومة<lb change="#d2e120" xml:id="lb_41.d2e362"/>أن تسمح بذلك مع صدور الأمر بأن توضع في أعناقها أجراس. وقالوا إن الملك<lb change="#d2e120" xml:id="lb_42.d2e364"/>فيليب السمين مات بسقطة عن فرسه عندما انزعج الفرس من منظر خنزير<lb change="#d2e120" xml:id="lb_43.d2e367"/>وصلصلة الجرس في عنقه.<lb change="#d2e120" xml:id="lb_44.d2e369"/>لقائل أن يقول: إن القسوس في ذلك الزمان كان يمكنهم أن يمتنعوا من وضع<lb change="#d2e120" xml:id="lb_45.d2e371"/>الأجراس في أعناق الخنازير، فرضاهم بذلك يعد تسامحًا عظيمًا مع العلم (أو<lb change="#d2e120" xml:id="lb_46.d2e373"/>الصناعة) ويسهل عليٍّ أن أوافقه على أن مثل هذا الضرب من التسامح في أجراس<lb change="#d2e120" xml:id="lb_47.d2e375"/>الخنازير كان يظهر من حين إلى حين إلا أنه فيما أظن لا يكفي في تشييد هذه<lb change="#d2e120" xml:id="lb_48.d2e377"/>المدنية التي يفتخر بها الأوربيون اليوم ونحن لا ننجسها قدرها كذلك.<lb change="#d2e120" xml:id="lb_49.d2e380"/>السبب الثاني الضغط الديني: شدة الحاجة وغلوُّ الرؤساء كانا يوقدان الغيرة<lb change="#d2e120" xml:id="lb_50.d2e382"/>في قلوب طلاب العلوم فلم تفتر لهم همة فعظم أمرهم واكتشفوا كثيرًا من الحقائق<lb change="#d2e120" xml:id="lb_51.d2e384"/>التي نفعت العامة، وتنبهت العقول للأخذ بما يهدون عليه وصارت الحرب بينهم وبين<lb change="#d2e120" xml:id="lb_52.d2e386"/>رؤساء الدين سجالاً إلى أَنْ ظهر دعاة الإصلاح الديني (البروتستانت) فانضم دعاة<lb change="#d2e120" xml:id="lb_53.d2e388"/>العلم إليهم ظنًّا منهم أن سيكونون معهم من المجاهدين في سبيل العلم. وكان منهم<lb change="#d2e120" xml:id="lb_54.d2e390"/>إيراسم الشهير فلما انتصر طلاب الإصلاح ودالت لهم دولة استمروا يعاقبون بالموت<lb change="#d2e120" xml:id="lb_55.d2e393"/>على الأفكار التي تخالف ظاهر ما يعتقدون كما تقدم، فانفصل إيراسم ومن معه من<lb change="#d2e120" xml:id="lb_56.d2e395"/>حماة الحرية واستقلال الإرادة الشخصية، وترك المصلحين يتفرقون شيعًا ويقتل<lb change="#d2e120" xml:id="lb_57.d2e397"/>بعضهم بعضًا وقال: ما كنت أظن أن دعاة الإصلاح يكونون كذلك أعداء العلم.<lb change="#d2e120" xml:id="lb_58.d2e399"/>هذه الطوائف التي تفرقت عقائدها في الإصلاح لم تنتظر إلا أن تأمن عدوها<lb change="#d2e120" xml:id="lb_59.d2e401"/>العامَّ وهو الكنيسة الكاثوليكية الرومانية فلما أمنتها أخذ بعضها يصول على بعض<lb change="#d2e120" xml:id="lb_60.d2e403"/>واشتعلت نيران الحروب بينهم. قال أحد أفاضل مؤرخيهم:<lb change="#d2e120" xml:id="lb_61.d2e406"/>(وكلما ارتفعت طائفة منهم إلى عرش القوة لوثت يديها بالجرائم وفي العمل<lb change="#d2e120" xml:id="lb_62.d2e408"/>لإفناء البقية حتى سئمت النفوس دوام تلك الحال، ووجدت من توالي حوادث<lb change="#d2e120" xml:id="lb_63.d2e410"/>الانتقام وظهور مضارّه في كل طائفة أن الفضل لكل طائفة أن تمنح الأخرى من<lb change="#d2e120" xml:id="lb_64.d2e412"/>الحرية ما لا تستغني عنه واحدة منها. والعلم كان يعمل عمله في كشف الحقائق<lb change="#d2e120" xml:id="lb_65.d2e414"/>وترقية الآداب وكان من أقوى المنبهات إلى مضار الحروب ومفاسد العدوان على<lb change="#d2e120" xml:id="lb_66.d2e416"/>حرية الأشخاص من أي طائفة كانت. من هذا نشأ ذلك الأصل العظيم أصل<lb change="#d2e120" xml:id="lb_67.d2e419"/>التسامح والرضى بمجاورة المخالف في الرأي. نشأ من القهر والقسوة التي كانت كل<lb change="#d2e120" xml:id="lb_68.d2e421"/>طائفة تعامل بها الأخرى) انتهى كلام المؤرخ بالمعنى.<lb change="#d2e120" xml:id="lb_69.d2e423"/>السبب الثالث: الثورة: ولا حاجة بي إلى ذكر ما جاءت به الثورة الفرنسية<lb change="#d2e120" xml:id="lb_70.d2e425"/>وكيف كانت قيامتها على الدين ورؤسائه مما هو معلوم. وإنما أنبه القارئ إلى<lb change="#d2e120" xml:id="lb_71.d2e427"/>الاعتبار بما تقدم من القول، وبما يمكنه أن يقف عليه في كتب القوم، ليعلم أن<lb change="#d2e120" xml:id="lb_72.d2e429"/>الدين المسيحي في أوربا لم يحتمل العلم فضلاً وكرمًا وإنما قويت عليه أحزاب العلم<lb change="#d2e120" xml:id="lb_73.d2e432"/>فساموه استكانة وخضوعًا، ولو شاء أن يحتمل لم يستطع إلى ذلك سبيلاً.<lb change="#d2e120" xml:id="lb_74.d2e434"/>السبب الرابع: ترك المسيحية: رؤساء الدين المسيحي رجال ذوو عزيمة<lb change="#d2e120" xml:id="lb_75.d2e436"/>وإقدام قلما يدانيهم فيها رؤساء دين من الأديان. وهم مع غلوهم في الدين واشتدادهم<lb change="#d2e120" xml:id="lb_76.d2e438"/>في استعمال سلطانهم على النفوس كانوا ولا يزالون يتخذون كل وسيلة لتأييد دينهم.<lb change="#d2e120" xml:id="lb_77.d2e440"/>وهم أشد الناس حرصًا على تقويم أركانه ودفع الشبه عنه ولم يزدهر العلم الجديد<lb change="#d2e120" xml:id="lb_78.d2e442"/>إلا وسائل وسبلاً لترويج عقائده وآدابه، ولم تفتر لهم همة في نشره وتزيينه للقلوب.<lb change="#d2e120" xml:id="lb_79.d2e445"/>ومع ذلك كله نرى أن رجال العلم وحماة المدنية يتسللون منه، والعامة من الشعوب<lb change="#d2e120" xml:id="lb_80.d2e447"/>في تخاذل عنه، والأمة الفرنسية التي كانت تدعى بنت الكنيسة أصبحت من أشد<lb change="#d2e120" xml:id="lb_81.d2e449"/>الناس عليه، ورأت فلسفتها أن تحدّد حرية أهل الدين في تعاليمهم واجتماعهم. كل<lb change="#d2e120" xml:id="lb_82.d2e451"/>ذلك ومدارس اللاهوت لا تزال عامرة وطلاب اللاهوت يعدّون بالألوف. كل ذلك<lb change="#d2e120" xml:id="lb_83.d2e453"/>وكثير من الدول ترى من مزاياها حماية الدين المسيحي في أقطار الأرض. قال<lb change="#d2e120" xml:id="lb_84.d2e455"/>أحد رؤساء البروتستانت في خطبة من خطبه التي ألقاها في بعض البلاد الفرنسية<lb change="#d2e120" xml:id="lb_85.d2e458"/>سنة 1901 بعد كلام له في أن المسيحية رومانية أو بروتستانية فقدت خاصتها<lb change="#d2e120" xml:id="lb_86.d2e460"/>الدينية كما فقدت فائدتها الاجتماعية ما نصه مترجمًا: إذا كان الدين المسيحي ليس<lb change="#d2e120" xml:id="lb_87.d2e462"/>شيئًا سوى الكثلكة المحتاجة إلى الإصلاح (المذهب الروماني) أو الكثلكة التي<lb change="#d2e120" xml:id="lb_88.d2e464"/>دخلها الإصلاح بالفعل (المذهب البروتستانتي) فالقرن الموفي للعشرين (القرن<lb change="#d2e120" xml:id="lb_89.d2e466"/>الحاضر) لا يكون مسيحيًّا أبدًا.<lb change="#d2e120" xml:id="lb_90.d2e468"/>وقد جاء في كلام هذا الخطيب بأنه يريد أن يطلب للمسيحية معنًى آخر ينطبق<lb change="#d2e120" xml:id="lb_91.d2e471"/>كل الانطباق على اعتقاد المسلمين فيها، فإن وفّق للنجاح في سعيه زال الخلاف - إن<lb change="#d2e120" xml:id="lb_92.d2e473"/>شاء الله - بين الدين والعلم، بل بين المسيحية والإسلام.<lb change="#d2e120" xml:id="lb_93.d2e475"/>عَوْدٌ إلى سماحة الإسلام: آخذ بيد القارئ الآن، وأرجع به إلى ما مضى من<lb change="#d2e120" xml:id="lb_94.d2e477"/>الزمان، وأقف به وقفة بين يدي خلفاء بني أمية والأئمة من بني العباس ووزرائهم<lb change="#d2e120" xml:id="lb_95.d2e479"/>والفقهاء والمتكلمين والمحدثين والأئمة المجتهدين من حولهم؛ والأدباء والمؤرخين<lb change="#d2e120" xml:id="lb_96.d2e481"/>والأطباء والفلكيين والرياضيين والجغرافيين والطبيعيين وسائر أهل النظر من كل<lb change="#d2e120" xml:id="lb_97.d2e484"/>قبيل مطيفون بهم؛ وكلُّ مقبل على عمله فإذا فرغ عامل من العمل أقبل على أخيه<lb change="#d2e120" xml:id="lb_98.d2e486"/>ووضع يده في يده يصافح الفقيهُ المتكلمَ والمحدثُ الطبيبَ والمجتهدُ الرياضيَّ<lb change="#d2e120" xml:id="lb_99.d2e488"/>والحَكيم، وكلُّ يرى في صاحبه عونًا على ما يشتغل هو به، وهكذا أدخل به بيتًا من<lb change="#d2e120" xml:id="lb_100.d2e490"/>بيوت العلم فأجد جميع هؤلاء سواء في ذلك طبيب يتحادثون ويتباحثون، والإمام<lb change="#d2e120" xml:id="lb_101.d2e492"/>البخاريُّ حافظ السنة بين يدي عمران بن حطان الخارجي يأخذ عنه الحديث وعمرو<lb change="#d2e120" xml:id="lb_102.d2e494"/>ابن عبيد رئيس المعتزلة بين يدي الحسن البصري شيخ السنة من التابعين يتلقى<lb change="#d2e120" xml:id="lb_103.d2e497"/>عنه وقد سئل الحسن عنه فقال للسائل: (لقد سألت عن رجل كأن الملائكة أدّبته<lb change="#d2e120" xml:id="lb_104.d2e499"/>وكأن الأنبياء ربته إن قام بأمر قعد به، وإن قعد بأمر قام به، وإن أمر بشيء كان<lb change="#d2e120" xml:id="lb_105.d2e501"/>ألزم الناس له وإن نهى عن شيء كان أترك الناس له، ما رأيت ظاهرًا أشبه بباطن<lb change="#d2e120" xml:id="lb_106.d2e503"/>منه ولا باطنًا أشبه بظاهر منه بل أرفع بصري فأجد الإمام أبا حنيفة أمام الإمام<lb change="#d2e120" xml:id="lb_107.d2e505"/>زيد بن علي (صاحب مذهب الزيدية من الشيعة) يتعلم منه أصول العقائد والفقه<lb change="#d2e120" xml:id="lb_108.d2e507"/>ولا يجد أحدهم من الآخر إلا ما يجد صاحب الرأي في حادثة ممن ينازعه فيه<lb change="#d2e120" xml:id="lb_109.d2e510"/>اجتهادًا في بيان المصلحة وهما من أهل بيت واحد - أمُرُّ به بين تلك الصفوف<lb change="#d2e120" xml:id="lb_110.d2e512"/>التي كانت تختلف وجهتها في الطلب وغايتها واحدة وهي العلم وعقيدة كل واحد<lb change="#d2e120" xml:id="lb_111.d2e514"/>منهم أنَّ فكر ساعة خير من عبادة ستين سنة كما ورد في بعض الأحاديث [2] .<lb change="#d2e120" xml:id="lb_112.d2e516"/>الخلفاء أئمة في الدين مجتهدون وبأيديهم القوة وتحت أمرهم الجيش.<lb change="#d2e120" xml:id="lb_113.d2e518"/>والفقهاء والمحدثون والمتكلمون والأئمة المجتهدون الآخرون هم قادة أهل الدين ومن<lb change="#d2e120" xml:id="lb_114.d2e520"/>جند الخلفاء. الدين في قوته، والعقيدة في أوج سلطانها، وسائر العلماء ممن ذكرنا<lb change="#d2e120" xml:id="lb_115.d2e523"/>بعدهم يتمتعون في أكنافهم بالخير والسعادة ورفه العيش وحرية الفكر لا فرق في<lb change="#d2e120" xml:id="lb_116.d2e525"/>ذلك بين من كان من دينهم ومن كان من دين آخر، فهنالك يشير القارئ المنصف إلى<lb change="#d2e120" xml:id="lb_117.d2e527"/>أولئك المسلمين، وأنصار ذلك الدين، ويقول: ههنا يطلق اسم التسامح مع العلم<lb change="#d2e120" xml:id="lb_118.d2e529"/>في حقيقته، ههنا يوصف الدين بالكرم والحلم، ههنا يعرف كيف يتفق الدين مع<lb change="#d2e120" xml:id="lb_119.d2e531"/>المدنية، عن هؤلاء العلماء الحكماء تؤخذ فنون الحرية في النظر، ومنهم تهبط<lb change="#d2e120" xml:id="lb_120.d2e533"/>روح المسالمة بين العقل والوجدان (أو بين العقل والقلب) كما يقولون.<lb change="#d2e120" xml:id="lb_121.d2e536"/>يرى القارئ أنه لم يكن جلاد بين العلم والدين وإنما بين أهل العلم أو بين أهل<lb change="#d2e120" xml:id="lb_122.d2e538"/>الدين شيء من التخالف في الآراء شأن الأحرار في الأفكار الذين أطلقوا من غل<lb change="#d2e120" xml:id="lb_123.d2e540"/>التقييد، وعرفوا من علة التقليد، ولم يكن يجري فيما بينهم اللمز بالألقاب فلا يقول<lb change="#d2e120" xml:id="lb_124.d2e542"/>أحد منهم لآخر: إنه زنديق أو كافر أو مبتدع أو ما يشبه ذلك. ولا تتناول أحدًا<lb change="#d2e120" xml:id="lb_125.d2e544"/>منهم يد بأذًى إلا إذا خرج عن نظام الجماعة وطلب الإخلال بأمن العامة فكان<lb change="#d2e120" xml:id="lb_126.d2e546"/>كالعضو المجذَّم فيقطع ليذهب ضرره عن البدن كله.<lb change="#d2e120" xml:id="lb_127.d2e549"/>* * *<lb change="#d2e120" xml:id="lb_128.d2e551"/>(ملازمة العلم للدين، وعدوى<lb change="#d2e120" xml:id="lb_129.d2e553"/>التعصب في المسلمين)<lb change="#d2e120" xml:id="lb_130.d2e555"/>متى ولع المسلمون بالتكفير والتفسيق، ورُمِيَ زيد بأنه مبتدع وعمرو بأنه<lb change="#d2e120" xml:id="lb_131.d2e557"/>زنديق؟ أشرنا فيما سبق إلى مبدأ هذا المرض ونقول الآن: إن ذلك بدأ فيهم عندما<lb change="#d2e120" xml:id="lb_132.d2e559"/>بدأ الضعف في الدين يظهر بينهم، وأكلت الفتن أهل البصيرة من أهله (تلك الفتن<lb change="#d2e120" xml:id="lb_133.d2e562"/>التي كان يثيرها أعداء الدين في الشرق وفي الغرب لخفض سلطانه، وتوهين<lb change="#d2e120" xml:id="lb_134.d2e564"/>أركانه، وتصدَّر للقول في الدين برأيه من لم تمتزج روحه بروح الدين، وأخذ<lb change="#d2e120" xml:id="lb_135.d2e566"/>المسلمون يظنون أن من البدع في الدين ما يحسن إحداثه لتعظيم شأنه تقليدًا لمن كان<lb change="#d2e120" xml:id="lb_136.d2e568"/>بين أيديهم من الأمم المسيحية وغيرها. وأنشأوا ينسون ماضي الدين ومقالات<lb change="#d2e120" xml:id="lb_137.d2e570"/>سلفهم فيه ويكتفون برأي من يرونه من المتصدرين المتعالمين، وتولى شئون<lb change="#d2e120" xml:id="lb_138.d2e572"/>المسلمين جُهدًا لهم، وقام بإرشادهم في الأغلب ضُلاَّلهم، في أثناء ذلك حدث الغلوُّ<lb change="#d2e120" xml:id="lb_139.d2e575"/>في الدين واستعرت نيران العداوات بين النظَّار فيه، وسهل على كل منهم لجهله<lb change="#d2e120" xml:id="lb_140.d2e577"/>بدينه أن يرمي الآخر بالمروق منه لأدنى سبب. وكلما ازدادوا جهلاً بدينهم ازدادوا<lb change="#d2e120" xml:id="lb_141.d2e579"/>غلوًّا فيه بالباطل ودخل العلم والفكر والنظر (وهي لوازم الدين الإسلامي) في<lb change="#d2e120" xml:id="lb_142.d2e581"/>جملة ما كرهوه، وانقلب عندهم ما كان واجبًا من الدين محظورًا فيه.<lb change="#d2e120" xml:id="lb_143.d2e583"/>لا أكاد أخطّئ القارئ إذا زعم أن المسلم إنما استفاد اسم زندقة وتزندق<lb change="#d2e120" xml:id="lb_144.d2e585"/>ومتزندق وزنديق من فضل ما علّمه جيرانه إذ كانوا يقولون: هرتقة وتهرتق وهو<lb change="#d2e120" xml:id="lb_145.d2e588"/>هرتوقي أو ما يماثل ذلك. أو زعم أن قد فشت في المسلمين سرعة التكفير بطريق<lb change="#d2e120" xml:id="lb_146.d2e590"/>العدوى من أهل الملل المتشدِّدة وأن الذي سهّل سريان العدوى بتلك السرعة الشديدة<lb change="#d2e120" xml:id="lb_147.d2e592"/>هو ضعف المزاج الديني عند المسلمين بجهلهم بأصوله ومقوماته ومتى ضعف<lb change="#d2e120" xml:id="lb_148.d2e594"/>المزاج استعد لقبول المرض كما هو معلوم.<lb change="#d2e120" xml:id="lb_149.d2e596"/>إن المسلمين لما كانوا علماء في دينهم كانوا علماء الكون وأئمة العالم.<lb change="#d2e120" xml:id="lb_150.d2e598"/>أصيبوا بمرض الجهل بدينهم فانهزموا من الوجود وأصبحوا أُكلة الآكل وطُعمة<lb change="#d2e120" xml:id="lb_151.d2e601"/>الطاعم، هل وقف الجهل بالمسلمين عند تكفير من يخالفهم في مسائل الدين أو<lb change="#d2e120" xml:id="lb_152.d2e603"/>يذهب مذهب الفلاسفة أو ما يقرب من ذلك؟ لا. بل عدا بهم الجهل على أئمة<lb change="#d2e120" xml:id="lb_153.d2e605"/>الدين وخَدَمَةِ السنة والكتاب، فقد حُملت كتب الإمام الغزالي إلى غرناطة وبعدما انتفع<lb change="#d2e120" xml:id="lb_154.d2e607"/>بها المسلمون أزمانًا هاج الجهل بأهل تلك المدينة، وانطلقت ألسنة المتعالمين من<lb change="#d2e120" xml:id="lb_155.d2e609"/>البربر بتفسيقه وتضليله فجمعت تلك الكتب خصوصًا نسخَ (إحياء علوم الدين)<lb change="#d2e120" xml:id="lb_156.d2e611"/>ووضعت في الشارع العامّ في المدينة وأحرقت. قال قوم يعدون أنفسهم مسلمين في<lb change="#d2e120" xml:id="lb_157.d2e614"/>ابن تيمية - وهو أعلم الناس بالسنة وأشدهم غيرة على الدين -: إنه ضالُّ مضل.<lb change="#d2e120" xml:id="lb_158.d2e616"/>وجاء على إثر هؤلاء مقلدون يملأون أفواههم بهذه الشتائم، وعليهم إثمها وإثم من<lb change="#d2e120" xml:id="lb_159.d2e618"/>يقفوهم بها إلى يوم القيامة.<lb change="#d2e120" xml:id="lb_160.d2e620"/>* * *<lb change="#d2e120" xml:id="lb_161.d2e622"/>إهمال آثار السلف وحال<lb change="#d2e120" xml:id="lb_162.d2e624"/>علوم الدين وطلابها<lb change="#d2e120" xml:id="lb_163.d2e627"/>أهمل المسلمون علوم دينهم والنظر في أقوال سلفهم حتى إنك لا تجد اليوم في<lb change="#d2e120" xml:id="lb_164.d2e629"/>أيديهم كتابًا من كتب أبي الحسن الأشعري ولا أبي منصور الماتريدي، ولا تكاد ترى<lb change="#d2e120" xml:id="lb_165.d2e631"/>مؤلفًا من مؤلفات أبي بكر الباقلاني أو أبي إسحاق الإسفرايني. وإذا بحثت عن كتب<lb change="#d2e120" xml:id="lb_166.d2e633"/>هؤلاء الأئمة في مكاتب المسلمين أعياك البحث ولا تكاد تجد نسخة صحيحة من<lb change="#d2e120" xml:id="lb_167.d2e635"/>كتاب.<lb change="#d2e120" xml:id="lb_168.d2e637"/>كُتبت على القرآن تفاسير كثيرة في القرن الثالث من الهجرة وما بعده إلى<lb change="#d2e120" xml:id="lb_169.d2e640"/>السادس منها تفسير الطبري وتفسير أبي مسلم الأصفهاني وتفسير القرطبي وتفسير<lb change="#d2e120" xml:id="lb_170.d2e642"/>الجصاص وتفسير الغزالي وتفسير أبى بكر بن العربي وكثير غيرها، وفيها من آراء<lb change="#d2e120" xml:id="lb_171.d2e644"/>أولئك الأئمة ووجوه استنباط الحكم والأحكام ما لا غنى لطالب علم الدين عنه. فهل<lb change="#d2e120" xml:id="lb_172.d2e646"/>يجد الباحث المجدّ نسخة من هذه الكتب الجليلة يمكن الوثوق بصحتها إلا بطريق<lb change="#d2e120" xml:id="lb_173.d2e648"/>المصادفة وحسن الاتفاق؟ وهل يليق بأمة تدعي أنها على دين وأن لها فيه سلفًا<lb change="#d2e120" xml:id="lb_174.d2e650"/>صالحًا أن تهجر آثار سلفها وتدع ما كتبوا طعمة للعبث وفراشًا للتراب؟ هل وقع<lb change="#d2e120" xml:id="lb_175.d2e653"/>مثل ذلك من المشتغلين باللاهوت المسيحي في زمن من الأزمان؟<lb change="#d2e120" xml:id="lb_176.d2e655"/>إن حالة طلبة العلوم الدينية الإسلامية أصبحت مما يرثى له في أكثر بلاد<lb change="#d2e120" xml:id="lb_177.d2e657"/>المسلمين فهم لا يقرأون من كتب الكلام إلا مختصرات مما كتب المتأخرون يتعلم<lb change="#d2e120" xml:id="lb_178.d2e659"/>أذكاهم منها ما تدل عليه عباراتها، ولا يستطيع أن يتعلم البحث في أدلتها وتصحيح<lb change="#d2e120" xml:id="lb_179.d2e661"/>مقدماتها وتمييز صحيحها من باطلها وإنما يتلقاها كأنها كتاب الله أو كلام نبيه صلى<lb change="#d2e120" xml:id="lb_180.d2e663"/>الله عليه وآله وسلم يأخذ ما فيها بالتسليم. فإذا ناظره مناظر في بعض قضاياها<lb change="#d2e120" xml:id="lb_181.d2e666"/>وعجز عن تصحيحه قطع الجدال بقوله: هكذا قالوا، وإن لم يكن القول متفقًا عليه<lb change="#d2e120" xml:id="lb_182.d2e668"/>بل قد يكون القول مما لم يقل به سوى صاحب الكتاب الذي اشتغل به وربما كان<lb change="#d2e120" xml:id="lb_183.d2e670"/>صاحب الكتاب ممن لو رآه أحد من السلف لم يرضه تلميذًا يعي عنه ما يقول.<lb change="#d2e120" xml:id="lb_184.d2e672"/>كاد ينقطع طلب العلوم الدينية في سوريا و<placeName change="#d2e120" xml:id="placeName_4.d2e674">الحجاز</placeName> وتونس والجزائر وقلَّ<lb change="#d2e120" xml:id="lb_185.d2e677"/>جدًّا في المغرب الأقصى، ولم يبقَ الاهتمام به إلا في بعض الصحاري وذلك إما<lb change="#d2e120" xml:id="lb_186.d2e680"/>لصعوبة طرق التعليم واقتضائها الزمن الطويل، وحاجات الناس مانعة لهم من<lb change="#d2e120" xml:id="lb_187.d2e682"/>إفناء أعمارهم في عمل لا يسد في حاجتهم. وإما لتفضيل الآباء تربية أبنائهم على<lb change="#d2e120" xml:id="lb_188.d2e684"/>الطرق الحديثة في أوربا أو في المدارس الأخرى وليس فيها من الدين شيء وإن<lb change="#d2e120" xml:id="lb_189.d2e686"/>كان فيها شيء منه فهو مما لا يُعد تعليمًا دينيًّا ينظر إليه. وإما للفتور والخمود،<lb change="#d2e120" xml:id="lb_190.d2e688"/>الذي نشأ عن التقليد والجمود؛ وبذلك تجد المسلمين قد تولاهم الجهل بدينهم؛<lb change="#d2e120" xml:id="lb_191.d2e690"/>وأخذتهم البدع من جميع جوانبهم؛ وانقطعت الصلة الحقيقية بينهم وبين سلفهم؛<lb change="#d2e120" xml:id="lb_192.d2e693"/>حتى لو عرض على الجمهور الأعظم منهم ما اتفق عليه السلف من الحكام لأنكروه<lb change="#d2e120" xml:id="lb_193.d2e695"/>واستغربوه وعدُّوه بدعة في الدين وصح فيهم ما قال عمر الخيام في بعض أشعاره<lb change="#d2e120" xml:id="lb_194.d2e697"/>الفارسية مخاطبًا للنبي عليه الصلاة والسلام: (إن الذين جاءوا بعدك زيّنوا لك<lb change="#d2e120" xml:id="lb_195.d2e699"/>دينك ووشّوه وزركشوه حتى لو رأيته أنت لأنكرته) . فهذا الصنف من المسلمين<lb change="#d2e120" xml:id="lb_196.d2e701"/>وهو معظمهم قد أنكر دينه الحق وعاداه ونقم على أهله القائمين بخدمته، وإنما<lb change="#d2e120" xml:id="lb_197.d2e703"/>اصطفى لاعتقاده بعض أفراد لم يعرف عن السلف اختصاصهم بالثقة ولم يسمح<lb change="#d2e120" xml:id="lb_198.d2e706"/>الدين باختصاصهم بالتقليد. فإذا وقع عن هذا الصنف ما فيه أذًى للعلم وأهله فهل<lb change="#d2e120" xml:id="lb_199.d2e708"/>يعدّ ذلك واقعًا من دين الإسلام دين محمد صلى الله عليه وسلم، دين القرآن، دين<lb change="#d2e120" xml:id="lb_200.d2e710"/>السنة الثابتة، دين الخلفاء الراشدين ومن تبعهم من السلف الأولين؟<lb change="#d2e120" xml:id="lb_201.d2e712"/>متابعة العلم للإسلام ومباينته لسواه: الحق أقول والحس يؤيدني: ما عادوا<lb change="#d2e120" xml:id="lb_202.d2e714"/>العلم ولا العلم عاداهم إلا من يوم انحرافهم عن دينهم وأخذهم في الصد عن علمه<lb change="#d2e120" xml:id="lb_203.d2e716"/>فكلما بعد عنهم علم الدين بعد عنهم علم الدنيا وحرموا ثمار العقل وكانوا كلما<lb change="#d2e120" xml:id="lb_204.d2e719"/>توسعوا في العلوم الدينية، توسعوا في العلوم الكونية، وضربوا الزمان بسوط من<lb change="#d2e120" xml:id="lb_205.d2e721"/>العزّة، أما غيرهم فكلما اتصلوا بالدين وجدّوا في المحافظة عليه أنكرهم العلم<lb change="#d2e120" xml:id="lb_206.d2e723"/>وتجهّمهم واكفهرّ وجهه لِلِقائهم. وكلما بعدوا من الدين سالمهم العلم وبش في وجوههم<lb change="#d2e120" xml:id="lb_207.d2e725"/>ولذلك يصرحون بأن العلم من ثمار العقل والعقل لا يصح أن يكون له في الدين<lb change="#d2e120" xml:id="lb_208.d2e727"/>عمل، ولا أن يظهر منه فيه أثر، والدين من وجدانات القلب ولا علاقة بين ما يجد<lb change="#d2e120" xml:id="lb_209.d2e729"/>القلب وما يكسب العقل فالفصل تامُّ بين العقل والدين، ولا سبيل إلى الجمع بينهما.<lb change="#d2e120" xml:id="lb_210.d2e732"/>سامحهم الله فيما يسمونه تسامحًا مع العلم، وهم يصرحون بأنه عدوه الذي يستحيل<lb change="#d2e120" xml:id="lb_211.d2e734"/>أن يكون بينه وبينه سلم.<lb change="#d2e120" xml:id="lb_212.d2e736"/>هل عرفت السبب في اضطهاد المسلمين للعلم؟ أقول اضطهاد ولا أريد به ما<lb change="#d2e120" xml:id="lb_213.d2e738"/>كان عند الأمم المسيحية من الاشتداد في إبادة أهله، والتنكيل بهم واختراع ضروب<lb change="#d2e120" xml:id="lb_214.d2e740"/>التعذيب والتفنن في صنع آلات الهلاك مع الأخذ بالشبهة، والاكتفاء في الإعدام<lb change="#d2e120" xml:id="lb_215.d2e742"/>بمجرد التهمة، فإن ذلك لم يقع عند المسلمين لا أيام علمهم، ولا في أزمنة جهلهم،<lb change="#d2e120" xml:id="lb_216.d2e745"/>ولكن أريد من الاضطهاد الإعراض عن العلم ورمي الألفاظ السخيفة في وجوه أهله<lb change="#d2e120" xml:id="lb_217.d2e747"/>وقذفهم بشيء من الشتائم مع الابتعاد عنهم. لا ريب أنك قد أيقنت بأن السبب في<lb change="#d2e120" xml:id="lb_218.d2e749"/>هذا الذي يسميه الأديب اضطهادًا إنما هو جهلهم بدينهم. فالدواء الذي ينجح في<lb change="#d2e120" xml:id="lb_219.d2e751"/>شفائهم من الداء لا يكون إلا ردّهم إلى العلم بدينهم والتبصر فيه للوقوف على<lb change="#d2e120" xml:id="lb_220.d2e753"/>أسراره والوصول إلى حقيقة ما يدعو إليه. كان الدين واسطة التعارف بينهم وبين<lb change="#d2e120" xml:id="lb_221.d2e755"/>العلم فلما ذهبت الواسطة تناكرت النفوس وتبدل الأنس وحشة.<lb change="#d2e120" xml:id="lb_222.d2e758"/>الدعاة إلى الإسلام: فهل قام بينهم دعاة للعلم حقيقيون، أو دعاة لأصل الدين<lb change="#d2e120" xml:id="lb_223.d2e760"/>عارفون، ثم استعصت قلوب المسلمين عليهم، وجمحت نفوسهم عن الانقياد لهم؟<lb change="#d2e120" xml:id="lb_224.d2e762"/>وهل كثر أولئك الدعاة في أطراف بلاد المسلمين كثرتهم في أوربا من أواسط القرن<lb change="#d2e120" xml:id="lb_225.d2e764"/>السابع عشر من التاريخ المسيحي إلى أن ظهرت قوة العلم في أوائل القرن السابع<lb change="#d2e120" xml:id="lb_226.d2e766"/>عشر وفيما بعد ذلك؟ لا. إنما رأينا من الصادقين أفرادًا يظهرون متفرقين في<lb change="#d2e120" xml:id="lb_227.d2e768"/>عصور مختلفة ربما لا يجتمع ربعه منهم فما يزيد في قرن واحد ويأخذون في العمل<lb change="#d2e120" xml:id="lb_228.d2e771"/>ولما وجّهوا إليه، ثم لا يكادون ينطقون ببعض الكلم فيحس الناس بهم فيأخذ المستعد<lb change="#d2e120" xml:id="lb_229.d2e773"/>أهبته لمفارقة ما كان عليه واتباعهم حتى تشعر السياسة (نعوذ بالله منها) بما عسى<lb change="#d2e120" xml:id="lb_230.d2e775"/>يكون من أمرهم فتخمد أنفاسهم، قبل أن يبلغوا من قلب واحد ما أرادوا من غرس<lb change="#d2e120" xml:id="lb_231.d2e777"/>أفكارهم، فينطفئ النور، ويَدْلَهمِ الدَّيْجُور، فهل يعدّ الأديب هذه الضربات من أيدي<lb change="#d2e120" xml:id="lb_232.d2e779"/>أرباب السياسة اضطّهادًا للعلم لأجل حماية الدين؟ أنزّه كل أديب عن أن يظن ذلك<lb change="#d2e120" xml:id="lb_233.d2e781"/>وإنما هي صدمات تقع على الدين لا تختلف عن أمثالها مما يصيبه منهم مباشرة فلا<lb change="#d2e120" xml:id="lb_234.d2e784"/>تعدّ حجة على الدين في نظر المنصف.<lb change="#d2e120" xml:id="lb_235.d2e786"/>المقلِّد دون المقلَّد: ربما يقول القائل: إن كان المسلمون قد أخذوا الجمود في<lb change="#d2e120" xml:id="lb_236.d2e788"/>التقليد والنفرة من العلم والاعتقاد بالعداوة بين الدنيا والآخرة وبين العقل والدين وما<lb change="#d2e120" xml:id="lb_237.d2e790"/>أشبه ذلك مما هم فيه وورثوه عن الأمم السابقة عليهم خصوصًا أقرب الملل إليهم،<lb change="#d2e120" xml:id="lb_238.d2e792"/>فما بالهم لم يقلدوا المسيحيين في الحرص على نشر دينهم والتوسع في علومه مذيلاً<lb change="#d2e120" xml:id="lb_239.d2e794"/>بما أخذوه عنهم، ولم يقسموا أنفسهم قسمين كما قسم المسيحيون إخوانهم قسمين:<lb change="#d2e120" xml:id="lb_240.d2e797"/>قسمًا ينقطع إلى الآخرة في الأديار والصوامع، وقسمًا يشتغل بالدنيا ليقيت نفسه<lb change="#d2e120" xml:id="lb_241.d2e799"/>ويقيت أهل القسم الأول ويحمي نفسه ويحميهم من العدوان؟ وما لك ترى المسلمين<lb change="#d2e120" xml:id="lb_242.d2e801"/>خملوا وارتخت أعصابهم وسئموا النظر في علوم دينهم كما ذكرت، ثم صاروا أبعد<lb change="#d2e120" xml:id="lb_243.d2e803"/>الناس عن معرفة الطرق لتحصيل الغنى والثروة، والقبض على ناصية القوة<lb change="#d2e120" xml:id="lb_244.d2e805"/>وصولجان العزة، وطرحوا أنفسهم في تيار من القدر كما يقولون، يجري بهم إلى<lb change="#d2e120" xml:id="lb_245.d2e807"/>حيث لا يعلمون؟ ثم هم مع ذلك أحرص الناس على حياة؛ وأشدهم لهفًا على<lb change="#d2e120" xml:id="lb_246.d2e810"/>الحطام، فلا ترى الجمهور منهم في شيء للدين ولا للدنيا فما هذا التناقض؟ فأقول<lb change="#d2e120" xml:id="lb_247.d2e812"/>له: إنك قد نسيت أن المقلّد إنما ينظر من عَمل المقلَّد إلى ظاهره ولا يدري سره<lb change="#d2e120" xml:id="lb_248.d2e814"/>ولا ما بني عليه. فهو يعمل على غير نظام، ويأخذ الأمر لا على قاعدة، ولذلك<lb change="#d2e120" xml:id="lb_249.d2e816"/>سقط المسلمون في شرٍّ مما كان عليه مقلّدوهم لا سيما أنهم قد خلطوا في التقليد<lb change="#d2e120" xml:id="lb_250.d2e818"/>وأضافوا إلى دينهم ما لا يمكن أن يتفق معه، فصاروا في مثل حال المتخبط الذي<lb change="#d2e120" xml:id="lb_251.d2e820"/>تَنَاَزَعُه عدة قوى يذهب مع كل منها آنًا ثم ينتهي أمره بعد الخيبة بالتعب الشديد<lb change="#d2e120" xml:id="lb_252.d2e823"/>فيستلقي إلى أن يستريح فينهض إلى العمل على هدًى أو يموت.<lb change="#d2e120" xml:id="lb_253.d2e825"/>لما كان المسلمون علماء كانت لهم عينان: عين تنظر إلى الدنيا، والأخرى<lb change="#d2e120" xml:id="lb_254.d2e827"/>تنظر إلى الآخرة. فلما طفقوا يقلدون أغمضوا إحدى العينين، وأقذوا الأخرى بما<lb change="#d2e120" xml:id="lb_255.d2e829"/>هو أجنبي عنهم ففقدوا المطلبين ولن يجدوهما إلا بفتح ما أغمضوا وتطهير ما أقذوا.<lb change="#d2e120" xml:id="lb_256.d2e831"/>الإصلاح والمصلحون: للقائل أن يقول: كيف تدعي أن دعاة العلم والدين<lb change="#d2e120" xml:id="lb_257.d2e833"/>قليل بين المسلمين مع أننا نسمع أصواتهم تتلاقى في جوّ مصر وسوريا وغيرهما<lb change="#d2e120" xml:id="lb_258.d2e836"/>من البلاد في هذه الأيام. كلُّ يقول: ديني ملتي: إسلام مسلمون: قرآن سنة:<lb change="#d2e120" xml:id="lb_259.d2e838"/>مجد الإسلام القديم سلفه والصالحون: تعلم تعليم: كتب قديمة كتب جديدة. وما<lb change="#d2e120" xml:id="lb_260.d2e840"/>يشاكل ذلك مما يظهر منه أن الداعين إلى العلم أو المنبهين إلى الأخذ بأصول الدين<lb change="#d2e120" xml:id="lb_261.d2e842"/>الإسلامي كثيرون ولا ترى مع ذلك من أغلب المسلمين إلا آذانًا صُمًّا وأعينًا عُميًا<lb change="#d2e120" xml:id="lb_262.d2e844"/>وصدًّا عما يدعو إليه هؤلاء، ويمكنني أن أقول له: إن الصادق في هؤلاء ليس<lb change="#d2e120" xml:id="lb_263.d2e846"/>بكثير عُدة، والجمهور منهم قَلّما يخلص قصده، وما تجد أكثرهم إلا متجرين بهذه<lb change="#d2e120" xml:id="lb_264.d2e849"/>الكلمات لكسب بعض دريهمات: ويظهر لك ذلك من أنهم يلفظون هذه الأسماء وقلما<lb change="#d2e120" xml:id="lb_265.d2e851"/>يدرسون شيئًا من مدلولاتها ليقفوا على الحقيقة منه، وإنما يلقف بعضهم عن بعض<lb change="#d2e120" xml:id="lb_266.d2e853"/>ظواهر كالزَّبد لا تمكث في الأرض. أما الصادقون على قلتهم فقد بدأ بعض الناس<lb change="#d2e120" xml:id="lb_267.d2e855"/>يسمعون ما يقولون، ويطلبون الرشاد مما يعلمون، خصوصًا في أمر الدين والجمع<lb change="#d2e120" xml:id="lb_268.d2e857"/>بينه وبين مصالح الدنيا لا سيما في بلاد الهند وبين مسلمي روسيا. ولكن الإصلاح<lb change="#d2e120" xml:id="lb_269.d2e859"/>ليس ريحًا تهب فتمسح الأرض من الشرق إلى الغرب في وقت قريب فانتظر قد<lb change="#d2e120" xml:id="lb_270.d2e862"/>يقول القائل: لِمَ لَمْ يكثر هؤلاء كثرتهم بين الأوربيين فيما مضى حتى يغلبوا<lb change="#d2e120" xml:id="lb_271.d2e864"/>الظالمين من أهل السياسة ويستميلوا العادلين منهم إليهم. وينهضوا بالمسلمين من<lb change="#d2e120" xml:id="lb_272.d2e866"/>هذه الرقدة التي طال أمدها عليهم؟ ، ولمَ لا يزال أهل البصيرة منهم قليلين متفرقين<lb change="#d2e120" xml:id="lb_273.d2e868"/>يهمسون بالقول ولا يجهرون، وليس للعلم فيهم دعاة مليُّون؟ أليس ذلك سبيلاً<lb change="#d2e120" xml:id="lb_274.d2e870"/>لمؤاخذة الإسلام، وحجة عليه؟ ؟ وأقول له: إن حظ المسلمين لا يصح أن يكون<lb change="#d2e120" xml:id="lb_275.d2e872"/>أسعد من حظ مقلديهم، بل المنتظر أن يكون أتعس وقد أقامت المسيحية ما يزيد<lb change="#d2e120" xml:id="lb_276.d2e875"/>على ألف سنة قبل أن يظهر فيها العلم أو تنشأ الحرية الشخصية؛ أو تسري فيها<lb change="#d2e120" xml:id="lb_277.d2e877"/>الحركة العلمية؛ إلى ما فيه صلاح الجمعية الإنسانية، مع توالي المنبهات؛<lb change="#d2e120" xml:id="lb_278.d2e879"/>وتواصل الصدمات إثر الصدمات، ولم يمضِ على المسلمين من يوم استحكمت<lb change="#d2e120" xml:id="lb_279.d2e881"/>فيهم البدعة وأطبقت عليهم ظلم المحدثات ودخلوا جحر الضب الذي دخله من كان<lb change="#d2e120" xml:id="lb_280.d2e883"/>قبلهم إلا أقل من ثمانمائة سنة، فلم يمض عليهم وهم في بدعهم الجديد ذلك الزمن<lb change="#d2e120" xml:id="lb_281.d2e885"/>الذي قد يكون عُمرًا لمثل هذه الحالة، ثم تقضي نحبها في آخره. وما أظن أن يمر<lb change="#d2e120" xml:id="lb_282.d2e888"/>على المسلمين مثل تلك المدة قبل أن يبلغوا من صلاح الدين والدنيا ما هم أهل له.<lb change="#d2e120" xml:id="lb_283.d2e890"/>الفرق بين التعصبين: وعلى كل حال لا يجوز في شريعة الإنصاف أن يذكر<lb change="#d2e120" xml:id="lb_284.d2e892"/>المسلمون في جانب جمهور المسيحيين إذا ذكر الغلو في التعصب الديني فضلاً عن<lb change="#d2e120" xml:id="lb_285.d2e894"/>أن يقال: إن المسلمين أشد إفراطًا فيه. والشاهد يدلنا على أنه قد يكون للمسلمين<lb change="#d2e120" xml:id="lb_286.d2e896"/>في التعصب ألفاظ وكلمات، ولكن الذي يكون من جمهور المسيحيين إنما هو أعمال<lb change="#d2e120" xml:id="lb_287.d2e898"/>وضربات في المعاملات؛ وما على طالب الحقيقة إلا أن يسيح بفكره في<lb change="#d2e120" xml:id="lb_288.d2e901"/>المستعمرات الهولاندية في الشرق ومثل مملكة الترنسفال قبل سقوطها وبلاد الناتال<lb change="#d2e120" xml:id="lb_289.d2e903"/>في الجنوب، ثم يرجع إلى الجزائر وما يليها في جهة الغرب ليعلم كيف تكون الشدة<lb change="#d2e120" xml:id="lb_290.d2e905"/>في المعاملة مع غير أهل المذاهب المسيحية وكيف يبلغ التعصب من أهله حدًّا<lb change="#d2e120" xml:id="lb_291.d2e907"/>تنظر إليهم فيه الإنسانية شزرًا ولا تقبل لهم فيه المدنية عُذرًا.<lb change="#d2e120" xml:id="lb_292.d2e909"/>ما على الباحث إلا أن ينظر فيما يكتبه الكتاب الفرنسيون ليعلم أنهم في حيرة<lb change="#d2e120" xml:id="lb_293.d2e911"/>من أمرهم مع المسلمين. يريدون أن تكون لحكومتهم طمأنينة فيما ملكت من بلاد<lb change="#d2e120" xml:id="lb_294.d2e914"/>المسلمين ولكن حكومتهم لا تجد السبيل إليها مع ما اتخذته قاعدة لعملها وهو الشدة<lb change="#d2e120" xml:id="lb_295.d2e916"/>والإفراط في القسوة على المسلمين خاصة وحدهم دون سواهم. وأرباب الأقلام<lb change="#d2e120" xml:id="lb_296.d2e918"/>يبحثون عن؛ تلك الطمأنينة مع المحافظة على تلك القسوة ويأبى الله أن يعثرهم على<lb change="#d2e120" xml:id="lb_297.d2e920"/>ما يبحثون عنه، لأنهم يطلبون الجمع بين الضدين في موضوع واحد وهو محال كما<lb change="#d2e120" xml:id="lb_298.d2e922"/>يقرره فلاسفتهم.<lb change="#d2e120" xml:id="lb_299.d2e924"/>* * *<lb change="#d2e120" xml:id="lb_300.d2e927"/>(رأي هانوتو الأخير في<lb change="#d2e120" xml:id="lb_301.d2e929"/>معاملة المسلمين)<lb change="#d2e120" xml:id="lb_302.d2e931"/>موسيو هانوتو أطلق لقلمه من سنوات أن يجري في البحث عن طريقة حكم<lb change="#d2e120" xml:id="lb_303.d2e933"/>للمسلمين وقاعدة لمعاملتهم في البلاد التي يحكمها الفرنسيون وجاء في فصول مقاله<lb change="#d2e120" xml:id="lb_304.d2e935"/>بما لا يزال يذكره القراء. ثم بعد أن قتل المسألة علمًا ثلاث سنين رجع إلى<lb change="#d2e120" xml:id="lb_305.d2e937"/>موضوع البحث هذه السنة بلسان غير الذي كان ينطق به ورأي غير الذي كان<lb change="#d2e120" xml:id="lb_306.d2e940"/>يصدر عنه. وإني ذاكر ملخص ما نقلته الجرائد من خطابه الذي ألقاه في المجمع<lb change="#d2e120" xml:id="lb_307.d2e942"/>الجغرافي في شهر مارس من هذه السنة متعلقًا بأفريقيا، واقتصر منه على ما يتعلق<lb change="#d2e120" xml:id="lb_308.d2e944"/>بما نحن فيه وهو بالمعنى: (إن القواعد الجديدة التي يجب أن يكون عليها العمل<lb change="#d2e120" xml:id="lb_309.d2e946"/>في أفريقيا هي مخالفة للقواعد القديمة التي كانت تجري عليها السياسة الاستعمارية<lb change="#d2e120" xml:id="lb_310.d2e948"/>فيما مضى من الزمان، أي: قبل ساعة وقوف الخطيب لإلقاء خطابه) ثم بين هذه<lb change="#d2e120" xml:id="lb_311.d2e950"/>القواعد الجديدة التي يعامل بها المحكومون فقال: إنها الأمن والسلم ثم قال: (إننا<lb change="#d2e120" xml:id="lb_312.d2e953"/>مدينون لهم بالعدل والسلم كما أننا مدينون لهم بالتساهل الديني، ولست أشير إلى<lb change="#d2e120" xml:id="lb_313.d2e955"/>هذا الموضوع الخطير الذي له علاقة بكل ما يثير النفس البشرية إلا إشارة خفيفة<lb change="#d2e120" xml:id="lb_314.d2e957"/>فأقول: إن التمدن الأوربي يجد في طريقه في أفريقيا لا سيما في شمالها ذلك الدين<lb change="#d2e120" xml:id="lb_315.d2e959"/>القديم العظيم الذي هو دين الإسلام، والذي هو في هذه الجهات (شمال أفريقيا) أكثر<lb change="#d2e120" xml:id="lb_316.d2e961"/>نشاطًا منه في غيرها. وهذا الدين يدعو إلى إله واحد ويجعل الإيمان بالتوحيد<lb change="#d2e120" xml:id="lb_317.d2e963"/>مصدرًا لكل الفضائل الذاتية والاجتماعية ويستولي على المؤمن به استيلاءً شديدًا<lb change="#d2e120" xml:id="lb_318.d2e966"/>فلا يعود بقدر على التفلت منه، فمن المفروض علينا التساهل في هذا الشأن بل<lb change="#d2e120" xml:id="lb_319.d2e968"/>ليس التساهل بكافٍ وحده، فمن الواجب أن ندرس هذا الدين ونبذل جهدنا في فهمه.<lb change="#d2e120" xml:id="lb_320.d2e970"/>وعلينا أن نتخذ الكلمة الإسلامية {لاَ إِكْرَاهَ فِي الدِّينِ} (البقرة: 256) شعارًا<lb change="#d2e120" xml:id="lb_321.d2e972"/>لنا لا نخرج عن حدود معناها. وأن نحترم الدين الإسلامي ونحميه من كل طارئ<lb change="#d2e120" xml:id="lb_322.d2e974"/>سوء. ولا بأس بذكر كلمة للأمير عبد القادر الجزائري في هذا المقام وهي: (إن<lb change="#d2e120" xml:id="lb_323.d2e976"/>أصحاب الأديان الثلاثة يشبهون ثلاثة إخوة من ثلاث أمهات) انتهى محصل كلام<lb change="#d2e120" xml:id="lb_324.d2e979"/>هانوتو. قبل الكلام عليه أسأل القارئ: هل سمع مثل هذه الكلمة ممن يماثل الأمير<lb change="#d2e120" xml:id="lb_325.d2e981"/>عبد القادر في نسبه إلى صاحب الرسالة ومقامه في أهل دينه ومكانته من سلامة<lb change="#d2e120" xml:id="lb_326.d2e983"/>العقيدة في مذهبه؟ أو سمع ما يقرب منها ممن لا يدانيه من أهل الملل الأخرى؟<lb change="#d2e120" xml:id="lb_327.d2e985"/>ترى هانوتو يرشد أهله إلى اتخاذ سبيل جديد في سياسة المسلمين، وهذا الجديد<lb change="#d2e120" xml:id="lb_328.d2e987"/>هو السلم والأمن والتساهل مع المسلمين في أن يستمرُّوا مسلمين واحترام حقوقهم<lb change="#d2e120" xml:id="lb_329.d2e989"/>وتركهم يعملون بدينهم. وعَدَّ هذا مبدأً جديدًا لم يسبق الجري على مثله. وهل<lb change="#d2e120" xml:id="lb_330.d2e992"/>تجنب الحكومة الفرنسية طلبه؟ مسألة فيها نظر. فهل يليق بمنصف أن يذكر<lb change="#d2e120" xml:id="lb_331.d2e994"/>المسلم إذا ذكر التعصب ما دام في هذا الكون مثل هذه الدرجة منه؟<lb change="#d2e120" xml:id="lb_332.d2e996"/>* * *<lb change="#d2e120" xml:id="lb_333.d2e998"/>(سياسة الإنكليز في التسامح)<lb change="#d2e120" xml:id="lb_334.d2e1000"/>نعم نحن لا ننكر أن بين الأمم الأوربية أمة تعرف كيف تحكم من ليس على<lb change="#d2e120" xml:id="lb_335.d2e1002"/>دينها، وتعرف كيف تحترم عقائد من تسوسهم وعوائدهم، وهي الأمة الإنكليزية فهي<lb change="#d2e120" xml:id="lb_336.d2e1005"/>وحدها الأمة المسيحية التي تقدر التسامح حق قدره. لا يصعب علينا أن نقول: إن<lb change="#d2e120" xml:id="lb_337.d2e1007"/>منشأ ذلك أن أمراءها في الحروب الصليبية وقوّاد جيشها كانوا من أشد الصليبيين<lb change="#d2e120" xml:id="lb_338.d2e1009"/>علاقة بسلطان المسلمين وأمراء جيشه. وقد امتاز الإنكليز في ذلك الزمن المظلم<lb change="#d2e120" xml:id="lb_339.d2e1011"/>بدرس عقائد المسلمين وعاداتهم فحملوا من ذلك شيئًا كثيرًا إلى بلادهم ولم تحجبهم<lb change="#d2e120" xml:id="lb_340.d2e1013"/>غشاوة التعصب عن إبصار ضوء الحق، وظهر أثر ذلك في أقلام كثير من كتابهم<lb change="#d2e120" xml:id="lb_341.d2e1015"/>مثل ولترسكوت وشيل وغيرهما قبل أن يظهر في أقلام الكاتبين من غير الإنكليز<lb change="#d2e120" xml:id="lb_342.d2e1018"/>بأزمان طويلة. فلنا أن نقول: ولا نخشى لائمًا: إن هذه الخصلة الشريفة - خصلة<lb change="#d2e120" xml:id="lb_343.d2e1020"/>إطلاق الحرية لأهل الدين يتمتعون بأداء فرائضه مع احترام ما يحترمون - هي من<lb change="#d2e120" xml:id="lb_344.d2e1022"/>أجلّ الخصال ورثها غير المسلمين عن المسلمين. وهل أجد من يأبى عليّ القول<lb change="#d2e120" xml:id="lb_345.d2e1024"/>بأن الإسلام السليم من البدع هو أستاذ الإنكليز وعنه أخذوا هذه الخلة؟ ألا ترى أن<lb change="#d2e120" xml:id="lb_346.d2e1026"/>نظامهم في ذلك يقرب من نظام المسلمين في يوم كانوا مسلمين: يكتفون من الناس<lb change="#d2e120" xml:id="lb_347.d2e1028"/>بالخضوع للقوانين وأداء ما يفرض عليهم من الضرائب ثم يحفظون نظام العدل<lb change="#d2e120" xml:id="lb_348.d2e1031"/>بينهم بقدر ما تسمح به السياسة لا يفرقون بين دين ودين. وهكذا كان حال<lb change="#d2e120" xml:id="lb_349.d2e1033"/>المسلمين، وإن كان ذلك على قاعدة أبر وأرحم.<lb change="#d2e120" xml:id="lb_350.d2e1035"/>خاتمة: فإن قال قائل: أليس لهذا المقال من آخر؟ أليس في طول الكلام<lb change="#d2e120" xml:id="lb_351.d2e1037"/>مجلبة الملل، وترويج الكسل، قلت: إني أوجِّه كلامي هذا إلى أهل النَّهَم إلى الفهم،<lb change="#d2e120" xml:id="lb_352.d2e1039"/>وأرباب الشره إلى المعرفة، ولا أظن هؤلاء إلا طالبين ما هو أوسع من هذا<lb change="#d2e120" xml:id="lb_353.d2e1041"/>المقال وأطول منه أضعافًا مضاعفة؛ لأن الموضوع جليل، والكلام فيه مهما كثر<lb change="#d2e120" xml:id="lb_354.d2e1044"/>قليل، وأما القارئ الملول، فعقله مدخول، وعزمه مفلول، وفكره مغلول، وهو<lb change="#d2e120" xml:id="lb_355.d2e1046"/>قصير الهمة فيما يقصر وفيما يطول، فلا ينظر إليه في الخطاب، ولا يعتد به عند<lb change="#d2e120" xml:id="lb_356.d2e1048"/>الحساب، ومع ذلك فأنا واقف عند هذا الحد. وأنتظر بتفصيل القول في مسألة<lb change="#d2e120" xml:id="lb_357.d2e1050"/>أمراض الإسلام وآثار البدع والمحدثات فيه، والعلل التي نشبت بالمسلمين بسببها<lb change="#d2e120" xml:id="lb_358.d2e1052"/>فرصة أخرى، وقبل أن أترك القارئ أنبهه إلى ما أجمل في هذه الفصول لم يقصد<lb change="#d2e120" xml:id="lb_359.d2e1054"/>به الطعن في حال أحد من الناس ولا طائفة من الطوائف كما يعرفه القارئ نفسه من<lb change="#d2e120" xml:id="lb_360.d2e1057"/>لباس المعاني، وما يكسوها من الأدب والتنزه عن كل كلمة تشم منها رائحة العيب<lb change="#d2e120" xml:id="lb_361.d2e1059"/>على آخر. وقد يعلم من هذه النزاهة أن هذا رأي طبخناه لنَطْعَمَه بأنفسنا، وننفق<lb change="#d2e120" xml:id="lb_362.d2e1061"/>منه على من تلزمنا نفقته من أهلنا، ولم يكن يخطر ببالنا عندما أَجَدنَا طَبخه أن<lb change="#d2e120" xml:id="lb_363.d2e1063"/>نُفيض منه على غيرنا، لكن إذا عَشَا الساري إلى ضوء نارنا، وطلب القرى مِنَّا<lb change="#d2e120" xml:id="lb_364.d2e1065"/>قاسمناه ما لدينا، وعرضنا عليه أَحَرَّ من نَفَسِ الحياة، وأهنأ من خُلق الأناة إن شاء<lb change="#d2e120" xml:id="lb_365.d2e1067"/>الله. اهـ<lb change="#d2e120" xml:id="lb_366.d2e1070"/>(<title change="#d5e212 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_5.d2e1072">المنار</title>)<lb change="#d2e120" xml:id="lb_367.d2e1075"/>من عجيب الاتفاق أنه بعدما كتب هذا المقالات ونشر بعضها ظهرت تلك<lb change="#d2e120" xml:id="lb_368.d2e1077"/>المقالة للمستر كوربت الإنكليزي وسنلحق قوله في الإسلام بالمقالات إذا طبعت على<lb change="#d2e120" xml:id="lb_369.d2e1079"/>حدتها في كتاب، ونبشر القراء بأن هذا الإمام وَعَدَ بأن يكتب مقالاً آخر ملحقًا بهذا<lb change="#d2e120" xml:id="lb_370.d2e1081"/>في بيان أن ما طرأ على الإسلام من البدع وما لحقها من الجمود سيكون هو السبب<lb change="#d2e120" xml:id="lb_371.d2e1084"/>في الرجوع إلى الأصل وإعادة مجد الإسلام ولعلها تنشر في الجزء الآتي.<lb change="#d2e120" xml:id="lb_372.d2e1086"/>وقد بلغ كتاب<head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_2.d2e1088"> (الإسلام والنصرانية مع العلم والمدنية) </head>نحو مائتي صفحة<lb change="#d2e120" xml:id="lb_373.d2e1091"/>وسنزيده شهادة الكاتب الإنكليزي، ثم مقال الإمام الموعود به. وقد طُبع على ورق<lb change="#d2e120" xml:id="lb_374.d2e1093"/>جيد، وجعلنا ثمنه مع هذا خمسة قروش صحيحة فقط رغبةً في سعة انتشاره.<lb change="#d2e120" xml:id="lb_375.d2e1095"/>((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_1.d2e1098">(1) يذكر القراء أن كلام الجامعة في الطعن بالإسلام كان مبنيًّا على أربعة أمور تقدم الرد على ثلاثة منها وفي هذا المقال الرد على الرابع.<lb change="#d2e120" xml:id="lb_376.d2e1100"/>(2) المنار: رواه أبو الشيخ ابن حبان في العظمة عن أبي هريرة بسند ضعيف ورواه من طريقه ابن الجوزي في الموضوعات ولكن له روايات أخرى منها رواية الديلمي في مسند الفردوس عن أنس بلفظ (ثمانين سنة) وفي رواية موقوفة على ابن عباس (خير من قيام ليله) ولشهرة هذا المعنى قال الغزالي: وردت السنة بكذا.</note>
+         <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_1.d2e275"><tei:p change="#d2e120" xml:id="p_2.d2e276">الإسلام والنصرانية مع العلم والمدنية
+وهو المقال السادس لذلك الإمام الحكيم
+(حرية العلم في أوربا الآن، ونسبتها إلى الماضي والحاضر في الإسلام)
+لم يبق علينا من الكلام إلا ما يتعلق بالأمر الرابع مما ذكرته الجامعة [1] وهو
+(أن يتمكن العلم والفلسفة من التغلب على الاضطهاد المسيحي في أوربا، وعدم
+تمكنهما من التغلب على الاضطهاد الإسلامي دليل واقعي على أن النصرانية كانت
+أكثر تسامحًا مع الفلسفة) .
+ليس من السهل عليَّ أن أعتقد أن أديبًا كصاحب الجامعة يقول هذا القول وهو
+ناظر إلى الحقيقة بكلتا عينيه مع معرفته بلسان الغربيين واطلاعه على ما كتبوا في
+هذه المسألة وهي من أهم المسائل التاريخية. وإنما هي عين الرضا تناولت من
+حاضر الحال ومما انتهى إليه سير التاريخ ما تناولت ثم أملت على قلبه ما جرى به
+قلمه.
+هل يصح أن تُسمَّى الاستكانة للغالب تسامحًا؟ وهل يُسمَّى العجز مع التطلع
+للنزاع عند القدرة حلمًا، أم يُسمَّى غلّ الأيدي عن الشر بوسائل القهر كرمًا؟ هل
+تعد مساكنة جناب البابا لملك إيطاليا في مدينة واحدة واجتماع الكرسيين العظيمين
+كرسي المملكة الإيطالية والمملكة البابوية في عاصمة واحدة تسامحًا من قداسة البابا
+مع الملك؟ أليس الأجدر بالمنصف أن يسمي ذلك تسامحًا من الملك مع البابا؛ لأنه
+صاحب القوة والجيش والسلطنة، ويمكنه أن يسلب البابا تلك الثمالة التي بقيت له من
+السلطة الملكية؟ كما أن الأليق به أن يسمي تلك الحالة التي عليها أهل أوربا اليوم
+من طمأنينة العلم بينهم بجانب الدين تساهلاً من العلم مع الدين لا تسامحًا من الدين
+مع العلم بعد ما كان بينهما من الحوادث ما كان وبعد غلبة العلم واستيلائه على
+عرش السلطان في جميع الممالك ورضاء الدين بأن يكون تابعًا له في أغلبها.
+***
+(اقتباس مدنية أوربا من الإسلام، وأسباب ظهورها التام)
+السبب الأول الجمعيات: كان جلاد بين العلم والدين في أوربا وتألفت لنصرة
+العلم جمعيات وأحزاب منها ما اتخذ السرَّ حجابًا له حتى يقوى ومنها ما ابتدأ
+بالمجاهرة. وكان الدين يظفر بالعلم كما سبق بيانه لكثرة أعوانه وضعف أعوان
+العلم حتى أشرقت الآداب المحمدية على تلك البلاد من سماء الأندلس وتبع إشراق
+تلك الآداب واشتعال الناس بها سطوع نور العلم العربي من الجانب الشرقي كما
+ذكرنا. وقد وجد هذان النوران استعدادًا من النفوس للاستضاءة بهما في السبيل
+التي تؤدي بهما إلى المدنية التي كانا يحملانها. هذا الاستعداد كسبته الأنفس بما
+ضايقها من غلوّ رؤساء الدين في استعمال سلطانهم واشتدادهم في استعباد العقل
+والوجدان حتى ضاق ذرع الفطرة عن الاحتمال، فأخذ الشعور الإنساني يتلمّس
+السبيل إلى الخلاص وإذ لاح له هذان النوران اتخذهما له هداية واستقبلهما بوجهه،
+وكان بعد ذلك ما كان من تأثُّر الدين لأهل العلم وإحراقهم بالنيران، ونفيهم من
+الأوطان، ومقاومة رؤساء الدين للحكومات ولأهل الأفكار المستقلة في أدنى الأشياء
+وأعلاها حتى إنه عندما شرع ملوك فرنسا في فرش شوارع باريس بالبلاط على
+الأسلوب الذي وجدوه في مدينة قرطبة، وصدر الأمر بمنع تربية الخنازير في تلك
+الشوارع أغضب ذلك قسوس القديس أنطوان ونادوا بأن خنازير القديس لا بد أن
+تمر في الشوارع على حريتها الأولى. وحصل لذلك شغب عظيم اضطر الحكومة
+أن تسمح بذلك مع صدور الأمر بأن توضع في أعناقها أجراس. وقالوا إن الملك
+فيليب السمين مات بسقطة عن فرسه عندما انزعج الفرس من منظر خنزير
+وصلصلة الجرس في عنقه.
+لقائل أن يقول: إن القسوس في ذلك الزمان كان يمكنهم أن يمتنعوا من وضع
+الأجراس في أعناق الخنازير، فرضاهم بذلك يعد تسامحًا عظيمًا مع العلم (أو
+الصناعة) ويسهل عليٍّ أن أوافقه على أن مثل هذا الضرب من التسامح في أجراس
+الخنازير كان يظهر من حين إلى حين إلا أنه فيما أظن لا يكفي في تشييد هذه
+المدنية التي يفتخر بها الأوربيون اليوم ونحن لا ننجسها قدرها كذلك.
+السبب الثاني الضغط الديني: شدة الحاجة وغلوُّ الرؤساء كانا يوقدان الغيرة
+في قلوب طلاب العلوم فلم تفتر لهم همة فعظم أمرهم واكتشفوا كثيرًا من الحقائق
+التي نفعت العامة، وتنبهت العقول للأخذ بما يهدون عليه وصارت الحرب بينهم وبين
+رؤساء الدين سجالاً إلى أَنْ ظهر دعاة الإصلاح الديني (البروتستانت) فانضم دعاة
+العلم إليهم ظنًّا منهم أن سيكونون معهم من المجاهدين في سبيل العلم. وكان منهم
+إيراسم الشهير فلما انتصر طلاب الإصلاح ودالت لهم دولة استمروا يعاقبون بالموت
+على الأفكار التي تخالف ظاهر ما يعتقدون كما تقدم، فانفصل إيراسم ومن معه من
+حماة الحرية واستقلال الإرادة الشخصية، وترك المصلحين يتفرقون شيعًا ويقتل
+بعضهم بعضًا وقال: ما كنت أظن أن دعاة الإصلاح يكونون كذلك أعداء العلم.
+هذه الطوائف التي تفرقت عقائدها في الإصلاح لم تنتظر إلا أن تأمن عدوها
+العامَّ وهو الكنيسة الكاثوليكية الرومانية فلما أمنتها أخذ بعضها يصول على بعض
+واشتعلت نيران الحروب بينهم. قال أحد أفاضل مؤرخيهم:
+(وكلما ارتفعت طائفة منهم إلى عرش القوة لوثت يديها بالجرائم وفي العمل
+لإفناء البقية حتى سئمت النفوس دوام تلك الحال، ووجدت من توالي حوادث
+الانتقام وظهور مضارّه في كل طائفة أن الفضل لكل طائفة أن تمنح الأخرى من
+الحرية ما لا تستغني عنه واحدة منها. والعلم كان يعمل عمله في كشف الحقائق
+وترقية الآداب وكان من أقوى المنبهات إلى مضار الحروب ومفاسد العدوان على
+حرية الأشخاص من أي طائفة كانت. من هذا نشأ ذلك الأصل العظيم أصل
+التسامح والرضى بمجاورة المخالف في الرأي. نشأ من القهر والقسوة التي كانت كل
+طائفة تعامل بها الأخرى) انتهى كلام المؤرخ بالمعنى.
+السبب الثالث: الثورة: ولا حاجة بي إلى ذكر ما جاءت به الثورة الفرنسية
+وكيف كانت قيامتها على الدين ورؤسائه مما هو معلوم. وإنما أنبه القارئ إلى
+الاعتبار بما تقدم من القول، وبما يمكنه أن يقف عليه في كتب القوم، ليعلم أن
+الدين المسيحي في أوربا لم يحتمل العلم فضلاً وكرمًا وإنما قويت عليه أحزاب العلم
+فساموه استكانة وخضوعًا، ولو شاء أن يحتمل لم يستطع إلى ذلك سبيلاً.
+السبب الرابع: ترك المسيحية: رؤساء الدين المسيحي رجال ذوو عزيمة
+وإقدام قلما يدانيهم فيها رؤساء دين من الأديان. وهم مع غلوهم في الدين واشتدادهم
+في استعمال سلطانهم على النفوس كانوا ولا يزالون يتخذون كل وسيلة لتأييد دينهم.
+وهم أشد الناس حرصًا على تقويم أركانه ودفع الشبه عنه ولم يزدهر العلم الجديد
+إلا وسائل وسبلاً لترويج عقائده وآدابه، ولم تفتر لهم همة في نشره وتزيينه للقلوب.
+ومع ذلك كله نرى أن رجال العلم وحماة المدنية يتسللون منه، والعامة من الشعوب
+في تخاذل عنه، والأمة الفرنسية التي كانت تدعى بنت الكنيسة أصبحت من أشد
+الناس عليه، ورأت فلسفتها أن تحدّد حرية أهل الدين في تعاليمهم واجتماعهم. كل
+ذلك ومدارس اللاهوت لا تزال عامرة وطلاب اللاهوت يعدّون بالألوف. كل ذلك
+وكثير من الدول ترى من مزاياها حماية الدين المسيحي في أقطار الأرض. قال
+أحد رؤساء البروتستانت في خطبة من خطبه التي ألقاها في بعض البلاد الفرنسية
+سنة 1901 بعد كلام له في أن المسيحية رومانية أو بروتستانية فقدت خاصتها
+الدينية كما فقدت فائدتها الاجتماعية ما نصه مترجمًا: إذا كان الدين المسيحي ليس
+شيئًا سوى الكثلكة المحتاجة إلى الإصلاح (المذهب الروماني) أو الكثلكة التي
+دخلها الإصلاح بالفعل (المذهب البروتستانتي) فالقرن الموفي للعشرين (القرن
+الحاضر) لا يكون مسيحيًّا أبدًا.
+وقد جاء في كلام هذا الخطيب بأنه يريد أن يطلب للمسيحية معنًى آخر ينطبق
+كل الانطباق على اعتقاد المسلمين فيها، فإن وفّق للنجاح في سعيه زال الخلاف - إن
+شاء الله - بين الدين والعلم، بل بين المسيحية والإسلام.
+عَوْدٌ إلى سماحة الإسلام: آخذ بيد القارئ الآن، وأرجع به إلى ما مضى من
+الزمان، وأقف به وقفة بين يدي خلفاء بني أمية والأئمة من بني العباس ووزرائهم
+والفقهاء والمتكلمين والمحدثين والأئمة المجتهدين من حولهم؛ والأدباء والمؤرخين
+والأطباء والفلكيين والرياضيين والجغرافيين والطبيعيين وسائر أهل النظر من كل
+قبيل مطيفون بهم؛ وكلُّ مقبل على عمله فإذا فرغ عامل من العمل أقبل على أخيه
+ووضع يده في يده يصافح الفقيهُ المتكلمَ والمحدثُ الطبيبَ والمجتهدُ الرياضيَّ
+والحَكيم، وكلُّ يرى في صاحبه عونًا على ما يشتغل هو به، وهكذا أدخل به بيتًا من
+بيوت العلم فأجد جميع هؤلاء سواء في ذلك طبيب يتحادثون ويتباحثون، والإمام
+البخاريُّ حافظ السنة بين يدي عمران بن حطان الخارجي يأخذ عنه الحديث وعمرو
+ابن عبيد رئيس المعتزلة بين يدي الحسن البصري شيخ السنة من التابعين يتلقى
+عنه وقد سئل الحسن عنه فقال للسائل: (لقد سألت عن رجل كأن الملائكة أدّبته
+وكأن الأنبياء ربته إن قام بأمر قعد به، وإن قعد بأمر قام به، وإن أمر بشيء كان
+ألزم الناس له وإن نهى عن شيء كان أترك الناس له، ما رأيت ظاهرًا أشبه بباطن
+منه ولا باطنًا أشبه بظاهر منه بل أرفع بصري فأجد الإمام أبا حنيفة أمام الإمام
+زيد بن علي (صاحب مذهب الزيدية من الشيعة) يتعلم منه أصول العقائد والفقه
+ولا يجد أحدهم من الآخر إلا ما يجد صاحب الرأي في حادثة ممن ينازعه فيه
+اجتهادًا في بيان المصلحة وهما من أهل بيت واحد - أمُرُّ به بين تلك الصفوف
+التي كانت تختلف وجهتها في الطلب وغايتها واحدة وهي العلم وعقيدة كل واحد
+منهم أنَّ فكر ساعة خير من عبادة ستين سنة كما ورد في بعض الأحاديث [2] .
+الخلفاء أئمة في الدين مجتهدون وبأيديهم القوة وتحت أمرهم الجيش.
+والفقهاء والمحدثون والمتكلمون والأئمة المجتهدون الآخرون هم قادة أهل الدين ومن
+جند الخلفاء. الدين في قوته، والعقيدة في أوج سلطانها، وسائر العلماء ممن ذكرنا
+بعدهم يتمتعون في أكنافهم بالخير والسعادة ورفه العيش وحرية الفكر لا فرق في
+ذلك بين من كان من دينهم ومن كان من دين آخر، فهنالك يشير القارئ المنصف إلى
+أولئك المسلمين، وأنصار ذلك الدين، ويقول: ههنا يطلق اسم التسامح مع العلم
+في حقيقته، ههنا يوصف الدين بالكرم والحلم، ههنا يعرف كيف يتفق الدين مع
+المدنية، عن هؤلاء العلماء الحكماء تؤخذ فنون الحرية في النظر، ومنهم تهبط
+روح المسالمة بين العقل والوجدان (أو بين العقل والقلب) كما يقولون.
+يرى القارئ أنه لم يكن جلاد بين العلم والدين وإنما بين أهل العلم أو بين أهل
+الدين شيء من التخالف في الآراء شأن الأحرار في الأفكار الذين أطلقوا من غل
+التقييد، وعرفوا من علة التقليد، ولم يكن يجري فيما بينهم اللمز بالألقاب فلا يقول
+أحد منهم لآخر: إنه زنديق أو كافر أو مبتدع أو ما يشبه ذلك. ولا تتناول أحدًا
+منهم يد بأذًى إلا إذا خرج عن نظام الجماعة وطلب الإخلال بأمن العامة فكان
+كالعضو المجذَّم فيقطع ليذهب ضرره عن البدن كله.
+* * *
+(ملازمة العلم للدين، وعدوى
+التعصب في المسلمين)
+متى ولع المسلمون بالتكفير والتفسيق، ورُمِيَ زيد بأنه مبتدع وعمرو بأنه
+زنديق؟ أشرنا فيما سبق إلى مبدأ هذا المرض ونقول الآن: إن ذلك بدأ فيهم عندما
+بدأ الضعف في الدين يظهر بينهم، وأكلت الفتن أهل البصيرة من أهله (تلك الفتن
+التي كان يثيرها أعداء الدين في الشرق وفي الغرب لخفض سلطانه، وتوهين
+أركانه، وتصدَّر للقول في الدين برأيه من لم تمتزج روحه بروح الدين، وأخذ
+المسلمون يظنون أن من البدع في الدين ما يحسن إحداثه لتعظيم شأنه تقليدًا لمن كان
+بين أيديهم من الأمم المسيحية وغيرها. وأنشأوا ينسون ماضي الدين ومقالات
+سلفهم فيه ويكتفون برأي من يرونه من المتصدرين المتعالمين، وتولى شئون
+المسلمين جُهدًا لهم، وقام بإرشادهم في الأغلب ضُلاَّلهم، في أثناء ذلك حدث الغلوُّ
+في الدين واستعرت نيران العداوات بين النظَّار فيه، وسهل على كل منهم لجهله
+بدينه أن يرمي الآخر بالمروق منه لأدنى سبب. وكلما ازدادوا جهلاً بدينهم ازدادوا
+غلوًّا فيه بالباطل ودخل العلم والفكر والنظر (وهي لوازم الدين الإسلامي) في
+جملة ما كرهوه، وانقلب عندهم ما كان واجبًا من الدين محظورًا فيه.
+لا أكاد أخطّئ القارئ إذا زعم أن المسلم إنما استفاد اسم زندقة وتزندق
+ومتزندق وزنديق من فضل ما علّمه جيرانه إذ كانوا يقولون: هرتقة وتهرتق وهو
+هرتوقي أو ما يماثل ذلك. أو زعم أن قد فشت في المسلمين سرعة التكفير بطريق
+العدوى من أهل الملل المتشدِّدة وأن الذي سهّل سريان العدوى بتلك السرعة الشديدة
+هو ضعف المزاج الديني عند المسلمين بجهلهم بأصوله ومقوماته ومتى ضعف
+المزاج استعد لقبول المرض كما هو معلوم.
+إن المسلمين لما كانوا علماء في دينهم كانوا علماء الكون وأئمة العالم.
+أصيبوا بمرض الجهل بدينهم فانهزموا من الوجود وأصبحوا أُكلة الآكل وطُعمة
+الطاعم، هل وقف الجهل بالمسلمين عند تكفير من يخالفهم في مسائل الدين أو
+يذهب مذهب الفلاسفة أو ما يقرب من ذلك؟ لا. بل عدا بهم الجهل على أئمة
+الدين وخَدَمَةِ السنة والكتاب، فقد حُملت كتب الإمام الغزالي إلى غرناطة وبعدما انتفع
+بها المسلمون أزمانًا هاج الجهل بأهل تلك المدينة، وانطلقت ألسنة المتعالمين من
+البربر بتفسيقه وتضليله فجمعت تلك الكتب خصوصًا نسخَ (إحياء علوم الدين)
+ووضعت في الشارع العامّ في المدينة وأحرقت. قال قوم يعدون أنفسهم مسلمين في
+ابن تيمية - وهو أعلم الناس بالسنة وأشدهم غيرة على الدين -: إنه ضالُّ مضل.
+وجاء على إثر هؤلاء مقلدون يملأون أفواههم بهذه الشتائم، وعليهم إثمها وإثم من
+يقفوهم بها إلى يوم القيامة.
+* * *
+إهمال آثار السلف وحال
+علوم الدين وطلابها
+أهمل المسلمون علوم دينهم والنظر في أقوال سلفهم حتى إنك لا تجد اليوم في
+أيديهم كتابًا من كتب أبي الحسن الأشعري ولا أبي منصور الماتريدي، ولا تكاد ترى
+مؤلفًا من مؤلفات أبي بكر الباقلاني أو أبي إسحاق الإسفرايني. وإذا بحثت عن كتب
+هؤلاء الأئمة في مكاتب المسلمين أعياك البحث ولا تكاد تجد نسخة صحيحة من
+كتاب.
+كُتبت على القرآن تفاسير كثيرة في القرن الثالث من الهجرة وما بعده إلى
+السادس منها تفسير الطبري وتفسير أبي مسلم الأصفهاني وتفسير القرطبي وتفسير
+الجصاص وتفسير الغزالي وتفسير أبى بكر بن العربي وكثير غيرها، وفيها من آراء
+أولئك الأئمة ووجوه استنباط الحكم والأحكام ما لا غنى لطالب علم الدين عنه. فهل
+يجد الباحث المجدّ نسخة من هذه الكتب الجليلة يمكن الوثوق بصحتها إلا بطريق
+المصادفة وحسن الاتفاق؟ وهل يليق بأمة تدعي أنها على دين وأن لها فيه سلفًا
+صالحًا أن تهجر آثار سلفها وتدع ما كتبوا طعمة للعبث وفراشًا للتراب؟ هل وقع
+مثل ذلك من المشتغلين باللاهوت المسيحي في زمن من الأزمان؟
+إن حالة طلبة العلوم الدينية الإسلامية أصبحت مما يرثى له في أكثر بلاد
+المسلمين فهم لا يقرأون من كتب الكلام إلا مختصرات مما كتب المتأخرون يتعلم
+أذكاهم منها ما تدل عليه عباراتها، ولا يستطيع أن يتعلم البحث في أدلتها وتصحيح
+مقدماتها وتمييز صحيحها من باطلها وإنما يتلقاها كأنها كتاب الله أو كلام نبيه صلى
+الله عليه وآله وسلم يأخذ ما فيها بالتسليم. فإذا ناظره مناظر في بعض قضاياها
+وعجز عن تصحيحه قطع الجدال بقوله: هكذا قالوا، وإن لم يكن القول متفقًا عليه
+بل قد يكون القول مما لم يقل به سوى صاحب الكتاب الذي اشتغل به وربما كان
+صاحب الكتاب ممن لو رآه أحد من السلف لم يرضه تلميذًا يعي عنه ما يقول.
+كاد ينقطع طلب العلوم الدينية في سوريا و<placeName change="#d2e120" xml:id="placeName_4.d2e674">الحجاز</placeName> وتونس والجزائر وقلَّ
+جدًّا في المغرب الأقصى، ولم يبقَ الاهتمام به إلا في بعض الصحاري وذلك إما
+لصعوبة طرق التعليم واقتضائها الزمن الطويل، وحاجات الناس مانعة لهم من
+إفناء أعمارهم في عمل لا يسد في حاجتهم. وإما لتفضيل الآباء تربية أبنائهم على
+الطرق الحديثة في أوربا أو في المدارس الأخرى وليس فيها من الدين شيء وإن
+كان فيها شيء منه فهو مما لا يُعد تعليمًا دينيًّا ينظر إليه. وإما للفتور والخمود،
+الذي نشأ عن التقليد والجمود؛ وبذلك تجد المسلمين قد تولاهم الجهل بدينهم؛
+وأخذتهم البدع من جميع جوانبهم؛ وانقطعت الصلة الحقيقية بينهم وبين سلفهم؛
+حتى لو عرض على الجمهور الأعظم منهم ما اتفق عليه السلف من الحكام لأنكروه
+واستغربوه وعدُّوه بدعة في الدين وصح فيهم ما قال عمر الخيام في بعض أشعاره
+الفارسية مخاطبًا للنبي عليه الصلاة والسلام: (إن الذين جاءوا بعدك زيّنوا لك
+دينك ووشّوه وزركشوه حتى لو رأيته أنت لأنكرته) . فهذا الصنف من المسلمين
+وهو معظمهم قد أنكر دينه الحق وعاداه ونقم على أهله القائمين بخدمته، وإنما
+اصطفى لاعتقاده بعض أفراد لم يعرف عن السلف اختصاصهم بالثقة ولم يسمح
+الدين باختصاصهم بالتقليد. فإذا وقع عن هذا الصنف ما فيه أذًى للعلم وأهله فهل
+يعدّ ذلك واقعًا من دين الإسلام دين محمد صلى الله عليه وسلم، دين القرآن، دين
+السنة الثابتة، دين الخلفاء الراشدين ومن تبعهم من السلف الأولين؟
+متابعة العلم للإسلام ومباينته لسواه: الحق أقول والحس يؤيدني: ما عادوا
+العلم ولا العلم عاداهم إلا من يوم انحرافهم عن دينهم وأخذهم في الصد عن علمه
+فكلما بعد عنهم علم الدين بعد عنهم علم الدنيا وحرموا ثمار العقل وكانوا كلما
+توسعوا في العلوم الدينية، توسعوا في العلوم الكونية، وضربوا الزمان بسوط من
+العزّة، أما غيرهم فكلما اتصلوا بالدين وجدّوا في المحافظة عليه أنكرهم العلم
+وتجهّمهم واكفهرّ وجهه لِلِقائهم. وكلما بعدوا من الدين سالمهم العلم وبش في وجوههم
+ولذلك يصرحون بأن العلم من ثمار العقل والعقل لا يصح أن يكون له في الدين
+عمل، ولا أن يظهر منه فيه أثر، والدين من وجدانات القلب ولا علاقة بين ما يجد
+القلب وما يكسب العقل فالفصل تامُّ بين العقل والدين، ولا سبيل إلى الجمع بينهما.
+سامحهم الله فيما يسمونه تسامحًا مع العلم، وهم يصرحون بأنه عدوه الذي يستحيل
+أن يكون بينه وبينه سلم.
+هل عرفت السبب في اضطهاد المسلمين للعلم؟ أقول اضطهاد ولا أريد به ما
+كان عند الأمم المسيحية من الاشتداد في إبادة أهله، والتنكيل بهم واختراع ضروب
+التعذيب والتفنن في صنع آلات الهلاك مع الأخذ بالشبهة، والاكتفاء في الإعدام
+بمجرد التهمة، فإن ذلك لم يقع عند المسلمين لا أيام علمهم، ولا في أزمنة جهلهم،
+ولكن أريد من الاضطهاد الإعراض عن العلم ورمي الألفاظ السخيفة في وجوه أهله
+وقذفهم بشيء من الشتائم مع الابتعاد عنهم. لا ريب أنك قد أيقنت بأن السبب في
+هذا الذي يسميه الأديب اضطهادًا إنما هو جهلهم بدينهم. فالدواء الذي ينجح في
+شفائهم من الداء لا يكون إلا ردّهم إلى العلم بدينهم والتبصر فيه للوقوف على
+أسراره والوصول إلى حقيقة ما يدعو إليه. كان الدين واسطة التعارف بينهم وبين
+العلم فلما ذهبت الواسطة تناكرت النفوس وتبدل الأنس وحشة.
+الدعاة إلى الإسلام: فهل قام بينهم دعاة للعلم حقيقيون، أو دعاة لأصل الدين
+عارفون، ثم استعصت قلوب المسلمين عليهم، وجمحت نفوسهم عن الانقياد لهم؟
+وهل كثر أولئك الدعاة في أطراف بلاد المسلمين كثرتهم في أوربا من أواسط القرن
+السابع عشر من التاريخ المسيحي إلى أن ظهرت قوة العلم في أوائل القرن السابع
+عشر وفيما بعد ذلك؟ لا. إنما رأينا من الصادقين أفرادًا يظهرون متفرقين في
+عصور مختلفة ربما لا يجتمع ربعه منهم فما يزيد في قرن واحد ويأخذون في العمل
+ولما وجّهوا إليه، ثم لا يكادون ينطقون ببعض الكلم فيحس الناس بهم فيأخذ المستعد
+أهبته لمفارقة ما كان عليه واتباعهم حتى تشعر السياسة (نعوذ بالله منها) بما عسى
+يكون من أمرهم فتخمد أنفاسهم، قبل أن يبلغوا من قلب واحد ما أرادوا من غرس
+أفكارهم، فينطفئ النور، ويَدْلَهمِ الدَّيْجُور، فهل يعدّ الأديب هذه الضربات من أيدي
+أرباب السياسة اضطّهادًا للعلم لأجل حماية الدين؟ أنزّه كل أديب عن أن يظن ذلك
+وإنما هي صدمات تقع على الدين لا تختلف عن أمثالها مما يصيبه منهم مباشرة فلا
+تعدّ حجة على الدين في نظر المنصف.
+المقلِّد دون المقلَّد: ربما يقول القائل: إن كان المسلمون قد أخذوا الجمود في
+التقليد والنفرة من العلم والاعتقاد بالعداوة بين الدنيا والآخرة وبين العقل والدين وما
+أشبه ذلك مما هم فيه وورثوه عن الأمم السابقة عليهم خصوصًا أقرب الملل إليهم،
+فما بالهم لم يقلدوا المسيحيين في الحرص على نشر دينهم والتوسع في علومه مذيلاً
+بما أخذوه عنهم، ولم يقسموا أنفسهم قسمين كما قسم المسيحيون إخوانهم قسمين:
+قسمًا ينقطع إلى الآخرة في الأديار والصوامع، وقسمًا يشتغل بالدنيا ليقيت نفسه
+ويقيت أهل القسم الأول ويحمي نفسه ويحميهم من العدوان؟ وما لك ترى المسلمين
+خملوا وارتخت أعصابهم وسئموا النظر في علوم دينهم كما ذكرت، ثم صاروا أبعد
+الناس عن معرفة الطرق لتحصيل الغنى والثروة، والقبض على ناصية القوة
+وصولجان العزة، وطرحوا أنفسهم في تيار من القدر كما يقولون، يجري بهم إلى
+حيث لا يعلمون؟ ثم هم مع ذلك أحرص الناس على حياة؛ وأشدهم لهفًا على
+الحطام، فلا ترى الجمهور منهم في شيء للدين ولا للدنيا فما هذا التناقض؟ فأقول
+له: إنك قد نسيت أن المقلّد إنما ينظر من عَمل المقلَّد إلى ظاهره ولا يدري سره
+ولا ما بني عليه. فهو يعمل على غير نظام، ويأخذ الأمر لا على قاعدة، ولذلك
+سقط المسلمون في شرٍّ مما كان عليه مقلّدوهم لا سيما أنهم قد خلطوا في التقليد
+وأضافوا إلى دينهم ما لا يمكن أن يتفق معه، فصاروا في مثل حال المتخبط الذي
+تَنَاَزَعُه عدة قوى يذهب مع كل منها آنًا ثم ينتهي أمره بعد الخيبة بالتعب الشديد
+فيستلقي إلى أن يستريح فينهض إلى العمل على هدًى أو يموت.
+لما كان المسلمون علماء كانت لهم عينان: عين تنظر إلى الدنيا، والأخرى
+تنظر إلى الآخرة. فلما طفقوا يقلدون أغمضوا إحدى العينين، وأقذوا الأخرى بما
+هو أجنبي عنهم ففقدوا المطلبين ولن يجدوهما إلا بفتح ما أغمضوا وتطهير ما أقذوا.
+الإصلاح والمصلحون: للقائل أن يقول: كيف تدعي أن دعاة العلم والدين
+قليل بين المسلمين مع أننا نسمع أصواتهم تتلاقى في جوّ مصر وسوريا وغيرهما
+من البلاد في هذه الأيام. كلُّ يقول: ديني ملتي: إسلام مسلمون: قرآن سنة:
+مجد الإسلام القديم سلفه والصالحون: تعلم تعليم: كتب قديمة كتب جديدة. وما
+يشاكل ذلك مما يظهر منه أن الداعين إلى العلم أو المنبهين إلى الأخذ بأصول الدين
+الإسلامي كثيرون ولا ترى مع ذلك من أغلب المسلمين إلا آذانًا صُمًّا وأعينًا عُميًا
+وصدًّا عما يدعو إليه هؤلاء، ويمكنني أن أقول له: إن الصادق في هؤلاء ليس
+بكثير عُدة، والجمهور منهم قَلّما يخلص قصده، وما تجد أكثرهم إلا متجرين بهذه
+الكلمات لكسب بعض دريهمات: ويظهر لك ذلك من أنهم يلفظون هذه الأسماء وقلما
+يدرسون شيئًا من مدلولاتها ليقفوا على الحقيقة منه، وإنما يلقف بعضهم عن بعض
+ظواهر كالزَّبد لا تمكث في الأرض. أما الصادقون على قلتهم فقد بدأ بعض الناس
+يسمعون ما يقولون، ويطلبون الرشاد مما يعلمون، خصوصًا في أمر الدين والجمع
+بينه وبين مصالح الدنيا لا سيما في بلاد الهند وبين مسلمي روسيا. ولكن الإصلاح
+ليس ريحًا تهب فتمسح الأرض من الشرق إلى الغرب في وقت قريب فانتظر قد
+يقول القائل: لِمَ لَمْ يكثر هؤلاء كثرتهم بين الأوربيين فيما مضى حتى يغلبوا
+الظالمين من أهل السياسة ويستميلوا العادلين منهم إليهم. وينهضوا بالمسلمين من
+هذه الرقدة التي طال أمدها عليهم؟ ، ولمَ لا يزال أهل البصيرة منهم قليلين متفرقين
+يهمسون بالقول ولا يجهرون، وليس للعلم فيهم دعاة مليُّون؟ أليس ذلك سبيلاً
+لمؤاخذة الإسلام، وحجة عليه؟ ؟ وأقول له: إن حظ المسلمين لا يصح أن يكون
+أسعد من حظ مقلديهم، بل المنتظر أن يكون أتعس وقد أقامت المسيحية ما يزيد
+على ألف سنة قبل أن يظهر فيها العلم أو تنشأ الحرية الشخصية؛ أو تسري فيها
+الحركة العلمية؛ إلى ما فيه صلاح الجمعية الإنسانية، مع توالي المنبهات؛
+وتواصل الصدمات إثر الصدمات، ولم يمضِ على المسلمين من يوم استحكمت
+فيهم البدعة وأطبقت عليهم ظلم المحدثات ودخلوا جحر الضب الذي دخله من كان
+قبلهم إلا أقل من ثمانمائة سنة، فلم يمض عليهم وهم في بدعهم الجديد ذلك الزمن
+الذي قد يكون عُمرًا لمثل هذه الحالة، ثم تقضي نحبها في آخره. وما أظن أن يمر
+على المسلمين مثل تلك المدة قبل أن يبلغوا من صلاح الدين والدنيا ما هم أهل له.
+الفرق بين التعصبين: وعلى كل حال لا يجوز في شريعة الإنصاف أن يذكر
+المسلمون في جانب جمهور المسيحيين إذا ذكر الغلو في التعصب الديني فضلاً عن
+أن يقال: إن المسلمين أشد إفراطًا فيه. والشاهد يدلنا على أنه قد يكون للمسلمين
+في التعصب ألفاظ وكلمات، ولكن الذي يكون من جمهور المسيحيين إنما هو أعمال
+وضربات في المعاملات؛ وما على طالب الحقيقة إلا أن يسيح بفكره في
+المستعمرات الهولاندية في الشرق ومثل مملكة الترنسفال قبل سقوطها وبلاد الناتال
+في الجنوب، ثم يرجع إلى الجزائر وما يليها في جهة الغرب ليعلم كيف تكون الشدة
+في المعاملة مع غير أهل المذاهب المسيحية وكيف يبلغ التعصب من أهله حدًّا
+تنظر إليهم فيه الإنسانية شزرًا ولا تقبل لهم فيه المدنية عُذرًا.
+ما على الباحث إلا أن ينظر فيما يكتبه الكتاب الفرنسيون ليعلم أنهم في حيرة
+من أمرهم مع المسلمين. يريدون أن تكون لحكومتهم طمأنينة فيما ملكت من بلاد
+المسلمين ولكن حكومتهم لا تجد السبيل إليها مع ما اتخذته قاعدة لعملها وهو الشدة
+والإفراط في القسوة على المسلمين خاصة وحدهم دون سواهم. وأرباب الأقلام
+يبحثون عن؛ تلك الطمأنينة مع المحافظة على تلك القسوة ويأبى الله أن يعثرهم على
+ما يبحثون عنه، لأنهم يطلبون الجمع بين الضدين في موضوع واحد وهو محال كما
+يقرره فلاسفتهم.
+* * *
+(رأي هانوتو الأخير في
+معاملة المسلمين)
+موسيو هانوتو أطلق لقلمه من سنوات أن يجري في البحث عن طريقة حكم
+للمسلمين وقاعدة لمعاملتهم في البلاد التي يحكمها الفرنسيون وجاء في فصول مقاله
+بما لا يزال يذكره القراء. ثم بعد أن قتل المسألة علمًا ثلاث سنين رجع إلى
+موضوع البحث هذه السنة بلسان غير الذي كان ينطق به ورأي غير الذي كان
+يصدر عنه. وإني ذاكر ملخص ما نقلته الجرائد من خطابه الذي ألقاه في المجمع
+الجغرافي في شهر مارس من هذه السنة متعلقًا بأفريقيا، واقتصر منه على ما يتعلق
+بما نحن فيه وهو بالمعنى: (إن القواعد الجديدة التي يجب أن يكون عليها العمل
+في أفريقيا هي مخالفة للقواعد القديمة التي كانت تجري عليها السياسة الاستعمارية
+فيما مضى من الزمان، أي: قبل ساعة وقوف الخطيب لإلقاء خطابه) ثم بين هذه
+القواعد الجديدة التي يعامل بها المحكومون فقال: إنها الأمن والسلم ثم قال: (إننا
+مدينون لهم بالعدل والسلم كما أننا مدينون لهم بالتساهل الديني، ولست أشير إلى
+هذا الموضوع الخطير الذي له علاقة بكل ما يثير النفس البشرية إلا إشارة خفيفة
+فأقول: إن التمدن الأوربي يجد في طريقه في أفريقيا لا سيما في شمالها ذلك الدين
+القديم العظيم الذي هو دين الإسلام، والذي هو في هذه الجهات (شمال أفريقيا) أكثر
+نشاطًا منه في غيرها. وهذا الدين يدعو إلى إله واحد ويجعل الإيمان بالتوحيد
+مصدرًا لكل الفضائل الذاتية والاجتماعية ويستولي على المؤمن به استيلاءً شديدًا
+فلا يعود بقدر على التفلت منه، فمن المفروض علينا التساهل في هذا الشأن بل
+ليس التساهل بكافٍ وحده، فمن الواجب أن ندرس هذا الدين ونبذل جهدنا في فهمه.
+وعلينا أن نتخذ الكلمة الإسلامية {لاَ إِكْرَاهَ فِي الدِّينِ} (البقرة: 256) شعارًا
+لنا لا نخرج عن حدود معناها. وأن نحترم الدين الإسلامي ونحميه من كل طارئ
+سوء. ولا بأس بذكر كلمة للأمير عبد القادر الجزائري في هذا المقام وهي: (إن
+أصحاب الأديان الثلاثة يشبهون ثلاثة إخوة من ثلاث أمهات) انتهى محصل كلام
+هانوتو. قبل الكلام عليه أسأل القارئ: هل سمع مثل هذه الكلمة ممن يماثل الأمير
+عبد القادر في نسبه إلى صاحب الرسالة ومقامه في أهل دينه ومكانته من سلامة
+العقيدة في مذهبه؟ أو سمع ما يقرب منها ممن لا يدانيه من أهل الملل الأخرى؟
+ترى هانوتو يرشد أهله إلى اتخاذ سبيل جديد في سياسة المسلمين، وهذا الجديد
+هو السلم والأمن والتساهل مع المسلمين في أن يستمرُّوا مسلمين واحترام حقوقهم
+وتركهم يعملون بدينهم. وعَدَّ هذا مبدأً جديدًا لم يسبق الجري على مثله. وهل
+تجنب الحكومة الفرنسية طلبه؟ مسألة فيها نظر. فهل يليق بمنصف أن يذكر
+المسلم إذا ذكر التعصب ما دام في هذا الكون مثل هذه الدرجة منه؟
+* * *
+(سياسة الإنكليز في التسامح)
+نعم نحن لا ننكر أن بين الأمم الأوربية أمة تعرف كيف تحكم من ليس على
+دينها، وتعرف كيف تحترم عقائد من تسوسهم وعوائدهم، وهي الأمة الإنكليزية فهي
+وحدها الأمة المسيحية التي تقدر التسامح حق قدره. لا يصعب علينا أن نقول: إن
+منشأ ذلك أن أمراءها في الحروب الصليبية وقوّاد جيشها كانوا من أشد الصليبيين
+علاقة بسلطان المسلمين وأمراء جيشه. وقد امتاز الإنكليز في ذلك الزمن المظلم
+بدرس عقائد المسلمين وعاداتهم فحملوا من ذلك شيئًا كثيرًا إلى بلادهم ولم تحجبهم
+غشاوة التعصب عن إبصار ضوء الحق، وظهر أثر ذلك في أقلام كثير من كتابهم
+مثل ولترسكوت وشيل وغيرهما قبل أن يظهر في أقلام الكاتبين من غير الإنكليز
+بأزمان طويلة. فلنا أن نقول: ولا نخشى لائمًا: إن هذه الخصلة الشريفة - خصلة
+إطلاق الحرية لأهل الدين يتمتعون بأداء فرائضه مع احترام ما يحترمون - هي من
+أجلّ الخصال ورثها غير المسلمين عن المسلمين. وهل أجد من يأبى عليّ القول
+بأن الإسلام السليم من البدع هو أستاذ الإنكليز وعنه أخذوا هذه الخلة؟ ألا ترى أن
+نظامهم في ذلك يقرب من نظام المسلمين في يوم كانوا مسلمين: يكتفون من الناس
+بالخضوع للقوانين وأداء ما يفرض عليهم من الضرائب ثم يحفظون نظام العدل
+بينهم بقدر ما تسمح به السياسة لا يفرقون بين دين ودين. وهكذا كان حال
+المسلمين، وإن كان ذلك على قاعدة أبر وأرحم.
+خاتمة: فإن قال قائل: أليس لهذا المقال من آخر؟ أليس في طول الكلام
+مجلبة الملل، وترويج الكسل، قلت: إني أوجِّه كلامي هذا إلى أهل النَّهَم إلى الفهم،
+وأرباب الشره إلى المعرفة، ولا أظن هؤلاء إلا طالبين ما هو أوسع من هذا
+المقال وأطول منه أضعافًا مضاعفة؛ لأن الموضوع جليل، والكلام فيه مهما كثر
+قليل، وأما القارئ الملول، فعقله مدخول، وعزمه مفلول، وفكره مغلول، وهو
+قصير الهمة فيما يقصر وفيما يطول، فلا ينظر إليه في الخطاب، ولا يعتد به عند
+الحساب، ومع ذلك فأنا واقف عند هذا الحد. وأنتظر بتفصيل القول في مسألة
+أمراض الإسلام وآثار البدع والمحدثات فيه، والعلل التي نشبت بالمسلمين بسببها
+فرصة أخرى، وقبل أن أترك القارئ أنبهه إلى ما أجمل في هذه الفصول لم يقصد
+به الطعن في حال أحد من الناس ولا طائفة من الطوائف كما يعرفه القارئ نفسه من
+لباس المعاني، وما يكسوها من الأدب والتنزه عن كل كلمة تشم منها رائحة العيب
+على آخر. وقد يعلم من هذه النزاهة أن هذا رأي طبخناه لنَطْعَمَه بأنفسنا، وننفق
+منه على من تلزمنا نفقته من أهلنا، ولم يكن يخطر ببالنا عندما أَجَدنَا طَبخه أن
+نُفيض منه على غيرنا، لكن إذا عَشَا الساري إلى ضوء نارنا، وطلب القرى مِنَّا
+قاسمناه ما لدينا، وعرضنا عليه أَحَرَّ من نَفَسِ الحياة، وأهنأ من خُلق الأناة إن شاء
+الله. اهـ
+(<title change="#d5e212 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_5.d2e1072">المنار</title>)
+من عجيب الاتفاق أنه بعدما كتب هذا المقالات ونشر بعضها ظهرت تلك
+المقالة للمستر كوربت الإنكليزي وسنلحق قوله في الإسلام بالمقالات إذا طبعت على
+حدتها في كتاب، ونبشر القراء بأن هذا الإمام وَعَدَ بأن يكتب مقالاً آخر ملحقًا بهذا
+في بيان أن ما طرأ على الإسلام من البدع وما لحقها من الجمود سيكون هو السبب
+في الرجوع إلى الأصل وإعادة مجد الإسلام ولعلها تنشر في الجزء الآتي.
+وقد بلغ كتاب<head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_2.d2e1088"> (الإسلام والنصرانية مع العلم والمدنية) </head>نحو مائتي صفحة
+وسنزيده شهادة الكاتب الإنكليزي، ثم مقال الإمام الموعود به. وقد طُبع على ورق
+جيد، وجعلنا ثمنه مع هذا خمسة قروش صحيحة فقط رغبةً في سعة انتشاره.
+((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_1.d2e1098">(1) يذكر القراء أن كلام الجامعة في الطعن بالإسلام كان مبنيًّا على أربعة أمور تقدم الرد على ثلاثة منها وفي هذا المقال الرد على الرابع.
+(2) المنار: رواه أبو الشيخ ابن حبان في العظمة عن أبي هريرة بسند ضعيف ورواه من طريقه ابن الجوزي في الموضوعات ولكن له روايات أخرى منها رواية الديلمي في مسند الفردوس عن أنس بلفظ (ثمانين سنة) وفي رواية موقوفة على ابن عباس (خير من قيام ليله) ولشهرة هذا المعنى قال الغزالي: وردت السنة بكذا.</note>
             </tei:p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_1.d2e1103">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_3.d2e1105" ref="oape:pers:809 viaf:27297150">
                             <forename xml:lang="ar">محمد</forename>
                             <surname xml:lang="ar">عبده</surname>
@@ -81,7 +457,141 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_2.d2e1113">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_3.d2e1115">الأسئلة والأجوبة</head>
 <tei:p change="#d2e120" xml:id="p_2.d2e1118">
-               <lb change="#d2e120" xml:id="lb_377.d2e1120"/>حدوث العالم في نظر الإسلام والفلسفة<lb change="#d2e120" xml:id="lb_378.d2e1122"/>(س1) المولى رضاء الدين أفندي قاضي القضاة وعضو الجمعية الإسلامية<lb change="#d2e120" xml:id="lb_379.d2e1124"/>العامل في أوفا (الروسيا) : قد طال النزاع وقوي الجدال وكثر في هذه الأيام القيل<lb change="#d2e120" xml:id="lb_380.d2e1126"/>والقال بين الناس في هذا القطر في مسألة حدوث العالم من جهتها الشرعية. فبعضهم<lb change="#d2e120" xml:id="lb_381.d2e1128"/>يقول: إن الاعتقاد بالحدوث الزماني حسب ما قرره علماء الكلام من متأخري<lb change="#d2e120" xml:id="lb_382.d2e1131"/>المسلمين فرض على العباد مثل الاعتقاد بوحدة الله تعالى وصدق رسوله وسائر<lb change="#d2e120" xml:id="lb_383.d2e1133"/>الاعتقادات الواردة في القرآن الشريف. وبعضهم يخالفه ويقول: إن الاعتقاد<lb change="#d2e120" xml:id="lb_384.d2e1135"/>بحدوث العالم حدوثًا زمنيًّا لا يكلف به الشرع ولا أخبر به النبي ولا نطق به القرآن<lb change="#d2e120" xml:id="lb_385.d2e1137"/>الكريم بل هو من آراء أهل الكلام وبدعهم، أخذوه من فلاسفة اليونان ولقنوه العوام<lb change="#d2e120" xml:id="lb_386.d2e1139"/>باسم الدين وما هو من الدين أصلاً. بل هو من باب التدين بالرأي. وإنما الواجب<lb change="#d2e120" xml:id="lb_387.d2e1141"/>على المسلمين هو اعتقاد أن العالم مخلوق له تعالى من غير تعرض إلى حدوثه<lb change="#d2e120" xml:id="lb_388.d2e1144"/>بالزمان أو بالذات.<lb change="#d2e120" xml:id="lb_389.d2e1146"/>وهو الذي نطق القرآن به في عدة مواضع. وبالجملة، إن القول بالحدوث<lb change="#d2e120" xml:id="lb_390.d2e1148"/>الذاتي أو الزماني إنما هو من مسائل الفلسفة لا تعلق له بالشريعة. ولما كانت<lb change="#d2e120" xml:id="lb_391.d2e1150"/><bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <tei:title level="j" change="#d2e207 #d5e212 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_6.d2e1152">المنار</tei:title></bibl> هي الجريدة الدينية الوحيدة، جئنا إلى حضرتكم نستسفر رَأْيَكُم في<lb change="#d2e120" xml:id="lb_392.d2e1155"/>هذه المسألة ونَشْرَه أيضًا في أحد أعدادها ويكون هو - إن شاء الله تعالى - الفاصل<lb change="#d2e120" xml:id="lb_393.d2e1158"/>بين الحق والباطل.<lb change="#d2e120" xml:id="lb_394.d2e1160"/>(ج) إن الصواب في الرأي الثاني. وما كان لدين الفطرة مقرر الحنيفية<lb change="#d2e120" xml:id="lb_395.d2e1162"/>السمحة الذي ظهر في الأميين ودعا إليه المتوحشين والممدنيين - أن يكلف كل<lb change="#d2e120" xml:id="lb_396.d2e1164"/>فرد في تصحيح الإيمان بنظريات فلاسفة اليونان، والتمييز بين تلك الخلافات في<lb change="#d2e120" xml:id="lb_397.d2e1166"/>الحدوث بالزمان والحدوث بالذات. ثم خلافات الفلاسفة مع أهل الكلام في أصل<lb change="#d2e120" xml:id="lb_398.d2e1168"/>وجود الزمان. فالمتكلم يقول: إنه أمر اعتباري، والفيلسوف اليوناني يقول: إنه<lb change="#d2e120" xml:id="lb_399.d2e1171"/>وجودي، وإنها لمعارك يحارب الباحث فيها غير عدوّ حتى إذا أعيا من مقارعة<lb change="#d2e120" xml:id="lb_400.d2e1173"/>الدليل بالدليل، ونفض عنه عثير القال والقيل، رجع إلى أحد الأمرين: وقوف<lb change="#d2e120" xml:id="lb_401.d2e1175"/>الحيرة أو دين الفطرة، المقصد الأول من مقاصد القرآن المبين، تقرير عقائد الدين،<lb change="#d2e120" xml:id="lb_402.d2e1177"/>ثم هو لم ينطق بكلمة من مادة الحدوث للأعيان، لا بحسب الذات ولا بحسب<lb change="#d2e120" xml:id="lb_403.d2e1179"/>الزمان، فللناظر أن يقول: إن اطّراد السنن الإلهية في العوالم العلوية والسفلية،<lb change="#d2e120" xml:id="lb_404.d2e1181"/>ووحدة النظام مع الإتقان في جميع هذه الأكوان: يدلاّن على أن لها خالقًا عليمًا،<lb change="#d2e120" xml:id="lb_405.d2e1184"/>قادرًا حكيمًا حيًّا قيومًا، لا رادّ لإرادته، ولا معقب لحكمه وحكمته، وأنه واحد<lb change="#d2e120" xml:id="lb_406.d2e1186"/>لوحدة النظام المشهود في جميع الوجود، وبهذا يكون مؤمنًا بالبرهان، متبعًا طريق<lb change="#d2e120" xml:id="lb_407.d2e1188"/>القرآن وإن لم يخطر بباله حدوث الذات وحدوث الزمان.<lb change="#d2e120" xml:id="lb_408.d2e1190"/>أما مسألة حدوث العالم في نظر الفلسفة فالمتفق عليه عند فلاسفة العصر أن<lb change="#d2e120" xml:id="lb_409.d2e1192"/>كل ما نراه ونحس به من هذه العوالم الأرضية والسماوية فهو حادث بمعنى أنه لم<lb change="#d2e120" xml:id="lb_410.d2e1194"/>يكن كما هو الآن ثم كان، ولكن عضلة العقد عند المتقدمين والمتأخرين هي مسألة<lb change="#d2e120" xml:id="lb_411.d2e1197"/>منشأ التكوين. وهم متفقون على أن الوجود المطلق قديم وأنَّ العدم المطلق لا حقيقة<lb change="#d2e120" xml:id="lb_412.d2e1199"/>له ولا يتصوره العقل وأنه لا يحدث شيء من لا شيء. فالفلاسفة والمتفلسفون<lb change="#d2e120" xml:id="lb_413.d2e1201"/>يحسبون أن هذه المسائل القطعية لا تنطبق على الأديان وإن سماوية، ونحن نقول:<lb change="#d2e120" xml:id="lb_414.d2e1203"/>إنها هي التي جرى عليها القرآن وقررها الإسلام فليس في كتاب الله تعالى آية تدل<lb change="#d2e120" xml:id="lb_415.d2e1205"/>على أن الوجود الحقيقي صدر عن العدم الخيالي، بل قال: {وَخَلَقَ كُلَّ شَيْءٍ فَقَدَّرَهُ<lb change="#d2e120" xml:id="lb_416.d2e1207"/>تَقْدِيراً} (الفرقان: 2) والخلق لغة: الترتيب وهو لا يكون في العدم، بل قال:<lb change="#d2e120" xml:id="lb_417.d2e1210"/>{أَوَ لَمْ يَرَ الَّذِينَ كَفَرُوا أَنَّ السَّمَوَاتِ وَالأَرْضَ كَانَتَا رَتْقاً فَفَتَقْنَاهُمَا} (الأنبياء:<lb change="#d2e120" xml:id="lb_418.d2e1212"/>30) وقال: {ثُمَّ اسْتَوَى إِلَى السَّمَاءِ وَهِيَ دُخَانٌ فَقَالَ لَهَا وَلِلأَرْضِ ائْتِيَا طَوْعاً أَوْ<lb change="#d2e120" xml:id="lb_419.d2e1214"/>كَرْهاً قَالَتَا أَتَيْنَا طَائِعِينَ} (فصلت: 11) وحلُّ المسألة بطريقة إسلامية أن هذا<lb change="#d2e120" xml:id="lb_420.d2e1216"/>الوجود الذي نشاهده كله ممكن حادث، وأنه صدر عن وجود واجب قديم لا تعرف<lb change="#d2e120" xml:id="lb_421.d2e1218"/>حقيقته ولا كيفية صدوره عنه، وإنما قام البرهان بأنه صدر بإرادة وقدرة وعلم<lb change="#d2e120" xml:id="lb_422.d2e1220"/>وحكمة. وذلك ما ذكرناه من وحدة النظام والإحكام وإطراد النواميس والسنن.<lb change="#d2e120" xml:id="lb_423.d2e1223"/>***<lb change="#d2e120" xml:id="lb_424.d2e1225"/>دعوى كتابة النبي بالتركية<lb change="#d2e120" xml:id="lb_425.d2e1227"/>(س2) ومنه: قال الفاضل المرجاني القزاني صاحب (ناظورة الحق) في<lb change="#d2e120" xml:id="lb_426.d2e1229"/>رسالته (مستفاد الأخبار) : إن حديث أبي هريرة المذكور في أسد الغابة المطبوع<lb change="#d2e120" xml:id="lb_427.d2e1231"/>بمصر <placeName change="#d2e120" xml:id="placeName_5.d2e1233">القاهرة</placeName> (ج4 ص140) وقع فيه عدة أغلاط وقت طبعه، والصواب ما في<lb change="#d2e120" xml:id="lb_428.d2e1237"/>النسخة الخطية في زمان قريب من عصر المؤلف ابن الأثير رضي الله عنه. وهو<lb change="#d2e120" xml:id="lb_429.d2e1239"/>هكذا: (وأن رسول الله صلى الله عليه وسلم كتب لعمير ومن معه كتابًا تركيًّا ذكره.<lb change="#d2e120" xml:id="lb_430.d2e1241"/>فإن رواته نقلوه بألفاظ عربية، وبدلوها وصحفوها تركناها لذلك) . ولما لم يكن<lb change="#d2e120" xml:id="lb_431.d2e1243"/>لدينا نسخة أخرى سوى المطبوعة المذكورة لنقابلها رجونا من حضرتكم مقابلة<lb change="#d2e120" xml:id="lb_432.d2e1245"/>النسخة المطبوعة مع الأصول المصححة خدمة للعلم والدين، ثم بيانه إلينا لنكون<lb change="#d2e120" xml:id="lb_433.d2e1247"/>على بصيرة من ذلك وأجركم على الله.<lb change="#d2e120" xml:id="lb_434.d2e1250"/>ج ـ لم يكن التحريف والتبديل في النسخة المطبوعة وإنما كانا في رسالة<lb change="#d2e120" xml:id="lb_435.d2e1252"/>الفاضل القزاني (مستفاد الأخبار) فإن ما كتبه عن النسخة الخطية هو عين ما في<lb change="#d2e120" xml:id="lb_436.d2e1254"/>النسخة المطبوعة إلا أنه صَحَّفَ لفظ (تركنا ذكره) بقوله: (تركيًّا ذكره) ولفظ<lb change="#d2e120" xml:id="lb_437.d2e1256"/>(غريبة) بلفظ (عربية) فكان التبديل والتحريف من هذا التصحيف، وسببه أن<lb change="#d2e120" xml:id="lb_438.d2e1258"/>النسخة الخطية التي رآها غير منقوطة فأوقعت الفاضل فيما رأيت. وما كان لمثله<lb change="#d2e120" xml:id="lb_439.d2e1260"/>أن يظن أن النبي صلى الله عليه وسلم يكتب لقوم من العرب كتابًا تُركيًّا، فإن جاز<lb change="#d2e120" xml:id="lb_440.d2e1263"/>أن يعرف هو التركية من طريق المعجزة فمن أين لعمير وقومه بني أسلم علْم ذلك؟<lb change="#d2e120" xml:id="lb_441.d2e1265"/>وما هو الداعي إلى مخاطبة العرب بلسان العجم؟ ثم ما كان لمثله أن يخفى عليه أن<lb change="#d2e120" xml:id="lb_442.d2e1267"/>كلمة (ذكره) بعد كلمة (تركيا) لا معنى لها، ولكن معناها ظاهر إذا كانت<lb change="#d2e120" xml:id="lb_443.d2e1269"/>الكلمة (تركنا) وهو أن المصنف ترك ذكر الحديث لوقوع التحريف فيه،<lb change="#d2e120" xml:id="lb_444.d2e1271"/>وسبب التحريف وجود الألفاظ الغريبة التي لم يفهمهما رواته.<lb change="#d2e120" xml:id="lb_445.d2e1273"/>أما عبارة الكتاب فهي كما في ترجمة عمير بن أقصى الأسلمي: روى أبو<lb change="#d2e120" xml:id="lb_446.d2e1276"/>هريرة قال: قدم عمير بن أقصى في عصابة من أسلم فقالوا: يا رسول الله إنا من<lb change="#d2e120" xml:id="lb_447.d2e1278"/>أرومة العرب نكافئ العدو بأسنة حداد، وأذرع شداد، ومن ناوأنا أوردناه السامة،<lb change="#d2e120" xml:id="lb_448.d2e1280"/>وذكر حديثًا طويلاً في فضل الأنصار، وأن رسول الله صلى الله عليه وسلم كتب<lb change="#d2e120" xml:id="lb_449.d2e1282"/>لعمير ومن معه كتابًا تركنا ذكره، فإن رواته نقلوه بألفاظ غريبة وبدلوها وصحفوها<lb change="#d2e120" xml:id="lb_450.d2e1284"/>تركناها لذلك أخرجه أبو موسى. اهـ<lb change="#d2e120" xml:id="lb_451.d2e1286"/>وقد قابلنا النسخة المطبوعة بنسخة خطية في مكتبة الحكومة<lb change="#d2e120" xml:id="lb_452.d2e1289"/>المصرية كتبت في سنة 722 أي بعد وفاة ابن الأثير بأقل من قرن فألفيناها<lb change="#d2e120" xml:id="lb_453.d2e1291"/>مطابقة لها.<lb change="#d2e120" xml:id="lb_454.d2e1293"/>***<lb change="#d2e120" xml:id="lb_455.d2e1295"/>السلام على غير المسلم<lb change="#d2e120" xml:id="lb_456.d2e1297"/>(س3) الشيخ بسطويسي بركات بالمحلة الكبرى: قال الله تعالى: {وَإِذَا<lb change="#d2e120" xml:id="lb_457.d2e1299"/>حُيِّيتُم بِتَحِيَّةٍ فَحَيُّوا بِأَحْسَنَ مِنْهَا أَوْ رُدُّوهَا} (النساء: 86) وقال تعالى: {وَلاَ<lb change="#d2e120" xml:id="lb_458.d2e1302"/>تَقُولُوا لِمَنْ أَلْقَى إِلَيْكُمُ السَّلامَ لَسْتَ مُؤْمِناً} (النساء: 94) وقال: {يَا أَيُّهَا الَّذِينَ<lb change="#d2e120" xml:id="lb_459.d2e1304"/>آمَنُوا لاَ تَدْخُلُوا بُيُوتاً غَيْرَ بُيُوتِكُمْ حَتَّى تَسْتَأْنِسُوا وَتُسَلِّمُوا عَلَى أَهْلِهَا} (النور:27)<lb change="#d2e120" xml:id="lb_460.d2e1306"/>الآية. فهل هذا الإطلاق في الآيات الكريمة يشمل المسلمين وغيرهم من أهل<lb change="#d2e120" xml:id="lb_461.d2e1308"/>الكتاب وغيرهم من بني آدم أم هو خاصّ بالمسلمين قيدت إطلاقه عليهم أحاديث<lb change="#d2e120" xml:id="lb_462.d2e1310"/>صحيحة صريحة؟ وهل قوله صلى الله عليه وسلم فيما معناه: (إن من حق المسلم<lb change="#d2e120" xml:id="lb_463.d2e1312"/>على المسلم إفشاء السلام) يعتبر من قيود الإطلاق لفهم البعض سقوط حق غير<lb change="#d2e120" xml:id="lb_464.d2e1315"/>المسلم أم لا؟ وإذا قيل: إنه عام فهل ينبغي شيوعه بين الطوائف حتى يصير عادة<lb change="#d2e120" xml:id="lb_465.d2e1317"/>مألوفة أم لا؟<lb change="#d2e120" xml:id="lb_466.d2e1319"/>(ج) إن الإسلام دين عامٌّ ومن مقاصده نشر آدابه وفضائله في الناس ولو<lb change="#d2e120" xml:id="lb_467.d2e1321"/>بالتدريج وجذب بعضهم إلى بعض ليكون البشر كلهم إخوة. ومن آداب الإسلام التي<lb change="#d2e120" xml:id="lb_468.d2e1323"/>كانت فاشية في عهد النبوة إفشاء السلام إلا مع المحاربين؛ لأن من سلّم على أحد<lb change="#d2e120" xml:id="lb_469.d2e1325"/>فقد أمّنه، فإذا فتك به بعد ذلك كان خائنًا ناكثًا للعهد. وكان اليهود يسلمون على<lb change="#d2e120" xml:id="lb_470.d2e1328"/>النبي صلى الله عليه وسلم فيردّ عليهم السلام حتى كان من بعض سفهائهم تحريف<lb change="#d2e120" xml:id="lb_471.d2e1330"/>السلام بلفظ (السَّام) أي: الموت فكان النبي صلى الله عليه وسلم يحييهم بقوله:<lb change="#d2e120" xml:id="lb_472.d2e1332"/>(وعليكم) وسمعت عائشة واحدًا منهم يقول له: السَّام عليك. فقالت له: وعليك<lb change="#d2e120" xml:id="lb_473.d2e1334"/>السام واللعنة. فانتهرها عليه الصلاة والسلام مبينًا لها أن المسلم لا يكون فاحشًا ولا<lb change="#d2e120" xml:id="lb_474.d2e1336"/>سبّابًا، وأن الموت علينا وعليهم وروي عن بعض الصحابة كابن عباس أنهم كانوا<lb change="#d2e120" xml:id="lb_475.d2e1338"/>يقولون للذمّيّ: السلام عليك. وعن الشعبي من أئمة السلف أنه قال لنصرانيّ سلم<lb change="#d2e120" xml:id="lb_476.d2e1341"/>عليه: وعليك السلام ورحمة الله تعالى، فقيل له في ذلك فقال: (أليس في رحمة<lb change="#d2e120" xml:id="lb_477.d2e1343"/>الله يعيش) وفي حديث البخاري الأمر بالسلام على من تعرف ومن لا تعرف،<lb change="#d2e120" xml:id="lb_478.d2e1345"/>وروى ابن المنذر عن الحسن أنه قال: {فَحَيُّوا بِأَحْسَنَ مِنْهَا} (النساء: 86)<lb change="#d2e120" xml:id="lb_479.d2e1347"/>فَحَيُّوا بِأَحْسَنَ مِنْهَا للمسلمين، {أَوْ رُدُّوهَا} (النساء: 86) لأهل الكتاب.<lb change="#d2e120" xml:id="lb_480.d2e1349"/>وعليه يقال للكتابيّ في رد السلام عين ما يقوله وإن كان فيه ذكر الرحمة.<lb change="#d2e120" xml:id="lb_481.d2e1351"/>هذه لمعة مما روي عن السلف، ثم جاء الخلف فاختلفوا في السلام على غير<lb change="#d2e120" xml:id="lb_482.d2e1354"/>المسلم فقال كثيرون: إنهم لا يُبدأون بالسلام لحديث ورد في ذلك وحملوا ما روي<lb change="#d2e120" xml:id="lb_483.d2e1356"/>عن ابن عباس رضي الله تعالى عنهما على الحاجة، أي: لا يسلم عليهم ابتداءً إلا<lb change="#d2e120" xml:id="lb_484.d2e1358"/>لحاجة. وأما الرّد فقال بعض الفقهاء: إنه واجب كردّ سلام المسلم وقال بعضهم:<lb change="#d2e120" xml:id="lb_485.d2e1360"/>إنه سنة وفي الخانية من كتب الحنفية: ولو سلم يهودي أو نصراني أو مجوسي فلا<lb change="#d2e120" xml:id="lb_486.d2e1362"/>بأس بالردّ، وهذا يدل على أنه مباح عند هذا القائل لا واجب ولا مسنون مع أن<lb change="#d2e120" xml:id="lb_487.d2e1364"/>السنة وردت به في الصحيح، أما ما ورد من حق المسلم على المسلم فلا ينفي حق<lb change="#d2e120" xml:id="lb_488.d2e1367"/>غيره، فالسلام حق عام ويراد به أمران: مطلق التحية وتأمين من تسلّم عليه من<lb change="#d2e120" xml:id="lb_489.d2e1369"/>الغدر والإيذاء وكل ما يسيء. وقد روى الطبراني والبيهقي من حديث أبي أمامة:<lb change="#d2e120" xml:id="lb_490.d2e1371"/>(أن الله تعالى جعل السلام تحية لأمتنا وأمنًا لأهل ذمتنا) . وأكثر الأحاديث التي<lb change="#d2e120" xml:id="lb_491.d2e1373"/>وردت في السلام عامة وذكر في بعضها المسلم كما ذكر في بعضها غيره كحديث<lb change="#d2e120" xml:id="lb_492.d2e1375"/>الطبراني المذكور آنفًا.<lb change="#d2e120" xml:id="lb_493.d2e1377"/>أما جعل تحية الإسلام عامّة فعندي أن ذلك مطلوب وقد ورد في الأحاديث<lb change="#d2e120" xml:id="lb_494.d2e1380"/>الصحيحة أن اليهود كانوا يسلمون على المسلمين فيردون عليهم فكان من تحريفهم<lb change="#d2e120" xml:id="lb_495.d2e1382"/>ما كان سببًا لأمر النبي صلى الله تعالى عليه والسلام بأمر المسلمين أن يردوا عليهم<lb change="#d2e120" xml:id="lb_496.d2e1384"/>بلفظ (وعليكم) حتى لا يكونوا مخدوعين للمحرفين ومن مقتضى القواعد أن الشيء<lb change="#d2e120" xml:id="lb_497.d2e1386"/>يزول بزوال سببه. ولم يرد أن أحدًا من الصحابة نهى اليهود عن السلام؛ لأنهم لم<lb change="#d2e120" xml:id="lb_498.d2e1388"/>يكونوا ليحظروا على الناس آداب الإسلام ولكن خلف من بعدهم خَلْفُ أرادوا أن<lb change="#d2e120" xml:id="lb_499.d2e1390"/>يمنعوا غير المسلم من كل شيء يعمله المسلم حتى من النظر في القرآن وقراءة<lb change="#d2e120" xml:id="lb_500.d2e1393"/>الكتب المشتملة على آياته، وظنوا أن هذا تعظيم للدين، وصَونٌ له عن المخالفين،<lb change="#d2e120" xml:id="lb_501.d2e1395"/>وكلما زادوا بُعدًا عن حقيقية الإسلام زادوا إيغالاً في هذا الضرب من التعظيم،<lb change="#d2e120" xml:id="lb_502.d2e1397"/>وإنهم ليشاهدون النصارى في هذا العصر يجتهدون بنشر دينهم ويوزعون كثيرًا من<lb change="#d2e120" xml:id="lb_503.d2e1399"/>كتبه على الناس مجانًا، ويعلمون أولاد المخالفين لهم في مدارسهم ليقربوهم من<lb change="#d2e120" xml:id="lb_504.d2e1401"/>دينهم، ويجتهدون في تحويل الناس إلى عاداتهم وشعائرهم ليقربوا من دينهم حتى<lb change="#d2e120" xml:id="lb_505.d2e1403"/>إن الأوربيين فرحوا فرحًا شديدًا عندما وافقهم خديو مصر الأسبق على استبدال<lb change="#d2e120" xml:id="lb_506.d2e1406"/>التاريخ المسيحي بالتاريخ الهجري، وعدُّوا هذا من آيات الفتح. ونرى القوم الآن<lb change="#d2e120" xml:id="lb_507.d2e1408"/>يسعون في جعل يوم الأحد عيدًا أسبوعيًّا للمسلمين يشاركون فيه النصارى بالبطالة.<lb change="#d2e120" xml:id="lb_508.d2e1410"/>ومع هذا كله نرى المسلمين لا يزالون يحبون منع غيرهم من الأخذ بآدابهم<lb change="#d2e120" xml:id="lb_509.d2e1412"/>وعاداتهم ويزعمون أن هذا تعظيم للدين، وكأن هذا التعظيم لا نهاية له إلا حجب<lb change="#d2e120" xml:id="lb_510.d2e1414"/>هذا الدين عن العالمين، إن هذا لهو البلاء المبين، وسيرجعون عنه بعد حين. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_2.d2e1416"/>
+               
+حدوث العالم في نظر الإسلام والفلسفة
+(س1) المولى رضاء الدين أفندي قاضي القضاة وعضو الجمعية الإسلامية
+العامل في أوفا (الروسيا) : قد طال النزاع وقوي الجدال وكثر في هذه الأيام القيل
+والقال بين الناس في هذا القطر في مسألة حدوث العالم من جهتها الشرعية. فبعضهم
+يقول: إن الاعتقاد بالحدوث الزماني حسب ما قرره علماء الكلام من متأخري
+المسلمين فرض على العباد مثل الاعتقاد بوحدة الله تعالى وصدق رسوله وسائر
+الاعتقادات الواردة في القرآن الشريف. وبعضهم يخالفه ويقول: إن الاعتقاد
+بحدوث العالم حدوثًا زمنيًّا لا يكلف به الشرع ولا أخبر به النبي ولا نطق به القرآن
+الكريم بل هو من آراء أهل الكلام وبدعهم، أخذوه من فلاسفة اليونان ولقنوه العوام
+باسم الدين وما هو من الدين أصلاً. بل هو من باب التدين بالرأي. وإنما الواجب
+على المسلمين هو اعتقاد أن العالم مخلوق له تعالى من غير تعرض إلى حدوثه
+بالزمان أو بالذات.
+وهو الذي نطق القرآن به في عدة مواضع. وبالجملة، إن القول بالحدوث
+الذاتي أو الزماني إنما هو من مسائل الفلسفة لا تعلق له بالشريعة. ولما كانت
+<bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <tei:title level="j" change="#d2e207 #d5e212 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_6.d2e1152">المنار</tei:title></bibl> هي الجريدة الدينية الوحيدة، جئنا إلى حضرتكم نستسفر رَأْيَكُم في
+هذه المسألة ونَشْرَه أيضًا في أحد أعدادها ويكون هو - إن شاء الله تعالى - الفاصل
+بين الحق والباطل.
+(ج) إن الصواب في الرأي الثاني. وما كان لدين الفطرة مقرر الحنيفية
+السمحة الذي ظهر في الأميين ودعا إليه المتوحشين والممدنيين - أن يكلف كل
+فرد في تصحيح الإيمان بنظريات فلاسفة اليونان، والتمييز بين تلك الخلافات في
+الحدوث بالزمان والحدوث بالذات. ثم خلافات الفلاسفة مع أهل الكلام في أصل
+وجود الزمان. فالمتكلم يقول: إنه أمر اعتباري، والفيلسوف اليوناني يقول: إنه
+وجودي، وإنها لمعارك يحارب الباحث فيها غير عدوّ حتى إذا أعيا من مقارعة
+الدليل بالدليل، ونفض عنه عثير القال والقيل، رجع إلى أحد الأمرين: وقوف
+الحيرة أو دين الفطرة، المقصد الأول من مقاصد القرآن المبين، تقرير عقائد الدين،
+ثم هو لم ينطق بكلمة من مادة الحدوث للأعيان، لا بحسب الذات ولا بحسب
+الزمان، فللناظر أن يقول: إن اطّراد السنن الإلهية في العوالم العلوية والسفلية،
+ووحدة النظام مع الإتقان في جميع هذه الأكوان: يدلاّن على أن لها خالقًا عليمًا،
+قادرًا حكيمًا حيًّا قيومًا، لا رادّ لإرادته، ولا معقب لحكمه وحكمته، وأنه واحد
+لوحدة النظام المشهود في جميع الوجود، وبهذا يكون مؤمنًا بالبرهان، متبعًا طريق
+القرآن وإن لم يخطر بباله حدوث الذات وحدوث الزمان.
+أما مسألة حدوث العالم في نظر الفلسفة فالمتفق عليه عند فلاسفة العصر أن
+كل ما نراه ونحس به من هذه العوالم الأرضية والسماوية فهو حادث بمعنى أنه لم
+يكن كما هو الآن ثم كان، ولكن عضلة العقد عند المتقدمين والمتأخرين هي مسألة
+منشأ التكوين. وهم متفقون على أن الوجود المطلق قديم وأنَّ العدم المطلق لا حقيقة
+له ولا يتصوره العقل وأنه لا يحدث شيء من لا شيء. فالفلاسفة والمتفلسفون
+يحسبون أن هذه المسائل القطعية لا تنطبق على الأديان وإن سماوية، ونحن نقول:
+إنها هي التي جرى عليها القرآن وقررها الإسلام فليس في كتاب الله تعالى آية تدل
+على أن الوجود الحقيقي صدر عن العدم الخيالي، بل قال: {وَخَلَقَ كُلَّ شَيْءٍ فَقَدَّرَهُ
+تَقْدِيراً} (الفرقان: 2) والخلق لغة: الترتيب وهو لا يكون في العدم، بل قال:
+{أَوَ لَمْ يَرَ الَّذِينَ كَفَرُوا أَنَّ السَّمَوَاتِ وَالأَرْضَ كَانَتَا رَتْقاً فَفَتَقْنَاهُمَا} (الأنبياء:
+30) وقال: {ثُمَّ اسْتَوَى إِلَى السَّمَاءِ وَهِيَ دُخَانٌ فَقَالَ لَهَا وَلِلأَرْضِ ائْتِيَا طَوْعاً أَوْ
+كَرْهاً قَالَتَا أَتَيْنَا طَائِعِينَ} (فصلت: 11) وحلُّ المسألة بطريقة إسلامية أن هذا
+الوجود الذي نشاهده كله ممكن حادث، وأنه صدر عن وجود واجب قديم لا تعرف
+حقيقته ولا كيفية صدوره عنه، وإنما قام البرهان بأنه صدر بإرادة وقدرة وعلم
+وحكمة. وذلك ما ذكرناه من وحدة النظام والإحكام وإطراد النواميس والسنن.
+***
+دعوى كتابة النبي بالتركية
+(س2) ومنه: قال الفاضل المرجاني القزاني صاحب (ناظورة الحق) في
+رسالته (مستفاد الأخبار) : إن حديث أبي هريرة المذكور في أسد الغابة المطبوع
+بمصر <placeName change="#d2e120" xml:id="placeName_5.d2e1233">القاهرة</placeName> (ج4 ص140) وقع فيه عدة أغلاط وقت طبعه، والصواب ما في
+النسخة الخطية في زمان قريب من عصر المؤلف ابن الأثير رضي الله عنه. وهو
+هكذا: (وأن رسول الله صلى الله عليه وسلم كتب لعمير ومن معه كتابًا تركيًّا ذكره.
+فإن رواته نقلوه بألفاظ عربية، وبدلوها وصحفوها تركناها لذلك) . ولما لم يكن
+لدينا نسخة أخرى سوى المطبوعة المذكورة لنقابلها رجونا من حضرتكم مقابلة
+النسخة المطبوعة مع الأصول المصححة خدمة للعلم والدين، ثم بيانه إلينا لنكون
+على بصيرة من ذلك وأجركم على الله.
+ج ـ لم يكن التحريف والتبديل في النسخة المطبوعة وإنما كانا في رسالة
+الفاضل القزاني (مستفاد الأخبار) فإن ما كتبه عن النسخة الخطية هو عين ما في
+النسخة المطبوعة إلا أنه صَحَّفَ لفظ (تركنا ذكره) بقوله: (تركيًّا ذكره) ولفظ
+(غريبة) بلفظ (عربية) فكان التبديل والتحريف من هذا التصحيف، وسببه أن
+النسخة الخطية التي رآها غير منقوطة فأوقعت الفاضل فيما رأيت. وما كان لمثله
+أن يظن أن النبي صلى الله عليه وسلم يكتب لقوم من العرب كتابًا تُركيًّا، فإن جاز
+أن يعرف هو التركية من طريق المعجزة فمن أين لعمير وقومه بني أسلم علْم ذلك؟
+وما هو الداعي إلى مخاطبة العرب بلسان العجم؟ ثم ما كان لمثله أن يخفى عليه أن
+كلمة (ذكره) بعد كلمة (تركيا) لا معنى لها، ولكن معناها ظاهر إذا كانت
+الكلمة (تركنا) وهو أن المصنف ترك ذكر الحديث لوقوع التحريف فيه،
+وسبب التحريف وجود الألفاظ الغريبة التي لم يفهمهما رواته.
+أما عبارة الكتاب فهي كما في ترجمة عمير بن أقصى الأسلمي: روى أبو
+هريرة قال: قدم عمير بن أقصى في عصابة من أسلم فقالوا: يا رسول الله إنا من
+أرومة العرب نكافئ العدو بأسنة حداد، وأذرع شداد، ومن ناوأنا أوردناه السامة،
+وذكر حديثًا طويلاً في فضل الأنصار، وأن رسول الله صلى الله عليه وسلم كتب
+لعمير ومن معه كتابًا تركنا ذكره، فإن رواته نقلوه بألفاظ غريبة وبدلوها وصحفوها
+تركناها لذلك أخرجه أبو موسى. اهـ
+وقد قابلنا النسخة المطبوعة بنسخة خطية في مكتبة الحكومة
+المصرية كتبت في سنة 722 أي بعد وفاة ابن الأثير بأقل من قرن فألفيناها
+مطابقة لها.
+***
+السلام على غير المسلم
+(س3) الشيخ بسطويسي بركات بالمحلة الكبرى: قال الله تعالى: {وَإِذَا
+حُيِّيتُم بِتَحِيَّةٍ فَحَيُّوا بِأَحْسَنَ مِنْهَا أَوْ رُدُّوهَا} (النساء: 86) وقال تعالى: {وَلاَ
+تَقُولُوا لِمَنْ أَلْقَى إِلَيْكُمُ السَّلامَ لَسْتَ مُؤْمِناً} (النساء: 94) وقال: {يَا أَيُّهَا الَّذِينَ
+آمَنُوا لاَ تَدْخُلُوا بُيُوتاً غَيْرَ بُيُوتِكُمْ حَتَّى تَسْتَأْنِسُوا وَتُسَلِّمُوا عَلَى أَهْلِهَا} (النور:27)
+الآية. فهل هذا الإطلاق في الآيات الكريمة يشمل المسلمين وغيرهم من أهل
+الكتاب وغيرهم من بني آدم أم هو خاصّ بالمسلمين قيدت إطلاقه عليهم أحاديث
+صحيحة صريحة؟ وهل قوله صلى الله عليه وسلم فيما معناه: (إن من حق المسلم
+على المسلم إفشاء السلام) يعتبر من قيود الإطلاق لفهم البعض سقوط حق غير
+المسلم أم لا؟ وإذا قيل: إنه عام فهل ينبغي شيوعه بين الطوائف حتى يصير عادة
+مألوفة أم لا؟
+(ج) إن الإسلام دين عامٌّ ومن مقاصده نشر آدابه وفضائله في الناس ولو
+بالتدريج وجذب بعضهم إلى بعض ليكون البشر كلهم إخوة. ومن آداب الإسلام التي
+كانت فاشية في عهد النبوة إفشاء السلام إلا مع المحاربين؛ لأن من سلّم على أحد
+فقد أمّنه، فإذا فتك به بعد ذلك كان خائنًا ناكثًا للعهد. وكان اليهود يسلمون على
+النبي صلى الله عليه وسلم فيردّ عليهم السلام حتى كان من بعض سفهائهم تحريف
+السلام بلفظ (السَّام) أي: الموت فكان النبي صلى الله عليه وسلم يحييهم بقوله:
+(وعليكم) وسمعت عائشة واحدًا منهم يقول له: السَّام عليك. فقالت له: وعليك
+السام واللعنة. فانتهرها عليه الصلاة والسلام مبينًا لها أن المسلم لا يكون فاحشًا ولا
+سبّابًا، وأن الموت علينا وعليهم وروي عن بعض الصحابة كابن عباس أنهم كانوا
+يقولون للذمّيّ: السلام عليك. وعن الشعبي من أئمة السلف أنه قال لنصرانيّ سلم
+عليه: وعليك السلام ورحمة الله تعالى، فقيل له في ذلك فقال: (أليس في رحمة
+الله يعيش) وفي حديث البخاري الأمر بالسلام على من تعرف ومن لا تعرف،
+وروى ابن المنذر عن الحسن أنه قال: {فَحَيُّوا بِأَحْسَنَ مِنْهَا} (النساء: 86)
+فَحَيُّوا بِأَحْسَنَ مِنْهَا للمسلمين، {أَوْ رُدُّوهَا} (النساء: 86) لأهل الكتاب.
+وعليه يقال للكتابيّ في رد السلام عين ما يقوله وإن كان فيه ذكر الرحمة.
+هذه لمعة مما روي عن السلف، ثم جاء الخلف فاختلفوا في السلام على غير
+المسلم فقال كثيرون: إنهم لا يُبدأون بالسلام لحديث ورد في ذلك وحملوا ما روي
+عن ابن عباس رضي الله تعالى عنهما على الحاجة، أي: لا يسلم عليهم ابتداءً إلا
+لحاجة. وأما الرّد فقال بعض الفقهاء: إنه واجب كردّ سلام المسلم وقال بعضهم:
+إنه سنة وفي الخانية من كتب الحنفية: ولو سلم يهودي أو نصراني أو مجوسي فلا
+بأس بالردّ، وهذا يدل على أنه مباح عند هذا القائل لا واجب ولا مسنون مع أن
+السنة وردت به في الصحيح، أما ما ورد من حق المسلم على المسلم فلا ينفي حق
+غيره، فالسلام حق عام ويراد به أمران: مطلق التحية وتأمين من تسلّم عليه من
+الغدر والإيذاء وكل ما يسيء. وقد روى الطبراني والبيهقي من حديث أبي أمامة:
+(أن الله تعالى جعل السلام تحية لأمتنا وأمنًا لأهل ذمتنا) . وأكثر الأحاديث التي
+وردت في السلام عامة وذكر في بعضها المسلم كما ذكر في بعضها غيره كحديث
+الطبراني المذكور آنفًا.
+أما جعل تحية الإسلام عامّة فعندي أن ذلك مطلوب وقد ورد في الأحاديث
+الصحيحة أن اليهود كانوا يسلمون على المسلمين فيردون عليهم فكان من تحريفهم
+ما كان سببًا لأمر النبي صلى الله تعالى عليه والسلام بأمر المسلمين أن يردوا عليهم
+بلفظ (وعليكم) حتى لا يكونوا مخدوعين للمحرفين ومن مقتضى القواعد أن الشيء
+يزول بزوال سببه. ولم يرد أن أحدًا من الصحابة نهى اليهود عن السلام؛ لأنهم لم
+يكونوا ليحظروا على الناس آداب الإسلام ولكن خلف من بعدهم خَلْفُ أرادوا أن
+يمنعوا غير المسلم من كل شيء يعمله المسلم حتى من النظر في القرآن وقراءة
+الكتب المشتملة على آياته، وظنوا أن هذا تعظيم للدين، وصَونٌ له عن المخالفين،
+وكلما زادوا بُعدًا عن حقيقية الإسلام زادوا إيغالاً في هذا الضرب من التعظيم،
+وإنهم ليشاهدون النصارى في هذا العصر يجتهدون بنشر دينهم ويوزعون كثيرًا من
+كتبه على الناس مجانًا، ويعلمون أولاد المخالفين لهم في مدارسهم ليقربوهم من
+دينهم، ويجتهدون في تحويل الناس إلى عاداتهم وشعائرهم ليقربوا من دينهم حتى
+إن الأوربيين فرحوا فرحًا شديدًا عندما وافقهم خديو مصر الأسبق على استبدال
+التاريخ المسيحي بالتاريخ الهجري، وعدُّوا هذا من آيات الفتح. ونرى القوم الآن
+يسعون في جعل يوم الأحد عيدًا أسبوعيًّا للمسلمين يشاركون فيه النصارى بالبطالة.
+ومع هذا كله نرى المسلمين لا يزالون يحبون منع غيرهم من الأخذ بآدابهم
+وعاداتهم ويزعمون أن هذا تعظيم للدين، وكأن هذا التعظيم لا نهاية له إلا حجب
+هذا الدين عن العالمين، إن هذا لهو البلاء المبين، وسيرجعون عنه بعد حين. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_2.d2e1416"/>
             </tei:p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_2.d2e1418">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_4.d2e1420" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -95,8 +605,171 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_3.d2e1427">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_4.d2e1429">الأزهر والأزهريون، وفاضل هندي</head>
 <tei:p change="#d2e120" xml:id="p_2.d2e1432">
-               <lb change="#d2e120" xml:id="lb_511.d2e1434"/>
-               <lb change="#d2e120" xml:id="lb_512.d2e1436"/>(الرسالة الثانية مما وعد به الشيخ عبد العزيز العريشي الأزهري<lb change="#d2e120" xml:id="lb_513.d2e1438"/>والأولى نشرت في الجزء 10)<lb change="#d2e120" xml:id="lb_514.d2e1440"/>من <placeName change="#d2e120" xml:id="placeName_6.d2e1442">القاهرة</placeName> إلى حيدر أباد<lb change="#d2e120" xml:id="lb_515.d2e1446"/>إليك أيها الأخ، سلام صديق طبع قلبه على الإخلاص لك، وارتبط بأسباب<lb change="#d2e120" xml:id="lb_516.d2e1448"/>محبتك، وشكوى شوق قد برح بي برحًا، لا أستطيع له شرحًا. وبعد فقد ذكرت لك<lb change="#d2e120" xml:id="lb_517.d2e1450"/>في رسالتي السابقة طرقًا من نظام مدرسة الأزهر وطرق التعليم بها على وجه<lb change="#d2e120" xml:id="lb_518.d2e1452"/>الجملة، والآن أريد أن آتي لك بعبارة أوسع وتفصيل أشفى على كل ما رأيته من<lb change="#d2e120" xml:id="lb_519.d2e1454"/>نظام طلبتها وسلوكهم مناهج التحصيل مقتفيًا أثر الطالب في كل دور من أدوار<lb change="#d2e120" xml:id="lb_520.d2e1456"/>طلبه من إبان دخوله فيها حتى يترشح لنيل شهادتها مُبينًا لك قوته وما حصل عليه<lb change="#d2e120" xml:id="lb_521.d2e1459"/>في كل دور منها.<lb change="#d2e120" xml:id="lb_522.d2e1461"/>زرت أيها الأخ تلك المدرسة من تاريخ الرسالة الأولى حتى اليوم زورات<lb change="#d2e120" xml:id="lb_523.d2e1463"/>متعددة في أوقات مختلفة وقفت فيها على تلك الدروس وقفة العاشق الدنف على<lb change="#d2e120" xml:id="lb_524.d2e1465"/>الربع المحيل وهو يبكي لأناس عاهدوا الرحيل على أن لا يملُّوا الذميل.<lb change="#d2e120" xml:id="lb_525.d2e1467"/>فكانت نتيجة ذلك البحث الدقيق والتنقير المتواصل أن ظهر لي ما عليه تلك<lb change="#d2e120" xml:id="lb_526.d2e1469"/>المدرسة الواسعة الكثيرة العدد، ووقوفي على مواضع خللها وسوء نظامها على ما أنا<lb change="#d2e120" xml:id="lb_527.d2e1472"/>عليه من الغربة وبعد الدار. ورأيت أن أجعل كل موضوع رأسًا مستقلاً بنفسه أذكر<lb change="#d2e120" xml:id="lb_528.d2e1474"/>فيه كل ما استبان لي من النقد كما سيمر بك إن شاء الله.<lb change="#d2e120" xml:id="lb_529.d2e1476"/>انتظام الطلبة: وأول أمر رغبت في كشف سره وبيان سببه من أمور هذه<lb change="#d2e120" xml:id="lb_530.d2e1478"/>المدرسة هو سبب كثرة طلابها حتى بلغوا التسعة آلاف أو يزيدون، وأغلبهم من<lb change="#d2e120" xml:id="lb_531.d2e1480"/>المصريين كما قدمت لك في رسالتي السابقة فكان غاية ما وقفت عليه من ذلك ما<lb change="#d2e120" xml:id="lb_532.d2e1482"/>سمعته هناك من أخ ثقة خبير قال: لا يكاد يمر الإنسان ببلدة من البلدان المصرية<lb change="#d2e120" xml:id="lb_533.d2e1485"/>أو قرية من قراها حتى يرى مئات من شبان المصريين حلفاء المتربة وضيق ذات<lb change="#d2e120" xml:id="lb_534.d2e1487"/>اليد وهم يطاردون الجوع بالفأس والمحراث، وتمضية يومهم الطويل في الحقول<lb change="#d2e120" xml:id="lb_535.d2e1489"/>والمزارع والتعب والنصب تحت شمس تذيب بوهجها رأس الضب. ومن بينهم<lb change="#d2e120" xml:id="lb_536.d2e1491"/>أفراد لا يكاد يخلو منهم بلد من البلدان أو قرية من القرى معطلون عن كل عمل<lb change="#d2e120" xml:id="lb_537.d2e1493"/>يطلقون عليهم تارة لقب الفقهاء أو الوعاظ وطورًا اسم المأذونين، ترى الواحد منهم<lb change="#d2e120" xml:id="lb_538.d2e1495"/>في جبة وقباء وعمامة عجراء يأكل جميع ساعات نهاره إما متربعًا في بيته خاليًا من<lb change="#d2e120" xml:id="lb_539.d2e1498"/>كل عمل أو قاعدًا في إحدى الزوايا ينثر من فيه على بُسطاء أهل الفلاحة ما يسمونه<lb change="#d2e120" xml:id="lb_540.d2e1500"/>وعظًا وإرشادًا، وما هو إلا أقاصيص أو لغو في حكمها يدعو الناس به إلى حب<lb change="#d2e120" xml:id="lb_541.d2e1502"/>التواكل والبطالة حتى إذا أتى على آخر الدرس لبث مكانه منتظرًا ما تدر به أيدي<lb change="#d2e120" xml:id="lb_542.d2e1504"/>أولئك العملة المساكين الذين لم يحصلوا على الدرهم إلا طرادًا، ولم ينالوا اللقمة إلا<lb change="#d2e120" xml:id="lb_543.d2e1506"/>جهادًا، ومن ذلك يتألف لهؤلاء المعطلين عيشة لا تعب فيها ولا نصب فإذا رزق<lb change="#d2e120" xml:id="lb_544.d2e1508"/>الله أحد الفلاحين الفقراء ولدًا وقع بين نارين إما أن يدعه يشتغل بما يشتغل هو به<lb change="#d2e120" xml:id="lb_545.d2e1511"/>فيعيش عيشة البؤس والخصاصة، وإما أن يدفع به إلى الأزهر ويثابر على أن<lb change="#d2e120" xml:id="lb_546.d2e1513"/>يقسم له ما يناله من الأجر على أعماله حتى يمضي عليه عدد من السنين فيخرج<lb change="#d2e120" xml:id="lb_547.d2e1515"/>منه وقد ترشح لأنْ يأكل من أوساخ الناس ويعيش عالة على العباد متوسدًا الراحة<lb change="#d2e120" xml:id="lb_548.d2e1517"/>من عناء كل عمل.<lb change="#d2e120" xml:id="lb_549.d2e1519"/>فإذا ترجح عنده الأمر الثاني دفع به إلى الأزهر، وأخذ يجري<lb change="#d2e120" xml:id="lb_550.d2e1521"/>عليه من النفقة ما يقطعه من قوت يومه الضروري. لذلك لا تكاد تجد في المائة<lb change="#d2e120" xml:id="lb_551.d2e1524"/>واحدًا من الطلبة من البيوتات الشريفة التي يعمل أهلوها لمستقبل شريف كالقضاء<lb change="#d2e120" xml:id="lb_552.d2e1526"/>والإفتاء. فأنت إذا سرت في ساحة تلك المدرسة فإنما تشق أجسامًا تنبو عن<lb change="#d2e120" xml:id="lb_553.d2e1528"/>رؤيتها النفس وهم مختلفون متبعثرون ليس لهم نظام ولا ترتيب، ويغلب أن يكون<lb change="#d2e120" xml:id="lb_554.d2e1530"/>سن الطالب عند اندراجه في سلك الأزهريين ما بين الخامسة عشرة إلى الثلاثين،<lb change="#d2e120" xml:id="lb_555.d2e1532"/>وقد كان امتحان الدخول في هذه المدرسة بسيطًا قاصرًا على معرفة القراءة والكتابة،<lb change="#d2e120" xml:id="lb_556.d2e1534"/>أما اليوم فهم يشترطون مع ذلك حفظ جميع القرآن للكفيف ونصفه لغيره.<lb change="#d2e120" xml:id="lb_557.d2e1537"/>ولأجل أن أتمكن من أن أبين لك أدوار الطالب هناك وأوقفك على قوته في<lb change="#d2e120" xml:id="lb_558.d2e1539"/>كل دور منها أقسمها إلى ثلاثة أدوار؛ كل دور ثلاث سنوات فيكون المجموع اثنتي<lb change="#d2e120" xml:id="lb_559.d2e1541"/>عشرة سنة، وهي أقل مدة أمكن بعض الطلبة نيل الشهادة فيها.<lb change="#d2e120" xml:id="lb_560.d2e1543"/>الدور الأول: يتقدم الطالب للانتظام في الأزهر وهو في السن الذي قدمت لك<lb change="#d2e120" xml:id="lb_561.d2e1545"/>فإن كان من الفلاحين (وهو الأغلب) رأى نفسه قد انتقل طفرة من بين رعاء<lb change="#d2e120" xml:id="lb_562.d2e1547"/>الشاء، إلى حلقات المدرسين ومجالس العلماء، وإن كان من البيوتات الكبيرة والأسر<lb change="#d2e120" xml:id="lb_563.d2e1550"/>الخاصة (وقليل ما هم) انتقل المسكين وثبة في يوم واحد من نعيم العيش وحسن<lb change="#d2e120" xml:id="lb_564.d2e1552"/>الحال إلى عيش الشظف والخشونة، وبُدّل في ساعة واحدة برؤية أهله وهم على ما<lb change="#d2e120" xml:id="lb_565.d2e1554"/>عهد من النظافة وجمال الهندام رؤية أولئك الذين ذكرت لك. وسواء كان الطالب<lb change="#d2e120" xml:id="lb_566.d2e1556"/>من العامة أو من الخاصة فإنه يتساوى مع غيره في الطلب وطرق التحصيل.<lb change="#d2e120" xml:id="lb_567.d2e1558"/>يدخل الطالب تلك المدرسة وهو لا يدري كيف يحضر، ولا ماذا يقرأ، ولا على<lb change="#d2e120" xml:id="lb_568.d2e1560"/>من يتلقى دروسه، ولا على أي وجه يسير فيها، ولا ما هي الكتب تُشرى لذلك<lb change="#d2e120" xml:id="lb_569.d2e1563"/>الغرض من حيث لا ناظر له هناك ولا رقيب عليه يأمره بشراء كتاب معلوم<lb change="#d2e120" xml:id="lb_570.d2e1565"/>والاختلاف إلى درس مخصوص، بل يمكث هناك المسكين أيامًا يجول في أركان<lb change="#d2e120" xml:id="lb_571.d2e1567"/>الأزهر وهو على ما ذكرت من البساطة والسذاجة ويأخذ كل يوم في التطواف<lb change="#d2e120" xml:id="lb_572.d2e1569"/>بحلقات الدروس يتساءل من الطلبة المتقدمين عن كتاب يشتريه، ودرس ينتظم في<lb change="#d2e120" xml:id="lb_573.d2e1571"/>سلك طالبيه، حتى إذا تيسر له ذلك بعد الذي تقدم من الحيرة والتعب وضياع الوقت<lb change="#d2e120" xml:id="lb_574.d2e1573"/>وحضر أحد الدروس أخذ يقلب طرفه فيما بين يديه، ويحدد أذنيه لسماع ما يلقى<lb change="#d2e120" xml:id="lb_575.d2e1576"/>عليه، فلا ينظر إلا نقوشًا لا مَقْدِرَة له إلا على النطق بها دون أن يعقل لها أقل<lb change="#d2e120" xml:id="lb_576.d2e1578"/>معنى. ولا تقع في أذنه إلا ألفاظ هي أشبه بالرطانة منها بما يتكلم به الناس، فيظل<lb change="#d2e120" xml:id="lb_577.d2e1580"/>سنته الأولى وهو يروح إلى الدروس كما يغدو إليها خاليًا من الفائدة مجردًا من فهم<lb change="#d2e120" xml:id="lb_578.d2e1582"/>أي شيء مما يتلوه عليه معلمه، اللهم إلا أن يحفظ بعض كلمات مثل: ضرب زيد،<lb change="#d2e120" xml:id="lb_579.d2e1584"/>وقتل بَكر عَمرًا، وتأبَّط شرًّا، وقال رحمه الله تعالى، إلخ.. هذا مبلغ ما يصل<lb change="#d2e120" xml:id="lb_580.d2e1586"/>إليه الطالب من اختلافه إلى دروس النحو في سنته الأولى - وأريد قبل أن أسلك<lb change="#d2e120" xml:id="lb_581.d2e1589"/>بالكلام إلى دروس الفقه أن أقول: كنت أود أن أطلعك على جميع ما يشتغل به<lb change="#d2e120" xml:id="lb_582.d2e1591"/>الطالب من الكتب على المذاهب الأربعة إلا أني لا أرى في استقصائها كبير فائدة<lb change="#d2e120" xml:id="lb_583.d2e1593"/>بل الأحسن أن أفصل كتب مذهب واحد، واخترت أن يكون الحنفي لأنه الأشهر،<lb change="#d2e120" xml:id="lb_584.d2e1595"/>وإن لم يكن الأكثر، ثم أنت تقيس ما بقي من الكتب في المذاهب الأخرى عليه لما<lb change="#d2e120" xml:id="lb_585.d2e1597"/>بينهما من المشاكلة التامة في صناعة التأليف وأسلوب التحرير.<lb change="#d2e120" xml:id="lb_586.d2e1599"/>وما حصل عليه في سنته الأولى من النحو يحصل على ما يشاكله في الفقه،<lb change="#d2e120" xml:id="lb_587.d2e1602"/>وأول كتاب في النحو يسمونه الكفراوي وما يقابله من الفقه يُسَمَّى مراقي الفلاح.<lb change="#d2e120" xml:id="lb_588.d2e1604"/>أما الكفراوي فقد وضعه صاحبه شرحًا لمتن صغير اسمه الآجُرُّومِيَّة، مشوش<lb change="#d2e120" xml:id="lb_589.d2e1606"/>العبارة مختصرًا جدًّا.<lb change="#d2e120" xml:id="lb_590.d2e1608"/>وأما مراقي الفلاح فهو كتاب يقتصر من الفقه على العبادات فقط وهو على<lb change="#d2e120" xml:id="lb_591.d2e1610"/>ذلك مجلد ضخم سلك به مؤلفه مسلك الإسهاب والإطناب. على أنه على ما به من<lb change="#d2e120" xml:id="lb_592.d2e1612"/>التطويل يعد أحسن كتاب في الفقه هناك. وقصارى القول أن الطالب يقطع شهور<lb change="#d2e120" xml:id="lb_593.d2e1615"/>سنته الأولى كلها ولا يعلق بذهنه ما يستحق أن أذكره لك. وإنما هي كُليمات<lb change="#d2e120" xml:id="lb_594.d2e1617"/>يسمعها فتمر عليه مر الخيال الساري - ثم يدخل في سنته الثانية وهو على هذه<lb change="#d2e120" xml:id="lb_595.d2e1619"/>الحال فيأكل أيامها وهو بالحيرة والذهول لقصور ذهنه عن إدراك أيّ شيء مما<lb change="#d2e120" xml:id="lb_596.d2e1621"/>يسمع أو يقرأ. وكثيرًا ما يلحق الطالب أو أهله القنوط من النجاح فيخرج من هناك<lb change="#d2e120" xml:id="lb_597.d2e1623"/>ليحترف. ولا كتب يحضرها في سنته الثانية على الغالب إلا ما أمضى فيها سنته<lb change="#d2e120" xml:id="lb_598.d2e1625"/>الأولى وسيره فيها لا يتميز عن السنة الفائتة إلا بكونه وصل إلى أن يعرب جملاً<lb change="#d2e120" xml:id="lb_599.d2e1628"/>بسيطة معلومة حفظ إعرابها حفظًا على غير فهم ولا تفكر. ويعرف بعض أسماء<lb change="#d2e120" xml:id="lb_600.d2e1630"/>الأئمة وشيء من الاصطلاحات الفقهية في الفقه.<lb change="#d2e120" xml:id="lb_601.d2e1632"/>ثم يتدرج من هاتين السنتين إلى السنة الثالثة، وفي أولها يكون قد أثر في ذهنه<lb change="#d2e120" xml:id="lb_602.d2e1634"/>كثرة ما يرد عليه من تعقيد الجمل وتشويش العبارات تأثيرًا يحمله على الجلد والتصبر<lb change="#d2e120" xml:id="lb_603.d2e1636"/>على تلك الأساليب، وربما فهم إذ ذاك بعض الجمل بعد أن ينصب نفسه ويتعب فكره<lb change="#d2e120" xml:id="lb_604.d2e1638"/>كل التعب وينتقل حينئذ من الكفراوي إلى كتاب يسمونه (الشيخ خالد) وهو كتاب<lb change="#d2e120" xml:id="lb_605.d2e1641"/>أصغر في الحجم من الكفراوي وأسهل منه عبارة، ولكن يظهر أن سهولته لم ترُق<lb change="#d2e120" xml:id="lb_606.d2e1643"/>للأشياخ هناك فانبرى له بعضهم وعلق عليه حواشي من المفروض على الطالب<lb change="#d2e120" xml:id="lb_607.d2e1645"/>الأزهري أن يكد ذهنه في فهمها ولم أر - علم الله - كتابًا يكد الفكر ويتعب القارئ في<lb change="#d2e120" xml:id="lb_608.d2e1647"/>فهم عباراته المشوشة المضطربة مثل ذلك الكتاب. ويقابل هذا بكتاب من الفقه في<lb change="#d2e120" xml:id="lb_609.d2e1649"/>هذه السنة كتاب (الطائي) أخو تلك الحاشية في فساد العبارة وسماجتها وقبح<lb change="#d2e120" xml:id="lb_610.d2e1651"/>تحريرها ركب به مؤلفه أسلوبًا لم أر ما يشاكله في كل ما وقع لي من مؤلفات العرب<lb change="#d2e120" xml:id="lb_611.d2e1654"/>فهو يحذف ما يلزم إثباته ويكتب ما من حقه الحذف ويؤخر ما له التقديم، ويقدم ما<lb change="#d2e120" xml:id="lb_612.d2e1656"/>من شأنه التأخير.<lb change="#d2e120" xml:id="lb_613.d2e1658"/>وأعجل إليك قبل أن أرتقي إلى ذكر الكتب الفقهية الكبيرة ببيان أن هذا<lb change="#d2e120" xml:id="lb_614.d2e1660"/>الطالب الضعيف يفاجأ في هذه المدة بتلك الأبواب الطويلة المحشوة بالخلاف<lb change="#d2e120" xml:id="lb_615.d2e1662"/>وتضارب آراء الأئمة فيما لا يعود بأقل فائدة على التلميذ، ولا ينتظر أن تكون منه<lb change="#d2e120" xml:id="lb_616.d2e1664"/>فائدة لغيره مثل أبواب العتق والرق، إلخ. وهناك أبواب أخرى فتحها نافع ولكن<lb change="#d2e120" xml:id="lb_617.d2e1667"/>توسعتها ضارة؛ لأن مؤلفي تلك الكتب خرجوا بها عن دائرة التشريع إلى بيداء<lb change="#d2e120" xml:id="lb_618.d2e1669"/>واسعة من الخيال المحض فلا تكاد تنظر في باب من أبواب الطلاق مثلاً حتى ترى<lb change="#d2e120" xml:id="lb_619.d2e1671"/>الكثير من الصور الغريبة النائية عما يقصد الشرع في كتاب الله الحكيم وسنة نبيه<lb change="#d2e120" xml:id="lb_620.d2e1673"/>صلى الله عليه وسلم وما جرى عليه أصحابه وأئمة السلف في الصدر الأول من<lb change="#d2e120" xml:id="lb_621.d2e1675"/>الإسلام.<lb change="#d2e120" xml:id="lb_622.d2e1677"/>على ما قدمت ينتهي التلميذ من دوره الأول، ولو أتي بغلام سليم الفطرة إلى<lb change="#d2e120" xml:id="lb_623.d2e1680"/>معلم حكيم في التعليم وأخذ يملي عليه كل يوم قليلاً من النحو والفقه ويفهمه إياه حق<lb change="#d2e120" xml:id="lb_624.d2e1682"/>التفهيم لبلغ في ثلاثة شهور من التحصيل إلى أضعاف ما يبلغه طالب الأزهر في<lb change="#d2e120" xml:id="lb_625.d2e1684"/>ثلاث سنوات.<lb change="#d2e120" xml:id="lb_626.d2e1686"/>الدورالثاني: إذا خرج الطالب من هذا الدور وهو على ما مر بك وأخذ<lb change="#d2e120" xml:id="lb_627.d2e1688"/>يدخل في الدور الثاني كان أول شيء يبدأ به أن يضم إلى درسي النحو والفقه درسًا<lb change="#d2e120" xml:id="lb_628.d2e1690"/>أو درسين في التوحيد أو المنطق أو البلاغة أو العَرُوض، واختيار الطالب أي فن<lb change="#d2e120" xml:id="lb_629.d2e1693"/>من هذه الفنون أمر موكول إلى المصادفات التي تسوقه إلى أي فن منها، وكثير من<lb change="#d2e120" xml:id="lb_630.d2e1695"/>الطلبة لا يمد عينيه إلى تلك العلوم إلا بعد مضي ست سنوات، ولا أريد أن أذكر لك<lb change="#d2e120" xml:id="lb_631.d2e1697"/>الآن ما هي هذه الكتب وما يستفيده الطالب منها، بل أدع ذلك لفرصة أخرى وآتي<lb change="#d2e120" xml:id="lb_632.d2e1699"/>لك قبل ذلك على وصف ما يشغل به من الكتب في العلمين الأصليين عندهم الفقه<lb change="#d2e120" xml:id="lb_633.d2e1701"/>والنحو.<lb change="#d2e120" xml:id="lb_634.d2e1703"/>وأول كتاب يفتحون به السنة الرابعة في الفقه كتاب يقال له: (منلا مسكين)<lb change="#d2e120" xml:id="lb_635.d2e1706"/>يقضي فيه الطالب على الغالب سنتين، ومنلا مسكين هذا كسائر ما تقدم من<lb change="#d2e120" xml:id="lb_636.d2e1708"/>الكتب محشوّ بالخلافات على غير جدوى والتعمق في فروع تنقضي الأعمار، ولا<lb change="#d2e120" xml:id="lb_637.d2e1710"/>تقع، ولا يُحتاج إليها، غير أنه يمتاز عن تلك الكتب بالخطأ فيما يورده من تَقول<lb change="#d2e120" xml:id="lb_638.d2e1712"/>أئمة المذاهب الأخرى في معترض الرد عليهم وتزييف أقوالهم، وهو ما لا يكاد<lb change="#d2e120" xml:id="lb_639.d2e1714"/>يخلو منه كتاب أو باب من الأبواب. بعد أن يُتمم المسكين (منلا مسكين) يأخذ في<lb change="#d2e120" xml:id="lb_640.d2e1716"/>تلقي كتاب بعده يقال له: (العيني) ، وهو كتاب بلغ به صاحبه حد النهاية من<lb change="#d2e120" xml:id="lb_641.d2e1719"/>الخطأ والغلط والتمحل في تزييف مذهب الإمام الشافعي واختراع الصورة الفقهية،<lb change="#d2e120" xml:id="lb_642.d2e1721"/>ولا يكاد يأتي الطالب على آخره وفي صدره شيء من جوهر العلم، اللهم إلا تلك<lb change="#d2e120" xml:id="lb_643.d2e1723"/>الصور الذهنية والمسائل الخيالية والمماحكات اللفظية، وحفظ أسماء أغلب من<lb change="#d2e120" xml:id="lb_644.d2e1725"/>اشتغلوا بهذا الفن لكثرة ما يرد من أسمائهم في صدد الخلاف. وإن تعجب فعجب<lb change="#d2e120" xml:id="lb_645.d2e1727"/>بل ألف عجب اتفاق أكثر جماعة الأزهر وجل مشايخه على استحسان هذا الكتاب<lb change="#d2e120" xml:id="lb_646.d2e1729"/>وامتداح كل من حذا حذوه في صناعة التأليف. وعندي أن ذلك كافٍ لبيان ما هم<lb change="#d2e120" xml:id="lb_647.d2e1732"/>عليه من الذكاء والنيل، وما وصلوا إليه من العلم والفضل. ويشتغل الطالب فيما<lb change="#d2e120" xml:id="lb_648.d2e1734"/>يقابل ذلك من النحو في الدور الثاني بثلاثة كتب: الأزهرية والقطر والشذور، أما<lb change="#d2e120" xml:id="lb_649.d2e1736"/>الأزهرية فكتاب سهل العبارة اقتصر من النحو على المبادئ إلا أنه مبتلى كإخوانه<lb change="#d2e120" xml:id="lb_650.d2e1738"/>بحاشية شط فيها مؤلفها في أغلب المواضع عما هو بصدده. وأما كتابا القطر<lb change="#d2e120" xml:id="lb_651.d2e1740"/>والشذور فكلاهما درة متلألئة بين أطمار بالية ألفهما ابن هشام رحمه الله، غاية في<lb change="#d2e120" xml:id="lb_652.d2e1742"/>حسن العبارة وانسجام الأسلوب، لم يترك قاعدة يحتاج إليها الطالب إلا أتى عليها<lb change="#d2e120" xml:id="lb_653.d2e1745"/>في هذين الكتابين. ولو اقتصر الأزهريون على قراءتهما متنًا مجردًا من الحواشي<lb change="#d2e120" xml:id="lb_654.d2e1747"/>والتقارير لحصل الطالب منهما على الغرض المقصود من النحو. ولكن الأمر على<lb change="#d2e120" xml:id="lb_655.d2e1749"/>عكس ذلك فقد وضع بعض الأشياخ على كل كتاب حاشية لم يقع طرفي حتى اليوم<lb change="#d2e120" xml:id="lb_656.d2e1751"/>على عبارة أبرد ولا أسمج من عبارتها، وقد سلك بها طريق التعسف والتعقيد حتى<lb change="#d2e120" xml:id="lb_657.d2e1753"/>صارت سجفًا يحول بين الطالب وما توخى بيانه المؤلف رحمه الله. ومن غرائب<lb change="#d2e120" xml:id="lb_658.d2e1755"/>الاتفاق أن وقعت في يدي اليوم حاشية القطر فكانت أول جملة وقع طرفي عليها من<lb change="#d2e120" xml:id="lb_659.d2e1758"/>غير قصد ما كتبه صاحبها تعليقًا على بيت أورده المؤلف وهو:<lb change="#d2e120" xml:id="lb_660.d2e1760"/>ألا يا اسلمي يا دار ميّ على البِلى <gap resp="#org_MS" change="#d2e120" xml:id="gap_1.d2e1762"/> ولا زال منهلاً بجرعائك القطر<lb change="#d2e120" xml:id="lb_661.d2e1764"/>(قال المحشي) أَلا: حَرْفُ استفتاح، واسلمي: فعل أمر، وميّ: اسم امرأة،<lb change="#d2e120" xml:id="lb_662.d2e1766"/>والبلى مقصور مكسور، المراد به الاندراس والفناء. أي: اسلمي وإن كنت قد<lb change="#d2e120" xml:id="lb_663.d2e1768"/>بليت. ثم قال بعد كلام واعتراض على الشاعر: إنه لم يحترس لأن دوام المطر<lb change="#d2e120" xml:id="lb_664.d2e1771"/>يخرب الدار. وأجيب بأنه قدم الاحتراس في قوله اسلمي وبأن ما زال تقتضي<lb change="#d2e120" xml:id="lb_665.d2e1773"/>ملازمة الصفة للموصوف مذ كان قابلاً لها على حسب قابليتها، ثم قال وقد ضمن<lb change="#d2e120" xml:id="lb_666.d2e1775"/>بعضهم هذا البيت حيث قال:<lb change="#d2e120" xml:id="lb_667.d2e1777"/>إليك اشتياقي يا كنافة زائد <gap resp="#org_MS" change="#d2e120" xml:id="gap_2.d2e1779"/> فما لي غناء عنك كلا ولا صبر<lb change="#d2e120" xml:id="lb_668.d2e1781"/>فلا زلت أكلي كل يوم وليلة <gap resp="#org_MS" change="#d2e120" xml:id="gap_3.d2e1784"/> ولا زال منهلاًّ بجرعائك القطر<lb change="#d2e120" xml:id="lb_669.d2e1786"/>(والكنافة) أشهى الحلوى للمصريين. هذا ما يشتغل به الطالب هناك في<lb change="#d2e120" xml:id="lb_670.d2e1788"/>مدة ست سنوات من النحو والفقه، وأقسم أيها الأخ أني لم أر حتى ساعتي هذه ممن<lb change="#d2e120" xml:id="lb_671.d2e1790"/>بلغ السنة السادسة وحضر تلك الكتب في النحو من يحسن أن يكتب سطرًا واحدًا أو<lb change="#d2e120" xml:id="lb_672.d2e1792"/>يقرأ جملتين بغير لحن وغلط، وأريد أن أختم هذه الرسالة الآن مقتصرًا على ما<lb change="#d2e120" xml:id="lb_673.d2e1794"/>ذكرت، وفي الرسالة الآتية ترى البقية الباقية. والسلام عليكم ورحمة الله. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_3.d2e1797"/>
+               
+
+               
+(الرسالة الثانية مما وعد به الشيخ عبد العزيز العريشي الأزهري
+والأولى نشرت في الجزء 10)
+من <placeName change="#d2e120" xml:id="placeName_6.d2e1442">القاهرة</placeName> إلى حيدر أباد
+إليك أيها الأخ، سلام صديق طبع قلبه على الإخلاص لك، وارتبط بأسباب
+محبتك، وشكوى شوق قد برح بي برحًا، لا أستطيع له شرحًا. وبعد فقد ذكرت لك
+في رسالتي السابقة طرقًا من نظام مدرسة الأزهر وطرق التعليم بها على وجه
+الجملة، والآن أريد أن آتي لك بعبارة أوسع وتفصيل أشفى على كل ما رأيته من
+نظام طلبتها وسلوكهم مناهج التحصيل مقتفيًا أثر الطالب في كل دور من أدوار
+طلبه من إبان دخوله فيها حتى يترشح لنيل شهادتها مُبينًا لك قوته وما حصل عليه
+في كل دور منها.
+زرت أيها الأخ تلك المدرسة من تاريخ الرسالة الأولى حتى اليوم زورات
+متعددة في أوقات مختلفة وقفت فيها على تلك الدروس وقفة العاشق الدنف على
+الربع المحيل وهو يبكي لأناس عاهدوا الرحيل على أن لا يملُّوا الذميل.
+فكانت نتيجة ذلك البحث الدقيق والتنقير المتواصل أن ظهر لي ما عليه تلك
+المدرسة الواسعة الكثيرة العدد، ووقوفي على مواضع خللها وسوء نظامها على ما أنا
+عليه من الغربة وبعد الدار. ورأيت أن أجعل كل موضوع رأسًا مستقلاً بنفسه أذكر
+فيه كل ما استبان لي من النقد كما سيمر بك إن شاء الله.
+انتظام الطلبة: وأول أمر رغبت في كشف سره وبيان سببه من أمور هذه
+المدرسة هو سبب كثرة طلابها حتى بلغوا التسعة آلاف أو يزيدون، وأغلبهم من
+المصريين كما قدمت لك في رسالتي السابقة فكان غاية ما وقفت عليه من ذلك ما
+سمعته هناك من أخ ثقة خبير قال: لا يكاد يمر الإنسان ببلدة من البلدان المصرية
+أو قرية من قراها حتى يرى مئات من شبان المصريين حلفاء المتربة وضيق ذات
+اليد وهم يطاردون الجوع بالفأس والمحراث، وتمضية يومهم الطويل في الحقول
+والمزارع والتعب والنصب تحت شمس تذيب بوهجها رأس الضب. ومن بينهم
+أفراد لا يكاد يخلو منهم بلد من البلدان أو قرية من القرى معطلون عن كل عمل
+يطلقون عليهم تارة لقب الفقهاء أو الوعاظ وطورًا اسم المأذونين، ترى الواحد منهم
+في جبة وقباء وعمامة عجراء يأكل جميع ساعات نهاره إما متربعًا في بيته خاليًا من
+كل عمل أو قاعدًا في إحدى الزوايا ينثر من فيه على بُسطاء أهل الفلاحة ما يسمونه
+وعظًا وإرشادًا، وما هو إلا أقاصيص أو لغو في حكمها يدعو الناس به إلى حب
+التواكل والبطالة حتى إذا أتى على آخر الدرس لبث مكانه منتظرًا ما تدر به أيدي
+أولئك العملة المساكين الذين لم يحصلوا على الدرهم إلا طرادًا، ولم ينالوا اللقمة إلا
+جهادًا، ومن ذلك يتألف لهؤلاء المعطلين عيشة لا تعب فيها ولا نصب فإذا رزق
+الله أحد الفلاحين الفقراء ولدًا وقع بين نارين إما أن يدعه يشتغل بما يشتغل هو به
+فيعيش عيشة البؤس والخصاصة، وإما أن يدفع به إلى الأزهر ويثابر على أن
+يقسم له ما يناله من الأجر على أعماله حتى يمضي عليه عدد من السنين فيخرج
+منه وقد ترشح لأنْ يأكل من أوساخ الناس ويعيش عالة على العباد متوسدًا الراحة
+من عناء كل عمل.
+فإذا ترجح عنده الأمر الثاني دفع به إلى الأزهر، وأخذ يجري
+عليه من النفقة ما يقطعه من قوت يومه الضروري. لذلك لا تكاد تجد في المائة
+واحدًا من الطلبة من البيوتات الشريفة التي يعمل أهلوها لمستقبل شريف كالقضاء
+والإفتاء. فأنت إذا سرت في ساحة تلك المدرسة فإنما تشق أجسامًا تنبو عن
+رؤيتها النفس وهم مختلفون متبعثرون ليس لهم نظام ولا ترتيب، ويغلب أن يكون
+سن الطالب عند اندراجه في سلك الأزهريين ما بين الخامسة عشرة إلى الثلاثين،
+وقد كان امتحان الدخول في هذه المدرسة بسيطًا قاصرًا على معرفة القراءة والكتابة،
+أما اليوم فهم يشترطون مع ذلك حفظ جميع القرآن للكفيف ونصفه لغيره.
+ولأجل أن أتمكن من أن أبين لك أدوار الطالب هناك وأوقفك على قوته في
+كل دور منها أقسمها إلى ثلاثة أدوار؛ كل دور ثلاث سنوات فيكون المجموع اثنتي
+عشرة سنة، وهي أقل مدة أمكن بعض الطلبة نيل الشهادة فيها.
+الدور الأول: يتقدم الطالب للانتظام في الأزهر وهو في السن الذي قدمت لك
+فإن كان من الفلاحين (وهو الأغلب) رأى نفسه قد انتقل طفرة من بين رعاء
+الشاء، إلى حلقات المدرسين ومجالس العلماء، وإن كان من البيوتات الكبيرة والأسر
+الخاصة (وقليل ما هم) انتقل المسكين وثبة في يوم واحد من نعيم العيش وحسن
+الحال إلى عيش الشظف والخشونة، وبُدّل في ساعة واحدة برؤية أهله وهم على ما
+عهد من النظافة وجمال الهندام رؤية أولئك الذين ذكرت لك. وسواء كان الطالب
+من العامة أو من الخاصة فإنه يتساوى مع غيره في الطلب وطرق التحصيل.
+يدخل الطالب تلك المدرسة وهو لا يدري كيف يحضر، ولا ماذا يقرأ، ولا على
+من يتلقى دروسه، ولا على أي وجه يسير فيها، ولا ما هي الكتب تُشرى لذلك
+الغرض من حيث لا ناظر له هناك ولا رقيب عليه يأمره بشراء كتاب معلوم
+والاختلاف إلى درس مخصوص، بل يمكث هناك المسكين أيامًا يجول في أركان
+الأزهر وهو على ما ذكرت من البساطة والسذاجة ويأخذ كل يوم في التطواف
+بحلقات الدروس يتساءل من الطلبة المتقدمين عن كتاب يشتريه، ودرس ينتظم في
+سلك طالبيه، حتى إذا تيسر له ذلك بعد الذي تقدم من الحيرة والتعب وضياع الوقت
+وحضر أحد الدروس أخذ يقلب طرفه فيما بين يديه، ويحدد أذنيه لسماع ما يلقى
+عليه، فلا ينظر إلا نقوشًا لا مَقْدِرَة له إلا على النطق بها دون أن يعقل لها أقل
+معنى. ولا تقع في أذنه إلا ألفاظ هي أشبه بالرطانة منها بما يتكلم به الناس، فيظل
+سنته الأولى وهو يروح إلى الدروس كما يغدو إليها خاليًا من الفائدة مجردًا من فهم
+أي شيء مما يتلوه عليه معلمه، اللهم إلا أن يحفظ بعض كلمات مثل: ضرب زيد،
+وقتل بَكر عَمرًا، وتأبَّط شرًّا، وقال رحمه الله تعالى، إلخ.. هذا مبلغ ما يصل
+إليه الطالب من اختلافه إلى دروس النحو في سنته الأولى - وأريد قبل أن أسلك
+بالكلام إلى دروس الفقه أن أقول: كنت أود أن أطلعك على جميع ما يشتغل به
+الطالب من الكتب على المذاهب الأربعة إلا أني لا أرى في استقصائها كبير فائدة
+بل الأحسن أن أفصل كتب مذهب واحد، واخترت أن يكون الحنفي لأنه الأشهر،
+وإن لم يكن الأكثر، ثم أنت تقيس ما بقي من الكتب في المذاهب الأخرى عليه لما
+بينهما من المشاكلة التامة في صناعة التأليف وأسلوب التحرير.
+وما حصل عليه في سنته الأولى من النحو يحصل على ما يشاكله في الفقه،
+وأول كتاب في النحو يسمونه الكفراوي وما يقابله من الفقه يُسَمَّى مراقي الفلاح.
+أما الكفراوي فقد وضعه صاحبه شرحًا لمتن صغير اسمه الآجُرُّومِيَّة، مشوش
+العبارة مختصرًا جدًّا.
+وأما مراقي الفلاح فهو كتاب يقتصر من الفقه على العبادات فقط وهو على
+ذلك مجلد ضخم سلك به مؤلفه مسلك الإسهاب والإطناب. على أنه على ما به من
+التطويل يعد أحسن كتاب في الفقه هناك. وقصارى القول أن الطالب يقطع شهور
+سنته الأولى كلها ولا يعلق بذهنه ما يستحق أن أذكره لك. وإنما هي كُليمات
+يسمعها فتمر عليه مر الخيال الساري - ثم يدخل في سنته الثانية وهو على هذه
+الحال فيأكل أيامها وهو بالحيرة والذهول لقصور ذهنه عن إدراك أيّ شيء مما
+يسمع أو يقرأ. وكثيرًا ما يلحق الطالب أو أهله القنوط من النجاح فيخرج من هناك
+ليحترف. ولا كتب يحضرها في سنته الثانية على الغالب إلا ما أمضى فيها سنته
+الأولى وسيره فيها لا يتميز عن السنة الفائتة إلا بكونه وصل إلى أن يعرب جملاً
+بسيطة معلومة حفظ إعرابها حفظًا على غير فهم ولا تفكر. ويعرف بعض أسماء
+الأئمة وشيء من الاصطلاحات الفقهية في الفقه.
+ثم يتدرج من هاتين السنتين إلى السنة الثالثة، وفي أولها يكون قد أثر في ذهنه
+كثرة ما يرد عليه من تعقيد الجمل وتشويش العبارات تأثيرًا يحمله على الجلد والتصبر
+على تلك الأساليب، وربما فهم إذ ذاك بعض الجمل بعد أن ينصب نفسه ويتعب فكره
+كل التعب وينتقل حينئذ من الكفراوي إلى كتاب يسمونه (الشيخ خالد) وهو كتاب
+أصغر في الحجم من الكفراوي وأسهل منه عبارة، ولكن يظهر أن سهولته لم ترُق
+للأشياخ هناك فانبرى له بعضهم وعلق عليه حواشي من المفروض على الطالب
+الأزهري أن يكد ذهنه في فهمها ولم أر - علم الله - كتابًا يكد الفكر ويتعب القارئ في
+فهم عباراته المشوشة المضطربة مثل ذلك الكتاب. ويقابل هذا بكتاب من الفقه في
+هذه السنة كتاب (الطائي) أخو تلك الحاشية في فساد العبارة وسماجتها وقبح
+تحريرها ركب به مؤلفه أسلوبًا لم أر ما يشاكله في كل ما وقع لي من مؤلفات العرب
+فهو يحذف ما يلزم إثباته ويكتب ما من حقه الحذف ويؤخر ما له التقديم، ويقدم ما
+من شأنه التأخير.
+وأعجل إليك قبل أن أرتقي إلى ذكر الكتب الفقهية الكبيرة ببيان أن هذا
+الطالب الضعيف يفاجأ في هذه المدة بتلك الأبواب الطويلة المحشوة بالخلاف
+وتضارب آراء الأئمة فيما لا يعود بأقل فائدة على التلميذ، ولا ينتظر أن تكون منه
+فائدة لغيره مثل أبواب العتق والرق، إلخ. وهناك أبواب أخرى فتحها نافع ولكن
+توسعتها ضارة؛ لأن مؤلفي تلك الكتب خرجوا بها عن دائرة التشريع إلى بيداء
+واسعة من الخيال المحض فلا تكاد تنظر في باب من أبواب الطلاق مثلاً حتى ترى
+الكثير من الصور الغريبة النائية عما يقصد الشرع في كتاب الله الحكيم وسنة نبيه
+صلى الله عليه وسلم وما جرى عليه أصحابه وأئمة السلف في الصدر الأول من
+الإسلام.
+على ما قدمت ينتهي التلميذ من دوره الأول، ولو أتي بغلام سليم الفطرة إلى
+معلم حكيم في التعليم وأخذ يملي عليه كل يوم قليلاً من النحو والفقه ويفهمه إياه حق
+التفهيم لبلغ في ثلاثة شهور من التحصيل إلى أضعاف ما يبلغه طالب الأزهر في
+ثلاث سنوات.
+الدورالثاني: إذا خرج الطالب من هذا الدور وهو على ما مر بك وأخذ
+يدخل في الدور الثاني كان أول شيء يبدأ به أن يضم إلى درسي النحو والفقه درسًا
+أو درسين في التوحيد أو المنطق أو البلاغة أو العَرُوض، واختيار الطالب أي فن
+من هذه الفنون أمر موكول إلى المصادفات التي تسوقه إلى أي فن منها، وكثير من
+الطلبة لا يمد عينيه إلى تلك العلوم إلا بعد مضي ست سنوات، ولا أريد أن أذكر لك
+الآن ما هي هذه الكتب وما يستفيده الطالب منها، بل أدع ذلك لفرصة أخرى وآتي
+لك قبل ذلك على وصف ما يشغل به من الكتب في العلمين الأصليين عندهم الفقه
+والنحو.
+وأول كتاب يفتحون به السنة الرابعة في الفقه كتاب يقال له: (منلا مسكين)
+يقضي فيه الطالب على الغالب سنتين، ومنلا مسكين هذا كسائر ما تقدم من
+الكتب محشوّ بالخلافات على غير جدوى والتعمق في فروع تنقضي الأعمار، ولا
+تقع، ولا يُحتاج إليها، غير أنه يمتاز عن تلك الكتب بالخطأ فيما يورده من تَقول
+أئمة المذاهب الأخرى في معترض الرد عليهم وتزييف أقوالهم، وهو ما لا يكاد
+يخلو منه كتاب أو باب من الأبواب. بعد أن يُتمم المسكين (منلا مسكين) يأخذ في
+تلقي كتاب بعده يقال له: (العيني) ، وهو كتاب بلغ به صاحبه حد النهاية من
+الخطأ والغلط والتمحل في تزييف مذهب الإمام الشافعي واختراع الصورة الفقهية،
+ولا يكاد يأتي الطالب على آخره وفي صدره شيء من جوهر العلم، اللهم إلا تلك
+الصور الذهنية والمسائل الخيالية والمماحكات اللفظية، وحفظ أسماء أغلب من
+اشتغلوا بهذا الفن لكثرة ما يرد من أسمائهم في صدد الخلاف. وإن تعجب فعجب
+بل ألف عجب اتفاق أكثر جماعة الأزهر وجل مشايخه على استحسان هذا الكتاب
+وامتداح كل من حذا حذوه في صناعة التأليف. وعندي أن ذلك كافٍ لبيان ما هم
+عليه من الذكاء والنيل، وما وصلوا إليه من العلم والفضل. ويشتغل الطالب فيما
+يقابل ذلك من النحو في الدور الثاني بثلاثة كتب: الأزهرية والقطر والشذور، أما
+الأزهرية فكتاب سهل العبارة اقتصر من النحو على المبادئ إلا أنه مبتلى كإخوانه
+بحاشية شط فيها مؤلفها في أغلب المواضع عما هو بصدده. وأما كتابا القطر
+والشذور فكلاهما درة متلألئة بين أطمار بالية ألفهما ابن هشام رحمه الله، غاية في
+حسن العبارة وانسجام الأسلوب، لم يترك قاعدة يحتاج إليها الطالب إلا أتى عليها
+في هذين الكتابين. ولو اقتصر الأزهريون على قراءتهما متنًا مجردًا من الحواشي
+والتقارير لحصل الطالب منهما على الغرض المقصود من النحو. ولكن الأمر على
+عكس ذلك فقد وضع بعض الأشياخ على كل كتاب حاشية لم يقع طرفي حتى اليوم
+على عبارة أبرد ولا أسمج من عبارتها، وقد سلك بها طريق التعسف والتعقيد حتى
+صارت سجفًا يحول بين الطالب وما توخى بيانه المؤلف رحمه الله. ومن غرائب
+الاتفاق أن وقعت في يدي اليوم حاشية القطر فكانت أول جملة وقع طرفي عليها من
+غير قصد ما كتبه صاحبها تعليقًا على بيت أورده المؤلف وهو:
+ألا يا اسلمي يا دار ميّ على البِلى <gap resp="#org_MS" change="#d2e120" xml:id="gap_1.d2e1762"/> ولا زال منهلاً بجرعائك القطر
+(قال المحشي) أَلا: حَرْفُ استفتاح، واسلمي: فعل أمر، وميّ: اسم امرأة،
+والبلى مقصور مكسور، المراد به الاندراس والفناء. أي: اسلمي وإن كنت قد
+بليت. ثم قال بعد كلام واعتراض على الشاعر: إنه لم يحترس لأن دوام المطر
+يخرب الدار. وأجيب بأنه قدم الاحتراس في قوله اسلمي وبأن ما زال تقتضي
+ملازمة الصفة للموصوف مذ كان قابلاً لها على حسب قابليتها، ثم قال وقد ضمن
+بعضهم هذا البيت حيث قال:
+إليك اشتياقي يا كنافة زائد <gap resp="#org_MS" change="#d2e120" xml:id="gap_2.d2e1779"/> فما لي غناء عنك كلا ولا صبر
+فلا زلت أكلي كل يوم وليلة <gap resp="#org_MS" change="#d2e120" xml:id="gap_3.d2e1784"/> ولا زال منهلاًّ بجرعائك القطر
+(والكنافة) أشهى الحلوى للمصريين. هذا ما يشتغل به الطالب هناك في
+مدة ست سنوات من النحو والفقه، وأقسم أيها الأخ أني لم أر حتى ساعتي هذه ممن
+بلغ السنة السادسة وحضر تلك الكتب في النحو من يحسن أن يكتب سطرًا واحدًا أو
+يقرأ جملتين بغير لحن وغلط، وأريد أن أختم هذه الرسالة الآن مقتصرًا على ما
+ذكرت، وفي الرسالة الآتية ترى البقية الباقية. والسلام عليكم ورحمة الله. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_3.d2e1797"/>
             </tei:p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_3.d2e1799">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_5.d2e1801" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -110,8 +783,60 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_4.d2e1809">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_5.d2e1811">رسالة الكسائي في لحن العوام</head>
 <tei:p change="#d2e120" xml:id="p_2.d2e1814">
-               <lb change="#d2e120" xml:id="lb_674.d2e1816"/>
-               <lb change="#d2e120" xml:id="lb_675.d2e1818"/>ظفر بها الباحث الألماني (بركلمن) وطبعها في ألمانيا، وأهدى نسخة منها إلى<lb change="#d2e120" xml:id="lb_676.d2e1820"/>صديقنا أحمد زكي بك الكاتب الثاني لأسرار مجلس النظار، فرأينا أن ننشرها في<lb change="#d2e120" xml:id="lb_677.d2e1822"/>المنار لما فيها من الفائدة للكتاب والطلاب وهي:<lb change="#d2e120" xml:id="lb_678.d2e1824"/>بسم الله الرحمن الرحيم، وبه نستعين. اللهم صلّ على محمد وآله الطاهرين،<lb change="#d2e120" xml:id="lb_679.d2e1827"/>هذا كتاب ما تلحن فيه العوام مما وضعه عليّ بن حمزة الكسائي للرشيد هارون<lb change="#d2e120" xml:id="lb_680.d2e1829"/>ولا بد لأهل الفصاحة من معرفته.<lb change="#d2e120" xml:id="lb_681.d2e1831"/>تقول: حَرَصت بفلان فتح الراء. قال الله عز وجل: {وَمَا أَكْثَرُ النَّاسِ وَلَوْ<lb change="#d2e120" xml:id="lb_682.d2e1833"/>حَرَصْتَ بِمُؤْمِنِينَ} (يوسف: 103) . ولا تقول: تحرَص بفتح الراء. قال الله<lb change="#d2e120" xml:id="lb_683.d2e1835"/>تعالى: {إِن تَحْرِصْ عَلَى هُدَاهُمْ فَإِنَّ اللَّهَ لاَ يَهْدِي مَن يُضِلّ} (النحل: 37) .<lb change="#d2e120" xml:id="lb_684.d2e1837"/>وتقول: ما نقَمت منه إلا عجلته بفتح القاف، لا يقال غيره. قال الله عز وجل:<lb change="#d2e120" xml:id="lb_685.d2e1840"/>{وَمَا نَقَمُوا مِنْهُمْ إِلاَّ أَن يُؤْمِنُوا بِاللَّهِ} (البروج: 8) . وتقول: دعه حتى يَسْكُت<lb change="#d2e120" xml:id="lb_686.d2e1842"/>من غضبه بالتاء ولا يقال بالنون يَسْكُن [1] قال الله عز وجل: {وَلَمَّا سَكَتَ عَن<lb change="#d2e120" xml:id="lb_687.d2e1844"/>مُّوسَى الغَضَبُ} (الأعراف: 154) . وتقول: قد نَفِدَ المالُ والطعامُ بكسر الفاء<lb change="#d2e120" xml:id="lb_688.d2e1846"/>قال تعالى: {قُل لَّوْ كَانَ البَحْرُ مِدَادًا لِّكَلِمَاتِ رَبِّي لَنَفِدَ البَحْر} (الكهف: 109) .<lb change="#d2e120" xml:id="lb_689.d2e1848"/>وتقول: عجزت عن الشيء بفتح الجيم ومنه قوله تعالى ذِكْرُه: {أَعَجَزْتُ أَنْ<lb change="#d2e120" xml:id="lb_690.d2e1850"/>أَكُونَ مِثْلَ هَذَا الغُرَابِ} (المائدة: 31) وتقول: كسرت ظفُر زيد بضم الفاء<lb change="#d2e120" xml:id="lb_691.d2e1853"/>والظاء جميعا [2] قال الله تعالى: {وَعَلَى الَّذِينَ هَادُوا حَرَّمْنَا كُلَّ ذِي ظُفُرٍ} (الأنعام: 146) . وتقول: قد صرفت فلانًا وقد صرف وجهه بغير ألف. ولا يقال<lb change="#d2e120" xml:id="lb_692.d2e1855"/>أصرفت، قال الله عز وجل: {ثُمَّ انصَرَفُوا صَرَفَ اللَّهُ قُلُوبَهُم} (التوبة:<lb change="#d2e120" xml:id="lb_693.d2e1857"/>127) وتقول: قد أَصْرَفَت الكلبةُ: إذا طَلَبَت المُعاظَلَةَ. وتقول: قد استدّت البِطانة<lb change="#d2e120" xml:id="lb_694.d2e1859"/>بكسر الباء [3] قال الله جل ذكره: {يَا أَيُّهَا الَّذِينَ آمَنُوا لاَ تَتَّخِذُوا بِطَانَةً مِّن دُونِكُمْ} (آل عمران: 118) وتقول لنا على المضيّ إلى فلان [4] بتشديد الياء قال الله<lb change="#d2e120" xml:id="lb_695.d2e1861"/>تعالى: {فَمَا اسْتَطَاعُوا مُضِيًا وَلاَ يَرْجِعُونَ} (يس: 67) وتقول: شكرت لك<lb change="#d2e120" xml:id="lb_696.d2e1863"/>ونصحت لك ولا يقال: شكرتك ونصحتك. وقد نصح فلان لفلان وشكر له. هذا<lb change="#d2e120" xml:id="lb_697.d2e1866"/>كلام العرب قال الله تعالى: {وَاشْكُرُوا لِي وَلاَ تَكْفُرُونِ} (البقرة: 152) .<lb change="#d2e120" xml:id="lb_698.d2e1868"/>{وَلاَ يَنفَعُكُمْ نُصْحِي إِنْ أَرَدتُّ أَنْ أَنصَحَ لَكُمْ} (هود: 34) . وتقول عَسَيْتُ أن<lb change="#d2e120" xml:id="lb_699.d2e1870"/>أكلّم زيدًا بفتح السين قال الله عز وجل: {فَهَلْ عَسَيْتُمْ إِن تَوَلَّيْتُمْ أَن تُفْسِدُوا فِي<lb change="#d2e120" xml:id="lb_700.d2e1872"/>الأَرْض} (محمد: 22) . وتقول: قد أريتُ فلانًا موضع زيد، ولا يقال أوريته<lb change="#d2e120" xml:id="lb_701.d2e1874"/>فإنه خطأ. قال الله تعالى: {وَلَقَدْ أَرَيْنَاهُ آيَاتِنَا كُلَّهَا} (طه: 56) وقال أيضًا:<lb change="#d2e120" xml:id="lb_702.d2e1876"/>{رَبِّ أَرِنِي أَنظُرْ إِلَيْكَ} (الأعراف: 143) وتقول: قد أوريت النار إذا<lb change="#d2e120" xml:id="lb_703.d2e1879"/>أشعلتها بالواو. وقال تعالى: {أَفَرَأَيْتُمُ النَّارَ الَتِي تُورُونَ} (الواقعة: 71)<lb change="#d2e120" xml:id="lb_704.d2e1881"/>وقال عديّ بن زيد في شاهد ذلك:<lb change="#d2e120" xml:id="lb_705.d2e1883"/>وطُفَُّ حديثَ السُّوء بالصمت <gap resp="#org_MS" change="#d2e120" xml:id="gap_4.d2e1885"/> إنه متى تور نارًا للعتاب تَأجَّجَا [5]<lb change="#d2e120" xml:id="lb_706.d2e1887"/>ويقال: وقع القوم في صَعُودٍ وهبوط وحَدُورٍ مفتوحات الأوائل وكذلك السَّحُور<lb change="#d2e120" xml:id="lb_707.d2e1889"/>سحور الصائم [6] والفَطور أيضًا على مثال فَعُول قال الله عز وجل:<lb change="#d2e120" xml:id="lb_708.d2e1892"/>{سَأُرْهِقُهُ صَعُودًا} (المدثر: 17) وكذلك الرَّكوب. قال الله تعالى: {فَمِنْهَا<lb change="#d2e120" xml:id="lb_709.d2e1894"/>رَكُوبُهُم} (يس: 72) . وتقول شُدَّ ثوبَك وشُدَّ عليه بضم الشين قال تعالى:<lb change="#d2e120" xml:id="lb_710.d2e1896"/>{فَشُدُّوا الوَثَاقَ} (محمد: 4) وتقول: ذَرْهُ ودَعْه وذَرِ الأَمْر ولا يقال: وَذرْتُه ولا<lb change="#d2e120" xml:id="lb_711.d2e1898"/>ودَعْته قال الله: {ذَرْهُمْ يَأْكُلُوا وَيَتَمَتَّعُوا} (الحجر: 3) ولا يقال منه فعلته ولكن<lb change="#d2e120" xml:id="lb_712.d2e1900"/>تركته. وتقول: جَهدت به كل الجُهد، والجيم الأولى مفتوحة والثانية مضمومة.<lb change="#d2e120" xml:id="lb_713.d2e1902"/>قال الله: {وَالَّذِينَ لاَ يَجِدُونَ إِلاَّ جُهْدَهُمْ} (التوبة: 79) وتقول: دمَعت عيني<lb change="#d2e120" xml:id="lb_714.d2e1905"/>بفتح الميم، وبخصت عينه بالصاد، ولا يقال: بخست بالسين [7] إنما البخس<lb change="#d2e120" xml:id="lb_715.d2e1907"/>والنقص أن تنقص الرجل حقه. وتقول: وَدِدْتُ أني في منزلي بكسر الدال.<lb change="#d2e120" xml:id="lb_716.d2e1909"/>الأولى قال بعض الأعراب:<lb change="#d2e120" xml:id="lb_717.d2e1911"/>أُحبُّ بُنَيَّتي وودِدت أني <gap resp="#org_MS" change="#d2e120" xml:id="gap_5.d2e1913"/> حفرت لها برابية قَبيرا [8] <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_4.d2e1915">(*) وطف بكسر الطاء وضمها، وكسر الفاء وضمها وفتحها مع تشديدها.<lb change="#d2e120" xml:id="lb_718.d2e1917"/>(1) لم نر من عدّي سكت الغضب بمن ولم يستشهد له وإنما الشاهد في الآية معدَّى بعن وقد فسر (سكت) الزَّجَّاج وغيره بسكن وقيل إن الكلام على القلب أي سكت موسى عن الغضب وذكر الزمخشري الحرف في مجاز الأساس فقال: (وسكت عنه الغضب والحزن وكل ما له أثر ناطق) ففهم وجه الجوّز وقال السكاكي إنه استعارة تبعية وقرأ معاوية بن قرة في الشواذ (سكن) بالنون فهو ليس خطأ.<lb change="#d2e120" xml:id="lb_719.d2e1919"/>(2) هذه هي اللغة الفصحى ويقال ظفر بضم الظاء وكسرها مع سكون الفاء.<lb change="#d2e120" xml:id="lb_720.d2e1921"/>(3) في اللسان السّدد القصد في القول والوَفق والإصابة وقد تسدّدله واستدّ وبطانة الإنسان خاصته الذين يفضي اليهم بأسراره مأخوذ من بطانة الثوب.<lb change="#d2e120" xml:id="lb_721.d2e1923"/>(4) الجملة غير ظاهرة ولعلها في الأصل استفهام.<lb change="#d2e120" xml:id="lb_722.d2e1925"/>(5) كذا ضبط (طف) في الأصل والمعنى يقتضي أنه من المهموز والمعروف أطفأ النار ثم رأيت اللسان والتاج روياء (وأطف) وتأججا أصله تتأجج مجزوم وحذف التاء قياس.<lb change="#d2e120" xml:id="lb_723.d2e1928"/>(6) السحور ما يؤكل، وبالضم فعل الأكل وقت السحر ومثله الفطور.<lb change="#d2e120" xml:id="lb_724.d2e1930"/>(7) أنكر البخس بمعنى الفقء الأزهري والمصنف وأثبته الأصمعي وقال: إنه لغة كالبخز.<lb change="#d2e120" xml:id="lb_725.d2e1932"/>(8) كذا ضبطها الطابع ولا يصح ولعلها تصغير قبر وفي هامش النسخة المطبوعة لفظ (حَفِيرًا) وهو بمعنى القبر.</note>
+               
+
+               
+ظفر بها الباحث الألماني (بركلمن) وطبعها في ألمانيا، وأهدى نسخة منها إلى
+صديقنا أحمد زكي بك الكاتب الثاني لأسرار مجلس النظار، فرأينا أن ننشرها في
+المنار لما فيها من الفائدة للكتاب والطلاب وهي:
+بسم الله الرحمن الرحيم، وبه نستعين. اللهم صلّ على محمد وآله الطاهرين،
+هذا كتاب ما تلحن فيه العوام مما وضعه عليّ بن حمزة الكسائي للرشيد هارون
+ولا بد لأهل الفصاحة من معرفته.
+تقول: حَرَصت بفلان فتح الراء. قال الله عز وجل: {وَمَا أَكْثَرُ النَّاسِ وَلَوْ
+حَرَصْتَ بِمُؤْمِنِينَ} (يوسف: 103) . ولا تقول: تحرَص بفتح الراء. قال الله
+تعالى: {إِن تَحْرِصْ عَلَى هُدَاهُمْ فَإِنَّ اللَّهَ لاَ يَهْدِي مَن يُضِلّ} (النحل: 37) .
+وتقول: ما نقَمت منه إلا عجلته بفتح القاف، لا يقال غيره. قال الله عز وجل:
+{وَمَا نَقَمُوا مِنْهُمْ إِلاَّ أَن يُؤْمِنُوا بِاللَّهِ} (البروج: 8) . وتقول: دعه حتى يَسْكُت
+من غضبه بالتاء ولا يقال بالنون يَسْكُن [1] قال الله عز وجل: {وَلَمَّا سَكَتَ عَن
+مُّوسَى الغَضَبُ} (الأعراف: 154) . وتقول: قد نَفِدَ المالُ والطعامُ بكسر الفاء
+قال تعالى: {قُل لَّوْ كَانَ البَحْرُ مِدَادًا لِّكَلِمَاتِ رَبِّي لَنَفِدَ البَحْر} (الكهف: 109) .
+وتقول: عجزت عن الشيء بفتح الجيم ومنه قوله تعالى ذِكْرُه: {أَعَجَزْتُ أَنْ
+أَكُونَ مِثْلَ هَذَا الغُرَابِ} (المائدة: 31) وتقول: كسرت ظفُر زيد بضم الفاء
+والظاء جميعا [2] قال الله تعالى: {وَعَلَى الَّذِينَ هَادُوا حَرَّمْنَا كُلَّ ذِي ظُفُرٍ} (الأنعام: 146) . وتقول: قد صرفت فلانًا وقد صرف وجهه بغير ألف. ولا يقال
+أصرفت، قال الله عز وجل: {ثُمَّ انصَرَفُوا صَرَفَ اللَّهُ قُلُوبَهُم} (التوبة:
+127) وتقول: قد أَصْرَفَت الكلبةُ: إذا طَلَبَت المُعاظَلَةَ. وتقول: قد استدّت البِطانة
+بكسر الباء [3] قال الله جل ذكره: {يَا أَيُّهَا الَّذِينَ آمَنُوا لاَ تَتَّخِذُوا بِطَانَةً مِّن دُونِكُمْ} (آل عمران: 118) وتقول لنا على المضيّ إلى فلان [4] بتشديد الياء قال الله
+تعالى: {فَمَا اسْتَطَاعُوا مُضِيًا وَلاَ يَرْجِعُونَ} (يس: 67) وتقول: شكرت لك
+ونصحت لك ولا يقال: شكرتك ونصحتك. وقد نصح فلان لفلان وشكر له. هذا
+كلام العرب قال الله تعالى: {وَاشْكُرُوا لِي وَلاَ تَكْفُرُونِ} (البقرة: 152) .
+{وَلاَ يَنفَعُكُمْ نُصْحِي إِنْ أَرَدتُّ أَنْ أَنصَحَ لَكُمْ} (هود: 34) . وتقول عَسَيْتُ أن
+أكلّم زيدًا بفتح السين قال الله عز وجل: {فَهَلْ عَسَيْتُمْ إِن تَوَلَّيْتُمْ أَن تُفْسِدُوا فِي
+الأَرْض} (محمد: 22) . وتقول: قد أريتُ فلانًا موضع زيد، ولا يقال أوريته
+فإنه خطأ. قال الله تعالى: {وَلَقَدْ أَرَيْنَاهُ آيَاتِنَا كُلَّهَا} (طه: 56) وقال أيضًا:
+{رَبِّ أَرِنِي أَنظُرْ إِلَيْكَ} (الأعراف: 143) وتقول: قد أوريت النار إذا
+أشعلتها بالواو. وقال تعالى: {أَفَرَأَيْتُمُ النَّارَ الَتِي تُورُونَ} (الواقعة: 71)
+وقال عديّ بن زيد في شاهد ذلك:
+وطُفَُّ حديثَ السُّوء بالصمت <gap resp="#org_MS" change="#d2e120" xml:id="gap_4.d2e1885"/> إنه متى تور نارًا للعتاب تَأجَّجَا [5]
+ويقال: وقع القوم في صَعُودٍ وهبوط وحَدُورٍ مفتوحات الأوائل وكذلك السَّحُور
+سحور الصائم [6] والفَطور أيضًا على مثال فَعُول قال الله عز وجل:
+{سَأُرْهِقُهُ صَعُودًا} (المدثر: 17) وكذلك الرَّكوب. قال الله تعالى: {فَمِنْهَا
+رَكُوبُهُم} (يس: 72) . وتقول شُدَّ ثوبَك وشُدَّ عليه بضم الشين قال تعالى:
+{فَشُدُّوا الوَثَاقَ} (محمد: 4) وتقول: ذَرْهُ ودَعْه وذَرِ الأَمْر ولا يقال: وَذرْتُه ولا
+ودَعْته قال الله: {ذَرْهُمْ يَأْكُلُوا وَيَتَمَتَّعُوا} (الحجر: 3) ولا يقال منه فعلته ولكن
+تركته. وتقول: جَهدت به كل الجُهد، والجيم الأولى مفتوحة والثانية مضمومة.
+قال الله: {وَالَّذِينَ لاَ يَجِدُونَ إِلاَّ جُهْدَهُمْ} (التوبة: 79) وتقول: دمَعت عيني
+بفتح الميم، وبخصت عينه بالصاد، ولا يقال: بخست بالسين [7] إنما البخس
+والنقص أن تنقص الرجل حقه. وتقول: وَدِدْتُ أني في منزلي بكسر الدال.
+الأولى قال بعض الأعراب:
+أُحبُّ بُنَيَّتي وودِدت أني <gap resp="#org_MS" change="#d2e120" xml:id="gap_5.d2e1913"/> حفرت لها برابية قَبيرا [8] <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_4.d2e1915">(*) وطف بكسر الطاء وضمها، وكسر الفاء وضمها وفتحها مع تشديدها.
+(1) لم نر من عدّي سكت الغضب بمن ولم يستشهد له وإنما الشاهد في الآية معدَّى بعن وقد فسر (سكت) الزَّجَّاج وغيره بسكن وقيل إن الكلام على القلب أي سكت موسى عن الغضب وذكر الزمخشري الحرف في مجاز الأساس فقال: (وسكت عنه الغضب والحزن وكل ما له أثر ناطق) ففهم وجه الجوّز وقال السكاكي إنه استعارة تبعية وقرأ معاوية بن قرة في الشواذ (سكن) بالنون فهو ليس خطأ.
+(2) هذه هي اللغة الفصحى ويقال ظفر بضم الظاء وكسرها مع سكون الفاء.
+(3) في اللسان السّدد القصد في القول والوَفق والإصابة وقد تسدّدله واستدّ وبطانة الإنسان خاصته الذين يفضي اليهم بأسراره مأخوذ من بطانة الثوب.
+(4) الجملة غير ظاهرة ولعلها في الأصل استفهام.
+(5) كذا ضبط (طف) في الأصل والمعنى يقتضي أنه من المهموز والمعروف أطفأ النار ثم رأيت اللسان والتاج روياء (وأطف) وتأججا أصله تتأجج مجزوم وحذف التاء قياس.
+(6) السحور ما يؤكل، وبالضم فعل الأكل وقت السحر ومثله الفطور.
+(7) أنكر البخس بمعنى الفقء الأزهري والمصنف وأثبته الأصمعي وقال: إنه لغة كالبخز.
+(8) كذا ضبطها الطابع ولا يصح ولعلها تصغير قبر وفي هامش النسخة المطبوعة لفظ (حَفِيرًا) وهو بمعنى القبر.</note>
             </tei:p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_4.d2e1935">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_6.d2e1937" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -125,8 +850,123 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_5.d2e1944">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_6.d2e1946">الهدايا والتقاريظ</head>
 <tei:p change="#d2e120" xml:id="p_2.d2e1949">
-               <lb change="#d2e120" xml:id="lb_726.d2e1951"/>
-               <lb change="#d2e120" xml:id="lb_727.d2e1953"/>(الصراط المستقيم)<lb change="#d2e120" xml:id="lb_728.d2e1955"/>كثرت شكوى الباحثين في الإصلاح - ورأسه إصلاح التربية والتعليم - من<lb change="#d2e120" xml:id="lb_729.d2e1957"/>كتب القرون المتوسطة وما بعدها وَوُعُوَرة مسالكها وصعوبة أسلوبها وعدم موافقتها<lb change="#d2e120" xml:id="lb_730.d2e1959"/>للتعليم فقيّض الله تعالى لهم من أنفسهم من يسعى في إحياء كتب السلف ليستعان بها<lb change="#d2e120" xml:id="lb_731.d2e1962"/>على إحياء اللغة والدين. ومن يشتغل بتأليف كتب جديدة يستعان بها على التربية<lb change="#d2e120" xml:id="lb_732.d2e1964"/>والتعليم. فبينا جمعية إحياء العلوم العربية تشتغل بطبع (المخصص) وتسعى<lb change="#d2e120" xml:id="lb_733.d2e1966"/>باستنساخ مدونة الإمام مالك وكتاب الأم للإمام الشافعي لتطبعهما، ومنشئ هذه المجلة<lb change="#d2e120" xml:id="lb_734.d2e1968"/>يشتغل بطبع (دلائل الإعجاز) بعد طبع (أسرار البلاغة) إذا بالشيخ أحمد زناتي<lb change="#d2e120" xml:id="lb_735.d2e1970"/>ناظر مدرسة القبة الخديوية وأستاذ العربية والدين فيها يؤلف الكتب القريبة التناول<lb change="#d2e120" xml:id="lb_736.d2e1972"/>في التعليم، القوية التأثير في علم الدين.<lb change="#d2e120" xml:id="lb_737.d2e1975"/>وأكبر مؤلفاته نفعًا، وأحسنها صنعًا، كتاب في علم الدين سماه الصراط<lb change="#d2e120" xml:id="lb_738.d2e1977"/>المستقيم، وقد جعله ثلاثة أقسام: قسم في العقائد وقسم في العبادات وقسم في الآداب<lb change="#d2e120" xml:id="lb_739.d2e1979"/>وفي كل قسم فصول في الواجبات الاعتقادية والعملية والأدبية. يبتدئ الفصلَ<lb change="#d2e120" xml:id="lb_740.d2e1981"/>بالآيات الكريمة الواردة في الواجب الذي يتكلم عنه فيه ثم يأخذ الحكم مما تهدي إليه<lb change="#d2e120" xml:id="lb_741.d2e1983"/>مع بيان معناها. فهكذا يجب أن تكون كتب الدين لتطمئن بها القلوب، وتؤثر في<lb change="#d2e120" xml:id="lb_742.d2e1985"/>النفوس. وقد التزم في الكتاب بيان أسرار العبادات والآداب الدينية، ومنافعها<lb change="#d2e120" xml:id="lb_743.d2e1988"/>الدنيوية والأخروية، وبعد فراغ المؤلف من كتابه عرضه على الأمير العباس - أيده<lb change="#d2e120" xml:id="lb_744.d2e1990"/>الله تعالى - فسُرّ به وأمر بأن يطبع على نفقة الخاصة الخديوية، فطبع في المطبعة<lb change="#d2e120" xml:id="lb_745.d2e1992"/>الأميرية طبعًا متقنًا على ورق جيد، وجعل في جانب كل صفحة منه جدولين يذكر<lb change="#d2e120" xml:id="lb_746.d2e1994"/>في أحدهما بإزاء الآيات القرآنية التي افتتحت بها الفصولُ اسم السورة وفي الثاني<lb change="#d2e120" xml:id="lb_747.d2e1996"/>عدد الآية، ولو كان هذا البيان عامَّا لجميع الآيات القرآنية في الكتاب لكان النفع أتم.<lb change="#d2e120" xml:id="lb_748.d2e1998"/>وصفحات الكتاب 400 وثمنه 12 قرشًا صحيحًا.<lb change="#d2e120" xml:id="lb_749.d2e2001"/>* * *<lb change="#d2e120" xml:id="lb_750.d2e2003"/>(الهداية إلى الصراط المستقيم)<lb change="#d2e120" xml:id="lb_751.d2e2005"/>اختصر المؤلف كتاب الصراط المستقيم بكتاب سماه بهذا الاسم، وهو مثل<lb change="#d2e120" xml:id="lb_752.d2e2007"/>الأول في ترتيبه وأسلوبه إلا أن حجمه نصف حجمه، والغرض من الاختصار أن<lb change="#d2e120" xml:id="lb_753.d2e2009"/>يكون المختصر كتاب تعليم يرتقي منه التلميذ إلى المطول، ويهتدي بتلقي هذا دراسةً<lb change="#d2e120" xml:id="lb_754.d2e2011"/>إلى فهم ذاك بنفسه. وقد طبع الكتاب الثاني على نفقته الخاصة أيضًا وفق الله مولانا<lb change="#d2e120" xml:id="lb_755.d2e2014"/>الأمير إلى ما فيه إحياء العلم والدين. وثمنه ثمانية قروش صحيحة، فَنَحُثُّ كل<lb change="#d2e120" xml:id="lb_756.d2e2016"/>من يطلب فهم الدين على مطالعة الكتابين.<lb change="#d2e120" xml:id="lb_757.d2e2018"/>* * *<lb change="#d2e120" xml:id="lb_758.d2e2020"/>(حجج القرآن)<lb change="#d2e120" xml:id="lb_759.d2e2022"/>كتاب من أجل ما كتب علماء الإسلام في خدمة الدين للإمام أبي الفضائل أحمد<lb change="#d2e120" xml:id="lb_760.d2e2024"/>ابن محمد بن المظفر بن المختار الرازي جمع فيه الآيات القرآنية التي تحتج بها<lb change="#d2e120" xml:id="lb_761.d2e2027"/>الفرق المفترقة من الإسلام في المسائل المختلف فيها بينهم ليعلم الناظر في<lb change="#d2e120" xml:id="lb_762.d2e2029"/>الحجج مجتمعة لديه. ممثلة أمام عينيه، أيها أحق بالقبول. وأدل على المدلول،<lb change="#d2e120" xml:id="lb_763.d2e2031"/>وقد ذكر في فاتحته أن أصل الفِرَقِ ثمانٍ: الجبرية وفي مقابلتها القدرية، والمرجئة<lb change="#d2e120" xml:id="lb_764.d2e2033"/>وفي مقابلتها الوعيدية، والصفاتية وفي مقابلتها الجهمية، والشيعة وفي<lb change="#d2e120" xml:id="lb_765.d2e2035"/>مقابلتها الخوارج. قال: (ومن هذه الفرق الثمان تشعبت الفرق الثلاث<lb change="#d2e120" xml:id="lb_766.d2e2037"/>والسبعون) أي التي ورد بشأنها الحديث المشهور. وأبواب الكتاب ثلاثون بابًا في<lb change="#d2e120" xml:id="lb_767.d2e2040"/>كل باب فصول كثيرة جمعت المسائل بدون أن يطلع على هذه الآيات التي يحتج<lb change="#d2e120" xml:id="lb_768.d2e2042"/>بها كل فريق على رأيه، ولا نعرفها مجموعة في غير هذا الكتاب. لهذا نقول: إن<lb change="#d2e120" xml:id="lb_769.d2e2044"/>إحياء هذا الكتاب خدمة جليلة للإسلام؛ فجزى الله الشيخ أحمد عمر المحمصاني<lb change="#d2e120" xml:id="lb_770.d2e2046"/>الأزهري خير الجزاء أن طبعه ونشره بين الناس بثمن بخس وهو قرشان صحيحان.<lb change="#d2e120" xml:id="lb_771.d2e2048"/>ومن طلبه من الخارج فليرسل مع الثمن قرشًا لأجرة البريد، وهو يوجد في إدارة<lb change="#d2e120" xml:id="lb_772.d2e2050"/>المنار بمصر وفي مكتبة هندية ومكتبة المليجي ومكتبة الرافعي ومكتبة المؤيد<lb change="#d2e120" xml:id="lb_773.d2e2053"/>ومكتبة الهلال.<lb change="#d2e120" xml:id="lb_774.d2e2055"/>* * *<lb change="#d2e120" xml:id="lb_775.d2e2057"/>(حياتنا التناسلية) أو (دليل العازب وطبيب المتزوج)<lb change="#d2e120" xml:id="lb_776.d2e2059"/>كتاب يدل اسمه على موضوعه، مؤلفه الطبيب سعيد أبو جمرة الذي تلقى<lb change="#d2e120" xml:id="lb_777.d2e2061"/>الطب في المدرسة الكلية ب<placeName change="#d2e120" xml:id="placeName_7.d2e2063">بيروت</placeName> وأتمه في (كلية ماريون سمس) في الولايات<lb change="#d2e120" xml:id="lb_778.d2e2067"/>المتحدة، وهو ببحث عن أعضاء التناسل في الذكور والإناث وما يعرض لها<lb change="#d2e120" xml:id="lb_779.d2e2069"/>من العلل والأمراض قبل الزواج وبعده. وعبارته سهلة يفهمها كل قارئ ولا<lb change="#d2e120" xml:id="lb_780.d2e2071"/>غنى لقارئ عنها، فإن أكثر الناس عرضة للأمراض والأدواء التي تتولد في هذه<lb change="#d2e120" xml:id="lb_781.d2e2073"/>الأعضاء أو في البدن كله من استعمالها فيما يحرّمه الدين والطب (وكل ما ثبت<lb change="#d2e120" xml:id="lb_782.d2e2075"/>ضرره طبًّا فهو محرم شرعًا) ومن ذلك العادات الضارّة التي تكون من الشبان في<lb change="#d2e120" xml:id="lb_783.d2e2077"/>حال الانفراد ويحسبونها هينة وما هي بهينة، وإنما هي علة العلل والأدواء<lb change="#d2e120" xml:id="lb_784.d2e2080"/>والأمراض القاتلة. ولو علم الناس ما وراءها لأعانهم العلم على مغالبة الشهوة،<lb change="#d2e120" xml:id="lb_785.d2e2082"/>ومحاربة اللذة؛ لأنه هو الركن الركين، بعد تربية الدين، وأين التربية الدينية من<lb change="#d2e120" xml:id="lb_786.d2e2084"/>قوم يذكر أطباؤهم ومرشدوهم عجائب صنع الله تعالى وحكمه وآياته في الآفاق<lb change="#d2e120" xml:id="lb_787.d2e2086"/>وفي أنفسهم فيسندونها إلى شيء مجهول يسمونه: الطبيعة، ولا يسندونها إليه<lb change="#d2e120" xml:id="lb_788.d2e2088"/>جلّت قدرته كما فعل صاحب كتابنا هذا.<lb change="#d2e120" xml:id="lb_789.d2e2090"/>وإننا لا نرى في هذا الكتاب غير هذا العيب. ونقول على كل حال: إنه ينبغي<lb change="#d2e120" xml:id="lb_790.d2e2093"/>لأهل كل بيت اقتناء هذا الكتاب ومطالعته والاستعانة به على تربية الأولاد. وهو<lb change="#d2e120" xml:id="lb_791.d2e2095"/>مطبوع في مطبعة الهلال وعدد صفحاته مئتان ونيف وثمنه 12 قرشًا مصريًّا،<lb change="#d2e120" xml:id="lb_792.d2e2097"/>ويطلب من مكتبة الهلال بمصر.<lb change="#d2e120" xml:id="lb_793.d2e2099"/>* * *<lb change="#d2e120" xml:id="lb_794.d2e2101"/>(نيل الأرب في موسيقى الإفرنج والعرب)<lb change="#d2e120" xml:id="lb_795.d2e2103"/>الموسيقى فن من الفنون التحسينية يرتقي في الأمم بارتقاء المدنية<lb change="#d2e120" xml:id="lb_796.d2e2106"/>والحضارة ويتدلّى بتدليهما. والميل إليه طبيعي في الإنسان بل الميل إلى حسن<lb change="#d2e120" xml:id="lb_797.d2e2108"/>توقيع النغم معهود في الحيوان الأعجم. ولقد كان للعرب حظ منه أيام مدنيتهم<lb change="#d2e120" xml:id="lb_798.d2e2110"/>فذهب بذهابها. ولما دالت الحضارة إلى الأمم الغربية ارتقى عندهم هذا الفن حتى<lb change="#d2e120" xml:id="lb_799.d2e2112"/>صار ركنًا من أركان الفنون الحربية، كما أنه ركن من أركان التربية النفسية،<lb change="#d2e120" xml:id="lb_800.d2e2114"/>وكان من موضع العجب أن المصريين اشتغلوا بتقليد الإفرنج من زمن طويل،<lb change="#d2e120" xml:id="lb_801.d2e2116"/>وأخذوا عنهم كثيرًا من علومهم، ولكنهم لم يضعوا لنا كتابًا مصنفًا أو مترجمًا في فن<lb change="#d2e120" xml:id="lb_802.d2e2119"/>الموسيقى حتى ظهر هذا الكتاب في هذه السنة لمؤلفه أحمد أفندي أمين الديك. ومن<lb change="#d2e120" xml:id="lb_803.d2e2121"/>عرف المؤلف يحكم بأنه إنما ألف هذا الكتاب بباعث طبيعي، وشعور بأن قومه في<lb change="#d2e120" xml:id="lb_804.d2e2123"/>حاجة إلى هذا الفن، وأنه أراد أن يكون البادئ بسدّ هذه الحاجة. وإنما قلنا هذا؛ لأنه<lb change="#d2e120" xml:id="lb_805.d2e2125"/>شاب بعيد من التفرنج ومذاهبه متمسك بالدين عملاً وآدابًا على أن الشائع في قومه<lb change="#d2e120" xml:id="lb_806.d2e2127"/>أن الموسيقى من الفنون المذمومة في الدين، وما المذموم في الدين إلا هذا التخنث<lb change="#d2e120" xml:id="lb_807.d2e2129"/>الشائع عندهم في الغناء، أما الموسيقى فهي نافعة في الحرب والآداب والأخلاق،<lb change="#d2e120" xml:id="lb_808.d2e2132"/>هذا وإننا لا نحكم على الكتاب من الجهة الفنية لأننا نعترف مع الخجل بأننا لا<lb change="#d2e120" xml:id="lb_809.d2e2134"/>نعرف الفن. والكتاب مطبوع بالرسوم وأشكال (النوتة) بالمطبعة الأميرية<lb change="#d2e120" xml:id="lb_810.d2e2136"/>وثمنه خمسة قروش.<lb change="#d2e120" xml:id="lb_811.d2e2138"/>* * *<lb change="#d2e120" xml:id="lb_812.d2e2140"/>(الاتجار بالنساء)<lb change="#d2e120" xml:id="lb_813.d2e2142"/>هي القصة العاشرة من (روايات مسامرات الشعب) معربة بقلم حسن<lb change="#d2e120" xml:id="lb_814.d2e2145"/>أفندي توفيق الدجوي من ضباط البوليس ومعرِّب كتاب (التربية الحديثة) وقد صدّر<lb change="#d2e120" xml:id="lb_815.d2e2147"/>القصة صاحب مطبعة الشعب بكلمة للصحافة المصرية يطالبها فيها بانتقاد هذه<lb change="#d2e120" xml:id="lb_816.d2e2149"/>القصص التي يقصد بنشرها خدمة الأمة، وينتقد تقريظ الجرائد بمدح كل كتاب أو<lb change="#d2e120" xml:id="lb_817.d2e2151"/>قصة تنشر وتمني الرواج لها.<lb change="#d2e120" xml:id="lb_818.d2e2153"/>الانتقاد واجب وإن كان يسيء ناشري الكتب كما جربنا. وإذا لم يسمح وقت<lb change="#d2e120" xml:id="lb_819.d2e2155"/>أصحاب الجرائد وكتابها بقراءة الكتاب كله أو بعضه، فلا يجوز لهم تقريظه؛ لأن<lb change="#d2e120" xml:id="lb_820.d2e2158"/>التقريظ حكم لا بدّ فيه من العلم بالمحكوم عليه. ولقد طالعنا قصة الاتجار بالنساء<lb change="#d2e120" xml:id="lb_821.d2e2160"/>هذه ظنًّا منا أن الذي حمل ناشرها على تعريضها للنقد هو ثقته بأنها تعلو عليه لما<lb change="#d2e120" xml:id="lb_822.d2e2162"/>فيها من الإرشاد النافع فألفيناها مشحونة بأخبار الفسق والفحش والكيد وسفك الدم<lb change="#d2e120" xml:id="lb_823.d2e2164"/>والانتقام. ومثل هذه الحوادث التي تشرحها القصة يؤثر الكلام عنها في النفس أسوأ<lb change="#d2e120" xml:id="lb_824.d2e2166"/>تأثير ويكون غذاء رديئًا للنفوس المستعدة للشرور؛ لأنها لم تتربَّ تربية صالحة.<lb change="#d2e120" xml:id="lb_825.d2e2168"/>وأين التربية الصالحة في هذه البلاد؟<lb change="#d2e120" xml:id="lb_826.d2e2171"/>يحتج ناشرو أمثال هذه القصة بأنها لا تخلو من بيان سوء عاقبة المجرمين.<lb change="#d2e120" xml:id="lb_827.d2e2173"/>ونحتج عليهم بأن الكتابة في تمثيل عواقب الجرائم والمآثم يشترط فيها أن يكون ما<lb change="#d2e120" xml:id="lb_828.d2e2175"/>يكتبون فيه شائعًا فيمن يكتبون لهم بحيث تفيدهم الكتابة عظة وعبرة، ولا تزيدهم<lb change="#d2e120" xml:id="lb_829.d2e2177"/>علمًا بوجوه المنكرات وطرق السيّئات؛ لأن ما لا شبهة فيه أن كل قارئ يوجه فكره<lb change="#d2e120" xml:id="lb_830.d2e2179"/>إلى ما يناسب طباعه ورغائبه من الكلام ويغفل عن غيره. والجرائم المشروحة في<lb change="#d2e120" xml:id="lb_831.d2e2181"/>هذه القصة لم تأت على الشرط بخلاف قصة (الحال والمآل) التي قرظناها من قبل<lb change="#d2e120" xml:id="lb_832.d2e2184"/>فإنها جاءت على الشرط؛ لأنها ذكرت منكرًا معروفًا فاشيًا في مصر وبينت سوء<lb change="#d2e120" xml:id="lb_833.d2e2186"/>عاقبته لذلك أثنينا عليها وأنكرنا على هذه ولعل كلامنا في الموضعين يكون حاملاً على<lb change="#d2e120" xml:id="lb_834.d2e2188"/>الرغبة عن الضارّ إلى الرغبة في النافع والله الموفق.<lb change="#d2e120" xml:id="lb_835.d2e2190"/>* * *<lb change="#d2e120" xml:id="lb_836.d2e2192"/>(روايات الحدّاد)<lb change="#d2e120" xml:id="lb_837.d2e2194"/>أحسن القصص التي تنشر في مصر لهذا العهد عبارة ما عربه فقيد التحرير<lb change="#d2e120" xml:id="lb_838.d2e2197"/>نجيب أفندي الحداد وقد أُهديت إلينا قصتان منها منذ أشهر أضعناإحداهما واستعار<lb change="#d2e120" xml:id="lb_839.d2e2199"/>الأخرى أحد أصدقائنا ولم يُعدها فكتبنا هذه الكلمة لئلا يتوهم المُهدي أننا أغفلنا<lb change="#d2e120" xml:id="lb_840.d2e2201"/>تقريظهما إجحافًا بحقه. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_5.d2e2203"/>
+               
+
+               
+(الصراط المستقيم)
+كثرت شكوى الباحثين في الإصلاح - ورأسه إصلاح التربية والتعليم - من
+كتب القرون المتوسطة وما بعدها وَوُعُوَرة مسالكها وصعوبة أسلوبها وعدم موافقتها
+للتعليم فقيّض الله تعالى لهم من أنفسهم من يسعى في إحياء كتب السلف ليستعان بها
+على إحياء اللغة والدين. ومن يشتغل بتأليف كتب جديدة يستعان بها على التربية
+والتعليم. فبينا جمعية إحياء العلوم العربية تشتغل بطبع (المخصص) وتسعى
+باستنساخ مدونة الإمام مالك وكتاب الأم للإمام الشافعي لتطبعهما، ومنشئ هذه المجلة
+يشتغل بطبع (دلائل الإعجاز) بعد طبع (أسرار البلاغة) إذا بالشيخ أحمد زناتي
+ناظر مدرسة القبة الخديوية وأستاذ العربية والدين فيها يؤلف الكتب القريبة التناول
+في التعليم، القوية التأثير في علم الدين.
+وأكبر مؤلفاته نفعًا، وأحسنها صنعًا، كتاب في علم الدين سماه الصراط
+المستقيم، وقد جعله ثلاثة أقسام: قسم في العقائد وقسم في العبادات وقسم في الآداب
+وفي كل قسم فصول في الواجبات الاعتقادية والعملية والأدبية. يبتدئ الفصلَ
+بالآيات الكريمة الواردة في الواجب الذي يتكلم عنه فيه ثم يأخذ الحكم مما تهدي إليه
+مع بيان معناها. فهكذا يجب أن تكون كتب الدين لتطمئن بها القلوب، وتؤثر في
+النفوس. وقد التزم في الكتاب بيان أسرار العبادات والآداب الدينية، ومنافعها
+الدنيوية والأخروية، وبعد فراغ المؤلف من كتابه عرضه على الأمير العباس - أيده
+الله تعالى - فسُرّ به وأمر بأن يطبع على نفقة الخاصة الخديوية، فطبع في المطبعة
+الأميرية طبعًا متقنًا على ورق جيد، وجعل في جانب كل صفحة منه جدولين يذكر
+في أحدهما بإزاء الآيات القرآنية التي افتتحت بها الفصولُ اسم السورة وفي الثاني
+عدد الآية، ولو كان هذا البيان عامَّا لجميع الآيات القرآنية في الكتاب لكان النفع أتم.
+وصفحات الكتاب 400 وثمنه 12 قرشًا صحيحًا.
+* * *
+(الهداية إلى الصراط المستقيم)
+اختصر المؤلف كتاب الصراط المستقيم بكتاب سماه بهذا الاسم، وهو مثل
+الأول في ترتيبه وأسلوبه إلا أن حجمه نصف حجمه، والغرض من الاختصار أن
+يكون المختصر كتاب تعليم يرتقي منه التلميذ إلى المطول، ويهتدي بتلقي هذا دراسةً
+إلى فهم ذاك بنفسه. وقد طبع الكتاب الثاني على نفقته الخاصة أيضًا وفق الله مولانا
+الأمير إلى ما فيه إحياء العلم والدين. وثمنه ثمانية قروش صحيحة، فَنَحُثُّ كل
+من يطلب فهم الدين على مطالعة الكتابين.
+* * *
+(حجج القرآن)
+كتاب من أجل ما كتب علماء الإسلام في خدمة الدين للإمام أبي الفضائل أحمد
+ابن محمد بن المظفر بن المختار الرازي جمع فيه الآيات القرآنية التي تحتج بها
+الفرق المفترقة من الإسلام في المسائل المختلف فيها بينهم ليعلم الناظر في
+الحجج مجتمعة لديه. ممثلة أمام عينيه، أيها أحق بالقبول. وأدل على المدلول،
+وقد ذكر في فاتحته أن أصل الفِرَقِ ثمانٍ: الجبرية وفي مقابلتها القدرية، والمرجئة
+وفي مقابلتها الوعيدية، والصفاتية وفي مقابلتها الجهمية، والشيعة وفي
+مقابلتها الخوارج. قال: (ومن هذه الفرق الثمان تشعبت الفرق الثلاث
+والسبعون) أي التي ورد بشأنها الحديث المشهور. وأبواب الكتاب ثلاثون بابًا في
+كل باب فصول كثيرة جمعت المسائل بدون أن يطلع على هذه الآيات التي يحتج
+بها كل فريق على رأيه، ولا نعرفها مجموعة في غير هذا الكتاب. لهذا نقول: إن
+إحياء هذا الكتاب خدمة جليلة للإسلام؛ فجزى الله الشيخ أحمد عمر المحمصاني
+الأزهري خير الجزاء أن طبعه ونشره بين الناس بثمن بخس وهو قرشان صحيحان.
+ومن طلبه من الخارج فليرسل مع الثمن قرشًا لأجرة البريد، وهو يوجد في إدارة
+المنار بمصر وفي مكتبة هندية ومكتبة المليجي ومكتبة الرافعي ومكتبة المؤيد
+ومكتبة الهلال.
+* * *
+(حياتنا التناسلية) أو (دليل العازب وطبيب المتزوج)
+كتاب يدل اسمه على موضوعه، مؤلفه الطبيب سعيد أبو جمرة الذي تلقى
+الطب في المدرسة الكلية ب<placeName change="#d2e120" xml:id="placeName_7.d2e2063">بيروت</placeName> وأتمه في (كلية ماريون سمس) في الولايات
+المتحدة، وهو ببحث عن أعضاء التناسل في الذكور والإناث وما يعرض لها
+من العلل والأمراض قبل الزواج وبعده. وعبارته سهلة يفهمها كل قارئ ولا
+غنى لقارئ عنها، فإن أكثر الناس عرضة للأمراض والأدواء التي تتولد في هذه
+الأعضاء أو في البدن كله من استعمالها فيما يحرّمه الدين والطب (وكل ما ثبت
+ضرره طبًّا فهو محرم شرعًا) ومن ذلك العادات الضارّة التي تكون من الشبان في
+حال الانفراد ويحسبونها هينة وما هي بهينة، وإنما هي علة العلل والأدواء
+والأمراض القاتلة. ولو علم الناس ما وراءها لأعانهم العلم على مغالبة الشهوة،
+ومحاربة اللذة؛ لأنه هو الركن الركين، بعد تربية الدين، وأين التربية الدينية من
+قوم يذكر أطباؤهم ومرشدوهم عجائب صنع الله تعالى وحكمه وآياته في الآفاق
+وفي أنفسهم فيسندونها إلى شيء مجهول يسمونه: الطبيعة، ولا يسندونها إليه
+جلّت قدرته كما فعل صاحب كتابنا هذا.
+وإننا لا نرى في هذا الكتاب غير هذا العيب. ونقول على كل حال: إنه ينبغي
+لأهل كل بيت اقتناء هذا الكتاب ومطالعته والاستعانة به على تربية الأولاد. وهو
+مطبوع في مطبعة الهلال وعدد صفحاته مئتان ونيف وثمنه 12 قرشًا مصريًّا،
+ويطلب من مكتبة الهلال بمصر.
+* * *
+(نيل الأرب في موسيقى الإفرنج والعرب)
+الموسيقى فن من الفنون التحسينية يرتقي في الأمم بارتقاء المدنية
+والحضارة ويتدلّى بتدليهما. والميل إليه طبيعي في الإنسان بل الميل إلى حسن
+توقيع النغم معهود في الحيوان الأعجم. ولقد كان للعرب حظ منه أيام مدنيتهم
+فذهب بذهابها. ولما دالت الحضارة إلى الأمم الغربية ارتقى عندهم هذا الفن حتى
+صار ركنًا من أركان الفنون الحربية، كما أنه ركن من أركان التربية النفسية،
+وكان من موضع العجب أن المصريين اشتغلوا بتقليد الإفرنج من زمن طويل،
+وأخذوا عنهم كثيرًا من علومهم، ولكنهم لم يضعوا لنا كتابًا مصنفًا أو مترجمًا في فن
+الموسيقى حتى ظهر هذا الكتاب في هذه السنة لمؤلفه أحمد أفندي أمين الديك. ومن
+عرف المؤلف يحكم بأنه إنما ألف هذا الكتاب بباعث طبيعي، وشعور بأن قومه في
+حاجة إلى هذا الفن، وأنه أراد أن يكون البادئ بسدّ هذه الحاجة. وإنما قلنا هذا؛ لأنه
+شاب بعيد من التفرنج ومذاهبه متمسك بالدين عملاً وآدابًا على أن الشائع في قومه
+أن الموسيقى من الفنون المذمومة في الدين، وما المذموم في الدين إلا هذا التخنث
+الشائع عندهم في الغناء، أما الموسيقى فهي نافعة في الحرب والآداب والأخلاق،
+هذا وإننا لا نحكم على الكتاب من الجهة الفنية لأننا نعترف مع الخجل بأننا لا
+نعرف الفن. والكتاب مطبوع بالرسوم وأشكال (النوتة) بالمطبعة الأميرية
+وثمنه خمسة قروش.
+* * *
+(الاتجار بالنساء)
+هي القصة العاشرة من (روايات مسامرات الشعب) معربة بقلم حسن
+أفندي توفيق الدجوي من ضباط البوليس ومعرِّب كتاب (التربية الحديثة) وقد صدّر
+القصة صاحب مطبعة الشعب بكلمة للصحافة المصرية يطالبها فيها بانتقاد هذه
+القصص التي يقصد بنشرها خدمة الأمة، وينتقد تقريظ الجرائد بمدح كل كتاب أو
+قصة تنشر وتمني الرواج لها.
+الانتقاد واجب وإن كان يسيء ناشري الكتب كما جربنا. وإذا لم يسمح وقت
+أصحاب الجرائد وكتابها بقراءة الكتاب كله أو بعضه، فلا يجوز لهم تقريظه؛ لأن
+التقريظ حكم لا بدّ فيه من العلم بالمحكوم عليه. ولقد طالعنا قصة الاتجار بالنساء
+هذه ظنًّا منا أن الذي حمل ناشرها على تعريضها للنقد هو ثقته بأنها تعلو عليه لما
+فيها من الإرشاد النافع فألفيناها مشحونة بأخبار الفسق والفحش والكيد وسفك الدم
+والانتقام. ومثل هذه الحوادث التي تشرحها القصة يؤثر الكلام عنها في النفس أسوأ
+تأثير ويكون غذاء رديئًا للنفوس المستعدة للشرور؛ لأنها لم تتربَّ تربية صالحة.
+وأين التربية الصالحة في هذه البلاد؟
+يحتج ناشرو أمثال هذه القصة بأنها لا تخلو من بيان سوء عاقبة المجرمين.
+ونحتج عليهم بأن الكتابة في تمثيل عواقب الجرائم والمآثم يشترط فيها أن يكون ما
+يكتبون فيه شائعًا فيمن يكتبون لهم بحيث تفيدهم الكتابة عظة وعبرة، ولا تزيدهم
+علمًا بوجوه المنكرات وطرق السيّئات؛ لأن ما لا شبهة فيه أن كل قارئ يوجه فكره
+إلى ما يناسب طباعه ورغائبه من الكلام ويغفل عن غيره. والجرائم المشروحة في
+هذه القصة لم تأت على الشرط بخلاف قصة (الحال والمآل) التي قرظناها من قبل
+فإنها جاءت على الشرط؛ لأنها ذكرت منكرًا معروفًا فاشيًا في مصر وبينت سوء
+عاقبته لذلك أثنينا عليها وأنكرنا على هذه ولعل كلامنا في الموضعين يكون حاملاً على
+الرغبة عن الضارّ إلى الرغبة في النافع والله الموفق.
+* * *
+(روايات الحدّاد)
+أحسن القصص التي تنشر في مصر لهذا العهد عبارة ما عربه فقيد التحرير
+نجيب أفندي الحداد وقد أُهديت إلينا قصتان منها منذ أشهر أضعناإحداهما واستعار
+الأخرى أحد أصدقائنا ولم يُعدها فكتبنا هذه الكلمة لئلا يتوهم المُهدي أننا أغفلنا
+تقريظهما إجحافًا بحقه. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_5.d2e2203"/>
             </tei:p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_5.d2e2205">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_7.d2e2207" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -140,7 +980,129 @@
          <div type="section" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_6.d2e2215">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_7.d2e2217">الأخبار والآراء</head>
 <tei:p change="#d2e120" xml:id="p_2.d2e2220">
-               <lb change="#d2e120" xml:id="lb_841.d2e2222"/>(ألقاب التعظيم)<lb change="#d2e120" xml:id="lb_842.d2e2224"/>سَرَتْ إلى الكتابة العربية وإلى أهل العربية عادةٌ من عادات الأعاجم<lb change="#d2e120" xml:id="lb_843.d2e2226"/>المفضولة، وهي إضافة ألقاب التعظيم والتبجيل إلى أسماء الأشخاص عند ذكرهم<lb change="#d2e120" xml:id="lb_844.d2e2228"/>في القول والكتابة. ولقد أسرف الناس في هذه الألقاب حتى ألحقوا بها المفضول<lb change="#d2e120" xml:id="lb_845.d2e2230"/>بالفاضل، وساووا العالم بالجاهل، وإننا كنا نألم لاتباع عادة الجرائد في ذلك على<lb change="#d2e120" xml:id="lb_846.d2e2233"/>تحرّينا القصد فيها، ونرى النفس تنزع إلى اتباع سلفنا فيه، ولكننا نرجئ ذلك حتى<lb change="#d2e120" xml:id="lb_847.d2e2235"/>كان في هذا الجزء أن كتبنا نبذة من رسالة الكسائي، وذكرنا في ترجمتها اسم طابعها<lb change="#d2e120" xml:id="lb_848.d2e2237"/>واسم المهداة إليه مقرونين بألقاب التعظيم المألوفة، ثم لم نلبث أن نقلنا اسم الكسائي<lb change="#d2e120" xml:id="lb_849.d2e2239"/>وهو من أئمة العلم وهارون الرشيد وهو من أعظم الخلفاء بعد الراشدين ولم<lb change="#d2e120" xml:id="lb_850.d2e2241"/>نرهما مقرونين بلقب. فتنبهت النفس إلى ما كانت تنزع إليه وأمرت بترميج تلك<lb change="#d2e120" xml:id="lb_851.d2e2243"/>الألقاب التي كانت كتبت فرُمِّجَتْ. ونحن بعد اليوم لا نذكر مع اسم أحد إلا اللقب الذي<lb change="#d2e120" xml:id="lb_852.d2e2246"/>يميزه في نفسه أو صنفه، كالشيخ والبك والأفندي.<lb change="#d2e120" xml:id="lb_853.d2e2248"/>ومن كان غير معروف للقراء نعرّفه بجملة خبرية لا بألقاب مفردة ينعت به نعتًا<lb change="#d2e120" xml:id="lb_854.d2e2250"/>وتنظم مع اسمه عقدًا. ويدخل في هذه القاعدة أساتذتنا وأمراؤنا. فإذا نقلنا قولاً عن<lb change="#d2e120" xml:id="lb_855.d2e2252"/>أستاذنا الأكبر (ولفظ الأكبر هنا بيان للواقع) نقول: قال الشيخ محمد عبده أو<lb change="#d2e120" xml:id="lb_856.d2e2254"/>مفتي الديار المصرية. وإذا كان الكلام عن الجمعية الخيرية نقول: قال رئيس<lb change="#d2e120" xml:id="lb_857.d2e2256"/>الجمعية. ولكننا إذا أسندنا إليه قولاً من غير ذكر اسمه فإننا نشير إليه بلقبه الذي<lb change="#d2e120" xml:id="lb_858.d2e2259"/>اشتهر وهو (الأستاذ الإمام) ، وإنما سبق لنا تعريفه بلقبين لأن لفظ (الأستاذ)<lb change="#d2e120" xml:id="lb_859.d2e2261"/>وحده ينصرف في كتب الكلام والأصول إلى الشيخ أبي إسحق الإسفرايني ولفظ<lb change="#d2e120" xml:id="lb_860.d2e2263"/>(الإمام) وحده ينصرف إلى فخر الدين الرازي، ولفظ (الشيخ الإمام) أطلقه تاج الدين السبكي في كتبه على والده الشيخ تقي الدين. فعندما استقر رَأْيُنَا على<lb change="#d2e120" xml:id="lb_861.d2e2265"/>أن نجعل لأستاذنا الذي يكثر نقلنا عنه لقبًا مختصرًا يغني عن ذكر اسمه<lb change="#d2e120" xml:id="lb_862.d2e2267"/>ووظيفته اخترنا هاتين الكلمتين لأنه لم يشتهر بهما أحد. وقد عرف ذلك قراء<lb change="#d2e120" xml:id="lb_863.d2e2269"/>المنار في جميع الأقطار لذلك نقره بشرطه.<lb change="#d2e120" xml:id="lb_864.d2e2272"/>***<lb change="#d2e120" xml:id="lb_865.d2e2274"/>(كلمة في المنار) قد كتبنا مرات متعددة على غلاف المنار بأنه لا حقّ<lb change="#d2e120" xml:id="lb_866.d2e2276"/>للمشترك أن يطلب جزءًا من المنار لم يصل إليه بعد صدور ما بعده. ثم رأينا<lb change="#d2e120" xml:id="lb_867.d2e2278"/>بعضهم يحتج بأنه إذا تأخر جزء يتوهم أنه لم يصدر فلا يعرف أنه قد صدر إلا بعد<lb change="#d2e120" xml:id="lb_868.d2e2280"/>وصول ما بعده إليه. لذلك رأينا أن نمدّ في الوقت فنجعله عشرين يومًا في القطر<lb change="#d2e120" xml:id="lb_869.d2e2282"/>المصري. فمن طلب الجزء الذي يصدر في أول الشهر مثلاً في الحادي والعشرين<lb change="#d2e120" xml:id="lb_870.d2e2285"/>منه فما بعده فعليه أن يرسل ثمنه 25 مليمًا سواء كان قد صدر الجزء الذي بعده أم<lb change="#d2e120" xml:id="lb_871.d2e2287"/>لا. ومن وصل إليه الجزء فأضاعه أو وهبه فلا يجوز له أن يطلب بدله إلا بالثمن.<lb change="#d2e120" xml:id="lb_872.d2e2289"/>وربما يعدّ بعض القراء هذا تشديدًا في موضع التساهل، ولكنه إذا علم أن الطالبين<lb change="#d2e120" xml:id="lb_873.d2e2291"/>للأجزاء المفقودة كثيرون جدًّا، وأن كل جزء نرسله يُضيّع علينا مجموعة سنة كاملة<lb change="#d2e120" xml:id="lb_874.d2e2293"/>فإنه يعذرنا لا محالة.<lb change="#d2e120" xml:id="lb_875.d2e2295"/>***<lb change="#d2e120" xml:id="lb_876.d2e2298"/>(سكة الحديد الحجازية) أخبرنا من شاهد العمل في هذه السكة واختبره<lb change="#d2e120" xml:id="lb_877.d2e2300"/>بنفسه أن الهمة المبذولة فيه عظيمة، وأن الآلات والأدوات الحديدية والخشبية التي<lb change="#d2e120" xml:id="lb_878.d2e2302"/>في <placeName change="#d2e120" xml:id="placeName_8.d2e2304">بيروت</placeName> و<placeName change="#d2e120" xml:id="placeName_9.d2e2307">الشام</placeName> كافية لإيصال الخط إلى <placeName change="#d2e120" xml:id="placeName_10.d2e2310">مكة المكرمة</placeName>، وأن مهندسًا ألمانيًّا هناك<lb change="#d2e120" xml:id="lb_879.d2e2314"/>قال: إن هذا الخط أمتن وأحسن من خطوط الحديد في إنكلترا، ومع هذا كله، لا<lb change="#d2e120" xml:id="lb_880.d2e2316"/>بد لإتمام العمل من أربعة ملايين جنيه. وهو مبلغ لا يرجى له إلا سخاء صاحب<lb change="#d2e120" xml:id="lb_881.d2e2318"/>المشروع الذي يخلّد له بتمامه على يديه أشرف الذكر وهو مولانا السلطان، وفقه<lb change="#d2e120" xml:id="lb_882.d2e2320"/>الله تعالى لما فيه خير الأمة والدولة. ومما ينتقده جميع الذين شاهدوا العمل أمر<lb change="#d2e120" xml:id="lb_883.d2e2322"/>التضييق على العسكر المشتغلين به، فإنهم لا يجدون ما يكفيهم من الغذاء والدواء<lb change="#d2e120" xml:id="lb_884.d2e2324"/>وهم يعملون بجلد وثبات حيّر المهندسين الأوربيين والوافدين المتفرجين، وقد علمنا<lb change="#d2e120" xml:id="lb_885.d2e2327"/>أن الرئيس الذي يدير العمل من خير الناس فعسى أن يوفق للمحافظة على صحة<lb change="#d2e120" xml:id="lb_886.d2e2329"/>أولئك الجنود المساكين.<lb change="#d2e120" xml:id="lb_887.d2e2331"/>***<lb change="#d2e120" xml:id="lb_888.d2e2333"/>(الأذان السلطاني) بلغنا أن شيخ الجامع الأزهر أنكر في جامع القلعة هذا الأذان في الليلة السابعة والعشرين من رجب التي احتفل فيها بقراءة<lb change="#d2e120" xml:id="lb_889.d2e2335"/>قصة المعراج، وكاشف بإنكاره مفتي الديار واتفقا على النهي عنه فَنَهَيَا فعسى<lb change="#d2e120" xml:id="lb_890.d2e2337"/>أن يؤثر إرشادهما في محو هذه البدعة السيئة.<lb change="#d2e120" xml:id="lb_891.d2e2340"/>***<lb change="#d2e120" xml:id="lb_892.d2e2342"/>(نصيحة للقارئات ومن يسمع من الأميات)<lb change="#d2e120" xml:id="lb_893.d2e2344"/>إن من خلائق الأنثى وسجاياها ما هو عون للسفهاء على إغوائها وهو أنها<lb change="#d2e120" xml:id="lb_894.d2e2346"/>تحب دائمًا أن تكون موضع الإعجاب والاستحسان. ولذلك يتملق إليها<lb change="#d2e120" xml:id="lb_895.d2e2348"/>المبصبصون ويخادعونها بالمدح (والغواني يغرهن الثناء) حتى يستميلوها إليهم<lb change="#d2e120" xml:id="lb_896.d2e2350"/>ويهينوا شرفها بالمغازلة على الأقل. ومن الضعف في الأنثى أن تعتقد أن كل من<lb change="#d2e120" xml:id="lb_897.d2e2353"/>رمى ببصره إليها يكون مستحسنًا لها. ناهيك بصاحب التحديق ونظر الترنيق وهو<lb change="#d2e120" xml:id="lb_898.d2e2355"/>نظر العاشق المستهترعادة والمبصبص المتعلق اختلابًا وخداعًا فإنه يغر الفتاة الغرَّ<lb change="#d2e120" xml:id="lb_899.d2e2357"/>ويقع من قلبها موقع السهم الذي سقي بالسم، وقد ورد في الحديث: (النظرة<lb change="#d2e120" xml:id="lb_900.d2e2359"/>سهم مسموم من سهام إبليس فمن تركها خوفًا من الله آتاه الله إيمانًا يجد حلاوته في<lb change="#d2e120" xml:id="lb_901.d2e2361"/>قلبه) رواه الحاكم وصحح إسناده.<lb change="#d2e120" xml:id="lb_902.d2e2363"/>بلغ النساء عندنا من الغرور بتطلّع السفهاء إليهن أنك تجد نساءنا يتلفتن في<lb change="#d2e120" xml:id="lb_903.d2e2366"/>الأسواق ماشيات. وينحنين وهن في المركبات، وقد يكنّ مع هذا من المحصنات<lb change="#d2e120" xml:id="lb_904.d2e2368"/>النزيهات، وإن هو إلا حب توجيه الأنظار، وإعجاب النظار، وترى نساء الإفرنج<lb change="#d2e120" xml:id="lb_905.d2e2370"/>يمشين قاصرات الطرف، مستقيمات العطف، تحسبهن في أدبهن الظاهر من<lb change="#d2e120" xml:id="lb_906.d2e2372"/>الملائكة المقربين، وإن كان فيهن من هن أغوى من الشياطين، وما ذلك إلا لأنهن<lb change="#d2e120" xml:id="lb_907.d2e2374"/>تربين على أدب الاجتماع، وتعلمن ما يبعد بهن عن سرعة الانخداع، وإن الظهور<lb change="#d2e120" xml:id="lb_908.d2e2376"/>في المنكر ليزيد في ضرره لما فيه من إغواء الناس وتسهيل سبله على من لا<lb change="#d2e120" xml:id="lb_909.d2e2379"/>يعرفه، ولذلك ورد في الشرع أن المعصية الصغيرة تكون كبيرة بالمجاهرة،<lb change="#d2e120" xml:id="lb_910.d2e2381"/>وترى القوانين الوضعية عند الأمم كلها تحظر الجهر بما ينافي الآداب حتى ما<lb change="#d2e120" xml:id="lb_911.d2e2383"/>تبيحه منه في السر.<lb change="#d2e120" xml:id="lb_912.d2e2385"/>السبب في هذا التبرّج والتغنج، والتشوف والتقصف، والانثناء والانحناء،<lb change="#d2e120" xml:id="lb_913.d2e2387"/>الذي يزيد في فساد السفهاء، هو حبُّ الأنثى لأن تكون زينة في الأعين وشغلاً<lb change="#d2e120" xml:id="lb_914.d2e2389"/>للقلوب، وإنها لتكون كذلك في جميع الأعين وجميع القلوب إذا ظهرت بمظهر<lb change="#d2e120" xml:id="lb_915.d2e2392"/>الكمال والصيانة ولم تلتفت لكلاب المبصبصين ولم تكلمهن إذا تعرضوا لمكالمتها<lb change="#d2e120" xml:id="lb_916.d2e2394"/>فإن هذه الأماديح التي تسمعها منهم تنقلب إلى ضدها بعد أن تبعد عنهم فلا تسمع ما<lb change="#d2e120" xml:id="lb_917.d2e2396"/>يقولون، فإن سفهاء الناس وغوغاءهم لا يزالون يعرفون قيمة الفضيلة ويحترمون<lb change="#d2e120" xml:id="lb_918.d2e2398"/>أهلها.<lb change="#d2e120" xml:id="lb_919.d2e2400"/>هذا اللين في العطف والخضوع في القول قد أطمعا أصحاب القلوب المريضة<lb change="#d2e120" xml:id="lb_920.d2e2402"/>في كل امرأة تمر في الطريق فلا تكاد تسلم من سفههم أو عبثهم امرأة، ولا يعهد مثل<lb change="#d2e120" xml:id="lb_921.d2e2405"/>هذا المنكر في مدينة ولا قرية مثلما يوجد في هذه البلدة الظالم أهلها. وإنا لنعجب<lb change="#d2e120" xml:id="lb_922.d2e2407"/>من ضعف غيرة الرجال التي أباحت لهم التساهل مع نسائهم حتى أباحوا لهن كل<lb change="#d2e120" xml:id="lb_923.d2e2409"/>هذا، إننا ليسوءنا جدًّا أن نرى البنات ينشأن على مثال أمهاتهن وعماتهن في هذا<lb change="#d2e120" xml:id="lb_924.d2e2411"/>اللين المذموم، لا فرق بين المتعلمات منهن والجاهلات. وإننا ليحزننا أن نرى<lb change="#d2e120" xml:id="lb_925.d2e2413"/>التلامذة الذين هم محل الرجاء، مستنين بسنة أولئك السفهاء، حتى إنك لا تكاد تجد<lb change="#d2e120" xml:id="lb_926.d2e2415"/>فرقًا بين من نشأ في المدارس ومن نشأ في الطرق والشوارع. رأيت من أيامٍ تلميذًا<lb change="#d2e120" xml:id="lb_927.d2e2418"/>يمشي مع إخوانه في السوق خارجين من المدرسة فمر بامرأة فوضع يده على<lb change="#d2e120" xml:id="lb_928.d2e2420"/>وجهها وعبث ببرقعها ولم أر مثل هذه الوقاحة من غوغاء الحشاشين، فهل يغر<lb change="#d2e120" xml:id="lb_929.d2e2422"/>البناتَ تَطَلُّعُ أمثال هذا التلميذ إليهن وتصديه لإغوائهن؟ وهل كان مغرمًا بتلك<lb change="#d2e120" xml:id="lb_930.d2e2424"/>المرأة التي عبث ببرقعها؟ أفكان الغرام هو الحامل له على إهانتها في السوق؟<lb change="#d2e120" xml:id="lb_931.d2e2426"/>وهل مثل هذا الغرام - إذا فُرِضَ - مما يرغب فيه.<lb change="#d2e120" xml:id="lb_932.d2e2428"/>إنَّ ما تقدم من القول هو مقدمات النصيحة التي أقدمها للقارئات؛ والنتيجة<lb change="#d2e120" xml:id="lb_933.d2e2431"/>المقصودة هي أن الإنسان يؤخذ دائمًا من جهة ضعفه، ومن الضعف في الأنثى<lb change="#d2e120" xml:id="lb_934.d2e2433"/>الانخداعُ لمن يظهر لها الحب والاستحسان. وأن الرجال دائمًا يخادعون النساء<lb change="#d2e120" xml:id="lb_935.d2e2435"/>حتى إن أحدهم ليثبت على التظاهر بالحب زمنًا طويلاً ليُصدّق. فيجب على الفتاة<lb change="#d2e120" xml:id="lb_936.d2e2437"/>المتعلمة أن لا تصدق أحدًا من هؤلاء الشبان الذين يظهرون لها الحب والغرام فإن<lb change="#d2e120" xml:id="lb_937.d2e2439"/>أحدهم ليخاتل كل فتاة يراها يمثل هذه المخاتلة. ولو كان صادقًا فيما يظهر من<lb change="#d2e120" xml:id="lb_938.d2e2441"/>الإعجاب بمحاسنها والرغبة في الاقتران بها، وكان أهلاً لذلك لكان<lb change="#d2e120" xml:id="lb_939.d2e2444"/>يغار عليها من نفسه ومن غيره، فلا يعاملها بهذه المعاملة من البصبصة والمغازلة،<lb change="#d2e120" xml:id="lb_940.d2e2446"/>ولكنه يزيد على هذه الإهانة التي تكون منه في كل طريق، بأن يحدّث بها كل<lb change="#d2e120" xml:id="lb_941.d2e2448"/>صديق ورفيق.<lb change="#d2e120" xml:id="lb_942.d2e2450"/>***<lb change="#d2e120" xml:id="lb_943.d2e2452"/>(الحسود المعمّم) كتب ذو عمامة إلى صاحب الجامعة يغريه بالطعن في<lb change="#d2e120" xml:id="lb_944.d2e2454"/>صاحب مقالات (الإسلام والنصرانية مع العلم والمدنية) لأن صاحب العمامة<lb change="#d2e120" xml:id="lb_945.d2e2457"/>حسد صاحب هذه المقالات على ما أوتيه من سعة العلم وقوة التأثير وعلوّ المكانة<lb change="#d2e120" xml:id="lb_946.d2e2459"/>فحاول أن يطفئ نار حسده بذَنُوب من ذنوب ذلك الطعن الذي أمر به ولكن صاحب<lb change="#d2e120" xml:id="lb_947.d2e2461"/>الجامعة أعقل من صاحب العمامة، وأعلم منه بقيمة تلك المقالات. وإن أنكر من<lb change="#d2e120" xml:id="lb_948.d2e2463"/>فاتحتها ما عرف حكمته في أثنائها وخاتمتها، وإنه ليعلم أن مثل صاحب العمامة<lb change="#d2e120" xml:id="lb_949.d2e2465"/>معه كمثل الشيطان إذ قال للإنسان اكفر، إلخ. فهو لا يراه إلا بعين النقص ولا<lb change="#d2e120" xml:id="lb_950.d2e2467"/>يعتقد فيه إلا ما يليق به في رقة عقله ودينه، ولا يرضى لنفسه أن يكون مع<lb change="#d2e120" xml:id="lb_951.d2e2470"/>صاحب العمامة كما كان صاحب الحمارة، على أن الطعن في مثل هذه الحال على<lb change="#d2e120" xml:id="lb_952.d2e2472"/>مثل ذلك المقال، لا يزيد المطعون فيه إلا احترامًا وإجلالاً. ولكنه يسلّي الحسود<lb change="#d2e120" xml:id="lb_953.d2e2474"/>لأن عقله صغير، وفكره قصير.<lb change="#d2e120" xml:id="lb_954.d2e2476"/>***<lb change="#d2e120" xml:id="lb_955.d2e2478"/>(مفكرة مطبعة الموسوعات) اخترع الإفرنج هذه الدفاتر التي يسمونها<lb change="#d2e120" xml:id="lb_956.d2e2480"/>المفكرة أو المذكرة لأصحاب الأشغال الكثيرة من الحكام والتجار والمحامين. ولما<lb change="#d2e120" xml:id="lb_957.d2e2483"/>رأت مطبعة الموسوعات أن المصريين يشترون هذه الدفاتر الإفرنجية ويتعبون في<lb change="#d2e120" xml:id="lb_958.d2e2485"/>كتابة التاريخ في كل صفحة منها بالعربية أصدرت في هذه الأيام (مفكرة) عربية<lb change="#d2e120" xml:id="lb_959.d2e2487"/>لسنة 1903 وضمّت التاريخ الهجري في كل صفحة منها إلى التاريخ المسيحي،<lb change="#d2e120" xml:id="lb_960.d2e2489"/>رجعت في آخرها جداول لتحويل النقود فجاءت خيرًا من المفكرات الإفرنجية.<lb change="#d2e120" xml:id="lb_961.d2e2491"/>وجعلت ثمن النسخة 12 قرشًا ونصفًا صحيحًا فهي أرخص من المفكرات الإفرنجية<lb change="#d2e120" xml:id="lb_962.d2e2493"/>وتطلب من المطبعة، والمنتظر أن تصادف رواجًا عظيمًا. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_6.d2e2496"/>
+               
+(ألقاب التعظيم)
+سَرَتْ إلى الكتابة العربية وإلى أهل العربية عادةٌ من عادات الأعاجم
+المفضولة، وهي إضافة ألقاب التعظيم والتبجيل إلى أسماء الأشخاص عند ذكرهم
+في القول والكتابة. ولقد أسرف الناس في هذه الألقاب حتى ألحقوا بها المفضول
+بالفاضل، وساووا العالم بالجاهل، وإننا كنا نألم لاتباع عادة الجرائد في ذلك على
+تحرّينا القصد فيها، ونرى النفس تنزع إلى اتباع سلفنا فيه، ولكننا نرجئ ذلك حتى
+كان في هذا الجزء أن كتبنا نبذة من رسالة الكسائي، وذكرنا في ترجمتها اسم طابعها
+واسم المهداة إليه مقرونين بألقاب التعظيم المألوفة، ثم لم نلبث أن نقلنا اسم الكسائي
+وهو من أئمة العلم وهارون الرشيد وهو من أعظم الخلفاء بعد الراشدين ولم
+نرهما مقرونين بلقب. فتنبهت النفس إلى ما كانت تنزع إليه وأمرت بترميج تلك
+الألقاب التي كانت كتبت فرُمِّجَتْ. ونحن بعد اليوم لا نذكر مع اسم أحد إلا اللقب الذي
+يميزه في نفسه أو صنفه، كالشيخ والبك والأفندي.
+ومن كان غير معروف للقراء نعرّفه بجملة خبرية لا بألقاب مفردة ينعت به نعتًا
+وتنظم مع اسمه عقدًا. ويدخل في هذه القاعدة أساتذتنا وأمراؤنا. فإذا نقلنا قولاً عن
+أستاذنا الأكبر (ولفظ الأكبر هنا بيان للواقع) نقول: قال الشيخ محمد عبده أو
+مفتي الديار المصرية. وإذا كان الكلام عن الجمعية الخيرية نقول: قال رئيس
+الجمعية. ولكننا إذا أسندنا إليه قولاً من غير ذكر اسمه فإننا نشير إليه بلقبه الذي
+اشتهر وهو (الأستاذ الإمام) ، وإنما سبق لنا تعريفه بلقبين لأن لفظ (الأستاذ)
+وحده ينصرف في كتب الكلام والأصول إلى الشيخ أبي إسحق الإسفرايني ولفظ
+(الإمام) وحده ينصرف إلى فخر الدين الرازي، ولفظ (الشيخ الإمام) أطلقه تاج الدين السبكي في كتبه على والده الشيخ تقي الدين. فعندما استقر رَأْيُنَا على
+أن نجعل لأستاذنا الذي يكثر نقلنا عنه لقبًا مختصرًا يغني عن ذكر اسمه
+ووظيفته اخترنا هاتين الكلمتين لأنه لم يشتهر بهما أحد. وقد عرف ذلك قراء
+المنار في جميع الأقطار لذلك نقره بشرطه.
+***
+(كلمة في المنار) قد كتبنا مرات متعددة على غلاف المنار بأنه لا حقّ
+للمشترك أن يطلب جزءًا من المنار لم يصل إليه بعد صدور ما بعده. ثم رأينا
+بعضهم يحتج بأنه إذا تأخر جزء يتوهم أنه لم يصدر فلا يعرف أنه قد صدر إلا بعد
+وصول ما بعده إليه. لذلك رأينا أن نمدّ في الوقت فنجعله عشرين يومًا في القطر
+المصري. فمن طلب الجزء الذي يصدر في أول الشهر مثلاً في الحادي والعشرين
+منه فما بعده فعليه أن يرسل ثمنه 25 مليمًا سواء كان قد صدر الجزء الذي بعده أم
+لا. ومن وصل إليه الجزء فأضاعه أو وهبه فلا يجوز له أن يطلب بدله إلا بالثمن.
+وربما يعدّ بعض القراء هذا تشديدًا في موضع التساهل، ولكنه إذا علم أن الطالبين
+للأجزاء المفقودة كثيرون جدًّا، وأن كل جزء نرسله يُضيّع علينا مجموعة سنة كاملة
+فإنه يعذرنا لا محالة.
+***
+(سكة الحديد الحجازية) أخبرنا من شاهد العمل في هذه السكة واختبره
+بنفسه أن الهمة المبذولة فيه عظيمة، وأن الآلات والأدوات الحديدية والخشبية التي
+في <placeName change="#d2e120" xml:id="placeName_8.d2e2304">بيروت</placeName> و<placeName change="#d2e120" xml:id="placeName_9.d2e2307">الشام</placeName> كافية لإيصال الخط إلى <placeName change="#d2e120" xml:id="placeName_10.d2e2310">مكة المكرمة</placeName>، وأن مهندسًا ألمانيًّا هناك
+قال: إن هذا الخط أمتن وأحسن من خطوط الحديد في إنكلترا، ومع هذا كله، لا
+بد لإتمام العمل من أربعة ملايين جنيه. وهو مبلغ لا يرجى له إلا سخاء صاحب
+المشروع الذي يخلّد له بتمامه على يديه أشرف الذكر وهو مولانا السلطان، وفقه
+الله تعالى لما فيه خير الأمة والدولة. ومما ينتقده جميع الذين شاهدوا العمل أمر
+التضييق على العسكر المشتغلين به، فإنهم لا يجدون ما يكفيهم من الغذاء والدواء
+وهم يعملون بجلد وثبات حيّر المهندسين الأوربيين والوافدين المتفرجين، وقد علمنا
+أن الرئيس الذي يدير العمل من خير الناس فعسى أن يوفق للمحافظة على صحة
+أولئك الجنود المساكين.
+***
+(الأذان السلطاني) بلغنا أن شيخ الجامع الأزهر أنكر في جامع القلعة هذا الأذان في الليلة السابعة والعشرين من رجب التي احتفل فيها بقراءة
+قصة المعراج، وكاشف بإنكاره مفتي الديار واتفقا على النهي عنه فَنَهَيَا فعسى
+أن يؤثر إرشادهما في محو هذه البدعة السيئة.
+***
+(نصيحة للقارئات ومن يسمع من الأميات)
+إن من خلائق الأنثى وسجاياها ما هو عون للسفهاء على إغوائها وهو أنها
+تحب دائمًا أن تكون موضع الإعجاب والاستحسان. ولذلك يتملق إليها
+المبصبصون ويخادعونها بالمدح (والغواني يغرهن الثناء) حتى يستميلوها إليهم
+ويهينوا شرفها بالمغازلة على الأقل. ومن الضعف في الأنثى أن تعتقد أن كل من
+رمى ببصره إليها يكون مستحسنًا لها. ناهيك بصاحب التحديق ونظر الترنيق وهو
+نظر العاشق المستهترعادة والمبصبص المتعلق اختلابًا وخداعًا فإنه يغر الفتاة الغرَّ
+ويقع من قلبها موقع السهم الذي سقي بالسم، وقد ورد في الحديث: (النظرة
+سهم مسموم من سهام إبليس فمن تركها خوفًا من الله آتاه الله إيمانًا يجد حلاوته في
+قلبه) رواه الحاكم وصحح إسناده.
+بلغ النساء عندنا من الغرور بتطلّع السفهاء إليهن أنك تجد نساءنا يتلفتن في
+الأسواق ماشيات. وينحنين وهن في المركبات، وقد يكنّ مع هذا من المحصنات
+النزيهات، وإن هو إلا حب توجيه الأنظار، وإعجاب النظار، وترى نساء الإفرنج
+يمشين قاصرات الطرف، مستقيمات العطف، تحسبهن في أدبهن الظاهر من
+الملائكة المقربين، وإن كان فيهن من هن أغوى من الشياطين، وما ذلك إلا لأنهن
+تربين على أدب الاجتماع، وتعلمن ما يبعد بهن عن سرعة الانخداع، وإن الظهور
+في المنكر ليزيد في ضرره لما فيه من إغواء الناس وتسهيل سبله على من لا
+يعرفه، ولذلك ورد في الشرع أن المعصية الصغيرة تكون كبيرة بالمجاهرة،
+وترى القوانين الوضعية عند الأمم كلها تحظر الجهر بما ينافي الآداب حتى ما
+تبيحه منه في السر.
+السبب في هذا التبرّج والتغنج، والتشوف والتقصف، والانثناء والانحناء،
+الذي يزيد في فساد السفهاء، هو حبُّ الأنثى لأن تكون زينة في الأعين وشغلاً
+للقلوب، وإنها لتكون كذلك في جميع الأعين وجميع القلوب إذا ظهرت بمظهر
+الكمال والصيانة ولم تلتفت لكلاب المبصبصين ولم تكلمهن إذا تعرضوا لمكالمتها
+فإن هذه الأماديح التي تسمعها منهم تنقلب إلى ضدها بعد أن تبعد عنهم فلا تسمع ما
+يقولون، فإن سفهاء الناس وغوغاءهم لا يزالون يعرفون قيمة الفضيلة ويحترمون
+أهلها.
+هذا اللين في العطف والخضوع في القول قد أطمعا أصحاب القلوب المريضة
+في كل امرأة تمر في الطريق فلا تكاد تسلم من سفههم أو عبثهم امرأة، ولا يعهد مثل
+هذا المنكر في مدينة ولا قرية مثلما يوجد في هذه البلدة الظالم أهلها. وإنا لنعجب
+من ضعف غيرة الرجال التي أباحت لهم التساهل مع نسائهم حتى أباحوا لهن كل
+هذا، إننا ليسوءنا جدًّا أن نرى البنات ينشأن على مثال أمهاتهن وعماتهن في هذا
+اللين المذموم، لا فرق بين المتعلمات منهن والجاهلات. وإننا ليحزننا أن نرى
+التلامذة الذين هم محل الرجاء، مستنين بسنة أولئك السفهاء، حتى إنك لا تكاد تجد
+فرقًا بين من نشأ في المدارس ومن نشأ في الطرق والشوارع. رأيت من أيامٍ تلميذًا
+يمشي مع إخوانه في السوق خارجين من المدرسة فمر بامرأة فوضع يده على
+وجهها وعبث ببرقعها ولم أر مثل هذه الوقاحة من غوغاء الحشاشين، فهل يغر
+البناتَ تَطَلُّعُ أمثال هذا التلميذ إليهن وتصديه لإغوائهن؟ وهل كان مغرمًا بتلك
+المرأة التي عبث ببرقعها؟ أفكان الغرام هو الحامل له على إهانتها في السوق؟
+وهل مثل هذا الغرام - إذا فُرِضَ - مما يرغب فيه.
+إنَّ ما تقدم من القول هو مقدمات النصيحة التي أقدمها للقارئات؛ والنتيجة
+المقصودة هي أن الإنسان يؤخذ دائمًا من جهة ضعفه، ومن الضعف في الأنثى
+الانخداعُ لمن يظهر لها الحب والاستحسان. وأن الرجال دائمًا يخادعون النساء
+حتى إن أحدهم ليثبت على التظاهر بالحب زمنًا طويلاً ليُصدّق. فيجب على الفتاة
+المتعلمة أن لا تصدق أحدًا من هؤلاء الشبان الذين يظهرون لها الحب والغرام فإن
+أحدهم ليخاتل كل فتاة يراها يمثل هذه المخاتلة. ولو كان صادقًا فيما يظهر من
+الإعجاب بمحاسنها والرغبة في الاقتران بها، وكان أهلاً لذلك لكان
+يغار عليها من نفسه ومن غيره، فلا يعاملها بهذه المعاملة من البصبصة والمغازلة،
+ولكنه يزيد على هذه الإهانة التي تكون منه في كل طريق، بأن يحدّث بها كل
+صديق ورفيق.
+***
+(الحسود المعمّم) كتب ذو عمامة إلى صاحب الجامعة يغريه بالطعن في
+صاحب مقالات (الإسلام والنصرانية مع العلم والمدنية) لأن صاحب العمامة
+حسد صاحب هذه المقالات على ما أوتيه من سعة العلم وقوة التأثير وعلوّ المكانة
+فحاول أن يطفئ نار حسده بذَنُوب من ذنوب ذلك الطعن الذي أمر به ولكن صاحب
+الجامعة أعقل من صاحب العمامة، وأعلم منه بقيمة تلك المقالات. وإن أنكر من
+فاتحتها ما عرف حكمته في أثنائها وخاتمتها، وإنه ليعلم أن مثل صاحب العمامة
+معه كمثل الشيطان إذ قال للإنسان اكفر، إلخ. فهو لا يراه إلا بعين النقص ولا
+يعتقد فيه إلا ما يليق به في رقة عقله ودينه، ولا يرضى لنفسه أن يكون مع
+صاحب العمامة كما كان صاحب الحمارة، على أن الطعن في مثل هذه الحال على
+مثل ذلك المقال، لا يزيد المطعون فيه إلا احترامًا وإجلالاً. ولكنه يسلّي الحسود
+لأن عقله صغير، وفكره قصير.
+***
+(مفكرة مطبعة الموسوعات) اخترع الإفرنج هذه الدفاتر التي يسمونها
+المفكرة أو المذكرة لأصحاب الأشغال الكثيرة من الحكام والتجار والمحامين. ولما
+رأت مطبعة الموسوعات أن المصريين يشترون هذه الدفاتر الإفرنجية ويتعبون في
+كتابة التاريخ في كل صفحة منها بالعربية أصدرت في هذه الأيام (مفكرة) عربية
+لسنة 1903 وضمّت التاريخ الهجري في كل صفحة منها إلى التاريخ المسيحي،
+رجعت في آخرها جداول لتحويل النقود فجاءت خيرًا من المفكرات الإفرنجية.
+وجعلت ثمن النسخة 12 قرشًا ونصفًا صحيحًا فهي أرخص من المفكرات الإفرنجية
+وتطلب من المطبعة، والمنتظر أن تصادف رواجًا عظيمًا. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_6.d2e2496"/>
             </tei:p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_6.d2e2498">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_8.d2e2500" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
