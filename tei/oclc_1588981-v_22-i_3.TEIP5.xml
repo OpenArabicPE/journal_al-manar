@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><tei:persName xml:id="pers_TG"><tei:forename>Till</tei:forename><tei:surname>Grallert</tei:surname></tei:persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_22-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_22-i_3.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_22-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_22-i_3.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><tei:change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</tei:change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><tei:change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <tei:gi>publicationStmt</tei:gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><tei:change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <tei:list change="#d2e120" xml:id="list_1.d2e124"><tei:item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <tei:gi change="#d2e120" xml:id="gi_1.d2e127">num</tei:gi> node </tei:item><tei:item change="#d2e120" xml:id="item_1.d2e130"><tei:gi change="#d2e120" xml:id="gi_1.d2e131">num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi change="#d2e120" xml:id="gi_1.d2e137">date</tei:gi> with the appropriate <tei:att change="#d2e120" xml:id="att_1.d2e140">calendar</tei:att> and <tei:att change="#d2e120" xml:id="att_1.d2e143">datingMethod</tei:att> attributes</tei:change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -61,7 +61,7 @@
    <text xml:lang="ar" change="#d2e120" xml:id="text_1.d2e227">
       <pb n="" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P3165.xhtml" change="#d2e120" xml:id="pb_1.d2e229"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="" xml:id="pb_2.d2e230"/>
       <body change="#d2e141 #d2e120" xml:lang="ar" xml:id="body_1.d2e232">
-            <tei:div type="item" subtype="masthead" change="#d2e266"><head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_1.d2e234">جمادى الأولى - هـ</head><tei:dateline change="#d2e266"><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1339" change="#d3e146 #d2e120" xml:id="date_2.d2e236">1339</date><date calendar="#cal_gregorian" when="1921" change="#d2e141 #d2e120" xml:lang="ar" xml:id="date_3.d2e242">فبراير - 1921م</date></tei:dateline></tei:div>
+            <div type="item" subtype="masthead" change="#d2e266"><head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_1.d2e234">جمادى الأولى - هـ</head><dateline change="#d2e266"><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1339" change="#d3e146 #d2e120" xml:id="date_2.d2e236">1339</date><date calendar="#cal_gregorian" when="1921" change="#d2e141 #d2e120" xml:lang="ar" xml:id="date_3.d2e242">فبراير - 1921م</date></dateline></div>
             
 
          <date calendar="#cal_gregorian" when="1921" change="#d2e141 #d2e120" xml:lang="ar" xml:id="date_3.d2e242">فبراير - 1921م</date>
@@ -71,7 +71,7 @@
          
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_1.d2e248">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_2.d2e250">حقيقة التصوف ومكانه من الشرع</head>
-<tei:p change="#d2e120" xml:id="p_2.d2e253">
+<p change="#d2e120" xml:id="p_2.d2e253">
                
 
                
@@ -411,7 +411,7 @@
 أنس كما بينه الشاطبي في الاعتصام وغيره {وَمَن يَعْتَصِم بِاللَّهِ فَقَدْ هُدِيَ إِلَى
 صِرَاطٍ مُّسْتَقِيمٍ} (آل عمران: 101) . <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_1.d2e1018">(1) مأى بالغ وتعمق أي: بعد عن طرق المتأخرين المتنطعين المتعمقين في مباحث عبارات الكتب.
 (2) أي إلى أن يعود جحر الضب الذي دخلوا فيه باتباع سنن من قبلهم واسعًا بسهولة الحنيفية السمحة، إشارة إلى حديث أبي سعيد الخدري المتفق عليه (لتتبعن سنن من قبلكم شبرًا بشبر وذراعًا بذراع حتى لو دخلوا جحر ضب تبعتموهم) هذا لفظ البخاري ولفظ مسلم (حتى لو دخلوا في جحر ضب لتبعتموهم) .</note>
-            </tei:p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_1.d2e1023">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_3.d2e1025" ref="oape:pers:689 viaf:51716068">
+            </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_1.d2e1023">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_3.d2e1025" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
                             <surname>رضا</surname>
@@ -424,7 +424,7 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_2.d2e1033">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_3.d2e1035">شرح قاعدة
 لا نكفر أحدًا من أهل القبلة بذنب</head>
-<tei:p change="#d2e120" xml:id="p_2.d2e1040">
+<p change="#d2e120" xml:id="p_2.d2e1040">
                
 (2)
 
@@ -622,7 +622,7 @@
 يتبع أحدًا فيما خالف هدي السلف الصالح في الدين معتمدين على نقل ثقات
 المحدثين دون آراء المختلفين، وهذا منتهى الإصلاح في الدين. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_2.d2e1476">(1) المنار: أي الشك في الترجيح بين المسألة الكلامية والفلسفية لا في أصل الكلام.
 (2) المنار: كتب مصحح الكتاب في المطبعة الأميرية: هكذا في الأصل ولعل في الكلام نقصًا أو تحريفًا اهـ ونقول: لعل الأصل: ذكر أن كلاًّ منها عليه إشكال، أو ذكر أن على كل منها إشكالاً.</note>
-            </tei:p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_2.d2e1481">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_4.d2e1483" ref="oape:pers:689 viaf:51716068">
+            </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_2.d2e1481">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_4.d2e1483" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
                             <surname>رضا</surname>
@@ -634,7 +634,7 @@
          
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_3.d2e1490">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_4.d2e1492">تاريخ فنون الحديث</head>
-<tei:p change="#d2e120" xml:id="p_2.d2e1495">
+<p change="#d2e120" xml:id="p_2.d2e1495">
                
 (3)
 
@@ -910,7 +910,7 @@
 (60) سنة 718. <gap resp="#org_MS" change="#d2e120" xml:id="gap_93.d2e2176"/> 
                   <gap resp="#org_MS" change="#d2e120" xml:id="gap_94.d2e2178"/> (61) سنة 944. <gap resp="#org_MS" change="#d2e120" xml:id="gap_95.d2e2180"/> 
                   <gap resp="#org_MS" change="#d2e120" xml:id="gap_96.d2e2183"/> (62) 817.</note>
-            </tei:p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_3.d2e2186">الكاتب: <persName change="#d2e141 #d2e120" xml:lang="ar" xml:id="persName_5.d2e2188">محمد عبد العزيز الخولي</persName>
+            </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_3.d2e2186">الكاتب: <persName change="#d2e141 #d2e120" xml:lang="ar" xml:id="persName_5.d2e2188">محمد عبد العزيز الخولي</persName>
          </byline></div>
             <pb n="n22-p201" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P3169.xhtml" change="#d2e120" xml:id="pb_9.d2e2192"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="201" xml:id="pb_10.d2e2194"/>
 
@@ -918,7 +918,7 @@
          
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_4.d2e2196">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_5.d2e2198">نقد مشروع تعميم التعليم الأولي</head>
-<tei:p change="#d2e120" xml:id="p_2.d2e2201">
+<p change="#d2e120" xml:id="p_2.d2e2201">
                
 
                
@@ -1286,7 +1286,7 @@
 وكأن أهل العلم بين سواده بعض النجوم الزهر في الظلماء
 أو بضعة من نسل عوج حولهم <gap resp="#org_MS" change="#d2e120" xml:id="gap_100.d2e3029"/> جمع من الأقزام والضعفاء
 (4) نص الفقرة 2: لم يعزب عن أذهاننا من بادئ الأمر أن الموضوع يتضمن اعتبارات عدة عظيمة الشأن فقد قال اللورد مورلي العالم والسياسي الشهير: إن مسائل التعليم الأهالي كيفما تنوعت طرق حلها ذات اتصال بحياة الأمم وفنائها، وقال اللورد كرزن أيام كان حاكمًا على الهند: (إن طبيب الأمة الحقيقي هو ذلك الذي يصف لها أنجع وسيلة لتربية أبنائها) وتناول كل من اللورد كرومر في كتابه (مصر الحديثة) والسير أدون غورست في الملحق الذي ذيل به كتاب اللورد ملنر وهو (إنجلترا في مصر) البحث في وجوب اتباع خطة سديدة في التربية ترمي إلى تحسين حال الأمة عامة من الوجهتين العقلية والخلقية (انظر الفقرتين 6، 15) وقال السير كلنتن دوكنز في ملحقة لكتاب اللورد ملنر (صفحة 391) : (إن التعليم بمصر شبيه بهرم مقلوب رأسه إلى أسفل) والحقيقة أن حال مصر المالية كانت إلى عهد قريب تمنع من إعداد وسائل التعليم على اختلاف فروعه، ومن سد حاجة الأمة إليه سدًّا وافيًا وقد أوثر إنفاق ما يمكن بذله من المال في هذه السبيل على توسيع نطاق التعليم ذي الصبغة الأوربية الذي يتلقاه أبناء الأغنياء، فكانت النتيجة أن تعليم العامة لم يوجه إليه من عناية أولى الأمر إلا النزر اليسير لذلك رأينا أن واجبنا غير مقصور على درس موضوع التعليم الأولى من حيث كونه مسألة قائمة بذاتها منعزلة عن سواها، وأنه لا بد لنا من مراعاة ارتباطه بالخطة القويمة التي تتبع في التعليم بوجه عام.</note>
-            </tei:p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_4.d2e3034">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_6.d2e3036" ref="oape:pers:689 viaf:51716068">
+            </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_4.d2e3034">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_6.d2e3036" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
                             <surname>رضا</surname>
@@ -1298,7 +1298,7 @@
          
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_5.d2e3043">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_6.d2e3045">الخيال في الشعر العربي</head>
-<tei:p change="#d2e120" xml:id="p_2.d2e3048">
+<p change="#d2e120" xml:id="p_2.d2e3048">
                
 (2)
 
@@ -1544,7 +1544,7 @@
 فارقًا ما بين النواح والحداء.
 (له بقية)
 ((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_5.d2e3687">(1) المنار: هذان البيتان من قصيدة للبارودي يعارض بها رائية أبي فراس المشهورة: أراك عصي الدمع شيمتك الصبر، وقد أشرنا إليها في ترجمته من مجلد المنار السابع وذكرت البيتين وعلقت عليهما بعبارة لا بأس بذكرها هنا؛ لأنها في الإشارة إلى ما فيهما من الخيال هي: ويا لله ما أرق حاشية قوله: لها في حواشي كل داجية فجر، وما أدق غزل خياله فيه، وأما البيت الثاني فإنه ليكاد يروع ببلاغته السامع حتى يخيل إليه أن الأفلاك تصدعت مما تفزعت فيلمس رأسه مخافة أن يصيبه كف منها ويتمثل له الدهر رجلاً فجئه العجب، فالتفت إلى السبب، وليكاد يلفته ما يتخيل من التفات الدهر، ويلم به الدهش والذعر، أو يذهب به الوهم إلى أن التفات الدهر هو التفات أهله فيحسب كل فرد من الناس قد ألوى عنقه وشخص ببصره منتبهًا ينظر ما يكون من فعل ذلك السيف المستل، في يد ذلك البهمة الأمثل، وجملة ما يقال في البيتين: إن هذا لهو السحر الذي يأخذ المرء عن نفسه، ويحكم سلطان الخيال في عقله وحسه.</note>
-            </tei:p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_5.d2e3690">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_7.d2e3692" ref="oape:pers:3941">محمد الخضر بن الحسين</persName>
+            </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_5.d2e3690">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_7.d2e3692" ref="oape:pers:3941">محمد الخضر بن الحسين</persName>
          </byline></div>
             <pb n="n22-p227" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P3171.xhtml" change="#d2e120" xml:id="pb_13.d2e3696"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="227" xml:id="pb_14.d2e3697"/>
 
@@ -1552,7 +1552,7 @@
          
          <div type="section" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_6.d2e3700">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_7.d2e3702">الأخبار والآراء</head>
-<tei:p change="#d2e120" xml:id="p_2.d2e3705">
+<p change="#d2e120" xml:id="p_2.d2e3705">
                
 
                
@@ -1677,7 +1677,7 @@
 (كلمة للصحف الإسلامية)
 نرجو من حرفائنا الكرام أصحاب الصحف الإسلامية في جميع الأقطار أن
 يبينوا رأيهم في هذا الاقتراح، ويحثوا قراءهم على القيام بما يرونه فيه. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_6.d2e4040"/>
-            </tei:p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_6.d2e4042">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_8.d2e4044" ref="oape:pers:689 viaf:51716068">
+            </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_6.d2e4042">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_8.d2e4044" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
                             <surname>رضا</surname>
@@ -1689,7 +1689,7 @@
          
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_7.d2e4051">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_8.d2e4053">وثائق تاريخية في المسألة العربية</head>
-<tei:p change="#d2e120" xml:id="p_2.d2e4056">
+<p change="#d2e120" xml:id="p_2.d2e4056">
                
 نشرنا في مجلدات المنار (19، 21) عدة وثائق وحوادث يصح أن يرجع
 إليها في تاريخ ما يسمى المسألة العربية، وسننشر في هذا المجلد وثائق أخرى من
@@ -1946,7 +1946,7 @@
 ((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_7.d2e4728">(1) هذا لقب ملك <placeName change="#d2e120" xml:id="placeName_58.d2e4730">الحجاز</placeName> في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_21.d2e4733">القبلة</title></bibl>.
 (*) تعبر حكومة <placeName change="#d2e120" xml:id="placeName_59.d2e4738">الحجاز</placeName> عن ثورته وما ترتب عليها بالنهضة.
 (2) سبب هذا السؤال، أن الأمير كان عازمًا على العودة إلى أوربة لحضور مؤتمر سان ريمو الذي قرر الحلفاء فيه ما يسمون الانتداب على سورية و<placeName change="#d2e120" xml:id="placeName_60.d2e4744">العراق</placeName>؛ أي: انتداب أنفسهم للاستيلاء عليها.</note>
-            </tei:p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_7.d2e4748">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_9.d2e4750" ref="oape:pers:689 viaf:51716068">
+            </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_7.d2e4748">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_9.d2e4750" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
                             <surname>رضا</surname>
