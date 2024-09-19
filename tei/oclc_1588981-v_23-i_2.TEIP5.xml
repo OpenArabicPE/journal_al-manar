@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_23-i_2.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_23-i_2.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e276">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_23-i_2.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_23-i_2.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1340">1340</date><date calendar="#cal_gregorian" when="1922" xml:lang="ar">فبراير - 1922م</date></imprint>
                   <biblScope unit="volume" from="23" to="23" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">23</biblScope>
                   <biblScope unit="issue" from="2" to="2" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">2</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e276" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -161,7 +161,7 @@
 ***
 التقليد والتلفيق فيه
 وتقليد غير الأربعة
-(س6، 7) مِن صاحب الإمضاء في <placeName change="#d2e120" xml:id="placeName_4.d2e450">بيروت</placeName> (سورية)
+(س6، 7) مِن صاحب الإمضاء في <placeName change="#d2e120 #d11e276" xml:id="placeName_4.d2e450" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> (سورية)
 حضرة صاحب الفضل والفضيلة مولانا الأستاذ المحترم السيد محمد رشيد
 رضا صاحب <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e457">المنار</title></bibl> الغراء - حفظه الله -
 السلام عليكم ورحمة الله تعالى وبركاته، وبعد:
@@ -281,9 +281,9 @@
 <p change="#d2e120" xml:id="p_2.d2e698">
                
 ألَّفه باللغة الأُوردية أحد زعماء النهضة الهندية
-مولانا أبو الكلام محيي الدين آزاد - صاحب <bibl type="periodical" subtype="journal" change="#d3e268">مجلة (<title level="j" change="#d2e191 #d2e120" xml:id="title_6.d2e704">الهلال</title>) الهندية<pubPlace><placeName ref="wiki:Q668"/></pubPlace></bibl>
+مولانا أبو الكلام محيي الدين آزاد - صاحب <bibl type="periodical" subtype="journal" change="#d3e268">مجلة (<title level="j" change="#d2e191 #d2e120" xml:id="title_6.d2e704">الهلال</title>) الهندية<pubPlace><placeName ref="geon:1269750 oape:place:293 wiki:Q668" resp="#xslt" change="#d11e276"/></pubPlace></bibl>
 وترجمه بالعربية أحد تلاميذ دار الدعوة والإرشاد
-<bibl type="periodical" subtype="newspaper" change="#d3e268"><editor><persName>الشيخ عبد الرزاق المليح آبادي</persName></editor>جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e712">بيغام</title>) الهندية<pubPlace><placeName ref="wiki:Q668"/></pubPlace></bibl>
+<bibl type="periodical" subtype="newspaper" change="#d3e268"><editor><persName>الشيخ عبد الرزاق المليح آبادي</persName></editor>جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e712">بيغام</title>) الهندية<pubPlace><placeName ref="geon:1269750 oape:place:293 wiki:Q668" resp="#xslt" change="#d11e276"/></pubPlace></bibl>
 
                
 (2)
@@ -311,11 +311,11 @@
 وواعظهم، وواضع الشريعة، ومؤسس الأمة، وحاكم البلاد، وصاحب السلطة؛
 فحينًا يقوم في المسجد على المنبر المسقف بجذوع النخل وجريده، يفسر الوحي
 الإلهي، ويكشف عن خفايا أسباب السعادة الإنسانية، فهو إذ ذاك معلم الأخلاق،
-وواعظ الخلق، وتارةً يقسم في صحن هذا المسجد نفسه خراج <placeName change="#d2e120" xml:id="placeName_5.d2e773">اليمن</placeName> على الناس،
+وواعظ الخلق، وتارةً يقسم في صحن هذا المسجد نفسه خراج <placeName change="#d2e120 #d11e276" xml:id="placeName_5.d2e773" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> على الناس،
 ويسير الجيوش إلى ميادين الوغى، فهو حينئذٍ حاكم إداري وسياسي، ثم تراه
 يصلح نظام البيوت والعائلات، وينفذ قوانين الطلاق والنكاح، وبينما هو هكذا إذ
 تأتيه الأخبار بقدوم الأعداء، فيأخذ سيفه على عاتقه، ويهبّ إليهم، ويناضلهم في
-بدر، وأحد، وتبوك، ثم تراه داخلاً كفاتحٍ عظيمٍ في <placeName change="#d2e120" xml:id="placeName_6.d2e785">مكة</placeName>، فيملكها ويكون له
+بدر، وأحد، وتبوك، ثم تراه داخلاً كفاتحٍ عظيمٍ في <placeName change="#d2e120 #d11e276" xml:id="placeName_6.d2e785" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، فيملكها ويكون له
 السلطان فيها، فيمُنّ على هامات قريشٍ، وسادات العرب بالعتق، ويقيم بأمر الله
 ميزان القسط، ولا غَروَ، فالنظام الإسلامي يوجب أن تجتمع قوى الأمة،
 ومناصبها في مركزٍ واحدٍ؛ إذ هذا الدين الحنيف الفطري لم يفرق بين الدنيا
@@ -397,7 +397,7 @@
 الخلافة الراشدة قليلاً؛ لأن الشورى هي الشرط الأول، والميزة الكبرى للحكومة
 الإسلامية الحق، أما في غير هذا فلم تغير من أحوالها شيئًا.
 ((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_2.d2e964">(1) المنار: حق التشريع في الإسلام لله؛ فهو الذي شرع الدين، وأحل الحلال، وحرم الحرام، واختلف العلماء في كونه تعالى أعطى للنبي أن يشرع من تلقاء نفسه ابتداءً أم لا، فذهب الجمهور إلى أن جميع ما ثبت في سنته من الأحكام فهو بوحيٍ من الله تعالى غير القرآن، أو باجتهادٍ في فهم أحكامه، والاستنباط منها، ولهم دلائل كثيرة على هذا، أظهرها إسناد الشرع إليه تعالى، بقوله:
-[شَرَعَ لَكُم مِّنَ الدِّينِ مَا وَصَّى بِهِ نُوحاً وَالَّذِي أَوْحَيْنَا إِلَيْكَ] (الشورى: 13) إلخ، وقوله: [ثُمَّ جَعَلْنَاكَ عَلَى شَرِيعَةٍ مِّنَ الأَمْرِ فَاتَّبِعْهَا] (الجاثية: 18) وإذا أطلق عليه - صلى الله عليه وسلم - لقب الشارع فإنما يراد به على هذا القول مبلِّغ الشريعة، ومبيِّنها، وقال بعضهم إن الله أذن له بالتشريع من تلقاء نفسه، واستدلوا بتحريمه للمدينة كما حرم إبراهيم <placeName change="#d2e120" xml:id="placeName_7.d2e968">مكة</placeName> أن يباح صيدها أو يعضد شجرها أو يُختلى خلاتها (أي يقطع حشيشها) ولما قال له عمه العباس: (إلا الإذخر يا رسول الله) ، وهو نبات عطر كانوا يضعونه على الموتى عند دفنهم، قال: (إلا الإذخر) ، ووراء هذا التشريع الديني ما جعل الله أمره مفوضًا إلى الرسول، وإلى أُولي الأمر، يقررونه بالمشاورة، وهو جميع ما يتعلق بالمصالح الدنيوية، ويسمى - في عرف علماء الحقوق، والقوانين - تشريعًا، وسنعود إلى بيانه عند الكلام على أولي الأمر.
+[شَرَعَ لَكُم مِّنَ الدِّينِ مَا وَصَّى بِهِ نُوحاً وَالَّذِي أَوْحَيْنَا إِلَيْكَ] (الشورى: 13) إلخ، وقوله: [ثُمَّ جَعَلْنَاكَ عَلَى شَرِيعَةٍ مِّنَ الأَمْرِ فَاتَّبِعْهَا] (الجاثية: 18) وإذا أطلق عليه - صلى الله عليه وسلم - لقب الشارع فإنما يراد به على هذا القول مبلِّغ الشريعة، ومبيِّنها، وقال بعضهم إن الله أذن له بالتشريع من تلقاء نفسه، واستدلوا بتحريمه للمدينة كما حرم إبراهيم <placeName change="#d2e120 #d11e276" xml:id="placeName_7.d2e968" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أن يباح صيدها أو يعضد شجرها أو يُختلى خلاتها (أي يقطع حشيشها) ولما قال له عمه العباس: (إلا الإذخر يا رسول الله) ، وهو نبات عطر كانوا يضعونه على الموتى عند دفنهم، قال: (إلا الإذخر) ، ووراء هذا التشريع الديني ما جعل الله أمره مفوضًا إلى الرسول، وإلى أُولي الأمر، يقررونه بالمشاورة، وهو جميع ما يتعلق بالمصالح الدنيوية، ويسمى - في عرف علماء الحقوق، والقوانين - تشريعًا، وسنعود إلى بيانه عند الكلام على أولي الأمر.
 (2) رواه أحمد وأبو داود والترمذي وابن ماجه من حديث العرباض بن سارية وقال الترمذي: حديث حسن صحيح، وأول المرفوع منه: (أوصيكم بتقوى الله) .
 (3) المنار: إن الانقلاب الذي وقع في آخر عهد عبد الحميد - بالرغم منه وكان قاضيًا على سلطته- لم يكن شرعيًّا، ولا وقع انتصارًا للشرع، وعودًا إليه، بل تقليدًا للإفرنج، ومن أصوله أن يسلب من الخليفة السلطة المستقلة في كل شيءٍ، ولكنه مع ذلك أدنى إلى تمكين الأمة من إقامة الحق، والعدل، ومراعاة الشرع من السلطة الاستبدادية التي كان يتمتع بها إذا كان الرأي العام في الأمة يريد ذلك.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_2.d2e976">الكاتب: <persName change="#d2e141 #d2e120" xml:lang="ar" xml:id="persName_4.d2e978">محيي الدين آزاد</persName>
@@ -415,7 +415,7 @@
 كان هَدي الإسلام في طوره الأول عبارة عن إشعال نور الحقائق وإنارة سبل
 الانتباه أمام الذين كانوا يتعبدون بالخرافات والجهل. حينما ظهر الإسلام كان عند
 العرب عقيدة ابتدائية تقوم - في نظرهم - مقام الدين. كانت عبادة الأصنام وعبادة
-النجوم من أروج العقائد المنتشرة بين العرب في ذلك الوقت، <placeName change="#d2e120" xml:id="placeName_8.d2e1005">مكة</placeName> والمدينة كانتا
+النجوم من أروج العقائد المنتشرة بين العرب في ذلك الوقت، <placeName change="#d2e120 #d11e276" xml:id="placeName_8.d2e1005" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> والمدينة كانتا
 موجودتين ومعروفتين ولكنهما كانتا أشبه بملجأ شتوي منهما بمدينتين.
 العقائد التقليدية الموروثة الراسخة في القلوب بطول القدم وتمادي الزمن توهن
 مقومات الإنسان المادية والمعنوية، وهكذا كانت الحال عند العرب حينما كانوا
@@ -486,15 +486,15 @@
 تألفت بعد وفاته صلى الله عليه وسلم. وكان رئيس الحكومة الخليفة يُنتخَب انتخابًا،
 وكان لهذا الرئيس مجلس استشاري. وكان يحق لكل فرد أن يراجع الخليفة نفسه
 إذا ظلم أو وقع عليه حَيْف.
-(8) كانت <placeName change="#d2e120" xml:id="placeName_9.d2e1162">مكة</placeName> قبل الإسلام مباءة لمعاقري الخمرة وللمقامرين وكذا المدينة،
-وكما طهر مُصْلحِ العالم <placeName change="#d2e120" xml:id="placeName_10.d2e1167">مكة</placeName> من الأصنام طهر قلوب أهلها من رجس الخمور
+(8) كانت <placeName change="#d2e120 #d11e276" xml:id="placeName_9.d2e1162" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> قبل الإسلام مباءة لمعاقري الخمرة وللمقامرين وكذا المدينة،
+وكما طهر مُصْلحِ العالم <placeName change="#d2e120 #d11e276" xml:id="placeName_10.d2e1167" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> من الأصنام طهر قلوب أهلها من رجس الخمور
 والقمار، وبقي هذا الطهر عامًّا شاملاً لأهل البلدين المكرمين إلى أن نَزَا الأمويون
 على منصة الحكومة.
-(9) منذ ظهور الإسلام شُوهد في <placeName change="#d2e120" xml:id="placeName_11.d2e1177">مكة</placeName> والمدينة رغبة في العلم وميل إلى
+(9) منذ ظهور الإسلام شُوهد في <placeName change="#d2e120 #d11e276" xml:id="placeName_11.d2e1177" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> والمدينة رغبة في العلم وميل إلى
 الحضارة؛ تعددت محافل العلم وعمت الدروس والخطب (المحاضرات) الأخلاقية
 والمواعظ الدينية , كان في رأس هذه الحركة المدنية علي كرم الله وجهه. والمدينة
-كانت تفوق <placeName change="#d2e120" xml:id="placeName_12.d2e1186">مكة</placeName> في هذا؛ من حيث كانت العاصمة، والمثابة للمفكرين من المسلمين،
-فلا غرو إذا كان تجلي حياة الإسلام العلمية فيها أكبر وأظهر من تجليها في <placeName change="#d2e120" xml:id="placeName_13.d2e1192">مكة</placeName>.
+كانت تفوق <placeName change="#d2e120 #d11e276" xml:id="placeName_12.d2e1186" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> في هذا؛ من حيث كانت العاصمة، والمثابة للمفكرين من المسلمين،
+فلا غرو إذا كان تجلي حياة الإسلام العلمية فيها أكبر وأظهر من تجليها في <placeName change="#d2e120 #d11e276" xml:id="placeName_13.d2e1192" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>.
 كان يحضر هذه المحاضرات النساء كالرجال، الخليفة وحضرة الفاروق
 وسلمان الفارسي وعبد الله بن عباس وأبو هريرة وزيد بن ثابت والسيدة عائشة
 وأمثالهم من الواقفين على أسس الإسلام، كانوا يحضرون هذه المجالس، ويحلون
@@ -696,12 +696,12 @@
 فلما حل الموعد رأيت أن مصلحة خدمة الوطن ينبغي ترجيحها على الأهل والولد،
 فعزمت، وتوكلت، وأزمعت الرحيل، تاركًا الأسرة تستقبل عيد الأضحى في
 حزنٍ، ونفاسٍ، وتمريضٍ، كما تركت أعمال المطبعة التي هي مادة المعيشة،
-وغادرت <placeName change="#d2e120" xml:id="placeName_14.d2e1635">القاهرة</placeName> في اليوم الثامن من ذي الحجة (الموافق لليوم الثاني عشر من
+وغادرت <placeName change="#d2e120 #d11e276" xml:id="placeName_14.d2e1635" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> في اليوم الثامن من ذي الحجة (الموافق لليوم الثاني عشر من
 أغسطس) ، وهو يوم التروية، ويليه يوم عرفة، فعيد الأضحى، فشق عليَّ،
 وعلى الأهل، والعيال، ولكن سفري لم يكن منه بدٌّ باتفاق الإخوان من أعضاء
 الحزب وغيرهم، وقد زارني قبله بيومين رئيس الحزب، وبالغ في وصف ما يراه
 من ضرورة سفري، وما في تأخيره عن هذا الوقت من الضرر.
-سافرت في قطار الضحى السريع من <placeName change="#d2e120" xml:id="placeName_15.d2e1649">القاهرة</placeName>، فألفيت في المركبة - التي
+سافرت في قطار الضحى السريع من <placeName change="#d2e120 #d11e276" xml:id="placeName_15.d2e1649" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، فألفيت في المركبة - التي
 ركبتها من الدرجة الأولى - ثلاثةً مِن أصحابي علماء الشرع الأذكياء المشهورين،
 وهم الشيخ محمد حسنين العدوي مِن هيئة كبار العلماء بالأزهر، والشيخ محمد
 المراغي مِن قضاة المحكمة الشرعية العليا، والشيخ محمد الضواهري شيخ الجامع
@@ -794,7 +794,7 @@
 هذا الدخان، ما أعظم ضرره، وأكثر غوائله.
 (تريسته) حاضرة من أعظم حواضر البحر في سواحل أوربة، على
 شاطئ الشمال الشرقي مِن بحر الأدرياتيك، مرفأ واسعٌ، وثغرٌ باسمٌ، في سَفْح
-جبلٍ شامخٍ، فهي كبيروت أو جونية مِن سفح لبنان، وأين مرفأ <placeName change="#d2e120" xml:id="placeName_16.d2e1856">بيروت</placeName> الصغير
+جبلٍ شامخٍ، فهي كبيروت أو جونية مِن سفح لبنان، وأين مرفأ <placeName change="#d2e120 #d11e276" xml:id="placeName_16.d2e1856" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> الصغير
 من مرفئها الكبير ذي الأرصفة الكثيرة، وكانت لدولة النمسة، فلما مزقتها الحرب
 الأخيرة آلت فيما آل إلى إيطالية مع بواخرها، وهي - في الأصل - من حواضر
 بلادها.
@@ -820,7 +820,7 @@
 وتعبيره بالكتاب - فقد يؤدي النصف أو أقل من النصف من نظريات السياسة
 والاجتماع، والفلسفة، والدين، وإنما يؤدي المراد كله في الأمور القطعية التي لا
 تختلف فيها الأفكار كأثمان السلع وجهات الطرق ومواعيد السفر وما أشبه ذلك.
-((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_4.d2e1916">(1) لقب (أمير) أنعم به ملك <placeName change="#d2e120" xml:id="placeName_17.d2e1918">الحجاز</placeName> على رجال بيت لطف الله، وهذا الإنعام اختراع له، فيه مباحث اجتماعية وأدبية ليس هذا محل بيانها.</note>
+((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_4.d2e1916">(1) لقب (أمير) أنعم به ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_17.d2e1918" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> على رجال بيت لطف الله، وهذا الإنعام اختراع له، فيه مباحث اجتماعية وأدبية ليس هذا محل بيانها.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_4.d2e1922">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_6.d2e1924" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -859,7 +859,7 @@
 الخطابة والمناظرة، وله في الكتابة السياسية والاجتماعية أسلوب خاص يشبه
 أسلوب الحكيم ابن خلدون، وكانت سياسته الوطنية السورية محصورةً في وجوب
 الإخلاص للدولة العثمانية، مهما يكن حال سلطانها ورجالها، في إدارتها وسياستها؛
-لاعتقاده أنه إذا زالت سيادة <placeName change="#d2e120" xml:id="placeName_18.d2e1990">الدولة العثمانية</placeName> عن وطنه الخاص (لبنان) ، وسائر
+لاعتقاده أنه إذا زالت سيادة <placeName change="#d2e120 #d11e276" xml:id="placeName_18.d2e1990" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> عن وطنه الخاص (لبنان) ، وسائر
 سورية، وسقط تحت سلطة دولة أوربية فإنه يذل ويخزى، وكان له خصومٌ
 كثيرون في سياسته هذه، أكثرهم مِن نصارى الجبل المشايعين لبعض الدول
 الأوربية، ومبغضون آخرون لا مثير لبغضائهم إلا الحسد، أو التعصب الديني،
@@ -915,14 +915,14 @@
 إلى أنور باشا بما عليه بطريرك الموارنة من الإخلاص للدولة، وما لا يزال ينصح
 به طائفته من وجوب التمسك بالتابعية العثمانية، ويأمر به كهنته مِن الدعاء بنصر
 الجيش العثماني، وبرقيتي هذه لا بد أن تكون مسجلةً في سجلات بيت التلغراف
-في <placeName change="#d2e120" xml:id="placeName_19.d2e2117">بيروت</placeName>، فلا أستشهد بشيءٍ إلا وشاهده حاضرٌ لأي مَن أراد التحقيق.
+في <placeName change="#d2e120 #d11e276" xml:id="placeName_19.d2e2117" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>، فلا أستشهد بشيءٍ إلا وشاهده حاضرٌ لأي مَن أراد التحقيق.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_2.d2e2123">2- </hi>مسألة جمع أسلحة النصارى:
 استشارني زكي باشا القائد المشار إليه في جمع أسلحة النصارى بقوله: إن
 عندهم في لبنان بنادق كثيرة، وربما تُنزل الأعداء عساكر في سواحل سورية،
 فينضم النصارى إليهم، فحذَّرته من هذا العمل قائلاً: إنه لا لزوم له، ولا يكون له
 نتيجة سوى قلق الخواطر، وسوء الظن بأن مقصد الدولة تجريدهم من السلاح
-لأجل الغدر بهم، فلم يكتفِ بملاحظتي الشفوية التي قلتها له في <placeName change="#d2e120" xml:id="placeName_20.d2e2137">دمشق</placeName>، بل أمهلني
+لأجل الغدر بهم، فلم يكتفِ بملاحظتي الشفوية التي قلتها له في <placeName change="#d2e120 #d11e276" xml:id="placeName_20.d2e2137" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، بل أمهلني
 ريثما ذهبت إلى بيتي في جبل لبنان، وحرر إليَّ كتابًا رسميًّا طلب مني فيه إذا
 كنت مُصِرًّا على عدم جمع سلاح النصارى أن أكفل عدم تحفزهم لقيام ما على
 الدولة. فجاوبته بما يؤيد كلامي له قبلاً، وأكدت له أنني أكفل بنفسي المسيحيين أن
@@ -930,9 +930,9 @@
 سبيل الفرض: إن بدا منهم شيءٌ مِن هذا القبيل فإنني أمشي عليهم بالدروز قبل أن
 يزحف العسكر العثماني، فسكت عن هذه المسألة مِن بعد هذا الجواب. وكتابه
 محفوظ عندي، ولا شك أن جوابي محفوظٌ في أوراق الحربية العثمانية. ولم أخبر
-بهذه المسألة سوى بكر سامي بك الذي كان والي <placeName change="#d2e120" xml:id="placeName_21.d2e2157">بيروت</placeName> وقتئذٍ، فصوَّب رأيي هذا،
+بهذه المسألة سوى بكر سامي بك الذي كان والي <placeName change="#d2e120 #d11e276" xml:id="placeName_21.d2e2157" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> وقتئذٍ، فصوَّب رأيي هذا،
 وكذلك أسررت بها إلى صديق حميمٍ لي، وهو الطيب الذكر المطران باسيليوس
-الحجار مطران الكاثوليك في <placeName change="#d2e120" xml:id="placeName_22.d2e2165">صيدا</placeName>، وأوصيته جدًّا بكتمان هذا السر؛ لأنه من
+الحجار مطران الكاثوليك في <placeName change="#d2e120 #d11e276" xml:id="placeName_22.d2e2165" ref="geon:268064 oape:place:9 wiki:Q163490" resp="#xslt">صيدا</placeName>، وأوصيته جدًّا بكتمان هذا السر؛ لأنه من
 الأسرار التي يعاقَب على إفشائها بأشد العقوبة، فكتمه بالرغم منه لإقناعي إياه
 بالخطر على حياتي إذا علمت الحكومة العسكرية بأنني أطلعت عليه أحدًا، وكان
 يتلهف إلى ساعة وفاته على كونه لا يقدر أن يخبر النصارى بما كنت أسعى به
@@ -942,10 +942,10 @@
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_3.d2e2181">3- </hi>حمل جمال باشا على احترام بطرك الموارنة:
 ولما نقلت الدولة زكي باشا من قيادة جيوش سورية، وجعلت بدلاً عنه أحمد
-جمال باشا، ورد عليَّ بواسطة بكر سامي بك والي <placeName change="#d2e120" xml:id="placeName_23.d2e2188">بيروت</placeName> تلغراف رقمي من أنور
+جمال باشا، ورد عليَّ بواسطة بكر سامي بك والي <placeName change="#d2e120 #d11e276" xml:id="placeName_23.d2e2188" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> تلغراف رقمي من أنور
 باشا بأن جمال باشا عُيِّن قائدًا للحملة المصرية، وأنه هو - أي أنور - أوصاه بي،
-فحضر جمال إلى <placeName change="#d2e120" xml:id="placeName_24.d2e2196">الشام</placeName>، وأول ما واجهته قال لي إنه سيستقدم بطريرك الموارنة
-إلى <placeName change="#d2e120" xml:id="placeName_25.d2e2201">دمشق</placeName>، ويأمر بإقامته بها، فبقيت يومين أراجعه بكلامٍ يلين الجوامد، وأبين له
+فحضر جمال إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_24.d2e2196" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، وأول ما واجهته قال لي إنه سيستقدم بطريرك الموارنة
+إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_25.d2e2201" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، ويأمر بإقامته بها، فبقيت يومين أراجعه بكلامٍ يلين الجوامد، وأبين له
 مقدار ما يكسر ذلك مِن خاطر الطائفة المارونية، على حين أن هذه الطائفة -
 وسائر المسيحيين - لا يريدون شيئا سوى رضى الدولة عنهم، فنظرًا لكونه حديث
 العهد بالمجيء، وموصى بي من الآستانة اقتنع بكلامي، وقال: ماذا يصنع إذًا أفلا
@@ -953,7 +953,7 @@
 لكنه عدا علوّ سنه مريض، وسيرسل إليك أساقفة ينوبون عنه بالسلام عليك،
 فقال: لا أقبل إلا إذا كانوا من الدرجة الأولى، فقلت له: يأتي أكبر الأساقفة،
 ومتى نَقه البطريرك يقدم بنفسه. وهكذا حفظت شرف البطريرك مِن أن يعرض
-للغض، وأخبرت عما جرى نجيب باشا الملحمة الذي كان يومئذ ب<placeName change="#d2e120" xml:id="placeName_26.d2e2222">الشام</placeName>، وكان ذهب
+للغض، وأخبرت عما جرى نجيب باشا الملحمة الذي كان يومئذ ب<placeName change="#d2e120 #d11e276" xml:id="placeName_26.d2e2222" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، وكان ذهب
 معي إلى جمال باشا، ففرح نجيب كثيرًا بهذا الخبر، وقال لي: اكتب التلغراف الذي
 تريده إلى البطريرك؛ لأجل أن أمضيه، فأبرق إلى البطريرك بإرسال المطارِين،
 وبلغني أنه كتب عما فعلت مِن جهة منع استقدامه؛ لأنني بعد عودتي إلى الجبل
@@ -961,9 +961,9 @@
 السعد الذي قال لي: لا ننسى محافظتك على بطركنا، والرجل حي يُرزق،
 والبطريرك نفسه حيٌّ، فلست مستشهدًا بغائبٍ، ولا بميت والحمد لله.
 ثم إن البطريرك، وحبيب باشا المشار إليه اقترحا عليَّ أن يكون ذهاب وجوه
-النصارى من لبنان إلى <placeName change="#d2e120" xml:id="placeName_27.d2e2242">الشام</placeName> للسلام على جمال باشا وفدًا واحدًا مع وجوه الدروز،
+النصارى من لبنان إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_27.d2e2242" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> للسلام على جمال باشا وفدًا واحدًا مع وجوه الدروز،
 هذا إذا وافق ذلك هواي، فاستحسنت ذلك، وانتخبوا هم الوفد المسيحي، وانتخبت
-أنا الوفد المحمدي، وتلاقى الوفدان ب<placeName change="#d2e120" xml:id="placeName_28.d2e2250">دمشق</placeName>، وكان المقصد مني - ومن البطريرك
+أنا الوفد المحمدي، وتلاقى الوفدان ب<placeName change="#d2e120 #d11e276" xml:id="placeName_28.d2e2250" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، وكان المقصد مني - ومن البطريرك
 ومن حبيب باشا - أن نعلن للحكومة العثمانية اتحادنا في لبنان، وأنه ليس بيننا
 خلافٌ، فلا تمتد يدٌ بالتضريب فيما بيننا، وما أظن أحدًا يقدر أن ينكر كون مثل
 هذه السياسة تدل على حسن النية وحب السلام.
@@ -971,22 +971,22 @@
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_4.d2e2262">4- </hi>بدء جمال باشا بمؤاخذة بعض وجهاء لبنان:
 ثم إن جمال باشا استقدم عدةً من وجوه الجبل الذين كان يبلغ الدولة منذ زمن
 طويل - أنهم يحطبون في حبل الأجانب، هذا في حبل الفرنسيين، وذاك في حبل
-الإنكليز <gap resp="#org_MS" change="#d2e120" xml:id="gap_53.d2e2271"/> إلخ، وأمر بإقامتهم ب<placeName change="#d2e120" xml:id="placeName_29.d2e2273">دمشق</placeName>، وكنت يومئذٍ في لبنان أجمع متطوعين
-للذهاب إلى حرب الترعة، فلما ذهبت بالمتطوعين إلى <placeName change="#d2e120" xml:id="placeName_30.d2e2279">دمشق</placeName> تلاقيت مع حبيب
-باشا السعد في محطة البرامكة، فقال لي: إن جمال باشا أمر بإقامتي ب<placeName change="#d2e120" xml:id="placeName_31.d2e2284">الشام</placeName> مع
+الإنكليز <gap resp="#org_MS" change="#d2e120" xml:id="gap_53.d2e2271"/> إلخ، وأمر بإقامتهم ب<placeName change="#d2e120 #d11e276" xml:id="placeName_29.d2e2273" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، وكنت يومئذٍ في لبنان أجمع متطوعين
+للذهاب إلى حرب الترعة، فلما ذهبت بالمتطوعين إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_30.d2e2279" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> تلاقيت مع حبيب
+باشا السعد في محطة البرامكة، فقال لي: إن جمال باشا أمر بإقامتي ب<placeName change="#d2e120 #d11e276" xml:id="placeName_31.d2e2284" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> مع
 غيري، وإنما أذن لي بالذهاب إلى البيت لجلب ثيابي، فذهبت توًّا إلى جمال باشا،
-وفتحت له هذه المسألة أمام خلوصي بك الذي كان واليًا ب<placeName change="#d2e120" xml:id="placeName_32.d2e2292">الشام</placeName>، واعترضت بحدة،
+وفتحت له هذه المسألة أمام خلوصي بك الذي كان واليًا ب<placeName change="#d2e120 #d11e276" xml:id="placeName_32.d2e2292" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، واعترضت بحدة،
 فأجاب أنه لا يقبل مني تعرُّضًا لموضوع لم يسألني هو عنه، فقلت له: إنما
 تكلمت لكوني أدرى بأمور بلادي، وبعد الآن لا أتكلم بشيءٍ، وخرجت مغاضِبًا.
 وفي اليوم التالي ذهب جمال إلى زحلة لاستعراض الجند، فشاهد حبيب باشا، فأذن
-له بالانصراف، وعاد إلى <placeName change="#d2e120" xml:id="placeName_33.d2e2303">الشام</placeName>، وطيَّب خاطري، وأنا سافرت إلى الترعة عن
-طريق معان، وسافر جمال إلى <placeName change="#d2e120" xml:id="placeName_34.d2e2309">القدس</placeName>، وفي أثناء وجوده في <placeName change="#d2e120" xml:id="placeName_35.d2e2312">القدس</placeName> أبرق إليه
+له بالانصراف، وعاد إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_33.d2e2303" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، وطيَّب خاطري، وأنا سافرت إلى الترعة عن
+طريق معان، وسافر جمال إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_34.d2e2309" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>، وفي أثناء وجوده في <placeName change="#d2e120 #d11e276" xml:id="placeName_35.d2e2312" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> أبرق إليه
 بعض الأساقفة المارونيين يلتمسون إطلاق سراح الذين كانوا مأمورين بالإقامة
-ب<placeName change="#d2e120" xml:id="placeName_36.d2e2319">دمشق</placeName>، فغضب مِن تدخل الأساقفة فيما لا يعنيهم، وأمر بنقل أولئك الجماعة إلى
-القدس، ولما رجعنا من حملة الترعة أمر جمال بمجيئنا إلى <placeName change="#d2e120" xml:id="placeName_37.d2e2325">القدس</placeName>، فوجدت
+ب<placeName change="#d2e120 #d11e276" xml:id="placeName_36.d2e2319" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، فغضب مِن تدخل الأساقفة فيما لا يعنيهم، وأمر بنقل أولئك الجماعة إلى
+القدس، ولما رجعنا من حملة الترعة أمر جمال بمجيئنا إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_37.d2e2325" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>، فوجدت
 الجماعة المذكورين هناك، فرجوته أن يطلقهم، مع أن بعضهم كانوا مِن ألد
 خصومي، فلم يُجب سُؤْلي إلا في المرحومين خليل بك الخوري، وسليم بك
-المعوشي، وكانا لم يصلا إلى <placeName change="#d2e120" xml:id="placeName_38.d2e2334">القدس</placeName>، فأمر برجوعهما، فطفق المفسدون يتقوَّلون
+المعوشي، وكانا لم يصلا إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_38.d2e2334" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>، فأمر برجوعهما، فطفق المفسدون يتقوَّلون
 بكوْني أنا الذي أشار بنفي الآخرين.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_5.d2e2342">5- </hi>رد شبهة عن الكاتب واستبداد جمال باشا:
@@ -1016,10 +1016,10 @@
 السلطان مع جمال في استبقاء صالح باشا في الحياة على الأقل، فلم يقبلوا منه،
 وكان التشديد من جمال، كما كان يروي ذلك هو عن نفسه. أفبعد هذا يقال: لماذا
 لم يمنعه شكيب أرسلان عن قتل زيدٍ ونفي عمرٍو؟ !
-ثم إنه لما أراد إعادة الذين كانوا في <placeName change="#d2e120" xml:id="placeName_39.d2e2404">القدس</placeName> إلى أوطانهم أبرق إلى رضا باشا
+ثم إنه لما أراد إعادة الذين كانوا في <placeName change="#d2e120 #d11e276" xml:id="placeName_39.d2e2404" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> إلى أوطانهم أبرق إلى رضا باشا
 قائد لبنان أن يسألني رأيي في إطلاقهم، فأجبته أنه لا يوجد من ذلك أدنى محذورٍ،
 وأنا كفيلٌ لهم (مع أن منهم خمسة أشخاص كان مقطوعًا بيني وبينهم حتى السلام
-والكلام) ، وأبرقنا بذلك إلى <placeName change="#d2e120" xml:id="placeName_40.d2e2413">القدس</placeName>، فأطلق نصفهم، ثم قبل إطلاق النصف الآخر
+والكلام) ، وأبرقنا بذلك إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_40.d2e2413" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>، فأطلق نصفهم، ثم قبل إطلاق النصف الآخر
 ألقوا عليَّ السؤال نفسه، فأجبت كأول مرة، وأظن أن هذه التلغرافات مقيدة مسجلة،
 فلا تصعب مراجعتها.
 
@@ -1035,8 +1035,8 @@
 فلا أجد فتح هذا الباب في محله، ولكثرة مراجعتي إياه كتم عني نيته إلى أن أنفذ
 فيهم ما أراد، ومن بعد ذلك ابتدأ الخلاف بيني وبينه تدريجيًّا بحسب تزايد شدته،
 ومن جملة مَن راجعتهم في أمر نصحه بترك هذه الشدة - من ولاة الدولة - عزمي
-بك والي <placeName change="#d2e120" xml:id="placeName_41.d2e2452">بيروت</placeName> وخلوصي بك والي <placeName change="#d2e120" xml:id="placeName_42.d2e2455">الشام</placeName> وعزمي بك الآخر والي <placeName change="#d2e120" xml:id="placeName_43.d2e2458">الشام</placeName> بعد
-خلوصي، وتحسين بك والي <placeName change="#d2e120" xml:id="placeName_44.d2e2464">الشام</placeName> بعد عزمي، وعلي منيف بك متصرف لبنان،
+بك والي <placeName change="#d2e120 #d11e276" xml:id="placeName_41.d2e2452" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> وخلوصي بك والي <placeName change="#d2e120 #d11e276" xml:id="placeName_42.d2e2455" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وعزمي بك الآخر والي <placeName change="#d2e120 #d11e276" xml:id="placeName_43.d2e2458" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> بعد
+خلوصي، وتحسين بك والي <placeName change="#d2e120 #d11e276" xml:id="placeName_44.d2e2464" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> بعد عزمي، وعلي منيف بك متصرف لبنان،
 وعلي فؤاد بك رئيس أركان حرب الفيلق الرابع، وكلهم أحياء لم يمُت منهم سوى
 خلوصي بك.
 ولما أرسلت الدولة سنة 1916 وفدًا تركيًّا إلى سورية مؤلفًا من بضعة عشر
@@ -1060,9 +1060,9 @@
 الدولة من الأضرار بالنكال بهم، وحملنا علي فؤاد بك رئيس أركان الحرب على
 الكلام معه في هذا الموضوع لما كان له من نفاذ الكلمة لديه، وأكدنا الرجاء الشفوي
 بالرجاء كتابةً أولاً، وثانيًا، فلم تكن تعجبه هذه المساعي مني، ولم تسؤْه إلا عند
-ما كلمت عزمي بك والي <placeName change="#d2e120" xml:id="placeName_45.d2e2520">الشام</placeName> في ذلك، وكان تعيينه لتلك الولاية بدون علمه،
+ما كلمت عزمي بك والي <placeName change="#d2e120 #d11e276" xml:id="placeName_45.d2e2520" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> في ذلك، وكان تعيينه لتلك الولاية بدون علمه،
 فاحتج على تعيينه وطلب صرفه، فاستمهلوه ثلاثة أشهر، بعدها عاد عزمي
-المذكور إلى الآستانة، وقبل سفره من <placeName change="#d2e120" xml:id="placeName_46.d2e2527">دمشق</placeName> ذهبت إليه في دار الولاية، وطلبت
+المذكور إلى الآستانة، وقبل سفره من <placeName change="#d2e120 #d11e276" xml:id="placeName_46.d2e2527" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> ذهبت إليه في دار الولاية، وطلبت
 منه مقابلة سرية، وقلت له في مبدأ خطابي إنني مودع هذه الكلمات شرفك، وأرجو
 أن لا تعيدها إلا إلى طلعت بك ناظر الداخلية، وهي أن تمادي جمال باشا في
 إرهاف الحد سيكون منه خطر على سورية، وينشأ عنه شقاق طويل بين العرب
@@ -1104,7 +1104,7 @@
 ولما جاء أنور باشا سورية، وكان السهم لما ينفذْ في القافلة الثانية -
 افترصت زيارته لخلاصهم، فحرص جمال جد الحرص على منع المخالطة له
 طول هذه السياحة من الآستانة إلى المدينة المنورة، حتى إنني لما طلبت منه
-الاجتماع في جلسة سرية في (أوتل بترو) في <placeName change="#d2e120" xml:id="placeName_47.d2e2627">دمشق</placeName> لم أكد أبدأ معه بالحديث حتى
+الاجتماع في جلسة سرية في (أوتل بترو) في <placeName change="#d2e120 #d11e276" xml:id="placeName_47.d2e2627" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> لم أكد أبدأ معه بالحديث حتى
 عرف جمال باشا بواسطة أحد عيونه - الذين كانوا محيطين بأنور ليلاً ونهاراً -
 فجاء، ودخل علينا بغتةً بدون استئذان، وقال لأنور: نحن مدعوون عند فخري
 باشا أفلم يحن الوقت للذهاب؟ فنظر إليَّ أنور، وقال: ألا يمكن إرجاء الحديث
@@ -1127,7 +1127,7 @@
 الطريق. وقد عرف كثير من أعيان سورية يومئذٍ بما وقع، وقالوا لي قد عملت
 الذي عليك.
 ثم عندما صمم جمال على شنق الجماعة استدعى إليه شكري بك رئيس
-الديوان العرفي في عاليه إلى <placeName change="#d2e120" xml:id="placeName_48.d2e2680">الشام</placeName>، وأعطاه - على ما علمت من شكري بك نفسه-
+الديوان العرفي في عاليه إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_48.d2e2680" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، وأعطاه - على ما علمت من شكري بك نفسه-
 أسماء 40 شخصًا يجب أن يُحكم عليهم بالموت، فراوده شكري بك كثيرًا،
 ودافع كثيرًا، فتهدده بالقتل (بحسب قوله) ، ولما قال له: إن وجداني لا يرتاح
 إلى الحكم بالموت على ثلاثة، وبالكثير على خمسة - استحضر جمال باشا أعضاء
@@ -1147,7 +1147,7 @@
 القنصل في منزلي، وقال لي: قد تحقق لي الآن أنك كنت على بينة مما تقول،
 ولم يرد جواب تلغرافي إلى اليوم. ثم لقيته بعد أيام، فقال لي: إن سفارتنا لم تقدر
 أن تصنع شيئًا، ولكن الأتراك سيندمون على هذا العمل. وأخذ لوتفيد يُظهر أسفه
-مما حصل أمام الكثيرين من أهل <placeName change="#d2e120" xml:id="placeName_49.d2e2726">الشام</placeName>؛ ليبرئوا ألمانيا من هذه الحادثة، ولعل
+مما حصل أمام الكثيرين من أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_49.d2e2726" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>؛ ليبرئوا ألمانيا من هذه الحادثة، ولعل
 الحكومة الألمانية بعد رجوع العلاقات الدولية إلى ما كانت عليه - تنشر مثل هذه
 المراسلات، فيظهر ما لعل المسيو كولمان - السفير الألماني الذي كان سنة 1917
 في الآستانة - قد أخبر به حكومته، عما كنت قررته له من حقيقة هذه المسألة؛ فقد
@@ -1156,7 +1156,7 @@
 باطنًا احتلال فرنسة، ولكن لا الزهراوي، ولا شفيق المؤيد، ولا العسلي، ولا
 الشمعة إلخ - يريد احتلال فرنسة لسورية، بل هم وطنيون مثلنا، ويكرهون
 احتلال الأجانب لبلادنا كما نكرهه نحن وزيادة، مع إن هؤلاء قاموا بحركة استقلال
-إداري داخلي، وبطلب حقوق للعرب معلومة مع البقاء ضمن دائرة <placeName change="#d2e120" xml:id="placeName_50.d2e2749">الدولة العثمانية</placeName>،
+إداري داخلي، وبطلب حقوق للعرب معلومة مع البقاء ضمن دائرة <placeName change="#d2e120 #d11e276" xml:id="placeName_50.d2e2749" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>،
 وليس في ذلك خيانة تستحق العقوبة بالقتل، فضلاً عن الخطأ السياسي العظيم
 الذي ارتُكب في هذه الواقعة، والذي أوجد هذا النفور بين العرب والترك، فسكت
 السفير لكلامي هذا الذي عززته بقولي: إنني لم أكن على مشرب واحد في السياسة
@@ -1507,7 +1507,7 @@
 والبريطاني أن جُل فائدة فرنسا منه اقتصادية، وأما الإنكليز فلهم وراء المنافع
 الاقتصادية مقاصد أخرى دينية وسياسية، هي عندهم أهم مِن المنافع المالية، فهم
 يطمعون في تنصير المسلمين، وجعْلهم إنجيليين، حتى إن رئيس وزارتهم قد
-استهوته نشوة السرور بفتح <placeName change="#d2e120" xml:id="placeName_51.d2e3503">القدس</placeName>، فصرح في مجلس الأمة بأن هذه آخر حرب
+استهوته نشوة السرور بفتح <placeName change="#d2e120 #d11e276" xml:id="placeName_51.d2e3503" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>، فصرح في مجلس الأمة بأن هذه آخر حرب
 صليبية، وهو ما كانوا يكتمونه مِن قبل، فلا عجب بعد هذا إذا أظهرت جميع
 كنائسهم الابتهاج بهذا الفتح الصليبي الديني، ثم إنهم يطمعون في سيادة العالم كله،
 ويظنون أنهم قد صاروا على مقربةٍ من الوصول إلى هذه الغاية، ومن مبادئ ذلك
@@ -1555,7 +1555,7 @@
 فصَّلته في تلك المذكرة، ولكن لويد جورج لا يزال ثملاً بخمرة الظفر بالدولة
 الألمانية، والاستعلاء على جميع الدول الأوربية، ويتوهم أنه قادر على حل جميع
 المشكلات بأخاديع الوعود، ونُذُر الوعيد، وضروب التغرير، وبدر الدنانير،
-(وأن صيحة مصر لا تزيد على صرخة طفلٍ، وثورة <placeName change="#d2e120" xml:id="placeName_52.d2e3610">العراق</placeName> لا تعدو ثوران هِرٍّ،
+(وأن صيحة مصر لا تزيد على صرخة طفلٍ، وثورة <placeName change="#d2e120 #d11e276" xml:id="placeName_52.d2e3610" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> لا تعدو ثوران هِرٍّ،
 وأن هيجة الهند كهيجة دعد وهند، وغضبة الأفغان كغضبة فيروز ومَرجان) .
 وغرضي الآن أن أعرض على فرنسة ما عرضته على إنكلترة قبلها، فهي
 أجدر بقبوله لانتفاء المانع، وثبوت المقتضي اللذين ذكرناهما آنفًا، وليس من
@@ -1584,15 +1584,15 @@
 موسيو روبير دوكيه يقول باسمه، واسم الجنرال غورو - الذي هو أمين سره -
 إن هذا المشروع حقيقي لا خيالي فأجدر بمثل موسيو بوانكاره وموسيو مليران أن
 يقتنعوا به إذا حاول إقناعهم به مَن هم أهلٌ لذلك، ولكن البحث في تمحيص المسألة
-وقف عند ذلك الحديث، فلم يهتم أحدٌ مِن كبراء أهل <placeName change="#d2e120" xml:id="placeName_53.d2e3676">بيروت</placeName>، ولا من غيرهم أن
+وقف عند ذلك الحديث، فلم يهتم أحدٌ مِن كبراء أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_53.d2e3676" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>، ولا من غيرهم أن
 يعيدوا الكرَّة، فيبحثوا مع الجنرال غورو في المسألة فيما أعلم، على أنني حدثت
 كل مَن رأيته أهلاً للوقوف على ذلك فيه فسُرَّ به، وقدَّره قدْره على تفاوت الأفكار
 في اليأس منه والرجاء فيه.
 وأما عذري في تلك العودة إلى البحث في ذلك فهو أنني لما عدت مِن بيروت
-إلى <placeName change="#d2e120" xml:id="placeName_54.d2e3690">دمشق</placeName> اشتغلت مع سائر أعضاء المؤتمر، وغيرهم مِن الأحزاب السياسية في
+إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_54.d2e3690" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> اشتغلت مع سائر أعضاء المؤتمر، وغيرهم مِن الأحزاب السياسية في
 شأن إعلان استقلال البلاد السورية، ووضع القانون الأساسي لحكومتها. وفي أثناء
 ذلك وقعت المشادّة والمحادّة بين الملك فيصل والجنرال غورو، حتى انتهى ذلك
-بزحف الثاني بجنده على <placeName change="#d2e120" xml:id="placeName_55.d2e3700">دمشق</placeName>، وإخراج الأول منها، ثم عدت إلى مصر في أول
+بزحف الثاني بجنده على <placeName change="#d2e120 #d11e276" xml:id="placeName_55.d2e3700" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، وإخراج الأول منها، ثم عدت إلى مصر في أول
 فرصة أمكنني فيها السفر كما أذكر بعد، على أن فرنسة شرعت - بعد ذلك - في
 عقد اتفاق بينها وبين حكومة أنقرة التركية، فتركت للترك كليكية وجزءًا مِن ولاية
 حلب السورية، وتوسلت بذلك إلى بث الدعوة بأنها صديقة الإسلام، ونصيرة
@@ -1769,8 +1769,8 @@
 عن أكثر مسلمي مصر وتونس، مع إكبارهم لشأن مصطفى باشا كمال، وشيعته
 المنقذة للدولة والشعب التركي؛ فإن هؤلاء الجاهلين بحقيقة أحوال الدولة - على
 إخلاصهم في حبها - لا يصدقون أن مصطفى باشا كمال لا يأذن لأحدٍ مِن زعماء
-الاتحاديين بدخول <placeName change="#d2e120" xml:id="placeName_56.d2e4078">الأناضول</placeName>، وأنه هو وجميع شيعته يعتقدون أنه لم يجنِ أحدٌ مِن
-البشر على <placeName change="#d2e120" xml:id="placeName_57.d2e4083">الدولة العثمانية</placeName>، والشعب التركي في دينه ودنياه كجنايتهم، وهؤلاء
+الاتحاديين بدخول <placeName change="#d2e120 #d11e276" xml:id="placeName_56.d2e4078" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>، وأنه هو وجميع شيعته يعتقدون أنه لم يجنِ أحدٌ مِن
+البشر على <placeName change="#d2e120 #d11e276" xml:id="placeName_57.d2e4083" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>، والشعب التركي في دينه ودنياه كجنايتهم، وهؤلاء
 وأشباههم هم الذين كانوا يتشيعون للسلطان عبد الحميد على الاتحاديين وغيرهم مِن
 رجال الدولة، ولم يعترفوا بظلمه واستبداده إلا بعد خلعه.
 ولسنا نريد بهذه الكلمة إقناعهم، بل تذكير المستعدين للفهم والحريصين على
@@ -1783,7 +1783,7 @@
 بجميع اللغات التي تتكلم بها الشعوب الإسلامية، ونشرها في جميع أقطارها،
 وعلى المصريين - ولا سيما أمرائهم - أن يكونوا هم السابقين إلى هذه الخدمة
 الجليلة التي يحق لهم الفخر بها، ولا سيما إذا جمعوا بين نشرها، والاعتبار
-والعمل بها. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_8.d2e4115">(1) هو أحد أمراء الأسرة الوارثة لملك محمد علي بمصر، وإنما نقلنا هذه الترجمة لما فيها من تأييد رأينا في زعماء الاتحاديين في <placeName change="#d2e120" xml:id="placeName_58.d2e4117">الدولة العثمانية</placeName>، ولما هو عندنا فوق ذلك، وهو آراء الأمير الاجتماعية والسياسية الموافقة لرأينا، وما نعتقد في نشرها من الفائدة.</note>
+والعمل بها. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_8.d2e4115">(1) هو أحد أمراء الأسرة الوارثة لملك محمد علي بمصر، وإنما نقلنا هذه الترجمة لما فيها من تأييد رأينا في زعماء الاتحاديين في <placeName change="#d2e120 #d11e276" xml:id="placeName_58.d2e4117" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>، ولما هو عندنا فوق ذلك، وهو آراء الأمير الاجتماعية والسياسية الموافقة لرأينا، وما نعتقد في نشرها من الفائدة.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_8.d2e4121">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_10.d2e4123" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -1806,9 +1806,9 @@
 مِن قومه، وارتأى آراءَ نوافقه على بعضها دون بعض، وقد نشرت <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_12.d2e4152">الأهرام</title></bibl>
 بعض هذه المقالات مترجمةً بالعربية، فترتب على نشرها ما يأتي ذكره من الوثائق
 الرسمية في المسألة العربية.
-ومما قاله أن إنكلترة أرغمت <placeName change="#d2e120" xml:id="placeName_59.d2e4160">العراق</placeName> على قبول فيصل ملكًا عليها، وجزمت
-الحكومة البريطانية رأيها بعدم السماح بتأسيس جمهورية في <placeName change="#d2e120" xml:id="placeName_60.d2e4166">العراق</placeName> ناكثة بذلك
-عهودها للعرب، ويعتقد الكثيرون أنه لو أُخذ رأي أهل <placeName change="#d2e120" xml:id="placeName_61.d2e4171">العراق</placeName> بحريةٍ لأسفر
+ومما قاله أن إنكلترة أرغمت <placeName change="#d2e120 #d11e276" xml:id="placeName_59.d2e4160" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> على قبول فيصل ملكًا عليها، وجزمت
+الحكومة البريطانية رأيها بعدم السماح بتأسيس جمهورية في <placeName change="#d2e120 #d11e276" xml:id="placeName_60.d2e4166" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ناكثة بذلك
+عهودها للعرب، ويعتقد الكثيرون أنه لو أُخذ رأي أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_61.d2e4171" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بحريةٍ لأسفر
 استفتاؤهم عن رغبتهم في تأسيس حكومة جمهورية؛ ولذلك كانت استشارة الرأي
 العام هنالك صورية بأن سئل زعماء مشايخ القبائل، وأعيان البلاد: هل يقبلون
 نصب الأمير فيصل ملكًا دستوريًّا عليهم أو يرفضون؟ ! ، ولم يكن مِن المنتظر أن
@@ -1816,17 +1816,17 @@
 بالسيد طالب [1] . بل كان كل منهم يخشى على حياته إذا عارض في توليته، فلم
 يعارض أحدٌ، بالرغم مِن أنهم جميعًا يرفضون، فالعراق في هذه اللحظة ملؤها
 البغض، والحقد، والرغبة في الانتقام.
-ثم ذكر عودًا على بدءٍ طمع أمراء <placeName change="#d2e120" xml:id="placeName_62.d2e4191">الحجاز</placeName> بتأسيس مملكةٍ عربيةٍ مِن البحر
+ثم ذكر عودًا على بدءٍ طمع أمراء <placeName change="#d2e120 #d11e276" xml:id="placeName_62.d2e4191" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بتأسيس مملكةٍ عربيةٍ مِن البحر
 الأحمر إلى خليج فارس، يدخل فيها شواطئ سورية وقال: إن فكرة الوحدة العربية
-الجنسية غير موجودةٍ في هذه البلاد الآن، وإن بعض رجال الإنكليز في <placeName change="#d2e120" xml:id="placeName_63.d2e4199">القاهرة</placeName>،
-ولندن، وفلسطين، و<placeName change="#d2e120" xml:id="placeName_64.d2e4204">العراق</placeName> يؤيدون هذا المشروع خلافًا لخطة حكومتهم المتفقة
+الجنسية غير موجودةٍ في هذه البلاد الآن، وإن بعض رجال الإنكليز في <placeName change="#d2e120 #d11e276" xml:id="placeName_63.d2e4199" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>،
+ولندن، وفلسطين، و<placeName change="#d2e120 #d11e276" xml:id="placeName_64.d2e4204" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> يؤيدون هذا المشروع خلافًا لخطة حكومتهم المتفقة
 مع فرنسا على تقسيمها، وذكر ما سلم به مستر تشرشل وزير مستعمراتهم من
 ثبوت وجود تيار خفي من الترامي بالتهم بين الموظفين البريطانيين والفرنسيس،
 قال: وستزداد الحال سوءًا إلى أن يكبح الرأي العام البريطاني جماح دعاة الجامعة
 العربية بيد قوية.
 ثم ذكر مهاجمة الملكِ حسين وابنه الأميرِ عبدِ اللهِ سعود، وكون ذلك نقضًا
 لعهدهم الصريح بعدم التعدي على أحدٍ مِن أمراء البلاد العربية، قال: (ولكن
-الوهابيين هزموهما ثلاث مرات هزيمةً معيبةً، وصارت <placeName change="#d2e120" xml:id="placeName_65.d2e4223">مكة</placeName> في (مايو سنة
+الوهابيين هزموهما ثلاث مرات هزيمةً معيبةً، وصارت <placeName change="#d2e120 #d11e276" xml:id="placeName_65.d2e4223" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> في (مايو سنة
 1919) تحت رحمتهم؛ إذ إنه لم يبق لهم إلا السير إليها، ودخولها، ولكننا طلبنا
 مِن ابن سعود أن يسحب قواته، ففعل إجابة لطلبنا، وطالما صبر على تحمل
 الاعتداءات المتكررة التي يرتكبها الحجازيون اعتداءً عليه، ويلوح لنا أنه لا شك
@@ -1834,34 +1834,34 @@
 الملك حسين) ، وذكر مِن قوتهم أنهم لو لقوا مِن المساعدة ما لقي الملك حسين
 لاستطاعوا إخضاع جبل شمر <gap resp="#org_MS" change="#d2e120" xml:id="gap_69.d2e4239"/> على أنهم أخضعوا هذا الجبل مِن غير مساعدة
 أحدٍ.
-ثم ذكر أنهم أنذروا المعتمد البريطاني في <placeName change="#d2e120" xml:id="placeName_66.d2e4245">العراق</placeName> (السير برسي كوكس) بأنه
+ثم ذكر أنهم أنذروا المعتمد البريطاني في <placeName change="#d2e120 #d11e276" xml:id="placeName_66.d2e4245" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> (السير برسي كوكس) بأنه
 عيل صبرهم، وسيضطرون إلى معاملة الملك حسين بمثل اعتدائه إلا إذا استطعنا
-رد شكيمته، وأن ابن سعود لا يرى بجعْله بين نارين بوضع فيصل في <placeName change="#d2e120" xml:id="placeName_67.d2e4253">العراق</placeName> مع
+رد شكيمته، وأن ابن سعود لا يرى بجعْله بين نارين بوضع فيصل في <placeName change="#d2e120 #d11e276" xml:id="placeName_67.d2e4253" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> مع
 عبد الله خصمًا ثالثًا في شرق الأردن، (قال) : فرد عليه السير برسي كوكس
 مخاطبًا إياه بملك نجد. وبهذه المداهنة، وبدفعة قدرها ستون ألف جنيه تدفع مؤخرًا
 (كذا، والصواب أنها تُدفع مشاهرة كل شهر خمسة آلاف جنيه) يرجون إبقاءه
 ساكنًا، ثم صرح الكاتب باستنكار هذه السياسة المالية، وجزم بخيبتها، ثم قال:
-(لم تبق إلا خطةٌ واحدةٌ: يجب علينا أن نجلو عن <placeName change="#d2e120" xml:id="placeName_68.d2e4267">العراق</placeName> في الوقت الذي نستطيع
-فيه الجلاء، وهذا أنسب الأوقات؛ ففي <placeName change="#d2e120" xml:id="placeName_69.d2e4272">العراق</placeName> حكومة عربية، وحاكم عربي)
+(لم تبق إلا خطةٌ واحدةٌ: يجب علينا أن نجلو عن <placeName change="#d2e120 #d11e276" xml:id="placeName_68.d2e4267" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> في الوقت الذي نستطيع
+فيه الجلاء، وهذا أنسب الأوقات؛ ففي <placeName change="#d2e120 #d11e276" xml:id="placeName_69.d2e4272" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> حكومة عربية، وحاكم عربي)
 إلخ.
-ثم أيد هذا بما ستُسْتَهْدَف له السياسة البريطانية في <placeName change="#d2e120" xml:id="placeName_70.d2e4280">العراق</placeName> مِن المشكلات،
+ثم أيد هذا بما ستُسْتَهْدَف له السياسة البريطانية في <placeName change="#d2e120 #d11e276" xml:id="placeName_70.d2e4280" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> مِن المشكلات،
 والخسائر، واتساع مسافة الخُلف بينهم وبين فرنسة، وبحث في قواتهم العسكرية
-في <placeName change="#d2e120" xml:id="placeName_71.d2e4287">العراق</placeName>، وتوقع حدوث حرب جديدة بينهم وبين العراقيين إن لم يقبل اقتراحه
+في <placeName change="#d2e120 #d11e276" xml:id="placeName_71.d2e4287" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وتوقع حدوث حرب جديدة بينهم وبين العراقيين إن لم يقبل اقتراحه
 بعد أن أشار متهكمًا بلطفٍ إلى الأساطيل الهوائية الثمانية التي أوجدوها في العراق
 لتحقيق فكرة مستر تشرشل الجميلة في المواصلات الهوائية فوق الصحراء!
 ثم ألمَّ بذِكر المعاهدة التي سيعقدونها مع فيصل محذرًا مِن انتفاع أصحاب فكرة
-الجامعة العربية بها، وذكر ما قرره مؤتمر <placeName change="#d2e120" xml:id="placeName_72.d2e4299">القاهرة</placeName> [2] مِن إبقاء الجنود العربية
+الجامعة العربية بها، وذكر ما قرره مؤتمر <placeName change="#d2e120 #d11e276" xml:id="placeName_72.d2e4299" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> [2] مِن إبقاء الجنود العربية
 تحت قيادة ضباط بريطانيين مِن حيث هم قوة إمبراطورية، وإباحته زيادة هذه
 الجنود، وذكر تجنيد الأكراد، والكلدانيين، والأوربيين وإنفاقهم عليهم كثيرًا من
 النفقات [3] وحذر من العاقبة، ومن الاغترار بربح زيت البترول.
 هذا ملخص هذه المقالة، وقد نقلتها <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_13.d2e4311">القبلة</title></bibl> عن الأهرام بنصها في العدد
-553 الذي صدر ب<placeName change="#d2e120" xml:id="placeName_73.d2e4316">مكة</placeName> في 21 جمادى الأولى سنة 1340 الموافق 9 يناير سنة
+553 الذي صدر ب<placeName change="#d2e120 #d11e276" xml:id="placeName_73.d2e4316" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> في 21 جمادى الأولى سنة 1340 الموافق 9 يناير سنة
 1922، وردت عليها في هذا العدد، وفي العدد 555 ردًّا طويلاً معسلطًا مشتملاً
 على الوثائق الرسمية التي أشرنا إليها في صدر هذا المقال. وها نحن أولاء
 ننشرها بعد مقدمة وجيزة، ونقفّي عليها ببعض ما كان من سوء تأثير نشرها.
 ***
 وثائق رسمية في المسألة العربية
-وإخلاص ملك <placeName change="#d2e120" xml:id="placeName_74.d2e4332">الحجاز</placeName> للإنكليز على خداعهم له وللعرب
+وإخلاص ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_74.d2e4332" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> للإنكليز على خداعهم له وللعرب
 كان الملك حسين يكتم كل ما كان لديه من المكتوبات بينه وبين الحكومة
 الإنكليزية التي كان يظن أنه يملك بقوتها بلاد العرب كلها، ويكون آمنًا بحمايتها من
 كل مقاومةٍ ومعارضةٍ. ومن العجيب أنه لا يزال عاضًّا على تلك الأماني بالنواجذ،
@@ -1880,7 +1880,7 @@
 في حماية إنكلترة
 قالت <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_15.d2e4375">القِبلة</title></bibl> في ردها على مقالة التيمس في عدد 553:
 (أما ما يفهم من كل ما في قولكم أن لولا ردعكم ومنعكم له - أي ابن سعود -
-لاستولى على <placeName change="#d2e120" xml:id="placeName_75.d2e4383">مكة</placeName> فيا أعزاءنا ليس معنا ما نقوله بالاختصار عن الإطالة أو
+لاستولى على <placeName change="#d2e120 #d11e276" xml:id="placeName_75.d2e4383" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> فيا أعزاءنا ليس معنا ما نقوله بالاختصار عن الإطالة أو
 الخروج عن الصدد إلا بيان عجزنا عن شكر ذلك المنع، ومننه وأنه من مقتضى
 شهامة بريطانيا، وشعبها النجيب فهو من مقتضيات مواد عهدنا الذي تقول فيه
 المادة الثانية ما يلي:
@@ -1911,9 +1911,9 @@
 
                
 (<title change="#d2e120" xml:id="title_16.d2e4449">المنار</title>)
-قول ملك <placeName change="#d2e120" xml:id="placeName_76.d2e4454">الحجاز</placeName> (أكرر طلبي) إلخ يفيد أنه قد سبق له مطالبة الدولة
+قول ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_76.d2e4454" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> (أكرر طلبي) إلخ يفيد أنه قد سبق له مطالبة الدولة
 البريطانية (والعظمة البريطانية كما يسميها هو) أن تنصب أميرًا أو ملكًا غيره
-على <placeName change="#d2e120" xml:id="placeName_77.d2e4462">الحجاز</placeName> إذا كانت غير راضيةٍ عنه، وقد سبق لنا أن نقلنا عن (القِبلة) نص
+على <placeName change="#d2e120 #d11e276" xml:id="placeName_77.d2e4462" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إذا كانت غير راضيةٍ عنه، وقد سبق لنا أن نقلنا عن (القِبلة) نص
 الكتاب الذي كان أرسله إلى نائب ملك الإنكليز بمصر في 20 ذي القعدة سنة 1336
 الذي يطلب فيه منها أن تختار له ولأولاده بلدًا يقيمون فيه وتنصب على الحجاز
 مَن تختاره له! ، وقد تكرر نشر <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_17.d2e4471">القِبلة</title></bibl> لذلك الكتاب ومفاخرتها به لأمم الأرض
@@ -1921,13 +1921,13 @@
 المخزية بأغرب من وجود أناسٍ محبين لاستقلال الأمة العربية، ويقرؤون هذا وذاك
 في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_18.d2e4481">القِبلة</title></bibl>، ثم لا يرون لأنفسهم سياسة غير
 سياستها، ولا زعيمًا يتبع غير واضع هذه الوثائق لها.
-انتقاد الجرائد المصرية جعْل <placeName change="#d2e120" xml:id="placeName_78.d2e4489">الحجاز</placeName> تحت الحماية البريطانية
+انتقاد الجرائد المصرية جعْل <placeName change="#d2e120 #d11e276" xml:id="placeName_78.d2e4489" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> تحت الحماية البريطانية
 اطَّلع بعض مديري الجرائد الإسلامية بمصر على الوثيقة الأولى من هذه
-الوثائق؛ فهالهم أمر جعْل <placeName change="#d2e120" xml:id="placeName_79.d2e4496">الحجاز</placeName> تحت الحماية البريطانية، فبعضهم تساءل بصيغة
-استفهام الإنكار: هل يصح أن يكون <placeName change="#d2e120" xml:id="placeName_80.d2e4501">الحجاز</placeName> تحت حماية دولة أجنبية غير إسلامية؟ !
+الوثائق؛ فهالهم أمر جعْل <placeName change="#d2e120 #d11e276" xml:id="placeName_79.d2e4496" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> تحت الحماية البريطانية، فبعضهم تساءل بصيغة
+استفهام الإنكار: هل يصح أن يكون <placeName change="#d2e120 #d11e276" xml:id="placeName_80.d2e4501" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> تحت حماية دولة أجنبية غير إسلامية؟ !
 وهو ما اكتفت به <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_19.d2e4507">الأخبار</title></bibl>) الشهيرة في العدد 292، وبعضهم شدَّد
 في تغليظ الإنكار كجريدة (الأمة) في الإسكندرية.
-فلما وصلت هذه الجرائد إلى <placeName change="#d2e120" xml:id="placeName_81.d2e4514">مكة المكرمة</placeName> صمد سائس <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_20.d2e4517">القِبلة</title></bibl> إلى الرد
+فلما وصلت هذه الجرائد إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_81.d2e4514" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> صمد سائس <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_20.d2e4517">القِبلة</title></bibl> إلى الرد
 عليها كعادته، فنُشر في صدر العدد 561 ردًّا على <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_21.d2e4523">الأخبار</title></bibl> عنوانه بقلم
 الثلث:] فََلاَ تَكُ فِي ضَيْقٍ مِّمَّا يَمْكُرُونَ [، وصواب الآية الكريمة: {وَلاَ تَكُ فِي
 ضَيْقٍ <gap resp="#org_MS" change="#d2e120" xml:id="gap_70.d2e4530"/> } (النحل: 127) إلخ، قال فيه ما نصه:
@@ -1949,9 +1949,9 @@
 ولكن الإنكليز بنَوْا على هذه المادة تأسيس محافظة سموها (محافظة البحر الأحمر)
 وجعلوا مركز محافظها ثغر جدة، على أنهم لم يفوا لمَن أعطاهم هذا الحق الذي لا
 يملكه بما طلبه منهم في مقابله هو تأسيس دولة عربية له، تكون ربيبةً لهم وتحت
-كنفهم ووصايتهم بشرط ألا يستولوا على شيءٍ منها مباشرة إلا ولاية <placeName change="#d2e120" xml:id="placeName_82.d2e4576">البصرة</placeName> <gap resp="#org_MS" change="#d2e120" xml:id="gap_72.d2e4579"/>
+كنفهم ووصايتهم بشرط ألا يستولوا على شيءٍ منها مباشرة إلا ولاية <placeName change="#d2e120 #d11e276" xml:id="placeName_82.d2e4576" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> <gap resp="#org_MS" change="#d2e120" xml:id="gap_72.d2e4579"/>
                
-وكان يجب على محرر القِبلة - بل على ملك <placeName change="#d2e120" xml:id="placeName_83.d2e4583">الحجاز</placeName> - أن يستفيد من هرب مصر
+وكان يجب على محرر القِبلة - بل على ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_83.d2e4583" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> - أن يستفيد من هرب مصر
 من الحماية الإنكليزية، ومن تذكير جرائد مصر له، ولا سيما مدير <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_22.d2e4589">الأخبار</title></bibl>
 العليم بأصول السياسة الدولية، الخبير بخفايا الدسائس الإنكليزية، فيتبرأ من هذه
 (المقررات) التي تعد أكبر جناية على الحرمين الشريفين وعلى البلاد العربية والأمة
@@ -1971,7 +1971,7 @@
 وهذا نصه:
 برقية الحكومة الإنكليزية في تأكيد الوعد باستقلال البلاد العربية:
 جدة في 8 فبراير سنة 1918 - 27/4/1336
-جلالة صاحب السيادة العظمى ملك <placeName change="#d2e120" xml:id="placeName_84.d2e4639">الحجاز</placeName>، وشريف <placeName change="#d2e120" xml:id="placeName_85.d2e4642">مكة</placeName>، وأميرها
+جلالة صاحب السيادة العظمى ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_84.d2e4639" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وشريف <placeName change="#d2e120 #d11e276" xml:id="placeName_85.d2e4642" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وأميرها
 المعظم <gap resp="#org_MS" change="#d2e120" xml:id="gap_73.d2e4648"/>
                
 بعد بيان ما يجب بيانه من الاحتشام والتوقير، قد أمرني فخامة نائب جلالة
@@ -2010,8 +2010,8 @@
 الشديدة بأن تنشرها؛ فبرَّت قسمه! كأنها تعتذر بذلك عن ذنبٍ! وهي لم تنشر-
 منذ وُجدت - شيئًا أنفع منه في إقامة الحجة على الإنكليز، وإن كانت حجج
 الضعفاء لا تقنع هذه الدولة مهما تكن ناهضةً، وإنما الذي يقنعها حجج الأقوياء،
-وإن كانت داحضةً. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_9.d2e4734">(1) المنار: السيد طالب ابن نقيب <placeName change="#d2e120" xml:id="placeName_86.d2e4736">البصرة</placeName> كان ناظرًا للداخلية في حكومة <placeName change="#d2e120" xml:id="placeName_87.d2e4739">العراق</placeName> المؤقتة، وكان الإنكليز يعدُّونه من أصدقائهم، ولكنهم نفَوْه من <placeName change="#d2e120" xml:id="placeName_88.d2e4742">بغداد</placeName> قبل الاستفتاء؛ لما علموا أنه يعارض ملكية فيصل.
-(2) هو المؤتمر الذي عقده مستر تشرشل وزير المستعمرات البريطانية مع الوفد الذي جاء من <placeName change="#d2e120" xml:id="placeName_89.d2e4747">العراق</placeName> إلى <placeName change="#d2e120" xml:id="placeName_90.d2e4751">القاهرة</placeName> في العام الماضي، وحضره جعفر باشا العسكري البغدادي (راجع ص 473، م 21 من المنار) .
+وإن كانت داحضةً. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_9.d2e4734">(1) المنار: السيد طالب ابن نقيب <placeName change="#d2e120 #d11e276" xml:id="placeName_86.d2e4736" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> كان ناظرًا للداخلية في حكومة <placeName change="#d2e120 #d11e276" xml:id="placeName_87.d2e4739" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> المؤقتة، وكان الإنكليز يعدُّونه من أصدقائهم، ولكنهم نفَوْه من <placeName change="#d2e120 #d11e276" xml:id="placeName_88.d2e4742" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> قبل الاستفتاء؛ لما علموا أنه يعارض ملكية فيصل.
+(2) هو المؤتمر الذي عقده مستر تشرشل وزير المستعمرات البريطانية مع الوفد الذي جاء من <placeName change="#d2e120 #d11e276" xml:id="placeName_89.d2e4747" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_90.d2e4751" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> في العام الماضي، وحضره جعفر باشا العسكري البغدادي (راجع ص 473، م 21 من المنار) .
 (3) خلق الإنكليز هذا الجيش لأجل تفريق القوة، وإيجاد الشقاق الديني فيها؛ لتكون كلها آلة في أيديهم.
 (4) هذا العنوان للمنار، والكلام متصل بما قبله.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_9.d2e4759">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_11.d2e4761" ref="oape:pers:689 viaf:51716068">

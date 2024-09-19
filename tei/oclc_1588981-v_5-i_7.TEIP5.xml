@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_5-i_7.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_5-i_7.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e298">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_5-i_7.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_5-i_7.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1320">1320</date><date calendar="#cal_gregorian" xml:lang="ar" when="1902-07-07">7 يوليو 1902</date></imprint>
                   <biblScope unit="volume" from="5" to="5" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">5</biblScope>
                   <biblScope unit="issue" from="7" to="7" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">7</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e298" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -105,14 +105,14 @@
 ***
 (المسألة 97)
 معاهد الأنبياء ومواطنهم: إن المعروف من تاريخ هؤلاء الأنبياء الكرام يدل
-على أنهم كانوا كلهم أو جلّهم من بلاد العرب وما يتصل بها من <placeName change="#d2e120" xml:id="placeName_4.d2e348">الشام</placeName> وفلسطين
-و<placeName change="#d2e120" xml:id="placeName_5.d2e353">العراق</placeName> كأن هذه القطعة الصغيرة من الأرض التي يكوّن منها القاموس الهنديُّ
+على أنهم كانوا كلهم أو جلّهم من بلاد العرب وما يتصل بها من <placeName change="#d2e120 #d11e298" xml:id="placeName_4.d2e348" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وفلسطين
+و<placeName change="#d2e120 #d11e298" xml:id="placeName_5.d2e353" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> كأن هذه القطعة الصغيرة من الأرض التي يكوّن منها القاموس الهنديُّ
 والبحر الأحمر والبحر المتوسط شبه جزيرة هي منبت الأنبياء والمرسلين من بعد
 آدم أي من عهد نوح إلى عهد محمد عليهما الصلاة والسلام. وكأن الله تعالى
 اختص أهلها بالهداية دون سائر خلقه وإن القول بحصر النبوة والرسالة في هذه
 البقعة لمن أقوى شبه الملاحدة على الدين وهو ينافي ما تقدم في بيان وجه الحاجة
 إلى إرسال الرسل فيمكن أن يبطلوا ذاك بهذا إن صح وقد حملهم ما رأوا في كتب
-اليهود والنصارى من حصر الأنبياء في بلاد فلسطين و<placeName change="#d2e120" xml:id="placeName_6.d2e369">الشام</placeName> وما جاورها على
+اليهود والنصارى من حصر الأنبياء في بلاد فلسطين و<placeName change="#d2e120 #d11e298" xml:id="placeName_6.d2e369" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وما جاورها على
 البحث في أخلاق أهل هذه البلاد وطبائعهم وعاداتهم فزعموا أن عند خواصهم
 استعدادًا خاصًّا للقيام بالدعوات الدينية والمذاهب والرياسة الروحية وأن عند عوامهم
 استعدادًا لإجابة كل داعٍ واتباع كل ناعقٍ قالوا: ولأجل هذا حدثت الأديان والمذاهب
@@ -237,7 +237,7 @@
 <p change="#d2e120" xml:id="p_2.d2e631">
                
 بقلم الشيخ أمين أفندي عز الدين
-من أهل العلم والأدب في <placeName change="#d2e120" xml:id="placeName_7.d2e637">طرابلس الشام</placeName> ونزيل مصر الآن
+من أهل العلم والأدب في <placeName change="#d2e120 #d11e298" xml:id="placeName_7.d2e637" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> ونزيل مصر الآن
 
                
 صدق الله العظيم وكذب هوس الناس: نقوم أمام المحراب تماثيل بشرية يحرك
@@ -355,7 +355,7 @@
 وكان الحسن البصري رحمه الله يتمثل في مواعظه وكان من أوجعها عنده:
 اليوم عندك دلها وحدثيها <gap resp="#org_MS" change="#d2e120" xml:id="gap_1.d2e868"/> وغدًا لغيرك كفها والمعصم
 وفي الحديث عن عمر بن الخطاب - رضي الله عنه - ذكر المَرْزُباني في كتابه بإسناد عن عبد الملك بن عمير أنه قال: (أوتي عمر - رضوان الله عليه -
-بحلل من <placeName change="#d2e120" xml:id="placeName_9.d2e875">اليمن</placeName> فأتاه محمد بن جعفر بن أبي طالب، ومحمد بن أبي بكر الصديق
+بحلل من <placeName change="#d2e120 #d11e298" xml:id="placeName_9.d2e875" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> فأتاه محمد بن جعفر بن أبي طالب، ومحمد بن أبي بكر الصديق
 ومحمد بن طلحة بن عبيد الله، ومحمد بن حاطب، فدخل عليه زيد بن ثابت رضي
 الله عنه فقال: يا أمير المؤمنين هؤلاء المحمَّدون بالباب يطلبون الكسوة فقال: ائذن
 لهم يا غلام فدعا بحلل فأخذ زيد أجودها، وقال هذه لمحمد بن حاطب، وكانت أمه
@@ -379,7 +379,7 @@
 وعلى العكس، فرب كلمة حق أريد بها باطل، فاستحق عليها الذم كما عرفت
 من خبر الخارجي مع علي، رضوان الله عليه. وربَّ قول حسن لم يحسن من
 قائله حين تسبب به إلى قبيح كالذي حكى الجاحظ قال: رجع طاوس يومًا عن مجلس
-محمد بن يوسف وهو يومئذ والي <placeName change="#d2e120" xml:id="placeName_10.d2e941">اليمن</placeName> فقال: ما ظننت أن قول سبحان الله يكون
+محمد بن يوسف وهو يومئذ والي <placeName change="#d2e120 #d11e298" xml:id="placeName_10.d2e941" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> فقال: ما ظننت أن قول سبحان الله يكون
 معصية لله حتى كان اليوم سمعت رجلاً أبلغ ابن يوسف عن رجل كلامًا فقال رجل من أهل المجلس: سبحان الله، كالمستعظم لذلك الكلام ليغضب ابن يوسف، فبهذا
 ونحوه اعتبر، واجعله حكمًا بينك وبين الشعر.
 (وبعد) فكيف وضع من الشعر عندك وكسبه للمقت منك أنك وجدت فيه
@@ -399,7 +399,7 @@
 تنبيهك، نعم وكيف رويت (لأن يمتلئ جوف أحدكم قيحًا فَيَرِيَه [5] خير له أن يمتلئ
 شعرًا) ، ولهجت به وتركت قوله صلى الله وعليه وسلم: (إن من الشعر لحكمة
 وإن من البيان لسحرًا) [6] وكيف نسيت أمره صلى الله وعليه وسلم بقول الشعر
-ووعده عليه الجنة، وقوله لحسان: (قل وروح <placeName change="#d2e120" xml:id="placeName_11.d2e987">القدس</placeName> معك) ، وسماعه له،
+ووعده عليه الجنة، وقوله لحسان: (قل وروح <placeName change="#d2e120 #d11e298" xml:id="placeName_11.d2e987" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> معك) ، وسماعه له،
 واستنشاده إياه، وعلمه صلى الله عليه وسلم به، واستحسانه له، وارتياحه عند
 سماعه؟
 (أما) أمره به فمن المعلوم ضرورة، وكذلك سماعه إياه فقد كان حسان وعبد
@@ -441,7 +441,7 @@
 (5) حديث رواه أحمد والشيخان وأصحاب السنن وغيرهم عن أبي هريرة وعن غيره والرواية المشهورة فيه (حتى يره) أي يفسده، وفي رواية يحذف حتى يريه، وفي أخرى حذف حتى، وقرأها بعضهم حينئذ يريه بالفتح وبعضهم بالضم ولم أر من رواه بالفاء (فيريه) كما في نسخة المصنف وفي رواية ابن عدي عن جابر (لأن يمتلئ جوف الرجل قيحًا أو دمًا خيرًا له من أن يمتلئ شعرًا مما هجيت به) .
 (6) الحديث المشهور رواه أصحاب الصحاح وغيرهم، ورواية المصنف ملفقة من روايتين لقد وردت كل جملة من طريق وأما الجملتان معًا فقد جاءتا في حديث ابن عباس عند أحمد وابن ماجه هكذا (إن من البيان سحرًا وإن من الشعر حكمًا) وعند ابن عساكر من حديث علي باللام وله تتمة وهي (وإن من العلم لجهلاً وإن من القول عيالاً) .
 (7) روى الخطيب وابن عساكر عن حسان أن النبي صلى الله عليه وسلم قال له: اهجُ المشركين
-وجبرائيل معك، إذا حارب أصحابي بالسلاح فحارب أنت باللسان وفي حديث جابر عند ابن جرير أنه قال يوم الأحزاب (من يحمي أعراض المؤمنين، قال كعب: أنا يا رسول الله فقال: إنك محسن الشعر، فقال حسان بن ثابت: أنا يا رسول الله قال: نعم اهجهم أنت فسيعينك روح <placeName change="#d2e120" xml:id="placeName_12.d2e1100">القدس</placeName>) وكتب الأستاذ الإمام في هامش النسخة الأصلية بإزاء اسم كعب: (لعله كعب بن مالك لأن ابن زهير وإن مدح لكنه لم يؤمر بالشعر للمناضلة عن الإسلام، فقد وفد على النبي صلى الله عليه وسلم سنة تسع) ويؤيد قول الأستاذ ما رواه ابن جرير عن ابن سيرين وملخصه: أن المهاجرين رغبوا إلى النبي عليه الصلاة والسلام أن يأمر عليا بهجاء الرهط الذين هجوه (وهم عمرو بن العاص وعبد الله بن الزبعري وأبو سفيان بن الحارث) فقال: ليس علي هنالك وعرض بالأنصار فانتدب لذلك حسان وكعب بن مالك وعبد الله بن رواحة وفيه أنه استنشد كعبًا وهو راكب ناقته الأبيات التي أولها:
+وجبرائيل معك، إذا حارب أصحابي بالسلاح فحارب أنت باللسان وفي حديث جابر عند ابن جرير أنه قال يوم الأحزاب (من يحمي أعراض المؤمنين، قال كعب: أنا يا رسول الله فقال: إنك محسن الشعر، فقال حسان بن ثابت: أنا يا رسول الله قال: نعم اهجهم أنت فسيعينك روح <placeName change="#d2e120 #d11e298" xml:id="placeName_12.d2e1100" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>) وكتب الأستاذ الإمام في هامش النسخة الأصلية بإزاء اسم كعب: (لعله كعب بن مالك لأن ابن زهير وإن مدح لكنه لم يؤمر بالشعر للمناضلة عن الإسلام، فقد وفد على النبي صلى الله عليه وسلم سنة تسع) ويؤيد قول الأستاذ ما رواه ابن جرير عن ابن سيرين وملخصه: أن المهاجرين رغبوا إلى النبي عليه الصلاة والسلام أن يأمر عليا بهجاء الرهط الذين هجوه (وهم عمرو بن العاص وعبد الله بن الزبعري وأبو سفيان بن الحارث) فقال: ليس علي هنالك وعرض بالأنصار فانتدب لذلك حسان وكعب بن مالك وعبد الله بن رواحة وفيه أنه استنشد كعبًا وهو راكب ناقته الأبيات التي أولها:
 قضينا من تهامة كل ريث <gap resp="#org_MS" change="#d2e120" xml:id="gap_16.d2e1105"/> وخيبر ثم أجمحنا السيوفا
 لخيرها ولو نطقت لقالت <gap resp="#org_MS" change="#d2e120" xml:id="gap_17.d2e1110"/> قواطعهن دوسًا أو ثقيفا
 قال: فأنشد الكلمة كلها فقال النبي صلى الله عليه وسلم: (والذي نفسي بيده لهي أشد عليهم من رشق النبل) قال ابن سيرين: فنبئت أن دوسًا إنما أسلمت بكلمة كعب هذه.
@@ -450,7 +450,7 @@
 (10) البيت الذي فيه لفظ الأنامل في قصيدة أبي طالب هو قوله:
 وقد حالفوا قومًا علينا أظنة <gap resp="#org_MS" change="#d2e120" xml:id="gap_18.d2e1123"/> يعضون غيظًا خلفنا بالأنامل
 والبيت الذي فيه كذبتم هو قوله:
-كذبتم وبيت الله نترك <placeName change="#d2e120" xml:id="placeName_13.d2e1129">مكة</placeName> <gap resp="#org_MS" change="#d2e120" xml:id="gap_19.d2e1132"/> ونظعن إلا أمركم في بلابل
+كذبتم وبيت الله نترك <placeName change="#d2e120 #d11e298" xml:id="placeName_13.d2e1129" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> <gap resp="#org_MS" change="#d2e120" xml:id="gap_19.d2e1132"/> ونظعن إلا أمركم في بلابل
 وقوله:
 كذبتم وبيت الله نُبزَى محمدًا <gap resp="#org_MS" change="#d2e120" xml:id="gap_20.d2e1139"/> ولما نطاعن دونه ونناضل
 والبيت الذي فيه لتلتبسن إلخ هو قوله:
@@ -458,7 +458,7 @@
 والذي فيه ينهض إلخ قوله هو:
 وينهض قوم في الحديد إليكم <gap resp="#org_MS" change="#d2e120" xml:id="gap_22.d2e1152"/> نهوض الروايا تحت ذات الصلاصل
 وبهذا تعلم مافي بيتي الشيخ اهـ من هامش الأستاذ الإمام.
-(تفسيره) قوله أظنة جمع ظنين وهو المتهم والظنة بالكسر التهمة وجمعها ظنين وجمع فعيل على أفعلة غير قياسي ولكنه ورد ومنه قوله تعالى: [أَشِحَّةً عَلَيْكُم] (الأحزاب: 19) وقول نترك <placeName change="#d2e120" xml:id="placeName_14.d2e1158">مكة</placeName> أي لا نتركها ومثل قوله نبزي محمدًا أي لا نبزاه ولفظ (محمدًا) منصوب بنزع الخافض يقال: أبزى فلان بفلان إذا غلبه وقهره أي لا نغلب بمحمد ولا نقهر عليه، والحال أننا لم نطاعن دونه بالرماح ونناضل عنه بالسهام فالجملة المنفية بلمَّا حال من نائب الفاعل، وقوله (لتلتبسن أسيافنا بالأماثل) أي لتختلطن بالأشراف بما تفتك بهم في الحرب، والروايا جمع رواية هو ما يستقى عليه من بعير وغيره، والصلاصل القِرَب فيها بقايا الماء واحدها صُلصلة بضم الصادين وهي بقية الماء في الإداوة والقربة- يريد أن قومه ينهضون مثقلين بالحديد تسمع له قعقعة كصلصلة الماء في المزادات.
+(تفسيره) قوله أظنة جمع ظنين وهو المتهم والظنة بالكسر التهمة وجمعها ظنين وجمع فعيل على أفعلة غير قياسي ولكنه ورد ومنه قوله تعالى: [أَشِحَّةً عَلَيْكُم] (الأحزاب: 19) وقول نترك <placeName change="#d2e120 #d11e298" xml:id="placeName_14.d2e1158" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أي لا نتركها ومثل قوله نبزي محمدًا أي لا نبزاه ولفظ (محمدًا) منصوب بنزع الخافض يقال: أبزى فلان بفلان إذا غلبه وقهره أي لا نغلب بمحمد ولا نقهر عليه، والحال أننا لم نطاعن دونه بالرماح ونناضل عنه بالسهام فالجملة المنفية بلمَّا حال من نائب الفاعل، وقوله (لتلتبسن أسيافنا بالأماثل) أي لتختلطن بالأشراف بما تفتك بهم في الحرب، والروايا جمع رواية هو ما يستقى عليه من بعير وغيره، والصلاصل القِرَب فيها بقايا الماء واحدها صُلصلة بضم الصادين وهي بقية الماء في الإداوة والقربة- يريد أن قومه ينهضون مثقلين بالحديد تسمع له قعقعة كصلصلة الماء في المزادات.
 (11) الحديث رواه ابن أبي الدنيا في قضاء الحوائج وابن عساكر عن محمد بن مسلمة بلفظ (يا حسان أنشدني من شعر الجاهلية فإن الله قد وضع عنك آثامها في شعرها وروايتها) وفيه أنه قال له بعد إنشاد القصيدة: (يا حسان لا تعد تنشدني هذه القصيدة فإني ذكرت عند قيصر وعنده أبو سفيان وعلقمة بن علاثة فأما أبو سفيان فتناول مني، وأما علقمة فحسن القول وأنه لا يشكر الله من لا يشكر الناس) .</note>
             </note>
             <pb n="n5-p264" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P1077.xhtml" change="#d2e120" xml:id="pb_11.d2e1165"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="264" xml:id="pb_12.d2e1166"/>
@@ -724,7 +724,7 @@
 
                
 في أصيل يوم الجمعة 21 ربيع الأول احتفل في قبة الغوري الاحتفال السنوي
-المعتاد بمدرسة الجميعة الخيرية الإسلامية في <placeName change="#d2e120" xml:id="placeName_15.d2e1723">القاهرة</placeName>، وقد أجاب دعوة رئيس
+المعتاد بمدرسة الجميعة الخيرية الإسلامية في <placeName change="#d2e120 #d11e298" xml:id="placeName_15.d2e1723" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، وقد أجاب دعوة رئيس
 الجمعية الأستاذ الإمام الشيخ محمد عبده مفتي الديار المصرية والجم الغفير من
 الفضلاء والوجهاء حضروا الاحتفال، ابتدأ أحد التلامذة بترتيل آيات من
 سورة الفتح، ثم ارتقى أحد التلامذة الدكة التي يختبر عليها التلامذة فأعطي كتابًا
@@ -850,10 +850,10 @@
 الكلام على بعض الصعوبات التي لقيها في طريقه.
 كانت مدة الاتفاق الأول مع مصلحة حصر الدخان ثلاث سنين فانفصل من
 إدارة العمل والتفتيش بعد سنتين بالسبب الذي ألمعنا إليه، ولثقة الفقيد بنفسه
-واقتداره على العمل ذهب إلى <placeName change="#d2e120" xml:id="placeName_16.d2e1985">الأستانة</placeName> بعد عزل عارف باشا من ولاية حلب فعقد
+واقتداره على العمل ذهب إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_16.d2e1985" ref="geon:745044 jaraid:place:9 oape:place:3 wiki:Q406" resp="#xslt">الأستانة</placeName> بعد عزل عارف باشا من ولاية حلب فعقد
 اتفاقًا آخر مع المصلحة والحكومة مدته عشر سنين وكان أراد أن يضم إلى ولاية
 حلب متصرفًا فعقد اتفاقًا آخر مع المصلحة والحكومة مدة عشر سنين وكان أراد أن
-يضم إلى ولاية حلب ومتصرفية الزور ولايتي <placeName change="#d2e120" xml:id="placeName_17.d2e1994">بيروت</placeName> وسورية فلم يرض له ذلك
+يضم إلى ولاية حلب ومتصرفية الزور ولايتي <placeName change="#d2e120 #d11e298" xml:id="placeName_17.d2e1994" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> وسورية فلم يرض له ذلك
 من استشاره من الأقربين فرجع عنه. وقد نجح أيضًا في المرة الثانية ولكن حدثت
 بعد أربع سنين الفتنة الأرمنية فنهب الأرمن الدخان من عدة بلاد وقتلوا موظفي
 المصلحة فكان الفقيد يخسر في الشهر بضعة عشر ألفًا من الليرات فتوسل بذلك إلى
@@ -896,17 +896,17 @@
 حديث الصفوية في الإمارة بمجهول. بهذا كان رحمه الله تعالى لا يهاب الحكام
 ولا يداريهم مع أن حكومتهم في الحقيقة استبدادية. وهذا هو الذي أحبط أعماله في
 بلده وذهب بثروته. غَاضَبَ عارف باشا أحد ولاة حلب فأغرى بعض الناس بأن
-يكتب إلى <placeName change="#d2e120" xml:id="placeName_18.d2e2091">الأستانة</placeName> شاكيًا من سيئات الوالي شارحًا لهم فعلم الوالي بذلك فعمل مكيدة
+يكتب إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_18.d2e2091" ref="geon:745044 jaraid:place:9 oape:place:3 wiki:Q406" resp="#xslt">الأستانة</placeName> شاكيًا من سيئات الوالي شارحًا لهم فعلم الوالي بذلك فعمل مكيدة
 لحبس الفقيد وضبط أوراقه وزوَّر عليه ورقة سماها (لائحة تسليم ولاية حلب
 إلى دولة أجنبية) وطلب محاكمته عليها، وحكمُ القانون في هذه الجريمة الإعدامُ
 ولكنهم غلطوا في معاملته بالحبس وطلب الاستنطاق غلطًا قانونيًّا ما كان ليخفى
-على الفقيد فكتب إلى <placeName change="#d2e120" xml:id="placeName_19.d2e2103">الأستانة</placeName> كتابة مطولة يظهر فيها أن خروج حكومة الولاية
+على الفقيد فكتب إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_19.d2e2103" ref="geon:745044 jaraid:place:9 oape:place:3 wiki:Q406" resp="#xslt">الأستانة</placeName> كتابة مطولة يظهر فيها أن خروج حكومة الولاية
 عن حدود القانون هو من دلائل تحاملها عليه وتحريها ظلمه، وطلب أن يحاكم في
-ولاية أخرى فأجيب طلبه وحُوكم في <placeName change="#d2e120" xml:id="placeName_20.d2e2110">بيروت</placeName> فحكم ببراءته وما زال يتتبع الوالي
+ولاية أخرى فأجيب طلبه وحُوكم في <placeName change="#d2e120 #d11e298" xml:id="placeName_20.d2e2110" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> فحكم ببراءته وما زال يتتبع الوالي
 حتى عزل بعد عودته إلى حلب وكان هو أول من بشره بالعزل بواسطة قاضي
 الولاية ثم إنه أخرجه من حلب بإهانة عظيمة؛ لأنه أوعز إلى أصناف الفقراء
 الذين كانوا يسمون الفقيد أباهم لنصرته إياهم فاجتمعوا عند داره بهيئات غريبة
-فترك أهله وخرج كالهارب وسافر إلى <placeName change="#d2e120" xml:id="placeName_21.d2e2122">الأستانة</placeName> وتبعه الفقيد ليحاكمه ولكنه لم يكد
+فترك أهله وخرج كالهارب وسافر إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_21.d2e2122" ref="geon:745044 jaraid:place:9 oape:place:3 wiki:Q406" resp="#xslt">الأستانة</placeName> وتبعه الفقيد ليحاكمه ولكنه لم يكد
 يصل إليها حتى مات قهرًا.
 وكان الشيخ أبو الهدى أفندي الشهير من أعدائه ويقال أن السبب الأول في
 ذلك إباء الفقيد أن يصدق على نسب الشيخ أبي الهدى هذا، وإن الشيخ أبا الهدى

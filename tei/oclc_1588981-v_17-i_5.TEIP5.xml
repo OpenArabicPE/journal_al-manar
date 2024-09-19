@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_17-i_5.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_17-i_5.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e298">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_17-i_5.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_17-i_5.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1332">1332</date><date calendar="#cal_gregorian" when="1914" xml:lang="ar">أبريل - 1914م</date></imprint>
                   <biblScope unit="volume" from="17" to="17" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">17</biblScope>
                   <biblScope unit="issue" from="5" to="5" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">5</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e298" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -140,7 +140,7 @@
 صحيفة في قراب سيفي، فلم يزالوا به حتى أخرج الصحيفة فإذا فيها - فذكرت
 الحديث - وزاد فيه: (المؤمنون تتكافأ دماؤهم، ويسعى بذمتهم أدناهم، وهم يدٌ
 على مَن سِواهم. ألا لا يقتل مؤمن بكافر، ولا ذو عهدٍ في عهده. (وقال فيه) :
-إن إبراهيم حرّم <placeName change="#d2e120" xml:id="placeName_4.d2e438">مكة</placeName>، وإنّي أحرم المدينة ما بين حَرَّتَيْها وحماها كله، لا يُختلى
+إن إبراهيم حرّم <placeName change="#d2e120 #d11e298" xml:id="placeName_4.d2e438" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وإنّي أحرم المدينة ما بين حَرَّتَيْها وحماها كله، لا يُختلى
 خلاها ولا يُنفّر صيدُها، ولا تُلتقط لقطتُها، ولا يُقطع منها شجرةٌ، إلا أن يعلف
 رجلٌ بعيره، ولا يُحمل فيها السلاح لقتالٍ) ، والباقي نحوه. وذكر في موضعٍ آخر
 أن سبب سؤال علي زَعْم بعضهم أن النبي خصه بشيء دون الناس.
@@ -165,7 +165,7 @@
 حسان أنه سمع شيئًا فكتبه.
 وأمّا كتابة الصحيفة مع ما ورد من النهي عن كتابة شيء عن النبي - صلى
 الله عليه وسلم - غير القرآن، فيقال فيه: إن النهي عن الكتابة معارض بالأمر بها
-كحديث (اكتبوا لأبي شاه) وغيره، والكتابة لأهل <placeName change="#d2e120" xml:id="placeName_5.d2e495">اليمن</placeName>، وكتاب الصدقات الذي
+كحديث (اكتبوا لأبي شاه) وغيره، والكتابة لأهل <placeName change="#d2e120 #d11e298" xml:id="placeName_5.d2e495" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وكتاب الصدقات الذي
 كتبه أبو بكر - رضي الله عنه - إلى أنس لمّا وجّهه إلى البحرين؛ أي عاملاً على
 الصدقة. فإنه قال فيه: (إن هذه فريضة وفي رواية فرائض الصدقة التي فرض
 رسول الله - صلى الله عليه وسلم - على المسلمين والتي أمر بها رسوله <gap resp="#org_MS" change="#d2e120" xml:id="gap_4.d2e505"/> إلخ)
@@ -557,7 +557,7 @@
 وهي التي كانت سبب بقاء الدين في العرب والعجم بعد أن قل من يذوق طعم تلك
 البلاغة. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_2.d2e1344">(*) فصل من الجزء الثاني من كتاب آداب لغة العرب لمصطفى صادق أفندي الرافعي.
 (1) للعرب مذاهب كثيرة من مثل ما وصفنا ولا محل لبسط القول فيها، ولكنا نقتصر على تعريف ما أتينا به تعريفًا لفظيًّا، فالغيلان: إناث الجن والسعالى. جمع سعلاة وهي سحرة الجن، ويقال: إن الغيلان من السعالى، والهواتف جمع هاتف وهي الجن تهتف بهم وتنذرهم. والجن نوع من الجن، والشق جنس من أجناسهم والنسناس جنس من الخلق يعد فيهم الرئيّ جني يكون لبعض الناس فيخبره بالغيب، والكاهن مَن يتنبأ بما سيقع والعرّاف مَن يستدل بالأسباب والحوادث ويتنبأ من ذلك والعِيَافة: التكهن بالطير أو غيرها والزَجْر: أن يزجر الطير ليتسعد أو يتشأم إذا أراد أن يهم بأمر والطَرْق بالحصى وسيلة من وسائل التكهن وفي كل ذلك شرح طويل واختلاف كثير.
-(2) وذلك فيما نرى إنما هو وجه الحكمة في نشأة هذا الدين عربيًّا واختصاص العرب بالقرآن دون غيرهم من الأمم، وإفراد قريش بذلك دون غيرها من العرب، ومن يقرأ صدر التاريخ في الإسلام، ويعتبر حوادثه ويتدبر آثار القرآن في قبائل العرب، يرَ أنَّ شدَّة الإيمان كانت عند شدَّة الفصاحة، وأن خلوص الضمائر كان يتبع خلوص اللغة، وأن القائمين بهذا الدين والذين أفاضوه وصرفوا إليه جمهور العرب وقاتلوهم عليه وجمعوا ألفتهم وقوّموا أودّهم إنما كانوا أهل الفصاحة الخالصة، من قريش إلى سرة البادية، وأن الفتن إنما استطارت في الجزيرة استطارة الحريق فيمن وراء هؤلاء إلى أطراف <placeName change="#d2e120" xml:id="placeName_6.d2e1350">اليمن</placeName>، فكانوا قومًا مدخولين منقوصين، وما كان ضعف اعتقادهم إلا في وزن الضعف من لغتهم وقد أسلفنا في غير هذا الموضع أن غربة الدين ما تزال تتبع غربة العربية ولمّا مات رسول الله - صلى الله عليه وسلم - كان عمرو بن العاص بعمان، فأقبل منها إلى المدينة يخترق بلاد العرب فأطافت به قريش وسألوه فقال لهم إن العساكر معسكرة من دبا (سوق بعمان) إلى حيث انتهيت إليكم فتفرّقوا حِلقًا، ومرَّ عمر بن الخطاب بجماعة فسألهم فِيمَ أنتم؟ فلم يجيبوه فقال: أظن قلتم ما أخوفنا على قريش من العرب قالوا صدقت، قال: فلا تخافوا هذه المنزلة. إنا والله منكم على العرب أخوف مني من العرب عليكم، والله لو تدخلون معاشر قريش جحرًا لدخلته العرب في آثاركم. اهـ. وحسبك من أثر القرآن في العرب الفصحاء وصوغ فطرتهم وتصريفها أن أحدهم كان إذا اتهم في بعض أخلاقه لم ينكر ذلك بأشد من قوله: بئس حامل القرآن أنا إذن! ولما أعطي سالم مولى أبي حذيفة راية المسلمين يوم قتال مسيْلمة الكذاب، وكان من أشد الأيام وأعظمها نكاية قال لأصحابه: ما أعلمني لأي شيء أعطتيمونيها! قلتم صاحب قرآن وسيثبت كما ثبت صاحبها قبله حتى مات؟ قالوا: أجل فانظر كيف تكون؟ قال: بئس واللهِ حامل القرآن أنا إن لم أثبت فتأمّل؛ وكان صاحب الراية قبله
+(2) وذلك فيما نرى إنما هو وجه الحكمة في نشأة هذا الدين عربيًّا واختصاص العرب بالقرآن دون غيرهم من الأمم، وإفراد قريش بذلك دون غيرها من العرب، ومن يقرأ صدر التاريخ في الإسلام، ويعتبر حوادثه ويتدبر آثار القرآن في قبائل العرب، يرَ أنَّ شدَّة الإيمان كانت عند شدَّة الفصاحة، وأن خلوص الضمائر كان يتبع خلوص اللغة، وأن القائمين بهذا الدين والذين أفاضوه وصرفوا إليه جمهور العرب وقاتلوهم عليه وجمعوا ألفتهم وقوّموا أودّهم إنما كانوا أهل الفصاحة الخالصة، من قريش إلى سرة البادية، وأن الفتن إنما استطارت في الجزيرة استطارة الحريق فيمن وراء هؤلاء إلى أطراف <placeName change="#d2e120 #d11e298" xml:id="placeName_6.d2e1350" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، فكانوا قومًا مدخولين منقوصين، وما كان ضعف اعتقادهم إلا في وزن الضعف من لغتهم وقد أسلفنا في غير هذا الموضع أن غربة الدين ما تزال تتبع غربة العربية ولمّا مات رسول الله - صلى الله عليه وسلم - كان عمرو بن العاص بعمان، فأقبل منها إلى المدينة يخترق بلاد العرب فأطافت به قريش وسألوه فقال لهم إن العساكر معسكرة من دبا (سوق بعمان) إلى حيث انتهيت إليكم فتفرّقوا حِلقًا، ومرَّ عمر بن الخطاب بجماعة فسألهم فِيمَ أنتم؟ فلم يجيبوه فقال: أظن قلتم ما أخوفنا على قريش من العرب قالوا صدقت، قال: فلا تخافوا هذه المنزلة. إنا والله منكم على العرب أخوف مني من العرب عليكم، والله لو تدخلون معاشر قريش جحرًا لدخلته العرب في آثاركم. اهـ. وحسبك من أثر القرآن في العرب الفصحاء وصوغ فطرتهم وتصريفها أن أحدهم كان إذا اتهم في بعض أخلاقه لم ينكر ذلك بأشد من قوله: بئس حامل القرآن أنا إذن! ولما أعطي سالم مولى أبي حذيفة راية المسلمين يوم قتال مسيْلمة الكذاب، وكان من أشد الأيام وأعظمها نكاية قال لأصحابه: ما أعلمني لأي شيء أعطتيمونيها! قلتم صاحب قرآن وسيثبت كما ثبت صاحبها قبله حتى مات؟ قالوا: أجل فانظر كيف تكون؟ قال: بئس واللهِ حامل القرآن أنا إن لم أثبت فتأمّل؛ وكان صاحب الراية قبله
 عبد الله بن حفص، وفي هذه الموقعة صاح أبو حذيفة وقد اضطرب المسلمون: يا أهل القرآن، زينوا القرآن بالفعال، ثم حمل على القوم فحازهم حتى أنقذهم، ولو أن هذا المعنى من غرض كتابنا لبسطناه بسطاً، ولكن القول فيه يتسع بما يخرجنا إلى تاريخ الإسلام وفلسفة آدابه ومعانيه
 الاجتماعية، وهي أغراض إنما نلمُّ بها إلمامًا في هذا الكتاب كما عرفت.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_2.d2e1358">الكاتب: <persName change="#d2e141 #d2e120 #d3e274" xml:lang="ar" xml:id="persName_4.d2e1360" ref="oape:pers:410 viaf:236524859">
@@ -1257,7 +1257,7 @@
 (1) المنار: حق العبارة أن تكون: (اتباع من يرشده) .
 (2) المنار: التقليد: الأخذ بالرأي من غير دليل. وإنما تدل الآية على السؤال عن الدليل، وهو ما تواتر عند أهل الكتاب من كون جميع الرسل كانوا رجالاً، ومثله طلب النصر دون الرأي، هذا وإن الاجتهاد يتجزأ، فمَن لم يقدر على معرفة جميع الأحكام أو أكثرها بالنظر والاستدلال يجوز أن يقدر على ما يحتاج إليه منها كله أو بعضه، وحينئذٍ يمتنع عليه أن يأخذ فيه برأي غيره واجتهاده، كما ثبت في علم الأصول.
 (3) لفظ (أي) لا حاجة إليه فعله سبق قلم من الناسخ أو المؤلف.
-(4) في طبقات الشافعية الكبرى للسبكي أن الشافعي أرسل إلى أحمد كتابًا من مصر وهو ب<placeName change="#d2e120" xml:id="placeName_7.d2e2863">بغداد</placeName> مع الربيع يذكر له فيه أن النبي - صلى الله عليه وسلم - أمره أن يكتب إليه: (إنك ستُمتحن وتدعى إلى القول بخلق القرآن فلا تجبهم، فيرفع الله لك علمًا إلى يوم القيامة) وأن أحمد أعطى الربيع قميصه بشارة، وأن الشافعي قال للربيع لما عاد: ليس نفجعك به؛ ولكن بلّه وارفع إليّ الماء لأتبرك به. فهذا أصل الحكاية، وبعض الناس يتصرفون فيها. والسند الذي ذكره السبكي لا يصح، ولكنه يقبلون مثله في المناقب.
+(4) في طبقات الشافعية الكبرى للسبكي أن الشافعي أرسل إلى أحمد كتابًا من مصر وهو ب<placeName change="#d2e120 #d11e298" xml:id="placeName_7.d2e2863" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> مع الربيع يذكر له فيه أن النبي - صلى الله عليه وسلم - أمره أن يكتب إليه: (إنك ستُمتحن وتدعى إلى القول بخلق القرآن فلا تجبهم، فيرفع الله لك علمًا إلى يوم القيامة) وأن أحمد أعطى الربيع قميصه بشارة، وأن الشافعي قال للربيع لما عاد: ليس نفجعك به؛ ولكن بلّه وارفع إليّ الماء لأتبرك به. فهذا أصل الحكاية، وبعض الناس يتصرفون فيها. والسند الذي ذكره السبكي لا يصح، ولكنه يقبلون مثله في المناقب.
 (5) المنار: كانت هذه الجملة إلى الأربعة الأسطر موضوعة في الفصل السابق قبل قوله: (وأما
 أنت <gap resp="#org_MS" change="#d2e120" xml:id="gap_26.d2e2871"/> إلخ) ولا معنى لها هناك، ولا مرجع لضميرَيْ (يكون) و (أراد) .
 (6) المنار: كذا في الأصل ولعل في الكلام حذفًا، والمراد ظاهر؛ أي: وأما اعتقاد صحة ما قلد فيه ولا يدري ما دليله، وبطلان كل ما عداه فليس مما يكلفه.
@@ -1294,7 +1294,7 @@
 قد تقدم في كلامنا عن تاريخ فلسطين في الهلال الماضي كيف تشتت اليهود
 في أنحاء العالم بعد أن جاهدوا في الدفاع عن أورشليم دفاع الأسود. وقد مضى
 عليهم في هذه الهجرة نحو 19 قرنًا وهم يندبون وطنهم ودولتهم وهياكلهم؛ ولا سِيَّما
-هيكل سليمان الباقية آثاره في <placeName change="#d2e120" xml:id="placeName_8.d2e2946">القدس</placeName> إلى الآن كما سنبينه مصورًا في رحلتنا. وقد
+هيكل سليمان الباقية آثاره في <placeName change="#d2e120 #d11e298" xml:id="placeName_8.d2e2946" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> إلى الآن كما سنبينه مصورًا في رحلتنا. وقد
 حاولوا استرداد ذلك الوطن عبثًا، ونظموا الأشعار في رثائه. ولا يزالون إلى اليوم
 يبكون ذلك المجد الذاهب كل أسبوع عند أحجار يعتقدون أنها من بقايا هيكل سليمان.
 وقد حاول اليهود المهاجرون السعي في استرجاع ذلك الوطن غير مرة
@@ -1312,7 +1312,7 @@
 التي أعطيتها لهم) .
 وهناك نبوءات أخرى بهذا المعنى أو نحوه في زكريا وأشعيا وميخا وغيرها.
 غير ما عندهم من الاعتقاد بالمسيح الذي سيأتي ويجمع بني إسرائيل حوله
-ويزحف على <placeName change="#d2e120" xml:id="placeName_9.d2e2989">القدس</placeName> ويعيد العبادة للهياكل، وغير ذلك مما جاء في التلمود.
+ويزحف على <placeName change="#d2e120 #d11e298" xml:id="placeName_9.d2e2989" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> ويعيد العبادة للهياكل، وغير ذلك مما جاء في التلمود.
 على أن هذه الأقوال وأمثالها لا تكفي لإجماع الأمة على العمل بها إن لم يتوقع
 أصحابها نفعًا اقتصاديًّا أو سياسيًّا من ورائها، أو أن يدفعهم للعمل جوع أو اضطهاد
 أو ظلم. وكم من اعتقاد يعتقده الناس ولا يجتمعون للعمل به؛ لعجزهم عن ذلك أو
@@ -1415,7 +1415,7 @@
 لجنة للبحث؛ فقررت أن البقعة ضيقة لا تكفي فرفضوها. وقِسْ على ذلك سائر
 مؤتمرات الصهيونية وآخرها المؤتمر الحادي عشر الذي انعقد هذا العام في فيينا
 برئاسة الموسيو ولنسن، وقد جاء فيه أن الصهيونية سائرة على قدم النجاح وأن
-سلامتها مرتبطة بسلامة <placeName change="#d2e120" xml:id="placeName_10.d2e3215">الدولة العثمانية</placeName>؛ لأن المسألة اليهودية والمسألة العربية
+سلامتها مرتبطة بسلامة <placeName change="#d2e120 #d11e298" xml:id="placeName_10.d2e3215" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>؛ لأن المسألة اليهودية والمسألة العربية
 متفقتان. وقرر أشياء أخرى أهمها إنشاء جامعة في أورشليم لتعليم العلوم العالية
 باللغة العبرانية، وفي جملتها اللغات الشرقية والفلسفة القديمة والحديثة. غير
 المؤتمرات الفرعية التي كانت تعقد في أنحاء العالم المتمدن، ومنها مؤتمر عقد في
@@ -1431,7 +1431,7 @@
 الاستعماري) ؛ وغرضه سياسي، وهو أهم أدوات الجمعية في موضوعها الأساسي،
 والغرض منه: (تنشيط الاستعمار الإسرائيلي في فلسطين وسوريا وسائر أنحاء
 تركيا وفي جزيرة سيناء وقبرص) . وهو بنك مساهمة؛ عدد المساهمين فيه نحو
-135000 وله شعبة في <placeName change="#d2e120" xml:id="placeName_11.d2e3253">يافا</placeName> باسم الشركة الإنكليزية الفلسطينية لها فروع في أكثر
+135000 وله شعبة في <placeName change="#d2e120 #d11e298" xml:id="placeName_11.d2e3253" ref="geon:293253 oape:place:12 wiki:Q180294" resp="#xslt">يافا</placeName> باسم الشركة الإنكليزية الفلسطينية لها فروع في أكثر
 مدائن فلسطين. وزاد رأس ماله على 120000 جنيه. والبنك اليهودي الملّيّ؛
 والغرض منه جمع رأس مال يكون ملك الصهيونية يستخدم لابتياع الأرضين في
 فلسطين. واشترطوا أن رأس ماله لا يمسّ حتى يبلغ 50000 جنيه، وقد زاد الآن
@@ -1470,7 +1470,7 @@
                
 (أعيان البيان، من صبح القرن الثالث عشر الهجري إلى اليوم)
 كتاب خاص بتاريخ الآداب العربية في هذا العصر، وتراجم نوابغ الأدباء
-والشعراء تأليف حسن أفندي السندوبي. طبع بمطبعة الجمالية ب<placeName change="#d2e120" xml:id="placeName_12.d2e3329">القاهرة</placeName> سنة
+والشعراء تأليف حسن أفندي السندوبي. طبع بمطبعة الجمالية ب<placeName change="#d2e120 #d11e298" xml:id="placeName_12.d2e3329" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> سنة
 
             <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1332" change="#d3e146 #d2e120" xml:id="date_5.d2e3335">1332</date>هـ و <date calendar="#cal_gregorian" when="1914" change="#d3e146 #d2e120" xml:id="date_6.d2e3338">1914</date> مالية صفحاته 432 بقطع المنار بحرف متوسط الحجم على
 ورق جيّد ثمنه 10 قروش خلا أجرة البريد ويطلب من مكتبة المنار بشارع عبد
@@ -1544,7 +1544,7 @@
 (مقرر السنة الثانية لتلاميذ المكاتب أيضًا)
 سيرة سيدنا محمد صلى الله عليه وسلم، ولادته، أعماله، أخلاقه قبل
 الرسالة، هجرته إلى المدينة، مقابلة أهل المدينة له، انتشار الدين الإسلامي بعد
-الهجرة، الإسلام بعد فتح <placeName change="#d2e120" xml:id="placeName_13.d2e3497">مكة</placeName>، وفاته صلى الله عليه وسلم، قواعد الإسلام
+الهجرة، الإسلام بعد فتح <placeName change="#d2e120 #d11e298" xml:id="placeName_13.d2e3497" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وفاته صلى الله عليه وسلم، قواعد الإسلام
 الخمس، الشهادتان، الصلاة وأوقاتها، شروط صحتها، مبطلات الصلاة،
 الصوم، الزكاة الحج، الأخلاق الفاضلة المأخوذة من القرآن الكريم.. إلخ.
 ***
@@ -1565,7 +1565,7 @@
 ***
 (عظة الناشئين)
 كتاب أخلاق وآداب واجتماع تأليف الشيخ مصطفى الغلاييني أستاذ اللغة
-العربية في المكتب السلطاني في <placeName change="#d2e120" xml:id="placeName_14.d2e3549">بيروت</placeName>. طبع في مطبعة الثبات في بيروت
+العربية في المكتب السلطاني في <placeName change="#d2e120 #d11e298" xml:id="placeName_14.d2e3549" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>. طبع في مطبعة الثبات في بيروت
 سنة 1331. صفحاته 160 بالقطع الصغير، ويطلب من المكتبة الأهلية في
 بيروت.
 الكتاب مجموعة ما كان يكتبه صديقنا الأستاذ الغلاييني في <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:20 oclc:1034548778" xml:id="title_6.d2e3559">المفيد</title></bibl>، وقد
@@ -1598,7 +1598,7 @@
 فيها، وضرورة الائتمار بين أولي الأمر، ومداولات أصحاب العقول الراجحة
 والأفكار الثاقبة، ويجلي سر تطور الأمم وانتقالها في الاجتماع والسياسة من طورٍ
 إلى طور.
-ويشخص بالإجمال أمراض الاجتماع في <placeName change="#d2e120" xml:id="placeName_15.d2e3627">المملكة العثمانية</placeName> وشعوبها المتعددة
+ويشخص بالإجمال أمراض الاجتماع في <placeName change="#d2e120 #d11e298" xml:id="placeName_15.d2e3627" ref="oape:place:1" resp="#xslt">المملكة العثمانية</placeName> وشعوبها المتعددة
 المتباينة، ويصف أنجع دواء يحفظ حياتها ويشد عضدها؛ لتقف في صف الأحياء
 العاملة؛ فتناضل عن حوزتها، وتحفظ بقيتها، وتدافع عن مُلْكِهَا ومَلِكِهَا، فأجدر
 بكل مَن يقرأ العربية أن يطلع على هذا الكتاب وخصوصًا العثمانيين حاكمهم
@@ -1611,21 +1611,21 @@
 
          
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_7.d2e3653">
-               <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_8.d2e3655">مستقبل <placeName change="#d2e120" xml:id="placeName_16.d2e3657">الدولة العثمانية</placeName> وطلاب الإصلاح من العرب</head>
+               <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_8.d2e3655">مستقبل <placeName change="#d2e120 #d11e298" xml:id="placeName_16.d2e3657" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> وطلاب الإصلاح من العرب</head>
 <p change="#d2e120" xml:id="p_2.d2e3661">
                
 
                
 كنا نسمع ونقرأ منذ وعينا أن لكل دولة من الدول الأوربية مطمعًا في ولاية أو
-قطر من <placeName change="#d2e120" xml:id="placeName_17.d2e3669">المملكة العثمانية</placeName>. سمعنا كثيرًا أن مملكة <placeName change="#d2e120" xml:id="placeName_18.d2e3672">طرابلس الغرب</placeName> ستكون لإيطاليا.
+قطر من <placeName change="#d2e120 #d11e298" xml:id="placeName_17.d2e3669" ref="oape:place:1" resp="#xslt">المملكة العثمانية</placeName>. سمعنا كثيرًا أن مملكة <placeName change="#d2e120 #d11e298" xml:id="placeName_18.d2e3672" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> ستكون لإيطاليا.
 وقرأنا في تاريخ الأفغان للسيد جمال الدين أن إنكلترا لم تروها مياه النمس والكنج
 ففغرت فاها لتجرع مياه النيل ونهر جيحون (يعني الاستيلاء على مصر وبلاد
 الأفغان لأن نهر جيحون على التخم الشمالي الشرقي من تلك المملكة) كتب السيد
 هذا بمصر في عهد إسماعيل باشا. وقد احتلت إنكلترة مصر وإيطالية طرابلس
 فصدق ما كان يقال.
 وكنّا لا نزال نسمع ونقرأ أن فرنسا ترى أن سوريا لها، وأن إنكلترة ترى أن
-البصرة و<placeName change="#d2e120" xml:id="placeName_19.d2e3691">بغداد</placeName> وجميع سواحل جزيرة العرب لها - والداخلية تتبع السواحل بالطبع -
-كما صرنا نسمع أن لألمانيا قلب الأناطول إلى <placeName change="#d2e120" xml:id="placeName_20.d2e3696">العراق</placeName>. ولروسية شمال الأناطول
+البصرة و<placeName change="#d2e120 #d11e298" xml:id="placeName_19.d2e3691" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> وجميع سواحل جزيرة العرب لها - والداخلية تتبع السواحل بالطبع -
+كما صرنا نسمع أن لألمانيا قلب الأناطول إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_20.d2e3696" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>. ولروسية شمال الأناطول
 إلى الآستانة؛ على الخلاف في الغاية؛ أتدخل في المغيا أم لا؟ فما يؤمننا أن يحل
 بهذه البلاد ما حل بما قبلها؟ ولا سيما بعد أن رأينا ما حل بولايات مكدونية، ونحن
 ننشد في أمثالنا:
@@ -1633,14 +1633,14 @@
 إن جميع من نعرف من عقلائنا في خوف ووجل من قرب تلك الساعة،
 والعرب منهم موقنون بأن الدولة إن قدرت على إيجاد أسطول يحمي سواحل البلاد
 التركية القريبة من الآستانة وجزائرها من اليونان أو البلقان، فلن تقدر به عن
-حماية سواحل سورية من فرنسة ولا سواحل <placeName change="#d2e120" xml:id="placeName_21.d2e3719">العراق</placeName> أو <placeName change="#d2e120" xml:id="placeName_22.d2e3722">اليمن</placeName> و<placeName change="#d2e120" xml:id="placeName_23.d2e3725">الحجاز</placeName> من إنكلترة،
+حماية سواحل سورية من فرنسة ولا سواحل <placeName change="#d2e120 #d11e298" xml:id="placeName_21.d2e3719" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> أو <placeName change="#d2e120 #d11e298" xml:id="placeName_22.d2e3722" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> و<placeName change="#d2e120 #d11e298" xml:id="placeName_23.d2e3725" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من إنكلترة،
 فما حظ بلادهم من الأسطول الذي يبذلون لتأسيسه الإعانات الاختيارية وغير
 الاختيارية؟
 هذا الخوف على البلاد هو الذي حمل بعض أهل الغيرة على تأسيس الحزب
 اللامركزية، وكان المحرك لهم على ذلك صوت رسمي سمعوه من باريس تذكر فيه
 فرنسة حقها في سورية <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_4.d2e3739">…</hi> وكان أول سعيهم الفزع إلى صاحب الدولة رؤوف باشا
 المعتمد (القومسير) العثماني بمصر، ومكاشفته بخوفهم على سورية أن تُغِير عليها
-فرنسة كما أغارت إيطاليا على <placeName change="#d2e120" xml:id="placeName_24.d2e3747">طرابلس</placeName>، وبكونهم ألّفوا من أنفسهم لجنة للسعي إلى
+فرنسة كما أغارت إيطاليا على <placeName change="#d2e120 #d11e298" xml:id="placeName_24.d2e3747" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>، وبكونهم ألّفوا من أنفسهم لجنة للسعي إلى
 الدفاع سورية، وطلبوا منه أن يكتب إلى الباب العالي بذلك وبما يطلبون من
 المساعدة على الاستعداد للدفاع الوطني عن البلاد. ولكن المعتمد لم يجبهم إلى
 طلبهم، ولا يزال القرار الذي كتبوه بذلك وما كتبوه في مسألة تنفيذه محفوظًا عندهم.
@@ -1651,10 +1651,10 @@
 فيها من مسألة الدفاع ومسألة المال الذي يتوقف عليه كل شيء إلى الجزم بوجوب
 ترقية كل قطر بأهله، وتوقف ذلك على الإدارة اللامركزية؛ فوضعوا برنامج
 حزب اللامركزية؛ رجاء أن يقنعوا به جميع الأمة العثمانية، لا العرب خاصة.
-وفي أثناء ذلك قامت ضجة في <placeName change="#d2e120" xml:id="placeName_25.d2e3774">بيروت</placeName> كان من أثرها تأسيس الجمعية
+وفي أثناء ذلك قامت ضجة في <placeName change="#d2e120 #d11e298" xml:id="placeName_25.d2e3774" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> كان من أثرها تأسيس الجمعية
 الإصلاحية بإذن والي الولاية، وكان من غرضها أن اتفاق المسلمين والنصارى
 على الإصلاح هو الذي يسد ذريعة الاعتداء الأجنبي على البلاد، ثم قامت ضجة
-أخرى في <placeName change="#d2e120" xml:id="placeName_26.d2e3783">العراق</placeName> وتألفت جمعية إصلاحية عراقية في <placeName change="#d2e120" xml:id="placeName_27.d2e3786">البصرة</placeName>.
+أخرى في <placeName change="#d2e120 #d11e298" xml:id="placeName_26.d2e3783" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وتألفت جمعية إصلاحية عراقية في <placeName change="#d2e120 #d11e298" xml:id="placeName_27.d2e3786" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>.
 تلا ذلك صوت عربي من باريس يدعو إلى عقد مؤتمر سوري عربي يكون
 أهم مقاصده مقاومة الاحتلال الأجنبي للبلاد. وكان من أمر انعقاده ما هو معروف،
 ولم يكن المؤتمر ولا الجمعية الإصلاحية والبيروتية ولا العراقية ولا حزب
@@ -1666,7 +1666,7 @@
 بأعدى أعداء الدولة من الأجانب ونيلهم ما طلبوا بسعيها! ! وقد كذبهم الحق الواقع
 ولا يزالون يهذون بزعمهم أن طلب الإصلاح على قاعدة اللامركزية يفضي إلى
 إضاعة البلاد واستيلاء الدول عليها. ومنهم من يخص حزب اللامركزية بهذا
-الطعن لاعتقاد أن جمعيتي <placeName change="#d2e120" xml:id="placeName_28.d2e3816">بيروت</placeName> و<placeName change="#d2e120" xml:id="placeName_29.d2e3819">البصرة</placeName> قد انحلتا. والمنافق الذي يكتب ما لا
+الطعن لاعتقاد أن جمعيتي <placeName change="#d2e120 #d11e298" xml:id="placeName_28.d2e3816" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> و<placeName change="#d2e120 #d11e298" xml:id="placeName_29.d2e3819" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> قد انحلتا. والمنافق الذي يكتب ما لا
 يعتقد لأجله إرضاء من ينتفع منهم لا يستحي أن يحول الشيء إلى ضده بالسفسطة
 والتمويه.
 نرى طلاب اللامركزية موقنين بأنهم لا يعرفون طريقة لبقاء الدولة وحفظ
@@ -1693,8 +1693,8 @@
 الدولة يقبلونها وينفذونها لفصلتها لهم تفصيلاً، وأهمها مسألة سلامة الدولة، فأنا أرى
 أن ما توجهت إليه الدولة من اقتراض عشرات الملايين من أوربا لأجل سد عجز
 ميزانيتها والقيام بمشروعاتها سيفضي إلى أكبر الأخطار، وأن نظارتي الحربية
-والبحرية مهما عملنا لا تستطيع الدولة أن تحمي بها سواحل سورية و<placeName change="#d2e120" xml:id="placeName_30.d2e3880">الحجاز</placeName> واليمن
-و<placeName change="#d2e120" xml:id="placeName_31.d2e3886">العراق</placeName>، ولا أن تحول دون احتلال كل دولة من الدول لما تطمع فيه.
+والبحرية مهما عملنا لا تستطيع الدولة أن تحمي بها سواحل سورية و<placeName change="#d2e120 #d11e298" xml:id="placeName_30.d2e3880" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> واليمن
+و<placeName change="#d2e120 #d11e298" xml:id="placeName_31.d2e3886" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، ولا أن تحول دون احتلال كل دولة من الدول لما تطمع فيه.
 قال: إنا نوافقك على هذا فما المخرج منه؟
 قلت: لم يبق لنا وسيلة فما أرى إلا مسألة الدفاع الملي؛ لأن الدولة الكبرى
 التي نخافها لا تحارب بلادًا لأجل البطش والانتقام والتخريب كما كان يفعل الملوك
@@ -1764,7 +1764,7 @@
 أهله، وأن نجتنب الديون الأجنبية قدر الطاقة، ويكون حظ البلاد التي تحمل هذا
 الدين مقسومًا بينها بنسبة ما تحمله منه. وأن توجه العناية والهمة والذكاء والإقدام
 إلى استثمار الأمة بمساعدة الدولة لخيرات البلاد. فهذه الينابيع الكثيرة لزيت
-البترول في <placeName change="#d2e120" xml:id="placeName_32.d2e4043">العراق</placeName> وغيره (مثلاً) لا تحتاج إلى نفقات كثيرة، ولا إلى علوم
+البترول في <placeName change="#d2e120 #d11e298" xml:id="placeName_32.d2e4043" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وغيره (مثلاً) لا تحتاج إلى نفقات كثيرة، ولا إلى علوم
 وفنون كثيرة، وهي ثروة ستضاعف على مرّ السنين لأنها ستحل محل الفحم
 الحجري في السفن الحربية وغيرها؛ فلماذا تمنحها الدولة للأجانب دون الأهالي؟
 ولماذا لا تخصص من هذه الملايين التي تقترضها جزءًا قليلاً لتعليم مئات من شبان

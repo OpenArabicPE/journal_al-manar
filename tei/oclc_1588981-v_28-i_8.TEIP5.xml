@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_28-i_8.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_28-i_8.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e288">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_28-i_8.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_28-i_8.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1346">1346</date><date calendar="#cal_gregorian" when="1927" xml:lang="ar">أكتوبر - 1927م</date></imprint>
                   <biblScope unit="volume" from="28" to="28" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">28</biblScope>
                   <biblScope unit="issue" from="8" to="8" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">8</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e282" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e288" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e282" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -195,7 +195,7 @@
                
 
                
-(س 23و24) لصاحب الإمضاء في <placeName change="#d2e120" xml:id="placeName_4.d2e510">دمشق الشام</placeName> , بنصه على غلطه في
+(س 23و24) لصاحب الإمضاء في <placeName change="#d2e120 #d11e288" xml:id="placeName_4.d2e510" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق الشام</placeName> , بنصه على غلطه في
 عبارته.
 لجناب الفاضل صاحب <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_6.d2e518">المنار</title></bibl> الأستاذ رشيد رضا المحترم.
 قد وصلني جزء المنار الخامس , فقرأت فيه قرار النيابة العامة عن كتاب
@@ -384,7 +384,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 مما كتبه غيري لأن جمهور الكتاب من تاريخيين وسياسيين ومترسلين
 وجمهور الشعراء المفلقين قد تسابقوا إلى تأبين سعد ورثائه وكتابة تاريخه
 ببلاغة رائعة وعناية تامة، شارك فيها المصريين سائر الشعوب العربية من
-فلسطين إلى سورية إلى <placeName change="#d2e120" xml:id="placeName_5.d2e927">العراق</placeName> إلى عمان وجزيرة العرب في الشرق ومن
+فلسطين إلى سورية إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_5.d2e927" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> إلى عمان وجزيرة العرب في الشرق ومن
 تونس والجزائر إلى مراكش في الغرب.
 ناهيك بحفلة التأبين الكبرى في العاصمة وما قاله فيها الوزراء والرؤساء،
 ومصاقع الخطباء وخناذيذ الشعراء، وبتراجم الجرائد الكبرى وما توخاه
@@ -561,7 +561,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 في الذروة العليا منها، وتعلم اللغة الفرنسية وقوانينها في أثناء اشتغاله بها،
 وذلك أن مَن كان مريدًا للأستاذ الإمام يصلح لما تَعَلَّمَ الوسائلَ له، ولِمَا لم
 يتعلم وسائله. قال لي الأمير شكيب أرسلان الشهير: قلت لأستاذنا الإمام إن
-الدولة عَرضت عليّ أن أكون مديرًا للمعارف في ولاية <placeName change="#d2e120" xml:id="placeName_6.d2e1335">بيروت</placeName> فامتنعت
+الدولة عَرضت عليّ أن أكون مديرًا للمعارف في ولاية <placeName change="#d2e120 #d11e288" xml:id="placeName_6.d2e1335" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> فامتنعت
 معتذرًا بأن استعدادي للأمور الإدارية العامة لا للتعليم - فعذله الأستاذ عذلاً
 شديدًا لقوله إنه غير مستعد لإدارة التعليم وإنني أنقل هنا كتابًا من كتب سعد
 لأستاذه ليقف القارئ منه على ما كان من أثر تربيته له في نفسه، وسأنقل
@@ -724,7 +724,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 الناس يصلون إلى الضرح , ويسجدون لها , فقلت له: إن السيد مهديًّا يستبعد هذا ,
 بل يعده محالاً , فقال لي: أنا أروح معك إلى السيد مهدي بعد الفطر , وأخبره
 أني رأيت ذلك بعيني , وأنا عازم أن آتيكم به , وقد تعجبت كثيرا كيف لم تطلعوا
-على ما يفعله الجهلة بالنجف وكربلاء و<placeName change="#d2e120" xml:id="placeName_7.d2e1672">بغداد</placeName> من الأعمال الشركية التي تقشعر
+على ما يفعله الجهلة بالنجف وكربلاء و<placeName change="#d2e120 #d11e288" xml:id="placeName_7.d2e1672" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> من الأعمال الشركية التي تقشعر
 منها الجلود، ولا يختص ذلك بالشيعة , بل لمن ينسبون أنفسهم إلى السنة الحظ
 الأوفر منه عياذاً بالله.
 قوله: (مع أن قبور الأئمة محاطة بصناديق وشبابيك تمنع من وصول أحد
@@ -738,7 +738,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 (المقام العشرون) قوله: مضافًا إلى أنّا لم نجد أحدًا بنى مسجدًا حول
 القبور المشهورة [2] , أقول: إن لم تطلعوا على ذلك؛ فلا ينبغي لكم أن تنفوا كل
 ما لم تطلعوا عليه فإنكم إن فعلتم نفيتم أشياء كثيرة واقعة , بلى - والله - قل أن
-يوجد مسجد في مصر <placeName change="#d2e120" xml:id="placeName_8.d2e1706">القاهرة</placeName> وغيرها إلا وهو على قبر أو بقرب قبر، حتى صار
+يوجد مسجد في مصر <placeName change="#d2e120 #d11e288" xml:id="placeName_8.d2e1706" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> وغيرها إلا وهو على قبر أو بقرب قبر، حتى صار
 العامة وبعض من يزعم أنه من الخاصة إذا أراد أن يبني مسجدًا بحث عن قبر رجل
 صالح يبني عليه , ويجد حرجًا في صدره أن يبني المسجد على غير قبر {فَاسْئَلْ
 بِهِ خَبِيراً} (الفرقان: 59) , وهذه من أعظم معجزات نبينا صلى الله عليه وسلم ,
@@ -757,7 +757,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 غدا عليه ومعه أبو بكر فصلى في ناحية من بيته اهـ بعضه بالمعنى.
 وأخرج أبو داود والترمذي عن عائشة قالت: أمر رسول الله صلى الله عليه
 وسلم ببناء المساجد في الدور وأن تنظف وتطيب وفي البخاري أن أبا بكر ابتنى
-مسجدًا بفناء داره؛ فكان يصلي فيه , ويقرأ القرآن قلت: وكان ذلك في <placeName change="#d2e120" xml:id="placeName_9.d2e1750">مكة</placeName> وفيه:
+مسجدًا بفناء داره؛ فكان يصلي فيه , ويقرأ القرآن قلت: وكان ذلك في <placeName change="#d2e120 #d11e288" xml:id="placeName_9.d2e1750" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وفيه:
 وصلى ابن عون في مسجد في دار يغلق عليهم الباب.
 فثبت ما قلته من أن كل ما كان أعد للصلاة يسمى مسجدًا شرعًا ولغة.
 (المقام الثاني والعشرون) قوله: أما الحديث الذي وعدنا فيما سبق ببيان
@@ -859,7 +859,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
          
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_6.d2e1967">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_7.d2e1969">معاهدة جدة
-بين جلالة ملك بريطانيا وجلالة ملك <placeName change="#d2e120" xml:id="placeName_10.d2e1973">الحجاز</placeName> ونجد وملحقاتها</head>
+بين جلالة ملك بريطانيا وجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_10.d2e1973" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها</head>
 <p change="#d2e120" xml:id="p_2.d2e1977">
                
 
@@ -868,7 +868,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 1346.
 بسم الله الرحمن الرحيم
 الحمد لله وحده، والصلاة والسلام على من لا نبي بعده.
-نحن عبد العزيز عبد الرحمن الفيصل آل سعود، ملك <placeName change="#d2e120" xml:id="placeName_11.d2e1995">الحجاز</placeName> ونجد
+نحن عبد العزيز عبد الرحمن الفيصل آل سعود، ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_11.d2e1995" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد
 وملحقاتها:
 بما أنه قد عقدت بيننا وبين حضرة صاحب الجلالة ملك بريطانيا العظيم
 وأرلندا والممتلكات البريطانية فيما وراء البحار وإمبراطور الهند معاهدة صداقة
@@ -879,44 +879,44 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 مدرجة فيما يلي: -
 بسم الله الرحمن الرحيم
 جلالة ملك بريطانيا وأيرلندا والممتلكات البريطانية من وراء البحار
-وإمبراطور الهند من جهة , وجلالة ملك <placeName change="#d2e120" xml:id="placeName_12.d2e2022">الحجاز</placeName> ونجد وملحقاتها من جهة أخرى.
+وإمبراطور الهند من جهة , وجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_12.d2e2022" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها من جهة أخرى.
 رغبة في توطيد العلاقات الودية السائدة بينهما , وتوثيقها وتأمين مصالحهما
 وتقويتها؛ قد عزما على عقد معاهدة صداقة، وحسن تفاهم.
 لذلك أوفد صاحب الجلالة البريطانية حضرة السير جلبرت فلكنجهام كلايتن
-مندوبا مفوضًا عنه، وانتدب صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_13.d2e2034">الحجاز</placeName> ونجد وملحقاتها صاحب
-السمو الملكي الأمير فيصل بن عبد العزيز نجله ونائبه في <placeName change="#d2e120" xml:id="placeName_14.d2e2039">الحجاز</placeName> مندوبًا مفوضًا
+مندوبا مفوضًا عنه، وانتدب صاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_13.d2e2034" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها صاحب
+السمو الملكي الأمير فيصل بن عبد العزيز نجله ونائبه في <placeName change="#d2e120 #d11e288" xml:id="placeName_14.d2e2039" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> مندوبًا مفوضًا
 عنه.
 بناء على ما تقدم , وبعد الاطلاع على مستندات اعتمادهما والتثبت من
 صحتها , قد اتفق سمو الأمير فيصل بن عبد العزيز وحضرة السير جلبرت
 فلكنجهام كلايتن على المواد الآتية: -
 (المادة الأولى) يعترف صاحب الجلالة البريطانية بالاستقلال التام المطلق
-لممالك صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_15.d2e2055">الحجاز</placeName> ونجد وملحقاتها.
+لممالك صاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_15.d2e2055" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها.
 (المادة الثانية) يسود السلم والصداقة بين صاحب الجلالة البريطانية،
-وصاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_16.d2e2063">الحجاز</placeName> ونَجْد وملحقاتها، ويتعهد كل من الفريقين المتعاقدين
+وصاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_16.d2e2063" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونَجْد وملحقاتها، ويتعهد كل من الفريقين المتعاقدين
 بأن يحافظ على حسن العلاقات مع الفريق الآخر، وبأن يسعى بكل ما لديه من
 الوسائل لمنع استعمال بلاده قاعدة للأعمال غير المشروعة الموجهة ضد السلم
 والسكينة في بلاد الفريق الآخر.
-(المادة الثالثة) يتعهد صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_17.d2e2075">الحجاز</placeName> ونجد وملحقاتها بتسهيل
+(المادة الثالثة) يتعهد صاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_17.d2e2075" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها بتسهيل
 أداء فريضة الحج لجميع الرعايا البريطانيين، والأشخاص المتمتعين بالحماية
 البريطانية من المسلمين أسوة بسائر الحجاج، ويعلن جلالة الملك بأنهم يكونون
-آمنين على أموالهم وأنفسهم أثناء إقامتهم في <placeName change="#d2e120" xml:id="placeName_18.d2e2084">الحجاز</placeName>.
-(المادة الرابعة) يتعهد صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_19.d2e2090">الحجاز</placeName> ونجد وملحقاتها بتسليم
+آمنين على أموالهم وأنفسهم أثناء إقامتهم في <placeName change="#d2e120 #d11e288" xml:id="placeName_18.d2e2084" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>.
+(المادة الرابعة) يتعهد صاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_19.d2e2090" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها بتسليم
 مخلفات من يتوفى في البلاد التابعة لجلالته من الحجاج المذكورين آنفًا، والذين
 ليس لهم في بلاد جلالته أوصياء شرعيون إلى المعتمد البريطاني في جدة , أو من
 ينتدبه لذلك الغرض؛ لإيصالها لورثة الحاج المتوفى المستحقين , بشرط أن لا
 يكون تسليم تلك المخلفات إلى الممثل البريطاني إلا بعد أن تتم المعاملات بشأنها أمام
 المحاكم المختصة وتُسْتَوْفَى عليها الرسوم المقررة في القوانين الحجازية أو النجدية.
 (المادة الخامسة) يعترف صاحب الجلالة البريطانية بالجنسية الحجازية أو
-النجدية لجميع رعايا صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_20.d2e2108">الحجاز</placeName> ونجد وملحقاتها , عندما يوجدون
+النجدية لجميع رعايا صاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_20.d2e2108" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها , عندما يوجدون
 في بلاد صاحب الجلالة البريطانية، أو البلاد المشمولة بحماية جلالته، وكذلك
-يعترف صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_21.d2e2115">الحجاز</placeName> ونجد وملحقاتها بالجنسية البريطانية لجميع
+يعترف صاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_21.d2e2115" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها بالجنسية البريطانية لجميع
 رعايا صاحب الجلالة البريطانية، ولجميع الأشخاص المتمتعين بحماية جلالته
-عندما يوجدون في بلاد صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_22.d2e2123">الحجاز</placeName> ونجد وملحقاتها , على أن
+عندما يوجدون في بلاد صاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_22.d2e2123" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها , على أن
 تراعى قواعد القانون الدولي المرعي بين الحكومات المستقلة.
-(المادة السادسة) يتعهد صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_23.d2e2130">الحجاز</placeName> ونجد وملحقاتها
+(المادة السادسة) يتعهد صاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_23.d2e2130" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها
 بالمحافظة على علاقات الود والسلم مع الكويت والبحرين ومشايخ (قطر)
 والساحل العماني الذين لهم معاهدات خاصة مع حكومة صاحب الجلالة البريطانية.
-(المادة السابعة) يتعهد صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_24.d2e2140">الحجاز</placeName> ونجد وملحقاتها بأن
+(المادة السابعة) يتعهد صاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_24.d2e2140" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها بأن
 يتعاون بكل ما لديه من الوسائل مع صاحب الجلالة البريطانية في القضاء على
 الاتجار بالرقيق.
 (المادة الثامنة) على الفريقين المتعاقدين إبرام هذه المعاهدة , وتبادل
@@ -926,7 +926,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 إبطال المعاهدة؛ تبقى نافذة، ولا تعتبر باطلة إلا بعد مضي ستة أشهر من اليوم
 الذي يعلن فيه أحد الفريقين إبطالها للفريق الآخر.
 (المادة التاسعة) تعتبر المعاهدة المعقودة بين صاحب الجلالة البريطانية
-وصاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_25.d2e2165">الحجاز</placeName> ونجد وملحقاتها في 26 ديسمبر سنة 1915 يوم كان
+وصاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_25.d2e2165" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها في 26 ديسمبر سنة 1915 يوم كان
 جلالته حاكمًا لنجد وما كان ملحقًا بها؛ إذ ذاك - ملغاة ابتداء من تاريخ إبرام
 المعاهدة.
 (المادة العاشرة) دونت هذه المعاهدة باللغتين العربية والإنكليزية،
@@ -961,7 +961,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 جورج بنعمة الله ملك بريطانيا العظيم وأيرلندا والممتلكات البريطانية فيما
 وراء البحار حامي الإيمان وإمبراطور الهند إلخ إلخ إلخ إلى كل من يطلع على
 كتابنا هذا , سلام.
-بما أنه قد عقدت بيننا , وبين حضرة صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_26.d2e2246">الحجاز</placeName> ونجد
+بما أنه قد عقدت بيننا , وبين حضرة صاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_26.d2e2246" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد
 وملحقاتها معاهدة وقعت في جدة من قبل مندوبنا المفوض , ومندوب جلالته
 الحائزين للصلاحية التامة المتقابلة , وذلك في اليوم العشرين من شهر مايس
 (مايو) , والحمد لله بين بلادينا وهي كلمة بكلمة كما يلي: (هنا يأتي نص
@@ -982,7 +982,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 إن الموقعين أدناه قد اجتمعا لأجل تبادل قرارات إبرام معاهدة الصداقة ,
 وحسن التفاهم المعقودة بين صاحب الجلالة ملك بريطانيا العظمى وأيرلندة
 والممتلكات البريطانية من وراء البحار إمبراطور الهند، وبين حضرة صاحب
-الجلالة ملك <placeName change="#d2e120" xml:id="placeName_27.d2e2295">الحجاز</placeName> ونجد وملحقاتها , والتي وقع عليها في مدينة جدة في اليوم
+الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_27.d2e2295" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها , والتي وقع عليها في مدينة جدة في اليوم
 العشرين من شهر مايس (مايو) سنة 1927 (الموافق 18 ذي القعدة سنة
 1345) وبعد أن قابلا نسخ قرارات إبرام المعاهدة السالفة الذكر بدقة , ووجدا كل واحدة مطابقة تمام المطابقة للأخرى , قد جرى التبادل المذكور هذا اليوم
 على الصورة المعتادة , وإقرارًا على ذلك قد وقعا على هذه الشهادة.
@@ -1005,12 +1005,12 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 تبودلت مع المعاهدة كتب يتعلق بعضها ببيان بعض مواد المعاهدة، وبعضها
 مستقل بذاته، نثبت نصها فيما يلي:
 (1)
-إلى صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_28.d2e2352">الحجاز</placeName> ونجد وملحقاتها.
+إلى صاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_28.d2e2352" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها.
 يا صاحب الجلالة.
 إشارة إلى الاقتراح الذي تفضلتم به لوضع مادة في المعاهدة تشرط على
 حكومة صاحب الجلالة البريطانية عدم الممانعة في شراء وتوريد جميع الأسلحة
 والأدوات الحربية والذخيرة والآلات , وغير ذلك من اللوازم الحربية , التي قد
-تحتاج إليها حكومة <placeName change="#d2e120" xml:id="placeName_29.d2e2366">الحجاز</placeName> ونجد لاستعمالها لنفسها.
+تحتاج إليها حكومة <placeName change="#d2e120 #d11e288" xml:id="placeName_29.d2e2366" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد لاستعمالها لنفسها.
 لي الشرف أن أخبر جلالتكم أن حكومة صاحب الجلالة البريطانية ترى أن
 هذه مسالة لا تحتاج إلى ذكر في نص المعاهدة، وقد فوضتني حكومة صاحب
 الجلالة البريطانية بأن أخبر جلالتكم أن تحريم تصدير الأدوات الحربية إلى جزيرة
@@ -1060,7 +1060,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_94.d2e2469"/> (الختم الملكي)
 ***
 (2)
-إلى صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_30.d2e2478">الحجاز</placeName> ونجد وملحقاتها.
+إلى صاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_30.d2e2478" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها.
 يا صاحب الجلالة:
 لي الشرف أن أذكر جلالتكم أنه في أثناء المفاوضات التي دارت بيننا , والتي
 أدت - ولله الحمد - إلى عقد معاهدة صداقة وحسن تفاهم بين صاحب الجلالة
@@ -1069,7 +1069,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 صاحب الجلالة البريطانية مصرة على التمسك بذلك الموقف.
 أما الحدود المشار إليها؛ فتعتبر حكومة صاحب الجلالة البريطانية أنها تعرف
 كما يأتي:
-تبتدئ الحدود بين <placeName change="#d2e120" xml:id="placeName_31.d2e2500">الحجاز</placeName> وشرق الأردن من نقطة تقاطع دائرة الطول 38
+تبتدئ الحدود بين <placeName change="#d2e120 #d11e288" xml:id="placeName_31.d2e2500" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وشرق الأردن من نقطة تقاطع دائرة الطول 38
 (شرقي) بدائرة العرض 35، 29 (شمالي) , حيث تنتهي الحدود بين نجد
 وشرقي الأردن , فتمتد على خط مستقيم إلى نقطة على السكة الحديدية الحجازية ,
 بعدها ميلان إلى الجنوب من محطة المدورة , ثم تمتد من تلك النقطة على خط
@@ -1094,7 +1094,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 من عبد العزيز بن عبد الرحمن الفيصل آل سعود إلى حضرة صاحب الفخامة
 المندوب المفوض لصاحب الجلالة البريطانية
 جوابًا على كتاب فخامتكم المؤرخ في 18 ذي القعدة سنة 1345 المختص
-بمسألة الحدود بين <placeName change="#d2e120" xml:id="placeName_32.d2e2558">الحجاز</placeName> وشرق الأردن , قد أخذنا علماً بأن حكومة صاحب
+بمسألة الحدود بين <placeName change="#d2e120 #d11e288" xml:id="placeName_32.d2e2558" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وشرق الأردن , قد أخذنا علماً بأن حكومة صاحب
 الجلالة البريطانية مصرة على موقفها، ولكن نرى أن تسوية هذه المسألة بصورة
 نهائية أمر متعذر في الظروف الحاضرة، ومع ذلك نظرًا لرغبتنا الصادقة في
 المحافظة على العلاقات الودية المؤسسة على صلات الصداقة المتينة؛ رأينا أن
@@ -1105,7 +1105,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 18 ذي القعدة سنة 1345 الختم الملوكي
 ***
 (3)
-إلى صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_33.d2e2585">الحجاز</placeName> ونجد وملحقاتها
+إلى صاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_33.d2e2585" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها
 يا صاحب الجلالة:
 إلحاقًا بالمحادثات التي دارت بيننا بخصوص مسألة المتاجرة بالرقيق.
 لي الشرف أن أخبر جلالتكم أن حكومة صاحب الجلالة البريطانية ترى أنه
@@ -1147,7 +1147,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 19 ذي القعدة سنة 1345 الختم الملوكي
 ***
 (4)
-إلى صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_34.d2e2679">الحجاز</placeName> ونجد وملحقاتها
+إلى صاحب الجلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_34.d2e2679" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملحقاتها
 يا صاحب الجلالة:
 إشارة إلى المادة الرابعة من معاهدة جدة.
 لي الشرف أن أثبت في كتابي هذا التصريحات التي ألقيتها أمام جلالتكم أثناء
@@ -1195,7 +1195,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_136.d2e2777"/> الختم الملكي
 ***
 سكة حديد الحجاز
-وقد دار أيام المفاوضات في المعاهدة بحث عن سكة حديد <placeName change="#d2e120" xml:id="placeName_35.d2e2786">الحجاز</placeName> , ولم تنته
+وقد دار أيام المفاوضات في المعاهدة بحث عن سكة حديد <placeName change="#d2e120 #d11e288" xml:id="placeName_35.d2e2786" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> , ولم تنته
 المفاوضات بشأنها , والمنتظر في القريب العاجل أن يتم الاتفاق على تسييرها ,
 وسننشر ذلك في حينه إن شاء الله تعالى اهـ ما نقلناه عن <bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e273">جريدة <title level="j" change="#d11e273">أم القرى</title></bibl>  بنصه.
 (آراء السياسيين في المعاهدة)
@@ -1216,17 +1216,17 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 بعدم الإصرار على إبقاء منطقة العقبة ومعان ملحقة بشرق الأردن الذي جعلته داخلاً
 في مسمى الانتداب البريطاني إلى فرصة أخرى؛ لكان حقًّا على كل مسلم وكل
 عربي أن يشكر لها هذه المعاهدة , ويعدها أول خطوة للمسالمة بينها , وبين
-المسلمين الناقمين عليها بالتعدي على بلاد <placeName change="#d2e120" xml:id="placeName_36.d2e2838">الحجاز</placeName> المقدسة , ونقض وصية خاتم
+المسلمين الناقمين عليها بالتعدي على بلاد <placeName change="#d2e120 #d11e288" xml:id="placeName_36.d2e2838" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> المقدسة , ونقض وصية خاتم
 المرسلين.
-والواجب على ملك <placeName change="#d2e120" xml:id="placeName_37.d2e2845">الحجاز</placeName> ونجد أن يعود إلى مطالبتها بإعادة هذه المنطقة إلى
+والواجب على ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_37.d2e2845" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد أن يعود إلى مطالبتها بإعادة هذه المنطقة إلى
 الحجاز في أقرب فرصة؛ لئلا يموت هذا الحق بطول الزمن , أو يضعف بإنشاء
 معاقل عسكرية ومدنية فيها , وعسى أن تثوب الدولة البريطانية إلى حكمتها؛
 فتعترف بها للحجاز.
 وقد انتقد بعض المشتغلين بالسياسة الدولية المادة الثانية , بأن الغبن فيها على
-ملك <placeName change="#d2e120" xml:id="placeName_38.d2e2859">الحجاز</placeName> ونجد , وإن شئت قلت على الأمة العربية , وعلى المسلمين كافة بأنها
-تقتضي أن يمنع ملك <placeName change="#d2e120" xml:id="placeName_39.d2e2865">الحجاز</placeName> ونجد من يلجأ إلى حرم الله تعالى لبث الدعوة إلى
-مقاومة هذه الدولة <placeName change="#d2e120" xml:id="placeName_40.d2e2870">القاهرة</placeName> لهم المغتصبة لبلادهم، وغلا بعضهم , فقال: إن المنع
-لهذه الدعاية غير جائز شرعًا , فملك <placeName change="#d2e120" xml:id="placeName_41.d2e2875">الحجاز</placeName> ونجد لا يستطيع الوفاء بهذه المادة إلا
+ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_38.d2e2859" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد , وإن شئت قلت على الأمة العربية , وعلى المسلمين كافة بأنها
+تقتضي أن يمنع ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_39.d2e2865" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد من يلجأ إلى حرم الله تعالى لبث الدعوة إلى
+مقاومة هذه الدولة <placeName change="#d2e120 #d11e288" xml:id="placeName_40.d2e2870" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> لهم المغتصبة لبلادهم، وغلا بعضهم , فقال: إن المنع
+لهذه الدعاية غير جائز شرعًا , فملك <placeName change="#d2e120 #d11e288" xml:id="placeName_41.d2e2875" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد لا يستطيع الوفاء بهذه المادة إلا
 بمخالفة الشرع، وليس له في مقابلة هذا الغبن ما يقابله من نفع , فيقال: إنها مبنية
 على المساواة؛ لأن الدولة البريطانية لا تستطيع أن تمنع خصومه في الهند من ترك
 الدعاية الموجهة إلى معاداته , وإلى ترك الحج أيضًا؛ لأن حرية قوانينها لا تسمح
@@ -1236,19 +1236,19 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 استعمال كل من الفريقين المتعاقدين بلاده قاعدة للأعمال غير المشروعة الموجهة
 ضد السلم والسكنية في بلاد الفريق الآخر , " ومعناه منع الدعوة إلى حربه , أو
 الثورات والفتن في بلاده، ولا يدخل في ذلك الانتقاد السياسي ولا الطعن العادي في
-حكومة كل من الفريقين كالذي نعهده في الجرائد المصرية، ويمكن لملك <placeName change="#d2e120" xml:id="placeName_42.d2e2900">الحجاز</placeName> أن
+حكومة كل من الفريقين كالذي نعهده في الجرائد المصرية، ويمكن لملك <placeName change="#d2e120 #d11e288" xml:id="placeName_42.d2e2900" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أن
 يعامل الإنكليز بمثل ما يعاملونه به في هذا , ويحتج بالشريعة إذا احتجوا بالقانون.
 قال المنتقد: إنه لا يمكنه ذلك لضعفه , قلت: إن الاعتراض إذًا على الضعف لا
 على المعاهدة , فالقوي لا يعدم وسيلة للعدوان على الضعيف إذا اقتضته سياسته،
 وستعلم أنه قوي في مركزه، ولولا قوته لما عقدوا معه هذه المعاهدة التي لا يعقدون
 مثلها إلا مع إحدى الدول العظمى.
 (ثانيها) أن في الدعوة إلى الحرب أو الثورة , وهي الممنوعة مصلحة
-للفريقين، بل مصلحة ملك <placeName change="#d2e120" xml:id="placeName_43.d2e2918">الحجاز</placeName> ونجد ومن ورائه مصلحة العرب والمسلمين هي
+للفريقين، بل مصلحة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_43.d2e2918" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد ومن ورائه مصلحة العرب والمسلمين هي
 الأرجح.
 ذلك بأن الغرض من هذه المادة منع التقاتل بين البلاد العربية التي تعدها
-الدولة البريطانية تحت حمايتها باسم الانتداب , وهي <placeName change="#d2e120" xml:id="placeName_44.d2e2928">العراق</placeName> وشرق الأردن
-وفلسطين وبين بلاد <placeName change="#d2e120" xml:id="placeName_45.d2e2933">الحجاز</placeName> ونجد المتصلة بها، وما أظن أنه يوجد عاقل من العرب ,
-أو من سائر المسلمين يقول: إن مصلحة ملك <placeName change="#d2e120" xml:id="placeName_46.d2e2939">الحجاز</placeName> ونجد قتال هؤلاء المجاورين له
+الدولة البريطانية تحت حمايتها باسم الانتداب , وهي <placeName change="#d2e120 #d11e288" xml:id="placeName_44.d2e2928" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وشرق الأردن
+وفلسطين وبين بلاد <placeName change="#d2e120 #d11e288" xml:id="placeName_45.d2e2933" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد المتصلة بها، وما أظن أنه يوجد عاقل من العرب ,
+أو من سائر المسلمين يقول: إن مصلحة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_46.d2e2939" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد قتال هؤلاء المجاورين له
 من أمته، لا بأن يكون هو البادئ به , ولا بأن يكونوا هم البادئين.
 ومن المعروف أن الدولة البريطانية قد وضعت على رأس كل من الحكومتين
 المجاورتين للحجاز ونجد رجلاً من أولاد الشريف حسين المعادين له , ويظهر أن
@@ -1260,10 +1260,10 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 أن يعدوا من مصلحتهم منع بعضهم من إضعاف بعض , فما فائدتهم من هذه المادة
 إذًا؟
 قلت: إن استفادتهم من هذه البلاد تتوقف على عمران ما استولوا عليه , أو
-أخذوا على أنفسهم حمايته منها، فإذا تصدى ملك <placeName change="#d2e120" xml:id="placeName_47.d2e2968">الحجاز</placeName> ونجد لمقاتلتها , فإنهم
+أخذوا على أنفسهم حمايته منها، فإذا تصدى ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_47.d2e2968" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد لمقاتلتها , فإنهم
 يضطرون إما لتركها , وإما لبذل ألوف الملايين من الجنيهات ومئات الألوف من
 الرجال للدفاع عنها، وليس هذا من مصلحتهم في شيء، وقد رأينا أن برلمانهم
-ما زال يعذل وزارة المستعمرات على كثرة نفقات جيشهم في <placeName change="#d2e120" xml:id="placeName_48.d2e2978">العراق</placeName> , حتى لم يبقوا
+ما زال يعذل وزارة المستعمرات على كثرة نفقات جيشهم في <placeName change="#d2e120 #d11e288" xml:id="placeName_48.d2e2978" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> , حتى لم يبقوا
 منه إلا القليل , فكيف يسمح لهم بزيادته أضعافًا كثيرة لإيقاد نار حرب في جزيرة
 العرب ما لم تلجئ إلى ذلك الضرورة التي لا دافع لها؟ فإذا كانت مثل هذه المعاهدة
 تدفعها , فالمصلحة لهم فيها ظاهرة، وقد علمنا أن الفريق الآخر إليها أحوج، وإنما
@@ -1272,27 +1272,27 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 أو بين قوي وضعيف.
 فإن قيل: إن هذه فرصة لتمكين نفوذ الإنكليز في هذه البلاد العربية - قلنا:
 إن تلافي هذا الخطر موكول إلى أهلها , والرجاء في الشعب العراقي عظيم.
-(ثالثها) أن فرض التجاء فريق من العرب إلى بلاد <placeName change="#d2e120" xml:id="placeName_49.d2e3000">الحجاز</placeName> أو نجد
+(ثالثها) أن فرض التجاء فريق من العرب إلى بلاد <placeName change="#d2e120 #d11e288" xml:id="placeName_49.d2e3000" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أو نجد
 للاعتصام بها في حال مقاتلتهم للإنكليز فرض وهمي , فإن حال العرب المتصلين
 بالقطرين المذكورين معروفة لنا , بل ثبت أن بدو شرق الأردن اعتدوا على
 النجديين , فمنعهم إمامهم ابن السعود من مقابلة العدوان بمثله على قوته , وضعف
 المعتدين على قومه , ورضي بالتحكيم بين الفريقين ولما يفد - فحمدنا له هذا.
-(رابعها) أن نشر الدعاية القولية في <placeName change="#d2e120" xml:id="placeName_50.d2e3014">الحجاز</placeName> لقتال الإنكليز في الهند , أو
+(رابعها) أن نشر الدعاية القولية في <placeName change="#d2e120 #d11e288" xml:id="placeName_50.d2e3014" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لقتال الإنكليز في الهند , أو
 السودان مثلاً عقيم , وليس فيه مصلحة للمسلمين , بل فيه ضرر عليهم؛ لأن
 الإنكليز يمنعون الجرائد والنشرات التي تنشرها من دخول البلاد التي يرون أنها
-تضرهم فيها، وقد يتوسلون بنشرها في <placeName change="#d2e120" xml:id="placeName_51.d2e3024">الحجاز</placeName> إلى منع مسلمي تلك البلاد من الحج.
+تضرهم فيها، وقد يتوسلون بنشرها في <placeName change="#d2e120 #d11e288" xml:id="placeName_51.d2e3024" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إلى منع مسلمي تلك البلاد من الحج.
 (خامسها) وهو خاص بمن ظن أن مثل هذه المعاهدة محظور شرعًا لأن
 الغبن فيها على المسلمين , أو لأنها تقيد حرية من يريد الطعن بأعدائه معتصمًا
 بِحَرَمِ الله تعالى - أن المعاهدات تبنى على المصلحة العامة الراجحة , فمتى اقتنع
 بها إمام المسلمين بعد مشاورة أهل الرأي منهم عنده؛ جاز له أو وجب عليه أن
 يفعل ما فيه المصلحة الراجحة، وهذا لا ينفي أن يكون في المعاهدة مضرة
 مرجوحة.
-وحجتنا في ذلك معاهدة الحديبية بين النبي صلى الله عليه وسلم ومشركي <placeName change="#d2e120" xml:id="placeName_52.d2e3042">مكة</placeName> ,
+وحجتنا في ذلك معاهدة الحديبية بين النبي صلى الله عليه وسلم ومشركي <placeName change="#d2e120 #d11e288" xml:id="placeName_52.d2e3042" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ,
 فجميع المسلمين رأوا أن فيها مضرة وغبنًا عليهم , أو ما هو أكبر من ذلك , ولا
 سيما اشتراط المشركين على النبي صلى الله عليه وسلم أن من تركه من أصحابه ,
 ولجأ إليهم لا يعيدونه إليه، ومن لجأ منهم إليه مؤمنًا به؛ أعاده إليهم، وقد رضي
 صلى الله عليه وسلم بهذا لأنه علم أن المصلحة في تلك المعاهدة أرجح؛ فأنفذها.
-وهكذا فعل ملك <placeName change="#d2e120" xml:id="placeName_53.d2e3056">الحجاز</placeName> ونجد بعد مشاورة من لديه من العارفين بهذه الشؤون -
+وهكذا فعل ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_53.d2e3056" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد بعد مشاورة من لديه من العارفين بهذه الشؤون -
 ومنهم بعض الدارسين للقوانين الدولية - ثم أنفذ ما رأى فيه المصلحة الراجحة.
 ومتى عاهد إمام المسلمين قومًا؛ وجب عليه الوفاء , وإن كان فيه غبن
 لبعض المسلمين , يدل على هذا قوله تعالى في أواخر سورة الأنفال {وَالَّذِينَ آمَنُوا
@@ -1301,7 +1301,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 المؤمنين الذين كانوا بدار الشرك , ولم يهاجروا إلى النبي صلى الله عليه وسلم في
 دار الإسلام؛ تجب لهم على إخوانهم المؤمنين النصرة , إذا قاتلهم المشركون إلا
 على قوم بينهم وبين المؤمنين عهد وميثاق , كمعاهدة الحديبية بين النبي صلى الله
-عليه وسلم ومشركي <placeName change="#d2e120" xml:id="placeName_54.d2e3079">مكة</placeName> , فليس لهم أن ينقضوا العهد قبل انتهاء مدته لأجل نصرة
+عليه وسلم ومشركي <placeName change="#d2e120 #d11e288" xml:id="placeName_54.d2e3079" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> , فليس لهم أن ينقضوا العهد قبل انتهاء مدته لأجل نصرة
 إخوانهم في الدين في غير دار الهجرة.
 هذا كل ما سمعته , وعلمته من نقد هذه المعاهدة من أشد الناس مبالغة وإغراقًا
 في التشاؤم من كل عمل للإنكليز , لشدة سوء الظن فيهم؛ لما ذاقت هذه البلاد من
@@ -1315,7 +1315,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 رجل عقل وعمل , لا رجل أحلام وأوهام , فهل يترك هذه الدولة المستقلة التي
 أسسها بعقله وحزمه , ويعيش بأحلام حسين بك علي بعد أن صحا هذا منها منفيًّا من
 البلاد العربية في جزيرة قبرص؟
-هذا , وإن أكبر مصلحة لملك <placeName change="#d2e120" xml:id="placeName_55.d2e3112">الحجاز</placeName> ونجد في هذه المعاهدة تضمنها إلغاء
+هذا , وإن أكبر مصلحة لملك <placeName change="#d2e120 #d11e288" xml:id="placeName_55.d2e3112" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد في هذه المعاهدة تضمنها إلغاء
 معاهدة سنة 1915 التي كان عقدها مع الدولة البريطانية في عهد الحرب الكبرى ,
 إذ كان ضعيفًا قريب العهد باسترجاع إمارتهم المسلوبة من ابن الرشيد , ومضطرًّا
 إلى إسقاط إمارته , وتوحيد البلاد النجدية وهذا نصها:
@@ -1354,7 +1354,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 التفصيلات التي تتعلق بهذه المعاهدة اهـ. <gap resp="#org_MS" change="#d2e120" xml:id="gap_137.d2e3194"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_138.d2e3196"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_139.d2e3198"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_140.d2e3200"/> التوقيع <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_6.d2e3202">(1) قدم هذا الملحق ولم يقبل من <placeName change="#d2e120" xml:id="placeName_56.d2e3204">الحجاز</placeName> ونجد فرفع من المعاهدة , ولم يعمل به.</note>
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_140.d2e3200"/> التوقيع <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_6.d2e3202">(1) قدم هذا الملحق ولم يقبل من <placeName change="#d2e120 #d11e288" xml:id="placeName_56.d2e3204" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد فرفع من المعاهدة , ولم يعمل به.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_6.d2e3208">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_8.d2e3210" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -1472,7 +1472,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 محضر من الشهود , فإن قال الذي جيء عليه بالكتاب أنه زور , قيل له: اذهب؛
 فالتمس المخرج من ذلك، وأول من سأل على كتاب القاضي البينة ابن أبي ليلى
 وسَوَّار بن عبد الله , وقال لنا أبو نعيم: حدثنا عبد الله بن محرز: جئت بكتاب من
-موسى بن أنس قاضي <placeName change="#d2e120" xml:id="placeName_57.d2e3447">البصرة</placeName> , وأقمت عنده البينة أن لي عند فلان كذا وكذا وهو
+موسى بن أنس قاضي <placeName change="#d2e120 #d11e288" xml:id="placeName_57.d2e3447" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> , وأقمت عنده البينة أن لي عند فلان كذا وكذا وهو
 بالكوفة فجئت به [2] القاسم بن عبد الرحمن , فأجازوه، وكره الحسن وأبو قلابة
 أن يشهد على وصية حتى يعلم ما فيها , لأنه لا يدري لعل فيها جورًا، وقد كتب
 النبي صلى الله عليه وسلم إلى أهل خيبر (إما أن تدوا صاحبكم , وإما أن تأذنوا
@@ -1751,7 +1751,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_151.d2e4024"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_152.d2e4027"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_153.d2e4029"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_154.d2e4031"/> (الختم) مفتي <placeName change="#d2e120" xml:id="placeName_58.d2e4033">بيروت</placeName> <note type="footnote" place="bottom" change="#d2e120" xml:id="note_9.d2e4036"/>
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_154.d2e4031"/> (الختم) مفتي <placeName change="#d2e120 #d11e288" xml:id="placeName_58.d2e4033" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> <note type="footnote" place="bottom" change="#d2e120" xml:id="note_9.d2e4036"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_9.d2e4038">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_11.d2e4040" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -2008,7 +2008,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 المنتسبين إلى السنة وهم على بدع بعضها شرك صريح بالله، وبعضها من كبائر
 المعاصي , ومنهم الذين عرفوا مذهب السنة واعتصموا به.
 وأما الأمير شكيب نفسه فهو من أنبغ مريدي الأستاذ الإمام الذين تلقوا عنه
-عقائد السنة السلفية وحكمتها العالية في <placeName change="#d2e120" xml:id="placeName_59.d2e4797">بيروت</placeName> حيث ألف رسالة التوحيد التي لم
+عقائد السنة السلفية وحكمتها العالية في <placeName change="#d2e120 #d11e288" xml:id="placeName_59.d2e4797" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> حيث ألف رسالة التوحيد التي لم
 يؤلف مثلها في الإسلام، فكان بهذا من أنصار الإسلام والسنة لا من آحاد المسلمين
 أو عوامهم، وقد قال له السيد جمال الدين حكيم الملة: حيا الله أرض إسلام أنبتتك.
 وقد كان يصلي معي في فنادق أوربة أيام صحبته لي فيها، فيا ليت لهؤلاء
@@ -2039,7 +2039,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 الإنكليز.
 ولم يكتف هؤلاء بهذه الجريمة، بل ارتكبوا جريمة شرًّا منها أو مثلها , وهي
 الوشاية باللاجئين إلى حدود نجد وبمن يخدمونهم ويسعون لسد رمقهم , فقد كتبوا إلى
-جلالة ملك <placeName change="#d2e120" xml:id="placeName_60.d2e4867">الحجاز</placeName> ونجد من الطعن الكاذب في إخوانهم ما لا يرضاه لنفسه إلا
+جلالة ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_60.d2e4867" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد من الطعن الكاذب في إخوانهم ما لا يرضاه لنفسه إلا
 الشيطان الرجيم عدو البشر.
 ثم دبت عقاربهم إلى اللجنة التنفيذية للمؤتمر السوري الفلسطيني التي كانت
 منذ أسست موضع إجلال جميع السوريين وثنائهم، فاحتلوا مكتبها وناديها وجعلوه
@@ -2054,7 +2054,7 @@ Revue Islamic حيث يقال في العدد الأخير إن قصة آدم ل
 نفاق وشقاق، وخلف وافتراق , وقر لا يطاق، وبيوت مخربة، وقرى مهدمة،
 ومزارع مستأصلة، وهجرة من البلاد متصلة، وذل وعبودية، وشكوى عامة من
 الحالة الاقتصادية، وتخبط في التصرفات السياسية - كل هذا بعض ما تئن منه
-سورية، وكل هذا وأكثر منه لم يصرف بعض شبان أم الوطن (<placeName change="#d2e120" xml:id="placeName_61.d2e4903">دمشق</placeName>) وشوابها
+سورية، وكل هذا وأكثر منه لم يصرف بعض شبان أم الوطن (<placeName change="#d2e120 #d11e288" xml:id="placeName_61.d2e4903" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>) وشوابها
 عن فتنة التفرنج، القاتلة للتدين، والتعرب، المزينة باسم التجدد.
 فأما الشبان فيريدون تزيين رءوسهم بالبرنيطة ليكونوا كبعض محرري <bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e282">جريدة
 <title level="j" change="#d11e282">السياسة المصرية</title></bibl>والهلال المصري مجددين، فإن كانوا لا يعلمون من هذا التجديد

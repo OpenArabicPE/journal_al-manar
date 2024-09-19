@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_30-i_9.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_30-i_9.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e282">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_30-i_9.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_30-i_9.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1348">1348</date><date calendar="#cal_gregorian" when="1930" xml:lang="ar">أبريل - 1930م</date></imprint>
                   <biblScope unit="volume" from="30" to="30" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">30</biblScope>
                   <biblScope unit="issue" from="9" to="9" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">9</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e282" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -331,7 +331,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_22.d2e798"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_23.d2e801"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_24.d2e803"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_25.d2e805"/> ب<placeName change="#d2e120" xml:id="placeName_4.d2e807">مكة</placeName> المكرمة
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_25.d2e805"/> ب<placeName change="#d2e120 #d11e282" xml:id="placeName_4.d2e807" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المكرمة
 قال الأستاذ حفظه الله:
 تمهيد:
 يسرنا ويسوءنا معًا حال بعض شباننا المتعلمين، يسرنا أنهم وجهوا قسطًا من
@@ -817,11 +817,11 @@
 أوليست مصر أولى البلاد الإسلامية بالاعتصام بهذا الدين القويم من سائر
 الأقطار الإسلامية؛ لأن لها فيه من الفوائد والمصالح الدينية والأدبية والسياسية
 والاقتصادية ما ليس لغيرها؟
-بلى، إن مصر مرشحة بل مرجحة بعد سقوط <placeName change="#d2e120" xml:id="placeName_5.d2e1867">الدولة العثمانية</placeName> لزعامة العالم
+بلى، إن مصر مرشحة بل مرجحة بعد سقوط <placeName change="#d2e120 #d11e282" xml:id="placeName_5.d2e1867" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> لزعامة العالم
 الإسلامي من مشرقه إلى مغربه، وهؤلاء الملاحدة يريدون حرمانها من هذه
 الزعامة بما يبثون فيها من دعاية الإلحاد الذي يضرها ولا يفيد إلا الأجانب
 الطامعين فيها.
-بلى، إن مصر كانت مع وجود <placeName change="#d2e120" xml:id="placeName_6.d2e1879">الدولة العثمانية</placeName> زعيمة الأمة العربية في لغتها
+بلى، إن مصر كانت مع وجود <placeName change="#d2e120 #d11e282" xml:id="placeName_6.d2e1879" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> زعيمة الأمة العربية في لغتها
 وعلومها الأدبية والدينية، وهؤلاء الملاحدة يريدون إسقاطها من هذه الزعامة
 بالطعن في اللغة العربية، والآداب العربية، والثقافة العربية، والمدنية العربية
 والديانة العربية، ويحاولون أن يبتدعوا لها ثقافة أوربية ومدنية فرعونية، ولو كان
@@ -1063,7 +1063,7 @@
 وإنما المقصود بالذات صدهم للمسلمين عن الإسلام نفسه وتحويلهم عنه
 بإبطال ثقتهم به وغيرتهم عليه، وتقطيع الروابط التي تربطهم بالأمة العربية
 العظيمة، وفصم عروة الجامعة التي تضم إليهم <date calendar="#cal_gregorian" when="0350" change="#d3e146 #d2e120" xml:id="date_5.d2e2407">350</date> مليونًا من البشر لا يرون
-لملتهم زعيمًا بعد <placeName change="#d2e120" xml:id="placeName_7.d2e2412">الدولة العثمانية</placeName> أولى من مصر، ولا يخفى ما وراء ذلك وما
+لملتهم زعيمًا بعد <placeName change="#d2e120 #d11e282" xml:id="placeName_7.d2e2412" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> أولى من مصر، ولا يخفى ما وراء ذلك وما
 يلزمه من الفوائد لهم ولمن يستخدمهم.
 وما أطمعهم في هذه الأمنية إلا إخوانهم من ملاحدة المسلمين الذين كانوا أجرأ
 منهم وأسبق إلى الجهر العريان بالطعن في الثقافة الإسلامية والحضارة العربية
@@ -1230,7 +1230,7 @@
 وموعدنا المقال الحادي عشر في الرد العلمي العقلي عليهم.
 ((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_3.d2e2775">(1) أثبت هذا كاتب أمريكاني وانتقده الأمير شكيب وسننشر انتقاده.
 (2) إن <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e2779">السياسة</title></bibl> قد عُنيت بنشر الدعاية الإلحادية، وسلامة موسى يصرِّح بأن عقيدته وعقيدة صديقة محمد حسين بك هيكل رئيس تحرير السياسة واحدة.
-(3) قد رأينا هذا الزعم الباطل مكررًا في كتاب (السفور والحجاب) الذي نُشر في <placeName change="#d2e120" xml:id="placeName_8.d2e2784">بيروت</placeName> باسم الآنسة نظيرة زين الدين فردَّ عليه كثير من علماء المسلمين وكتابهم، وكان جُل ما عنوا بالرد عليه مسألة الحجاب، وهذا الزعم شر ما فيه؛ لأنه هدم لنصف الإسلام سيلزم هدم النصف الآخر.
+(3) قد رأينا هذا الزعم الباطل مكررًا في كتاب (السفور والحجاب) الذي نُشر في <placeName change="#d2e120 #d11e282" xml:id="placeName_8.d2e2784" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> باسم الآنسة نظيرة زين الدين فردَّ عليه كثير من علماء المسلمين وكتابهم، وكان جُل ما عنوا بالرد عليه مسألة الحجاب، وهذا الزعم شر ما فيه؛ لأنه هدم لنصف الإسلام سيلزم هدم النصف الآخر.
 (4) هو الأمير عمر طوسن باشا المشهور.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_3.d2e2790">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_5.d2e2792" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
@@ -1249,14 +1249,14 @@
 
                
 رأينا في بعض الجرائد الفرنسية أن بعض مسلمي أفريقية الفرنسية طلبوا من
-الدولة الفرنسية أن تبني للحجاج منهم دارًا فرنسية كبيرة في <placeName change="#d2e120" xml:id="placeName_9.d2e2815">مكة المكرمة</placeName>، وأخرى
+الدولة الفرنسية أن تبني للحجاج منهم دارًا فرنسية كبيرة في <placeName change="#d2e120 #d11e282" xml:id="placeName_9.d2e2815" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName>، وأخرى
 في المدينة المنورة يأوون إليهما، ويجتمعون فيهما مدة وجودهم في البلدين
 المكرمين لأداء مناسك الحج وزيارة النبي صلى الله عليه وسلم، فتلقت الدولة هذا
 الطلب بالقبول والارتياح، وكان أول من تبرع له بالمال وزارة الحربية في باريس
 تبرعت بمائة ألف فرنك.
 نبأ عجيب غريب، وتبرع أعجب وأغرب، متى كان مسلمو المستعمرات
 الفرنسية يعتقدون أن فرنسة تحرص على تسهيل أداء فريضة الحج لهم، وتهتم
-براحتهم ورفاهتهم في سفرهم إلى <placeName change="#d2e120" xml:id="placeName_10.d2e2833">الحجاز</placeName> وإقامتهم فيه، وهم يرون بأعينهم
+براحتهم ورفاهتهم في سفرهم إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_10.d2e2833" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وإقامتهم فيه، وهم يرون بأعينهم
 ويسمعون بآذانهم ما كانت تضعه من العواثير في سبيل أداء هذه الفريضة، وما
 فعلته بأوقافهم وبتعليمهم الديني وغيره في الجزائر وما تفعله الآن في المغرب
 الأقصى؟ وهل يُعقل أن يطلبوا منها أن يكونوا في البلاد المقدسة الحرة مستظلين
@@ -1264,7 +1264,7 @@
 ويطلبوه.
 ثم ما شأن وزارة الحربية الفرنسية من هذا المشروع فتتبرع له؟ أليس لأن
 المرجع إليها في حفظ العَلَم الفرنسي وكرامته والدفاع عنه إذا أهين حقيقة أو ادعاء
-عند الحاجة إلى هذا الادعاء، وأنه تمهيد لتدخلها في شؤون <placeName change="#d2e120" xml:id="placeName_11.d2e2853">الحجاز</placeName>؟
+عند الحاجة إلى هذا الادعاء، وأنه تمهيد لتدخلها في شؤون <placeName change="#d2e120 #d11e282" xml:id="placeName_11.d2e2853" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>؟
 لا يرتاب عاقل في أن هذا الطلب تدبير سياسي في هذه الدولة نفَّذه لها بعض
 صنائعها من المغاربة كالسي قدور بن غبرايط. وهي معذورة في السعي إلى سبق
 دول أوربة كلها إلى تأسيس مكان نفوذ لها في البلاد المقدسة التي لا يبيح الإسلام
@@ -1275,17 +1275,17 @@
 التدبير، ولو أحسنوه لوضعوه في صورة غير مشوهة كهذه الصورة، ولأقنعوها
 بأن تقدم بين يديه توددًا أمثل من التودد الذي كانوا شرعوا فيه مع الملك حسين لمثل
 هذا الغرض، وهو ما حملته بعثة الحج المغربية من الهدايا.
-كان من المعقول أن تمهد فرنسة بالاعتراف لحكومة <placeName change="#d2e120" xml:id="placeName_12.d2e2880">الحجاز</placeName> بأن سكة الحديد
+كان من المعقول أن تمهد فرنسة بالاعتراف لحكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_12.d2e2880" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بأن سكة الحديد
 الحجازية هي وقف إسلامي على مصالح الحرمين لتسهيل الحج، وأن الحق في
 إدارتها واستغلالها لهذه الحكومة، وأن تقدم لها حاصل ريع ما استولت عليه منها
 في سورية من عهد إدارتها له إلى اليوم، وأن تعترف لها أيضًا بحق صافي ريع
 أوقاف الحرمين في تونس والجزائر والمغرب الأقصى، وتُطْلِعَهَا على حساباتها،
 وتؤدي إليها ما فضل منها ولو بعد ما أنفقته على مسجد باريز.
-بعد مثل هذا التودد تطلب أو تشترط على حكومة <placeName change="#d2e120" xml:id="placeName_13.d2e2897">الحجاز</placeName> أن تبني من ريع
-هذه الأوقاف معهدًا صحيًّا لحجاج المغاربة في <placeName change="#d2e120" xml:id="placeName_14.d2e2902">مكة المكرمة</placeName>، وآخر في المدينة
+بعد مثل هذا التودد تطلب أو تشترط على حكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_13.d2e2897" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أن تبني من ريع
+هذه الأوقاف معهدًا صحيًّا لحجاج المغاربة في <placeName change="#d2e120 #d11e282" xml:id="placeName_14.d2e2902" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName>، وآخر في المدينة
 المنورة يكون خاصًّا بهم، لا تباح الإقامة فيه لغيرهم بتقديمه عليهم إذا وُجدوا، وأن
 يكون الحق في إدارته لمصلحة الأوقاف الحجازية، وحسْب فرنسة من فائدته سهولة
-مراقبة حجاج المغاربة في <placeName change="#d2e120" xml:id="placeName_15.d2e2912">الحجاز</placeName> على من يتولون تدبير أمورهم في السفر إلى
+مراقبة حجاج المغاربة في <placeName change="#d2e120 #d11e282" xml:id="placeName_15.d2e2912" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> على من يتولون تدبير أمورهم في السفر إلى
 الحجاز، واستمالتها للمسلمين بالعناية المعقولة بأمرهم. مثل هذا يُحتمل أن تقبله
 الحكومة السعودية لما يظهر فيه من أمارات حسن النية، وأمن سوء العاقبة التي
 عرفت من الأوربيين وسائلها ومقاصدها، ومنها أن التساهل معهم بإباحة الانتفاع
@@ -1424,24 +1424,24 @@
                
 
                
-كل مسلم مخلص لدينه في <placeName change="#d2e120" xml:id="placeName_16.d2e3204">الحجاز</placeName> ومصر يتمنى الاتفاق والاتحاد والتعاون
+كل مسلم مخلص لدينه في <placeName change="#d2e120 #d11e282" xml:id="placeName_16.d2e3204" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ومصر يتمنى الاتفاق والاتحاد والتعاون
 بين حكومتيهما، وكذلك غير المسلمين من سكان مصر المخلصين لها يتمنّوْن ذلك،
 وقد أظهرت هذا التمني جميع الجرائد المصرية المعتبرة وأكثرت من التساؤل عن
-المانع للحكومة المصرية من الاعتراف بحكومة <placeName change="#d2e120" xml:id="placeName_17.d2e3214">الحجاز</placeName> السعودية، وقد اعترفت بها
+المانع للحكومة المصرية من الاعتراف بحكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_17.d2e3214" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> السعودية، وقد اعترفت بها
 الدول الأوربية العظمى والدول الشرقية وهي التركية والإيرانية والأفغانية وآخرها
 العراقية.
 بعد هذا كله رأينا مقالاً كليالي الشتاء في ظلمتها وبردها وطولها يُنشر تباعًا
 في أعداد الشهر الماضي من الأهرام بإمضاء (عالم حاج) يشهد على كاتبه بأنه
 جاهل لا عالم، ومنافق لا صادق، وأما وصف نفسه (بحاج) في غير زمن الحج
 فلا معنى له ولا وضعه في الإمضاء مما يجعل شبهاته حججًا، بل مقاله حجة على
-أنه ما حج إذ سافر إلى <placeName change="#d2e120" xml:id="placeName_18.d2e3232">الحجاز</placeName> ولكن حجت العير، وما كل من حج بيت الله مبرور.
+أنه ما حج إذ سافر إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_18.d2e3232" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ولكن حجت العير، وما كل من حج بيت الله مبرور.
 من أدلة جهله بعقائد الإسلام، وبسنة الرسول عليه الصلاة والسلام، جعله
 بدعة (المحمل المصري) من شعائر الإسلام، وإباحته لحرس المحمل ترك لباس
-الإحرام، وحمل السلاح ب<placeName change="#d2e120" xml:id="placeName_19.d2e3242">مكة</placeName> وغيرها من الحرم بغير ضرورة، بل مع ما علم من
+الإحرام، وحمل السلاح ب<placeName change="#d2e120 #d11e282" xml:id="placeName_19.d2e3242" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وغيرها من الحرم بغير ضرورة، بل مع ما علم من
 إثارة أمير الحج لتلك الفتنة؛ ولكن مع جهله طبعًا بما رواه مسلم في صحيحه من
-قوله صلى الله عليه وسلم: (لا يحل لأحدكم أن يحمل ب<placeName change="#d2e120" xml:id="placeName_20.d2e3249">مكة</placeName> السلاح) وما في معناه.
+قوله صلى الله عليه وسلم: (لا يحل لأحدكم أن يحمل ب<placeName change="#d2e120 #d11e282" xml:id="placeName_20.d2e3249" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> السلاح) وما في معناه.
 وأما الدليل على نفاقه وابتغائه الفتنة بين الحكومتين، فهو تذكيره للحكومة
-السعودية بما كان من قتال محمد علي باشا لسلفها في <placeName change="#d2e120" xml:id="placeName_21.d2e3257">الحجاز</placeName>، ثم في نجد وتهديدها
+السعودية بما كان من قتال محمد علي باشا لسلفها في <placeName change="#d2e120 #d11e282" xml:id="placeName_21.d2e3257" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، ثم في نجد وتهديدها
 بإعادة هذه الحرب سيرتها الأولى، مع علمه أو جهله بعدم إمكانها، وبأنها إذا
 أمكنت كانت أعظم الشرور والمفاسد بين المسلمين، وكانت ثمرتها للأجانب غير
 المسلمين، وأولهم الإنكليز المحتلون لمصر المانعون لها من استقلالها ومن إنشاء
@@ -1455,8 +1455,8 @@
 أناسًا لا نحب أن نسوءهم، وأن الإمساك عن نشرها قد يكون أرجى لنجاح السعي
 في التوفيق والتأليف بين الحكومتين.
 ولكنني أشير عن بُعد إلى مسألة تكلم فيها بغير علم غير هذا (العالم الحاج)
-ممن لا نتهمهم بمثل ما نتهمه به من سوء النية، وهي المن على <placeName change="#d2e120" xml:id="placeName_22.d2e3290">الحجاز</placeName> وحكومة
-الحجاز وأهل <placeName change="#d2e120" xml:id="placeName_23.d2e3296">الحجاز</placeName> بإحسان حكومة مصر، وتفضلها عليهم قديمًا وحديثًا
+ممن لا نتهمهم بمثل ما نتهمه به من سوء النية، وهي المن على <placeName change="#d2e120 #d11e282" xml:id="placeName_22.d2e3290" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وحكومة
+الحجاز وأهل <placeName change="#d2e120 #d11e282" xml:id="placeName_23.d2e3296" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بإحسان حكومة مصر، وتفضلها عليهم قديمًا وحديثًا
 بالصدقات والمبرات والإحسانات التي منها كسوة الكعبة المعظمة والتكيتان اللتان
 تطعمان بعض الفقراء في البلدين المكرمين.
 ربما يجهل بعض هؤلاء ما لا يجهله (عالم الأهرام وحاجه) من أنه ليس
@@ -1465,7 +1465,7 @@
 ما ذكرنا من الملوك السابقين وغيرهم من أغنياء المسلمين تقربًا إلى الله تعالى - فهي
 لا تؤدي منها إلا قليلاً من كثير (أو من الجَمَل أُذُنُه كما يقول المثل العامي) .
 إن هذه الحكومة تتصرف بألوف الجنيهات من ريع أوقاف الحرمين الشريفين
-فتنفقها في مصر وغير مصر من دون <placeName change="#d2e120" xml:id="placeName_24.d2e3318">الحجاز</placeName>، ومن هذا التصرف ما يعده الناس
+فتنفقها في مصر وغير مصر من دون <placeName change="#d2e120 #d11e282" xml:id="placeName_24.d2e3318" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، ومن هذا التصرف ما يعده الناس
 في محله، ولو كان من جيوبهم أو من الأوقاف الخيرية المطلقة التي ليس لها جهة
 صرف معينة، ومنها ما يعدونه في محله بصرف النظر عن كونه من أوقاف
 الحرمين، ولا نعرف منها إلا صرف خمسة آلاف جنيه من أوقاف الحرمين
@@ -1483,12 +1483,12 @@
 أن هذه الأوقاف الواسعة قد ذهب أكثرها <gap resp="#org_MS" change="#d2e120" xml:id="gap_31.d2e3354"/>
                
 كان أكبر خطأ جناه عبد الخالق ثروت باشا على مصر منعه إرسال كسوة
-الكعبة المشرفة إلى <placeName change="#d2e120" xml:id="placeName_25.d2e3360">مكة المكرمة</placeName> وحرمان مصر من هذا الشرف العظيم لها ولجلالة
-ملكها الذي تطرز الكسوة باسمه، وإلجاؤه ملك <placeName change="#d2e120" xml:id="placeName_26.d2e3366">الحجاز</placeName> إلى إنشاء دار جديدة لنسج
+الكعبة المشرفة إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_25.d2e3360" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> وحرمان مصر من هذا الشرف العظيم لها ولجلالة
+ملكها الذي تطرز الكسوة باسمه، وإلجاؤه ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_26.d2e3366" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إلى إنشاء دار جديدة لنسج
 الكسوة فيها، فأحسن إليه من حيث أراد أن يسيء، وأغرب من جنايته هذه اعتذاره
 عنها في مجلس النواب بأنه خشي أن لا تقبلها الحكومة السعودية، وتعتذر عن ذلك
 بأن الوهابيين يعدونها بدعة كالمحمل، وأغرب من هذا الاعتذار قبول المجلس له
-بعد العلم بأن ملك <placeName change="#d2e120" xml:id="placeName_27.d2e3378">الحجاز</placeName> صرح رسميًّا بقبول الكسوة إذا أرسلت، ومع علم الكثير
+بعد العلم بأن ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_27.d2e3378" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> صرح رسميًّا بقبول الكسوة إذا أرسلت، ومع علم الكثير
 من أعضائه بأن كسوة الكعبة قديمة لا يقول الوهابيون ولا غيرهم ببدعيتها، وأن
 المحمل بدعة سيئة ابتدعتها شجرة الدر لا يختلف عالمان بقبحها، وإن استحسنها
 عالم الأهرام وحده. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_7.d2e3387"/>

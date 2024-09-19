@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_19-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_19-i_6.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e309">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_19-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_19-i_6.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e304" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e309" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e309" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e309" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1335">1335</date><date calendar="#cal_gregorian" when="1916" xml:lang="ar">نوفمبر - 1916م</date></imprint>
                   <biblScope unit="volume" from="19" to="19" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">19</biblScope>
                   <biblScope unit="issue" from="6" to="6" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">6</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e303" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e309" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e303" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e181">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e184">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e190">
                <item change="#d2e120" xml:id="item_1.d2e192">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e194">num</gi> node </item>
@@ -278,7 +278,7 @@
                
 
                
-(س9) مِن أحد المشتركين في <placeName change="#d2e120" xml:id="placeName_4.d2e716">القاهرة</placeName> - ع. م
+(س9) مِن أحد المشتركين في <placeName change="#d2e120 #d11e309" xml:id="placeName_4.d2e716" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> - ع. م
 حضرة الأستاذ العلامة المفضال السيد رشيد رضا المحترم.
 السلام عليكم ورحمة الله وبركاته.
 وبعد: فإني أهنئكم أولاً بسلامة العودة من الأقطار الحجازية المباركة وأدعو
@@ -718,19 +718,19 @@ Pneumonia
 وأخذ سيل المهاجرة يتدفق منها شرقًا وشمالاً وغربًا.
 وكان لتلك الحركة غايتان تتفقان مع طبيعة البلاد الجغرافية؛ إذ لا يخفى أن
 شبه جزيرة العرب مقسومة إلى قسمين:
-(1) البلاد العربية الغربية (وهي <placeName change="#d2e120" xml:id="placeName_5.d2e1660">اليمن</placeName> و<placeName change="#d2e120" xml:id="placeName_6.d2e1663">الحجاز</placeName>) ومنفذها سورية إلى
+(1) البلاد العربية الغربية (وهي <placeName change="#d2e120 #d11e309" xml:id="placeName_5.d2e1660" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_6.d2e1663" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>) ومنفذها سورية إلى
 الشمال الغربي ومصر والحبشة على سواحل البحر.
-(2) الوسط الشرقي ومنفذه الطبيعي <placeName change="#d2e120" xml:id="placeName_7.d2e1671">العراق</placeName> وما بين النهرين. أما القسم
+(2) الوسط الشرقي ومنفذه الطبيعي <placeName change="#d2e120 #d11e309" xml:id="placeName_7.d2e1671" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وما بين النهرين. أما القسم
 الجنوبي من بلاد العرب (أي حضرموت) فقائم بنفسه.
 فسيل المهاجرة من بلاد العرب كان يتدفق إذًا شمالاً إلى فلسطين وسوريا أو
-غربًا إلى مصر والحبشة. أو شمالاً شرقيًّا إلى <placeName change="#d2e120" xml:id="placeName_8.d2e1681">العراق</placeName> ووادي دجلة والفرات.
+غربًا إلى مصر والحبشة. أو شمالاً شرقيًّا إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_8.d2e1681" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ووادي دجلة والفرات.
 وقد وقعت أول هذه المهاجرات عند أول فجر التاريخ. ثم تبعتها المهاجرات
 الأخرى في الأزمنة التاريخية المعروفة.
 (1) المهاجرة الأولى- قبيل فجر هذا التاريخ قام بهذه المهاجرة شعوب
-سامية نزحوا إلى <placeName change="#d2e120" xml:id="placeName_9.d2e1692">العراق</placeName> ومعهم شعوب سومريون فتألفت منهم الأمة البابلية، ويعتقد
+سامية نزحوا إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_9.d2e1692" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ومعهم شعوب سومريون فتألفت منهم الأمة البابلية، ويعتقد
 العلامة (قيطاني- أو- كاتياني) أن المصريين القدماء الذين دخلوا وادي النيل عن
 طريق البحر الأحمر واستعمروا أولاً مصر العليا كانوا ساميين، وقد هاجروا في
-نفس الزمن الذي هاجر فيه مواطنوهم إلى <placeName change="#d2e120" xml:id="placeName_10.d2e1702">العراق</placeName>. ومما يؤيد هذا الرأي أن في
+نفس الزمن الذي هاجر فيه مواطنوهم إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_10.d2e1702" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>. ومما يؤيد هذا الرأي أن في
 اللغة المصرية القديمة آثار سامية عديدة منها الكاف ضمير المخاطب المفرد
 المضاف إليه [2] .
 (2) أما المهاجرة الثانية فقد وقعت في أول عهد التاريخ المعروف أي بين
@@ -747,10 +747,10 @@ Pneumonia
 والحميرية والعرب الذين كانوا يتكلمون العربية الحديثة. وكانت هذه اللغة قد نشأت
 بتمادي الزمن نشوءًا بطيئًا جدًّا. أما سبب عدم هجرة هذه الشعوب فهو لأن غربي
 بلاد العرب كان أكثر خصبًا من شرقيها، وقد كان طريقًا للتجارة بين الهند والبحر
-المتوسط يمر ب<placeName change="#d2e120" xml:id="placeName_11.d2e1742">اليمن</placeName> و<placeName change="#d2e120" xml:id="placeName_12.d2e1745">الحجاز</placeName> وينتهي إلى غزة وهذا يأتي بنا إلى:
+المتوسط يمر ب<placeName change="#d2e120 #d11e309" xml:id="placeName_11.d2e1742" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_12.d2e1745" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وينتهي إلى غزة وهذا يأتي بنا إلى:
 (5) ظهور الإسلام. وليس هذا أول مرة ظهرت فيها القبائل المتكلمة
 باللغة العربية لتستوطن البلاد المجاورة فإن بعضها سبق فاستوطن غسان والحيرة
-و<placeName change="#d2e120" xml:id="placeName_13.d2e1755">العراق</placeName> ومهَّد الطريق للعرب الذين كانوا في أيام محمد -صلى الله عليه وسلم-
+و<placeName change="#d2e120 #d11e309" xml:id="placeName_13.d2e1755" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ومهَّد الطريق للعرب الذين كانوا في أيام محمد -صلى الله عليه وسلم-
 فعودوها المهاجرة والاستيطان، وكانت بلاد العرب قد ضاقت مرة أخرى بأهلها
 الساميين الذين اشتهروا بالقوة والبأس والذكاء وكثرة النمو. ومما يدل على ضيق
 الوسائل الاقتصادية في تلك البلاد بأهلها فقرهم المدقع وعوزهم وعادة وأد البنات
@@ -785,14 +785,14 @@ Pneumonia
 تفوقهم في الأعمال والمتاجر فقط بل في الأمور العقلية أيضًا.
 وهذه صورة مصغرة للعرب الذين نزلوا بسوريا وبلاد فارس في المائة
 الأولى للهجرة. وهي تنطبق على حالة العرب عمومًا منذ ألوف من السنين حتى
-اليوم، وقد أظهر دولة شريف <placeName change="#d2e120" xml:id="placeName_14.d2e1834">مكة</placeName> بنهضته الأخيرة أن العرب لا يزالون يأبون
+اليوم، وقد أظهر دولة شريف <placeName change="#d2e120 #d11e309" xml:id="placeName_14.d2e1834" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> بنهضته الأخيرة أن العرب لا يزالون يأبون
 الضيم ويعشقون الحرية والاستقلال، وهم يبذلون كل مرتخص وغالٍ في سبيل
 الدفاع عن كيانهم. ترى هل نحن على وشك أن نرى من جانب بلاد العرب
 مباغتات جديدة مدهشة كما رأى العالم منذ مئات من السنين؟ <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_5.d2e1844">(1) المنار: كان الصواب أن يقال: قليلة الماء.
 (2) الأمر الأعظم من ذلك فلعل النصف أو أكثر من النصف من هذه اللغة عربي ولكن الكثير منه محرف كما علم بالتفصيل مما نشرناه في مجلد المنار الثامن عشر عن علامة هذه اللغة أحمد كمال
 بك.
 (3) المنار: يعني أن الجمهور الأعظم من العرب كانوا يقاتلون في سبيل الله وسبيل الجامعة العربية التي يقوم بها دينه وكتابه، وأدناهم منزلة أفراد يطمعون في الغنائم والأسلاب كما هو شأن أرقى الأمم الآن في حروبها.
-(4) هذه دعوى باطلة وتعليلها الذي عللها به باطل فإن المسلمين ما انقلبوا إلى سعة العيش التي يعنيها فيعهد النبي -صلى الله عليه وسلم- بل بعده إذ فتحوا <placeName change="#d2e120" xml:id="placeName_15.d2e1854">الشام</placeName> ومصر وفارس وأين السعة في جزيرة العرب وأين ما وصفها به آنفا من الضيق؟.</note>
+(4) هذه دعوى باطلة وتعليلها الذي عللها به باطل فإن المسلمين ما انقلبوا إلى سعة العيش التي يعنيها فيعهد النبي -صلى الله عليه وسلم- بل بعده إذ فتحوا <placeName change="#d2e120 #d11e309" xml:id="placeName_15.d2e1854" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ومصر وفارس وأين السعة في جزيرة العرب وأين ما وصفها به آنفا من الضيق؟.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_3.d2e1858">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_5.d2e1860" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -810,12 +810,12 @@ Pneumonia
 
                
 ذكرنا في الجزء الرابع من منار هذه السنة ملخص المنشور الأول الذي
-خاطب به الشريف الأكبر صاحب <placeName change="#d2e120" xml:id="placeName_16.d2e1880">مكة المكرمة</placeName> مسلمي الأرض مبينًا لهم سبب
+خاطب به الشريف الأكبر صاحب <placeName change="#d2e120 #d11e309" xml:id="placeName_16.d2e1880" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> مسلمي الأرض مبينًا لهم سبب
 نهضة الحجازيين باستقلال العرب دون متغلبة الاتحاديين واليوم ننقل لهم نص
 منشور آخر نشر في العدد الحادي عشر من <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_6.d2e1888">القبلة</title></bibl> الصادر في 21 ذي القعدة
 سنة 1354 لتعميم فائدته والعناية بحفظه؛ لأن أمثال هذه المنشورات من أهم مواد
 تاريخنا في هذا العصر، وقد ضاق عنه الجزء الخامس الذي طبع الكثير منه قبل
-عودتنا من <placeName change="#d2e120" xml:id="placeName_17.d2e1897">الحجاز</placeName>، وهذا نصه:
+عودتنا من <placeName change="#d2e120 #d11e309" xml:id="placeName_17.d2e1897" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وهذا نصه:
 
                
 بسم الله الرحمن الرحيم
@@ -825,8 +825,8 @@ Pneumonia
 العالم عمومًا والمسلمين خصوصًا زيادة الاطلاع على نياتنا ومقاصدنا المتعلقة بكياننا
 من حيث هو، ملتزمين فيها أقرب المواد عهدًا وأبسطها دلالة.
 من المعلوم أن عقلاء المسلمين وذوي البصيرة من ساكني الممالك العثمانية
-وسائر أقطار الدنيا غير راضين عن دخول <placeName change="#d2e120" xml:id="placeName_18.d2e1920">الدولة العثمانية</placeName> في الحرب الحاضرة
-لأسباب جوهرية أجمعوا عليها، منها أن <placeName change="#d2e120" xml:id="placeName_19.d2e1925">الدولة العثمانية</placeName> قريبة عهد بالخروج من
+وسائر أقطار الدنيا غير راضين عن دخول <placeName change="#d2e120 #d11e309" xml:id="placeName_18.d2e1920" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> في الحرب الحاضرة
+لأسباب جوهرية أجمعوا عليها، منها أن <placeName change="#d2e120 #d11e309" xml:id="placeName_19.d2e1925" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> قريبة عهد بالخروج من
 الحرب الإيطالية أولاً والحرب البلقانية ثانيًا، وقد أصاب جيوشها وخزائنها وكل
 مرافقها وعامة تشكيلاتها من الضعف والضياع والفناء ما لا يخفى تأثيره على ثروة
 الدولة خاصة وثروة المملكة وأهلها عامةً، حتى كان الجندي لا يكاد يصل إلى
@@ -853,9 +853,9 @@ Pneumonia
 وحرصي على سلامتها وصيانة بيضة الإسلام.
 وها قد حصل ما كنا نخشاه، وانتهت الدولة إلى ما تخوفناه، وأصبحت حدود
 المملكة العثمانية اليوم في أوربا أسوار الآستانة تقريبا. وأن طلائع جيوش الروس
-تخطف الأهالي العثمانيين في ضواحي ولايتي سيواس و<placeName change="#d2e120" xml:id="placeName_20.d2e1987">الموصل</placeName>، وطلائع
+تخطف الأهالي العثمانيين في ضواحي ولايتي سيواس و<placeName change="#d2e120 #d11e309" xml:id="placeName_20.d2e1987" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName>، وطلائع
 الإنكليز تسوق ألوف الأسرى من أبناء هذه المملكة في بادية العريش بعد أن استولت
-على ولاية <placeName change="#d2e120" xml:id="placeName_21.d2e1995">البصرة</placeName> وشطر من ولاية <placeName change="#d2e120" xml:id="placeName_22.d2e1998">بغداد</placeName>، ولا شك في أن من تأمل هذه الحالة
+على ولاية <placeName change="#d2e120 #d11e309" xml:id="placeName_21.d2e1995" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> وشطر من ولاية <placeName change="#d2e120 #d11e309" xml:id="placeName_22.d2e1998" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>، ولا شك في أن من تأمل هذه الحالة
 ورأى أن الحرب لا تزال قائمة على ساق وقدم لا يحتاج إلى كبير عناء في استجلاء
 النتيجة التي لا تخرج عن أحد أمرين فإما أن نستسلم إلى هذا الخطر الداهم حتى
 نزول من خريطة العالم أو أن نسعى للخلاص منه، إننا نترك للعالم بأسره التأمل
@@ -868,7 +868,7 @@ Pneumonia
 الأخرى على مرأًى منا ومسمع.
 نعم: إننا نقول هذا ونترك الحكم فيه إلى إنصاف العالم أجمع، ولكننا لا
 نستطيع السكوت عن المجاهرة بأن السبب الوحيد لمحو هذه الدولة وإبادة من بقي
-لها من الرعية وهم سكان <placeName change="#d2e120" xml:id="placeName_23.d2e2032">الأناضول</placeName> وغيرهم، إنما هو استرسال المتغلبة من
+لها من الرعية وهم سكان <placeName change="#d2e120 #d11e309" xml:id="placeName_23.d2e2032" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName> وغيرهم، إنما هو استرسال المتغلبة من
 زعماء الاتحاديين وهم أنور وجمال وطلعت وأشياعهم، وخروج الدولة عن
 خطتها السياسية الأساسية التي وضعها عظماء سواس العثمانيين، وهي خطة
 موالاة الدولتين المعظمتين بريطانيا وفرنسا التي لا ينكر فوائدها إلا من ينكر
@@ -880,7 +880,7 @@ Pneumonia
 وذميهم من ضروب العسف والجور اللذين يحجب ركامهما ضياء الشمس، لا سيما
 ما ارتكبه القابضون على أزمة الحكومة من هؤلاء المتغلبة وأشياعهم أثناء هذه
 الحرب من ظلم أهل ذمتنا من الروم والأرمن خلافًا لما جاءت به شريعتنا المطهرة،
-ثم نهجوا هذا المنهج في أبناء العرب ب<placeName change="#d2e120" xml:id="placeName_24.d2e2061">الشام</placeName> و<placeName change="#d2e120" xml:id="placeName_25.d2e2065">العراق</placeName> وغيرهم مما هو معلوم إلى
+ثم نهجوا هذا المنهج في أبناء العرب ب<placeName change="#d2e120 #d11e309" xml:id="placeName_24.d2e2061" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_25.d2e2065" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وغيرهم مما هو معلوم إلى
 يومنا هذا كإيقاعهم بأهالي العوالي التي هي إحدى ضواحي المدينة المنورة من سبي
 مخدرات العرب وسوقهن إلى الثكنات العسكرية بما تأباه الشريعة الإسلامية والشهامة
 العربية.
@@ -893,7 +893,7 @@ Pneumonia
 الإسلام من الاضمحلال، حتى جعلوها ضحيَّة لأغراضهم وغاياتهم النفسية، نبرأ
 إلى الله منهم ونعلم أنها كلمة حق عليها نحيا وعليها نموت. وكيف لا نقول هذا
 وأمامنا من عبر الدهر ما نسرده على إخواننا المسلمين ليعلموه ويعوه؟
-فإن جمال باشا المتحكم في <placeName change="#d2e120" xml:id="placeName_26.d2e2096">الشام</placeName> وأهلها قد أمر سكان ذلك القطر الإسلامي بأن
+فإن جمال باشا المتحكم في <placeName change="#d2e120 #d11e309" xml:id="placeName_26.d2e2096" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وأهلها قد أمر سكان ذلك القطر الإسلامي بأن
 يؤلفوا من مخدِّرات نسائهم جمعية نسائية، ثم أوعز إلى هذه الجمعية أن تأدب له
 مأدبة في ناديها. وقد تم ذلك بالفعل وحضرها هو ورجال العسكرية والملكية ومن
 دعاهم من سائر رجاله وأعوانه، وكان النسوة المسلمات أعضاء هذه الجمعية
@@ -922,7 +922,7 @@ Pneumonia
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_6.d2e2153"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_7.d2e2155"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_8.d2e2158"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_9.d2e2160"/> شريف <placeName change="#d2e120" xml:id="placeName_27.d2e2162">مكة</placeName> وأميرها
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_9.d2e2160"/> شريف <placeName change="#d2e120 #d11e309" xml:id="placeName_27.d2e2162" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وأميرها
 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_10.d2e2167"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_11.d2e2169"/> 
@@ -937,13 +937,13 @@ Pneumonia
 في الخطر من حيث لا ينفع الدولة ولا يغني عنها شيئًا، وإن الواجب في هذا المقام
 العمل بما أمر به الرسول -صلى الله عليه وسلم- في قوله المروي في مسند أحمد
 وصحيح مسلم والسنن الأربع: (من رأى منكم منكرًا فليغيره بيده فان لم يستطع
-فبلسانه <gap resp="#org_MS" change="#d2e120" xml:id="gap_15.d2e2201"/> ) إلخ، وبذلك عمل صاحب المنشور هو ومن معه من أهل <placeName change="#d2e120" xml:id="placeName_28.d2e2203">الحجاز</placeName> فهم في
+فبلسانه <gap resp="#org_MS" change="#d2e120" xml:id="gap_15.d2e2201"/> ) إلخ، وبذلك عمل صاحب المنشور هو ومن معه من أهل <placeName change="#d2e120 #d11e309" xml:id="placeName_28.d2e2203" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> فهم في
 مقدمة أهل الحل والعقد في الأمة ولو لم يكن معه غير أسرته الهاشمية وعصبتهم
 وأتباعهم من العرب لكفى بهم أهل حل وعقد في مهد الإسلام وأفضل بلاد الأرض،
 ويليهم في هذه الصفة سائر الأمراء والزعماء في جزيرة العرب، ولم يبق في ديار
 الإسلام زعماء أحرار غيرهم؛ لأن سائر علماء المسلمين وكبراءهم في الآستانة
 وغيرها تحت قهر سلطة عسكرية زمامها بأيدي ملاحدة الاتحاديين ونصارى الألمان
-ولما كان شريف <placeName change="#d2e120" xml:id="placeName_29.d2e2219">مكة</placeName> ومن شايعه من العرب قادرين على النهوض لمقاومة
+ولما كان شريف <placeName change="#d2e120 #d11e309" xml:id="placeName_29.d2e2219" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ومن شايعه من العرب قادرين على النهوض لمقاومة
 منكرات الاتحاديين قاموا بالواجب الإيماني عليهم. وقد صرح في هذا المنشور بأنه
 إذا ظهر له خطؤه في اجتهاده هذا يرجع عنه. وكفى بذلك حجة على جميع
 المسلمين.
@@ -991,7 +991,7 @@ Pneumonia
 التي اعتمد في أكثرها على بعض كتب الحنفية. وما فاته من الأحكام في كتب
 غييرهم من فقهاء الإسلام. فقد قال في مقدمة الكتاب: إنه جعل المقارنة بين القانون
 المصري بقسميه وبين الشريعة على كتاب مرشد الحيران الذي ألفه قدري باشا و<bibl resp="#xslt" type="periodical" subtype="journal" change="#d11e303">مجلة
-<title level="j" change="#d11e303">الأحكام العدلية التي</title></bibl>أوجبت <placeName change="#d2e120" xml:id="placeName_30.d2e2325">الدولة العثمانية</placeName> على محاكمها المدنية الحكم بها.
+<title level="j" change="#d11e303">الأحكام العدلية التي</title></bibl>أوجبت <placeName change="#d2e120 #d11e309" xml:id="placeName_30.d2e2325" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> على محاكمها المدنية الحكم بها.
 وذكر في أسماء الكتب التي كان يراجعها عند الشرح عدة كتب للحنفية
 والمالكية، ولم يذكر بينها شيئا من كتب فقه الشافعية والحنابلة، على أن كتب هذين
 المذهبين أجمع لدلائل الكتاب والسنة، وكتب الشافعية منها أشد تنقيحًا،
@@ -1006,7 +1006,7 @@ Pneumonia
 تعالى.
 ***
 (تاريخ سيناء القديم والحديث وجغرافيتها)
-(مع خلاصة تاريخ مصر و<placeName change="#d2e120" xml:id="placeName_31.d2e2361">الشام</placeName> و<placeName change="#d2e120" xml:id="placeName_32.d2e2364">العراق</placeName> وجزيرة العرب وما كان بينهما
+(مع خلاصة تاريخ مصر و<placeName change="#d2e120 #d11e309" xml:id="placeName_31.d2e2361" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_32.d2e2364" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وجزيرة العرب وما كان بينهما
 من العلائق التجارية والحربية وغيرها عن طريق سيناء من أول عهد التاريخ إلى
 اليوم، لمؤلفه نعوم بك شقير مدير قلم التاريخ بوزارة الحربية بمصر، وصاحب
 تاريخ السودان) وهو مجلد ضخم تزيد صفحاته على 770 طبع بمطبعة المعارف
@@ -1048,7 +1048,7 @@ Pneumonia
 كلا، لا عذر إلا الجهل أو عصبية الجاهلية، وهناك شذرات منه في بيان هذه
 الحقيقة وحجبها الجلية.
 قال المصنف في تمهيد خاتمة الحسنى:
-(1) (إن الباحث في تاريخ مصر و<placeName change="#d2e120" xml:id="placeName_33.d2e2458">الشام</placeName> و<placeName change="#d2e120" xml:id="placeName_34.d2e2461">العراق</placeName> كلما تعمق في البحث
+(1) (إن الباحث في تاريخ مصر و<placeName change="#d2e120 #d11e309" xml:id="placeName_33.d2e2458" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_34.d2e2461" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> كلما تعمق في البحث
 وجد أن معظم سكان هذه البلاد كانوا في كل عصور التاريخ -كما هم في هذا العصر-
 عربًا أو من أصل عربي [1] ، وكان لغتهم العربية أو أختًا لها [2] وعليه فأول
 الصلات التي تربط هذه البلاد بعضها ببعض وأهمها هي الصلة الجنسية العربية) ثم
@@ -1057,7 +1057,7 @@ Pneumonia
 ***
 (مهد العرب)
 (2) ذكر في بيان العرب أن أوجه الآراء في مهد الجنس السامي اثنان
-(أحدهما) رأي مفسري التوراة، وهو أنه جزيرة <placeName change="#d2e120" xml:id="placeName_35.d2e2484">العراق</placeName>. (ثانيهما) رأي بعض
+(أحدهما) رأي مفسري التوراة، وهو أنه جزيرة <placeName change="#d2e120 #d11e309" xml:id="placeName_35.d2e2484" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>. (ثانيهما) رأي بعض
 علماء التاريخ واللغات والعاديات [3] وفي مقدمتهم العلامة روبرتس سمث الإنكليزي-
 وهو أن مهده جزيرة العرب (قال) ومنها تفرق في الشرق قبل التاريخ كما تفرق
 العرب والمسلمون في صدر الإسلام، ولهم على ذلك أدلة لغوية اجتماعية، ومن
@@ -1066,12 +1066,12 @@ Pneumonia
 الحياة البدوية العربية.
 (ومهما يكن من أمر ذلك المهد فإننا نرى العرب قد أسسوا في جزيرتهم عدة
 ممالك اشتهرت قديمًا وحديثًا، وخرجوا من جزيرتهم للفتوحات غربًا إلى سيناء
-ومصر وإفريقيا الشمالية، وشرقًا إلى <placeName change="#d2e120" xml:id="placeName_36.d2e2507">العراق</placeName> وتركستان، وشمالاً إلى سورية
+ومصر وإفريقيا الشمالية، وشرقًا إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_36.d2e2507" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وتركستان، وشمالاً إلى سورية
 وآسية الصغرى فأسسوا فيها عدة ممالك قبل الإسلام وبعده. فكان مهد العرب
 ومسرحهم منذ القديم من المحيط الأتلانتيكي شرقًا وغربًا، ومن أهالي الفرات
 ودجلة والبحر المتوسط إلى أقاصي السودان شمالاً وجنوبًا) .
 ***
-(العرب البائدة في <placeName change="#d2e120" xml:id="placeName_37.d2e2521">العراق</placeName> ومصر وسورية)
+(العرب البائدة في <placeName change="#d2e120 #d11e309" xml:id="placeName_37.d2e2521" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ومصر وسورية)
 (3) ذكر من تاريخ العرب البائدة أنهم كانوا يسكنون ما بين العراق
 والعقبة، وينقلون التجارة ما بين بابل ومصر. ثم قال: (وما زالوا حتى ظهر منهم
 في القرن الثالث والعشرين (قبل المسيح) ملك اسمه [حمورابي] فأسس مملكة
@@ -1086,7 +1086,7 @@ Pneumonia
 جزيرة العرب وأسسوا فيها دولاً شتى) .
 ثم ذكر خلاصة مفيدة من تاريخ العرب المتعرية والمستعربة من القحطانيين
 والعدنانيين واستطرد إلى ذكر خلاصة تاريخ ظهور الإسلام وامتداد دعوته وفتوحه
-ودولة العرب وغيرهم ختمًا ب<placeName change="#d2e120" xml:id="placeName_38.d2e2556">الدولة العثمانية</placeName>، وما انتهت إليه حالها في عهد طغاة
+ودولة العرب وغيرهم ختمًا ب<placeName change="#d2e120 #d11e309" xml:id="placeName_38.d2e2556" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>، وما انتهت إليه حالها في عهد طغاة
 الاتحاديين من اضطهاد العرب والعربية، وتقحمهم بالدولة أخطار هذه الحرب
 الأوروبية، وحكم عليهم بأنهم أضاعوا بذلك ملكهم مهما تكن عاقبة هذه الحرب.
 ***
@@ -1104,15 +1104,15 @@ Pneumonia
 لخلاصة تاريخ سورية (ص 675) .
 (5) بين المؤرخ أن شعوب سورية القديمة هم الآراميون والكنعانيون
 والحثيون والعبرانيون والفلسطينيون والفينيقيون (قال) (وكلهم هاجروا إليها من
-جزيرة العرب أو <placeName change="#d2e120" xml:id="placeName_39.d2e2598">العراق</placeName> إلا الفلسطينيين) أي والذين هاجروا إليها من <placeName change="#d2e120" xml:id="placeName_40.d2e2602">العراق</placeName> كانوا
-من جزيرة العرب فهاجروا إلى <placeName change="#d2e120" xml:id="placeName_41.d2e2607">العراق</placeName> قبل الهجرة إلى سورية , و (أو) في كلامه
+جزيرة العرب أو <placeName change="#d2e120 #d11e309" xml:id="placeName_39.d2e2598" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> إلا الفلسطينيين) أي والذين هاجروا إليها من <placeName change="#d2e120 #d11e309" xml:id="placeName_40.d2e2602" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> كانوا
+من جزيرة العرب فهاجروا إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_41.d2e2607" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> قبل الهجرة إلى سورية , و (أو) في كلامه
 لمنع الخلو لا لمنع الجمع فالتحقيق أن من عرب الجزيرة من هاجروا إلى سورية
-توًّا، ومنهم من هاجر إلى <placeName change="#d2e120" xml:id="placeName_42.d2e2614">العراق</placeName> توًّا ثم هاجر بعضهم إلى سورية وبعضهم إلى
+توًّا، ومنهم من هاجر إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_42.d2e2614" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> توًّا ثم هاجر بعضهم إلى سورية وبعضهم إلى
 مصر.
 وبعد أن قال في كل شعب من هؤلاء الشعوب قولاً وجيزًا مفيدًا وشكا من عدم
 اجتماع كلمة السوريين في كل عصر من العصور ومن ضعفهم بانقسامهم واختلاف
 أغراضهم وأديانهم. وذكر أن عددهم الآن ثلاثة ملايين.
-(6) ثم ذكر خلاصة تاريخ <placeName change="#d2e120" xml:id="placeName_43.d2e2628">العراق</placeName> وذكر ممالكه القديمة والحديثة من
+(6) ثم ذكر خلاصة تاريخ <placeName change="#d2e120 #d11e309" xml:id="placeName_43.d2e2628" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وذكر ممالكه القديمة والحديثة من
 الكلدانيين إلى العثمانيين وذكر أن عدد سكانه يقدر الآن بثلاثة ملايين أيضًا نصفهم
 بدو ونصفهم حضر وكلهم عرب إلا قليل من الأكراد [*] .
 (7) ثم انتقل المصنف إلى خلاصة تاريخ مصر فبدأه بقوله:
@@ -1190,7 +1190,7 @@ Pneumonia
 بلادكم ترافقكم إلى دار هجرتكم فتكدر صفاءكم وتحرمكم لذة التمتع بالألفة الجنسية،
 وذكر من وسيلة ذلك كثرة الأندية وارتباط بعضها ببعض.
 (10) طاعة السلطان وقانون البلاد والعمل لنفع الأمة المصرية والحرص
-على كرامتها. وختم الكلام والكتاب بأبيات في الجمع بين حب مصر و<placeName change="#d2e120" xml:id="placeName_44.d2e2801">الشام</placeName> وجعل
+على كرامتها. وختم الكلام والكتاب بأبيات في الجمع بين حب مصر و<placeName change="#d2e120 #d11e309" xml:id="placeName_44.d2e2801" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وجعل
 قلبه شطرين بينهما وتمنى تعانقهما عناق الإخاء إلى المنتهى.
 ***
 (<bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_11.d2e2810">القبلة</title></bibl>)
@@ -1247,14 +1247,14 @@ Pneumonia
 الرواج.
 وقيمة اشتراكها 100 قرش في القطر المصري.</bibl>
 ***
-(رحلة <placeName change="#d2e120" xml:id="placeName_45.d2e2937">الحجاز</placeName>)
+(رحلة <placeName change="#d2e120 #d11e309" xml:id="placeName_45.d2e2937" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>)
 ضاق هذا الجزء عن نشر شيء من رحلتنا الحجازية وموعدنا الأجزاء الآتية. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_7.d2e2942">(1) إن الذين لم يسموا عربًا كدول الفراعنة والفينيقيين كانوا أول دول الحضارة منهم من أصل
 عربي.
 (2) إن السريانية والعبرانية تعدان أختين للعربية؛ لأن أصلهما واحد سامي مهده الأول جزيرة
 العرب.
 (3) هي آثار الأمم القديمة نسبة إلى عاد الأولى العربية ثم صارت عامة.
-(*) استطرد المؤرخ هنا إلى ما لم يستطرد إلى مثله في سورية من ذكر البيوتات فبدأ يذكر الفاروقيين وقال: إنهم يسكنون <placeName change="#d2e120" xml:id="placeName_46.d2e2955">الموصل</placeName> وفاته أن منهم فرعًا في <placeName change="#d2e120" xml:id="placeName_47.d2e2958">بغداد</placeName> أيضًا وثنى بذكر السادة العلويين وقال: إنهم يسكنون <placeName change="#d2e120" xml:id="placeName_48.d2e2961">الموصل</placeName> و<placeName change="#d2e120" xml:id="placeName_49.d2e2964">بغداد</placeName> و<placeName change="#d2e120" xml:id="placeName_50.d2e2967">البصرة</placeName> وثلث بذكر السويديين من سلالة الخلفاء العباسيين قال: وكلهم في <placeName change="#d2e120" xml:id="placeName_51.d2e2970">بغداد</placeName> ثم ذكر الجيلانية والآلوسية في <placeName change="#d2e120" xml:id="placeName_52.d2e2974">بغداد</placeName> وفاته أن هذين البيتين من بيوت السادة العلوية أيضًا وكان ينبغي أن يبدأ بذكر السادة العلوية ويقول: إنهم يوجدون في جميع الولايات العراقية كما يوجدون في جميع الولايات السورية وغيرها وأن أشهر بيوتهم في <placeName change="#d2e120" xml:id="placeName_53.d2e2977">العراق</placeName> بيت النقيب وبيت الآلوسي في <placeName change="#d2e120" xml:id="placeName_54.d2e2980">بغداد</placeName> وبيت النقيب في <placeName change="#d2e120" xml:id="placeName_55.d2e2983">البصرة</placeName> وقد ذكر من آل الآلوسي السيد محمود شكري وقال: إنه مروج مذهب السلف (الوهابية) في <placeName change="#d2e120" xml:id="placeName_56.d2e2986">العراق</placeName> وذكر الوهابية هنا غلط مبني على أغلاطه له أخرى عند ذكر هؤلاء في الكلام على نجد فإنه جعل الحنابلة غير الوهابية ونسب إلى الوهابية ما لا يقوله أحد ممن يطلق عليهم هذا اللقب ولا عجب فقد اغتر كثير من الناس بما كتبه دحلان وغيره عن هؤلاء الناس، وما ذاك إلا من فتن السياسة أعاذنا الله من إفكها وتضليلها.
-(4) يحتمل أن يكون كلمة شاسوا من مادة شاس يشوس فهو أشوس وهم أشاوس والأشوس يطلق على المبتكر وأصله من يصغر عينيه وينظر بمؤخرها أو من ينظر إلى الشيء نظر احتقار- وعلى الشجاع والطويل القامة، وكذلك كانت العمالقة وربما كانت كلمة حق بمعنى ملك الميم كما يستعملها أهل <placeName change="#d2e120" xml:id="placeName_57.d2e2992">الحجاز</placeName> الآن.</note>
+(*) استطرد المؤرخ هنا إلى ما لم يستطرد إلى مثله في سورية من ذكر البيوتات فبدأ يذكر الفاروقيين وقال: إنهم يسكنون <placeName change="#d2e120 #d11e309" xml:id="placeName_46.d2e2955" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> وفاته أن منهم فرعًا في <placeName change="#d2e120 #d11e309" xml:id="placeName_47.d2e2958" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> أيضًا وثنى بذكر السادة العلويين وقال: إنهم يسكنون <placeName change="#d2e120 #d11e309" xml:id="placeName_48.d2e2961" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_49.d2e2964" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_50.d2e2967" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> وثلث بذكر السويديين من سلالة الخلفاء العباسيين قال: وكلهم في <placeName change="#d2e120 #d11e309" xml:id="placeName_51.d2e2970" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> ثم ذكر الجيلانية والآلوسية في <placeName change="#d2e120 #d11e309" xml:id="placeName_52.d2e2974" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> وفاته أن هذين البيتين من بيوت السادة العلوية أيضًا وكان ينبغي أن يبدأ بذكر السادة العلوية ويقول: إنهم يوجدون في جميع الولايات العراقية كما يوجدون في جميع الولايات السورية وغيرها وأن أشهر بيوتهم في <placeName change="#d2e120 #d11e309" xml:id="placeName_53.d2e2977" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بيت النقيب وبيت الآلوسي في <placeName change="#d2e120 #d11e309" xml:id="placeName_54.d2e2980" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> وبيت النقيب في <placeName change="#d2e120 #d11e309" xml:id="placeName_55.d2e2983" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> وقد ذكر من آل الآلوسي السيد محمود شكري وقال: إنه مروج مذهب السلف (الوهابية) في <placeName change="#d2e120 #d11e309" xml:id="placeName_56.d2e2986" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وذكر الوهابية هنا غلط مبني على أغلاطه له أخرى عند ذكر هؤلاء في الكلام على نجد فإنه جعل الحنابلة غير الوهابية ونسب إلى الوهابية ما لا يقوله أحد ممن يطلق عليهم هذا اللقب ولا عجب فقد اغتر كثير من الناس بما كتبه دحلان وغيره عن هؤلاء الناس، وما ذاك إلا من فتن السياسة أعاذنا الله من إفكها وتضليلها.
+(4) يحتمل أن يكون كلمة شاسوا من مادة شاس يشوس فهو أشوس وهم أشاوس والأشوس يطلق على المبتكر وأصله من يصغر عينيه وينظر بمؤخرها أو من ينظر إلى الشيء نظر احتقار- وعلى الشجاع والطويل القامة، وكذلك كانت العمالقة وربما كانت كلمة حق بمعنى ملك الميم كما يستعملها أهل <placeName change="#d2e120 #d11e309" xml:id="placeName_57.d2e2992" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> الآن.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_5.d2e2996">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_7.d2e2998" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>

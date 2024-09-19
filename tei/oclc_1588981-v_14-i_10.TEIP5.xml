@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_14-i_10.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_14-i_10.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e298">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_14-i_10.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_14-i_10.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1329">1329</date><date calendar="#cal_gregorian" when="1911" xml:lang="ar">سبتمبر - 1911م</date></imprint>
                   <biblScope unit="volume" from="14" to="14" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">14</biblScope>
                   <biblScope unit="issue" from="10" to="10" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">10</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e298" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -131,7 +131,7 @@
 جسده , وبينهما فرق عظيم. وعائشة ومعاوية لم يقولا كان منامًا وإنما قالا أُسري
 بروحه ولم يفقد جسده وفرق بين الأمرين، فإن ما يراه النائم قد يكون أمثالاً
 مضروبة للمعلوم في الصور المحسوسة، فيرى النائم كأنه قد عرج به إلى السماء
-أو ذهب إلى <placeName change="#d2e120" xml:id="placeName_4.d2e402">مكة</placeName> وأقطار الأرض، وروحه لم تصعد ولم تذهب وإنما ملك الرؤيا
+أو ذهب إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_4.d2e402" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وأقطار الأرض، وروحه لم تصعد ولم تذهب وإنما ملك الرؤيا
 ضرب له المثال.
 والذين قالوا: عرج رسول الله صلى الله عليه وسلم طائفتان طائفة قالت:
 عرج بروحه وبدنه، وطائفة قالت: عرج بروحه ولم يفقد بدنه. وهؤلاء لم يريدوا
@@ -470,8 +470,8 @@
 الغزو الذي حصل منهم للأمم في القرن السابع الهجري، وناهيك بما فعلوه إذ ذاك
 في الأرض بعد أن انتشروا فيها من الفساد والنهب والقتل والسبي، وقد ذكرنا ذلك
 في مقالات (القرآن والعلم) في المجلد الحادي عشر من المنار.
-أما ذو القرنين فالغالب أنه أحد ملوك <placeName change="#d2e120" xml:id="placeName_5.d2e1140">اليمن</placeName> الملقبين (بالأذواء) كذي يزن
-وغيره وهم المعروفون للعرب، وقد كان لأهل <placeName change="#d2e120" xml:id="placeName_6.d2e1145">اليمن</placeName> مدينة عالية وحضارة كبيرة
+أما ذو القرنين فالغالب أنه أحد ملوك <placeName change="#d2e120 #d11e298" xml:id="placeName_5.d2e1140" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> الملقبين (بالأذواء) كذي يزن
+وغيره وهم المعروفون للعرب، وقد كان لأهل <placeName change="#d2e120 #d11e298" xml:id="placeName_6.d2e1145" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> مدينة عالية وحضارة كبيرة
 وقوة جسيمة كانت مجهولة للأمم، وبدأ الباحثون الآن يقفون على شيء من آثارهم
 حتى في غير بلادهم.
 والراجح أن السد كان موجودًا بإقليم داغستان التابع الآن لروسيا بين مدينتي
@@ -1131,7 +1131,7 @@
 ويراد بالكوليرا المنفردة الداء المعروف بالهيضة عند أطباء العرب؛ لذلك أطلق
 بعض أطبائنا اسم الهيضة الوافدة أو الأسيوية على الداء المعروف بالكوليرا
 الأسيوية عند الإفرنج، وهي تسمية عربية صحيحة.
-ومن أسمائها الهواء الأصفر، وهو أكبر شيوعًا في <placeName change="#d2e120" xml:id="placeName_7.d2e2556">الشام</placeName> منه في مصر،
+ومن أسمائها الهواء الأصفر، وهو أكبر شيوعًا في <placeName change="#d2e120 #d11e298" xml:id="placeName_7.d2e2556" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> منه في مصر،
 ولعله سمي بذلك في أوائل القرن الماضي؛ لاعتقاد الناس في تلك الأيام أن منشأه
 تغيره في الجو أو الهواء.
 (تاريخها ومنشؤها)
@@ -1147,15 +1147,15 @@
 لأنها كانت مستقرة هناك شديدة الفتك والانتشار، فلما كانت سنة 1817 انتشرت
 انتشارًا هائلاً في الهند، وفتكت بأهلها فتكًا ذريعًا، ثم أخذت في الانتقال حتى بلغت
 الصين واليابان شمالاً وجزر المحيط الهندي جنوبًا، وسارت غربًا فدخلت بلاد
-إيران إلى أن وصلت سنة 1823 إلى بر <placeName change="#d2e120" xml:id="placeName_8.d2e2594">الأناضول</placeName> وشمال سورية ثم توقف سيرها،
-ولم تتجاوزهما إلى أوربا ولا إلى <placeName change="#d2e120" xml:id="placeName_9.d2e2599">الحجاز</placeName> أو مصر.
+إيران إلى أن وصلت سنة 1823 إلى بر <placeName change="#d2e120 #d11e298" xml:id="placeName_8.d2e2594" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName> وشمال سورية ثم توقف سيرها،
+ولم تتجاوزهما إلى أوربا ولا إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_9.d2e2599" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أو مصر.
 ثم حدثت وافدة أخرى سنة 1830، ففشت الكوليرا في بلاد أفغانستان وإيران،
 ودخلت روسيا عن طريق استراخان، وأخذت تنتشر في أوربا فبلغت ألمانيا
 وفرنسا والنمسا وأسبانيا، ووصلت إلى بلاد الإنكليز سنة 1831، وانتقلت من
 أوربا إلى أميركا ولم يتقلص ظلها عن أوربا قبل سنة 1839، وأما في المملكة
-العثمانية فقد كان انتشارها هائلاً، دخلت <placeName change="#d2e120" xml:id="placeName_10.d2e2613">الحجاز</placeName> عن طريق <placeName change="#d2e120" xml:id="placeName_11.d2e2616">العراق</placeName> وانتقلت إلى
+العثمانية فقد كان انتشارها هائلاً، دخلت <placeName change="#d2e120 #d11e298" xml:id="placeName_10.d2e2613" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> عن طريق <placeName change="#d2e120 #d11e298" xml:id="placeName_11.d2e2616" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وانتقلت إلى
 الشام ومصر وشمال أفريقيا، وكان ذلك سنة 1831، وهي أول مرة عرف فيها
-هذا الداء في <placeName change="#d2e120" xml:id="placeName_12.d2e2624">الحجاز</placeName> ومصر والأماكن التي لم يدخلها قبلاً في <placeName change="#d2e120" xml:id="placeName_13.d2e2627">الشام</placeName>.
+هذا الداء في <placeName change="#d2e120 #d11e298" xml:id="placeName_12.d2e2624" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ومصر والأماكن التي لم يدخلها قبلاً في <placeName change="#d2e120 #d11e298" xml:id="placeName_13.d2e2627" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>.
 ثم أخذت الوافدات تتوالى بعد ذلك فكان عددها كلها في مصر تسع وافدات
 وهي؛ وافدة 1831 وفدت مع الحجاج، ووافدة سنة 1838 جاءتها من أوربا،
 ووافدة سنة 1848 فشت أولاً في طنطا ولا يعلم من أين جاءتها، ووافدة سنة
@@ -1164,8 +1164,8 @@
 فشت أولاً في دمياط ويظن أنها انتقلت إليها من الهند ووافدة سنة 1896 وفدت مع
 الحجاج، ووافدة سنة 1902 وهي الأخيرة فشت في موشه من قرى الصعيد بعد
 رجوع الحجاج، وعسى أن تكون هذه آخر الوافدات.
-أما <placeName change="#d2e120" xml:id="placeName_14.d2e2650">الحجاز</placeName> فكان عدد الوافدات تسع عشرة وافدة أشدها فتكًا وافدة سنة 1865
-وقد كانت أيضًا أشد وافدات <placeName change="#d2e120" xml:id="placeName_15.d2e2655">الشام</placeName> فتكًا.
+أما <placeName change="#d2e120 #d11e298" xml:id="placeName_14.d2e2650" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> فكان عدد الوافدات تسع عشرة وافدة أشدها فتكًا وافدة سنة 1865
+وقد كانت أيضًا أشد وافدات <placeName change="#d2e120 #d11e298" xml:id="placeName_15.d2e2655" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> فتكًا.
 والكوليرا متوطنة في الهند لاسيما في بنغال السفلى أي: وادي نهر الكنج،
 فإنها مستقرة هناك لا تنقطع ألبتة. وهذه الأماكن التي تكون الأوبئة مستقرة فيها
 كالطاعون والكوليرا تسمى في عرف الأطباء بؤر جمع بؤرة، وهي في اللغة
@@ -1178,9 +1178,9 @@
 وتشتد الكوليرا في بعض السنين لأسباب لا تزال غامضة، فتنتشر من البؤر
 التي تكون مستقرة فيها وتنتقل من بلد إلى آخر. فليس الخوف منها هذه السنة لأنها
 قريبة منا فقط، بل لأنها سريعة الانتشار على ما يظهر.
-الطرق التي تدخل منها إلى <placeName change="#d2e120" xml:id="placeName_16.d2e2686">الشام</placeName> و<placeName change="#d2e120" xml:id="placeName_17.d2e2690">الحجاز</placeName> ومصر ثلاث: طريق البحر
-الأحمر، وطريق إيران و<placeName change="#d2e120" xml:id="placeName_18.d2e2695">العراق</placeName> وطريق أوربا. على أنها لم تدخل <placeName change="#d2e120" xml:id="placeName_19.d2e2698">الحجاز</placeName> إلا من
-طريق البحر الأحمر مع الحجاج الهنود وطريق إيران و<placeName change="#d2e120" xml:id="placeName_20.d2e2703">العراق</placeName>.
+الطرق التي تدخل منها إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_16.d2e2686" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> و<placeName change="#d2e120 #d11e298" xml:id="placeName_17.d2e2690" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ومصر ثلاث: طريق البحر
+الأحمر، وطريق إيران و<placeName change="#d2e120 #d11e298" xml:id="placeName_18.d2e2695" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وطريق أوربا. على أنها لم تدخل <placeName change="#d2e120 #d11e298" xml:id="placeName_19.d2e2698" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إلا من
+طريق البحر الأحمر مع الحجاج الهنود وطريق إيران و<placeName change="#d2e120 #d11e298" xml:id="placeName_20.d2e2703" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>.
 ***
 (2)
 (انتقالها)
@@ -1193,7 +1193,7 @@
 وهي غير منتظمة في سيرها، فقد تتخطى عدة أماكن على طرق المواصلة،
 وتفشو في غيرها كما حدث سنة 1902، فإنها تخطت مدنًا كثيرة في صعيد مصر،
 وفشت في حلفا، فإذا لا سمح الله دخلت القطر وفشت في الإسكندرية مثلاً، فقد
-تظهر في مدينة من مدن الصعيد قبل ظهورها في <placeName change="#d2e120" xml:id="placeName_21.d2e2735">القاهرة</placeName>.
+تظهر في مدينة من مدن الصعيد قبل ظهورها في <placeName change="#d2e120 #d11e298" xml:id="placeName_21.d2e2735" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>.
 والعزلة تقي منها، فإن بعض الجزر في المحيط الهندي وغيره لم تدخلها
 الكوليرا قط، وكذلك أستراليا ونيوزيلاندا وغرب أفريقية ومواضع كثيرة من
 السودان، فإنها فتكت بالجيش المصري سنة 1896، لكنها لم تنتقل إلى الأماكن
@@ -1205,16 +1205,16 @@
 العساكر ثم انقطع الداء تمامًا.
 والماء أعظم وسائل نقل الكوليرا، والأدلة على ذلك كثيرة، فمدينة بيروت
 مثلاً لم تنتشر فيها الكوليرا منذ سنة 1875، مع أنها فشت بعد ذلك في مدن كثيرة
-من مدن <placeName change="#d2e120" xml:id="placeName_22.d2e2764">الشام</placeName> كدمشق و<placeName change="#d2e120" xml:id="placeName_23.d2e2767">طرابلس</placeName> وغيرهما، وكانت تحدث إصابات في محجرها
+من مدن <placeName change="#d2e120 #d11e298" xml:id="placeName_22.d2e2764" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> كدمشق و<placeName change="#d2e120 #d11e298" xml:id="placeName_23.d2e2767" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> وغيرهما، وكانت تحدث إصابات في محجرها
 وفي المدينة نفسها كلما فشت الكوليرا في القطر المصري أو غيره من البلدان
 المجاورة، لكن الداء لم ينتشر فيها قط؛ لنظافة مائها وصعوبة تلوثه بخلاف دمشق
-وحِمْص وحماة و<placeName change="#d2e120" xml:id="placeName_24.d2e2777">طرابلس</placeName> وغيرها من مدن <placeName change="#d2e120" xml:id="placeName_25.d2e2780">الشام</placeName>.
+وحِمْص وحماة و<placeName change="#d2e120 #d11e298" xml:id="placeName_24.d2e2777" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> وغيرها من مدن <placeName change="#d2e120 #d11e298" xml:id="placeName_25.d2e2780" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>.
 أما في القطر المصري، فيستبعد تلوث الماء الذي توزعه الشركات في
 البيوت. والخوف ليس منه بل من استقاء الماء من الآبار والترع والنيل قرب الشاطئ
 ، أو من تلوث الآنية التي يوضع الماء فيها كالأزيار لاسيما هذه الأزيار القذرة التي
-نراها على جوانب الشوارع في <placeName change="#d2e120" xml:id="placeName_26.d2e2792">القاهرة</placeName>، فإن زيرًا واحدًا من هذه الأزيار قد يكون
+نراها على جوانب الشوارع في <placeName change="#d2e120 #d11e298" xml:id="placeName_26.d2e2792" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، فإن زيرًا واحدًا من هذه الأزيار قد يكون
 سببًا لهلاك مئة نفس إذا تلوث بجراثيم الداء. وقد فتكت الكوليرا سنة 1902 ببعض
-أهل <placeName change="#d2e120" xml:id="placeName_27.d2e2799">القاهرة</placeName>، وكان عدد الجنود المصريين فيها نحو ثلاثة آلاف لم تحدث بينهم
+أهل <placeName change="#d2e120 #d11e298" xml:id="placeName_27.d2e2799" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، وكان عدد الجنود المصريين فيها نحو ثلاثة آلاف لم تحدث بينهم
 إصابة واحدة؛ لأنهم عزلوا في ضواحي المدينة، واعتني اعتناءً تامًا بالماء الذي
 كانوا يشربونه، وهذا كان شأن الجنود الإنكليزية فيها، وإنما أصيب منهم جندي أو
 اثنان شربا ماءً في إحدى فهوات المدينة على ما أتذكر.
@@ -1741,7 +1741,7 @@
 باشا الذي صرح في خطاب له بأن اليهود هم أصحاب المستقبل في هذه الدولة،
 حتى في أمورها الإدارية والعسكرية، فهذه مقدمة أولى للكلمة التي نريد أن نقولها
 الآن.
-مقدمة ثانية: إننا كنا كتبنا مقالاً نشر في المنار وفي بعض جرائد <placeName change="#d2e120" xml:id="placeName_28.d2e3946">بيروت</placeName>،
+مقدمة ثانية: إننا كنا كتبنا مقالاً نشر في المنار وفي بعض جرائد <placeName change="#d2e120 #d11e298" xml:id="placeName_28.d2e3946" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>،
 نبهنا فيه إخواننا العثمانيين إلى المشابهة بين ما يستقبلون في هذا الطور الجديد من
 الحياة الذي دخلوا فيه، وبين ما سبقهم إليه إخوانهم المصريون من مثله , وهو
 طور حرية الأقلام والأعمال , وذكرناهم بأن يعتبروا بحال مصر، ويتقوا ما استبان
@@ -1751,7 +1751,7 @@
 بعض المغرورين الطائشين، وغلوا فيه غلوًّا كبيرًا، حتى لم يخجل بعضهم من
 التصريح بأن مشروع الدعوة إلى الإسلام وإرشاد المسلمين إلى حقيقة دينهم، وما
 فيه من الخير لهم في دنياهم، يراد به خدمة الأجانب من غير المسلمين! ! فكان
-مثل هذا الكاتب كمثل بعض أهل <placeName change="#d2e120" xml:id="placeName_29.d2e3971">الشام</placeName> الذي اعتاد أن ينبذ من يخالف رأيه بلقب
+مثل هذا الكاتب كمثل بعض أهل <placeName change="#d2e120 #d11e298" xml:id="placeName_29.d2e3971" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> الذي اعتاد أن ينبذ من يخالف رأيه بلقب
 وهابي، حتى إذا كان يحدث بعض أدباء النصارى، فلما خالفه قال له أنت وهابي! !
 فقال له ذلك الأديب: بل أنا مسيحي ما رغبت عن ديني! قال كلا. إنما أنت
 وهابي! !
@@ -1829,14 +1829,14 @@
 من الانتفاع به والتوقي من ضرره , وإذا ردته نثلت الكنائن , وفاءت السكائن ,
 وكفى الله المؤمنين القتال.
 * * *
-(مسألة <placeName change="#d2e120" xml:id="placeName_30.d2e4143">اليمن</placeName> واتفاق الحكومة مع الإمام)
+(مسألة <placeName change="#d2e120 #d11e298" xml:id="placeName_30.d2e4143" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> واتفاق الحكومة مع الإمام)
 كنا اقترحنا على الدولة قولاً وكتابة أن تتفق مع الإمام، فتعترف له بزعامته
 وتقره على إمامته في قومه حسب اعتقادهم , وترضى منه بما يقبله في مقابلة ذلك
-من الاعتراف بسيادة الدولة على <placeName change="#d2e120" xml:id="placeName_31.d2e4153">اليمن</placeName>، وكونه هو تابعًا لها. وبعد الاتفاق على
+من الاعتراف بسيادة الدولة على <placeName change="#d2e120 #d11e298" xml:id="placeName_31.d2e4153" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وكونه هو تابعًا لها. وبعد الاتفاق على
 هذين الركنين يسهل الاتفاق على كل شيء , بل نبهنا الدولة على ما هو أعم من
 ذلك؛ لتمكين سلطتها في جزيرة العرب كلها بمثل هذا الاتفاق مع أمرائها.
-كان من سعيي في مسألة <placeName change="#d2e120" xml:id="placeName_32.d2e4162">اليمن</placeName> أن اقترحت على رءوف باشا المعتمد العثماني
-بمصر - والفتنة في ريعانها والعسكر يساق إلى <placeName change="#d2e120" xml:id="placeName_33.d2e4168">اليمن</placeName> تباعًا - أن يخاطب حكومة
+كان من سعيي في مسألة <placeName change="#d2e120 #d11e298" xml:id="placeName_32.d2e4162" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> أن اقترحت على رءوف باشا المعتمد العثماني
+بمصر - والفتنة في ريعانها والعسكر يساق إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_33.d2e4168" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> تباعًا - أن يخاطب حكومة
 الآستانة في أمر الاتفاق مع الإمام بلسان البرق , وقلت له: إنني موقن بأن الإمام
 يرضى بالاتفاق، ويكره أن يحارب الدولة باختياره , وإنني أتجرأ أن أضمن ذلك
 بشرط أن تعترف الدولة بإمامة الإمام وزعامته في قومه وعدم نزع السلاح منهم ,
@@ -1845,19 +1845,19 @@
 البرقية لا تكفي للإقناع في مثل هذه المسألة، ولعلنا نتكلم فيها عندما نذهب إلى
 الآستانة في فصل الصيف.
 أما الأصول التي قررتها اللجنة التي ألفت في الباب العالي؛ لأجل وضع
-النظام لإصلاح <placeName change="#d2e120" xml:id="placeName_34.d2e4190">اليمن</placeName>، فهي على ما نشر في الجرائد عشرة:
-(1) تقسيم <placeName change="#d2e120" xml:id="placeName_35.d2e4196">اليمن</placeName> وعسير إلى ثلاث ولايات.
+النظام لإصلاح <placeName change="#d2e120 #d11e298" xml:id="placeName_34.d2e4190" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، فهي على ما نشر في الجرائد عشرة:
+(1) تقسيم <placeName change="#d2e120 #d11e298" xml:id="placeName_35.d2e4196" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وعسير إلى ثلاث ولايات.
 (2) أن يعين مشايخ القبائل حكامًا إداريين أي متصرفين في الألوية
 وقائمقامين في الأقضية، ومديرين في النواحي.
 (3) أن يصرف النظر عن أصول المحاكمات التي عليها العمل في الدولة
 هنالك، ويستبدل بها محاكم شرعية تحكم في الدعاوي.
 (4) أن تنشأ الطرق والمعابر الكافية، وتؤسس المدارس وأخصها
 الابتدائية.
-(5) أن يُمنَح الإمام يحيى رياسة <placeName change="#d2e120" xml:id="placeName_36.d2e4214">اليمن</placeName> الروحية.
+(5) أن يُمنَح الإمام يحيى رياسة <placeName change="#d2e120 #d11e298" xml:id="placeName_36.d2e4214" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> الروحية.
 (6) أن تبتاع نسافات تحافظ على السواحل، وتكون سدًا دون تهريب
 السلاح والذخائر الحربية، وأن تنشأ المعاقل العسكرية اللازمة.
 (7) أن يعفى اليمانيون كافة من الخدمة العسكرية، ويوفد من سورية
-و<placeName change="#d2e120" xml:id="placeName_37.d2e4226">طرابلس</placeName> أناس يقومون بها هناك , أو يأخذ لها أناس من العربان بالأجرة.
+و<placeName change="#d2e120 #d11e298" xml:id="placeName_37.d2e4226" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> أناس يقومون بها هناك , أو يأخذ لها أناس من العربان بالأجرة.
 (8) أن يسمح للعربان بحمل السلاح مؤقتًا.
 (9) أن تلغى الضرائب ويحصر التبغ (الدخان) ؛ لأنه يسهل تهريب
 السلاح.
@@ -1880,9 +1880,9 @@
 لمحاربة كل عدو مهاجم , وإذا جرى الإصلاح في طريقه المستقيم وزالت مخاوف
 القوم، وريبتهم التي غرستها في نفوسهم المظالم السابقة، فإنهم يطلبون ذلك من
 تلقاء أنفسهم.
-أما مسألة عسير فكادت تكون أعسر من مسألة <placeName change="#d2e120" xml:id="placeName_38.d2e4279">اليمن</placeName> وأعقد , وأعصى على
+أما مسألة عسير فكادت تكون أعسر من مسألة <placeName change="#d2e120 #d11e298" xml:id="placeName_38.d2e4279" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وأعقد , وأعصى على
 من يحلها وأبعد , فقد عظم فيها نفوذ السيد الإدريسي الروحي، وارتابت فيه الدولة
-فحاربته , واستعانت عليه بأمير <placeName change="#d2e120" xml:id="placeName_39.d2e4286">مكة</placeName> الشريف حسين المشهور بالروية والحزم
+فحاربته , واستعانت عليه بأمير <placeName change="#d2e120 #d11e298" xml:id="placeName_39.d2e4286" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> الشريف حسين المشهور بالروية والحزم
 والإخلاص للدولة , فسار إلى عسير بنفسه وبعض أنجاله، يقود جيشًا مؤلفًا من
 عسكره الخاص وعسكر الدولة النظامي، فحارب الإدريسي بقوتيه العسكرية
 والمعنوية، حتى فك الحصار عن أبها عاصمة بلاد عسير، وأجلى الإدريسي إلى
@@ -1890,7 +1890,7 @@
 بإيثار الصلح والسلام , وحفظ الدماء بالنفوذ الروحي وقوة الخطابة والبرهان , ويقال:
 إنه كان يريد هذا، وأن الإدريسي أبى عليه فتح باب الكلام , وقد داوى الأمير ما
 جرح بالإحسان إلى أهل البلاد التي دخلها في عسير وإنشاء المساجد والمدارس
-لأهلها , ثم عاد إلى <placeName change="#d2e120" xml:id="placeName_40.d2e4307">الحجاز</placeName> مؤيدًا منصورًا , ولكن الدولة ترى أن عقدة عسير
+لأهلها , ثم عاد إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_40.d2e4307" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> مؤيدًا منصورًا , ولكن الدولة ترى أن عقدة عسير
 العسكرية لما تنحل.
 * * *
 (الأزهر وملحقاته بعد القانون الجديد)

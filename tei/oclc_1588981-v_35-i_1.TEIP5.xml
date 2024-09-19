@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_35-i_1.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_35-i_1.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e282">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_35-i_1.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_35-i_1.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1354">1354</date><date calendar="#cal_gregorian" when="1935" xml:lang="ar">يوليو - 1935م</date></imprint>
                   <biblScope unit="volume" from="35" to="35" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">35</biblScope>
                   <biblScope unit="issue" from="1" to="1" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">1</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e282" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -184,7 +184,7 @@
 نصروا بعض المتفرقين في الدين على بعض بما أضعف سلطان الدين في الهداية،
 وفوائد العلوم والفنون في الحضارة، وأنَّى للمعتصم العامي، وكذا المأمون العالم
 المتفنن أن يفهم حكمة أمير المؤمنين عمر بن الخطاب في عقاب صبيغ المجادل
-المشكك في القرآن، ونفيه من المدينة إلى <placeName change="#d2e120" xml:id="placeName_4.d2e495">البصرة</placeName>، وأمر الناس بهجره حتى تاب،
+المشكك في القرآن، ونفيه من المدينة إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_4.d2e495" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>، وأمر الناس بهجره حتى تاب،
 تلك جناية فوضى العلم في العرب، وجنايتها على هداية القرآن بالابتداع والتفرق
 والاختلاف.
 حضارة العرب وتأثير الإسلام فيها:
@@ -196,7 +196,7 @@
 وكانت قيانهم ووصائفهم تحفظ القرآن، وتروي الحديث بالأسانيد، وتنظم
 الشعر وتلحنه، وما كان من إسراف بعضهم وفسوقهم تجد تجاهه غلو آخرين في
 دينهم، وانقطاعهم إلى العبادة وجهاد النفس بحرمانها من الطيبات المباحة.
-كان أهل <placeName change="#d2e120" xml:id="placeName_5.d2e527">بغداد</placeName> في عهد حضارة العباسيين يتنزهون في زوارق دجلة أصيل
+كان أهل <placeName change="#d2e120 #d11e282" xml:id="placeName_5.d2e527" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> في عهد حضارة العباسيين يتنزهون في زوارق دجلة أصيل
 كل يوم، كما يتنزهون في هذه الأيام، فاتفق أن اقترب قاربان منها في أحدهما مغنٍّ
 يعزف على عوده، وفي الآخر قارئ يرتل سورة التكوير، فأنصت المغني واستمع
 للقرآن يتدبره، حتى إذا بلغ القارئ قوله تعالى: {وَإِذَا الصُّحُفُ نُشِرَتْ} (التكوير: 10) ضرب بعوده جانب الزورق فكسره ورماه في دجلة خاشعًا
@@ -295,9 +295,9 @@
 وتولي النهوض به، فتركه لمن يعده التوفيق الإلهي له من الذين يفقهون دعوة
 القرآن وتوحيده ووحدة أهله وجماعته، ولا يصلح له غيرهم.
 لما ألَّفنا جماعة الدعوة والإرشاد، وأنشأنا مدرستها وجدنا عقلاء المسلمين
-وأذكياءهم في مصر، وإستانبول، وأمصار الهند الإسلامية الكبرى، و<placeName change="#d2e120" xml:id="placeName_6.d2e746">بغداد</placeName>،
+وأذكياءهم في مصر، وإستانبول، وأمصار الهند الإسلامية الكبرى، و<placeName change="#d2e120 #d11e282" xml:id="placeName_6.d2e746" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>،
 وسوريةَ متفقين على أنها أعظم عمل إسلامي لا يُرجى الإصلاح المنشود بدونه؛
-حتى إن كبار رجال الترك أكبروه، وعلموا أنه يحيي <placeName change="#d2e120" xml:id="placeName_7.d2e754">الدولة العثمانية</placeName> حياة جديدة إذا
+حتى إن كبار رجال الترك أكبروه، وعلموا أنه يحيي <placeName change="#d2e120 #d11e282" xml:id="placeName_7.d2e754" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> حياة جديدة إذا
 هي كفلته ونفذته على الوجه الذي اقترحته عليها وقررته الجمعية التي أسست له من
 أذكى رجال الدولة، ولكن زعماء جمعية الاتحاد والترقي - الملاحدة منهم - كانوا
 قد أجمعوا أمرهم على إسقاط دولة آل عثمان وخلافتهم، وإقامة دولة تركية لا دينية
@@ -305,7 +305,7 @@
 الوزراء، وقرر أن تكون نفقات المدرسة السنوية في ميزانية وزارة الأوقاف.
 وكان الأمير عباس حلمي باشا خديو مصر علم بالأمر وأكبره، فلما عدت من
 إستانبول والأمر مقرر رسميًّا، أقنعني بأنه هو يكفل مساعدتي على تنفيذه في
-مصر، وبأن <placeName change="#d2e120" xml:id="placeName_8.d2e774">الدولة العثمانية</placeName> إن أرادت تنفيذه في إستنابول فإن من السهل أن يكون
+مصر، وبأن <placeName change="#d2e120 #d11e282" xml:id="placeName_8.d2e774" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> إن أرادت تنفيذه في إستنابول فإن من السهل أن يكون
 في كل من العاصمتين مدرسة تابعة لمقاصد الجمعية ومنهاجها، ففعلت وصدق هو
 وعده، وفتحت المدرسة أبوابها لجميع الشعوب الإسلامية، وتعاون على نفقتها
 ديوان الأوقاف الخيرية العامة ومصلحة الأوقاف (الملكية) الخاصة، حتى إذا ما
@@ -362,7 +362,7 @@
                
 
                
-(س1) لصاحب الإمضاء في مصر <placeName change="#d2e120" xml:id="placeName_9.d2e887">القاهرة</placeName>:
+(س1) لصاحب الإمضاء في مصر <placeName change="#d2e120 #d11e282" xml:id="placeName_9.d2e887" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>:
 حضرة صاحب السيادة: مولانا الأستاذ الأكبر السيد محمد رشيد رضا،
 صاحب المنار الأغر - نفعنا الله بعلمه وفضله.
 عرض بعض فقهاء المسلمين في مصر إلى مسألتين: الأولى احتيال الآباء
@@ -501,7 +501,7 @@
 علمنا إذن أنه أتى على ظهور الكتاب سنتان كاملتان، فأما انتشاره بالعربية
 فهو فوق المعتاد في الكتب الدينية، وقد قررت وزارة المعارف العمومية في هذه
 السنة صرفه لطلبة دار العلوم العليا، وهو يدرس في بعض المدارس الإسلامية في
-دمشق و<placeName change="#d2e120" xml:id="placeName_10.d2e1179">بيروت</placeName>.
+دمشق و<placeName change="#d2e120 #d11e282" xml:id="placeName_10.d2e1179" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>.
 ويرجى نشره في السنة المدرسية الجديدة أيضًا بين طلاب الأزهر والمعاهد
 الدينية بمصر، وقد تولى رياستها شيخ الإسلام وخليفة الأستاذ الإمام (الشيخ محمد
 مصطفى المراغي) الذي كان أول من قدر الكتاب قدره، وقرأ نصفه في جلسة
@@ -599,7 +599,7 @@
 معتقدًا أن هذه الوظيفة صارت له، بناء على أمر من الله بذلك، وأنه المتكلم باسم
 الله، والدليل على ذلك أنه يستعمل في أول كلامه - أي نبوته - هذه الكلمات:
 هكذا قال ياهُو (وهو اسم إله بني إسرائيل وغيرهم من الأمم الشرقية المنتشرة
-بين <placeName change="#d2e120" xml:id="placeName_11.d2e1395">الحجاز</placeName> وبين سوريا الشمالية) <gap resp="#org_MS" change="#d2e120" xml:id="gap_20.d2e1398"/> إلخ.
+بين <placeName change="#d2e120 #d11e282" xml:id="placeName_11.d2e1395" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وبين سوريا الشمالية) <gap resp="#org_MS" change="#d2e120" xml:id="gap_20.d2e1398"/> إلخ.
 وفي الختام أكرر لكم الشكر الواجب مع تمنياتي الصميمة.
 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_21.d2e1404"/> 
@@ -652,7 +652,7 @@
 عن جعلها دخلاً وخداعًا لأجل أن تكون أمة هي أقوى من أمة، فتكون المعاهدات
 أنكاثًا لا مندوحة عن نقضها كما بينا ذلك في محله [1] .
 بغوا واستعلوا على ألمانية وهم يعلمون أنها تعلوهم علمًا وصناعة ونظامًا،
-وفرائصهم ترتعد فَرَقًا من استعدادها السري للحرب، وقد ذاقوا بطشتها <placeName change="#d2e120" xml:id="placeName_12.d2e1513">القاهرة</placeName>،
+وفرائصهم ترتعد فَرَقًا من استعدادها السري للحرب، وقد ذاقوا بطشتها <placeName change="#d2e120 #d11e282" xml:id="placeName_12.d2e1513" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>،
 التي كادت تفتك بهم كلهم من قبل، ولكنهم اتكلوا على خداع معاهدتهم الخاطئة
 الكاذبة، وعلى تجديد محالفاتهم التي قصدوا بها أن يكونوا إلبًا واحدًا عليها، وأن
 تكون في عزلة لا تجد فيها وليًّا ولا نصيرًا.
@@ -1057,7 +1057,7 @@
 (4) ورد بالإصحاح الخامس عشر من إنجيل يوحنا بالآيتين 26 و 27 قول المسيح عليه السلام: (ومتى جاء (المعزى) الذي سأرسله أنا إليكم من الآب (روح الحق) الذي من عند الأب ينبثق فهو يشهد لي وتشهدون أنتم أيضًا؛ لأنكم معي من الابتداء) وجاء بالإصحاح السادس عشر منه بالآية 6 قوله عليه السلام: (لكني أقول لكم الحق، إنه خير لكم أن أنطلق؛ لأنه إن لم أنطلق لا يأتيكم (المعزي) وبالآيتين 13 و 14: (وأما متى جاء ذاك (روح الحق) فهو يرشدكم إلى جميع الحق؛ لأنه لا يتكلم من نفسه، بل كل ما يسمع يتكلم به) .
 
                   
-(5) (6) يحيى بن زكريا - عليهما السلام - وهو المعروف في الإنجيل باسم يوحنا المعمدان، فإنه لما جاء قومه - كما هو مذكور بإنجيل يوحنا بالإصحاح الأول بالآيات 19 و20 و21 و22 - وسألوه: آنت النبي؟ أجاب نفيًا، وهذا نص الآيات سالفة الذكر: (19 وهذه هي شهادة يوحنا حين أرسل اليهود من أورشليم كهنة ولاويين ليسألوه من أنت 20 فاعترف ولم ينكر وأقر أني لست أنا المسيح 21 فسألوه: إذًا ماذا؟ إيليا أنت؟ فقال: لست أنا. النبي أنت؟ فأجاب: لا) وإذًا فقد كانوا يترقبون بعثة النبي - صلى الله عليه وسلم - وذلك لما هو مذكور عندهم بالتوراة من أنه يبعث رسول من جبال فاران، وهي جبال ب<placeName change="#d2e120" xml:id="placeName_13.d2e2630">مكة</placeName>، منها جبل حراء الذي ما زال ينقطع فيه - صلى الله عليه وسلم- للعبادة إلى أن أوحي إليه.
+(5) (6) يحيى بن زكريا - عليهما السلام - وهو المعروف في الإنجيل باسم يوحنا المعمدان، فإنه لما جاء قومه - كما هو مذكور بإنجيل يوحنا بالإصحاح الأول بالآيات 19 و20 و21 و22 - وسألوه: آنت النبي؟ أجاب نفيًا، وهذا نص الآيات سالفة الذكر: (19 وهذه هي شهادة يوحنا حين أرسل اليهود من أورشليم كهنة ولاويين ليسألوه من أنت 20 فاعترف ولم ينكر وأقر أني لست أنا المسيح 21 فسألوه: إذًا ماذا؟ إيليا أنت؟ فقال: لست أنا. النبي أنت؟ فأجاب: لا) وإذًا فقد كانوا يترقبون بعثة النبي - صلى الله عليه وسلم - وذلك لما هو مذكور عندهم بالتوراة من أنه يبعث رسول من جبال فاران، وهي جبال ب<placeName change="#d2e120 #d11e282" xml:id="placeName_13.d2e2630" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، منها جبل حراء الذي ما زال ينقطع فيه - صلى الله عليه وسلم- للعبادة إلى أن أوحي إليه.
 (7) من أنبياء بني إسرائيل وقصته مبسوطة في سفره من العهد القديم وليس بثابت عندنا.
 (8) المنتوق: المرفوع.
 (9) الحلفاء: قريش، وغطفان، ويهود.
@@ -1259,8 +1259,8 @@
 المباحث يمر عليه المطلع إلا ويشعر أنه في أشد الحاجة إلى تفهمه من الوجهتين
 الدينية والمدنية.
 وقد ذُيلت طبعته الثانية بنحو 23 تقريظًا في مقدمتها تقريظًا للعاهلين العربيين
-ملكي الإسلام: الإمام يحيى حميد الدين إمام <placeName change="#d2e120" xml:id="placeName_14.d2e3077">اليمن</placeName>، وصاحب العظمة السلطان عبد
-العزيز آل سعود ملك <placeName change="#d2e120" xml:id="placeName_15.d2e3082">الحجاز</placeName> ونجد، في كتابين موجهين من لدنهما إلى المؤلف،
+ملكي الإسلام: الإمام يحيى حميد الدين إمام <placeName change="#d2e120 #d11e282" xml:id="placeName_14.d2e3077" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وصاحب العظمة السلطان عبد
+العزيز آل سعود ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_15.d2e3082" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد، في كتابين موجهين من لدنهما إلى المؤلف،
 وتقريظ صاحب الفضيلة الأستاذ الأكبر الشيخ محمد مصطفى المراغي المصلح
 الإسلامي الكبير المعروف لدى سكان هذه البلاد، وتقريظ أمير البيان المشهور
 الأمير شكيب أرسلان، وغيرهم من الأئمة الأعلام ورجال العلم والدين.
@@ -1389,10 +1389,10 @@
 لم أر في هذه الصفحة شيئًا يصح أن يقال: إنه من الإلحاد، ولا من صوادم
 البراهين القاطعة، ولا مما هو من مخالفة أصول الإسلام ولا فروعه. وخلاصة ما
 فيها أن أبرهة أجمع أمره على هدم البيت الحرام، وأن عبد المطلب ومن معه دعوا
-واستنصروا آلهتهم وانصرفوا، وخلت <placeName change="#d2e120" xml:id="placeName_16.d2e3357">مكة</placeName> منهم، وكان وباء الجدري قد تفشَّى في
+واستنصروا آلهتهم وانصرفوا، وخلت <placeName change="#d2e120 #d11e282" xml:id="placeName_16.d2e3357" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> منهم، وكان وباء الجدري قد تفشَّى في
 جيش أبرهة، وفتك بهم فتكا ذريعًا لم يُعهد من قبل قط، وأصابت العدوى أبرهة
-ملكهم فأمر قومه بالعودة إلى <placeName change="#d2e120" xml:id="placeName_17.d2e3365">اليمن</placeName>، وبلغ هو صنعاء وقد تناثر جسمه من المرض
-حتى لحق بمن مات من جيشه. قال: (وبذلك أرَّخ أهل <placeName change="#d2e120" xml:id="placeName_18.d2e3370">مكة</placeName> بعام الفيل هذا وقدسه
+ملكهم فأمر قومه بالعودة إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_17.d2e3365" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وبلغ هو صنعاء وقد تناثر جسمه من المرض
+حتى لحق بمن مات من جيشه. قال: (وبذلك أرَّخ أهل <placeName change="#d2e120 #d11e282" xml:id="placeName_18.d2e3370" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> بعام الفيل هذا وقدسه
 القرآن بذكره) وذكر السورة بنصها ولم يقل في تفسيرها شيئًا، فمهما يقل فيه
 فهو لا يرد عليه.
 (2) أسطورة شق الصدر: هكذا عنوانه ص 72:
@@ -1540,7 +1540,7 @@
 فعلى هذا يمكن أن يقال إن روح النبي صلى الله عليه وسلم أعطيت من القوة
 في تلك الليلة ما كانت به كقوة روح جبريل الذي كان يتمثل له صلى الله عليه وسلم
 بصورة دحية الكلبي وغيره، وتمثل للسيدة مريم - عليها السلام - بشرًا سويًّا، وفي
-هذه الحالة تتصرف الروح بجسدها الأثيري اللطيف فتحمله من <placeName change="#d2e120" xml:id="placeName_19.d2e3700">مكة</placeName> إلى بيت
+هذه الحالة تتصرف الروح بجسدها الأثيري اللطيف فتحمله من <placeName change="#d2e120 #d11e282" xml:id="placeName_19.d2e3700" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> إلى بيت
 المقدس، ومنه إلى حيث شاء الله من السموات العلى إلى سدرة المنتهى، وقد
 بينت هذا من قبل في المنار وفي محاضرتي الطويلة التي أشرت إليها آنفًا، وقلت
 إنه مذهب الصوفية الموافق لقول جمهور المحدثين إن الإسراء والمعراج كانا
@@ -1621,11 +1621,11 @@
 كله ولا يظهر فيه شاعر عربي الأسلوب بليغ الكلام، وحتى صرنا نعد وجود مثل
 سعادة محمود سامي باشا البارودي من قبيل ما يسميه الحكماء بالرجعة، كأن السليقة
 العربية رجعت إليه بالوراثة لأحد أجداده الأولين من غير عناء في كسب ملكتها،
-والظاهر أن بلاد <placeName change="#d2e120" xml:id="placeName_20.d2e3879">العراق</placeName> لا تزال أقرب إلى السليقة العربية من أهل هذه البلاد،
+والظاهر أن بلاد <placeName change="#d2e120 #d11e282" xml:id="placeName_20.d2e3879" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> لا تزال أقرب إلى السليقة العربية من أهل هذه البلاد،
 وأن النابغين فيها أكثر منهم في غيرها.
 ولقد وافى هذه البلاد من أشهر رجل فاضل جدير بلقب (الأديب) وقلَّ
 الجدير به في العصر، ألا وهو الشيخ أبو المكارم عبد المحسن الكاظمي (نسبة إلى
-الكاظمية بلدة في ضواحي <placeName change="#d2e120" xml:id="placeName_21.d2e3891">بغداد</placeName>) لقيناه فلقينا الأدب الصحيح والأخلاق الحسنة من
+الكاظمية بلدة في ضواحي <placeName change="#d2e120 #d11e282" xml:id="placeName_21.d2e3891" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>) لقيناه فلقينا الأدب الصحيح والأخلاق الحسنة من
 الشاعر المفلق، العذب المنطق، الذي ناهز المقدمين، وخاطر المقرمين، ومن
 السجايا الفاضلة الظاهرة فيه الإباء وعزة النفس، حتى إنك لا تشعر في أول عهدك
 به بما عنده من لطف المعاشرة ورقة الطبع ولين العريكة.
@@ -1633,7 +1633,7 @@
 في مصر: (إنني عندما لقيته أول مرة ظننت أنه لا تطيب معاشرته، فلما خبرته
 علمت أنه لا تطيب مفارقته) ا. هـ.
 وما أجدره بقول شاعرنا أحمد بن مفلح المشهور بابن منير الطرابلسي:
-إباء فارس في لين <placeName change="#d2e120" xml:id="placeName_22.d2e3911">الشام</placeName> مع الظر <gap resp="#org_MS" change="#d2e120" xml:id="gap_218.d2e3914"/> ف العراقي واللفظ الحجازي
+إباء فارس في لين <placeName change="#d2e120 #d11e282" xml:id="placeName_22.d2e3911" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> مع الظر <gap resp="#org_MS" change="#d2e120" xml:id="gap_218.d2e3914"/> ف العراقي واللفظ الحجازي
 أما شعره فعلى الطريقة العراقية العذبة القديمة، طريقة الشريف الرضي
 ومهيار الديلمي، وأما إنشاده فهو يناسب شعره في التأثير الذي هو المقصود الأهم
 من بلاغة القول) ا. هـ.
@@ -1696,7 +1696,7 @@
 وإنما يجود بالشعر حيث يرجى به النوال الجزل.
 لقي الملك فيصلاً في مصر فرأى من لطفه وتواضعه وتكريمه له ما أحدث له
 أملاً بأن يحيا بجوده حياة جديدة من الإتراف والسعة، أقلها أن يكون له راتب
-شهري كبير وهو في مصر، أو ينقل إلى منصب كبير في <placeName change="#d2e120" xml:id="placeName_23.d2e4066">بغداد</placeName>، فمدحه كما مدح
+شهري كبير وهو في مصر، أو ينقل إلى منصب كبير في <placeName change="#d2e120 #d11e282" xml:id="placeName_23.d2e4066" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>، فمدحه كما مدح
 أخاه الأمير عبد الله وبيتهم الشريف بقصائد غر، كان ينشدها كلها أو بعضها قبل
 إرسالها، ويحاول إرضائي وأنا المنكر لسياستهم البريطانية بما فيها من التنويه
 بالإصلاح والوحدة العربية، حتى إذا ما خاب أمله فيهم، وغلبهم ابن السعود على
@@ -1834,9 +1834,9 @@
 الدولة العثمانية ألحقتها بلواء الكرك حتى يقولوا: إنهم لم يغيروا شيئًا من الوضع
 القديم، بل أبقوا العقبة تابعة للخطة التي كانت تابعة لها من قبل. والحقيقة أنه لما
 تشكل لواء الكرك ألحقوا به قصبة معان وتوزيعها ما عدا العقبة، وكان ذلك من
-الدولة قصدًا وعمدًا، حتى لا تجعل العقبة تخرج من أرض <placeName change="#d2e120" xml:id="placeName_24.d2e4357">الحجاز</placeName> نظرًا لاستثناء
+الدولة قصدًا وعمدًا، حتى لا تجعل العقبة تخرج من أرض <placeName change="#d2e120 #d11e282" xml:id="placeName_24.d2e4357" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> نظرًا لاستثناء
 الحجاز من أمور كثيرة، كان متفقًا عليها بين الدولة والدول الأجنبية، ومن جملتها
-عدم جواز تملك الأجانب. وقد كنت مرة في <placeName change="#d2e120" xml:id="placeName_25.d2e4365">دمشق</placeName> في أيام ولاية ناظم باشا وعلمت
+عدم جواز تملك الأجانب. وقد كنت مرة في <placeName change="#d2e120 #d11e282" xml:id="placeName_25.d2e4365" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> في أيام ولاية ناظم باشا وعلمت
 من المرحوم محمد فوزي باشا المعظم وكان هو عمدة مجلس الإدارة أن ولاية
 سورية راجعت الباب العالي في أن العقبة باتصالها بأرض معان وبكونها ميناء
 لمعان وبلاد الشراة يجب إلحاقها بمتصرفية الكرك تسهيلاً للأشغال.
@@ -1844,12 +1844,12 @@
 ولكن هناك ملاحظات سياسية أهم منها، وهي: أنه إذا ألحقت العقبة بلواء الكرك
 صارت من ولاية سورية ودخلت تحت المعاهدات التي بين الدولة والدول الأجنبية،
 فصار يجوز للأجانب أن يتملكوا فيها بخلاف ما إذا كانت تابعة للحجاز، فليس
-للأجانب حق أن يتملكوا شيئًا في <placeName change="#d2e120" xml:id="placeName_26.d2e4385">الحجاز</placeName>، وهو أمر متفق عليه بين الدولة والدول،
+للأجانب حق أن يتملكوا شيئًا في <placeName change="#d2e120 #d11e282" xml:id="placeName_26.d2e4385" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وهو أمر متفق عليه بين الدولة والدول،
 فبقيت العقبة إذن تابعة للحجاز، ولم تتبع الكرك كما طلبت ولاية سورية، فقصدت
 أن أصحح هذه الرواية التي نقلتموها عن أمين أفندي سعيد والتي لو صحت لما كان
 محل للتعجب من سعي الإنكليز بإلحاق العقبة بشرقي الأردن لأنهم يكونون حينئذ
 بنوا على أساس قديم. والحال أن هذا الأساس لم يوجد، وأن العقبة كانت ولم
-تخرج من <placeName change="#d2e120" xml:id="placeName_27.d2e4399">الحجاز</placeName> لا أولًا ولا أخيرًا ووضعها الحاضر لا يستند على شيء قانوني.
+تخرج من <placeName change="#d2e120 #d11e282" xml:id="placeName_27.d2e4399" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لا أولًا ولا أخيرًا ووضعها الحاضر لا يستند على شيء قانوني.
 والسلام عليكم ورحمة الله وبركاته.
 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_226.d2e4407"/> 
@@ -1874,7 +1874,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_244.d2e4448"/> جنيف
 (<title change="#d2e120" xml:id="title_13.d2e4452">المنار</title>)
 هذا ما يقال من جهة ما يسمى التشكيلات الإدارية في الدولة. وأما من الجهة
-الشرعية الإسلامية فالعقبة وما حولها من <placeName change="#d2e120" xml:id="placeName_28.d2e4460">الحجاز</placeName>. وبصفة أوسع نقول: من جزيرة
+الشرعية الإسلامية فالعقبة وما حولها من <placeName change="#d2e120 #d11e282" xml:id="placeName_28.d2e4460" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>. وبصفة أوسع نقول: من جزيرة
 العرب التي أوصى النبي صلى الله عليه وسلم بألا يبقى فيها دينان كما بيناه مرارًا،
 فاحتيال إنكلترة للاستيلاء عليها أفظع اعتداء على دين الإسلام. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_10.d2e4467"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_10.d2e4469">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_12.d2e4471" ref="oape:pers:242 viaf:73935498">
@@ -1893,7 +1893,7 @@
 
                
 خطب الأستاذ فارس بك الخوري الوزير السوري الأسبق ومن كبار مسيحيي
-سوريا في إحدى الحفلات التي أقيمت ب<placeName change="#d2e120" xml:id="placeName_29.d2e4492">دمشق</placeName> لإحياء ذكرى المولد النبوي، ومما
+سوريا في إحدى الحفلات التي أقيمت ب<placeName change="#d2e120 #d11e282" xml:id="placeName_29.d2e4492" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> لإحياء ذكرى المولد النبوي، ومما
 قاله:
 (إن محمدًا أعظم عظماء العالم، ولم يَجُدْ الدهرُ بعدُ بمثله، والدين الذي
 جاء به أوفى الأديان وأتمها وأكملها، وإن محمدًا أودع شريعته المطهرة أربعة آلاف
@@ -1967,12 +1967,12 @@
 بن نويرة ثم تزوجها خالد بن الوليد ثم تعشقها وغنى بحبها عبد الرحمن - يعني ابن
 أبي بكر الصديق - ومازال ملحًّا في طلبها إلى أن ظفر بها أخيرًا، ففتن بها حتى
 أعرض عن نسائه وسراريه وجعلها سيدة البيت، ثم لم يلبث أن هجرها وفارقها
-فرجعت إلى بيت والدها ب<placeName change="#d2e120" xml:id="placeName_30.d2e4650">دمشق</placeName>، وقضت بقية حياتها فيه، هذا ملخص قصة ليلى
+فرجعت إلى بيت والدها ب<placeName change="#d2e120 #d11e282" xml:id="placeName_30.d2e4650" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، وقضت بقية حياتها فيه، هذا ملخص قصة ليلى
 بزعمه.
 أقول: وهذا كذب محض، وجهل فاضح؛ فإن ليلى بنت الجودي لم
 يتزوج بها مالك بن نويرة، وكيف يتزوج بها وهو من أهل اليمامة في قلب جزيرة
 العرب وكان وثنيًّا مشركًا، وليلى بنت الجودي نصرانية، وأبوها أحد رؤساء
-النصرانية في <placeName change="#d2e120" xml:id="placeName_31.d2e4664">دمشق</placeName>. وامرأة مالك بن نويرة التي تزوجها خالد بعد قتل زوجها
+النصرانية في <placeName change="#d2e120 #d11e282" xml:id="placeName_31.d2e4664" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>. وامرأة مالك بن نويرة التي تزوجها خالد بعد قتل زوجها
 اسمها أم تميم بنت المنهال، لم يتعشقها عبد الرحمن، ولم يتغن بحبها ولا تزوجها.
 وقد التبس الأمر على هذا الكاتب المسكين لفقره في الأدب الشرقي، فمزج امرأتين
 وعجنهما وجعلهما شيئًا واحدًا لحول في عين بصيرته، وسيجيء الكلام على

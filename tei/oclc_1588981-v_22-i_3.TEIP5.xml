@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_22-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_22-i_3.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e282">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_22-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_22-i_3.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1339">1339</date><date calendar="#cal_gregorian" when="1921" xml:lang="ar">فبراير - 1921م</date></imprint>
                   <biblScope unit="volume" from="22" to="22" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">22</biblScope>
                   <biblScope unit="issue" from="3" to="3" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">3</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e282" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -306,7 +306,7 @@
 مِّنَ الآخِرِينَ} (الواقعة: 13-14) ، وأكثر مسلمي هذا العصر ضعفاء في الدين
 علمًا وعملاً، ولا سيما في البلاد التي ليس فيها حكومة إسلامية تقيم الحدود وتلتزم
 الشرع، والبلاد ذات الحكومة الإسلامية على قلتها بعضها شديد التعصب لمذهب
-معين، كالبلاد الأفغانية المتعصبة لمذهب الحنفية، وحكومة <placeName change="#d2e120" xml:id="placeName_4.d2e767">اليمن</placeName> المتعصبة لمذهب
+معين، كالبلاد الأفغانية المتعصبة لمذهب الحنفية، وحكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_4.d2e767" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> المتعصبة لمذهب
 الزيدية، فهذان لا يرجى أن يكون فيهما إصلاح إسلامي عام؛ لاستحالة اتباع جميع
 المسلمين لهذا المذهب أو ذاك، وبعضها شديد الغلو في العمل مع ضعف في العلم
 كبلاد نجد، ولكن لهذه مزية لا نعرفها لبلاد أخرى من بلاد المسلمين في هذا العصر،
@@ -347,7 +347,7 @@
 كله لموت الأستاذ الإمام بأشد مما اضطربت بيوت أولئك الشيوخ لموتهم الذي لا
 يكاد يشعر به، وما ذاك إلا لأنهم كانوا يعيشون لأنفسهم وبيوتهم، وكان يعيش
 لأمته وملته.
-سبقت الهند مصر وسورية و<placeName change="#d2e120" xml:id="placeName_5.d2e859">الحجاز</placeName> في إحياء السنة علمًا وعملاً، وقد
+سبقت الهند مصر وسورية و<placeName change="#d2e120 #d11e282" xml:id="placeName_5.d2e859" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> في إحياء السنة علمًا وعملاً، وقد
 تمهدت العقبات أمام مصر، وبدت طلائع الإصلاح في نابتة الأزهر، ولكن الحركة
 فيه لا تزال بطيئة، ولا تسرع بها إلا صدمات المعارضة والمقاومة لها، وحينئذ
 تجد من طلاب الإصلاح الديني والدنيوي أعوانًًا وأنصارًا تجرئها، ويتعاون رجال
@@ -697,7 +697,7 @@
 قال أبو سليمان الخطابي في كتابه معالم السنن: اعلموا - رحمكم الله - أن
 كتاب السنن لأبي داود كتاب شريف لم يصنف في علم الدين كتاب مثله، وقد رزق
 القبول من كافة الناس فصار حكمًا بين فرق العلماء وطبقات العلماء على اختلاف
-مذاهبهم، فلكل منه ورد ومنه شرب [**] ، وعليه معول أهل <placeName change="#d2e120" xml:id="placeName_6.d2e1629">العراق</placeName> وأهل مصر
+مذاهبهم، فلكل منه ورد ومنه شرب [**] ، وعليه معول أهل <placeName change="#d2e120 #d11e282" xml:id="placeName_6.d2e1629" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وأهل مصر
 وبلاد المغرب وكثير من أقطار الأرض. قال أبو داود رحمه الله: كتبت عن
 رسول الله - صلى الله عليه وسلم - خمسمائة ألف حديث فانتخبت منها أربعة آلاف
 حديث وثمانمائة ضمنتها هذا الكتاب، ذكرت الصحيح وما يشبهه ويقاربه،
@@ -710,7 +710,7 @@
 صالح، وبعضها أصح من بعض، وهو كتاب لا ترد عليك سنة عن النبي - صلى
 الله عليه وسلم - إلا وهي فيه، ولا أعلم شيئًا بعد القرآن ألزم للناس أن يتعلموه من
 هذا الكتاب، ولا يضر رجلاً أن لا يكتب من العلم شيئًا بعدما يكتب هذا الكتاب. إلى
-آخر كلامه في رسالته إلى أهل <placeName change="#d2e120" xml:id="placeName_7.d2e1660">مكة</placeName>، وقد اشتهر هذا الكتاب بجمعه لأحاديث الأحكام،
+آخر كلامه في رسالته إلى أهل <placeName change="#d2e120 #d11e282" xml:id="placeName_7.d2e1660" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وقد اشتهر هذا الكتاب بجمعه لأحاديث الأحكام،
 وفيه كثير من المراسيل، وكان يحتج بها من تقدم الشافعي؛كسفيان الثوري ومالك
 والأوزاعي.
 ***
@@ -734,7 +734,7 @@
 ***
 الجامع الصحيح لمحمد أبي عيسى الترمذي [20]
 قال أبو عيسى الترمذي - رحمه الله تعالى -: عرضت هذا الكتاب على
-علماء <placeName change="#d2e120" xml:id="placeName_8.d2e1715">الحجاز</placeName> و<placeName change="#d2e120" xml:id="placeName_9.d2e1719">العراق</placeName> وخراسان فرضوا به واستحسنوه. وقال: ما أخرجت
+علماء <placeName change="#d2e120 #d11e282" xml:id="placeName_8.d2e1715" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> و<placeName change="#d2e120 #d11e282" xml:id="placeName_9.d2e1719" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وخراسان فرضوا به واستحسنوه. وقال: ما أخرجت
 بكتابي هذا إلا حديثًا قد عمل به بعض الفقهاء. فعلى هذا كل حديث احتج به محتج،
 أو عمل بموجبه عامل أخرجه، سواء صح طريقه أو لم يصح، لكنه تكلم على
 درجة الحديث، وبين الصحيح منه والمعلول، كما ميز المعمول به من المتروك،
@@ -1274,7 +1274,7 @@
 المغرور بنفسه من شاب تعلم في مدرسة صبغت بصبغة وطنية كمدرسة المعلمين
 الناصرية مثلاً؟ وأتم الدراسة فيها، ثم سافر إلى أوربا. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_4.d2e2988">(1) المنار: النشل والانتشال في العربية أخذ اللحم من القدر وله آلة عقفاء تسمى المنشال، ويطلق النشل على أخذ اللحم من العظام أيضًا يستعمله كتاب الجرائد في أمثاله من المعاصرين بمعنى الإنقاذ من هلكة حسية أو معنوية ولهذا المعنى في اللغة كلمة فصيحة وهي الانتياش، قال ابن دريد:
 إن ابن ميكال الأمير انتاشني <gap resp="#org_MS" change="#d2e120" xml:id="gap_97.d2e2992"/> من بعد ما قد كنت كالشيء اللقا.
-(2) [نص الفقرة 125] ليس الأمر مقصورًا على قلة مجموع الاعتمادات المخصصة بالتعليم بميزانية الحكومة بالنسبة لما في معظم البلاد الأجنبية، بل إن معظم تلك الاعتمادات ينفق على التعليم الراقي الذي لا ينتفع به سوى طائفة صغيرة ممتازة من الأمة لا تدفع سوى قسم ضئيل من النفقات التي يتطلبها تعليم أبنائها، أما سكان الأقاليم الذين تتوقف ثروة البلاد على كدهم ونصبهم فلا يكادون ينالون قسطًا من التعليم في مقابل الضرائب التي يقع معظمها على كاهلهم، وإذا استثنينا الإعانة التي تمنح المكاتب في المحافظات ومديرية أسوان وقدرها 7300 جنيه وما ينفق على مدارس المعلمين والمعلمات الأولية الأربع وهو 2<date calendar="#cal_gregorian" when="8802" change="#d3e146 #d2e120" xml:id="date_8.d2e2996">8802</date> من الجنيهات، وصافي ما ينفق على المدرسة الأولية الراقية للبنين والمدرسة الأولية الراقية للبنات وقدره 4000 جنيه، وصافي ما ينفق على ثلاثة المصانع (الورش) الأميرية وهو 18000 جنيه والإعانة المخصصة ببعض مدارس صناعية غير تابعة للحكومة وقدرها 10410 جنيهات- إذا استثنينا كل هذه المقادير ومجموعها 68000 جنيه أمكن القول بأنه لم يدرج شيء في ميزانية الحكومة لسنة 1918 - 1919 لتعليم طبقات الشعب، على أن معظم هذه المقادير يصرف في مدينتي <placeName change="#d2e120" xml:id="placeName_10.d2e2999">القاهرة</placeName> والإسكندرية ثم إن الثمانية والستين من آلاف الجنيهات التي تصرف في تعليم أبناء الشعب يقابلها 49000 جنيه تحصل من إيراد الأراضي والعقار الموقوف للإنفاق على المكاتب الأهلية أي: أن ما تنفقه الحكومة في الحقيقة من إيراداتها الخاصة في كل سنة على تعليم الشعب على نحو 19000 جنيه فقط.
+(2) [نص الفقرة 125] ليس الأمر مقصورًا على قلة مجموع الاعتمادات المخصصة بالتعليم بميزانية الحكومة بالنسبة لما في معظم البلاد الأجنبية، بل إن معظم تلك الاعتمادات ينفق على التعليم الراقي الذي لا ينتفع به سوى طائفة صغيرة ممتازة من الأمة لا تدفع سوى قسم ضئيل من النفقات التي يتطلبها تعليم أبنائها، أما سكان الأقاليم الذين تتوقف ثروة البلاد على كدهم ونصبهم فلا يكادون ينالون قسطًا من التعليم في مقابل الضرائب التي يقع معظمها على كاهلهم، وإذا استثنينا الإعانة التي تمنح المكاتب في المحافظات ومديرية أسوان وقدرها 7300 جنيه وما ينفق على مدارس المعلمين والمعلمات الأولية الأربع وهو 2<date calendar="#cal_gregorian" when="8802" change="#d3e146 #d2e120" xml:id="date_8.d2e2996">8802</date> من الجنيهات، وصافي ما ينفق على المدرسة الأولية الراقية للبنين والمدرسة الأولية الراقية للبنات وقدره 4000 جنيه، وصافي ما ينفق على ثلاثة المصانع (الورش) الأميرية وهو 18000 جنيه والإعانة المخصصة ببعض مدارس صناعية غير تابعة للحكومة وقدرها 10410 جنيهات- إذا استثنينا كل هذه المقادير ومجموعها 68000 جنيه أمكن القول بأنه لم يدرج شيء في ميزانية الحكومة لسنة 1918 - 1919 لتعليم طبقات الشعب، على أن معظم هذه المقادير يصرف في مدينتي <placeName change="#d2e120 #d11e282" xml:id="placeName_10.d2e2999" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> والإسكندرية ثم إن الثمانية والستين من آلاف الجنيهات التي تصرف في تعليم أبناء الشعب يقابلها 49000 جنيه تحصل من إيراد الأراضي والعقار الموقوف للإنفاق على المكاتب الأهلية أي: أن ما تنفقه الحكومة في الحقيقة من إيراداتها الخاصة في كل سنة على تعليم الشعب على نحو 19000 جنيه فقط.
 (3) [نص الفقرة 24] قال المستر أسكويث: (إن الحكم على مقدار رقي الأمة وفوزها في مضمار الحياة يجب أن يبنى على ما يتوافر لدى أدنا طبقاتها من الأمور الحسية والمعنوية) ويرى أنه لم يبن الحكم على ما وصل إليه القليلون من خيرة أفراد الأمة الذين ضربوا في التعليم الراقي بسهم، فإذا أردنا الوقوف على ما يتوافر لدى أدنى طبقات الأمة المصرية من الأمور الحسية والمعنوية وجب علينا أن نلقي نظرة إلى انتشار الأكواخ الحقيرة المبنية من الطين التي تضم بين جدرانها الإنسان وبهيمته وإلى شيوع القذارة والأوساخ وفشو العلل والأمراض وهلاك ثلث الأبناء في طفولتهم وانتشار الأمية بحال رائعة تعادل 96 في المائة من السكان وضيق المجال أمام الأفراد واقنصار كدهم على القوت اليومي، فهل إلى ترقية تلك الأحوال في الأمة المصرية من سبيل سوى تعميم التعليم؟ لا ومن العبث الاعتقاد بأنه يمكن الوصول إلى الرقي المنشود بالبدء بتعليم الطبقات الراقية قبل عامة الشعب أو بالاعتماد على ما يحدث من التأثر الذي ينشأ من اختلاط الطائفة القليلة المتعلمة بطبقات الشعب الجاهلة، بل إن الضرورة تقتضي بالنهوض بالتعليم العام وتتطلب نشر نور العرفان في الأمة
 بأسرها:
 كتبت على لوح الحقيقة حكمة أن الرقي شريعة الأحياء
@@ -1559,19 +1559,19 @@
 (تفرق العرب واختلافهم في جزيرتهم)
 كان لما كتبناه في الجزأين الأخيرين بشأن العرب وجزيرتهم استحسان عظيم
 عند أولي الرأي والغيرة من قراء المنار، ومثله ما كتبناه في المجلد الحادي
-والعشرين في مسألة الخلاف بين <placeName change="#d2e120" xml:id="placeName_11.d2e3718">الحجاز</placeName> ونجد، تبين لنا ذلك من حديث من كلمنا
+والعشرين في مسألة الخلاف بين <placeName change="#d2e120 #d11e282" xml:id="placeName_11.d2e3718" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد، تبين لنا ذلك من حديث من كلمنا
 في هذه المسألة في سورية؛ إذ كنا فيها عند نشر ذلك، ثم من كلمنا في مصر في هذا
 وذاك.
 وأكبر مصائب العرب بأئمتهم وأمرائهم أنهم قد ازدادوا تفرقًا وتعاديًا وعدوانًا
 وتقاتلاً بقدر اشتداد الحاجة إلى الاتفاق والتواد والتعاون فيما بينهم، وقد رأينا في
-<bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e273">جريدة <title level="j" change="#d11e273">القبلة</title> المكية التي هي لسان حال حكومة <placeName change="#d2e120" xml:id="placeName_12.d2e3732">الحجاز</placeName></bibl> ورأيها مقالاً في التعادي
-والتقاتل بين العرب السعوديين ومن يتصل بهم من عرب نجد والكويت و<placeName change="#d2e120" xml:id="placeName_13.d2e3737">اليمن</placeName>،
-وبين عرب عسير الإدريسيين وعرب <placeName change="#d2e120" xml:id="placeName_14.d2e3742">اليمن</placeName> العليا التابعين للإمام يحيى، وهذه
+<bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e273">جريدة <title level="j" change="#d11e273">القبلة</title> المكية التي هي لسان حال حكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_12.d2e3732" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName></bibl> ورأيها مقالاً في التعادي
+والتقاتل بين العرب السعوديين ومن يتصل بهم من عرب نجد والكويت و<placeName change="#d2e120 #d11e282" xml:id="placeName_13.d2e3737" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>،
+وبين عرب عسير الإدريسيين وعرب <placeName change="#d2e120 #d11e282" xml:id="placeName_14.d2e3742" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> العليا التابعين للإمام يحيى، وهذه
 الجريدة تلقي تبعة ذلك على الإمام ابن سعود وعلى السيد الإدريسي اللذين كان
 بينهما وبين الشريف والملك حسين من التعادي والتقاتل ما كان.
-نحن عرب نغار على جميع العرب، ومسلمون نفضل بلاد <placeName change="#d2e120" xml:id="placeName_15.d2e3752">الحجاز</placeName> على سائر
+نحن عرب نغار على جميع العرب، ومسلمون نفضل بلاد <placeName change="#d2e120 #d11e282" xml:id="placeName_15.d2e3752" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> على سائر
 بلاد العرب والعجم، ونهتم بأمر حفظها وصيانتها فوق اهتمامنا بسائر بلادنا
-وأوطاننا، وقد حرم الله تعالى <placeName change="#d2e120" xml:id="placeName_16.d2e3759">مكة</placeName> على لسان نبيه وخليله إبراهيم، والمدينة على
+وأوطاننا، وقد حرم الله تعالى <placeName change="#d2e120 #d11e282" xml:id="placeName_16.d2e3759" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> على لسان نبيه وخليله إبراهيم، والمدينة على
 لسان خاتم رسله وسيد ولد آدم محمد -عليهما وعلى آلهما الصلاة والسلام - فلا
 يجوز أن يقع في هذين الحرمين قتل ولا قتال، ولا أن يكونا موضعًا للمنازعات
 الحربية ولا السياسية؛ لأنه قد تفضي إلى الحرب.
@@ -1591,7 +1591,7 @@
 سواه لأهله الامتياز فيه على غيره بالحكم والتصرف في حكومته وأرضه ومرافقه،
 ولحكومته أن توالي وتعادي وتحارب وتعاهد من تشاء، وتمنع من دخوله عند
 الحاجة من تشاء، وتأذن فيه لمن تشاء بحسب قوانينها والقانون الدولي العام.
-وأما <placeName change="#d2e120" xml:id="placeName_17.d2e3804">الحجاز</placeName> ففيه حرم الله وحرم رسوله اللذين حرم الله فيهما ما لم يحرم في
+وأما <placeName change="#d2e120 #d11e282" xml:id="placeName_17.d2e3804" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ففيه حرم الله وحرم رسوله اللذين حرم الله فيهما ما لم يحرم في
 غيرهما، كأكل الصيد وترويعه وقطع الشجر وغيره من النبات، وشرع فيه من
 العبادة ما لم يشرعه في غيره، فأوجب على مسلمي جميع الأقطار الحج والعمرة فيه،
 وندب الرسول صلى الله عليه وسلم شد الرحال إلى مسجديه وجعله؛ أي:
@@ -1601,27 +1601,27 @@
 عمران: 97) ، وقال: {وَالْمَسْجِدِ الحَرَامِ الَّذِي جَعَلْنَاهُ لِلنَّاسِ سَوَاءً العَاكِفُ فِيهِ
 وَالْبَادِ وَمَن يُرِدْ فِيهِ بِإِلْحَادٍ بِظُلْمٍ نُّذِقْهُ مِنْ عَذَابٍ أَلِيمٍ} (الحج: 25) ، وقد ورد في
 التفسير المأثور عن النبي صلى الله عليه وسلم والصحابة والتابعين أن خلق
-الله فيه سواء، لا فرق بين المقيم ب<placeName change="#d2e120" xml:id="placeName_18.d2e3829">مكة</placeName> وغيره ممن يحجه من سائر الأقطار، وأنه
-يجب على أهل <placeName change="#d2e120" xml:id="placeName_19.d2e3834">مكة</placeName> أن لا يمنعوا أحدًا من الحاج مشاركتهم في سكنى بيوتهم،
+الله فيه سواء، لا فرق بين المقيم ب<placeName change="#d2e120 #d11e282" xml:id="placeName_18.d2e3829" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وغيره ممن يحجه من سائر الأقطار، وأنه
+يجب على أهل <placeName change="#d2e120 #d11e282" xml:id="placeName_19.d2e3834" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أن لا يمنعوا أحدًا من الحاج مشاركتهم في سكنى بيوتهم،
 وحرم بعض السلف أخذ الأجرة منهم، وكرهها بعض آخر، بل رووا في ذلك
 أحاديث مرفوعة إلى النبي صلى الله عليه وسلم وأن رسول الله صلى الله
-عليه وسلم توفي، وتوفي من بعده أبو بكر وعمر، وما كانت رباع <placeName change="#d2e120" xml:id="placeName_20.d2e3844">مكة</placeName> تدعى إلا
+عليه وسلم توفي، وتوفي من بعده أبو بكر وعمر، وما كانت رباع <placeName change="#d2e120 #d11e282" xml:id="placeName_20.d2e3844" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> تدعى إلا
 السوائب، من احتاج سكن ومن استغنى أسكن، وكانوا ينهون أن يكون لبيوتها
 أبواب؛ لئلا يكون منعًا من دخولها، وليس هذا الاقتراح بالذي يتسع لنقل الروايات
 ومذاهب الأئمة فيها، وربما خصصنا له مقالاً بعد.
 وقد روي عنهم في تفسير الإلحاد والظلم في الحرم تشديد عظيم، فلم يخصوه
 بارتكاب ما حرمه الله هنالك مما حرمه في غيره وما لم يحرمه إلا فيه، بل جعلوا
 من معناه مضاعفة السيئات، وكون الصغيرة في غيره كبيرة فيه، حتى شتم الخادم،
-وكذلك الهم بالسيئة والعزم عليها ولو قبل الوصول إلى <placeName change="#d2e120" xml:id="placeName_21.d2e3862">مكة</placeName>، وفي الحديث:
-(احتكار الطعام ب<placeName change="#d2e120" xml:id="placeName_22.d2e3867">مكة</placeName> إلحاد) ، وفي رواية: في الحرم، بدل <placeName change="#d2e120" xml:id="placeName_23.d2e3870">مكة</placeName>، وقال ابن عباس:
-(تجارة الأمير ب<placeName change="#d2e120" xml:id="placeName_24.d2e3876">مكة</placeName> إلحاد) .
+وكذلك الهم بالسيئة والعزم عليها ولو قبل الوصول إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_21.d2e3862" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وفي الحديث:
+(احتكار الطعام ب<placeName change="#d2e120 #d11e282" xml:id="placeName_22.d2e3867" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> إلحاد) ، وفي رواية: في الحرم، بدل <placeName change="#d2e120 #d11e282" xml:id="placeName_23.d2e3870" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وقال ابن عباس:
+(تجارة الأمير ب<placeName change="#d2e120 #d11e282" xml:id="placeName_24.d2e3876" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> إلحاد) .
 قصر المسلمون فيما يجب عليهم للحجاز، فلم يقوموا به حق القيام، ولم
 ينفذوا وصية الرسول الأخيرة فيه، وهو المقصود الأهم من وصيته في جزيرة
 العرب، حتى زعم بعض العلماء أنه هو المراد بها، خلافًا للمتبادر من لفظ الحديث،
 ولا مراء في أن الحاجة إلى العناية به في هذا الزمان أشد من كل الأزمنة الماضية
 من وجوه كثيرة - ليس هذا محل شرحها - فأكثر مسلمي هذا العصر تابعون
-لحكومات غير إسلامية تهتم بحمايتهم وشؤونهم في سفرهم إلى <placeName change="#d2e120" xml:id="placeName_25.d2e3892">الحجاز</placeName>، فإذا وقع فيه
-قتال، فإنها تمنعهم من أداء فريضة الحج في أثنائه، وإذا كان لحكومة <placeName change="#d2e120" xml:id="placeName_26.d2e3897">الحجاز</placeName> ما
+لحكومات غير إسلامية تهتم بحمايتهم وشؤونهم في سفرهم إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_25.d2e3892" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، فإذا وقع فيه
+قتال، فإنها تمنعهم من أداء فريضة الحج في أثنائه، وإذا كان لحكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_26.d2e3897" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ما
 لسائر الحكومات من حق قطع العلاقات الودية وإعلان الحرب على أي دولة يقع
 بينها وبينها ما يقتضي ذلك، فإن هذا يبيح للدولة المحاربة لها الهجوم على الحرمين
 والاستيلاء عليهما، أو حصرهما ومنع الأقوات وغيرها عنهما، كما أنه قد يدعو
@@ -1634,9 +1634,9 @@
 وانتهاك حرمته، ويكون ركن الحج من أركان الإسلام قائمًا أبدًا، بل ليتحقق وإنما
 جعل الله تعالى إياه حرمًا آمنًا، وكونه لجميع المسلمين سواء العاكف فيه والبادي، لا
 تعدي فيه ولا إلحاد.
-فنقترح على أهل الغيرة الإسلامية من مسلمي <placeName change="#d2e120" xml:id="placeName_27.d2e3929">الحجاز</placeName> وسائر الأقطار أن
+فنقترح على أهل الغيرة الإسلامية من مسلمي <placeName change="#d2e120 #d11e282" xml:id="placeName_27.d2e3929" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وسائر الأقطار أن
 يسعوا إلى هذه المصلحة سعيها، وهي تتوقف فيما نرى على وضع نظام لحكومة
-الحجاز يبنى أساسه على جعل <placeName change="#d2e120" xml:id="placeName_28.d2e3936">الحجاز</placeName> قطرًا سلميًّا على الحياد، لا تكون حكومته
+الحجاز يبنى أساسه على جعل <placeName change="#d2e120 #d11e282" xml:id="placeName_28.d2e3936" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> قطرًا سلميًّا على الحياد، لا تكون حكومته
 خصمًا ولا عدوًّا لدولة من الدول، ولا حكومة من الحكومات، فلا تعتدي ولا يعتدى
 عليها، ولا تخاف ولا يخاف منها، وأن تسعى هذه الحكومة بمساعدة أهل النفوذ من
 مسلمي جميع الأقطار إلى حمل جميع الحكومات المجاورة لها وسائر الحكومات التي
@@ -1645,7 +1645,7 @@
 نعرض هذا الاقتراح مجملاً على العالم الإسلامي، وفي مقدمته حكومة الحجاز
 وأشراف الحرمين وعلمائه؛ لبيان الآراء التفصيلية فيه بنشرها في الصحف
 الدورية، والمنار مستعد لنشر ما يأتيه فيه، وإن كان لا بد من التذكير ببعض
-التفصيل فيه فليكن اقتراح إنشاء محكمة إسلامية ب<placeName change="#d2e120" xml:id="placeName_29.d2e3959">مكة</placeName>، يكون لكل قطر إسلامي حق
+التفصيل فيه فليكن اقتراح إنشاء محكمة إسلامية ب<placeName change="#d2e120 #d11e282" xml:id="placeName_29.d2e3959" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، يكون لكل قطر إسلامي حق
 تمثيله فيها بعضو من علماء الشرع المنتسبين إلى المذاهب الإسلامية التي يستقبل
 المتبعون لها هذا البث في صلاتهم، ويحجونه لأجل محاكمة من يعتدي في تلك
 البلاد على مال غيره أو بدنه، أو عرضه أو شرفه، ومنه الطعن في المذاهب،
@@ -1659,7 +1659,7 @@
 جميعًا - إذا قيل هذا كله رجونا أن يتقبله جميع المؤمنين الصادقين بقبول حسن
 ويتكاتفوا على القيام به حق القيام.
 لعل الملك حسينًا يقبل هذا الاقتراح ويبادر إلى تنفيذه برأي كبار الشرفاء
-والعلماء في <placeName change="#d2e120" xml:id="placeName_30.d2e3992">مكة المكرمة</placeName> بأن يضموا له مشروع النظام وينشر في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e3995">القبلة</title></bibl>،
+والعلماء في <placeName change="#d2e120 #d11e282" xml:id="placeName_30.d2e3992" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> بأن يضموا له مشروع النظام وينشر في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e3995">القبلة</title></bibl>،
 وترسل منه نسخ إلى المدن الإسلامية الكبرى في الشرق والغرب والجنوب والشمال
 لأخذ رأي أهل العلم والخبرة فيه، ويضرب موسم الحج القابل موعدًا لتنفيذه بعد
 جمع الآراء وتمحيصها فيه بعرضها على لجنة تؤلف من خيار حجاج هذه الأقطار
@@ -1668,8 +1668,8 @@
 وإننا نرى أن هذا المشروع إذا تم يسهل ما اقترحناه في الجزء الذي قبل هذا
 من إنشاء مجلس تحكيم لما يقع من الخلاف بين أمراء العرب إذا وفقوا لعقد الاتفاق
 الذي يتمناه لهم كل عربي، بل كل مسلم يفقه الإسلام ويغار على مصالح أهله، بأن
-يكون هذا المجلس في <placeName change="#d2e120" xml:id="placeName_31.d2e4018">مكة المكرمة</placeName>، بل يترتب عليه تعاون جميع المسلمين على
-عمران <placeName change="#d2e120" xml:id="placeName_32.d2e4023">الحجاز</placeName> وتسهيل طرقه وتكثير موارده وتموين أهله ونشر العلم فيه، وغير
+يكون هذا المجلس في <placeName change="#d2e120 #d11e282" xml:id="placeName_31.d2e4018" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName>، بل يترتب عليه تعاون جميع المسلمين على
+عمران <placeName change="#d2e120 #d11e282" xml:id="placeName_32.d2e4023" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وتسهيل طرقه وتكثير موارده وتموين أهله ونشر العلم فيه، وغير
 ذلك من المصالح والمنافع، والله الموفق.
 
                
@@ -1694,8 +1694,8 @@
 نشرنا في مجلدات المنار (19، 21) عدة وثائق وحوادث يصح أن يرجع
 إليها في تاريخ ما يسمى المسألة العربية، وسننشر في هذا المجلد وثائق أخرى من
 رسمية حقيقة أو حكمًا، وغير رسمية ما يعتمد في ذلك، ونذكرها بالعدد.
-(1) (كتاب من ملك <placeName change="#d2e120" xml:id="placeName_33.d2e4066">الحجاز</placeName> إلى نائب ملك الإنكليز في مصر)
-هذا الكتاب نشر في العدد <date calendar="#cal_gregorian" when="0291" change="#d3e146 #d2e120" xml:id="date_9.d2e4072">291</date> من <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_9.d2e4075">القبلة</title></bibl> الذي صدر ب<placeName change="#d2e120" xml:id="placeName_34.d2e4078">مكة المكرمة</placeName> في
+(1) (كتاب من ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_33.d2e4066" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إلى نائب ملك الإنكليز في مصر)
+هذا الكتاب نشر في العدد <date calendar="#cal_gregorian" when="0291" change="#d3e146 #d2e120" xml:id="date_9.d2e4072">291</date> من <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_9.d2e4075">القبلة</title></bibl> الذي صدر ب<placeName change="#d2e120 #d11e282" xml:id="placeName_34.d2e4078" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> في
 23 رمضان سنة 1338 الموافق 10 يونيو سنة 1920 بعد مقدمة وجيزة، ويليه
 تعليق عليه في الافتخار به من قبل الجريدة، ونحن ننقله عن هذا العدد، وإن نشر
 بعده مرة أخرى، وهذا نص ما جاء فيه تحت عنوان: (الأسى والحزن) :
@@ -1787,11 +1787,11 @@
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_14.d2e4279">2 - 3 - 4
 
-               </hi>(حديث الأمير فيصل، رواية حكومة <placeName change="#d2e120" xml:id="placeName_35.d2e4284">مكة</placeName> عن معاهدتها مع إنكلترة، رواية
+               </hi>(حديث الأمير فيصل، رواية حكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_35.d2e4284" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> عن معاهدتها مع إنكلترة، رواية
 الوزارة البريطانية فيها)
 جرى حديث للأمير فيصل مع صاحب <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_13.d2e4292">المفيد</title></bibl> الدمشقية في الشام
-يتضمن ذكر بعض الوثائق الرسمية بين والده ملك <placeName change="#d2e120" xml:id="placeName_36.d2e4297">الحجاز</placeName> وبريطانية العظمى،
-نشرته هذه الجريدة في عددها الذي صدر ب<placeName change="#d2e120" xml:id="placeName_37.d2e4303">دمشق</placeName> في 26 جمادى الأولى سنة 1338
+يتضمن ذكر بعض الوثائق الرسمية بين والده ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_36.d2e4297" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وبريطانية العظمى،
+نشرته هذه الجريدة في عددها الذي صدر ب<placeName change="#d2e120 #d11e282" xml:id="placeName_37.d2e4303" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> في 26 جمادى الأولى سنة 1338
 (الموافق 15 شباط (فبراير) سنة 1920) بعنوان: (حديث سياسي مع سمو
 الأمير فيصل، وثائق رسمية لم تنشر حتى الآن) ، وهذا نصه:
 
@@ -1805,7 +1805,7 @@
 بينهما حديث تضمن من الوثائق السياسية ما لا مندوحة من نشره، وإحاطة القراء
 بدقيقه وجليله، وإلى القراء ما دار بينهما:
 ابتدأ أحد صاحبي الجريدة فقال للأمير: رأينا يا صاحب السمو في العدد
-المؤرخ بثامن جمادى الأولى <date calendar="#cal_gregorian" when="1338" change="#d3e146 #d2e120" xml:id="date_10.d2e4337">1338</date> من <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_15.d2e4340">القبلة</title></bibl> الصادرة في <placeName change="#d2e120" xml:id="placeName_38.d2e4343">مكة</placeName> المكرمة
+المؤرخ بثامن جمادى الأولى <date calendar="#cal_gregorian" when="1338" change="#d3e146 #d2e120" xml:id="date_10.d2e4337">1338</date> من <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_15.d2e4340">القبلة</title></bibl> الصادرة في <placeName change="#d2e120 #d11e282" xml:id="placeName_38.d2e4343" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المكرمة
 إعلانًا رسميًّا يقول به والدكم صاحب الجلالة الهاشمية أن لديه معاهدات من الحلفاء
 الكرام تقضي باستقلال البلاد العربية جميعها، وأن جلالته ينشرها للملأ عند الحاجة،
 فهل لسموكم أن توضحوا لنا ما هي هذه المعاهدات وما تحوي؟
@@ -1818,7 +1818,7 @@
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_15.d2e4366">1- </hi>تتعهد بريطانيا العظمى بتشكيل حكومة عربية مستقلة بكل معاني
 الاستقلال في داخليتها وخارجيتها، وتكون حدودها شرقًا من بحر فارس، ومن
 الغرب بحر القلزم والحدود المصرية والبحر الأبيض، وشمالاً ولاية حلب
-و<placeName change="#d2e120" xml:id="placeName_39.d2e4376">الموصل</placeName> الشمالية إلى نهر الفرات، ومجتمعه مع الدجلة إلى مصبها في بحر فارس
+و<placeName change="#d2e120 #d11e282" xml:id="placeName_39.d2e4376" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> الشمالية إلى نهر الفرات، ومجتمعه مع الدجلة إلى مصبها في بحر فارس
 ما عدا مستعمرة عدن، فإنها خارجة عن هذه الحدود، وتتعهد هذه الحكومة
 برعاية المعاهدات والمقاولات التي أجرتها بريطانيا العظمى مع أي شخص كان من
 العرب في داخل هذه الحدود بأنها تحل محلها في رعاية وصيانة تلك الحقوق
@@ -1831,7 +1831,7 @@
 اندفاعه، وهذه المساعدة في القيامات أو الثورات الداخلية تكون مدتها محدودة؛ أي:
 لحين يتم للحكومة العربية المذكورة تشكيلاتها المادية.
 
-               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_17.d2e4406">3- </hi>تكون <placeName change="#d2e120" xml:id="placeName_40.d2e4409">البصرة</placeName> تحت أشغال العظمة البريطانية لحينما يتم للحكومة الجديدة
+               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_17.d2e4406">3- </hi>تكون <placeName change="#d2e120 #d11e282" xml:id="placeName_40.d2e4409" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> تحت أشغال العظمة البريطانية لحينما يتم للحكومة الجديدة
 المذكورة تشكيلاتها المادية، ويعين من جانب تلك العظمة مبلغ من النقود يراعى فيه
 حالة احتياج الحكومة العربية التي هي حكمها قاصرة في حضن بريطانيا، وتلك
 المبالغ تكون في مقابلة ذلك الإشغال.
@@ -1847,24 +1847,24 @@
 السير هنري مكماهون وهذا نصها بحروفها:
 
                
-(كتاب السير هنري مكماهون إلى جلالة الملك المعظم ب<placeName change="#d2e120" xml:id="placeName_41.d2e4447">مكة</placeName> في 24 أكتوبر
+(كتاب السير هنري مكماهون إلى جلالة الملك المعظم ب<placeName change="#d2e120 #d11e282" xml:id="placeName_41.d2e4447" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> في 24 أكتوبر
 سنة 1915)
 لما كانت مقاطعة مرسين والإسكندرونة وبعض أجزاء سورية الواقعة إلى
-الغرب من مقاطعات <placeName change="#d2e120" xml:id="placeName_42.d2e4456">دمشق</placeName> وحمص وحماه وحلب لا يمكن تسميتها عربية محضة،
+الغرب من مقاطعات <placeName change="#d2e120 #d11e282" xml:id="placeName_42.d2e4456" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> وحمص وحماه وحلب لا يمكن تسميتها عربية محضة،
 فإنه يقتضي إخراجها من الحدود التي بينتموها، وإنه بمقتضى هذا التعديل، ومن
 غير إخلال بمعاهداتنا السابقة مع بعض زعماء العرب نقبل الحدود على ما ذكرتموه.
 ثم بخصوص الأراضي التي لبريطانيا العظمى حرية العمل فيها من غير
 إضرار بمصالح حليفتها فرنسا، فإن لي السلطة باسم بريطانيا العظمى أن أعطي
 التأكيدات الآتية وأجيب عن كتابكم بما يأتي:
 إن بريطانيا العظمى مستعدة بعد التعديلات المذكورة آنفًا أن تعترف باستقلال
-العرب والأخذ بناصرهم، وذلك ضمن الحدود التي قدمها شريف <placeName change="#d2e120" xml:id="placeName_43.d2e4475">مكة</placeName>.
-أما ولاية <placeName change="#d2e120" xml:id="placeName_44.d2e4480">بغداد</placeName> وولاية <placeName change="#d2e120" xml:id="placeName_45.d2e4483">البصرة</placeName>، فعلى العرب أن يسلموا أن مركز بريطانيا
+العرب والأخذ بناصرهم، وذلك ضمن الحدود التي قدمها شريف <placeName change="#d2e120 #d11e282" xml:id="placeName_43.d2e4475" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>.
+أما ولاية <placeName change="#d2e120 #d11e282" xml:id="placeName_44.d2e4480" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> وولاية <placeName change="#d2e120 #d11e282" xml:id="placeName_45.d2e4483" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>، فعلى العرب أن يسلموا أن مركز بريطانيا
 العظمى ومصالحها تقتضي اتخاذ تدابير خاصة لإدارتهما وحمايتهما من كل اعتداء
 أجنبي، ولارتقاء أهاليهما والمحافظة على مصالحنا المشتركة فيهما. انتهى.
-قال سمو الأمير: عندئذ كررت طلب تلك المعاهدة من <placeName change="#d2e120" xml:id="placeName_46.d2e4493">مكة المكرمة</placeName>، ولكنها
+قال سمو الأمير: عندئذ كررت طلب تلك المعاهدة من <placeName change="#d2e120 #d11e282" xml:id="placeName_46.d2e4493" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName>، ولكنها
 ويا للأسف لم ترد عليّ حتى الآن، فلهذا لا يمكنني أن أقول بأن وزارة الخارجية
-البريطانية مخالفة للحقيقة بأقوالها، ولا أقول: إن حكومة <placeName change="#d2e120" xml:id="placeName_47.d2e4500">مكة</placeName> تقول غير الواقع، فإذا
-كان لدى حكومة <placeName change="#d2e120" xml:id="placeName_48.d2e4506">مكة المكرمة</placeName> عهد كهذا فتأخير إبرازه في هذا الوقت الذي وضعت
+البريطانية مخالفة للحقيقة بأقوالها، ولا أقول: إن حكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_47.d2e4500" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> تقول غير الواقع، فإذا
+كان لدى حكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_48.d2e4506" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> عهد كهذا فتأخير إبرازه في هذا الوقت الذي وضعت
 به مسألة العرب على بساط البحث، وقد أوشك المؤتمر أن يبت بشأنها مضر جدًّا؛
 لأن هذه المعاهدة لم تعقد إلا لتبرز في مثل هذا اليوم العصيب ويعمل بموجبها، وقد
 ألححت في المدة الأخيرة على جلالة والدي بإرسالها، وأظنها ستصلني عما قريب،
@@ -1877,18 +1877,18 @@
 فلذا يتحتم عليّ أن أضع المسألة العربية برمتها موضع البحث، وأدافع عنها باسم
 جلالة الملك.
 سؤال: في كتاب السير مكماهون الذي تقدم الكلام عنه ما يتعلق بفلسطين
-و<placeName change="#d2e120" xml:id="placeName_49.d2e4537">بغداد</placeName> و<placeName change="#d2e120" xml:id="placeName_50.d2e4540">البصرة</placeName>، فما رأي سموكم فيما ينطوي عليه؟ وهل صرحت لكم الحكومة
+و<placeName change="#d2e120 #d11e282" xml:id="placeName_49.d2e4537" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> و<placeName change="#d2e120 #d11e282" xml:id="placeName_50.d2e4540" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>، فما رأي سموكم فيما ينطوي عليه؟ وهل صرحت لكم الحكومة
 البريطانية بشيء بعده؟
 جواب: إذا وجد ذلك العهد الذي أعلن جلالة الملك والدي وجوده، فأظن
 الحكومة البريطانية ستكون مضطرة إلى تشكيل الوحدة العربية والاعتراف
 بالاستقلال العربي، وأما إذا لم يوجد، فحكومة إنكلترا ملزمة بمقتضى عهدها الوارد
-في كتاب السير مكماهون أن تؤلف حكومة في <placeName change="#d2e120" xml:id="placeName_51.d2e4554">العراق</placeName> تكفل مصالح العرب
-والبريطانيين معًا، وأن تعترف بأن فلسطين و<placeName change="#d2e120" xml:id="placeName_52.d2e4560">الموصل</placeName> عربيتان داخلتان في ضمن
+في كتاب السير مكماهون أن تؤلف حكومة في <placeName change="#d2e120 #d11e282" xml:id="placeName_51.d2e4554" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> تكفل مصالح العرب
+والبريطانيين معًا، وأن تعترف بأن فلسطين و<placeName change="#d2e120 #d11e282" xml:id="placeName_52.d2e4560" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> عربيتان داخلتان في ضمن
 الحكومة السورية، والصداقة التي بيننا وبين الحكومة البريطانية تجعلني أواصل
 البحث فيما هو واجب على إنكلترا إجراؤه في الممالك والبلدان التي هي الآن تحت
 أشغالها العسكرية، وأملي عظيم بأنه ستقوم بعهودها.
 سؤال: هل تفكرون برفض ما تدعيه الحكومتان الفرنسوية والإنكليزية من
-الحقوق في أقسام البلاد العربية سواء كان في سورية أو <placeName change="#d2e120" xml:id="placeName_53.d2e4574">العراق</placeName> أو غيرهما، وما
+الحقوق في أقسام البلاد العربية سواء كان في سورية أو <placeName change="#d2e120 #d11e282" xml:id="placeName_53.d2e4574" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> أو غيرهما، وما
 هي خطة سموكم في هذا الأمر؟
 جواب: إنني لا أتصور أن أقابل جميل هاتين الحكومتين بمعاملة غير لائقة،
 وأنا أعلم بأن لهما منافع أدبية واقتصادية يجب احترامها، ولكني في الوقت نفسه
@@ -1904,7 +1904,7 @@
 فمدافعتي تكون على قدر قوتي المادية والمعنوية، وعلى كل فإنني أؤمل من رجال
 الحكومات والأمم المتمدنة أن تنظر إلينا بعين الحب ولا تهضم لنا حقًّا كيما نتمكن
 من خدمة المدنية الحاضرة كما خدم أجدادنا المدنية الغابرة.
-سؤال: كنا قرأنا في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_17.d2e4615">الشرق</title> التي كانت تصدر في <pubPlace><placeName change="#d2e120" xml:id="placeName_54.d2e4618">دمشق</placeName></pubPlace></bibl> إبان الحرب
+سؤال: كنا قرأنا في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_17.d2e4615">الشرق</title> التي كانت تصدر في <pubPlace><placeName change="#d2e120 #d11e282" xml:id="placeName_54.d2e4618" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName></pubPlace></bibl> إبان الحرب
 نص معاهدة تسمى (معاهدة سايكس بيكو) نشرها جمال باشا زاعمًا أن البلشفيك
 ظفروا بها بين الأوراق الرسمية في بتروغراد عندما استولوا عليها، ثم انقطعت
 أخبار هذه المعاهدة حتى عادت صحف أوربا منذ بضعة أشهر تردد صداها، وقيل:
@@ -1926,26 +1926,26 @@
 بحيث أصبح كأنها لم تكن وتصريحات الحكومات بإلغاء جميع المعاهدات السرية
 تجعلنا لا نعترف بتلك المعاهدة اهـ.
 (<title change="#d2e120" xml:id="title_19.d2e4673">المنار</title>)
-هذا ما صرح به الأمير فيصل في <placeName change="#d2e120" xml:id="placeName_55.d2e4678">دمشق</placeName> قبل نصبه ملكًا على سورية فيها
+هذا ما صرح به الأمير فيصل في <placeName change="#d2e120 #d11e282" xml:id="placeName_55.d2e4678" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> قبل نصبه ملكًا على سورية فيها
 بزهاء ثلاثة أسابيع، فهو إلى ذلك الوقت لم يكن مطلعًا على شيء غير ما ذكر فيه
 مما دار بين والده وبريطانية العظمى من الاتفاق الذي حمله على الخروج على
 الدولة العثمانية ومحاربتها مع الحلفاء، وكان هو القائد لجيش والده في هذه الحرب،
 بل كان صرح لي قبل التصريح لصاحب <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_20.d2e4690">المفيد</title></bibl> بأنه لم يطلع على شيء قط،
 وأنه حارب بأمر والده اعتمادًا على أن بيده شيئًا وظاهر أن كلاًّ من الروايتين
 مباين لمصلحة العرب ومناف لحريتهم واستقلالهم، فإن تشكيل بريطانيا العظمى
-لحكومة عربية تدخل فيها <placeName change="#d2e120" xml:id="placeName_56.d2e4700">الحجاز</placeName> بالشروط المذكورة التي منها حفظها وصيانتها في
+لحكومة عربية تدخل فيها <placeName change="#d2e120 #d11e282" xml:id="placeName_56.d2e4700" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بالشروط المذكورة التي منها حفظها وصيانتها في
 داخليتها وخارجيتها يجعلها حكومة تابعة للإمبراطورية الإنكليزية، ويخول لجيوش
 هذه الإمبراطورية أن تقيم حيث شاءت منها بحجة منع الثورات والفتن الداخلية، دع
 إحاطتها بها بحرًا وبرًّا كما هو معروف.
 وإننا كنا قد اطلعنا على النص العربي للمعاهدة المشار إليها في هذه الوثائق،
-وهي بين السير هنري مكماهون بالنيابة عن حكومته وبين شريف <placeName change="#d2e120" xml:id="placeName_57.d2e4714">مكة</placeName> وأميرها سنة
+وهي بين السير هنري مكماهون بالنيابة عن حكومته وبين شريف <placeName change="#d2e120 #d11e282" xml:id="placeName_57.d2e4714" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وأميرها سنة
 1915، وقد رأينا أن كلاًّ من الروايتين الحجازية والإنجليزية اللتين صرح بهما
 الأمير فيصل قد ذكرت بعض ما جاء في تلك المعاهدة بالمعنى على ما نتذكر كله، وقد
 نشر ملخصها أًيضًا في مقال للكولونيل الإنكليزي لورانس مستشار فيصل في أثناء
 الحرب وبعدها.
-((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_7.d2e4728">(1) هذا لقب ملك <placeName change="#d2e120" xml:id="placeName_58.d2e4730">الحجاز</placeName> في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_21.d2e4733">القبلة</title></bibl>.
-(*) تعبر حكومة <placeName change="#d2e120" xml:id="placeName_59.d2e4738">الحجاز</placeName> عن ثورته وما ترتب عليها بالنهضة.
-(2) سبب هذا السؤال، أن الأمير كان عازمًا على العودة إلى أوربة لحضور مؤتمر سان ريمو الذي قرر الحلفاء فيه ما يسمون الانتداب على سورية و<placeName change="#d2e120" xml:id="placeName_60.d2e4744">العراق</placeName>؛ أي: انتداب أنفسهم للاستيلاء عليها.</note>
+((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_7.d2e4728">(1) هذا لقب ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_58.d2e4730" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_21.d2e4733">القبلة</title></bibl>.
+(*) تعبر حكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_59.d2e4738" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> عن ثورته وما ترتب عليها بالنهضة.
+(2) سبب هذا السؤال، أن الأمير كان عازمًا على العودة إلى أوربة لحضور مؤتمر سان ريمو الذي قرر الحلفاء فيه ما يسمون الانتداب على سورية و<placeName change="#d2e120 #d11e282" xml:id="placeName_60.d2e4744" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>؛ أي: انتداب أنفسهم للاستيلاء عليها.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_7.d2e4748">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_9.d2e4750" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>

@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_16-i_7.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_16-i_7.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e304">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_16-i_7.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_16-i_7.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e304" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e304" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e304" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1331">1331</date><date calendar="#cal_gregorian" when="1913" xml:lang="ar">يوليو - 1913م</date></imprint>
                   <biblScope unit="volume" from="16" to="16" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">16</biblScope>
                   <biblScope unit="issue" from="7" to="7" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">7</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e304" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -90,7 +90,7 @@
 فيها كذبًا كثيرًا، فهل يُعَارض بمثلها كتاب الله المعصوم؟
 ***
 متى يحرم الوقاع؟
-(س 20) من صاحب الإمضاء ب<placeName change="#d2e120" xml:id="placeName_4.d2e311">مكة المكرمة</placeName>:
+(س 20) من صاحب الإمضاء ب<placeName change="#d2e120 #d11e304" xml:id="placeName_4.d2e311" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName>:
 ما قولكم - دام إرشادكم - في قول العلامة الفاضل، والقدوة الكامل، الشيخ
 إبراهيم الباجوري، رحمه الله تعالى رحمة واسعة في حاشيته على شرح العلامة قاسم
 الغزي المسمى (بفتح القريب في محرمات النكاح صحيفة <date calendar="#cal_gregorian" when="0113" change="#d3e146 #d2e120" xml:id="date_4.d2e321">113</date> من السطر 20 ما
@@ -126,7 +126,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_24.d2e389"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_25.d2e391"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_26.d2e394"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_27.d2e396"/> المجاور ب<placeName change="#d2e120" xml:id="placeName_5.d2e398">مكة</placeName> المكرمة
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_27.d2e396"/> المجاور ب<placeName change="#d2e120 #d11e304" xml:id="placeName_5.d2e398" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المكرمة
 
                
 (ج) المراد بالتحريم هنا تحريم الوقاع لا تحريم عقد النكاح، والأمر ظاهر،
@@ -323,11 +323,11 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 يتلوث بذنب آدم فلم تلوث غيره (رومية 5: 12 و17 و1 كو 15 و22) وكلنا
 من نسل آدم وطبيعتنا هي من طبيعته؟ وإن كان الله طهره من الخطيئة بحلوله فيه
 فإذا يجوز التطهير من الذنوب بدون سفك الدم، وهو خلاف ما تدعون؟ وإن كان
-حلول الابن مطهرًا من ذلك فلم لم يطهركم حلول روح <placeName change="#d2e120" xml:id="placeName_6.d2e818">القدس</placeName> فيكم وكلكم هيكل الله
+حلول الابن مطهرًا من ذلك فلم لم يطهركم حلول روح <placeName change="#d2e120 #d11e304" xml:id="placeName_6.d2e818" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> فيكم وكلكم هيكل الله
 الحي كما يقول بولس (1 كو 3: 16 وأف 4: 6 وراجع أيضا أع 2: 4) فإذا
 كان حلول الله أو أحد أقانيمه في الإنسان مطهرًا من الذنوب فأيُّ حاجة إذًا إلى
 صلب المسيح؟ ولمَ لمْ يجعل الله موت شهدائهم الكثير بزعمهم كفارة عن باقي النوع
-الإنساني وكلهم ممتلئون من روح <placeName change="#d2e120" xml:id="placeName_7.d2e830">القدس</placeName> (رو 5: 5) وإن قيل: إنه باعتباره
+الإنساني وكلهم ممتلئون من روح <placeName change="#d2e120 #d11e304" xml:id="placeName_7.d2e830" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> (رو 5: 5) وإن قيل: إنه باعتباره
 ناسوته واقع مثلنا في خطيئة آدم، ولكن صلبه وهو ابن الله كافٍ لتكفير الخطيئة
 عن جميع بني آدم، وهو من ضمنهم.
 قلت: إن كان صلبه باعتبار أنه إله جاز على الله الموت والألم والجزع
@@ -346,7 +346,7 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 من أنواع الإهانات والفظائع ما جعله يستغيث به فلا يغيثه ولا يرحمه (لو 22:
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_1.d2e870">39 - 46 </hi>ورومية 8: 32) مع أنه اتخذه له ابنًا وحل فيه؛ وإذا كان أيضًا لا
-يكتفي بحلول روحه <placeName change="#d2e120" xml:id="placeName_8.d2e876">القدس</placeName> في الناس ولا بتوبتهم واستقامتهم ولا باستشهاد كثير منهم
+يكتفي بحلول روحه <placeName change="#d2e120 #d11e304" xml:id="placeName_8.d2e876" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> في الناس ولا بتوبتهم واستقامتهم ولا باستشهاد كثير منهم
 في سبيله إلا بعد سفك دم عيسى، ويحب الضحايا البشرية من قديم الزمان ويتقبلها
 من مقربيها له (قض 11: 29 - 40) ويأمر أنبياءه بسفك دماء ما لا يحصى من
 الحيوانات (1 مل 8: 63) وقتل ما لا يعد من البشر (تت 20: 16) ويسر
@@ -413,7 +413,7 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 <p change="#d2e120" xml:id="p_2.d2e1009"> [*]
 (4)
 مقتل الجهم والحارث وما أفضى من الوقائع إليه
-في سنة 128 ولي ابن هبيرة <placeName change="#d2e120" xml:id="placeName_9.d2e1017">العراق</placeName>، فكتب إلى نصر بن سيار بعهده على
+في سنة 128 ولي ابن هبيرة <placeName change="#d2e120 #d11e304" xml:id="placeName_9.d2e1017" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، فكتب إلى نصر بن سيار بعهده على
 خراسان، وطلب البيعة لمروان بن محمد بن مروان، فأبى الحارث، وقال: إنما
 أمنني يزيد بن الوليد ولم يؤمني مروان، ولا يجيز مروان أمان يزيد فلا آمنه،
 فخالف نصرًا، فأرسل إليه نصر يدعوه إلى الجماعة وينهاه عن الفرقة وإطماع
@@ -669,7 +669,7 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 ثم أورد آراء ونظريات وتمنيات في حال الترك وما يترتب على ميلهم إلى
 التجارة والحرفة والصناعة إذا هم مالوا، وبنى على تلك الآراء والنظريات أنهم
 يمكنهم حماية إخوانهم وجيرانهم الإيرانيين فوق حماية البلاد المقدسة وغيرها،
-وكانت نتيجة آرائه دعوة مسلمي الهند إلى مساعدة <placeName change="#d2e120" xml:id="placeName_10.d2e1564">الدولة العثمانية</placeName> بالمال، لتحقيق
+وكانت نتيجة آرائه دعوة مسلمي الهند إلى مساعدة <placeName change="#d2e120 #d11e304" xml:id="placeName_10.d2e1564" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> بالمال، لتحقيق
 هذه الآمال، وذلك بشراء قراطيس الدَّيْن الذي أصدرته نظارة المالية العثمانية.
 نتيجة حسنة لا نناقشه في مقدماتها من هذه الجهة بل نشكر له هذه الدعوة فإن
 أقل فائدتنا من إمداد إخواننا مسلمي الهند لدولتنا بالمال أنه ربما استغنى بذلك عن
@@ -722,12 +722,12 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 كما فسدت من غيرهم.
 وأما البدو من العرب ومن على شاكلتهم من سكان المدن والقرى في عقر
 الجزيرة فهم أشجع قلبًا وأشد بأسًا من حضر العرب والترك الموصوفين بالمدنية
-حتى إن عرب <placeName change="#d2e120" xml:id="placeName_11.d2e1682">اليمن</placeName> ونجد يصفون الجندي العثماني بالجبن والضعف، ولو كان
+حتى إن عرب <placeName change="#d2e120 #d11e304" xml:id="placeName_11.d2e1682" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> ونجد يصفون الجندي العثماني بالجبن والضعف، ولو كان
 هؤلاء القوم يعرفون من النظام العسكري ما يعرفه الجند العثماني ويحملون من
 السلاح ما يحمله لكان التابور منهم يغلب عشرة توابير من غيرهم.
 قد أصبح من البديهيات التي لا يختلف فيها اثنان أن الجيش العثماني لا يقدر
-على صد أية دولة من الدول الكبرى إذا أرادت الاستيلاء على <placeName change="#d2e120" xml:id="placeName_12.d2e1694">الحجاز</placeName> وإنما يقدر
-على ذلك عرب <placeName change="#d2e120" xml:id="placeName_13.d2e1700">الحجاز</placeName> و<placeName change="#d2e120" xml:id="placeName_14.d2e1703">اليمن</placeName> ونجد والشآم و<placeName change="#d2e120" xml:id="placeName_15.d2e1706">العراق</placeName>، لا يحتاجون فيه إلا إلى
+على صد أية دولة من الدول الكبرى إذا أرادت الاستيلاء على <placeName change="#d2e120 #d11e304" xml:id="placeName_12.d2e1694" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وإنما يقدر
+على ذلك عرب <placeName change="#d2e120 #d11e304" xml:id="placeName_13.d2e1700" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> و<placeName change="#d2e120 #d11e304" xml:id="placeName_14.d2e1703" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> ونجد والشآم و<placeName change="#d2e120 #d11e304" xml:id="placeName_15.d2e1706" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، لا يحتاجون فيه إلا إلى
 القوت الضروري والسلاح والذخيرة، واتفاق الكلمة، فإن هؤلاء كانوا مستعدين بما
 ذكرنا للدفاع عن حرمهم وبلادهم لا يمكن أن تتجرأ دولة أوربية على الاصطلاء
 بنارهم؛ لأسباب متعددة منها: شجاعتهم وصبرهم وعدم مبالاتهم بالموت، ومنها
@@ -739,8 +739,8 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 الأوربيون يسفكون فيه أنهار الدماء لأجل الانتقام الديني أو عظمة الملوك وقهر
 أعدائهم.
 كل ما يمكن أن تفعله دولة أوربية بحرية في هذه السبيل هو أن تستولي على
-سواحل جزيرة العرب فتبدأ منها بما عدا <placeName change="#d2e120" xml:id="placeName_16.d2e1735">الحجاز</placeName> كاليمن وحضرموت والعراق
-وسورية ثم تجعل سواحل <placeName change="#d2e120" xml:id="placeName_17.d2e1740">الحجاز</placeName> تحت مراقبتها البحرية فتمنع عنه السلاح، وتلقي
+سواحل جزيرة العرب فتبدأ منها بما عدا <placeName change="#d2e120 #d11e304" xml:id="placeName_16.d2e1735" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> كاليمن وحضرموت والعراق
+وسورية ثم تجعل سواحل <placeName change="#d2e120 #d11e304" xml:id="placeName_17.d2e1740" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> تحت مراقبتها البحرية فتمنع عنه السلاح، وتلقي
 العداوة والبغضاء بين أمراء الجزية، فتغري بعضهم ببعض، وتساعد من يستجيب
 لها على خصمه بالمال حتى إذا ما فل الحديدُ الحديدَ، وبأس القوم بينهم شديد،
 وضبطت موارد الرزق ومنع السلاح تعقد الدولة التي تفعل ذلك مع كل أمير وزعيم
@@ -753,8 +753,8 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 والقبر الشريف ووضعهما في اللوفر أو غير اللوفر من دور التحف والعاديات في
 أوربة؛ لتكون أثرا تاريخيا يفتخرون به: {قَدْ بَدَتِ البَغْضَاءُ مِنْ أَفْوَاهِهِمْ وَمَا
 تُخْفِي صُدُورُهُمْ أَكْبَرُ قَدْ بَيَّنَّا لَكُمُ الآيَاتِ إِن كُنتُمْ تَعْقِلُونَ} (آل عمران: 118) .
-فالواجب على <placeName change="#d2e120" xml:id="placeName_18.d2e1772">الدولة العثمانية</placeName> أولا وبالذات أن تعترف بالاستقلال الإداري
-والدفاعي لجميع إمارات البلاد العربية ومنها <placeName change="#d2e120" xml:id="placeName_19.d2e1777">الحجاز</placeName> وعسير و<placeName change="#d2e120" xml:id="placeName_20.d2e1780">اليمن</placeName> بشرط أن لا
+فالواجب على <placeName change="#d2e120 #d11e304" xml:id="placeName_18.d2e1772" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> أولا وبالذات أن تعترف بالاستقلال الإداري
+والدفاعي لجميع إمارات البلاد العربية ومنها <placeName change="#d2e120 #d11e304" xml:id="placeName_19.d2e1777" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وعسير و<placeName change="#d2e120 #d11e304" xml:id="placeName_20.d2e1780" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> بشرط أن لا
 تنفرد إمارة منها بعقد اتفاق ولا معاهدة مع الأجانب لا سياسة ولا اقتصاد، وأن
 تساعدها على تنظيم إدارتها، وقوى الدفاع فيها وعمرانها بالوسائل المقنعة المرضية
 عند أهلها، وجمع كلمة أمرائها، وأن يكون الجند الذي ينظم فيها عونًا للدولة على
@@ -890,7 +890,7 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 قبل انتهائه إلى مكان آخر صلوا فيه وعدوا ذلك من قلة الذوق، ورأوا أنه كان
 ينبغي لهم تأخير المغرب عن وقتها، ولعل بعض هؤلاء لا ينكر عليهم ترك صلاتها
 ألبتة لأجل الاحتفال، فأين الشعور الإسلامي عند هؤلاء من شعور مسلمي نجد
-و<placeName change="#d2e120" xml:id="placeName_21.d2e2066">اليمن</placeName> الذين لم يبق لهم ثقة بأحد من علماء الأمصار التي دخلها التفرنج وفشا فيها.
+و<placeName change="#d2e120 #d11e304" xml:id="placeName_21.d2e2066" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> الذين لم يبق لهم ثقة بأحد من علماء الأمصار التي دخلها التفرنج وفشا فيها.
 يقول أولئك المسلمون: إن هذه المنكرات هي التي أضعفت الإسلام وأضاعته،
 ويقول هؤلاء المتفرنجون: إن جمود أولئك المسلمين وجهلهم بحضارة العصر
 هي التي أضاعت ملك الإسلام وذهبت بقوته، وأكبر المصائب على الإسلام وأهله
@@ -961,7 +961,7 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 ***
 (كتاب معالم الكتابة ومغانم الإصابة)
 إنشاء عبد الرحيم بن علي بن شيت القرشي عني بنشره وتعليق حواشيه
-الخوري قسطنطين الباشا المخلصي طبع في <placeName change="#d2e120" xml:id="placeName_22.d2e2229">بيروت</placeName> بالمطبعة الأدبية سنة
+الخوري قسطنطين الباشا المخلصي طبع في <placeName change="#d2e120 #d11e304" xml:id="placeName_22.d2e2229" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> بالمطبعة الأدبية سنة
 
             <date calendar="#cal_gregorian" when="1912" change="#d3e146 #d2e120" xml:id="date_12.d2e2234">1912</date> م صفحاته 192 بقطع تفسير سورة الفاتحة ثمنه 12 قرشًا، ويطلب
 من مكتبة المنار بمصر.
@@ -994,7 +994,7 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 العصرية)
 ديوانَا خُطَبٍ ألفهما الأستاذ الشيخ حسن خير الدين فتيان خطيب وإمام
 الشافعية في جامع النصر وأحد مدرسي العربية في المدرسة الابتدائية في
-مدينة <placeName change="#d2e120" xml:id="placeName_23.d2e2313">نابلس</placeName>، وكلاهما مطبوع ومضبوط الكلمات بالحركات ويطلبان من
+مدينة <placeName change="#d2e120 #d11e304" xml:id="placeName_23.d2e2313" ref="geon:7870555 oape:place:11" resp="#xslt">نابلس</placeName>، وكلاهما مطبوع ومضبوط الكلمات بالحركات ويطلبان من
 مكتبة المنار، ومن الشيخ أحمد علي المليجي ملتزم طبعهما.
 من مميزات هذين الديوانين أن مؤلفهما لم يثبت فيهما من الأحاديث غير
 صحيح السند، وجميعها معزوة إلى مخرجيها؛ والمُؤلف من محبي الإصلاح
@@ -1045,7 +1045,7 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 العارفين فيه أنه رجل عسكري غير سياسي، وأن معارفه العسكرية أكبر من
 شجاعته، وأنه كان يخاف جمعية الاتحاد والترقي فجاراها على إشغال الجيش
 بالسياسة وكان يتربص الفرص لإزالة سلطتها من الدولة إلى أن اتهمه مجلس
-المبعوثين بالتواطؤ مع حقي باشا الصدر الأعظم على إضاعة <placeName change="#d2e120" xml:id="placeName_24.d2e2422">طرابلس</placeName> الغرب
+المبعوثين بالتواطؤ مع حقي باشا الصدر الأعظم على إضاعة <placeName change="#d2e120 #d11e304" xml:id="placeName_24.d2e2422" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الغرب
 وطلب محاكمته معه فلم يجد أمامه ملجأً يحميه من المجلس إلا الجمعية التي أضاعت
 نفوذها من المجلس فكاد يسقط وزارتها بتهمة الخيانة، عند ذلك ساعدها محمود
 شوكت باشا بنفوذه وتأثيره في القصر السلطاني فأصدر لها إرادة من السلطان بحل
@@ -1068,7 +1068,7 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 ذهب معي مرة لزيارته صديقي السيد عبد الحميد الزهراوي وكان مبعوثًا فأثنينا
 على خطبته التي خطبها في نظارة الحربية بوجوب امتناع الضباط من الاشتغال
 بالسياسة وقلنا له: إننا لا نزال نراهم على حالهم لم يمتنعوا، وذكرنا له حادثة
-كانت وقعت في <placeName change="#d2e120" xml:id="placeName_25.d2e2475">نابلس</placeName> من أقبح حوادثهم وأفظعها في العدوان، فقال: أما هنا فقد
+كانت وقعت في <placeName change="#d2e120 #d11e304" xml:id="placeName_25.d2e2475" ref="geon:7870555 oape:place:11" resp="#xslt">نابلس</placeName> من أقبح حوادثهم وأفظعها في العدوان، فقال: أما هنا فقد
 امتنع اشتغالهم بالسياسة، وأما في الأماكن البعيدة كبلادكم فيحتاج منعهم ألبتة إلى
 زمن، ولكن ظهر بعد ذلك رسميًّا ما كتبه في عريضة استقالته من نظارة الحربية
 أن قوله هذا غير صحيح.
@@ -1077,11 +1077,11 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 هذا لا يعجبني وأرى مستقبل الدولة لنا نحن العرب؛ لأننا أكثر عددًا وأزكى فهمًا
 وأنشط في العمل، ولكن يجب أن ندخل أولادنا مدارس الدولة ونرتقي بها، ولكنه
 مع هذا لم يساعد العرب ولا كفَّ عنهم شيئا من العدوان بل هو الذي سير الحملات
-العسكرية إلى <placeName change="#d2e120" xml:id="placeName_26.d2e2497">اليمن</placeName> والكرك وحوران إطاعة للجمعية. على أن هذه الشدة هي
+العسكرية إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_26.d2e2497" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> والكرك وحوران إطاعة للجمعية. على أن هذه الشدة هي
 التي كونت المسألة العربية الحاضرة.
 وقد بلغنا من الأخبار الخاصة أنه كان في العهد الأخير عازمًا على إجابة
 العرب إلى مطالبهم الإصلاحية، وإن كان هو الذي أمر بتشديد حازم بك على
-طلاب الإصلاح في <placeName change="#d2e120" xml:id="placeName_27.d2e2509">بيروت</placeName>. وقد أشار طلعت بك في كلام له نشرته الجريدة إلى
+طلاب الإصلاح في <placeName change="#d2e120 #d11e304" xml:id="placeName_27.d2e2509" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>. وقد أشار طلعت بك في كلام له نشرته الجريدة إلى
 ميل شوكت باشا إلى إجابة العرب إلى ما يطلبون من الإصلاح المعقول. وبالجملة
 فإن للرجل -عفا الله عنه ورحمه - حسنات وسيئات وأمورًا متناقضة، والله أعلم
 بالسرائر.
@@ -1142,7 +1142,7 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
                
 (الاتفاق التركي الإنكليزي وأثره في بلاد العرب)
 بيَّنا في الجزء السابق شأن هذا الاتفاق ومواده وما فيه من الغبن والضرر على
-الأمة العربية و<placeName change="#d2e120" xml:id="placeName_28.d2e2627">الدولة العثمانية</placeName> بالإجمال وأشرنا إلى أن للكلام في موضوعه بقيةً،
+الأمة العربية و<placeName change="#d2e120 #d11e304" xml:id="placeName_28.d2e2627" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> بالإجمال وأشرنا إلى أن للكلام في موضوعه بقيةً،
 وقد ضاق هذه الجزء بكثرة مواده عن نشر ما لدينا من الآراء والأخبار فيه فنكتفي
 بذكر نتيجة واحدة من نتائجه وهي وصول سوء الظن بالسلطة الاتحادية إلى أمراء
 جزيرة العرب وعشائرها، فاعتقدوا ما يعتقده جمهور أهل الرأي في الولايات أنها
@@ -1151,16 +1151,16 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 إذا انقلب ما عليه الأمم والدول الآن من شئون الاجتماع من حال إلى حال، وقد
 حدث في هذه الأثناء حادثتان عظيمتان في تلك البلاد التي يتعلق الاتفاق بشئونها،
 وهما استيلاء الأمير ابن سعود على بلاد الأحساء التي تسميها الدولة متصرفية نجد،
-والثانية اشتداد الاضطراب في ولاية <placeName change="#d2e120" xml:id="placeName_29.d2e2650">البصرة</placeName>، حتى كان من نتائجه قتل قائد
-الدولة في <placeName change="#d2e120" xml:id="placeName_30.d2e2655">البصرة</placeName> قومندان <placeName change="#d2e120" xml:id="placeName_31.d2e2659">البصرة</placeName> ومتصرف المنتفج.
+والثانية اشتداد الاضطراب في ولاية <placeName change="#d2e120 #d11e304" xml:id="placeName_29.d2e2650" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>، حتى كان من نتائجه قتل قائد
+الدولة في <placeName change="#d2e120 #d11e304" xml:id="placeName_30.d2e2655" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> قومندان <placeName change="#d2e120 #d11e304" xml:id="placeName_31.d2e2659" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> ومتصرف المنتفج.
 ***
 (استيلاء ابن سعود على الأحساء)
-نشرت جرائد <placeName change="#d2e120" xml:id="placeName_32.d2e2668">العراق</placeName> وسورية ومصر خبر استيلاء الأمير عبد العزيز بن
+نشرت جرائد <placeName change="#d2e120 #d11e304" xml:id="placeName_32.d2e2668" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وسورية ومصر خبر استيلاء الأمير عبد العزيز بن
 سعود على تلك البلاد الأحساء والقطيف والعقير، وإخراجه لعمال الدولة
-وعسكرها منها وإرسالهم إلى <placeName change="#d2e120" xml:id="placeName_33.d2e2676">العراق</placeName>، وجاءنا من أخبار تلك البلاد ما لم نر تفصيله
+وعسكرها منها وإرسالهم إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_33.d2e2676" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وجاءنا من أخبار تلك البلاد ما لم نر تفصيله
 في الجرائد.
 وابن سعود يرى أن هذه البلاد من إمارته التي ورثها عن آبائه وأجداده وإنما
-استولت عليها الدولة أخيرًا في عهد ولاية مدحت باشا على <placeName change="#d2e120" xml:id="placeName_34.d2e2685">بغداد</placeName> بمساعدة الشيخ
+استولت عليها الدولة أخيرًا في عهد ولاية مدحت باشا على <placeName change="#d2e120 #d11e304" xml:id="placeName_34.d2e2685" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> بمساعدة الشيخ
 مبارك الصباح وآل بيته، وكان الشقاق يومئذ بين آل سعود قد أضعفهم فلم
 يستطيعوا مقاومة العشائر التي زحف بها على البلاد آل الصباح مع عسكر من
 الدولة.
@@ -1170,10 +1170,10 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 يجب على الملسمين من الاتحاد والولاء فكانا شديدي التعلق والإخلاص للدولة
 العثمانية على كثرة ما يريانه من سوء معاملتها.
 ولكن بيع الاتحاديين لشرقي بلاد العرب رقبتها أو مصالحها ومنافعها للإنكليز
-بعد بيعهم <placeName change="#d2e120" xml:id="placeName_35.d2e2710">طرابلس الغرب</placeName> لإيطالية جدير بأن يخيفهم على بلادهم فلا غرو إذا بادر
+بعد بيعهم <placeName change="#d2e120 #d11e304" xml:id="placeName_35.d2e2710" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> لإيطالية جدير بأن يخيفهم على بلادهم فلا غرو إذا بادر
 ابن سعود لاسترجاع بلاد الأحساء.
 ومن الأخبار الخاصة أن ابن سعود طهَّر تلك البلاد عند استيلائه عليها من
-الرجس فأجلى العاهرات وبائعي الخمر إلى البحرين و<placeName change="#d2e120" xml:id="placeName_36.d2e2720">البصرة</placeName>، وأبطل الحكم
+الرجس فأجلى العاهرات وبائعي الخمر إلى البحرين و<placeName change="#d2e120 #d11e304" xml:id="placeName_36.d2e2720" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>، وأبطل الحكم
 بالقوانين وأقام الأحكام الشرعية، ومنها أنه كتب إلى السيد فيصل صاحب مسقط
 بأن يكون تابعًا لإمارة نجد كما سبق، وأوعده بأنه سيزحف على عمان فيصل إليه
 بعد أربعة أشهر.
@@ -1182,25 +1182,25 @@ Jekyll) وكانت عبادة البشر [8] وتأليههم شائعين في 
 رؤساء العشائر في عمان على أن يؤيدوا أمراءه ويساعدوه بالمال والرجال عند
 الحاجة على أن يصد عنهم مداخلة الإنكليز في بلادهم التي تفسد عليهم دينهم بالبغاء.
 ***
-(الاضطراب في <placeName change="#d2e120" xml:id="placeName_37.d2e2743">البصرة</placeName>)
-اصطنع الاتحاديون عجيمي بك السعدون من رؤساء عشائر <placeName change="#d2e120" xml:id="placeName_38.d2e2748">العراق</placeName> الذي
+(الاضطراب في <placeName change="#d2e120 #d11e304" xml:id="placeName_37.d2e2743" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>)
+اصطنع الاتحاديون عجيمي بك السعدون من رؤساء عشائر <placeName change="#d2e120 #d11e304" xml:id="placeName_38.d2e2748" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> الذي
 اعتقلت والده فمات في السجن وسبب اصطناعها إياه أمران:
 أحدهما: أنه نهب مال عمه وقدره 170 ألف ليرة عثمانية وهم يدورون حول
 الدينار، ولو كان في النار.
-وثانيهما: إغراؤه بطالب بك النقيب الذي أعيا الجمعية نفوذه في <placeName change="#d2e120" xml:id="placeName_39.d2e2760">البصرة</placeName> على
+وثانيهما: إغراؤه بطالب بك النقيب الذي أعيا الجمعية نفوذه في <placeName change="#d2e120 #d11e304" xml:id="placeName_39.d2e2760" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> على
 كونه مقاومًا لسياستها المبنية على إضعاف العرب وهضم حقوقهم حتى انفضَّ بنفوذه
-الناس من حولها وأقفل ناديها. وقد كان ناديها في <placeName change="#d2e120" xml:id="placeName_40.d2e2767">بغداد</placeName> اقترح على مركزها العام
-تعيين عميدها وعتادها في <placeName change="#d2e120" xml:id="placeName_41.d2e2773">العراق</placeName> أمير الألاي فريد بك واليًا للبصرة ليكفيها أمر
+الناس من حولها وأقفل ناديها. وقد كان ناديها في <placeName change="#d2e120 #d11e304" xml:id="placeName_40.d2e2767" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> اقترح على مركزها العام
+تعيين عميدها وعتادها في <placeName change="#d2e120 #d11e304" xml:id="placeName_41.d2e2773" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> أمير الألاي فريد بك واليًا للبصرة ليكفيها أمر
 طالب بك ويُخضع الولاية لعظمتها فلم يقبل اقتراحه خوفًا أن يثير ذلك فتنة تعجز
-الحكومة عن تلافيها؛ إذ ليس عندها جند كاف في <placeName change="#d2e120" xml:id="placeName_42.d2e2780">العراق</placeName> ولا سبيل إلى إرسال جند
+الحكومة عن تلافيها؛ إذ ليس عندها جند كاف في <placeName change="#d2e120 #d11e304" xml:id="placeName_42.d2e2780" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ولا سبيل إلى إرسال جند
 من مكان آخر، وهي في قتال مغلوبة فيه على أمرها في البلقان، فاكتفت بجعل
 فريد بك قومندانا لها موقتًا.
 فكان أول عمله إغراء عجيمي بك السعدون بالزحف برجاله على البصرة
 وطلب إخراج طالب بك منها أو يهجم برجاله عليها، فزحف عجيمي حتى وصل
-إلى قرب <placeName change="#d2e120" xml:id="placeName_43.d2e2794">البصرة</placeName> فاضطرب الناس وفر الأجانب إلى الأماكن القريبة الآمنة
+إلى قرب <placeName change="#d2e120 #d11e304" xml:id="placeName_43.d2e2794" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> فاضطرب الناس وفر الأجانب إلى الأماكن القريبة الآمنة
 كالمحمرة وبطلت التجارة، وخاطب وكلاء الدول الحكومة بوجوب إكراه عجيمي
 بك على الرحيل، وفي أثناء ذلك هجم بعض أشقياء العرب على فريد بك وهو في
-جهة العشار مدخل <placeName change="#d2e120" xml:id="placeName_44.d2e2804">البصرة</placeName> من شط العرب، مع بديع بك نوري متصرف المنتفك
+جهة العشار مدخل <placeName change="#d2e120 #d11e304" xml:id="placeName_44.d2e2804" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> من شط العرب، مع بديع بك نوري متصرف المنتفك
 فقتلوهما بالرصاص، فسكنت بعد ذلك ثورة عجيمي بك السعدون، وجاء البصرة
 مصالحًا لطالب بك طالبًا منه العفو، ثم إنه أرسل برقية إلى الحكومة باسمه واسم
 كبراء عشيرته يطلبون فيه اللامركزية الإدارية في البلاد، فهذا مثال من سياسة

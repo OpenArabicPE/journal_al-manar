@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_16-i_8.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_16-i_8.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e309">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_16-i_8.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_16-i_8.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e304" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e309" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e309" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e309" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1331">1331</date><date calendar="#cal_gregorian" when="1913" xml:lang="ar">أغسطس - 1913م</date></imprint>
                   <biblScope unit="volume" from="16" to="16" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">16</biblScope>
                   <biblScope unit="issue" from="8" to="8" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">8</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e309" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e181">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e184">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e190">
                <item change="#d2e120" xml:id="item_1.d2e192">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e194">num</gi> node </item>
@@ -216,7 +216,7 @@
 ترك العمل يوم الجمعة
 (س29) من صاحب الإمضاء بمصر:
 سيدي العلامة المفضال السيد محمد رشيد أفندي رضا حفظه الله.
-ربما علمتم بحركة تجار <placeName change="#d2e120" xml:id="placeName_4.d2e599">دمشق</placeName> واتفاقهم على إغلاق حوانيتهم ومحلاتهم في
+ربما علمتم بحركة تجار <placeName change="#d2e120 #d11e309" xml:id="placeName_4.d2e599" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> واتفاقهم على إغلاق حوانيتهم ومحلاتهم في
 كل يوم جمعة، ولكن هذا لم يرق لبعض المشاغبين كالشيخ عبد القادر الخطيب
 المعلوم عند سيادتكم وأمثاله فتكلموا مع الوالي بعدم صلاحية ذلك وإجبار التجار على
 الشغل في ذاك اليوم فطلب الوالي بعضًا من التجار وخاطبهم بهذا الشأن استحسانًا لا
@@ -224,7 +224,7 @@
 لم يفده بشيء خطب في الجامع الأموي وقال: إنه لا يجوز الإغلاق في يوم الجمعة
 واستدل بقول الخفاجي على أنه تشبه باليهود والنصارى وأورد الآية الكريمة الواردة
 بحق يوم الجمعة، وأنه لطلب الرزق إلى آخر ما أملاه عليه ضميره.
-فالمسألة أخذت دورًا مهمًّا في <placeName change="#d2e120" xml:id="placeName_5.d2e620">دمشق</placeName> لذلك كتب إليَّ جماعة من التجار يطلبون
+فالمسألة أخذت دورًا مهمًّا في <placeName change="#d2e120 #d11e309" xml:id="placeName_5.d2e620" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> لذلك كتب إليَّ جماعة من التجار يطلبون
 أن أعرض هذا الأمر لفضيلتكم وتقدم لهم النصوص الواردة في يوم الجمعة، ومن
 علماء المذاهب الأربع في الأزهر، وترد إليهم ذلك حالاً فلذا لكوني اعتبرت
 واعتادت الأمة الإسلامية الاستنارة بعميم فضلكم أرجوكم التفضل بكتابة ما ورد بحق
@@ -258,7 +258,7 @@
 استدل على ذلك بقول الخفاجي: (إنه تشبه باليهود والنصارى) وهذا غير صحيح
 بل هو مخالفة لهم؛ لأن اليهود يتركون العمل يوم السبت وخالفهم النصارى فتركوا
 العمل يوم الأحد، فلو قال فيمن يتركون العمل يوم الأحد من المسلمين في بلاد
-مصر و<placeName change="#d2e120" xml:id="placeName_6.d2e696">بيروت</placeName> إنهم تشبهوا بالنصارى لكان له وجه، وأما من يتركون العمل يوم
+مصر و<placeName change="#d2e120 #d11e309" xml:id="placeName_6.d2e696" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> إنهم تشبهوا بالنصارى لكان له وجه، وأما من يتركون العمل يوم
 الجمعة فلا وجه لدعوى أنهم متشبهون بهم إلا إذا صح الاستدلال بالشيء على ضده،
 فإن تشبه الإنسان بقوم إنما هو أن يفعل مثل فعلهم بحيث يشتبه حاله بحالهم فيظن
 من لا يعرفه أنه منهم. ولا يقول عالم ولا عاقل: إن التشبه بأجناس العمل العامة
@@ -626,7 +626,7 @@
 الجعد بن درهم، وكان مؤدب [4] مروان آخر ملوك بني أمية، ولذا كان يلقب
 بمروان الجعدي؛ لأنه تعلم من الجعد مذهبه في القول بخلق القرآن والقدر وغير
 ذلك، وكان الناس يذمون مروان بنسبته إليه، قاله ابن الأثير.
-وقال الحافظ ابن عساكر في تاريخه: أقام الجعد ب<placeName change="#d2e120" xml:id="placeName_7.d2e1486">دمشق</placeName> حتى أظهر القول
+وقال الحافظ ابن عساكر في تاريخه: أقام الجعد ب<placeName change="#d2e120 #d11e309" xml:id="placeName_7.d2e1486" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> حتى أظهر القول
 بخلق القرآن، فتطلبه بنو أمية فهرب وسكن الكوفة، فلقيه بها الجهم بن صفوان
 فتقلد عنه هذا القول.
 وقال ابن الأثير في سيرة ابن هشام: قيل: إن الجعد بن درهم أظهر مقالته
@@ -651,8 +651,8 @@
 بحثنا هذا إماطة الحجاب عن الارتياب في هذا الرجل عوَّلنا على أئمة التاريخ في
 ترجمة حاله [5] ، وملخصها أن خالدًا هذا هو خالد بن عبد الله بن يزيد بن أسد بن
 كرز من بجيلة، فأما جده يزيد فإنه أسلم مع أبيه أسد في حياة النبي صلى الله عليه
-وسلم، وروى عنه رواية يسيرة، ثم خرج في عهد عمر رضي الله عنه إلى <placeName change="#d2e120" xml:id="placeName_8.d2e1544">الشام</placeName>،
-فكان بها وكان مطاعًا في <placeName change="#d2e120" xml:id="placeName_9.d2e1549">اليمن</placeName> عظيم الشأن، ثم صار من قواد معاوية وأمراء
+وسلم، وروى عنه رواية يسيرة، ثم خرج في عهد عمر رضي الله عنه إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_8.d2e1544" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>،
+فكان بها وكان مطاعًا في <placeName change="#d2e120 #d11e309" xml:id="placeName_9.d2e1549" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> عظيم الشأن، ثم صار من قواد معاوية وأمراء
 بعوثه.
 وأما ابنه عبد الله فلم تكن له نباهة آبائه، وأهل المثالب يقولون: إنه دَعِيٌّ،
 وكان مع عمرو بن سعيد بن الأشدق على شرطته أيام خلافة عبد الملك بن مروان،
@@ -665,14 +665,14 @@
 والمخنثين، وكان يقال له: (خالد الخريت) [7] ، وقع في شعر عمر بن أبي
 ربيعة تلقيبه بذلك، ثم صار في مرتبة أبيه بعده، إلى أن ولاه هشام بن عبد الملك
 العراق سنة 105 واستمر إلى أن عزله هشام سنة 120.
-وكان الإسلام ب<placeName change="#d2e120" xml:id="placeName_10.d2e1580">العراق</placeName> في عهد خالد ذليلاً، فكان يولي النصارى والمجوس
+وكان الإسلام ب<placeName change="#d2e120 #d11e309" xml:id="placeName_10.d2e1580" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> في عهد خالد ذليلاً، فكان يولي النصارى والمجوس
 على المسلمين، وكان أهل الذمة يشترون الجواري المسلمات ويطئوهن، فيطلق لهم
 ذلك ولا يغير عليهم، وسبب ذلك أن أم خالد كانت رومية نصرانية، ابتنى بها أبوه
 في بعض أعيادهم فأولدها خالدًا وأسدًا، ولم تسلم هي، وبنى لها خالد بيعة في قبلة
 المسجد بالكوفة فكان إذا أراد المؤذن في المسجد أن يؤذن ضرب لها بالناقوس، وإذا
 قام الخطيب على المنبر رفع الناس أصواتهم بالقراءة، فذمه الناس والشعراء، فمن
 ذلك قول الفرزدق:
-ألا قطع الرحمن ظهر مطية <gap resp="#org_MS" change="#d2e120" xml:id="gap_84.d2e1599"/> أتتنا تهادى من <placeName change="#d2e120" xml:id="placeName_11.d2e1601">دمشق</placeName> بخالد
+ألا قطع الرحمن ظهر مطية <gap resp="#org_MS" change="#d2e120" xml:id="gap_84.d2e1599"/> أتتنا تهادى من <placeName change="#d2e120 #d11e309" xml:id="placeName_11.d2e1601" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> بخالد
 فكيف يؤم الناس من كانت أمه <gap resp="#org_MS" change="#d2e120" xml:id="gap_85.d2e1606"/> تدين بأن الله ليس بواحد
 بنى بيعة فيها النصارى لأمه <gap resp="#org_MS" change="#d2e120" xml:id="gap_86.d2e1610"/> ويهدم من كفر منار المساجد
 وكان خالد قد أمر بهدم منار المسجد؛ لأنه بلغه أن شاعرًا قال:
@@ -684,11 +684,11 @@
 أقوال تقشعر لذكرها الأبدان، وقد قص شيئًا منها ابن الأثير وأبو الفرج الأصبهاني،
 ولما قصها أبو الفرج قال في أثرها: اللهم الْعَنْ خالدًا وأخزه وجدِّد على روحه
 العذاب.
-ثم آل أمر خالد إلى أن غضب عليه هشام، وعزله عن <placeName change="#d2e120" xml:id="placeName_12.d2e1639">العراق</placeName>، وولى مكانه
+ثم آل أمر خالد إلى أن غضب عليه هشام، وعزله عن <placeName change="#d2e120 #d11e309" xml:id="placeName_12.d2e1639" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وولى مكانه
 يوسف بن عمر الثقفي، وأمره بحبسه وتعذيبه، فحبسه ثمانية عشر شهرًا بالحيرة
 مع ابنه إلى أن أمر الوليد بضربه فضرب، ثم حبس ثم حمل إلى يوسف بن عمر
 فعذبه عذابًا شديدًا ثم قتله ودفنه بالحيرة في المحرم سنة 126.
-وكانت غلة خالد ب<placeName change="#d2e120" xml:id="placeName_13.d2e1650">العراق</placeName> عشرين ألف ألف، ولما ختن نائبه طارق ابنه
+وكانت غلة خالد ب<placeName change="#d2e120 #d11e309" xml:id="placeName_13.d2e1650" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> عشرين ألف ألف، ولما ختن نائبه طارق ابنه
 بالكوفة أهدى إليه خالد ألف وصيف ووصيفة سوى الأموال والثياب، ولما ولي بعد
 خالد يوسف الثقفي قال يحيى بن نوفل يمتدحه، ويعرض بأعمال خالد الذميمة:
 أتانا وأهل الشرك أهل زكاتنا <gap resp="#org_MS" change="#d2e120" xml:id="gap_89.d2e1660"/> وحكامُنا فيما نُسِرّ ونجهر
@@ -720,7 +720,7 @@
 (3) ص 45.
 (4) المؤدب: معلم الأدب، وهو رياضة النفس على حسن الأخلاق وفعل المكارم، بمثابة المربي والمرشد، أو معلم العلوم الأدبية، ولا يخفى أن الأمراء تعنى بانتقاء أماثل الفضلاء لتربية أبنائها على العلوم والأخلاق الفاضلة.
 (5) كالطبري وابن الأثير والأغاني.
-(6) بفتح القاف وسكون السين بطن من بجيلة، وبجيلة كسفينة حي ب<placeName change="#d2e120" xml:id="placeName_14.d2e1732">اليمن</placeName> من معدّ اهـ قاموس.
+(6) بفتح القاف وسكون السين بطن من بجيلة، وبجيلة كسفينة حي ب<placeName change="#d2e120 #d11e309" xml:id="placeName_14.d2e1732" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> من معدّ اهـ قاموس.
 (7) الخريت الدليل العارف بأخرات الأرض أي مضايقها.
 (8) هذا موضع الشاهد من قولنا في الترجمة: والإغراء بهم.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_2.d2e1740">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_4.d2e1742" ref="oape:pers:482 viaf:93607460">
@@ -801,7 +801,7 @@
 وبتأثيره النافع تصير شريعة النبي صلى الله عليه وسلم كما وجب أن تكون
 في كل آن، أي: دين التوحيد الحر المعقول الخالي من الأكليروس ومن التكاليف
 تقريبا، الذي يبث في النفوس أدبًا يقع تحت طاقتها، والذي بقاعدته السالمة من كل
-روح إجبارية استطاع أن يخرج إلى العالم مدينتين مثل <placeName change="#d2e120" xml:id="placeName_15.d2e1901">بغداد</placeName> وقرطبة.
+روح إجبارية استطاع أن يخرج إلى العالم مدينتين مثل <placeName change="#d2e120 #d11e309" xml:id="placeName_15.d2e1901" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> وقرطبة.
 فالمدرسة العبدية من الآن فصاعدًا تفسح للمسلمين العاملين بدون تقييد مجالاً
 واسعًا للنجاح، وهي تسمح لهم فوق ذلك بأن يمتزجوا بالمعاطفة مع الشعوب
 الغربية، فالهند ومصر وسورية مدينات لهذه المدرسة بنجاح مدهش، ومنذ
@@ -901,9 +901,9 @@
 تونس المستيقظة أو كاد.
 إن دعاة المدنية من المسلمين كمريدي المدرسة العبدية يودون الاستعانة على
 تعليم أمتهم بفضلاء الإخصائيين من الأوربيين، وقد رأت فرنسة في هذا العام أن
-أهل <placeName change="#d2e120" xml:id="placeName_16.d2e2127">بيروت</placeName> - أرقى مدن سورية - قاموا يطلبون بقرار من جمعيتهم الإصلاحية أن
+أهل <placeName change="#d2e120 #d11e309" xml:id="placeName_16.d2e2127" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> - أرقى مدن سورية - قاموا يطلبون بقرار من جمعيتهم الإصلاحية أن
 يكون في ولايتهم مستشارون ومفتشون من الأجانب، وعلمت فرنسة أن الرأي العام
-في <placeName change="#d2e120" xml:id="placeName_17.d2e2134">بيروت</placeName> وسائر سورية يفضل كل دولة أوربية على فرنسة فيما يطلبه لبلاده من
+في <placeName change="#d2e120 #d11e309" xml:id="placeName_17.d2e2134" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> وسائر سورية يفضل كل دولة أوربية على فرنسة فيما يطلبه لبلاده من
 مساعدة الأوربيين، وما سبب ذلك إلا إدارتها وسياستها في تونس والجزائر، ولولا
 ذلك لفضلوا فرنسة على جميع الأوربيين؛ لأن معظم ما في بلادهم من المدارس
 وأسباب العمران هو فرنسي، وقد تفضل ناظر خارجية فرنسة بمجاملة وفد المؤتمر
@@ -935,7 +935,7 @@
                
 
                
-يُصْدِرُ هذه المجلة المفيدة في <placeName change="#d2e120" xml:id="placeName_18.d2e2193">القاهرة</placeName> المسيو بول تريبيه مديرها، والمسيو
+يُصْدِرُ هذه المجلة المفيدة في <placeName change="#d2e120 #d11e309" xml:id="placeName_18.d2e2193" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> المسيو بول تريبيه مديرها، والمسيو
 جاك لاويفر رئيس تحريرها، وقد ذكرت <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_9.d2e2198">المنار</title></bibl> في العدد الثاني وهذه ترجمة
 ما قالته فيها:
 أصدر الشيخ محمد رشيد رضا أول عدد من المنار منذ 15 عامًا فلم يمض
@@ -991,7 +991,7 @@
 ثانيًا: أن يحافظ على شروط هذا الاتفاق في المستقبل.
 ثالثًا: أن تعامل المكاتب الفرنسوية معاملة المكاتب العثمانية فيما يتعلق
 بالشهادات وبالإعفاء من دفع الأموال الأميرية.
-رابعًا: أن لا يسجن فرنسوي في <placeName change="#d2e120" xml:id="placeName_19.d2e2310">المملكة العثمانية</placeName> في غير سجون القنصليات.
+رابعًا: أن لا يسجن فرنسوي في <placeName change="#d2e120 #d11e309" xml:id="placeName_19.d2e2310" ref="oape:place:1" resp="#xslt">المملكة العثمانية</placeName> في غير سجون القنصليات.
 خامسًا: أن يعترف بالتبعية الفرنسوية للتونسيين والمراكشيين.
 سادسًا: أن يلجأ إلى التحكيم في بعض المسائل المختلف عليها بين الحكومة
 العثمانية وفرنسا.
@@ -1001,12 +1001,12 @@
 ب - خربوط - ديار بكر.
 ت - ديار بكر - أرضروم - طرابزون.
 ثانيا: في سورية:
-أ- مد سكة حديد <placeName change="#d2e120" xml:id="placeName_20.d2e2335">الشام</placeName> من رياق إلى جهات الجنوب.
-ب - تقسيم نقل البضائع بين فرع سكة حديد <placeName change="#d2e120" xml:id="placeName_21.d2e2340">الحجاز</placeName> التي تبتدئ من حيفا
-وسكة حديد <placeName change="#d2e120" xml:id="placeName_22.d2e2345">الشام</placeName> التي تبتدئ من <placeName change="#d2e120" xml:id="placeName_23.d2e2349">بيروت</placeName>، والعناية بحماية المصالح الفرنسوية وفتح
+أ- مد سكة حديد <placeName change="#d2e120 #d11e309" xml:id="placeName_20.d2e2335" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> من رياق إلى جهات الجنوب.
+ب - تقسيم نقل البضائع بين فرع سكة حديد <placeName change="#d2e120 #d11e309" xml:id="placeName_21.d2e2340" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> التي تبتدئ من حيفا
+وسكة حديد <placeName change="#d2e120 #d11e309" xml:id="placeName_22.d2e2345" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> التي تبتدئ من <placeName change="#d2e120 #d11e309" xml:id="placeName_23.d2e2349" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>، والعناية بحماية المصالح الفرنسوية وفتح
 ميدان واسع لها لتنمو في تلك الأنحاء.
 ثامنًا: أن تعطى فرنسا امتيازًا بإنشاء المرافئ التالية، وهي مرفأ أنابولي
-وهركله على البحر الأسود و<placeName change="#d2e120" xml:id="placeName_24.d2e2358">طرابلس</placeName> و<placeName change="#d2e120" xml:id="placeName_25.d2e2361">حيفا</placeName> و<placeName change="#d2e120" xml:id="placeName_26.d2e2365">يافا</placeName> في سورية.
+وهركله على البحر الأسود و<placeName change="#d2e120 #d11e309" xml:id="placeName_24.d2e2358" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_25.d2e2361" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_26.d2e2365" ref="geon:293253 oape:place:12 wiki:Q180294" resp="#xslt">يافا</placeName> في سورية.
 ويظهر أن ألمانيا لم تكتف بما لها من الامتيازات المهمة في سكة حديد بغداد
 وغيرها في البلاد العثمانية فإنها تسعى الآن لنيل مطالب اقتصادية في فلسطين لم
 أتمكن من معرفتها.
@@ -1032,9 +1032,9 @@
 وقالت <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_12.d2e2421">الديلي كرونكل</title></bibl>: ونحن نرجي الآن أن يعقد اتفاق بين إنكلترا
 وألمانيا يكون متممًا للاتفاق الذي عقدناه مع الباب العالي إذ على هذا الاتفاق يتوقف
 كل شيء عملناه إلى الآن، ولا يغنينا تعيين مديرين إنكليزيين في مجلس إدارة سكة
-حديد <placeName change="#d2e120" xml:id="placeName_27.d2e2430">بغداد</placeName> ولا جعل <placeName change="#d2e120" xml:id="placeName_28.d2e2434">البصرة</placeName> منتهى سكة حديد <placeName change="#d2e120" xml:id="placeName_29.d2e2437">بغداد</placeName> فتيلاً من غير هذه الاتفاق.
+حديد <placeName change="#d2e120 #d11e309" xml:id="placeName_27.d2e2430" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> ولا جعل <placeName change="#d2e120 #d11e309" xml:id="placeName_28.d2e2434" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> منتهى سكة حديد <placeName change="#d2e120 #d11e309" xml:id="placeName_29.d2e2437" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> فتيلاً من غير هذه الاتفاق.
 أما المسألة الأولى من هاتين المسألتين فهي على شيء من الأهمية، ولكن
-الثانية قليلة الأهمية جدًّا في اعتبارنا؛ لأن <placeName change="#d2e120" xml:id="placeName_30.d2e2444">البصرة</placeName>، وإن تكن مدينة داخلية، فهي
+الثانية قليلة الأهمية جدًّا في اعتبارنا؛ لأن <placeName change="#d2e120 #d11e309" xml:id="placeName_30.d2e2444" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>، وإن تكن مدينة داخلية، فهي
 واقعة على نهر كبير يصلح للملاحة ولها طريق نافذ إلى خليج العجم.
 وقالت جريدة منشستر غارديان: أما من جهة الكويت فإننا قد اعترفنا بسيادة
 الدولة العلية عليها، ولكنا اتخذنا كل الحيطة لمنعها من إتيان أي عمل يشتم منه أن
@@ -1046,19 +1046,19 @@
 فهل كانت مسألة الكويت وخوفنا على خليج العجم مساويين لهذه الخسارة؟
 وهل زيادة الرسوم الجمركية أفضل وسيلة لزيادة إيراد الخزينة العثمانية وتحسين
 حالها؟ إننا نرتاب في ذلك كثيرًا.
-وقالت الديلي جرافك: لا ندرك الحكمة من جعل <placeName change="#d2e120" xml:id="placeName_31.d2e2473">البصرة</placeName> نهاية لسكة حديد
+وقالت الديلي جرافك: لا ندرك الحكمة من جعل <placeName change="#d2e120 #d11e309" xml:id="placeName_31.d2e2473" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> نهاية لسكة حديد
 بغداد بدلا من الكويت بعد تصريح الهرفون جاكو ناظر خارجية ألمانيا. فقد قال هذا
 الناظر: إن ألمانيا لا توافق على هذا الإبدال إلا إذا جعل شط العرب صالحًا
 للملاحة، ومفاد ذلك أن ألمانيا ستجد أمامها بابًا مفتوحًا يوصلها إلى خليج العجم كما
 لو كانت في الكويت تمامًا ولكن من غير أن تنفق نفقات طائلة في تمديد الخط
 الحديدي إلى هناك.
 وهناك مسألة أخرى تفتقر إلى إيضاح وجلاء وهي أن ألمانيا أعيد إليها الحق
-بمد سكة حديد <placeName change="#d2e120" xml:id="placeName_32.d2e2492">بغداد</placeName> إلى <placeName change="#d2e120" xml:id="placeName_33.d2e2495">البصرة</placeName>، وقد كانت تنازلت عنه سنة <date calendar="#cal_gregorian" when="1911" change="#d3e146 #d2e120" xml:id="date_4.d2e2498">1911</date> مقابل منحها
-امتيازًا بمد فرع أو فروع من خط سكة <placeName change="#d2e120" xml:id="placeName_34.d2e2503">بغداد</placeName> الرئيسي غربًا إلى الإسكندرونة فهل
+بمد سكة حديد <placeName change="#d2e120 #d11e309" xml:id="placeName_32.d2e2492" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_33.d2e2495" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>، وقد كانت تنازلت عنه سنة <date calendar="#cal_gregorian" when="1911" change="#d3e146 #d2e120" xml:id="date_4.d2e2498">1911</date> مقابل منحها
+امتيازًا بمد فرع أو فروع من خط سكة <placeName change="#d2e120 #d11e309" xml:id="placeName_34.d2e2503" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> الرئيسي غربًا إلى الإسكندرونة فهل
 يفهم من الاتفاق الجديد أن هذا الامتياز قد نزع منها الآن أم هو باق بيدها؟ فإذا كان
 باقيًا بيدها فتكون ألمانيا قد خرجت من المقارعة السياسية التي دارت على نهاية
-سكة حديد <placeName change="#d2e120" xml:id="placeName_35.d2e2513">بغداد</placeName> غانمة غنيمة كبيرة، فإن ترسيخ قدمها في الإسكندرونة يعد ربحًا
-كبيرًا في حد ذاته فكيف بها إذا وقد رسخت قدمها في الإسكندرونة و<placeName change="#d2e120" xml:id="placeName_36.d2e2518">البصرة</placeName> جميعًا
+سكة حديد <placeName change="#d2e120 #d11e309" xml:id="placeName_35.d2e2513" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> غانمة غنيمة كبيرة، فإن ترسيخ قدمها في الإسكندرونة يعد ربحًا
+كبيرًا في حد ذاته فكيف بها إذا وقد رسخت قدمها في الإسكندرونة و<placeName change="#d2e120 #d11e309" xml:id="placeName_36.d2e2518" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> جميعًا
 (ليتأمل العاقل) .
 * * *
 كلام <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:21 oclc:263593774" xml:id="title_13.d2e2528">الطان</title></bibl> الفرنسية في الاتفاق
@@ -1067,14 +1067,14 @@
 الحقائق التي استنتجتها منها،وهي:
 السادس: أن الاتفاق بين إنكلترا وتركيا يعقبه اتفاق آخر بين إنكلترا وألمانيا،
 وقد قال السير غراي في خطابه: إن بين ألمانيا وتركيا اتفاقات خصوصية بشأن
-سكة <placeName change="#d2e120" xml:id="placeName_37.d2e2547">بغداد</placeName>، ونحن لا دَخْلَ لنا في تلك الاتفاقات الخصوصية، والآن نعقد نحن
+سكة <placeName change="#d2e120 #d11e309" xml:id="placeName_37.d2e2547" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>، ونحن لا دَخْلَ لنا في تلك الاتفاقات الخصوصية، والآن نعقد نحن
 اتفاقات مع تركيا لا دخل لألمانيا فيها، ولكن يجب أن نعلم أن هذه الاتفاقات لا
 تمس الحقوق المخولة لها من تركيا، فالاتفاق المراد عقده بين إنكلترا وألمانيا يقصد
-منه تسوية المسائل المختصة بسكة <placeName change="#d2e120" xml:id="placeName_38.d2e2557">بغداد</placeName> تسوية نهائية، قالت الطان، والسير
+منه تسوية المسائل المختصة بسكة <placeName change="#d2e120 #d11e309" xml:id="placeName_38.d2e2557" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> تسوية نهائية، قالت الطان، والسير
 غراي صادق في قوله: فإنه متى تمت الاتفاقات الجديدة تسوى مسألة تلك السكة
 نهائيًّا، وقد كنا منذ زمن طويل نتوقع هذه التسوية بسبب خطأ سياستها في السنين
 السابقة، ولقد كانت فرنسا وإنكلترة في سنة 1909 اتفقتا على طلب امتياز خط
-حديدي بين حمص و<placeName change="#d2e120" xml:id="placeName_39.d2e2569">بغداد</placeName> و<placeName change="#d2e120" xml:id="placeName_40.d2e2572">البصرة</placeName> غير أن معارضة المسيو بومبار في ذلك
+حديدي بين حمص و<placeName change="#d2e120 #d11e309" xml:id="placeName_39.d2e2569" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_40.d2e2572" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> غير أن معارضة المسيو بومبار في ذلك
 المشروع أفضت إلى توقيف المفاوضات في سنة 1910 ثم أهمل المشروع إهمالاً
 تامًّا ولا يمكن الآن إعادته إلى بساط البحث، ولا يحق لنا الآن أن نشكو من إنكلترا؛
 لأنها حاولت تسوية تلك المسائل دون إشراكنا معها فقد أعرضنا في الماضي عن
@@ -1106,22 +1106,22 @@
 نفسه تعطي ألمانيا على حساب دولتنا ما هو أكثر وأوفر وأغلى قيمة وأعظم شأنًا.
 قد يدهش القارئ إذ لم يسمع أن إنكلترا أعطت ألمانيا شيئًا ولكن من ينظر إلى
 مضمون الاتفاق أو ما عرف منه حتى الآن يتبين له أن إنكلترا صدقت بصفة نهائية
-على سكة حديد <placeName change="#d2e120" xml:id="placeName_41.d2e2645">بغداد</placeName> الألمانية وعدلت عن المعارضة والمقاومة والمعاكسة أو إقامة
+على سكة حديد <placeName change="#d2e120 #d11e309" xml:id="placeName_41.d2e2645" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> الألمانية وعدلت عن المعارضة والمقاومة والمعاكسة أو إقامة
 العراقيل في سبيل ذلك المشروع الخطير، وهي بذلك التصديق على سكة بغداد
 الألمانية قد أعطت ألمانيا ما لا تقدر قيمته ولا تحصَى فوائده، وهذه الحقيقة تنجلي
-عند البحث في مشروع سكة <placeName change="#d2e120" xml:id="placeName_42.d2e2654">بغداد</placeName>.
-فمساحة سكة <placeName change="#d2e120" xml:id="placeName_43.d2e2660">بغداد</placeName> الألمانية تقارب ثلاثة آلاف كيلو متر، تبدأ من حيدر باشا
-على البوسفور وتنتهي عند <placeName change="#d2e120" xml:id="placeName_44.d2e2665">البصرة</placeName> على شط العرب ومن مراجعة عقد الامتياز الذي
+عند البحث في مشروع سكة <placeName change="#d2e120 #d11e309" xml:id="placeName_42.d2e2654" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>.
+فمساحة سكة <placeName change="#d2e120 #d11e309" xml:id="placeName_43.d2e2660" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> الألمانية تقارب ثلاثة آلاف كيلو متر، تبدأ من حيدر باشا
+على البوسفور وتنتهي عند <placeName change="#d2e120 #d11e309" xml:id="placeName_44.d2e2665" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> على شط العرب ومن مراجعة عقد الامتياز الذي
 نالته الشركة الألمانية والاتفاقين اللذين عقد أحدهما سنة 1908 والثاني سنة 1911
 يتبين أن الشركة حصلت على الحق في مد الفروع الكثيرة أو الخطوط المتفرعة من
-تلك السكة، ومن ذلك فرع بين حلب وأورفه وفرع بين <placeName change="#d2e120" xml:id="placeName_45.d2e2675">بغداد</placeName> وخانكين الواقعة
+تلك السكة، ومن ذلك فرع بين حلب وأورفه وفرع بين <placeName change="#d2e120 #d11e309" xml:id="placeName_45.d2e2675" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> وخانكين الواقعة
 على حدود إيران وفرع يمد إلى مرعش وفرع إلى عينتاب وفرع إلى ماردين وفرع
 إلى أربيل، وفروع أخرى تتكون منها الصلة بين السكة الأصلية والبحر المتوسط
-وتنتهي عند نقطة واقعة بين مرسين و<placeName change="#d2e120" xml:id="placeName_46.d2e2684">طرابلس الشام</placeName>. وتلك الفروع هي التي تزيد
+وتنتهي عند نقطة واقعة بين مرسين و<placeName change="#d2e120 #d11e309" xml:id="placeName_46.d2e2684" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName>. وتلك الفروع هي التي تزيد
 مساحة السكة الأصلية إلى ثلاثة آلاف كيلو متر، وتلك السكة وفروعها تتخلل
-آسيا الصغرى وأعالي سوريا وما بين النهرين و<placeName change="#d2e120" xml:id="placeName_48.d2e2695">العراق</placeName> العربي وتجتاز من البلاد
+آسيا الصغرى وأعالي سوريا وما بين النهرين و<placeName change="#d2e120 #d11e309" xml:id="placeName_48.d2e2695" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> العربي وتجتاز من البلاد
 العثمانية الجهات والأقاليم التي فيها مصادر الحياة والثروة والخير.
-وليس ذلك كل ما نالته شركة سكة حديد <placeName change="#d2e120" xml:id="placeName_49.d2e2702">بغداد</placeName> الألمانية فإنها فوق ذلك حصلت
+وليس ذلك كل ما نالته شركة سكة حديد <placeName change="#d2e120 #d11e309" xml:id="placeName_49.d2e2702" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> الألمانية فإنها فوق ذلك حصلت
 على حق إنشاء بعض المواني والمرافئ والأرصفة اللازمة لرسو السفن والمخازن
 اللازمة لتخزين البضائع على تلك الأرصفة وفي بنود الاتفاق بينها وبين الباب
 العالي أن الحكومة العثمانية تأذن لها بتسيير السفن في دجلة والفرات بحجة نقل
@@ -1141,7 +1141,7 @@
 وبواسطة تلك السكة وفروعها وتلك الشروط وتلك الحقوق التي حصلت عليها
 ألمانيا تستطيع نشر نفوذها وبسط يدها وإرساخ قدمها وإدراك مآربها الاستعمارية في
 بلدان مترامية الأطراف أعيا بعضها الفاتحين وأعجز المغيرين في الأزمنة السالفة،
-وكل ذلك دون أن تريق ألمانيا نقطة دم ألماني، وقد تأسست شركة سكة <placeName change="#d2e120" xml:id="placeName_50.d2e2749">بغداد</placeName> برأس
+وكل ذلك دون أن تريق ألمانيا نقطة دم ألماني، وقد تأسست شركة سكة <placeName change="#d2e120 #d11e309" xml:id="placeName_50.d2e2749" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> برأس
 مال لا يزيد على مائة وخمسين ميلون فرنك ولم يدفع منه إلا قيمة النصف فقط،
 ومع ذلك لم يفشل المشروع ولا رجعت ألمانيا القهقرى في هذا السبيل بل خدمها
 حسن الحظ وحالفها النجاح وساعدتها إنكلترا نفسها على تحقيق أمانيها فماذا يكون يا
@@ -1156,7 +1156,7 @@
 جاء في عدد السبت 2 رجب من المؤيد تحت هذا العنوان ما نصه:
 كتب (مسلم) في أحد أعداد المؤيد الماضية مقالة قال فيها: كيف يتأثر القوم
 لوقع المصاب وهم الذين تبرعوا بهذه العملية المؤلمة لسواهم، وهي علمية بتر هذه
-البلاد الخليج الفارسي و<placeName change="#d2e120" xml:id="placeName_51.d2e2785">العراق</placeName> من جسم السلطنة العثمانية، وقد تمت هذه العملية
+البلاد الخليج الفارسي و<placeName change="#d2e120 #d11e309" xml:id="placeName_51.d2e2785" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> من جسم السلطنة العثمانية، وقد تمت هذه العملية
 وجرائدهم ساكتة صامتة لا تبدي حراكًا كأن الحادث لا يستحق أن تراق فيها نقطة
 من حبر على صفحات تلك الجرائد.
 وأنا لم أكن يومئذ على رأي حضرة (المسلم) فيما قاله عن جرائد الآستانة؛
@@ -1165,11 +1165,11 @@
 استغربتها جريدة عزم التركية التي تصدر في الآستانة فقالت في عدد يوم 19 مايو:
 لا ندري هل القيامة قامت؟ هل ذهبت البقية الباقية من أملاكنا في أوربا؟ هل
 احتل الأعداء عاصمتنا؟ هل أخذت الخلافة من يدنا؟ هل رفعت سوريا لواء
-الثورة؟ أم استولى الإنكليز على <placeName change="#d2e120" xml:id="placeName_52.d2e2807">بغداد</placeName>؟
+الثورة؟ أم استولى الإنكليز على <placeName change="#d2e120 #d11e309" xml:id="placeName_52.d2e2807" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>؟
 لا لم يحصل شيء من هذا ولكن (أطه قلعه) ذهبت، وعليها تبكي الصحف
 هي تبكي على أطه قلعه التي خرجت من يدنا منذ ربع قرن.
 إلى هذا الحد بلغ اهتمام صحف الآستانة بحادث أطه قلعه ولذلك لم أر معقولاً
-أن تسكت عن حادث الخليج الفارسي و<placeName change="#d2e120" xml:id="placeName_53.d2e2819">العراق</placeName>، فلما قرأت مقالة المسلم الفاضل
+أن تسكت عن حادث الخليج الفارسي و<placeName change="#d2e120 #d11e309" xml:id="placeName_53.d2e2819" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، فلما قرأت مقالة المسلم الفاضل
 صرت أبحث فيما وصل إلينا من جرائد الآستانة هل هي تسكت حقيقة عما تم في
 العراق، وإذا هي سكتت فهل تعتذر، وماذا عسى يكون عذرها؟
 بقيت على هذه الحال إلى أن وصل مع البريد الأخير عدد 25 مايو من جريدة
@@ -1190,10 +1190,10 @@
 فأول الأمرين اللذين في مصلحة الإنكليز اعترافنا لهم بحق حماية مقاطعة
 الكويت وتنازلنا عن السيادة التي لنا على شبه جزيرة قطر والبحرين، وهذان
 القطران لم تحدد مناطقهما ولم تعين أراضيهما وإننا أعطينا الإنكليز وظيفة تقرير
-الأمن في خليج <placeName change="#d2e120" xml:id="placeName_54.d2e2871">البصرة</placeName>، ووسَّطناهم في حل الاختلافات التي بيننا وبين أمير
+الأمن في خليج <placeName change="#d2e120 #d11e309" xml:id="placeName_54.d2e2871" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>، ووسَّطناهم في حل الاختلافات التي بيننا وبين أمير
 المحمرة، واعترفنا لهم بحق حماية تلك المقاطعة.
 وبالاختصار إننا اعترفنا لحكومة جلالة ملك الإنكليز وإمبراطور الهند بتنازلنا
-له عن خليج <placeName change="#d2e120" xml:id="placeName_55.d2e2881">البصرة</placeName> وسواحله.
+له عن خليج <placeName change="#d2e120 #d11e309" xml:id="placeName_55.d2e2881" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> وسواحله.
 ذلك هو أحد الأمرين اللذين في مصلحة الإنكليز، وأما الأمر الثاني فيتعلق
 بالسياحة وسير السفن على طول نهري الفرات ودجلة ومجرى شط العرب، وهو
 مجمع البحرين، والاعتراف بكل ما حصل عليه الإنكليز من الحقوق والامتيازات
@@ -1202,7 +1202,7 @@
 هذه اللجنة.
 على أن هذا الأمر الثاني لا يزال مظلمًا بالنسبة إلى الأمر الأول، لا سيما
 والإنكليز كانوا قد حاولوا فيما مضى أن يكون لهم حق احتكار تسيير السفن في
-نهري الفرات ودجلة ومجرى شط العرب فقام أهل <placeName change="#d2e120" xml:id="placeName_56.d2e2903">العراق</placeName> وقعدوا لهذا الأمر،
+نهري الفرات ودجلة ومجرى شط العرب فقام أهل <placeName change="#d2e120 #d11e309" xml:id="placeName_56.d2e2903" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وقعدوا لهذا الأمر،
 وعارضوا في إتمامه أشد المعارضة حتى اضطروا مجلس (المبعوثان) إلى رفضه.
 ولما قرأنا ما قرأناه في هذه الأيام من مواد المعاهدة العثمانية الإنكليزية تذكرنا مسألة
 الاحتكار، ولذلك قصدنا الصدر الأعظم محمود شوكت باشا وسألناه عما إذا كان
@@ -1214,7 +1214,7 @@
 العرب وصاروا أصحاب النفوذ والقدرة على ما يلي ذلك من بلاد الإنجليز تلك هي
 حصتهم.
 أما حصتنا فهي أن الإنكليز كانوا يمانعون في إتمام ما وعدنا به الألمان من
-تمديد سكة حديد <placeName change="#d2e120" xml:id="placeName_57.d2e2932">بغداد</placeName> إلى <placeName change="#d2e120" xml:id="placeName_58.d2e2936">البصرة</placeName> فأذنوا بذلك الآن بشرط أن يكون لهم عضوان في
+تمديد سكة حديد <placeName change="#d2e120 #d11e309" xml:id="placeName_57.d2e2932" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_58.d2e2936" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> فأذنوا بذلك الآن بشرط أن يكون لهم عضوان في
 مجلس إدارة شركة هذه السكة الحديدية وأن يكون للبضائع والتجارة الإنكليزية
 نفس الامتيازات التي للبضائع والتجارة الألمانية تلك هي إحدى الفائدتين اللتين
 استفدناهما من المعاهدة.
@@ -1226,7 +1226,7 @@
 وبعد أن أوردت هذه الجريدة التركية مواد المعاهدة الإنكليزية العثمانية علقت
 عليها ما يأتي:
 وإذا أردنا تحليل نتيجة هذه المعاهدة ودققنا النظر فيما كسبناه وخسرناه منها لا
-نرى أن ذهاب قطر والبحرين والكويت وكل خليج <placeName change="#d2e120" xml:id="placeName_59.d2e2965">البصرة</placeName> من يدنا مما يستحق اللوم
+نرى أن ذهاب قطر والبحرين والكويت وكل خليج <placeName change="#d2e120 #d11e309" xml:id="placeName_59.d2e2965" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> من يدنا مما يستحق اللوم
 والانتقاد؛ لأن مثل هذه المقاطعات تفيد دولة تريد أن تتوسع في قواها ولكنها على
 عكس ذلك تضر بالدولة الضعيفة، ويعلم قراؤنا أننا على رأي القائلين بتكثيف
 القوى العثمانية لا التوسع فيها، وسياسة التوسع في الملك والسلطة (انبرياليسم)
@@ -1240,7 +1240,7 @@
 يفرون من الأمور الخشنة يجب عليهم أن يجتنبوا إحداث أمور خشنة، ولعل
 السياسة العثمانية في لوندرة تظهر لنا مهارتها في هذا.
 ونقول بشأن الأمرين اللذين هما في مصلحتنا: إن الأمر الأول وهو تمديد
-سكة حديد <placeName change="#d2e120" xml:id="placeName_60.d2e2998">بغداد</placeName> إلى <placeName change="#d2e120" xml:id="placeName_61.d2e3001">البصرة</placeName> شيء كنا نتمناه من قبل لأنه يمدد لنا نفوذنا أيضا إلى
+سكة حديد <placeName change="#d2e120 #d11e309" xml:id="placeName_60.d2e2998" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_61.d2e3001" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> شيء كنا نتمناه من قبل لأنه يمدد لنا نفوذنا أيضا إلى
 هناك، وإن دخولنا إلى الجزيرة بعد خروجنا من الروم إيلي شيء يسرنا جدًّا.
 وبعكس ذلك مسألة الرسوم الجمركية فإننا نرى دولتنا تسلك فيها من القديم
 مسلكًا مستقيمًا، ومحاولتها ضم 4 في المائة على الرسوم الجمركية تدل على خطئها
@@ -1254,7 +1254,7 @@
 باهظًا كهذا، لا سيما ونحن متفقون مع دول المحالفة الثلاثية على ذلك، وكان بقي
 علينا أن نتفق مع دول الاتفاق الثلاثي، وكانت هذه فرصة لنا فأضعناها.
 وبعدُ، فإني لم أطلع على رأي لجريدة تركية في حادث الخليج الفارسي
-و<placeName change="#d2e120" xml:id="placeName_62.d2e3035">العراق</placeName> غير هذه الجريدة، وهو كما يرى القارئ مؤيد لقول حضرة المسلم في
+و<placeName change="#d2e120 #d11e309" xml:id="placeName_62.d2e3035" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> غير هذه الجريدة، وهو كما يرى القارئ مؤيد لقول حضرة المسلم في
 صحف الآستانة وأصحابها، ولله في خلقه شئون.
 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_92.d2e3042"/> 
@@ -1452,11 +1452,11 @@
 
                
 قد عرف قراء المنار كافةً أنه كان من مقاصد زعماء جمعية الاتحاد والترقي
-جعل <placeName change="#d2e120" xml:id="placeName_63.d2e3434">الدولة العثمانية</placeName> دولة تركية محضة تقلد فرنسة في سياستها وإدارتها، وكان من
+جعل <placeName change="#d2e120 #d11e309" xml:id="placeName_63.d2e3434" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> دولة تركية محضة تقلد فرنسة في سياستها وإدارتها، وكان من
 وسائل هذا المقصد العظيم عندهم إضعاف ما عدا الترك من الشعوب القوية التي
 تتألف منها هذه الدولة كالعرب والأرنؤوط، وكان من مسارعتهم في هذا أن جيشوا
 الجيوش اللجبة على بلاد هذين الشعبين المخلصين لدولتهم، الراضين معها بسوء
-حالهم، وفعلوا الأفاعيل الشنعاء في <placeName change="#d2e120" xml:id="placeName_64.d2e3446">اليمن</placeName> والكرك، وحوران وبلاد الأرنؤوط،
+حالهم، وفعلوا الأفاعيل الشنعاء في <placeName change="#d2e120 #d11e309" xml:id="placeName_64.d2e3446" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> والكرك، وحوران وبلاد الأرنؤوط،
 وعرف قراء المنار أيضًا أننا قد جهدنا حق الجهاد بالقول والسعي لمقاومة هذه
 الأعمال الضارة، وصرحنا بأن تتريك العناصر بالسلطة والقوة أو بغير ذلك لم يعد
 مما يدخل في حدود الإمكان، وأنه لو كان ممكنًا لعذرنا الاتحاديين على محاولته
@@ -1467,12 +1467,12 @@
 الكثيرة من الجند في تلك السبيل، وما كانت العاقبة إلا إضاعة الشعب الأرنؤوطي
 الباسل بإخراجه من حضن الدولة الإسلامية، وتنبيه الشعب العربي الكريم إلى
 الخطر الذي ينذره، وينذر الدولة سرعة الانحلال والزوال، من عالم السلطة
-والاستقلال، وزاد في يقظته حادث <placeName change="#d2e120" xml:id="placeName_65.d2e3473">طرابلس الغرب</placeName>، فمثُل للعالم كله شدةُ ارتباطه
+والاستقلال، وزاد في يقظته حادث <placeName change="#d2e120 #d11e309" xml:id="placeName_65.d2e3473" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName>، فمثُل للعالم كله شدةُ ارتباطه
 بهذه الدولة على إضاعة رجالها هذه المملكة العربية العظيمة بإخراج ما فيها من
-العسكر والسلاح وإرساله إلى قتال إخوانهم في <placeName change="#d2e120" xml:id="placeName_66.d2e3481">اليمن</placeName>، ثم اشتدت اليقظة وعظم
+العسكر والسلاح وإرساله إلى قتال إخوانهم في <placeName change="#d2e120 #d11e309" xml:id="placeName_66.d2e3481" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، ثم اشتدت اليقظة وعظم
 الخوف من الخطر بما كان من انكسار دولتهم في حرب البلقان، فعلم عقلاؤهم
 وأهل البصيرة منهم أن استمرار السكوت والسكون يفضي إلى إضاعة بلادهم
-المباركة وبلادهم المقدسة، كما ضاعت <placeName change="#d2e120" xml:id="placeName_67.d2e3490">طرابلس الغرب</placeName> وألبانية ومكدونية، فهبوا
+المباركة وبلادهم المقدسة، كما ضاعت <placeName change="#d2e120 #d11e309" xml:id="placeName_67.d2e3490" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وألبانية ومكدونية، فهبوا
 لمطالبة الدولة بالإصلاح الذي تقوى به الأمة بقوة كل عنصر من عناصرها وشعب
 من شعوبها، على قاعدة اللامركزية الإدارية التي لا يُرْجَى ذلك بدونها، وقد قرؤوا
 البراهين الكثيرة في المنار على ذلك.
@@ -1481,19 +1481,19 @@
 إلى أن ذلك من الترك قبل العرب، وقد قويت هذه الدعوة وانتشرت في المملكة
 على عهد وزارة مختار باشا، ووزارة كامل باشا الأخيرة، ولم يكد الاتحاديون
 يسقطون وزارة كامل باشا ويعودون إلى مقاعد الباب العالي حتى عادوا إلى شنشنتهم
-الأولى في مقاومة كل حركة إصلاحية بالقوة <placeName change="#d2e120" xml:id="placeName_68.d2e3513">القاهرة</placeName>، وكان قد تأسس حزب
+الأولى في مقاومة كل حركة إصلاحية بالقوة <placeName change="#d2e120 #d11e309" xml:id="placeName_68.d2e3513" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، وكان قد تأسس حزب
 اللامركزية في مصر وانتشرت دعوته في البلاد العربية، وتأسست جمعية بيروت
 الإصلاحية وتعارفت مع هذا الحزب، وقام على أثر ذلك نبهاء العرب الذين
 يشتغلون في فرنسة بطلب العلوم والفنون والتجارة يطلبون عقد مؤتمر عربي في
 باريس لبيان حقوق العرب في الدولة وطلب اللامركزية، وفوضوا أمر هذا المؤتمر
-إلى حزب اللامركزية بمصر، وظهرت حركة الإصلاح في <placeName change="#d2e120" xml:id="placeName_69.d2e3527">العراق</placeName> بصورة مخيفة،
+إلى حزب اللامركزية بمصر، وظهرت حركة الإصلاح في <placeName change="#d2e120 #d11e309" xml:id="placeName_69.d2e3527" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بصورة مخيفة،
 واتحد أهلها بحزب اللامركزية أيضًا، وامتد الشعور بهذه النهضة المباركة إلى
 ضباط الجيش المحارب وغير المحارب وخافت الحكومة أن يؤيدوها.
 بدأت وزارة شوكت باشا - رحمه الله وعفا عنه - بالضغط على جمعية
 بيروت الإصلاحية فأقفلت ناديها وحبست بعض أعضائها وهددتها بالحكم العرفي،
-فظهر لها ولجمعية الاتحاد أن هذه الشدة ما زادت أهل <placeName change="#d2e120" xml:id="placeName_70.d2e3541">بيروت</placeName> - وهم تحت ضغط
+فظهر لها ولجمعية الاتحاد أن هذه الشدة ما زادت أهل <placeName change="#d2e120 #d11e309" xml:id="placeName_70.d2e3541" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> - وهم تحت ضغط
 الحكومة العرفية - إلا اتحادًا وإصرارًا على ما قرروا طلبه من الإصلاح، وكذلك
-فعل الاتحاديون في <placeName change="#d2e120" xml:id="placeName_71.d2e3548">البصرة</placeName> فأعقبتهم الشدة والتهديد كل حسرة، فماذا يمكن أن يقاوم
+فعل الاتحاديون في <placeName change="#d2e120 #d11e309" xml:id="placeName_71.d2e3548" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> فأعقبتهم الشدة والتهديد كل حسرة، فماذا يمكن أن يقاوم
 به من هم في البلاد الحرة كمصر وأوربة وأمريكة؟ حاولت حكومة الباب العالي
 أن تمنع عقد المؤتمر في باريس بالرغبة إلى الحكومة الجمهورية في ذلك؛ فلم
 تُجِبْ فرنسة طلبها هذا، فأوعزت إلى أنصار السلطة في سورية من رجال المال
@@ -1510,7 +1510,7 @@
 ما يُقَوِّى نفوذ الأجانب فيها.
 بعد هذا كله ثابت الجمعية إلى رشدها ورأت الخير لها وللدولة في إجابة
 المصلحين إلى إرضاء العرب والعاقل من استفاد من الحوادث واعتبر، وكان أعقل
-شرفاء <placeName change="#d2e120" xml:id="placeName_72.d2e3598">مكة</placeName> الشريف علي حيدر مراقبًا لسير الحوادث، وله عند الاتحاديين المكانة
+شرفاء <placeName change="#d2e120 #d11e309" xml:id="placeName_72.d2e3598" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> الشريف علي حيدر مراقبًا لسير الحوادث، وله عند الاتحاديين المكانة
 العالية، فلما رأى فرصة إصلاح البين سانحة سعى لها سعيها، وجمع بين طلعت
 بك الزعيم الأكبر للجمعية في الحكومة وعبد الكريم أفندي قاسم الخليل رئيس
 المنتدى الأدبي لأجل ذلك؛ إذ لا يوجد عربي في الآستانة يعرف من حركة النهضة
@@ -1533,12 +1533,12 @@
 بباريس، فلما أزمعا الرحيل اعتلت صحة عادل بك فسافر مدحت شكري بك ومعه
 عبد الكريم أفندي رسول الوفاق والسلام، وبعد المذاكرة والمناقشة تم الاتفاق
 على القواعد الاثنتي عشرة الآتية على إبهامها، رجاء الاتفاق على التفصيل
-بعد، واقترح زيادة 13 قاعدة عليها لإرضاء وفد <placeName change="#d2e120" xml:id="placeName_73.d2e3651">بيروت</placeName> موضوعها: أن يكون
-نصف أعضاء المجلس العمومي في <placeName change="#d2e120" xml:id="placeName_74.d2e3656">بيروت</placeName> من المسلمين والنصف الآخر من
-غيرهم؛ لأن هذا أكبر ما أرضى به مسلمو <placeName change="#d2e120" xml:id="placeName_75.d2e3662">بيروت</placeName> نصاراها وبنوا عليه أساس اتفاقهم
+بعد، واقترح زيادة 13 قاعدة عليها لإرضاء وفد <placeName change="#d2e120 #d11e309" xml:id="placeName_73.d2e3651" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> موضوعها: أن يكون
+نصف أعضاء المجلس العمومي في <placeName change="#d2e120 #d11e309" xml:id="placeName_74.d2e3656" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> من المسلمين والنصف الآخر من
+غيرهم؛ لأن هذا أكبر ما أرضى به مسلمو <placeName change="#d2e120 #d11e309" xml:id="placeName_75.d2e3662" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> نصاراها وبنوا عليه أساس اتفاقهم
 المحمود، فوعد مدحت شكري بك بالسعي لإقناع جمعيته بها، وعلى مسائل
 أخرى سرية تتعلق بالأشخاص، وعاد إلى الآستانة على أن ينتظر مندوبو
-حزب اللامركزية وجمعية <placeName change="#d2e120" xml:id="placeName_76.d2e3671">بيروت</placeName> الإصلاحية في باريس تصديق الحكومة
+حزب اللامركزية وجمعية <placeName change="#d2e120 #d11e309" xml:id="placeName_76.d2e3671" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> الإصلاحية في باريس تصديق الحكومة
 رسميًّا على القسم الجهري من الاتفاق، وطلبهم إلى الآستانة لأجل مباشرة
 التنفيذ، وفي أثناء ذلك كانت الرسائل البرقية والبريدية متصلة بين الحزب في
 مصر ومؤتمر باريس، وأرسل المؤتمر إلى الحزب صورة الاتفاق.
@@ -1630,8 +1630,8 @@
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_5.d2e3872">4- </hi>تترك الأمور النافعة (الأشغال) للإدارة المحلية.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_6.d2e3878">5- </hi>العسكر يخدمون في البلاد القريبة منهم. في الأصل التركي: في مناطق
-المعسكرات القريبة منهم، ولكن العسكر الذي يلزم إرساله إلى <placeName change="#d2e120" xml:id="placeName_77.d2e3883">اليمن</placeName> و<placeName change="#d2e120" xml:id="placeName_78.d2e3886">الحجاز</placeName> أو
-عسير يرسل ضمن نسبة عادلة من جميع <placeName change="#d2e120" xml:id="placeName_79.d2e3892">المملكة العثمانية</placeName>.
+المعسكرات القريبة منهم، ولكن العسكر الذي يلزم إرساله إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_77.d2e3883" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_78.d2e3886" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أو
+عسير يرسل ضمن نسبة عادلة من جميع <placeName change="#d2e120 #d11e309" xml:id="placeName_79.d2e3892" ref="oape:place:1" resp="#xslt">المملكة العثمانية</placeName>.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_7.d2e3897">6- </hi>مقررات المجالس العمومية تكون نافذة على كل حال (في الأصل التركي
 زيادة: فيما هو من صلاحيتها القانونية) .
@@ -1699,7 +1699,7 @@
 معشار ما تستحقه من الثمن، وهذا أكبر خطر على الولايات العربية التي فيها معظم
 هذه الأرض؛ ولذلك قامت قيامة الفلاحين وأصحاب الأملاك، لا السياسيين،
 وطفقوا يكتبون المحاضر البرقية والبريدية يستغيثون بالحكومة أن تكف عن بيعها
-للأجانب، وأن تقسمها وتبيعها للأهالي. وألف أهل <placeName change="#d2e120" xml:id="placeName_80.d2e4035">البصرة</placeName> جمعية للسعي في
+للأجانب، وأن تقسمها وتبيعها للأهالي. وألف أهل <placeName change="#d2e120 #d11e309" xml:id="placeName_80.d2e4035" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> جمعية للسعي في
 مقاومة هذا البيع، وهم يجتهدون في تعميمها في البلاد فعسى أن تصغي الحكومة
 إلى استغاثة الأمة، وأن تسلك في بيع هذه الأراضي للأهالي ما سلكته الحكومة
 المصرية في بيع أراضي الدائرة السنية، وسنعود إلى هذا في الجزء الآتي إن شاء

@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_35-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_35-i_3.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e276">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_35-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_35-i_3.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1354">1354</date><date calendar="#cal_gregorian" when="1936" xml:lang="ar">مارس - 1936م</date></imprint>
                   <biblScope unit="volume" from="35" to="35" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">35</biblScope>
                   <biblScope unit="issue" from="3" to="3" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">3</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e276" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -221,8 +221,8 @@
 فقد العلم منه أي كتاب <gap resp="#org_MS" change="#d2e120" xml:id="gap_30.d2e578"/> فقد الدين فيه أي معين
 شعر الناس باحتياج إليه <gap resp="#org_MS" change="#d2e120" xml:id="gap_31.d2e582"/> بعد أن لم يروا له من قرين
 * * *
-عز عن صاحب المنار حمى <placeName change="#d2e120" xml:id="placeName_4.d2e589">الشام</placeName> <gap resp="#org_MS" change="#d2e120" xml:id="gap_32.d2e592"/> وعز الأحساب في (قلمون)
-بلدة في ذرى <placeName change="#d2e120" xml:id="placeName_5.d2e596">طرابلس</placeName> قرت <gap resp="#org_MS" change="#d2e120" xml:id="gap_33.d2e599"/> من <placeName change="#d2e120" xml:id="placeName_6.d2e601">طرابلس</placeName> غرة في الجبين
+عز عن صاحب المنار حمى <placeName change="#d2e120 #d11e276" xml:id="placeName_4.d2e589" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> <gap resp="#org_MS" change="#d2e120" xml:id="gap_32.d2e592"/> وعز الأحساب في (قلمون)
+بلدة في ذرى <placeName change="#d2e120 #d11e276" xml:id="placeName_5.d2e596" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> قرت <gap resp="#org_MS" change="#d2e120" xml:id="gap_33.d2e599"/> من <placeName change="#d2e120 #d11e276" xml:id="placeName_6.d2e601" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> غرة في الجبين
 بلدة أنجبت إلى الشرق قومًا <gap resp="#org_MS" change="#d2e120" xml:id="gap_34.d2e607"/> هم نجوم الهدى وأسد العرين
 غاب عنها منارها فتوارت <gap resp="#org_MS" change="#d2e120" xml:id="gap_35.d2e611"/> من جوى الحزن بالسحاب الجون
 بعثتني جماعة الفضل في مصر <gap resp="#org_MS" change="#d2e120" xml:id="gap_36.d2e615"/> رسول القريض في التأبين
@@ -385,7 +385,7 @@
 يزاولها في مهارة وحذق، ولكنها ملكة من الملكات التي قد يحسنها قليل العلم،
 ويتخلف عنها أكثر الناس تحصيلاً، وقد نشأ فقيدنا ونشأ معه الميل إلى وعظ العامة
 وإرشادهم، بما كان يتصدى له أولاً في صدر شبابه من قراءة الدروس في قريته
-القلمون من أعمال <placeName change="#d2e120" xml:id="placeName_7.d2e995">طرابلس الشام</placeName>، ثم بما كان من إنشائه المنار ثانيًا، واستهدافه
+القلمون من أعمال <placeName change="#d2e120 #d11e276" xml:id="placeName_7.d2e995" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName>، ثم بما كان من إنشائه المنار ثانيًا، واستهدافه
 بالإجابة على الأسئلة التي كانت تنحدر إليه كالسيل من الشرق والغرب، في
 المسائل المنوعة، وجرأته وصراحته في تقديم النصيحة للملوك والأمراء وكبار
 الحكام والعلماء - إحياء لسنة السلف - مما جعله أندى العلماء صوتًا، وأبعد
@@ -396,7 +396,7 @@
 بين علوم الدين، وما لا بد منه من علوم الدنيا، ويقوم الفريق الآخر بإرشاد
 المسلمين إلى ما هو أجدى عليهم في دينهم ودنياهم، مع خبرة بحال العصر، وما
 ينبغي أن يكون عليه المرشد من مسايرة الزمن.
-كانت هذه أمنية تعتلج بنفسه منذ كان يتردد وهو طالب ب<placeName change="#d2e120" xml:id="placeName_9.d2e1025">طرابلس</placeName> على مكتبة
+كانت هذه أمنية تعتلج بنفسه منذ كان يتردد وهو طالب ب<placeName change="#d2e120 #d11e276" xml:id="placeName_9.d2e1025" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> على مكتبة
 المبشرين الأمريكيين، يقرأ جريدتهم الدينية، وبعض كتبهم ورسائلهم، ويجادل
 قسوسهم.
 وفي سنة 1327 كان الخلاف بين الترك والعرب مستمرًّا، فرأى أن يشخص
@@ -436,7 +436,7 @@
 ثبت عليه الكذب كان الطرد جزاءه، وكانت المدرسة في قصر شريف باشا بالمنيل
 على ضفة النيل الغربية عند قنطرة الملك الصالح فكان الطلبة لا ينزلون إلى مصر
 إلا بإذن كتابي من الفقيد، بعد أن يذكر طالب النزول كتابة سبب نزوله وموعد
-غدوه ورواحه، وكان يقول: (إن الذي يكثر الاختلاف إلى <placeName change="#d2e120" xml:id="placeName_10.d2e1125">القاهرة</placeName> تبطل الثقة
+غدوه ورواحه، وكان يقول: (إن الذي يكثر الاختلاف إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_10.d2e1125" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> تبطل الثقة
 به) لذلك كنا نظل الأسبوع والأسابيع لا نغادر جزيرة الروضة، وكان المجتمع
 بالأمس غيره اليوم، بل فوق ذلك كان يكلف كل طالب أن يحمل في جيبه مذكرة
 يدون فيها أعماله حسنها وسيئها؛ ليكون على نفسه حسيبًا، ولأجل ذلك كان لا بد
@@ -492,7 +492,7 @@
 عرفتم، وأقول لكم: إن منهم المشتغل بالتربية والتعليم، والمشتغل بالصحافة
 والتحرير، والمشتغل بالوعظ والإرشاد، والمتصل بالملوك ورجال السياسة.
 وحسبكم أن تعلموا أن الناموس الخاص لجلالة ابن سعود أحدهم، بل حسبكم
-أن تعلموا أن زعيم <placeName change="#d2e120" xml:id="placeName_11.d2e1251">القدس</placeName> الكبير السيد أمين الحسيني ممن يتشرفون بالانتساب إليها.
+أن تعلموا أن زعيم <placeName change="#d2e120 #d11e276" xml:id="placeName_11.d2e1251" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> الكبير السيد أمين الحسيني ممن يتشرفون بالانتساب إليها.
 هذه لمحة خاطفة عن تلك المدرسة التي أصبحت كمنشئها في ذمة التاريخ،
 وهناك مدرسة الفقيد الكبرى التي عكس مناره من أشعتها على العالم أربعين سنة،
 تبوأ فيها بحق مقام الإمامة، وخلف ميراثًا عظيمًا يشرع للناس طرق الإصلاح،
@@ -598,9 +598,9 @@
 الذين لهم محنة وبلاء في ذلك السبيل كشيخ الإسلام ابن تيمية، الذي قال فيه أحد
 الأئمة: (ما رأيت مثله، ولا رأى هو مثل نفسه، وما رأيت أحدًا أعلم بكتاب الله
 وسنة رسوله ولا أنفع لهما منه) وشى به العلماء لدى الملوك وولاة الأمور،
-ورموه بالإلحاد، فسجن أكثر من مرة، ومات سجينًا ب<placeName change="#d2e120" xml:id="placeName_12.d2e1480">دمشق</placeName>.
+ورموه بالإلحاد، فسجن أكثر من مرة، ومات سجينًا ب<placeName change="#d2e120 #d11e276" xml:id="placeName_12.d2e1480" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>.
 وكتلميذه ابن قيم الجوزية، كان على أخص أوصاف شيخه، امتحن في سبيل
-دعوته، وأوذي مرات، وحُبس مع شيخه بقلعة <placeName change="#d2e120" xml:id="placeName_13.d2e1488">دمشق</placeName> بعيد المحنة.
+دعوته، وأوذي مرات، وحُبس مع شيخه بقلعة <placeName change="#d2e120 #d11e276" xml:id="placeName_13.d2e1488" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> بعيد المحنة.
 فإذا كان للاستقلال السياسي شهداء يصرعون في ميادينه، فإن الاستقلال
 الديني العلمي له شهداء وشهداء، وفي مقدمتهم ابن تيمية وابن قيم الجوزية.
 أما إحياؤه لذكرى موقظ الشرق (السيد جمال الدين) و (والأستاذ الإمام)
@@ -676,7 +676,7 @@
                
 
                
-على مقربة من مدينة <placeName change="#d2e120" xml:id="placeName_14.d2e1650">طرابلس الشام</placeName> قرية صغيرة تدعى القلمون، تشرف
+على مقربة من مدينة <placeName change="#d2e120 #d11e276" xml:id="placeName_14.d2e1650" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> قرية صغيرة تدعى القلمون، تشرف
 عليها قمم لبنان الشامخة، وتكشفها صخوره البارزة، وتنشر عليها أشجار الزيتون
 نفحات من عبيرها المنعش، ويخيل إليك أن القرية تزحف بيوتها وحدائقها، من
 سفح الجبل إلى شاطئ البحر، لكي تغتسل في مياهه الزرقاء، سعيدة بأن تنعم بكل
@@ -718,7 +718,7 @@
 إلى السويس في معية صاحب السمو الأمير سعود، كان السيد محمد رشيد في ذلك
 اليوم شديد الفرح، يكثر من الحركة والكلام والضحك، وكنا نتساءل قائلين: (ما
 سبب ذلك يا ترى؟) وما كنا ندري أنه - رحمه الله - يودعنا ويودع العلم، فقد
-توفي فجأة في الطريق، في ذلك اليوم، قبل أن يصل إلى <placeName change="#d2e120" xml:id="placeName_16.d2e1750">القاهرة</placeName> كما تعلمون.
+توفي فجأة في الطريق، في ذلك اليوم، قبل أن يصل إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_16.d2e1750" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> كما تعلمون.
 والآن أيها السادة، إن ما قلته عن حياة السيد الإمام محمد رشيد رضا ليس
 كل ما يجب أن يقال عن حياته، ولكنني أديت واجبًا عن نفسي وعن إخواني
 المسيحيين، نحو الراحل الكريم، ويشرفني أن يكون صوتي قد ارتفع في هذا
@@ -729,7 +729,7 @@
 ومن نيلها المبارك الوفي والوفاء بكل ما فيه من قدسية وروعة، فعاش طول
 حياته وفيًّا لدينه، وفيًّا لأساتذته وتلاميذه، وفيًّا لأهله وعشيرته وأصدقائه، وفيًّا
 لوطنه الأول والثاني.
-تلقى - رحمه الله علومه - في مدارس <placeName change="#d2e120" xml:id="placeName_17.d2e1777">طرابلس</placeName> و<placeName change="#d2e120" xml:id="placeName_18.d2e1780">الشام</placeName>، وكان أشهر أساتذته
+تلقى - رحمه الله علومه - في مدارس <placeName change="#d2e120 #d11e276" xml:id="placeName_17.d2e1777" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> و<placeName change="#d2e120 #d11e276" xml:id="placeName_18.d2e1780" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، وكان أشهر أساتذته
 الشيخ حسين الجسر، من كبار العلماء السوريين في ذلك العهد.
 وفي سنة 1897 نال شهادة العالمية، وقدم إلى مصر في تلك السنة، أي في
 شهر رجب عام 1315 هجرية، تحدو به الرغبة الملحة في لقاء الإمام محمد عبده
@@ -741,7 +741,7 @@
 ومنذ أن وطأت قدماه أرض مصر إلى أن توفاه الله فيها، ظل يجاهد ويناضل
 في سبيل دينه، دون أن ينسى وطنه الأول: فقد عاد إلى سورية بعد الحرب
 العظمى مباشرة، ونظرًا إلى مكانته السامية في النفوس، انتخبه السوريون رئيسًا
-لمؤتمرهم الوطني، الذي اجتمع في <placeName change="#d2e120" xml:id="placeName_19.d2e1818">دمشق</placeName> سنة 1919، وقرروا إعلان استقلال
+لمؤتمرهم الوطني، الذي اجتمع في <placeName change="#d2e120 #d11e276" xml:id="placeName_19.d2e1818" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> سنة 1919، وقرروا إعلان استقلال
 سوريا كدولة عربية، ونادى بالمغفور له فيصل بن الحسين ملكًا على السوريين،
 وكان لآراء السيد محمد رشيد رضا ونصائحه وإرشاداته، فضل كبير في نجاح
 تلك الحركة المباركة.
@@ -1135,7 +1135,7 @@
 نقودًا، ولا زلت أذكر مرة أنه دفع لشاب عراقي جنيهًا ذهبًا في أيام الحرب وكان
 بائسًا، فامتنع عن الأخذ فألح بقوة، وقال له: (إنني لا أتصدق عليك، وإنما
 يمكنك أن تحسبه سلفة من محيي الدين، وعندما توسر ترده إليه) وبذلك أخذ
-الجنيه، وهو الآن محامٍ وكان موظفًا بالحكومة العراقية في <placeName change="#d2e120" xml:id="placeName_20.d2e2843">بغداد</placeName>.
+الجنيه، وهو الآن محامٍ وكان موظفًا بالحكومة العراقية في <placeName change="#d2e120 #d11e276" xml:id="placeName_20.d2e2843" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>.
 ولطالما مد إليه كثير من العظماء أيديهم فردها مملوءة، ولم يكن يذكر ذلك لأحد
 ما؛ وإنما سمعت هذا من الخادم الذي كان واسطة الدفع، وهنا أنقل للقراء كتابًا
 ورد إليَّ من الشيخ محمد بن سياد أمين مكتبة الحرم المكي، قال - حفظه الله -:
@@ -1199,7 +1199,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_170.d2e2977"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_171.d2e2979"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_172.d2e2981"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_173.d2e2983"/> <placeName change="#d2e120" xml:id="placeName_21.d2e2985">القاهرة</placeName> <note type="footnote" place="bottom" change="#d2e120" xml:id="note_10.d2e2988"/>
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_173.d2e2983"/> <placeName change="#d2e120 #d11e276" xml:id="placeName_21.d2e2985" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> <note type="footnote" place="bottom" change="#d2e120" xml:id="note_10.d2e2988"/>
             </note>
             <pb n="n35-p227" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4470.xhtml" change="#d2e120" xml:id="pb_23.d2e2991"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="227" xml:id="pb_24.d2e2993"/>
 
@@ -1498,11 +1498,11 @@
 علينا للتشهير بنا أسماء مختلفة آخرها أننا (وهابية) وهي كلمة لم تعن في نظرنا
 يومئذ إلا ما تعنيه اليوم في كثير من الأوساط في أنها طريقة الرجوع إلى السلف
 والاعتماد على كتب المؤلفين أمثال ابن تيميه وابن القيم ومن حذا حذوهما من الأئمة.
-معرفتي بالسيد رشيد سماعًا: وفي تلك الغضون طلعت علينا من <placeName change="#d2e120" xml:id="placeName_22.d2e3672">القاهرة</placeName> مجلة
+معرفتي بالسيد رشيد سماعًا: وفي تلك الغضون طلعت علينا من <placeName change="#d2e120 #d11e276" xml:id="placeName_22.d2e3672" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> مجلة
 (<title change="#d2e120" xml:id="title_19.d2e3678">المنار</title>) فعرفنا أن لنا في مصر إخوانًا ينطق بلسانهم الراحل الكريم، فكنا
 ننتظر وصولها بلهفة وشوق؛ لنطلع منها على أخبار الأستاذ الإمام محمد عبده
 وإخوانه السلفيين المجددين.
-ومع كل المقاومات التي لاقيناها في <placeName change="#d2e120" xml:id="placeName_23.d2e3687">الدولة العثمانية</placeName> ولاقاها إخواننا في مصر
+ومع كل المقاومات التي لاقيناها في <placeName change="#d2e120 #d11e276" xml:id="placeName_23.d2e3687" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> ولاقاها إخواننا في مصر
 فلابد لنا من الاعتراف بأنها لم تكن شيئا مذكورًا بجانب ما لقيه رجال الإصلاح
 الديني في أوروبا، ولعل من أسباب ذلك أننا ليس عندنا (إكيروس) منظم له
 جيوشه وقواده ومصالحه الخاصة.
@@ -1541,7 +1541,7 @@
 <p change="#d2e120" xml:id="p_2.d2e3769">
                
 بقلم سماحة السيد عبد الحميد كرامي
-زعيم <placeName>طرابلس الشام</placeName>
+زعيم <placeName ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt" change="#d11e276">طرابلس الشام</placeName>
 
                
 بسم الله الرحمن الرحيم
@@ -1601,7 +1601,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_275.d2e3900"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_276.d2e3902"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_277.d2e3904"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_278.d2e3906"/> <placeName change="#d2e120" xml:id="placeName_25.d2e3908">طرابلس الشام</placeName> <note type="footnote" place="bottom" change="#d2e120" xml:id="note_17.d2e3915"/>
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_278.d2e3906"/> <placeName change="#d2e120 #d11e276" xml:id="placeName_25.d2e3908" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> <note type="footnote" place="bottom" change="#d2e120" xml:id="note_17.d2e3915"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_15.d2e3917">الكاتب: <persName change="#d2e141 #d2e120" xml:lang="ar" xml:id="persName_18.d2e3919">عبد الحميد كرامي</persName>
          </byline></div>
             <pb n="n35-p238" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P4476.xhtml" change="#d2e120" xml:id="pb_35.d2e3923"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="238" xml:id="pb_36.d2e3924"/>
@@ -1700,7 +1700,7 @@
 
                
 بسم الله الرحمن الرحيم
-حضرة الوطني المفضال الأستاذ محمد علي الطاهر المحترم <placeName change="#d2e120" xml:id="placeName_27.d2e4177">القاهرة</placeName> - مصر
+حضرة الوطني المفضال الأستاذ محمد علي الطاهر المحترم <placeName change="#d2e120 #d11e276" xml:id="placeName_27.d2e4177" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> - مصر
 السلام عليكم ورحمة الله وبركاته وبعد، فقد تلقيت كتابكم الكريم المؤرخ في
 24 رجب 1354 الموافق 22 أكتوبر سنة 1935، والمتضمن قيام فريق من
 إخواننا الأكارم بتأليف لجنة لتأبين فقيد الإسلام الكبير منشئ المنار المرحوم السيد
@@ -1848,7 +1848,7 @@
 وألف السيد رشيد كتاب الوحي المحمدي ليرد على موتيه ودرمنجهم
 وأضرابهما فنفى أسطورة اجتماع النبي ببحيرا الراهب في مدينة بصرى بالشام
 الذي قيل إنه علَّم النبي.
-وأثبت بأن محمدًا لما خرج إلى <placeName change="#d2e120" xml:id="placeName_28.d2e4501">الشام</placeName> مع عمه كان عمره تسع سنين، وكل ما
+وأثبت بأن محمدًا لما خرج إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_28.d2e4501" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> مع عمه كان عمره تسع سنين، وكل ما
 جاء فيها ضعيف الأسانيد إلا رواية الترمذي.
 وهذه ليس فيها اسم بحيرا وفيها غلط في المتن، وليس في شيء منها أن
 النبي سمع من بحيرا شيئًا من عقيدته أو دينه.
@@ -1899,7 +1899,7 @@
 إن فريقًا مهمًّا من المستشرقين يستعملون علمهم وأدبهم لأغراض سياسية في
 الممالك الإسلامية والشرقية، فهم يتقنون اللغات ويندسون بين ظهرانيهم ويقفون
 على أخلاقهم وعاداتهم ونظمهم وأسرار دولهم، فمن هؤلاء: هيرجرونجيه الذي
-أقام في <placeName change="#d2e120" xml:id="placeName_29.d2e4614">مكة</placeName> وفي جاوة مسلمًا، وجورج سيل أقام في مصر و<placeName change="#d2e120" xml:id="placeName_30.d2e4618">مكة</placeName> مسلمًا، وشارل
+أقام في <placeName change="#d2e120 #d11e276" xml:id="placeName_29.d2e4614" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وفي جاوة مسلمًا، وجورج سيل أقام في مصر و<placeName change="#d2e120 #d11e276" xml:id="placeName_30.d2e4618" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> مسلمًا، وشارل
 بيرتون حج وألف في كُتاب العرب وشعائر الإسلام كتابًا، ولين مؤلف كتاب
 (المصريون المحدثون) .
 وكانت الحاجة إلى هؤلاء الناس ماسة وأعمالهم لأوطانهم مثمرة عندما كان
@@ -1957,7 +1957,7 @@
                
 أرسلها المجاهد الكبير سعادة محمد عز الدين باشا الحلبي من النبك
 حضرات أصحاب السعادة رئيس وأعضاء اللجنة الموقرة لتأبين الأستاذ الكبير
-المرحوم الإمام العلاَّمة السيد محمد رشيد رضا - <placeName change="#d2e120" xml:id="placeName_31.d2e4731">القاهرة</placeName>.
+المرحوم الإمام العلاَّمة السيد محمد رشيد رضا - <placeName change="#d2e120 #d11e276" xml:id="placeName_31.d2e4731" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>.
 السلام عليكم ورحمة الله وبركاته وبعد، فإنا نشاطركم الأسى على رزء الفقيد
 العظيم العلاَّمة السيد محمد رشيد رضا رحمه الله، فلقد فقدنا به ركنًا عظيمًا
 من أركان العرب والإسلام، وعلمًا فذًّا من أعلام العلم والتقوى، وبطلاً مقدامًا من

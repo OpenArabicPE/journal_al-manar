@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_15-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_15-i_3.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e309">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_15-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_15-i_3.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e304" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e309" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e309" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e309" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1330">1330</date><date calendar="#cal_gregorian" when="1912" xml:lang="ar">مارس - 1912م</date></imprint>
                   <biblScope unit="volume" from="15" to="15" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">15</biblScope>
                   <biblScope unit="issue" from="3" to="3" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">3</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e309" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e181">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e184">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e190">
                <item change="#d2e120" xml:id="item_1.d2e192">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e194">num</gi> node </item>
@@ -327,7 +327,7 @@
 مجتهد. فانظروا إلى قدح هؤلاء في الأئمة المبرزين، وأنهم كانوا يقدمون على ما
 لا يعلمون، فإن الأئمة ما زالوا في جميع الأقطار يراجعون في الفتاوى، ويفتون
 باجتهادهم مع اختلاف أصنافهم، كالمعروفين بنشر مذهب الشافعي كأبي إسحق
-صاحب المهذب وأشياخه من أئمة <placeName change="#d2e120" xml:id="placeName_4.d2e847">العراق</placeName> كلهم مبرزون مفتون، وكذلك أئمة
+صاحب المهذب وأشياخه من أئمة <placeName change="#d2e120 #d11e309" xml:id="placeName_4.d2e847" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> كلهم مبرزون مفتون، وكذلك أئمة
 خراسان كإمام الحرمين وأشياخه وتلاميذه كأبي حامد الغزالي والكياء والخوافي
 وكذلك أتباعهم كمحمد بن يحيى ومن كان في درجته من أصحاب الغزالي وكلهم قد
 طبق فتاويهم وجه الأرض مع صريح من فقه الشافعي. ومن تأمل فتاويهم رأى ما
@@ -432,8 +432,8 @@
 فيما أعلم ليزيح عنها الخفاء أو ليقطع فيها الالتباس وكأني بالشائع المتعارف أن
 العاديين والعمالقة وغيرهن من القبائل العادية هم الأصليون وأن القحطانيين تغلبوا
 عليهم وحلوا محلهم فانقرض هؤلاء وبقي أولئك. والذي أراه أن القحطانيين هم
-قرارة سكان العربية والأصليون في <placeName change="#d2e120" xml:id="placeName_5.d2e1066">اليمن</placeName> وجباله وما يليها من المواطن كحضرموت
-ونجد وأرض البحرين وجنوبي <placeName change="#d2e120" xml:id="placeName_6.d2e1071">الحجاز</placeName> مما يتصل ب<placeName change="#d2e120" xml:id="placeName_7.d2e1075">اليمن</placeName>. وأن العاديين جاءوا
+قرارة سكان العربية والأصليون في <placeName change="#d2e120 #d11e309" xml:id="placeName_5.d2e1066" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وجباله وما يليها من المواطن كحضرموت
+ونجد وأرض البحرين وجنوبي <placeName change="#d2e120 #d11e309" xml:id="placeName_6.d2e1071" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> مما يتصل ب<placeName change="#d2e120 #d11e309" xml:id="placeName_7.d2e1075" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>. وأن العاديين جاءوا
 إليها متأخرين، ومع الأيام وبالاستيلاء على طريق التجارة تقوَّوا شيئًا فشيئًا إلى أن
 دانت لهم العربية كلها وأخضعوا القحطانية لسلطتهم واستمروا على ذلك زمانًا إلى
 أن أصابت إحدى دولهم جائحة سماوية في الراجح فذلوا وقامت القحطانية تطلب
@@ -442,7 +442,7 @@
 الحِميري الظِّفاري فتغلب على البلاد واشتدت وطأته على أهل مأرب فارتحلوا في
 البلاد فمنهم من قصد نجران ومنهم من أمّ عمان ومنهم من استمرت به رحلته حتى بلغ
 العراق وهم لخم وغسان، وأذلوا من بقي في البلاد من العاديين وأشياعهم من
-العدنانيين في <placeName change="#d2e120" xml:id="placeName_8.d2e1097">الحجاز</placeName> ونجد واليمامة وأرض البحرين ذلاًّ شديدًا فاشتدت بسبب ذلك
+العدنانيين في <placeName change="#d2e120 #d11e309" xml:id="placeName_8.d2e1097" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد واليمامة وأرض البحرين ذلاًّ شديدًا فاشتدت بسبب ذلك
 البغضاء بين القحطانيين والعدنانيين حتى ضرب بها المثل واستمر ذلك فيهم إلى أن
 ظهر الإسلام فأخمد ظهوره شيئًا من تلك الثائرة بما كان له من التأثير في نفوسهم
 وبما شغلهم به من المغازي والفتوحات وامتداد السلطة والغلب. على أن تلك العداوة
@@ -450,7 +450,7 @@
 القوم حيث انتقلوا.
 وبلغ من حدتها في الجيل الرابع للهجرة المبلغ الذي وصفه أبو الطيب المتنبي
 في إحدى كافورياته حيث يقول في شبيب الخارجي وكان خرج فيمن
-تبعه من قيس على كافور وحاصر <placeName change="#d2e120" xml:id="placeName_9.d2e1118">دمشق</placeName> وكاد يفتحها عنوة.
+تبعه من قيس على كافور وحاصر <placeName change="#d2e120 #d11e309" xml:id="placeName_9.d2e1118" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> وكاد يفتحها عنوة.
 برغم شبيب فارق السيف كفه <gap resp="#org_MS" change="#d2e120" xml:id="gap_10.d2e1123"/> وكانا على العلات يصطحبان
 كأن رقاب الناس قالت لسيفه <gap resp="#org_MS" change="#d2e120" xml:id="gap_11.d2e1127"/> رفيقك قيسي وأنت يماني
 
@@ -472,10 +472,10 @@
 والتضارب وكان يمكنني أن أضرب عنها صفحًا إلا أني لا أرى هيئة من أهل العلم
 والأدب أرقى من الهيئة التي أمامي الآن تستطيع أن تتبعني في هذه المزالق
 التاريخية؛ ولذلك لا أرى بدًّا من الإشارة إلى البراهين التي حملتني على ترجيح ما
-قلت أي أن القحطانيين هم أصليون في جزيرة العرب وقراراتهم منها <placeName change="#d2e120" xml:id="placeName_10.d2e1171">اليمن</placeName> وهم
+قلت أي أن القحطانيين هم أصليون في جزيرة العرب وقراراتهم منها <placeName change="#d2e120 #d11e309" xml:id="placeName_10.d2e1171" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وهم
 سابقون فيها على العاديين. وبيانه:
 (أولاً) : إنه لا خلاف أصلاً بين العدنانيين والقحطانيين لا في تاريخ ولا
-في تقليد أن القحطانية هي العريقة بسكنى <placeName change="#d2e120" xml:id="placeName_11.d2e1180">اليمن</placeName>، وأنها هي التي بقيت في البلاد بعد
+في تقليد أن القحطانية هي العريقة بسكنى <placeName change="#d2e120 #d11e309" xml:id="placeName_11.d2e1180" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وأنها هي التي بقيت في البلاد بعد
 انقراض الدولة العادية. وقد أجمع المؤرخون عن آخرهم على تسمية العاديين
 بالعرب البائدة بعدما نقلوا عنهم ما نقلوه من الغنى والقوة وضخامة الملك. ولو كانوا
 عريقين في البلاد كالقحطانيين ولهم مثل ما لهم من العدد والتأصل في السكنى لكان
@@ -485,20 +485,20 @@
 خروجهم من ربقة العاديين واسترداد استقلالهم أولاً ثم منازعة العاديين الغلبة والملك
 في ديارهم التي نزلوها إلى أن تم لهم ذلك وذهبوا بالملك والسيادة من أيديهم جملة ,
 وهذا معنى انقراضهم.
-(ثانيًا) كانت عاد في هذا الرمل من الأحقاف بين عمان و<placeName change="#d2e120" xml:id="placeName_12.d2e1205">اليمن</placeName> إلى
+(ثانيًا) كانت عاد في هذا الرمل من الأحقاف بين عمان و<placeName change="#d2e120 #d11e309" xml:id="placeName_12.d2e1205" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> إلى
 حضرموت فكيف يُعقل أنهم انقرضوا ولغتهم باقية في هذه البلاد لحد هذه الساعة
 ثم كيف ينقرض أهل اللغة وتبقى اللغة نفسها؟ إن هذا لغريب وأغرب منه أن يكون
 العاديون الذين انقرضوا هم أهل البلاد الأصليون والذين قرضوهم من القحطانيين
 دخلوا عليهم البلاد فاتحين ولهم لغة خاصة بهم ثم بعد أن استمر ملكهم ولغتهم مئات
 سنين عدنا فرأينا في آخرها أن لغة البلاد حينئذ كانت لغة العاديين الذين انقرضوا لا
 القحطانيين الذي بقوا.
-(ثالثًا) يكاد يكون كالمجمع عليه أن <placeName change="#d2e120" xml:id="placeName_13.d2e1224">اليمن</placeName> دار القحطانية وإليك ما نقل في
+(ثالثًا) يكاد يكون كالمجمع عليه أن <placeName change="#d2e120 #d11e309" xml:id="placeName_13.d2e1224" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> دار القحطانية وإليك ما نقل في
 ذلك:
 قال الإمام العلامة الطبري: وولد لعابر ابنان أحدهما فالغ ومعناه بالعبرية
 قاسم وإنما سمي بذلك؛ لأن الأرض قسمت والألسن تبلبلت في أيامه وسمي الآخر
 قحطان فولد لقحطان يعرب ويقطان ابنا قحطان بن عامر بن شالح فنزلا أرض
-اليمن وكان قحطان أول من ملك <placeName change="#d2e120" xml:id="placeName_14.d2e1238">اليمن</placeName> (جزء أول طبع ليبسك وجه 217) وقال
-أيضًا: وجه 222 ولحقت بنو قحطان ابن عامر ب<placeName change="#d2e120" xml:id="placeName_15.d2e1243">اليمن</placeName> فسميت <placeName change="#d2e120" xml:id="placeName_16.d2e1246">اليمن</placeName> حيث تيامنوا
+اليمن وكان قحطان أول من ملك <placeName change="#d2e120 #d11e309" xml:id="placeName_14.d2e1238" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> (جزء أول طبع ليبسك وجه 217) وقال
+أيضًا: وجه 222 ولحقت بنو قحطان ابن عامر ب<placeName change="#d2e120 #d11e309" xml:id="placeName_15.d2e1243" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> فسميت <placeName change="#d2e120 #d11e309" xml:id="placeName_16.d2e1246" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> حيث تيامنوا
 إليها.
 وقال ابن خلدون: فأما عاد فكانت مواطنهم الأولى بأحقاف الرمل بين اليمن
 وعمان إلى حضرموت. ويقال: إنهم انتقلوا إلى جزيرة العرب باديةً مخيمين ثم
@@ -506,31 +506,31 @@
 يعرب بن قحطان. (قال) : وكان أبوهم عاد فيما يقال أول من ملك من العرب
 وطال عمره وكثر ولده - وعاش ألف سنة ومئتي سنة - وذكر المسعودي أن الذي
 ملك من بعد عاد وشداد منهم هو الذي سار في الممالك واستولى على كثير من بلاد
-الشام والهند و<placeName change="#d2e120" xml:id="placeName_17.d2e1267">العراق</placeName> (الجزء الثاني طبعة بولاق وجه 19) وقال أيضًا: وجه
+الشام والهند و<placeName change="#d2e120 #d11e309" xml:id="placeName_17.d2e1267" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> (الجزء الثاني طبعة بولاق وجه 19) وقال أيضًا: وجه
 20 ثم ملك لقمان ورهطه من قوم عاد واتصل لهم الملك فيما يقال ألف سنة أو
 يزيد. ولم يزل ملكهم متصلاً إلى أن غلبهم عليه يعرب بن قحطان واعتصموا
 بجبال حضرموت إلى أن انقرضوا.
 وقال أيضًا: (قال ابن سعيد) - فيما نقله عن كتب التواريخ التي اطلع
-عليها في خزانة الكتب بدار الخلافة من <placeName change="#d2e120" xml:id="placeName_18.d2e1281">بغداد</placeName> - قال: كانت مواطن العمالقة تهامة
-من أرض <placeName change="#d2e120" xml:id="placeName_19.d2e1286">الحجاز</placeName> فنزلوها أيام خروجهم من <placeName change="#d2e120" xml:id="placeName_20.d2e1289">العراق</placeName> أمام النماردة من بني حان وجه
+عليها في خزانة الكتب بدار الخلافة من <placeName change="#d2e120 #d11e309" xml:id="placeName_18.d2e1281" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> - قال: كانت مواطن العمالقة تهامة
+من أرض <placeName change="#d2e120 #d11e309" xml:id="placeName_19.d2e1286" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> فنزلوها أيام خروجهم من <placeName change="#d2e120 #d11e309" xml:id="placeName_20.d2e1289" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> أمام النماردة من بني حان وجه
 27 وقال أيضًا: وأما (جُرْهم) فقال ابن سعيد: إنهم أمتان أمة على عهد عاد وأمة
-من ولد جرهم بن قحطان ولما ملك يعرب بن قحطان <placeName change="#d2e120" xml:id="placeName_21.d2e1297">اليمن</placeName> ملك أخوه جرهم الحجاز
+من ولد جرهم بن قحطان ولما ملك يعرب بن قحطان <placeName change="#d2e120 #d11e309" xml:id="placeName_21.d2e1297" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> ملك أخوه جرهم الحجاز
 - وجه 31.
 وظاهر من هذه النقول وغيرها أن القحطانيين أصليون في الجزيرة وقرارتهم
-منها <placeName change="#d2e120" xml:id="placeName_22.d2e1306">اليمن</placeName>، وأما العاديون وإخوانهم العمالقة فجاءوا على أثر مضايقة الملوك
-النماردة لهم. فنزل العاديون أحقاف الرمل بين <placeName change="#d2e120" xml:id="placeName_23.d2e1312">اليمن</placeName> وعمان إلى حضرموت
+منها <placeName change="#d2e120 #d11e309" xml:id="placeName_22.d2e1306" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وأما العاديون وإخوانهم العمالقة فجاءوا على أثر مضايقة الملوك
+النماردة لهم. فنزل العاديون أحقاف الرمل بين <placeName change="#d2e120 #d11e309" xml:id="placeName_23.d2e1312" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وعمان إلى حضرموت
 والشحر ونزل بقية إخوانهم من العمالقة وطسم وجديس وجاسم أرض البحرين
-وعمان ونجد و<placeName change="#d2e120" xml:id="placeName_24.d2e1319">الحجاز</placeName> إلى تيماء. ولم يلبثوا مدة بعد دخولهم حتى صار لهم الغلب
+وعمان ونجد و<placeName change="#d2e120 #d11e309" xml:id="placeName_24.d2e1319" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إلى تيماء. ولم يلبثوا مدة بعد دخولهم حتى صار لهم الغلب
 على كل الجزيرة وشادوا لهم دولة من أعظم وأقوى الدول التي قامت في تلك البلاد
-ومن ثم غزوا [4] <placeName change="#d2e120" xml:id="placeName_25.d2e1327">الشام</placeName> ومصر والهند و<placeName change="#d2e120" xml:id="placeName_26.d2e1330">العراق</placeName> ومازال الملك فيهم إلى أن ضعفوا
+ومن ثم غزوا [4] <placeName change="#d2e120 #d11e309" xml:id="placeName_25.d2e1327" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ومصر والهند و<placeName change="#d2e120 #d11e309" xml:id="placeName_26.d2e1330" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ومازال الملك فيهم إلى أن ضعفوا
 في أواخر دولتهم الثانية فغلبهم على الملك يعرب بن قحطان وأزال سلطتهم عن
 اليمن.
 ***
 نتيجة ما ذكرناه
 إن المتدبّر ما مرّ بنا (أن مهد السامية هو جزيرة العرب وأن القحطانيين هم
-الأصليون في البلاد وقرارتهم <placeName change="#d2e120" xml:id="placeName_27.d2e1346">اليمن</placeName>، وأن العاديين قدموا عليهم من أرض بابل)
+الأصليون في البلاد وقرارتهم <placeName change="#d2e120 #d11e309" xml:id="placeName_27.d2e1346" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وأن العاديين قدموا عليهم من أرض بابل)
 يحكم على ما أرجح أن القحطانية الأولى انشعبت إلى فرعين فرع بقي في شبه
-جزيرة العرب وفرع ذهب شمالاً إلى <placeName change="#d2e120" xml:id="placeName_28.d2e1353">العراق</placeName> واستعمر بابل وهناك تأثل هذا الفرع
+جزيرة العرب وفرع ذهب شمالاً إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_28.d2e1353" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> واستعمر بابل وهناك تأثل هذا الفرع
 وما زال أهله حتى زاحمهم النماردة أبناء كوش [5] فخرج من هناك آشور وبني
 نينوى ورحوبوت عير وكالح وراسن بين نينوى وكالح على ما جاء في التاريخ
 المقدس الإصحاح العاشر من سفر التكوين. وخرج أيضًا عاد وعماليق وقبائلهما
@@ -540,9 +540,9 @@
 والقرى بدليل أنهم بنوا المدن حالاً، وأما الذين رحلوا إلى الجنوب فكان أكثرهم
 أهل طعن وخيام وعبارة العلامة ابن خلدون واضحة في ذلك فإنه ذكر أنهم لما
 زاحمهم بنو حام انتقلوا إلى جزيرة العرب وسكنوها بادية مخيمين. ويقوي ذلك ما
-هو متواتر مشهور من سكنى العاديين رمال الأحقاف بين عمان و<placeName change="#d2e120" xml:id="placeName_29.d2e1378">اليمن</placeName> إلى
+هو متواتر مشهور من سكنى العاديين رمال الأحقاف بين عمان و<placeName change="#d2e120 #d11e309" xml:id="placeName_29.d2e1378" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> إلى
 حضرموت والشحر. وسكنى بديل وراحل وغفار من العمالقة بنجد وبنو الأرقم
-منهم ب<placeName change="#d2e120" xml:id="placeName_30.d2e1386">الحجاز</placeName> إلى تيماء. وكل هذه البلاد من منازل أهل البادية والغالب على أكثر
+منهم ب<placeName change="#d2e120 #d11e309" xml:id="placeName_30.d2e1386" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إلى تيماء. وكل هذه البلاد من منازل أهل البادية والغالب على أكثر
 أهلها الترحل والانتقال كانوا ولا يزالون لحد هذه الساعة.
 وأرى أني وصلت على غير قصد مني إلى التقليد المشهور الذي يجعل
 السريانية أقدم من العربية؛ لأننا رأينا الدليل التاريخي في جانب أن القحطانية
@@ -564,7 +564,7 @@
 جاء في كتاب وصف جزيرة العرب للعلامة الهمداني طبع ليدن وجه 134
 إلى 136 قطعة خصها هذا العلامة بوصف لغات أهل الجزيرة العربية في أيامه
 (فليطالع هذه القطعة في موضعها من أراد) والذي يظهر منها أن الحميرية كانت لا
-تزال لغة حية في كثير من جبال <placeName change="#d2e120" xml:id="placeName_31.d2e1437">اليمن</placeName> وإليك ما يقول في لغة بعض تلك البلاد:
+تزال لغة حية في كثير من جبال <placeName change="#d2e120 #d11e309" xml:id="placeName_31.d2e1437" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وإليك ما يقول في لغة بعض تلك البلاد:
 (حقل قتاب فإلى ذمار) الحميرية القحة المتعقدة (وظفار مدينة هذا القسم) . حراز
 والأخروج وشم وماضح والأحبوب والجحادب وشرف أقيان والطرف
 وواضع والمعلل - خليطي من متوسط بين الفصاحة واللكنة وبينها ما هو أدخل في
@@ -598,17 +598,17 @@
 وممن كان منهم يسكن مأرب والجوف في الجيل الأول للمسيح أو في بدء الجيل
 الثاني رأيناهم أيضًا عربًا يتكلمون بهذا اللسان العربي. وبيانه أن الأزد من ولد
 كهلان، وكانوا في مأرب فلما اشتدت عليهم وطأة الحميريين ملوك ظفار على
-الأرجح ارتحلوا من ديارهم جماعات كثيرة فمنهم من وصل <placeName change="#d2e120" xml:id="placeName_32.d2e1513">العراق</placeName> ومنهم من وصل
-الشام ومنهم من وقف بنجران ومنهم ب<placeName change="#d2e120" xml:id="placeName_33.d2e1519">مكة</placeName> ومنهم بيثرب وهم الطائيون (وكانوا
+الأرجح ارتحلوا من ديارهم جماعات كثيرة فمنهم من وصل <placeName change="#d2e120 #d11e309" xml:id="placeName_32.d2e1513" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ومنهم من وصل
+الشام ومنهم من وقف بنجران ومنهم ب<placeName change="#d2e120 #d11e309" xml:id="placeName_33.d2e1519" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ومنهم بيثرب وهم الطائيون (وكانوا
 يسكنون الجوف) رحلوا أولاً إلى فيدو سميرا ثم احتلوا الجبلين أجا وسلمى وكل
 هؤلاء كانوا عربًا ومن الفصحاء الذين ترتضى فصاحتهم في العربية لم يسمع ولم
-يعرف أصلاً عن ملوك الحيرة من المناذرة ولا عن ملوك <placeName change="#d2e120" xml:id="placeName_34.d2e1528">الشام</placeName> من الغساسنة ولا
+يعرف أصلاً عن ملوك الحيرة من المناذرة ولا عن ملوك <placeName change="#d2e120 #d11e309" xml:id="placeName_34.d2e1528" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> من الغساسنة ولا
 عن الأوس والخزرج من أهل المدينة ولا عن الطائيين في جبليهم (وهؤلاء هم
 الذين ارتحلوا من أرض سبأ قبل سيل العرم أو بعده بقليل) إنهم تكلموا غير هذا
 اللسان العربي المضري. ولو كانت لغتهم الحميرية (أو السبئية) لاستحال أن
 تنقرض فلا يبقى لها أثر في مدى أربعة قرون كما لم تنقرض الحميرية من ظفار
 ولا من بلاد صنعاء في مدى أربعة قرون مع أنهم كانوا في ملكة المضريين ودولتهم
-الغالبة <placeName change="#d2e120" xml:id="placeName_35.d2e1545">القاهرة</placeName> بعزها وعز الإسلام، وقد أسلم القوم عن آخرهم منذ بدء الإسلام.
+الغالبة <placeName change="#d2e120 #d11e309" xml:id="placeName_35.d2e1545" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> بعزها وعز الإسلام، وقد أسلم القوم عن آخرهم منذ بدء الإسلام.
 ***
 ماذا نصدق إذًا التاريخ والعقل
 أم الآثار التي وجدها القوم مؤخرًا في مأرب والجوف ونجران
@@ -619,9 +619,9 @@
 زيدان في كتابه النفيس (العرب قبل الإسلام) هي آثار واقعية لا نشك بها. ولا
 يُشك أيضًا أنها من آثار الدولة الحميرية الظفارية التي استولت على بلاد سبأ في
 الجيل الأول قبل المسيح. نسلم بكل ذلك. ولكنا نقول: إن هذه الدولة كان حكمها
-في بلاد سبأ حكم دولة الأتراك الأخيرة في <placeName change="#d2e120" xml:id="placeName_36.d2e1572">اليمن</placeName> فإنا لا نعدم آثارًا ونقوشًا كثيرة في
-صنعاء وغيرها من مدن <placeName change="#d2e120" xml:id="placeName_37.d2e1577">اليمن</placeName> مكتوبة باللغة التركية، وكما لا يصدق الاستدلال
-بمثل هذا الآثار على أن لغة <placeName change="#d2e120" xml:id="placeName_38.d2e1582">اليمن</placeName> هي اللغة التركية كذلك لا يصدق الاستدلال بهذا
+في بلاد سبأ حكم دولة الأتراك الأخيرة في <placeName change="#d2e120 #d11e309" xml:id="placeName_36.d2e1572" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> فإنا لا نعدم آثارًا ونقوشًا كثيرة في
+صنعاء وغيرها من مدن <placeName change="#d2e120 #d11e309" xml:id="placeName_37.d2e1577" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> مكتوبة باللغة التركية، وكما لا يصدق الاستدلال
+بمثل هذا الآثار على أن لغة <placeName change="#d2e120 #d11e309" xml:id="placeName_38.d2e1582" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> هي اللغة التركية كذلك لا يصدق الاستدلال بهذا
 القدر الذي وجده القوم من النقوش على أن لغة بلاد سبأ أعني بلاد مأرب والجوف
 كانت لغة حميرية. وهذا التلميح يرى منه العارف المتدبر ما يغنيني عن إطالة
 الشرح والإسهاب فإن مقالتي والغرض منها لا يحتملان من إطالة الشرح فوق ما
@@ -634,10 +634,10 @@
 إن العلامة نولدكي يعجب باتساع قاموس هذه اللغة الشريفة، ويذهب إلى أن
 ذلك مقتبس عن الآرامية بما كان لأهلها من مخالطتهم الآراميين بالتجارة والجوار.
 والذي حمل العلامة المُومأ إليه على هذا التعليل هو على الراجح ما كان يظنه أن
-اللغة العربية هي لغة القبائل العدنانية في <placeName change="#d2e120" xml:id="placeName_39.d2e1614">الحجاز</placeName> ونجد فاستبعد من ثم أن يكون لمثل
+اللغة العربية هي لغة القبائل العدنانية في <placeName change="#d2e120 #d11e309" xml:id="placeName_39.d2e1614" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد فاستبعد من ثم أن يكون لمثل
 هؤلاء القوم الذين غلبت عليهم البداوة مثل هذه اللغة الواسعة. أما وقد تبين لنا أن
 هذه اللغة كانت لغة الدولة العادية ودولة غلبت على البلاد العربية كلها وامتدت
-سلطتها إلى <placeName change="#d2e120" xml:id="placeName_40.d2e1623">الشام</placeName> ومصر وأفريقيا ودامت سيدة التجارة على ما نظن ما يزيد على
+سلطتها إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_40.d2e1623" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ومصر وأفريقيا ودامت سيدة التجارة على ما نظن ما يزيد على
 ألف وخمسمائة سنة أولاً تحت اسم الدولة العادية وعلى نحو من ثمانمائة سنة تحت
 اسم الدولة السبئية [9] فلا داعي لمثل تعليل العلامة نولدكي. وما زال العاديون ومن
 خلفهم باسم السبئيين أرباب تجارة وزراعة حتى بعد أن غلب عليهم الغِفاريون
@@ -645,8 +645,8 @@
 وقصر غمدان وغير هذين من السدود والقصور والمصانع، ووصلت من الغِنى إلى
 الدرجة التي ضُربت بها الأمثال لا يستبعد أن تكون لغتها في الغنى والاتساع كاللغة
 العربية.
-والمرجح عندي أنه لم يقم في سوريا ومصر و<placeName change="#d2e120" xml:id="placeName_41.d2e1644">العراق</placeName> دولة أعظم غِنى وتجارة
-من الدولة العادية في عمان وحضرموت و<placeName change="#d2e120" xml:id="placeName_42.d2e1649">اليمن</placeName> , ولم يقتصر العاديون على
+والمرجح عندي أنه لم يقم في سوريا ومصر و<placeName change="#d2e120 #d11e309" xml:id="placeName_41.d2e1644" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> دولة أعظم غِنى وتجارة
+من الدولة العادية في عمان وحضرموت و<placeName change="#d2e120 #d11e309" xml:id="placeName_42.d2e1649" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> , ولم يقتصر العاديون على
 التجارة - والتجارة لوحدها من أكبر الأسباب لارتقاء لغة الأمة واتساع دائرة
 ألفاظها وتراكيبها - بل كان لهم في الزراعة شأن لم يبلغ البابليون ما هو أعظم
 منه على خصب بلادهم، وإن فيها النهرين العظيمين الفرات والدجلة فإنهم بنوا سد
@@ -696,11 +696,11 @@
 خيرًا منها للبلاد. فاتني أن أذكر أن هذه الدولة أعني العادية أولاً والسبئية ثانيًا
 اعتنت بالتعدين كما اعتنت بالتجارة والزراعة والصناعة ولا تزال آثار عشرات من
 معادن الذهب والفضة والنحاس والحديد والرصاص والحجارة الكريمة في اليمن
-ونجد و<placeName change="#d2e120" xml:id="placeName_43.d2e1776">الحجاز</placeName> وعلى جانب أفريقيا المقابل شاهدة على ما كان لهذه الدولة والأمة من
+ونجد و<placeName change="#d2e120 #d11e309" xml:id="placeName_43.d2e1776" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وعلى جانب أفريقيا المقابل شاهدة على ما كان لهذه الدولة والأمة من
 الاقتدار والهمة والنشاط. وأرجح أن المستقبل سيرينا من آثارهم التي لا تزال تحت
 الردم والرمال ما يزيد عن آثار إخوانهم الكنعانيين والفينيقيين.
 قلت وأعيد القول: إن أمة كهذه الأمة وشعبًا كهذا الشعب الذي من بقاياه
-العرب العدنانية في نجد و<placeName change="#d2e120" xml:id="placeName_44.d2e1788">الحجاز</placeName> والكهلانية في أرض سبأ وحضرموت وعمان
+العرب العدنانية في نجد و<placeName change="#d2e120 #d11e309" xml:id="placeName_44.d2e1788" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> والكهلانية في أرض سبأ وحضرموت وعمان
 حري بأن يكون له لغة كاللغة العربية سيدة اللغات السامية. ولعلها سيدة اللغات
 القديمة كلها فقد ماتت تلك وبقيت هذه وستبقى بَعْدُ أجيالاً لا يعلمها إلا الله مهما
 عورضت واضطهدت أو صودرت واتهمت.
@@ -709,23 +709,23 @@
 التاريخي الذي سلكته في شأن الأرومة السامية ونسبة اللغات المعروفة منها بعضها
 إلى بعض فأقول:
 (1) إن اللغة السامية كان مهدها في البلاد العربية والأرجح أن قراراتها
-كانت بلاد <placeName change="#d2e120" xml:id="placeName_45.d2e1810">اليمن</placeName> وما إليها من السروات.
+كانت بلاد <placeName change="#d2e120 #d11e309" xml:id="placeName_45.d2e1810" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وما إليها من السروات.
 (2) انشعب منها فرع إلى بلاد بابل وبقي فرع في قرارته الأولى وهم
-القحطانية الأولى. ثم الفرع الذي اتجه شمالاً إلى <placeName change="#d2e120" xml:id="placeName_46.d2e1818">العراق</placeName> انشعب منه شعبتان شعبة
+القحطانية الأولى. ثم الفرع الذي اتجه شمالاً إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_46.d2e1818" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> انشعب منه شعبتان شعبة
 تسكن المدن وأخرى تسكن البدو.
 (3) مازال هذان الفرعان متجاورين إلى أيام دولة النماردة [*] فضيقت هذه
 الدولة عليهما واضطرَّت كثيرين منهم إلى الجلاء عن البلاد فجلا أهل بابل العظيمة
-وغيرها من مدن <placeName change="#d2e120" xml:id="placeName_47.d2e1830">العراق</placeName> إلى أرض الجزيرة وعمَّروا راسن وكالح ونينوى وغيرها
+وغيرها من مدن <placeName change="#d2e120 #d11e309" xml:id="placeName_47.d2e1830" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> إلى أرض الجزيرة وعمَّروا راسن وكالح ونينوى وغيرها
 من المدن الآشورية، وجلا كثيرون آخرون معظمهم من أهل البدو إلى جزيرة
-العرب موطن أسلافهم الأقدمين ونزلوا <placeName change="#d2e120" xml:id="placeName_48.d2e1837">الحجاز</placeName> ونجد وأرض سبأ وعمان. وكانت
-لغتهم قد استقلت وتمايزت عن القحطانية التي فارقها أجدادهم الأولون في <placeName change="#d2e120" xml:id="placeName_49.d2e1842">اليمن</placeName> ثم
+العرب موطن أسلافهم الأقدمين ونزلوا <placeName change="#d2e120 #d11e309" xml:id="placeName_48.d2e1837" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وأرض سبأ وعمان. وكانت
+لغتهم قد استقلت وتمايزت عن القحطانية التي فارقها أجدادهم الأولون في <placeName change="#d2e120 #d11e309" xml:id="placeName_49.d2e1842" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> ثم
 ما لبثوا أن استولوا على ملك القحطانيين وضيقوا عليهم في يمنهم كما كان النماردة
 قد ضيقوا عليهم في جوار بابل فهاجر جماعة كبيرة منهم إلى الحبشة، وكان هاجر
 قبلها أو أثناءها جماعة أخرى إلى الأمهرة والشطوط المقابلة من أفريقيا فكان منهم
 هناك الأمهرية والحبشية ثم هاجرت جوال أخرى من العمالقة والعاديين إلى الشام
-وشطوط المتوسط إما رأسًا من <placeName change="#d2e120" xml:id="placeName_50.d2e1856">العراق</placeName> هربًا من النماردة أو من البلاد العربية بقصد
+وشطوط المتوسط إما رأسًا من <placeName change="#d2e120 #d11e309" xml:id="placeName_50.d2e1856" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> هربًا من النماردة أو من البلاد العربية بقصد
 التجارة والاستعمار والأرجح أن كان الأمران معًا.
-ومن هؤلاء المهاجرين كان العبرانيون وأمم <placeName change="#d2e120" xml:id="placeName_51.d2e1864">الشام</placeName> من الكنعانيين والفينيقيين.
+ومن هؤلاء المهاجرين كان العبرانيون وأمم <placeName change="#d2e120 #d11e309" xml:id="placeName_51.d2e1864" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> من الكنعانيين والفينيقيين.
 وعليه تكون العبرانية الفينيقية والعربية شعبتين من الفرع العادي، والحميرية
 والحبشية من الفرع القحطاني.
 هذا ما تدل عليه التقاليد وما وصلنا إليه من شذرات التواريخ، وأظن أن
@@ -778,13 +778,13 @@
 مألوفًا بهذا الاستعمال، أما في لغتنا العربية فقد خرج عن هذا المألوف وبقي فيه ما يدل على سابق
 استعماله في قولهم سبأ الخمر وسباها. وفي السباء بمعني بياع الخمر وفي السبأة بمعني السفر
 البعيد الذي كان تقتضيه تجارة العاديين. وفي السبأ بمعني العود يحمله السيل من بلد إلى بلد. وشاع
-هذا الاستعمال حتى أطلق على بلادهم الأصلية فعرفت به أخيرًا عند الحبشة والقحطانيين من أهل <placeName change="#d2e120" xml:id="placeName_52.d2e1984">اليمن</placeName>.
+هذا الاستعمال حتى أطلق على بلادهم الأصلية فعرفت به أخيرًا عند الحبشة والقحطانيين من أهل <placeName change="#d2e120 #d11e309" xml:id="placeName_52.d2e1984" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>.
 (10) همداني وجه 101.
 (11) أرجح غيمان على ما في وصف جزيرة العرب.
 (*) النماردة ملوك كوشيون من كوش أو خوز وهي بلاد خوزستان الآن وكانت لغتهم الآرامية كما
 يظهر فإن نمروذ أو نمروذو مصغر نمر في اللغة الآرامية وأرجح أنهم جاءوا من بلاد العرب من اليمن
 عن طريق البحرين عبروا الخليج الفارسي من هناك ثم لما قويت شوكتهم غزوا بابل وطردوا من كان
-سبقهم إلى هناك فذهب بعضهم شمالاً إلى بلاد آشور وذهب آخرون جنوبًا إلى <placeName change="#d2e120" xml:id="placeName_53.d2e2000">الحجاز</placeName> ونجد والأحقاف
+سبقهم إلى هناك فذهب بعضهم شمالاً إلى بلاد آشور وذهب آخرون جنوبًا إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_53.d2e2000" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد والأحقاف
 وهي بلاد سبأ كما مرت بنا الإشارة إلى ذلك.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_3.d2e2006">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_5.d2e2008" ref="oape:pers:2823 viaf:65382270">
                             <forename xml:lang="ar">جبر</forename>
@@ -834,7 +834,7 @@
 اتحادًا كاملاً كما يزعم فريق من الكتاب بجهل حقائق الأمور؛ لأنه لم يبرح بلاده
 قط، أي أن هذا الفريق لا يكتب عن تحقيق واختبار - واتحاد المسلمين الجزئي
 هذا مُوَجَّه ضد أوروبة النصرانية وخصوصًا ضد الدول المستعمرة منها.
-وإذا نظرنا إلى عمل إيطالية الأخير في غزوتها <placeName change="#d2e120" xml:id="placeName_54.d2e2109">طرابلس الغرب</placeName> نظرة
+وإذا نظرنا إلى عمل إيطالية الأخير في غزوتها <placeName change="#d2e120 #d11e309" xml:id="placeName_54.d2e2109" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> نظرة
 عمومية نرى أنها مخطئة خطأ فاحشًا؛ لأنها شهرت الحرب على تركيا فجأة ومن
 دون سابق مفاوضات تجيز لها هذا العمل، فضلاً عن أن جنودها بعد احتلالهم
 طرابلس أجروا من الفظائع البربرية على النساء والأولاد ما ذعر له العالم المسيحي
@@ -842,7 +842,7 @@
 الغرب ضروري لكيانهم كأمة مستقلة , وهذا العذر غير مقبول منطقيًّا، ولا جائز
 شرعًا، أو في عرف الدول , بيد أن الصحافة الطليانية وساسة الإيطاليين الذين
 حادثتهم في هذا الموضوع كانوا يقولون لي: إن النمسا وألمانيا كانتا عاقدتين اتفاقًا
-سريًّا مع تركيا على امتلاك <placeName change="#d2e120" xml:id="placeName_55.d2e2130">طرابلس الغرب</placeName> برضاها وإنهما إذا امتلكتا هذه الولاية
+سريًّا مع تركيا على امتلاك <placeName change="#d2e120 #d11e309" xml:id="placeName_55.d2e2130" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> برضاها وإنهما إذا امتلكتا هذه الولاية
 القريبة منا تصبح حياتنا القومية مهددة بالأخطار المميتة ويصير استقلالنا تحت
 رحمة ألمانيا والنمسا , وسواء صح هذا القول أو لم يصح فإن إيطاليا تظل مخطئة
 لدى الشرائع والحقوق الدولية؛ لأنها فاجأت تركيا بهذه الحرب من دون أن تمهلها
@@ -852,7 +852,7 @@
 منعناهم من تحقيق آمالهم ألا وهي بسط نفوذهم السياسي والتجاري من طرابلس
 الغرب شمالاً حتى الكونغو والقمران جنوبًا) .
 وإيطالية غير قادرة على تمدين الغير بعد، فلذلك لم يتجاسر أحد من ساستها
-الذين باحثتهم على القول أمامي بأنهم غزوا <placeName change="#d2e120" xml:id="placeName_56.d2e2155">طرابلس</placeName> بقصد تمدينها وترقيتها. فإن
+الذين باحثتهم على القول أمامي بأنهم غزوا <placeName change="#d2e120 #d11e309" xml:id="placeName_56.d2e2155" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> بقصد تمدينها وترقيتها. فإن
 كثيرًا من السياح الألمان وسائحين من الإنكليز قد كتبوا مرارًا أن إيطالية لم تأتِ
 عملاً تمدينيًّا هامًّا لا في مصوع ولا في مقاطعة إرترية بالحبشة، ليس ذلك فقط،
 بل إن السائح في بلاد الصومال يرى البون شاسعًا بين الصومال الطلياني
@@ -860,7 +860,7 @@
 الإيطالي من حيث الفقر والجهل والتأخر. أما الصومال الفرنسوي ففيه الخطوط
 الحديدية والمزارع الجميلة وكل آثار الارتقاء والتمدن في العلم. ومثل فرنسة في
 إسعادها مستعمراتها مثل الإنكليز في السودان وألمانيا في زنجبار.
-ولكن تسرع إيطالية الأخير في <placeName change="#d2e120" xml:id="placeName_57.d2e2175">طرابلس الغرب</placeName> لا يحوج أوربة أنْ تناوئها
+ولكن تسرع إيطالية الأخير في <placeName change="#d2e120 #d11e309" xml:id="placeName_57.d2e2175" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> لا يحوج أوربة أنْ تناوئها
 وتقاومها في أعمالها الاحتلالية هذه، بل بالعكس، يجب على أوربة أن تناصرها
 وتؤيدها بكل قوتها؛ لأن إيطالية إذا عادت خاسرة من هذه الحرب، فالعار لا يلحق
 بها وحدها بل يعم كل الدول الأوربية النصرانية. فالمسلمون إذا نجحوا يصيرون
@@ -947,7 +947,7 @@
 فرسًا أو قبطًا أو أروامًا جبروا على اعتناق الدين المحمدي [10] وبعضهم بقي على
 دينه؛ لأن أميره أنعم عليه في إمكانية ذلك البقاء منة وكرمًا، (وهنا يسهب السر
 هنري جونستون في وصف البلدان الإسلامية وما هي عليه من التأخر كمصر وتونس
-و<placeName change="#d2e120" xml:id="placeName_58.d2e2370">طرابلس الغرب</placeName> والجزائر ومراكش وأواسط أفريقيا وتركيا وبلاد العرب زاعمًا أن
+و<placeName change="#d2e120 #d11e309" xml:id="placeName_58.d2e2370" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> والجزائر ومراكش وأواسط أفريقيا وتركيا وبلاد العرب زاعمًا أن
 علة هذا التأخر الوحيدة هي الدين الإسلامي، إلى أن يأتي إلى مسألة طرابلس
 الغرب فيقول: إن سبب انحطاطها هو حكم المسلمين عليها أيضًا؛ لأنها من
 الزمن الذي دخلت به في حوزتهم من القرن الثامن للميلاد حتى الساعة لم ترَ إلا
@@ -961,12 +961,12 @@
 اللحاق بإخوانهم المسيحيين في السير نحو الارتقاء والنجاح، أي من عليهم البحث
 في إيجاد طريقة لجعل دينهم مرنًا لينًا يقبل التكيف والتأويل والتفسير لما يطابق
 روح الزمان والمكان.
-أما من حيث قضية <placeName change="#d2e120" xml:id="placeName_59.d2e2403">طرابلس الغرب</placeName> فأكرر القول: إن إيطاليا مخطئة في
+أما من حيث قضية <placeName change="#d2e120 #d11e309" xml:id="placeName_59.d2e2403" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> فأكرر القول: إن إيطاليا مخطئة في
 اعتدائها عليها من دون مسوغ شرعي أو أدبي قط، ولكن غيرها من دول الاستعمار
 فعل ذات الشيء عينه إنما بهيئة مختلفة، فإطلاقنا القنابل على الإسكندرية سنة
 1882 واحتلالنا وادي النيل وغزو فرنسا مراكش الآن وزحف روسيا على شمالي
 العجم وامتلاك ألمانيا جزءًا من شرقي أفريقيا - كل ذلك يؤيد حجة إيطاليا في قولها
-للدول: إنها فعلت ما فعلته تلك الدول ذاتها، وعندي لو كانت <placeName change="#d2e120" xml:id="placeName_60.d2e2417">طرابلس</placeName> الغرب
+للدول: إنها فعلت ما فعلته تلك الدول ذاتها، وعندي لو كانت <placeName change="#d2e120 #d11e309" xml:id="placeName_60.d2e2417" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الغرب
 سهلت دخول الأجانب إليها واستثمار أموالهم فيها لما أقدمت إيطاليا على غزوتها،
 فإن البرتوغال وأسبانيا أقفلتا باب مستعمراتها الأمركانية في وجه الأجانب وكانت
 النتيجة أن العلمين الإسباني والبرتوغالي اختفيا عن القارة الأمريكية، وأملاك
@@ -1000,8 +1000,8 @@
 والتقدم اهـ. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_4.d2e2488">(1) منقولة عن <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e2490">الأفكار</title></bibl> العربية التي تصدر في البرازيل.
 (2) قد كاد يمر قرن كامل على الجزائر ولم نر فرنسة مدنت أهلها ولا رقتهم.
 (3) هذه المكابرة دليل على تعصب المصنف فما استولى المسلمون في القرون الأولى على بلاد إلا وصارت خيرًا مما كانت عليه علمًا ومدنية، وهل اقتبس هو وقومه المدنية إلا من مسلمي الأندلس والشرق؟ .
-(4) قد نشرت السفارة العثمانية في لندن تكذيبًا رسميًا لهذه الإشاعة التي راجت لأول مرة في الصحف الإنكليزية ومجرد عدم وجود ألمان ونمسويين في <placeName change="#d2e120" xml:id="placeName_61.d2e2499">طرابلس الغرب</placeName> وعدم ذكر ألمانيا اسم <placeName change="#d2e120" xml:id="placeName_62.d2e2503">طرابلس الغرب</placeName> أمام الباب العالي في كل السنين الماضية كان لتفنيد مزاعم الإيطاليين في هذه الأفكار الفاسدة.
-(5) ليعتبر المعتبرون بتعصب هؤلاء القوم وخذلهم للحق ونصرهم للباطل فإن الكاتب على اعترافه ببغي إيطاليا وكونها ليس لها عذر ما في الاعتداء على <placeName change="#d2e120" xml:id="placeName_63.d2e2508">طرابلس</placeName> يحث أوربة كلها على نصرها وتأييد باطلها؛ لأنها نصرانية تريد الاستيلاء على المسلمين، ولئلا يطمع المسلمون الآخرون بتحرير أنفسهم من رق النصارى! !
+(4) قد نشرت السفارة العثمانية في لندن تكذيبًا رسميًا لهذه الإشاعة التي راجت لأول مرة في الصحف الإنكليزية ومجرد عدم وجود ألمان ونمسويين في <placeName change="#d2e120 #d11e309" xml:id="placeName_61.d2e2499" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وعدم ذكر ألمانيا اسم <placeName change="#d2e120 #d11e309" xml:id="placeName_62.d2e2503" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> أمام الباب العالي في كل السنين الماضية كان لتفنيد مزاعم الإيطاليين في هذه الأفكار الفاسدة.
+(5) ليعتبر المعتبرون بتعصب هؤلاء القوم وخذلهم للحق ونصرهم للباطل فإن الكاتب على اعترافه ببغي إيطاليا وكونها ليس لها عذر ما في الاعتداء على <placeName change="#d2e120 #d11e309" xml:id="placeName_63.d2e2508" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> يحث أوربة كلها على نصرها وتأييد باطلها؛ لأنها نصرانية تريد الاستيلاء على المسلمين، ولئلا يطمع المسلمون الآخرون بتحرير أنفسهم من رق النصارى! !
 (6) لا يوجد كتاب ديني في الأرض كالقرآن يطهر العقول من الخرافات والأوهام ويكسر قيود التقاليد ويزلزل أركان الجمود وهذا هو السبب الحقيقي في حث هذا الكاتب قومه على مقاومة كل تعليم بني على القرآن لئلا يرتقي المسلمون به فيخرجوا من العبودية التي يريدها لهم كما علم من سابق قوله ولو كان القرآن كما قال لكان هو وأمثاله أشد الناس حثًّا للمسلمين على اتباعه ليدوم ذلهم وقبولهم للعبودية ولكن المسلمين كفوه مؤنة التنفير عن العمل بالقرآن من عدة قرون فهم يحرمونه على أنفسهم؛ لأنهم يسمونه من الاجتهاد الممنوع عند جماهيرهم.
 (7) هذه فرية افتراها الكاتب فليأتنا من تلك الكتب بمثل ما في القرآن من التوحيد الخالص المفصل بالبراهين العقلية والطبيعية، ومن هدم بناء التقليد وفك العقول من رق الرؤساء ليأتنا منها بجعل أمر الأمة شورى بينها وشرعًا بين جماعة أهل الحل والعقد من أفرادها إلخ.
 (8) هذه فرية أخرى وحسبنا في ردها قوله تعالى: [وَلَهُنَّ مِثْلُ الَّذِي عَلَيْهِنَّ بِالْمَعْرُوفِ] (البقرة: 228) .
@@ -1148,7 +1148,7 @@
 بينهم. وتلك الفرص توجد دائمًا وتزيد عما يحسبه الموظفون والسياسيون
 الأوربيون أضعافًا مضاعفة.
 مثال ذلك في حرب تركية وإيطالية الآن أن الإيطاليين قتلوا بالرصاص كثيرًا
-من عربان <placeName change="#d2e120" xml:id="placeName_64.d2e2832">طرابلس</placeName> الذين استولوا عليهم وهم عراة لوجود الأسلحة الممنوعة عندهم،
+من عربان <placeName change="#d2e120 #d11e309" xml:id="placeName_64.d2e2832" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الذين استولوا عليهم وهم عراة لوجود الأسلحة الممنوعة عندهم،
 والعربي عند الأوروبيين يعد في الدرجة الثانية بالنسبة إلى جزاء الإعدام، وليس
 له كبير أهمية، ولكنه يعد أمرًا كبيرًا وتحقيرًا دينيًّا عند المسلمين، لذلك أثر على
 الطليان هذا تأثيرًا سيئًا جدًّا في العالم الإسلامي فحصل بينهم هياج وغليان في
@@ -1156,7 +1156,7 @@
 كان الإمبراطور ويلهم إلى الآن عونًا كبيرًا لحركة الجامعة الإسلامية وكان
 الألمان يظنون أن هذه الحركة تصل إلى درجة توجب الخوف عليهم في الوقت
 القريب وأنها على ذلك تحدث صعوبات جمة للإنكليز في الهند ومصر، وتكون
-عونًا لهم لقرارهم في <placeName change="#d2e120" xml:id="placeName_65.d2e2852">الأناضول</placeName>. ذلك كان ظنهم فسياحة الإمبراطور ويلهلم في
+عونًا لهم لقرارهم في <placeName change="#d2e120 #d11e309" xml:id="placeName_65.d2e2852" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>. ذلك كان ظنهم فسياحة الإمبراطور ويلهلم في
 الشرق وذهابه إلى مراكش وإلقاء خطبته في طنجة كل ذلك كان مبنيًّا على ما ذكر
 من الاعتقاد في أمر الجامعة الإسلامية. لكن تبين الآن وجود هوة عميقة لا يسهل
 اقتحامها مع الصداقة للمسلمين والمحافظة على منافعهم الحقيقية، ولذلك ضحت
@@ -1398,14 +1398,14 @@
 أباطيلهم وقولهم بألوهية ميرزا حسين الملقب بالبهاء.
 وذكر في المقدمة أنه عرف من دعاة هذه الديانة بمصر أناسًا يحذر المسلمين
 أربعة منهم هم أيديهم وأرجلهم وألسنتهم وهم:
-(1) المرزا حسن الخراساني التاجر ب<placeName change="#d2e120" xml:id="placeName_66.d2e3365">القاهرة</placeName> وهو عميدهم في أمورهم
+(1) المرزا حسن الخراساني التاجر ب<placeName change="#d2e120 #d11e309" xml:id="placeName_66.d2e3365" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> وهو عميدهم في أمورهم
 المدنية.
 (2) المرزا أبو الفضل محمد بن محمد رضى الجرفادقاني الإيراني وهو
 داعيتهم ومؤلفهم.
 (3) فرج الله زكي الكردي صاحب مطبعة كردستان (وهو داعية كبير) .
 (4) حسين أفندي روحي ابن الملا علي التبريزي وهو صاحب مجلة تدعو
-إلى هذا الدين <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_6.d2e3381">…</hi> كان يصدرها في <placeName change="#d2e120" xml:id="placeName_67.d2e3384">القاهرة</placeName> باسم (لسان الأمم) - إلى أن قال -:
-وهو الآن صاحب مدرسة في <placeName change="#d2e120" xml:id="placeName_68.d2e3390">القاهرة</placeName> بخط الحسينية تسمى (المدرسة العباسية)
+إلى هذا الدين <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_6.d2e3381">…</hi> كان يصدرها في <placeName change="#d2e120 #d11e309" xml:id="placeName_67.d2e3384" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> باسم (لسان الأمم) - إلى أن قال -:
+وهو الآن صاحب مدرسة في <placeName change="#d2e120 #d11e309" xml:id="placeName_68.d2e3390" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> بخط الحسينية تسمى (المدرسة العباسية)
 نسبة إلى عباس أفندي زعيمهم , ومن الغريب أن يلقي المسلمون أولادهم في هذه
 المدرسة وهي - إذا صح أنها للبابية كما هو الظاهر - فإنها أشد إفسادًا لعقائدهم من
 مدارس دعاة النصرانية؛ لأن جعل المسلم نصرانيًّا عسر جدًّا وأما إفساد عقيدته
@@ -1422,7 +1422,7 @@
 واستمساك بعرى الأوهام، وجمجمة وغمغمة منها ما لم يفهم، ومنها ما يفهم ولا
 يعقل، نشرها يبشر بها المسلمين بالسلام العام، وصواعق المدافع تمزق منهم
 الأجسام، وتدرك المعاقل والآطام، وقد استولى الإفرنج على مملكة الغرب الأقصى
-من ممالكهم، وزحفت جيوشهم إلى بلاد فارس و<placeName change="#d2e120" xml:id="placeName_69.d2e3430">طرابلس الغرب</placeName>؛ لأجل القضاء
+من ممالكهم، وزحفت جيوشهم إلى بلاد فارس و<placeName change="#d2e120 #d11e309" xml:id="placeName_69.d2e3430" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName>؛ لأجل القضاء
 على الدولتين الباقيتين لهم، كما صرحت بذلك صحفهم.
 وقد بث كاتب هذه الرسالة روح دعوة البابية البهائية في رسالته، والظاهر
 أنه ما كتبها إلا لأجل هذا، وأظهر بشارته عنهم فيها هو ما نقله عن القس (وليم
@@ -1432,7 +1432,7 @@
 اهـ يعني بهذا ظهور الباب والبهاء فإن الباب أظهر دعوته الباطلة بالقرب من تلك
 السنة التي ذكر ذلك القس أن الرب ينزل فيها ولعلهم يطبقونها عليها. وتلك السنة
 توافق سنة 1259 للهجرة وهي السنة التي قالوا: إن الباب أراد أن يحج فيها
-ويظهر دعوته ب<placeName change="#d2e120" xml:id="placeName_70.d2e3458">مكة</placeName>. ولكن الله صرفه فلم يتح له ذلك.
+ويظهر دعوته ب<placeName change="#d2e120 #d11e309" xml:id="placeName_70.d2e3458" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>. ولكن الله صرفه فلم يتح له ذلك.
 فيا تعسًا لدين هذه دلائله، والقس وليم ميلر وأمثاله أنبياؤه، ويا شقاء من
 يضيع شيئًا من وقته بقراءة أمثال هذه السخافات إلا من يحذر الأغرار منها، وإلى
 الله المشتكى. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_7.d2e3467"/>
@@ -1481,7 +1481,7 @@
 الندوة واحد وهو إصلاح التعليم الإسلامي وترقية شأن الإسلام والمسلمين. وكذلك
 شاورت غيرهم من الإخوان فكانت كلمة الجميع واحدة فأجبت الدعوة وعزمت،
 وعلى الله توكلت.
-وكان سفرنا من <placeName change="#d2e120" xml:id="placeName_71.d2e3552">القاهرة</placeName> إلى بورسعيد قبل ظهر يوم الثلاثاء 23 ربيع الأنور
+وكان سفرنا من <placeName change="#d2e120 #d11e309" xml:id="placeName_71.d2e3552" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> إلى بورسعيد قبل ظهر يوم الثلاثاء 23 ربيع الأنور
 وركبنا الباخرة (مولتان) من بواخر الشركة الشرقية الإنكليزية وفيها كتبنا هذه
 السطور، ونسأل الله التوفيق وبلوغ المقصود.
 * * *
@@ -1542,8 +1542,8 @@
 قبل مجيء الجواب من الكويت في بيان ما سألت عنه، وستكون المذاكرة الأولى
 في ذلك بعد وصولنا إلى بومباي إن شاء الله تعالى.
 * * *
-(الحرب في <placeName change="#d2e120" xml:id="placeName_72.d2e3687">طرابلس الغرب</placeName> وبنغازي)
-بلغت أخبار انتصار المسلمين على الإيطاليين في <placeName change="#d2e120" xml:id="placeName_73.d2e3693">طرابلس الغرب</placeName> وبنغازي
+(الحرب في <placeName change="#d2e120 #d11e309" xml:id="placeName_72.d2e3687" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وبنغازي)
+بلغت أخبار انتصار المسلمين على الإيطاليين في <placeName change="#d2e120 #d11e309" xml:id="placeName_73.d2e3693" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وبنغازي
 إلى درجة التواتر لكثرتها وتعدد رواتها بالبرقيات والرسائل ومشافهة مَنْ حضروا
 مِنْ ميادين القتال وهم كثيرون.
 وقد قال لنا غير واحد ممن شهدوا الوقائع بأنفسهم: إنهم لو لم يشاهدوا
@@ -1589,7 +1589,7 @@
 لم يتداخل أحد في ضم اليابان لكوريا، ولا في ضم النمسة لولايتي البوسنة
 والهرسك. وكذلك عملت فرنسة ما أرادت في مملكة فاس - وإن تداخلت بعض
 الدول - وبقيت تركية وحدها (من غير نصير) في تسلط إيطالية من غير حق
-على <placeName change="#d2e120" xml:id="placeName_74.d2e3799">طرابلس الغرب</placeName> وهكذا <gap resp="#org_MS" change="#d2e120" xml:id="gap_22.d2e3802"/>
+على <placeName change="#d2e120 #d11e309" xml:id="placeName_74.d2e3799" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وهكذا <gap resp="#org_MS" change="#d2e120" xml:id="gap_22.d2e3802"/>
                
 فينبغي لروسيا إذا كانت تتوقع منافع دولة كبيرة في إيران أن لا تحجم عن أي
 شيء ولا عن إنفاق النقود الكثيرة. لو صادف روسيا في إيران أدنى شيء من عدم
@@ -1756,12 +1756,12 @@
 وعَدْنا في الجزء الماضي بكتابة نموذج من تعازي سائر البلاد والأقطار
 وإنجازًا للوعد ننشر ما يلي:
 (12)
-وكتب إلينا علم العلم والفضل في <placeName change="#d2e120" xml:id="placeName_75.d2e4148">العراق</placeName> العربي العلامة السيد محمود شكري
+وكتب إلينا علم العلم والفضل في <placeName change="#d2e120 #d11e309" xml:id="placeName_75.d2e4148" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> العربي العلامة السيد محمود شكري
 أفندي الآلوسي الحسني.
 بسم الله الرحمن الرحيم
 إلى حضرة الإمام الهمام، وقدوة العلماء الأعلام، سيدي السيد محمد رشيد
 رضا، ألهمه الله الصبر والرضا على ما قدر وقضى، أما بعد فقد طَرَقَ سمْعي، ما
-أجرى دمعي، من الخبر الذي نشرته صحف <placeName change="#d2e120" xml:id="placeName_76.d2e4162">بلاد الشام</placeName>، وكدرت به قلوب الإسلام،
+أجرى دمعي، من الخبر الذي نشرته صحف <placeName change="#d2e120 #d11e309" xml:id="placeName_76.d2e4162" ref="geon:6754242 oape:place:4" resp="#xslt">بلاد الشام</placeName>، وكدرت به قلوب الإسلام،
 من نعي الصنو الكريم، والأخ البر الرحيم، سمي جده الإمام الحسين، ووارثه
 في الفوز بالشهادتين، ووالله لقد تجددت عليّ مصيبة ابن العم فابتليت بمصيبتين
 وفي كل يوم للمنايا رزية <gap resp="#org_MS" change="#d2e120" xml:id="gap_30.d2e4171"/> تكاد لها الأكباد أن تتفطرا
@@ -1776,7 +1776,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_35.d2e4193"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_36.d2e4195"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_37.d2e4197"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_38.d2e4200"/> <placeName change="#d2e120" xml:id="placeName_77.d2e4202">بغداد</placeName> في 20 صفر سنة 1330
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_38.d2e4200"/> <placeName change="#d2e120 #d11e309" xml:id="placeName_77.d2e4202" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> في 20 صفر سنة 1330
 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_39.d2e4207"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_40.d2e4209"/> 
@@ -1813,7 +1813,7 @@
 الله عزاكم وعظم أجركم وأخلفه علينا وعليكم بخلف صالح. وقد وصلتني كتب
 أعظم تعزية من بعض الإخوان وأحدهم يقول: إن المسلمين بهذه الأطراف يكابدون
 من أنواع الهموم ما الله عالم به وزادهم نعي ثقة الإسلام بفاس وذبول غصن الأدب
-ب<placeName change="#d2e120" xml:id="placeName_78.d2e4285">الشام</placeName>. (يعني الفقيد) فإنا لله وإنا إليه راجعون. رحمه الله وغفر له آمين.
+ب<placeName change="#d2e120 #d11e309" xml:id="placeName_78.d2e4285" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>. (يعني الفقيد) فإنا لله وإنا إليه راجعون. رحمه الله وغفر له آمين.
 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_59.d2e4290"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_60.d2e4293"/> 
@@ -1870,7 +1870,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_87.d2e4409"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_88.d2e4412"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_89.d2e4414"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_90.d2e4416"/> من <placeName change="#d2e120" xml:id="placeName_80.d2e4418">مكة</placeName> المشرفة 15 ص سنة 1330
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_90.d2e4416"/> من <placeName change="#d2e120 #d11e309" xml:id="placeName_80.d2e4418" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المشرفة 15 ص سنة 1330
 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_91.d2e4423"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_92.d2e4426"/> 
@@ -1959,7 +1959,7 @@
 وكرامتهم من الله الفوز بالشهادة، وقد أخذ الحزن منا مأخذه، وأسفنا عليه أسفًا فايق
 الوصف لولا سلوتنا بمثل سيادتك، ملاذًا للأمة، ومعاذًا من كل غمة، ومقدًا آمال
 الباقين، وجمالاً للإسلام وثمالاً للمسلمين، وقد بلغني هذا النبأ الموحش، وإنا إذ
-ذاك في كاظمية <placeName change="#d2e120" xml:id="placeName_81.d2e4620">بغداد</placeName> مهاجرًا إليها مع علماء النجف فذكرت لهم ذلك النبأ المفجع
+ذاك في كاظمية <placeName change="#d2e120 #d11e309" xml:id="placeName_81.d2e4620" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> مهاجرًا إليها مع علماء النجف فذكرت لهم ذلك النبأ المفجع
 ليشتركوا معي في الحزن فعمنا الأسف جميعًا والتفجع على فقيد العلم والدين والأدب
 إلخ.
 (16)

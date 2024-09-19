@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_13-i_4.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_13-i_4.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e304">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_13-i_4.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_13-i_4.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e304" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e304" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e304" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1328">1328</date><date calendar="#cal_gregorian" when="1910" xml:lang="ar">مايو - 1910م</date></imprint>
                   <biblScope unit="volume" from="13" to="13" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">13</biblScope>
                   <biblScope unit="issue" from="4" to="4" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">4</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e304" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -163,13 +163,13 @@
 لعل كل واحد من المتناظرين حصر فكره في صعوبة أحد هذين الطرفين دون
 الآخر في إصلاح حال أهل بلاده (حضرموت) فكيف إذا فكر كل منهما في إصلاح
 البلاد العربية العثمانية بالفعل والتي نود أن تكون عثمانية كبلادهما، وأراد أن يسعى
-في توحيد التعليم وتعميمه في حضرموت و<placeName change="#d2e120" xml:id="placeName_4.d2e476">اليمن</placeName> و<placeName change="#d2e120" xml:id="placeName_5.d2e479">الحجاز</placeName> ونجد وسورية والعراق
+في توحيد التعليم وتعميمه في حضرموت و<placeName change="#d2e120 #d11e304" xml:id="placeName_4.d2e476" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> و<placeName change="#d2e120 #d11e304" xml:id="placeName_5.d2e479" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وسورية والعراق
 أو أن يدعو إليه أو إلى الاتحاد عليه وعلى تعزيز الدولة ورفعة شأنها به، ألا يتمثل
 أمام كل منهما من الصعوبات والعقبات ما يُرى معه إصلاح حضرموت وحدها أمرًا
 ميسورًا؟ إذ ليس فيها من اختلاف المذاهب الذي هو بلاء المسلمين الأكبر مثل ما
 في سائر البلاد العربية كما أنه ليس فيها من الاستعداد الحربي مثل ما يوجد في
-اليمن ونجد و<placeName change="#d2e120" xml:id="placeName_6.d2e493">العراق</placeName> ولا من اختلاف التربية والتعليم مثل ما يوجد في سورية
-و<placeName change="#d2e120" xml:id="placeName_7.d2e498">العراق</placeName> على ما فيهما من الأديان والمذاهب.
+اليمن ونجد و<placeName change="#d2e120 #d11e304" xml:id="placeName_6.d2e493" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ولا من اختلاف التربية والتعليم مثل ما يوجد في سورية
+و<placeName change="#d2e120 #d11e304" xml:id="placeName_7.d2e498" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> على ما فيهما من الأديان والمذاهب.
 ثم كيف بهما إذا فكرا في أمر التعليم والاتحاد في البلاد العثمانية كافة على ما
 فيها من اختلاف الأجناس والعناصر، إلى اختلاف الأديان والسياسات والمذاهب أو
 إذا فكروا في اتحاد المسلمين كافةً من وقوع أكثرهم تحت سلطة الأجانب؟
@@ -870,7 +870,7 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 (32) في نسخة سالمون بدل: في الناورد خببًا وتقريبًا، هذه الجملة (فيظن أن كل واحد إلى صاحبه قاصد) .
 (33) الجوشن هو الدرع.
 (34) في نسخة: بيض وسود واختار سالمون النصب.
-(35) الشروخ هي النصول، والطبرزينات واحدها طبرزين فأس من السلاح ويسمي أيضًا طيرًا كما في <placeName change="#d2e120" xml:id="placeName_8.d2e2021">بلاد الشام</placeName>.
+(35) الشروخ هي النصول، والطبرزينات واحدها طبرزين فأس من السلاح ويسمي أيضًا طيرًا كما في <placeName change="#d2e120 #d11e304" xml:id="placeName_8.d2e2021" ref="geon:6754242 oape:place:4" resp="#xslt">بلاد الشام</placeName>.
 (36) وأصاغر.
 (37) والصقالبة.
 (38) حرف (ما) ساقط وهو الصواب.
@@ -903,8 +903,8 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 الطب هو ملاك العلوم العملية وتاج مفرقها؛ ناهيك بعلم تتوقف عليه حياة الجسوم التي
 بحياتها تكون حياة الأرواح، ومن ذا الذي ينكر مقاومة الطب للأمراض الوافدة
 كالجدري والهيضة (الكوليرا) والطاعون وغيرها كالسل ونحوه، حتى أصبحت
-مدينة <placeName change="#d2e120" xml:id="placeName_9.d2e2083">القاهرة</placeName> مرتاحة من ذنيك المرضين الفتَّاكين اللذين كانا ينتابانها مناوبة وهما
-الهيضة والطاعون مع أن <placeName change="#d2e120" xml:id="placeName_10.d2e2089">القاهرة</placeName> ليس فيها من العناية بالوسائل الصحية عشر
+مدينة <placeName change="#d2e120 #d11e304" xml:id="placeName_9.d2e2083" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> مرتاحة من ذنيك المرضين الفتَّاكين اللذين كانا ينتابانها مناوبة وهما
+الهيضة والطاعون مع أن <placeName change="#d2e120 #d11e304" xml:id="placeName_10.d2e2089" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> ليس فيها من العناية بالوسائل الصحية عشر
 معشار ما في باريس وغيرها من مدائن أوربا وأمريكا بتلك البلاد التي بلغ من
 الاحتياطات الصحية فيها أنه أصبح من المحظور على الناس أن يلفظوا بصاقهم
 على الأرض حذرًا من جراثيم مرض قتَّال فيه يستنشقها المعافى السليم.
@@ -923,7 +923,7 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 نظمه معروف أفندي الرصافي الشاعر البغدادي الشهير، وعني بترتيبه
 وتبويبه والوقوف على طبعه الشيخ محيي الدين الخياط، وعني بتفسير ألفاظه الشيخ
 مصطفى الغلايني منشئ <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_6.d2e2131">النبراس</title></bibl>، صفحانه 225 وعدد قصائده وقطعه 91
-طبع بالمطبعة الأهلية ب<placeName change="#d2e120" xml:id="placeName_11.d2e2136">بيروت</placeName>، ويباع بمكتبة المنار بتسعة قروش صحيحة وأجرة
+طبع بالمطبعة الأهلية ب<placeName change="#d2e120 #d11e304" xml:id="placeName_11.d2e2136" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>، ويباع بمكتبة المنار بتسعة قروش صحيحة وأجرة
 البريد قرش.
 معروف أفندي الرصافي شاعر سليقي مطبوع، قدير على التبسيط في مناحي
 الكلام وأساليب النظم، ولو أن حظه من الصنعة وازى حظه من القدرة لقَلّ في
@@ -1084,7 +1084,7 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 الإسلام أو درس روح الإسلام) وقد جاء فيها بسخافات دلَّت على مبلغ جهله
 ورعونته، وشدة تعصبه وفرط بَلادته، وماذا عسى أن يقال في بواجه الذي زعم
 في بحثه هذا أن الإسلام أو نبي الإسلام صلى الله عليه وسلم الذي يسميه هذا
-المتأدب بالآداب المسيحية بجمّال <placeName change="#d2e120" xml:id="placeName_12.d2e2544">مكة</placeName> يقول في القرآن (إن الذي يركب البحر
+المتأدب بالآداب المسيحية بجمّال <placeName change="#d2e120 #d11e304" xml:id="placeName_12.d2e2544" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> يقول في القرآن (إن الذي يركب البحر
 مرتين لا يكون مؤمنًا) ! ! ، ولست أدري من أي قرآن أتى هذا الجهول بهذه الآية؟
 لعلها من وحي التعصب الذي يلتهب بين ضلوعه.
 وغريب أن يتصدى مثل هذا الرجل للكتابة عن الإسلام وهو على هذه الحال
@@ -1118,8 +1118,8 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 ***
 (اللطائف الأهلية)
 مجلة قصصية أهدانا ناشرها صديقنا محمد أفندي جمال صاحب المكتبة الأهلية
-ب<placeName change="#d2e120" xml:id="placeName_13.d2e2621">بيروت</placeName> أجزاء منها منعنا ضيق الوقت من النظر فيها، وقد جعل قيمة اشتراكها ريالاً
-في <placeName change="#d2e120" xml:id="placeName_14.d2e2626">بيروت</placeName> وستة فرنكات في الخارج، وهي قيمة زهيدة جدًا لا سيما وصفحات
+ب<placeName change="#d2e120 #d11e304" xml:id="placeName_13.d2e2621" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> أجزاء منها منعنا ضيق الوقت من النظر فيها، وقد جعل قيمة اشتراكها ريالاً
+في <placeName change="#d2e120 #d11e304" xml:id="placeName_14.d2e2626" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> وستة فرنكات في الخارج، وهي قيمة زهيدة جدًا لا سيما وصفحات
 الجزء زهاء مئة، فعسى أن يتوفر ناشرها على نشر المفيد النافع.
 ***
 (عدل القضاء)
@@ -1165,7 +1165,7 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 وقد كتب لها مدير سياستها السيد الزهراوي مقدمة فلسفية بليغة سهلة ألمَّ فيها
 بحاجات البلاد وما يجب للتقريب بين العناصر والسعي لجعلها غير كثيرة التفاوت
 في الارتقاء وقال في خاتمتها مبينًا منهاج الجريدة:
-(إننا ندعو إلى إقامة ميزان العدل في هذه الحكومة، ونقاوم ما نراه <placeName change="#d2e120" xml:id="placeName_15.d2e2729">حيفا</placeName> أو
+(إننا ندعو إلى إقامة ميزان العدل في هذه الحكومة، ونقاوم ما نراه <placeName change="#d2e120 #d11e304" xml:id="placeName_15.d2e2729" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> أو
 نصرًا للحيف بقدر ما تساعدنا عليه القوانين، وندعو إلى بث روح التعارف
 والتعاطف بين الشعوب العثمانية، ونرتاد لهم من الأخبار والأفكار كل ما هو نافع
 في اعتقادنا، ونقاوم روح كل شقاق وتفرقة من أي جهة هبَّ، وفي أي بلد دبَّ
@@ -1194,7 +1194,7 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 ***
 (الوطن)
 قرظنا في (ص 953 م12) من المنار <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_9.d2e2799">الإصلاح</title> التي تصدر في
-<pubPlace><placeName>سنغافوره</placeName></pubPlace></bibl>، وأبدينا سرورنا بها، والآن يسؤنا جدًّا أن نذكر خبر صدور هذه <bibl type="periodical" subtype="newspaper">الجريدة
+<pubPlace><placeName ref="geon:1880252 jaraid:place:210 oape:place:488 wiki:Q49755161" resp="#xslt" change="#d11e304">سنغافوره</placeName></pubPlace></bibl>، وأبدينا سرورنا بها، والآن يسؤنا جدًّا أن نذكر خبر صدور هذه <bibl type="periodical" subtype="newspaper">الجريدة
 (<title level="j">الوطن</title>)</bibl> المكتوبة بأقلام المراء والجدل، والمملوءة بالتعريض الذي لا يلتئم مع
 الدين والأدب، فننصح لكُتَّاب هذه الجريدة أن لا يسترسلوا لهوى النفس، وأن
 لا ينبذوا حكم العقل، والسلام على أهل الإنصاف والسلام. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_4.d2e2811"/>
@@ -1220,8 +1220,8 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 فلم أجد له أثرًا في مشرق خليج فارس وجزائره حتى عرجت على مغربه
 ونزلت البحرين فوجدت ضالتي فوالذي فلق الحبة إني لأشد فرحًا به من الغواص حين
 يجد الدر، تشرفت بقراءة الجزء الأول فاتحة السنة الحادية عشرة حتى وقفت على
-كلمة عن <placeName change="#d2e120" xml:id="placeName_16.d2e2855">العراق</placeName> وأهله لعالم غيور (ص45) .
-ولما كنت جُبْت <placeName change="#d2e120" xml:id="placeName_17.d2e2860">العراق</placeName> وعرفت أهله سُنِّيهم وشيعيهم، حاضرهم وباديهم،
+كلمة عن <placeName change="#d2e120 #d11e304" xml:id="placeName_16.d2e2855" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وأهله لعالم غيور (ص45) .
+ولما كنت جُبْت <placeName change="#d2e120 #d11e304" xml:id="placeName_17.d2e2860" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وعرفت أهله سُنِّيهم وشيعيهم، حاضرهم وباديهم،
 أحببت أني أُطْلِعُ والدي على شيء عرفته منهم حتى يعلم الوالد - جعلني الله فداه -
 إنما عده الكاتب بلاء نازلاً من مذهب الشيعة ووعاظهم هو كما ذكر الكاتب حفظه
 الله بلاء نازل وصاعقة محرقة ليس على مذهب السنة فقط، بل على مذهب الشيعة
@@ -1231,7 +1231,7 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 والحرام أو مسألة الخلافة التي هي عند أهل السنة من فروع الدين وعند الشيعة من
 أصوله، ثم أذكر اعتقادات الشيعة في القرن الرابع نقلاً من كتبهم المؤلفة في ذلك
 العصر لعل أحد قراء المنار من علماء الشيعة يقف على هذا الفصل فيتنبه ويسعى
-في إصلاح ملته وإن كان من المظنون أنه لا يوجد في إيران و<placeName change="#d2e120" xml:id="placeName_18.d2e2885">العراق</placeName> من علماء
+في إصلاح ملته وإن كان من المظنون أنه لا يوجد في إيران و<placeName change="#d2e120 #d11e304" xml:id="placeName_18.d2e2885" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> من علماء
 الشيعة من له إلمام بالإصلاح الديني.
 ***
 سبب اجتماع علماء العجم
@@ -1239,7 +1239,7 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 كان محل ومأوى علماء الشيعة أواخر سلطة بني العباس الحلة في العراق
 وفيها يتخرج مجتهدوهم ثم ينتشرون في بلاد العجم إما للدعوة أو لالتماس دولة
 تأويهم وتنصرهم، لا لرفع التقييد عنهم فقط بل لحصد أهل السنة، يدل على ذلك
-حين قدم هلاكو خان إلى قومسين قاصدًا <placeName change="#d2e120" xml:id="placeName_19.d2e2905">بغداد</placeName> وفد عليه يوسف الحلي والد ابن
+حين قدم هلاكو خان إلى قومسين قاصدًا <placeName change="#d2e120 #d11e304" xml:id="placeName_19.d2e2905" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> وفد عليه يوسف الحلي والد ابن
 المطهر الشهير عندهم بالعلامة، وكربلاء إذ ذاك قرية صغيرة والنجف لا يبلغ
 سكنته عدد الأصابع وإنما هو عبارة عن رباط يسكنه الزوار أو يلجأ إليه الدراويش
 والزهاد كما فعل الطوسي، والغالب في بلاد إيران ذلك الوقت مذهب أهل السنة إلا
@@ -1273,52 +1273,52 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 إلى النجف فكان هؤلاء يكتبون لهم الرسائل التقليدية ويبعثون تلاميذهم بها إلى
 إيران لرواجها والشيعة يبعثون إلى علمائهم ومقلدتهم الدراهم بقصد الخمس والزكاة
 وشيء يسمونه رد المظالم؟ وما هو ردُّ إذا ذهب حاكم مثلاً إلى ولاية ومص دم أهلها
-ثم عزل وأراد أن يذهب لزيارة أحد أئمتهم أو إلى <placeName change="#d2e120" xml:id="placeName_20.d2e2983">مكة</placeName> أعطى للمجتهد جزءًا من ألف
+ثم عزل وأراد أن يذهب لزيارة أحد أئمتهم أو إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_20.d2e2983" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أعطى للمجتهد جزءًا من ألف
 جزء وطهر له ماله، وقد شاهدت علاء الدولة في كرمان شاه بقومسين أهدى لابن
 الحاج ميرازا حسين خليل ما يبلغ ألف ريال مجيدي فأحل له ما يملك وهو يملك
 أربعة ملايين من الفرنكات وأمثال ذلك كثير فإذا وصلت هذه الدنانير إلى المجتهد فلا
 بد من تفريق بعضها على طلبته والمتخرجين عليه حتى إذا ذهبوا إلى إيران روجوا
 رسالته.
 قد قلت إن عامة أهل إيران قلَّ وثوقهم بعلماء إيران أجمع فانحصر تقليدهم
-في علماء <placeName change="#d2e120" xml:id="placeName_21.d2e3002">العراق</placeName> وكانت الرسائل تخرج إليهم منه فكان علماء العجم بعد تحصيلهم
+في علماء <placeName change="#d2e120 #d11e304" xml:id="placeName_21.d2e3002" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وكانت الرسائل تخرج إليهم منه فكان علماء العجم بعد تحصيلهم
 العلوم العقلية يذهبون إليه أفواجًا إما للمجاورة أو لطلب الرزق أو للإقامة مدة ثم
 الرجوع إلى إيران بالإجازة [1] وهو يتعهد بترويج رسالة الشيخ وإيصال الحقوق إليه،
 والشيخ يتعهد بالكتابة إلى الشاه والحكام في التوصية به، وهؤلاء الذين تخرجوا
-في <placeName change="#d2e120" xml:id="placeName_22.d2e3013">العراق</placeName> واختاروا الرجوع إلى إيران لا هم لهم إلا معارضة الدولة وأخذ الرشى من
-الحكام والولاة أوتكفيرهم وشكواهم على مجتهدي <placeName change="#d2e120" xml:id="placeName_23.d2e3019">العراق</placeName>، ولما لم يكن للناس
+في <placeName change="#d2e120 #d11e304" xml:id="placeName_22.d2e3013" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> واختاروا الرجوع إلى إيران لا هم لهم إلا معارضة الدولة وأخذ الرشى من
+الحكام والولاة أوتكفيرهم وشكواهم على مجتهدي <placeName change="#d2e120 #d11e304" xml:id="placeName_23.d2e3019" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، ولما لم يكن للناس
 اعتقادهم فيهم لما يرونه من أفعالهم فهم لا يبالون بجمع الدنيا من أي وجه أتت، وهذا
 الشيخ تقي الأصفهاني هو وأخوته وأنجاله تبلغ غلتهم في كل يوم عشرة آلاف فرنك
-أو ما يقرب منه، وطغام أهل إيران إذا ذهبوا إلى <placeName change="#d2e120" xml:id="placeName_24.d2e3028">العراق</placeName> لزيارة مشهدي علي
+أو ما يقرب منه، وطغام أهل إيران إذا ذهبوا إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_24.d2e3028" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> لزيارة مشهدي علي
 والحسين وأولادهم، ورأوا من علماء هذه البلاد الانزواء وعدم التردد إلا لصلاة
 الجماعة والزيارة والدرس وإذا خرجوا من بيوتهم متلثمين جاعلا واحدهم عباءته على
 رأسه وسبحته في يده وقد شاهدوا من علماء إيران ركوب العربات واتخاذ
 الحدائق والجنات وكثرة التزوج حتى إن أحدهم ليبلغ زواجه حد المئة من النساء
 ازدادوا محبة لهم ورغبوا في حمل الدراهم إليهم وحسبوا أفعالهم من الزهد والتدين،
 ولم يعلموا المساكين أن هؤلاء مثل أولئك إلا أن عادات وأخلاق أهل البلاد تختلف ولو
-انتقل علماء <placeName change="#d2e120" xml:id="placeName_25.d2e3047">العراق</placeName> إلى إيران لفعلوا كما شاهدنا.
-وقد شاهدت علماء <placeName change="#d2e120" xml:id="placeName_26.d2e3052">العراق</placeName> يبعثون خدام قبر علي وأولاده إلى خان قين
+انتقل علماء <placeName change="#d2e120 #d11e304" xml:id="placeName_25.d2e3047" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> إلى إيران لفعلوا كما شاهدنا.
+وقد شاهدت علماء <placeName change="#d2e120 #d11e304" xml:id="placeName_26.d2e3052" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> يبعثون خدام قبر علي وأولاده إلى خان قين
 لاستقبال الزوار من العجم والترك والالقاء إليهم بأن فلانا هو الأعلم الأتقى،
-وبالجملة فظن الكاتب حفظه الله لم يخالط الشيعة في <placeName change="#d2e120" xml:id="placeName_27.d2e3060">العراق</placeName> ولم يعاشرهم فظن أن
-هذا المجمع العلمي يُرسل منه رسلا للدعوة، أو رأى أن أكثر قرى <placeName change="#d2e120" xml:id="placeName_28.d2e3065">العراق</placeName> شيعة
+وبالجملة فظن الكاتب حفظه الله لم يخالط الشيعة في <placeName change="#d2e120 #d11e304" xml:id="placeName_27.d2e3060" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ولم يعاشرهم فظن أن
+هذا المجمع العلمي يُرسل منه رسلا للدعوة، أو رأى أن أكثر قرى <placeName change="#d2e120 #d11e304" xml:id="placeName_28.d2e3065" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> شيعة
 فظن أنه من فضل علمائهم وأنهم يرسلون الدعاة حالا ولو قال من سنين خلت لأمكن
 تسليمه مع أن التأريخ يأبى ذلك فإنه قبل إرغام الرعية عبد الحميد على المساواة لم
 يتمكن الشيعة من بناء المساجد والنداء فيها بولاية علي، يعلم ذلك كل عراقي دع
 إرسال دعاة منهم إلى البادية، وأظن أن الفضل في ذلك عائد إلى الصفوية ومن في
-زمنهم من العلماء كالاردبيلي، وهجمات دولة الصفوية على <placeName change="#d2e120" xml:id="placeName_29.d2e3079">العراق</placeName> وقتلهم علماء
+زمنهم من العلماء كالاردبيلي، وهجمات دولة الصفوية على <placeName change="#d2e120 #d11e304" xml:id="placeName_29.d2e3079" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وقتلهم علماء
 أهل السنة وإلزام العامة بالتشيع أو القتل معروف مشهور، لذلك فإنك لا تجد من أهل
-بادية <placeName change="#d2e120" xml:id="placeName_30.d2e3086">العراق</placeName> أعني بادية غربي الفرات من فيه رائحة التشيع اللهم إلا قليلا من
+بادية <placeName change="#d2e120 #d11e304" xml:id="placeName_30.d2e3086" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> أعني بادية غربي الفرات من فيه رائحة التشيع اللهم إلا قليلا من
 العرب لا يبلغ عدد فرسانهم المئتين يدعون بالخراعل وأناسا من الشطين يدعون
-بشمر الجرباء، وأريد بقولي بادية أهل <placeName change="#d2e120" xml:id="placeName_31.d2e3094">العراق</placeName> أهل الخف والحافر الذين لهم قدرة
+بشمر الجرباء، وأريد بقولي بادية أهل <placeName change="#d2e120 #d11e304" xml:id="placeName_31.d2e3094" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> أهل الخف والحافر الذين لهم قدرة
 على النجعة ولهذا سلموا من ضغط الصفوية وإلزامهم لهم بالتشيع.
-تأتي منحدرًا من <placeName change="#d2e120" xml:id="placeName_32.d2e3101">الشام</placeName> على ضفاف الفرات قاصدًا <placeName change="#d2e120" xml:id="placeName_33.d2e3105">العراق</placeName> فترى عرب عنزة
-كالجراد المنتشر إلى أواسط <placeName change="#d2e120" xml:id="placeName_34.d2e3110">العراق</placeName> ثم ترى شمَّر على أفخاذهم عبده فسنجاره حتى
-تنتهي إلى نصف الفرات الآخر فترى عرب المنتفك وعرب الظفر إلى قرب <placeName change="#d2e120" xml:id="placeName_35.d2e3115">البصرة</placeName>،
+تأتي منحدرًا من <placeName change="#d2e120 #d11e304" xml:id="placeName_32.d2e3101" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> على ضفاف الفرات قاصدًا <placeName change="#d2e120 #d11e304" xml:id="placeName_33.d2e3105" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> فترى عرب عنزة
+كالجراد المنتشر إلى أواسط <placeName change="#d2e120 #d11e304" xml:id="placeName_34.d2e3110" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ثم ترى شمَّر على أفخاذهم عبده فسنجاره حتى
+تنتهي إلى نصف الفرات الآخر فترى عرب المنتفك وعرب الظفر إلى قرب <placeName change="#d2e120 #d11e304" xml:id="placeName_35.d2e3115" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>،
 ثم تنحدر فترى مطير الدوشان فعريب دار، ثم تنحدر من الكويت فتري العجمان
 المناصير آلا مرة بني هاجر وعربًا لاحصيهم إلا خالقهم، فهذه القبائل من العرب
 الذين عددتهم معاملتهم مع أهل النجف وكربلاء فزبالاء سوق الشيخ والسماوة
-الخميسية فبغداد منحدرًا إلى <placeName change="#d2e120" xml:id="placeName_36.d2e3127">البصرة</placeName> ثم الزبر والكويت فالحساء والقطيف وقطر
+الخميسية فبغداد منحدرًا إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_36.d2e3127" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> ثم الزبر والكويت فالحساء والقطيف وقطر
 وليس يوجد فيهم شيعي ولا قدرة له على إظهار مذهبه عندهم مع أن أكثر بيعهم
-وشرائهم مع الشيعة وأكثر أهل البلاد التي يقتاتون منها شيعة ولاسيما <placeName change="#d2e120" xml:id="placeName_37.d2e3135">العراق</placeName>.
+وشرائهم مع الشيعة وأكثر أهل البلاد التي يقتاتون منها شيعة ولاسيما <placeName change="#d2e120 #d11e304" xml:id="placeName_37.d2e3135" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>.
 وقد قلت الوعاظ ولم أقل الدعاة لأن هؤلاء لا يذهبون للدعوة وليسوا أهلاً لذلك
 لأنهم لا يعرفون معنى دينهم فضلا عن أن يدعو إليه ولم يذهبوا إلى بادية السنة أبدًا
 اللهم إلا للبيع والشراء كما ذكرت، وعند ذكر الوعاظ لا بأس بالإشارة إلى شيء
@@ -1333,14 +1333,14 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 والعربية في القرن التاسع فكان ملا العجمي يقرأ منه فصلاً فيبكي الحاضرون ولا
 يعرف أنهم يقرؤنه بعد الصلاة أو في سائر السنة مثل الشيعة حالاً اللهم إلا في سابع
 المحرم إلى العاشر، والعجم يسمون قراء عزاء الحسين (روضة خان) ومعناه قارئ
-الروضة وشيعة <placeName change="#d2e120" xml:id="placeName_38.d2e3170">العراق</placeName> يدعونه قارئًا نسبة إلى الكتاب المعروف.
+الروضة وشيعة <placeName change="#d2e120 #d11e304" xml:id="placeName_38.d2e3170" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> يدعونه قارئًا نسبة إلى الكتاب المعروف.
 ويظهر أن عزاء الحسين المعروف حالاً عند الشيعة لم يكن يعرف قبل
 الصفوية اللهم إلا جلسات خفيفة، فدولة الصفوية رتبت الجلوس في العشر المحرم
 كلها كما أحدثت دولة آل بويه قبلهم الديالمة الجلوس في اليوم العاشر، والشيعة
 حالاً زادوا في الطنبور نغمة المحرم صفر جمادي الأولى رمضان لا يبعد أن يقال
 ثلث السنة أسواقهم مغلقة، وبيوتهم بالشمع محرقة، لا بسين السواد وأظنه حدث في
 أواخر أيام دولة الصفوية على زمن عالمهم المجلسي.
-ذكرت قبلاً أن أهل الخف والحافر من بادية <placeName change="#d2e120" xml:id="placeName_39.d2e3189">العراق</placeName> لا يوجد فيهم رائحة
+ذكرت قبلاً أن أهل الخف والحافر من بادية <placeName change="#d2e120 #d11e304" xml:id="placeName_39.d2e3189" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> لا يوجد فيهم رائحة
 التشيع، نعم إن الشاوية، والبقارة أهل بيوت القصب والأكواخ الذين لا قدرة لهم
 على النجعة كلهم شيعيون إلا القليل، يذهب إلى هؤلاء القارئ أو الواعظ، أو
 الروضه خان لطلب الرزق لا للدعوة كما يظن الكاتب ثم يجمعهم وينصب منبرًا أو
@@ -1433,7 +1433,7 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 في هذا التأليف أن يتفق المتعاونون عليه والساعون إليه على أن ينتقد كل منهم أهل
 الدين أوالمذهب الذي ينتسب إليه فما ينافي هذا التأليف دون المخالفين له إلا أن
 يضطر إلى انتقاد المخالف اضطرارًا فحينئذ ينتقد مع التلطف، واتقاء ما يثير رواكد
-التعصب وقد صرحنا بهذا الرأي عند الكلام فيما شجر بين أهل <placeName change="#d2e120" xml:id="placeName_40.d2e3399">بيروت</placeName> من الخصام
+التعصب وقد صرحنا بهذا الرأي عند الكلام فيما شجر بين أهل <placeName change="#d2e120 #d11e304" xml:id="placeName_40.d2e3399" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> من الخصام
 والصدام منذ بعض سنين.
 ومن سيرتنا العملية في ذلك أننا أكثرنا من انتقاد البدع والخرافات التي فشت
 بين المنتسبين إلى السُّنة والمذاهب التي تعزى إليها ولاسيما بدع الموالد والقبور
@@ -1447,10 +1447,10 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 الضرر الأشد وهو التفرق والنزاع بالضررالأخف وهو حضور مجتمع ترى فيه
 البدع كالذين يأتون مضرجين بالدماء مما يضربون رؤوسهم بالسيوف <gap resp="#org_MS" change="#d2e120" xml:id="gap_35.d2e3428"/>
                
-ولما نشرت منذ سنتين رسالة ذلك العالم الغيور عن <placeName change="#d2e120" xml:id="placeName_41.d2e3432">العراق</placeName> لما فيها من التنديد
+ولما نشرت منذ سنتين رسالة ذلك العالم الغيور عن <placeName change="#d2e120 #d11e304" xml:id="placeName_41.d2e3432" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> لما فيها من التنديد
 بسوء إدارة الحكومة الحميدية التي كنا نحاربها قفيت على الرسالة بما يزيل ما فيها
 من سوء التأثير الذي يخشى أن يزيد في الخلاف فقلت إن نشر دعاة الشيعة مذهبهم
-بين أعراب <placeName change="#d2e120" xml:id="placeName_42.d2e3442">العراق</placeName> ينفع من الجهة الدينية إذا كانوا يعلمونهم الفرائض وأحكام
+بين أعراب <placeName change="#d2e120 #d11e304" xml:id="placeName_42.d2e3442" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ينفع من الجهة الدينية إذا كانوا يعلمونهم الفرائض وأحكام
 الحلال والحرام وحصرت ضرره الذي خشيه الكاتب في الجهة السياسية لما ذكرت
 آنفًا من بيان مفاسد الحكومة الحميدية، ولوكتب إلينا أي كاتب من الشيعة انتقادًا
 على تلك الرسالة لنَشرناه في المنار كما هي عادتنا في نشر الانتقاد علينا بله الانتقاد
@@ -1464,7 +1464,7 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 المتعصبين، وقد كذَب صاحب الرسالة العراقية فيما كتبه في مسألة نشر مذهب
 الشيعة بين الأعراب المنتسبين إلى السنة، وما يؤيد ذلك مما كنا نشرناه في المجلد
 الثاني نقلاً عن بعض المختبرين ونصرح باسمه الآن فنقول: هو سليمان أفندي
-البستاني مبعوث <placeName change="#d2e120" xml:id="placeName_43.d2e3475">بيروت</placeName> الذي أقام في <placeName change="#d2e120" xml:id="placeName_44.d2e3478">العراق</placeName> عدة سنين وهو لا يتعصب لأهل
+البستاني مبعوث <placeName change="#d2e120 #d11e304" xml:id="placeName_43.d2e3475" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> الذي أقام في <placeName change="#d2e120 #d11e304" xml:id="placeName_44.d2e3478" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> عدة سنين وهو لا يتعصب لأهل
 السنة على الشيعة ولا للشيعة على أهل السنة لأنه نصراني لا يفرق بين
 أحد منهم.
 أطْلعنا بعض الأصدقاء على رسالة الشيعي المتعصب فقرأنا منها جملاً متفرقة
@@ -1498,7 +1498,7 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 الأمم، ولكان لأهلها من السائحين مورد من أغزر موارد الثروة، ولكنك لا تجد فيها
 أثرًا من آثار العمران القديم للسلاطين السابقين الذين دوخوا الدول إلا المساجد، ولا
 شيئًا يُعْتد به من آثار العمران الحديث إلا المعسكرات من الثكنات والمدارس،
-فصوفية عاصمة البلغار وأثينا عاصمة اليونان و<placeName change="#d2e120" xml:id="placeName_45.d2e3550">القاهرة</placeName> عاصمة مصر، كل أولئك
+فصوفية عاصمة البلغار وأثينا عاصمة اليونان و<placeName change="#d2e120 #d11e304" xml:id="placeName_45.d2e3550" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> عاصمة مصر، كل أولئك
 أرقى من عاصمة الدولة عمرانًا، فالآستانة موقع جميل، ومعسكر كبير، لا تغيب
 الجنود عن عينيك فيها دقيقةً من الزمان، فعسى الله أن يسخر لها الرجال الذين
 يعمرونها بعمران المملكة، لا بالاستقراض من الأجانب بالربا الذي يجعلها تحت
@@ -1536,7 +1536,7 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 إن بين إستانبول وقسم غلطه وبك أوغلي تباينًا عظيمًا في العادات ونظام
 المعيشة وحالة العمران على أن المسافة بينهما تقطع بدقيقتين إذ الفاصل بينهما هو
 الخليج المشهور وعليه جسران للمشاة والركبان ومنهم من يقطعه بالزوارق. تشبه
-إستانبول في عاداتها بلاد المشرق الإسلامية القديمة ك<placeName>طرابلس الشام</placeName> فأزياء
+إستانبول في عاداتها بلاد المشرق الإسلامية القديمة ك<placeName ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt" change="#d11e304">طرابلس الشام</placeName> فأزياء
 النساء فيها كأزياء النساء في مدن سورية إلا ما امتزن به وقد ذكرناه آنفًا، وأزياء
 الرجال فيها كأزياء الرجال في مدن سورية، الطربوش، والعمامة البيضاء،
 والعمامة المطرزة والعمامة الخضراء والمناديل الملونة كل ذلك من أزياء الرؤوس
@@ -1556,10 +1556,10 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 ولاسيما على عهد إسماعيل باشا.
 كنت كتبت في المنار وقلت في بعض الخطب التي ألقيتها في العام الماضي
 بالبلاد السورية إن أرقى البلاد العثمانية الآستانة وما يقرب منها من ولايات
-الرومللي وأوسطها سورية وأدناها <placeName change="#d2e120" xml:id="placeName_47.d2e3682">العراق</placeName> و<placeName change="#d2e120" xml:id="placeName_48.d2e3685">الحجاز</placeName> و<placeName change="#d2e120" xml:id="placeName_49.d2e3689">اليمن</placeName>.
+الرومللي وأوسطها سورية وأدناها <placeName change="#d2e120 #d11e304" xml:id="placeName_47.d2e3682" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> و<placeName change="#d2e120 #d11e304" xml:id="placeName_48.d2e3685" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> و<placeName change="#d2e120 #d11e304" xml:id="placeName_49.d2e3689" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>.
 وقد تبين لي أن هذا القول خطأ فالآستانة لا تفوق سورية إلا بكثرة عدد
 المتعلمين من الرجال والنساء وبالآداب الاجتماعية كما تقدم؛ فهي ليست أرقى في
-العمران الحديث من <placeName change="#d2e120" xml:id="placeName_50.d2e3698">بيروت</placeName> ولا في العمران القديم من <placeName change="#d2e120" xml:id="placeName_51.d2e3701">دمشق</placeName>، وليس النابغون من
+العمران الحديث من <placeName change="#d2e120 #d11e304" xml:id="placeName_50.d2e3698" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> ولا في العمران القديم من <placeName change="#d2e120 #d11e304" xml:id="placeName_51.d2e3701" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، وليس النابغون من
 أهلها كالنابغين من سورية في العلوم الإسلامية، ولا في الفنون، والعلوم الأوربية،
 ولا في الأدبيات، ولا في التجارة والزراعة , ولا أهل الإدارة والقضاء منهم أرقى
 ممن تسنى لهم أن يشتغلوا بهما من السوريين بمصر، وكذا في بلاد الدولة على قلتهم
@@ -1567,7 +1567,7 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 الحربية من الضباط السوريين ولا العراقيين إلا أنهم أكثر وأما ولايات الرومللي وكذا
 الأناضول فهي دون الولايات السورية في الجملة.
 وأما النسبة بين الآستانة ومصر فهي أن عامة أهل الآستانة أرقى من عادة أهل
-القاهرة وخاصة أهل <placeName change="#d2e120" xml:id="placeName_52.d2e3722">القاهرة</placeName> النابغين أرقى من خاصة أهل الآستانة النابغين إلا في
+القاهرة وخاصة أهل <placeName change="#d2e120 #d11e304" xml:id="placeName_52.d2e3722" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> النابغين أرقى من خاصة أهل الآستانة النابغين إلا في
 الجندية، وأما من جهة الثروة والعمران فمصر أغزر ثروةً وأرقى عمرانًا، وقد
 تقدمت النسبة بين البلدين في النساء وتربية الأولاد.
 هذا ما تبين لي في هذه الشهور نصصته على غره، غير متحرف إلى جهة،
@@ -1607,7 +1607,7 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 إلى أن يأسرهم أو يقتلهم وقال لا توجد ذريعة أنجع من إدخال القبائل الوثنية في
 الدين المسيحي لتكون حصنًا متينًا للدفاع.
 ثم قال: ولا يوجد الآن غير طريقين لنجاة الرقيق: أولهما في السودان
-العربي إلى <placeName change="#d2e120" xml:id="placeName_53.d2e3800">مكة</placeName> مارًا بالسودان المصري وقد حاولت القوة الفرنسية في بحيرة تشاد
+العربي إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_53.d2e3800" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> مارًا بالسودان المصري وقد حاولت القوة الفرنسية في بحيرة تشاد
 بقياد الكولونل مول أن تقطع هذا الطريق حتى تمكنت من ذلك ولكن الطريق الثاني
 لا يزال مفتوحًا ويمر ببنغازي ولا يمكن إغلاقه إلا إذا استولت بريطانيا العظمى
 على درافور.
@@ -1662,7 +1662,7 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 الجموع ولو كان المسلمون متّحدون الاتحاد المطلوب لما أقام الإنكليز ساعة في تلك
 البقاع على أن التكافل بينهم قد بدا طلعه فاتحد فريق كبير منهم وبدأوا بإعداد القوة
 وسيجتازون عما قريب كل عقبة وصعوبة وقد ظهر للناس أخيرًا أنهم يميلون زلفى
-إلى <placeName change="#d2e120" xml:id="placeName_54.d2e3919">الدولة العثمانية</placeName>.
+إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_54.d2e3919" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>.
 فلسوف يقوى الإسلام في الهند ويمتد بواسطة العلم الذي ينتشر بينهم بسرعة
 ولا غَرْو فإن هذا الدين من مطالبه العلم، وسوف يسود على كل تلك الديار على أن
 الإنكليز هم الذين علموهم لغتهم فتسلحوا بها وأصبحوا يطالبون بحقوق الإنسان
@@ -1684,14 +1684,14 @@ kinder) التي تلقى إليها الدروس مزيجًا من التعلي
 
                
 جاءتنا كراسة بهذا الاسم فيها تفصيل عن (حفلة توزيع الجوائز على التلامذة
-الفائزين في الامتحان السنوي في المدرسة الصولتية ب<placeName change="#d2e120" xml:id="placeName_55.d2e3960">مكة المكرمة</placeName> تأسيس العلامة
+الفائزين في الامتحان السنوي في المدرسة الصولتية ب<placeName change="#d2e120 #d11e304" xml:id="placeName_55.d2e3960" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> تأسيس العلامة
 المرحوم الشيخ رحمة الله الهندي صاحب كتاب إظهار الحق) ، وهي مفتتحة
 بخطاب من مدير تلك المدرسة موجه إلى كل قارئ يستفز به الهمم ويحدو العزائم
 إلى مساعدة هذه المدرسة الفذة في نوعها المفيدة في الجملة بالتبرعات المالية؛ لأن
 قيامها بها وهي لا تزال قائمة بتبرعات الهنود الأسخياء الذين عرفوا قوة التعاون
 والتكافل أكثر من غيرهم من مسلمي الأرض، وإنه ليجدر بمسلمي هذه البلاد أن يمدوا
 إليها يد السخاء وما نرى أنهم يرضون كما رضيت دولتهم بأن يكون الجهل ضاربًا
-أطنابه في <placeName change="#d2e120" xml:id="placeName_56.d2e3979">مكة المكرمة</placeName> ذلك البلد الحرام الذي كان ينبوع سعادتهم ومهيع العلم والحكمة
+أطنابه في <placeName change="#d2e120 #d11e304" xml:id="placeName_56.d2e3979" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> ذلك البلد الحرام الذي كان ينبوع سعادتهم ومهيع العلم والحكمة
 من قبل.
 ألا وإنه ليحزننا أن تبقى البلاد التي نزل بها الوحي وانبثق منها نور الإسلام
 الذي قلب كيان العالم وقتل الوثنية ونفخ روح العلم وأشرع سبيل استقلال الفكر إنه

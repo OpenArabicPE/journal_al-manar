@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_26-i_10.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_26-i_10.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e276">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_26-i_10.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_26-i_10.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1344">1344</date><date calendar="#cal_gregorian" when="1926" xml:lang="ar">مارس - 1926م</date></imprint>
                   <biblScope unit="volume" from="26" to="26" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">26</biblScope>
                   <biblScope unit="issue" from="10" to="10" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">10</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e276" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -187,7 +187,7 @@
 ويجد القارئ هذا البحث في المواهب اللدنية وشرحها، وفي الإبريز، وفي
 بحث الكرامات من طبقات الشافعية الكبرى للسبكي وغيرها، وقد كنت قرأت هذا
 وغيره وكتبت في المسألة بحثًا طويلاً في كتاب (الحكمة الشرعية في المحاكمة
-بين القادرية والرفاعية) الذي ألفته في أثناء طلبي للعلم ب<placeName change="#d2e120" xml:id="placeName_4.d2e510">طرابلس الشام</placeName>.
+بين القادرية والرفاعية) الذي ألفته في أثناء طلبي للعلم ب<placeName change="#d2e120 #d11e276" xml:id="placeName_4.d2e510" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName>.
 ويعلل النفاة لرؤية اليقظة ما روي عن بعض كبار الصوفية من ادعائها،
 ومنهم الأتقياء العدول، والعلماء الفحول، الذين يجلّون عن تهمة الكذب والافتراء؛
 يعللون ذلك بأنهم هؤلاء لم يفتروا تلك الدعوى افتراء، وإنما كان ما يرونه نوعًا
@@ -771,7 +771,7 @@
 ثم بدرسها في مصر، ثم بدرسها في سورية، وسمع فيهما أقوال الصادقين
 والمنافقين، وغلاة التعصب الديني والطائفي من اللبنانيين. ثم بمعالجتها في
 فلسطين، ثم بمعالجتها في أنقرة عاصمة الترك. وقد مرت بضعة أشهر على ندبه
-لهذه المعالجة على إثر الفظائع التي اقتُرفت في <placeName change="#d2e120" xml:id="placeName_6.d2e1767">دمشق</placeName>، فاهتز لهولها الشرق
+لهذه المعالجة على إثر الفظائع التي اقتُرفت في <placeName change="#d2e120 #d11e276" xml:id="placeName_6.d2e1767" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، فاهتز لهولها الشرق
 والغرب، ولم تزدد نيران الثورة إلا اشتغالاً، ولم تزدد البلاد إلا خرابًا، ولم يزدد
 المشاقُّون فيها إلا شقاقًا، ولم تزدد فرنسة إلا خسارًا لمالها ولرجالها ولصيتها،
 ولماذا؟
@@ -837,13 +837,13 @@
 ومُطَّلع على دقائقه وخفاياه.
 لقد كان ينبغي "لمسيو جوفنيل" أن يعلم أن مسلمي سورية الشمالية غير راضين
 عن أعمال الإنكليز في سورية الجنوبية (فلسطين وشرق الأردن) ولا غافلين عن
-خطرهم على <placeName change="#d2e120" xml:id="placeName_7.d2e1913">العراق</placeName>، وأنهم فوق ذلك غير آمنين منهم على <placeName change="#d2e120" xml:id="placeName_8.d2e1916">الحجاز</placeName> وسائر جزيرة
+خطرهم على <placeName change="#d2e120 #d11e276" xml:id="placeName_7.d2e1913" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وأنهم فوق ذلك غير آمنين منهم على <placeName change="#d2e120 #d11e276" xml:id="placeName_8.d2e1916" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وسائر جزيرة
 العرب، وأن يعلم أن جمهورية أنقرة التركية، صارت أبعد من جمهورية فرنسة
-عن الأمة العربية؛ لطمعها في أهم بقاع <placeName change="#d2e120" xml:id="placeName_9.d2e1923">العراق</placeName> وسورية، مع قطعها لرحم الأخوة
+عن الأمة العربية؛ لطمعها في أهم بقاع <placeName change="#d2e120 #d11e276" xml:id="placeName_9.d2e1923" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وسورية، مع قطعها لرحم الأخوة
 الإسلامية. فهذه فرصة سانحة لفرنسة إذا أرادت أن تتودد إلى العرب والمسلمين
 بما يناسب الطور الجديد الذي دخل فيه الشرق توددًا صحيحًا لا كيد فيه ولا خداع،
-لا كإظهار التودد أخيرًا لملك <placeName change="#d2e120" xml:id="placeName_10.d2e1933">الحجاز</placeName> وسلطان نجد، ولا كإظهار التودد قبله للخلافة
-التركية، وأعني بهذا التودد أن تسبق إلى عقد اتفاق مع سورية جارة <placeName change="#d2e120" xml:id="placeName_11.d2e1938">الحجاز</placeName> ونجد،
+لا كإظهار التودد أخيرًا لملك <placeName change="#d2e120 #d11e276" xml:id="placeName_10.d2e1933" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وسلطان نجد، ولا كإظهار التودد قبله للخلافة
+التركية، وأعني بهذا التودد أن تسبق إلى عقد اتفاق مع سورية جارة <placeName change="#d2e120 #d11e276" xml:id="placeName_11.d2e1938" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد،
 وأول قطر فتحه الصحابة، ومهد الحضارة لأول سلطنة (إمبراطورية) عربية
 إسلامية، على قاعدة الاستقلال المطلق والتعاون المتبادل.
 ألا فليتذكر (موسيو جوفنيل) أن الشرق قد استيقظ، وأن صداقة ثلاثمائة مليون
@@ -976,7 +976,7 @@
 من كل معوار صليب عوده <gap resp="#org_MS" change="#d2e120" xml:id="gap_61.d2e2298"/> يقتاد كلَّ مدجَّج مغوار
 الواثبين إذا يقال: تأهبوا <gap resp="#org_MS" change="#d2e120" xml:id="gap_62.d2e2302"/> والقاحمين إذا يقال: بدار
 إن أنصفت أيام (ذي قار) لنا <gap resp="#org_MS" change="#d2e120" xml:id="gap_63.d2e2307"/> سلفًا فنحن اليوم في (ذي قار)
-طارت بألباب الفرنجة صيحة <gap resp="#org_MS" change="#d2e120" xml:id="gap_64.d2e2311"/> في <placeName change="#d2e120" xml:id="placeName_12.d2e2313">الشام</placeName> فاندفعوا إلى الأسوار
+طارت بألباب الفرنجة صيحة <gap resp="#org_MS" change="#d2e120" xml:id="gap_64.d2e2311"/> في <placeName change="#d2e120 #d11e276" xml:id="placeName_12.d2e2313" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> فاندفعوا إلى الأسوار
 واستهدفوا الأطفال في حجراتها <gap resp="#org_MS" change="#d2e120" xml:id="gap_65.d2e2318"/> والطفلات وهُنَّ في الأخدار
 عمُّوا بمضطرب القذائف كلَّ ذي <gap resp="#org_MS" change="#d2e120" xml:id="gap_66.d2e2323"/> ضعفٍ وخصُّوا كل ذات إزار
 ستروا بضرب الآمنين فرارهم <gap resp="#org_MS" change="#d2e120" xml:id="gap_67.d2e2327"/> فأعجب لعارٍ ستروه بعار
@@ -987,7 +987,7 @@
 تأبى الجماعة أن تهون لغاضب <gap resp="#org_MS" change="#d2e120" xml:id="gap_71.d2e2347"/> والفرد موقوف على الأقدار
 وإذا العرى انفصمت تولى أهلَها <gap resp="#org_MS" change="#d2e120" xml:id="gap_72.d2e2351"/> ضيمُ المغير بخطبه الكبَّار
 ***
-يا ابن (الكنانة) ما الجراح دواميًا <gap resp="#org_MS" change="#d2e120" xml:id="gap_73.d2e2357"/> في <placeName change="#d2e120" xml:id="placeName_13.d2e2360">الشام</placeName> إلا في طلى الأحرار
+يا ابن (الكنانة) ما الجراح دواميًا <gap resp="#org_MS" change="#d2e120" xml:id="gap_73.d2e2357"/> في <placeName change="#d2e120 #d11e276" xml:id="placeName_13.d2e2360" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> إلا في طلى الأحرار
 المشترين ديارهم بدمارهم <gap resp="#org_MS" change="#d2e120" xml:id="gap_74.d2e2365"/> وهم يرون به رباح الشاري
 أنِفوا حياة الشاء كل عشية <gap resp="#org_MS" change="#d2e120" xml:id="gap_75.d2e2369"/> وضحى تعيث بها يد الجزار
 هلا نظرتَ إلى الشآم فإنها <gap resp="#org_MS" change="#d2e120" xml:id="gap_76.d2e2374"/> ترنو إليك بشاخص الأبصار
@@ -1294,43 +1294,43 @@
                
 
                
-بيعة أهل <placeName change="#d2e120" xml:id="placeName_14.d2e3031">الحجاز</placeName> وسبب قبول السلطان لها
-(جاء في العدد 56 من <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e3036">أم القرى</title></bibl>) الذي صدر ب<placeName change="#d2e120" xml:id="placeName_15.d2e3040">مكة المكرمة</placeName> في 8
+بيعة أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_14.d2e3031" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وسبب قبول السلطان لها
+(جاء في العدد 56 من <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e3036">أم القرى</title></bibl>) الذي صدر ب<placeName change="#d2e120 #d11e276" xml:id="placeName_15.d2e3040" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> في 8
 رجب الماضي ما يأتي)
-جاءنا من ديوان جلالة الملك أنه بعد إعلان بيعة أهل <placeName change="#d2e120" xml:id="placeName_16.d2e3047">الحجاز</placeName> وردت عدة
+جاءنا من ديوان جلالة الملك أنه بعد إعلان بيعة أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_16.d2e3047" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وردت عدة
 برقيات من جهات متعددة تسأل عن صحة ما وقع، وعن أسبابه فأرسل الجواب
 على تلك الأسئلة بما مآله:
-(ج) إعلان أهل <placeName change="#d2e120" xml:id="placeName_17.d2e3057">الحجاز</placeName> ملكيتنا على <placeName change="#d2e120" xml:id="placeName_18.d2e3060">الحجاز</placeName> صحيح، أما العهود المتكررة
+(ج) إعلان أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_17.d2e3057" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ملكيتنا على <placeName change="#d2e120 #d11e276" xml:id="placeName_18.d2e3060" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> صحيح، أما العهود المتكررة
 للعالم الإسلامي فلم نخلفها، وقد دعونا العالم الإسلامي دعوات عامة وخاصة
 متكررة، فلم يصل جواب من أحدهم في تلبية دعوتنا، ومع ذلك فإننا على استعداد
 لقبول آراء العالم الإسلامي في كل شأن له مساس براحة الحجاج والزوار ورفاهيتهم،
-وإجراء أعمال الخير في <placeName change="#d2e120" xml:id="placeName_19.d2e3072">الحجاز</placeName>.
-وأما السرعة في أمر النداء بملكيتنا على <placeName change="#d2e120" xml:id="placeName_20.d2e3077">الحجاز</placeName> فكنت أود من صميم قلبي أن
-لو تأخر ذلك، ولكنا أُلجئنا إلى ذلك مضطرين، فإن أهل <placeName change="#d2e120" xml:id="placeName_21.d2e3082">الحجاز</placeName> قاموا قومة رجل
+وإجراء أعمال الخير في <placeName change="#d2e120 #d11e276" xml:id="placeName_19.d2e3072" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>.
+وأما السرعة في أمر النداء بملكيتنا على <placeName change="#d2e120 #d11e276" xml:id="placeName_20.d2e3077" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> فكنت أود من صميم قلبي أن
+لو تأخر ذلك، ولكنا أُلجئنا إلى ذلك مضطرين، فإن أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_21.d2e3082" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> قاموا قومة رجل
 واحد يلزموننا بقبول البيعة، فطلبنا منهم التريث ريثما يجمع المسلمون أمرهم
 فأجابوا بأنك أعطيتنا الحرية في اختيار حاكم لنا وهذا حق لنا لا يشاركنا فيه أحد،
 ونحن لا نبغي بك بديلاً.
 ومع ذلك توقفتُ في الجواب فبلغ أهل نجد توقفي؛ فقامت قيامتهم عليَّ
-وأعلنوا لي أن حربهم في <placeName change="#d2e120" xml:id="placeName_22.d2e3096">الحجاز</placeName> لم يكن إلا لحفظ استقلال <placeName change="#d2e120" xml:id="placeName_23.d2e3100">الحجاز</placeName>، ومنع تدخل
+وأعلنوا لي أن حربهم في <placeName change="#d2e120 #d11e276" xml:id="placeName_22.d2e3096" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لم يكن إلا لحفظ استقلال <placeName change="#d2e120 #d11e276" xml:id="placeName_23.d2e3100" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، ومنع تدخل
 أي أجنبي فيه، ولتكون كلمة الله هي العليا وليُعمل في هذه الديار بكتاب الله وسنة
-رسوله، ولتأمين الطرق ومنع الإلحاد في <placeName change="#d2e120" xml:id="placeName_24.d2e3107">الحجاز</placeName>، وهذا ما وعدتنا به وإن توقفك
+رسوله، ولتأمين الطرق ومنع الإلحاد في <placeName change="#d2e120 #d11e276" xml:id="placeName_24.d2e3107" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وهذا ما وعدتنا به وإن توقفك
 عن قبول البيعة يجعلنا نعتقد بأنك لم تقاتل إلا لأغراضك ولا تسعى لاستقلال
 الحجاز، وإنك إذا لم تقبل البيعة فقد فعلت معصية، ولا طاعة لمخلوق في معصية
 الخالق.
-فإزاء هذا الموقف الحرج الذي يتوقف عليه أمن <placeName change="#d2e120" xml:id="placeName_25.d2e3119">الحجاز</placeName> في الحالة الحاضرة واستقرار الأمر فيه لم أجد بدًّا من تلبية ما دُعيتُ إليه، وإلا كانت فتنة لا تُعرف
+فإزاء هذا الموقف الحرج الذي يتوقف عليه أمن <placeName change="#d2e120 #d11e276" xml:id="placeName_25.d2e3119" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> في الحالة الحاضرة واستقرار الأمر فيه لم أجد بدًّا من تلبية ما دُعيتُ إليه، وإلا كانت فتنة لا تُعرف
 نتائجها، فقبلت متوكلاً على الله. وإنني لا أزال على عهدي رعاية ما للمسلمين
 من الحقوق المشروعة في هذه الديار المقدسة، والله ولي التوفيق (أم القرى ع
 56) .
 ***
-اعتراف الدول الأوربية بملك <placeName change="#d2e120" xml:id="placeName_26.d2e3133">الحجاز</placeName> وسلطان نجد وملحقاتها
+اعتراف الدول الأوربية بملك <placeName change="#d2e120 #d11e276" xml:id="placeName_26.d2e3133" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وسلطان نجد وملحقاتها
 اعتراف السوفييت
 ورد على جلالة الملك بتاريخ 3 شعبان من معتمد وقنصل جنرال حكومة
 اتحاد الجمهوريات السوفييت بجدة الكتاب الآتي:
-صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_27.d2e3145">الحجاز</placeName> وسلطان نجد وملحقاتها الأفخم.
+صاحب الجلالة ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_27.d2e3145" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وسلطان نجد وملحقاتها الأفخم.
 بعد التحية والتوقير
 استنادًا على أمر حكومتي أتشرف أن أبلغ جلالتكم أن حكومة اتحاد
 الجمهوريات السوفييت بموجب المبدأ الأساسي نحو استقلالية وحرية الأمم واحترامًا
-لإرادة أهل <placeName change="#d2e120" xml:id="placeName_28.d2e3157">الحجاز</placeName> التي ظهرت في مبايعتهم لجلالتكم ملكًا للحجاز - تعترف
+لإرادة أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_28.d2e3157" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> التي ظهرت في مبايعتهم لجلالتكم ملكًا للحجاز - تعترف
 بجلالتكم ملكًا للحجاز وسلطانًا لنجد وملحقاتها؛ فعليه حكومة السوفيت تُعد نفسها في
 الحالة المناسبة السياسية والملائمة مع حكومة جلالتكم، وختامًا تفضوا بقبول عظيم
 توقيراتي واحتراماتي 3 شعبان سنة 1344 - 16 فبراير سنة 1926.
@@ -1370,11 +1370,11 @@
 
             <date calendar="#cal_gregorian" when="0146" change="#d3e146 #d2e120" xml:id="date_7.d2e3240">146</date>م - 30، 2
 جدة في أول مارس سنة 1926
-صاحب جلالة ملك <placeName change="#d2e120" xml:id="placeName_29.d2e3247">الحجاز</placeName> وسلطان نجد
+صاحب جلالة ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_29.d2e3247" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وسلطان نجد
 بعد إبداء عظيم الاحترام، أتشرف بأن أُخبر جلالتكم أني قد كُلفت من قبل
 حكومة جلالة ملك بريطانيا أن أعرف جلالتكم بأن حكومة جلالة الملك تعترف الآن
-بجلالتكم ملكًا على <placeName change="#d2e120" xml:id="placeName_30.d2e3257">الحجاز</placeName>، على أنه يقتضي لي أن أضيف على ذلك أنه بينما
-تعترف حكومة الملك بسلطتكم على <placeName change="#d2e120" xml:id="placeName_31.d2e3262">الحجاز</placeName> تدوم على اعتبارها أن أسلوب الحكم في
+بجلالتكم ملكًا على <placeName change="#d2e120 #d11e276" xml:id="placeName_30.d2e3257" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، على أنه يقتضي لي أن أضيف على ذلك أنه بينما
+تعترف حكومة الملك بسلطتكم على <placeName change="#d2e120 #d11e276" xml:id="placeName_31.d2e3262" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> تدوم على اعتبارها أن أسلوب الحكم في
 الأماكن المقدسة الإسلامية، وجميع المسائل الدينية المتعلقة بذلك هي من المسائل
 التي تختص بالمسلمين فقط، والتي لا يجب على حكومة جلالة الملك أن تبدي رأيًا
 فيها، كما وأنها لا ترغب في ذلك، وتفضلوا بقبول فائق التحية وعظيم الاحترام.
@@ -1398,7 +1398,7 @@
 اعتراف فرنسا
 وقدم مساء الثلاثاء 17 شعبان سعادة قنصل فرنسا في جدة إلى القصر العالي
 بجدة، وأخبر جلالة الملك بأنه تلقى برقية من حكومته تأمره أن يبلغ جلالة الملك
-بأن حكومة الجمهورية الأفرنسية الفخيمة تعترف بجلالته ملكًا على <placeName change="#d2e120" xml:id="placeName_32.d2e3318">الحجاز</placeName>.
+بأن حكومة الجمهورية الأفرنسية الفخيمة تعترف بجلالته ملكًا على <placeName change="#d2e120 #d11e276" xml:id="placeName_32.d2e3318" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>.
 ولم يصلنا حتى صدور هذه الجريدة الكتاب الرسمي المتضمن اعتراف حكومة
 فرنسا الخطي ومتى وصلنا نشرناه في حينه.
 
@@ -1412,7 +1412,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_147.d2e3342"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_148.d2e3345"/> (أم القرى ع 63)
 ***
-مآدب ملك <placeName change="#d2e120" xml:id="placeName_33.d2e3351">الحجاز</placeName> وخطبه فيها
+مآدب ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_33.d2e3351" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وخطبه فيها
 مأدبة جدة الرسمية
 
                
@@ -1495,7 +1495,7 @@
 المأدبة الملكية بمكة
 وكلام الملك عبد العزيز في الجامعة الإسلامية
 جاء في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e3530">أم القرى</title></bibl>) أيضًا أن جلالة الملك أقام مأدبة فاخرة في المنزل
-المعروف (بدار الحكم) دعى إليها من كان في <placeName change="#d2e120" xml:id="placeName_34.d2e3535">مكة</placeName> من وفود وعلماء <placeName change="#d2e120" xml:id="placeName_35.d2e3538">مكة</placeName> وأشرافها
+المعروف (بدار الحكم) دعى إليها من كان في <placeName change="#d2e120 #d11e276" xml:id="placeName_34.d2e3535" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> من وفود وعلماء <placeName change="#d2e120 #d11e276" xml:id="placeName_35.d2e3538" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وأشرافها
 وأعيانها وكبار مطوفيها ورؤساء التجار، فكان عددهم ثلاثمائة مدعو، وذكرت
 الجريدة أن جلالة الملك أقبل عليهم يحدثهم كعادته بما يجيش في صدره من الأفكار
 والحكم، ثم استطر إلى الكلام في موضوع الجامعة الإسلامية وأهميتها، فقال:
@@ -1517,19 +1517,19 @@
 ثم أورَدَ في النهي عن ذلك آيات من كتاب الله وأحاديث من كلام رسول الله
 صلى الله عليه وسلم اهـ.
 ***
-نظرة في بيعة <placeName change="#d2e120" xml:id="placeName_36.d2e3589">الحجاز</placeName> لسلطان نجد
-إننا عندما أنبأتنا الشركات البرقية بمبايعة أهل <placeName change="#d2e120" xml:id="placeName_37.d2e3594">الحجاز</placeName> لسلطان نجد ونصبه
+نظرة في بيعة <placeName change="#d2e120 #d11e276" xml:id="placeName_36.d2e3589" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لسلطان نجد
+إننا عندما أنبأتنا الشركات البرقية بمبايعة أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_37.d2e3594" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لسلطان نجد ونصبه
 ملكًا عليهم، استغربنا ذلك وانتقدناه، وعددناه عجلة من هذا الرجل الذي كنا ربما
 ننتقد منه طول أناته وسعة صبره، ورأينا أنه لو تربص بهذا الأمر حتى يجتمع
 المؤتمر الإسلامي الذي دعا إليه لكان خيرًا له، لأنه أقرب الوسائل إلى إقناع العالم
-الإسلامي بصدقه وإخلاصه في تصديه لتطهير <placeName change="#d2e120" xml:id="placeName_38.d2e3606">الحجاز</placeName> من ظلم حسين بن علي
+الإسلامي بصدقه وإخلاصه في تصديه لتطهير <placeName change="#d2e120 #d11e276" xml:id="placeName_38.d2e3606" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من ظلم حسين بن علي
 وأولاده، وبكونه هو الزعيم الوحيد الذي يقدر على حفظ الأمن وإقامة العدل في هذه
 البلاد وإصلاح شؤونها.
 وقد كان الشيخ حافظ وهبة مندوب السلطان هنا، فكشف لنا عن وجه السبب
 الخفي في قبول السلطان عبد العزيز لهذه البيعة بإطلاعنا على برقية جاءته من
-السلطان في ذلك، مصرحة بأنه لما رغب إليه أهل <placeName change="#d2e120" xml:id="placeName_39.d2e3620">مكة</placeName> أولاً في البيعة أبى وامتنع
+السلطان في ذلك، مصرحة بأنه لما رغب إليه أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_39.d2e3620" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أولاً في البيعة أبى وامتنع
 من القبول وطلب منهم إرجاء الأمر، حتى علم زعماء النجديين بذلك فأيدوا طلب
-أهل <placeName change="#d2e120" xml:id="placeName_40.d2e3628">مكة</placeName>، فاعتذر لهم أيضًا فلم يقبلوا عذره، بل أنذروه ترك طاعته إذا هو امتنع؛
+أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_40.d2e3628" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، فاعتذر لهم أيضًا فلم يقبلوا عذره، بل أنذروه ترك طاعته إذا هو امتنع؛
 لأنه امتناع من واجب حتم، وذكروا له في إنذارهم حديث (لا طاعة لمخلوق في
 معصية الخالق) رواه أحمد والحاكم بهذا اللفظ، والشيخان وغيرهما بألفاظ أخرى.
 وأنه حينئذ لم ير بدًّا من القبول، ثم جاءت <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_9.d2e3637">أم القرى</title></bibl>) المكية مصرحة
@@ -1539,11 +1539,11 @@
 على الطاعة، ولا يطيعونه كما يطيع غيرهم من قبائل العرب أمرائهم وشيوخهم
 بالعصبية والاشتراك في المنافع، وإنما ميزتهم التي لا مشارك لهم فيها من كل وجه،
 أنهم يطيعون إمامهم تدينًا، لأن طاعته واجبة عليهم شرعًا، ولهذا ينفرون إلى
-القتال إذا استنفرهم على نفقة أنفسهم، ويقرب منهم في ذلك أكثر زيدية <placeName change="#d2e120" xml:id="placeName_41.d2e3656">اليمن</placeName> لا
-جميع أهل <placeName change="#d2e120" xml:id="placeName_42.d2e3661">اليمن</placeName> مع إمامها، فإن أكثرهم لا يطيعون إلا مكرهين، وقد أمكن للسيد
+القتال إذا استنفرهم على نفقة أنفسهم، ويقرب منهم في ذلك أكثر زيدية <placeName change="#d2e120 #d11e276" xml:id="placeName_41.d2e3656" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> لا
+جميع أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_42.d2e3661" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> مع إمامها، فإن أكثرهم لا يطيعون إلا مكرهين، وقد أمكن للسيد
 محمد علي الإدريسي أن يستميل بالمال كثيرًا من الزيدية لطاعته حتى في قتال
 الإمام يحيى في صفوفه.
-هذا وإن سبب استعجال أهل <placeName change="#d2e120" xml:id="placeName_43.d2e3671">الحجاز</placeName> ببيعة السلطان عبد العزيز آل سعود
+هذا وإن سبب استعجال أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_43.d2e3671" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ببيعة السلطان عبد العزيز آل سعود
 أمران:
 (أحدهما) علم أهل المعرفة والرأي منهم بأنه لا يوجد أحد من شرفائهم ولا
 من سادتهم ولا من شيوخ قبائلهم القوية يمكنه أن يقوم بالأمر، ويقيم ميزان العدل،
@@ -1551,30 +1551,30 @@
 كما يقوم بذلك هذا الرجل بما وراءه من قوة النجديين التي يخشى بأسها عرب
 الحجاز وغيرهم من أهل جزيرة العرب، فإن الشريف حسينًا كان أقوى زعماء
 الحجاز بأسًا وأشدهم حزمًا وأكثرهم مالاً، وهو لم يستطع أن يؤمِّن الطريق بين
-مكة المكرمة والمدينة المنورة، فغيره من أهل <placeName change="#d2e120" xml:id="placeName_44.d2e3691">الحجاز</placeName> أولى بهذا العجز. فإذا فرضنا
-أن المؤتمر الإسلامي اجتمع وقرر جلاء السلطان بجنوده من <placeName change="#d2e120" xml:id="placeName_45.d2e3697">الحجاز</placeName> فلا يشكون في أن
-تنفيذه لقرارهم يكون مدعاة للفوضى وفقد الأمن في <placeName change="#d2e120" xml:id="placeName_46.d2e3702">الحجاز</placeName>، وامتناع مسلمي
+مكة المكرمة والمدينة المنورة، فغيره من أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_44.d2e3691" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أولى بهذا العجز. فإذا فرضنا
+أن المؤتمر الإسلامي اجتمع وقرر جلاء السلطان بجنوده من <placeName change="#d2e120 #d11e276" xml:id="placeName_45.d2e3697" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> فلا يشكون في أن
+تنفيذه لقرارهم يكون مدعاة للفوضى وفقد الأمن في <placeName change="#d2e120 #d11e276" xml:id="placeName_46.d2e3702" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وامتناع مسلمي
 الأقطار عن الحج والزيارة، وحينئذ يهلك أكثرهم جوعًا إن لم يهلكوا بالثورات
 والفتن.
 (الأمر الثاني) أن أولاد الشريف حسين وغيرهم قد أيدوا في الحجاز
-وسورية وفلسطين و<placeName change="#d2e120" xml:id="placeName_47.d2e3714">العراق</placeName> ما كان قد انتشر من دعوة العصبية العربية، والامتناع
+وسورية وفلسطين و<placeName change="#d2e120 #d11e276" xml:id="placeName_47.d2e3714" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ما كان قد انتشر من دعوة العصبية العربية، والامتناع
 من قبول تدخل أحد من الأعاجم في شأن الحكم والسلطان في شيء من البلاد
 العربية، وكان غرضهم من هذه الدعاية معارضة ما دعا إليه سلطان نجد من
-اشتراك زعماء جميع الشعوب الإسلامية في تقرير مستقبل <placeName change="#d2e120" xml:id="placeName_48.d2e3723">الحجاز</placeName>، وكان من
+اشتراك زعماء جميع الشعوب الإسلامية في تقرير مستقبل <placeName change="#d2e120 #d11e276" xml:id="placeName_48.d2e3723" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وكان من
 حججهم أن أكثر تلك الشعوب واقعة تحت سيطرة الدول الإفرنجية وغير مأمون
-على رجالها من تأثيرهم، ثم بثت في <placeName change="#d2e120" xml:id="placeName_49.d2e3731">الحجاز</placeName> كله دعاية أخص من دعاية الجنسية
-العربية، وهي دعاية الوطنية التي من مقتضاها أن تكون أمور <placeName change="#d2e120" xml:id="placeName_50.d2e3736">الحجاز</placeName> ومصالحه
+على رجالها من تأثيرهم، ثم بثت في <placeName change="#d2e120 #d11e276" xml:id="placeName_49.d2e3731" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> كله دعاية أخص من دعاية الجنسية
+العربية، وهي دعاية الوطنية التي من مقتضاها أن تكون أمور <placeName change="#d2e120 #d11e276" xml:id="placeName_50.d2e3736" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ومصالحه
 بيد الحجازيين دون غيرهم من العرب، وقد راعوا هذه العصبية الوطنية في
 مبايعتهم لسلطان نجد، وصرحوا بها في نص صيغة البيعة التي نشرناها في
 الجزء السابق (9: 26) فبهذه النزعة الوطنية وتلك العصبية العربية نفروا من
 تحكيم المؤتمر الإسلامي العام في أمر حكومتهم وحاكمهم، واقتصروا على
 الانتفاع بقوة سلطان نجد في إقامة الحكم وحفظ الأمن في بلادهم تقديرًا للضرورة
 بقدرها، وقد رضي بذلك زعماء نجد، فكان رضاؤهم دليلاً على إخلاصهم في حربهم
-لحسين وعلي وعدم طمعهم في جعل <placeName change="#d2e120" xml:id="placeName_51.d2e3755">الحجاز</placeName> تابعًا لنجد أو مرتبطًا بها في إدارتها
+لحسين وعلي وعدم طمعهم في جعل <placeName change="#d2e120 #d11e276" xml:id="placeName_51.d2e3755" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> تابعًا لنجد أو مرتبطًا بها في إدارتها
 وسياستها، ولو كانت هذه البيعة بمحض القوة- وهي موجودة بغير نكير- لما
-رضي السلطان ولا رجاله بجعل إدارة <placeName change="#d2e120" xml:id="placeName_52.d2e3762">الحجاز</placeName> منفصلة عن إدارة نجد.
+رضي السلطان ولا رجاله بجعل إدارة <placeName change="#d2e120 #d11e276" xml:id="placeName_52.d2e3762" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> منفصلة عن إدارة نجد.
 ومن الدلائل على إخلاص السلطان عبد العزيز عدم قبوله لما عرضه
-عليه أهل <placeName change="#d2e120" xml:id="placeName_53.d2e3770">الحجاز</placeName> من المبايعة بالخلافة. وقد روى رجل من كبار الألمانيين كان في
+عليه أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_53.d2e3770" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من المبايعة بالخلافة. وقد روى رجل من كبار الألمانيين كان في
 جدة أن السلطان قال لهم إن أمر الخلافة لا يعنيكم وحدكم، بل يعني العالم الإسلامي
 كله، فمتى وجد في الإسلام زعيم يقتنع العالم الإسلامي بزعامته وكفايته في القيام
 بشؤون الإسلام - تعين أن يولوه هذا الأمر باقتناع زعماء شعوبهم أنه هو الذي
@@ -1584,13 +1584,13 @@
 وحديثًا، وآخر رزايا العصبية الجنسية ما كان من ملاحدة الترك، وسيذوقون من
 مرارة فعلتهم ما هو أدهى وأمر مما ذاق من قبلهم من الأمويين ومن بعدهم، ولا بد
 لعلاج هذا الداء من حكمة وروية وصبر، وأن أولى المسلمين بالوحدة في هذا
-العصر عرب الجزيرة ثم من يليهم، وأولى عرب الجزيرة بها <placeName change="#d2e120" xml:id="placeName_54.d2e3794">الحجاز</placeName> ونجد، لشدة
+العصر عرب الجزيرة ثم من يليهم، وأولى عرب الجزيرة بها <placeName change="#d2e120 #d11e276" xml:id="placeName_54.d2e3794" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد، لشدة
 حاجة كل من القطرين إلى الآخر مع كون سكانهما من أهل السنة، ومع هذا رأينا
 أن من الحكمة فصل إدارة كل منهما من الأخرى إلى أن يتم الاستعداد للوحدة.
 وينبغي للمخلصين من زعماء المسلمين وأهل الغيرة والرأي منهم أن يقدروا
 ما يعبر عنه أهل السياسة بالأمر الواقع قدره، ولا يجرمنهم ما ينكرون منه على
 اتباع أهوائهم، والتعصب لآرائهم، فإن العاقل المخلص من يحاول الانتفاع في كل
-حال بحسبها، وسنكتب مقالاً خاصًّا فيما ينبغي عمله في <placeName change="#d2e120" xml:id="placeName_55.d2e3811">الحجاز</placeName> إن شاء الله تعالى. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_11.d2e3814">(1) (<title change="#d2e120" xml:id="title_10.d2e3816">المنار</title>) : لم نسمع في هذا العصر عن ملك مسلم ولا خلفاء الترك مطالبة الدول الأوربية بحفظ حقوق المسلمين في بلادهم، ولكن هذا الملك العربي المسلم يطالبهم بحقوق العرب عامة وحقوق المسلمين كافة.</note>
+حال بحسبها، وسنكتب مقالاً خاصًّا فيما ينبغي عمله في <placeName change="#d2e120 #d11e276" xml:id="placeName_55.d2e3811" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إن شاء الله تعالى. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_11.d2e3814">(1) (<title change="#d2e120" xml:id="title_10.d2e3816">المنار</title>) : لم نسمع في هذا العصر عن ملك مسلم ولا خلفاء الترك مطالبة الدول الأوربية بحفظ حقوق المسلمين في بلادهم، ولكن هذا الملك العربي المسلم يطالبهم بحقوق العرب عامة وحقوق المسلمين كافة.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_7.d2e3820">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_9.d2e3822" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -1687,7 +1687,7 @@
 وإنا ملحقون بكتابنا هذا صورة ما قررته الهيئة العلمية المشار إليها، وقد
 تضمنت المادة الرابعة عشرة منه أنه من الضروري أن يعقد مؤتمر ديني إسلامي
 عام، يدعى إليه ممثلو جميع الأمم الإسلامية للنظر في أمر الخلافة من الوجهة
-العلمية الدينية، وأن يكون عقد المؤتمر برياستنا في مدينة <placeName change="#d2e120" xml:id="placeName_56.d2e4026">القاهرة</placeName> في شهر شعبان
+العلمية الدينية، وأن يكون عقد المؤتمر برياستنا في مدينة <placeName change="#d2e120 #d11e276" xml:id="placeName_56.d2e4026" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> في شهر شعبان
 سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1343" change="#d3e146 #d2e120" xml:id="date_10.d2e4031">1343</date> هـ (مارس <date calendar="#cal_gregorian" when="1925" change="#d3e146 #d2e120" xml:id="date_11.d2e4035">1925</date>م) .
 وبعد ذك ألفنا مجلسًا إداريًّا للمؤتمر، فاهتم بإرسال ذلك القرار إلى الأمم
 الإسلامية، وبدعوة ممثليها إلى حضور المؤتمر العام، واتخذ لذلك وسائل كإرسال
@@ -1704,13 +1704,13 @@
 الاعتبارات، ومحافظة على الصلة بين المسلمين، وعلى جمع كلمتهم في أمر
 الخلافة، وانتظارًا لأن يحضر المؤتمر أكثر عدد ممكن من ممثلي الشعوب
 الإسلامية. وقدَّر المجلس أن هذه الفرصة الزمنية تسع انجلاء الحوادث التي غشيت
-جزيرة العرب، وانقضاء الحرب من بلاد <placeName change="#d2e120" xml:id="placeName_57.d2e4080">الحجاز</placeName>، وأنها من أهم البلاد الإسلامية
+جزيرة العرب، وانقضاء الحرب من بلاد <placeName change="#d2e120 #d11e276" xml:id="placeName_57.d2e4080" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وأنها من أهم البلاد الإسلامية
 التي ينبغي أن تمثل في المؤتمر، وتسع معالجة الاقتراحات الواردة، ومعالجة غير
 ذلك من الأمور.
-وبعد أن وضعت الحرب أوزارها في بلاد <placeName change="#d2e120" xml:id="placeName_58.d2e4089">الحجاز</placeName> اجتمع المجلس الإداري
+وبعد أن وضعت الحرب أوزارها في بلاد <placeName change="#d2e120 #d11e276" xml:id="placeName_58.d2e4089" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> اجتمع المجلس الإداري
 للمؤتمر برياستنا يوم الأربعاء 20 رجب سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1344" change="#d3e146 #d2e120" xml:id="date_14.d2e4095">1344</date> هـ (3 فبراير سنة <date calendar="#cal_gregorian" when="1926" change="#d3e146 #d2e120" xml:id="date_15.d2e4098">1926</date>م)
 واطلع على الإجابات الواردة من الأمم الإسلامية بالاشتراك في المؤتمر، وقرر
-أن يعقد المؤتمر الإسلامي العام للخلافة في مدينة <placeName change="#d2e120" xml:id="placeName_59.d2e4105">القاهرة</placeName> ابتداء من يوم الخميس
+أن يعقد المؤتمر الإسلامي العام للخلافة في مدينة <placeName change="#d2e120 #d11e276" xml:id="placeName_59.d2e4105" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> ابتداء من يوم الخميس
 أول شهر ذي القعدة الحرام سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1344" change="#d3e146 #d2e120" xml:id="date_16.d2e4111">1344</date>هـ (13 مايو سنة <date calendar="#cal_gregorian" when="1926" change="#d3e146 #d2e120" xml:id="date_17.d2e4114">1926</date>م) ثم قرر أن
 تنتهي جلسات المؤتمر يوم السبت 10 شهر ذي القعدة (23 مايو) المذكورين.
 وقرر أن تُوجَّه الدعوة العامة والخاصة إلى الأمم الإسلامية؛ ليحضر المؤتمر
@@ -1727,7 +1727,7 @@
 وسلم: (المؤمن للمؤمن كالبنيان يشد بعضه بعضًا) .
 فنرجو أن يأتينا منكم خطاب أو برقية في وقت قريب بحضوركم أو حضور
 من يقع الاختيار عليه من المندوبين للاحتفاظ بحقكم في التمثيل، كما نرجو تعيين
-زمان الحضور إلى <placeName change="#d2e120" xml:id="placeName_60.d2e4152">القاهرة</placeName>.
+زمان الحضور إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_60.d2e4152" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>.
 إن النظر في أمر الخلافة أو الإمامة العظمى والأخذ بالشورى، مما يدعو إليه
 الدين الإسلامي، وقد جاء في المادة الثانية عشرة من قرار الهيئة العلمية الدينية
 الإسلامية الكبرى (إن منصب الخلافة له في نظر الدين الإسلامي ونظر جميع
@@ -1833,7 +1833,7 @@
 رفع الدكتور تقريره هذا سنة1924 لحضرة صاحب الجلالة الملك وحضرات
 أصحاب السمو الأمراء، وحضرات أصحاب الفضيلة العلماء ورؤساء الدين،
 وجميع الهيئات الرسمية وغير الرسمية بالقطر المصري.
-تكلم فيه عن البغاء الرسمي وغير الرسمي بمصر <placeName change="#d2e120" xml:id="placeName_61.d2e4375">القاهرة</placeName>، وتعرض فيه
+تكلم فيه عن البغاء الرسمي وغير الرسمي بمصر <placeName change="#d2e120 #d11e276" xml:id="placeName_61.d2e4375" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، وتعرض فيه
 لبعض إحصائيات عن عدد العاهرات الأجنبيات والوطنيات بمصر، وقال أنه
 يأسف جد الأسف لعدم عناية مصلحة الصحة برقابتهن بطريق جدي يخفف من
 أضرارهن، ويوقف تيار العدوى بالأمراض الجلدية والتناسلية التي فشت في هذه

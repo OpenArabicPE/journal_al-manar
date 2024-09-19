@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_32-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_32-i_3.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e282">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_32-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_32-i_3.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1350">1350</date><date calendar="#cal_gregorian" when="1932" xml:lang="ar">مارس - 1932م</date></imprint>
                   <biblScope unit="volume" from="32" to="32" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">32</biblScope>
                   <biblScope unit="issue" from="3" to="3" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">3</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e282" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -159,7 +159,7 @@
 قد يغتر الذين يعرفون الإسلام ويثقون بتربية أولادهم عليه فيظنون أنه يمكنهم
 حفظ عقائد أولادهم مع تعليمهم في هذه المدارس، وقلما يصدق ظن أحد منهم.
 وضع أخي السيد صالح رحمه الله بنتًا له في مدرسة البنات الأميركانية
-ب<placeName change="#d2e120" xml:id="placeName_4.d2e441">طرابلس الشام</placeName>، وهي ناشئة في بيت قلما يوجد نظير له في بيوت المسلمين في
+ب<placeName change="#d2e120 #d11e282" xml:id="placeName_4.d2e441" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName>، وهي ناشئة في بيت قلما يوجد نظير له في بيوت المسلمين في
 معرفة الإسلام والاعتصام به، وكان السيد صالح بارعًا في جدال القسوس
 والمبشرين شديد العارضة قوي الحجة، وكان يكون له الفلج والظفر بهم في كل
 مناظرة؛ لكنه كاد يعجز عن إقناع بنته ببطلان ما لقنتها المدرسة من الأناشيد في
@@ -170,7 +170,7 @@
 ***
 إشكال في تفسير المنار في نقل العرب المناسك
 وتحريم الأشهر عن إبراهيم
-(س29 - 32) من صاحب الإمضاء في <placeName change="#d2e120" xml:id="placeName_6.d2e471">طرابلس الشام</placeName>:
+(س29 - 32) من صاحب الإمضاء في <placeName change="#d2e120 #d11e282" xml:id="placeName_6.d2e471" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName>:
 حضرة الأستاذ الفاضل علامة العصر، وفريد الدهر، الشيخ رشيد أفندي
 رضا المحترم، السلام عليكم ورحمة الله وبركاته وبعد، فقد قرأت في العدد الأول من
 مجلد هذه السنة - يعني السنة الماضية - من مجلتكم الغراء ما يأتي:
@@ -562,9 +562,9 @@
 على خصومه في الجاه والعظمة.
 ولا يجوز أن يكون اختلاف الرأي بين الذين يعقدون المؤتمرات الإسلامية
 لإحياء هداية الإسلام وإعادة مجده ومصلحة شعوبه - سببًا للتعادي والتخاصم، وقد
-عرض لمؤتمر <placeName change="#d2e120" xml:id="placeName_8.d2e1309">القدس</placeName> الأول شيء من هذه الشوائب.
+عرض لمؤتمر <placeName change="#d2e120 #d11e282" xml:id="placeName_8.d2e1309" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> الأول شيء من هذه الشوائب.
 التمهيد لعقد المؤتمر الثاني منوط باللجنة التنفيذية، فالواجب عليها قبل غيرها
-أن تراعي فيه ما ذكرنا، وإذا رجحت عقده في <placeName change="#d2e120" xml:id="placeName_9.d2e1316">القدس</placeName> لعدم المانع فالواجب عليها أن
+أن تراعي فيه ما ذكرنا، وإذا رجحت عقده في <placeName change="#d2e120 #d11e282" xml:id="placeName_9.d2e1316" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> لعدم المانع فالواجب عليها أن
 تسعى لعقد الصلح بين الفريقين المتنازعين في فلسطين الذين يلقبون بالمجلسيين
 والمعارضين، وإلا كان محاولة عقده فيها مثار فتنة قد تكون سببًا لمنع الحكومة
 الإنكليزية إياه إن لم يكن لديها سبب آخر للمنع.
@@ -592,14 +592,14 @@
 العام الأول قد اختارت هذا السيد ناموسًا عامًّا لها، فتردد في القبول وسافر إلى
 أوربة واعدًا بأن يكتب إلى رئيس المؤتمر بما يستقر رأيه عليه من القبول وعدمه،
 فلما تبين أنه قبل العمل مع سمو الأمير عباس حلمي صار قبوله العمل في لجنة
-مؤتمر <placeName change="#d2e120" xml:id="placeName_10.d2e1378">القدس</placeName> مشكلاً، فإن كتب إلى رئيسه بالقبول وجب على الرئيس أن يستشير
+مؤتمر <placeName change="#d2e120 #d11e282" xml:id="placeName_10.d2e1378" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> مشكلاً، فإن كتب إلى رئيسه بالقبول وجب على الرئيس أن يستشير
 أعضاء اللجنة كلهم أينما كانوا في أمره؛ فإن ما بلغنا من أخبار جمعية الرابطة
-الإسلامية يقتضي أن يعمل هذا الناموس لإدغام اللجنة التنفيذية لمؤتمر <placeName change="#d2e120" xml:id="placeName_11.d2e1385">القدس</placeName> في
+الإسلامية يقتضي أن يعمل هذا الناموس لإدغام اللجنة التنفيذية لمؤتمر <placeName change="#d2e120 #d11e282" xml:id="placeName_11.d2e1385" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> في
 جمعية الرابطة الإسلامية الأوربية وتفويضه أمر المؤتمر الثاني إليها بحجة اتساع
 دائرة أعمالها ووفور ثروتها وحرية مركزها العام، وهذا يتوقف على قرار رسمي
 من اللجنة التنفيذية ولا يملك المؤتمر الأول البت فيه، وهو لما يجمع اللجنة
 التنفيذية ولا ألَّف مكتبها، ولا ريب أنه يتعذر على السيد الطباطبائي أن يقوم بأعباء
-وظيفته في <placeName change="#d2e120" xml:id="placeName_12.d2e1399">القدس</placeName> ووظيفته في جنيف معًا.
+وظيفته في <placeName change="#d2e120 #d11e282" xml:id="placeName_12.d2e1399" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> ووظيفته في جنيف معًا.
 إن الأمير عباس حلمي هذا من أعظم أمراء المسلمين حنكة واختبارًا وهمة
 وإقدامًا، واشتهر أن له مع ذلك آمالاً شخصية في المُلك، وقد خاضت صحف
 الشرق والغرب في هذه الأثناء في أخبار سعيه لعرش سورية، وهذا مما يجعل
@@ -607,7 +607,7 @@
 * * *
 نظام المؤتمر
 الأول وافتتاحه ومكان عقده
-إن المجلس الإسلامي في <placeName change="#d2e120" xml:id="placeName_13.d2e1420">القدس</placeName> قد قام مع اللجنة التحضيرية له بوضع النظام
+إن المجلس الإسلامي في <placeName change="#d2e120 #d11e282" xml:id="placeName_13.d2e1420" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> قد قام مع اللجنة التحضيرية له بوضع النظام
 التام لعقد المؤتمر وتنفيذه، وأخلى له مدرسة روضة المعارف الإسلامية التابعة
 للمجلس فكانت كافية لذلك، ووضع فيها من الورق والأقلام والدفاتر والمحابر
 والكتبة والخدم - ومنهم سقاة الشاي والقهوة اليمانية الإمامية - ما لا حاجة معه إلى
@@ -617,11 +617,11 @@
 المؤتمر ومنه إليها أو إلى حيث شاءوا على حساب المجلس، بل احتمل المجلس
 جميع نفقة الفنادق عن بعضهم، وكان السيد محمد أمين الحسيني يعنى بكل ما
 يُرضي الأعضاء بقدر اجتهاده.
-وفد على مدينة <placeName change="#d2e120" xml:id="placeName_14.d2e1445">القدس</placeName> كثير من أهل المدن والقرى الفلسطينية لحضور حفلة
+وفد على مدينة <placeName change="#d2e120 #d11e282" xml:id="placeName_14.d2e1445" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> كثير من أهل المدن والقرى الفلسطينية لحضور حفلة
 المؤتمر، واتفق أن كان يوم الأحد 26 رجب الذي يجتمع فيه الأعضاء في مكان
 المؤتمر لأجل الاحتفال يومًا شديد المطر، ولولا ذلك لكانت الوفود أضعاف ما رأينا.
 اجتمع الأعضاء في مدرسة الروضة وقبل المغرب توجهوا إلى المسجد
-الأقصى بين الجماهير من مسلمي <placeName change="#d2e120" xml:id="placeName_15.d2e1456">القدس</placeName> ووفودها، فوجدنا المنتظرين في المسجد
+الأقصى بين الجماهير من مسلمي <placeName change="#d2e120 #d11e282" xml:id="placeName_15.d2e1456" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> ووفودها، فوجدنا المنتظرين في المسجد
 يُعدون بالألوف.
 وعندما حضرت صلاة المغرب قدَّم السيد محمد أمين الحسيني رئيس المجلس
 الإسلامي الشرعي الأعلى الأستاذ العلامة كبير مجتهدي الشيعة في أعظم معاهدها
@@ -686,7 +686,7 @@
 والبراق الشريف 7- للدعوة والإرشاد 8- للمقترحات.
 خطتنا وعملنا في المؤتمر
 ذكرت في الجزء الماضي أن صاحب السماحة رئيس المجلس الإسلامي
-الأعلى في <placeName change="#d2e120" xml:id="placeName_16.d2e1607">القدس</placeName> الذي تولى الدعوة إلى المؤتمر بمساعدة اللجنة التحضيرية له قد
+الأعلى في <placeName change="#d2e120 #d11e282" xml:id="placeName_16.d2e1607" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> الذي تولى الدعوة إلى المؤتمر بمساعدة اللجنة التحضيرية له قد
 اقترح علي باسم اللجنة وضع تقرير في الإصلاح الإسلامي ليكون مادة لمباحث
 أعضاء المؤتمر، فأبدأ هذا الفصل بنشر كتابه في ذلك، وهذا نصه:
 بسم الله الرحمن الرحيم
@@ -729,7 +729,7 @@
 والدعوة إلى تركه، وقد جزمت بأن هذا البلاغ إفك وزور، وكان عجبي شديدًا أن
 انتهت الفتنة إلى هذا الحد، وإن بلغ الإرجاف فيها هذا المبلغ، وكنت وَجِلاً من
 سوء عاقبتها، لهذا كتبت إلى السيد الحسيني أنه يجب عليه أن يبادر إلى إطفاء
-نارها بنفسه في <placeName change="#d2e120" xml:id="placeName_17.d2e1703">القاهرة</placeName>، وبعد ذلك أنظر في أمر اقتراحه، وقد حضر وكان من
+نارها بنفسه في <placeName change="#d2e120 #d11e282" xml:id="placeName_17.d2e1703" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، وبعد ذلك أنظر في أمر اقتراحه، وقد حضر وكان من
 عاقبة سعيه ما كان، وشرحنا ما فيه العبرة من خبره.
 بعد هذا شرعت في كتابة التقرير المقترح على كثرة الشواغل، وفي أثناء
 ذلك بلغني أن جمعية الشبان المسلمين وضعت تقريرًا طويلاً تعرض فيه على
@@ -748,10 +748,10 @@
 لما أُلِّفت اللجان كتبتُ اسمي في لجنتين فقط (الأولى) لجنة القانون الأساسي
 لأجل حضور بعض مواده وأهمها عندي المادة الثالثة التي موضوعها تأليف المؤتمر
 وقد قاومت فيها رأي الزعيم شوكت علي في جعل المؤتمر شعوبيًّا كما اقترح في
-مؤتمر <placeName change="#d2e120" xml:id="placeName_18.d2e1747">مكة</placeName> وتقرر فكان أفعل الأسباب في قتل ذلك المؤتمر، واقترح مثل هذا في
-مؤتمر <placeName change="#d2e120" xml:id="placeName_19.d2e1753">القدس</placeName> ففنَّدنا اقتراحه فلم يقبل (الثانية) لجنة الدعوة والإرشاد، وكان معي
+مؤتمر <placeName change="#d2e120 #d11e282" xml:id="placeName_18.d2e1747" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وتقرر فكان أفعل الأسباب في قتل ذلك المؤتمر، واقترح مثل هذا في
+مؤتمر <placeName change="#d2e120 #d11e282" xml:id="placeName_19.d2e1753" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> ففنَّدنا اقتراحه فلم يقبل (الثانية) لجنة الدعوة والإرشاد، وكان معي
 في هذه اللجنة الأساتذة: رضا بك توفيق الملقب بالفيلسوف التركي، وقد ولي
-وزارة المعارف في <placeName change="#d2e120" xml:id="placeName_20.d2e1760">الدولة العثمانية</placeName>، والشيخ محمد عبد الرسول كاشف الغطاء من
+وزارة المعارف في <placeName change="#d2e120 #d11e282" xml:id="placeName_20.d2e1760" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>، والشيخ محمد عبد الرسول كاشف الغطاء من
 علماء النجف الشرعيين، والشيخ عبد الوهاب النجار ناظر مدرسة عثمان ماهر
 باشا بمصر والمدرس بقسم التخصص في الأزهر (وكان مدرسًا في دار العلوم وكذا
 في مدرسة الدعوة والإرشاد) والشيخ محمد عبد اللطيف دراز من علماء الأزهر،
@@ -1136,7 +1136,7 @@
 ولكنني كنت ممن عاداهم ثم أدناهم، وقد وعدني بالمساعدة على ما أقوم به
 من الإصلاح الإسلامي إلى مدى بعيد، وشرع في الوفاء فحالت الحرب العالمية
 دون استمرار العمل الذي بدأت به بمساعدته - وهو مدرسة الدعوة والإرشاد -
-وكان من مقاصده فيه الاتفاق مع <placeName change="#d2e120" xml:id="placeName_21.d2e2591">الدولة العثمانية</placeName> على مثله وما هو أوسع منه بعد
+وكان من مقاصده فيه الاتفاق مع <placeName change="#d2e120 #d11e282" xml:id="placeName_21.d2e2591" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> على مثله وما هو أوسع منه بعد
 وقوع ما كان يتوقعه من شعور رجالها بخطئهم في عدم تنفيذهم لمشروع الدعوة
 والإرشاد في الآستانة، ولا أدري ما كان يرمي إليه من وراء ذلك الاتفاق وما
 ظننت إلا خيرًا.
@@ -1163,7 +1163,7 @@
 يعرف هذا الرجل أن يثق بمشروع إسلامي يرغب مؤسسوه عن اشتراكه، أو
 يرغب هو عن مشاركتهم فيه.
 أسس سموه الرابطة بعد أن وصل إليه كتاب الدعوة إلى المؤتمر الإسلامي
-الذي عُقد في <placeName change="#d2e120" xml:id="placeName_22.d2e2653">القدس الشريف</placeName> وكان وعد بأن يحضره أو يرسل مندوبًا عنه يحضره،
+الذي عُقد في <placeName change="#d2e120 #d11e282" xml:id="placeName_22.d2e2653" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس الشريف</placeName> وكان وعد بأن يحضره أو يرسل مندوبًا عنه يحضره،
 ورأينا في أساس نظامها عقد (مؤتمر عالمي إسلامي) في كل ثلاث سنين مرة،
 رأينا في مقدمته أن السيد الطباطبائي سكرتير لجنة هذا المؤتمر التنفيذية المنتخب
 جعل سكرتيرًا لجميعة الرابطة الإسلامية الدولية أيضًا، وهو كفؤ لها باستعداده
@@ -1179,19 +1179,19 @@
 عبارة قانون الرابطة ضعيفة، ومنها ما لا يفهم معناه إلا بالقرينة، وفي مواده
 على نقصها أمور مبهمة وأخرى غير معقولة، ومن أغربها أن من أعضاء الشرف
 في هذه الجمعية ملوك المسلمين ورؤساء دولهم (أي الجمهورية) فمن ذا الذي يعقل
-أن يرضى إمام <placeName change="#d2e120" xml:id="placeName_23.d2e2691">اليمن</placeName> وملك مصر وملك <placeName change="#d2e120" xml:id="placeName_24.d2e2694">الحجاز</placeName> ونجد وملك الأفغان وشاه إيران
-وملك <placeName change="#d2e120" xml:id="placeName_25.d2e2699">العراق</placeName> أن يكونوا أعضاء لهذه الجمعية، وليس للمسلمين حكومة جمهورية إلا
+أن يرضى إمام <placeName change="#d2e120 #d11e282" xml:id="placeName_23.d2e2691" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وملك مصر وملك <placeName change="#d2e120 #d11e282" xml:id="placeName_24.d2e2694" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد وملك الأفغان وشاه إيران
+وملك <placeName change="#d2e120 #d11e282" xml:id="placeName_25.d2e2699" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> أن يكونوا أعضاء لهذه الجمعية، وليس للمسلمين حكومة جمهورية إلا
 حكومة الترك؛ ولكنها حكومة لا دينية لا حكومة إسلامية، فهي قد حلت جميع
 روابط الإسلام وتبرأت من كل صلة لها بالمسلمين، ومن الشرق والشرقيين، فأنى
 يقبل رئيسها أن يكون عضوًا لهذه الرابطة الإسلامية؟ إلا أنه قد يكون له هوى
 سلبي فيها، وقد يكون منه شيء يتعلق بالخلافة؛ ولكنه لا يرضى أن يكون عضو
 شرف لها.
 تداولت الصحف نبأ اضطراب هذه الحكومة اللادينية وانزعاجها من عقد
-مؤتمر إسلامي في <placeName change="#d2e120" xml:id="placeName_26.d2e2718">القدس الشريف</placeName>، وخوفها أن يكون من مقاصده إحياء منصب
+مؤتمر إسلامي في <placeName change="#d2e120 #d11e282" xml:id="placeName_26.d2e2718" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس الشريف</placeName>، وخوفها أن يكون من مقاصده إحياء منصب
 الخلافة الإسلامية، فخاطبت وزارة خارجيتها الدولة الإنكليزية باعتراضها على عقد
 مؤتمر هنالك يبحث في مسألة الخلافة، فبلغتها هذه الدولة أن ذلك ليس من عمل
 المؤتمر، ولم يمنعها هذا من الكتابة إلى الدول الإسلامية: إيران وأفغانستان
-ومصر و<placeName change="#d2e120" xml:id="placeName_27.d2e2730">الحجاز</placeName> و<placeName change="#d2e120" xml:id="placeName_28.d2e2733">العراق</placeName> مقترحة عليها عدم الاشتراك في هذا المؤتمر.
+ومصر و<placeName change="#d2e120 #d11e282" xml:id="placeName_27.d2e2730" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> و<placeName change="#d2e120 #d11e282" xml:id="placeName_28.d2e2733" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> مقترحة عليها عدم الاشتراك في هذا المؤتمر.
 وجملة القول أن أسباب الارتياب في هذه الجمعية كثيرة منها ما ذكرناه آنفًا،
 ومنها ما ذكرناه في الكلام على المؤتمر الإسلامي العام من هذا الجزء، وهو ما
 شاع من سعي سمو العباس ليكون ملكًا لسورية أو رئيس جمهورية لها في ظل
@@ -1268,12 +1268,12 @@
 الحجاز كله، وترفيه معيشة أهله، بل إن المعروف من أوقاف الحرمين في وزارة
 الأوقاف المصرية وحدها يفي بذلك، وإننا لا نجد لحكومة مصر عذرًا شرعيًّا في
 منع الحرمين الشريفين حقهما من أوقافهما والتصرف فيها بغير ما وقفت عليه.
-هل يصح أن يكون منع ملك <placeName change="#d2e120" xml:id="placeName_29.d2e2889">الحجاز</placeName> استمرار بدعة المحمل المنكرة الخرافية
+هل يصح أن يكون منع ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_29.d2e2889" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> استمرار بدعة المحمل المنكرة الخرافية
 سببًا شرعيًّا لحرمان الحرمين وسكانهما من ريع هذه الأوقاف؟ هذا ما لا يقول به
 مسلم يعرف الإسلام، ولو لم يكن المحمل بدعة مشتملة على كثير من المنكرات
 الشرعية التي صرَّح الفقهاء بتحريم الاحتفال به، والتفرج بالنظر إليه - فكيف
 يكون التعبد والتبرك به وجعله من قبيل مناسك الحج؟
-هل يصح أن يكون عدم اعتراف الحكومة المصرية بحكومة <placeName change="#d2e120" xml:id="placeName_30.d2e2903">الحجاز</placeName> الحاضرة
+هل يصح أن يكون عدم اعتراف الحكومة المصرية بحكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_30.d2e2903" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> الحاضرة
 عذرًا شرعيًّا لهذا المنع والحرمان؟ كلا إن هذا ذنب وذلك ذنب؛ ولكن بعض
 رجال الحكومة المصرية يلبسون الشرع بالسياسة كما اعتذر المرحوم عبد الخالق
 ثروت باشا عن عدم إرسال كسوة الكعبة المشرفة باحتمال رد الوهابية لها بادعاء
@@ -1283,10 +1283,10 @@
 الكعبة مشروعة مجمع عليها بين المسلمين، وقد صنعها ابن السعود بعد منع مصر
 لها، فاستأثر بهذا الشرف من دونها.
 وقد بلغنا عن بعض رجال الحكومة أنهم يعتذرون عن منع مخصصات الحجاز
-السنوية من مال وغلال وهي دون حق <placeName change="#d2e120" xml:id="placeName_31.d2e2928">الحجاز</placeName> أن ناظر أوقاف مصر لا يأمن
-حكومة <placeName change="#d2e120" xml:id="placeName_32.d2e2933">الحجاز</placeName> على وضعها في مواضعها، ويتعذر على وزارة الأوقاف توليها
+السنوية من مال وغلال وهي دون حق <placeName change="#d2e120 #d11e282" xml:id="placeName_31.d2e2928" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أن ناظر أوقاف مصر لا يأمن
+حكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_32.d2e2933" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> على وضعها في مواضعها، ويتعذر على وزارة الأوقاف توليها
 لتوزيعها وإشرافها عليه ومراقبتها له، وهذه التعليلات غير صحيحة، ولو صحت
-لما صلحت أن تكون سببًا لمنع هذه الحقوق أهلها، فحكومة <placeName change="#d2e120" xml:id="placeName_33.d2e2940">الحجاز</placeName> أمينة ويمكنها
+لما صلحت أن تكون سببًا لمنع هذه الحقوق أهلها، فحكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_33.d2e2940" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أمينة ويمكنها
 إثبات توزيع ما يُرسل إليها على مستحقيه، وهي لا تمنع عمال وزارة الأوقاف عن
 توزيع ما تشاء من المال إذا لم يكن بصفة تتضمن الطعن بأمانتها، ولو فرضنا أن
 الذين يتولون توزيعها يخونون بأكل شيء منها لما كان هذا مبيحًا لمنعها كلها عن
@@ -1531,7 +1531,7 @@
 علماء الإسلام المستنيرين، ورجل من أشهر رجال الإلحاد المجاهرين، ثم أذكر
 كلمة حكيم الشرق فيهم.
 (الرجل الأول) شيخ الإسلام موسى الكاظم رحمه الله تعالى كان يشرح لي
-في داره بضواحي الآستانة ما يريد وضعه من الإصلاح لحكومة <placeName change="#d2e120" xml:id="placeName_34.d2e3452">اليمن</placeName>، وهو جعل
+في داره بضواحي الآستانة ما يريد وضعه من الإصلاح لحكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_34.d2e3452" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وهو جعل
 أحكامها كلها شرعية، وإنشاء محكمة تجارية واحدة في الحديدة تختص برؤية
 القضايا المتعلقة بالأجانب واليهود، فقلت له: إذا كنتم تتركون التزام مذهب الحنفية
 فأنا أضمن لكم أن أُخرج لكم من الشريعة الإسلامية الواسعة ما تحتاج إليه جميع
@@ -1562,7 +1562,7 @@
 جمعية الاتحاد والترقي، وسأكلم شيخ الإسلام ليقنع العلماء، وأكلم صادق بك ليقنع
 الهيئة المركزية للجمعية، وأجتهد في إقناعهما ببذل نفوذهما في ذلك، وقال لي
 محمود شوكت باشا رحمه الله تعالى مثل هذا القول في نفوذ علماء الترك ثم قال:
-إن العلماء في بلادنا (أي <placeName change="#d2e120" xml:id="placeName_35.d2e3524">العراق</placeName>) ليس لهم مثل هذا النفوذ ولا أدري كيف حالهم
+إن العلماء في بلادنا (أي <placeName change="#d2e120 #d11e282" xml:id="placeName_35.d2e3524" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>) ليس لهم مثل هذا النفوذ ولا أدري كيف حالهم
 عندكم في مصر؟
 كلمة السيد جمال الدين في علماء الترك
 وأما كلمة السيد جمال الدين التي أعنيها هنا ولها أمثال من كلامه في غيرهم
@@ -1661,7 +1661,7 @@
 الأستاذ السيد عبد الحسين نور الدين إلا أن يقره عليها جمهور علماء الشيعة،
 وطالبتهم ببيان رأيهم في زعمه هذا، فلم يرد عليه أحد منهم، وإنني افترصت لقاء
 مجتهد علمائهم الأشهر في هذا العصر الأستاذ الكبير الشيخ محمد آل كاشف الغطاء
-في <placeName change="#d2e120" xml:id="placeName_36.d2e3732">القدس</placeName> أثناء عقد المؤتمر الإسلامي العام، فأطلعته على ما كتبه الأستاذ السيد
+في <placeName change="#d2e120 #d11e282" xml:id="placeName_36.d2e3732" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> أثناء عقد المؤتمر الإسلامي العام، فأطلعته على ما كتبه الأستاذ السيد
 عبد الحسين نور الدين وسألته رأيه فيه فأنكره أشد الإنكار، ووعد بإجابتي إلى
 استنكاره والرد عليه كتابة كما اقترحت، ليعلم ذلك من قرءوا تلك الدعوى في المنار
 ويقنعوا بأن أكبر علماء الشيعة يخالفونه فيه، واشترط هو أن أسأله ذلك كتابة
@@ -1680,7 +1680,7 @@
 عقيدة الشيعة في الاتفاق
 بسم الله الرحمن الرحيم
 وله الحمد في السموات والأرض
-لما جمعني المؤتمر الإسلامي العام المنعقد ليلة الإسراء في <placeName change="#d2e120" xml:id="placeName_37.d2e3775">القدس الشريف</placeName>
+لما جمعني المؤتمر الإسلامي العام المنعقد ليلة الإسراء في <placeName change="#d2e120 #d11e282" xml:id="placeName_37.d2e3775" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس الشريف</placeName>
 بالعلامة الشهير، إمام السنة والحديث، الأستاذ الهمام، صاحب منار الإسلام،
 السيد محمد رشيد رضا نفع الله المسلمين بمنار علومه - دفع إليَّ كتابًا بخطه
 يتضمن السؤال عن عقيدة الشيعة في إخوانهم من أهل السنة، وأنه هل صحيح ما
@@ -1841,7 +1841,7 @@
                
 ذكرنا في آخر الجزء الأول من هذا المجلد (32) خبر وفاة هذا السيد النبيل،
 وإننا شرعنا في كتابة ما نرى فيه الفائدة والعبرة من سيرته، واضطررنا إلى
-تقديم سيرة والدتنا بالنشر عليها، وقد سافرنا بعد ذلك إلى <placeName change="#d2e120" xml:id="placeName_38.d2e4125">القدس</placeName> لحضور المؤتمر
+تقديم سيرة والدتنا بالنشر عليها، وقد سافرنا بعد ذلك إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_38.d2e4125" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> لحضور المؤتمر
 الإسلامي العام، وبعد العودة إلى مصر والشروع في طبع الجزء الثاني أردنا أن
 ننشر فيه ما كتبنا من سيرته ونزيد عليها فَضَلَّتْ عنَّا فلم نجدها، فلا ندري أسقطت
 في الورق المهمل الذي يخرجه الخادم من مكتبنا أم ضلت بين أوراق أخرى، وقد
@@ -1851,11 +1851,11 @@
 كان - رحمه الله تعالى - قوي الجسم والعقل ذكي الذهن، زكي النفس، عالي
 الهمة، واسع الاطلاع على الكتب الإسلامية من شرعية وأدبية وتاريخية، مختبرًا
 لأهل هذا الزمان، عارفًا بشؤون السياسة الدولية، وأحوال الشعوب الشرقية
-والغربية، فإن له عدة رحلات من بلاده حضرموت إلى جاوة و<placeName change="#d2e120" xml:id="placeName_39.d2e4150">الحجاز</placeName> ومصر
+والغربية، فإن له عدة رحلات من بلاده حضرموت إلى جاوة و<placeName change="#d2e120 #d11e282" xml:id="placeName_39.d2e4150" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ومصر
 والهند والصين واليابان وأوربة الشرقية والغربية.
 وكان قوي الذاكرة، حسن المذاكرة، ذا بديهة حاضرة، وعارضة ماضية،
 وعبارة سلسة في الكتابة لا ركاكة فيها ولا براعة، ولا أعلم شيئًا عن حظه من
-الخطابة، وكنت أول عهدي بطلب العلم ب<placeName change="#d2e120" xml:id="placeName_40.d2e4162">طرابلس الشام</placeName> أقرأ في المؤيد مقالات
+الخطابة، وكنت أول عهدي بطلب العلم ب<placeName change="#d2e120 #d11e282" xml:id="placeName_40.d2e4162" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> أقرأ في المؤيد مقالات
 معزوة إلى الرحالة سيف الدين اليمني ثم علمت أنها له.
 وأما أخلاقه فصف ما شئت من عزة نفس، وسخاء كف، وشجاعة وإقدام،
 وعفة وورع، ووفاء ومروءة، واهتمام بالمصالح القومية والملية، ولولا أنه شغل
@@ -1898,9 +1898,9 @@
 العلويين؛ لأنني منهم وأهل العلم الصحيح منهم يعلمون ذلك.
 وقد علمت منه أنه ترك مذهب الشافعي لا إلى اتباع الدليل، بل إلى تقليد
 مذهب العترة أو آل البيت - أي مذهب الزيدية - وأخبرني أنه حاول إقناع الملك
-حسين بنشر هذا المذهب في <placeName change="#d2e120" xml:id="placeName_42.d2e4262">الحجاز</placeName> والحكم به دون مذهب أبي حنيفة الذي أجبرت
-دولة الترك شرفاء <placeName change="#d2e120" xml:id="placeName_43.d2e4267">مكة</placeName> على تقليده، فلم يقبل فغضب عليه، ولعل هذا سبب ما
-أرسله إليّ من <placeName change="#d2e120" xml:id="placeName_44.d2e4272">مكة</placeName> وقتئذ في الطعن على الملك حسين، ووصف ظلمه واستبداده
+حسين بنشر هذا المذهب في <placeName change="#d2e120 #d11e282" xml:id="placeName_42.d2e4262" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> والحكم به دون مذهب أبي حنيفة الذي أجبرت
+دولة الترك شرفاء <placeName change="#d2e120 #d11e282" xml:id="placeName_43.d2e4267" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> على تقليده، فلم يقبل فغضب عليه، ولعل هذا سبب ما
+أرسله إليّ من <placeName change="#d2e120 #d11e282" xml:id="placeName_44.d2e4272" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وقتئذ في الطعن على الملك حسين، ووصف ظلمه واستبداده
 وقسوته في سجنه وغيره مما نشرته وقتئذ، واعتمدت عليه في الخطاب العام الذي
 وجهته إلى العالم الإسلامي في القيام عليه.
 ثم سعى لدى شيخ الأزهر في مصر لتقرير تدريس هذا المذهب في الأزهر فلم

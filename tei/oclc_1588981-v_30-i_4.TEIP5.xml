@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_30-i_4.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_30-i_4.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e276">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_30-i_4.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_30-i_4.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1348">1348</date><date calendar="#cal_gregorian" when="1929" xml:lang="ar">أكتوبر - 1929م</date></imprint>
                   <biblScope unit="volume" from="30" to="30" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">30</biblScope>
                   <biblScope unit="issue" from="4" to="4" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">4</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e276" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -132,7 +132,7 @@
 عن أبي معمر، وصح عندهما مرسلاً من حديث أنس بن مالك رضي الله عنه من
 طريق قتادة فقط، ومن حديث ابن عباس رضي الله عنه من طريق عبيد الله بن
 عبد الله بن عتبة بن مسعود أحد الفقهاء السبعة، وإنما كان هذان الحديثان مرسلين
-لأن الحادثة وقعت ب<placeName change="#d2e120" xml:id="placeName_4.d2e383">مكة</placeName> قبل الهجرة بخمس سنين، ولم يكن ولد عبد الله بن عباس،
+لأن الحادثة وقعت ب<placeName change="#d2e120 #d11e276" xml:id="placeName_4.d2e383" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> قبل الهجرة بخمس سنين، ولم يكن ولد عبد الله بن عباس،
 وأما أنس فكان في المدينة ابن خمس سنين، والخلاف في الاحتجاج بالمرسل
 معروف، ومن يحتج بمراسيل الصحابة مطلقًا يبني احتجاجه على أنهم يروون عن
 مثلهم؛ ولكن ثبت أن بعضهم كان يروي عن بعض التابعين حتى كعب الأحبار،
@@ -146,7 +146,7 @@
 ورواه الإمام أحمد وتبعه ابن جرير والبيهقي عن جبير بن مطعم رضي الله
 عنه من طريق سليمان بن كثير عن حصين بن عبد الرحمن عن محمد بن جبير بن
 مطعم عن أبيه.
-فأما جبير فقد أسلم بعد عام الحديبية وقبل فتح <placeName change="#d2e120" xml:id="placeName_5.d2e416">مكة</placeName>، وقيل في الفتح، وقد كان
+فأما جبير فقد أسلم بعد عام الحديبية وقبل فتح <placeName change="#d2e120 #d11e276" xml:id="placeName_5.d2e416" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وقيل في الفتح، وقد كان
 مع المشركين في غزوة بدر وأسره المسلمون، فسمع النبي صلى الله عليه وسلم
 يقرأ سورة الطور، قال: فكان ذلك أول ما دخل الإيمان في قلبي، وليس في حديثه
 أنه رأى، ولكن ظاهره أنه كان مسلمًا، ولم يكن مسلمًا، ولو رأى ذلك في حال
@@ -174,28 +174,28 @@
 (ب) اختلاف المتون في هذه الأحاديث:
 (1) في بعض روايات ابن مسعود في الصحيحين أنه قال: انشق القمر
 ونحن مع النبي صلى الله عليه وسلم بمنى. وفي رواية أخرى أنه قال: انشق القمر
-ب<placeName change="#d2e120" xml:id="placeName_6.d2e480">مكة</placeName>. وهو الموافق لرواية أنس، وكذا جبير بن مطعم فإنه قال: ونحن ب<placeName change="#d2e120" xml:id="placeName_7.d2e483">مكة</placeName>، وفي
+ب<placeName change="#d2e120 #d11e276" xml:id="placeName_6.d2e480" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>. وهو الموافق لرواية أنس، وكذا جبير بن مطعم فإنه قال: ونحن ب<placeName change="#d2e120 #d11e276" xml:id="placeName_7.d2e483" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وفي
 رواية ثالثة لم يذكر المكان. قال الداودي: إن بين الحديثين تضادًّا، وأجاب الحافظ
-ابن حجر بأن التضاد يُدفع بإرادة أنهم كانوا عند انشقاقه ب<placeName change="#d2e120" xml:id="placeName_8.d2e491">مكة</placeName>، أي قبل أن يهاجروا
-إلى المدينة، ومِنى من جملة <placeName change="#d2e120" xml:id="placeName_9.d2e496">مكة</placeName> لأنها تابعة لها، وذكر في رواية ابن مردويه
-عنه أنه قال: ونحن ب<placeName change="#d2e120" xml:id="placeName_10.d2e501">مكة</placeName> قبل أن نصير إلى المدينة؛ ولكن هذا اللفظ لا يقال إلا
+ابن حجر بأن التضاد يُدفع بإرادة أنهم كانوا عند انشقاقه ب<placeName change="#d2e120 #d11e276" xml:id="placeName_8.d2e491" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، أي قبل أن يهاجروا
+إلى المدينة، ومِنى من جملة <placeName change="#d2e120 #d11e276" xml:id="placeName_9.d2e496" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> لأنها تابعة لها، وذكر في رواية ابن مردويه
+عنه أنه قال: ونحن ب<placeName change="#d2e120 #d11e276" xml:id="placeName_10.d2e501" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> قبل أن نصير إلى المدينة؛ ولكن هذا اللفظ لا يقال إلا
 إذا كان ذلك قبيل الهجرة. وفي الدر المنثور: أخرج عبد بن حميد والحاكم وصححه
-وابن مردويه والبيهقي في الدلائل عنه أنه قال رأيت القمر منشقًّا شقتين ب<placeName change="#d2e120" xml:id="placeName_11.d2e509">مكة</placeName> قبل
+وابن مردويه والبيهقي في الدلائل عنه أنه قال رأيت القمر منشقًّا شقتين ب<placeName change="#d2e120 #d11e276" xml:id="placeName_11.d2e509" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> قبل
 أن يخرج النبي صلى الله عليه وسلم: شقة على أبي قبيس وشقة على السويداء.
-ثم قال الحافظ: والجمع بين قول ابن مسعود تارة: بمنى، وتارة: ب<placeName change="#d2e120" xml:id="placeName_12.d2e516">مكة</placeName>، إما
+ثم قال الحافظ: والجمع بين قول ابن مسعود تارة: بمنى، وتارة: ب<placeName change="#d2e120 #d11e276" xml:id="placeName_12.d2e516" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، إما
 باعتبار التعدد إن ثبت (نقول: وهو ينفيه) وإما بالحمل على أنه كان بمنى، ومن
-قال: كان ب<placeName change="#d2e120" xml:id="placeName_13.d2e524">مكة</placeName>، لا ينافيه؛ لأن من كان بمنى كان ب<placeName change="#d2e120" xml:id="placeName_14.d2e527">مكة</placeName> من غير عكس، ويؤيده أن
-الرواية التي فيها (بمنى) قال فيها: ونحن بمنى، والرواية التي فيها (ب<placeName change="#d2e120" xml:id="placeName_15.d2e532">مكة</placeName>) لم يقل
-فيها (ونحن) وإنما قال: (انشق القمر ب<placeName change="#d2e120" xml:id="placeName_16.d2e538">مكة</placeName>) يعني أن الانشقاق كان وهم ب<placeName change="#d2e120" xml:id="placeName_17.d2e541">مكة</placeName> قبل
+قال: كان ب<placeName change="#d2e120 #d11e276" xml:id="placeName_13.d2e524" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، لا ينافيه؛ لأن من كان بمنى كان ب<placeName change="#d2e120 #d11e276" xml:id="placeName_14.d2e527" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> من غير عكس، ويؤيده أن
+الرواية التي فيها (بمنى) قال فيها: ونحن بمنى، والرواية التي فيها (ب<placeName change="#d2e120 #d11e276" xml:id="placeName_15.d2e532" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>) لم يقل
+فيها (ونحن) وإنما قال: (انشق القمر ب<placeName change="#d2e120 #d11e276" xml:id="placeName_16.d2e538" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>) يعني أن الانشقاق كان وهم ب<placeName change="#d2e120 #d11e276" xml:id="placeName_17.d2e541" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> قبل
 أن يهاجروا إلى المدينة، وبهذا تندفع دعوة الداودي، أن بين الخبرين تضادًّا والله
 أعلم. اهـ.
-وقوله رحمه الله: إن ابن مسعود لم يقل في رواية <placeName change="#d2e120" xml:id="placeName_18.d2e550">مكة</placeName> (ونحن ب<placeName change="#d2e120" xml:id="placeName_19.d2e554">مكة</placeName>) إنما
+وقوله رحمه الله: إن ابن مسعود لم يقل في رواية <placeName change="#d2e120 #d11e276" xml:id="placeName_18.d2e550" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> (ونحن ب<placeName change="#d2e120 #d11e276" xml:id="placeName_19.d2e554" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>) إنما
 يصح في رواية الصحيح التي كان يشرحها، وقد ذهل عما ذكره هو قبل ذلك في
-شرحه من رواية ابن مردويه عنه، وفيها أنه قال (ونحن ب<placeName change="#d2e120" xml:id="placeName_20.d2e561">مكة</placeName>) على أن لفظ
+شرحه من رواية ابن مردويه عنه، وفيها أنه قال (ونحن ب<placeName change="#d2e120 #d11e276" xml:id="placeName_20.d2e561" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>) على أن لفظ
 (نحن) لا ينقض ما ذكره من التأويل، وإنما يبعده أن المتبادر من قوله (قبل أن
 نصير إلى المدينة) أنه كان بالقرب من الهجرة، والمنقول أنه كان قبلها بخمس سنين
 كما ذكره الحافظ وغيره.
-(2) أن البخاري أسند قول ابن مسعود: (انشق القمر ب<placeName change="#d2e120" xml:id="placeName_21.d2e573">مكة</placeName>) من رواية
+(2) أن البخاري أسند قول ابن مسعود: (انشق القمر ب<placeName change="#d2e120 #d11e276" xml:id="placeName_21.d2e573" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>) من رواية
 إبراهيم عن أبي معمر، ثم قال: وتابعه محمد بن مسلم عن ابن أبي نجيح عن أبي
 معمر عن عبد الله، وذكر الحافظ في شرحه أن هذه الطريق وصلها عبد الرزاق في
 مصنفه والبيهقي من طريقه في دلائل النبوة بلفظ: رأيت القمر منشقًّا شقتين، شقة
@@ -215,10 +215,10 @@
 نعيم أن ذلك كان ليلة أربع عشرة، قال: فانشق القمر نصفين نصفًا على الصفا
 ونصفًا على المروة.
 فهذه بضعة ألفاظ يخالف بعضها بعضًا، وقد تكلف الحافظ في الفتح الجمع بين
-قول ابن مسعود: شقة على أبي قبيس، وهو ب<placeName change="#d2e120" xml:id="placeName_22.d2e619">مكة</placeName>، وكونهم كانوا في منى، فقال:
+قول ابن مسعود: شقة على أبي قبيس، وهو ب<placeName change="#d2e120 #d11e276" xml:id="placeName_22.d2e619" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وكونهم كانوا في منى، فقال:
 يحتمل أن يكون رآه كذلك وهو بمنى كأن يكون على مكان مرتفع بحيث رأى طرف
 جبل أبي قبيس، ويحتمل أن يكون القمر استمر منشقًّا حتى رجع ابن مسعود من منى
-إلى <placeName change="#d2e120" xml:id="placeName_23.d2e629">مكة</placeName> فرآه كذلك! وفيه بُعد، والذي يقتضيه غالب الروايات أن الانشقاق كان قرب
+إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_23.d2e629" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> فرآه كذلك! وفيه بُعد، والذي يقتضيه غالب الروايات أن الانشقاق كان قرب
 غروبه، ويؤيد ذلك إسنادهم الرؤية إلى جهة الجبل، ويحتمل أن يكون الانشقاق وقع
 في أول طلوعه فإن في بعض الروايات أن ذلك كان ليلة البدر. أو التعبير (بأبي
 قبيس) من تغيير بعض الرواة؛ لأن الفرض ثبوت رؤيته منشقًّا إحدى الشقتين على
@@ -229,16 +229,16 @@
 وفي هذا الجمع ضعف من جهات أغربها دعوى احتمال رؤية جبل أبي قبيس
 من منى في الليل، وناهيك بغرابة هذا القول في حال طلوع البدر من الشرق، ومكة
 في جهة الغرب من منى! ثم ماذا يفعل بسائر الروايات؟
-أبو قبيس هو الجبل المشرف على <placeName change="#d2e120" xml:id="placeName_24.d2e656">مكة</placeName> من شرقيها، وهي من جهة منى،
-ويقابله قعيقعان من غربها، وحراء هو الجبل الذي يُرى في داخل <placeName change="#d2e120" xml:id="placeName_25.d2e661">مكة</placeName>، ويسمى
+أبو قبيس هو الجبل المشرف على <placeName change="#d2e120 #d11e276" xml:id="placeName_24.d2e656" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> من شرقيها، وهي من جهة منى،
+ويقابله قعيقعان من غربها، وحراء هو الجبل الذي يُرى في داخل <placeName change="#d2e120 #d11e276" xml:id="placeName_25.d2e661" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، ويسمى
 الآن جبل النور وفيه الغار الذي كان يتعبد به النبي صلى الله عليه وسلم، وهو في
-الجهة الشمالية من <placeName change="#d2e120" xml:id="placeName_26.d2e669">مكة</placeName> على يسار الذاهب منها إلى منى، فعرفات يبعد عن الطريق
+الجهة الشمالية من <placeName change="#d2e120 #d11e276" xml:id="placeName_26.d2e669" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> على يسار الذاهب منها إلى منى، فعرفات يبعد عن الطريق
 زهاء ميل، ويبلغ ارتفاعه زهاء مائتي متر، ولا يُرى من منى، ورواية أبي نعيم
 عن ابن مسعود (رأيت جبل حراء من بين فلقتي القمر) وأما السويداء فلا يعلم
 مكانها من تفسير الحافظ لها وفي معجم البلدان وكتب اللغة أنها موضع تابع للمدينة،
-وفي المعجم أنها على بعد ليلتين منها، والحافظ ثقة في النقل، ومنى أعلى من <placeName change="#d2e120" xml:id="placeName_27.d2e681">مكة</placeName>،
+وفي المعجم أنها على بعد ليلتين منها، والحافظ ثقة في النقل، ومنى أعلى من <placeName change="#d2e120 #d11e276" xml:id="placeName_27.d2e681" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>،
 والمسافة بينهما ثلاثة أميال.
-وجملة القول: إن الروايات الواردة في كون القمر انشق وهم في <placeName change="#d2e120" xml:id="placeName_28.d2e688">مكة</placeName> لا تتفق مع
+وجملة القول: إن الروايات الواردة في كون القمر انشق وهم في <placeName change="#d2e120 #d11e276" xml:id="placeName_28.d2e688" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> لا تتفق مع
 الروايات المصرحة بأنهم كانوا في منى؛ لأن كل ما ذُكر في بعضها من التفصيل
 والبيان للجبلين اللذين أُبهما في البعض الآخر يفيد أنه لا يمكن أن يراهما من كان
 في منى، فقول الداودي بتناقض الروايتين ظاهر، وما اعتمده الحافظ من الجمع
@@ -272,7 +272,7 @@
 الصحيحين من العلل.
 وقد ذكر الحافظ هذا الإشكال في الفتح وأجاب عنه بما نصه:
 (وأما قول بعضهم: لو وقع لجاء متواترًا، واشترك أهل الأرض في معرفته
-ولَمَا اختص بها أهل <placeName change="#d2e120" xml:id="placeName_29.d2e765">مكة</placeName> (فجوابه) أن ذلك وقع ليلاً وأكثر الناس نيام، والأبواب
+ولَمَا اختص بها أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_29.d2e765" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> (فجوابه) أن ذلك وقع ليلاً وأكثر الناس نيام، والأبواب
 مغلقة، وقلَّ من يرصد السماء إلا النادر، وقد يقع بالمشاهدة في العادة أن ينكسف
 القمر وتبدو الكواكب العظام وغير وذلك في الليل ولا يشاهدها إلا الآحاد، فكذلك
 الانشقاق كان آية وقعت في الليل لقوم سألوا واقترحوا فلم يتأهب غيرهم لها،
@@ -282,7 +282,7 @@
 بعده مع الجواب عنه نقلاً عن الخطابي أحد قدماء شُرَّاح صحيح البخاري، وسيأتي.
 ونقول في جوابه عن مسألة نقل التواتر (أولاً) إن وقوعه في الليل وأكثر الناس
 نيام لا ينافي نقله بالتواتر، إذ لابد أن يكون رآه عدد يحصل بهم نقل التواتر، ولو
-من أهل <placeName change="#d2e120" xml:id="placeName_30.d2e790">مكة</placeName> أنفسهم، ولا يمكن أن يختص برؤيته بعض الأفراد كما بيَّناه في توجيه
+من أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_30.d2e790" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أنفسهم، ولا يمكن أن يختص برؤيته بعض الأفراد كما بيَّناه في توجيه
 الإشكال، وقد علم من بعض الروايات أنه وقع في منتصف الشهر والقمر بدر، ولا
 بد أن يكون ذلك في أول الليل كما ذكره الحافظ احتمالاً، وبه تظهر رواية كونه كان
 آية على صحة نبوته صلى الله عليه وسلم، والظاهر من رواية التصريح بأنهم
@@ -349,20 +349,20 @@
 ذلك بالآية الكريمة، فلم يبق لاستبعاد من استبعد وقوعه عذر، ثم أجاب بنحو جواب
 الخطابي وقال: وقد يطلُع على قوم قبل طلوعه على آخرين، وأيضًا فإن زمن
 الانشقاق لم يطل ولم تتوفر الدواعي على الاعتناء بالنظر إليه، ومع ذلك فقد بعث
-أهل <placeName change="#d2e120" xml:id="placeName_31.d2e938">مكة</placeName> إلى آفاق <placeName change="#d2e120" xml:id="placeName_32.d2e941">مكة</placeName> يسألون عن ذلك، فجاءت السفار وأخبرو بأنهم عاينوا ذلك؛
+أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_31.d2e938" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> إلى آفاق <placeName change="#d2e120 #d11e276" xml:id="placeName_32.d2e941" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> يسألون عن ذلك، فجاءت السفار وأخبرو بأنهم عاينوا ذلك؛
 وذلك لأن المسافرين في الليل غالبًا يكونون سائرين في ضوء القمر ولا يخفى عليهم
 ذلك، وقال القرطبي: الموانع من مشاهدة ذلك إذا لم يحصل القصد إليه غير
-منحصرة، ويُحتمل أن يكون الله صرف جميع أهل الأرض غير أهل <placeName change="#d2e120" xml:id="placeName_33.d2e951">مكة</placeName> وما حولها
-عن الالتفات إلى القمر في تلك الساعة ليختص بمشاهدته أهل <placeName change="#d2e120" xml:id="placeName_34.d2e956">مكة</placeName>، كما اختصوا
+منحصرة، ويُحتمل أن يكون الله صرف جميع أهل الأرض غير أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_33.d2e951" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وما حولها
+عن الالتفات إلى القمر في تلك الساعة ليختص بمشاهدته أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_34.d2e956" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، كما اختصوا
 بمشاهدة أكثر الآيات ونقلوها إلى غيرهم. اهـ وفي كلامه نظر لأن أحدًا لم ينقل أن
-أحدًا من أهل الآفاق غير أهل <placeName change="#d2e120" xml:id="placeName_35.d2e964">مكة</placeName> ذكروا أنهم رصدوا القمر في تلك الليلة المعينة، فلم
+أحدًا من أهل الآفاق غير أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_35.d2e964" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ذكروا أنهم رصدوا القمر في تلك الليلة المعينة، فلم
 يشاهدوا انشقاقه، فلو نقل ذلك لكان الجواب الذي أبداه القرطبي جيدًا؛ ولكن لم ينقل
 عن أحد من أهل الأرض شيء من ذلك، فالاقتصار حينئذ على الجواب الذي ذكره
 الخطابي ومن تبعه أوضح، والله أعلم اهـ.
 أقول: قد عُلم مما تقدم آنفًا ضعف الجواب عن هذا الإشكال كسابقه، ونزيد
 عليه ما أرجأناه عمدًا وهو قول الخطابي ومن تبعه: لعل انشقاق القمر إنما كان في
 قدر اللحظة التي هي مدرك البصر. فهذا الاحتمال هو الذي يمكن أن يعقل به احتمال
-عدم رؤية أهل الأقطار له حتى أهل <placeName change="#d2e120" xml:id="placeName_36.d2e982">مكة</placeName>، وكذا من كان في منى؛ ولذلك ذكرناه في
+عدم رؤية أهل الأقطار له حتى أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_36.d2e982" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وكذا من كان في منى؛ ولذلك ذكرناه في
 تلخيص المسألة في المجلد السادس، وإذا أضيف إليه احتمال وقوع الرؤية في آخر
 الليل يزداد قوة، وقد يكون كل من الاحتمالين معقولاً إذا اعتمدنا في المسألة ظاهر
 حديث ابن مسعود المسند المتصل في الصحيحين وما وافقه من أن انشقاقه لم يكن
@@ -375,7 +375,7 @@
 أنهم قالوا ذلك، وجاء في بعض التفاسير أنه وقع مثل ذلك لبعض المتأخرين،
 فزعم أنه رأى القمر قد انشق، ومن المعلوم بالضرورة أن هذا تخيل، بل يجعلها
 آية مبصرة كناقة صالح لا يمكن الشك ولا المراء الظاهر فيها.
-وأما ما ورد في غير الصحيحين من انتظار أهل <placeName change="#d2e120" xml:id="placeName_37.d2e1014">مكة</placeName> للسفار وإخبارهم برؤيته
+وأما ما ورد في غير الصحيحين من انتظار أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_37.d2e1014" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> للسفار وإخبارهم برؤيته
 منشقًّا فهو لا يصح، ولو صح لكان مؤيدًا لإشكال توفر الدواعي على نقله متواترًا.
 أما الحديث فقد رواه ابن جرير وابن المنذر وابن مردويه وكذا أبو نعيم
 والبيهقي كلاهما في دلائل النبوة كلهم من طريق مسروق عن ابن مسعود، وفي
@@ -819,7 +819,7 @@ The Moslim World Of To-day
 الكتاب ووضع له مقدمة وخاتمة الدكتور موط رئيس (المجلس التبشيري الدولي)
 ورئيس المؤتمر التبشيري العالمي الديني الذي عُقد على جبل الزيتون منذ زهاء
 سنة ونيف، وأمره لم يزل معروفًا، وفي نهاية الكتاب المقررات التي كانت سرية
-أولاً، وهي مقررات مؤتمر سنة 1925 في <placeName change="#d2e120" xml:id="placeName_38.d2e1957">القدس</placeName> التي نُشرت وأُذيعت واطلع
+أولاً، وهي مقررات مؤتمر سنة 1925 في <placeName change="#d2e120 #d11e276" xml:id="placeName_38.d2e1957" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> التي نُشرت وأُذيعت واطلع
 عليها الناس، وكان لها في العالم الإسلامي ذلك الصدى البالغ، عدد صفحات هذا
 الكتاب (420) صفحة، وهذه النسخة التي بيدي من الطبعة الأولى سنة 1925.
 
@@ -879,7 +879,7 @@ Young Islam On Track
 The Story Of Islam
 مؤلفه لنت ثيودور السكرتير العام (لجميعة نشر التبشير في السواد من الناس)
 وكان سابقًا السكرتير التعليمي (للجمعية الكنسية التبشيرية) S. M. C
-التي لها فرع في <placeName change="#d2e120" xml:id="placeName_39.d2e2096">القدس</placeName>، وغير <placeName change="#d2e120" xml:id="placeName_40.d2e2099">القدس</placeName> في فلسطين.
+التي لها فرع في <placeName change="#d2e120 #d11e276" xml:id="placeName_39.d2e2096" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>، وغير <placeName change="#d2e120 #d11e276" xml:id="placeName_40.d2e2099" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> في فلسطين.
 وهذا الكتاب طُبع للمرة الثالثة سنة 1916 وهذه النسخة التي بيدي هي من
 طبعة 1916، والغريب في أمر هذا المؤلف أنه مقدم إلى جهة لم تخطر على بال
 أحد من أهل هذه البلاد، وهذه عبارة التقديم بالحرف:
@@ -918,8 +918,8 @@ The Rebukeof Islam
 (فلسطين! إنه وإن كان في فلسطين عدد من الجمعيات العاملة فإن الجمعية التبشيرية
 الكنسية S. M. C واضعة بالأكثر نصب عينها بذل الجهود للوصول إلى الأهالي
 المسلمين، وقد كان للجمعية قبل الحرب سبعة مراكز كبيرة، أما الآن فقد استؤنف
-العمل في غزة، بناء على طلب السلطة العسكرية، وفي <placeName change="#d2e120" xml:id="placeName_41.d2e2195">القدس</placeName>، والناصرة،
-والسلط، و<placeName change="#d2e120" xml:id="placeName_42.d2e2201">يافا</placeName> و<placeName change="#d2e120" xml:id="placeName_43.d2e2204">نابلس</placeName>، وعدد الموظفين المسلمين يبلغ 42 موظفًا، منهم الأطباء
+العمل في غزة، بناء على طلب السلطة العسكرية، وفي <placeName change="#d2e120 #d11e276" xml:id="placeName_41.d2e2195" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>، والناصرة،
+والسلط، و<placeName change="#d2e120 #d11e276" xml:id="placeName_42.d2e2201" ref="geon:293253 oape:place:12 wiki:Q180294" resp="#xslt">يافا</placeName> و<placeName change="#d2e120 #d11e276" xml:id="placeName_43.d2e2204" ref="geon:7870555 oape:place:11" resp="#xslt">نابلس</placeName>، وعدد الموظفين المسلمين يبلغ 42 موظفًا، منهم الأطباء
 والممرضات) .
 وعندما جاء ذكر مصر قال البيان:
 (للجمعية خمسة مراكز في مصر، والأعمال الطبية سائرة في مصر القديمة
@@ -927,7 +927,7 @@ The Rebukeof Islam
 مريض ما عدا عددًا كبيرًا من النساء، وفي السنة التي قبل شملت أعمال الجمعية
 أكثر من 500 بلدة وقرية في مصر السفلى، و450 بلدة وقرية في مصر العليا،
 والكثرة المطلقة من هؤلاء المرضى كانوا يبقون في المستشفى يعالجون لا أقل من
-أسبوعين، وفي <placeName change="#d2e120" xml:id="placeName_44.d2e2224">القاهرة</placeName> مدرسة للصبيان فيها 180 طالبًا ومدرسة للبنات يزداد
+أسبوعين، وفي <placeName change="#d2e120 #d11e276" xml:id="placeName_44.d2e2224" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> مدرسة للصبيان فيها 180 طالبًا ومدرسة للبنات يزداد
 الإقبال عليها وكثرة طالباتها من المسلمات، ويزداد افتتاح مراكز التبشير على
 التوالي، وفي مصر القديمة صارت السيدات المبشرات من الاستطاعة بحيث يتمكن
 من القيام بالدروس المسيحية توًّا بلا تهيب حتى بحضور شيوخ المسلمين) .
@@ -1061,20 +1061,20 @@ The Moslim Mentality
 بقوات البوليس من الخارج وفي الساعة السادسة أعلنت الحكومة منع التجوال من
 السادسة ونصف مساء إلى السادسة صباحًا، وانقضى الليل والرصاص لم يهدأ حتى
 الصباح.
-ولم تزل الحالة في <placeName change="#d2e120" xml:id="placeName_45.d2e2527">القدس</placeName> إلى هذا التاريخ غير اعتيادية رغم تكاثر القوة
+ولم تزل الحالة في <placeName change="#d2e120 #d11e276" xml:id="placeName_45.d2e2527" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> إلى هذا التاريخ غير اعتيادية رغم تكاثر القوة
 العسكرية وتحليق الطيارات يوميًّا، فحوادث القتل والاعتداء يوالي مزاولتها اليهود
 في أطراف الأحياء التي يسكنونها، ولم تنقض ليلة إلى الآن منذ 18 ربيع الأول
 دون أن يثابر على إطلاق النار الليل كله أو معظمه في ضواحي المدينة.
-وبلغ عدد شهداء المسلمين في <placeName change="#d2e120" xml:id="placeName_46.d2e2538">القدس</placeName> العشرات، ولم يمكن إحصاء الإصابات
-إحصاء مضبوطًا إلى الآن وبلغ عدد الجرحى في <placeName change="#d2e120" xml:id="placeName_47.d2e2544">القدس</placeName> مبلغًا كبيرًا.
+وبلغ عدد شهداء المسلمين في <placeName change="#d2e120 #d11e276" xml:id="placeName_46.d2e2538" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> العشرات، ولم يمكن إحصاء الإصابات
+إحصاء مضبوطًا إلى الآن وبلغ عدد الجرحى في <placeName change="#d2e120 #d11e276" xml:id="placeName_47.d2e2544" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> مبلغًا كبيرًا.
 امتداد الفتنة إلى أنحاء فلسطين
 في الخليل:
 وامتدت الفتنة إلى الخليل يوم السبت 29 ربيع الأول 25 أغسطس، فقُتل من
 المسلمين ثمانية، وجُرح عدد لم نعرف صحته بعد.
-في <placeName change="#d2e120" xml:id="placeName_48.d2e2558">يافا</placeName>:
-وحصل اصطدام عنيف في <placeName change="#d2e120" xml:id="placeName_49.d2e2563">يافا</placeName> يوم الأحد 20 ربيع الأول - 25 أغسطس،
+في <placeName change="#d2e120 #d11e276" xml:id="placeName_48.d2e2558" ref="geon:293253 oape:place:12 wiki:Q180294" resp="#xslt">يافا</placeName>:
+وحصل اصطدام عنيف في <placeName change="#d2e120 #d11e276" xml:id="placeName_49.d2e2563" ref="geon:293253 oape:place:12 wiki:Q180294" resp="#xslt">يافا</placeName> يوم الأحد 20 ربيع الأول - 25 أغسطس،
 فقتل وجرح من المسلمين برصاص الجنود البريطانية عدد لم يُعرف بعد.
-في <placeName change="#d2e120" xml:id="placeName_50.d2e2571">حيفا</placeName>:
+في <placeName change="#d2e120 #d11e276" xml:id="placeName_50.d2e2571" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName>:
 قام اليهود وباشروا مهاجمة العرب بالسلاح، فدافع العرب عن أنفسهم
 وعائلاتهم، وفي اليوم التالي وصلت البارجة البحرية (برهم) تحمل الجنود
 والطيارات والأعتاد الحربية، فكان العرب بقرب الرصيف يشاهدونها، وبينما هم
@@ -1088,10 +1088,10 @@ The Moslim Mentality
 29 أغسطس لم تُعرف تفاصيله بعد.
 في غزة والرملة:
 اشتد الاضطراب في غزة وقامت المظاهرات، فنقلت الحكومة اليهود من
-هناك إلى تل أبيب المستعمرة اليهودية الكبيرة قرب <placeName change="#d2e120" xml:id="placeName_51.d2e2604">يافا</placeName>، وهاج مسلمو الرملة واللد
+هناك إلى تل أبيب المستعمرة اليهودية الكبيرة قرب <placeName change="#d2e120 #d11e276" xml:id="placeName_51.d2e2604" ref="geon:293253 oape:place:12 wiki:Q180294" resp="#xslt">يافا</placeName>، وهاج مسلمو الرملة واللد
 والسبع هياجًا كبيرًا.
-في <placeName change="#d2e120" xml:id="placeName_52.d2e2612">نابلس</placeName>:
-ووقع اصطدام كبير في <placeName change="#d2e120" xml:id="placeName_53.d2e2617">نابلس</placeName> بين الأهالي والبوليس فجُرح 9 من المسلمين.
+في <placeName change="#d2e120 #d11e276" xml:id="placeName_52.d2e2612" ref="geon:7870555 oape:place:11" resp="#xslt">نابلس</placeName>:
+ووقع اصطدام كبير في <placeName change="#d2e120 #d11e276" xml:id="placeName_53.d2e2617" ref="geon:7870555 oape:place:11" resp="#xslt">نابلس</placeName> بين الأهالي والبوليس فجُرح 9 من المسلمين.
 في سائر أنحاء البلاد:
 وعم الاضطراب جميع أنحاء البلاد من بئر السبع جنوبًا إلى الحولة شمالاً.
 الشهداء والجرحى
@@ -1122,10 +1122,10 @@ The Moslim Mentality
 المستشفيات.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_23.d2e2698">13-</hi>ومع أن القوات العسكرية قد ازدادت بوصول النجدات من مصر ونزول
-قوات عسكرية من البارجتين اللتين رست إحدهما في <placeName change="#d2e120" xml:id="placeName_54.d2e2703">يافا</placeName> والأخرى في <placeName change="#d2e120" xml:id="placeName_55.d2e2707">حيفا</placeName>،
+قوات عسكرية من البارجتين اللتين رست إحدهما في <placeName change="#d2e120 #d11e276" xml:id="placeName_54.d2e2703" ref="geon:293253 oape:place:12 wiki:Q180294" resp="#xslt">يافا</placeName> والأخرى في <placeName change="#d2e120 #d11e276" xml:id="placeName_55.d2e2707" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName>،
 فالحالة العامة في البلاد تسير باضطراب.
 الفظائع تنزل بالمسلمين
-ثبت أن كثيرًا من اليهود مسلحون، وأن كثيرًا منهم في <placeName change="#d2e120" xml:id="placeName_56.d2e2716">القدس</placeName> كانوا يرتدون
+ثبت أن كثيرًا من اليهود مسلحون، وأن كثيرًا منهم في <placeName change="#d2e120 #d11e276" xml:id="placeName_56.d2e2716" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> كانوا يرتدون
 الألبسة العسكرية، ويتقلدون البنادق، ويتصيدون العرب في الطرق والأماكن
 المنعزلة، وقد راع العرب تسلح اليهود وتخطفهم للعرب تحت هذا الزي وبعد
 الاحتجاج للحكومة عثرت الحكومة على بعض المتسلحين منهم.
@@ -1134,7 +1134,7 @@ The Moslim Mentality
 حد الفظائع الرائعة بلا سبب وبلا إنذار، بل بحجة التفتيش دون أن يعثروا على أي
 شيء مما تفتش القوات عليه، وقد سقط أكثر شهداء المسلمين وجرحاهم برصاص
 الجيش البريطاني والبوليس البريطاني ففي قرية (صور باهر) الواقعة في
-الضاحية الجنوبية في <placeName change="#d2e120" xml:id="placeName_57.d2e2739">القدس</placeName> ذهبت حملة عسكرية باكرًا صباح 28 أغسطس مجهزة
+الضاحية الجنوبية في <placeName change="#d2e120 #d11e276" xml:id="placeName_57.d2e2739" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> ذهبت حملة عسكرية باكرًا صباح 28 أغسطس مجهزة
 بالرشاشات والدبابات والطيارات فأحاطت بالقرية، وأخذت تطلق النار من جميع
 الجهات فقتلت ثمانية منهم النساء والأطفال وجرحت تسعة وحصل شبه هذا في
 قرية قالونيا في الضاحية الشمالية.
@@ -1184,7 +1184,7 @@ The Moslim Mentality
 
                
 (حدثت الفتن الأخيرة في فلسطين والمندوب السامي البريطاني مصطافًا في
-بلاده بالإجازة، وقد تعجل العودة، ولم يلبث بعد وصوله إلى <placeName change="#d2e120" xml:id="placeName_58.d2e2846">القدس</placeName> أن نشر في
+بلاده بالإجازة، وقد تعجل العودة، ولم يلبث بعد وصوله إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_58.d2e2846" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> أن نشر في
 البلاد بلاغًا دل على تحيزه إلى اليهود والصهيونية هذا نصه) .
 عدت من المملكة المتحدة فوجدت بمزيد الأسى أن البلاد في حالة اضطراب،
 فأصبحت فريسة لأعمال العنف غير المشروعة.
@@ -1306,10 +1306,10 @@ The Moslim Mentality
 احتجاج جمعية حراسة المسجد الأقصى
 والأماكن الإسلامية المقدسة
 وجوابها على منشور فخامة المندوب السامي
-جمعية حراسة المسجد الأقصى والأماكن الإسلامية المقدسة ب<placeName change="#d2e120" xml:id="placeName_59.d2e3120">القدس</placeName> تتلقى
+جمعية حراسة المسجد الأقصى والأماكن الإسلامية المقدسة ب<placeName change="#d2e120 #d11e276" xml:id="placeName_59.d2e3120" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> تتلقى
 بمزيد الدهشة والأسف استعجال فخامتكم في إصدار منشور 1 أيلول سنة 1929،
-الذي يحمل على العرب حملة غير عادلة مغفلاً ما اقترفه اليهود في <placeName change="#d2e120" xml:id="placeName_60.d2e3127">يافا</placeName> والقدس
-وغيرهما، وقام به الجنود البريطانيون في صور باهر وقالونية و<placeName change="#d2e120" xml:id="placeName_61.d2e3132">حيفا</placeName> من الفظائع
+الذي يحمل على العرب حملة غير عادلة مغفلاً ما اقترفه اليهود في <placeName change="#d2e120 #d11e276" xml:id="placeName_60.d2e3127" ref="geon:293253 oape:place:12 wiki:Q180294" resp="#xslt">يافا</placeName> والقدس
+وغيرهما، وقام به الجنود البريطانيون في صور باهر وقالونية و<placeName change="#d2e120 #d11e276" xml:id="placeName_61.d2e3132" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> من الفظائع
 والقتل في الأطفال والنساء والشيوخ من العرب، وهم عُزَّل من السلاح بعضهم
 عابر سبيل وبعضهم في بيته أو في صلاته، وهي تلفت نظر فخامتكم إلى ما يأتي:
 
@@ -1368,7 +1368,7 @@ The Moslim Mentality
 من الخارج لا يجد النفوذ الصهيوني إلى وجدانها إزاء واجب العدل سبيلاً بتحقيق
 دقيق في هذا الأمر، وحينئذ سترون فخامتكم أن لعنات العالم المتمدن ستنصب على
 المسببين وحدهم، كما أنهم يأملون إصدار منشور آخر بعد اطلاعكم على فظائع
-اليهود في <placeName change="#d2e120" xml:id="placeName_62.d2e3272">يافا</placeName> و<placeName change="#d2e120" xml:id="placeName_63.d2e3276">القدس</placeName> وغيرهما.
+اليهود في <placeName change="#d2e120 #d11e276" xml:id="placeName_62.d2e3272" ref="geon:293253 oape:place:12 wiki:Q180294" resp="#xslt">يافا</placeName> و<placeName change="#d2e120 #d11e276" xml:id="placeName_63.d2e3276" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> وغيرهما.
 ونحن واثقون بأن كل تحقيق عادل يجري بهذا الصدد سيكون حتمًا لصالح
 العرب، وسيظهر أن المسئول عن هذه الفتنة اثنان لا ثالث لهما:
 الأول: اليهود الذين تجاوزوا بمطامعهم واعتداءاتهم كل حد حتى المقدسات

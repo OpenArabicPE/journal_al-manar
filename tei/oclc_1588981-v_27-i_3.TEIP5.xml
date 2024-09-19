@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_27-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_27-i_3.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e276">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_27-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_27-i_3.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1344">1344</date><date calendar="#cal_gregorian" when="1926" xml:lang="ar">يونيه - 1926م</date></imprint>
                   <biblScope unit="volume" from="27" to="27" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">27</biblScope>
                   <biblScope unit="issue" from="3" to="3" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">3</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e276" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -76,12 +76,12 @@
 فتوى صاحبَي الفضيلة
 الأستاذ الأكبر شيخ الجامع الأزهر ومفتي الديار المصرية
 في زيارة القبور والموسيقى وشرب الدخان
-أرسل صاحب الجلالة عبد العزيز بن سعود ملك <placeName change="#d2e120" xml:id="placeName_4.d2e263">الحجاز</placeName> وسلطان نجد
+أرسل صاحب الجلالة عبد العزيز بن سعود ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_4.d2e263" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وسلطان نجد
 وملحقاتها برقية إلى الحكومة المصرية يبسط فيها القول في حكم الشرع في المسائل
 الثلاث المتقدمة وغيرها بسبب ما أذاعه دعاة السوء والتفرقة بين شعوب المسلمين
-من أن حكومة جلالته في <placeName change="#d2e120" xml:id="placeName_5.d2e273">الحجاز</placeName> ستمنع كذا وكذا، فسألت الحكومة المصرية حكومة
+من أن حكومة جلالته في <placeName change="#d2e120 #d11e276" xml:id="placeName_5.d2e273" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ستمنع كذا وكذا، فسألت الحكومة المصرية حكومة
 جلالته عما يريد أن يتخذه من الإجراءات مما يتعلق بالحجاج والمحمل على الأخص
-فورد عليها جواب جلالته بالبرق وهذا ملخصه كما نشرته جرائد <placeName change="#d2e120" xml:id="placeName_6.d2e281">القاهرة</placeName> قالت:
+فورد عليها جواب جلالته بالبرق وهذا ملخصه كما نشرته جرائد <placeName change="#d2e120 #d11e276" xml:id="placeName_6.d2e281" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> قالت:
 أما البرقية فطويلة وقد استهل الملك ابن السعود برقيته بشكر الحكومة
 المصرية وجلالة ملك مصر وامتداحهما على ما بذلوه من المساعدة للحجاز وأهله ثم
 قال: إنهم (أي حكومة مصر وملكها) ذخر الإسلام ولذلك فإنه يرجو أن يكونوا عونًا
@@ -183,7 +183,7 @@
 ألسنا نراهم يطلبون من الأموات أن ينفعوهم ويضروا غيرهم؟ ألا يطلبون
 منهم العافية والرزق وأن يُشفى مريضهم ويقهر عدوهم ويرد ضائعهم مما لا يصح
 طلبه إلا من الله تعالى؟ تقول: وهل يفعل المسلمون ذلك؟ أقول: نعم، زر السيد
-البدوي في طنطا وأبا العباس المرسي في الإسكندرية، والجيلاني في <placeName change="#d2e120" xml:id="placeName_7.d2e510">بغداد</placeName>،
+البدوي في طنطا وأبا العباس المرسي في الإسكندرية، والجيلاني في <placeName change="#d2e120 #d11e276" xml:id="placeName_7.d2e510" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>،
 وعبد السلام بن مشيش في مراكش تعلم صحة قولي.
 مع أن السلف الصالح رضوان الله عليهم كانوا يزورون الأموات ويدعون لهم
 ولا يكلفونهم قط ما ليس من وظائفهم. وهذا نبينا وقرة أعيننا وبرد أكبادنا محمد
@@ -225,9 +225,9 @@
 والأثقال إذا تراكمت على ظهر الدابة بحيث لم تعد تقدر على حملها تساقطت بنفسها.
 وأرى أن مزاعمنا في هؤلاء الأولياء الكثيرين زادت على طاقتنا فلم تعد تطيق
 حملها ظهورنا.
-لما كنت نزيل القطر المصري ذهبت من <placeName change="#d2e120" xml:id="placeName_8.d2e609">القاهرة</placeName> إلى مدينة طنطا لزيارة
+لما كنت نزيل القطر المصري ذهبت من <placeName change="#d2e120 #d11e276" xml:id="placeName_8.d2e609" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> إلى مدينة طنطا لزيارة
 (السيد البدوي) رضي الله عنه، وقد رأيت من جماهير الزائرين ما أنكرته
-واستبشعته، فرجعت إلى <placeName change="#d2e120" xml:id="placeName_9.d2e616">القاهرة</placeName>، وكتبت في المؤيد مقالاً بهذا الموضوع منكرًا
+واستبشعته، فرجعت إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_9.d2e616" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، وكتبت في المؤيد مقالاً بهذا الموضوع منكرًا
 محذرًا. وبعد أيام ذهبت إلى دار المرحوم (أحمد بك الحسيني) وكان عنده جماعة
 من علماء الأزهر، فجرى ذكر زيارتي للبدوي وما كتبته في المُؤيد بشأنها فأيدني
 قوم وخذلني آخرون، وكان أشدهم حملة عليّ وتقبيحًا لقولي أستاذ يقال له (الشيخ
@@ -239,7 +239,7 @@
 بداعي أننا فاسدون مفسدون. أنت وإخوانك العلماء تعرفون كيف تزورون الزيارة
 الشرعية، ولكن لا تكونون ناجين من التبعة فتهملوا تعليم إخوانكم العامة المساكين
 وأرشادهم، ألستم أنتم ورثة الأنبياء قد ورثتم محمدًا (صلى الله عليه وسلم) في
-تعليم أمته الدين؟ وأن محمدًا (صلى الله عليه وسلم) لبث في <placeName change="#d2e120" xml:id="placeName_10.d2e646">مكة</placeName> قبل الهجرة
+تعليم أمته الدين؟ وأن محمدًا (صلى الله عليه وسلم) لبث في <placeName change="#d2e120 #d11e276" xml:id="placeName_10.d2e646" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> قبل الهجرة
 نحو عشر سنوات يعلم الناس فقط أن لا يدعوا مع الله أحداً. فليقض كل واحد
 منكم سنة واحدة على الأقل في تعليم المسلمين الزيارة الشرعية فلا يدعوا مع
 الله أحدًا.
@@ -448,7 +448,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_54.d2e1132"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_55.d2e1134"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_56.d2e1136"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_57.d2e1138"/> <placeName change="#d2e120" xml:id="placeName_11.d2e1141">دمشق الشام</placeName> <gap resp="#org_MS" change="#d2e120" xml:id="gap_58.d2e1144"/> 
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_57.d2e1138"/> <placeName change="#d2e120 #d11e276" xml:id="placeName_11.d2e1141" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق الشام</placeName> <gap resp="#org_MS" change="#d2e120" xml:id="gap_58.d2e1144"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_59.d2e1146"/>
                
 
@@ -461,7 +461,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_66.d2e1163"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_67.d2e1165"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_68.d2e1168"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_69.d2e1170"/> المغربي <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_2.d2e1172">(*) تلا هذه المحاضرة منشئها الأستاذ المغربي في قاعة المحاضرات في كلية الصلاحية الإسلامية ب<placeName change="#d2e120" xml:id="placeName_12.d2e1174">القدس</placeName> على هيئة إدارتها وطائفة من أساتذتها والجم الغفير من طلبتها وذلك في سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1334" change="#d3e146 #d2e120" xml:id="date_4.d2e1177">1334</date>هـ.
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_69.d2e1170"/> المغربي <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_2.d2e1172">(*) تلا هذه المحاضرة منشئها الأستاذ المغربي في قاعة المحاضرات في كلية الصلاحية الإسلامية ب<placeName change="#d2e120 #d11e276" xml:id="placeName_12.d2e1174" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> على هيئة إدارتها وطائفة من أساتذتها والجم الغفير من طلبتها وذلك في سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1334" change="#d3e146 #d2e120" xml:id="date_4.d2e1177">1334</date>هـ.
 (1) الحلف بغير الله منهي عنه بقول رسول الله - صلى الله عليه وسلم -: (من كان حالفًا فلا يحلف إلا بالله) رواه النسائي عن ابن عمر.
 (2) هذا ليس من السنة فإنه لم يرد عن النبي - صلى الله عليه وسلم - أنه كان يفعله أو يأمر به، بل هو من البدع المحدثة التي كان يجدر بالكاتب إنكارها كغيرها اهـ مصححه.
 (3) هي القصيدة التي أشار إليها الأستاذ صاحب المنار في تعليقه على فعال (الطريقة التيجانية) في الجزء العاشر سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1344" change="#d3e146 #d2e120" xml:id="date_5.d2e1187">1344</date>هـ منه فقد قال: أخبرني الثقة أن أحد كبار علماء الأزهر نظم قصيدة يشكو فيها للسيد البدوي سعاية بعض أعداءه لإغضاب أمير البلاد عليه ويطلب منه إنقاذه من شر هذه السعاية وإرضاء قلب الأمير عليه.</note>
@@ -587,25 +587,25 @@
 الإسلام ابن تيمية، وإنما كان نجاحه سريعًا بتأييد آل سعود له ومنعهم إياه ممن
 يريده بسوء، وما كان آل سعود أقوى شيوخ عشائر نجد وأمرائها، ولكن الله
 نصرهم بنصر دينه، فكان من أمرهم ما كان من فوز وفلاح، ثم من بلاء وامتحان
-ثم ما كان من رد الله الكرة لهم في هذه الأيام، ذلك بأن أمراء <placeName change="#d2e120" xml:id="placeName_13.d2e1441">مكة</placeName> المفسدين في
+ثم ما كان من رد الله الكرة لهم في هذه الأيام، ذلك بأن أمراء <placeName change="#d2e120 #d11e276" xml:id="placeName_13.d2e1441" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المفسدين في
 الأرض، الملحدين في الحرم، قد تصدوا لمقاومة دعوة الإصلاح والتجديد الوهابية
 من بدء ظهورها، فأذاعوا في العالم الإسلامي كله أنها دعوة كفر وابتداع وعداوة
-للمسلمين والإسلام، كان مقامهم ب<placeName change="#d2e120" xml:id="placeName_14.d2e1450">مكة المكرمة</placeName> مسهلاً لهم ذلك وصدقهم أكثر الناس
-الذين هم أتباع كل ناعق، وسعوا لحمل <placeName change="#d2e120" xml:id="placeName_15.d2e1456">الدولة العثمانية</placeName> على قتال آل سعود وهي
+للمسلمين والإسلام، كان مقامهم ب<placeName change="#d2e120 #d11e276" xml:id="placeName_14.d2e1450" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> مسهلاً لهم ذلك وصدقهم أكثر الناس
+الذين هم أتباع كل ناعق، وسعوا لحمل <placeName change="#d2e120 #d11e276" xml:id="placeName_15.d2e1456" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> على قتال آل سعود وهي
 استعانت على ذلك بالدولة المصرية العلوية الجديدة، ولسنا بصدد بيان الماضي هنا
-وإنما نحن بصدد بيان عاقبة أمرهم وأمر أمراء <placeName change="#d2e120" xml:id="placeName_16.d2e1463">مكة</placeName> المعروفين بالشرفاء.
-أما <placeName change="#d2e120" xml:id="placeName_17.d2e1468">الدولة العثمانية</placeName> فقد استمرت على معاداة آل سعود زهاء قرن كامل
+وإنما نحن بصدد بيان عاقبة أمرهم وأمر أمراء <placeName change="#d2e120 #d11e276" xml:id="placeName_16.d2e1463" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المعروفين بالشرفاء.
+أما <placeName change="#d2e120 #d11e276" xml:id="placeName_17.d2e1468" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> فقد استمرت على معاداة آل سعود زهاء قرن كامل
 لاعتقادها أنهم يريدون تأسيس دولة عربية قوية تزيل ما لهم من السلطان في جزيرة
 العرب ويتبع ذلك هدم الخلافة التركية، ثم ظهر لها أن مصلحتها تقضي بالاتفاق مع
 آل السعود والاعتراف لهم بسيادتهم على نجد وملحقاتها حتى ما كان بيد الدولة منها
 ففعلت ذلك، وعلم بذلك أنها لم تكن تعاديهم لسبب ديني كما كان يظن الجاهلون.
-وأما أمراء <placeName change="#d2e120" xml:id="placeName_18.d2e1482">مكة</placeName> المعروفون بالشرفاء فظلوا على ضلالهم في الطعن على دين
+وأما أمراء <placeName change="#d2e120 #d11e276" xml:id="placeName_18.d2e1482" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المعروفون بالشرفاء فظلوا على ضلالهم في الطعن على دين
 الوهابية وافتراء الأكاذيب عليهم، وكان أشدهم إسرافًا في الطعن وفي عداوة آل
-سعود الأمير حسين بن علي، ولما خلص أمر الحكم في <placeName change="#d2e120" xml:id="placeName_19.d2e1490">الحجاز</placeName> له وحده بتقلص
-ظل <placeName change="#d2e120" xml:id="placeName_20.d2e1495">الدولة العثمانية</placeName> عنه واعتراف الإنكليز وأحلافهم بالملك له عليه ظن أن الفرصة
+سعود الأمير حسين بن علي، ولما خلص أمر الحكم في <placeName change="#d2e120 #d11e276" xml:id="placeName_19.d2e1490" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> له وحده بتقلص
+ظل <placeName change="#d2e120 #d11e276" xml:id="placeName_20.d2e1495" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> عنه واعتراف الإنكليز وأحلافهم بالملك له عليه ظن أن الفرصة
 قد سمحت له ومكنته من الاستيلاء على نجد وجعلها تابعة لملكه الوهمي، فما زال
 يكيد ويدس الدسائس لآل سعود حتى آل تحرشه بهم وإلحاده في الحرم إلى زحف
-السلطان عبد العزيز آل سعود على <placeName change="#d2e120" xml:id="placeName_21.d2e1505">الحجاز</placeName> وإنقاذه من هذا الطاغوت الذي لقب
+السلطان عبد العزيز آل سعود على <placeName change="#d2e120 #d11e276" xml:id="placeName_21.d2e1505" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وإنقاذه من هذا الطاغوت الذي لقب
 نفسه بالمنقذ ومن أولاده المفسدين.
 كان هذا الزحف مغريًا لدعاة الملك حسين في مصر بتجديد الطعن في الوهابية
 ومنبهًا لأذهان الناس، ومرغبًا لها في البحث عنهم، ومعرفة كنه حالهم وحال
@@ -622,13 +622,13 @@
 الحق بالتوحيد الخالص وترك البدع والخرافات والتقاليد الوراثية الباطلة قد صار
 الآن أقوى مما كان في عهد النهضة الأولى للوهابية.
 على أنه لا يزال للوهابية خصوم من أهل البدع والخرافات، ومن المنهمكين
-في المعاصي والشهوات في مدن <placeName change="#d2e120" xml:id="placeName_22.d2e1550">الحجاز</placeName>، لأن حكومتهم منعت النوعين كليهما.
+في المعاصي والشهوات في مدن <placeName change="#d2e120 #d11e276" xml:id="placeName_22.d2e1550" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، لأن حكومتهم منعت النوعين كليهما.
 ولم يكن لهؤلاء حجج فيما مضى إلا الافتراء عليهم، وكان كثير من الناس
 يصدقونهم فيهم لأنهم لم يعرفوا حقيقة حالهم، لأنهم يعيشون بمعزل، وقل أن يسافر
-أحد إلى بلادهم، أما وقد أصبحوا في <placeName change="#d2e120" xml:id="placeName_23.d2e1560">الحجاز</placeName> فسيراهم الألوف من جميع الشعوب
+أحد إلى بلادهم، أما وقد أصبحوا في <placeName change="#d2e120 #d11e276" xml:id="placeName_23.d2e1560" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> فسيراهم الألوف من جميع الشعوب
 الإسلامية في كل عام، ويستغنون عن التعريف بهم، وعن الشهادة لهم.
-وقد رأيت أن أطبع طائفة من مقالات (الوهابيون و<placeName change="#d2e120" xml:id="placeName_24.d2e1567">الحجاز</placeName>) في رسالة
-مستقلة لأنها تعد فصلاً من فصول هذا الانقلاب التاريخي في <placeName change="#d2e120" xml:id="placeName_25.d2e1573">الحجاز</placeName> بل في الإسلام
+وقد رأيت أن أطبع طائفة من مقالات (الوهابيون و<placeName change="#d2e120 #d11e276" xml:id="placeName_24.d2e1567" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>) في رسالة
+مستقلة لأنها تعد فصلاً من فصول هذا الانقلاب التاريخي في <placeName change="#d2e120 #d11e276" xml:id="placeName_25.d2e1573" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بل في الإسلام
 ليطلع عليها بعض من لم يقرأها في الأهرام ولا في المنار، ففعلت وعلى الله
 توكلت، {وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ إِنَّ اللَّهَ بَالِغُ أَمْرِهِ قَدْ جَعَلَ اللَّهُ لِكُلِّ شَيْءٍ
 قَدْراً} (الطلاق: 3) .
@@ -755,7 +755,7 @@
 بسم الله الرحمن الرحيم
 فصل
 في شروط عمر بن الخطاب رضي الله عنه التي شرطها على أهل الذمة لمَّا
-قدم <placeName change="#d2e120" xml:id="placeName_26.d2e1839">الشام</placeName> وشارطهم بمحضر من المهاجرين والأنصار، وعليها العمل عند أئمة
+قدم <placeName change="#d2e120 #d11e276" xml:id="placeName_26.d2e1839" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وشارطهم بمحضر من المهاجرين والأنصار، وعليها العمل عند أئمة
 المسلمين لقوله - صلى الله عليه وسلم - (عليكم بسنتي وسنة الخلفاء الراشدين من
 بعدي، تمسكوا بها وعضوا عليها بالنواجذ، وإياكم ومحدثات الأمور فإن كل محدثة
 بدعة وكل بدعة ضلالة) وقوله صلى الله عليه وسلم (اقتدوا باللذين من بعدي أبي
@@ -763,7 +763,7 @@
 الذين لا يجتمعون على ضلالة على ما نقلوه وفهموه، من كتاب الله وسنة رسوله،
 وهذه الشروط مروية من وجوه مختصرة ومبسوطة.
 منها ما رواه سفيان الثوري عن مسروق بن عبد الرحمن بن عتبة قال: كتب
-عمر حين صالح نصارى <placeName change="#d2e120" xml:id="placeName_27.d2e1859">الشام</placeName> كتابًا وشرط عليهم فيه أن لا يحدثوا في مدنهم ولا ما
+عمر حين صالح نصارى <placeName change="#d2e120 #d11e276" xml:id="placeName_27.d2e1859" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> كتابًا وشرط عليهم فيه أن لا يحدثوا في مدنهم ولا ما
 حولها ديرًا ولا صومعة ولا كنيسة ولا قلاية لراهب، ولا يجددوا ما خرب، ولا
 يمنعوا كنائسهم أن ينزلها أحد من المسلمين ثلاث ليال يطعموهم، ولا يؤوا جاسوسًا
 ولا يكتموا غش المسلمين ولا يعلموا أولادهم القرآن ولا يظهروا شركًا ولا يمنعوا
@@ -804,7 +804,7 @@
 وجددها هارون الرشيد وجعفر المتوكل وغيرهما وأمروا بهدم الكنائس التي ينبغي
 هدمها كالكنائس التي بالديار المصرية كلها ففي وجوب هدمها قولان ولا نزاع في
 جواز هدم ما كان بأرض العنوة إذا فتحت ولو أقرت بأيديهم لكونهم أهل الوطن كما
-أقرهم المسلمون على كنائس ب<placeName change="#d2e120" xml:id="placeName_28.d2e1951">الشام</placeName> ومصر ثم ظهرت شعائر المسلمين فيما بعد في
+أقرهم المسلمون على كنائس ب<placeName change="#d2e120 #d11e276" xml:id="placeName_28.d2e1951" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ومصر ثم ظهرت شعائر المسلمين فيما بعد في
 تلك البقعة بحيث بنيت فيها المساجد فلا يجتمع شعائر الكفر مع شعائر الإسلام
 كما قال النبي صلى الله عليه وسلم (لا يجتمع قبلتان بأرض) ولهذا شرط عليهم
 عمر والمسلمون أن لا يظهروا شعائر دينهم.
@@ -1321,7 +1321,7 @@
 يوم الخميس أول ذي القعدة الحرام سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1344" change="#d3e146 #d2e120" xml:id="date_6.d2e3044">1344</date>هـ
 13 مايو سنة <date calendar="#cal_gregorian" when="1926" change="#d3e146 #d2e120" xml:id="date_7.d2e3050">1926</date>م
 اجتمع المؤتمر الإسلامي العام للخلافة بمصر في دار المعاهد الدينية التابعة
-للجامع الأزهر الشريف في الحلمية بمدينة <placeName change="#d2e120" xml:id="placeName_29.d2e3057">القاهرة</placeName>، الساعة الحادية عشرة صباحًا
+للجامع الأزهر الشريف في الحلمية بمدينة <placeName change="#d2e120 #d11e276" xml:id="placeName_29.d2e3057" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، الساعة الحادية عشرة صباحًا
 يوم الخميس أول ذي القعدة الحرام سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1344" change="#d3e146 #d2e120" xml:id="date_8.d2e3062">1344</date>هـ (13 مايو سنة <date calendar="#cal_gregorian" when="1926" change="#d3e146 #d2e120" xml:id="date_9.d2e3066">1926</date>م)
 برياسة حضرة صاحب الفضيلة الأستاذ الأكبر، الشيخ محمد أبي الفضل شيخ
 الجامع الأزهر الشريف ورئيس المؤتمر، وحضور حضرات أصحاب الفضيلة
@@ -1343,10 +1343,10 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_132.d2e3108"/> من مصر.
 الشيخ محمد فراج المنياوي السكرتير الخاص لشيخ الجامع الأزهر ورئيس
 مجلسه الأعلى) من مصر
-السيد الإدريسي السنوسي أمير برقة و<placeName change="#d2e120" xml:id="placeName_30.d2e3116">طرابلس</placeName> من <placeName change="#d2e120" xml:id="placeName_31.d2e3120">طرابلس الغرب</placeName>.
-أحمد شتيوي السويحلي بك حاكم مصراطة سابقًا من <placeName change="#d2e120" xml:id="placeName_32.d2e3125">طرابلس الغرب</placeName>.
-التهامي قليصة بك رئيس مالية مصراطة سابقًا من <placeName change="#d2e120" xml:id="placeName_33.d2e3130">طرابلس الغرب</placeName>.
-الشيخ عمر الميساوي مفتي الخمس سابقاً من <placeName change="#d2e120" xml:id="placeName_34.d2e3136">طرابلس الغرب</placeName>.
+السيد الإدريسي السنوسي أمير برقة و<placeName change="#d2e120 #d11e276" xml:id="placeName_30.d2e3116" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> من <placeName change="#d2e120 #d11e276" xml:id="placeName_31.d2e3120" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName>.
+أحمد شتيوي السويحلي بك حاكم مصراطة سابقًا من <placeName change="#d2e120 #d11e276" xml:id="placeName_32.d2e3125" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName>.
+التهامي قليصة بك رئيس مالية مصراطة سابقًا من <placeName change="#d2e120 #d11e276" xml:id="placeName_33.d2e3130" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName>.
+الشيخ عمر الميساوي مفتي الخمس سابقاً من <placeName change="#d2e120 #d11e276" xml:id="placeName_34.d2e3136" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName>.
 محمد الصالحي التونسي العضو في مجلس الأمة الكبير في تونس.
 السيد محمد الصديق من أكابر العلماء والأشراف من مراكش.
 أحمد بهار الدين أفندي مندوب جمعية الخلافة بجنوب إفريقيا.
@@ -1355,19 +1355,19 @@
 الدكتور الحاج عبد الكريم أمر الله مندوب جزر الهند الشرقية.
 السيد حسن العطاس مندوب سلطنة جوهور.
 عناية الله خان المشرقي رئيس دار العلوم بالهند.
-السيد الميرغني الإدريسي من أمراء تهامة <placeName change="#d2e120" xml:id="placeName_35.d2e3158">اليمن</placeName>.
-الشيخ عبد الرحمن بن علي من قضاة <placeName change="#d2e120" xml:id="placeName_36.d2e3164">اليمن</placeName> سابقاً وأعيانها.
-الشريف يحيى عدنان باشا من أكابر أشراف <placeName change="#d2e120" xml:id="placeName_37.d2e3169">الحجاز</placeName>.
+السيد الميرغني الإدريسي من أمراء تهامة <placeName change="#d2e120 #d11e276" xml:id="placeName_35.d2e3158" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>.
+الشيخ عبد الرحمن بن علي من قضاة <placeName change="#d2e120 #d11e276" xml:id="placeName_36.d2e3164" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> سابقاً وأعيانها.
+الشريف يحيى عدنان باشا من أكابر أشراف <placeName change="#d2e120 #d11e276" xml:id="placeName_37.d2e3169" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>.
 الشيخ خليل الخالدي رئيس محكمة الاستئناف الشرعية من فلسطين.
 أسعد الشقيري مجلس التدقيقات الشرعية بالآستانة سابقًا.
 إسماعيل الخطيب المحامي الشرعي بفلسطين.
 عارف باشا الدجاني من كبار أعيان فلسطين.
 الشيخ حسن أبو السعود من فضلاء فلسطين.
-محمد مراد أفندي مفتي <placeName change="#d2e120" xml:id="placeName_38.d2e3185">حيفا</placeName> من فلسطين.
+محمد مراد أفندي مفتي <placeName change="#d2e120 #d11e276" xml:id="placeName_38.d2e3185" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> من فلسطين.
 جمال الحسيني بك سكرتير اللجنة التنفيذية للمؤتمر السادس الفلسطيني.
 الشيخ عيسى منون مندوب المجلس الإسلامي الأعلى بفلسطين.
-عطا الله الخطيب أفندي مدير أوقاف <placeName change="#d2e120" xml:id="placeName_39.d2e3195">بغداد</placeName> من <placeName change="#d2e120" xml:id="placeName_40.d2e3198">العراق</placeName>.
-الأستاذ عبد العزيز الثعالبي أفندي الأستاذ في كلية آل البيت ب<placeName change="#d2e120" xml:id="placeName_41.d2e3203">بغداد</placeName>.
+عطا الله الخطيب أفندي مدير أوقاف <placeName change="#d2e120 #d11e276" xml:id="placeName_39.d2e3195" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> من <placeName change="#d2e120 #d11e276" xml:id="placeName_40.d2e3198" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>.
+الأستاذ عبد العزيز الثعالبي أفندي الأستاذ في كلية آل البيت ب<placeName change="#d2e120 #d11e276" xml:id="placeName_41.d2e3203" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>.
 يعقوب شنكوفيتش أفندي المفتى الأكبر لجمهورية بولونيا من أعضاء المؤتمر
 بأوربا.
 وتولى أعمال السكرتارية محمد قدري أفندي نائب السكرتير العام، حضرة
@@ -1482,7 +1482,7 @@
 الشريف يحيى عدنان باشا من الحجاز
 الشيخ عبد الرحمن بن علي من اليمن
 الشيخ الميرغني الإدريسي من تهامة
-الشيخ عمر الميساوي من <placeName change="#d2e120" xml:id="placeName_42.d2e3456">طرابلس</placeName> الغرب
+الشيخ عمر الميساوي من <placeName change="#d2e120 #d11e276" xml:id="placeName_42.d2e3456" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الغرب
 ثم أعلن حضرة صاحب الفضيلة الأستاذ الأكبر الرئيس انتهاء الجلسة؛ إذ كانت
 الساعة الواحدة بعد الظهر على أن يجتمع المؤتمر الساعة الرابعة بعد ظهر يوم
 السبت المقبل 3 ذي القعدة الحرام سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1344" change="#d3e146 #d2e120" xml:id="date_10.d2e3465">1344</date>هـ (15 مايو سنة <date calendar="#cal_gregorian" when="1926" change="#d3e146 #d2e120" xml:id="date_11.d2e3468">1926</date>م) .
@@ -1518,7 +1518,7 @@
 ولم يحصل من حضرات الأعضاء اعتراض على صيغته فاعتبر موافقاً عليه
 ثم تليت برقية من أحد أعضاء لجنة الخلافة بجنوب أفريقيا فيها رجاء النجاح
 للمؤتمر. ثم حصلت مناقشة حول تلاوة برقية وردت من مكتب الاستعلامات
-السوري فيها إنكار لتصرف الفرنسيين في <placeName change="#d2e120" xml:id="placeName_43.d2e3554">دمشق</placeName>، اشترك فيها حضرات أصحاب
+السوري فيها إنكار لتصرف الفرنسيين في <placeName change="#d2e120 #d11e276" xml:id="placeName_43.d2e3554" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، اشترك فيها حضرات أصحاب
 الفضيلة والسيادة والعزة الأساتذة: جمال الدين الحسيني، والشيخ حسين والي،
 والشيخ محمد فراج المنياوي، والشيخ أسعد الشقيري، والشيخ محمد الصالحي
 التونسي، ومحمد مراد أفندي، والسيد محمد الببلاوي، وحسن أبو السعود أفندي،
@@ -1688,8 +1688,8 @@
 (اجتمع المؤتمر في الساعة الخامسة برئاسة الأستاذ الأكبر شيخ الجامع
 الأزهر ورئيس المؤتمر وحضور من حضروا الجلسة الثانية، وزاد عليهم الشيخ
 محمد بخيت مفتي الديار المصرية سابقًا وأحمد تيمور باشا عضو مجلس الشيوخ
-ووحيد الأيوبي بك من الأعيان والشيخ محمد حبيب العبيدي مفتي <placeName change="#d2e120" xml:id="placeName_44.d2e3951">الموصل</placeName> والشيخ
-عبد الله سراج قاضي قضاة <placeName change="#d2e120" xml:id="placeName_45.d2e3956">الحجاز</placeName> سابقًا) .
+ووحيد الأيوبي بك من الأعيان والشيخ محمد حبيب العبيدي مفتي <placeName change="#d2e120 #d11e276" xml:id="placeName_44.d2e3951" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> والشيخ
+عبد الله سراج قاضي قضاة <placeName change="#d2e120 #d11e276" xml:id="placeName_45.d2e3956" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> سابقًا) .
 ولم يحضر حضرة السيد الميرغني الإدريسي لعذر.
 وتولى أعمال السكرتارية من كانوا في الجلسة الثانية.
 وأعلن حضرة صاحب الفضيلة الأستاذ الأكبر الرئيس افتتاح الجلسة، ثم أذن
@@ -1761,7 +1761,7 @@
 في تشكيل اللجان أن تمثل جميع الشعوب ورأى في اجتماعه من أول الأمر أن
 تؤخذ الأصوات باعتبار عدد الحاضرين.
 وقال حضرة صاحب الفضيلة الأستاذ الشيخ محمد مصطفى المراغي: الأمر
-واضح فإذا قلنا: إننا نريد أن نعين خليفة من فلسطين أو <placeName change="#d2e120" xml:id="placeName_46.d2e4120">العراق</placeName> فليكن بعدد أصوات
+واضح فإذا قلنا: إننا نريد أن نعين خليفة من فلسطين أو <placeName change="#d2e120 #d11e276" xml:id="placeName_46.d2e4120" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> فليكن بعدد أصوات
 الأمم، وإذا قلنا: إنه يشترط في الخليفة أن يكون عادلاً حرًّا إلى آخر شرائطه فلم أر
 معنى لأخذ الأصوات بحسب الأمم.
 فقال حضرة صاحب العزة جمال الحسيني بك: الكلام الآن يشعر بأن النظام
@@ -1948,7 +1948,7 @@
 ونحن نسلم لكم ولكن لا يمكن أن نحكم على جميع طبقات المسلمين أنهم يعلمونه كما
 تعلمونه، فيجب أن نكتب هذه المواد مادة مادة بشكل خاص فربما عرض على
 ملوك المسلمين وأمرائهم وأهل الحل والعقد وربما باحثكم فيه علماء تونس أو علماء
-سوريا أو علماء <placeName change="#d2e120" xml:id="placeName_47.d2e4545">العراق</placeName> أو علماء فارس. فنحن لا نطالبكم بإحداث شرائط جديدة،
+سوريا أو علماء <placeName change="#d2e120 #d11e276" xml:id="placeName_47.d2e4545" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> أو علماء فارس. فنحن لا نطالبكم بإحداث شرائط جديدة،
 وإنما نطالبكم ببيان هذه المسائل التي اجتهدت فيها الطبقات القديمة قبلكم، فهل هي
 مسائل عقائد أو هي مسائل ظنية استنبطها من كانوا قبلكم وجعلوها شروطًا؟ وهل
 إذا أنكر الشروط أو بعضها رجل يخرج بذلك عن الدين؟ نريد منكم خبراء مقتدرين
@@ -2120,7 +2120,7 @@
                
 
                
-كتب إليّ بعض علماء <placeName change="#d2e120" xml:id="placeName_48.d2e4909">الشام</placeName> [1] جوابًا عن كتاب هنأه فيه بمنصب الإفتاء، وهو
+كتب إليّ بعض علماء <placeName change="#d2e120 #d11e276" xml:id="placeName_48.d2e4909" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> [1] جوابًا عن كتاب هنأه فيه بمنصب الإفتاء، وهو
 ألطف كتبه وفيه من الشكوى من سوء حال قومه ولا سيما الجامدين الرسميين
 ومن التحدث بالنعمة ما ليس في غيره.
 أنصفني قومك إذ سروا بتناولي منصب الإفتاء، ولعل ذلك لشعورهم بأنني
@@ -2196,7 +2196,7 @@
                
 بسم الله الرحمن الرحيم
 سيدي المدير لمجلة المنار، سلمه الله الغفار، السلام عليكم، رأيت العدد
-الأول من المجلد السابع والعشرين من <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e5066">المنار</title></bibl>، وأنا ب<placeName change="#d2e120" xml:id="placeName_49.d2e5070">مكة المكرمة</placeName> في شهر ذي
+الأول من المجلد السابع والعشرين من <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e5066">المنار</title></bibl>، وأنا ب<placeName change="#d2e120 #d11e276" xml:id="placeName_49.d2e5070" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> في شهر ذي
 القعدة، فنظرت فيها تحت عنوان: الجامعة القاديانية. ما ذكر غلام أحمد القادياني
 المدعي للمسيحية الموعودة، والمهدوية المعهودة، نشأ في البنجاب قريبًا من وطني
 أمرتسر فأنا جاره (وصاحب البيت أدرى بما فيه) صرفت حصة من عمري في
@@ -2213,7 +2213,7 @@
 وأنتم تصدون الناس عني فأنا أدعو الله قائل: يا مالكي البصير القدير العليم الخبير تعلم، ما في نفسي إن كان دعواي للمسيحية الموعودة افتراء مني وأنا في نظرك
 مفسد كذّاب، والافتراء في الليل والنهار شغلي فيا مالكي أنا أدعوك بالتضرع والإلحاح
 أن تميتني قبل المولوي ثناء الله، واجعله وجماعته مسرورين بموتي،
-يا مرسلي أنا أدعوك آخذًا بحظيرة <placeName change="#d2e120" xml:id="placeName_50.d2e5110">القدس</placeName> لك أن تفصل بيني وبين المولوي ثناء
+يا مرسلي أنا أدعوك آخذًا بحظيرة <placeName change="#d2e120 #d11e276" xml:id="placeName_50.d2e5110" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> لك أن تفصل بيني وبين المولوي ثناء
 الله، أنه من كان مفسدًا في نظرك كاذبًا عندك فتوفّه قبل الصادق منا {رَبَّنَا افْتَحْ
 بَيْنَنَا وَبَيْنَ قَوْمِنَا بِالْحَقِّ وَأَنْتَ خَيْرُ الفَاتِحِينَ} (الأعراف: 89) الراقم عبد الله
 الصمد مرزا غلام أحمد المسيح الموعود، عافاه الله وأيد عزه، ربيع الأول سنة
@@ -2248,7 +2248,7 @@
 الأزهر من التقلب والخلاف بين الحكومة ومشيخته، وما طرأ في العالم الإسلامي
 من الأطوار العامة من نبذ الحكومة التركية للشرع الإسلامي وتأثيره في قوة سير
 الإلحاد واللادينية في مصر من جهة، ومن الرجاء في قوة الدين من جهة أخرى
-بانتصار النجديين في <placeName change="#d2e120" xml:id="placeName_51.d2e5186">الحجاز</placeName> على حكومته السابقة الجائرة المفسدة، ونعود الآن إلى
+بانتصار النجديين في <placeName change="#d2e120 #d11e276" xml:id="placeName_51.d2e5186" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> على حكومته السابقة الجائرة المفسدة، ونعود الآن إلى
 إتمام البحث في حال الأزهر وحاضره، ثم نبني عليه في مجلد المنار السابع
 والعشرين الكلام في مستقبله إن شاء الله تعالى فنقول:
 إن جُل مطالب الأزهريين من الحكومة منافع ماديَّة وإدارية يتوقف عليها جعل

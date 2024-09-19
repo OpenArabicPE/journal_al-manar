@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_34-i_10.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_34-i_10.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e276">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_34-i_10.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_34-i_10.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1354">1354</date><date calendar="#cal_gregorian" when="1935" xml:lang="ar">مايو - 1935م</date></imprint>
                   <biblScope unit="volume" from="34" to="34" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">34</biblScope>
                   <biblScope unit="issue" from="10" to="10" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">10</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e276" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -490,7 +490,7 @@
 منهم، فالشيخ الظواهري نفسه قد هنأ المراغي أيضًا، ولكننا رأينا جميع طبقات
 الشعب من الأمراء والوزراء والوجهاء والأدباء وغيرهم مجمعين على هذا، وإنا
 لنرى الوفود تغدو وتروح إلى داره في حلوان وإلى إدارة الأزهر والمعاهد الدينية
-في <placeName change="#d2e120" xml:id="placeName_4.d2e1157">القاهرة</placeName> مثنى وثلاث ورباع وجماعات في كل يوم ولا ندري متى ينتهي هذا
+في <placeName change="#d2e120 #d11e276" xml:id="placeName_4.d2e1157" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> مثنى وثلاث ورباع وجماعات في كل يوم ولا ندري متى ينتهي هذا
 الزحام، وإنني أنقل عن الجرائد اليومية خبر وفود علماء المعاهد وكلمة الأستاذ
 الأكبر لهم على سبيل النموذج، وهو ما نشر الأهرام في سياق التهاني والمقابلات
 التي تحت عنوان (وفود العلماء) في 3 مايو سنة 1935.
@@ -572,7 +572,7 @@
 رسول الله صلى الله عليه وسلم وخلفاؤه، وأوصاهم في مرض موته بأن لا يبقى
 فيها دينان، ومهد السبيل لفتح سياجها الشمالي بإسرائه إلى المسجد الأقصى وغزوته
 لتبوك، وأتم عمله خليفتاه أبو بكر، وعمر رضي الله عنهما بفتح بيت المقدس،
-و<placeName change="#d2e120" xml:id="placeName_5.d2e1325">الشام</placeName>، فهذا الثغر الحجازي هو الحَلْْْق الذي يدخل منه إلى جوف هذه الدار، والخط
+و<placeName change="#d2e120 #d11e276" xml:id="placeName_5.d2e1325" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، فهذا الثغر الحجازي هو الحَلْْْق الذي يدخل منه إلى جوف هذه الدار، والخط
 الممتد منه إلى معان، وتبوك فالشام، فالعراق هو حبل الوريد لحياة هذه الدار،
 ولم يكتف الإنكليز بالسيطرة على فلسطين وشرقي الأردن باسم الانتداب حتى أرادوا
 التوسل بذلك إلى السيطرة الحربية والتجارية على هذا الثغر وهذا الخط؛ لتكون حياة
@@ -584,7 +584,7 @@
 أركان الحرب العامة للعقبة وحدود شرق الأردن أوجب على الجرائد تجديد البحث،
 فنشر المقطم في 28 مارس سنة 1935 برقية في الموضوع علق عليها محرر
 المباحث العربية فيه المقال الآتي في اليوم التالي:
-العقبة بين مصر و<placeName change="#d2e120" xml:id="placeName_6.d2e1354">الحجاز</placeName> وإنكلترا
+العقبة بين مصر و<placeName change="#d2e120 #d11e276" xml:id="placeName_6.d2e1354" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وإنكلترا
 لخَّص مُكَاتِب المقطم اللندني في برقياته أمس رسالة <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e1359">المورننج</title></bibl> بوست
 لمكاتبها من عَمَّان جاء فيها (أن منطقة العقبة وقد كانت تابعة لمصر من مدة طويلة
 ستكون موضوعًا لمباحثات دولية، وأن السر أرشيلد منتغمري مسنبرد رئيس هيئة
@@ -629,18 +629,18 @@
 جزءًا من أجزاء مصر حتى عهد الخديو إسماعيل فتنازل عنها لتركيا، ولما حددت
 الحدود نهائيًّا بين مصر وتركيا في سنة 1906 أدخلت نهائيًّا ضمن الحدود
 العثمانية، وألحقت بلواء الكرك (شرق الأردن اليوم) وصارت جزءًا من أجزائه.
-(<placeName change="#d2e120" xml:id="placeName_7.d2e1458">الحجاز</placeName> والعقبة)
+(<placeName change="#d2e120 #d11e276" xml:id="placeName_7.d2e1458" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> والعقبة)
 ولما نشبت الثورة العربية في أثناء الحرب العظمى احتل العرب هذا الثغر في
 سنة 1917، واتخذوه قاعدة لأعمالهم العسكرية في جنوب سورية، فأُلحق من ذلك
-العهد بحكومة <placeName change="#d2e120" xml:id="placeName_8.d2e1467">مكة</placeName>، وظل جزءًا من أجزائها حتى يوم 18 مارس سنة 1924،
+العهد بحكومة <placeName change="#d2e120 #d11e276" xml:id="placeName_8.d2e1467" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وظل جزءًا من أجزائها حتى يوم 18 مارس سنة 1924،
 فأعلن الملك حسين تنازله مؤقتًا عن إدارة معان والعقبة لإمارة شرق الأردن، وفي
 يوم 18 يوليو سنة 1925 أعلن الأمير عبد الله ضم معان والعقبة نهائيًّا إلى إمارته،
 وذلك بناء على اتفاق عقده مع أخيه الملك علي، وذلك في الوقت الذين كان فيه
-ابن سعود يهاجم <placeName change="#d2e120" xml:id="placeName_9.d2e1479">الحجاز</placeName> ويحاصر جدة.
+ابن سعود يهاجم <placeName change="#d2e120 #d11e276" xml:id="placeName_9.d2e1479" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ويحاصر جدة.
 (ابن سعود والعقبة)
 وأبى ابن سعود أن يعترف بما تم بين الملك علي والأمير عبد الله بعد استيلائه
-على <placeName change="#d2e120" xml:id="placeName_10.d2e1489">الحجاز</placeName>، وأعلن أنه لا يقر ما وقع، بل يعده من قبيل التواطؤ، وأنه لا يزال
-يعتبر معان والعقبة من أقطار <placeName change="#d2e120" xml:id="placeName_11.d2e1494">الحجاز</placeName>، وأن ما جرى بين الأخوين لا يقيده ولا
+على <placeName change="#d2e120 #d11e276" xml:id="placeName_10.d2e1489" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وأعلن أنه لا يقر ما وقع، بل يعده من قبيل التواطؤ، وأنه لا يزال
+يعتبر معان والعقبة من أقطار <placeName change="#d2e120 #d11e276" xml:id="placeName_11.d2e1494" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وأن ما جرى بين الأخوين لا يقيده ولا
 يسري عليه.
 وأثيرت هذه المسألة في المفاوضات التي دارت في جدة بين الحكومة
 السعودية والحكومة البريطانية، فتقرر الاحتفاظ بالحالة الراهنة فيها إلى أن تحين
@@ -669,20 +669,20 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_43.d2e1552"/> أمين سعيد
 (<title change="#d2e120" xml:id="title_8.d2e1556">المنار</title>)
 الحق أن ثغر العقبة ثغر عربي حجازي في موقعه الجغرافي، فسكان ضفتيه
-ما زالوا من صميم عرب <placeName change="#d2e120" xml:id="placeName_12.d2e1563">الحجاز</placeName>، وتصرف <placeName change="#d2e120" xml:id="placeName_13.d2e1567">الدولة العثمانية</placeName> في إدارة هذه البلاد
-كان من حقوق سيادتها على <placeName change="#d2e120" xml:id="placeName_14.d2e1572">الحجاز</placeName> وسورية الجنوبية (فلسطين) والشمالية ومصر،
-ولما شعرت بطمع إنكلترة فيه ألحقته ب<placeName change="#d2e120" xml:id="placeName_15.d2e1577">الحجاز</placeName> نهائيًّا، كما بينت ذلك في الجزء الثاني
+ما زالوا من صميم عرب <placeName change="#d2e120 #d11e276" xml:id="placeName_12.d2e1563" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وتصرف <placeName change="#d2e120 #d11e276" xml:id="placeName_13.d2e1567" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> في إدارة هذه البلاد
+كان من حقوق سيادتها على <placeName change="#d2e120 #d11e276" xml:id="placeName_14.d2e1572" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وسورية الجنوبية (فلسطين) والشمالية ومصر،
+ولما شعرت بطمع إنكلترة فيه ألحقته ب<placeName change="#d2e120 #d11e276" xml:id="placeName_15.d2e1577" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> نهائيًّا، كما بينت ذلك في الجزء الثاني
 والثالث من مجلد المنار التاسع سنة 1325 وهو:
 مسألة العقبة
 (منقولة من ص 157 ج 2 م 9 منار الذي صدر في صفر سنة 1325)
 كان أهل الرأي في الدولة وأصحاب النفوذ في المابين يرون منذ شرع في
-سكة <placeName change="#d2e120" xml:id="placeName_16.d2e1591">الحجاز</placeName> الحديدية أن من الضروري إحداث ناشط لها ينتهي بفرضة العقبة في
+سكة <placeName change="#d2e120 #d11e276" xml:id="placeName_16.d2e1591" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> الحديدية أن من الضروري إحداث ناشط لها ينتهي بفرضة العقبة في
 البحر الأحمر، وقال بعضهم: إذا عجزنا عن إيصال السكة إلى الحرمين، فإن ربحنا
 من السكة لا يكون قليلاً إذا استعضنا عن ذلك بإيصالها إلى العقبة، وقد اجتهد
 الصدر الأعظم ومختار باشا الغازي، وعزت باشا العابد، وصادق باشا العظم
 اجتهادًا عظيمًا في إقناع السلطان بوجوب إنشاء هذا الناشط منذ سنين، فكان يأبى
 ذلك ويحتج بأن هذا يكون وسيلة لتداخل الإنكليز في بلاد العرب، فلما أعياه أمر
-ثورة <placeName change="#d2e120" xml:id="placeName_17.d2e1607">اليمن</placeName> اقتنع بأن إخضاع تلك الولاية وتمكين السلطة فيها من بعض فوائد ناشد
+ثورة <placeName change="#d2e120 #d11e276" xml:id="placeName_17.d2e1607" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> اقتنع بأن إخضاع تلك الولاية وتمكين السلطة فيها من بعض فوائد ناشد
 العقبة من سكة الحديد فأمر به وأرسلت الجنود العثمانية إلى العقبة لتمهيد العمل،
 فلما رأت إنكلترة ذلك خافت من الدولة على مصر أضعاف ما كان يخاف منها
 السلطان على بلاد العرب، واعتقدت أنه ما دفع السلطان على هذا العمل إلا ألمانيا
@@ -696,17 +696,17 @@
 مسألة العقبة
 منقولة من ص 231 ج 3 م 9 منار الذي صدر في ربيع الأول سنة1325
 بيَّنا في الجزء الماضي أن حقيقة المسألة عسكرية لا إدارية تتعلق بالحدود،
-فهي أول وليد ولدته لنا سكة حديد <placeName change="#d2e120" xml:id="placeName_18.d2e1641">الحجاز</placeName>، فالدول العلية ترى أن إنكلترا تخاف
+فهي أول وليد ولدته لنا سكة حديد <placeName change="#d2e120 #d11e276" xml:id="placeName_18.d2e1641" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، فالدول العلية ترى أن إنكلترا تخاف
 عاقبة هذه السكة على مصر، فهي تريد اتقاء الخطر بإقامة المعاقل الحربية في شبه
 جزيرة سيناء؛ لأن محاربتها في مصر إذا دخلت فيها غير معقول وهي تخاف من
-إنكلترة على سورية و<placeName change="#d2e120" xml:id="placeName_19.d2e1651">الحجاز</placeName> إذا هي جعلتها بقعة عسكرية باسم مصر؛ ولذلك كان
+إنكلترة على سورية و<placeName change="#d2e120 #d11e276" xml:id="placeName_19.d2e1651" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إذا هي جعلتها بقعة عسكرية باسم مصر؛ ولذلك كان
 السلطان غير راضٍ بإنشاء ناشط من السكة إلى العقبة، ولما اضطر إلى ذلك
-باستفحال الثورة في <placeName change="#d2e120" xml:id="placeName_20.d2e1658">اليمن</placeName> رأى أن إنكلترة أنفذت الجنود المصرية إلى العقبة للبناء،
+باستفحال الثورة في <placeName change="#d2e120 #d11e276" xml:id="placeName_20.d2e1658" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> رأى أن إنكلترة أنفذت الجنود المصرية إلى العقبة للبناء،
 كما قيل، ورأت الجنود المصرية ومن يقودها من الإنكليز أن العساكر العثمانية
 بالمرصاد، فظهر الأمر وبدأ الخلاف بالشكل الذي عرفه الناس وهو أن الترك قد
 اعتدوا الحدود المصرية، ولعل الذي نبه الترك إلى أخذ الحذر من الإنكليز هو
 تعيين خمسة آلاف جنيه مصري في ميزانية مالية مصر باسم شبه جزيرة سيناء.
-فَهَمُّ الإنكليز من جعل العقبة تابعة لولاية <placeName change="#d2e120" xml:id="placeName_21.d2e1672">الحجاز</placeName> أن <placeName change="#d2e120" xml:id="placeName_22.d2e1675">الدولة العثمانية</placeName> تريد بذلك
+فَهَمُّ الإنكليز من جعل العقبة تابعة لولاية <placeName change="#d2e120 #d11e276" xml:id="placeName_21.d2e1672" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أن <placeName change="#d2e120 #d11e276" xml:id="placeName_22.d2e1675" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> تريد بذلك
 أن تمنعها منهم بسياج ديني، وهو إثارة سخط المسلمين في مستعمراتهم وغيرها
 عليهم إذا مدوا أيديهم إليها، وما كانت الدولة لتحسن استخدام هذه القوى المعنوية
 ولو كانت تريد ذلك لما حال دونه جعل العقبة تابعة لسورية؛ لأنها على كل حال
@@ -716,8 +716,8 @@
 بأن السلطان يريد تهييج التعصب الإسلامي على المدنية الأوربية، وربما وجدوا
 لإيهامهم شبهة في ثرثرة أحداث السياسة في مصر الذين جعلوا اسم الإسلام والخلافة
 ضيعة يستغلونها، وإن أضاعوا الإسلام الذي لا يعرفون منه إلا اسمه.
-لولا أن <placeName change="#d2e120" xml:id="placeName_23.d2e1700">الدولة العثمانية</placeName> حذرة من عمل عسكري في سيناء: باب سوريا
-و<placeName change="#d2e120" xml:id="placeName_24.d2e1705">الحجاز</placeName> لما بالت أن تزيد في مساحة ما سمحت به لمصر منها، ولولا أن إنكلترا
+لولا أن <placeName change="#d2e120 #d11e276" xml:id="placeName_23.d2e1700" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> حذرة من عمل عسكري في سيناء: باب سوريا
+و<placeName change="#d2e120 #d11e276" xml:id="placeName_24.d2e1705" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لما بالت أن تزيد في مساحة ما سمحت به لمصر منها، ولولا أن إنكلترا
 حذرة من تركيا على مصر لما عظمت من أمر الحدود المصرية ما عظمت، ولولا
 أنها تتوقع هيجان مسلمي مصر أو ثورتهم إذا استحكمت حلقات الخلاف بينها وبين
 تركيا لما أمرت بزيادة جيش الاحتلال، فإذا كان سبب النزاع هو ما يعبرون عنه
@@ -726,11 +726,11 @@
 الأعظم الملحق بفرمان عباس حلمي باشا الثاني، وتتعهد إنكلترا بأن لا تعمل في
 شبه جزيرة سيناء عملاً عسكريًّا، وقد أساءت الدولة المدخل فعسى أن تحسن
 المخرج.
-نحن نعتقد أن <placeName change="#d2e120" xml:id="placeName_25.d2e1728">الدولة العثمانية</placeName> لا يخطر لها على بال - وهي في هذه الحال -
+نحن نعتقد أن <placeName change="#d2e120 #d11e276" xml:id="placeName_25.d2e1728" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> لا يخطر لها على بال - وهي في هذه الحال -
 أن تزحف على مصر، أما إنكلترة فلا يبعد أن تقصد إقامة المعاقل الحربية في شبه
 جزيرة سيناء باسم مصر باعتبار مصر حكومة إسلامية لا تعد إقامتها على أبواب
 الحجاز أو أملاكها لجزء من الجزيرة مخالفة لوصية النبي صلى الله عليه وسلم،
-وقد كان يكون ذلك بكل هدوء وسلام لو لم تعارضه <placeName change="#d2e120" xml:id="placeName_26.d2e1740">الدولة العثمانية</placeName> وتقاومها فيه
+وقد كان يكون ذلك بكل هدوء وسلام لو لم تعارضه <placeName change="#d2e120 #d11e276" xml:id="placeName_26.d2e1740" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> وتقاومها فيه
 إنكلترا بعد عجز الحكومة المصرية - وإنما نعني بالهدوء والسلام هدوء نفوس
 المسلمين وسلامة قلوبهم، وأن تظفر إنكلترا بتركيا ظفرًا مبينًا، وتلزمها بالاعتراف
 بالحدود كما تريد، وتجعل بعدُ أرضَ سيناء معسكرًا ولو مصريًّا؛ فإن كل مسلم في
@@ -751,7 +751,7 @@
 الاعتقاد تشدق المغررين بالغوغاء، فالزبد يذهب جفاء وإنما الناس بالعقلاء
 والفضلاء اهـ.
 هذا ما كتبته منذ 29 سنة في تحذير الإنكليز من الاعتداء على خليج العقبة
-باسم مصر التي كانت مستقلة تحت سيادة <placeName change="#d2e120" xml:id="placeName_27.d2e1789">الدولة العثمانية</placeName>، وتذكيرهم بأن التدخل
+باسم مصر التي كانت مستقلة تحت سيادة <placeName change="#d2e120 #d11e276" xml:id="placeName_27.d2e1789" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>، وتذكيرهم بأن التدخل
 في أمرها يعده جميع المسلمين اعتداء على الدين الإسلامي نفسه، وأن الخوف على
 الحجاز الآن من جعل هذا الخليج تحت سيطرة الإنكليز أشد ما كان في عهد الدولة
 العثمانية من جوانب كثيرة، أهمها أنه يمكِّنهم من قتل الإسلام صبرًا في عقر داره،
@@ -761,14 +761,14 @@
 السعودية أن يحفظ حق الإسلام ووصية نبيه صلى الله عليه وسلم على هذه البلاد
 التي حرمها على غيرهم بوصيته في مرض موته، وما فعله علي بن الحسين وهو
 محصور في جدة من هبة العقبة ومعان لأخيه عبد الله لا قيمة له شرعًا ولا قانونًا
-في ذاته، كما قرره المؤتمر الإسلامي العام في <placeName change="#d2e120" xml:id="placeName_28.d2e1813">مكة المكرمة</placeName> سنة 1344، ولا في
+في ذاته، كما قرره المؤتمر الإسلامي العام في <placeName change="#d2e120 #d11e276" xml:id="placeName_28.d2e1813" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> سنة 1344، ولا في
 حيلة الانتداب كما ذكر محرر المقطم وغيره - والعالم الإسلامي كله يؤيد الملك عبد
-العزيز الفيصل في حفظ حق <placeName change="#d2e120" xml:id="placeName_29.d2e1821">الحجاز</placeName>، وعلماؤه وخطباؤه وكتاب صحفه مستعدون
+العزيز الفيصل في حفظ حق <placeName change="#d2e120 #d11e276" xml:id="placeName_29.d2e1821" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وعلماؤه وخطباؤه وكتاب صحفه مستعدون
 لتأييده بإقامة الثورة على هذه الدولة {يَا أَيُّهَا الَّذِينَ آمَنُوا إِن تَنصُرُوا اللَّهَ يَنصُرْكُمْ
 وَيُثَبِّتْ أَقْدَامَكُمْ} (محمد: 7) .
 كلنا نعلم أن الملك عبد العزيز ليس له من القوة الحربية ما يمكِّنه من إخراج
 الإنكليز من العقبة وما وراءها إذا أراد ذلك، وكلنا نعلم أيضًا أن الدولة الإنكليزية لا
-تزحف بجنودها غير المسلمين لقتاله على حدود <placeName change="#d2e120" xml:id="placeName_30.d2e1835">الحجاز</placeName> ونجد، وأن تجنيدها بعض
+تزحف بجنودها غير المسلمين لقتاله على حدود <placeName change="#d2e120 #d11e276" xml:id="placeName_30.d2e1835" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد، وأن تجنيدها بعض
 المرتزقة من فقراء المسلمين لقتاله باسم المحافظة على إمارة عبد الله بن الحسين
 البغيض لأهلها ولغيرهم لا يرجى لهم الظفر به، وإن هذا التهور إن تجرؤ عليه قد
 يفضي إلى انفجار بركان الحقد من المسلمين عليهم في كل مكان، وظهور ما ليس
@@ -815,12 +815,12 @@
 ومحمد عليهما الصلاة والسلام يكون فاصلاً بين الشطر الأفريقي والشطر الأسيوي
 من الأمة العربية قبل أن ينجح دعاة وحدتها العامة في سعيهم، فيحول دون اتحاد
 مصر أو اتصالها بفلسطين وما وراءها - إلى غير ذلك من المقاصد التي لا محل
-لشرحها وأهمها مسألة <placeName change="#d2e120" xml:id="placeName_31.d2e1925">الحجاز</placeName> وجزيرة العرب.
+لشرحها وأهمها مسألة <placeName change="#d2e120 #d11e276" xml:id="placeName_31.d2e1925" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وجزيرة العرب.
 الواجب على الشعوب العربية كلها تجاه هذا الخطر الذي يهددها في فلسطين
 أن تهب كلها لدرئه ودفعه، بل يجب على الشعوب الإسلامية غير العربية أن
 تساعدها على ذلك أيضًا لمكانة المسجد الأقصى الذي لُقب بحق (أولى القبلتين
 وثالث الحرمين) فيه، ولما في وجود دولة يهودية تكفلها الدولة البريطانية من
-الخطر على <placeName change="#d2e120" xml:id="placeName_32.d2e1939">الحجاز</placeName> ونجد أو وقوة المملكة العربية السعودية الحامية للحجاز، وحافظة
+الخطر على <placeName change="#d2e120 #d11e276" xml:id="placeName_32.d2e1939" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد أو وقوة المملكة العربية السعودية الحامية للحجاز، وحافظة
 الأمن فيه، وكان المعقول أن تسمع الدعوة إلى هذا من فلسطين.
 ونحمد الله أن وُجد في فلسطين عقل مفكر، ورأي مدبر سعى له سعيه، ولم
 يقدر عليه غيره، ألا وهو السيد محمد أمين الحسيني المفتي الأكبر للبلاد، ورئيس
@@ -837,7 +837,7 @@
 لخيبة مؤسسه والداعي إليه الزعيم الحسيني بإغراء بعض أعضائها بما ظهر أثره
 منذ الليلة الأولى لعقده، ثم في الجلسة التي اختاره فيه المؤتمر رئيسًا له، ثم في
 جلسات أخرى، ثم اختلافهم إلى زعيم الحزب الفلسطيني المناوئ لرئيسه السيد
-الحسيني، وهو راغب بك النشاشيبي الذي كان رئيس بلدية <placeName change="#d2e120" xml:id="placeName_33.d2e1979">القدس</placeName> للتشاور والسعي
+الحسيني، وهو راغب بك النشاشيبي الذي كان رئيس بلدية <placeName change="#d2e120 #d11e276" xml:id="placeName_33.d2e1979" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> للتشاور والسعي
 لتخذيله، ولقد كنت في مقدمة أنصاره لأجل المصلحة على أنه كان مقصر معي
 هنالك وأنا أستاذه.
 كان من أعضاء هذا المؤتمر، وكنت أشعر بالدسائس التي كانت تدبر للكيد
@@ -848,7 +848,7 @@
 أجد له مجالاً ولا منفذًا، وإن أكره شيء إليّ في العالم النفاق والشقاق للتنازع على
 الرياسة وحب الأهواء.
 آل أمر هذا التنازع بين النشاشبية والحسينية - وهو قديم - أن سقط راغب
-بك في انتخاب رياسة بلدية <placeName change="#d2e120" xml:id="placeName_34.d2e2006">القدس</placeName>، وفاز عليه الدكتور حسين بك الخالدي من
+بك في انتخاب رياسة بلدية <placeName change="#d2e120 #d11e276" xml:id="placeName_34.d2e2006" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>، وفاز عليه الدكتور حسين بك الخالدي من
 الأسرة الخالدية بمساعدة الحسينية، فاتفقت هاتان الأسرتان الشريفتان وكانتا
 متنازعتين، فسر محبو الاتفاق وجمع الكلمة، وانحصرت معارضة الإصلاح في
 أسرة النشاشيبي والمنكرين على السيد أمين الحسيني والمجلس الإسلامي الأعلى
@@ -867,7 +867,7 @@
 يعرفون إنشاءه وممن يعرفون مذهبه ومشربه السياسي في خدمة الأمة العربية،
 والملة الإسلامية من سن الصبا إلى سن الشيخوخة، أنه مزوَّر عليه، والظاهر أن
 المزورين له ظنوا أن القارئين له يصدقون فحواه المراد منه بشبهة ما كتبه الأمير
-من تنفيس السنيور موسوليني بسعيه عن مسلمي <placeName change="#d2e120" xml:id="placeName_35.d2e2054">طرابلس</placeName> وبرقة برد المبعدين
+من تنفيس السنيور موسوليني بسعيه عن مسلمي <placeName change="#d2e120 #d11e276" xml:id="placeName_35.d2e2054" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> وبرقة برد المبعدين
 منهم عن دورهم إليها، وفتح أبواب الرزق لهم بعد أن دب الفناء إليهم، ومن منع
 دعاة الكنيسة من الطعن في دينهم ومحاولة تنصيرهم، وغير ذلك مما قد اشتهر ولم
 يقدر على تكذيبه أحد، إلا أن بعض الناس كرهوا هذا التصريح من الأمير المجاهد
@@ -1222,7 +1222,7 @@
 مشير قدوائي من كبراء مسلمي الهند، وقد سأله أن يروي عنه لمسلمي الهند كلمة
 فيما يجب عليهم من الإصلاح فقال ما خلاصته:
 إن المسلمين لا يرجى لهم صلاح إلا بالقرآن على الوجه الذي يفسره به المنار،
-اهـ فإن كان سبقه إلى مثل هذه الكلمة أحد فضلاء <placeName>الهند</placeName> منذ ثلث قرن (وهو
+اهـ فإن كان سبقه إلى مثل هذه الكلمة أحد فضلاء <placeName ref="geon:1269750 oape:place:293 wiki:Q668" resp="#xslt" change="#d11e276">الهند</placeName> منذ ثلث قرن (وهو
 <persName>مولوي محمد إنشاء الله</persName>) فالأستاذ الأكبر يقول في إصلاح جميع البشر بدعوة
 الإسلام التي بثها المنار كلمة أكبر من كلمته للفاضل الهندي، وهي ما كتبه بعد
 مطالعة (كتاب الوحي المحمدي) في كتاب لمؤلفه وهي:

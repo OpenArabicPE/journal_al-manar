@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_23-i_10.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_23-i_10.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e276">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_23-i_10.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_23-i_10.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1341">1341</date><date calendar="#cal_gregorian" when="1922" xml:lang="ar">ديسمبر - 1922م</date></imprint>
                   <biblScope unit="volume" from="23" to="23" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">23</biblScope>
                   <biblScope unit="issue" from="10" to="10" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">10</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e276" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -156,8 +156,8 @@
 المهاجرين والأنصار، ولما رجّح عثمان دعا المهاجرين والأنصار وأمراء الأجناد،
 فلما اجتمعوا عند منبر رسول الله - صلى الله عليه وسلم - بعد صلاة الفجر
 صرّح لهم باختياره وبايعه هؤلاء كلهم، رواه البخاري في صحيحه وغيره.
-والمراد بأمراء الأجناد ولاة الأقطار الكبرى مصر، و<placeName change="#d2e120" xml:id="placeName_4.d2e439">الشام</placeName> وحمص والكوفة
-و<placeName change="#d2e120" xml:id="placeName_5.d2e444">البصرة</placeName>، وكانوا قد حجّوا مع عمر في ذلك العام وحضروا معه المدينة، ولما
+والمراد بأمراء الأجناد ولاة الأقطار الكبرى مصر، و<placeName change="#d2e120 #d11e276" xml:id="placeName_4.d2e439" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وحمص والكوفة
+و<placeName change="#d2e120 #d11e276" xml:id="placeName_5.d2e444" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>، وكانوا قد حجّوا مع عمر في ذلك العام وحضروا معه المدينة، ولما
 شذّ أحد هؤلاء الولاة وهو معاوية فلم يبايع عليًّا كرَّم الله وجهه - مع إجماع
 سائر المسلمين على مبايعته كان من الفتنة وتفرُّق الكلمة ما كان، وإنما تصح
 المبايعة باتفاقهم، أو اتفاق الأكثرين الذين يتبعهم غيرهم، ومن لم يتبعهم بالاختيار،
@@ -271,7 +271,7 @@
 يراعي الأفضل في الدين فقط، بل يضم إليه مزيد المعرفة بالسياسة مع اجتناب ما
 يخالف الشرع فيها، فلأجل ذلك استخلف (أي أمَّر) معاوية، والمغيرة بن شعبة
 وعمرو بن العاص مع وجود من هو أفضل منهم في أمر الدين والعلم كأبي الدرداء
-في <placeName change="#d2e120" xml:id="placeName_6.d2e694">الشام</placeName>، وابن مسعود في الكوفة اهـ.
+في <placeName change="#d2e120 #d11e276" xml:id="placeName_6.d2e694" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، وابن مسعود في الكوفة اهـ.
 وسيرة أبي بكر وعمر في الخلافة يُقتدى بها، ولا سيما في الأمور العامة
 الكلية التي تسمى سنة، بدليل اشتراط عبد الرحمن إياها مع سنة الرسول على علي
 وامتناعه عن ترجيحه لعدم جزمه في الجواب أو تقييده بالاستطاعة وترجيحه لعثمان
@@ -413,10 +413,10 @@
 والسنة النبوية وهديهما، وأن سيرة الخلفاء المدنيين من الأمويين والعباسيين الذين
 نشروا العلوم والفنون ورقوا الحضارة في الشرق والغرب تعد أصل المدنية
 الإسلامية وسندها , أو لم تروا أن صلة العالم الإسلامي بمهد الإسلام الموضعي
-(<placeName change="#d2e120" xml:id="placeName_7.d2e1005">الحجاز</placeName>) تعد في الدرجة الثانية لصلته بكتابه وسنته، حتى أن الخليفة الذي نصبته
+(<placeName change="#d2e120 #d11e276" xml:id="placeName_7.d2e1005" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>) تعد في الدرجة الثانية لصلته بكتابه وسنته، حتى أن الخليفة الذي نصبته
 الدولة التركية الجديدة في الآستانة قد لقّب نفسه بخادم الحرمين الشريفين كالسلاطين
-الذين كان <placeName change="#d2e120" xml:id="placeName_8.d2e1012">الحجاز</placeName> خاضعًا لهم.
-ألم تعلموا أن الإسلام على حريته وسماحته قد خصّ <placeName change="#d2e120" xml:id="placeName_9.d2e1018">الحجاز</placeName> أو جزيرة العرب
+الذين كان <placeName change="#d2e120 #d11e276" xml:id="placeName_8.d2e1012" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> خاضعًا لهم.
+ألم تعلموا أن الإسلام على حريته وسماحته قد خصّ <placeName change="#d2e120 #d11e276" xml:id="placeName_9.d2e1018" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أو جزيرة العرب
 بأن لا يبقى فيها دينان، وأوصى بذلك النبي - صلى الله عليه وسلم - في آخر
 حياته.
 ألم يبلغكم أن بعض المؤرخين من غير المسلمين قال: لو أن الجيش الذي
@@ -465,7 +465,7 @@
 بني أمية وطأة على العلويين الذين هم خيارهم وفضّلوا الفرس ثم الترك على العرب،
 وأما العلويون فكانوا أزهد الناس في الدنيا وملكها، ولولا ذلك لسعوا لها سعيها،
 ومن صحّ منه الهوى أُرْشِدَ للحيل، ولم يتولّ أحد منهم الإمامة بعد أن نزل عنها
-الإمام الحسن السبط عليه السلام إلا أئمة الزيدية في <placeName change="#d2e120" xml:id="placeName_10.d2e1127">اليمن</placeName>، فكانوا وما زالوا أفضل
+الإمام الحسن السبط عليه السلام إلا أئمة الزيدية في <placeName change="#d2e120 #d11e276" xml:id="placeName_10.d2e1127" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، فكانوا وما زالوا أفضل
 وأعدل أهل بيت تولّوها بعد الراشدين، وأما أدارسة المغرب فيلقبون بالسلاطين،
 وأما العُبيديون فكانوا أدعياء في النسب وفي الإسلام أيضًا.
 وجملة القول أن الشعوبية أوردوا شبهات كثيرة على العرب وعلى قريش
@@ -735,9 +735,9 @@
 <p change="#d2e120" xml:id="p_2.d2e1709">
                
 ألَّفه باللغة الأُوردية أحد زعماء النهضة الهندية
-مولانا أبو الكلام محيي الدين آزاد - صاحب <bibl type="periodical" subtype="journal" change="#d3e268">مجلة (<title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e1715">الهلال</title>) الهندية<pubPlace><placeName ref="wiki:Q668"/></pubPlace></bibl>
+مولانا أبو الكلام محيي الدين آزاد - صاحب <bibl type="periodical" subtype="journal" change="#d3e268">مجلة (<title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e1715">الهلال</title>) الهندية<pubPlace><placeName ref="geon:1269750 oape:place:293 wiki:Q668" resp="#xslt" change="#d11e276"/></pubPlace></bibl>
 وترجمه بالعربية أحد تلاميذ دار الدعوة والإرشاد
-<bibl type="periodical" subtype="newspaper" change="#d3e268"><editor><persName>الشيخ عبد الرزاق المليح آبادي</persName></editor> - محرر جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_6.d2e1723">بيغام</title>) الهندية<pubPlace><placeName ref="wiki:Q668"/></pubPlace></bibl>
+<bibl type="periodical" subtype="newspaper" change="#d3e268"><editor><persName>الشيخ عبد الرزاق المليح آبادي</persName></editor> - محرر جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_6.d2e1723">بيغام</title>) الهندية<pubPlace><placeName ref="geon:1269750 oape:place:293 wiki:Q668" resp="#xslt" change="#d11e276"/></pubPlace></bibl>
 
                
 باب الأئمة من قريش
@@ -1043,13 +1043,13 @@
 بعض رجال الدين منهم في مدرسة النجف الكبرى، أو على المتخرِّجين فيها من
 فنون العربية والعلوم الشرعية.
 وقد قرأنا في الشهر الماضي مقالتين في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e2375">الاتفاق</title></bibl>) الأسبوعية - التي
-تصدر في مدينة <placeName change="#d2e120" xml:id="placeName_11.d2e2381">صيدا</placeName> - عنوانهما: (تأخُّر الطائفة الشيعية وكيفية تقدُّمها) ، كانت
+تصدر في مدينة <placeName change="#d2e120 #d11e276" xml:id="placeName_11.d2e2381" ref="geon:268064 oape:place:9 wiki:Q163490" resp="#xslt">صيدا</placeName> - عنوانهما: (تأخُّر الطائفة الشيعية وكيفية تقدُّمها) ، كانت
 هي الداعية، بل الداعَّة لنا إلى كتابة هذا؛ إذ راعنا منها وصف كاتب المقالة
 (المخلص) الغيور لقرى الشيعة في جبل عامل وبعلبك بأنها مهدَّمة المساجد، خالية
 من المدارس، وقوله: إن الأميين منهم يتجاوز عددهم 95 في المئة، وإن هذا
 الجهل أكبر أسباب حرمان الطائفة من تمثيلها في الحكومة الحاضرة كما يجب، وإن
 بعضهم سعى في العام الماضي إلى تعيين عضو شيعي في محكمة التمييز (النقض
-والإبرام) ، التي أُنشئتْ في <placeName change="#d2e120" xml:id="placeName_12.d2e2397">بيروت</placeName> (غير أنهم خجلوا لما علموا أن الطائفة ليس
+والإبرام) ، التي أُنشئتْ في <placeName change="#d2e120 #d11e276" xml:id="placeName_12.d2e2397" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> (غير أنهم خجلوا لما علموا أن الطائفة ليس
 لديها سوى ثلاثة شبان من خريجي مدارس الحقوق) ! ، والحكومة غير راضية
 عنهم (كذا قال أفليس في قوله مبالغة) .
 ثم قال الكاتب: يتفرَّع عن الجهل فروع عديدة، أهمها التعصب الديني
@@ -1100,9 +1100,9 @@
 الموعود قريبًا.
 ثم نعود إلى الكلام في إصلاح طائفة الشيعة الذي يهمنا جدًّا، فنقول: (إننا
 كنا عزمنا أن نزور النجف في رحلتنا الهندية العراقية، فحال دون عزمنا ما عزانا
-من الحُمَّى في <placeName change="#d2e120" xml:id="placeName_13.d2e2510">البصرة</placeName>، ثم في <placeName change="#d2e120" xml:id="placeName_14.d2e2514">بغداد</placeName>، والاضطرار عقب النقه إلى السفر، كنا
+من الحُمَّى في <placeName change="#d2e120 #d11e276" xml:id="placeName_13.d2e2510" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>، ثم في <placeName change="#d2e120 #d11e276" xml:id="placeName_14.d2e2514" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>، والاضطرار عقب النقه إلى السفر، كنا
 عزمنا على هذه الزيارة لأجل البحث مع مُحبِّي الإصلاح من العلماء، ولا سيما
-السادة الشرفاء منهم في هذا الإصلاح، وقد جاء وفدٌ إلى <placeName change="#d2e120" xml:id="placeName_15.d2e2521">بغداد</placeName> لزيارتنا، ودعوتنا
+السادة الشرفاء منهم في هذا الإصلاح، وقد جاء وفدٌ إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_15.d2e2521" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> لزيارتنا، ودعوتنا
 إلى النجف الأشرف، وقد قال لنا رئيسه - وهو سيد عالم شهير -: إننا نَعُدُّكَ
 إمامًا مصلحًا لجميع المسلمين، فلماذا تخص أهل السنة بإرشادك ونقدك لما حدث
 من البدع والخرافات، وعندنا أضعاف أضعافها، أنت ساكت عنها؟ !) .
@@ -1201,7 +1201,7 @@
 ونسأله خيرها.
 تذكرت أنني قلت - في أيام طلبي للعلم - كلمة في هذا المعنى كان لها تأثير
 لولاه نسيتها، ولما كنت أصدق أنها مما كان يخطر ببالي في ذلك العهد.
-كان عندنا في <placeName change="#d2e120" xml:id="placeName_16.d2e2745">طرابلس الشام</placeName> - أيام طلبي للعلم فيها - متصرِّف له إلمام واسع
+كان عندنا في <placeName change="#d2e120 #d11e276" xml:id="placeName_16.d2e2745" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> - أيام طلبي للعلم فيها - متصرِّف له إلمام واسع
 بالعلوم الدينية والفنون العربية [1] شافعي المذهب كأهل بلدنا القلمون، وكان كثيرًا
 ما يزورنا في أيام الجُمَع مع بعض العلماء والوجهاء، ويحب أن يصلي الجمعة
 عندنا - وقلّما يوجد مكان تُقام فيه الجمعة مستوفاة الشروط على مذهب الشافعي كما
@@ -1212,7 +1212,7 @@
 سعادتكم فيهم نادر، ولا شك أن الأكثرين كذلك، وأردت أن أفصِّل فغيَّر والدي
 رحمه الله تعالى موضوع الكلام، واستكبر الحاضرون هذا القول للباشا مني على
 بدايتي في العلم وحداثة سِنِّي، وكان منهم الشيخ علي رشيد الميقاتي من وجهاء
-شيوخ <placeName change="#d2e120" xml:id="placeName_18.d2e2775">طرابلس</placeName>، وابن أخيه صالح أفندي من موظفي الحكومة، فطفق هذا يذيع
+شيوخ <placeName change="#d2e120 #d11e276" xml:id="placeName_18.d2e2775" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>، وابن أخيه صالح أفندي من موظفي الحكومة، فطفق هذا يذيع
 هذه الكلمة وينوه بها، وهي قد أغرت الباشا بكثرة البحث معي، وكان يعجبه
 جوابي؛ لأنني لا أجيب إلا بما تحضرني فيه حُجَّةٌ.
 وأذكر - على سبيل الاستطراد - مسألة في موضوعنا هذا، وهي قوله لي:
@@ -1228,9 +1228,9 @@
 المجالس، وينوِّه بها.
 ونعود إلى موضوعنا، فنقول:
 إن طائفة الشيعة ما زالت أكثر طوائف أهل السُنة احترامًا وطاعةً لعلمائها،
-ولا سيما السادة العلويين منهم، ولا تزال أنباء <placeName change="#d2e120" xml:id="placeName_19.d2e2813">العراق</placeName> تأتينا بما يدل على أن لأولئك
+ولا سيما السادة العلويين منهم، ولا تزال أنباء <placeName change="#d2e120 #d11e276" xml:id="placeName_19.d2e2813" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> تأتينا بما يدل على أن لأولئك
 العلماء الأعلام اليد الطولى في الحركة الوطنية الاستقلالية، ومقاومة الدسائس
-الأجنبية التي تسعى لجعْل استعباد الأجنبي لأهل <placeName change="#d2e120" xml:id="placeName_20.d2e2821">العراق</placeName> وغيرهم من مسلمي الشرق
+الأجنبية التي تسعى لجعْل استعباد الأجنبي لأهل <placeName change="#d2e120 #d11e276" xml:id="placeName_20.d2e2821" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وغيرهم من مسلمي الشرق
 قانونيًّا مؤيَّدًا بمعاهدة خادعة. وما المعاهدات إلا حُجة القوي على الضعيف،
 كما قال أعظم ساسة أوربة، ولكنهم لقلَّة تمرُّسهم بالسياسة يُخْشَى عليهم أن يُخدعوا
 اليوم كما خُدعوا في مؤتمر كربلاء من قبل؛ فقد بلَغَنا الآن أن الدسائس تعمل
@@ -1267,7 +1267,7 @@
 
                
 (التي ألقاها في مجلس الجمعية الوطنية الكبيرة بأنقرة في جلسة 12 ربيع
-الأول - أول نوفمبر - التي أعلنوا فيها إسقاط <placeName change="#d2e120" xml:id="placeName_21.d2e2895">الدولة العثمانية</placeName> للإقناع بكوْن سلب
+الأول - أول نوفمبر - التي أعلنوا فيها إسقاط <placeName change="#d2e120 #d11e276" xml:id="placeName_21.d2e2895" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> للإقناع بكوْن سلب
 المجلس السلطةَ من الخليفة موافقًا للشرع الإسلامي، وكان ذلك على إثْر إرسال
 توفيق باشا الصدر الأعظم برقيات إليه بطلب أعضاء من حكومة أنقرة ينضمون
 إلى الأعضاء الذي يختارهم الباب العالي لمؤتمر الصلح الدولي) .
@@ -1364,7 +1364,7 @@
 نموًّا كان من شأنه - كما هي العادة - حدوث الأغراض الدنيوية بين الناس،
 وظهور الثورة والفتنة، حتى لقد كانت هذه النقطة تُزعج الفاروق، الذي كان يتذكَّر
 أن الرسول - صلى الله عليه وسلم - كان قد قال لخواصّ أصحابه: إن أمته
-سيظهر أمرها، وتهزم أعداءها، وتفتح <placeName change="#d2e120" xml:id="placeName_22.d2e3109">اليمن</placeName> و<placeName change="#d2e120" xml:id="placeName_23.d2e3112">القدس</placeName> و<placeName change="#d2e120" xml:id="placeName_24.d2e3115">الشام</placeName>، وتقتسم خزائن
+سيظهر أمرها، وتهزم أعداءها، وتفتح <placeName change="#d2e120 #d11e276" xml:id="placeName_22.d2e3109" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> و<placeName change="#d2e120 #d11e276" xml:id="placeName_23.d2e3112" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> و<placeName change="#d2e120 #d11e276" xml:id="placeName_24.d2e3115" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، وتقتسم خزائن
 الأكاسرة والقياصرة، وإنها ستشبُّ بينها الفتنة بعد ذلك، فتضل، وتغوى، وتسير
 سير الملوك السافلين، حتى لقد سأل الفاروق يومًا حذيفة بن اليمان - رضي الله
 عنه - عن الفتنة التي تموج موج البحر، فأجابه أنه لا بأس عليه منها، وأن بينه
@@ -1389,14 +1389,14 @@
 بالتحطم، وبدأ القيل والقال، وظهرت أمارات عدم ارتياح في أكثر الممالك
 الإسلامية.
 وقد وقف سيدنا عثمان موقف الضعف والعجز، حتى لقد دعاه (معاوية) -
-عامله على <placeName change="#d2e120" xml:id="placeName_25.d2e3172">الشام</placeName> - لصيانة حياته، فرفض (عثمان) ذلك، وأمر (معاوية) أن
+عامله على <placeName change="#d2e120 #d11e276" xml:id="placeName_25.d2e3172" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> - لصيانة حياته، فرفض (عثمان) ذلك، وأمر (معاوية) أن
 يرسل إليه جنودًا للمحافظة عليه، ولكن لم يتَّسع المجال لاتخاذ هذه التدابير، حيث
 قامت المناطق التي أعلن أهلها العصيان، وتقدَّمت المدينة، وحاصرت (عثمان)
 في بيته، ثم أراقت دمه، وهو بجانب زوجته.
 تولى الخلافة بعد ذلك سيدنا (علي) - كرم الله وجهه - بين ضوضاء
-عظيمة، ووقائع دموية، وقد تحطم الباب، والحق أن <placeName change="#d2e120" xml:id="placeName_26.d2e3186">العراق</placeName> و<placeName change="#d2e120" xml:id="placeName_27.d2e3189">اليمن</placeName> وسورية
+عظيمة، ووقائع دموية، وقد تحطم الباب، والحق أن <placeName change="#d2e120 #d11e276" xml:id="placeName_26.d2e3186" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> و<placeName change="#d2e120 #d11e276" xml:id="placeName_27.d2e3189" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وسورية
 والقطر الحجازي كانت بلادًا مختلفة، وإن كان يسكنها شعب واحد، وقد اضطر
-الخليفة في <placeName change="#d2e120" xml:id="placeName_28.d2e3197">الحجاز</placeName> أن يقف وجهًا لوجه إزاء والٍ يستند إلى القوة، حيث كان
+الخليفة في <placeName change="#d2e120 #d11e276" xml:id="placeName_28.d2e3197" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أن يقف وجهًا لوجه إزاء والٍ يستند إلى القوة، حيث كان
 (معاوية) لا يعترف بخلافة (علي) - كرم الله وجهه - بل يتهمه بدم عثمان [10] ،
 فكان مما فعله الخليفة - المأمور بتنفيذ الأحكام القرآنية - قطع الحرب إزاء
 الجيوش الأموية، التي علقت القرآن على رؤوس رماحها، وتعهَّد الطرفان بقبول
@@ -1404,7 +1404,7 @@
 الأشعري) مع (عمرو بن العاص) مندوب معاوية لتنظيم أمر التحكيم، فاعترض
 مندوب (معاوية) على ما خطَّه أبو موسى الأشعري من أن هذا تحكيم بين أمير
 المؤمنين علي ومعاوية، وطلب إلغاء عبارة (أمير المؤمنين) قائلاً: إنه لا يعترف
-بإمارته إلا مَن هم تحت أمره، فلا يعترف به أهل <placeName change="#d2e120" xml:id="placeName_29.d2e3217">الشام</placeName>، فوافق سيدنا علي على
+بإمارته إلا مَن هم تحت أمره، فلا يعترف به أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_29.d2e3217" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، فوافق سيدنا علي على
 ذلك، والكل يعلم تلك الحيلة الدنيئة التي وقعت بعد ذلك بين مندوبي الطرفين،
 وهنالك بشَّر عمرو معاوية بالخلافة؛ إذ نجح في حيلته، كما أن عليًّا استمر يقوم
 بالخلافة، بعد أن تردد قليلاً فيما إذا كان يجب عليه أن يراعي حُكْم الحَكَم أم لا.
@@ -1417,27 +1417,27 @@
 بالوقائع الدموية من أولها إلى آخرها، وقد أسقطت الأمة العربية دولة بني أمية في
 عام 132، وأسست مكانها دولة أخرى هي الدولة العباسية، التي كان يلقب
 رؤساؤها بألقاب الخلافة، وكان هناك في الأندلس كذلك ملوك ظلوا يلقَّبون بألقاب
-الخلافة قرونًا، بالرغم من وجود الخلافة العباسية في <placeName change="#d2e120" xml:id="placeName_30.d2e3249">العراق</placeName>!
+الخلافة قرونًا، بالرغم من وجود الخلافة العباسية في <placeName change="#d2e120 #d11e276" xml:id="placeName_30.d2e3249" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>!
 أسلفت - فيما سبق - أنه كانت قد تأسست في أواسط آسية دولة تركية قبل
 خمسة عشر قرنًا، أي قبل هجرة الرسول الأعظم بقرنين ونصف، وقد اعتنق
 الأتراك - الذين أسسوا هذه الدولة - الدين الإسلامي قبل ألف سنة، ووسعوا
-بلادهم في اتجاه الشرق حتى الصين، وأقبلوا حتى سورية و<placeName change="#d2e120" xml:id="placeName_31.d2e3261">العراق</placeName> في عهد الدولة
+بلادهم في اتجاه الشرق حتى الصين، وأقبلوا حتى سورية و<placeName change="#d2e120 #d11e276" xml:id="placeName_31.d2e3261" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> في عهد الدولة
 العباسية بصفتهم جنودًا، وقوَّوا نفوذهم في هذه البلاد التي تحت حكم الخلفاء
 العباسيين، وارتقوا إلى أسمى المقامات، وتولَّوْا قيادة الجيوش.
 وقد تأسست في القرن الرابع الهجري دولة تركية عظيمة باسم الدولة
 السلجوقية، فكان الأتراك - الذين يعملون باسم هذه الدولة - ينتشرون في بلاد
-القافقاس من جهة وبلاد إيران و<placeName change="#d2e120" xml:id="placeName_32.d2e3275">العراق</placeName> وسورية من جهة الجنوب، وبلاد
-الأناضول من جهة الغرب، حتى دخلت دولة الخلفاء العباسيين المقيمة في <placeName change="#d2e120" xml:id="placeName_33.d2e3280">بغداد</placeName> في
+القافقاس من جهة وبلاد إيران و<placeName change="#d2e120 #d11e276" xml:id="placeName_32.d2e3275" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وسورية من جهة الجنوب، وبلاد
+الأناضول من جهة الغرب، حتى دخلت دولة الخلفاء العباسيين المقيمة في <placeName change="#d2e120 #d11e276" xml:id="placeName_33.d2e3280" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> في
 دائرة نفوذ هذه الدولة، والحق أن هذه الدولة التركية مدَّت سلطانها إلى ما وراء
-النهر وخوارزم و<placeName change="#d2e120" xml:id="placeName_34.d2e3287">الشام</placeName> ومصر وأكثر <placeName change="#d2e120" xml:id="placeName_35.d2e3291">الأناضول</placeName> في أواسط القرن الخامس الهجري،
+النهر وخوارزم و<placeName change="#d2e120 #d11e276" xml:id="placeName_34.d2e3287" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ومصر وأكثر <placeName change="#d2e120 #d11e276" xml:id="placeName_35.d2e3291" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName> في أواسط القرن الخامس الهجري،
 ووسعت حدودها حتى كاشغر ونهر سيحون إلى البحر الأبيض، والبحر الأحمر،
-وبحر عُمَان، بحيث كان الخلفاء العباسيون في <placeName change="#d2e120" xml:id="placeName_36.d2e3298">بغداد</placeName> تحت نفوذهم وإدارتهم،
+وبحر عُمَان، بحيث كان الخلفاء العباسيون في <placeName change="#d2e120 #d11e276" xml:id="placeName_36.d2e3298" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> تحت نفوذهم وإدارتهم،
 وقد جلس (ملكشاه) - الذي يمثل السيادة التركية - بجانب الخليفة المقتدي بالله،
 وتصاهرا [12] .
 أريد أن أحلل هذا المنظر وهذا الموقف قليلاً، لقد كان (الخاقان) التركي -
 الذي يمثل دولة تركية عظيمة - لا يرى بأسًا في المحافظة على مقام الخلافة وحدها،
 ولو رأى بأسًا في ذلك لكان في مقدوره أن ينزع تلك الصفة من الخليفة، وأن
-يضيفها إلى نفسه، أي أنه لو أراد (ملكشاه) لفعل في <placeName change="#d2e120" xml:id="placeName_37.d2e3314">بغداد</placeName> ما فعله السلطان سليم
+يضيفها إلى نفسه، أي أنه لو أراد (ملكشاه) لفعل في <placeName change="#d2e120 #d11e276" xml:id="placeName_37.d2e3314" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> ما فعله السلطان سليم
 في مصر بعد خمسة قرون [13] ، بل إننا نرى (ملكشاه) لم يفكر إلا في أن يخلف
 المقتدي بالله مَن هو أصدق للدولة التركية، وأليق بمقام الخلافة، وقد ضغط على
 الخليفة المقتدي بالله لعزل ولده من ولاية العهد، وإقامة حفيده مكانه.
@@ -1456,7 +1456,7 @@
 السلجوقية الأناضولية، وأن هذه الدولة قد حافظت على حياتها حتى عام 699،
 وبينما هذه الدول الإسلامية التركية المعروفة تسعى وتعمل - ظهر الفاتح جنكيز
 خان، وخرج من قارة قوروم سنة 599، ووسع حدوده حتى بحر الصين وبحر
-البلطيق والبحر الأسود، وقد استولى حفيده هُلاكو خان سنة 656 على <placeName change="#d2e120" xml:id="placeName_38.d2e3359">بغداد</placeName>،
+البلطيق والبحر الأسود، وقد استولى حفيده هُلاكو خان سنة 656 على <placeName change="#d2e120 #d11e276" xml:id="placeName_38.d2e3359" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>،
 وقتل الخليفة العباسي المستعصم؛ وبذلك رفع الخلافة من وجه الأرض فعلاً.
 لقد رأى سيدنا عمر في حياته بعد وفاة النبي - صلى الله عليه وسلم - أنه لا
 يُستطاع وقفُ تموجات الهيئة الاجتماعية، وفارق الحياة الدنيا مضطرب الروح!
@@ -1464,7 +1464,7 @@
 يتمكن الإمام علي - كرم الله وجهه - من تقرير الخلافة في عهدته، ولا من
 المحافظة على حقوق آل بيت الرسول، والأمويون لم يستطيعوا المحافظة على
 الخلافة أكثر من تسعين عامًا، وقد اضطر الخلفاء العباسيون إلى قصر نفوذ الخلافة
-بين أسوار <placeName change="#d2e120" xml:id="placeName_39.d2e3379">بغداد</placeName>، وقد ذهب المستعصم آخرهم ضحية لهلاكو مع أولاده وعياله
+بين أسوار <placeName change="#d2e120 #d11e276" xml:id="placeName_39.d2e3379" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>، وقد ذهب المستعصم آخرهم ضحية لهلاكو مع أولاده وعياله
 وثمان مائة ألف من المسلمين.
 وأما خلفاء الأندلس - الذين لم يتجاوز نفوذ خلافتهم قصر الحمراء بعد ضعف
 الخلافة العباسية - فكلنا يعلم عاقبة فاجعتهم في أوائل القرن الخامس الهجري، وقد
@@ -1473,12 +1473,12 @@
 (المستقر بالله) من آل عباس سنة 659 هجرية، فاعترف ملك مصر بخلافته، وقد
 جاء من بعده 17 خليفة لم يكن لأحدٍ أدنى نفوذ أو تأثير رأسي، بل كان يُستخلف
 بعضهم بعضًا تحت حماية الحكومة المصرية، فلما تشتتت الإدارة السلجوقية أسست
-الأمة التركية <placeName change="#d2e120" xml:id="placeName_40.d2e3402">الدولة العثمانية</placeName> مكان الدولة السلجوقية عام 699 هجرية، وقد وجد
+الأمة التركية <placeName change="#d2e120 #d11e276" xml:id="placeName_40.d2e3402" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> مكان الدولة السلجوقية عام 699 هجرية، وقد وجد
 السلطان سليم عند دخوله مصر عام <date calendar="#cal_gregorian" when="0924" change="#d3e146 #d2e120" xml:id="date_4.d2e3407">924</date> مَن يلقَّب بالخليفة عدا مَن قتلهم من ملوك
 مصر، فلم يتردد ذرة في أن بقاء صفة الخلافة في شخص عاجز يشين العالم
 الإسلامي، فاتخذها لنفسه على أن يجعل قوة الدولة التركية سندًا لها.
 أيها السادة:
-تأسست <placeName change="#d2e120" xml:id="placeName_41.d2e3419">الدولة العثمانية</placeName> عام 699 هجرية، وتقلدت الخلافة عام 924، فلم
+تأسست <placeName change="#d2e120 #d11e276" xml:id="placeName_41.d2e3419" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> عام 699 هجرية، وتقلدت الخلافة عام 924، فلم
 يمضِ على ذلك التاريخ خمسون سنة، حتى أتمت ثلاثة قرون من حياتها تدعى
 عهد الاعتلاء والانتصارات المتوالية، أما بعد ذلك فقد بدأ عهد الانحطاط، فصارت
 الحدود التركية تضيق كل يوم، وتنقص قوات الشعب التركي مادةً ومعنًى كل يوم،
@@ -1502,11 +1502,11 @@
 والآن قد يدور بالخلد سؤال عما يصير إليه أمر الخلافة بعد انهدام المقام
 الشخصي الذي يضيف لنفسه تلك الصفة؟ !
 أيها السادة:
-لقد رأينا مقام الخلافة في <placeName change="#d2e120" xml:id="placeName_42.d2e3474">بغداد</placeName> في عهد الخلفاء العباسيين وفي مصر يعيش
+لقد رأينا مقام الخلافة في <placeName change="#d2e120 #d11e276" xml:id="placeName_42.d2e3474" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> في عهد الخلفاء العباسيين وفي مصر يعيش
 قرونًا بجانب السلطنة، مع انفراده عنها، وإن من الطبيعي جدًّا أن يكون مقام
 الخلافة بجانب مقام السلطنة الشعبية، مع فرق هو أنه كان على رأس السلطنة في
 بغداد ومصر شخص، وأما في تركيا فيجلس في ذلك المقام شعب، ثم لا يكون مقام
-الخلافة ضعيفًا عاجزًا ملتجئًا، كما كان في <placeName change="#d2e120" xml:id="placeName_43.d2e3486">بغداد</placeName> ومصر، بل سيتربَّع فيه شخص
+الخلافة ضعيفًا عاجزًا ملتجئًا، كما كان في <placeName change="#d2e120 #d11e276" xml:id="placeName_43.d2e3486" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> ومصر، بل سيتربَّع فيه شخص
 عالٍ، يستند على الدولة التركية [17] .
 وعلى هذا النحو سيزداد الشعب التركي قوة كل يوم بصفته دولة عصرية
 مدنية، وستتضاعف سعادته ورفاهيته وفهمه لإنسانيته ونفسه، كما أنه سيظهر في
@@ -1530,11 +1530,11 @@
 ***
 (<title change="#d2e120" xml:id="title_10.d2e3537">المنار</title>)
 إن المراد من هذه الخطبة السياسية جعْلها حجةً للجمعية الوطنية التركية في
-إسقاط <placeName change="#d2e120" xml:id="placeName_44.d2e3544">الدولة العثمانية</placeName>، وتأليف دولة تركية محضة بشكل جمهوري جديد، وإقامة
+إسقاط <placeName change="#d2e120 #d11e276" xml:id="placeName_44.d2e3544" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>، وتأليف دولة تركية محضة بشكل جمهوري جديد، وإقامة
 هذه الدولة خلافة روحية للمسلمين بمعنى جديد لم يُعرف من شكله إلا أنها محصورة
 في بني عثمان، وأن الدولة التركية هي التي تنتخب خليفة تركيًّا عثمانيًّا، وتؤيده
 بقوتها، وتجعله - على حرمانه من سلطة الحكومة - أجلّ وأكرم من الخليفة
-العباسي الذي تغلب عليه سلاطين الترك في <placeName change="#d2e120" xml:id="placeName_45.d2e3556">بغداد</placeName>، والذي تغلب عليه سلاطين
+العباسي الذي تغلب عليه سلاطين الترك في <placeName change="#d2e120 #d11e276" xml:id="placeName_45.d2e3556" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>، والذي تغلب عليه سلاطين
 مصر، ولكن هذه التنظيرات التاريخية على ما فيها ليست حججًا شرعية على ما
 كان، وعلى ما يُراد الآن، وإنما هي مبنيَّة على قاعدة (الحق للقوة) ، ولا تحتاج
 الدولة التركية الجديدة إلى حجة غيرها، وليس السلجوقيون ولا الجراكسة، ولا
@@ -1549,7 +1549,7 @@
 الممتازة - لا سمح الله بذلك - لم يعد أحد من المسلمين يبالي بأمره، أوجد فيه
 خليفة أم لا، فعليه إذن أن يوجد خلافة صحيحة أو يدَع.
 أقول هذا وأنا لهذه القوة ناصح أمين، ومؤيد لها في مكافحة أعداء المسلمين،
-وكنت أول مَن قاوم السعي لجعْل شريف <placeName change="#d2e120" xml:id="placeName_46.d2e3592">مكة</placeName> - الذي خرج على الدولة، ووالى
+وكنت أول مَن قاوم السعي لجعْل شريف <placeName change="#d2e120 #d11e276" xml:id="placeName_46.d2e3592" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> - الذي خرج على الدولة، ووالى
 أعداءها - خليفة للمسلمين، ونوَّهت بأعمال الكماليين، وفضَّلتهم عليه وعلى أولاده،
 ولكني لا أقول إلا ما أعتقد أنه الحق، ومنه أن الغازي مصطفى كمال باشا
 مخطئ فيما رمى إليه في خطبته من محاولة إثبات أن نظام الخلافة الشرعي غير
@@ -1581,7 +1581,7 @@
 والباب العالي، وإسرافهما منذ قرون، وقد كانت نتيجة ذلك أن تدهورت البلاد في
 مهاوي الانقراض.
 لكن الشعب التركي - المؤسس للإمبراطورية العثمانية، والمالك الحقيقي
-للبلاد - هَبَّ دفعة واحدة في <placeName change="#d2e120" xml:id="placeName_47.d2e3664">الأناضول</placeName>، ووقف في وجه أعدائه الخارجين، كما
+للبلاد - هَبَّ دفعة واحدة في <placeName change="#d2e120 #d11e276" xml:id="placeName_47.d2e3664" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>، ووقف في وجه أعدائه الخارجين، كما
 جاهد السراي والباب العالي اللذين اشتركا مع الأعداء في معاداته، وأسس الجمعية
 الوطنية الكبرى في أنقرة، كما ألَّف جيوشها، وحارب أعداءه الخارجين والسراي
 والباب العالي في أحرج الظروف؛ حتى وصل إلى يوم النجاة.
@@ -1671,10 +1671,10 @@
 من الحقائق الثابتة أن الأمة التركية لا تعيش داخل إدارة امتزج فيها الدين
 بالدنيا [21] ، وليعلم أهل الآستانة أن الأمة التركية - ولا سيما قرويي الأناضول
 منها - لا يخضعون لسلطنة الأشخاص؛ فقد سئموا ذلك، ومَلّوه [22] .
-اسمعوا خفقان قلب <placeName change="#d2e120" xml:id="placeName_48.d2e3873">الأناضول</placeName>، وأنصِتُوا إلى روحه التي تقول: إن الإنسان
+اسمعوا خفقان قلب <placeName change="#d2e120 #d11e276" xml:id="placeName_48.d2e3873" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>، وأنصِتُوا إلى روحه التي تقول: إن الإنسان
 ليس متاعًا تجاريًّا يُقايَضُ عليه، وما هو بمملوك فيضحَّى لنيل الفخار وإرضاء
-الشهوات والمطامع، كنا نظن أن أهل <placeName change="#d2e120" xml:id="placeName_49.d2e3880">الأناضول</placeName> على شيء من الجهل والغباوة،
-ولكننا لما اضطررنا إلى التغلغل في أحشاء <placeName change="#d2e120" xml:id="placeName_50.d2e3885">الأناضول</placeName>، والتنقُّل في ربوعه،
+الشهوات والمطامع، كنا نظن أن أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_49.d2e3880" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName> على شيء من الجهل والغباوة،
+ولكننا لما اضطررنا إلى التغلغل في أحشاء <placeName change="#d2e120 #d11e276" xml:id="placeName_50.d2e3885" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>، والتنقُّل في ربوعه،
 والاختلاط بأهله عن كثب - أدركنا أننا كنا على خطأ، وأن الأناضوليين يفكرون
 احسن منا، وينظرون إلى المسألة من أصلها.
 وبعد: فإنني أرجو أن أسألكم - بوجدانكم وعلمكم -: لماذا لا توافقون على
@@ -1703,7 +1703,7 @@
 المحرر: هل تفكرون في نشر بلاغ على العالم الإسلامي بما تم؟
 الدكتور: لا أدري، ويجب أن تعلموا أن المسلمين كلهم متحدون معنا فكرًا،
 وقد ثبت ذلك في مواقف كثيرة، ولما قمت برحلتي الأخيرة في روسيا كان مسلموها
-يقولون لي: (إن <placeName change="#d2e120" xml:id="placeName_51.d2e3951">الأناضول</placeName> صار كعبة المسلمين) !
+يقولون لي: (إن <placeName change="#d2e120 #d11e276" xml:id="placeName_51.d2e3951" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName> صار كعبة المسلمين) !
 المحرر: هل حددتم أعمال الخليفة ووظائفه؟
 الدكتور: لم يتم شيء من ذلك، ومن الممكن أن الخليفة سيقوم بالاشتراك مع
 وكيل الشرعية - شيخ الإسلام - بإدارة الأمور الدينية، على أنه بعيدًا عن ذلك
@@ -1808,12 +1808,12 @@
 (14) الخلافة ليست مقامًا وجدانيًّا حقه الاحترام في القلب فقط، بل هي عبارة عن رياسة الحكومة الإسلامية، فرئيس هذه الحكومة - التي تقيم الإسلام بإحياء دعوته، والدفاع عنها، وتنفذ أحكامه - هو خليفة الرسول، وإن لم يُسَمَّ خليفة؛ فإن هذا اللقب لم يُطلق على غير الأول من الخلفاء الراشدين، وقانون الجمعية الوطنية قد حصر السلطة كلها فيه، وليس في ذكر للخليفة، وقد نصَّت خليفة روحيًّا في الآستانة، وإننا ننتظر ما ننوط به من الأعمال.
 (15) يريد بكل ما تقدم أن حكومة الخلافة الإسلامية بالمعنى المعروف في الإسلام لم تنجح، ولم تثبت لعلة ذاتية فيها، تقتضي أنها لا تصلح للمسلمين، وهذا خطأ محض، والصواب ما أشرنا إليه في حاشية قبل هذه، وإن خروج المسلمين عن أحكام الإسلام في الخلافة كان من أسباب تفاقم تلك الأحداث والفتن وسقوط الدول.
 (16) يُفهم من قوله بمعونة ما سبقه أن منصب الخلافة - الذي أدخله السلطان سليم في الدولة - هو الذي كان سبب سرعة انحطاطها! ، وقد صرح الدكتور رضا نور بمثل هذا في حديثه الآتي، فيا ليت شعري! ، أي عمل عمله سليم - ومَن بعده - باسم الخلافة فكان سبب ضعفها؟ ! ، أما والله لو قاموا بوظائف الخلافة لملكوا الشرق كله.
-(17) كان سبب وجود شبح يسمى خليفة في جانب السلطان التركي ب<placeName change="#d2e120" xml:id="placeName_52.d2e4197">بغداد</placeName>، والجركسي بمصر - هو اعتقاد أولئك الترك والجراكسة أن الخليفة الحق يجب أن يكون قرشيًّا، ومنه تُستمد السلطة لتكون شرعية، ولا محل لاعتقاد الحكومة التركية مثل هذا الاعتقاد في بني عثمان الذين سلبتهم المُلك؛ لأنها لا تراهم أهلاً له، بل تراه ضررًا على الأمة، على أن عمل أولئك السلاطين لم يكن شرعيًّا في الحقيقة، بل في الصورة، فما الفائدة في محاكاتهم فيه؟ ! ، ومَن لم يكن أهلاً للسلطنة لا يكون أهلاً للخلافة بالأوْلَى؛ لأنها سلطنة وزيادة، سلطنة وخلافة ونبوة.
+(17) كان سبب وجود شبح يسمى خليفة في جانب السلطان التركي ب<placeName change="#d2e120 #d11e276" xml:id="placeName_52.d2e4197" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>، والجركسي بمصر - هو اعتقاد أولئك الترك والجراكسة أن الخليفة الحق يجب أن يكون قرشيًّا، ومنه تُستمد السلطة لتكون شرعية، ولا محل لاعتقاد الحكومة التركية مثل هذا الاعتقاد في بني عثمان الذين سلبتهم المُلك؛ لأنها لا تراهم أهلاً له، بل تراه ضررًا على الأمة، على أن عمل أولئك السلاطين لم يكن شرعيًّا في الحقيقة، بل في الصورة، فما الفائدة في محاكاتهم فيه؟ ! ، ومَن لم يكن أهلاً للسلطنة لا يكون أهلاً للخلافة بالأوْلَى؛ لأنها سلطنة وزيادة، سلطنة وخلافة ونبوة.
 (18) المقطم في 2 ربيع الآخر.
-(19) أكثر متفرنجي الترك على هذا الرأي، وهم مخطئون في جعْل الجمع بين السلطتين سبب الفناء؛ فإن الدول التركية التي نوَّه بها مصطفى كمال باشا - وقال إنها أبت انتحال الخلافة وأمثالها من الدول التي لم تكن جامعة بين السلطتين - قد انقرضت أيضًا، وهي كثيرة، وقد أشرنا إلى أسباب ذلك في موضع آخر، وهذه حكومة <placeName change="#d2e120" xml:id="placeName_53.d2e4204">اليمن</placeName> جامعة بين السلطتين منذ أكثر من ألف سنة ونيِّف، وقد حاولت <placeName change="#d2e120" xml:id="placeName_54.d2e4207">الدولة العثمانية</placeName> القضاء عليها منذ أربعة قرون فعجزت، ولا تزال باقية، وبيت الإمامة فيها أقدم بيت ذي حكومة في الأرض.
+(19) أكثر متفرنجي الترك على هذا الرأي، وهم مخطئون في جعْل الجمع بين السلطتين سبب الفناء؛ فإن الدول التركية التي نوَّه بها مصطفى كمال باشا - وقال إنها أبت انتحال الخلافة وأمثالها من الدول التي لم تكن جامعة بين السلطتين - قد انقرضت أيضًا، وهي كثيرة، وقد أشرنا إلى أسباب ذلك في موضع آخر، وهذه حكومة <placeName change="#d2e120 #d11e276" xml:id="placeName_53.d2e4204" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> جامعة بين السلطتين منذ أكثر من ألف سنة ونيِّف، وقد حاولت <placeName change="#d2e120 #d11e276" xml:id="placeName_54.d2e4207" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> القضاء عليها منذ أربعة قرون فعجزت، ولا تزال باقية، وبيت الإمامة فيها أقدم بيت ذي حكومة في الأرض.
 (20) نعود فنقول: إن فصل الخلافة عن السلطنة يُخرجها عن معناها الشرعي إلى معنى أحدث الأصول المخالفة لأصول الإسلام القديمة، أي يُخرجها عن كوْنها الخلافة الإسلامية، ويجعلها كخلافة مشايخ الطريق، وهي حينئذ لا تحتاج إلى حراب ولا مدافع.
 (21) هذا تصريح آخر أن الحكومة غير دينية، وهذا أخصُّ من جعْلها غير مرؤوسة لخليفة ديني، فحكومة الأفغان دينية، ورئيسها ليس خليفة الإسلام الشرعي.
-(22) لا نثق بنقل الدكتور عن فلاحي <placeName change="#d2e120" xml:id="placeName_55.d2e4217">الأناضول</placeName>؛ فإن اعتقاده ليس كاعتقادهم قطعًا.
+(22) لا نثق بنقل الدكتور عن فلاحي <placeName change="#d2e120 #d11e276" xml:id="placeName_55.d2e4217" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>؛ فإن اعتقاده ليس كاعتقادهم قطعًا.
 (23) هذا عبث بمنصب الخلافة، سببه الجهل بها، وبالإسلام الذي شرعها، وذلك السلطان المدَّعي لها دجال مبطل، وأنصاره أضل منه وأجهل، فهل يصح أن يحكم على ضرر الخلافة وفسادها بفساد أمثال أولئك السلاطين المدَّعين لها بالباطل؟ ! .
 (24) كلا، إنه مخالف للشرع، وإن أصل الشرع أن تكون القوة للحق، لا الحق للقوة، وكل ما خالف ذلك فغير شرعي.
 (25) فستبصر ويبصرون.</note>
@@ -1858,7 +1858,7 @@
 لأجل أن يعمروا هذا الوطن، ويرقوا فيه الحضارة، وينمُّوا الثروة، فيعيش العرب
 في ظلنا وظلهم ناعمين متمتعين بالحضارة واللذات! ، فحملهم التعصب والجهل
 على الشكوى من هذه الرحمة بدلاً من الشكر على هذه النعمة، وهكذا نريد أن نرحم
-الأرمن في <placeName change="#d2e120" xml:id="placeName_56.d2e4303">الأناضول</placeName>، والآشوريين في <placeName change="#d2e120" xml:id="placeName_57.d2e4306">العراق</placeName>! ! !
+الأرمن في <placeName change="#d2e120 #d11e276" xml:id="placeName_56.d2e4303" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>، والآشوريين في <placeName change="#d2e120 #d11e276" xml:id="placeName_57.d2e4306" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>! ! !
 قد حذقت دول الاستعمار الأوربية هذه السياسة، ومَرَدت عليها، وكادت
 تقضي على الشرق كله بها، ولولا الاختلاف بينهم على تقسيم بلاده لما بقي لهذا
 الذماء من الاستقلال الضعيف المهدد فيه عين ولا أثر، والفضل الأكبر للنهضة
@@ -1867,8 +1867,8 @@
 قد أجمعوا أمرهم على سد منافذ السيطرة الأوربية السابقة عليهم وشرها ما تمتعوا به
 من الامتيازات، وما استغلوه من حماية المسيحيين، وحقوق الأقليات، ودسائس
 المدارس والجمعيات، وتصرف المصارف والشركات.
-ولكن الترك قد عرفوا من أوربة ما لم يعرف عرب <placeName change="#d2e120" xml:id="placeName_58.d2e4329">الحجاز</placeName> وسورية،
-و<placeName change="#d2e120" xml:id="placeName_59.d2e4334">العراق</placeName>، الذين يبيعوهم زعماؤهم للأجانب، ويمُنُّون عليهم معهم بالتحرير من
+ولكن الترك قد عرفوا من أوربة ما لم يعرف عرب <placeName change="#d2e120 #d11e276" xml:id="placeName_58.d2e4329" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وسورية،
+و<placeName change="#d2e120 #d11e276" xml:id="placeName_59.d2e4334" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، الذين يبيعوهم زعماؤهم للأجانب، ويمُنُّون عليهم معهم بالتحرير من
 الاسترقاق؛ زاعيمن أن المشتري الجديد خير من الشريك التليد! ، وأنهم سيقنعونه
 بالكلام على جعْلهم شركاء له في الأحكام وجعْل الرق وسيلة للحرية، والانتداب
 ذريعة للاستقلال التام.
@@ -1893,13 +1893,13 @@
 إذا تعذر أن ينالوا حريتهم المطلقة بالسِّلم.
 فإن قيل - بل قيل - كيف يحاربون في عدة ميادين للحلفاء والبلقانيين؟ -
 فنقول: إن فرنسة وإيطالية لا تحاربان الترك وروسية تساعدهم على البلقانيين
-والإنكليز، وهم قادرون على أخْذ <placeName change="#d2e120" xml:id="placeName_60.d2e4392">العراق</placeName> بفرقة واحدة من جيشهم؛ لأن أهلها لا
+والإنكليز، وهم قادرون على أخْذ <placeName change="#d2e120 #d11e276" xml:id="placeName_60.d2e4392" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بفرقة واحدة من جيشهم؛ لأن أهلها لا
 يحاربونهم لأجل الدولة البريطانية، وهم يعلمون أن معاهدتها مع الملك فيصل
 خديعة استعمارية، ومن أدلتها أنها لم تسمح لهم بجيش عربي عراقي؛ ليظلوا عالة
 عليها، وقد خلقت لهم أقليات مسيحية، جعلت لها جندًا خاصًّا؛ لأجل منْع الوحدة
 الوطنية، فهل يسمح مجلس العموم الإنكليزي للورد كرزون المتعصب عدو الإسلام
-بمئات الملايين من الذهب، ومئات الألوف من الجند؛ ليقاتل به الترك في <placeName change="#d2e120" xml:id="placeName_61.d2e4406">الموصل</placeName>،
-ويحتفظ ب<placeName change="#d2e120" xml:id="placeName_62.d2e4411">العراق</placeName>؟ ، المعقول: لا، وعلم الغيب لله تعالى. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_7.d2e4414"/>
+بمئات الملايين من الذهب، ومئات الألوف من الجند؛ ليقاتل به الترك في <placeName change="#d2e120 #d11e276" xml:id="placeName_61.d2e4406" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName>،
+ويحتفظ ب<placeName change="#d2e120 #d11e276" xml:id="placeName_62.d2e4411" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>؟ ، المعقول: لا، وعلم الغيب لله تعالى. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_7.d2e4414"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_5.d2e4416">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_7.d2e4418" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -1918,47 +1918,47 @@
 
                
 والمادة التاسعة تسلب الحكومة العراقية حريتها القضائية بهذا النص: (يتعهد
-جلالة ملك <placeName change="#d2e120" xml:id="placeName_63.d2e4440">العراق</placeName> بقبول اللائحة التي يشير بها جلالة ملك بريطانية، ويكفل تنفيذها
+جلالة ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_63.d2e4440" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بقبول اللائحة التي يشير بها جلالة ملك بريطانية، ويكفل تنفيذها
 في أمور العدلية لتأمين مصالح الأجانب بسبب إلغاء الامتيازات) إلخ، وقد
 كافح المصريون أشد الكفاح في رفض ما هو أقل من هذا القيد مما عُرض عليهم،
 ويكافح الترك في لوزان الآن مثل ذلك، فيما هو دونه أيضًا، فيا حسرةً على
 العراق!
 والمادة العاشرة في عقد اتفاقات منفردة لتأمين تنفيذ المعاهدات، والاتفاقات،
-أو التعهدات التي تعهد ملك الإنكليز بتنفيذها في <placeName change="#d2e120" xml:id="placeName_64.d2e4457">العراق</placeName>! ، ووراء هذا من الغوائل
+أو التعهدات التي تعهد ملك الإنكليز بتنفيذها في <placeName change="#d2e120 #d11e276" xml:id="placeName_64.d2e4457" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>! ، ووراء هذا من الغوائل
 ما هو سالب لكل استقلالٍ.
-والحادية عشرة في مساواة الرعايا البريطانيين في <placeName change="#d2e120" xml:id="placeName_65.d2e4464">العراق</placeName> لغيرهم من دول
+والحادية عشرة في مساواة الرعايا البريطانيين في <placeName change="#d2e120 #d11e276" xml:id="placeName_65.d2e4464" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> لغيرهم من دول
 عصبة الأمم، والقصد فيها إلى إرضائهم مع امتياز الدولة البريطانية بالسيادة الفعلية.
 والثانية عشرة نص في أن: (لا تتخذ وسيلة ما لمنْع أعمال التبشير أو
-التدخل فيها) ، وهذا حَجْرٌ شديدٌ على حكومة <placeName change="#d2e120" xml:id="placeName_66.d2e4474">العراق</placeName> يَحُولُ دون محافظتها على
+التدخل فيها) ، وهذا حَجْرٌ شديدٌ على حكومة <placeName change="#d2e120 #d11e276" xml:id="placeName_66.d2e4474" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> يَحُولُ دون محافظتها على
 كرامة دينها من تكذيب القرآن الحكيم، وخاتم النبيين - صلى الله عليه وسلم -
 والطعن فيهما، والتنفير عن الإسلام من قِبَل مبشري النصارى، وتأويل النصوص
 بالباطل من البهائية أنصار الدولة البريطانية السائدة، ويمنعها من مراقبة أعمالهم،
 ومطبوعاتهم الضارة كما نراه في مصر، وستُحدِث هذه المادة من الفتن والفساد ما
-لا يعلم عاقبتَه إلا اللهُ؛ لأن <placeName change="#d2e120" xml:id="placeName_67.d2e4488">العراق</placeName> لم يألف احتمال مثل هذا كمصر، ولولا سوء
+لا يعلم عاقبتَه إلا اللهُ؛ لأن <placeName change="#d2e120 #d11e276" xml:id="placeName_67.d2e4488" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> لم يألف احتمال مثل هذا كمصر، ولولا سوء
 نية الإنكليز - في هذه المادة - لاكتفوا بحرية الأديان، حتى في الدعوة إليها،
 بشرط أن لا يطعن واحد في دين الآخر، ولا يشوه نصوصه، فإن قيل: إنه قد
 اشترط فيها: (أن لا تخل الأعمال بالنظام العام وحسن إدارة الحكومة) - قلنا: هذا
 الشرط سيكون حجة على الحكومة لا لها، إذا فرضنا أنها تجرأت على التصدي
 لمنع شيء مما أشرنا إليه.
-والثالثة عشرة في التزام ملك <placeName change="#d2e120" xml:id="placeName_68.d2e4504">العراق</placeName> تنفيذ ما تقرره جمعية الأمم لمنع
+والثالثة عشرة في التزام ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_68.d2e4504" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> تنفيذ ما تقرره جمعية الأمم لمنع
 الأمراض.
 والرابعة عشرة في سَنِّ قانون للآثار القديمة.
 والخامسة عشرة في عقد اتفاق مالي بين الطرفين، يُنص فيه على ما يعطي
-ملك الإنكليز لحكومة <placeName change="#d2e120" xml:id="placeName_69.d2e4516">العراق</placeName> من المرافق العامة، وعلى مساعدة حكومته لهم بالمال
-حسب الحاجة، وعلى تصفية ديون <placeName change="#d2e120" xml:id="placeName_70.d2e4521">العراق</placeName>، وهذا الاتفاق سيكون مثار آفات
+ملك الإنكليز لحكومة <placeName change="#d2e120 #d11e276" xml:id="placeName_69.d2e4516" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> من المرافق العامة، وعلى مساعدة حكومته لهم بالمال
+حسب الحاجة، وعلى تصفية ديون <placeName change="#d2e120 #d11e276" xml:id="placeName_70.d2e4521" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وهذا الاتفاق سيكون مثار آفات
 وغوائل كبيرة إن لم تقُم به حكومة عليمة بدقائق الفنون المالية، والمكايد السياسية،
 ومسلحة بالشجاعة الأدبية، فالإنكليز استباحوا سلب السودان من مصر؛ بحجة أنهم
 ساعدوها على فتحه، بعد أن أجبروها على تقرير تركه، ثم على فتحه برجالها
 ومالها، وإنما ساعدوها بمبلغٍ حقيرٍ، لا يوازي ما استفاده بعض رجالهم منها.
 السادسة عشرة في تعهد ملك الإنكليز بقدر ما تسمح له التعهدات الدولية -
-المجهولة لدى <placeName change="#d2e120" xml:id="placeName_71.d2e4537">العراق</placeName> - بأن لا يضع عقبة في سبيل ارتباط <placeName change="#d2e120" xml:id="placeName_72.d2e4540">العراق</placeName> مع الدول
-العربية المجاورة بمقاصد جمركية أو غيرها، وفحواها أن حكومة <placeName change="#d2e120" xml:id="placeName_73.d2e4546">العراق</placeName> غير
+المجهولة لدى <placeName change="#d2e120 #d11e276" xml:id="placeName_71.d2e4537" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> - بأن لا يضع عقبة في سبيل ارتباط <placeName change="#d2e120 #d11e276" xml:id="placeName_72.d2e4540" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> مع الدول
+العربية المجاورة بمقاصد جمركية أو غيرها، وفحواها أن حكومة <placeName change="#d2e120 #d11e276" xml:id="placeName_73.d2e4546" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> غير
 مستقلة ولا حرة في مثل هذا الارتباط بنفسها.
 والسابعة عشرة في تحكيم محكمة العدل بجمعية الأمم في الخلاف الذي يمكن
 أن يقع بين الطرفين في هذه المعاهدة، على أن يكون الاعتماد على النص
 الإنكليزي (؟ !)
 والثامنة عشرة - وهي الأخيرة - في كوْن مدة هذه المعاهدة عشرين سنة،
-وليس فيها نص في شكل حكومة <placeName change="#d2e120" xml:id="placeName_74.d2e4562">العراق</placeName> بعدها إذا قررت وجوب إلغائها، تكون
+وليس فيها نص في شكل حكومة <placeName change="#d2e120 #d11e276" xml:id="placeName_74.d2e4562" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بعدها إذا قررت وجوب إلغائها، تكون
 حرة مستقلة بعد تكوين الإنكليز إياها كما يشاؤون، وتقييدها بالقيود المالية وغيرها
 كما يهوون، أم يقرون ما شاؤوا في أمرها بدعوى أنهم هم الذين أوجدوها، وما لهم
 من المصالح فيها، والديون عليها؟ ، نعم، هكذا يفعلون، وإذا لم يستقل العراق
@@ -1967,7 +1967,7 @@
 كتبه المصريون في قضيتهم الحاضرة، أو المطبوع منه خاصة؛ ليكونوا على
 بصيرة من هذه المعاهدة التي ستكون حجة القوي على الضعيف، كما قال
 (بسمارك) في المعاهدات المنطبقة على القانون الدولي مع الدول العظمى، فما
-القول في <placeName change="#d2e120" xml:id="placeName_75.d2e4585">العراق</placeName> الذي جعلوه تحت وصايتهم، وأقرتهم دول عصبة لصوص الأمم
+القول في <placeName change="#d2e120 #d11e276" xml:id="placeName_75.d2e4585" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> الذي جعلوه تحت وصايتهم، وأقرتهم دول عصبة لصوص الأمم
 على ذلك؛ لأنها آلة في أيديهم؟ ! <note type="footnote" place="bottom" change="#d2e120" xml:id="note_8.d2e4590"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_6.d2e4592">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_8.d2e4594" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
@@ -2018,14 +2018,14 @@
 المنار، فظهر لي الآن سر ما فيها من النفاق والمراء غير المعهود من صحيح
 العقيدة، ولا فاسدها من رجال القضاء، وسر اعتماد الإنكليز على صاحبها وندبهم
 له لإصلاح القضاء في فلسطين، وأنه من كيدهم الخفي لهذا الدين، والبهائية
-صنائعهم في كل مكان، ولا سيما <placeName change="#d2e120" xml:id="placeName_76.d2e4683">العراق</placeName>، وإيران، وقد كان لروحي أفندي من
-بطانة الوكالة البريطانية في جدة دسائس كثيرة في <placeName change="#d2e120" xml:id="placeName_77.d2e4689">الحجاز</placeName>.
+صنائعهم في كل مكان، ولا سيما <placeName change="#d2e120 #d11e276" xml:id="placeName_76.d2e4683" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وإيران، وقد كان لروحي أفندي من
+بطانة الوكالة البريطانية في جدة دسائس كثيرة في <placeName change="#d2e120 #d11e276" xml:id="placeName_77.d2e4689" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>.
 ومنهم (م. خ) الذي كتب مقالة جهلية في الخلافة، ووصف نفسه في
 إمضائها بأنه من علماء الإسلام، وأنه وكيل جمعية حفظ الخلافة، فتصدى كثير من
 العلماء للرد عليه، وأنكر بعضهم كونه عالمًا أزهريًّا مصريًّا، والحق أنه مصري
 أزهري، ولكنه مضطرب، غير عالم، ولا مسلم، بل هو بهائي، وحسبنا - في
 الرد عليه - أنه بهائي.
-كانت <placeName change="#d2e120" xml:id="placeName_78.d2e4705">الدولة العثمانية</placeName> مشترطة على البابية - البهائية والأزلية - جميعًا أن لا
+كانت <placeName change="#d2e120 #d11e276" xml:id="placeName_78.d2e4705" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> مشترطة على البابية - البهائية والأزلية - جميعًا أن لا
 يدْعوا إلى دينهم في بلادها، وإلا أخرجتهم منها، فلم يكونوا يبثُّون دعوتهم إلا في
 مصر، وبطريق المناظرة والمغالطة دون الجهر، وقد أصابت لجنة الدستور بعدم
 إصغائها إلى طلبهم الاعترافَ بدينهم كما طلبوا، فإن نص في الدستور المصري

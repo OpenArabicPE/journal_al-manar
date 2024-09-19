@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_25-i_2.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_25-i_2.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e288">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_25-i_2.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_25-i_2.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1342">1342</date><date calendar="#cal_gregorian" when="1924" xml:lang="ar">فبراير - 1924م</date></imprint>
                   <biblScope unit="volume" from="25" to="25" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">25</biblScope>
                   <biblScope unit="issue" from="2" to="2" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">2</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e282" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e288" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e282" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -77,17 +77,17 @@
 
                
 الجناية الثالثة: الظلم والاستبداد في الحرمين
-إن استبداد الملك حسين , وظلمه في <placeName change="#d2e120" xml:id="placeName_4.d2e263">الحجاز</placeName> لا نعلم له نظيرًا في حكومة
+إن استبداد الملك حسين , وظلمه في <placeName change="#d2e120 #d11e288" xml:id="placeName_4.d2e263" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لا نعلم له نظيرًا في حكومة
 وطنية من حكومات العالم في هذا العصر , وإنما هو كحكم أشد المستعمرين للأمم
-الضعيفة قسوة وطمعًا في ابتزاز الأموال وإذلال الناس، فأهل <placeName change="#d2e120" xml:id="placeName_5.d2e271">الحجاز</placeName> في هذا العهد
+الضعيفة قسوة وطمعًا في ابتزاز الأموال وإذلال الناس، فأهل <placeName change="#d2e120 #d11e288" xml:id="placeName_5.d2e271" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> في هذا العهد
 بائسون ذليلون , ولا يتجرأ أحد منهم على الشكوى بقول ولا كتابة، ونحن قد أمكننا
 الوقوف على كثير من الحقائق الآتية من بعض أهل البصيرة والتحقيق من حجاج
-الموسم الأخير , الذين لهم أصدقاء في <placeName change="#d2e120" xml:id="placeName_6.d2e281">الحجاز</placeName> يثقون بهم , ومما اختبروه بأنفسهم
+الموسم الأخير , الذين لهم أصدقاء في <placeName change="#d2e120 #d11e288" xml:id="placeName_6.d2e281" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> يثقون بهم , ومما اختبروه بأنفسهم
 على كثرة الجواسيس , وحرص الملك على مراءاة الحجاج، وقد جاءتنا رسالة
-طويلة في وصف حالة <placeName change="#d2e120" xml:id="placeName_7.d2e288">الحجاز</placeName> من أحد حجاج الموسم الماضي من جزائر الهند
+طويلة في وصف حالة <placeName change="#d2e120 #d11e288" xml:id="placeName_7.d2e288" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من أحد حجاج الموسم الماضي من جزائر الهند
 الشرقية , فنلخص من هذا وذاك ما يتعلق بغرضنا بالإيجاز ونجعله عدة أقسام:
 المظالم المالية:
-(1) كل ما يرد على <placeName change="#d2e120" xml:id="placeName_8.d2e298">مكة</placeName> من الأنعام ينتقي الملك كرائمها وخيارها لنفسه ,
+(1) كل ما يرد على <placeName change="#d2e120 #d11e288" xml:id="placeName_8.d2e298" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> من الأنعام ينتقي الملك كرائمها وخيارها لنفسه ,
 بواسطة سمسار له اسمه (إبراهيم) فيدفع ثمن الجمل الأعلى منها 25 ريالاً مجيديًا
 (تساوي 120 قرشًا مصريًّا) إذا كان الأدنى يباع بخمسة وعشرين جنيهًا مصريًّا ,
 ويعطي ثمن الكبش الجيد بل الأجود ريالين مجيدين , إذا كان الأدنى منها يساوي
@@ -95,16 +95,16 @@
 (2) يأخذ مكسًا على كل جمل ثلاثة ريالات مجيدية (30 أو 35 قرشًا
 مصريًّا) , وعلى كل ثور أو بقرة خمسين قرشًا مصريًّا؛ لأنه لا يأخذ منها لنفسه
 كما يأخذ من الإبل والغنم , هذا إذا كانت الإبل والبقر للعمل , وأما إذا كانت للذبح
-فيأخذ عن كل رأس عشرة ريالات , ومن المعلوم أن الإبل لا تذبح في <placeName change="#d2e120" xml:id="placeName_9.d2e318">الحجاز</placeName> إلا
+فيأخذ عن كل رأس عشرة ريالات , ومن المعلوم أن الإبل لا تذبح في <placeName change="#d2e120 #d11e288" xml:id="placeName_9.d2e318" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إلا
 إذا هزلت , وتعذر الحمل عليها والسفر بها , وإن كان الجمل الهزيل الضعيف قلما
 يباع بأكثر من عشر ريالات , وقد يباع بخمسة، ولكن الملك يأخذ عليه عشرة
 ريالات مهما يكن ثمنه الذي بيع به , فيضطر الجزار بذلك إلى بيع لحمه غاليًا ,
 وهو لا يأكله إلا الفقراء فيكون الغبن عليهم.
-(3) كل من يأتي <placeName change="#d2e120" xml:id="placeName_10.d2e332">مكة</placeName> أو غيرها من بلاد <placeName change="#d2e120" xml:id="placeName_11.d2e335">الحجاز</placeName> بشيء للبيع من خارجها ,
+(3) كل من يأتي <placeName change="#d2e120 #d11e288" xml:id="placeName_10.d2e332" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أو غيرها من بلاد <placeName change="#d2e120 #d11e288" xml:id="placeName_11.d2e335" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بشيء للبيع من خارجها ,
 ولو كان من البدو أو أهل القرى الحجازيين , يجبر على أخذ ثمنه ريالات مجيدية
-وقروش عثمانية (مما يسمى في سورية متلبك , وفي <placeName change="#d2e120" xml:id="placeName_12.d2e343">الحجاز</placeName> هلل) ؛ لأن الذهب
+وقروش عثمانية (مما يسمى في سورية متلبك , وفي <placeName change="#d2e120 #d11e288" xml:id="placeName_12.d2e343" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> هلل) ؛ لأن الذهب
 خاص بالملك، وهذه السكة لا تروج عند الأعراب , الذين يأتون بالماشية وغيرها
-إلى <placeName change="#d2e120" xml:id="placeName_13.d2e350">مكة</placeName> , فيرغبون أن يشتروا بثمنها أقواتًا أو أقمشة لعيالهم , ولكن الشراء من مكة
+إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_13.d2e350" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> , فيرغبون أن يشتروا بثمنها أقواتًا أو أقمشة لعيالهم , ولكن الشراء من مكة
 محرم في شرع الملك إلا برخصة من الديوان الهاشمي - ويعبر عنها بالفسح -
 وقد يتأخر صدور (الفسح) ولا سيما إذا كثر طلابه حتى ينفق الغريب ما باع
 منه , ويرجع إلى عياله بغير شيء , ولا سيما إذا كان ما باعه قليلاً كالوقود والفاكهة.
@@ -113,9 +113,9 @@
 على أخذ ثمنه من النقد العثماني , الذي لا يروج عندهم، فصارت أقة السمن
 البحري الرديء المغشوش تباع بثلاثة مجيديات , وكانت الآقة من الجيد تباع بربع
 مجيدي إلى نصف ريال , إذا اشتد الغلاء , وأقة اللحم بريالين , وكانت بقرشين ,
-فأصبح أهل <placeName change="#d2e120" xml:id="placeName_14.d2e373">مكة</placeName> في ضيق , لم يعرفوا له نظيرًا إلا في تلك الأيام , التي اتفق فيها
-سيدهم مع الإنكليز على منع الأقوات من <placeName change="#d2e120" xml:id="placeName_15.d2e378">الحجاز</placeName> ليواتوه على الثورة.
-(5) يأخذ عن كل بضاعة تأتي من البحر إلى <placeName change="#d2e120" xml:id="placeName_16.d2e384">الحجاز</placeName> ثلاثين في المائة
+فأصبح أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_14.d2e373" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> في ضيق , لم يعرفوا له نظيرًا إلا في تلك الأيام , التي اتفق فيها
+سيدهم مع الإنكليز على منع الأقوات من <placeName change="#d2e120 #d11e288" xml:id="placeName_15.d2e378" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ليواتوه على الثورة.
+(5) يأخذ عن كل بضاعة تأتي من البحر إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_16.d2e384" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ثلاثين في المائة
 من ثمنها , إلا الكماليات: كالحرير فيأخذ منها خمسين في المائة , وذلك بحسب
 أسعارها في سوق جدة لا بحسب السعر الذي اشتريت به، ونترك الكلام في
 اقتراض الملك من تجار جدة ألوف الجنيهات , على أن توفى من المكوس التي
@@ -123,14 +123,14 @@
 مشتكى إلا إلى الله.
 (6) أبطل جميع الأفران التي للأهالي , وفتح أفرانًا لنفسه , يعطيها الدقيق
 المختلط من عنده , ويكره الناس على الشراء منها دون غيرها , وهو يربح منها كل
-يوم أكثر من تسعين جنيهًا من <placeName change="#d2e120" xml:id="placeName_17.d2e404">مكة</placeName> , وجاء في رواية أخرى كتبها بعض الحجاج
+يوم أكثر من تسعين جنيهًا من <placeName change="#d2e120 #d11e288" xml:id="placeName_17.d2e404" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> , وجاء في رواية أخرى كتبها بعض الحجاج
 المصريين أنه يربح من أفرانه ثلاثمائة جنيه في كل يوم , وقد قال النبي صلى الله
 عليه وسلم: (احتكار الطعام في الحرم إلحاد فيه) رواه البخاري في تاريخه وأبو
 داود وأشهر رواة التفسير بالمأثور من حديث يعلى بن أمية , وفي لفظ من حديث ابن
-عمر مرفوعًا: (احتكار الطعام ب<placeName change="#d2e120" xml:id="placeName_18.d2e416">مكة</placeName> إلحاد) رواه البيهقي في شعب الإيمان، وروى
+عمر مرفوعًا: (احتكار الطعام ب<placeName change="#d2e120 #d11e288" xml:id="placeName_18.d2e416" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> إلحاد) رواه البيهقي في شعب الإيمان، وروى
 سعيد بن منصور والبخاري في التاريخ أيضًا وابن المنذر عن عمر بن الخطاب
-أنه قال: (احتكار الطعام ب<placeName change="#d2e120" xml:id="placeName_19.d2e424">مكة</placeName> إلحاد بظلم) . روي عن ابن عباس أنه قال: في
-تفسير الآية: (تجارة الأمير ب<placeName change="#d2e120" xml:id="placeName_20.d2e429">مكة</placeName> إلحاد) . فما بال المكوس؟ !
+أنه قال: (احتكار الطعام ب<placeName change="#d2e120 #d11e288" xml:id="placeName_19.d2e424" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> إلحاد بظلم) . روي عن ابن عباس أنه قال: في
+تفسير الآية: (تجارة الأمير ب<placeName change="#d2e120 #d11e288" xml:id="placeName_20.d2e429" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> إلحاد) . فما بال المكوس؟ !
 (7) جعل قيمة الجنيه سبعة ريالات مجيدية , يغرم من يخالف ذلك بمبلغ
 من المال له , لكنه يبيع الذهب للصيارف بألوف الجنيهات , كل جنيه باثني عشر
 ريالاً ثم يجبرهم على إعطائه الجنيه بالسعر الرسمي , وهو سبعة ريالات، والتجار
@@ -140,9 +140,9 @@
 (8) ما يأخذه من الغرامات , وينزله من العقاب على من يخالف السعر أو
 يعترض على اختلاف ما يأخذه هو ويعطيه، لا مستند له إلا رأيه، وقد جازى
 التجار على ذلك مرارًا , حتى بلغت الغرامة من جماعتهم من مائة جنيه إلى ثلاثمائة
-جنيه , بل عاقب بعد الموسم خمسة من تجار <placeName change="#d2e120" xml:id="placeName_21.d2e454">مكة</placeName> المحترمين بالجلد الشديد وكنس
+جنيه , بل عاقب بعد الموسم خمسة من تجار <placeName change="#d2e120 #d11e288" xml:id="placeName_21.d2e454" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المحترمين بالجلد الشديد وكنس
 الشوارع؛ لأن جواسيسه بلغوه عنهم أنهم قالوا: إن سعر النقود العثمانية سينزل ,
-حتى مات أحدهم من شدة الضرب , كما جاء في كتاب خاص من <placeName change="#d2e120" xml:id="placeName_22.d2e461">مكة</placeName> لأحد التجار
+حتى مات أحدهم من شدة الضرب , كما جاء في كتاب خاص من <placeName change="#d2e120 #d11e288" xml:id="placeName_22.d2e461" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> لأحد التجار
 هنا.
 (9) استأثر لنفسه بالغلال المصرية سنتين , فلم يعط المستحقين شيئًا حتى
 مات بعض المستحقين لها من فقراء المدينة المنورة جوعًا , ثم صار يعطي الأحياء
@@ -153,23 +153,23 @@
 (10) استبد بوقف الشريف أبي نمي فلا يوزعه على المستحقين من ذريته
 حسب شرطه , حتى قيل: إن بعض الشريفات يخرجن في الليل متسولات , يتكففن
 أيدي الناس في الشوارع.
-(11) قد استعار من أغنياء <placeName change="#d2e120" xml:id="placeName_23.d2e488">مكة</placeName> أثاثًا ورياشًا وماعونًا كثيرًا , للدار التي
+(11) قد استعار من أغنياء <placeName change="#d2e120 #d11e288" xml:id="placeName_23.d2e488" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أثاثًا ورياشًا وماعونًا كثيرًا , للدار التي
 أنزل فيها السلطان وحيد الدين المخلوع وحاشيته , ثم لما ذهب السلطان من مكة
 استأثر بهذه العواري النفيسة، ولم يردها إلى أصحابها.
-(12) جمع ثلاثين ألف جنيه من أهل <placeName change="#d2e120" xml:id="placeName_24.d2e498">الحجاز</placeName> بالإكراه والإجبار , ومن
+(12) جمع ثلاثين ألف جنيه من أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_24.d2e498" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بالإكراه والإجبار , ومن
 الحجاج بالاختيار؛ لإعانة المسجد الأقصى، وأرسل منها اثني عشر ألف
 وخمسمائة جنيه، وقد نشر في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e505">القبلة</title></bibl> ما أخذ من كبار التجار والموظفين في
 الحكومة ومن الحجاج , وأما ما أخذ من العوام وصغار التجار فلم ينشر فيها [1] .
-(13) ذهب إلى <placeName change="#d2e120" xml:id="placeName_25.d2e513">مكة</placeName> الشرفاء زامل وجعفر وعلي أولاد السيد ناصر أخي
+(13) ذهب إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_25.d2e513" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> الشرفاء زامل وجعفر وعلي أولاد السيد ناصر أخي
 الملك فوضعهم الملك تحت المراقبة الشديدة والقهر , وكان مرادهم الإقامة في مكة
 شهرًا واحدًا , فأكرههم على الإقامة زهاء سنة , ولما عادوا إلى مصر أرسل إلى
-وكيل أطيانه إسكندر بك طراد كشف فيه أنه أنفق عليهم في <placeName change="#d2e120" xml:id="placeName_26.d2e523">مكة</placeName> ألف وثمانية
+وكيل أطيانه إسكندر بك طراد كشف فيه أنه أنفق عليهم في <placeName change="#d2e120 #d11e288" xml:id="placeName_26.d2e523" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ألف وثمانية
 وعشرين جنيهًا وكسورًا , وأمره أن يطالب أخاه الشريف ناصر بهذا المبلغ ,
 وينذره بإمساكها من إيراد الوقف المشترك , إذا لم يؤدها إليه نقدًا.
 ***
 العقاب والأحكام
 إنه يذيع في جريدته القبلة أن أحكامه كلها شرعية , مستمدة من الكتاب والسنة،
-والواقع الذي يعرفه أهل <placeName change="#d2e120" xml:id="placeName_27.d2e539">الحجاز</placeName> ومن أقام فيه زمنًا يزيد على مدة الحج من غيرهم ,
+والواقع الذي يعرفه أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_27.d2e539" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ومن أقام فيه زمنًا يزيد على مدة الحج من غيرهم ,
 ولا سيما الذين استخدموا فيه - أن أحكامه شخصية محضة , لا يتقيد فيها بقيد
 من شرع ولا مشاورة، ولا قانون، وهو وإن كفر الترك والمصريين بوضعهم
 للقانون الأساسي وغيره , فقد وضع بعض القوانين وأمر بتنفيذها ومنها:
@@ -187,7 +187,7 @@
 وأدهى من هذا وأعظم في رد الشرع ونبذه وراء الظهر، وتفضيل حكم
 الطاغوت على حكم القرآن المنزل من عند الله عز وجل، حكمه بقانون جده الأمير
 أبي نمي في جميع مسائل الدماء بين البدو. ومن أصول مواد هذا القانون أن دم
-شرفاء <placeName change="#d2e120" xml:id="placeName_28.d2e581">الحجاز</placeName> مربع , فإذا قتل أحدهم يقتل به أربعة من خواص رجال القبيلة
+شرفاء <placeName change="#d2e120 #d11e288" xml:id="placeName_28.d2e581" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> مربع , فإذا قتل أحدهم يقتل به أربعة من خواص رجال القبيلة
 المتهمة بقتله، ولا شك في أن استحلال هذا كفر وردة عن الإسلام. وإن إمام
 المسلمين وخليفتهم يجب عليه شرعًا أن يقاتل من يتحاكمون ومن يحكمون بمثل
 هذا وغيره , من أصول الجاهلية المقررة فيه، ومرجعها كلها إلى ما يسمونه
@@ -207,7 +207,7 @@
 والقانون في إمارته البريطانية الحقيرة , فلا يحاكمون ولا يعاقبون على فاحشة ولا
 منكر.
 وأما ما نقلته جريدة قبلة من أحكامه , التي سمتها إقامة لحدود الشرع وعملاً
-بالقرآن , فقد جاءنا الخبر من الثقات في <placeName change="#d2e120" xml:id="placeName_29.d2e627">الحجاز</placeName> , بأنه ليس فيها شيء موافق لحكم
+بالقرآن , فقد جاءنا الخبر من الثقات في <placeName change="#d2e120 #d11e288" xml:id="placeName_29.d2e627" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> , بأنه ليس فيها شيء موافق لحكم
 الشرع , ولا كان شيء منها بمقتضى محاكمة شرعية , فقد أمر بقطع يد رجل
 ورجله؛ لأنه فر من سجنه الذي هو شر من سجن الحجاج، وفعل مثل ذلك بمن
 اعترض على الخطيب بالمدينة المنورة؛ لإطرائه إياه في الخطبة، وادعوا أن هذا
@@ -226,7 +226,7 @@
 الإعلام الشرعي الذي تصدره بالحكم النهائي ويأمر بتجديد الدعوة لأجل الحكم فيها
 بما يأمر به، ويقول: إنه إمام المسلمين والوارث لجده الشارع في التشريع
 وهو غير مقيد فيه بشيء، بل فيها أن له مخالفة نصوص الكتاب والسنة , وكنا
-سمعنا هذا من بعض خدمه في <placeName change="#d2e120" xml:id="placeName_30.d2e672">مكة</placeName> عدد سنين , ولكن الله تعالى لم يعط للرسول
+سمعنا هذا من بعض خدمه في <placeName change="#d2e120 #d11e288" xml:id="placeName_30.d2e672" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> عدد سنين , ولكن الله تعالى لم يعط للرسول
 صلى الله عليه وسلم أن يغير أو يبدل شيئًا من القرآن , وهو معصوم من فعل ذلك من
 تلقاء نفسه بدليل النص والإجماع. قال تعالى: {وَإِذَا تُتْلَى عَلَيْهِمْ آيَاتُنَا بَيِّنَاتٍ قَالَ
 الَّذِينَ لاَ يَرْجُونَ لِقَاءَنَا ائْتِ بِقُرْآنٍ غَيْرِ هَذَا أَوْ بَدِّلْهُ قُلْ مَا يَكُونُ لِي أَنْ أُبَدِّلَهُ مِن تِلْقَاءِ
@@ -311,7 +311,7 @@
 بأصح نصوص السنة لجميع أبواب الفقه , وذكر لها في كشف الظنون عدة شروح
 لكبار العلماء، وشرحها لشيخ الإسلام المحقق ابن دقيق العيد طبع في الهند ويطبع
 الآن بمصر.
-وكتب إلينا صديقنا علامة <placeName change="#d2e120" xml:id="placeName_31.d2e849">العراق</placeName> السيد محمود شكري الآلوسي أنه اطلع على
+وكتب إلينا صديقنا علامة <placeName change="#d2e120 #d11e288" xml:id="placeName_31.d2e849" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> السيد محمود شكري الآلوسي أنه اطلع على
 الجزء الأول من شرح شيخ الإسلام ابن تيمية للعمدة (فرأى فيه ما لا عين رأت ولا
 أذن سمعت) ولم يبلغنا شيء عن هذا الشرح من غيره، وذكر صاحب كشف
 الظنون أن كتاب العمدة هذا ثلاثة مجلدات عز نظيره , وأن أوله: (الحمد لله أتم
@@ -616,13 +616,13 @@
 وإلا فقد قلنا في تعليل منع التزاوج بين المؤمنين والمشركين من سورة البقرة: إن
 هذا الأمر يختلف باختلاف الأشخاص، فرب مسلم مقلد يتزوج بكتابية عالمة ,
 فتفسد عليه تقاليده (ص361 ج 2 تفسير) وسنشرح المسألة في أول فرصة إن
-شاء الله تعالى. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_3.d2e1508">(1) للأستاذ الشيخ عبد القادر المغربي العضو في المجمع العلمي ب<placeName change="#d2e120" xml:id="placeName_32.d2e1510">دمشق</placeName>.
+شاء الله تعالى. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_3.d2e1508">(1) للأستاذ الشيخ عبد القادر المغربي العضو في المجمع العلمي ب<placeName change="#d2e120 #d11e288" xml:id="placeName_32.d2e1510" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>.
 (2) قد منعه بعض المتقدمين والمتأخرين , وهو مما شذ به عبد الله بن عمر رضي الله عنه عن جمهور الصحابة.
 (3) المنار: إن هذا القول غير صحيح , فقائله إما أن يكون حاكيًا عن فئة معينة غير مقيدة بتعليم الكنيسة , وإما أن يكون جاهلاً أو مصانعًا ,على أنهم لا يزالون يزوجون المسلمين.
 (4) المنار: هذه مبالغة عظيمة.
 (5) إن الإكثار منهن لم يكن ممكنًا ولا مصلحة؛ لأنه يقتضي تأييم الكثير من المسلمات , وكفى أن السراري كن منهن في الغالب.
 (6) أنشئت هذه المقالة في عهد الحكومة العثمانية (الكاتب) .
-(7) المنار: هذه مبالغة بل غلو كبير فاللواتي يجدن القراءة والكتابة فينا واللواتي يجهلنها فيهم كثيرات جدًّا , ولكن المتعلمات فيهن أكثر بالنسبة إلى عددهن وعددنا. هذا وإننا نعرف كثيرًا من رجالنا في مصر وسورية تزوجن بنساء أوربيات , فأسلمن وتبعن أزواجهن , أو بقين على دينهن ولا نعرف واحدة منهن نصرت زوجها , ولا تصرفت في أهل بيته كما تشاء، وإني أذكر هذا الرأي لصديقي الأستاذ الكاتب , منذ كنا نطلب العلم في <placeName change="#d2e120" xml:id="placeName_33.d2e1526">طرابلس الشام</placeName> ومن العجيب أنه بقي مصرًّا عليه بعد أن زار مصر واتسع اختباره.</note>
+(7) المنار: هذه مبالغة بل غلو كبير فاللواتي يجدن القراءة والكتابة فينا واللواتي يجهلنها فيهم كثيرات جدًّا , ولكن المتعلمات فيهن أكثر بالنسبة إلى عددهن وعددنا. هذا وإننا نعرف كثيرًا من رجالنا في مصر وسورية تزوجن بنساء أوربيات , فأسلمن وتبعن أزواجهن , أو بقين على دينهن ولا نعرف واحدة منهن نصرت زوجها , ولا تصرفت في أهل بيته كما تشاء، وإني أذكر هذا الرأي لصديقي الأستاذ الكاتب , منذ كنا نطلب العلم في <placeName change="#d2e120 #d11e288" xml:id="placeName_33.d2e1526" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> ومن العجيب أنه بقي مصرًّا عليه بعد أن زار مصر واتسع اختباره.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_3.d2e1533">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_5.d2e1535" ref="oape:pers:536 viaf:118432135">
                             <forename xml:lang="ar">عبد القادر</forename>
                             <surname xml:lang="ar">المغربي</surname>
@@ -684,7 +684,7 @@
 وبشروا لا تنفروا) متفق عليه من حديث أنس رضي الله عنه. وفي رواية
 (وسكنوا) بدل (وبشروا) وورد من حديث أبي موسى بالتثنية؛ أي: إن
 النبي صلى الله عليه وسلم خاطبه هو ومعاذ - رضي الله عنهما - بذلك حين أرسلهما
-عاملين إلى <placeName change="#d2e120" xml:id="placeName_35.d2e1654">اليمن</placeName>، وأمرهما بالاتفاق وهو متفق عليه أيضًا , وقالت عائشة - رضي
+عاملين إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_35.d2e1654" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وأمرهما بالاتفاق وهو متفق عليه أيضًا , وقالت عائشة - رضي
 الله تعالى - عنها: ما خير رسول الله صلى الله عليه وسلم بين أمرين إلا أخذ
 أيسرهما ما لم يكن إثمًا، فإن كان إثمًا كان أبعد الناس عنه. وهو متفق عليه واللفظ
 لمسلم - لو سلكوا هذا المسلك , مع بقاء طوائف من طلاب الشريعة يتوسعون في فقه
@@ -1254,7 +1254,7 @@
 الزواج إلى أن ينظر مجلس نواب الأمة في قانون الأحكام الشخصية وحينئذ نعود
 إلى الموضوع فنوفيه حقه إن شاء الله تعالى. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_4.d2e2923">(1) راجع ص <date calendar="#cal_gregorian" when="0404" change="#d3e146 #d2e120" xml:id="date_10.d2e2925">404</date> م20 و <date calendar="#cal_gregorian" when="0542" change="#d3e146 #d2e120" xml:id="date_11.d2e2928">542</date> م23.
 (2) منقولة عن <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_12.d2e2933">الأهرام</title></bibl>.
-(3) الذي عليه العلماء والمؤرخون نسبة الإمام الشافعي كالإمام مالك إلى <placeName change="#d2e120" xml:id="placeName_36.d2e2939">الحجاز</placeName> , وقد نسبه الكاتب هنا إلى مصر؛ لأنه هاجر إليها وتوفي ودفن فيها رحمه الله تعالى.
+(3) الذي عليه العلماء والمؤرخون نسبة الإمام الشافعي كالإمام مالك إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_36.d2e2939" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> , وقد نسبه الكاتب هنا إلى مصر؛ لأنه هاجر إليها وتوفي ودفن فيها رحمه الله تعالى.
 (4) يعني: أبو السعود العمادي رحمه الله تعالى.
 (5) هذه مقالة ثانية للشيخ الخضري , وضح بها مراده في المقالة الأولى؛ ردًّا على بعض المنكرين. <gap resp="#org_MS" change="#d2e120" xml:id="gap_65.d2e2946"/> 
                   <gap resp="#org_MS" change="#d2e120" xml:id="gap_66.d2e2948"/> 
@@ -1322,7 +1322,7 @@
 المصرية , وساموهم فيها سوء العذاب، فتألفت لجنة رابعة.
 وظهر في أثناء ذلك الاعتداء على أشخاص الإنكليز من الموظفين والجند
 وغيرهم , فكان يغتال الواحد منهم بعد الآخر في الشوارع العامة في وقت الظهيرة
-أو طرفي النهار أو ناشئة الليل , وقد أرهق أهل <placeName change="#d2e120" xml:id="placeName_37.d2e3075">القاهرة</placeName> بتفتيش الحكومة المصرية
+أو طرفي النهار أو ناشئة الليل , وقد أرهق أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_37.d2e3075" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> بتفتيش الحكومة المصرية
 لبيوتهم؛ للبحث عن آثار يستدل بها على الجناية , فكان رجال الشرطة يدمرون
 على أهل البيوت في الليل أو النهار , وإن لم يكن فيها أحد من الرجال فيفتحون
 الخزائن والصناديق , ويقلبون الأثاث والرياش , ويأخذون كل ما يجدون من
@@ -1607,7 +1607,7 @@
 أن الغاية منها ربط العلائق الودية , وتوطيد دعائم الجامعة والوفاق ونشر الحقائق ,
 وبث التعارف والتعاون على البر والتقوى , ومؤازرة مجلة الجامعة الإسلامية الهندية
 وسائر ما وصل إلينا من أعددها مباحث في شؤون العالم الإسلامي , وبيان ما جاء
-عليه ملك <placeName change="#d2e120" xml:id="placeName_38.d2e3726">الحجاز</placeName> السيد حسين بن علي مفصلاً تفصيلاً , وقيمة الاشتراك فيها عشر
+عليه ملك <placeName change="#d2e120 #d11e288" xml:id="placeName_38.d2e3726" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> السيد حسين بن علي مفصلاً تفصيلاً , وقيمة الاشتراك فيها عشر
 روبيات في جزائر جاوه الهندية الشرقية وخمس عشرة (أي: جنيه إنكليزي) في
 سائر البلاد فنتمنى لها التوفيق والرواج.</bibl>
 ***

@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_21-i_8.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_21-i_8.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e276">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_21-i_8.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_21-i_8.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1338">1338</date><date calendar="#cal_gregorian" when="1920" xml:lang="ar">أغسطس - 1920م</date></imprint>
                   <biblScope unit="volume" from="21" to="21" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">21</biblScope>
                   <biblScope unit="issue" from="8" to="8" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">8</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e276" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -230,7 +230,7 @@
 خلاصتها
 في يوم 12 مايو سنة 1920 عقدت في (قاعة الساعة) بوزارة الخارجية
 الإفرنسية جلسة ذات خمس دقائق حضرها سفير إنكلترة , وسفير إيطالية , وسفير
-اليونان , ومندوب بلجيكا , ومندوب اليابان , ومندوب <placeName change="#d2e120" xml:id="placeName_4.d2e582">الحجاز</placeName> , ومندوب الصين ,
+اليونان , ومندوب بلجيكا , ومندوب اليابان , ومندوب <placeName change="#d2e120 #d11e276" xml:id="placeName_4.d2e582" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> , ومندوب الصين ,
 ومندوب البرتغال , ومندوب رومانية , ومندوب التشك سلوفاكية , ومندوب الصرب، ورئيس الوفد الأرمني، وبعد التئام المجلس أدخل المسيو فوكير الوفد
 التركي يرافقه ضابط إيطالي فقام الجميع، وبعد أن جلس رئيس الوفد توفيق
 باشا في المكان المعد له، وإلى جانبه وزير الداخلية رشيد باشا , وفخر الدين بك
@@ -295,7 +295,7 @@
 الأراضي، ولتوقع المعاهدة تعديلاً لحدود تركية المتاخمة لإيران.
 وإذا طلب الأكراد في تلك المنطقة استقلالهم من عصبة الأمم في موعد معين
 فإن هذا الاستقلال المعين يمنح لهم إذا أوصت به العصبة، وحينئذ يجوز للأكراد
-القاطنين في الجزء من كردستان الذي كان تابعًا حتى الآن لولاية <placeName change="#d2e120" xml:id="placeName_5.d2e726">الموصل</placeName> أن
+القاطنين في الجزء من كردستان الذي كان تابعًا حتى الآن لولاية <placeName change="#d2e120 #d11e276" xml:id="placeName_5.d2e726" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> أن
 ينضموا إلى الدولة الكردية المستقلة.
 أزمير
 تقبل الحكومة التركية بنقل التمتع بحقوق سيادتها على أزمير والمنطقة
@@ -336,7 +336,7 @@
 الأقليات، وحرية تجارة المرور إلخ.
 سورية والعراق
 وفلسطين
-يعترف المتعاقدون بسورية و<placeName change="#d2e120" xml:id="placeName_6.d2e815">العراق</placeName> كدولتين مستقلتين بمقتضى المادة 22
+يعترف المتعاقدون بسورية و<placeName change="#d2e120 #d11e276" xml:id="placeName_6.d2e815" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> كدولتين مستقلتين بمقتضى المادة 22
 من عهدة عصبة الأمم، أما من الوجهة الإدارية فتكون تلك البلاد خاضعةً لآراء
 ومساعدة دولة منتدبة إلى أن تصبح قادرةً على حكم نفسها بنفسها، وستعين الدول
 المتحالفة الكبرى الحدود، وتختار المنتدبين، ويعهد أيضًا بإدارة فلسطين إلى دولة
@@ -349,13 +349,13 @@
 أما حدود الانتداب فستعينها الدول المتحالفة الكبرى، وتعرضها على موافقة
 مجلس عصبة الأمم.
 الحجاز
-تعترف تركية كما اعترف الحلفاء ب<placeName change="#d2e120" xml:id="placeName_7.d2e847">الحجاز</placeName> كدولة حرة مستقلة، وتنقل إليها
+تعترف تركية كما اعترف الحلفاء ب<placeName change="#d2e120 #d11e276" xml:id="placeName_7.d2e847" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> كدولة حرة مستقلة، وتنقل إليها
 حقوق سيادتها على الأراضي الواقعة وراء حدود السلطنة العثمانية القديمة قبل
 التخوم التي ستحدد فيما بعد للحجاز.
 وبالنظر للصفة المقدسة المعترف بها من جميع المسلمين لمكة والمدينة،
-يتعهد ملك <placeName change="#d2e120" xml:id="placeName_8.d2e859">الحجاز</placeName> بأن يدع الدخول إليهما حرًّا وسهلاً لمسلمي جميع الأقطار الذين
+يتعهد ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_8.d2e859" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بأن يدع الدخول إليهما حرًّا وسهلاً لمسلمي جميع الأقطار الذين
 يقصدونهما للحج، أو لأي غرض ديني آخر، وسيعمل أيضًا على احترام الأوقاف.
-وقد وضع قرار أيضًا لضمان المساواة التجارية التامة في أراضي <placeName change="#d2e120" xml:id="placeName_9.d2e866">الحجاز</placeName> للدول
+وقد وضع قرار أيضًا لضمان المساواة التجارية التامة في أراضي <placeName change="#d2e120 #d11e276" xml:id="placeName_9.d2e866" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> للدول
 الجديدة المؤلفة من تركية ولسائر الدول.
 مصر والسودان وقبرس
 تتنازل تركية عن جميع حقوقها واختصاصاتها على القطر المصري ابتداءً
@@ -490,21 +490,21 @@
                
 
                
-يراد بالعربية السعيدة <placeName change="#d2e120" xml:id="placeName_10.d2e1148">اليمن</placeName> وما جاورها، وسميت بذلك لكثرة خيراتها
+يراد بالعربية السعيدة <placeName change="#d2e120 #d11e276" xml:id="placeName_10.d2e1148" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وما جاورها، وسميت بذلك لكثرة خيراتها
 بالنسبة إلى البادية في الشمال، فكأنهم يريدون بها بلاد العرب العامرة، أو
 الخضراء، ويحدها عندهم خليج العجم من الشرق - ويسمونه خليج العرب -
 وبحر العرب من الجنوب، والبحر الأحمر من الغرب ومن الشمال البادية، وهي
-بادية <placeName change="#d2e120" xml:id="placeName_11.d2e1160">الشام</placeName> و<placeName change="#d2e120" xml:id="placeName_12.d2e1163">العراق</placeName> , والعربية الحجرية (بلاد بطرا) فيدخل في اسم العربية
-السعيدة <placeName change="#d2e120" xml:id="placeName_13.d2e1168">اليمن</placeName> وحضرموت والشحر وعمان واليمامة ونجد.
-وأما العرب فيريدون ب<placeName change="#d2e120" xml:id="placeName_14.d2e1174">اليمن</placeName> الجزء الجنوبي من جزيرة العرب , وهو يقسم
+بادية <placeName change="#d2e120 #d11e276" xml:id="placeName_11.d2e1160" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> و<placeName change="#d2e120 #d11e276" xml:id="placeName_12.d2e1163" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> , والعربية الحجرية (بلاد بطرا) فيدخل في اسم العربية
+السعيدة <placeName change="#d2e120 #d11e276" xml:id="placeName_13.d2e1168" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وحضرموت والشحر وعمان واليمامة ونجد.
+وأما العرب فيريدون ب<placeName change="#d2e120 #d11e276" xml:id="placeName_14.d2e1174" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> الجزء الجنوبي من جزيرة العرب , وهو يقسم
 عند العرب الأقدمين إلى 48 مخلاف، والمخلاف ينقسم إلى مدن وقرى، ويوجد
 فيه الأودية والجبال والسدود، وقد فصل الهمداني كل مخلاف بقراه وأوديته وجباله في
 كتابه (صفة جزيرة العرب) .
-ما قاله اليونان عن تاريخ <placeName change="#d2e120" xml:id="placeName_15.d2e1186">اليمن</placeName>: لم يدون اليونانيون وسواهم من أمم
-التاريخ كتابًا في تاريخ <placeName change="#d2e120" xml:id="placeName_16.d2e1191">اليمن</placeName>، أو تاريخ غيرها من بلاد العرب، ولكنهم ذكروه
+ما قاله اليونان عن تاريخ <placeName change="#d2e120 #d11e276" xml:id="placeName_15.d2e1186" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>: لم يدون اليونانيون وسواهم من أمم
+التاريخ كتابًا في تاريخ <placeName change="#d2e120 #d11e276" xml:id="placeName_16.d2e1191" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، أو تاريخ غيرها من بلاد العرب، ولكنهم ذكروه
 عرضًا في أثناء كلامهم في الجغرافية العامة والرحلات وغيرها، وأكثر اليونان
 ذكرًا لبلاد العرب سترابون , وبلينيوس , وبريليوس , وبطليموس، ذكر كل
-منهم مدنًا وأممًا وأحوالاً أخرى من أحوال بلاد <placeName change="#d2e120" xml:id="placeName_17.d2e1201">اليمن</placeName>، بعضها يوافق ما ذكره
+منهم مدنًا وأممًا وأحوالاً أخرى من أحوال بلاد <placeName change="#d2e120 #d11e276" xml:id="placeName_17.d2e1201" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، بعضها يوافق ما ذكره
 العرب، والبعض الآخر يخالفه، وذكروا مدنًا وأقوامًا ولم يعرفها العرب، أي
 أنها لم ترد في تاريخهم أو جغرافيتهم، وأهم هؤلاء الأقوام هم (المعينيون)
 وذكروا الطرق التجارية، ووصفوا الأحوال الاجتماعية، فترى بين ما ذكره اليونان
@@ -513,25 +513,25 @@
 وشأن كبير، ومثلهم (القوريون) و (الجبائيون) .
 ومن المدن التي نوهوا بها (مأرب) ولم يذكرها العرب إلا في عرض
 الكلام عن سدها وانفجاره.
-كانت <placeName change="#d2e120" xml:id="placeName_18.d2e1223">اليمن</placeName> في أصل نظامها تقسم إلى (محافد) وهو يشبه نظام الإقطاع
-في الأجيال الوسطى لأوربة , وكانت الأقيال [1] في <placeName change="#d2e120" xml:id="placeName_19.d2e1229">اليمن</placeName> يتعاطون التجارة،
-ولتوسط بلاد <placeName change="#d2e120" xml:id="placeName_20.d2e1234">اليمن</placeName>، والهند , والحبشة , ومصر , و<placeName change="#d2e120" xml:id="placeName_21.d2e1237">الشام</placeName>، و<placeName change="#d2e120" xml:id="placeName_22.d2e1240">العراق</placeName> كانوا ينقلون
+كانت <placeName change="#d2e120 #d11e276" xml:id="placeName_18.d2e1223" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> في أصل نظامها تقسم إلى (محافد) وهو يشبه نظام الإقطاع
+في الأجيال الوسطى لأوربة , وكانت الأقيال [1] في <placeName change="#d2e120 #d11e276" xml:id="placeName_19.d2e1229" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> يتعاطون التجارة،
+ولتوسط بلاد <placeName change="#d2e120 #d11e276" xml:id="placeName_20.d2e1234" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، والهند , والحبشة , ومصر , و<placeName change="#d2e120 #d11e276" xml:id="placeName_21.d2e1237" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، و<placeName change="#d2e120 #d11e276" xml:id="placeName_22.d2e1240" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> كانوا ينقلون
 التجارة بين هذه البلدان بعد دخولها إلى جزيرة العرب بالقوافل بطرق خاصة.
 ***
 الدولة المعينية
 تنبه العلماء إلى هذه الدولة كما ذكره اليونان عنها، فقال استرابون في كلامه
-عن بلاد <placeName change="#d2e120" xml:id="placeName_23.d2e1254">اليمن</placeName> (يشمل القسم الجنوبي من جزيرة العرب أربعة شعوب: المعينيون
+عن بلاد <placeName change="#d2e120 #d11e276" xml:id="placeName_23.d2e1254" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> (يشمل القسم الجنوبي من جزيرة العرب أربعة شعوب: المعينيون
 وعاصمتهم (قرنا) [2] والسبأيون وعاصمتهم (مأرب) وذكر في مكان آخر أن
 المعينيين يحملون التجارة إلى (بطرا) مدينة الأنباط , وذكر بلينيوس أن المعينيين يقيمون في بلاد كثيرة الغابات والأغراس، وذكرهم أيضًا ديونيوس ,
 وبطليموس، وأطروا سلطتهم وسعة تجارتهم، ولم يكن العلماء يعرفون (معين)
-فذهب بعضهم إلى أن المراد بلفظ (معين) منى , وهو بقرب <placeName change="#d2e120" xml:id="placeName_24.d2e1266">مكة</placeName>، وقال
+فذهب بعضهم إلى أن المراد بلفظ (معين) منى , وهو بقرب <placeName change="#d2e120 #d11e276" xml:id="placeName_24.d2e1266" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وقال
 آخرون غير ذلك حتى وفق المستشرق (هاليفي) إلى ارتياد بلاد الجوف الجنوبي
 شرق صنعاء , واكتشف أنقاض معين، وقال الهمداني في كتاب الإكليل (محافد
 اليمن: مراقش ومعين، وهما بأسفل جوف الرحب) ولا يظهر أنها كانت دولة
 حرب وفتح، بل كانت دولة تجارة مثل إخوانهم الفينيقيين على شواطئ سورية ,
-ودولة الأنباط في بطرا، وأكثر دول <placeName change="#d2e120" xml:id="placeName_25.d2e1280">اليمن</placeName> على هذه القاعدة - أي: تجارية -
+ودولة الأنباط في بطرا، وأكثر دول <placeName change="#d2e120 #d11e276" xml:id="placeName_25.d2e1280" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> على هذه القاعدة - أي: تجارية -
 وكانت طرقها التجارية ممتدةً في أواسط جزيرة العرب بين تلك البحار، وانتشرت
-سيادتهم ومستعمراتهم إلى أعالي <placeName change="#d2e120" xml:id="placeName_26.d2e1288">الحجاز</placeName> شمالاً بدليل ما وقفوا عليه من النقوش في
+سيادتهم ومستعمراتهم إلى أعالي <placeName change="#d2e120 #d11e276" xml:id="placeName_26.d2e1288" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> شمالاً بدليل ما وقفوا عليه من النقوش في
 العلاء - قرب وادي القرى - وفي الصفاء وفي حوران وغيره.
 ***
 الدولة السبأية
@@ -539,7 +539,7 @@
 اليمن دولةً كبرى جاء ذكرها في أخبار آشور منقوشًا في آجرّة للملك (سرجون
 الثاني) سنة 705 قبل الميلاد ذكر فيها أنه أخذ الجزية من (يثعمر) السبأي، فيدل
 هذا القول على وجود السبأيين في بلاد العرب في القرن الثامن قبل الميلاد، ولكن
-الراجح عند العلماء اليوم أن سرجيون لم يصل بفتوحه إلى <placeName change="#d2e120" xml:id="placeName_27.d2e1308">اليمن</placeName>، والظاهر أن
+الراجح عند العلماء اليوم أن سرجيون لم يصل بفتوحه إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_27.d2e1308" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، والظاهر أن
 السبأيين كانوا يدفعون الجزية عن تجارتهم في شمال جزيرة العرب حتى يؤذن لهم
 بالمرور إلى شواطئ البحر المتوسط , وخصوصًا إلى غزة؛ لأنها فريضة
 تجارية قديمة، وقد اتسع ملكهم، ولا يراد بسعة الملك أنهم دوخوا البلاد كما فعل
@@ -551,12 +551,12 @@
 مملكة سبأ في التوراة أيام سليمان في القرن التاسع قبل الميلاد، ويتضح من ذلك
 أنهم أقدم من مملكة سليمان أيضًا.
 ***
-حضارة <placeName change="#d2e120" xml:id="placeName_28.d2e1337">اليمن</placeName> القديم
+حضارة <placeName change="#d2e120 #d11e276" xml:id="placeName_28.d2e1337" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> القديم
 بعد ما تحقق أن دولة حمورابي عربية علم أن العرب من أسبق الأمم إلى
 الحضارة والمدنية؛ لأنهم أنشأوا الدول وشادوا المدن، ونظموا الحكومات وسنوا
 الشرائع، وبنوا المدارس والهياكل، ورقوا الهيئات الاجتماعية لترقية شأن المرأة منذ
 أربعة آلاف سنة.
-ونقتصر هنا على مدنية عرب <placeName change="#d2e120" xml:id="placeName_29.d2e1351">اليمن</placeName>، وقد رأيت أنهم كانوا أهل حضارة
+ونقتصر هنا على مدنية عرب <placeName change="#d2e120 #d11e276" xml:id="placeName_29.d2e1351" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وقد رأيت أنهم كانوا أهل حضارة
 ودولة لا تقل عن دول معاصريهم في آشور وفينيقية ومصر، وابتنوا المدن
 وشادوا القصور والهياكل، وتبسطوا في العيش، لكن تمدنهم لم يكن حربيًّا
 كتمدن الآشوريين والفرس والمصريين، بل كان تجاريًّا كتمدن الفينيقيين
@@ -573,7 +573,7 @@
 ضربت فيها بالحرف المسند، وزينوها برموز سياسية أو اجتماعية، كصورة
 البوم أو الصقر أو رأس الثور رمزًا للزراعة، أو صورة الهلال، وهو رمز
 ديني عندهم، وكانوا يركبون المركبات تجرها الخيول أو الأفيال.
-كانت الأمة في <placeName change="#d2e120" xml:id="placeName_30.d2e1391">اليمن</placeName> مؤلفةً من أربع طبقات: الجند المسلح لحفظ النظام،
+كانت الأمة في <placeName change="#d2e120 #d11e276" xml:id="placeName_30.d2e1391" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> مؤلفةً من أربع طبقات: الجند المسلح لحفظ النظام،
 والفلاحون لزراعة الأرض، والصناع والتجار، ولكل فئة حدود لا تتعداها، ولا
 ينتقل أحد منها إلى سواها.
 ***
@@ -597,7 +597,7 @@
 وهي السدود، وأعظمها سد (مأرب) وسنذكره.
 وذكر (استرابون) أن بلاد سبأ أخصب بلاد العرب، وعد من محصولاتها
 المر، والبخور، والقرنفل، والبلسم، وسائر العطريات فضلاً عن النخيل والغاب.
-ووصف الهمداني (وادي ظهر) ب<placeName change="#d2e120" xml:id="placeName_31.d2e1446">اليمن</placeName>، وقد شاهده فذكر أن فيه نهرًا عظيمًا
+ووصف الهمداني (وادي ظهر) ب<placeName change="#d2e120 #d11e276" xml:id="placeName_31.d2e1446" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وقد شاهده فذكر أن فيه نهرًا عظيمًا
 يسقي جنبات الوادي، وعليها من الأعناب نحو عشرين نوعًا، وفيه أصناف الفواكه
 الأخرى.
 ***
@@ -610,8 +610,8 @@
 بكاليفورنيا هذا الزمان لكثرة مناجهما، وأقدم هذه المناجم في بلاد (مدين) ولها شهرة
 واسعة في التاريخ القديم حتى ألف بعضهم كتبًا في معادنها وذهبها، وذكر الهمداني في
 صفة جزيرة العرب، وياقوت في معجم البلدان، وغيرهما كثيرًا من مناجم الذهب
-بعضها في <placeName change="#d2e120" xml:id="placeName_32.d2e1478">اليمن</placeName>، والبعض الآخر في اليمامة، ومنها معدن (نحب) في ديار بني
-كلاب، ومعدن (بيشا) ومعدن (قضاعة) في <placeName change="#d2e120" xml:id="placeName_33.d2e1483">اليمن</placeName>، و (ذهب خولان) الوارد
+بعضها في <placeName change="#d2e120 #d11e276" xml:id="placeName_32.d2e1478" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، والبعض الآخر في اليمامة، ومنها معدن (نحب) في ديار بني
+كلاب، ومعدن (بيشا) ومعدن (قضاعة) في <placeName change="#d2e120 #d11e276" xml:id="placeName_33.d2e1483" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، و (ذهب خولان) الوارد
 ذكره في التوراة باسم حويلة في اليمامة، وكثير من المعادن خصص لها الهمداني
 فصلاً سماه (معادن اليمامة) وهي معدن الحسن، وهو معدن ذهب عزير، ومعدن
 (الحفير) بناحية (عماية) وهو معدن ذهب عزير أيضًا، ومعدن (الضبيب) عن
@@ -637,7 +637,7 @@
 إلخ.
 ***
 الحضارة
-أهل <placeName change="#d2e120" xml:id="placeName_34.d2e1543">اليمن</placeName> حَضَرٌ من أقدم زمانهم، فهم أهل مدن وقصور ورياش، لبسوا
+أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_34.d2e1543" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> حَضَرٌ من أقدم زمانهم، فهم أهل مدن وقصور ورياش، لبسوا
 الحر، وافترشوا الحرير، واقتنوا آنية الذهب والفضة، واغترسوا الحدائق، قال
 (أغاثر سيدس) : وللسبأيين في منازلهم ما يفوق التصديق من الآنية والماعون
 على اختلاف أشكالها من الفضة والذهب، وعندهم الأسرة، والموائد من الفضة،
@@ -652,7 +652,7 @@
 تاريخ البلاد العربية الحديثة
 قد لخصنا تاريخ البلاد العربية القديم على قدر ما يسمح به المقال، والآن
 نبين حالتها الحاضرة، وسبب انحطاطها فنقول:
-إن ملوك <placeName change="#d2e120" xml:id="placeName_35.d2e1578">اليمن</placeName> اعتنقوا قديمًا الديانة اليهودية ونشروها في بلادهم، فلما تنصر
+إن ملوك <placeName change="#d2e120 #d11e276" xml:id="placeName_35.d2e1578" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> اعتنقوا قديمًا الديانة اليهودية ونشروها في بلادهم، فلما تنصر
 إمبراطور الرومان البيزانطيين، ونشروا ديانتهم في سورية ومصر، وأرادوا أن
 يوسعوا نفوذهم بواسطة ديانتهم النصرانية - أرسلوا إلى الحبشة قسوسًا نصرتها،
 وأرادوا أن يمدوا نفوذهم إلى بلاد العرب فنزلوا في عدن ونصروا أهاليها، ثم
@@ -661,13 +661,13 @@
 اليهودية في أوائل القرن السادس للميلاد إلى ملك منهم اسمه (ذرنواس) كان شديد
 التعصب لليهودية فغزا أهالي نجران فحصرهم، ثم إنه ظفر بهم فخدَّ لهم الأخاديد،
 وعرض عليهم اليهودية فامتنعوا، فأحرقهم بالنار، وأحرق الإنجيل، وهدم بيعتهم،
-ثم انصرف إلى <placeName change="#d2e120" xml:id="placeName_36.d2e1601">اليمن</placeName>، فلما بلغت هذه الأخبار ملك الروم أرسل إلى ملك الحبشة،
-وأمره أن يغزو أهالي <placeName change="#d2e120" xml:id="placeName_37.d2e1606">اليمن</placeName> وينتقم من اليهود فجهز لهم سبعين ألفًا فخرجوا إلى
+ثم انصرف إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_36.d2e1601" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، فلما بلغت هذه الأخبار ملك الروم أرسل إلى ملك الحبشة،
+وأمره أن يغزو أهالي <placeName change="#d2e120 #d11e276" xml:id="placeName_37.d2e1606" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وينتقم من اليهود فجهز لهم سبعين ألفًا فخرجوا إلى
 اليمن، وبعد معارك يطول شرحها انتصر الأحباش النصارى على اليهود وأفنوهم،
 وانفلت (سيف بن ذي يزن) وتوجه إلى كسرى , وهو من الأسرة المالكة
 فاستنجد كسرى، فأمده بالرجال في المراكب، وخرجوا في (ضفار) فلما سمع
 الأحباش بقدوم سيف بالفرس قابلوهم، فوقعت معارك انهزمت فيها الأحباش،
-فأفنوهم، وأفنوا كل من تنصر من أهل <placeName change="#d2e120" xml:id="placeName_38.d2e1620">اليمن</placeName>، ثم مات سيف بن ذي يزن، وخلفه
+فأفنوهم، وأفنوا كل من تنصر من أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_38.d2e1620" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، ثم مات سيف بن ذي يزن، وخلفه
 والٍ من قِبل كسرى أنوشروان.
 وفي هذه المدة ظهرت الديانة الإسلامية، وأسلم الوالي الفارسي وأهل اليمن
 إلا قليلاً منهم بقي على اليهودية إلى الآن، فلما تولى عمر بن الخطاب - رضي الله
@@ -679,13 +679,13 @@
 فبلاد العرب الآن تراجع إليها شيء من القوة حسب التناسل، وعدد أهل
 الجزيرة الآن لا يقل عن 14 مليونًا، ولإهمال العلم والتعليم في الجزيرة،
 وتنافس الأمراء فيما بينهم أُهمل أمر الزراعة والصناعة.
-ويوجد الآن في الجزيرة خمس حكومات مستقلة في <placeName change="#d2e120" xml:id="placeName_39.d2e1649">الحجاز</placeName> ونجد واليمن
+ويوجد الآن في الجزيرة خمس حكومات مستقلة في <placeName change="#d2e120 #d11e276" xml:id="placeName_39.d2e1649" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد واليمن
 وعسير ومسقط، وبين أمراء هذه البلاد شيء من التنافس، فلو قيض الله لقادة
 أفكار العرب أن يسعوا في التوفيق بينهم على شرط أن يكون كل مستقلاًّ في محله،
 ويوحدوا سياستهم وجنديتهم، كما هو حاصل في الولايات المتحدة أو في ألمانية،
 وينشروا المعارف في بلادهم، ويعنوا بالزراعة مع إعادة السدود كما كانت سابقًا
 ويبحثوا عن المناجم، ويعنوا بزراعة القهوة التي لا يوجد مثلها في البلاد الأخرى
-فإنها تجلب الربح العظيم للبلاد، كالقطن بالنسبة لمصر، وفي بلاد <placeName change="#d2e120" xml:id="placeName_40.d2e1666">اليمن</placeName> يزرع
+فإنها تجلب الربح العظيم للبلاد، كالقطن بالنسبة لمصر، وفي بلاد <placeName change="#d2e120 #d11e276" xml:id="placeName_40.d2e1666" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> يزرع
 أنواع الحبوب والنخيل والفواكه.
 والحاصل أن البلاد العربية يمكن أن تسترجع قوتها عن قريب إذا قيض الله
 لها حكومةً صالحةً، ولا يقوم بهذا إلا السوريون، فإن سورية عند العرب هي العين
@@ -715,7 +715,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_32.d2e1725"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_33.d2e1727"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_34.d2e1729"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_35.d2e1732"/> عبد الله المغيرة <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_3.d2e1734">(1) الأقيال: لقب ملوك <placeName change="#d2e120" xml:id="placeName_41.d2e1736">اليمن</placeName>، واحدها: قيل، بوزن بيت.
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_35.d2e1732"/> عبد الله المغيرة <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_3.d2e1734">(1) الأقيال: لقب ملوك <placeName change="#d2e120 #d11e276" xml:id="placeName_41.d2e1736" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، واحدها: قيل، بوزن بيت.
 (2) لعل أصلها: قرن بالتحريك.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_3.d2e1742">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_5.d2e1744" ref="oape:pers:2018">عبد الله المغيرة</persName>
          </byline></div>
@@ -874,8 +874,8 @@
 البر والبحر للسلطة الإنكليزية بحق القيادة العليا للجيوش المحاربة في سورية
 الجنوبية (فلسطين) والشمالية، ثم بواسطة لجنة المجاعة التي أرسلت بمساعدة
 السلطة الإنكليزية كثيرًا من المواد الغذائية والأقمشة , وبعد إعطائي الطرود
-للجمعية بأشهر تمكنت هي من إرسالها إلى وكيلها في <placeName change="#d2e120" xml:id="placeName_42.d2e2070">بيروت</placeName> فبقيت فيها أشهرًا، ثم
-أرسل بعضها إلى <placeName change="#d2e120" xml:id="placeName_43.d2e2075">طرابلس</placeName> ففقد بعضه، ولم يصل باقيها بعد إلا بعد وصولي إليها
+للجمعية بأشهر تمكنت هي من إرسالها إلى وكيلها في <placeName change="#d2e120 #d11e276" xml:id="placeName_42.d2e2070" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> فبقيت فيها أشهرًا، ثم
+أرسل بعضها إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_43.d2e2075" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> ففقد بعضه، ولم يصل باقيها بعد إلا بعد وصولي إليها
 في خريف العام الماضي، فكان ما أردت أن يكسى به الفقراء في شتاء سنة 1919
 كساءً لهم في شتاء السنة التي بعدها.
 احتلت جيوش الأحلاف جميع البلاد السورية، وطفقوا يمهدون السبل لتوطيد
@@ -888,24 +888,24 @@
 باشا حاكم المنطقة الشرقية العسكري كتابًا ذكر فيه أنهم ينتظرون قدومي كانتظار
 الظمآن للماء، وأنه طلبني وهو يتعجب من عدم استجابتي، فكتبت إليه أنه لم
 يبلغني ما ذكر من طلبهم إياي، وأن أمر سفري ليس بيدي.. . ثم أخبرني بعد لقائه
-في <placeName change="#d2e120" xml:id="placeName_44.d2e2106">الشام</placeName> أنه طلبني خمس مرات.
+في <placeName change="#d2e120 #d11e276" xml:id="placeName_44.d2e2106" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> أنه طلبني خمس مرات.
 إنني لم أطمع في الإذن لي بزيارة سورية إلا بعد استفتاء اللجنة الأميركانية
 أهل سورية في شكل الحكومة التي يرضونها لبلادهم، والدولة التي يختارونها
 لمساعدتهم.
 وعلة هذا ظاهرة لا تحتاج إلى بيان، فلما سنحت لي الفرصة بعد هذا
-الاستفتاء وإظهار الشعب رأيه، سعيت إلى أخذ الجواز بالسفر إلى <placeName change="#d2e120" xml:id="placeName_45.d2e2120">الشام</placeName> من طريق
+الاستفتاء وإظهار الشعب رأيه، سعيت إلى أخذ الجواز بالسفر إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_45.d2e2120" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> من طريق
 سينا وفلسطين، فتيسر لي مع المساعدات أخذ هذا الجواز في مدة ثمانية عشر يومًا
 بعد أخذ عهد كتابي علي بأمور سلبية ترجع إلى أمر واحد، وهو عدم القيام بتهييج
 سياسي.
 ***
 السفر من القاهرة
-سافرت من <placeName change="#d2e120" xml:id="placeName_46.d2e2137">القاهرة</placeName> مساء الجمعة السابع عشر من شهر ذي الحجة ختام سنة
+سافرت من <placeName change="#d2e120 #d11e276" xml:id="placeName_46.d2e2137" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> مساء الجمعة السابع عشر من شهر ذي الحجة ختام سنة
 1337 (الموافق 12 سبتمبر أيلول سنة 1919) ولما جئت محطة السكة
 الحديدية وجدت فيها صديقي رفيق بك العظم جاء لتوديعي فيمن جاء من الأصدقاء،
-فأخبرني أنه قد جاءت برقية من <placeName change="#d2e120" xml:id="placeName_47.d2e2146">دمشق</placeName> تفيد أن الأمير فيصلاً (ملك سورية اليوم)
-قد سافر من <placeName change="#d2e120" xml:id="placeName_48.d2e2152">الشام</placeName> عن طريق <placeName change="#d2e120" xml:id="placeName_49.d2e2155">حيفا</placeName> ليسافر منها إلى أوربة فساءني ذلك جد الاستياء؛
-لأن لقاء الأمير في ذلك الوقت كان هو المرجح الأول لسفري إلى <placeName change="#d2e120" xml:id="placeName_50.d2e2160">دمشق</placeName> مباشرةً
-دون <placeName change="#d2e120" xml:id="placeName_51.d2e2165">بيروت</placeName> و<placeName change="#d2e120" xml:id="placeName_52.d2e2169">طرابلس</placeName>، ولعله لو أخبرني بذلك قبل شروعي في السفر لأرجأته،
+فأخبرني أنه قد جاءت برقية من <placeName change="#d2e120 #d11e276" xml:id="placeName_47.d2e2146" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> تفيد أن الأمير فيصلاً (ملك سورية اليوم)
+قد سافر من <placeName change="#d2e120 #d11e276" xml:id="placeName_48.d2e2152" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> عن طريق <placeName change="#d2e120 #d11e276" xml:id="placeName_49.d2e2155" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> ليسافر منها إلى أوربة فساءني ذلك جد الاستياء؛
+لأن لقاء الأمير في ذلك الوقت كان هو المرجح الأول لسفري إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_50.d2e2160" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> مباشرةً
+دون <placeName change="#d2e120 #d11e276" xml:id="placeName_51.d2e2165" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> و<placeName change="#d2e120 #d11e276" xml:id="placeName_52.d2e2169" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>، ولعله لو أخبرني بذلك قبل شروعي في السفر لأرجأته،
 ولكن إبطال العمل بعد الشروع فيه مفسد للعزيمة مضعف للإرادة، وقد قال تعالى
 لرسوله: {فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللَّهِ} (آل عمران: 159) وقال عز وجل:
 {وَلاَ تُبْطِلُوا أَعْمَالَكُمْ} (محمد: 33) .
@@ -920,28 +920,28 @@
 ووضعي في مركبة ليس فيها زحام، وهو نجل إبراهيم الحوراني العالم الأديب
 البيروتي الشهير، فما رأيته فيه من المروءة والأدب يجري فيه على عرق راسخ
 ووراثة ثقفت بالتربية والتعليم، وعلمت منه أنه كان يتوقع حضوري يوم الخميس
-في القطار الذي يقوم من <placeName change="#d2e120" xml:id="placeName_53.d2e2204">القاهرة</placeName> الساعة 11 قبل الظهر.
+في القطار الذي يقوم من <placeName change="#d2e120 #d11e276" xml:id="placeName_53.d2e2204" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> الساعة 11 قبل الظهر.
 لم يكن السفر في الدرجة الأولى من قطارات هذه السكة بالأمر اليسير، وكنت
 علمت ذلك مما كتبه سليم أفندي سركيس الكاتب الشهير في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e2212">الأهرام</title></bibl> عن
-رحلته قبلي إلى <placeName change="#d2e120" xml:id="placeName_54.d2e2217">الشام</placeName>، فإنه ذكر أنه أخذ تذكرةً للركوب في الدرجة الأولى،
+رحلته قبلي إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_54.d2e2217" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، فإنه ذكر أنه أخذ تذكرةً للركوب في الدرجة الأولى،
 فأركبوه في الدرجة الثالثة؛ لحاجة الضباط الإنكليز إلى الدرجة الأولى والثانية!!
 لذلك سعيت إلى توصية من السلطة العسكرية الإنكليزية بأن أركب في الدرجة
 الأولى فعلاً، فنلتها، ونفذها الحوراني - أحسن الله مكافأته - وثمن هذه التذكرة
-282 قرشًا مصريًّا صحيحًا يركب بها المسافر إلى نهاية الخط، وهو مدينة <placeName change="#d2e120" xml:id="placeName_55.d2e2229">حيفا</placeName>.
+282 قرشًا مصريًّا صحيحًا يركب بها المسافر إلى نهاية الخط، وهو مدينة <placeName change="#d2e120 #d11e276" xml:id="placeName_55.d2e2229" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName>.
 سافر بنا القطار الساعة 11 والدقيقة 35 وكان سيره بطيئًا ووقوفه كثيرًا،
 وعلمنا في الصباح أنه تأخر ساعتين عن موعده، وفي ضحوة النهار (السبت)
 وقف تجاه مدينة غزة الشهيرة التي أحدثت فيها الحرب خرابًا عظيمًا، ووصل إلى
 (اللد) الساعة 8 والدقيقة 15، وسار منها الساعة 9 وبضع دقائق، فوصل إلى
 حيفا الساعة 12 والدقيقة 15 نهارًا، فإذا كان القطار تأخر بنا ساعتين - كما قيل -
-تكون مسافة سينا وفلسطين إلى <placeName change="#d2e120" xml:id="placeName_56.d2e2245">حيفا</placeName> تسع ساعات وثلث ساعة، وهذا الخط قد
+تكون مسافة سينا وفلسطين إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_56.d2e2245" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> تسع ساعات وثلث ساعة، وهذا الخط قد
 أنشأته السلطة العسكرية في أثناء الحرب بسرعة عجيبة اقتضتها الضرورة، فلم يكن
 متقَنًا، وقد علمت أنه يحتاج إلى إصلاح يكون به الخط أقوم وأقصر.
 قطعنا نصف نهار يطوي بنا القطار أغوار سورية الجنوبية (فلسطين)
 وأنجادها، فلم نر شيئًا من أرضها يدل على العناية الفنية في إنشاء البساتين
 والكروم إلا ما في مزارع اليهود الصهيونيين، ورأينا ما مررنا به من الزيتون
 خاليًا من الحب؛ لأن موسمه في السنة الماضية كان عظيمًا.
-السفر من <placeName change="#d2e120" xml:id="placeName_57.d2e2263">حيفا</placeName> بسكة الحديد الحجازية
-انتقلنا عقب وصولنا إلى <placeName change="#d2e120" xml:id="placeName_58.d2e2269">حيفا</placeName> من قطار سينا وفلسطين إلى قطار سكة الحديد
+السفر من <placeName change="#d2e120 #d11e276" xml:id="placeName_57.d2e2263" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> بسكة الحديد الحجازية
+انتقلنا عقب وصولنا إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_58.d2e2269" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> من قطار سينا وفلسطين إلى قطار سكة الحديد
 الحجازية، ومركباته أحسن من مركبات ذاك، وأخذ بعض الحمالين لي تذكرة
 السفر منها إلى (معان) في الدرجة الأولى بمائة قرش وستة قروش مصرية
 صحيحة، وتحرك القطار الساعة 12 والدقيقة 35، فوصلنا إلى طبرية (س3 ق
@@ -951,10 +951,10 @@
 المسافة 12 ساعة، وقد قيل لنا أنه تأخر عن موعده ساعتين كسابقه.
 وفي محطة معان مطعم كبير للمسافرين، والقطار مكث فيها ريثما يتعشى من
 شاء من المسافرين، ويأخذ القطار (طعامه وشرابه) من الفحم والماء، وقد مكثنا
-نصف ساعة أو أكثر تعشينا فيها، ثم استأنفنا السير إلى <placeName change="#d2e120" xml:id="placeName_59.d2e2294">دمشق</placeName>، فبلغناها (س2
+نصف ساعة أو أكثر تعشينا فيها، ثم استأنفنا السير إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_59.d2e2294" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، فبلغناها (س2
 وق20) أي قبل الفجر.
 دمشق وفنادقها
-بعد وصولنا إلى محطة <placeName change="#d2e120" xml:id="placeName_60.d2e2303">دمشق</placeName> ببضع دقائق كنا في فندق (فيكتوريا) وهو
+بعد وصولنا إلى محطة <placeName change="#d2e120 #d11e276" xml:id="placeName_60.d2e2303" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> ببضع دقائق كنا في فندق (فيكتوريا) وهو
 أقرب الفنادق إلى المحطة وأشهرها وأغلاها أجرةً، فلم أجد فيه غير حجرة في
 الدور الأول لا يتخللها الهواء ولا النور، أبيْتها فوُعدتُ بتبديلها في النهار،
 وسألت الخدم عن حمام الفندق فقيل: إنه ليس فيه حمام ولا رشاش ماء (دوش)
@@ -962,11 +962,11 @@
 وصليت المغرب والعشاء جمع تأخير، ونمت ما بقي من اليل.
 ولما أصبحت استنجزت الوعد بتغيير الحجرة، فلم أجد حجرةً صحيةً بل قيل
 لي: إن بعض النازلين فيها سيسافرون فتخلو حجرهم، ولما حضر طعام الغداء
-والعشاء وجدت الماء على المائدة غير مثلوج فسألت: ألا يوجد في <placeName change="#d2e120" xml:id="placeName_61.d2e2324">الشام</placeName> ثلج؟ قيل:
+والعشاء وجدت الماء على المائدة غير مثلوج فسألت: ألا يوجد في <placeName change="#d2e120 #d11e276" xml:id="placeName_61.d2e2324" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ثلج؟ قيل:
 بلى إن فيها ثلجًا وجليدًا طبيعيًّا وصناعيًّا، ولكن صاحب الفندق منع استعماله
 اقتصادًا، فعزمت على الخروج من هذا الفندق بعد رؤية أشهر الفنادق الكبرى
 واختيار أمثلها، ولكنني لم أستطع الخروج في اليوم الأول؛ لأن بعض من رآني
-أخبر غيره بأنني جئت <placeName change="#d2e120" xml:id="placeName_62.d2e2336">الشام</placeName> ونزلت في (فيكتوريا) فجاء كثير من الوجهاء
+أخبر غيره بأنني جئت <placeName change="#d2e120 #d11e276" xml:id="placeName_62.d2e2336" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ونزلت في (فيكتوريا) فجاء كثير من الوجهاء
 لزيارتي، وفي اليوم الثاني كان الزائرون أكثر، ولكنني انتهزت فرصة طفت فيها
 على الفنادق القريبة، فرأيت أمثلها فندق الشرق (أو الخوام) الملاصق لفندق
 فيكتوريا، فانتقلت إليه، وفضلته بوجود مكان فيه للاستحمام، ووجود الماء في
@@ -977,8 +977,8 @@
 الزيارات وردُّها وأحاديثها
 زارني من لا أُحصي من رجال الحكومة والعلماء والأدباء والوجهاء، فمنهم
 من عرفتهم بشخوصهم أو مناصبهم، ومنهم من لم أعرف، وما كان رد الزيارة
-لكل منهم ممكنًا، وليس عند أهل <placeName change="#d2e120" xml:id="placeName_63.d2e2363">الشام</placeName> من التسامح والتساهل في هذا الأمر ما عند
-أهل مصر وأهل <placeName change="#d2e120" xml:id="placeName_64.d2e2368">بيروت</placeName>، فاكتفيت برد الزيارة إلى الحاكم العسكري العام
+لكل منهم ممكنًا، وليس عند أهل <placeName change="#d2e120 #d11e276" xml:id="placeName_63.d2e2363" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> من التسامح والتساهل في هذا الأمر ما عند
+أهل مصر وأهل <placeName change="#d2e120 #d11e276" xml:id="placeName_64.d2e2368" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>، فاكتفيت برد الزيارة إلى الحاكم العسكري العام
 والقاضي والمفتي، وبعض العلماء والوجهاء الذين عرفتهم كمحمد فوزي باشا
 العظم , وعبد القادر باشا المؤيد، واعتذرت للآخرين في الجرائد مع الشكر لهم،
 وأما خواص إخواننا وأصدقائنا فقد جمعتنا بهم المآدب والسمّار في مجالس حافلة
@@ -990,7 +990,7 @@
 في رحلتي هذه على ما أعهد في سائر البلاد، ولكن أكثر مباحث الناس معي في
 هذه الرحلة كان في المسائل السياسية: ما هو واقع منها وما يتوقع.
 معاهدة سنة 1916
-اتفق أن أعلن كل من دولتي إنكلترة وفرنسة عقب وصولي إلى <placeName change="#d2e120" xml:id="placeName_65.d2e2397">الشام</placeName> أنهما
+اتفق أن أعلن كل من دولتي إنكلترة وفرنسة عقب وصولي إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_65.d2e2397" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> أنهما
 اتفقتا نهائيًّا على تنفيذ معاهدة (سايكس وبيكو) المعروفة بمعاهدة 1916، وأن
 إنكلترة ستخرج جنودها من المنطقتين الشرقية والغربية من سورية، وتترك الأولى
 للجيش العربي الحجازي، والثانية للجيش الفرنسي، وما كان حملها للأمير فيصل
@@ -1028,10 +1028,10 @@
 
                
 انتهت الحرب العامة الطامة باحتلال جنود الأحلاف من العرب والإنكليز
-والفرنسيس لسورية وجعلها ثلاث مناطق: جنوبية، وهي متصرفية <placeName change="#d2e120" xml:id="placeName_66.d2e2468">القدس</placeName> الممتازة
-ومتصرفيتي <placeName change="#d2e120" xml:id="placeName_67.d2e2474">نابلس</placeName> وعكا من ولاية <placeName change="#d2e120" xml:id="placeName_68.d2e2477">بيروت</placeName> (وأطلقوا عليها اسم فلسطين)
-وشرقية، وهي ولايتا <placeName change="#d2e120" xml:id="placeName_69.d2e2482">الشام</placeName> وحلب ما عدا سواحلها، ثم أضيفت إليها متصرفية
-الزور الممتازة، وغربية، وهي بقية ولاية <placeName change="#d2e120" xml:id="placeName_70.d2e2487">بيروت</placeName> ومتصرفية لبنان الممتازة
+والفرنسيس لسورية وجعلها ثلاث مناطق: جنوبية، وهي متصرفية <placeName change="#d2e120 #d11e276" xml:id="placeName_66.d2e2468" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> الممتازة
+ومتصرفيتي <placeName change="#d2e120 #d11e276" xml:id="placeName_67.d2e2474" ref="geon:7870555 oape:place:11" resp="#xslt">نابلس</placeName> وعكا من ولاية <placeName change="#d2e120 #d11e276" xml:id="placeName_68.d2e2477" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> (وأطلقوا عليها اسم فلسطين)
+وشرقية، وهي ولايتا <placeName change="#d2e120 #d11e276" xml:id="placeName_69.d2e2482" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وحلب ما عدا سواحلها، ثم أضيفت إليها متصرفية
+الزور الممتازة، وغربية، وهي بقية ولاية <placeName change="#d2e120 #d11e276" xml:id="placeName_70.d2e2487" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> ومتصرفية لبنان الممتازة
 وإسكندرونة، وأطنه.
 ولما كانت القيادة العليا لجيوش هؤلاء الأحلاف في سورية للإنكليز احتلوا
 المنطقة الجنوبية وحدهم، وشاركوا العرب في احتلال المنطقة الشرقية،
@@ -1047,7 +1047,7 @@
 وينتهي إليه مصيرها؛ ليعود إلى أوربة ويقرره مع حلفائه، وبعد مباحثات طويلة
 سرية وجهرية استقر الرأي على إعلان استقلال القطرين السوري والعراقي، وأن
 يتولى ذلك المؤتمر الذي سبق تأسيسه لكل منهما في ما بينهما بالتعاون.
-فأما المؤتمر العراقي فأعضاؤه في <placeName change="#d2e120" xml:id="placeName_71.d2e2525">دمشق</placeName> حيث تأسس، وأما المؤتمر السوري
+فأما المؤتمر العراقي فأعضاؤه في <placeName change="#d2e120 #d11e276" xml:id="placeName_71.d2e2525" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> حيث تأسس، وأما المؤتمر السوري
 فكان أعضاؤه المنتخبون من المناطق الثلاث قد تفرقوا في البلاد بعد اجتماعهم الأول
 لمقابلة اللجنة الأميركية وإعلامها برأي الأمة السورية في أمر حكمها، وهو
 الاستقلال التام الناجز، ورفض كل حماية ووصاية أجنبية، وترجيح طلب
@@ -1082,7 +1082,7 @@
 وفرنسا منشورًا في 7 تشرين 1918 أكدتا لنا فيه استقلال بلاد العرب المنشود.
 أيها السادة: لما كانت هذه الحرب حرب حرية واستقلال، حربًا جاهدت
 فيها الأمم ذَبًّا عن كيانها السياسي - دخل فيها صاحب الجلالة والدي المعظم في
-صفوف الحلفاء بعد أن استوثق من العرب في الجزيرة وفي سورية وفي <placeName change="#d2e120" xml:id="placeName_72.d2e2604">العراق</placeName>،
+صفوف الحلفاء بعد أن استوثق من العرب في الجزيرة وفي سورية وفي <placeName change="#d2e120 #d11e276" xml:id="placeName_72.d2e2604" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>،
 فقاتلوا قتالاً شهد لهم فيه أعاظم رجال أوربا السياسيين والعسكريين، وأثنوا
 على شجاعتهم وبسالتهم غاية الثناء، ولا بد أن يحفظ التاريخ أعمالهم الجليلة في
 إبان الحرب التي استمات فيها الحجازي والسوري والعراقي، وإني واثق بأن
@@ -1130,8 +1130,8 @@
 ثم إن الأعضاء انتخبوا الرئيس الدائم وأعضاء ديوان الرياسة للمؤتمر،
 وكانت الجلسة الأولى برياسة رئيس موقت، فكان الرئيس هاشم بك الأتاسي، ثم
 ألفت لجنة لوضع رد على خطاب الأمير، ولم يحضر كاتب هذه السطور الجلسة
-الأولى إذ كان قبلها بأيام زار مدينة <placeName change="#d2e120" xml:id="placeName_73.d2e2711">بيروت</placeName>، وفي أثناء زيارته لها انتخبه أهلها نائبًا
-عنهم في المؤتمر انتخابًا قانونيًّا، وعاد إلى العاصمة مع أكثر مندوبي <placeName change="#d2e120" xml:id="placeName_74.d2e2717">بيروت</placeName> في
+الأولى إذ كان قبلها بأيام زار مدينة <placeName change="#d2e120 #d11e276" xml:id="placeName_73.d2e2711" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>، وفي أثناء زيارته لها انتخبه أهلها نائبًا
+عنهم في المؤتمر انتخابًا قانونيًّا، وعاد إلى العاصمة مع أكثر مندوبي <placeName change="#d2e120 #d11e276" xml:id="placeName_74.d2e2717" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> في
 يوم الأحد 17 جمادى الآخرة، وحضر الجلسة التي عقدت في مسائه فقرئت فيها
 مضبطةً انتخابه وقبلت، واشترك في المناقشة في الرد على خطاب الأمير
 وتقريره، وهذا نصه:
@@ -1239,7 +1239,7 @@
 الكرام مع الأمة العربية في جانب الحلفاء البلاء الحسن مدة ثلاث سنوات، حاربوا
 في خلالها الحرب النظامية التي شهد لهم بها أقطاب السياسة، وقواد الجند من
 الحلفاء أنفسهم، وسائر العالم المتمدن، وضحوا العدد الكبير من أبنائهم الذين التحقوا
-بالحركة العربية من أنحاء سورية و<placeName change="#d2e120" xml:id="placeName_75.d2e2954">الحجاز</placeName> و<placeName change="#d2e120" xml:id="placeName_76.d2e2957">العراق</placeName>، فضلاً عما قام به السوريون
+بالحركة العربية من أنحاء سورية و<placeName change="#d2e120 #d11e276" xml:id="placeName_75.d2e2954" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> و<placeName change="#d2e120 #d11e276" xml:id="placeName_76.d2e2957" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، فضلاً عما قام به السوريون
 خاصةً في بلادهم من الأعمال التي سهلت انتصار الحلفاء، وما أصابهم من
 الاضطهاد والتغريب والقتل والنفي والتعذيب، تلك الأعمال التي كان لها الأثر
 الأكبر في انكسار الترك وجلائهم عن سورية، وانتصار قضية الحلفاء انتصارًا
@@ -1293,13 +1293,13 @@
 عضوًا عاملاً في العالم المتمدن، وعلى الحكومات السورية التي تتألف استنادًا على
 هذا الأساس تنفيذ هذا القرار.
 ***
-إعلان استقلال <placeName change="#d2e120" xml:id="placeName_77.d2e3077">العراق</placeName> واتحاده بسورية
+إعلان استقلال <placeName change="#d2e120 #d11e276" xml:id="placeName_77.d2e3077" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> واتحاده بسورية
 انتخاب جلالة الملك عبد الله ملكًا عليه وسمو الأمير زايد نائبًا للملك فيه
 هذا هو نص القرار الذي وضعه المؤتمر العراقي العام بإعلان استقلال العراق
 واتحاده بسورية سياسيًّا واقتصاديًّا، وقد تُلِيَ هذا القرار على الشعب السوري
 من شرفة البلدية يوم إعلان استقلال سورية، كما تقدم:
 قرر المؤتمر العربي العراقي العام الذي يمثل الشعب العراقي تمثيلاً قانونيًّا في
-جلسته المنعقدة في <placeName change="#d2e120" xml:id="placeName_78.d2e3093">دمشق الشام</placeName> بتاريخ 8 آذار 1920 و18 جمادى الأولى سنة
+جلسته المنعقدة في <placeName change="#d2e120 #d11e276" xml:id="placeName_78.d2e3093" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق الشام</placeName> بتاريخ 8 آذار 1920 و18 جمادى الأولى سنة
 1338 إعلان القرار الآتي:
 باسم الشعب العربي العراقي
 خاضت الأمة العربية غمار الحرب الماضية في جانب الحلفاء لرفع نير
@@ -1310,7 +1310,7 @@
 حكوماتهم ومجالس نوابهم أن لا غاية لهم من الحرب إلا استقلال الشعوب، وترك
 الخيار لها في بت مصيرها وتعيين شكل حكوماتها، فأبرمت بريطانية العظمى مع
 جلالة الملك الحسين تلك المعاهدة المعروفة التي اعترفت فيها باستقلال العرب من
-جبال طوروس وشمالي ولاية <placeName change="#d2e120" xml:id="placeName_79.d2e3120">الموصل</placeName> إلى خليج فارس والأوقيانوس الهندي
+جبال طوروس وشمالي ولاية <placeName change="#d2e120 #d11e276" xml:id="placeName_79.d2e3120" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> إلى خليج فارس والأوقيانوس الهندي
 والبحر الأحمر. وأيد الرئيس ولسن ذلك بما أعلنه من المبادئ السامية التي وافق
 عليها الحلفاء قاطبةً، واتخذوها أساسًا للصلح الدائم، كما جاء في بيان اللورد غراي
 وزير خارجية إنكلترة العام أمام لجنة الأمور الخارجية في 23 تشرين الأول 1916،
@@ -1325,7 +1325,7 @@
 الفضل الأكبر في تحرير الأمة العربية وإنقاذها من نير العبودية والذل
 وإحراز النصر المشترك على الأعداء في الشرق، فأبلوا في الحرب أحسن بلاء،
 وقادوا الأمة من نصر إلى نصر ثلاث سنوات متواصلةً أراقوا فيها دماء زهرة أبناء
-العراق وسورية و<placeName change="#d2e120" xml:id="placeName_80.d2e3156">الحجاز</placeName>، وكانوا موضع إعجاب الحلفاء والأعداء على
+العراق وسورية و<placeName change="#d2e120 #d11e276" xml:id="placeName_80.d2e3156" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وكانوا موضع إعجاب الحلفاء والأعداء على
 السواء، ذلك فضلاً عما تحملته الأمة في الأقطار العربية المختلفة من المصائب
 والأهوال، وما قامت به من جليل الأعمال تأييدًا لقضيتها، وانتصارًا لجلالة الملك
 وحلفائه الكرام.
@@ -1348,9 +1348,9 @@
 العرب العراقيين على نيل استقلالهم التام، والتوسل بكل الوسائل الممكنة التي
 تؤدي إليه، وبصفتنا ممثلي الشعب المكلفين بالإعراب عن إرادته - أعلنا الآن بإجماع
 الآراء استقلال البلاد العراقية المسلوخة عن تركيا بحدودها المعروفة من شمالي
-ولاية <placeName change="#d2e120" xml:id="placeName_81.d2e3209">الموصل</placeName> إلى خليج فارس استقلالاً تامًّا لا شائبة فيه، وأيدنا استقلال سوريا
-التام، وأعلنا اتحاد <placeName change="#d2e120" xml:id="placeName_82.d2e3214">العراق</placeName> بها اتحادًا سياسيًّا واقتصاديًّا، ونادينا بحضرة صاحب
-السمو الملكي الأمير عبد الله ملكًا دستوريًّا بلقب صاحب الجلالة ملك <placeName change="#d2e120" xml:id="placeName_83.d2e3220">العراق</placeName>،
+ولاية <placeName change="#d2e120 #d11e276" xml:id="placeName_81.d2e3209" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> إلى خليج فارس استقلالاً تامًّا لا شائبة فيه، وأيدنا استقلال سوريا
+التام، وأعلنا اتحاد <placeName change="#d2e120 #d11e276" xml:id="placeName_82.d2e3214" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بها اتحادًا سياسيًّا واقتصاديًّا، ونادينا بحضرة صاحب
+السمو الملكي الأمير عبد الله ملكًا دستوريًّا بلقب صاحب الجلالة ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_83.d2e3220" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>،
 وعهدنا في نيابة الملك إلى صاحب السمو الملكي الأمير زايد المعظم، وأعلنا انتهاء
 الحكم الاحتلالي العسكري الحاضر، على أن تقوم مقامه حكومة وطنية مسئولة أمام
 الشعب.
@@ -1384,9 +1384,9 @@
 مشارق الأرض ومغاربها بمقالاته الكثيرة المفيدة من دينية وعلمية، تغمده الله
 برحمته، وحشره مع الذين أنعم الله عليهم من أهل كرامته، وأكثر في هذه الأيام
 المصابة بالقحط في الرجال من أمثاله.
-توفاه الله بمصر، وكاتب هذه السطور (منشئ المنار) في <placeName change="#d2e120" xml:id="placeName_84.d2e3282">دمشق</placeName> , واتفق أن
+توفاه الله بمصر، وكاتب هذه السطور (منشئ المنار) في <placeName change="#d2e120 #d11e276" xml:id="placeName_84.d2e3282" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> , واتفق أن
 منع البريد فلم أعلم بها إلا بعد زهاء خمسة أسابيع فعظم عليّ وقع المصاب وعلى كل
-من علم به من إخواننا أهل العلم والدين في <placeName change="#d2e120" xml:id="placeName_85.d2e3290">الشام</placeName> , ولم أستطع كتابة تأبين، ولا
+من علم به من إخواننا أهل العلم والدين في <placeName change="#d2e120 #d11e276" xml:id="placeName_85.d2e3290" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> , ولم أستطع كتابة تأبين، ولا
 ترجمة له في شهر رمضان لاشتغالي بأعمال رياسة المؤتمر السوري، وقراءة درس
 في الجامع الكبير الأموي، والتهاب عرض لي في اللوزتين كان كلما خف يعود إلى
 التهيج والازدياد برفع الصوت في كل من الدرس وضبط نظام جلسات المؤتمر،

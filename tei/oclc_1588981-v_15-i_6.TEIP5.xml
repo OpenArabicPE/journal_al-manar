@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_15-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_15-i_6.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e304">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_15-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_15-i_6.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e304" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e304" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e304" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1330">1330</date><date calendar="#cal_gregorian" when="1912" xml:lang="ar">يونيه - 1912م</date></imprint>
                   <biblScope unit="volume" from="15" to="15" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">15</biblScope>
                   <biblScope unit="issue" from="6" to="6" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">6</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e298" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e304" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e298" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -107,7 +107,7 @@
 النبي صلى الله عليه وسلم فقال: إني قرأت القرآن والتوراة فقال: اقرأ هذا ليلة
 وهذا ليلة، فهذا إن صح ففي الرخصة في تكرير التوراة وتدبرها.
 ومنهم كعب الأحبار كان من كبار أهل الكتاب، أسلم في زمن أبي بكر، قال
-الذهبي: (قدم من <placeName change="#d2e120" xml:id="placeName_4.d2e350">اليمن</placeName> في دولة أمير المؤمنين عمر فأخذ عنه الصحابة وغيرهم
+الذهبي: (قدم من <placeName change="#d2e120 #d11e304" xml:id="placeName_4.d2e350" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> في دولة أمير المؤمنين عمر فأخذ عنه الصحابة وغيرهم
 وأخذ هو من الكتاب والسنة عن أصحابه) فهذا كأنه تصريح في أن الصحابة أخذوا
 عنه علم أهل الكتاب.
 ومنهم وهب بن منبه قال الذهبي في ترجمته: (وعنده من أهل الكتاب شيء
@@ -209,7 +209,7 @@
 وأنفسهم وأرضهم وملتهم وغائبهم وشاهدهم وعشيرتهم وبِيَعهم وكل ما تحت أيديهم
 من قليل أو كثير) (كتاب الخراج طبع مصر صفحة 41) .
 فكان هذا العهد هو العمدة للصحابة عضوا عليه بالنواجذ وتجد في كل عهود
-الخلفاء الراشدين كعهد نجران ومصر و<placeName change="#d2e120" xml:id="placeName_5.d2e575">الشام</placeName> والجزيرة أن هذا الأصل أي ذمة الله
+الخلفاء الراشدين كعهد نجران ومصر و<placeName change="#d2e120 #d11e304" xml:id="placeName_5.d2e575" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> والجزيرة أن هذا الأصل أي ذمة الله
 ورسوله على أرضهم وكل ما تحت أيديهم من قليل أو كثير محفوظ باقٍ على حالته
 الأصلية وعهد مصر هو هذا.
 (هذا ما أعطى عمرو بن العاص أهل مصر من الأمان على أنفسهم ودمهم
@@ -227,7 +227,7 @@
 في هذا البحث قدمها في المؤتمر الشرقي الذي انعقد سنة <date calendar="#cal_gregorian" when="1828" change="#d3e146 #d2e120" xml:id="date_4.d2e610">1828</date> م أورد فيها كل ما
 كتب الباحثون في هذا البحث نفيًا أو إثباتًا وقد طالعت كل هذه المباحثات والمقالات
 وعملت رسالة في اللسان الأردي وترجمت إلى الإنكليزية ثم إلى العربية ترجمها
-أحد أهل <placeName change="#d2e120" xml:id="placeName_6.d2e620">الشام</placeName> وطبع شطر منها في <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j">ثمرات الفنون</title></bibl>. و<bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:9 oclc:4770057679" xml:id="title_5.d2e623">المقتبس</title></bibl>.
+أحد أهل <placeName change="#d2e120 #d11e304" xml:id="placeName_6.d2e620" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وطبع شطر منها في <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j">ثمرات الفنون</title></bibl>. و<bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:9 oclc:4770057679" xml:id="title_5.d2e623">المقتبس</title></bibl>.
 والحاصل أن محققي أهل أوروبة قضوا بأن الواقعة غير ثابتة أصلاً منهم
 (جيين) المؤرخ الشهير الإنكليزي ودريير الأمريكاني وسيديو الفرنسي وكريل
 الألماني والمعلم رينان الفرنسي. عمدتهم في إنكار ذلك أمران الأول أن الواقعة
@@ -283,9 +283,9 @@
 نفعني.
 ***
 الضغط على أهل الذمة
-ادَّعى المؤلف أن عمر بن الخطاب كتب عهدًا لنصارى <placeName change="#d2e120" xml:id="placeName_7.d2e748">الشام</placeName> وذكر نصه
+ادَّعى المؤلف أن عمر بن الخطاب كتب عهدًا لنصارى <placeName change="#d2e120 #d11e304" xml:id="placeName_7.d2e748" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وذكر نصه
 منقولاً عن (سراج الملوك) للطرطوشي واعترف بأن فيه ضغطًا على النصارى، ثم
-اعتذر لعمر بأن نصارى <placeName change="#d2e120" xml:id="placeName_8.d2e755">الشام</placeName> كانوا يميلون إلى قيصر الروم وكانوا من
+اعتذر لعمر بأن نصارى <placeName change="#d2e120 #d11e304" xml:id="placeName_8.d2e755" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> كانوا يميلون إلى قيصر الروم وكانوا من
 بطانته يتجسسون له فلذلك احتيج إلى الشدة بهم والتضييق عليهم.
 كل من له أدنى مسكة في التاريخ يعرف أن الطرطوشي ليس من رجال
 التاريخ وكتابه كتاب أدب وسياسة لا كتاب تاريخ وهو من رجال القرن السادس
@@ -293,7 +293,7 @@
 والبلاذري واليعقوبي وابن الأثير وغيرها، وهذا ما كان يخفى على المؤلف ولكن
 لأجل هوى نفسه أعرض عن كل هذه وتشبث برواية واهية تخالف الروايات
 الصحيحة المذكورة بإسنادها ورجالها، قال القاضي أبو يوسف وهو - مع كونه من
-رجال الفقه - عارف بالمغازي والسير بعد ما نقل عهد نصارى <placeName change="#d2e120" xml:id="placeName_9.d2e776">الشام</placeName> وليس فيه أدنى
+رجال الفقه - عارف بالمغازي والسير بعد ما نقل عهد نصارى <placeName change="#d2e120 #d11e304" xml:id="placeName_9.d2e776" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وليس فيه أدنى
 ضغط عليهم ولا شدة بهم:
 (فلما رأى أهل الذمة وفاء المسلمين لهم وحسن السيرة فيهم صاروا أشداء على
 عدو المسلمين وعونًا للمسلمين على أعدائهم فبعث أهل كل مدينة رسلهم ممن جرى
@@ -324,8 +324,8 @@
 وفصل القضية في ذلك تجده في (كتاب حجة الله البالغة) لشاه ولي الله الدهلوي من
 متأخري حكماء الإسلام - ثم قال المؤلف (فكان من جملة مساعي المنصور
 في تصغير أمر المدينة وفقهائها وخصوصًا مالك بعد أن أفتى بخلع بيعته، وأنه
-نصر فقهاء <placeName change="#d2e120" xml:id="placeName_10.d2e846">العراق</placeName> القائلين بالقياس وكان كبيرهم يومئذ أبا حنيفة النعمان
-في الكوفة فاستقدمه المنصور إلى <placeName change="#d2e120" xml:id="placeName_11.d2e851">بغداد</placeName> وأكرمه وعزز مذهبه) الجزء
+نصر فقهاء <placeName change="#d2e120 #d11e304" xml:id="placeName_10.d2e846" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> القائلين بالقياس وكان كبيرهم يومئذ أبا حنيفة النعمان
+في الكوفة فاستقدمه المنصور إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_11.d2e851" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> وأكرمه وعزز مذهبه) الجزء
 الثالث ص 71.
 ظلمات بعضها فوق بعض! ! ما كان أبو حنيفة أرفع مكانة عند المنصور من
 مالك فإن أبا حنيفة كان هواه مع إبراهيم الخارج على المنصور، وكان أفتى بنصرة
@@ -381,7 +381,7 @@
 ورفع منار الشعر والأخذ بناصر علماء العربية وإعطاء الصلات المتكاثرة للشعراء
 احتال لدفعه بإبداء احتمال أنهم كانوا مدفوعين إلى ذلك سياسة.
 قال (وقد تقدم في كلامنا عن الفقه أن المنصور أخذ يناصر أصحاب الرأي
-والقياس، واستقدم أبا حنيفة إلى <placeName change="#d2e120" xml:id="placeName_12.d2e976">بغداد</placeName> ونشطه لهذه الغاية، وظل الميل إلى القياس
+والقياس، واستقدم أبا حنيفة إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_12.d2e976" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> ونشطه لهذه الغاية، وظل الميل إلى القياس
 متواصلاً في بني العباس والاعتزال أقرب المذاهب إلى أصحاب الرأي) إلخ
 (الجزء الثالث صفحة 140) انظر إلى ما بلغ به حال المؤلف في جهله بالمعارف
 الإسلامية حتى أنه يقرن بين الاعتزال والرأي ويعدهما من جنس واحد! ولم يدر
@@ -399,10 +399,10 @@
 قالوا بقدمه؛ لأن الحادث لا يقوم بقديم. فأما أن القرآن كلام الله تعالى منزل إلى
 الرسول فهذا لا يختلف فيه اثنان.
 قال (وأما الفلسفة بحد ذاتها فقد كان أصحابها متهمين بالكفر وكان الانتساب
-إليها مرادفًا للانتساب إلى التعطيل، وقد شاع ذلك في <placeName change="#d2e120" xml:id="placeName_13.d2e1018">بغداد</placeName> بين العامة حتى في أيام
+إليها مرادفًا للانتساب إلى التعطيل، وقد شاع ذلك في <placeName change="#d2e120 #d11e304" xml:id="placeName_13.d2e1018" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> بين العامة حتى في أيام
 المأمون ولذلك سماه بعضهم أمير الكافرين) (الجزء الثالث صفحة 177) .
 استشهد المؤلف في هذا القول باليعقوبي ونحن ننقل عبارته حتى تعرف مقدار
-خديعة المؤلف، قال اليعقوبي (وشخص هرثمة من <placeName change="#d2e120" xml:id="placeName_14.d2e1028">العراق</placeName> إلى مرو سنة 201
+خديعة المؤلف، قال اليعقوبي (وشخص هرثمة من <placeName change="#d2e120 #d11e304" xml:id="placeName_14.d2e1028" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> إلى مرو سنة 201
 وقيل: إنه انصرف بغير إذن من المأمون فلما دخل على المأمون.. .. قال من
 نقرس ولا يمكنني أمشي في محفة.. .. وكلم المأمون بكلام عليه ودخل معه
 يحيى بن عامر بن إسماعيل الحارثي فقال: السلام عليك يا أمير الكافرين.
@@ -683,19 +683,19 @@
 وقوله: {نَزَلَ بِهِ الرُّوحُ الأَمِينُ * عَلَى قَلْبِكَ لِتَكُونَ مِنَ المُنذِرِينَ} (الشعراء:
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_1.d2e1632">193- 194</hi>) بل قال أيضًا في حق المؤمنين جميعًا: {وَأَيَّدَهُم بِرُوحٍ مِّنْهُ} (المجادلة: 22) وهو (إذا صح قول النصارى) أدل على الألوهية من قوله:
-{وَأَيَّدْنَاهُ بِرُوحِ القُدُسِ} (البقرة: 87) فإنه لم يقل: إن روح <placeName change="#d2e120" xml:id="placeName_15.d2e1637">القدس</placeName> هذه هي من
+{وَأَيَّدْنَاهُ بِرُوحِ القُدُسِ} (البقرة: 87) فإنه لم يقل: إن روح <placeName change="#d2e120 #d11e304" xml:id="placeName_15.d2e1637" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> هذه هي من
 الله.
 أما قول القرآن هذا فقد ورد مثله في العهد الجديد , فقال: إن الروح نزلت
 على المسيح كالحمامة واستقرت عليه (يو 1: 32) وقيل: إن ملكًا نزل من
-السماء؛ ليقويه (لو 22: 43) وأن الروح <placeName change="#d2e120" xml:id="placeName_16.d2e1649">القدس</placeName> نزل على التلميذ بعده (أع
+السماء؛ ليقويه (لو 22: 43) وأن الروح <placeName change="#d2e120 #d11e304" xml:id="placeName_16.d2e1649" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> نزل على التلميذ بعده (أع
 2: 3 و4) .
 فإذا كان المسيح - عليه السلام - إلهًا كاملاً وإنسانًا كاملاً كما يقولون , وأقنوم
-الابن متحدًا به , وهو الله عندهم , فأي حاجة بعد ذلك لنزول روح <placeName change="#d2e120" xml:id="placeName_17.d2e1659">القدس</placeName> عليه؟
+الابن متحدًا به , وهو الله عندهم , فأي حاجة بعد ذلك لنزول روح <placeName change="#d2e120 #d11e304" xml:id="placeName_17.d2e1659" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> عليه؟
 ولماذا لم يقم الروح بوظيفته فيه بدون حلول كما كان يقوم بها في الأب بعد حلوله
 في الابن؟ وإذا كان أقنوم الابن وأقنوم روح القدوس متحدين به ولم يكفيا لتقويته ,
 فهل الملك الذي نزل عليه (لو 22 43) كان أقوى من هذين الأقنومين الإلهين
 المتحدين به؟ وإلا فما معنى قول لوقا: إن الملك نزل عليه لتقويته؟ وهل بعد ذلك
-يكون المسيح إلهًا وهو محتاج لتقوية هذا الملك؟ وهل لا يدل ذلك على أن كلاًّ من الابن وروح <placeName change="#d2e120" xml:id="placeName_18.d2e1673">القدس</placeName> ليسا أقنوميين إلهيين؛ ولذلك احتاج ناسوت المسيح مع
+يكون المسيح إلهًا وهو محتاج لتقوية هذا الملك؟ وهل لا يدل ذلك على أن كلاًّ من الابن وروح <placeName change="#d2e120 #d11e304" xml:id="placeName_18.d2e1673" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> ليسا أقنوميين إلهيين؛ ولذلك احتاج ناسوت المسيح مع
 وجودهما فيه لنزول هذا الملك عليهما مقويًا له؟ أم يقولون: إن هذا الملك كان أقوى
 من الله تعالى؛ ولذلك نجح في تقوية المسيح دون الأقنومين الإلهيين اللذين
 احتاجا إليه لتقويته معهم؟ إني والله لا أفهم ولا يمكن لعقلي الضعيف أن
@@ -703,28 +703,28 @@
 ومما تقدم يتبين لك أيها المسلم حكمة قول القرآن الشريف: {وَأَيَّدْنَاهُ بِرُوحِ
 القُدُسِ} (البقرة: 87) لينبه النصارى إلى هذه المسألة وهي مذكورة في كتبهم
 كما بينا.
-فكأنه يقول: (إنكم تسلمون أنه مؤيد بروح <placeName change="#d2e120" xml:id="placeName_19.d2e1693">القدس</placeName> كما في كتبكم فكيف بعد
-ذلك تقولون: إنه إله أو ابن الله مع اعترافكم أن الروح <placeName change="#d2e120" xml:id="placeName_20.d2e1699">القدس</placeName> نزلت عليه؟ فهل
+فكأنه يقول: (إنكم تسلمون أنه مؤيد بروح <placeName change="#d2e120 #d11e304" xml:id="placeName_19.d2e1693" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> كما في كتبكم فكيف بعد
+ذلك تقولون: إنه إله أو ابن الله مع اعترافكم أن الروح <placeName change="#d2e120 #d11e304" xml:id="placeName_20.d2e1699" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> نزلت عليه؟ فهل
 أقنوم الابن الذي فيه من قبل لم يكن كافيًا؟ وإذا كان المسيح إلهًا بوجود هذين
 الأقنومين الإلهيين فيه , فكيف بعد ذلك يحتاج لتقوية الملك؟ فهل الله يحتاج لتقوية
 عبيده له؟ وإذا كان ناسوته محتاجًا , فهل لم يكفه وجود الأقنومين الإلهيين المتحدين
-به؟ وإذا كان وجود روح <placeName change="#d2e120" xml:id="placeName_21.d2e1710">القدس</placeName> فيه يدل على أنه إله , فلماذا لم تَصِرْ الحواريون
+به؟ وإذا كان وجود روح <placeName change="#d2e120 #d11e304" xml:id="placeName_21.d2e1710" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> فيه يدل على أنه إله , فلماذا لم تَصِرْ الحواريون
 أيضًا آلهة وهم ممتلئون منه (أع 2: 4) ؟ وإذا كان حلول الله أو أحد أقانيمه في
 الناس لا يجعلهم آلهة , فلماذا صار المسيح إلهًا لحلوله فيه؟ ولماذا يعبد ناسوته مع
 لاهوته ولا تُعبد أيضًا تلاميذه الممتلئون من روح الله؟ الحق أن كلَّ محتاجٍ لا يكون
-إلهًا فلا الابن إلهًا؛ لأنه احتاج لروح <placeName change="#d2e120" xml:id="placeName_22.d2e1722">القدس</placeName> ولا الروح إله؛ لأنه احتاج للملك
+إلهًا فلا الابن إلهًا؛ لأنه احتاج لروح <placeName change="#d2e120 #d11e304" xml:id="placeName_22.d2e1722" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> ولا الروح إله؛ لأنه احتاج للملك
 ليستعين به على تقوية المسيح فالكل ليسوا آلهة) وعليه فقول القرآن الشريف هذا
 مبطل لقول النصارى من أوله إلى آخره؛ ولذلك تكررت هذه العبارة فيه في حق
 عيسى - عليه السلام - ولم تذكر بهذا اللفظ فى حق غيره من الأنبياء عليهم
 السلام [8] .
-ولتعلم النصارى أن روح <placeName change="#d2e120" xml:id="placeName_23.d2e1736">القدس</placeName> المذكور في القرآن المراد به الملك جبريل
+ولتعلم النصارى أن روح <placeName change="#d2e120 #d11e304" xml:id="placeName_23.d2e1736" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> المذكور في القرآن المراد به الملك جبريل
 كما يفهم من مجموع هذه الآيات {مَن كَانَ عَدُواًّ لِّجِبْرِيلَ فَإِنَّهُ نَزَّلَهُ عَلَى قَلْبِكَ} (البقرة: 97) الآية , وقوله: {نَزَلَ بِهِ الرُّوحُ الأَمِينُ * عَلَى قَلْبِكَ} (الشعراء:
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_2.d2e1744">193-194</hi>) وقوله: {قُلْ نَزَّلَهُ رُوحُ القُدُسِ مِن رَّبِّكَ بِالْحَقِّ} (النحل:
 102) , ومعنى روح القدُس الروح الطاهرة وهو جبريل ملك الوحي والإلهام
 الإلهي (انظر دا 8: 16 و19: 21 ولو: 19 و26) وهو عبد من عبيد الله
 الواحد الأحد تعالى الله عما يشركون.
-أما قول النصارى: إن روح <placeName change="#d2e120" xml:id="placeName_24.d2e1756">القدس</placeName> هي الأقنوم الثالث أو هي الله , وأنها
+أما قول النصارى: إن روح <placeName change="#d2e120 #d11e304" xml:id="placeName_24.d2e1756" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> هي الأقنوم الثالث أو هي الله , وأنها
 تشكلت بصورة حمامة (متى 3: 16) فلا أدري كيف يتفق ذلك مع قولهم: إن
 السموات والأرض لا تحصره تعالى ولا تحيط به , وأنها كلها في قبضة يده , راجع
 سفر أخبار الأيام الثاني 6: 18 وقول سفر التثنية 4: 12 (فكلمكم الرب من
@@ -786,7 +786,7 @@
 والمسلمون يلجأون بأنفسهم إلى مستشفيات المبشرين وصيدلياتهم.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_7.d2e1883">3- </hi>الأعمال التهذيبية: كالمدارس والكليات التي تقبل أبناء المسلمين , وكان
-في مدارس (<placeName change="#d2e120" xml:id="placeName_25.d2e1889">صيدا</placeName>) فقط في السنوات الأخيرة 250 تلميذًا من كل الطوائف ,
+في مدارس (<placeName change="#d2e120 #d11e304" xml:id="placeName_25.d2e1889" ref="geon:268064 oape:place:9 wiki:Q163490" resp="#xslt">صيدا</placeName>) فقط في السنوات الأخيرة 250 تلميذًا من كل الطوائف ,
 فوصل عدد المسلمين في السنوات الثلاث الأخيرة إلى 98 بعد أن كانوا 45 وهذه
 الزيادة ناشئة عن إقبال مسلمي مصر على مدارس المبشرين في سورية.
 
@@ -806,7 +806,7 @@
 يبق علينا إلا أن نستعمل هذه الأدوات.
 ***
 الجزيرة العربية
-قال وليم جيفورد بالكراف: (متى توارى القرآن ومدينة <placeName change="#d2e120" xml:id="placeName_26.d2e1937">مكة</placeName> عن بلاد العرب
+قال وليم جيفورد بالكراف: (متى توارى القرآن ومدينة <placeName change="#d2e120 #d11e304" xml:id="placeName_26.d2e1937" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> عن بلاد العرب
 يمكننا حينئذ أن نرى العربي يتدرج في سبيل الحضارة التي لم يبعده عنها إلا محمد
 وكتابه!) .
 قال مؤلف كتاب (العالم الإسلامي اليوم) : وقد أدرك أهمية هذه الفكرة
@@ -819,12 +819,12 @@
 بوجه خاص إلى إرسالية التبشير العربية , وهي البنت الممتازة لكنيسة الإصلاح
 الأمريكية , ولها فروع أربعة أقدمها عهدًا (جمعية تبشير الكنيسة) التي تفرع عنها
 فرع آخر في فارس سنة 1882 , وقد استقلت هذه الجمعية بأعمالها باسم (جمعية
-التبشير العربية العثمانية) ولها في <placeName change="#d2e120" xml:id="placeName_27.d2e1968">بغداد</placeName> أربع إرساليات وفي <placeName change="#d2e120" xml:id="placeName_28.d2e1972">الموصل</placeName> إرسالية
+التبشير العربية العثمانية) ولها في <placeName change="#d2e120 #d11e304" xml:id="placeName_27.d2e1968" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> أربع إرساليات وفي <placeName change="#d2e120 #d11e304" xml:id="placeName_28.d2e1972" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> إرسالية
 واحدة.
 وفي سنة 1885 ذهب إلى عدن (إيون كيث مالكونر) وهو الابن الثالث
 للكونت (كنتور) فأسس هناك إرسالية تبشير اسكتلندية سماها باسمه , وهي
 مؤلفة من طبيبين مبشرين , وتبعتها (إرسالية التبشير العربية) التي أسست سنة
-1889 وهي تابعة لكنيسة الإصلاح الأميركية , فانتشرت في <placeName change="#d2e120" xml:id="placeName_29.d2e1986">البصرة</placeName> والبحرين
+1889 وهي تابعة لكنيسة الإصلاح الأميركية , فانتشرت في <placeName change="#d2e120 #d11e304" xml:id="placeName_29.d2e1986" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> والبحرين
 ولها في البحرين خمسة مبشرين - اثنان منهم طبيبان واثنان امرأتان - ولها في
 البصرة أربعة مبشرين أحدهم طبيب.
 وفي (الشيخ عثمان) إرسالية تبشير دينمركية كان سلطان (مكلا) طردها
@@ -837,7 +837,7 @@
 داخل الجزيرة , وكل الإرساليات هناك على اختلاف نزعاتها وأشكالها ومعاهدها
 الطبية والتهذيبية والأدبية ترمي إلى غاية واحدة.
 والمرضى يشدون الرحال من أصقاع بعيدة إلى مستشفيات المبشرين في
-(<placeName change="#d2e120" xml:id="placeName_30.d2e2017">الموصل</placeName>) و (<placeName change="#d2e120" xml:id="placeName_31.d2e2020">بغداد</placeName>) و (<placeName change="#d2e120" xml:id="placeName_32.d2e2023">البصرة</placeName>) و (البحرين) و (الشيخ عثمان) و (عدن) وعندما
+(<placeName change="#d2e120 #d11e304" xml:id="placeName_30.d2e2017" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName>) و (<placeName change="#d2e120 #d11e304" xml:id="placeName_31.d2e2020" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>) و (<placeName change="#d2e120 #d11e304" xml:id="placeName_32.d2e2023" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>) و (البحرين) و (الشيخ عثمان) و (عدن) وعندما
 يرحل الأطباء جائيين في البلاد , يبذرون في النفوس بذورًا يمكن للمبشرين
 وبائعي الكتب أن يتعهدوها بعد ذلك وينمو غرسها.
 والتعليم المدرسي والتربية الأخلاقية اللذان يعنى بهما المبشرون قد أسفرا عن
@@ -1054,8 +1054,8 @@
 الناطقين بالتركية من مسلمي الروملي هم من الروم والبلغار والأرنئود لا من الترك
 الفاتحين , كما تدل على ذلك سحنهم ومعارف وجوههم، فالترك العثمانيون والفرس
 الإيرانيون المسلمون والعرب المكيون والمدنيون ليسوا تركًا وفرسًا وعربًا إلا
-باللسان دون النسب، وأما أهل قرى <placeName change="#d2e120" xml:id="placeName_33.d2e2503">الحجاز</placeName> وباديته فهم كسائر عرب الجزيرة في
-نجد و<placeName change="#d2e120" xml:id="placeName_34.d2e2508">اليمن</placeName> صريحو الأنساب، الدخيل فيهم معروف لا يزوجونه منهم، إذ لا يزالون
+باللسان دون النسب، وأما أهل قرى <placeName change="#d2e120 #d11e304" xml:id="placeName_33.d2e2503" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وباديته فهم كسائر عرب الجزيرة في
+نجد و<placeName change="#d2e120 #d11e304" xml:id="placeName_34.d2e2508" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> صريحو الأنساب، الدخيل فيهم معروف لا يزوجونه منهم، إذ لا يزالون
 يحافظون على أنسابهم وأنساب خيلهم.
 ***
 العادات في الأكل والطعام
@@ -1200,8 +1200,8 @@
 الهند؛ لأنني كنت أتحامى السياسة فيها بقدر الإمكان , وأن كل مسلم عاقل يسره أن
 ينتشر تعليم العربية في الهند مهما كان سبب عناية الإنكليز به؛ لأن تعليم العربية
 يقوي الدين الإسلامي نفسه ولا ضرر فيه ألبتة، ولا دخْل له في تقوية مطامع
-الإنكليز في <placeName change="#d2e120" xml:id="placeName_35.d2e2828">العراق</placeName> و<placeName change="#d2e120" xml:id="placeName_36.d2e2832">اليمن</placeName> , ولا يمكن أن يكون سببًا ولا جزء سبب في نيل
-مطامعهم هذه، وإنما مدار هذا الأمر على سياسة <placeName change="#d2e120" xml:id="placeName_37.d2e2837">الدولة العثمانية</placeName> صاحبة السيادة
+الإنكليز في <placeName change="#d2e120 #d11e304" xml:id="placeName_35.d2e2828" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> و<placeName change="#d2e120 #d11e304" xml:id="placeName_36.d2e2832" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> , ولا يمكن أن يكون سببًا ولا جزء سبب في نيل
+مطامعهم هذه، وإنما مدار هذا الأمر على سياسة <placeName change="#d2e120 #d11e304" xml:id="placeName_37.d2e2837" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> صاحبة السيادة
 على هذه البلاد وإدارتها , فإذا هي أحسنت الإدارة والسياسة وعنيت بأمر القوة
 المحلية في جزيرة العرب وَقَت البلاد من الاستيلاء الأجنبي , وإلا فالخطر الواقع
 واقع ما له من دافع.
@@ -1210,16 +1210,16 @@
 والأعمال الحربية ولا سيما حرب العصائب، وأن تقر جميع الأمراء والزعماء في
 الجزيرة على ما كانوا عليه من الرياسة في قومهم، وتستعين بهم على ما تريد من
 تعميم القوة في بلادهم , وقد بينت هذا الرأي في المنار من قبل , وذكرت به بعض
-رجال الدولة، ويؤيده ما جرى في <placeName change="#d2e120" xml:id="placeName_38.d2e2860">طرابلس الغرب</placeName> , ولا خوف على الدولة ولا على
+رجال الدولة، ويؤيده ما جرى في <placeName change="#d2e120 #d11e304" xml:id="placeName_38.d2e2860" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> , ولا خوف على الدولة ولا على
 سيادة العنصر التركي فيها من ذلك , وقد ازددت بسياحتي هذه في البلاد العربية
 إيمانًا ويقينًا بما كنت أعتقده من قبل من إخلاص العرب للدولة العثمانية واستعدادهم
 لبذل أرواحهم في سبيلها , وأن إظهار ثقتها بهم لمما يقوي هذا الإخلاص في أنفسهم
 ويسرع بإظهار ثمراته فيهم.
 إن الدولة الإنكليزية قد اشتدت في منع إدخال السلاح لليمن ولعمان والعراق
-من عدة سنين , وهي تسعى الآن بجمع السلاح من <placeName change="#d2e120" xml:id="placeName_39.d2e2876">العراق</placeName> وسواحل الخليج وعمان
+من عدة سنين , وهي تسعى الآن بجمع السلاح من <placeName change="#d2e120 #d11e304" xml:id="placeName_39.d2e2876" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وسواحل الخليج وعمان
 حتى إنها تشتريه بالثمن , فهل عرف رجال الدولة هذا , وفكروا في أسبابه وحكمته،
 وفي عاقبته ومغبته؟
-وكتب في <placeName change="#d2e120" xml:id="placeName_40.d2e2885">البصرة</placeName> في جمادى الثانية سنة 1330
+وكتب في <placeName change="#d2e120 #d11e304" xml:id="placeName_40.d2e2885" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> في جمادى الثانية سنة 1330
 (للكلام بقية)
 ((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_4.d2e2893">(1) الفنع مصدر فنع الرجل إذا كثر ماله ونما، والكرم والعطاء والجود الواسع والفضل الكثير.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_4.d2e2896">الكاتب: <persName change="#d2e141 #d2e120 #d3e274" xml:lang="ar" xml:id="persName_6.d2e2898" ref="oape:pers:689 viaf:51716068">
@@ -1238,7 +1238,7 @@
                
 ننشر في هذا الباب شيئًا من تعازي أهل الفضل في الأقطار البعيدة وغير
 البعيدة , ونتبعه بشيء مما كتبته الجرائد السورية والمصرية , ثم نتبع ذلك بنشر
-حفلة التأبين التي أقيمت من فضلاء وأدباء <placeName change="#d2e120" xml:id="placeName_41.d2e2919">بيروت</placeName> في غرف القراءة بمناسبة مرور
+حفلة التأبين التي أقيمت من فضلاء وأدباء <placeName change="#d2e120 #d11e304" xml:id="placeName_41.d2e2919" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> في غرف القراءة بمناسبة مرور
 أربعين يومًا على وفاته.
 (28)
 ومما كتبه أحد أفاضل علماء تونس:
@@ -1259,7 +1259,7 @@
 هذا المصاب الخطير الذي أصاب الأمة العربية بفقيدكم العظيم فإنا لله
 وإنا إليه راجعون.
 أحسب أن فقيدكم من أكتب الكتاب في هذا العصر , ولا أنسى ما خطت يمينه
-في المنار , من ذلك مقال أخذ بمجامع القلوب ذكرنا به علماء <placeName change="#d2e120" xml:id="placeName_42.d2e2967">بغداد</placeName> وأدباء قرطبة
+في المنار , من ذلك مقال أخذ بمجامع القلوب ذكرنا به علماء <placeName change="#d2e120 #d11e304" xml:id="placeName_42.d2e2967" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> وأدباء قرطبة
 وفحول البلغاء ذلك الذي يرحب فيه بنهضة الزيتونيين يوم اعتصبوا وانقطعوا عن
 الدرس.
 أما تقاريظه العلمية للكتب والمخطوطات فلم أر مثلها لغيره , وإني لأعده من
@@ -1320,7 +1320,7 @@
 تجمعت عندنا: مصيبة الأمة بفقده وهو حديث السن , ومصيبة الأخوة التي عقدتها يد
 المكاتبة بيننا , وأيدتها مقالاته الاجتماعية التي نشرت في بعض أجزاء المنار
 ومصيبتكم - مولانا - فيه , وأنتم أحب الناس إلينا نسأل الله أن يطول عمر
-سيدنا الأكبر, ويجعل ذلك المرحوم لكم فرطًا صالحًا وذخرًا عند الله عظيمًا , ويبوئكم مع شهيدكم في حظيرة <placeName change="#d2e120" xml:id="placeName_43.d2e3103">القدس</placeName>.
+سيدنا الأكبر, ويجعل ذلك المرحوم لكم فرطًا صالحًا وذخرًا عند الله عظيمًا , ويبوئكم مع شهيدكم في حظيرة <placeName change="#d2e120 #d11e304" xml:id="placeName_43.d2e3103" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>.
 أيها الأخ الصديق المخلص السيد صالح رضا! يعز عينا ما أصابكم في فقيدنا
 ونسأل الله أن يرزقكم جميل الصبر , ويجزيكم جزيل الأجر إنا لله وإنا إليه راجعون.
 
@@ -1430,10 +1430,10 @@
 فإذا بكوا حسينًا فإنما يبكون هذه الصفات، إنما يبكون عقل المشيب في
 رياحين الشباب.
 نشأ هذا الراحل الكريم في دار أساسها العلم وعمادها التقوى، وترعرع في
-دور العلوم ومنتديات الآداب , فقد عرفته في المدرسة الرشدية في <placeName>طرابلس الشام</placeName>
+دور العلوم ومنتديات الآداب , فقد عرفته في المدرسة الرشدية في <placeName ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt" change="#d11e304">طرابلس الشام</placeName>
 فعرفت منه أخا الوفاء وتمثال الذكاء والصديق الصدوق , ثم فرقت بيننا عوادي
 الأيام وتصرفات الأقدار , فلم أره ولم يرني إلا في مصر مهبط الحرية الشرقية.
-ولما أُعلن الدستور في ربوع <placeName change="#d2e120" xml:id="placeName_45.d2e3354">المملكة العثمانية</placeName> كان هذا الصديق ينتقل من
+ولما أُعلن الدستور في ربوع <placeName change="#d2e120 #d11e304" xml:id="placeName_45.d2e3354" ref="oape:place:1" resp="#xslt">المملكة العثمانية</placeName> كان هذا الصديق ينتقل من
 مصر إلى سورية فيحمل جراثيم المودة التي تشد أواصر الإخاء فقد عرفته منابر
 سورية الخطيب المصقع وجرائد مصر الكاتب الألمعي , وبالجملة فقد عرفه
 القطران رسول سعادة وسلام.
@@ -1493,11 +1493,11 @@
 فأصابه في مقتل , ولم يلبث أن قضى نَحبه , فساء هذا المقتل الفظيع كل الذين
 عرفوا أدب الفقيد وفضله , فنعزي آله وذويه ولا سيما شقيقه الأستاذ السيد محمد
 رشيد رضا صاحب <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_10.d2e3504">المنار</title></bibl> , ونشدد على الحكومة المحلية وعلى حضرة والي
-الولاية في وضع حد لهذه الفوضى التي استفحل أمرها في <placeName change="#d2e120" xml:id="placeName_47.d2e3509">طرابلس الشام</placeName>.
+الولاية في وضع حد لهذه الفوضى التي استفحل أمرها في <placeName change="#d2e120 #d11e304" xml:id="placeName_47.d2e3509" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName>.
 ***
 وكتبت <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_11.d2e3520">الرأي العام</title></bibl> الغراء:
 وفاة أديب
-من أنباء <placeName change="#d2e120" xml:id="placeName_49.d2e3527">طرابلس الشام</placeName> أن بعض الأشرار اغتالوا المرحوم الأديب حسين
+من أنباء <placeName change="#d2e120 #d11e304" xml:id="placeName_49.d2e3527" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> أن بعض الأشرار اغتالوا المرحوم الأديب حسين
 وصفي أفندي رضا , فأسفنا لهذا النعي الذي وقع لدينا موقعًا كبيرًا؛ لما كان عليه
 المرحوم من وافر الأدب والآداب رحمه الله رحمة واسعة , وعزى شقيقه الأكبر
 الشيخ رشيد رضا صاحب المنار الأغر.
@@ -1511,7 +1511,7 @@
 والخِدْمات المنتظرة , فشُلَّت يد ذلك الأثيم.
 فنحن نعزي عائلته الكريمة لا سيما أخاه الأستاذ السيد محمد رشيد رضا
 صاحب المنار , ونرجو أن تكون خاتمة أحزانه.
-وبمناسبة قتل المرحوم والحوادث التي تجري في <placeName change="#d2e120" xml:id="placeName_52.d2e3570">طرابلس الشام</placeName> نطلب من
+وبمناسبة قتل المرحوم والحوادث التي تجري في <placeName change="#d2e120 #d11e304" xml:id="placeName_52.d2e3570" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> نطلب من
 حازم بك أن يضع حدًّا لاختلال الأمن , فالسكوت على هذه الأحوال ضرب من
 الاستكانة إلى الظلم والرضوخ إلى الجور.
 ***
@@ -1535,15 +1535,15 @@
 والخطب الجسيم.
 ***
 وكتبت <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_15.d2e3636">العمران</title></bibl>:
-الفوضى في <placeName>طرابلس الشام</placeName>
-إن أنباء <placeName change="#d2e120" xml:id="placeName_55.d2e3646">طرابلس الشام</placeName> مزعجة بحيث لا يأتينا بريد من سورية إلا ويحمل لنا
+الفوضى في <placeName ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt" change="#d11e304">طرابلس الشام</placeName>
+إن أنباء <placeName change="#d2e120 #d11e304" xml:id="placeName_55.d2e3646" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> مزعجة بحيث لا يأتينا بريد من سورية إلا ويحمل لنا
 منها المفجعات , وكان آخر ذلك مقتل حضرة الحسيب النسيب سليل البيت الطاهر,
 وأحد الأدباء الذين تفتخر بهم الدساكر المرحوم المبرور السيد حسين وصفي رضا
 شقيق الأستاذ الشيخ رشيد رضا صاحب <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_16.d2e3659">المنار</title></bibl> الزاهرة , فشق علينا خطبه؛
 لأن فقدانه خسارة على الأدب والفضل , وزاد في حزننا أنه قتل بيد أثيم معتد في
 موقف يريد به نصرة مظلوم من ظالم ولا حول ولا قوة إلا بالله , ونحن نتقدم إلى
 حضرة الأستاذ الشيخ رشيد وعموم إخوان الفقيد وأنسبائهم بواجب التعزية , ونسأل
-لهذا الراحل رحمة ورضوانًا , ولقاتله جزاء وفاقًا ولحكومة <placeName change="#d2e120" xml:id="placeName_57.d2e3671">طرابلس الشام</placeName> حزمًا في
+لهذا الراحل رحمة ورضوانًا , ولقاتله جزاء وفاقًا ولحكومة <placeName change="#d2e120 #d11e304" xml:id="placeName_57.d2e3671" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> حزمًا في
 حفظ الأمن العام وإقدامًا.
 ((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_5.d2e3682">(1) الصواب: (امرأة لا ولدا) , وقد تابع الكاتب بعض روايات الجرائد في كون المضروب ولدًا.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_5.d2e3685">الكاتب: <persName change="#d2e141 #d2e120 #d3e274" xml:lang="ar" xml:id="persName_7.d2e3687" ref="oape:pers:689 viaf:51716068">
@@ -1564,7 +1564,7 @@
 
                
 في مساء الثلاثاء ليلة 17 صفر سنة 1330 - 6 فبراير سنة 1912 اجتمع
-فضلاء أدباء <placeName change="#d2e120" xml:id="placeName_59.d2e3710">بيروت</placeName> وأقاموا حفلة تأبين لفقيدنا السيد حسين وصفي رضا الحسيني
+فضلاء أدباء <placeName change="#d2e120 #d11e304" xml:id="placeName_59.d2e3710" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> وأقاموا حفلة تأبين لفقيدنا السيد حسين وصفي رضا الحسيني
 في غرف القراءة الأميركانية , وأذاعوا تذكرة دعوة لحضور فريق أهل الأدب
 والفضل لمشاركتهم بذلك , وكان القائمون بهذه الحفلة هم المذيّلة أسماؤهم صورة
 تذكرة الدعوة، وهذا نصها:
@@ -1578,7 +1578,7 @@
 صاحب <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_18.d2e3740">المراقب</title></bibl>، أمين بك طليع مدير مال قضاء الشوف، إلياس أفندي
 حنيكاتي كاتب (مطرانخانة الروم) نجيب أفندي بليق مدير مدرسة المقاصد
 الخيرية، باتر أفندي باولي صاحب <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d5e196 #d2e120" xml:id="title_19.d2e3748">الوطن</title></bibl>، جرجي أفندي باز صاحب <bibl resp="#xslt" type="periodical" subtype="journal" change="#d11e298">مجلة
-<title level="j" change="#d11e298">الحسناء</title></bibl>، محمد علي أفندي النابلسي من التجار ووكيل المنار في <placeName change="#d2e120" xml:id="placeName_60.d2e3753">بيروت</placeName>.
+<title level="j" change="#d11e298">الحسناء</title></bibl>، محمد علي أفندي النابلسي من التجار ووكيل المنار في <placeName change="#d2e120 #d11e304" xml:id="placeName_60.d2e3753" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>.
 وفي الوقت المعين اجتمع كثير من أهل الفضل , وشاركوا الفضلاء المحتفلين
 باحتفالهم , وترأس الاحتفال الأستاذ بولس الخولي مدير <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" xml:id="title_20.d2e3761">الكلية</title></bibl>، فتلا رسالة
 الشيخ محيي الدين الخياط الشيخ عبد الرحمن سلام لعدم حضوره [1] وأتبعها بتأبين
@@ -1768,7 +1768,7 @@
 حر أسير الحق غير مداهن <gap resp="#org_MS" change="#d2e120" xml:id="gap_132.d2e4224"/> فيه ولا وجل ولا هياب
 يأبى محاباة الوجوه وضده <gap resp="#org_MS" change="#d2e120" xml:id="gap_133.d2e4229"/> في الناس كل مملق ومحابي
 وأشد ما تأباه فيهم نفسه <gap resp="#org_MS" change="#d2e120" xml:id="gap_134.d2e4233"/> لغو الكلام وفارغ الألقاب
-آثاره الغراء في <placeName change="#d2e120" xml:id="placeName_61.d2e4237">بيروت</placeName> لا <gap resp="#org_MS" change="#d2e120" xml:id="gap_135.d2e4240"/> تُنسى ولن تنسى مدى الأحقاب
+آثاره الغراء في <placeName change="#d2e120 #d11e304" xml:id="placeName_61.d2e4237" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> لا <gap resp="#org_MS" change="#d2e120" xml:id="gap_135.d2e4240"/> تُنسى ولن تنسى مدى الأحقاب
 عرفت ذوو الألباب فيها فضله <gap resp="#org_MS" change="#d2e120" xml:id="gap_136.d2e4245"/> والفضل يعرفه ذوو الألباب
 فلذاك إن أحيوا له ذكرى فما <gap resp="#org_MS" change="#d2e120" xml:id="gap_137.d2e4249"/> بالأمر من عجب ولا استغراب
 فالمرء يحيا ذكره بطرائف م الآداب لا بمطارف الأثواب
@@ -1783,7 +1783,7 @@
 لأني له صديق ومن أدرى بالصديق من الصديق؟
 نشأ الفقيد في القلمون إحدى قرى لبنان المجاورة لطرابلس (والتابعة لها من
 جهة التقسيم الإداري في الولايات العثمانية) ودرج في حجر شيده المجد والفضل،
-وأثثه العلم والنبل، فتلقى العلوم الابتدائية في القرية , وتممها في <placeName change="#d2e120" xml:id="placeName_62.d2e4282">طرابلس</placeName>، وكان
+وأثثه العلم والنبل، فتلقى العلوم الابتدائية في القرية , وتممها في <placeName change="#d2e120 #d11e304" xml:id="placeName_62.d2e4282" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>، وكان
 استعداده الفطري وذكاؤه الغريزي يساعدانه في التفوق على أقرانه ويرفعانه إلى
 أعلى مراتب التلمذة أينما كان، ولا غرو فهو من شجرة عربية الأصل قرشية الفرع
 هاشمية العود , وهو في حياته وحتفه كجده الحسين ميتة ونبوغًا.
@@ -1792,7 +1792,7 @@
 عمد إلى محاربة المستبدين الغاشمين وقتالهم باليراع , فأوجس رجال هذا العهد
 خيفة من الوكر الذي طار منه النسر , فضغطوا على الوكر ومن فيه وشرعوا
 يتفننون في تعذيبهم وتهديدهم؛ لإسكات ذلك الصوت الذي يرن صداه في جاوه
-والهند وفارس والجزائر ومراكش و<placeName change="#d2e120" xml:id="placeName_63.d2e4306">الشام</placeName> والقطر المصري , فطورًا يسجنون
+والهند وفارس والجزائر ومراكش و<placeName change="#d2e120 #d11e304" xml:id="placeName_63.d2e4306" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> والقطر المصري , فطورًا يسجنون
 الولد , وآونة ينذرون الوالد , فلم يثنوا بأعمالهم هذه عزيمة نازل مصر , ولم
 يقدروا على إخماد تلك الجذوة المشتعلة في أفئدة أهل ذلك البيت , فلما بلغ الفقيد
 أشده واشتد ساعده في العلم نشط إليهما على حداثة سنه ولحق بأخيه , وحذا حذوه
@@ -1803,7 +1803,7 @@
 بلغ درجة في الكتابة إذا لم أقل: تفوق كتابة الذين مارسوها عشرين سنة فهي لا تقل
 عنهم في شيء، وكان لا يفوته علم من علوم العربية الاثني عشر إلا أحاط به كأحد
 أساتيذه , ولا عجب فهو شقيق الأستاذ السيد رشيد رضا تلميذ الشيخ محمد عبده.
-ولما مَنَّ الله على الأمة العثمانية بنعمة الشورى، جاء <placeName change="#d2e120" xml:id="placeName_64.d2e4333">بيروت</placeName> مهللاً لها فرحًا
+ولما مَنَّ الله على الأمة العثمانية بنعمة الشورى، جاء <placeName change="#d2e120 #d11e304" xml:id="placeName_64.d2e4333" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> مهللاً لها فرحًا
 وحبورًا، وخطب في الحديقة مرارًا كان يرتجل خطابه دون أن يستعد له , ومع
 ذلك كانت خطبه لا يشتم منها رائحة الارتجال؛ لأنه - رحمه الله - ضليع في
 العربية حاضر الذهن , وكان يكتب المقالة بين لفيف من أصحابه ولا تشغله
@@ -1871,7 +1871,7 @@
 الحسينية الطاهرة وفرع الشجرة الزكية الزاهرة , شاب كان في ريعان الصبا
 ومقتبل العمر، نبت في بيت الحسب، ودرج من مهد الفضيلة والأدب، فنشأ
 فاضلاً أديبًا، ولوذعيًّا أريبًا، وشبَّ عاقلاً مفكرًا، ووطنيًّا مخلصًا، وشهمًا أبيًّا،
-منذ سنوات في <placeName change="#d2e120" xml:id="placeName_65.d2e4501">بيروت</placeName> وهو على أهبة السفر إلى القطر المصري لاحقًا بأخيه
+منذ سنوات في <placeName change="#d2e120 #d11e304" xml:id="placeName_65.d2e4501" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> وهو على أهبة السفر إلى القطر المصري لاحقًا بأخيه
 المصلح الشهير العلامة السيد رشيد , رسخت بيننا قواعد المودة وتوثقت عرى
 المصافاة , فعرفت منه حرًّا متطرفًا أيام كانت الحرية جريمة لا تغتفر، وجريئًا
 مقدامًا لا تأخذه في الحق لومة لائم أيام كانت الجرأة جزاؤها البوسفور، يُنحي
@@ -1914,7 +1914,7 @@
 نفس ينال , وإذا هو مات فلا ينعى ولا يشق عليه جيب , ولا يكون غير سكون
 دائم على جسم هامد , تدل بقياه على ما عاناه من التعب وما تكبَّده في
 دنياه من النصَب.
-بَيْد أن أدباء <placeName change="#d2e120" xml:id="placeName_66.d2e4606">بيروت</placeName> ولبنان انتبهوا منذ عشرات من السنين إلى حظ الأديب
+بَيْد أن أدباء <placeName change="#d2e120 #d11e304" xml:id="placeName_66.d2e4606" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> ولبنان انتبهوا منذ عشرات من السنين إلى حظ الأديب
 من دنياه مادة؛ فعمدوا إلى إقامة مثل هذه الحفلات تقال بها كلمة , وتذرف دمعة
 وهي أقل ما يكافأ به أديب ميت، وأفضل ما يشجع به أديب حي فحيا الله هذا
 الشعور.

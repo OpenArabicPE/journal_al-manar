@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_26-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_26-i_6.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e288">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_26-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_26-i_6.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1344">1344</date><date calendar="#cal_gregorian" when="1925" xml:lang="ar">أكتوبر - 1925م</date></imprint>
                   <biblScope unit="volume" from="26" to="26" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">26</biblScope>
                   <biblScope unit="issue" from="6" to="6" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">6</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e282" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e288" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e282" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -125,7 +125,7 @@
 المجامع الدينية المشتركة بينهن وبين الرجال، ولا ينافي ذلك كونهن يصلين صلاة
 الجماعة خلف الرجال، وأنهن قد يفرد لهن المطاف فيطفن وحدهن؛ إذ من المعلوم
 بالضرورة أنهن يقبلن على المساجد في الحالة التي يصلين فيها أو يطفن، فيراهن
-الرجال، وأنهن يتنقلن مع الرجال من مواقيت الإحرام إلى <placeName change="#d2e120" xml:id="placeName_4.d2e379">مكة</placeName>، ومنها إلى عرفات
+الرجال، وأنهن يتنقلن مع الرجال من مواقيت الإحرام إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_4.d2e379" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، ومنها إلى عرفات
 والمزدلفة ومنى.
 ولا بأس بأن ننقل هنا ملخص مذاهب علماء الأمصار في المسألة في الصلاة
 وخارجها عن كتاب المفتي للشيخ الموفق الحنبلي، فإنه كتاب في فقه الإسلام لا في
@@ -223,8 +223,8 @@
 وككون القلنسوة تمنع منه كذلك بشكلها.. . فإن ذلك يكون ضررًا دينيًّا مقتضيًا
 للتحريم ما دام مانعًا، وكذلك إذا كان لبس الحاذق يضر البدن كما قالوه في المشد
 الذي تشد النساء به خصورهن. وقد قال الدكتور سنوك المستشرق الهولاندي
-المشهور الذي دخل في الإسلام، وجاور في <placeName change="#d2e120" xml:id="placeName_5.d2e595">مكة</placeName> بضع سنين، وكان صديقنا السيد
-عبد الله الزواوي مفتي <placeName change="#d2e120" xml:id="placeName_6.d2e600">مكة</placeName> من شيوخه يعتقد صحة إسلامه- قال: إنه ثبت التجربة
+المشهور الذي دخل في الإسلام، وجاور في <placeName change="#d2e120 #d11e288" xml:id="placeName_5.d2e595" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> بضع سنين، وكان صديقنا السيد
+عبد الله الزواوي مفتي <placeName change="#d2e120 #d11e288" xml:id="placeName_6.d2e600" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> من شيوخه يعتقد صحة إسلامه- قال: إنه ثبت التجربة
 الدقيقة في البلاد المختلفة أن المسلمين الذين يتركون زيهم ويلبسون الزي الإفرنجي
 يترك أكثرهم الصلاة أو المحافظة عليها، مع العلم بأن أكثرهم يجعلها واسعة لا
 يتعذر السجود ولا يتعسر في حال لبسها.
@@ -248,7 +248,7 @@
 غيرنا.
 وقد لبس النبي - صلى الله عليه وسلم - الجبة الرومية والطيالسة الكسروية
 لبيان الجواز، ولكنه أمر أمته بمخالفة الكفار في عادتهم وأزيائهم لا في أمورهم
-الدينية فقط، ولما كان هو ب<placeName change="#d2e120" xml:id="placeName_7.d2e655">مكة</placeName> كان يخالف المشركين وإن وافق أهل الكتاب، فلما
+الدينية فقط، ولما كان هو ب<placeName change="#d2e120 #d11e288" xml:id="placeName_7.d2e655" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> كان يخالف المشركين وإن وافق أهل الكتاب، فلما
 صار في المدينة كان يأمر بمخالفة أهل الكتاب لمجاورته لهم فيها، كما أمر بصبغ
 الشيب؛ لأنهم لم يكونوا يصبغون، وروى أحمد وابن ماجه والطبراني عن أبي أمامة
 (رضي الله عنه) قال: قلنا يا رسول الله: إن أهل الكتاب يتسرولون ولا يأتزرون،
@@ -259,7 +259,7 @@
 تعرف بها، يزيد استقلال الأمة في مقوماتها الملية: كالدين واللغة والآداب، وما
 يسمونه الثقافة القومية قوة ورسوخًا.
 لهذه العلة أجاب عمر (رضي الله عنه) معاوية وغيره ممن طلبوا منه أن
-يتجمل أمام أهل <placeName change="#d2e120" xml:id="placeName_8.d2e682">بلاد الشام</placeName>؛ لأنهم اعتادوا أن يروا حكامهم من الروم في مظاهر
+يتجمل أمام أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_8.d2e682" ref="geon:6754242 oape:place:4" resp="#xslt">بلاد الشام</placeName>؛ لأنهم اعتادوا أن يروا حكامهم من الروم في مظاهر
 عظيمة من الزي وغيره - فقال ما معناه: جئنا لنعلمهم كيف نحكم لا لنتعلم منهم،
 ولهذا الغرض نفسه كان يوصي قواده الفاتحين لبلاد الأعاجم وعماله فيها
 بالمحافظة على عادات العرب وزيها، وينهاهم عن التشبه بالأعاجم.
@@ -409,7 +409,7 @@
 إن الهلال إذا رأيت نموه <gap resp="#org_MS" change="#d2e120" xml:id="gap_13.d2e1004"/> أيقنت أن سيصير بدرًا كاملا
 وعلى هذا المثل بعينه يضرب مثلاً في ارتفاع الرجل في الشرف والعز من
 طبقة إلى أعلى منها كما قال البحتري:
-شرف تزيَّد ب<placeName change="#d2e120" xml:id="placeName_9.d2e1012">العراق</placeName> إلى الذي <gap resp="#org_MS" change="#d2e120" xml:id="gap_14.d2e1016"/> عهدوه بالبيضاء أو ببلنجرا [15]
+شرف تزيَّد ب<placeName change="#d2e120 #d11e288" xml:id="placeName_9.d2e1012" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> إلى الذي <gap resp="#org_MS" change="#d2e120" xml:id="gap_14.d2e1016"/> عهدوه بالبيضاء أو ببلنجرا [15]
 مثل الهلال بدا فلم يبرح به <gap resp="#org_MS" change="#d2e120" xml:id="gap_15.d2e1020"/> صوغ الليالي فيه حتى أقمرا
 ويعطيك شبه الإنسان في نشأته ونمائه إلى أن يبلغ حد التمام، ثم تراجعه إذا
 انقضت مدة الشباب، كما قال:
@@ -601,7 +601,7 @@
 أجزاؤها أشد اختلافًا في الشكل والهيئة، ثم كان التلاؤم بينها مع ذلك أتم،
 والائتلاف أبين، كان شأنها أعجب، والحذق لمصورها أوجب.
 (للبحث بقية)
-((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_3.d2e1499">(1) المشئم: من أتى <placeName change="#d2e120" xml:id="placeName_10.d2e1501">الشام</placeName>، والمعرق: من أتى <placeName change="#d2e120" xml:id="placeName_11.d2e1504">العراق</placeName>.
+((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_3.d2e1499">(1) المشئم: من أتى <placeName change="#d2e120 #d11e288" xml:id="placeName_10.d2e1501" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، والمعرق: من أتى <placeName change="#d2e120 #d11e288" xml:id="placeName_11.d2e1504" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>.
 (2) وفي نسختنا: وجوه أعدائه، ولكن قال شيخنا: إن الرواية الصحيحة عيون أعدائه، وإن
 قوله حسن؛ خبر لمحذوف هو الممدوح، وفي (عيون) صفة لأقبح الذي هو خبر ثان، والسوام: الماشية.
 (3) الأسفع: الأسود المشرب بحمرة، والاسم: السفعة بالضم.
@@ -633,7 +633,7 @@
 (14) في كتاب المسالك:
 عهدوه في خمليج أو ببلنجرا <gap resp="#org_MS" change="#d2e120" xml:id="gap_56.d2e1581"/>
                   
-وخمليج وبلنجر والبيضاء: مدن الخزز اهـ , وقوله: تزيد ب<placeName change="#d2e120" xml:id="placeName_12.d2e1585">العراق</placeName>؛ أي: ابتدأت زيادته فيه، ثم لا زال يمتد إلى أن وصل إلى الذي عهدوه إلخ، والبيتان من قصيدة قالها في مدح إسحاق بن كنداج
+وخمليج وبلنجر والبيضاء: مدن الخزز اهـ , وقوله: تزيد ب<placeName change="#d2e120 #d11e288" xml:id="placeName_12.d2e1585" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>؛ أي: ابتدأت زيادته فيه، ثم لا زال يمتد إلى أن وصل إلى الذي عهدوه إلخ، والبيتان من قصيدة قالها في مدح إسحاق بن كنداج
 الخزري القائد الكبير عندما توج وقلد السيفين.
 (15) اتسق الأمر: انتظم، والقمر كمل وتم نوره.
 (16) يروى: ثوب كماله.
@@ -964,17 +964,17 @@
 
          
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_4.d2e2321">
-               <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_5.d2e2323">الخطر على <placeName change="#d2e120" xml:id="placeName_13.d2e2325">الحجاز</placeName> وعلى الإسلام</head>
+               <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_5.d2e2323">الخطر على <placeName change="#d2e120 #d11e288" xml:id="placeName_13.d2e2325" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وعلى الإسلام</head>
 <p change="#d2e120" xml:id="p_2.d2e2329">
                
 
                
 (1)
-في أوائل هذا الصيف ألمَّ ب<placeName change="#d2e120" xml:id="placeName_14.d2e2337">القاهرة</placeName> رجل سوري كان يشغل عملاً مهمًّا في
+في أوائل هذا الصيف ألمَّ ب<placeName change="#d2e120 #d11e288" xml:id="placeName_14.d2e2337" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> رجل سوري كان يشغل عملاً مهمًّا في
 حكومة الشريف علي بجدة، فشرح لنا ما وصلت الحال هنالك من القلة والعسرة
 واليأس من كل شيء إلا من الإنكليز، وقال: إنه علم أن الشريف علي بن الحسين
 استغاث بالمعتمد الإنكليزي، وعرض عليه أن يطلب من دولته مساعدته على
-سلطان نجد، على أن يكون <placeName change="#d2e120" xml:id="placeName_15.d2e2349">الحجاز</placeName> كله تحت الحماية الإنكليزية.. . وأن المعتمد
+سلطان نجد، على أن يكون <placeName change="#d2e120 #d11e288" xml:id="placeName_15.d2e2349" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> كله تحت الحماية الإنكليزية.. . وأن المعتمد
 وعده بالكتابة إلى حكومته بذلك، وكتب بالفعل، قال الراوي: وقد سافرت قبل
 مجيء الجواب، فإن جاء بعدم القبول فلا شك عندي في أن الملك عليًّا يفر من جدة
 مبحرًا إلى حيث يعلم الله تعالى، وتسقط في أيدي الوهابيين، وإن جاء بالقبول
@@ -986,26 +986,26 @@
 في الإسكندرية يوم أَلمَّ بها الملك فيصل، أن وزارة الداخلية المصرية بلغته أنها
 قررت إلغاء الحجز على الذخائر الحربية الهاشمية المحجوزة في السويس، وأن
 الحجز عليها كان بإيعاز من الإنكليز لوزير الداخلية إسماعيل صدقي باشا (كان) ،
-فعلمت أن هذه الحكومة الماكرة عادت إلى التدخل في أمر <placeName change="#d2e120" xml:id="placeName_16.d2e2378">الحجاز</placeName> بمساعدة صنائعها
+فعلمت أن هذه الحكومة الماكرة عادت إلى التدخل في أمر <placeName change="#d2e120 #d11e288" xml:id="placeName_16.d2e2378" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بمساعدة صنائعها
 وملوكها حسين بن علي وأولاده على سلطان نجد، بل على الشعب العربي والأمة
 الإسلامية.
-وأما السبب في هذا فليس رضا الشريف علي بجعل <placeName change="#d2e120" xml:id="placeName_17.d2e2388">الحجاز</placeName> تحت الحماية
+وأما السبب في هذا فليس رضا الشريف علي بجعل <placeName change="#d2e120 #d11e288" xml:id="placeName_17.d2e2388" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> تحت الحماية
 الإنكليزية على قواعد والده حسين التي سماها (مقررات النهضة) فقط، بل
 السبب الأول المباشر هو بيعه للإنكليز أهم منطقة حجازية حربية، وهي منطقة
 العقبة ومعان المجاورة للمدينة المنورة مع اليأس من سلطان نجد أن يسمح بأن
-يكون لهم أدنى نفوذ في <placeName change="#d2e120" xml:id="placeName_18.d2e2400">الحجاز</placeName> أو غيره من بلاد العرب، وهذا أمر قد أصبح قطعيًّا؛
+يكون لهم أدنى نفوذ في <placeName change="#d2e120 #d11e288" xml:id="placeName_18.d2e2400" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أو غيره من بلاد العرب، وهذا أمر قد أصبح قطعيًّا؛
 إذ صرح به السلطان عبد العزيز آل سعود في منشوراته الرسمية، ومنها المنشور
-الذي صدر ب<placeName change="#d2e120" xml:id="placeName_19.d2e2407">مكة المكرمة</placeName> في آخر ذي الحجة الحرام الماضي، ونشر في <bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e282">جريدة <title level="j" change="#d11e282">أم القرى</title></bibl>، ونقلته عنها أكثر الجرائد المصرية، وناهيك بتصريحه فيه وفيما سبقه بأن
-حكومة <placeName change="#d2e120" xml:id="placeName_20.d2e2415">الحجاز</placeName> تدار بالنظام الشرعي الذي يقرره المؤتمر الإسلامي العام، الذي
-اقترحه هو منذ تصديه لإنقاذ <placeName change="#d2e120" xml:id="placeName_21.d2e2420">الحجاز</placeName> من سلطة حسين الشخصية التي عرف فسادها
+الذي صدر ب<placeName change="#d2e120 #d11e288" xml:id="placeName_19.d2e2407" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> في آخر ذي الحجة الحرام الماضي، ونشر في <bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e282">جريدة <title level="j" change="#d11e282">أم القرى</title></bibl>، ونقلته عنها أكثر الجرائد المصرية، وناهيك بتصريحه فيه وفيما سبقه بأن
+حكومة <placeName change="#d2e120 #d11e288" xml:id="placeName_20.d2e2415" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> تدار بالنظام الشرعي الذي يقرره المؤتمر الإسلامي العام، الذي
+اقترحه هو منذ تصديه لإنقاذ <placeName change="#d2e120 #d11e288" xml:id="placeName_21.d2e2420" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من سلطة حسين الشخصية التي عرف فسادها
 العالم كله، حتى إن ولي عهده الشريف عليًّا وأنصاره القليلين الذين بايعوه تقربوا
 إلى العالم الإسلامي بزعمهم (أنهم خلعوا حسينًا ونصبوا عليًّا ملكًا دستوريًّا على
 الحجاز) . وهم كاذبون ومخادعون في دعوى الخلع وفي دعوى الحكومة الدستورية.
 لم يكتف الإنكليز بالعود إلى مساعدة هذا البيت المسخر لهم بالمال والسلاح
 كما بدؤوا في زمن الحرب الكبرى، بل أنشؤوا يساعدونه على الدعاية الإفسادية في
 العالم الإسلامي؛ لتنفيره من الوهابية، وعطفه على البيت الحجازي الذي استولوا
-بمساعدته على <placeName change="#d2e120" xml:id="placeName_22.d2e2438">القدس الشريف</placeName> و<placeName change="#d2e120" xml:id="placeName_23.d2e2442">العراق</placeName>، وأنشبوا براثنهم في قلب الجزيرة العربية،
-وبدؤوا يلتهمون <placeName change="#d2e120" xml:id="placeName_24.d2e2447">الحجاز</placeName> لقمة بعد لقمة.
+بمساعدته على <placeName change="#d2e120 #d11e288" xml:id="placeName_22.d2e2438" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس الشريف</placeName> و<placeName change="#d2e120 #d11e288" xml:id="placeName_23.d2e2442" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وأنشبوا براثنهم في قلب الجزيرة العربية،
+وبدؤوا يلتهمون <placeName change="#d2e120 #d11e288" xml:id="placeName_24.d2e2447" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لقمة بعد لقمة.
 أعلن ابن السعود بأنه أرسل جيشًا إلى المدينة المنورة؛ لإخراج الحامية
 الهاشمية التي فيها بالحصر دون القتال، ولما كان يعلم أن خصومه يتهمون جيشه
 بأنهم إذا استولوا على المدينة المنورة يهدمون الروضة المشرفة وقبة الحرم المعظم،
@@ -1026,8 +1026,8 @@
 الطعن بهذا والدفاع عن ذاك، بل أريد تنبيه العالم الإسلامي إلى الخطر الأكبر وهو
 استيلاء الأجنبي على مهد دينهم وقبلته ومشاعره وحرم الله ورسوله، واستعانته
 على ذلك بعوام المسلمين وبعض خواصهم الدنيويين المسخرين لخدمته، والذين
-لولا أمثالهم لم يستول على الهند، ولا على مصر، ولا على <placeName change="#d2e120" xml:id="placeName_25.d2e2496">القدس</placeName> والشام
-و<placeName change="#d2e120" xml:id="placeName_26.d2e2501">العراق</placeName>. وإني لأعرِّض نفسي بهذا التنبيه والتذكير لبلاء عظيم على ضعف أملي
+لولا أمثالهم لم يستول على الهند، ولا على مصر، ولا على <placeName change="#d2e120 #d11e288" xml:id="placeName_25.d2e2496" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> والشام
+و<placeName change="#d2e120 #d11e288" xml:id="placeName_26.d2e2501" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>. وإني لأعرِّض نفسي بهذا التنبيه والتذكير لبلاء عظيم على ضعف أملي
 باستفادة جماهير المسلمين من نصحي وتذكيري كما يجب، فالعامة قتلها الجهل،
 والخرافات كعبادة القبور، ومعظم خاصة أهل الدنيا قتلهم جهل شر من جهل العامة،
 وفساد شر من فسادها، فأصبحوا آلات بأيدي الأجانب يسخرونهم؛ لهدم مجد
@@ -1044,15 +1044,15 @@
 سلطانه لذلك وأقدم عليه، وهذا هو الذي يخشاه الإنكليز الطامعون في امتلاك
 جزيرة العرب بعد استيلائهم على ما جاورها من البلاد العربية الخصبة؛ ليقتلوا
 الإسلام وقوم محمد - عليه الصلاة والسلام - في عقر دارهم ومهد دينهم، وقد
-أعياهم استخدام سلطان نجد وإمام <placeName change="#d2e120" xml:id="placeName_27.d2e2541">اليمن</placeName> في هذه السبيل، كما استخدموا الشريف
+أعياهم استخدام سلطان نجد وإمام <placeName change="#d2e120 #d11e288" xml:id="placeName_27.d2e2541" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> في هذه السبيل، كما استخدموا الشريف
 حسينًا وأولاده، فهم يكيدون لهما المكايد.
 وقد كان آخر خدمة عملية خدمهم بها البيت الهاشمي جعله هذه المنطقة
-الحربية من أرض <placeName change="#d2e120" xml:id="placeName_28.d2e2551">الحجاز</placeName> (العقبة ومعان) تابعة لما يسمونه الانتداب البريطاني،
-وآخر دعوة لهم إلى التدخل في أمر <placeName change="#d2e120" xml:id="placeName_29.d2e2556">الحجاز</placeName> ما كتبه الشريف حسين من قبرص إلى
-الحكومة الإنكليزية يطالبها بالتدخل الفعلي في أمر <placeName change="#d2e120" xml:id="placeName_30.d2e2561">الحجاز</placeName> وإخراج النجديين منه وفاءً
+الحربية من أرض <placeName change="#d2e120 #d11e288" xml:id="placeName_28.d2e2551" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> (العقبة ومعان) تابعة لما يسمونه الانتداب البريطاني،
+وآخر دعوة لهم إلى التدخل في أمر <placeName change="#d2e120 #d11e288" xml:id="placeName_29.d2e2556" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ما كتبه الشريف حسين من قبرص إلى
+الحكومة الإنكليزية يطالبها بالتدخل الفعلي في أمر <placeName change="#d2e120 #d11e288" xml:id="placeName_30.d2e2561" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وإخراج النجديين منه وفاءً
 بوعدها له - كما لخصته جريدة كوكب الشرق في هذا الأسبوع عن بعض الصحف
 الإنكليزية - فأي مسلم يؤمن بالله ورسوله، ويغار على قبلته وشعائر دينه يرضى
-أن يكون لأحد من أهل هذا البيت أدنى سلطة في <placeName change="#d2e120" xml:id="placeName_31.d2e2571">الحجاز</placeName>؟
+أن يكون لأحد من أهل هذا البيت أدنى سلطة في <placeName change="#d2e120 #d11e288" xml:id="placeName_31.d2e2571" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>؟
 قلت: إن الإنكليز عادوا إلى مساعدة البيت الهاشمي حتى في نشر الدعاية
 لخداع العالم الإسلامي. وقد بدئت هذه الدعاية بفرية نشرها وكيل الشريف علي
 بمصر في المقطم، وهي أن الوهابيين قد جعلوا قبة الحرم النبوي الشريف
@@ -1083,9 +1083,9 @@
 ولكن لا عجب فإذا كان معبود هؤلاء (آغاخان) عبدًا للإنكليز قضى حياته في
 خدمتهم، فكيف يكون عبيد العبد؟!
 ومما يدل على أن الفتنة إنكليزية ما نشره أحد دعاة الشريف علي في المقطم
-عن تأثير الدعاية في عدن وما حولها من تهامة <placeName change="#d2e120" xml:id="placeName_32.d2e2641">اليمن</placeName>، واحتجاج السلاطين
+عن تأثير الدعاية في عدن وما حولها من تهامة <placeName change="#d2e120 #d11e288" xml:id="placeName_32.d2e2641" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، واحتجاج السلاطين
 البريطانيين هنالك، فقد قال الكاتب في أول رسالته: إن الأخبار التي وصلت عن
-أحوال بلدة نبينا - صلى الله عليه وسلم - قد تركت إخواننا في عدن <placeName change="#d2e120" xml:id="placeName_33.d2e2649">اليمن</placeName>، وفي
+أحوال بلدة نبينا - صلى الله عليه وسلم - قد تركت إخواننا في عدن <placeName change="#d2e120 #d11e288" xml:id="placeName_33.d2e2649" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وفي
 هياج عظيم، فقد احتج عظمة سلطان لحج (؟) ، والشيخ فضل بن عبد الله
 سلطان العقارب (؟) ، وسلطان الحواشب (؟) ، وسلاطين يافع والعوالق (؟) -
 ما أكثر أسماء السلاطين عند الإنكليز! - وجميع أمراء العرب على الفعل الشنيع
@@ -1093,39 +1093,39 @@
 وكيل ابن سعود، بل إن هذه عقيدتهم إلخ.
 نقول: أين كان هؤلاء السلاطين البريطانيون العظام والملوك الفخام عندما
 انتهك الشريف حسين حرمة حرم الله - عز وجل - وقاتل الترك في بطن بكة مع
-قول الرسول الأعظم - صلى الله عليه وسلم - يوم فتح <placeName change="#d2e120" xml:id="placeName_34.d2e2669">مكة</placeName> (إنها أحلت له ساعة
+قول الرسول الأعظم - صلى الله عليه وسلم - يوم فتح <placeName change="#d2e120 #d11e288" xml:id="placeName_34.d2e2669" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> (إنها أحلت له ساعة
 من نهار ولن تحل لأحد من بعده) أظن أن خدمته الإنكليز بذلك نسخت هذا
 الحديث عندهم.
 وأين كان هؤلاء السلاطين البريطانيون العظام عندما حاصر الشريف حسين
 وأولاده المدينة المنورة والترك فيها، كما يحاصرها الوهابيون اليوم؟ أيحلون له
 ذلك؛ لأنه كان يحارب الترك بأمر الإنكليز وسلاحهم ومالهم؟ ويحرمونه على ابن
-السعود؛ لأنه يريد أن تكون هي وسائر <placeName change="#d2e120" xml:id="placeName_35.d2e2685">الحجاز</placeName> بمنجاة من النفوذ الإنكليزي تحت
+السعود؛ لأنه يريد أن تكون هي وسائر <placeName change="#d2e120 #d11e288" xml:id="placeName_35.d2e2685" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بمنجاة من النفوذ الإنكليزي تحت
 رعاية العالم الإسلامي؟
 وأين كان هؤلاء السلاطين البريطانيون العظام عندما هدد الشريف علي كل
 من يقصد أداء فريضة الحج في الموسم الأخير بالقتل، وزعم أن أساطيله بالمرصاد
-لكل سفينة تحمل الحجاج إلى ثغور <placeName change="#d2e120" xml:id="placeName_36.d2e2697">الحجاز</placeName> الخاضعة للوهابيين: القنفذة والليث
+لكل سفينة تحمل الحجاج إلى ثغور <placeName change="#d2e120 #d11e288" xml:id="placeName_36.d2e2697" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> الخاضعة للوهابيين: القنفذة والليث
 ورابغ؟!
 فهل كان المنع من أداء فريضة الحج وإقامة ركن الإسلام مباحًا في دينهم، فلم
 يحتجوا على منعه أم مرضاة الإنكليز الذين سعوا لمنع الحج، مرجحة عندهم على
 مرضاة الله تعالى؟
 وأين كان هؤلاء السلاطين البريطانيون العظام عندما أصدر الشريف علي
-(إرادته السنية) من عهد قريب بجعل أعظم منطقة حربية من <placeName change="#d2e120" xml:id="placeName_37.d2e2713">الحجاز</placeName> تحت
+(إرادته السنية) من عهد قريب بجعل أعظم منطقة حربية من <placeName change="#d2e120 #d11e288" xml:id="placeName_37.d2e2713" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> تحت
 الانتداب الإنكليزي؟ لماذا لم يحتجوا على هذا ولا ذاك؟ أم يريد هؤلاء السلاطين
-العظام أن تكون المدينة المنورة و<placeName change="#d2e120" xml:id="placeName_38.d2e2721">مكة المكرمة</placeName> تحت الحماية الإنكليزية مثلهم؟
+العظام أن تكون المدينة المنورة و<placeName change="#d2e120 #d11e288" xml:id="placeName_38.d2e2721" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> تحت الحماية الإنكليزية مثلهم؟
 وإذا كان الأمر كذلك فما لهم وللإسلام ولاسم الإسلام؟
 إنهم يدعون اتباع مذهب الشافعي رضي الله عنه، فما لهم لا يهتمون من أمر
 الحجاز إلا بهدم بعض القبور المشيدة المشرفة التي تعبد من دون الله تعالى، وتؤتى
 عندها المعاصي المجمع عليها؟ وقد ذكر الإمام الشافعي في كتابه الأم ما نقله عنه
-عمدة الشافعية الإمام النووي في شرح صحيح مسلم أن أئمة <placeName change="#d2e120" xml:id="placeName_39.d2e2735">مكة</placeName> كانوا يهدمون في
+عمدة الشافعية الإمام النووي في شرح صحيح مسلم أن أئمة <placeName change="#d2e120 #d11e288" xml:id="placeName_39.d2e2735" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> كانوا يهدمون في
 عصره ما رفع من القبور عملاً بحديث علي - كرم الله وجهه - (أن لا تدع تمثالاً
 إلا طمسته ولا قبرًا مشرفًا إلا سويته) أي: بالتراب، فهل كان الشافعي وأولئك
 الأئمة من الوهابية؟ أم الوهابية هم المقتدون بهم، والمعتصمون بسنة الرسول
-مثلهم، وأنتم وسادتكم من أمراء <placeName change="#d2e120" xml:id="placeName_40.d2e2747">مكة</placeName> الذين يتقربون إليكم بتعظيم القبور، وما
+مثلهم، وأنتم وسادتكم من أمراء <placeName change="#d2e120 #d11e288" xml:id="placeName_40.d2e2747" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> الذين يتقربون إليكم بتعظيم القبور، وما
 يقترف حولها من أعمال الوثنية أعداء السنة والمخالفون لجميع الأئمة؟
 لو لم يكن من فتنة جهال المسلمين بقبور الصالحين التي اتبعوا فيها سنن من
 قبلهم الذين لعنهم رسول الله - صلى الله عليه وسلم - على اتخاذ قبور أنبيائهم
 وصلحائهم مساجد، وعلى اتخاذ السرج والمساجد عليها إلا جعلهم اتباع السلف
-الصالح بهدم بعضها أهم من منع فريضة الحج، وبيع أرض <placeName change="#d2e120" xml:id="placeName_41.d2e2761">الحجاز</placeName> للإنكليز؛ لكفى
+الصالح بهدم بعضها أهم من منع فريضة الحج، وبيع أرض <placeName change="#d2e120 #d11e288" xml:id="placeName_41.d2e2761" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> للإنكليز؛ لكفى
 ذلك موجبًا لهدمها؛ لإزالة هذا الاعتقاد الفاسد، فقد كان علماء الصحابة يتركون
 بعض السنن المتفق عليها؛ لئلا يظن العوام بالتزامهم إياها وجوبها، كما روي عن
 ابن عباس (رضي الله عنه) في ترك التضحية في عيد النحر، على كونه كان
@@ -1143,36 +1143,36 @@
 عباس لا لله تعالى، فقلت للخدم: أخرجوا هذا المشرك من هنا بالقوة؛ ففعلوا.
 صرح بعض فقهاء الحنابلة وغيرهم من أهل السنة بوجوب هدم القبور
 المشرفة التي لعن النبي - صلى الله عليه وسلم - من شيدوها وعظموها، وذلك
-قبل وجود الوهابية بعدة قرون، كما كان يفعل الأئمة ب<placeName change="#d2e120" xml:id="placeName_42.d2e2803">مكة</placeName> في زمن الإمام الشافعي،
+قبل وجود الوهابية بعدة قرون، كما كان يفعل الأئمة ب<placeName change="#d2e120 #d11e288" xml:id="placeName_42.d2e2803" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> في زمن الإمام الشافعي،
 وقد أمر عمر بن الخطاب (رضي الله عنه) بقلع الشجرة التي بايع النبي - صلى
 الله عليه وسلم - أصحابه تحتها؛ لأنه علم أن بعض الناس يزورونها، فقلعت
 وعفي أثرها، وذلك قبل أن تصل فتنة المسلمين بمثل هذه الآثار إلى عشر معشار
 ما وصلت إليه الآن، فهل كان عمر رضي الله عنه وهابيًّا؟
 وقد فصلنا القول في هذه البدع من قبل، وليس من غرضنا إعادته الآن، بل
-غرضنا أهم من ذلك وهو بيان الخطر على <placeName change="#d2e120" xml:id="placeName_43.d2e2819">الحجاز</placeName> من الإنكليز، الذين سعوا لمنع
+غرضنا أهم من ذلك وهو بيان الخطر على <placeName change="#d2e120 #d11e288" xml:id="placeName_43.d2e2819" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من الإنكليز، الذين سعوا لمنع
 إدخال السلاح إلى بلاد العرب كلها؛ تمهيدًا للاستيلاء عليها، وأكبر أعوانهم على
-ذلك بيت الشريف حسين بن علي، فهو الذي قرر جعل <placeName change="#d2e120" xml:id="placeName_44.d2e2827">الحجاز</placeName> وسائر البلاد
+ذلك بيت الشريف حسين بن علي، فهو الذي قرر جعل <placeName change="#d2e120 #d11e288" xml:id="placeName_44.d2e2827" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وسائر البلاد
 العربية تحت الحماية البريطانية، وجرى هو وأولاده على هذا بالفعل، وآخر
-جناياتهم إعطاء أعظم منطقة حربية من أرض <placeName change="#d2e120" xml:id="placeName_45.d2e2834">الحجاز</placeName> للإنكليز وهي منطقة
-(العقبة - معان) التي تمكنهم من الاستيلاء على بقية <placeName change="#d2e120" xml:id="placeName_46.d2e2839">الحجاز</placeName>، أو جعله بحيث لا
+جناياتهم إعطاء أعظم منطقة حربية من أرض <placeName change="#d2e120 #d11e288" xml:id="placeName_45.d2e2834" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> للإنكليز وهي منطقة
+(العقبة - معان) التي تمكنهم من الاستيلاء على بقية <placeName change="#d2e120 #d11e288" xml:id="placeName_46.d2e2839" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، أو جعله بحيث لا
 يقدر أهله أن يعيشوا فيه إلا تابعين للإنكليز؛ لإحاطتهم بهم من البر والبحر،
-وسنبين في الفصل التالي من هذا المقال حال <placeName change="#d2e120" xml:id="placeName_47.d2e2847">الحجاز</placeName> بين سلطان نجد والشريف
+وسنبين في الفصل التالي من هذا المقال حال <placeName change="#d2e120 #d11e288" xml:id="placeName_47.d2e2847" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بين سلطان نجد والشريف
 علي، وما يجب على المسلمين من درء الخطر عن مهد دينهم ومشاعره العظام؛
-وكون بقاء سلطة بيت الشريف حسين على <placeName change="#d2e120" xml:id="placeName_48.d2e2854">الحجاز</placeName> مفضيًا إلى جعله تابعًا
+وكون بقاء سلطة بيت الشريف حسين على <placeName change="#d2e120 #d11e288" xml:id="placeName_48.d2e2854" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> مفضيًا إلى جعله تابعًا
 للإمبراطورية البريطانية حتمًا، وكل من يسعى إلى بقاء سلطتهم فيه فهو يخدم
 الإنكليز ويحارب الله ورسوله والمسلمين قصد ذلك أم لا، وقد أعذر من أنذر.
 ***
 (2)
 الموازنة بين سلطان نجد والبيت الهاشمي
-لما زحف جيش ابن السعود؛ لإنقاذ <placeName change="#d2e120" xml:id="placeName_49.d2e2871">الحجاز</placeName> من سلطة الشريف حسين كان
+لما زحف جيش ابن السعود؛ لإنقاذ <placeName change="#d2e120 #d11e288" xml:id="placeName_49.d2e2871" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من سلطة الشريف حسين كان
 ضلع الرأي الإسلامي العام معه، فلم ينتدب شعب من شعوبه، ولا جماعة من
 جماعاته، ولا فرد من كبار رجاله للدفاع عنه، بل صرح المعروفون من رجاله
 بظلمه وفساد سياسته، وزعموا أنهم خلعوه خلعًا، وكذلك فعلت الجرائد التي كانت
 تمدحه وتدافع عنه كالمقطم، واتخذوا ذلك وسيلة لإقناع سلطان نجد بإمكان الاتفاق
 بينه وبين ولده الشريف علي الذي سموه ملكًا دستوريًّا، ولو أن سلطان نجد بادر
 في ذلك الوقت إلى الاستيلاء على جدة والمدينة المنورة لغنم كنوز الملك حسين
-واستعان بها على إصلاح <placeName change="#d2e120" xml:id="placeName_50.d2e2889">الحجاز</placeName>، ولعقد المؤتمر الإسلامي، وتقرر فيه نظام الحكم
-في <placeName change="#d2e120" xml:id="placeName_51.d2e2894">الحجاز</placeName> بما يرضي جميع المسلمين، ولكنه قاس <placeName change="#d2e120" xml:id="placeName_52.d2e2897">الحجاز</placeName> على إمارة ابن الرشيد
+واستعان بها على إصلاح <placeName change="#d2e120 #d11e288" xml:id="placeName_50.d2e2889" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، ولعقد المؤتمر الإسلامي، وتقرر فيه نظام الحكم
+في <placeName change="#d2e120 #d11e288" xml:id="placeName_51.d2e2894" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بما يرضي جميع المسلمين، ولكنه قاس <placeName change="#d2e120 #d11e288" xml:id="placeName_52.d2e2897" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> على إمارة ابن الرشيد
 التي استولى عليها بالحصار الطويل دون المناجزة اختيارًا لخسارة المال على
 خسارة الأنفس، فأعطى البيت الحسيني فرصة طويلة للاستعداد الحربي وللدعاية
 الإفسادية، ولما هو شر من ذلك وهو العود إلى إقناع الإنكليز بأنه قادر على تمكينهم
@@ -1181,14 +1181,14 @@
 فوجب أن نقيم الوزن بالقسط بين الفريقين.
 ***
 سيئات جند ابن السعود في الحجاز
-إن ما نسب إلى جند ابن السعود من السيئات في <placeName change="#d2e120" xml:id="placeName_53.d2e2920">الحجاز</placeName> كان ينحصر في
+إن ما نسب إلى جند ابن السعود من السيئات في <placeName change="#d2e120 #d11e288" xml:id="placeName_53.d2e2920" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> كان ينحصر في
 أمرين:
 (أحدهما) : أنهم قتلوا في الطائف بعض الأهالي غير المقاتلين.
 (ثانيهما) : أنهم هدموا بعض المباني الأثرية التي يتبرك بها الناس؛ فكل
 الدعاية الهاشمية في الطعن فيهم لا تعدو هذين إلا إلى ما يذكر في هذه الأيام من ذم
-الإدارة في <placeName change="#d2e120" xml:id="placeName_54.d2e2934">الحجاز</placeName>، ولم يثبت من ذلك إلا منع شرب الدخان: كمنع الخمر
+الإدارة في <placeName change="#d2e120 #d11e288" xml:id="placeName_54.d2e2934" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، ولم يثبت من ذلك إلا منع شرب الدخان: كمنع الخمر
 والحشيش وأمثال ذلك مما كان يلوث به الحرم الشريف، ولا نبحث في هذا فإنه لا
-يتعلق بما نقصد من السياسة العامة ومستقبل <placeName change="#d2e120" xml:id="placeName_55.d2e2942">الحجاز</placeName> والإسلام.
+يتعلق بما نقصد من السياسة العامة ومستقبل <placeName change="#d2e120 #d11e288" xml:id="placeName_55.d2e2942" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> والإسلام.
 فأما الأول فيقع مثله في كل حرب، وفي الغالب يكون خطأ وقد يكون بعضه
 لضغائن وأسباب شخصية، فإذا كان قد وقع من الوهابية، فقد وقع قبلهم من خير
 جنود البرية، وهم الصحابة رضي الله عنهم، فقد روى البخاري في صحيحه
@@ -1207,16 +1207,16 @@
 سيئات البيت الهاشمي
 وأما سيئات الشريف حسين وأولاده فلا تُعَدُّ وقد ألفنا كتابًا في ذكر بعض
 سيئات الأول، جعلناه خطابًا للعالم الإسلامي، وفيه شيء من ظلم ولي عهده،
-والشريف علي بالمدينة، ولكننا لا نذكر هنا إلا ما هو خطر على <placeName change="#d2e120" xml:id="placeName_56.d2e2986">الحجاز</placeName> وحصنه
+والشريف علي بالمدينة، ولكننا لا نذكر هنا إلا ما هو خطر على <placeName change="#d2e120 #d11e288" xml:id="placeName_56.d2e2986" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وحصنه
 من جزيرة العرب وهو:
 (1) وضع الشريف حسين عند شروعه في الثورة بإغواء الإنكليز صورة
 اتفاق معهم سماها (مقررات النهضة) ، صرح فيها بأنهم الذين هم يؤسسون
 الحكومة العربية، وتكون البلاد تحت حمايتهم في داخلها وخارجها، وأعطاهم فيها
-حق إشغال ولاية <placeName change="#d2e120" xml:id="placeName_57.d2e3000">البصرة</placeName> إلخ، ويؤكد إصراره على ذلك أنه رفع استقالته من الملك
+حق إشغال ولاية <placeName change="#d2e120 #d11e288" xml:id="placeName_57.d2e3000" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> إلخ، ويؤكد إصراره على ذلك أنه رفع استقالته من الملك
 مكررة إلى الحكومة البريطانية في لندن، ونشر ذلك في جريدته التي كانت تسمى
 (القبلة) ، وقد عاد الآن إلى مخاطبة الحكومة الإنكليزية بإنجاز وعدها له، وإخراج
-ابن السعود من <placeName change="#d2e120" xml:id="placeName_58.d2e3010">الحجاز</placeName>، كما أشرنا إليه في الفصل الأول.
-(2) لا يزال ولده الشريف فيصل يمهد لهم سبيل امتلاك <placeName change="#d2e120" xml:id="placeName_59.d2e3015">العراق</placeName> بالصور
+ابن السعود من <placeName change="#d2e120 #d11e288" xml:id="placeName_58.d2e3010" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، كما أشرنا إليه في الفصل الأول.
+(2) لا يزال ولده الشريف فيصل يمهد لهم سبيل امتلاك <placeName change="#d2e120 #d11e288" xml:id="placeName_59.d2e3015" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بالصور
 والأساليب التي يأمرونه بها، وكان قد اتفق مع فرنسة على وصايتها الانتدابية على
 سورية وعجز عن تنفيذ ذلك.
 (3) مهد لهم ولده الشريف عبد الله سبيل امتلاك شرق الأردن، وإخضاع
@@ -1231,11 +1231,11 @@
 وممالكهم الصورية يعدونها منحة من الإنكليز، ويعلمون أن الشعب الحجازي يمقتهم،
 وأنه لا سبيل إلى تمتعهم بعظمة الإمارة والملك إلا بحماية الإنكليز بل في ظلمهم،
 فإذا ظلوا متمتعين، بها فلا تمضي إلا سنين قليلة، ويستولي الإنكليز بالفعل على
-بلاد العرب وفي مقدمتها <placeName change="#d2e120" xml:id="placeName_60.d2e3051">الحجاز</placeName>.
+بلاد العرب وفي مقدمتها <placeName change="#d2e120 #d11e288" xml:id="placeName_60.d2e3051" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>.
 وقد علم من أعمالهم الرسمية أنه لا يردعهم عن ارتكاب أعظم الجنايات
 الموبقة - ولا سيما خدمة الإنكليز -خوف من الله ولا حياء من قومهم ولا من أهل
 الدين الذي ينتسبون إليه، حتى إن الذي سمى نفسه ملكًا دستوريًّا - وهو علي -
-يعطي بعض أرض <placeName change="#d2e120" xml:id="placeName_61.d2e3062">الحجاز</placeName> المقدسة للإنكليز بمقتضى (إرادته السنية) ، فأين
+يعطي بعض أرض <placeName change="#d2e120 #d11e288" xml:id="placeName_61.d2e3062" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> المقدسة للإنكليز بمقتضى (إرادته السنية) ، فأين
 الحكومة الدستورية التي ادعاها؟ وأين الحزب الوطني الذي بايعه عليها بعد
 ادعاء خلع الملك حسين لاستبداده.. .؟
 ***
@@ -1248,7 +1248,7 @@
 بمصر، وحسين أفندي الصبان مدير <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e3087">القبلة</title></bibl>، وكل ما ينشر في مصر من
 الدعاية فهو منهما، ومن الشيخ عبد الملك الخطيب الملقب بوكيل الحكومة العربية.
 ومنهم الوفد الذي أرسل إلى الهند فأحدث فيها فتنة لا يستهان بها، وزعيماه
-محمد طاهر الدباغ والطيب الساسي، وهما من المغاربة المقيمين ب<placeName change="#d2e120" xml:id="placeName_62.d2e3097">الحجاز</placeName>،
+محمد طاهر الدباغ والطيب الساسي، وهما من المغاربة المقيمين ب<placeName change="#d2e120 #d11e288" xml:id="placeName_62.d2e3097" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>،
 وثانيهما كان مستخدمًا في إدارة <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_9.d2e3102">القبلة</title></bibl> الحسينية.
 ونرى هؤلاء الدعاة ينفقون الأموال بألوف الجنيهات على الجرائد وغيرها من
 حيث تواترت الأخبار بعجز ملكهم الشريف علي عن أداء رواتب الجنود التي
@@ -1264,11 +1264,11 @@
 دعاية وفد الشريف علي حتى اضطر إلى مغادرة الهند.
 ***
 افتراض الإنكليز للفتنة
-في أثناء هذه الضجة أمر الإنكليز حكومة <placeName change="#d2e120" xml:id="placeName_63.d2e3138">العراق</placeName> بمطالبة سلطان نجد بإعادة
-عقد المؤتمر الذي كان قد اجتمع في الكويت؛ لوضع الحدود بين <placeName change="#d2e120" xml:id="placeName_64.d2e3143">العراق</placeName> ونجد
-وشرق الأردن و<placeName change="#d2e120" xml:id="placeName_65.d2e3149">الحجاز</placeName>، وأرسلوا هم من قبلهم وفدًا إلى <placeName change="#d2e120" xml:id="placeName_66.d2e3152">الحجاز</placeName> لمفاوضة سلطان
+في أثناء هذه الضجة أمر الإنكليز حكومة <placeName change="#d2e120 #d11e288" xml:id="placeName_63.d2e3138" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بمطالبة سلطان نجد بإعادة
+عقد المؤتمر الذي كان قد اجتمع في الكويت؛ لوضع الحدود بين <placeName change="#d2e120 #d11e288" xml:id="placeName_64.d2e3143" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ونجد
+وشرق الأردن و<placeName change="#d2e120 #d11e288" xml:id="placeName_65.d2e3149" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وأرسلوا هم من قبلهم وفدًا إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_66.d2e3152" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لمفاوضة سلطان
 نجد في هذه المسألة، وجل ما يبغونه منه أن يعترف لهم بالحدود الجديدة لمنطقة
-شرق الأردن بعد أن ضموا إليها من بلاد <placeName change="#d2e120" xml:id="placeName_67.d2e3159">الحجاز</placeName> ما علمنا، وأن يضموا إليها
+شرق الأردن بعد أن ضموا إليها من بلاد <placeName change="#d2e120 #d11e288" xml:id="placeName_67.d2e3159" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ما علمنا، وأن يضموا إليها
 (الجوف) الذي كان تابعًا لإمارة ابن الرشيد، وصار بعد ذلك جزءًا من سلطنة
 نجد.
 وإنهم يتوسلون إلى إقناعه بما يخوفونه الآن من تأليب العالم الإسلامي عليه،
@@ -1282,56 +1282,56 @@
 لا يصرحون بهذه الإيهامات.
 فإن هو خاف من ذلك، واعترف لهم بهذه الحدود يكون كمن شحذ مديته
 وبخع بها نفسه بيده، ويكون كل هؤلاء المسلمين الذين هاجوا عليه، وطفقت
-جرائدهم تطعن في جنده، شركاء له في هذه الجناية على <placeName change="#d2e120" xml:id="placeName_68.d2e3193">الحجاز</placeName> وعلى الإسلام،
+جرائدهم تطعن في جنده، شركاء له في هذه الجناية على <placeName change="#d2e120 #d11e288" xml:id="placeName_68.d2e3193" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وعلى الإسلام،
 نعم إن الإنكليز ربما يكافئونه على اعترافهم له بهذه الحدود مكافأة سلبية خادعة، وهي
 ما لا يزالون يدعونه من التزامهم موقف الحياد في التنازع بينه وبين الشريف علي،
 وماذا يفعل بعد ذلك وهو محاط به من البر والبحر، ولا سيما بعد مد الإنكليز لسكة
-الحديد الحربية من فلسطين إلى <placeName change="#d2e120" xml:id="placeName_69.d2e3205">العراق</placeName> مارة بأرض <placeName change="#d2e120" xml:id="placeName_70.d2e3208">الحجاز</placeName> ونجد؟
+الحديد الحربية من فلسطين إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_69.d2e3205" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> مارة بأرض <placeName change="#d2e120 #d11e288" xml:id="placeName_70.d2e3208" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد؟
 الواجب على السلطان عبد العزيز شرعًا وعقلاً وسياسة أن لا يخاف من تهديد
 الجنرال كليتن وخداعه، ولا يبالي بوعده ولا بوعيده، فإن دولته المرسلة له لا
 تقدر الآن على إيذاء نجد وغيرها من بلاد العرب بأكثر مما فعلت من الدسائس،
 ومن مساعدة الحجازيين بما أجملناه في هذا المقال، أعني: إنها لا يمكن أن تسوق
 عليه جيوشًا بريطانية تقاتله بها، فإن فرضنا أنها يمكنها أن تحمل دولة إسلامية
-على قتاله؛ لإخراجه من <placeName change="#d2e120" xml:id="placeName_71.d2e3224">الحجاز</placeName> - وما ذلك بالأمر السهل - فعاقبة ذلك خير له من
-السماح للإنكليز بشبر من أرض <placeName change="#d2e120" xml:id="placeName_72.d2e3229">الحجاز</placeName> أو من أرض نجد، يأخذونها باختياره ثم لا
-تكون عاقبة أمرها إلا القضاء على كل من <placeName change="#d2e120" xml:id="placeName_73.d2e3235">الحجاز</placeName> ونجد بعد زمن قليل، ولأن
-يضيع <placeName change="#d2e120" xml:id="placeName_74.d2e3240">الحجاز</placeName> بيد غيره أشرف له وأسلم من خزي الدنيا والآخرة من أن يضيع بيده.
-إذا أحدث الإنكليزي فتنة حربية في <placeName change="#d2e120" xml:id="placeName_75.d2e3245">الحجاز</placeName> بأيدي دولة إسلامية فلا ينتظر من
-ابن السعود إلا أن يترك <placeName change="#d2e120" xml:id="placeName_76.d2e3251">الحجاز</placeName> لهذه الدولة الإسلامية، ويحملها تبعة حفظه أمام الله
-والمسلمين، ويزحف بكل قوته على شرق الأردن وفلسطين و<placeName change="#d2e120" xml:id="placeName_77.d2e3256">العراق</placeName>، فهو إن فعل
-ذلك يجد الترك قد انتهزوا هذه الفرصة وزحفوا على <placeName change="#d2e120" xml:id="placeName_78.d2e3261">الموصل</placeName>، وإذا أنقذ العراق
-وقلب جزيرة العرب من الإنكليز ذهب تسعة أعشار الخوف على <placeName change="#d2e120" xml:id="placeName_79.d2e3267">الحجاز</placeName> ونجد،
+على قتاله؛ لإخراجه من <placeName change="#d2e120 #d11e288" xml:id="placeName_71.d2e3224" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> - وما ذلك بالأمر السهل - فعاقبة ذلك خير له من
+السماح للإنكليز بشبر من أرض <placeName change="#d2e120 #d11e288" xml:id="placeName_72.d2e3229" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أو من أرض نجد، يأخذونها باختياره ثم لا
+تكون عاقبة أمرها إلا القضاء على كل من <placeName change="#d2e120 #d11e288" xml:id="placeName_73.d2e3235" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد بعد زمن قليل، ولأن
+يضيع <placeName change="#d2e120 #d11e288" xml:id="placeName_74.d2e3240" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بيد غيره أشرف له وأسلم من خزي الدنيا والآخرة من أن يضيع بيده.
+إذا أحدث الإنكليزي فتنة حربية في <placeName change="#d2e120 #d11e288" xml:id="placeName_75.d2e3245" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بأيدي دولة إسلامية فلا ينتظر من
+ابن السعود إلا أن يترك <placeName change="#d2e120 #d11e288" xml:id="placeName_76.d2e3251" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لهذه الدولة الإسلامية، ويحملها تبعة حفظه أمام الله
+والمسلمين، ويزحف بكل قوته على شرق الأردن وفلسطين و<placeName change="#d2e120 #d11e288" xml:id="placeName_77.d2e3256" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، فهو إن فعل
+ذلك يجد الترك قد انتهزوا هذه الفرصة وزحفوا على <placeName change="#d2e120 #d11e288" xml:id="placeName_78.d2e3261" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName>، وإذا أنقذ العراق
+وقلب جزيرة العرب من الإنكليز ذهب تسعة أعشار الخوف على <placeName change="#d2e120 #d11e288" xml:id="placeName_79.d2e3267" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد،
 ولن ترضى الأمة البريطانية من حكومتها الماكرة أن تحملها أعباء حرب جديدة في
 بلاد العرب تضحي فيها مئات الألوف من الإنكليز، وتغتال مئات الملايين من
 ذهبهم، بعد أن كادت الديون وبطالة العمال وكساد التجارة تقضي على ثروتهم.
 ولئن كانت الحكومة الهندية تظن أنها يمكنها الاعتماد على مسلمي الهند في
-إيقاد نيران الحرب في <placeName change="#d2e120" xml:id="placeName_80.d2e3281">الحجاز</placeName>؛ بإيهام عوامهم أنها تنقذ بذلك القبور والقباب من
+إيقاد نيران الحرب في <placeName change="#d2e120 #d11e288" xml:id="placeName_80.d2e3281" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>؛ بإيهام عوامهم أنها تنقذ بذلك القبور والقباب من
 الوهابية، فهي لا تأمن لهم ولا للهندوس في إيقاد نيران الحرب في بلاد العرب
 لقتال العرب والترك دفاعًا عن تاج فيصل وعقال أخيه عبد الله، بل هي لا تأمن
-عاقبة إرسالهم إلى <placeName change="#d2e120" xml:id="placeName_81.d2e3290">الحجاز</placeName> أيضًا؛ لأن العارفين بكيدها للحجاز من ضباطهم وجندهم
+عاقبة إرسالهم إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_81.d2e3290" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أيضًا؛ لأن العارفين بكيدها للحجاز من ضباطهم وجندهم
 كثيرون.
 إن الدولة البريطانية لا تثير حربًا جديدةً قط، وما لديها إلا الخداع، فلا
 يكونن سلطان نجد من المخدوعين.
-لا يتوهمن أحد من ذكرنا لزحف الترك على <placeName change="#d2e120" xml:id="placeName_82.d2e3302">الموصل</placeName> أننا نعتقد أن لهم الحق
+لا يتوهمن أحد من ذكرنا لزحف الترك على <placeName change="#d2e120 #d11e288" xml:id="placeName_82.d2e3302" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> أننا نعتقد أن لهم الحق
 في ذلك، أو أننا نفضل جعل هذه الولاية تركية على جعلها عربية، كلا، وإنما
-نعتقد أن طمع الترك قد يقف عند حد <placeName change="#d2e120" xml:id="placeName_83.d2e3310">الموصل</placeName> من بلاد العرب، وأما طمع الإنكليز
+نعتقد أن طمع الترك قد يقف عند حد <placeName change="#d2e120 #d11e288" xml:id="placeName_83.d2e3310" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> من بلاد العرب، وأما طمع الإنكليز
 فلا يقف عند حد، وهم عازمون قطعًا على امتلاك جميع البلاد العربية، وإزالة
 سلطان الإسلام وشريعته من الأرض، فإذا ظفروا بقوة ابن سعود وهي أكبر قوة
 عربية في الجزيرة فقل: على العرب وعلى الإسلام السلام، ونعتقد أن ابن سعود إذا
-زحف لإنقاذ <placeName change="#d2e120" xml:id="placeName_84.d2e3321">العراق</placeName> لأهله يقوم معه معظم العرب، وإقناع العراقيين بذلك سهل.
+زحف لإنقاذ <placeName change="#d2e120 #d11e288" xml:id="placeName_84.d2e3321" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> لأهله يقوم معه معظم العرب، وإقناع العراقيين بذلك سهل.
 ***
 (3)
-دسيسة الصلح بين <placeName change="#d2e120" xml:id="placeName_85.d2e3331">الحجاز</placeName> ونجد
+دسيسة الصلح بين <placeName change="#d2e120 #d11e288" xml:id="placeName_85.d2e3331" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد
 نحن من المصدقين بأن سلطان نجد كان ولا يزال قادرًا على أخذ جدة والمدينة
 المنورة عنوة كما حكي عنه، ثم صرّح به هو رسميًّا. ومن المصدقين بأنه اختار
 الحصر بالمطاولة على المناجزة، كراهة لسفك الدماء، وتخريب العمران، ويعتقد
-مع هذا أن هذا الاجتهاد كان خطأً، ضرره على سياسة السلطان وعلى <placeName change="#d2e120" xml:id="placeName_86.d2e3343">الحجاز</placeName> أكبر
+مع هذا أن هذا الاجتهاد كان خطأً، ضرره على سياسة السلطان وعلى <placeName change="#d2e120 #d11e288" xml:id="placeName_86.d2e3343" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أكبر
 من نفعه، فلو أنه بعد أن علم بما كان من تحصين جدة أعد للهجوم عليه عدته،
-وأخذها عنوة لانتهت المسألة الحجازية، وأقبل الحجاج على <placeName change="#d2e120" xml:id="placeName_87.d2e3350">مكة</placeName> من جميع الآفاق؛
-فاتسع الرزق على أهل <placeName change="#d2e120" xml:id="placeName_88.d2e3356">الحجاز</placeName>، وشاهد وفود مسلمي الأرض كلها الفرق العظيم
+وأخذها عنوة لانتهت المسألة الحجازية، وأقبل الحجاج على <placeName change="#d2e120 #d11e288" xml:id="placeName_87.d2e3350" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> من جميع الآفاق؛
+فاتسع الرزق على أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_88.d2e3356" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وشاهد وفود مسلمي الأرض كلها الفرق العظيم
 بين عدل ابن السعود، وتأمينه للبلاد، ومنعه للظلم والإلحاد، وتعففه عن أموال
 الحجاج، وإقامته لأحكام الشريعة، وبين بظلم حسين بن علي وإلحاده في حرم الله،
-ولعقد المؤتمر الإسلامي العام، وقرر شكل حكومة <placeName change="#d2e120" xml:id="placeName_89.d2e3365">الحجاز</placeName> وما يجب من الإصلاح
+ولعقد المؤتمر الإسلامي العام، وقرر شكل حكومة <placeName change="#d2e120 #d11e288" xml:id="placeName_89.d2e3365" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وما يجب من الإصلاح
 الديني والعمراني فيه (كما تقدم آنفًا) ، واستراح المسلمون عامة والعرب خاصة،
 واطمأنوا بذلك على حرمهم وقبلتهم ومشاعر دينهم، وروضة نبيهم صلى الله عليه
 وآله وسلم، وأمنوا نفوذ الأجنبي أن يفسد عليهم أمر دينهم، ويذلهم حيث أعزهم
@@ -1365,22 +1365,22 @@
 هذا الرأي، ونرجح أن الوفد أرسل لاختبار حالة الفريقين لا للتدخل في شؤونهما
 بالفعل، إذ لا يعقل إقدام هذا المقام الجليل على مثل هذا التدخل إلا بعد العلم
 باستعداد الفريقين لقبول وساطته، والعلم بأن الصلح بينهما على قاعدة بقاء الحكم
-في <placeName change="#d2e120" xml:id="placeName_90.d2e3442">الحجاز</placeName> للشريف علي موافق للمصلحة الإسلامية العامة، وأي مصلحة للإسلام
-في توطيد السلطة في <placeName change="#d2e120" xml:id="placeName_91.d2e3448">الحجاز</placeName> لمن يدعون أن البلاد ملك لهم، وأنه يباح لهم
+في <placeName change="#d2e120 #d11e288" xml:id="placeName_90.d2e3442" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> للشريف علي موافق للمصلحة الإسلامية العامة، وأي مصلحة للإسلام
+في توطيد السلطة في <placeName change="#d2e120 #d11e288" xml:id="placeName_91.d2e3448" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لمن يدعون أن البلاد ملك لهم، وأنه يباح لهم
 التصرف فيها حتى ببيع ما شاؤوا منها للأجانب كما وقع بالفعل؟ ولهذا نعتقد أن
 دعاة الفتنة الذين يحرضون الدولة المصرية على قتال الوهابيين، وفتك هذه البقية
 الضعيفة من قوى المسلمين بعضها ببعض، لا تثمر لهم دعوتهم إلا الخزي في
 الدنيا والآخرة.
 إننا نعتقد بما لنا من الاختبار الواسع أن عقد الصلح بين الشريف علي
-وسلطان نجد على قاعدة جعل الأول ملكًا في <placeName change="#d2e120" xml:id="placeName_92.d2e3464">الحجاز</placeName> يفضي إلى المفاسد الآتية:
-(1) عودة الشريف حسين إلى <placeName change="#d2e120" xml:id="placeName_93.d2e3469">مكة</placeName> مدعيًا للخلافة الإسلامية تحت حماية
+وسلطان نجد على قاعدة جعل الأول ملكًا في <placeName change="#d2e120 #d11e288" xml:id="placeName_92.d2e3464" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> يفضي إلى المفاسد الآتية:
+(1) عودة الشريف حسين إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_93.d2e3469" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> مدعيًا للخلافة الإسلامية تحت حماية
 الإنكليز عملاً بمقررات النهضة، فقد علمنا علم اليقين أن أولاده الملوك
-البريطانيون على <placeName change="#d2e120" xml:id="placeName_94.d2e3477">العراق</placeName> وشرق الأردن و<placeName change="#d2e120" xml:id="placeName_95.d2e3480">الحجاز</placeName> لا يزالون متمسكين بخلافته، وقد
+البريطانيون على <placeName change="#d2e120 #d11e288" xml:id="placeName_94.d2e3477" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وشرق الأردن و<placeName change="#d2e120 #d11e288" xml:id="placeName_95.d2e3480" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لا يزالون متمسكين بخلافته، وقد
 صرح ولي عهده الشريف علي في (الإرادة السنية) التي أصدرها بجعل منطقة
 العقبة وشرق الأردن الحجازية تابعة لشرق الأردن تحت الانتداب البريطاني
-بالتعبير عن والده بالخليقة الأعظم، وإذا هو عاد إلى <placeName change="#d2e120" xml:id="placeName_96.d2e3489">مكة</placeName> يعود إليها الظلم والإلحاد
-والإفساد والشقاق بين <placeName change="#d2e120" xml:id="placeName_97.d2e3495">الحجاز</placeName> وسائر حكومات الجزيرة، ولا سيما نجد، إذ يعود
-هو إلى مطالبة سلطنة نجد وإمام <placeName change="#d2e120" xml:id="placeName_98.d2e3500">اليمن</placeName> بوجوب اتباعه من حيث هو خليفة الرسول
+بالتعبير عن والده بالخليقة الأعظم، وإذا هو عاد إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_96.d2e3489" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> يعود إليها الظلم والإلحاد
+والإفساد والشقاق بين <placeName change="#d2e120 #d11e288" xml:id="placeName_97.d2e3495" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وسائر حكومات الجزيرة، ولا سيما نجد، إذ يعود
+هو إلى مطالبة سلطنة نجد وإمام <placeName change="#d2e120 #d11e288" xml:id="placeName_98.d2e3500" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> بوجوب اتباعه من حيث هو خليفة الرسول
 وأمير المؤمنين، وإلى التصدي لتنفيذ ما وضعه من النظام لوحدة البلاد العربية التي
 يسميها (الممالك الهاشمية) ، ومنها أن تكون كلها تابعة له في السياسة والحرب
 والإدارة العامة، وحينئذ يسمح لأمرائها بالاستقلال الإداري بشرط رد إمارة ابن
@@ -1391,12 +1391,12 @@
 يجب على ولي أمر المسلمين إقامة شرع الله فيهم؛ أي: بقتالهم إلى أن يعودوا إلى
 الإسلام الذي يدعيه هو كما يفهمه أو ينقرضوا، وقد اتهم هو الوهابية بمثل هذه
 التهمة بالتبع لاتهام سلفه الشريف غالب لسلفهم عند مبدأ ظهورهم، وثبت أنه كاذب
-كسلفه وخلفه، فقد استولوا على بلاد الحسا التي كانت سلطة <placeName change="#d2e120" xml:id="placeName_99.d2e3527">الدولة العثمانية</placeName>، ولم
+كسلفه وخلفه، فقد استولوا على بلاد الحسا التي كانت سلطة <placeName change="#d2e120 #d11e288" xml:id="placeName_99.d2e3527" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>، ولم
 يعاملوا الشيعة من أهلها معاملة الكفار في شيء، مع أن الخلاف بين الوهابية
 المتعصبين للسنة وبين الشيعة شديد جدًّا، ولذلك نجد شيعة إيران والهند والعراق
 وسورية أشد الناس تحاملاً عليهم، حتى إن صديقنا السيد هبة الدين الشهرستاني
 الذي كنا نعده من دعاة الجامعة الإسلامية ومن المعتدلين في التشيع ألف رسالة في
-صد المسلمين عن الحج، مع وجود الوهابية في <placeName change="#d2e120" xml:id="placeName_100.d2e3541">الحجاز</placeName>، وأما أهل <placeName change="#d2e120" xml:id="placeName_101.d2e3544">الحجاز</placeName> فقد
+صد المسلمين عن الحج، مع وجود الوهابية في <placeName change="#d2e120 #d11e288" xml:id="placeName_100.d2e3541" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وأما أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_101.d2e3544" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> فقد
 اجتمع علماؤهم بعلماء نجد عقب احتلال ابن السعود لها، وقرروا بعد المذاكرة أنه
 لا خلاف بينهم في العقيدة، وأنهم كلهم على السنة، كما جرى مثل ذلك عند احتلال
 الأمير سعود لمكة المكرمة منذ قرن وسنين حذو القذة بالقذة، فأي مصلحة في عقد
@@ -1405,16 +1405,16 @@
 القبور؟
 (3) إن الشريف حسينًا وأولاده ليس لهم قوة ولا عصبية في بلاد الحجاز
 ولا في غيرها من بلاد العرب كما كنا نقول، وثبت قولنا بالفعل بما علمه القاصي
-والداني من كون جميع قبائل <placeName change="#d2e120" xml:id="placeName_102.d2e3567">الحجاز</placeName> القوية مشايعة لسلطان نجد عليهم، ولولا ذلك
-لم يستطع الوهابيون البقاء في <placeName change="#d2e120" xml:id="placeName_103.d2e3572">الحجاز</placeName>، ومن كون الجند الذي يدافع عن جدة قد جمعه
-الشريف علي وأعوانه من فقراء <placeName change="#d2e120" xml:id="placeName_104.d2e3578">اليمن</placeName> وفلسطين وسورية المحتاجين إلى القوت
+والداني من كون جميع قبائل <placeName change="#d2e120 #d11e288" xml:id="placeName_102.d2e3567" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> القوية مشايعة لسلطان نجد عليهم، ولولا ذلك
+لم يستطع الوهابيون البقاء في <placeName change="#d2e120 #d11e288" xml:id="placeName_103.d2e3572" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، ومن كون الجند الذي يدافع عن جدة قد جمعه
+الشريف علي وأعوانه من فقراء <placeName change="#d2e120 #d11e288" xml:id="placeName_104.d2e3578" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وفلسطين وسورية المحتاجين إلى القوت
 الضروري؛ ولأجل هذا بنى الشريف حسين ثورته وما سماه (مقررات النهضة)
 العربية على تأسيس الإنكليز للمملكة العربية وحمايتها لها من الداخل والخارج،
 وكان أول من نشر هذه المقررات الأمير فيصل في سورية، ومن المعلوم
 بالضرورة أن الشريف حسينًا وأولاده متكافلون متعاونون في سياستهم، وأن الحجاز
-لا يستغني عن مساعدة حكومتي شرق الأردن و<placeName change="#d2e120" xml:id="placeName_105.d2e3592">العراق</placeName>، مع عداوته الراسخة لنجد،
-وطمعه في إخضاعها هي و<placeName change="#d2e120" xml:id="placeName_106.d2e3597">اليمن</placeName> وتهامة كما تقدم، ومن المعلوم بالضرورة أن
-هاتين الحكومتين بريطانيتان، فلن تكون حينئذ <placeName change="#d2e120" xml:id="placeName_107.d2e3602">الحجاز</placeName> غير بريطانية.
+لا يستغني عن مساعدة حكومتي شرق الأردن و<placeName change="#d2e120 #d11e288" xml:id="placeName_105.d2e3592" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، مع عداوته الراسخة لنجد،
+وطمعه في إخضاعها هي و<placeName change="#d2e120 #d11e288" xml:id="placeName_106.d2e3597" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وتهامة كما تقدم، ومن المعلوم بالضرورة أن
+هاتين الحكومتين بريطانيتان، فلن تكون حينئذ <placeName change="#d2e120 #d11e288" xml:id="placeName_107.d2e3602" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> غير بريطانية.
 ***
 غرض الإنكليز حماية الحجاز
 وجملة القول وخلاصته أن الدولة البريطانية طامعة في ضم جزيرة العرب
@@ -1427,9 +1427,9 @@
 الجنة أطباء الأجساد النطاسيون، وبأمر هذه الجنة أطباء الاجتماع السياسيون،
 وأكثر المسلمين لا يزالون يعتمدون على أطباء الخرافات الدجالين.
 وهي لم تحدث هذه الجلبة والضوضاء في تخويف الشيعة وجهلاء المنتسبين
-إلى السنة من قوة الوهابيين، التي هي مع قوة إمام <placeName change="#d2e120" xml:id="placeName_108.d2e3634">اليمن</placeName> حصنان منيعان في وجه
+إلى السنة من قوة الوهابيين، التي هي مع قوة إمام <placeName change="#d2e120 #d11e288" xml:id="placeName_108.d2e3634" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> حصنان منيعان في وجه
 طمعها في جزيرة العرب إلا لتهون على العالم الإسلامي ما تبغي من التصريح
-بحماية <placeName change="#d2e120" xml:id="placeName_109.d2e3641">الحجاز</placeName>، فالشيعة يساعدونها على حد المثل (لا حبًّا في علي، ولكن بغضًا
+بحماية <placeName change="#d2e120 #d11e288" xml:id="placeName_109.d2e3641" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، فالشيعة يساعدونها على حد المثل (لا حبًّا في علي، ولكن بغضًا
 في معاوية) ، وجهلاء المبتدعة من المنتسبين إلى السنة يوافقونها لاعتقادهم أنها
 تحمي لهم القبور والآثار التي صارت معبودات لهم، وهنالك آخرون مستذلون
 تحت حمايتها يوافقونها على كل شيء جبنًا وجهلاً ونفاقًا، ووالله أنها لشر على
@@ -1443,7 +1443,7 @@
 كلها قبل أن يعقل العالم الإسلامي هذا الأمر ويسعى لمساعدة ابن السعود وإمام اليمن
 عليه، ولذلك حملت ربيبتها جمعية الأمم على تقرير منع السلاح عنها، فإن تم لهم
 ذلك وصار البحر الأحمر إنكليزيًّا محضًا، وصار للإنكليز قوة برية في فلسطين
-ممتدة إلى <placeName change="#d2e120" xml:id="placeName_110.d2e3675">العراق</placeName> لا تجاورها قوة تحسب لها أدنى حساب، فأي مصري أو إيراني
+ممتدة إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_110.d2e3675" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> لا تجاورها قوة تحسب لها أدنى حساب، فأي مصري أو إيراني
 يسفه نفسه ويخلع عقله، فيزعم أن بلاده يمكن أن تستقل وقد أحاط بها الإنكليز من
 البر والبحر؟
 وقد ظهر كالشمس في رابعة النهار أن الشريف حسينًا وأولاده هم أكبر أنصار
@@ -1451,7 +1451,7 @@
 يعلمون من هذه الحقيقة ما لا يعلم شيعة إيران والهند لم تؤثر فيهم الدعاية الهاشمية
 البريطانية الأخيرة، حتى صرحت <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_10.d2e3691">التيمس</title></bibl> بالتعجب من ذلك (!) ، وقد آن
 للإيرانيين أن يفقهوا هذا، ويتركوا التعصب الضار الذي لم يعد له عذر في هذا
-العصر، وقد عرف عقلاء الشيعة في <placeName change="#d2e120" xml:id="placeName_111.d2e3698">العراق</placeName> كنه الملك فيصل البريطاني،
+العصر، وقد عرف عقلاء الشيعة في <placeName change="#d2e120 #d11e288" xml:id="placeName_111.d2e3698" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> كنه الملك فيصل البريطاني،
 وليرجعوا إلى منشآت السيد جمال الدين موقظ مصر وإيران والشرق، ويتدبروا ما
 كتبه في الإنكليز.
 ***
@@ -1468,7 +1468,7 @@
 الإنكليز والبيت الهاشمي والمبايع الوحيد من علماء الهند الغافلين لحسين بن علي
 بالخلافة) ، ومجتهدي الشيعة وحزب الحكومة الإنكليزية قد أجمعوا أمرهم وعقدوا
 في لكهنو مجلسًا كبيرًا؛ لكيد النجديين، فعارضهم في مبادئهم اثنان من أفاضل أهل
-السنة العارفين بدسائس الحكومة ومقاصدها السيئة في <placeName change="#d2e120" xml:id="placeName_112.d2e3738">الحجاز</placeName>، وجادلاهم بالحجة
+السنة العارفين بدسائس الحكومة ومقاصدها السيئة في <placeName change="#d2e120 #d11e288" xml:id="placeName_112.d2e3738" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وجادلاهم بالحجة
 فلم يكن لهم عليهم من سلطان إلا السب والضرب، وإخراجهما جرًّا على الأرض،
 وقد ذكر ذلك في أكثر الجرائد الهندية.
 (ثم بشرنا الكاتب بانتشار الحركة الإصلاحية بعد هذه الدعاية بسرعة (قال) :
@@ -1489,19 +1489,19 @@
 مرض موته بأن لا يبقى في جزيرة العرب دينان، وقوله: (إن الإسلام بدأ غريبًا
 وسيعود كما بدأ، ويأرز بين المسجدين كما تأرز الحية في جحرها) رواه مسلم عن
 ابن عمر، وللترمذي من حديث عمرو بن عوف المزني مرفوعًا (إن الدين ليأرز
-إلى <placeName change="#d2e120" xml:id="placeName_113.d2e3787">الحجاز</placeName> كما تأرز الحية إلى حجرها وليعقلن الدين من <placeName change="#d2e120" xml:id="placeName_114.d2e3790">الحجاز</placeName> معقل الأروية [2]
+إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_113.d2e3787" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> كما تأرز الحية إلى حجرها وليعقلن الدين من <placeName change="#d2e120 #d11e288" xml:id="placeName_114.d2e3790" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> معقل الأروية [2]
 من رأس الجبل، إن الدين بدأ غريبًا ويرجع غريبًا، فطوبى للغرباء الذين
 يصلحون ما أفسد الناس بعدي من سنتي) ، فليعقل المسلمون كافة وأهل السنة
 خاصة هذه الأحاديث، وليفقهوا حكمتها، ويعملوا بمراد نبيهم - صلى الله عليه
-وسلم - منها، ويتعاونوا على إبعاد الإنكليز عن <placeName change="#d2e120" xml:id="placeName_115.d2e3802">الحجاز</placeName> تنفيذًا لهذه الوصية،
-وليعلموا أن كل من يقربهم من <placeName change="#d2e120" xml:id="placeName_116.d2e3807">الحجاز</placeName> فهو عدو لله ورسوله والمسلمين، وفي مقدمة
+وسلم - منها، ويتعاونوا على إبعاد الإنكليز عن <placeName change="#d2e120 #d11e288" xml:id="placeName_115.d2e3802" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> تنفيذًا لهذه الوصية،
+وليعلموا أن كل من يقربهم من <placeName change="#d2e120 #d11e288" xml:id="placeName_116.d2e3807" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> فهو عدو لله ورسوله والمسلمين، وفي مقدمة
 هؤلاء الأعداء حسين بن علي وأولاده وأنصارهم أجمعون أكتعون أبتعون أبصعون.
 يجب على المسلمين المخلصين المعتصمين بكتاب الله وسنة رسوله - صلى
 الله عليه وسلم - أن يبادروا إلى عقد المؤتمر الذي دعا إليه سلطان نجد، ويقرروا
-إبعاد الإنكليز عن <placeName change="#d2e120" xml:id="placeName_117.d2e3819">الحجاز</placeName> وانتزاع منطقة العقبة - معان وسكة <placeName change="#d2e120" xml:id="placeName_118.d2e3822">الحجاز</placeName> منهم ومن
-فرنسة، ووضع نظام لحكومة <placeName change="#d2e120" xml:id="placeName_119.d2e3828">الحجاز</placeName> من قواعده أن لا يكون لغير المسلين أدنى
+إبعاد الإنكليز عن <placeName change="#d2e120 #d11e288" xml:id="placeName_117.d2e3819" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وانتزاع منطقة العقبة - معان وسكة <placeName change="#d2e120 #d11e288" xml:id="placeName_118.d2e3822" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> منهم ومن
+فرنسة، ووضع نظام لحكومة <placeName change="#d2e120 #d11e288" xml:id="placeName_119.d2e3828" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من قواعده أن لا يكون لغير المسلين أدنى
 نفوذ فيه ولا وجود بأي اسم من الأسماء، وليعلموا أنه لا يتم لهم عقد المؤتمر إلا
-بقوة سلطان نجد الذي أقام الحجة عليهم بتفويض أمر حكم <placeName change="#d2e120" xml:id="placeName_120.d2e3835">الحجاز</placeName> وحفظه إليهم،
+بقوة سلطان نجد الذي أقام الحجة عليهم بتفويض أمر حكم <placeName change="#d2e120 #d11e288" xml:id="placeName_120.d2e3835" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وحفظه إليهم،
 فلم يبق لأحد منهم عذر لا للشيعة ولا لمبتدعة القبور ولا لغيرهم، فمهما يكن أمر
 هذا السلطان في نفسه وأمر قومه في أنفسهم فهو يعلن رسميًّا أن الحرمين الشريفين
 ليسا له ولا لحسين بن علي وأولاده، بل يجب تفويض أمرهما إلى زعماء المسلمين
@@ -1513,7 +1513,7 @@
 بالكتابة إلى ملوك المسلمين ورؤساء حكوماتهم المستقلة ومنها دولة إيران، وإلى
 جماعات الشعوب الإسلامية المعروفة بخدمتها للإسلام، وأن يذكر في كتاب الدعوة
 الموضوع الذي يبحث فيه المؤتمر بالتفصيل، وأهمه أن لا يكون لأجنبي مُلك ولا
-نفوذ ولا مقام في <placeName change="#d2e120" xml:id="placeName_121.d2e3864">الحجاز</placeName>، وأن تكون حكومته حكومة شورى شرعية، ولا يتسع
+نفوذ ولا مقام في <placeName change="#d2e120 #d11e288" xml:id="placeName_121.d2e3864" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وأن تكون حكومته حكومة شورى شرعية، ولا يتسع
 هذا المقال لبيان رأينا التفصيلي فيه، وسنشرحه عند الحاجة إليه إن شاء الله.
 أيها المسلمون، الأمر جدٌّ، والخطب إدٌّ، وليس بعد اليوم كوفة، فإذا استولى
 الأجنبي الطامع على مهد دينكم، واستعبد قوم رسولكم، وهم أعرق شعوب الأرض
@@ -1522,8 +1522,8 @@
 يخشى منكم؟
 لا تسمعوا كلمة لدعاة حسين وعلي وعبد الله وفيصل، فقد ثبتت خيانتهم
 للإسلام وللعرب بالفعل، ولم يتجرأ أحد منهم على تكذيبنا في جعل ملكهم على
-منطقة عظيمة من <placeName change="#d2e120" xml:id="placeName_122.d2e3887">الحجاز</placeName> تحت الانتداب الإنكليزي؛ لأن جريدة شرق الأردن
-الرسمية نشرت الخبر كما نشرته صحف سورية و<placeName change="#d2e120" xml:id="placeName_123.d2e3892">العراق</placeName>.
+منطقة عظيمة من <placeName change="#d2e120 #d11e288" xml:id="placeName_122.d2e3887" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> تحت الانتداب الإنكليزي؛ لأن جريدة شرق الأردن
+الرسمية نشرت الخبر كما نشرته صحف سورية و<placeName change="#d2e120 #d11e288" xml:id="placeName_123.d2e3892" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>.
 {يَا أَيُّهَا الَّذِينَ آمَنُوا لاَ تَخُونُوا اللَّهَ وَالرَّسُولَ وَتَخُونُوا أَمَانَاتِكُمْ وَأَنْتُمْ
 تَعْلَمُونَ *} (الأنفال: 27-28) .
 {وَلاَ تَكُونُوا كَالَّذِينَ قَالُوا سَمِعْنَا وَهُمْ لاَ يَسْمَعُونَ} (الأنفال: 21) .
@@ -1551,25 +1551,25 @@
 ابن سعود كتب إلى إنكلترة طالبًا التصديق على المطالب الآتية:
 (أ) أن تترك إنكلترة ابن السعود ينهي أمره بأسرع ما يمكن مع الملك علي
 وجدة.
-(ب) أن تعترف بصورة رسمية بسيادته على <placeName change="#d2e120" xml:id="placeName_124.d2e3946">الحجاز</placeName> واستقلال نجد
+(ب) أن تعترف بصورة رسمية بسيادته على <placeName change="#d2e120 #d11e288" xml:id="placeName_124.d2e3946" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> واستقلال نجد
 استقلالاً تامًّا، ذاك الاستقلال الذي حذف بعض مواده في الاتفاق الذي عقده مع
 إنكلترة عام 1915.
-(ج) أن تقبل إنكلترة بوضع <placeName change="#d2e120" xml:id="placeName_125.d2e3956">الحجاز</placeName> تحت سلطته بعد انتصاره التام على
-الملك علي، ويتعهد لقاء ذلك أن يشكل بصورة دائمة في <placeName change="#d2e120" xml:id="placeName_126.d2e3961">مكة</placeName> حكومة وطنية
+(ج) أن تقبل إنكلترة بوضع <placeName change="#d2e120 #d11e288" xml:id="placeName_125.d2e3956" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> تحت سلطته بعد انتصاره التام على
+الملك علي، ويتعهد لقاء ذلك أن يشكل بصورة دائمة في <placeName change="#d2e120 #d11e288" xml:id="placeName_126.d2e3961" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> حكومة وطنية
 تعترف إنكلترة باستقلالها التام، ويكون لابن السعود السلطة التامة في تعيين من يشاء
-لمكة، أما فيما يتعلق بدستور <placeName change="#d2e120" xml:id="placeName_127.d2e3969">الحجاز</placeName> الإداري والديني فإنه يترك أمر تقريره إلى
+لمكة، أما فيما يتعلق بدستور <placeName change="#d2e120 #d11e288" xml:id="placeName_127.d2e3969" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> الإداري والديني فإنه يترك أمر تقريره إلى
 ممثلي الدول الإسلامية، الذين ينتخبون لجنة يعهد إليها أمر تطبيق الدستور المذكور.
 (د) أن تترك إنكلترة له حق تعيين ممثلي حكومة لوندرة في العراق
-وشرقي الأردن وفلسطين و<placeName change="#d2e120" xml:id="placeName_128.d2e3978">البصرة</placeName> والكويت.
+وشرقي الأردن وفلسطين و<placeName change="#d2e120 #d11e288" xml:id="placeName_128.d2e3978" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> والكويت.
 (هـ) أن تعترف له بإطلاق لقب الجلالة عليه نظير اعترافها بلقب أمير
 الأفغان والملك فيصل.
-(و) أن تضع حدًّا لنشر الدعاية ضده في الهند و<placeName change="#d2e120" xml:id="placeName_129.d2e3988">العراق</placeName> والبلاد الأخرى
+(و) أن تضع حدًّا لنشر الدعاية ضده في الهند و<placeName change="#d2e120 #d11e288" xml:id="placeName_129.d2e3988" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> والبلاد الأخرى
 الواقعة تحت النفوذ الإنكليزي، والتي تمثل الوهابيين كزنادقة.
 فردت عليه إنكلترة مقدمة له المطالب التالية: -
 (أ) بقاء الحالة على ما هي عليه في شبه جزيرة العرب وتبذل جهودها في
-الحصول عليه خلا ما يتعلق ب<placeName change="#d2e120" xml:id="placeName_130.d2e4000">الحجاز</placeName> طبعًا، ويتعهد ابن السعود أن لا يقسم شبه
+الحصول عليه خلا ما يتعلق ب<placeName change="#d2e120 #d11e288" xml:id="placeName_130.d2e4000" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> طبعًا، ويتعهد ابن السعود أن لا يقسم شبه
 جزيرة العرب إلى منطقتي نفوذ، يختص المنطقة الشمالية بنفسه والمنطقة الثانية
-بصديقه الإمام يحيى إمام <placeName change="#d2e120" xml:id="placeName_131.d2e4007">اليمن</placeName>، وأن لا يعقد مع الإمام يحيى محالفة ما، بل يجب
+بصديقه الإمام يحيى إمام <placeName change="#d2e120 #d11e288" xml:id="placeName_131.d2e4007" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وأن لا يعقد مع الإمام يحيى محالفة ما، بل يجب
 عليه بالعكس أن يعقد محالفة مع خصم الإمام يحيى؛ أي: مع سعيد بن علي
 الإدريسي إمام العسير، وأن يدعمه عند الحاجة.
 (ب) أن يعدها ابن سعود بأن لا يهاجم شرق الأردن ولا معان والعقبة
@@ -1577,7 +1577,7 @@
 البلاد الواقعة تحت الانتداب الإنكليزي.
 (ج) أن يحترم وأن يحمي السكة الحديدية التي تصل شرقي الأردن بالمدينة
 ليؤمن طريق الحج.
-(د) أن لا يقوم بأي حركة عدائية على حدود <placeName change="#d2e120" xml:id="placeName_132.d2e4028">العراق</placeName> الجنوبية.
+(د) أن لا يقوم بأي حركة عدائية على حدود <placeName change="#d2e120 #d11e288" xml:id="placeName_132.d2e4028" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> الجنوبية.
 (هـ) أن لا يهتم مطلقًا بالمسائل المتعلقة بإمارات خليج فارس، وبنوع
 خاص إمارتي الكويت والبحرين.
 
@@ -1585,7 +1585,7 @@
 (<title change="#d2e120" xml:id="title_12.d2e4040">المنار</title>)
 نقل هذا الخبر بعض الصحف السورية والمصرية بما فيه من تحريف وغلط،
 فالتحريف كالتعبير عن الكويت بالكوفة، والغلط كالتعبير عن الإدريسي وإمارته
-بسعيد ابن علي إمام العسير، والصواب السيد علي بن محمد علي أمير تهامة <placeName change="#d2e120" xml:id="placeName_133.d2e4049">اليمن</placeName>،
+بسعيد ابن علي إمام العسير، والصواب السيد علي بن محمد علي أمير تهامة <placeName change="#d2e120 #d11e288" xml:id="placeName_133.d2e4049" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>،
 فإن منطقة عسير تابعة لسلطنة نجد بمقتضى اتفاق سابق مع المرحوم السيد محمد
 علي الإدريسي وسلطان نجد، ومنها مطالب حرف (د) والظاهر أن المراد منه أن
 يكون لنجد ممثلون في تلك البلاد.
@@ -1593,21 +1593,21 @@
 الفريقين هي التي تتبادر إلى الأذهان، وإن أعلن سلطان نجد لا يبغي ضم الحجاز
 إلى بلاده، فالظاهر أن الكاتب الفرنسي صورها بما ذكر إذا لم يكن للخبر أصل،
 وقد بينا في مقال آخر ما يبغي الإنكليز من سلطان نجد، ونزيد على ذلك موافقة
-الكاتب على أنهم يودون لو يعادي إمام <placeName change="#d2e120" xml:id="placeName_134.d2e4070">اليمن</placeName>؛ لتتمكن إنكلترة من تهديد كل منهما
+الكاتب على أنهم يودون لو يعادي إمام <placeName change="#d2e120 #d11e288" xml:id="placeName_134.d2e4070" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>؛ لتتمكن إنكلترة من تهديد كل منهما
 بالآخر أو حملهما على القتال لتفني هذه القوة الباقية في جزيرة العرب بأيدي أهلها،
-وقد قيل: إن دسائسهم فعلت هذه المرة فعلتها في إمام <placeName change="#d2e120" xml:id="placeName_135.d2e4077">اليمن</placeName>، فأغرته بالتحرش
+وقد قيل: إن دسائسهم فعلت هذه المرة فعلتها في إمام <placeName change="#d2e120 #d11e288" xml:id="placeName_135.d2e4077" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، فأغرته بالتحرش
 بسلطان نجد، بعد أن عجزت عن إغراء هذا به، وإنه تصدى هذا بدسائسها
-للتدخل في مسألة <placeName change="#d2e120" xml:id="placeName_136.d2e4085">الحجاز</placeName> وفاقًا لما كان يزعم المقطم من قبل، فإن صح هذا ولا
+للتدخل في مسألة <placeName change="#d2e120 #d11e288" xml:id="placeName_136.d2e4085" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وفاقًا لما كان يزعم المقطم من قبل، فإن صح هذا ولا
 نخاله صحيحًا يكون الإمام يحيى قد فقد أكبر فضيلة له عند العالم الإسلامي، وهي
 عجز إنكلترة عن خداعه، وجعله آلة لمطامعها في جزيرة العرب، وطالما صرح
 المقطم بأنه صارح سلطان نجد بالعداء، وأنه سيرسل جنوده لمساعدة الشريف علي
-على إخراج الوهابيين من <placeName change="#d2e120" xml:id="placeName_137.d2e4097">الحجاز</placeName>، وكنا وما زلنا نسخر من هذه الدعاية لما عندنا من
+على إخراج الوهابيين من <placeName change="#d2e120 #d11e288" xml:id="placeName_137.d2e4097" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وكنا وما زلنا نسخر من هذه الدعاية لما عندنا من
 الأدلة على كذبها، وكونها ليست من مصلحة الإمام في شيء، فإن من أُسس سياسة
-الملك حسين جعل <placeName change="#d2e120" xml:id="placeName_138.d2e4104">اليمن</placeName> تابعة له كما صرح به في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_13.d2e4107">القبلة</title></bibl>، وسلطان نجد لا
-يطلب <placeName change="#d2e120" xml:id="placeName_139.d2e4113">الحجاز</placeName> ولا <placeName change="#d2e120" xml:id="placeName_140.d2e4116">اليمن</placeName> نفسه، وهو أقدر على مهاجمة <placeName change="#d2e120" xml:id="placeName_141.d2e4119">اليمن</placeName> من جهة عسير وجهة
-الطائف من مهاجمة الإمام له في <placeName change="#d2e120" xml:id="placeName_142.d2e4124">الحجاز</placeName> التي لا فائدة له من تركها له، وأما
-مشاركة الإمام لغيره من حكام المسلمين وزعمائهم في تقرير أمر <placeName change="#d2e120" xml:id="placeName_143.d2e4130">الحجاز</placeName> وفاقًا لما
-دعا إليه سلطان نجد فمعقول، ولا بد للإمام من إرسال وفد؛ لحضور مؤتمر <placeName change="#d2e120" xml:id="placeName_144.d2e4135">مكة</placeName>،
+الملك حسين جعل <placeName change="#d2e120 #d11e288" xml:id="placeName_138.d2e4104" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> تابعة له كما صرح به في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_13.d2e4107">القبلة</title></bibl>، وسلطان نجد لا
+يطلب <placeName change="#d2e120 #d11e288" xml:id="placeName_139.d2e4113" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ولا <placeName change="#d2e120 #d11e288" xml:id="placeName_140.d2e4116" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> نفسه، وهو أقدر على مهاجمة <placeName change="#d2e120 #d11e288" xml:id="placeName_141.d2e4119" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> من جهة عسير وجهة
+الطائف من مهاجمة الإمام له في <placeName change="#d2e120 #d11e288" xml:id="placeName_142.d2e4124" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> التي لا فائدة له من تركها له، وأما
+مشاركة الإمام لغيره من حكام المسلمين وزعمائهم في تقرير أمر <placeName change="#d2e120 #d11e288" xml:id="placeName_143.d2e4130" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وفاقًا لما
+دعا إليه سلطان نجد فمعقول، ولا بد للإمام من إرسال وفد؛ لحضور مؤتمر <placeName change="#d2e120 #d11e288" xml:id="placeName_144.d2e4135" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>،
 وقد كان كتب إلينا بعزمه على ذلك، فهذا أمر يقيني عندنا لا نصدق غيره عنه.
 ((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e120" xml:id="note_7.d2e4143"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_5.d2e4145">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_7.d2e4147" ref="oape:pers:689 viaf:51716068">
@@ -1656,7 +1656,7 @@
 شأن هؤلاء الزعماء المخلصين في سائر البلاد الإسلامية التي زاروها في هذه
 الرحلة المباركة: أي البحث مع العقلاء من رجال الدين والمتمرسين بالسياسة في حاضر الإسلام ومستقبله.
 وأهم المسائل التي كانت موضوع أبحاث الزعماء مسألة استقلال جزيرة
-العرب، وحفظها من كل نفوذ أجنبي ولا سيما <placeName change="#d2e120" xml:id="placeName_145.d2e4230">الحجاز</placeName>، ومسألة الخلافة، ومسألة
+العرب، وحفظها من كل نفوذ أجنبي ولا سيما <placeName change="#d2e120 #d11e288" xml:id="placeName_145.d2e4230" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، ومسألة الخلافة، ومسألة
 فشو الإلحاد بين النابتة الإسلامية المتفرنجة، ومسألة تغلب العصبية الجنسية على
 الوحدة الإسلامية.
 وقد كان لكاتب هذه السطور شرف تعريف العلماء وغيرهم بمكانتهم، وحظ
@@ -1691,7 +1691,7 @@
 <p change="#d2e120" xml:id="p_2.d2e4297">!!
 
                
-نقلت <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_14.d2e4303">الوفاق</title></bibl> العربية عن <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_15.d2e4306">هندياباروا</title>) التي تصدر في (<pubPlace><placeName>بتاوي</placeName></pubPlace>)
+نقلت <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_14.d2e4303">الوفاق</title></bibl> العربية عن <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_15.d2e4306">هندياباروا</title>) التي تصدر في (<pubPlace><placeName ref="geon:1642911 jaraid:place:211 oape:place:474 wiki:Q3630" resp="#xslt" change="#d11e288">بتاوي</placeName></pubPlace>)
 عاصمة جاوه الهولندية <textLang>بلغة البلاد</textLang> نبأً غريبًا مغزاه</bibl>: أن الحكومة الهولندية قد بلغ
 من اضطهادها للمسلمين أن تراقبهم في صلاتهم، وتجعلها متوقفة على إذنها، ذلك
 أن (ألاسستين رصدين) حاكم مدينة جكجه، دعا إليه الزعيم المسلم الحاج فخر

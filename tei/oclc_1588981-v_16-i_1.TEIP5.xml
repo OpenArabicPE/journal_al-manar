@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_16-i_1.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_16-i_1.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e309">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_16-i_1.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_16-i_1.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e304" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e309" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e309" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e309" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1331">1331</date><date calendar="#cal_gregorian" when="1913" xml:lang="ar">يناير - 1913م</date></imprint>
                   <biblScope unit="volume" from="16" to="16" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">16</biblScope>
                   <biblScope unit="issue" from="1" to="1" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">1</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e303" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e309" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e303" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e181">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e184">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e190">
                <item change="#d2e120" xml:id="item_1.d2e192">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e194">num</gi> node </item>
@@ -80,10 +80,10 @@
 الإسلام، ونقول الآن على رأس السنة السادسة عشرة: إن صوت الإصلاح الديني
 قد علا كل صوت في الأقطار الإسلامية التي بلغتها دعوته وهزتها صيحته،
 فخفتت دونه أصوات الحشوية الجامدين، والدجاجلة المخرفين، وقد خذل الله
-ب<placeName change="#d2e120" xml:id="placeName_4.d2e299">بيروت</placeName> في العام الماضي أشدهم إفكًا وتخريفًا، فيما يسميه نظمًا وتأليفًا، فخذلته
+ب<placeName change="#d2e120 #d11e309" xml:id="placeName_4.d2e299" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> في العام الماضي أشدهم إفكًا وتخريفًا، فيما يسميه نظمًا وتأليفًا، فخذلته
 الخاصة ولم تنصره العامة، وعورض ما يفتريه من الرؤى والأحلام بشيوع خبر
 رؤيين رآهما بعض الصالحين من الحجاج، فقد حدثني الثقة المتفق على توثيقه
-في <placeName change="#d2e120" xml:id="placeName_5.d2e309">بيروت</placeName> قال: لما عاد والدي من <placeName change="#d2e120" xml:id="placeName_6.d2e312">الحجاز</placeName> عام حجه جاء (الشيخ فلان) للسلام عليه،
+في <placeName change="#d2e120 #d11e309" xml:id="placeName_5.d2e309" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> قال: لما عاد والدي من <placeName change="#d2e120 #d11e309" xml:id="placeName_6.d2e312" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> عام حجه جاء (الشيخ فلان) للسلام عليه،
 وكان يُعد من أصدقائه وأقبل بلهف ودهشة ليعانقه، فصاح به والدي: يا شيخ فلان -
 وذكر اسمه - إن النبي صلى الله عليه وسلم غير راضٍ عنك، فقد رأيته عند
 زيارته في المدينة المنورة في الرؤيا، وأمرني أن أبلغك أنه غير راضٍ عنك.
@@ -181,7 +181,7 @@
 لولَّوْا منه فرارًا، وأعرضوا عنه ازورارًا، واستصغروا أنفسهم استصغارًا،
 لتعجلهم باتباع كل ناعق، وعدم التزييل بين الصادق والمنافق، وستظهر للجميع
 الحقائق، فحبل الكذب وإن طال قصير، ومصير المنافقين شر مصير. وإنما
-نخشى أن لا تظهر العبرة إلا بعد خراب <placeName change="#d2e120" xml:id="placeName_7.d2e530">البصرة</placeName>، وأن يأخذ الله المسلمين كافةً بما
+نخشى أن لا تظهر العبرة إلا بعد خراب <placeName change="#d2e120 #d11e309" xml:id="placeName_7.d2e530" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>، وأن يأخذ الله المسلمين كافةً بما
 جنته تلك الفئة الباغية {وَاتَّقُوا فِتْنَةً لاَّ تُصِيبَنَّ الَّذِينَ ظَلَمُوا مِنكُمْ خَاصَّة} (الأنفال:
 25) .
 ذلك بأن الأمة تحتاج إلى ضروب من الإصلاح يمد بعضها بعضًا، وأصولها
@@ -209,7 +209,7 @@
 المنافقين وتأييدهم على الصادقين، مع عدم تمييز الأكثرين بين المحقين والمبطلين،
 ولا نحو ذلك من أعمال هؤلاء الذين طغوا في البلاد فأكثروا فيها الفساد، وإنما
 الخطر الأكبر هو إفسادهم السياسي الذي فتح علينا باب المسألة الشرقية، فبدأ
-بمملكة <placeName change="#d2e120" xml:id="placeName_8.d2e593">طرابلس الغرب</placeName> الإفريقية، وثنى بولايات الدولة الأوروبية، ويُخشى أن
+بمملكة <placeName change="#d2e120 #d11e309" xml:id="placeName_8.d2e593" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> الإفريقية، وثنى بولايات الدولة الأوروبية، ويُخشى أن
 يثلث بالولايات الآسيوية، ولا ينفعنا يومئذ ظهور صدقنا وكذبهم، ونصحنا وغشهم؛
 لأن الأمر يخرج من أيدينا وأيديهم، إلى مَن لا يرحمنا ولا يرحمهم، على أن
 زعماء هذه الفتنة، ومبسلي هذه الأمة لا حظ لهم من الحياة إلا الجاه والمال، فإذا
@@ -289,7 +289,7 @@
 شواهد التاريخ وأدلة الأحكام وعناوين الفقهاء التي كلها منك بمسمع ومرأى، ولو
 تركناها على ظاهرها فإن تحقق معنى الدفاع بظاهره يتوقف على سبق الخصم
 بالمزاحمة، وعليه فكيف يمكننا أن نقول: إن الفرس والروم زاحموا محمدًا
-وصحبه الكرام، عليه وعليهم السلام، وهم في بحبوحة <placeName change="#d2e120" xml:id="placeName_9.d2e750">الحجاز</placeName> حتى أوجب عليه
+وصحبه الكرام، عليه وعليهم السلام، وهم في بحبوحة <placeName change="#d2e120 #d11e309" xml:id="placeName_9.d2e750" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> حتى أوجب عليه
 وعليهم دفعهم إلى حد الصين شرقًا وأفريقية غربًا.
 فيا عجبًا من الإفرنج كيف يعدّ احتلال بلاد الإسلام وصلب رجالها واستحياء
 نسائها أو ذبح أطفالها لأدنى فائدة اقتصادية ترجع إليهم من دون حق لهم عليه
@@ -329,10 +329,10 @@
 كل القبائل، بأن يختاروا من كل قبيلة رجلاً ليضربوه بسيوفهم في آنٍ واحد،
 فأطلعه الله تعالى على كيدهم، وأذن له بالهجرة من بلدهم، راجع تفسير قوله
 تعالى: {وَإِذْ يَمْكُرُ بِكَ الَّذِينَ كَفَرُوا لِيُثْبِتُوكَ أَوْ يَقْتُلُوكَ أَوْ يُخْرِجُوكَ} (الأنفال:
-30) هاجر النبي صلى الله عليه وسلم من <placeName change="#d2e120" xml:id="placeName_10.d2e839">مكة</placeName> إلى المدينة وهاجر السابقون
+30) هاجر النبي صلى الله عليه وسلم من <placeName change="#d2e120 #d11e309" xml:id="placeName_10.d2e839" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> إلى المدينة وهاجر السابقون
 الأولون من أصحابه فآواهم إخوانهم الأنصار الذين كانوا أسلموا في موسم الحج
-ب<placeName change="#d2e120" xml:id="placeName_11.d2e847">مكة</placeName>، وبايعوا النبي صلى الله عليه وسلم على أن يمنعوه من كل معتدٍ كما يمنعون
-ويحمون أنفسهم وأولادهم، وبذلك صار حربًا للعرب عامة، وأهل <placeName change="#d2e120" xml:id="placeName_12.d2e852">مكة</placeName> خاصة، أي
+ب<placeName change="#d2e120 #d11e309" xml:id="placeName_11.d2e847" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وبايعوا النبي صلى الله عليه وسلم على أن يمنعوه من كل معتدٍ كما يمنعون
+ويحمون أنفسهم وأولادهم، وبذلك صار حربًا للعرب عامة، وأهل <placeName change="#d2e120 #d11e309" xml:id="placeName_12.d2e852" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> خاصة، أي
 صاروا يعدونه محاربًا ويعدّهم محاربين بحسب العرف العام في ذلك الزمان، فكان
 المؤمنون مع المشركين يومئذ كالعثمانيين مع البلقانيين اليوم، لا يقدر أحد أن ينال
 من الآخر نيلاً فيقصر فيه، بل كانت العرب قبل البعثة وفي عهدها في غزو دائم
@@ -348,21 +348,21 @@
 ما كان النبي صلى الله عليه وسلم يطلب بالقتال ملكًا، وقد رغبوا إليه في مكة
 أن يجعلوه ملكًا عليهم بشرط أن يترك دعوته، وعرضوا عليه كل ما يقدرون عليه
 من مال ومتاع، فلم يقبل ذلك وهو في حال الضعف والاحتياج، وكان دفاعه في
-أكثر سني الهجرة دفاع الضعف للقوة، إلى أن أظفره الله الظفر الأكبر بفتح <placeName change="#d2e120" xml:id="placeName_13.d2e890">مكة</placeName>،
+أكثر سني الهجرة دفاع الضعف للقوة، إلى أن أظفره الله الظفر الأكبر بفتح <placeName change="#d2e120 #d11e309" xml:id="placeName_13.d2e890" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>،
 وأظهر الآيات على حرصه صلى الله عليه وسلم على حقن الدماء وكراهته للقتال،
 رضاؤه بصلح الحديبية وهو في قوة ومنعة، على ما في ذلك من الشروط الثقيلة
 التي كرهها يومئذ جميع الصحابة، حتى تراءى للنبي صلى الله عليه وسلم أنهم
 خرجوا أو كادوا يخرجون من الطاعة. فالقتال الديني الحقيقي هو ما كان دفاعًا عن
 الدعوة وأهلها، أو لحمايتها وحمايتهم في نشرها وتعميمها.
 أما غير العرب فلم يتصدَّ النبي صلى الله عليه وسلم إلا إلى قتال الروم منهم
-في غزوة تبوك وكان سببها أنه بلغه أن الروم قد جمعت جموعًا كثيرة ب<placeName change="#d2e120" xml:id="placeName_14.d2e908">الشام</placeName> وقدموا
+في غزوة تبوك وكان سببها أنه بلغه أن الروم قد جمعت جموعًا كثيرة ب<placeName change="#d2e120 #d11e309" xml:id="placeName_14.d2e908" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وقدموا
 مقدماتهم إلى البلقاء لقتال المسلمين بإغراء متنصرة العرب، ولولا ذلك لما أمر
 بالخروج في ذلك الوقت الذي كان المسلمون فيه في عسرة ومجاعة، وقد أدركت
 ثمارهم فاضطروا إلى تركها، والحر شديد، والشقة بعيدة، والعدد كثير، ولهذا
 كانت هي الغزوة التي ظهر فيها صدق الصادقين ونفاق المنافقين.
 على أن نشر الدعوة في ذلك العصر كان متعذرًا بغير قوة يأمن بها الدعاة
-على أنفسهم، وكان جيران جزيرة العرب من الروم في <placeName change="#d2e120" xml:id="placeName_15.d2e925">الشام</placeName> ومصر، والفرس
-و<placeName change="#d2e120" xml:id="placeName_16.d2e930">العراق</placeName> قد اعتدوا على بعض أهلها وأخضعوهم لسلطانها، فلما اجتمعت كلمة أكثر
+على أنفسهم، وكان جيران جزيرة العرب من الروم في <placeName change="#d2e120 #d11e309" xml:id="placeName_15.d2e925" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ومصر، والفرس
+و<placeName change="#d2e120 #d11e309" xml:id="placeName_16.d2e930" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> قد اعتدوا على بعض أهلها وأخضعوهم لسلطانها، فلما اجتمعت كلمة أكثر
 العرب في الجزيرة بجامعة الإسلام، صار أولئك الجيران عدوًّا لهم،
 وكان العدو حربًا لعدوه حيث كان، فكان لا مندوحة للمسلمين - والحال ما ذكرنا - أن
 يؤيدوا نشر الدعوة بما يستطيعون من قوة، ولكنهم لا يستعملون القوة إلا عند الحاجة
@@ -639,22 +639,22 @@
 ولا قوة إلا بالله.
 ولما تشددت القضاة المالكية في هذا الباب، أصبحوا هدفًا لأولي الألباب،
 حتى قال الإمام ابن الوردي في ذاك القاضي المتقدم الرباحي: إن المالكية
-ب<placeName change="#d2e120" xml:id="placeName_17.d2e1528">دمشق</placeName> كتبوا إليه: يا مغلوب، لقد بغضت مذهب مالك إلى القلوب، وقطعت
+ب<placeName change="#d2e120 #d11e309" xml:id="placeName_17.d2e1528" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> كتبوا إليه: يا مغلوب، لقد بغضت مذهب مالك إلى القلوب، وقطعت
 المذاهب الأربعة عليه بالخطا، وزالت بهجته عند الناس وانكشف الغطا، إلخ.
 والسبب في ذلك ما ابتدعه الملك الظاهر برقوق من توظيف قضاة أربعة
 على المذاهب الأربعة مما لم يعهد قبله في دولة من الدول، حتى نشأ من ذلك
 ما نقمه عليه الأعلام، وعدوه من التفرقة في الإسلام، قال التاج السبكي في
 طبقاته [6] ، في ترجمة قاضي القضاة بالديار المصرية تاج الدين عبد الوهاب
 ابن بنت الأعز الشافعي المتوفى سنة 566، ما مثاله: وفي أيامه جدد الملك
-الظاهر القضاة الثلاثة في <placeName change="#d2e120" xml:id="placeName_18.d2e1547">القاهرة</placeName>، ثم تبعتها <placeName change="#d2e120" xml:id="placeName_19.d2e1550">دمشق</placeName> وكان الأمر متمحضًا
+الظاهر القضاة الثلاثة في <placeName change="#d2e120 #d11e309" xml:id="placeName_18.d2e1547" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، ثم تبعتها <placeName change="#d2e120 #d11e309" xml:id="placeName_19.d2e1550" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> وكان الأمر متمحضًا
 للشافعية، فلا يعرف أن غيرهم حكم في الديار المصرية منذ وليها أبو زرعة
 محمد بن عثمان الدمشقي في سنة 284 إلى زمان الظاهر إلا أن يكون نائب
-يستنيبه بعض قضاة الشافعية في جزئية خاصة، وكذا <placeName change="#d2e120" xml:id="placeName_20.d2e1560">دمشق</placeName> لم يَلِهَا بعد أبي
+يستنيبه بعض قضاة الشافعية في جزئية خاصة، وكذا <placeName change="#d2e120 #d11e309" xml:id="placeName_20.d2e1560" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> لم يَلِهَا بعد أبي
 زرعة المشار إليه إلا شافعي غير التلاشا عوني التركي، الذي وليها يويمات
-وأراد أن يجدد في جامع بني أمية إمامًا حنفيًّا، فأغلق أهل <placeName change="#d2e120" xml:id="placeName_21.d2e1567">دمشق</placeName> الجامع،
+وأراد أن يجدد في جامع بني أمية إمامًا حنفيًّا، فأغلق أهل <placeName change="#d2e120 #d11e309" xml:id="placeName_21.d2e1567" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> الجامع،
 وعزل القاضي [7] .
 (قال السبكي) : واستمر جامع بني أمية في يد الشافعية، كما كان في
-زمن الشافعي رضي الله عنه، قال: ولم يكن يلي قضاء <placeName change="#d2e120" xml:id="placeName_22.d2e1577">الشام</placeName> والخطابة
+زمن الشافعي رضي الله عنه، قال: ولم يكن يلي قضاء <placeName change="#d2e120 #d11e309" xml:id="placeName_22.d2e1577" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> والخطابة
 والإمامة بجامع بني أمية إلا من يكون على مذهب الأوزاعي إلى أن انتشر مذهب الشافعي، فصار لا يلي ذلك إلا الشافعية. ثم قال السبكي: وقد حكي أن الملك
 الظاهر رؤي في النوم فقيل: ما فعل الله بك؟ قال: عذبني عذابًا شديدًا بجعل
 القضاة أربعة، وقال: فرقت كلمة المسلمين. اهـ.
@@ -671,7 +671,7 @@
 المصالح والمنافع، ودفع المضار في أبواب المعاملات، فبذلك تظهر محاسن
 الدين في الأقضية والأحكام، ويعرف أنه دين المدنية في كل زمان ومكان إلى
 قيام الساعة وساعة القيام، وإن اليوم الذي تتحقق فيه هذه الأمنية لهو أسعد الأيام،
-والمستعان بالله ذي الجلال والإكرام اهـ. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_5.d2e1617">(*) لعالم <placeName change="#d2e120" xml:id="placeName_23.d2e1619">الشام</placeName> الشيخ جمال الدين القاسمي.
+والمستعان بالله ذي الجلال والإكرام اهـ. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_5.d2e1617">(*) لعالم <placeName change="#d2e120 #d11e309" xml:id="placeName_23.d2e1619" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> الشيخ جمال الدين القاسمي.
 (1) جزء 2.
 (2) المتمفقر: كالمتمسكن مدعي الفقر، أي: التصوف، وليس من أهله.
 (3) راجعها في ص (190) من المجموعة الأدبية التي طبعت في مطبعة الجوائب عام (1300) ، مشتملة على لامية العرب وشرحها وشرح المقصورة الدريدية، وديوان ابن الوردي، وديوان الخشاب ورسائله.
@@ -837,7 +837,7 @@
 أو لغرض آخر.
 (2) ومن الأمور التي لم يتحرَّ فيها المؤلف الحقيقة والصواب قوله في
 ص 146 في تعداد كتب الواقدي:
--2 - كتاب فتوح <placeName change="#d2e120" xml:id="placeName_24.d2e1995">الشام</placeName>: هو أشبه بالقصص منه بالتاريخ؛ لما حواه من
+-2 - كتاب فتوح <placeName change="#d2e120 #d11e309" xml:id="placeName_24.d2e1995" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>: هو أشبه بالقصص منه بالتاريخ؛ لما حواه من
 التفاصيل والمبالغات؛ لكنه مؤسس على الحقيقة. وفيه حقائق لا توجد في
 سواه من كتب الفتوح، وقد طبع مرارًا إلى أن قال: وطبع أيضًا في مصر
 سنة 1882 وغيرها.
@@ -849,8 +849,8 @@
 جزيلة الفائدة.
 أقول: إني لم أطلع على <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:7 oclc:473817521" xml:id="title_6.d2e2020">المشرق</title></bibl> ولا على انتقادها، ولكن الأمر لا
 يجهله من له أدنى إلمام بتمييز كتابات العصور المختلفة أو بالتاريخ أن كتب
-المغازي التي تطبع في مصر من مثل فتوح <placeName change="#d2e120" xml:id="placeName_25.d2e2027">الشام</placeName> ومصر والبهنسا وفتح خيبر
-وفتح <placeName change="#d2e120" xml:id="placeName_26.d2e2033">مكة</placeName>، ورأس الغول ونحوها ـ هي من الكتب الموضوعة الخيالية المشتملة
+المغازي التي تطبع في مصر من مثل فتوح <placeName change="#d2e120 #d11e309" xml:id="placeName_25.d2e2027" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ومصر والبهنسا وفتح خيبر
+وفتح <placeName change="#d2e120 #d11e309" xml:id="placeName_26.d2e2033" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، ورأس الغول ونحوها ـ هي من الكتب الموضوعة الخيالية المشتملة
 على بعض حقائق تاريخية، والأقرب أنها وضعت هي وقصة عنترة وذات
 الهمة وغيرها زمن الحروب الصليبية؛ لتغرس في الناس فضيلة الشجاعة
 والاقتداء بالسلف الصالح، لا أنها هي نفس كتب الواقدي الحقيقية، وإن الذين
@@ -891,7 +891,7 @@
 لكتاب العين: (ولم ينبغ نحويّ ولا لغويّ ولا أديب في عصر الخليل وما يليه
 إلا استفاد من كتابه، ولكن الثقات الباحثين مختلفون في حقيقة نسبته إليه،
 وفي صحة ما جاء فيه من الروايات والأقوال، من ذلك ما رواه ابن النديم في
-الفهرست عن ابن دريد قال: (وقع في <placeName change="#d2e120" xml:id="placeName_27.d2e2127">البصرة</placeName> كتاب العين سنة ثمانٍ وأربعين
+الفهرست عن ابن دريد قال: (وقع في <placeName change="#d2e120 #d11e309" xml:id="placeName_27.d2e2127" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> كتاب العين سنة ثمانٍ وأربعين
 ومائتين قدم به وراق من خراسان وكان في ثمانية وأربعين جزءًا فباعه
 بخمسين دينارًا، وكان قد سمع بهذا الكتاب أنه في خزائن الظاهرية حتى قدم
 به هذا الوراق) .
@@ -963,7 +963,7 @@
 (2) ومن اختصاره أو اقتصاره ـ أو تقصيره ـ أنه لم يترجم لأحد
 من كُتاب الرسائل في العصر الأول ولا الثاني، أي في مدة مائتي سنة وهما
 عصرًا البلاغة والجزالة، إلا لاثنين، أحدهما عمرو بن مسعدة، والآخر القائد
-طاهر بن الحسين فاتح <placeName change="#d2e120" xml:id="placeName_28.d2e2286">بغداد</placeName>، وقاتل الأمين، ووالي خراسان، وقد علمت أنه
+طاهر بن الحسين فاتح <placeName change="#d2e120 #d11e309" xml:id="placeName_28.d2e2286" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>، وقاتل الأمين، ووالي خراسان، وقد علمت أنه
 ليس من كتاب الرسائل ولا عمل في ديوان.
 مع أن كتاب الرسائل في هذين العصرين لا يقل النابغ منهم عن عشرين
 تولى أكثرهم الوزارة، أو ديوان الرسائل والتوقيع والخاتم، كعمارة بن حمزة
@@ -1023,8 +1023,8 @@
 فكل من تتبع ترجمة سلم الخاسر في مظانها لا يجد من سرقته لشعر بشار غير
 هذا البيت، وهو وحده سبب الغضب.
 وقوله في صفحة 167 في ترجمة الجاحظ وذكر إصابته بالفالج ولزومه
-بيته ب<placeName change="#d2e120" xml:id="placeName_29.d2e2429">البصرة</placeName> وكان قد اشتهر وذاع صيته في العالم الإسلامي فتقاطر الناس لمشاهدته
-والسماع منه فلا يمر أديب أو عالم ب<placeName change="#d2e120" xml:id="placeName_30.d2e2434">البصرة</placeName> إلا طلب أن يرى الجاحظ ويكلمه.
+بيته ب<placeName change="#d2e120 #d11e309" xml:id="placeName_29.d2e2429" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> وكان قد اشتهر وذاع صيته في العالم الإسلامي فتقاطر الناس لمشاهدته
+والسماع منه فلا يمر أديب أو عالم ب<placeName change="#d2e120 #d11e309" xml:id="placeName_30.d2e2434" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> إلا طلب أن يرى الجاحظ ويكلمه.
 فليتفضل علينا المؤلف ويذكر لنا أديبين أو ثلاثة من هؤلاء غير ذلك الوالي
 البرمكي المصروف عن ولايته بالسند الذي جعل ذهبه في أشكال الإهليلج إن جاز
 له أن يدعي أنه كان أديبًا عالمًا.
@@ -1124,7 +1124,7 @@
 عن مكامن العبرة.
 ونرجو الله أن نكون من هؤلاء في الدنيا وأن نحشر معهم في الآخرة.
 تساءل بعض الناس لمَ كتبتُ تلك المقالات الطوال في المؤيد حين أُوقدت
-نار الحرب في <placeName change="#d2e120" xml:id="placeName_31.d2e2653">طرابلس الغرب</placeName> وبرقة، ولم أكتب فيه شيئًا في إبان هذه الحرب،
+نار الحرب في <placeName change="#d2e120 #d11e309" xml:id="placeName_31.d2e2653" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وبرقة، ولم أكتب فيه شيئًا في إبان هذه الحرب،
 وهي أدهى وأمرّ، وأنكى وأضر؟ ولو تذكروا تلك المقالات لعلموا أنها كتبت في
 شأن هذه الحروب وكون تلك المقدمات لها، أي أنها فتح لباب المسألة
 الشرقية وتصدٍّ من أوربة لحل هذه المسألة، والقضاء المبرم على ما بقي للمسلمين
@@ -1146,7 +1146,7 @@
 المنار.
 أما وقد عقدت الهدنة، وعين المفوضون للبحث في شروط الصلح، وقد
 ثبت خيانة وفساد الاتحاد والترقي للدولة ثبوتًا رسميًّا، وعلم الخاص والعام،
-أنها هي علة حرب <placeName change="#d2e120" xml:id="placeName_32.d2e2704">طرابلس</placeName> وحرب البلقان، فقد جاء الوقت الذي يرجى أن
+أنها هي علة حرب <placeName change="#d2e120 #d11e309" xml:id="placeName_32.d2e2704" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> وحرب البلقان، فقد جاء الوقت الذي يرجى أن
 ينفع فيه القول، ويخشى أن يضر السكوت، وترجح المقتضي على المانع.
 قد كان يكون من موانع الكتابة قلة وجود المتدبرين الذين يميزون بين قول الحق
 ويعرفون أهله بأدلتهم وسيرتهم، وبين أقوال المبطلين الذين يغشون الأمة ويغرونها
@@ -1201,9 +1201,9 @@
 حدثني غير واحد في الآستانة من الترك وغير الترك من العثمانيين
 وبعض الأجانب والعارفين بأمور الدولة أن من برنامج جمعية الاتحاد والترقي أن
 تجمع السلاح من الأرنؤط وتضربهم ضربة شديدة، ثم تجرد جيشًا آخر أو
-جيوشًا لضرب العرب في <placeName change="#d2e120" xml:id="placeName_33.d2e2829">اليمن</placeName> وعسير، وعشائرهم وعشائر الدروز في
-حوران وجنوب <placeName change="#d2e120" xml:id="placeName_34.d2e2834">بلاد الشام</placeName> ثم <placeName change="#d2e120" xml:id="placeName_35.d2e2838">العراق</placeName>، وتجمع السلاح من الجميع، وسأذكر ما قرر
-في شأن <placeName change="#d2e120" xml:id="placeName_36.d2e2843">طرابلس</placeName> بعد، وبعد هذا وذاك تجرد جيشًا آخر على الأكراد تذللهم وتجمع
+جيوشًا لضرب العرب في <placeName change="#d2e120 #d11e309" xml:id="placeName_33.d2e2829" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وعسير، وعشائرهم وعشائر الدروز في
+حوران وجنوب <placeName change="#d2e120 #d11e309" xml:id="placeName_34.d2e2834" ref="geon:6754242 oape:place:4" resp="#xslt">بلاد الشام</placeName> ثم <placeName change="#d2e120 #d11e309" xml:id="placeName_35.d2e2838" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وتجمع السلاح من الجميع، وسأذكر ما قرر
+في شأن <placeName change="#d2e120 #d11e309" xml:id="placeName_36.d2e2843" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> بعد، وبعد هذا وذاك تجرد جيشًا آخر على الأكراد تذللهم وتجمع
 السلاح منهم، فإذا هي جمعت السلاح وأخضعت لهيبتها أولي القوة والبأس من
 المسلمين، يسهل عليها أن تنفذ مقصدها بلا معارض ولا منازع.
 قررت جمعية الاتحاد والترقي تنفيذ هذه المادة من برنامجها ولم تفكر في
@@ -1221,9 +1221,9 @@
 وكيف ظهر أنه يجب عليهم أن يسلحوا جميع مسلمي تلك البلاد ويدربوهم
 على الفنون العسكرية لأجل الدفاع عنها، ويؤلفوا منهم عصابات كعصابات البلغار
 وغيرهم، ولو فعلوا ذلك لنفع الدولة في هذه الحرب نفعًا عظيمًا.
-ثم فعلوا فعلتهم في <placeName change="#d2e120" xml:id="placeName_37.d2e2885">اليمن</placeName> وعسير، وفي الكرك وحوران، فقد جردوا لقتال
+ثم فعلوا فعلتهم في <placeName change="#d2e120 #d11e309" xml:id="placeName_37.d2e2885" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وعسير، وفي الكرك وحوران، فقد جردوا لقتال
 المسلمين في هذه البلاد زهاء مائة ألف جندي من أحسن جنود الدولة النظامية
-أو أحسنها على الإطلاق، قتل منهم في <placeName change="#d2e120" xml:id="placeName_38.d2e2893">اليمن</placeName> ألوف كثيرة وبقيت مسألة <placeName change="#d2e120" xml:id="placeName_39.d2e2896">اليمن</placeName> كما
+أو أحسنها على الإطلاق، قتل منهم في <placeName change="#d2e120 #d11e309" xml:id="placeName_38.d2e2893" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> ألوف كثيرة وبقيت مسألة <placeName change="#d2e120 #d11e309" xml:id="placeName_39.d2e2896" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> كما
 كانت. ولكن خربوا بلادًا كثيرةً منها ومن بلاد الكرك وحوران ولم تستفد الدولة في
 مقابلة هذا التخريب والخسران شيئًا، ولو تم لهم ما أرادوا من جمع السلاح من بلاد
 اليمن لاستولت عليها إيطالية في السنة الماضية وقتلت من فيها من العسكر؛ لأن
@@ -1231,16 +1231,16 @@
 لرجحت الدولة على البلقانيين بهم.
 والآن يتحدث الناس فيما ذكرته الجرائد الفرنسية عن سورية ومصالح
 دولتها فيها، والظاهر أن المراد به اختبار رأي الدول في أمر استيلائهم عليها،
-وقد عرف بالقياس على مسألة <placeName change="#d2e120" xml:id="placeName_40.d2e2916">طرابلس الغرب</placeName> ومسألة البلقان أن الدولة لا
+وقد عرف بالقياس على مسألة <placeName change="#d2e120 #d11e309" xml:id="placeName_40.d2e2916" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> ومسألة البلقان أن الدولة لا
 تقدر على حفظ سورية إلا إذا كان فيها قوة ذاتية تخشى الدول العظمى بأسها،
-ولا يمكن أن تأتي هذه القوة من الرومللي ولا من <placeName change="#d2e120" xml:id="placeName_41.d2e2924">الأناضول</placeName>، بل يجب أن
+ولا يمكن أن تأتي هذه القوة من الرومللي ولا من <placeName change="#d2e120 #d11e309" xml:id="placeName_41.d2e2924" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>، بل يجب أن
 تكون مؤلفة من الجند النظامي والاحتياطي الذي فيها، ومن قبائل العرب
 والعشائر الوطنية والمجاورة، وهؤلاء هم الذين يخشى الأجانب من جانبهم إذا
 كانوا مدربين على القتال ما لا يخشونه من الجند الرسمي؛ لأن قتالهم يكون
 بالمطاولة لا بالمناجزة، فالخسارة فيه عظيمة، وإنما هؤلاء الأجانب تجار
 يطلبون الربح من أقرب طرقه، وأشدهم اتقاء للقتال أعظمهم توغلاً في
 الاستعمار كإنكلترة وفرنسة.
-ولعل إيطالية لا تعود إلى مثل غلطها في <placeName change="#d2e120" xml:id="placeName_42.d2e2942">طرابلس الغرب</placeName>، بل أظن أن
+ولعل إيطالية لا تعود إلى مثل غلطها في <placeName change="#d2e120 #d11e309" xml:id="placeName_42.d2e2942" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName>، بل أظن أن
 البلغار قد ندمت على تهورها في طلب أمنيتها على ما أتيح لها من الظفر
 بتخاذلنا وإهمالنا، وأنها لا تعود إلى مثله.
 ظهر ضرر هذا العمل السيئ الذي شرع فيه الاتحاديون، وظهر أنه كان
@@ -1285,7 +1285,7 @@
 ذلك بيانًا مقالة فلسفية اجتماعية عنوانها: الجنسيات العثمانية واللغات
 التركية والعربية، نشرت في منار رجب سنة 1327 أي بعد الدستور بسنة
 واحدة، بينا فيها بالدلائل والحجج القيمة أن محو جنس من البشر بإدغامه في
-جنس آخر قد صار في هذا العصر محالاً، وأن <placeName change="#d2e120" xml:id="placeName_43.d2e3043">الدولة العثمانية</placeName> لا تستطيع أن
+جنس آخر قد صار في هذا العصر محالاً، وأن <placeName change="#d2e120 #d11e309" xml:id="placeName_43.d2e3043" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> لا تستطيع أن
 تجعل غير الترك فيها تركًا، وأنها لو كانت تستطيعه لعذرتها عليه سياسة لا
 دينًا، لأنني وأنا مسلم أرى أن الإسلام لا حياة له إلا بحياة اللغة العربية،
 وإنما حياتها بجعلها لغة الخطاب والعلم عند أهلها، ولكن زعماء الجمعية
@@ -1315,8 +1315,8 @@
 جمعية الاتحاد والترقي لم يدعوا سيئة من سيئات العهد الحميدي إلا وأعادوها
 جذعةً، فهم بعد أن أرسلوا مفتشيهم وجواسيسهم إلى جميع البلاد العربية حتى
 الحجاز فلم يروا من العرب إلا الإخلاص الكامل للدولة، ولم يشموا في بلادهم
-أدنى رائحة لشيء يسمى الخلافة العربية، وبعد أن أغروا شريف <placeName change="#d2e120" xml:id="placeName_44.d2e3111">مكة</placeName> بابن
-سعود، وإمام <placeName change="#d2e120" xml:id="placeName_45.d2e3116">اليمن</placeName> بالسيد الإدريسي، وليس عند العرب قوة حربية تذكر إلا
+أدنى رائحة لشيء يسمى الخلافة العربية، وبعد أن أغروا شريف <placeName change="#d2e120 #d11e309" xml:id="placeName_44.d2e3111" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> بابن
+سعود، وإمام <placeName change="#d2e120 #d11e309" xml:id="placeName_45.d2e3116" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> بالسيد الإدريسي، وليس عند العرب قوة حربية تذكر إلا
 ما عند هؤلاء، وبعد أن رأوا جميع كتاب العرب في مصر وسورية والعراق
 يثنون عليهم ويدافعون عنهم، وليس عند العرب قوة أدبية إلا ما عند هؤلاء،
 بعد هذا كله رجحوا سعاية المفسدين من البراهين الحسية، وأصغوا إلى
@@ -1333,7 +1333,7 @@
 وأعوانها، وأنشأت له مطبعة وجريدة يومية في الآستانة كانت تنفق عليها من
 مال الحكومة زهاء 350 جنيها عثمانيًّا في كل شهر.
 ثم جاءت الحوادث تكذب هذا الإرجاف؛ فإن الحكومة الاتحادية حاربت
-عرب <placeName change="#d2e120" xml:id="placeName_46.d2e3159">اليمن</placeName>، ونكلت بعرب حوران والكرك، وعَرَّضَتْ عرب طرابلس
+عرب <placeName change="#d2e120 #d11e309" xml:id="placeName_46.d2e3159" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، ونكلت بعرب حوران والكرك، وعَرَّضَتْ عرب طرابلس
 الغرب لنيران إيطالية، ومع هذه كله لم يزدد العرب إلا تعلقًا بالدولة وإقدامًا
 على بذل أنفسهم وأموالهم في سبيلها. وما رأينا من الأمراء الذين أرجف بهم
 اللواء أولاً والعلم ثانيًا والهلال العثماني ثالثًا ـ إلا النجدة العالية للدولة
@@ -1368,7 +1368,7 @@
 هذا بعض تأثير تهييج الاتحاديين للعصبية الجنسية ومحاولتهم تتريك
 العناصر حتى العرب الذين هم أخلص المخلصين للدولة، وقد ظهر صدق
 إخلاصهم لها بالبرهان والعيان.
-وناهيك بكفاحهم في <placeName change="#d2e120" xml:id="placeName_47.d2e3238">طرابلس الغرب</placeName> وبلائهم في هذه الحرب، وهل يخفى
+وناهيك بكفاحهم في <placeName change="#d2e120 #d11e309" xml:id="placeName_47.d2e3238" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وبلائهم في هذه الحرب، وهل يخفى
 على بصير ما لليأس من الغوائل وسوء العواقب. وأما تأثيره في نصارى أوروبة
 العثمانيين من البلغاريين واليونانيين والمصريين، فهو الذي أوقد نار هذه
 الحرب، وكان أكبر شرها وويلها على الترك والمستتركين الذين هضم الاتحاديون
@@ -1389,7 +1389,7 @@
 الحال بيانه هو أن جمعية الاتحاد والترقي جعلت الدستور خدعةً لهؤلاء الناس
 وللدول التي تنتصر لهم.
 وأما مسلمو العثمانيين من العرب والأرنؤوط والأكراد فلا قيمة لهم
-عندها؛ لأنها تعتقد أنها تدبر أمرهم بالقوة <placeName change="#d2e120" xml:id="placeName_48.d2e3287">القاهرة</placeName>، فكان غرورها هذا مهيجًا
+عندها؛ لأنها تعتقد أنها تدبر أمرهم بالقوة <placeName change="#d2e120 #d11e309" xml:id="placeName_48.d2e3287" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، فكان غرورها هذا مهيجًا
 لهؤلاء النصارى وحاملاً إياهم على الحرب الحاضرة بعد أن رأوا الجمعية
 نفرت جميع العثمانيين من الدولة وأضعفت ثقتهم بها، وأحدثت مفاسد أخرى
 أضعفت قوتيها: المادية والمعنوية، وهو ما بينا بعضه في المقالة الأولى،
@@ -1472,7 +1472,7 @@
 <p change="#d2e120" xml:id="p_2.d2e3452">
                
 (العلم الشامخ في إيثار الحق على الآباء والمشايخ)
-هذا الكتاب من تصنيف أحد علماء <placeName change="#d2e120" xml:id="placeName_49.d2e3458">اليمن</placeName> المجتهدين، الشيخ صالح
+هذا الكتاب من تصنيف أحد علماء <placeName change="#d2e120 #d11e309" xml:id="placeName_49.d2e3458" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> المجتهدين، الشيخ صالح
 مهدي المقبلي المتوفى سنة 1108، وكان في الأصل على مذهب الزيدية
 ولكنه قرأ كتب الكلام والأصول وعرف مذاهب الفرق كلها وكتب التفسير
 والحديث وسائر العلوم، وطلب بذلك الحق ومرضاة الله تعالى، فانتهى به ذلك
@@ -1532,8 +1532,8 @@
 تأليف العالم الفاضل السيد عبد الله بن السيد محمد صالح الزواوي الحسني
 الإدريسي المدرس بالمسجد الحرام ورئيس لجنة عين زبيدة
 رسالة تشتمل على ذكر أحوال عين زبيدة التي يستقي منها أهل البلد
-الحرام (<placeName change="#d2e120" xml:id="placeName_50.d2e3591">مكة</placeName>) والوافدون لحج البيت العتيق مع بيان التصليح والترميم مما
-أحدثته اللجنة المشكلة تحت رعاية صاحب السيادة والدولة أمير <placeName change="#d2e120" xml:id="placeName_51.d2e3597">مكة</placeName> المعظم،
+الحرام (<placeName change="#d2e120 #d11e309" xml:id="placeName_50.d2e3591" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>) والوافدون لحج البيت العتيق مع بيان التصليح والترميم مما
+أحدثته اللجنة المشكلة تحت رعاية صاحب السيادة والدولة أمير <placeName change="#d2e120 #d11e309" xml:id="placeName_51.d2e3597" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المعظم،
 ورئاسة مؤلف هذه الرسالة، ثم بيان خطط البلد الأمين.
 وقد تبرع السيد عمر الخشاب الكتبي بطبع هذه الرسالة؛ إعانةً على
 المشروع الجليل النفع، العميم الفائدة، ومن يطلع على هذه الرسالة يعلم أن
@@ -1553,7 +1553,7 @@
 (كفاية الطالبين لرد شبهات المبشرين)
 تأليف الشيخ محمد عبد السميع الحفناوي مدرس اللغة العربية بالمدارس الحرة
 صفحاته 133 بقطع، (الإسلام والنصرانية) ، مطبوع بمطبعة أبي الهول
-ب<placeName change="#d2e120" xml:id="placeName_52.d2e3643">القاهرة</placeName> سنة 1330 على ورق نظيف متوسط ثمنه ثلاثة قروش، ويطلب من
+ب<placeName change="#d2e120 #d11e309" xml:id="placeName_52.d2e3643" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> سنة 1330 على ورق نظيف متوسط ثمنه ثلاثة قروش، ويطلب من
 مكتبة المنار بمصر.
 موضوع الكتاب الرد على دعاة النصرانية، وقد أبطل المؤلف به ادعاء
 النصارى كون كتبهم كتبت بإلهام من الله، وبيَّن اختلافاتها وأغلاطها وأنحى
@@ -1576,7 +1576,7 @@
 (كتاب الفتوحات الإلهية في مجمل العلوم الأزهرية، وكتاب التسهيلات
 الإلهية في أصول الحنفية والشافعية)
 كلاهما تأليف الشيخ أحمد بن محمد درويش القاضي الشرعي وأحد علماء الأزهر
-طبع الكتابان في <placeName change="#d2e120" xml:id="placeName_53.d2e3696">القاهرة</placeName> بمطبعة مقداد، على ورق نظيف بقطع المنار،
+طبع الكتابان في <placeName change="#d2e120 #d11e309" xml:id="placeName_53.d2e3696" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> بمطبعة مقداد، على ورق نظيف بقطع المنار،
 صفحات الأول منها 27، تكلم فيه مؤلفه في تعريف أشهر العلوم الأزهرية
 تعريفًا أزهريًّا مصطلاحيًّا، وبيان موضوعاتها وفوائدها ومسائلها، وصفحات
 الثاني 200 واسمه يدل على موضوعه، ويطلبان من مكتبة المنار بمصر.
@@ -1609,9 +1609,9 @@
 القارئ ليقرأ فيفهم فن المعاني مجردًا.
 ***
 (الجرح والتعديل)
-رسالة من تأليف عالم <placeName change="#d2e120" xml:id="placeName_54.d2e3772">الشام</placeName> العامل الشيخ جمال الدين القاسمي الدمشقي،
+رسالة من تأليف عالم <placeName change="#d2e120 #d11e309" xml:id="placeName_54.d2e3772" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> العامل الشيخ جمال الدين القاسمي الدمشقي،
 نشرت في المنار، وجمعت فجاءت 40 صفحة بقطع المنار على حدة، وثمنها
-قرشان، وهي تطلب من مكتبة المنار بمصر، ومن مؤلفها في <placeName change="#d2e120" xml:id="placeName_55.d2e3779">دمشق</placeName>.
+قرشان، وهي تطلب من مكتبة المنار بمصر، ومن مؤلفها في <placeName change="#d2e120 #d11e309" xml:id="placeName_55.d2e3779" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>.
 هذه الرسالة هي الحكمة التي تكم أفواه الحشوية ومتعصبي الفرق،
 وترجع بهم إلى سماحة الإسلام ببيان ما جرى عليه العلماء الأعلام مثل
 البخاري وغيره من اعتبار رواية الفرق التي يكفر أهلها اليوم جهلة المقلدين
@@ -1685,17 +1685,17 @@
 
                
 لقد بدا للناس من هذه الحرب ما لم يكونوا يحتسبون، فقد كانت أقوال صحف
-أوربة تدل على أن الأوربيين كالعثمانيين يظنون أن كفة <placeName change="#d2e120" xml:id="placeName_56.d2e3928">الدولة العثمانية</placeName> تكون هي
+أوربة تدل على أن الأوربيين كالعثمانيين يظنون أن كفة <placeName change="#d2e120 #d11e309" xml:id="placeName_56.d2e3928" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> تكون هي
 الراجحة، وكفة البلقانيين هي المرجوحة، ولذلك صرحت الدول الكبرى بأنها متفقة
 على أن هذه الحرب لا تغير شيئًا من الحال الحاضرة ولا من خارتة البلقان.
 فلما ظهر رجحان كفة البلقانيين رجعت عن قولها، وصرحت بأنه ليس من
 العدل حرمان الدول المتحالفة من ثمرة انتصارها (والعدل عند هؤلاء الناس لا
 يجوز أن يتعدى أبناء جنسهم وأهل ملتهم ودينهم) بل تجاوزت ذلك إلى محاولة
-إكراه <placeName change="#d2e120" xml:id="placeName_57.d2e3944">الدولة العثمانية</placeName> وقسرها على أن تعطي الصليبيين ما فتحوا من بلادها وما
+إكراه <placeName change="#d2e120 #d11e309" xml:id="placeName_57.d2e3944" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> وقسرها على أن تعطي الصليبيين ما فتحوا من بلادها وما
 أعياهم فتحه كأدرنة، وقد أجمعت ذلك دول التثليث كلهن، سواء منهن من أبدى
 ناجزَيْ الشر للدولة، وأظهر ضلعه وتعصبه للصليبيين كدول الاتفاق الثلاثي، ومن
 جامل العثمانيين بالقول بعض المجاملة كدول التحالف الثلاثي.
-نعم إن ما ظهر من ضعف <placeName change="#d2e120" xml:id="placeName_58.d2e3956">الدولة العثمانية</placeName> وخللها هو ما لم يكن يحتسبه كله
+نعم إن ما ظهر من ضعف <placeName change="#d2e120 #d11e309" xml:id="placeName_58.d2e3956" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> وخللها هو ما لم يكن يحتسبه كله
 أحد ولا الأوربيون الذين يعبرون عنها بالرجل المريض، ويرون أنها بهذا المرض
 تكاد أن تكون حرضًا أو تكون من الهالكين، وهكذا شأن الناس في تقدير أحوال مَن
 ضعُف بعد قوة عظيمة، أو افتقر بعد ثروة كبيرة، فإنهم يتصورون شيئًا من ماضيه
@@ -1828,7 +1828,7 @@
 وتحيا بها دعوته، وقد كان المسلمون لفشو الجهل فيهم مغرورين بحكوماتهم
 ودولهم، ولم يكن غرور التابعين للدول ذات التاريخ الكبير كالدولة العثمانية، بأشد
 من غرور التابعين للدول ذات التاريخ الصغير كسائر الدول الأفريقية والآسيوية،
-ولكن الغرور ب<placeName change="#d2e120" xml:id="placeName_59.d2e4248">الدولة العثمانية</placeName> تجاوز بلادها إلى الملايين من المسلمين الذين استولت
+ولكن الغرور ب<placeName change="#d2e120 #d11e309" xml:id="placeName_59.d2e4248" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> تجاوز بلادها إلى الملايين من المسلمين الذين استولت
 عليهم الدول الأوروبية في الشرق والغرب، وإن هذا الغرور قد أوصل السلطة
 الإسلامية إلى درجة الخطر - خطر الفناء والزوال - فوجب على كل عارف مخلص
 أن يصرح للمسلمين بما يعرف، وقد كنا في السنين الغابرة نكني، ولكن الوقت
@@ -1836,12 +1836,12 @@
 ولو عرف جماهير المسلمين كُنه حال دولهم وحكوماتهم من قبل لجَدَّ العقلاء
 في السعي لإصلاحهم وحفظها، ولكان الفوز أرجى لهم من الخيبة، ويجب أن يعرفوا
 الآن ما جهلوا من قبل، وإن كان الرجاء في السعي الآن أضعف، ولكن المسلم لا
-ييأس ولا يقنط، ولقد كان أكبر بلاء <placeName change="#d2e120" xml:id="placeName_60.d2e4268">الدولة العثمانية</placeName> من بعض رجالها الذين يئسوا
+ييأس ولا يقنط، ولقد كان أكبر بلاء <placeName change="#d2e120 #d11e309" xml:id="placeName_60.d2e4268" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> من بعض رجالها الذين يئسوا
 منها في الزمن الذي دبَّ فيه إلى مسلمي الآفاق الرجاء فيها، وما زلزل غرور
 المسلمين وأزال بقايا غرور غير الحكام من العثمانيين، إلا هذه الحرب البلقانية،
 فإذا كانت ثمرتها أن نعرف حدنا ونهتدي إلى رشدنا، فنعرف كيف ندرأ خطر
 الزوال عنا، فإن هذه الحرب تكون - كما قلت من قبل - أكبر نعمة علينا.
-ألا فليعلم من لم يكن يعلم أن وجود <placeName change="#d2e120" xml:id="placeName_61.d2e4282">الدولة العثمانية</placeName> في أوربة هو سبب
+ألا فليعلم من لم يكن يعلم أن وجود <placeName change="#d2e120 #d11e309" xml:id="placeName_61.d2e4282" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> في أوربة هو سبب
 غرورها وفقرها ومولد الفتن فيها، وهو الذي جعل رجال الدولة يحتقرون بلادها
 في آسية وأفريقية وجميع الشعوب الذين في هذه البلاد، فكل قوة الدولة تعد في
 ولاياتها الأوروبية ولولاياتها الأوروبية، ومعظم أموال الدولة تصرف فيها،
@@ -1880,11 +1880,11 @@
 شكر علني
 
                
-كنت أرى من حقوق إخواني مسلمي الهند وعمان و<placeName change="#d2e120" xml:id="placeName_62.d2e4356">العراق</placeName> الذين
+كنت أرى من حقوق إخواني مسلمي الهند وعمان و<placeName change="#d2e120 #d11e309" xml:id="placeName_62.d2e4356" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> الذين
 أكرموا مثواي في رحلتي، وأحسنوا ضيافتي وبالغوا في مودتي، أن أكتب
 إلى كل واحد منهم كتاب شكر خاص به، وكنت أتربص فرصة فراغ أوفيهم
 حقهم هذا، ولكن قد طال العهد والزمن لم يَجُدْ عليَّ بهذه الفرصة، وذلك أن
-زمن الرحلة قد امتد في العودة فلم أبلغ <placeName change="#d2e120" xml:id="placeName_63.d2e4368">القاهرة</placeName> إلا في النصف الثاني من شهر
+زمن الرحلة قد امتد في العودة فلم أبلغ <placeName change="#d2e120 #d11e309" xml:id="placeName_63.d2e4368" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> إلا في النصف الثاني من شهر
 شوال، فالأعمال التي كانت متأخرة من مدة ستة أشهر، وما يجب من
 الاهتمام والعمل لفتح مدرسة الدعوة والإرشاد، وكان قد جاء موعد فتح
 المدارس، وما يجب من جمع الهيئة العامة لجماعة الدعوة والإرشاد في

@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_32-i_8.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_32-i_8.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e288">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_32-i_8.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_32-i_8.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1351">1351</date><date calendar="#cal_gregorian" when="1932" xml:lang="ar">سبتمبر - 1932م</date></imprint>
                   <biblScope unit="volume" from="32" to="32" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">32</biblScope>
                   <biblScope unit="issue" from="8" to="8" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">8</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e282" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e288" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e282" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -440,7 +440,7 @@
 وعلموا من أمر رعايا صلاح الدين من اليهود والمسيحيين، خلاف ما كانوا يعلمون
 من ملوكهم وشعوبهم، ورؤساء دينهم ودنياهم، وما زال علماؤهم ومؤرخوهم
 يجلونه وينوهون بفضائله، ولم تنس سورية ما كان من عاهل ألمانية الأكبر عند
-زيارة ضريحه في <placeName change="#d2e120" xml:id="placeName_4.d2e1035">دمشق</placeName> من إجلاله له، ووضع ذلك الإكليل على قبره.
+زيارة ضريحه في <placeName change="#d2e120 #d11e288" xml:id="placeName_4.d2e1035" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> من إجلاله له، ووضع ذلك الإكليل على قبره.
 رأوا أن سلطان المسلمين خادم للأمة، لا يتعدى سلطانه عليها تنفيذ الشريعة،
 فلا سلطان له على أموال الناس ولا على دمائهم ولا على نسائهم، ولا تحكم له في
 أنفسهم ولا في شرفهم فضلاً عن عقائدهم وآرائهم، بل هو أرفق بهم من آبائهم
@@ -468,14 +468,14 @@
 شرع فيها محمد علي الكبير في مصر وسورية والسودان، وأكرهوه على أن يظل
 خاضعًا للسياسة العثمانية عدوهم الكبرى في الشرق؛ لعلمهم أنها سائرة إلى
 الانحلال والاضمحلال، وأن الدولة المصرية الجديدة حية داخلة في سن الشباب،
-ثم ما زالوا يتربصون الدوائر ب<placeName change="#d2e120" xml:id="placeName_5.d2e1099">الدولة العثمانية</placeName> إلى أن تم انحلالها في الحرب العامة
+ثم ما زالوا يتربصون الدوائر ب<placeName change="#d2e120 #d11e288" xml:id="placeName_5.d2e1099" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> إلى أن تم انحلالها في الحرب العامة
 الأخيرة، فكان حظهم من انحلالها الاستيلاء على ولاياتها العربية، والاعتراف
 باستقلال ولاياتها التركية وحدها، وإعلان الحماية على مصر العربية، ولما
 اضطرتهم الثورة المصرية إلى إلغاء هذه الحماية والاعتراف باستقلال مصر قيدَّوا
 ذلك بقيود تجعل الاستقلال اسمًا لغير مسماه اللغوي والسياسي، وعجَّلوا بالاستئثار
 بالسودان كله، فطردوا منه موظفي الحكومة وضباط الجيش من المصريين، حتى
 أن حاكم السودان الإنكليزي لم يسمح لحكومة مصر بتولية ملكها لقاضي السودان
-الشرعي، على أنهم لولا مساعدة مصر و<placeName change="#d2e120" xml:id="placeName_6.d2e1117">الحجاز</placeName> العربيتين لهم في الحرب، لكان
+الشرعي، على أنهم لولا مساعدة مصر و<placeName change="#d2e120 #d11e288" xml:id="placeName_6.d2e1117" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> العربيتين لهم في الحرب، لكان
 النصر فيها للألمان والترك، ولزال الاستعمار البريطاني والفرنسي من الأرض.
 فعلم من ذلك كله أن دول أوربة العسكرية الاستعمارية تعد الأمة العربية أعدى
 أعدائها في الشرق، وأن وجودها فيه ذنب لا يقاس به ذنب؛ ولذلك جزتها على
@@ -490,7 +490,7 @@
 شذاذ اليهود الصهيونيين، لتطردكم منه وتعيد فيه ملك إسرائيل، تكذيبًا لوعيد الله
 لهم على لسان المسيح ومحمد عليهما من الله أفضل الصلاة والتسليم.
 على أن هذه الدولة المشهورة عند أدباء أوربة وساستها بالرياء الفريسي قد
-صبغت الاستيلاء على <placeName change="#d2e120" xml:id="placeName_7.d2e1153">القدس</placeName> بالصبغة المسيحية، ووصفت هذه الحرب بأنها آخر
+صبغت الاستيلاء على <placeName change="#d2e120 #d11e288" xml:id="placeName_7.d2e1153" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> بالصبغة المسيحية، ووصفت هذه الحرب بأنها آخر
 الحروب الصليبية، وأقامت الاحتفالات لفتح أورشليم في الكنائس الإنجليزية،
 فلينظر مسيحيو أورشليم والناصرة وبيت لحم وسائر البلاد التي تشرفت بولادة
 المسيح ونشأته وتجواله ومعيشته، وسمع أجدادهم فيها مواعظه العالية، ووصاياه
@@ -504,7 +504,7 @@
 المضطرة إلى مراعاة شعورهم، وحسبهم مما هم فيه تفضيل أعداء المسيح
 الصهيونيين عليهم، وجعل وطنه وطنًا لهم، ليقيموا فيه مسيحهم الذي يجدد لهم ملك
 داود وسليمان المادي الذي يزعمون أن أنبياءهم بشروهم به، ويكذِّبون ابن مريم
-الصادق الأمين الذي قال مؤيدًا بروح <placeName change="#d2e120" xml:id="placeName_8.d2e1187">القدس</placeName> إنه هو المسيح الحق الذي بشَّر به
+الصادق الأمين الذي قال مؤيدًا بروح <placeName change="#d2e120 #d11e288" xml:id="placeName_8.d2e1187" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> إنه هو المسيح الحق الذي بشَّر به
 أولئك النبيون، وإن ملكه سماوي لا أرضي، روحي لا مادي؛ فإنهم كانوا وما
 زالوا عبيد المادة، فإذا جاءهم ملك مادي لا يزيدهم إلا طغيانًا وغلوًّا في عبادة المال؛
 وإنما كانوا وما زالوا في أشد الحاجة إلى تلك التعاليم الإنجيلية الروحية التي
@@ -591,7 +591,7 @@
 صادقًا، وما كان خبره عن الله إلا حقًّا، فقد أعطى الله أمته كل ما وعدها، وما
 سلب أعداؤها شيئًا من بلادها، ولا سُلِّطوا على شعب من شعوبها إلا بمساعدة
 المسلمين أنفسهم إياهم على أنفسهم، كما يعلمه كل واقف على تاريخ الاستعمار،
-وآخره استيلاؤهم على هذه البلاد العربية من فلسطين إلى <placeName change="#d2e120" xml:id="placeName_9.d2e1378">العراق</placeName>، فإلى متى تسكت
+وآخره استيلاؤهم على هذه البلاد العربية من فلسطين إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_9.d2e1378" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، فإلى متى تسكت
 الأمة للخونة الذين رضوا أن يكونوا شر سلاح للأجانب تفتح بهم بقية بلادها،
 لتقضي على البقية القليلة من ملكها؟
 
@@ -618,7 +618,7 @@
 الصليبيون الأولون ولا الآخرون أن يُفسدوا علينا من إخواننا في القومية ما أفسده
 علينا خلفهم من إخواننا في الدين والقومية معًا بحب الإمارة والوزارة والمال.
 أذكر في هذا شهادة لعالم مسلم عربي النسب والأدب، أوربي الوطن، وهو
-الرحالة ابن جبير الأندلسي الذي مر ببلادنا سائحًا بعد عودته من <placeName change="#d2e120" xml:id="placeName_10.d2e1439">الحجاز</placeName> في عهد
+الرحالة ابن جبير الأندلسي الذي مر ببلادنا سائحًا بعد عودته من <placeName change="#d2e120 #d11e288" xml:id="placeName_10.d2e1439" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> في عهد
 الحرب الصليبية سنة (580) فإنه قال في رحلته عند ذكر جبل لبنان الذي كان
 فاصلاً بين البلاد الساحلية التي احتلها الصليبيون وبين غيرها وذكر ما كان في هذا
 الجبل من عُباد المسلمين ما لفظه:
@@ -664,9 +664,9 @@
 وينهض بالأمة؛ وإنما كان الرجل يعلِّم ولده لأجل الاستعانة بعلمه على أسباب
 المعيشة.
 وكان المستعمرون ودعاتهم الذين ربوهم وعلموهم يظنون أن بلادنا إذا آل
-أمرها إليه بسقوط <placeName change="#d2e120" xml:id="placeName_11.d2e1542">الدولة العثمانية</placeName> فإن أهلها يكونون من أغنى الناس وأعز البشر،
+أمرها إليه بسقوط <placeName change="#d2e120 #d11e288" xml:id="placeName_11.d2e1542" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> فإن أهلها يكونون من أغنى الناس وأعز البشر،
 لا فرق بينهم وبين الإفرنج محرريهم في شيء، وكانوا يبثون لهم هذه الدعاية،
-فلما زال سلطان <placeName change="#d2e120" xml:id="placeName_12.d2e1549">الدولة العثمانية</placeName> عن البلاد ظهر لأولئك الدعاة ولسائر الناس أن
+فلما زال سلطان <placeName change="#d2e120 #d11e288" xml:id="placeName_12.d2e1549" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> عن البلاد ظهر لأولئك الدعاة ولسائر الناس أن
 الدولة العثمانية كانت أبر وأرحم منهم؛ لأنها كانت إلى آخر عهد السلطان عبد
 الحميد ترضى من البلاد بقليل من الضرائب وشيء من رشوة الحكام، وتترك لهم
 الحرية في أديانهم ومذاهبهم ولغاتهم وقومياتهم وتربيتهم وتعليمهم وكسبهم، وما كان
@@ -682,7 +682,7 @@
 يرجو الشعب الفلسطيني الصغير الفقير الضعيف من البقاء معه؟ وأنى يأمن إخوانه
 في شرق الأردن على أرضهم وديارهم ومعايشهم، وهم يعلمون أن أرض فلسطين
 وحدها لا تكفي اليهود لتأسيس وطنهم القومي وإعادة ملك إسرائيل، فلا بد لهم من
-شرق الأردن وما ضمه الانتداب إليها من أرض <placeName change="#d2e120" xml:id="placeName_13.d2e1587">الحجاز</placeName>، بل لا بد لهم من إعادة
+شرق الأردن وما ضمه الانتداب إليها من أرض <placeName change="#d2e120 #d11e288" xml:id="placeName_13.d2e1587" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، بل لا بد لهم من إعادة
 ملك سليمان كله؟ ونحن أولى منهم بإعادة ملك العرب كله أو ما تقطنه الشعوب
 العربية منه على الأقل؛ فإنه لا حياة لنا ولا بقاء فيما دون ذلك، بل لا حياة لنا في
 أوطاننا التي نسكنها ونملك رقبة أرضها منذ قرون طويلة إلا باتحادها كلها،
@@ -707,7 +707,7 @@
 بين رجال الدين ورجال المدنية.
 أيها الفلسطينيون:
 إن لديكم شاهدين عدلين على عدم التعارض بين الجامعتين: هما <bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e282">جريدة
-<title level="j" change="#d11e282">الجامعة العربية</title></bibl>في <placeName change="#d2e120" xml:id="placeName_14.d2e1644">القدس</placeName>، و<bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_6.d2e1647">الجامعة</title></bibl> الإسلامية في <placeName change="#d2e120" xml:id="placeName_15.d2e1651">يافا</placeName>، ألا ترون كلاًّ منهما
+<title level="j" change="#d11e282">الجامعة العربية</title></bibl>في <placeName change="#d2e120 #d11e288" xml:id="placeName_14.d2e1644" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>، و<bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_6.d2e1647">الجامعة</title></bibl> الإسلامية في <placeName change="#d2e120 #d11e288" xml:id="placeName_15.d2e1651" ref="geon:293253 oape:place:12 wiki:Q180294" resp="#xslt">يافا</placeName>، ألا ترون كلاًّ منهما
 داعية إلى القومية العربية واتحاد جميع الناطقين بالضاد فيها، وأصحابهما من خيار
 المسلمين؟
 وإن لديكم شاهدًا حاضرًا يتضمن شواهد كثيرة، وهو جعل هذا الاحتفال
@@ -731,9 +731,9 @@
 بالرأي العام المسيحي، فبهذا الاتحاد دون سواه يُرجى أن ندفع هذا البغي والعدوان
 عن أنفسنا، فإن لم نفعل كنا نحن الظالمين لأنفسنا {إِنَّ اللَّهَ لاَ يُغَيِّرُ مَا بِقَوْمٍ حَتَّى
 يُغَيِّرُوا مَا بِأَنفُسِهِمْ} (الرعد: 11) {وَلاَ يَظْلِمُ رَبُّكَ أَحَداً} (الكهف: 49)
-والسلام على من اتبع الهدى اهـ. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_3.d2e1706">(1) خطاب لنا ألقي في حفلة الذكرى ب<placeName change="#d2e120" xml:id="placeName_16.d2e1708">حيفا</placeName> في 25 ربيع الآخر.
+والسلام على من اتبع الهدى اهـ. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_3.d2e1706">(1) خطاب لنا ألقي في حفلة الذكرى ب<placeName change="#d2e120 #d11e288" xml:id="placeName_16.d2e1708" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> في 25 ربيع الآخر.
 (2) شكا إلى السلطان صلاح الدين أحد مماليكه المتميزين لديه بالحظوة والأثرة مستعديًا على جمَّال ذكر أنه باعه جملاً معيبًا أو صرف عليه جملاً بعيب لم يكن فيه، فقال السلطان له: ما عسى أن أصنع لك وللمسلمين قاض يحكم بينهم، والحق الشرعي مبسوط للخاصة والعامة وأوامره ونواهيه ممتثلة وإنما أنا عبد الشرع وشحنته - والشحنة عندهم صاحب الشرطة - فالحق يقضي لك أو عليك. اهـ من رحلة ابن جبير.
-(3) وإنما رفعوا الانتداب عن <placeName change="#d2e120" xml:id="placeName_17.d2e1715">العراق</placeName> لفتك ثورته وشدة شكيمته ودهاء ملكه وكثرة نفقاته، واستبدلوا به معاهدة تمكنهم من استغلال ثروته وحفظ مواصلات الإمبراطورية فيه، والتمكن من تقوية سلطتهم العسكرية من حوله.
+(3) وإنما رفعوا الانتداب عن <placeName change="#d2e120 #d11e288" xml:id="placeName_17.d2e1715" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> لفتك ثورته وشدة شكيمته ودهاء ملكه وكثرة نفقاته، واستبدلوا به معاهدة تمكنهم من استغلال ثروته وحفظ مواصلات الإمبراطورية فيه، والتمكن من تقوية سلطتهم العسكرية من حوله.
 (*) (الذاريات: 55) .</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_3.d2e1721">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_5.d2e1723" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
@@ -1158,7 +1158,7 @@
 فقالوا بتحريمه مطلقًا [5] ، بل قال بعضهم بوجوب ستر المرأة لوجهها وجرى على
 ذلك أهل الحضارة في الأمصار، حتى صار من التقاليد أن لا يرى رجل أجنبي
 امرأة بالغة ولا يكلمها ولو من وراء حجاب، بل صاروا يكتمون أسماء النساء،
-وبلغنا أن بعض المتنطعين من طلبة العلم في <placeName change="#d2e120" xml:id="placeName_18.d2e2643">طرابلس الشام</placeName> أمر امرأته بتغطية
+وبلغنا أن بعض المتنطعين من طلبة العلم في <placeName change="#d2e120 #d11e288" xml:id="placeName_18.d2e2643" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> أمر امرأته بتغطية
 رأسها حتى في داخل الدار حتى لا تراها الملائكة.
 وأما أهل البوادي الذين يعيشون بالقيام على الأنعام وسكان الأرياف من
 الفلاحين وهم أكثر المسلمين - فلا يعرف نساؤهم هذا الغلو في الحجاب، ولا هذا
@@ -1422,39 +1422,39 @@
                
 
                
-سافر ابن رفادة ومن معه من مصر إلى <placeName change="#d2e120" xml:id="placeName_20.d2e3200">الحجاز</placeName> من طريق سينا بجوازات
-مصرية إلى العقبة، ولقوا في كل مكان غاية المساعدة فدخلوا أرض <placeName change="#d2e120" xml:id="placeName_21.d2e3205">الحجاز</placeName> وتبعهم
+سافر ابن رفادة ومن معه من مصر إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_20.d2e3200" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من طريق سينا بجوازات
+مصرية إلى العقبة، ولقوا في كل مكان غاية المساعدة فدخلوا أرض <placeName change="#d2e120 #d11e288" xml:id="placeName_21.d2e3205" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وتبعهم
 أعوانهم الذين سافروا من شرق الأردن إلى العقبة يحملون بعض الدراهم والأسلحة
 على مسمع ومرأى ممن ثم من رجال الإنكليز في هذه الأمكنة كلها، مع إغضاء
 وتصامم بحيث لا تقوم عليهم حجة بأنهم أغروا أو ساعدوا أو وافقوا على شيء،
 بل كانت الدولة الإنكليزية هي التي بلَّغت الحكومة السعودية أنباءهم، وحملت
 الأمير عبد الله على عزل محمد أفندي الأسد قائمقام العقبة لإذنه لهم، بل مساعدته
-لهم على الدخول في أرض <placeName change="#d2e120" xml:id="placeName_22.d2e3222">الحجاز</placeName>، ثم طفق رجال الهيئة العسكرية من الإنكليز
+لهم على الدخول في أرض <placeName change="#d2e120 #d11e288" xml:id="placeName_22.d2e3222" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، ثم طفق رجال الهيئة العسكرية من الإنكليز
 يحصنون العقبة ويجمعون فيها الأسلحة والذخائر الحربية والمؤنة بحجة مساعدة
 الحكومة السعودية على الثائرين عليها بمنع وصول المدد والذخيرة إلى فئة ابن
 رفادة من البر والبحر، ومنع فارتهم من الالتجاء إلى العقبة وشرق الأردن إذا
 طاردهم الجيش السعودي، وما كان هذا المنع ليحتاج إلى كل هذا التحصين
 والاستعداد الحربي، على أنه ظل مستمرًّا بعد استئصال هؤلاء الثائرين إلى أن
 انجلت الجنود السعودية التي رابطت أمام العقبة حامدة شاكرة للقائد الإنكليزي
-المرابط أمامها في حدودها المقتطعة من <placeName change="#d2e120" xml:id="placeName_23.d2e3240">الحجاز</placeName>! ! !
+المرابط أمامها في حدودها المقتطعة من <placeName change="#d2e120 #d11e288" xml:id="placeName_23.d2e3240" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>! ! !
 وأما الحكومة السعودية فقد استدرجت ابن رفادة الأعور محضاء الثورة بإرسال
-رجال من قبائل <placeName change="#d2e120" xml:id="placeName_24.d2e3247">الحجاز</placeName> إليه يعدونه بالقيام معه وتعميم الثورة في <placeName change="#d2e120" xml:id="placeName_25.d2e3251">الحجاز</placeName> إذا كان
+رجال من قبائل <placeName change="#d2e120 #d11e288" xml:id="placeName_24.d2e3247" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إليه يعدونه بالقيام معه وتعميم الثورة في <placeName change="#d2e120 #d11e288" xml:id="placeName_25.d2e3251" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إذا كان
 لديه المال الكافي لذلك، فأخبرهم بأن المال سيأتي من شرق الأردن، حتى إذا ما
 اطمأن أحاطت به وبفئته الجنود النجدية فقضت عليهم في معركة واحدة طاحت فيها
 رءوس ابن رفادة وأولاده ورأس أبي دقيقة أكبر أعوانه، وأُلقيت رأس ابن رفادة إلى
 الأولاد والرجال يدحرجونها ويدحونها ككرة الصبيان.
 طيَّر البرق نبأ القضاء على ابن رفادة إلى مصر وأوربة وسائر الأقطار من
 الطريق الرسمية وطريق الشركات العامة، فكذَّبته جمعية الثورة في عمان وزورت
-بإمضاء ابن رفادة بلاغًا أرسلته إلى صحف فلسطين ومصر و<placeName change="#d2e120" xml:id="placeName_26.d2e3269">الشام</placeName> ينبئ بانتصاره
+بإمضاء ابن رفادة بلاغًا أرسلته إلى صحف فلسطين ومصر و<placeName change="#d2e120 #d11e288" xml:id="placeName_26.d2e3269" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ينبئ بانتصاره
 وفوزه وامتداد الثورة في البدو والحضر، وأرسلت إليها مقالات أخرى ورسلاً
 يبثون الدعاية، فكذَّب ذلك كله الأكثرون، وارتاب فيه الأقلون، حتى ظهر الحق
 واستيقنه الناس أجمعون.
 استفاد الناس من هذه الفتنة أربع فوائد عظيمة الشأن:
 الفائدة الأولى: أن سلطان الحكومة السعودية ثابت البواني، راسخ الأركان
-في بدو <placeName change="#d2e120" xml:id="placeName_27.d2e3285">الحجاز</placeName> ونجد معًا كحضرهما؛ فإن شيوخ قبائل <placeName change="#d2e120" xml:id="placeName_28.d2e3288">الحجاز</placeName> ورؤساءها استأذنوا
+في بدو <placeName change="#d2e120 #d11e288" xml:id="placeName_27.d2e3285" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد معًا كحضرهما؛ فإن شيوخ قبائل <placeName change="#d2e120 #d11e288" xml:id="placeName_28.d2e3288" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ورؤساءها استأذنوا
 جلالة ملكهم في قتال ابن رفادة وهو منهم، ولم يكن أحد يظن هذا لا من الإنكليز
 ولا من غيرهم، وأما أهل نجد فقد ثارت ثائرتهم كلهم، فأسرع من استنفرهم الملك
-إلى <placeName change="#d2e120" xml:id="placeName_29.d2e3298">الحجاز</placeName> وحدود شرق الأردن والعقبة، وطفق سائر أهل البلاد يستأذنونه في
+إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_29.d2e3298" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وحدود شرق الأردن والعقبة، وطفق سائر أهل البلاد يستأذنونه في
 النفير العام والهجوم على شرق الأردن للقضاء على حكومتها وكتب إليه في ذلك
 علماؤهم وأميرهم سعود ولي عهد الإمام فيهم.
 الفائدة الثانية: تنبه الأمة العربية في سورية وفلسطين وشرق الأدرن لوجوب
@@ -1477,14 +1477,14 @@
 ولقد سُرَّ المسلمون كافة والعرب خاصة بتنكيل الحكومة السعودية بهذه الفئة
 الباغية وشمتوا بمثيريها وهنَّأوا صاحب الجلالة السعودية بهذا الفوز المبين، وما
 كان فوزه على هذه الفئة القليلة بكبير في نفسه؛ وإنما كانوا يخشون أن تكون سببًا
-لاشتعال نار الثورة في <placeName change="#d2e120" xml:id="placeName_30.d2e3351">الحجاز</placeName> كله، وأكبر ما كانوا يخشونه أن تكون عاقبتها
+لاشتعال نار الثورة في <placeName change="#d2e120 #d11e288" xml:id="placeName_30.d2e3351" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> كله، وأكبر ما كانوا يخشونه أن تكون عاقبتها
 استقرار أقدام الإنكليز في خليج العقبة ومنطقتها إلى معان، وأكبر ما كانوا يرجونه
-أن يتخذها الملك وسيلة لاستعادة هذه المنطقة إلى <placeName change="#d2e120" xml:id="placeName_31.d2e3358">الحجاز</placeName> ومنع الخطر الدائم على
+أن يتخذها الملك وسيلة لاستعادة هذه المنطقة إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_31.d2e3358" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ومنع الخطر الدائم على
 الحرمين الشريفين ببقائها تحت سيطرة الإنكليز.
 ولقد كانت الفرصة سانحة له بارحة للإنكليز والأسباب المرجحة لفوزه كثيرة؛
 ولكن رجال حكومته لم يكونوا يعرفونها، وكانت الأراجيف التي أذاعتها المصادر
 الإنكليزية مما ترجف لها الأفئدة، ولا سيما أرجوفة مساعدة مصر لابن رفادة،
-فكان يخيل لقراء الجرائد في <placeName change="#d2e120" xml:id="placeName_32.d2e3372">الحجاز</placeName> أن حكومتهم مستهدفة لمحاربة بريطانية
+فكان يخيل لقراء الجرائد في <placeName change="#d2e120 #d11e288" xml:id="placeName_32.d2e3372" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أن حكومتهم مستهدفة لمحاربة بريطانية
 العظمى ومصر وشرق الأردن في وقت واحد، وكل هذه أوهام، وأضغاث أحلام.
 من المعلوم باليقين أنه لم يكن يجوز للدولة السعودية أن تبدأ حكومة شرق
 الأردن الضعيفة بالحرب، فضلاً عن الدولة البريطانية التي هي من أقوى دول
@@ -1495,7 +1495,7 @@
 يطالبها بذلك، فهي لهذه الأسباب مضطرة لاحتلال هذه المنطقة الحجازية مع
 المحافظة على العلاقة السياسية الودية معها، وتأمين حكومات شرق الأردن وفلسطين
 ومصر من أدنى اعتداء على حدود بلادها، وتتبع القول الفعل، وقد كتبت مقالاً
-طويلاً أثبت فيه أن الدولة الإنكليزية ما كان يُعقل أن تحارب حكومة <placeName change="#d2e120" xml:id="placeName_33.d2e3399">الحجاز</placeName>؛
+طويلاً أثبت فيه أن الدولة الإنكليزية ما كان يُعقل أن تحارب حكومة <placeName change="#d2e120 #d11e288" xml:id="placeName_33.d2e3399" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>؛
 ولكنني علمت قبل نشره بجلاء الجيش السعودي عن الحدود وبقاء ما كان على ما
 كان فأمسكت عن نشرها. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_7.d2e3407"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_7.d2e3409">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_9.d2e3411" ref="oape:pers:689 viaf:51716068">
@@ -1529,7 +1529,7 @@
 ومنشئه، فرحمه الله وجزاه أحسن الجزاء.
 وأقول بعد هذا الاستطراد الذي أراه من حقه علي: إنني أجبت دعوته
 وصعدت المنبر على غير استعداد ولا سبق حضور موقف من هذه المواقف غير
-المعتادة في بلدنا <placeName change="#d2e120" xml:id="placeName_34.d2e3462">طرابلس الشام</placeName> في العصر الحميدي، وألقيت ما فتح الله به علي في
+المعتادة في بلدنا <placeName change="#d2e120 #d11e288" xml:id="placeName_34.d2e3462" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> في العصر الحميدي، وألقيت ما فتح الله به علي في
 موضوع مناسب للمقام، صفق له الحاضرون مرارًا وهنأوني به، وما أظن أنني
 أجدت الإلقاء؛ ولكنني أعتقد أنني قلت حقًّا نافعًا بعبارة عربية صحيحة لا خطابية،
 ثم كان المرحوم الأستاذ الشيخ زكي الدين سند خطيب الجمعية المؤسِّس لها يدعوني
@@ -1541,7 +1541,7 @@
 الأوقاف العامة بمصر، فصار يُطبع من مجلتها ألوف كثيرة من النسخ، ثم عاودها
 الضعف والذبول، حتى كادت تزول، فتداركها الله باللطف ونهضت نهضة جديدة
 بهمة أصحاب النجدة والغيرة: رئيسها ووكيلها ومراقبها.
-اتخذوا لها أولاً مكانًا مشهورًا في <placeName change="#d2e120" xml:id="placeName_36.d2e3494">القاهرة</placeName> هو القاعدة الأثرية المشهورة بدار
+اتخذوا لها أولاً مكانًا مشهورًا في <placeName change="#d2e120 #d11e288" xml:id="placeName_36.d2e3494" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> هو القاعدة الأثرية المشهورة بدار
 السادات الوفائية المسماة بأم الأفراح، يتبعها حجرة للإدارة وباحة واسعة من وراء
 الدار، فكانت الخطب والمحاضرات تُلقى في القاعة مدة فصل الشتاء وزمن البرد،
 ثم تلقى في الباحة سائر أيام السنة، وموعدها بعد صلاة المغرب من يوم الجمعة،
@@ -1593,7 +1593,7 @@
 إن الأزمة في البلاد الحجازية قد اتسع نطاقها، وتفاقم خطبها، فشمل الكبير
 والصغير، وعمَّ أكثر السكان والمجاورين، في هذين البلدين الشريفين، وهي اليوم
 آخذة بالازدياد والعياذ بالله تعالى.
-لم يختلف أحد من الناس في استتباب الأمن في بلاد <placeName change="#d2e120" xml:id="placeName_37.d2e3596">الحجاز</placeName> كلها حتى أصغر
+لم يختلف أحد من الناس في استتباب الأمن في بلاد <placeName change="#d2e120 #d11e288" xml:id="placeName_37.d2e3596" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> كلها حتى أصغر
 بقعة فيها، فلو فُرض أن شخصًا نثر هناك آلاف الدنانير الذهبية على رءوس
 الناس في الطريق العامة لما تجاسر أحد على مس دينار واحد منها، على حين أن
 هؤلاء الذين نُثر الذهب على رؤوسهم فزهدوا فيه يتسابقون إلى التقاط ما يُلقى في
@@ -1608,7 +1608,7 @@
 وعتوه وظلمه.
 فرحمة بأولئك البؤساء الذين ذهب الفقر بأرواحهم، وأحاطت الحاجة بأولادهم
 وبناتهم ونسائهم، وقيامًا بالواجب الديني والإنساني، اجتمع أعضاء (جمعية الهداية
-الإسلامية) ب<placeName change="#d2e120" xml:id="placeName_38.d2e3632">دمشق</placeName>، وبعد المذاكرة وتتبع الموضوع من عامة أطرافه رأوا أن
+الإسلامية) ب<placeName change="#d2e120 #d11e288" xml:id="placeName_38.d2e3632" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، وبعد المذاكرة وتتبع الموضوع من عامة أطرافه رأوا أن
 يستصرخوا غيرتكم وحميتكم باسم كونكم أعظم ملوك الإسلام والمرجع الأعلى
 لمختلف شؤونه لتعملوا على مساعدة هؤلاء البائسين، وتمدوا يد المعونة إليهم
 بإرسال ما تَراكَمْ لهم في خزانة الأوقاف من مال الحرمين الشريفين، وبذلك تحيون
@@ -1771,7 +1771,7 @@
 نفسه، وإعلاء كلمة ملته وبناء مجد أمته، عليه أن يختار لنفسه من أمثل الصحف
 والكتب ما يضيء له سبيل العمل، ويبصِّره بمعاثر الزلل، وأن يجتنب ما يجذبه
 إليه اللهو وتستهويه فيه اللذة؛ وإنما آفة العقل الهوى، والسلام على من اتبع الهدى.
-وكتب في <placeName change="#d2e120" xml:id="placeName_39.d2e3964">القاهرة</placeName> بتاريخ شوال سنة 1350
+وكتب في <placeName change="#d2e120 #d11e288" xml:id="placeName_39.d2e3964" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> بتاريخ شوال سنة 1350
 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_49.d2e3969"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_50.d2e3971"/> 

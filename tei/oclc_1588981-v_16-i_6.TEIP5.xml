@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_16-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_16-i_6.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e304">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_16-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_16-i_6.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e304" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e304" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e304" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1331">1331</date><date calendar="#cal_gregorian" when="1913" xml:lang="ar">يونيه - 1913م</date></imprint>
                   <biblScope unit="volume" from="16" to="16" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">16</biblScope>
                   <biblScope unit="issue" from="6" to="6" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">6</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e304" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -386,7 +386,7 @@
 منها كما بيَّنا - لم يذكرها أحد قبله ممن رأوا المسيح وشاهدوا أعماله، وهو مع ذلك
 لم يقل أنه رواها عنهم، بل قال في رسالته إلى أهل غلاطية (1: 17 - 19)
 أنه بعد إيمانه بالمسيح لم يصعد إلى أورشليم إلى الرسل بل ذهب إلى بلاد العرب
-ثم رجع إلى <placeName change="#d2e120" xml:id="placeName_4.d2e936">دمشق</placeName> وبعد ثلاث سنين ذهب إلى أورشليم، ولم يقابل فيها أحدًا من
+ثم رجع إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_4.d2e936" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> وبعد ثلاث سنين ذهب إلى أورشليم، ولم يقابل فيها أحدًا من
 الرسل إلا بطرس ويعقوب وجاء في سفر الأعمال (9: 19 و20) أنه كان في
 دمشق يكرز بالمسيح أي قبل ملاقاة الرسولين، فهل كان إذًا يكرز بقيامته أم لا؟
 فالظاهر أن كرازته هذه وإخباره بمسألة القيامة والرؤية بعدها مبنية على دعواه
@@ -690,7 +690,7 @@
 (وَمِنْهُم مَّن يَمْشِي عَلَى أَرْبَعٍ يَخْلُقُ اللَّهُ مَا يَشَاءُ إِنَّ اللَّهَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ) (النور: 45) .
 (7) أما قول القرآن الشريف في إبراهيم: (وَجَعَلْنَا فِي ذُرِّيَّتِهِ النُّبُوَّةَ وَالْكِتَابَ) (العنكبوت: 27) فالظاهر منه أن ذريته كثرت وانتشرت في سائر بقاع الأرض مع القبائل الرُّحَل في تلك الأزمنة وامتزجت بجميع الأمم امتزاجًا تامًّا حتى صارت منهم، ومن هذه الذرية كانت جميع الأنبياء الذين أتوا بعد إبراهيم حتى من ظهر منهم في أمريكا فقد كانت متصلة بالعالم القديم في سالف الزمان ولا ننسى أننا لا نعلم تاريخ وجود إبراهيم باليقين، وهذا التفسير يوافق قوله تعالى بعد ذكر بعض أولاده
 الأنبياء: (وَمِنْ آبَائِهِمْ وَذُرِّيَّاتِهِمْ وَإِخْوَانِهِمْ وَاجْتَبَيْنَاهُمْ وَهَدَيْنَاهُمْ إِلَى صِرَاطٍ مُّسْتَقِيمٍ) (الأنعام: 87) إلى قوله: (أُوْلَئِكَ الَّذِينَ آتَيْنَاهُمُ الكِتَابَ وَالْحُكْمَ وَالنُّبُوَّةَ) (الأنعام: 89) ويوافق أيضًا التوراة الحالية (انظر مثلا تك 22: 17 و18) أما تغلُّب الكفر والوثنية والجهل والشر على تلك الأمم في عصور مختلفة كثيرة، فهو كتغلُّب المرض على الصحة في الأحياء جميعًا حتى يقتلها وكتغلب الضعف والاضمحلال على الدول حتى يذهب بها، سنة الله في خلقه ليكون العالم في حركة دائمة ما بين صعود وهبوط، وأخذ وعطاء، وعلم وجهل، وصحة ومرض، وحياة وموت، وتقدم وتأخر إلى غير ذلك من الصفات الملازمة لكيان هذا العالم واللازمة لإظهار كل نواميس الوجود وإبراز جميع مواهب الإنسان وغيره لميدان العمل، وهي أدلّ دليل على حدوث هذا الكون ووجود خالقه الأزلي تعالى، وكل أمر من ذلك سيستقر {فَأَمَّا الزَّبَدُ فَيَذْهَبُ جُفَاءً وَأَمَّا مَا يَنفَعُ النَّاسَ فَيَمْكُثُ فِي الأَرْضِ كَذَلِكَ يَضْرِبُ اللَّهُ الأَمْثَالَ} (الرعد: 17) وهذه الآية الشريفة تنطبق على العلوم الطبيعية وغيرها الحديثة القائلة بتنازع البقاء وبقاء الأنسب وسير كل ما في العالم في سبيل الارتقاء والكمال، فإن العالم كالنهر الجاري ترتفع أمواجه وتنخفض؛ ولكن ذلك لا يوقف سيره ولا يمنع تقدمه للأمام، فتبارك الله أحسن الخالقين.
-(8) حاشية: جاء في كتاب (الأصول البشرية) صفحة 88 لمؤلفه لينج أن يوسيفوس المؤرخ اليهودي الشهير نقل عن مانيثو هذه الرواية المصرية القديمة التي ملخصها أن موسى بعد أن هزم فرعون مصر (الذي فر إلى بلاد الحبشة) حكم مصر 13 سنة، وبعد ذلك عاد إليه فرعون هو وابنه ومعهما جيش عظيم فقهروه وأخرجوه منها إلى <placeName change="#d2e120" xml:id="placeName_5.d2e1604">بلاد الشام</placeName>، وجاء في (قاموس الكتاب المقدس لبوست مجلد 1 ص410) أن هيرودوتس المؤرخ اليوناني في القرن الخامس قبل الميلاد قال: إن ابن سيسوسترس ضرب بالعمى مدة عشر سنين لأنه رمى رمحه في النهر وقد ارتفعت أمواجه وقت فيضه بسبب نوء شديد إلى علو غير اعتيادي اهـ، ويقول المؤرخون: إن ابن سيسوسترس هذا وهو منفتاح الثاني هو فرعون الخروج، ويتخذون هذه العبارة إشارة إلى غرقه في زمن موسى، ولكن يرى القارئ منها أنها لو كانت إشارة إلى الغرق لكان الغرق في النيل، ومن الرواية الأولى يعلم أن موسى حكم بعد فرعون 13 سنة في مصر، وهاتان الروايتان هما من أقدم الروايات المصرية وأصحها؛ وربما كانتا الوحيدتين في هذه المسألة، ولعل المصريين استغاثوا بمملكة الحبشة فأرسلت إليهم جيشًا فأوحى الله إلى موسى بالخروج حينئذ من مصر وتركها لأهلها، وعليه يجوز أن المصريين تكتموا خبر غرق ملكهم واستبدلوه بدعوى تقهقره إلى الحبشة، وقالوا: إنه هو الذي عاد بعد ذلك وأخرج موسى بالقوة سترًا لخزيهم وخذلانهم وإرضاء لملوكهم وأسر هؤلاء الملوك وربما أنه لولا عظم هذه الحادثة وشهرتها بينهم لأنكروها بالمرة، ومن ذلك تعلم أن الخروج لم يكن عقب غرق المصريين مباشرة كما يفهم من التوراة، ولم يكن السبب في هذه الحادثة التي غرق فيها فرعون وجيشه بل كان بعد ذلك ببضع سنين ويرى المطلع على القرآن الشريف أن هاتين الروايتين صادقتان في مسألة غرق فرعون في النيل ومسألة حكم موسى في مصر 13 سنة أما الغرق في النيل فيفهم من قول القرآن مثلاً في سورة طه (إِذْ أَوْحَيْنَا إِلَى أُمِّكَ مَا يُوحَى * أَنِ اقْذِفِيهِ فِي التَّابُوتِ فَاقْذِفِيهِ فِي
+(8) حاشية: جاء في كتاب (الأصول البشرية) صفحة 88 لمؤلفه لينج أن يوسيفوس المؤرخ اليهودي الشهير نقل عن مانيثو هذه الرواية المصرية القديمة التي ملخصها أن موسى بعد أن هزم فرعون مصر (الذي فر إلى بلاد الحبشة) حكم مصر 13 سنة، وبعد ذلك عاد إليه فرعون هو وابنه ومعهما جيش عظيم فقهروه وأخرجوه منها إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_5.d2e1604" ref="geon:6754242 oape:place:4" resp="#xslt">بلاد الشام</placeName>، وجاء في (قاموس الكتاب المقدس لبوست مجلد 1 ص410) أن هيرودوتس المؤرخ اليوناني في القرن الخامس قبل الميلاد قال: إن ابن سيسوسترس ضرب بالعمى مدة عشر سنين لأنه رمى رمحه في النهر وقد ارتفعت أمواجه وقت فيضه بسبب نوء شديد إلى علو غير اعتيادي اهـ، ويقول المؤرخون: إن ابن سيسوسترس هذا وهو منفتاح الثاني هو فرعون الخروج، ويتخذون هذه العبارة إشارة إلى غرقه في زمن موسى، ولكن يرى القارئ منها أنها لو كانت إشارة إلى الغرق لكان الغرق في النيل، ومن الرواية الأولى يعلم أن موسى حكم بعد فرعون 13 سنة في مصر، وهاتان الروايتان هما من أقدم الروايات المصرية وأصحها؛ وربما كانتا الوحيدتين في هذه المسألة، ولعل المصريين استغاثوا بمملكة الحبشة فأرسلت إليهم جيشًا فأوحى الله إلى موسى بالخروج حينئذ من مصر وتركها لأهلها، وعليه يجوز أن المصريين تكتموا خبر غرق ملكهم واستبدلوه بدعوى تقهقره إلى الحبشة، وقالوا: إنه هو الذي عاد بعد ذلك وأخرج موسى بالقوة سترًا لخزيهم وخذلانهم وإرضاء لملوكهم وأسر هؤلاء الملوك وربما أنه لولا عظم هذه الحادثة وشهرتها بينهم لأنكروها بالمرة، ومن ذلك تعلم أن الخروج لم يكن عقب غرق المصريين مباشرة كما يفهم من التوراة، ولم يكن السبب في هذه الحادثة التي غرق فيها فرعون وجيشه بل كان بعد ذلك ببضع سنين ويرى المطلع على القرآن الشريف أن هاتين الروايتين صادقتان في مسألة غرق فرعون في النيل ومسألة حكم موسى في مصر 13 سنة أما الغرق في النيل فيفهم من قول القرآن مثلاً في سورة طه (إِذْ أَوْحَيْنَا إِلَى أُمِّكَ مَا يُوحَى * أَنِ اقْذِفِيهِ فِي التَّابُوتِ فَاقْذِفِيهِ فِي
 اليَمِّ) (طه: 38-39) ثم قوله في آخر هذه القصة: (فَأَتْبَعَهُمْ فِرْعَوْنُ بِجُنُودِهِ فَغَشِيَهُم مِّنَ اليَمِّ مَا
 غَشِيَهُمْ) (طه: 78) فالمتبادر من ذلك أن فرعون غرق في نفس اليم الذي ألقي فيه موسى وهو النيل، ومثل ذلك أيضًا ما جاء في سورة القصص وهو قوله: (فَإِذَا خِفْتِ عَلَيْهِ فَأَلْقِيهِ فِي اليَمِّ) (القصص: 7) ثم قوله فيها بعد: (فَأَخَذْنَاهُ وَجُنُودَهُ فَنَبَذْنَاهُمْ فِي اليَمِّ) (القصص: 40) أما مسألة حكم موسى في مصر والتمتع بها هو وقومه مدة من الزمن بعد الغرق فهو أيضًا المتبادر من نحو قوله تعالى: (فَأَرَادَ) أي فرعون (أَن يَسْتَفِزَّهُم مِّنَ الأَرْضِ فَأَغْرَقْنَاهُ وَمَن مَّعَهُ جَمِيعاً) (الإسراء: 103) إلى قوله: (وَقُلْنَا مِنْ بَعْدِهِ لِبَنِي إِسْرَائِيلَ اسْكُنُوا الأَرْضَ) (الإسراء: 104) وقوله:
 (فَأَخْرَجْنَاهُم مِّن جَنَّاتٍ وَعُيُونٍ * وَكُنُوزٍ وَمَقَامٍ كَرِيمٍ * كَذَلِكَ وَأَوْرَثْنَاهَا بَنِي إِسْرَائِيلَ) (الشعراء: 57- 59) ويجوز أن الشريعة أعطيت لموسى في الطور قبل تركه حكم مصر وفي زمن موسى أعطى الله بني إسرائيل - بدلا عن مصر التي أمرهم بتركها - الممالك التي في شرق الأردن كما في كتبهم، وفي زمن يشوع أعطاهم كل أرض كنعان إلا بعض أجزاء منها (يش 13: 1) وهذه الأرض التي أعطيت لهم هي من أخصب أراضي العالم وأحسنها وهي المسماة عندهم بأرض الموعد؛ لأنهم كانوا وعدوا بها من قبل، فأين لمحمد صلى الله عليه وسلم علم ما بيناه من ذلك التاريخ، وهو أجنبي عنه وعن قومه ومغاير للتوراة ومخالف لما يعتقده جميع اليهود والنصارى من قديم الزمان، ولكنه موافق لأقدم الروايات المصرية وأصحها التي لا يعرفها - حتى الآن - إلا واسعو الاطلاع من محققي المؤرخين؟ أما مانيثو Manetho المذكور هنا الذي وافقت روايته ما جاء في القرآن الشريف، فكان كاهنًا لمعبد من أقدم المعابد وأشهرها، وقد كتب تاريخ مصر بأمر بطليموس فيلادلفوس في القرن الثالث قبل المسيح وكان من أدق مؤرخي القدماء وأصدقهم وقد أخذ بأوثق المصادر وأصحها في كتابة تاريخه، إلا أن هذا التاريخ فُقِدَ مع ما فقد في حريق مكتبة الإسكندرية ولم يبق منه سوى مقتطفات في بعض الكتب القديمة اليونانية وقد أيد أكثر هذه المقتطفات ما اكتشف حديثًا من الآثار المصرية والمكتوبات العتيقة مع أن آباء النصرانية كيوسيبيوس حرفوا كعادتهم كثيرًا مما نقلوه منها لتُطابق نصوص العهد القديم كما ذكره العلامة لينج في كتابه الأصول البشرية ص 11 منه.
@@ -899,7 +899,7 @@
 في وجوه إصلاحه، وبه يعلم منزلة عقله، ونبله وفضله، وغيرته وتقواه، رحمه
 الله.
 (البقية تأتي)
-((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_4.d2e2079">(*) رسالة فضفاضة أتحف بها المنار صديقه عالم <placeName change="#d2e120" xml:id="placeName_6.d2e2081">الشام</placeName> الشيخ جمال الدين القاسمي.
+((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_4.d2e2079">(*) رسالة فضفاضة أتحف بها المنار صديقه عالم <placeName change="#d2e120 #d11e304" xml:id="placeName_6.d2e2081" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> الشيخ جمال الدين القاسمي.
 (1) منها كتاب (تلبيس الجهمية في تأسيس بدعهم الكلامية) ويسمى تخليص التلبيس من كتاب التأسيس للإمام ابن تيمية، ومنها كتاب الصواعق المنزلة على الجهمية والمعطلة للإمام ابن القيم، وكتاب البيان عن أصول الإيمان والكشف عن تمويهات أهل الطغيان، تأليف أبي جعفر السمناني البغدادي المالكي صاحب القاضي أبي بكر الباقلاني، رأيته في مكتبة المدرسة العثمانية بحلب أيام رحلتي إليها عام 1330 وهذا الكتاب مخطوط عام 683 ومعه كتاب (حز الغلاصم في إفحام المخاصم عند جريان النظر في أحكام القدر) وكتاب (تحرير التنزيه وتحرير التشبيه) للإمام أحمد بن محمد الإسكندراني المالكي وكلها في الرد على المعتزلة لكن بقواعد الخلف.
 (3) لو أبقت الأيام لنا كتابيْ مقاتل والجهم لوقفنا على حقائق مذهب الجهم بما تفوق المعنعنات عنه بمراتب، فوا أسفاه على ما طوته الأعصار من مثل هذه الآثار.
 (4) أيام كانت فيالق العرب متغلغلة في أحشاء بلاد فارس والديلم والخزر.</note>
@@ -1211,7 +1211,7 @@
 وتسهيل سبل زيارتهما للطائفين والعاكفين والركع السجود، وطلاب العلم والدين.
 ومن فروع هذا المقصد أن لا تبني جماعة خدام الكعبة شيئًا من المدارس
 والمكاتب والملاجئ والمستشفيات بمال الجماعة في غير الحرمين الشريفين إلا بعد
-كفاية <placeName change="#d2e120" xml:id="placeName_7.d2e2820">الحجاز</placeName> من هذه الخيرات وأمثالها كحفظ المياه وتوزيعها، وتسهيل سبل الرزق
+كفاية <placeName change="#d2e120 #d11e304" xml:id="placeName_7.d2e2820" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من هذه الخيرات وأمثالها كحفظ المياه وتوزيعها، وتسهيل سبل الرزق
 على العرب فيه وفي طرقه حتى لا يضطروا إلى الاعتداء على الحجاج.
 فهذا أول ما أطلب تنقيحه من هذا القانون، ويليه وهو مترتب عليه، تقسيم
 مال الجماعة إلى ثلاث حصص متساوية تصرف على الطريقة التي ذكرت في
@@ -1264,8 +1264,8 @@
 وتطبيق العدالة والمساواة بين الكبير والصغير والرفيع والوضيع من الأهلين.
 نعم، إن السيد الإدريسي لم يستمل اليمانيين، كما زعم بعض الكاذبين
 المنافقين، باستعمال الفوسفور والكهرباء وغير ذلك من الاختراعات العصرية
-الجديدة التي لم ترها عربان <placeName change="#d2e120" xml:id="placeName_8.d2e2932">اليمن</placeName> بعدُ، قصد إقناعهم بولايته أو نبوته، بل استمالهم
-بالحجة والبرهان والمبادئ القويمة الصحيحة، ولم نسمع ونحن من صميم <placeName change="#d2e120" xml:id="placeName_9.d2e2938">اليمن</placeName> أن
+الجديدة التي لم ترها عربان <placeName change="#d2e120 #d11e304" xml:id="placeName_8.d2e2932" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> بعدُ، قصد إقناعهم بولايته أو نبوته، بل استمالهم
+بالحجة والبرهان والمبادئ القويمة الصحيحة، ولم نسمع ونحن من صميم <placeName change="#d2e120 #d11e304" xml:id="placeName_9.d2e2938" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> أن
 السيد الإدريسي ادعى هذه الدعوى أي الولاية، وما أشبه.
 اليمانيون يحبون السيد الإدريسي حبًّا كالعبادة، وينقادون له انقيادًا أعمى
 ويطيعونه طاعة زائدة، وينفذون أوامره بكل ارتياح، والسعيد منهم من يتشرف
@@ -1296,7 +1296,7 @@
 يميل إليه ويحب خطته ويطري مبادئه ويثني على منهجه القويم.
 السيد الإدريسي لم يفاجئ الحكومة العثمانية بالعدوان ولم يعلن عليها الحرب
 في حين من الأحيان، بل كان الأمر بالعكس، فإن الباب العالي كان يصغي
-لأكاذيب ولاة <placeName change="#d2e120" xml:id="placeName_10.d2e3008">اليمن</placeName> وقوادها الجهلة المغرورين الذين كانوا يوسوسون له ويدسون
+لأكاذيب ولاة <placeName change="#d2e120 #d11e304" xml:id="placeName_10.d2e3008" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وقوادها الجهلة المغرورين الذين كانوا يوسوسون له ويدسون
 الدسائس ضد الإدريسي فيأمر - أي الباب العالي - بتجييش الجيوش وتسيير
 الحملات على السيد فيضطر هذا إلى الدفاع فالهجوم فسحق القوات فحصار المدن
 والثغور فالاستيلاء عليها.
@@ -1307,7 +1307,7 @@
 هذه الواقعة على زعمهم. وبقي هذا القائد التركي عند السيد معززًا مكرمًا مدة سنة
 ونصف ثم فر هاربًا بدون أن يستأذن من السيد مع أن السيد كان تاركًا له الحرية في
 السفر أو البقاء، على باخرة إنكليزية كانت مرت بجازان.
-لما أعلنت إيطالية الحرب على <placeName change="#d2e120" xml:id="placeName_11.d2e3035">الدولة العثمانية</placeName> أخلت هذه في الحال ميناء
+لما أعلنت إيطالية الحرب على <placeName change="#d2e120 #d11e304" xml:id="placeName_11.d2e3035" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> أخلت هذه في الحال ميناء
 جازان من العسكر ولم يتيسر لها لضيق الوقت ولقلة وسائط النقل أن تنقل إلى
 الحديدة غير الجنود فقط، وتركت السلاح والمؤنة والذخائر والخيام والبغال. تركت
 أشياء كثيرة كانت معدة لحملة عسكرية مؤلفة من خمسة وعشرين تابورًا، فاستولى
@@ -1335,7 +1335,7 @@
 قبل السيد لاستيفاء الرسوم الجمركية من الواردات والصادرات، والرسوم التي
 يتقاضاها السيد أقل من الرسوم التي كانت تأخذها الدولة.
 والتجارة كثيرة جدًّا بين هذه الثغور وبين عدن ومصوع؛ لأن هذه الثغور
-هي مواني قطعة العسير كلها وبعض جهات <placeName change="#d2e120" xml:id="placeName_12.d2e3099">اليمن</placeName> و<placeName change="#d2e120" xml:id="placeName_13.d2e3102">الحجاز</placeName>، والسنابك [1] تروح
+هي مواني قطعة العسير كلها وبعض جهات <placeName change="#d2e120 #d11e304" xml:id="placeName_12.d2e3099" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> و<placeName change="#d2e120 #d11e304" xml:id="placeName_13.d2e3102" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، والسنابك [1] تروح
 وتغدو بينها وبين مصوع وعدن دائمًا، والأمن مستتب، والرشوة ولله الحمد مفقودة،
 والعدل موجود، والظلم معدوم، والتسهيلات متوفرة، والناس كلها ألسن مدح
 وثناء على السيد الإدريسي الذي أحيا هذه القطعة وأصلح شئون أهلها.
@@ -1414,7 +1414,7 @@
 لم يبق للدولة مع هذه المطالب إلا اسم السيادة فلا يعقل أن تقبلها، فإن كانت
 تعجز عنه الآن فإنها تفضل السكوت على إعطائه فرمانًا تقيد به نفسها، والمعقول
 أن يكون للدولة مع الاستقلال الإداري بعض الحقوق العامة كاشتراط موافقتها على
-العهود التجارية مع الدول وأخذ شيء مما يزيد على نفقات البلاد من دخلها. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_6.d2e3290">(1) المنار: السنابك جمع سنبوك في لغتهم وهي نوع من السفن الشراعية، وفي سواحل <placeName change="#d2e120" xml:id="placeName_14.d2e3292">الشام</placeName> يطلقون لفظ السنبك (بضم السين والباء) على نوع من قوارب الصيادين الصغيرة، وجمعه سنابك.
+العهود التجارية مع الدول وأخذ شيء مما يزيد على نفقات البلاد من دخلها. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_6.d2e3290">(1) المنار: السنابك جمع سنبوك في لغتهم وهي نوع من السفن الشراعية، وفي سواحل <placeName change="#d2e120 #d11e304" xml:id="placeName_14.d2e3292" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> يطلقون لفظ السنبك (بضم السين والباء) على نوع من قوارب الصيادين الصغيرة، وجمعه سنابك.
 (2) المنار: أورد الكاتب ههنا نبذة من كتاب الإدريسي إلى الإمام استدل بها على كونه لم يكن يقصد عداوة الدولة بل خدمتها والاتفاق معها، وقد حذفناه لأننا كنا نشرنا ذلك الكتاب برمته في ج 4 ص <date calendar="#cal_gregorian" when="0300" change="#d3e146 #d2e120" xml:id="date_7.d2e3297">300</date> م 16 من المنار.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_6.d2e3301">الكاتب: <persName change="#d2e141 #d2e120 #d3e274" xml:lang="ar" xml:id="persName_8.d2e3303" ref="oape:pers:4079">يماني</persName>
          </byline></div>
@@ -1424,13 +1424,13 @@
          
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_7.d2e3310">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_8.d2e3312">تفريط الاتحاديين بحقوق الدولة
-في خليج فارس و<placeName change="#d2e120" xml:id="placeName_15.d2e3316">العراق</placeName> والطرف الشرقي من جزيرة العرب</head>
+في خليج فارس و<placeName change="#d2e120 #d11e304" xml:id="placeName_15.d2e3316" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> والطرف الشرقي من جزيرة العرب</head>
 <p change="#d2e120" xml:id="p_2.d2e3320">
                
 والتزلف بذلك إلى إنكلترة
 
                
-إن خليج فارس وشط العرب وبلاد <placeName change="#d2e120" xml:id="placeName_16.d2e3328">العراق</placeName> وما يتصل بها من البلاد العربية
+إن خليج فارس وشط العرب وبلاد <placeName change="#d2e120 #d11e304" xml:id="placeName_16.d2e3328" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وما يتصل بها من البلاد العربية
 خير للدولة العثمانية من الآستانة وما يتصل بها من البلاد الأوربية، ولكن رجال
 الدولة وجمهور المتعلمين منهم في مدارس الآستانة مفتونون بعظمة القسطنطينية
 ومقامها التاريخي وموقعها الجغرافي ويعدون دولتهم ما دامت هنالك دولة أوربية،
@@ -1444,13 +1444,13 @@
 الشرق بالغرب.
 من المعلوم بالضرورة من السياسة الأوربية الحاضرة أن الدول الكبرى انفرقن
 إلى فريقين عظيمين؛ بتنازع إنكلترة وألمانية الأولوية في سيادة العالم، وما أظهر
-هذا التنافس والتنازع بينهما إلا سكة حديد <placeName change="#d2e120" xml:id="placeName_17.d2e3362">بغداد</placeName>: التي منحتها الدولة العثمانية
+هذا التنافس والتنازع بينهما إلا سكة حديد <placeName change="#d2e120 #d11e304" xml:id="placeName_17.d2e3362" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>: التي منحتها الدولة العثمانية
 للألمانيين، فأقامت بذلك قيامة إنكلترة عليهما وحملتها على موالاة الروسية
 ومواتاتها على ما تريد من العثمانية ومن إيران، على معارضتها في إيصال
 الألمانيين سكتهم إلى شط العرب أو خليج فارس، فهذا الموقع العثماني العظيم الذي
 غير سياسة العالم القديم، وجر على العثمانية والإيرانية الرجز الأليم، لا قيمة له
 في نفس ساسة الآستانة، حتى كان من هوانه عليهم ما عهدت به جمعية الاتحاد
-والترقي إلى مندوبها حقي باشا الذي أعطته إضاعة <placeName change="#d2e120" xml:id="placeName_18.d2e3378">طرابلس الغرب</placeName> مهارة عملية،
+والترقي إلى مندوبها حقي باشا الذي أعطته إضاعة <placeName change="#d2e120 #d11e304" xml:id="placeName_18.d2e3378" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> مهارة عملية،
 في إضاعة الممالك العربية، وذلك أنها أرسلته إلى أوربة ليستميل إليها الدول بما
 يبذله لهن من المصالح والحقوق في البلاد العربية العثمانية، تحقيقًا لقول من قال
 منهم لبعض أبناء العرب في الآستانة: إنا نبيعكم ونرقي أنفسنا بثمنكم.
@@ -1477,11 +1477,11 @@
 هذا المشروع قد أحدث شيئًا من الانقسام والخلاف، وهناك مشروع آخر تحت
 النظر لإنشاء ترام بخاري من تواهي إلى الشيخ عثمان، أما تجارة عدن فلا تتقدم
 والمناظرة شديدة بينها وبين جيبوتي والحديدة ولا يتيسر لعدن الحصول على نصيبها
-من تجارة الداخلية إلا إذا وجدت المواصلات بينها وبين داخلية <placeName change="#d2e120" xml:id="placeName_19.d2e3440">اليمن</placeName>، والأحوال
+من تجارة الداخلية إلا إذا وجدت المواصلات بينها وبين داخلية <placeName change="#d2e120 #d11e304" xml:id="placeName_19.d2e3440" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، والأحوال
 هناك ليست على ما يرام، فالقبائل في نزاع دائم إحداها مع الأخرى، وجميعها مع
 الأتراك، والقبائل الموجودة تحت حمايتنا تحارب القبائل الكائنة في آسية تحت
-حماية <placeName change="#d2e120" xml:id="placeName_20.d2e3449">الدولة العثمانية</placeName>، والجيش العثماني يحارب أتباع إمام صنعاء، وحقيقة الأمر
-أن الأتراك لم يستولوا فعلا على <placeName change="#d2e120" xml:id="placeName_21.d2e3455">اليمن</placeName> ولم يحسنوا الولاية على القسم الذي
+حماية <placeName change="#d2e120 #d11e304" xml:id="placeName_20.d2e3449" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>، والجيش العثماني يحارب أتباع إمام صنعاء، وحقيقة الأمر
+أن الأتراك لم يستولوا فعلا على <placeName change="#d2e120 #d11e304" xml:id="placeName_21.d2e3455" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> ولم يحسنوا الولاية على القسم الذي
 يملكونه.
 أما في الساحل الغربي الجنوبي فإن سلطان مكللا الكائن تحت حماية
 إنكلترة قد حارب أخيرًا في بلاد حضرموت وهو يزحف على خصومه على أنه لا
@@ -1499,19 +1499,19 @@
 تحقق آمال إنكلترة وتنيلها مآربها في البلاد العربية في مدة أقصر مما قدره ساستها
 لذلك؟ وما هو حظ الدولة من ذلك؟
 نحن نعلم كما يعلم كل واقف على السياسة وسير الأمم والدول أن الإنكليز قد
-مدوا أعينهم فأصابعهم إلى خليج عمان وخليج فارس وشط العرب و<placeName change="#d2e120" xml:id="placeName_22.d2e3500">العراق</placeName> منذ ثلاثة
+مدوا أعينهم فأصابعهم إلى خليج عمان وخليج فارس وشط العرب و<placeName change="#d2e120 #d11e304" xml:id="placeName_22.d2e3500" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> منذ ثلاثة
 قرون، ولكنهم كانوا ينظرون إلى تلك المعاهد خلسة، ويحركون أصابعهم فيها خفية،
 وما زاد اهتمامهم في الأمر إلا توجه نابليون بونابرت الكبير الهمة الواسع الفكر
 والطمع إلى سلوك طريق الإسكندر المكدوني ووصل الشرق بالغرب، وإنما هو
-طريق <placeName change="#d2e120" xml:id="placeName_23.d2e3512">العراق</placeName> وذلك الخليج، ومنذ قضى دهاة الأرض وأقطاب سياستها على
+طريق <placeName change="#d2e120 #d11e304" xml:id="placeName_23.d2e3512" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وذلك الخليج، ومنذ قضى دهاة الأرض وأقطاب سياستها على
 نابليون ومطامعه جميعًا طفقوا ينفذون مقاصده لأنفسهم بالتؤدة واغتنام الفرص
 كعادتهم، فاحتلوا مصر بعد إخراجه منها بنحو ثلاثة أرباع القرن.
 ويظهر أن دولتنا سهلت لهم أن يتمموا الأمر كله في مثل هذه المدة، وكان من
 حسن حظهم أن سياسة عبد الحميد الخرقاء مكنت لهم في أرض مصر ثم أرادت أن
-توجد لهم خصما قويًّا في <placeName change="#d2e120" xml:id="placeName_24.d2e3526">العراق</placeName> ومنفذه البحري إلى الهند فأعطت امتياز سكة بغداد
+توجد لهم خصما قويًّا في <placeName change="#d2e120 #d11e304" xml:id="placeName_24.d2e3526" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ومنفذه البحري إلى الهند فأعطت امتياز سكة بغداد
 للألمان وأضرمت نار العداء والتنافس بينهم وبين الإنكليز؛ لمعارضة هؤلاء في
 مدها ومشايعة الفرنسيين لهم؛ وبيد الفريقين معظم ثروة أوربة.
-وكانت <placeName change="#d2e120" xml:id="placeName_25.d2e3535">الدولة العثمانية</placeName> ولا تزال ترى أن حياتها متعلقة بتنازع دول أوربة
+وكانت <placeName change="#d2e120 #d11e304" xml:id="placeName_25.d2e3535" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> ولا تزال ترى أن حياتها متعلقة بتنازع دول أوربة
 الكبرى على المصالح والمنافع فيها، بل كانت محصورة في تنازع إنكلترة وروسية،
 فأزال هذا التنازع عبد الحميد بسوء سياسته ولكنه استبدل به التنازع بين إنكلترة
 وألمانية، فجاء بعده الاتحاديون فكانوا شرًّا منه وممن قبله وبعده سياسة؛ لأنهم بما
@@ -1525,17 +1525,17 @@
 ترجمته:
 مواد الاتفاق بين إنكلترة وتركية
 
-               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_105.d2e3567">1- </hi>تعترف الحكومة الإنكليزية بحقوق <placeName change="#d2e120" xml:id="placeName_26.d2e3570">الدولة العثمانية</placeName> على قضاء الكويت.
+               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_105.d2e3567">1- </hi>تعترف الحكومة الإنكليزية بحقوق <placeName change="#d2e120 #d11e304" xml:id="placeName_26.d2e3570" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> على قضاء الكويت.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_106.d2e3575">2- </hi>تتنازل الدولة العلية عن إدارة شئون هذا القضاء الداخلية إلى حكومة
 إنكلترة وتعترف بالاتفاق الذي تم مع شيخ الكويت وما له أن لإنكلترة حق التصرف
 في مسائل الكويت الخارجية.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_107.d2e3585">3- </hi>تتنازل الدولة العلية عن جميع حقوقها في جزيرة قطر وتفوض إلى
-إنكلترة إدارتها وإنشاء الفنارات والمحافظة على الأمن في خليج <placeName change="#d2e120" xml:id="placeName_27.d2e3590">البصرة</placeName>.
+إنكلترة إدارتها وإنشاء الفنارات والمحافظة على الأمن في خليج <placeName change="#d2e120 #d11e304" xml:id="placeName_27.d2e3590" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>.
 
-               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_108.d2e3596">4- </hi>تكتفي إنكلترة بمد سكة الحديد إلى <placeName change="#d2e120" xml:id="placeName_28.d2e3599">البصرة</placeName> فقط، وتترك الحق في مدها
-إلى الكويت لإدارة سكة حديد <placeName change="#d2e120" xml:id="placeName_29.d2e3604">بغداد</placeName>، وإنما تطلب تعيين مديرين من الإنكليز في
+               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_108.d2e3596">4- </hi>تكتفي إنكلترة بمد سكة الحديد إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_28.d2e3599" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> فقط، وتترك الحق في مدها
+إلى الكويت لإدارة سكة حديد <placeName change="#d2e120 #d11e304" xml:id="placeName_29.d2e3604" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>، وإنما تطلب تعيين مديرين من الإنكليز في
 إدارة الشركة المذكورة.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_109.d2e3612">5- </hi>يصادق لإنكلترة على امتيازاتها في نهري دجلة والفرات وعلى تأمين
@@ -1557,11 +1557,11 @@
 تستفيد منها شيئًا لجهل رجالها واحتقارهم للعرب واتخاذهم أعداء لهم.
 ومن الزايادات التي زادها بعضهم إطالة امتياز شركة بواخر لنش أولنج
 الإنكليزية في شط العرب والدجلة والفرات وبيع البواخر العثمانية لها حتى لا يبقى
-في مياه <placeName change="#d2e120" xml:id="placeName_30.d2e3660">العراق</placeName> للعثمانيين تجارة ولا بريد إلا وهو في قبضة الإنكليز، ومنها إعطاء
-حق استخراج المعادن وزيت البترول في <placeName change="#d2e120" xml:id="placeName_31.d2e3665">العراق</placeName> إلى شركة إنكليزية، ومن اطلع
+في مياه <placeName change="#d2e120 #d11e304" xml:id="placeName_30.d2e3660" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> للعثمانيين تجارة ولا بريد إلا وهو في قبضة الإنكليز، ومنها إعطاء
+حق استخراج المعادن وزيت البترول في <placeName change="#d2e120 #d11e304" xml:id="placeName_31.d2e3665" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> إلى شركة إنكليزية، ومن اطلع
 على ما جرت عليه إنكلترة حديثًا من استعمال زيت البترول في تسيير سفنها
 الحربيةِ يعلم أن البترول سيرتفع ثمنه وتكون تجارته من أهم تجارات الأرض.
-وجملة القول أن في شط العرب وخليج فارس و<placeName change="#d2e120" xml:id="placeName_32.d2e3675">العراق</placeName> وما جاوره من بلاد
+وجملة القول أن في شط العرب وخليج فارس و<placeName change="#d2e120 #d11e304" xml:id="placeName_32.d2e3675" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وما جاوره من بلاد
 العرب من ينابيع الثروة ما لا يوجد مثله، ولا ما يقاربه في غيرها من بلاد الدولة،
 ولا بلاد غيرها؛ وناهيك بمكانة المكان الجغرافية والطبيعية والحربية والتجارية،
 فخليج الكويت القاحلة خير من خليج الآستانة، فإن سمي هذا قرن الذهب ولا ذهب
@@ -1587,11 +1587,11 @@
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_9.d2e3715">الأخبار والآراء</head>
 <p change="#d2e120" xml:id="p_2.d2e3718">
                
-(جمعية <placeName change="#d2e120" xml:id="placeName_33.d2e3722">بيروت</placeName> الإصلاحية وقتل زكريا طباره)
+(جمعية <placeName change="#d2e120 #d11e304" xml:id="placeName_33.d2e3722" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> الإصلاحية وقتل زكريا طباره)
 كان أول عمل عملته الوزارة الشوكية الاتحادية في البلاد العربية عزل أدهم
-بك والي <placeName change="#d2e120" xml:id="placeName_34.d2e3729">بيروت</placeName> وجعل حازم بك مكانه وبدأ هذا عمله بإقفال نادي الإصلاح وحل
+بك والي <placeName change="#d2e120 #d11e304" xml:id="placeName_34.d2e3729" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> وجعل حازم بك مكانه وبدأ هذا عمله بإقفال نادي الإصلاح وحل
 عقد الجمعية الإصلاحية التي تألفت وأنشئ ناديها بإذن رسمي من سلفه الوالي أدهم
-بك الائتلافي، ثم قتل أحد رجال جمعية <placeName change="#d2e120" xml:id="placeName_35.d2e3737">بيروت</placeName> الإصلاحية زكريا أفندي طباره
+بك الائتلافي، ثم قتل أحد رجال جمعية <placeName change="#d2e120 #d11e304" xml:id="placeName_35.d2e3737" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> الإصلاحية زكريا أفندي طباره
 اغتيالاً، وأشيع أن قتله كان بإيعاز من الوالي حازم بك فعظم الأمر على الناس،
 ولكن مدير الشحنة (البوليس) ومعاون المدعي العمومي (وكيل النيابة) قد نشر
 كل منهما في الجرائد بلاغًا رسميًّا كذَّبَا فيه ما أشيع من قتل الرجل بسبب سياسي
@@ -1604,7 +1604,7 @@
 إرادته إجبار الناس على فتح البلد بواسطة الضغط على بعض طلاب الإصلاح
 ووقف بعضهم في دار الحكومة ومنهم زكريا أفندي طباره، وبذلك زيد الاعتصاب
 فأقفلت المدينة يومين آخرين، ثم إن الوالي بادر إلى إطلاق من وقفهم من رجال
-الإصلاح بشفاعة كبيري <placeName change="#d2e120" xml:id="placeName_36.d2e3768">بيروت</placeName> محمد أفندي بيهم وألفرد بك سرسق، وعلى إثر
+الإصلاح بشفاعة كبيري <placeName change="#d2e120 #d11e304" xml:id="placeName_36.d2e3768" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> محمد أفندي بيهم وألفرد بك سرسق، وعلى إثر
 ذلك قتل زكريا أفندي طباره اغتيالاً في الطريق وهو ذاهب ليلاً إلى داره، فقيل ما
 قيل، ومنه أن الوالي أوعز إلى بعض الأشقياء بأن يقتلوا أحمد مختار أفندي بيهم
 وزكريا أفندي، واستحضروا بإذنه أحدهم - المحكوم عليه بالإعدام - من مرسيلية
@@ -1620,7 +1620,7 @@
 ما أشيع بين الناس من كون قتل زكريا طباره كان جناية سياسية؟
 إنما نحن ناقلون، لا مثبتون ولا نافون، وغرضنا من النقل العبرة
 والنصيحة فنقول للحكومة الاتحادية الحاضرة: إنك أمرت بمعاملة الجمعية
-الإصلاحية في <placeName change="#d2e120" xml:id="placeName_37.d2e3806">بيروت</placeName> بالشدة والقسوة، فهذه من جملة أعمالك المبنية على ما في
+الإصلاحية في <placeName change="#d2e120 #d11e304" xml:id="placeName_37.d2e3806" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> بالشدة والقسوة، فهذه من جملة أعمالك المبنية على ما في
 مخاخ رجالك من النظريات التي نرى نحن أنها باطلة ومؤدية إلى ضد ما تريدين،
 وقد قلنا مثل هذا القول في غير هذا العمل من أعمالك، فصدق قولنا، وسترين
 صدقه في هذه المرة أيضا وفساد تلك النظريات، وأن هذه الشدة تنفع العرب الذين
@@ -1631,7 +1631,7 @@
 (أحوال مسلمي روسيا)
 افتتان بعض علماء التتار بعبد الحميد
 ورأيهم في سبب خذلان الترك حال شبانهم
-رأينا في <bibl type="periodical" subtype="journal" change="#d3e291">مجلة (<title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e3833">دين ومعيشت</title>) التي تصدر ببلدة <pubPlace><placeName>أورنبورغ</placeName></pubPlace> في روسية</bibl>
+رأينا في <bibl type="periodical" subtype="journal" change="#d3e291">مجلة (<title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e3833">دين ومعيشت</title>) التي تصدر ببلدة <pubPlace><placeName ref="geon:515003 oape:place:352 wiki:Q5337" resp="#xslt" change="#d11e304">أورنبورغ</placeName></pubPlace> في روسية</bibl>
 ويتولى تحريرها بعض علماء التتار الجامدين على التقاليد المألوفة رأيًا غريبًا
 نشر فيها بإمضاء (زاري) تحت عنوان (لماذا انهزم الترك؟) فأحببنا أن ننشره لما
 فيه من العبرة، بافتتان الناس بالملوك وتأييدهم بنصوص الدين، وإن كانوا ظالمين،
@@ -1653,10 +1653,10 @@
 فالله تعالى أخذ سلانيك من أيديهم أولاً وأعطاها للآخرين.
 كان في مقدمة هؤلاء الناس الذين بغوا على السلطان عبد الحميد أنور بك
 ونيازي بك اللذان في قدمهما شؤم، فإن أحدهما جاء إلى بلاد الأرنؤوط بقدمه النحسة
-فذهبت تلك البلاد من أيديهم، وثانيهما قدم <placeName change="#d2e120" xml:id="placeName_38.d2e3884">طرابلس الغرب</placeName> فذهبت إلى الطليان
-بشؤمه، هذا الرجل المشئوم بعد ما رجع من <placeName change="#d2e120" xml:id="placeName_39.d2e3889">طرابلس الغرب</placeName> قدم البلاد الأوربية
+فذهبت تلك البلاد من أيديهم، وثانيهما قدم <placeName change="#d2e120 #d11e304" xml:id="placeName_38.d2e3884" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> فذهبت إلى الطليان
+بشؤمه، هذا الرجل المشئوم بعد ما رجع من <placeName change="#d2e120 #d11e304" xml:id="placeName_39.d2e3889" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> قدم البلاد الأوربية
 العثمانية فذهبت تلك البقاع إلى الحلفاء البلقانيين، حفظ الله من قدوم هؤلاء الناس
-المشئومين إلى بلاد <placeName change="#d2e120" xml:id="placeName_40.d2e3897">الأناضول</placeName>، فإذا وطئوها فلا شك حينئذ في ذهاب الأناضول
+المشئومين إلى بلاد <placeName change="#d2e120 #d11e304" xml:id="placeName_40.d2e3897" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>، فإذا وطئوها فلا شك حينئذ في ذهاب الأناضول
 أيضًا.
 إن العثمانيين مع ظهور جزاء الله تعالى فيهم لا يتفكرون في شؤمهم ولا
 يبحثون عن إصلاح أحوالهم، بل يمشون على أعقاب هؤلاء الناس، ويجعلونهم

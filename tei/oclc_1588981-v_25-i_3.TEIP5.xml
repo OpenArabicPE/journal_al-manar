@@ -12,7 +12,7 @@
          </titleStmt>
          <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:id="publicationStmt_1.d2e38" xml:lang="en">
             <authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority>
-            <pubPlace><placeName>Beirut</placeName></pubPlace>
+            <pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e303">Beirut</placeName></pubPlace>
             <date when="2019">2019</date>
             <availability status="restricted">
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence>
@@ -33,8 +33,8 @@
                   <editor change="#d2e120" xml:id="editor_1.d2e71" xml:lang="ar"> <persName change="#d2e120" ref="oape:pers:689 viaf:51716068" xml:id="persName_2.d2e73" xml:lang="ar"> <forename change="#d2e120" xml:id="forename_2.d2e75" xml:lang="ar">محمد</forename> <forename change="#d2e120" xml:id="forename_3.d2e78" xml:lang="ar">رشيد</forename> <surname change="#d2e120" xml:id="surname_2.d2e81" xml:lang="ar">رضا</surname> </persName> </editor>
                   <imprint change="#d2e120 #d2e276" xml:id="imprint_1.d2e86" xml:lang="ar">
                      <publisher change="#d2e120" xml:id="publisher_1.d2e88"/>
-                     <pubPlace change="#d2e120" xml:id="pubPlace_1.d2e90" xml:lang="ar"> <placeName change="#d2e120" ref="geon:360630" xml:id="placeName_1.d2e92" xml:lang="ar">القاهرة</placeName>
-                        <placeName change="#d2e120" ref="geon:360630" xml:id="placeName_2.d2e95" xml:lang="ar-Latn-x-ijmes">al-Qāhira</placeName> <placeName change="#d2e120" ref="geon:360630" xml:id="placeName_3.d2e98" xml:lang="en">Cairo</placeName> </pubPlace>
+                     <pubPlace change="#d2e120" xml:id="pubPlace_1.d2e90" xml:lang="ar"> <placeName change="#d2e120 #d11e303" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" xml:id="placeName_1.d2e92" xml:lang="ar" resp="#xslt">القاهرة</placeName>
+                        <placeName change="#d2e120 #d11e303" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" xml:id="placeName_2.d2e95" xml:lang="ar-Latn-x-ijmes" resp="#xslt">al-Qāhira</placeName> <placeName change="#d2e120 #d11e303" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" xml:id="placeName_3.d2e98" xml:lang="en" resp="#xslt">Cairo</placeName> </pubPlace>
                      <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1342">1342</date>
                      <date calendar="#cal_gregorian" when="1924" xml:lang="ar">مارس - 1924م</date>
                   </imprint>
@@ -45,7 +45,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e303" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change>
          <change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change>
          <change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change>
          <change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change>
@@ -96,7 +96,7 @@
                <head change="#d2e141 #d2e120" xml:id="head_2.d2e250" xml:lang="ar">التبشير والمبشرون في نظر المسلمين</head>
                <p change="#d2e120" xml:id="p_2.d2e253">
  
-(س2-8) من القس المحترم ألفرد نيلسن الدانيمركي ب<placeName change="#d2e120" xml:id="placeName_4.d2e259">دمشق</placeName>.
+(س2-8) من القس المحترم ألفرد نيلسن الدانيمركي ب<placeName change="#d2e120 #d11e303" xml:id="placeName_4.d2e259" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>.
  <hi change="#d2e141 #d2e120" style="color:red;" xml:id="hi_1.d2e264" xml:lang="ar">1- </hi>هل يحسب المسلم كل تبشير مسيحي للمسلمين مفسد وغير لائق مهما
 كان منصفًا وبعيدًا عن الطعن؟
  <hi change="#d2e141 #d2e120" style="color:red;" xml:id="hi_2.d2e272" xml:lang="ar">2- </hi>هل يحسب المسلم على حد سوى المسيحي الغيور في دينه والمريد نشره
@@ -126,7 +126,7 @@
 المنطقية في حد نفسه - وأعني بهذا الاختبار سيرة جماعات المبشرين العامة ,
 ولكن يوجد أفراد يدعون إلى دينهم بإظهار ما فيه من الفضائل , والدفاع عما يرد
 على عقائده وأصوله من الاعتراضات , بما أوتوه من معرفة مع مراعاة النزاهة
-واجتناب كل ما يؤذي المناظر , وقد عاشرت بعضهم في <placeName change="#d2e120" xml:id="placeName_5.d2e346">طرابلس الشام</placeName> أيام طلبي
+واجتناب كل ما يؤذي المناظر , وقد عاشرت بعضهم في <placeName change="#d2e120 #d11e303" xml:id="placeName_5.d2e346" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> أيام طلبي
 للعلم , وجرت بيني وبينهم مناظرات كثيرة في بضع سنين , لم يشك أحد منا
 صاحبه في شيء , بل كنا نحترمهم لآدابهم وعدم اتجارهم بدينهم , وإن كانوا
 يأخذون الرواتب من بعض جمعيات التبشير.
@@ -424,19 +424,19 @@
             <opener xml:lang="ar"> 
 (استولت السلطة الفرنسية في سورية على ما فيها من سكة الحديد الحجازية ,
 التي هي وقف إسلامي خاص بالبلاد المقدسة , استولت على إدارتها وأدواتها
-وأموالها , وجعلتها تابعة لشركة الخط الحديدي الفرنسية بين <placeName change="#d2e120" xml:id="placeName_7.d2e1017">الشام</placeName> وحماه , وقد
+وأموالها , وجعلتها تابعة لشركة الخط الحديدي الفرنسية بين <placeName change="#d2e120 #d11e303" xml:id="placeName_7.d2e1017" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وحماه , وقد
 <note place="inline" type="bibliographic"><bibl>كتب إلينا <author><persName><roleName type="pseudonym">كاتب سوري</roleName></persName> من أعلم الناس</author> بتاريخ هذه السكة المقالة الآتية</bibl> في سبب
 إنشائها , وإثبات وقفيتها وبيان حالها , واغتصاب السلطة الفرنسية لها , وهذا
 نصها</note>) : </opener>
             
 
-            <p change="#d2e120" xml:id="p_2.d2e1007">إن <placeName change="#d2e120" xml:id="placeName_8.d2e1029">الدولة العثمانية</placeName> لما رأت أن المسلمين الساكنين في ممالكها , والمتفرقين
+            <p change="#d2e120" xml:id="p_2.d2e1007">إن <placeName change="#d2e120 #d11e303" xml:id="placeName_8.d2e1029" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> لما رأت أن المسلمين الساكنين في ممالكها , والمتفرقين
 في أنحاء كرة الأرض كمسلمي تونس والجزائر وفاس في المغرب، ومسلمي
 الهند والأفغان وإيران والصين , وسائر المشرق , يأتون من كل فج عميق في
 كل سنة؛ لأداء فريضة الحج , وزيارة حرم الرسول المصطفى صلى الله عليه
 وسلم وقبره الشريفين , ورأت ما يعانيه أولئك الحجاج من بعد المسافة وتحمل مشاق
 الطريق المملوء بالمصاعب والمتاعب , وركوب متون الإبل لقطع تلك الصحاري
-الشاسعة - ارتأت [1] أن تمد سكة حديدية تمتد من <placeName change="#d2e120" xml:id="placeName_9.d2e1045">حيفا</placeName> ومن <placeName change="#d2e120" xml:id="placeName_10.d2e1049">دمشق</placeName> إلى المدينة المنورة.
+الشاسعة - ارتأت [1] أن تمد سكة حديدية تمتد من <placeName change="#d2e120 #d11e303" xml:id="placeName_9.d2e1045" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> ومن <placeName change="#d2e120 #d11e303" xml:id="placeName_10.d2e1049" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> إلى المدينة المنورة.
 وقد كان لهذا الأثر الجليل مقصدان:
 (الأول) إجابة إلحاح مسلمي الأرض على مقام الخلافة في ذلك الوقت بهذا
 العمل؛ ليتمكنوا من أداء فريضة الحج , وسنة الزيارة بسرعة تامة وراحة واطمئنان
@@ -489,7 +489,7 @@
 بعد هذه البينات نقول:
 إن السلطة الفرنسية في سورية لم تراع حق وقفية هذا الخط , ووجوب جعله
 في يد المسلمين الموقوف على منفعتهم الدينية , فاستولت عليه في آخر شهر شباط
-(فبراير) سنة 1924 , وجعلته تابعًا لشركة سكة حديد <placeName change="#d2e120" xml:id="placeName_11.d2e1167">الشام</placeName> وحماه وتمديداتها
+(فبراير) سنة 1924 , وجعلته تابعًا لشركة سكة حديد <placeName change="#d2e120 #d11e303" xml:id="placeName_11.d2e1167" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وحماه وتمديداتها
 الفرنسية , بموجب مقاولة عقدتها معها مباشرة بغير استشارة أحد من متولي إدارة
 الوقف , ولم تشأ السلطة الأفرنسية المذكورة نشر تلك الاتفاقية؛ لما تعلم هي من
 إجحافها العظيم بمصالح الخط , بل أبقتها سرًّا مكتومًا بينها وبين الشركة المذكورة،
@@ -499,7 +499,7 @@
 بلا مقابل ولا بدل , ولم يسمع ولم ير في زمن من الأزمان ولا في مكان من الأمكنة
 ذات القوانين والنظام , عقد اتفاقية جائرة ظالمة بهذه الدرجة المدهشة لا تأتلف مع
 شرع ولا منطق ولا قانون.
-على أن شركة سكة حديد <placeName change="#d2e120" xml:id="placeName_12.d2e1191">الشام</placeName> وحماه وتمديداتها لم تتمكن من تاريخ تأسيسها
+على أن شركة سكة حديد <placeName change="#d2e120 #d11e303" xml:id="placeName_12.d2e1191" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وحماه وتمديداتها لم تتمكن من تاريخ تأسيسها
 قبل ثلاثين سنة تقريبًا حتى الآن من تحسين شئون إدارتها وتلافي عجزها المالي
 السنوي المستمر , وهي تستوفي أعشار حمص وحماه؛ لسد عجزها، خصوصًا
 فيما يتعلق بخط رياق - حلب؛ إذ الكفالة الكيلو مترية بموجب صك امتيازها لأن
@@ -535,19 +535,19 @@
 وأن تجعله للفرنسيين لا للمسلمين.
 إن تجزئة خط الحديد الحجازي جناية عليه , لا يجوز التسامح فيها ألبتة؛
 لأن بعض أقسامه يضمن بقاء البعض الآخر؛ إذ منها ذو الربح الدائم. وبعضها
-لا ربح فيه في معظم السنة , وإننا نرى بعض أقسامه المثمرة كقسم <placeName change="#d2e120" xml:id="placeName_13.d2e1273">حيفا</placeName> بيد سلطة
+لا ربح فيه في معظم السنة , وإننا نرى بعض أقسامه المثمرة كقسم <placeName change="#d2e120 #d11e303" xml:id="placeName_13.d2e1273" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> بيد سلطة
 غريبة غير مسلمة أيضًا , فهي تجني الثمار منه وتصرفها في غير ما وقفت عليه
 الخط وما أنشئ لأجله , وبذلك يبقى القسم الجنوبي الكبير الممتد إلى المدينة المنورة
-في منطقة <placeName change="#d2e120" xml:id="placeName_14.d2e1282">الحجاز</placeName> خرابًا , لا يقوم بالمقصد السامي الذي أسس لأجله، وهو نقل
+في منطقة <placeName change="#d2e120 #d11e303" xml:id="placeName_14.d2e1282" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> خرابًا , لا يقوم بالمقصد السامي الذي أسس لأجله، وهو نقل
 الحجاج الكرام إلى مدينة الرسول , وتقريبهم من بيت الله الحرام، لعدم كفاية
 حاصلاته لتسديد ما يحتاج إليه من النفقات , فإننا نرى في آخر إحصاء للخط
 الحجازي قبل الحرب (وهو إحصاء سنة 1913) أن واردات الخط الكبير كانت
 (191374) ليرة عثمانية ذهبية , وأن نفقاته بلغت (221430) ليرة فيكون
-النقص (30056) ليرة , ولكن واردات قسم <placeName change="#d2e120" xml:id="placeName_15.d2e1296">حيفا</placeName> كانت في السنة المذكورة
+النقص (30056) ليرة , ولكن واردات قسم <placeName change="#d2e120 #d11e303" xml:id="placeName_15.d2e1296" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> كانت في السنة المذكورة
 (92421) ليرة، ونفقاته (29599) ليرة، فتكون الزيادة (62824) .
-فيتضح من ذلك أن قسم <placeName change="#d2e120" xml:id="placeName_16.d2e1304">حيفا</placeName> أيضًا لازم غير مفارق للخط الكبير , وأنه بدونه
+فيتضح من ذلك أن قسم <placeName change="#d2e120 #d11e303" xml:id="placeName_16.d2e1304" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> أيضًا لازم غير مفارق للخط الكبير , وأنه بدونه
 لا يمكن السير والسفر على هذا الخط المقدس بسبب العجز البالغ (30056) ليرة.
-يضاف إلى ذلك أيضًا أنه إذا بقى قسم <placeName change="#d2e120" xml:id="placeName_17.d2e1311">حيفا</placeName> منفصلاً عن الفرع الكبير على اتصاله
+يضاف إلى ذلك أيضًا أنه إذا بقى قسم <placeName change="#d2e120 #d11e303" xml:id="placeName_17.d2e1311" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> منفصلاً عن الفرع الكبير على اتصاله
 بالبحر , فإن تعليمات الفحم التي تقدر بـ (18000) طن ستنقل بأجرتها على هذا
 القسم , وتبلغ مصاريفها (14500) ليرة تقريبًا. يعني أن الخط الجنوبي الكبير
 يخسر لذلك سنويًّا (44556) ليرة , وهذا الحال يكون قاضيًا على حياته مما لا
@@ -648,7 +648,7 @@
 كل فرصة؛ امتنانًا من العهد الذي عقدته مع المندوب العالي الأفرنسي ممثل الدولة
 المساعدة إقامة عادية في حلب؛ ليكون بهذه الصورة على مقربة من كيليكيا، وهي
 منطقة الحدود التي تجتمع فيها عادة الجنود الحامية، ويكون لرئيس الدولة السورية
-والمندوب العالي الأفرنسي مشتى في <placeName change="#d2e120" xml:id="placeName_18.d2e1560">بيروت</placeName> التي ستتمتع بإدارة بلدية مختارة.
+والمندوب العالي الأفرنسي مشتى في <placeName change="#d2e120 #d11e303" xml:id="placeName_18.d2e1560" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> التي ستتمتع بإدارة بلدية مختارة.
 يبقى هذا العهد الذي تضبط به المبادئ العمومية مكتومًا بين الفريقين إلى
 إمضاء الاتفاق القطعي المفصل , الذي سيحرر عند رجوع صاحب السمو الملكي
 الأمير فيصل إلى فرنسة , وسيعرض في الوقت الموافق على مؤتمر السلم اهـ.
@@ -662,7 +662,7 @@
 من وجهاء السوريين وأحزابهم , ومن المؤتمر السوري أن يفوضوه في سياستهم
 الداخلية والخارجية بلا شرط ولا قيد , وكادوا يخدعون، ولو فعلوا لسجل على بلادهم
 حمل العبودية , ولكنه خاب أولاً وآخرًا. ولله الحمد، ولا ندري ما تكون عاقبة أمره
-فيما عاهد عليه الإنكليز في <placeName change="#d2e120" xml:id="placeName_19.d2e1606">العراق</placeName> , من تقييد الأمة بإمضاء صك عبوديتها وبيع
+فيما عاهد عليه الإنكليز في <placeName change="#d2e120 #d11e303" xml:id="placeName_19.d2e1606" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> , من تقييد الأمة بإمضاء صك عبوديتها وبيع
 استقلالها.
 ((يتبع بمقال تالٍ)) <note change="#d2e120" place="bottom" type="footnote" xml:id="note_4.d2e1614"/> </p>
             <byline change="#d2e141 #d2e120" xml:id="byline_4.d2e1616" xml:lang="ar">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" ref="oape:pers:689 viaf:51716068" xml:id="persName_6.d2e1618" xml:lang="ar"> <forename>محمد</forename> <forename>رشيد</forename> <surname>رضا</surname> </persName> </byline>
@@ -756,8 +756,8 @@
 فهل سلمت أراضي الشرق العربية - ونعني بها ما جاور مصر - من تلك
 الزلازل؟ لا، بل تناوبتها الزلازل حينًا بعد حين، نخص بالذكر منها تلك التي لم
 تمر عليها ثلاث وخمسون سنة كاملة، وهي زلازل عام 1870 التي شملت مصر
-وقسمًا كبيرًا من سودانها و<placeName change="#d2e120" xml:id="placeName_20.d2e1824">طرابلس الغرب</placeName> وتونس غربًا، وقسمًا كبيرًا من بلاد
-العرب وسورية و<placeName change="#d2e120" xml:id="placeName_21.d2e1830">الأناضول</placeName> والبلقان وجنوبي إيطالية!
+وقسمًا كبيرًا من سودانها و<placeName change="#d2e120 #d11e303" xml:id="placeName_20.d2e1824" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وتونس غربًا، وقسمًا كبيرًا من بلاد
+العرب وسورية و<placeName change="#d2e120 #d11e303" xml:id="placeName_21.d2e1830" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName> والبلقان وجنوبي إيطالية!
 وأما أراضي الجزائر والمغرب الأقصى فهي جبلية بركانية في أكثر مساحتها ,
 ومن المعلوم أن أفريقية كانت متصلة بأوروبة - وعلى الأخص في جهة المغرب
 الأقصى , وما فصلتهما سوى الزلازل التي مزقت القشرة الأرضية البارزة عند
@@ -1189,7 +1189,7 @@
 موضوعنا هنا بل لا خلاف فيها بيننا وبين المنتقد.
 ولم يكن قتادة هو الذي قال هذا وحده، ففي الدر المنثور عن سعيد بن جبير في
 تفسير: {وَلاَ تَنكِحُوا المُشْرِكَاتِ} (البقرة: 221) الآية - قال: يعني أهل
-الأوثان. وعن مجاهد: نساء أهل <placeName change="#d2e120" xml:id="placeName_22.d2e2821">مكة</placeName> من المشركين. وعن حماد قال: سألت
+الأوثان. وعن مجاهد: نساء أهل <placeName change="#d2e120 #d11e303" xml:id="placeName_22.d2e2821" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> من المشركين. وعن حماد قال: سألت
 إبراهيم (يعني: النخعي) عن تزويج اليهودية والنصرانية فقال: لا بأس. قلت:
 أليس الله يقول: {وَلاَ تَنكِحُوا المُشْرِكَاتِ حَتَّى يُؤْمِنَّ} (البقرة: 221) ؟ قال:
 إنما ذاك المجوسيات وأهل الأوثان.
@@ -1250,7 +1250,7 @@
          <pb change="#d2e120" corresp="../epub/6947/OEBPS/xhtml/P3460.xhtml" ed="shamela" n="n25-p230" xml:id="pb_17.d2e2952"/>
          <pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="230" xml:id="pb_18.d2e2953"/>
          <div change="#d2e141 #d2e170 #d2e120" subtype="article" type="item" xml:id="div_8.d2e2955" xml:lang="ar">
-            <head change="#d2e141 #d2e120" xml:id="head_9.d2e2957" xml:lang="ar">زيارة ملك <placeName change="#d2e120" xml:id="placeName_23.d2e2959">الحجاز</placeName> لشرقي الأردن</head>
+            <head change="#d2e141 #d2e120" xml:id="head_9.d2e2957" xml:lang="ar">زيارة ملك <placeName change="#d2e120 #d11e303" xml:id="placeName_23.d2e2959" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لشرقي الأردن</head>
             <p change="#d2e120" xml:id="p_2.d2e2963">
 مقدماتها وأسبابها ونتيجتها
  
@@ -1259,18 +1259,18 @@
 خليفة للمسلمين وملكًا على البلاد العربية المؤلفة من جزيرة العرب كلها والعراق
 وسورية وفلسطين , وتمده بالمال والسلاح؛ لتوطيد سلطانه في هذه البلاد تحت
 حمايتها وبمساعدة رجالها , وكان يعتقد أن حلفها أقوى من الحلف الألماني، ولذلك لم
-يقبل ما عرضته عليه <placeName change="#d2e120" xml:id="placeName_24.d2e2982">الدولة العثمانية</placeName> من الاستقلال بضمان ألمانية , وكان يهنئها
-بكل فتح في البلاد العربية <placeName change="#d2e120" xml:id="placeName_25.d2e2987">القدس</placeName> و<placeName change="#d2e120" xml:id="placeName_26.d2e2991">بغداد</placeName> و<placeName change="#d2e120" xml:id="placeName_27.d2e2994">دمشق</placeName> , ولذلك سمى نفسه ملك العرب.
+يقبل ما عرضته عليه <placeName change="#d2e120 #d11e303" xml:id="placeName_24.d2e2982" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> من الاستقلال بضمان ألمانية , وكان يهنئها
+بكل فتح في البلاد العربية <placeName change="#d2e120 #d11e303" xml:id="placeName_25.d2e2987" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> و<placeName change="#d2e120 #d11e303" xml:id="placeName_26.d2e2991" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> و<placeName change="#d2e120 #d11e303" xml:id="placeName_27.d2e2994" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> , ولذلك سمى نفسه ملك العرب.
 وبعد احتلال سورية اعتقد أن أحلامه جاء تأويلها، وكان يشتهي أن يزور البلاد
 السورية بعد توطيد سلطانه فيها، وتكرر وعده لأناس من أهلها بذلك، وفي جريدته
 (القبلة) حتى إنه صرح بأن سيزور كل بلد وقرية فيها؛ أي: ليراه جميع أفراد
 رعيته، ويتمتعوا ببهاء جلاله وعزته.
 أفلت ملك سورية من قبضة وهمه:
 (أولاً) بقرار المؤتمر السوري العام الذي أعلن فيه استقلال جميع البلاد
-السورية دون <placeName change="#d2e120" xml:id="placeName_28.d2e3012">الحجاز</placeName> وغيره.
+السورية دون <placeName change="#d2e120 #d11e303" xml:id="placeName_28.d2e3012" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وغيره.
 (وثانيًا) بتنفيذ إنكلترة وفرنسة لما كانتا قد اتفقتا عليه من اقتسام بلاد الحضارة
-العربية سورية و<placeName change="#d2e120" xml:id="placeName_29.d2e3020">العراق</placeName> بينهما، ورأى أن ملكه لم يتجاوز إمارة <placeName change="#d2e120" xml:id="placeName_30.d2e3023">الحجاز</placeName> التي كانت
-له من قبل <placeName change="#d2e120" xml:id="placeName_31.d2e3028">الدولة العثمانية</placeName> , على أنها منقوصة الأطراف غير تامة الحدود على ما
+العربية سورية و<placeName change="#d2e120 #d11e303" xml:id="placeName_29.d2e3020" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بينهما، ورأى أن ملكه لم يتجاوز إمارة <placeName change="#d2e120 #d11e303" xml:id="placeName_30.d2e3023" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> التي كانت
+له من قبل <placeName change="#d2e120 #d11e303" xml:id="placeName_31.d2e3028" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> , على أنها منقوصة الأطراف غير تامة الحدود على ما
 يدعي - فكان المعقول أن يتناسى ذلك الوعد أو الوعود ويتحول عنها.
 ولكن الرجل يحيا حياته السياسية بشيئين: (أحدهما) نفسي، وهو الأماني
 والأوهام. (وثانيهما) عملي، وهو الدعاية (البوربغندة) التي لم يحذق من شؤون
@@ -1282,7 +1282,7 @@
 اللقب، وبلقب المنقذ، وإن كان الحق الواقع المشاهد أنه لم ينل بلقب ملك العرب
 تصرفًا ولا سيادة على شبر من أرض العرب لم يكن تحت سيادته قبله، وأنه لم
 ينقذ بلدًا من بلاد العرب، ولا قرية من سيادة أجنبية ولا مهلكة، فإن كان أحد يسمي
-انتقال البلاد السورية والعراقية بمساعدته من سيادة <placeName change="#d2e120" xml:id="placeName_32.d2e3057">الدولة العثمانية</placeName> المؤلفة من
+انتقال البلاد السورية والعراقية بمساعدته من سيادة <placeName change="#d2e120 #d11e303" xml:id="placeName_32.d2e3057" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> المؤلفة من
 الترك والعرب وغيرهم إلى سيادة إنكلترة وفرنسة إنقاذًا , فلا أنقذه الله من الذل في
 الدنيا ولا من العذاب في الآخرة، على أن هذا الإبسال [1] الذي سماه إنقاذًا لم يقع إلا
 بترجيح دولة الولايات المتحدة لإحدى كفتي الحرب على الأخرى لا بترجيحه،
@@ -1312,39 +1312,39 @@
 على أنه خاب مرة في دعايته , ولم يلبث أن تدارك الخيبة وجعلها نسيًا منسيًّا
 عند كثير من السوريين وخاصة الفلسطينيين منهم.
 ذلك بأن الدولة البريطانية اختارت أن تعقد معه معاهدة تثبت بها اعترافه
-بانتدابها على فلسطين وما تريد أن يكون لها من الحقوق في <placeName change="#d2e120" xml:id="placeName_33.d2e3129">الحجاز</placeName> , والتصرف في
+بانتدابها على فلسطين وما تريد أن يكون لها من الحقوق في <placeName change="#d2e120 #d11e303" xml:id="placeName_33.d2e3129" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> , والتصرف في
 شؤون الحجاج، وتقطع بها لسانه وألسنة الفلسطينيين دون الاحتجاج عليها بما سبق
 لها معه من اتفاق ووعود. وقد طالت المراجعة بينها وبينه في ذلك، حتى إذا ما
 أرسل الدكتور ناجي الأصيل الموصلي إلى لندن للبحث معها في صيغة هذه
 المعاهدة في العام الماضي , قامت قيامة الدعاية حوله وأمطرت شركة روتر
 الإنكليزية على البلاد العربية وغيرها برقيات خادعة فيما ينتظر من الوحدة العربية
 واستقلال العرب بسعي الأصيل.
-وكانت الجرائد العربية في مصر وسورية و<placeName change="#d2e120" xml:id="placeName_34.d2e3147">العراق</placeName> تنشر هذه البرقيات وتعلق
+وكانت الجرائد العربية في مصر وسورية و<placeName change="#d2e120 #d11e303" xml:id="placeName_34.d2e3147" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> تنشر هذه البرقيات وتعلق
 بعضها عليها من الشروح ما يكبر شبح الوهم، وكان بعضها ينشر مقالات مستقلة في
-ذلك، ولما عاد الأصيل إلى <placeName change="#d2e120" xml:id="placeName_35.d2e3154">مكة</placeName> يحمل نص المعاهدة , كان له من الحفاوة فيها ما
+ذلك، ولما عاد الأصيل إلى <placeName change="#d2e120 #d11e303" xml:id="placeName_35.d2e3154" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> يحمل نص المعاهدة , كان له من الحفاوة فيها ما
 كان، وتلا نص المعاهدة المترجم بالعربية في حفلة رسمية فخمة، وأطلقت المدافع
 وصدرت الإرادة الهاشمية بجعل ذلك اليوم عيدًا رسميًّا للأمة العربية بأسرها <hi change="#d2e141 #d2e120" style="color:red;" xml:id="hi_23.d2e3162" xml:lang="ar">…</hi> ثم
 ماذا كان؟ ظهرت الفضيحة للعيان , ورفض أهل فلسطين ما يتعلق بهم منها،
 واضطر الملك إلى عدم الإمضاء النهائي عليها.
 بعد هذه الفضيحة استأنف الملك دعاية جديدة في المسألة الفلسطينية قدم بين
 يديها مساعدة لأهل فلسطين بما جمعه من الإعانة القهرية؛ لعمارة الحرم الأقصى
-من أهل <placeName change="#d2e120" xml:id="placeName_36.d2e3176">الحجاز</placeName>، والاختيارية من الحجاج، وسمح لوفد منهم بالطعن في وعد بلفور
-في <placeName change="#d2e120" xml:id="placeName_37.d2e3181">الحجاز</placeName>، فوضعت خطة جديدة؛ لبث الدعاية له في سورية وفلسطين , يقوم بها
-نفر ممن كان ب<placeName change="#d2e120" xml:id="placeName_38.d2e3187">مكة</placeName> من حجاج البلاد مع صنائعه فيها تكون تمهيدًا لزيارته لأطراف
+من أهل <placeName change="#d2e120 #d11e303" xml:id="placeName_36.d2e3176" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، والاختيارية من الحجاج، وسمح لوفد منهم بالطعن في وعد بلفور
+في <placeName change="#d2e120 #d11e303" xml:id="placeName_37.d2e3181" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، فوضعت خطة جديدة؛ لبث الدعاية له في سورية وفلسطين , يقوم بها
+نفر ممن كان ب<placeName change="#d2e120 #d11e303" xml:id="placeName_38.d2e3187" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> من حجاج البلاد مع صنائعه فيها تكون تمهيدًا لزيارته لأطراف
 سورية؛ لأجل أن يتقرر في هذه الزيارة مع زعماء البلاد أمر الوحدة العربية وما
 يتعلق بها من المسألة الفلسطينية، بل وجد له دعاة من حجاج المصريين يمدحونه
 ويدافعون عنه أيضًا.
-ولا ندري هل كوشف أحد من الدعاة الذين كانوا في <placeName change="#d2e120" xml:id="placeName_39.d2e3198">مكة</placeName> بمسألة المبايعة
+ولا ندري هل كوشف أحد من الدعاة الذين كانوا في <placeName change="#d2e120 #d11e303" xml:id="placeName_39.d2e3198" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> بمسألة المبايعة
 بالخلافة أم لا؟ ويجزم بعض أذكياء المصريين أن الإنكليز كانوا قد اتفقوا مع
 عصمت باشا على إلغاء الخلاقة التركية، في زمن لا يتأخر عن أول سنة الترك
-الجديدة (مارس) , وأحبوا أن تكون زيارة ملك <placeName change="#d2e120" xml:id="placeName_40.d2e3208">الحجاز</placeName> لأطراف سورية قبل ذلك
+الجديدة (مارس) , وأحبوا أن تكون زيارة ملك <placeName change="#d2e120 #d11e303" xml:id="placeName_40.d2e3208" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لأطراف سورية قبل ذلك
 الوقت، وأن يظل هنالك إلى أن تلغى الخلافة التركية، فيجعل ذلك سببًا لتأسيس
-الخلافة العربية - كما إنهم قرروا أن تجتمع جمعية <placeName change="#d2e120" xml:id="placeName_41.d2e3216">العراق</placeName> التأسيسية للنظر في
+الخلافة العربية - كما إنهم قرروا أن تجتمع جمعية <placeName change="#d2e120 #d11e303" xml:id="placeName_41.d2e3216" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> التأسيسية للنظر في
 المعاهدة العراقية البريطانية التي أمضاها الملك فيصل والسير برسي كوكس
-المندوب البريطاني السامي في <placeName change="#d2e120" xml:id="placeName_42.d2e3223">العراق</placeName> , في الوقت الذي يجتمع فيه المؤتمر
-البريطاني التركي لحل مشكلة <placeName change="#d2e120" xml:id="placeName_43.d2e3228">الموصل</placeName>، ووضع الحدود بين <placeName change="#d2e120" xml:id="placeName_44.d2e3232">العراق</placeName> و<placeName change="#d2e120" xml:id="placeName_45.d2e3235">الأناضول</placeName>؛
-ليخوفوا العراقيين بالتفريط بولاية <placeName change="#d2e120" xml:id="placeName_46.d2e3240">الموصل</placeName>، إذا هم رفضوا المعاهدة التي تضيع
-جميع <placeName change="#d2e120" xml:id="placeName_47.d2e3245">العراق</placeName> لا ولاية <placeName change="#d2e120" xml:id="placeName_48.d2e3249">الموصل</placeName> وحدها.
+المندوب البريطاني السامي في <placeName change="#d2e120 #d11e303" xml:id="placeName_42.d2e3223" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> , في الوقت الذي يجتمع فيه المؤتمر
+البريطاني التركي لحل مشكلة <placeName change="#d2e120 #d11e303" xml:id="placeName_43.d2e3228" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName>، ووضع الحدود بين <placeName change="#d2e120 #d11e303" xml:id="placeName_44.d2e3232" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> و<placeName change="#d2e120 #d11e303" xml:id="placeName_45.d2e3235" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>؛
+ليخوفوا العراقيين بالتفريط بولاية <placeName change="#d2e120 #d11e303" xml:id="placeName_46.d2e3240" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName>، إذا هم رفضوا المعاهدة التي تضيع
+جميع <placeName change="#d2e120 #d11e303" xml:id="placeName_47.d2e3245" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> لا ولاية <placeName change="#d2e120 #d11e303" xml:id="placeName_48.d2e3249" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> وحدها.
 مهما يكن من الأمر في هذا وذاك، فالدعاية لتشريف الملك قد بثت قبل مجيئه
 وفي أثناء وجوده، حتى وصلت هينمتها في الحالين إلي - وعرضت شبهاتها
 وأمانيها علي، واقترح علي أن أكون من الزائرين له، وسئلت عما أشترطه في
@@ -1386,15 +1386,15 @@
 معتقدًا أن الدعاية (البوربغندة) تُتِمُّ خلقها، وتنفخ الروح فيها، كما فعلت بمنصب
 (ملك البلاد العربية) قبلها , ويكفي في هذه الحياة عنده أن يبث لها دعاية جديدة
 بين حجاج الآفاق، ويستعين بها في الجزيرة على بث الشقاق، وأن تقول <bibl>جريدة
-<title level="j">القبلة</title> ب<pubPlace><placeName change="#d2e120" xml:id="placeName_49.d2e3346">مكة</placeName></pubPlace></bibl>، <bibl>وجريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_17.d2e3349">الشرق العربي</title> الرسمية في <pubPlace><placeName>عمان</placeName></pubPlace></bibl>، وجرائد <title level="j">الطبل</title> و<title level="j">الزمر</title>
-<bibl>و<title level="j">لسان العرب</title> بفلسطين</bibl>، <bibl type="periodical">وجريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_18.d2e3354">الحقيقة</title> <pubPlace>ب<placeName change="#d2e120" xml:id="placeName_50.d2e3358">بيروت</placeName></pubPlace></bibl>، وأمثالهن من جرائد سورية
-و<placeName change="#d2e120" xml:id="placeName_51.d2e3363">العراق</placeName>: إن صاحب الجلالة الهاشمية، هو خليفة المسلمين، وأمير المؤمنين،
+<title level="j">القبلة</title> ب<pubPlace><placeName change="#d2e120 #d11e303" xml:id="placeName_49.d2e3346" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName></pubPlace></bibl>، <bibl>وجريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_17.d2e3349">الشرق العربي</title> الرسمية في <pubPlace><placeName ref="geon:250441 jaraid:place:73 oape:place:508 wiki:Q3805" resp="#xslt" change="#d11e303">عمان</placeName></pubPlace></bibl>، وجرائد <title level="j">الطبل</title> و<title level="j">الزمر</title>
+<bibl>و<title level="j">لسان العرب</title> بفلسطين</bibl>، <bibl type="periodical">وجريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_18.d2e3354">الحقيقة</title> <pubPlace>ب<placeName change="#d2e120 #d11e303" xml:id="placeName_50.d2e3358" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName></pubPlace></bibl>، وأمثالهن من جرائد سورية
+و<placeName change="#d2e120 #d11e303" xml:id="placeName_51.d2e3363" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>: إن صاحب الجلالة الهاشمية، هو خليفة المسلمين، وأمير المؤمنين،
 وملك العرب أجمعين. بل يقدر الملك حسين ودعاته أن يستأجروا في مصر
 وغيرها أمثال هذه الجرائد لذلك.
 حمل الرجل اللقب وانقلب إلى بلده مسرورًا، وظل الأمير عبد الله حيث كان
 بالرغم من أنوف السكان والجيران، وصارت إمارته شرًّا مما كانت، وأبعد عن
 الاستقلال، واشتد ضغط الفرنسيس على المسلمين الذين بايعوه، فاعتقل أفراد من
-الوجهاء وأخرج آخرون، وفر دعاته أصحاب <bibl>جريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_19.d2e3379">الحقيقة</title></bibl> هاربين من <placeName change="#d2e120" xml:id="placeName_52.d2e3382">بيروت</placeName>،
+الوجهاء وأخرج آخرون، وفر دعاته أصحاب <bibl>جريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_19.d2e3379">الحقيقة</title></bibl> هاربين من <placeName change="#d2e120 #d11e303" xml:id="placeName_52.d2e3382" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>،
 وازدادت المسألة العربية بعدًا عن الوحدة بفشل مؤتمر الكويت الذي كان سببه
 اقتراحات (منقذ العرب ومؤسس وحدتهم) واقتراحات ولده الأمير عبد الله التي
 أملاها الغرور بالاتكال على الإنكليز في تمليكهم لنجد وغيرها من الجزيرة، وما كان
@@ -1446,12 +1446,12 @@
 أكثر مسلمي سورية لا يزالون يخدعون بلقب شريف، ولم يطل خداع الشيعة في
 العراق به كما طال خداعهم، ولو كان سائر المسلمين كذلك لوجب على عقلاء
 طلاب الإصلاح وإعادة مجد الإسلام أن يقرروا حرمان كل من يحمل هذا اللقب من
-كل رياسة في هذه الأمة، ولا سيما إذا كان مفتونًا به كشرفاء <placeName change="#d2e120" xml:id="placeName_53.d2e3498">مكة</placeName>، أقول هذا وأنا
+كل رياسة في هذه الأمة، ولا سيما إذا كان مفتونًا به كشرفاء <placeName change="#d2e120 #d11e303" xml:id="placeName_53.d2e3498" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، أقول هذا وأنا
 شريف مقابل.
 أما والله لو كنت أعلم أنه يرجى منهم إخراج فرنسة من سورية على أن تكون
 مستقلة دون نفوذ أجنبي آخر , ولو تابعة للحجاز - لبذلت كل ما أستطيع في تأييدهم
 ومساعدتهم على ذلك بدلاً من مجاهدتهم على تمكين نفوذ الأجانب فيها وفي غيرها،
-فإنني أعلم أن ملك <placeName change="#d2e120" xml:id="placeName_54.d2e3512">الحجاز</placeName> لا يستطيع أن يستبد في سورية، ولا أن يحول دون
+فإنني أعلم أن ملك <placeName change="#d2e120 #d11e303" xml:id="placeName_54.d2e3512" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لا يستطيع أن يستبد في سورية، ولا أن يحول دون
 حريتها.
 ووالله لو كنت أعلم أنهم يستطيعون جعل جزيرة العرب وغيرها مملكة واحدة
 خاضعة لهم وحدهم بدون نفوذ أجنبي - لتمنيت نجاحهم على ما أعلم من ظلمهم
@@ -1511,13 +1511,13 @@
 وعدم تقييد البلاد بمعاهدة أخرى تجعل للأجانب نفوذًا في البلاد.
 (2) الاعتراف بالحالة الحاضرة في إمارات بلاد العرب , وإلغاء ما صرح
 به لرئيس مؤتمر الجزيرة، من عقده العزم على جعل جميع إمارات الجزيرة من نجد
-و<placeName change="#d2e120" xml:id="placeName_55.d2e3645">اليمن</placeName> وتهامة تابعة لحكومة ملك العرب في السياسة الخارجية والعسكرية والإدارة
+و<placeName change="#d2e120 #d11e303" xml:id="placeName_55.d2e3645" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وتهامة تابعة لحكومة ملك العرب في السياسة الخارجية والعسكرية والإدارة
 العامة.. إلخ.
 (3) السعي لعقد محالفة بين هذه الإمارات كلها , يتقرر فيها اتفاق الجميع
 على الدفاع عن جزيرة العرب , والتعاون فيما بينهم على عمرانها، وعقد مجلس
 تحكيم للفصل في كل نزاع يقع بينهم، وتفصيل ذلك باتفاق يوقعه الجميع , وقد
 سبق لنا تفصيله.
-(4) السعي لجعل بلاد <placeName change="#d2e120" xml:id="placeName_56.d2e3661">الحجاز</placeName> قطر سلام وحياد لا يعادي ولا يعادى، ولا
+(4) السعي لجعل بلاد <placeName change="#d2e120 #d11e303" xml:id="placeName_56.d2e3661" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> قطر سلام وحياد لا يعادي ولا يعادى، ولا
 يقاتل ولا يقاتل، وأن تعترف بذلك الدول الإسلامية وغيرها.
 (5) وضع نظام للخلافة يعلم كل مطلع عليه أن الخليفة لا يمكنه أن يستبد
 في عمل من الأعمال , وأنه يرجى أن ينفذ لعقلاء الأمة وحكمائها ما يطلبون لها من

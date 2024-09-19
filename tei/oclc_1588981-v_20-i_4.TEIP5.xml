@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_20-i_4.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_20-i_4.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e298">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_20-i_4.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_20-i_4.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1336">1336</date><date calendar="#cal_gregorian" when="1917" xml:lang="ar">نوفمبر - 1917م</date></imprint>
                   <biblScope unit="volume" from="20" to="20" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">20</biblScope>
                   <biblScope unit="issue" from="4" to="4" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">4</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e298" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -86,7 +86,7 @@
 هناك أخرى أرجو التفصيل بإيضاحها في الإجابة. قال - صلى الله عليه وسلم -:
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_1.d2e301">1- </hi>(بين العبد والكفر - وفي رواية الشرك - ترك الصلاة، فإذا تركها فقد
-أشرك. وحوضي كما بين أيلة إلى <placeName change="#d2e120" xml:id="placeName_4.d2e306">مكة</placeName> أباريقه كعدد نجوم السماء له ميزابان من
+أشرك. وحوضي كما بين أيلة إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_4.d2e306" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أباريقه كعدد نجوم السماء له ميزابان من
 الجنة كلما نضب أمداه، مَن شرب منه شربة، لم يظمأ بعدها أبدًا، وسيرده أقوام
 ذابلة شفاههم، فلا يطعمون منه قطرة واحدة، مَن كذب به اليوم لم يصب منه
 الشراب يومئذٍ) .
@@ -269,10 +269,10 @@
 نمرة هي الجبل الذي عليه أنصاب الحرم عن يمينك إذا خرجت من المأزمين تريد
 الموقف. قال شارح القاموس: كذا في التكملة. وقيل: الحرم من طريق الطائف
 على طرف عرفة من نمرة على أحد عشر ميلاً. اهـ. وقد نقل هذا في معجم
-البلدان وفيه بعده: وقيل نمرة على أحد عشر ميلاً. اهـ أي من <placeName change="#d2e120" xml:id="placeName_5.d2e702">مكة</placeName>. فالتحقيق
+البلدان وفيه بعده: وقيل نمرة على أحد عشر ميلاً. اهـ أي من <placeName change="#d2e120 #d11e298" xml:id="placeName_5.d2e702" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>. فالتحقيق
 الذي عليه الجمهور أن المسجد لم يكن من عرفة، وقول بعض الناس فيه (مسجد
 عرفة) بالفاء من باب ما جاور الشيء أُعطي حكمه أو نُسِبَ إليه، ولذلك نسب
-بعضهم عرفة إلى <placeName change="#d2e120" xml:id="placeName_6.d2e712">مكة</placeName> وبعضهم إلى منى. وقال بعضهم: إن بعضه من عرفة
+بعضهم عرفة إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_6.d2e712" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وبعضهم إلى منى. وقال بعضهم: إن بعضه من عرفة
 وبعضه من عرنة، وذلك بعد أن زِيد فيه كما سيأتي.
 وقال شيخ الإسلام أحمد بن تيمية في مناسك الحج - بعد ذكر استحباب المبيت
 بمنى ليلة عرفة كما فعل النبي صلى الله عليه وسلم - ما نصه: ويسيرون منها إلى
@@ -407,7 +407,7 @@
 5
 
                
-((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_2.d2e1017">(1) هو جمال الدين محمد الجواد الموصلي كان وزير صاحب <placeName change="#d2e120" xml:id="placeName_7.d2e1019">الموصل</placeName>، وله في الحرمين والمشاعر عمارات عظيمة.
+((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_2.d2e1017">(1) هو جمال الدين محمد الجواد الموصلي كان وزير صاحب <placeName change="#d2e120 #d11e298" xml:id="placeName_7.d2e1019" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName>، وله في الحرمين والمشاعر عمارات عظيمة.
 (2) البنى جمع بنية يشير إلى أثر: (دحا الله الأرض دحوًا من تحت الكعبة) ، وهو مروي عن عطاء، وليس حديثًا كما توهم، ودحا الشيء رماه وكشفه ونحاه قيل: وبسطه.
 (3) استعبر: جرت عَبرته أي دمعته.
 (4) المروتان الصفا والمروة تغليب.
@@ -446,7 +446,7 @@
 فالأساس الأول لقواعد الصلح عندهم تحويل هذه الحكومة إلى ديمقراطية تنطق باسم
 الشعب، فإن لم يبادر الألمان أنفسهم إلى قلب حكومتهم وثل عرش آل هوهنزلرن
 المؤيد بالقوة العسكرية والاستعاضة عنها بحكومة ديمقراطية فإن الحلفاء هم الذين
-يفعلون ذلك بالقوة <placeName change="#d2e120" xml:id="placeName_8.d2e1091">القاهرة</placeName>، وحينئذ يتم الصلح الحقيقي الذي يستريح به البشر من
+يفعلون ذلك بالقوة <placeName change="#d2e120 #d11e298" xml:id="placeName_8.d2e1091" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، وحينئذ يتم الصلح الحقيقي الذي يستريح به البشر من
 مصائب الحرب، وقد أيدت الحلفاء الرئيس في رده، وأثنت جرائدها عليه [1] إلا
 أن بعض الجرائد الإنكليزية كالتيمس - أنكرت منها تفرقة الرئيس بين الحكومة
 الألمانية والشعب الألماني؛ إذ جعل وزر الحرب على الحكومة وحدها، قالت:
@@ -475,7 +475,7 @@
 ورد إمبراطور النمسة الجديد (كرلوس) بنفسه ردًا مشربًا بمنتهى التعظيم
 والاحترام والقبول؛ لأنه هو الإمبراطور الكاثوليكي الوحيد، ولكنه لم يَفُهْ بكلمة ما
 تدل على اعترافه بحقوق الأمم والشعوب.
-وكذلك كان رد <placeName change="#d2e120" xml:id="placeName_9.d2e1159">الدولة العثمانية</placeName> على المذكرة بإمضاء السلطان محمد رشاد ردًّا
+وكذلك كان رد <placeName change="#d2e120 #d11e298" xml:id="placeName_9.d2e1159" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> على المذكرة بإمضاء السلطان محمد رشاد ردًّا
 مشربًا بالتعظيم والاحترام، وصرح فيه بالموافقة على القواعد الأساسية التي اقترح
 أن يبنى عليها الصلح والاستعداد لدرس الطرق التي تؤدي إلى تسوية المشاكل
 الدولية في إبان مفاوضات الصلح، (قال) : (وإننا نصرح بذلك، وأمام أنظارنا
@@ -636,7 +636,7 @@
 والتي تعد مقدمة لأفول نجم تركيا في الأماكن المقدسة، وتحرير البلاد التي هي مهد
 الديانة المسيحية. وقد قطعت المواصلات التركية تمامًا مع القوات التي تحارب في
 بلاد العرب، وصار مصير (المدينة) معروفًا من الآن، وقد احتلت إنكلترا -
-حليفة ملك <placeName change="#d2e120" xml:id="placeName_10.d2e1509">الحجاز</placeName> - كل <placeName change="#d2e120" xml:id="placeName_11.d2e1512">العراق</placeName> تقريبًا، وجنوبي بلاد فلسطين.
+حليفة ملك <placeName change="#d2e120 #d11e298" xml:id="placeName_10.d2e1509" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> - كل <placeName change="#d2e120 #d11e298" xml:id="placeName_11.d2e1512" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> تقريبًا، وجنوبي بلاد فلسطين.
 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_28.d2e1518"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_29.d2e1520"/> 
@@ -664,26 +664,26 @@
                
 (2)
 نشر المقطم في عدد 28 جُمَادَى الأولى سنة 1335-22 مارس 1917
-ترجمة منشور الجنرال مود الذي خاطب به أهل <placeName change="#d2e120" xml:id="placeName_12.d2e1563">بغداد</placeName> عقب دخولها فاتحًا باسم ملكه
+ترجمة منشور الجنرال مود الذي خاطب به أهل <placeName change="#d2e120 #d11e298" xml:id="placeName_12.d2e1563" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> عقب دخولها فاتحًا باسم ملكه
 واسم الشعوب التي يحكمها، وقد بدأه ببيان أن غرضهم من الحرب كسر العدو،
-وإخراجه من البلاد، فمجيء جيوشهم <placeName change="#d2e120" xml:id="placeName_13.d2e1571">العراق</placeName>؛ لذلك لا (كما يأتي الغازي الفاتح
+وإخراجه من البلاد، فمجيء جيوشهم <placeName change="#d2e120 #d11e298" xml:id="placeName_13.d2e1571" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>؛ لذلك لا (كما يأتي الغازي الفاتح
 والعدو الطامع) ، ثم ثنى بذكر تخريب الأجانب للبلاد من عهد هولاكو واستبدادهم
 فيها، ثم قال:
 إن جلالة ملكي وشعوبه والأمم العظيمة المحالفة له يرومون لكم السعادة
 والرخاء وإحياء العصر القديم، لما كان الخصب منتشرًا في دياركم، تضيء العالم
-بنبراس الآداب والعلم والفنون، ولما كانت <placeName change="#d2e120" xml:id="placeName_14.d2e1585">بغداد</placeName> إحدى عجائب الدنيا.
+بنبراس الآداب والعلم والفنون، ولما كانت <placeName change="#d2e120 #d11e298" xml:id="placeName_14.d2e1585" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> إحدى عجائب الدنيا.
 إن بين شعبكم وأملاك ملكي علاقات مصلحية وثيقة؛ فقد تعامل تجار بغداد
 وتجار بريطانيا العظمى منذ مائتي سنة بتمام المودة والصداقة، وجنى الفريقان
-الربح، أما الألمان والترك الذين نهبوكم فقد اتخذوا <placeName change="#d2e120" xml:id="placeName_15.d2e1594">بغداد</placeName> منذ 20 سنة مقرًّا لمهاجمة
+الربح، أما الألمان والترك الذين نهبوكم فقد اتخذوا <placeName change="#d2e120 #d11e298" xml:id="placeName_15.d2e1594" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> منذ 20 سنة مقرًّا لمهاجمة
 قوة بريطانيا العظمى وحلفائها في إيران وجزيرة العرب، فلم يسع الحكومة
 البريطانية إلا أن تكترث لما يقع في بلادكم الآن وفي مستقبل الأيام، فإن الواجب
 والمصلحة للشعب البريطاني وحلفائه يقضيان على الحكومة أن لا تسمح بأن يتكرر
-في <placeName change="#d2e120" xml:id="placeName_16.d2e1606">بغداد</placeName> ما فعله الترك والألمان في إبان الحرب.
-ثم خاطب أهل <placeName change="#d2e120" xml:id="placeName_17.d2e1612">بغداد</placeName> خاصة، فذكر لهم أن حكومته يهمها يسرهم التجاري
+في <placeName change="#d2e120 #d11e298" xml:id="placeName_16.d2e1606" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> ما فعله الترك والألمان في إبان الحرب.
+ثم خاطب أهل <placeName change="#d2e120 #d11e298" xml:id="placeName_17.d2e1612" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> خاصة، فذكر لهم أن حكومته يهمها يسرهم التجاري
 وسلامتهم من الظلم والجور مؤمّنًا إياهم من إرهاقها لهم بأحكام أجنبية عنهم، قال:
-بل هي ترجو أن تحقق آمال فلاسفتكم وحكمائكم وكُتابكم؛ فتزهو <placeName change="#d2e120" xml:id="placeName_18.d2e1619">بغداد</placeName> وتزهر
+بل هي ترجو أن تحقق آمال فلاسفتكم وحكمائكم وكُتابكم؛ فتزهو <placeName change="#d2e120 #d11e298" xml:id="placeName_18.d2e1619" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> وتزهر
 وينشط أهلها ويتمتعون بثروتهم ومقتنياتهم في ظل النظام الذي يطابق شرائعكم
-المقدسة وأمانيكم القومية، وذكَّرهم ثانية بظلم الأجانب واستقلال <placeName change="#d2e120" xml:id="placeName_19.d2e1627">الحجاز</placeName>. وختم
+المقدسة وأمانيكم القومية، وذكَّرهم ثانية بظلم الأجانب واستقلال <placeName change="#d2e120 #d11e298" xml:id="placeName_19.d2e1627" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>. وختم
 المنشور بدعوتهم إلى الاشتراك في إدارة شئونهم الملكية مع مندوبي بريطانيا
 العظمى، الذين يصحبون الجيش البريطاني (قال) : فتتحدوا مع بني جنسكم في
 الشمال الشرقي والجنوب والغرب على تحقيق آمال العرب.
@@ -718,7 +718,7 @@
 إني أسمع صوتًا ينادي من السماء، ويقول: انهضوا يا أبناء عدنان، ويا
 سلالة قحطان، وأفيقوا من سنة النوم فقد غلبت عليكم ألف عام!
 ثم قفَّى المقطم على هذه النبذة بالتنويه بمنشور الجنرال مود والثناء عليه،
-ولكنه هفا هفوة كبيرة في المقابلة بينه وبين ما خاطب به الحجاج أهل <placeName change="#d2e120" xml:id="placeName_20.d2e1706">العراق</placeName>؛ إذ
+ولكنه هفا هفوة كبيرة في المقابلة بينه وبين ما خاطب به الحجاج أهل <placeName change="#d2e120 #d11e298" xml:id="placeName_20.d2e1706" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>؛ إذ
 وصفهم بالنفاق والشقاق، والفرق بين الحالين عظيم. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_5.d2e1711"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_5.d2e1713">الكاتب: <persName change="#d2e141 #d2e120 #d3e274" xml:lang="ar" xml:id="persName_7.d2e1715" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>

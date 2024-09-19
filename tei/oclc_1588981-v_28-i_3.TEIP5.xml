@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_28-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_28-i_3.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e288">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_28-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_28-i_3.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1345">1345</date><date calendar="#cal_gregorian" when="1927" xml:lang="ar">مايو - 1927م</date></imprint>
                   <biblScope unit="volume" from="28" to="28" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">28</biblScope>
                   <biblScope unit="issue" from="3" to="3" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">3</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e282" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e288" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e282" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -77,11 +77,11 @@
 
                
 (س5) جاءنا من عمر بك الداعوق أحد أعضاء جمعية المقاصد الخيرية
-الإسلامية العاملين في <placeName change="#d2e120" xml:id="placeName_4.d2e263">بيروت</placeName> كتابًا يتضمن: الاستفتاء في بناء فندق للجمعية كفنادق
+الإسلامية العاملين في <placeName change="#d2e120 #d11e288" xml:id="placeName_4.d2e263" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> كتابًا يتضمن: الاستفتاء في بناء فندق للجمعية كفنادق
 مصر الكبرى , وتأجيره <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_1.d2e269">…</hi> , فأجبناه بالجواب الآتي المتضمن للسؤال:
 من محمد رشيد رضا إلى حضرة الوطني العمراني العامل عمر بك الداعوق،
 السلام عليكم ورحمة الله وبركاته.
-أما بعد: فقد كتبت إلي بأن جمعية المقاصد الخيرية الإسلامية في <placeName change="#d2e120" xml:id="placeName_5.d2e278">بيروت</placeName> قد
+أما بعد: فقد كتبت إلي بأن جمعية المقاصد الخيرية الإسلامية في <placeName change="#d2e120 #d11e288" xml:id="placeName_5.d2e278" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> قد
 طلب منها إنشاء فندق على الطراز الحديث كفنادق القطر المصري الكبرى؛
 لاستثماره بالإجارة، وصرف أجرته السنوية في تعليم أولاد فقراء المسلمين،
 وتربيتهم تربية إسلامية صحيحة.
@@ -107,9 +107,9 @@
 الإسلام.
 وقد نص الفقهاء على أن غير المسلم لا يكلف مراعاة الأحكام الشرعية
 الإسلامية المدنية في غير دار الإسلام، كشروط البيع , والإجارة , والشركات،
-وكذلك يكون فندق جمعيتكم في <placeName change="#d2e120" xml:id="placeName_6.d2e338">بيروت</placeName> غالبًا , وإن كان فيها فنادق أخرى صغيرة
+وكذلك يكون فندق جمعيتكم في <placeName change="#d2e120 #d11e288" xml:id="placeName_6.d2e338" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> غالبًا , وإن كان فيها فنادق أخرى صغيرة
 محلية يتولى إدارتها بعض المسلمين.
-وأنتم تعلمون أن <placeName change="#d2e120" xml:id="placeName_7.d2e345">بيروت</placeName> , وسائر سورية الآن ليست دار إسلام , أي: الأحكام
+وأنتم تعلمون أن <placeName change="#d2e120 #d11e288" xml:id="placeName_7.d2e345" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> , وسائر سورية الآن ليست دار إسلام , أي: الأحكام
 المدنية فيها ليست على الشرعية الإسلامية، والسلطة فيها ليست في أيدي المسلمين،
 هذا , وإن أكثر أحكام المعاملات المدنية في الشريعة الإسلامية اجتهادية مبنية
 على ضبط المعاملات التي تدور على حفظ المصالح , ودرء المفاسد، وقد أفتى
@@ -131,7 +131,7 @@
 الشريعة , وغيرهم، ولكن الدار لم تبن، ولم تؤجر لأجل هذه المحرمات التي قلما
 يخلو منها مكان في هذا العصر، وكذلك المستشفى.
 وههنا مدرك آخر للنازلة المسؤول عنها , وهي مراعاة حال العصر التي يعبر
-عنها الفقهاء بعموم البلوى , فمن المعلوم أن مدينة <placeName change="#d2e120" xml:id="placeName_8.d2e396">بيروت</placeName> أكثر أهلها من غير
+عنها الفقهاء بعموم البلوى , فمن المعلوم أن مدينة <placeName change="#d2e120 #d11e288" xml:id="placeName_8.d2e396" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> أكثر أهلها من غير
 المسلمين , وأن المسلمين فيها قد فشت فيهم ضروب من الفسق كشرب الخمر ,
 والزنا من الكبائر، والظهور على عورات النساء المحارم , وغير المحارم من
 الصغائر التي هي ذرائع الكبائر، والكثير من دورها , وحوانيتها , أو أكثرها
@@ -242,7 +242,7 @@
 قيس بن عمران , وأبوه عمران بن عمير شاهد , وعمير مولى ابن مسعود. فهذا
 يدل على أن ابن مسعود لم يحد السفر بمسافة طويلة , ولكن اعتبر أمرًا آخر
 كالأعمال , وهذا أمر لا يحد بمسافة , ولا زمان لكن بعموم الولايات،
-وخصوصها، مثل من كان ب<placeName change="#d2e120" xml:id="placeName_9.d2e626">دمشق</placeName> , فإذا سافر إلى ما هو خارج عن أعمالها؛
+وخصوصها، مثل من كان ب<placeName change="#d2e120 #d11e288" xml:id="placeName_9.d2e626" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> , فإذا سافر إلى ما هو خارج عن أعمالها؛
 كان مسافرًا.
 وأصحاب هذه الأقوال كأنهم رأوا ما رخص فيه للمسافر؛ إنما رخص فيه
 للمشقة التي تلحقه في السفر، واحتياجه إلى الرخصة، وعلموا أن المنتقل في
@@ -250,7 +250,7 @@
 كما كان النبي صلى الله عليه وسلم يخرج إلى قباء كل سبت راكبًا وماشيًا، ولم
 يكن يقصر , وكذلك المسلمون كانوا ينتابون الجمعة من العوالي , ولم يكونوا
 يقصرون , فكان المنتقل في العمل الواحد بهذه المثابة عندهم.
-وهؤلاء يحتج عليهم بقصر أهل <placeName change="#d2e120" xml:id="placeName_10.d2e647">مكة</placeName> مع النبي صلى الله عليه وسلم بعرفة،
+وهؤلاء يحتج عليهم بقصر أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_10.d2e647" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> مع النبي صلى الله عليه وسلم بعرفة،
 ومزدلفة، ومنى، مع أن هذه تابعة لمكة , ومضافة إليها , وهي أكثر تبعًا لها من
 السواد للكوفة , وأقرب إليها منها , فإن بين باب بني شيبة , وموقف الإمام بعرفة
 عند الصخرات التي في أسفل جبل الرحمة بريد بهذه المسافة , وهذا السير وهم
@@ -258,9 +258,9 @@
 هناك قرية نمرة , والنبي صلى الله عليه وسلم لم يزل بها , وكان بها أسواق ,
 وقريب منها عرنة التي تصل واديها بعرفة , ولأنه لا فرق بين السفر إلى بلد تقام
 فيه , وبلد لا تقام فيه إذا لم يقصد الإقامة , فإن النبي صلى الله عليه وسلم ,
-والمسلمين سافروا إلى <placeName change="#d2e120" xml:id="placeName_11.d2e667">مكة</placeName> , وهي بلد يمكن الإقامة فيه , وما زالوا مسافرين في
+والمسلمين سافروا إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_11.d2e667" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> , وهي بلد يمكن الإقامة فيه , وما زالوا مسافرين في
 غزوهم وحجهم وعمرتهم , وقد قصر النبي صلى الله عليه وسلم الصلاة في جوف
-مكة عام الفتح وقال: (يا أهل <placeName change="#d2e120" xml:id="placeName_12.d2e675">مكة</placeName> , أتموا صلاتكم فإنا قوم سفر) , وكذلك عمر
+مكة عام الفتح وقال: (يا أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_12.d2e675" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> , أتموا صلاتكم فإنا قوم سفر) , وكذلك عمر
 بعده فعل ذلك , رواه مالك بإسناد صحيح , ولم يفعل ذلك رسول الله صلى الله عليه
 وسلم , ولا أبو بكر , ولا عمر بمنى [3] , ومن نقل ذلك عنهم؛ فقد غلط , وهذا
 بخلاف خروج النبي صلى الله عليه وسلم إلى قباء كل سبت راكبًا وماشيًا ,
@@ -278,7 +278,7 @@
 قريبة , ولا يكون مسافرًا من أبعد منها , مثل أن يركب فرسًا سابقًا , ويسير مسافة
 بريد , ثم يرجع من ساعة إلى بلده , فهذا ليس مسافرًا , وإن قطع هذه المسافة في
 يوم وليلة , ويحتاج في ذلك إلى حمل زاد ومزاد؛ فكان مسافرًا كما كان سفر أهل
-مكة إلى عرفة , ولو ركب رجل فرسًا سابقًا إلى عرفة , ثم رجع من يومه إلى <placeName change="#d2e120" xml:id="placeName_13.d2e717">مكة</placeName>؛
+مكة إلى عرفة , ولو ركب رجل فرسًا سابقًا إلى عرفة , ثم رجع من يومه إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_13.d2e717" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>؛
 لم يكن مسافرًا , يدل على ذلك أن النبي صلى الله عليه وسلم لما قال: (يمسح
 المسافر ثلاثة أيام ولياليهن , والمقيم يومًا وليلة) , فلو قطع بريدًا في ثلاثة أيام؛
 كان مسافرًا ثلاثة أيام ولياليهن؛ فيجب أن يمسح مسح سفر , ولو قطع البريد في
@@ -319,7 +319,7 @@
 وقال: (ما بين لابتيها حرم) , فما بين لابتيها كله من المدينة , وهو حرم , فهذا
 بريد لا يكون الضارب فيه مسافرًا.
 وإن كان المكي إذا خرج إلى عرفات مسافرًا فعرفة ومزدلفة ومنى صحاري
-خارجة عن <placeName change="#d2e120" xml:id="placeName_14.d2e809">مكة</placeName> , ليست كالعوالي من المدينة , وهذا أيضًا مما يبين أنه لا اعتبار
+خارجة عن <placeName change="#d2e120 #d11e288" xml:id="placeName_14.d2e809" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> , ليست كالعوالي من المدينة , وهذا أيضًا مما يبين أنه لا اعتبار
 بمسافة محدودة , فإن المسافر في المصر الكبير لو سافر يومين أو ثلاثة؛ لم يكن
 مسافرًا , والمسافر عن القرية الصغيرة إذا سافر مثل ذلك كان مسافرًا , فعلم أنه لا
 بد أن يقصد بقعة يسافر من مكان إلى مكان , فإذا كان ما بين المكانين صحراء لا
@@ -327,17 +327,17 @@
 الذي يقصده.
 وكان عثمان جعل حكم المكان يقصده حكم طريقه , فلا بد أن يعدم فيه الزاد
 والمزاد , وخالفه أكثر علماء الصحابة , وقولهم أرجح , فإن النبي صلى الله عليه
-وسلم قصر ب<placeName change="#d2e120" xml:id="placeName_15.d2e829">مكة</placeName> عام فتح <placeName change="#d2e120" xml:id="placeName_16.d2e833">مكة</placeName> , وفيها الزاد والمزاد , وإذا كانت منى قرية فيها زاد
-ومزاد فبينها وبين <placeName change="#d2e120" xml:id="placeName_17.d2e838">مكة</placeName> صحراء يكون مسافرًا من يقطعها كما كان بين <placeName change="#d2e120" xml:id="placeName_18.d2e841">مكة</placeName> وغيرها ,
-ولكن عثمان قد تأول في قصر النبي صلى الله عليه وسلم ب<placeName change="#d2e120" xml:id="placeName_19.d2e846">مكة</placeName> أنه كان خائفًا؛ لأنه
-لما فتح <placeName change="#d2e120" xml:id="placeName_20.d2e852">مكة</placeName> والكفار كثيرون , وكان قد بلغه أن هوازن جمعت له , وعثمان يُجَوِّزُ
+وسلم قصر ب<placeName change="#d2e120 #d11e288" xml:id="placeName_15.d2e829" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> عام فتح <placeName change="#d2e120 #d11e288" xml:id="placeName_16.d2e833" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> , وفيها الزاد والمزاد , وإذا كانت منى قرية فيها زاد
+ومزاد فبينها وبين <placeName change="#d2e120 #d11e288" xml:id="placeName_17.d2e838" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> صحراء يكون مسافرًا من يقطعها كما كان بين <placeName change="#d2e120 #d11e288" xml:id="placeName_18.d2e841" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وغيرها ,
+ولكن عثمان قد تأول في قصر النبي صلى الله عليه وسلم ب<placeName change="#d2e120 #d11e288" xml:id="placeName_19.d2e846" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أنه كان خائفًا؛ لأنه
+لما فتح <placeName change="#d2e120 #d11e288" xml:id="placeName_20.d2e852" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> والكفار كثيرون , وكان قد بلغه أن هوازن جمعت له , وعثمان يُجَوِّزُ
 القصر لمن كان بحضرة عدو , وهذا كما يحكى عن عثمان أنه - يعني النبي صلى الله
 عليه وسلم - إنما أمرهم بالمتعة؛ لأنهم كانوا خائفين , وخالفه علي , وعمران بن
 حصين , وابن عمر , وابن عباس , وغيرهم من الصحابة , وقولهم هو الراجح , فإن
 النبي صلى الله عليه وسلم في حجة الوداع كان آمنًا لا يخاف إلا الله , وقد أمر
 أصحابه بفسخ الحج إلى العمرة , والقصر. وقصر العدد إنما هو معلق بالسفر , ولكن
 إذا اجتمع الخوف والسفر؛ أبيح قصر العدد , وقصر الركعات , وقد قال النبي صلى
-الله عليه وسلم هو وعمر بعده لما صليا ب<placeName change="#d2e120" xml:id="placeName_21.d2e870">مكة</placeName>: (يا أهل <placeName change="#d2e120" xml:id="placeName_22.d2e873">مكة</placeName> أتموا صلاتكم , فإنا قوم
+الله عليه وسلم هو وعمر بعده لما صليا ب<placeName change="#d2e120 #d11e288" xml:id="placeName_21.d2e870" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>: (يا أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_22.d2e873" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أتموا صلاتكم , فإنا قوم
 سفر) , بين أن الواجب لصلاتهم ركعتين مجرد كونهم سفرًا؛ فلهذا الحكم تعلق
 بالسفر , ولم يعلقه بالخوف.
 فعلم أن قصر العدد لا يشترط فيه خوف بحال , وكلام الصحابة , أو أكثرهم
@@ -359,30 +359,30 @@
 فذلك ثمانية وأربعون ميلاً) ، وروى ابن عيينة , عن عمرو بن دينار , عن عطاء
 قلت لابن عباس: أقصر إلى منى أوعرفة؟ قال: لا , ولكن إلى الطائف , أو جدة ,
 أو عسفان , فإذا وردت على ماشية لك , أو أهل؛ فأتم الصلاة. وهذا الأثر قد اعتمده
-أحمد والشافعي. قال ابن حزم: من عسفان إلى <placeName change="#d2e120" xml:id="placeName_23.d2e924">مكة</placeName> بسير الخلفاء الراشدين اثنان
-وثلاثون ميلاً.. قال: وأخبرنا الثقاة أن من جدة إلى <placeName change="#d2e120" xml:id="placeName_24.d2e929">مكة</placeName> أربعين ميلاً. (قلت) :
+أحمد والشافعي. قال ابن حزم: من عسفان إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_23.d2e924" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> بسير الخلفاء الراشدين اثنان
+وثلاثون ميلاً.. قال: وأخبرنا الثقاة أن من جدة إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_24.d2e929" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أربعين ميلاً. (قلت) :
 نهيه عن القصر إلى منى وعرفة قد يكون لمن يقصد ذلك لحاجة , ويرجع من يومه
-إلى <placeName change="#d2e120" xml:id="placeName_25.d2e937">مكة</placeName> حتى يوافق ذلك ما تقدم من الروايات عنه , ويؤيد ذلك أن ابن عباس لا يخفى
-عليه أن أهل <placeName change="#d2e120" xml:id="placeName_26.d2e942">مكة</placeName> كانوا يقصرون خلف النبي صلى الله عليه وسلم , وأبي بكر , وعمر
+إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_25.d2e937" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> حتى يوافق ذلك ما تقدم من الروايات عنه , ويؤيد ذلك أن ابن عباس لا يخفى
+عليه أن أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_26.d2e942" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> كانوا يقصرون خلف النبي صلى الله عليه وسلم , وأبي بكر , وعمر
 في الحج إذا خرجوا إلى عرفة , ومزدلفة.
 وابن عباس من أعلم الناس بالسنة , فلا يخفى عليه مثل ذلك , وأصحابه
 المكيون كانوا يقصرون في الحج إلى عرفة , ومزدلفة , كطاوس , وغيره , وابن
 عيينة نفسه الذي روى هذا الأثر عن ابن عباس كان يقصر إلى عرفة في الحج , وكان
-أصحاب ابن عباس كطاوس يقول أحدهم: أترى الناس - يعني أهل <placeName change="#d2e120" xml:id="placeName_27.d2e956">مكة</placeName> - صلوا في
+أصحاب ابن عباس كطاوس يقول أحدهم: أترى الناس - يعني أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_27.d2e956" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> - صلوا في
 الموسم خلاف صلاة رسول الله صلى الله عليه وسلم.
-وهذه حجة قاطعة , فإنه من المعلوم أن أهل <placeName change="#d2e120" xml:id="placeName_28.d2e964">مكة</placeName> لما حجوا معه كانوا خلقًا
+وهذه حجة قاطعة , فإنه من المعلوم أن أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_28.d2e964" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> لما حجوا معه كانوا خلقًا
 كثيرًا , وقد خرجوا معه إلى منى يصلون خلفه , وإنما صلى بمنى أيام منى قصرًا ,
-والناس كلهم يصلون خلفه، أهل <placeName change="#d2e120" xml:id="placeName_29.d2e971">مكة</placeName> , وسائر المسلمين , لم يأمر أحدًا منهم أن يتم
+والناس كلهم يصلون خلفه، أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_29.d2e971" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> , وسائر المسلمين , لم يأمر أحدًا منهم أن يتم
 صلاته , ولم ينقل ذلك أحد لا بإسناد صحيح , ولا ضعيف , ثم أبو بكر , وعمر
-بعده كانا يصليان في الموسم بأهل <placeName change="#d2e120" xml:id="placeName_30.d2e979">مكة</placeName> , وغيرهم كذلك , ولا يأمران أحدًا بإتمام،
-مع أنه قد صح عن عمر بن الخطاب أنه لما صلى ب<placeName change="#d2e120" xml:id="placeName_31.d2e984">مكة</placeName> قال: (يا أهل <placeName change="#d2e120" xml:id="placeName_32.d2e987">مكة</placeName> , أتموا
+بعده كانا يصليان في الموسم بأهل <placeName change="#d2e120 #d11e288" xml:id="placeName_30.d2e979" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> , وغيرهم كذلك , ولا يأمران أحدًا بإتمام،
+مع أنه قد صح عن عمر بن الخطاب أنه لما صلى ب<placeName change="#d2e120 #d11e288" xml:id="placeName_31.d2e984" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> قال: (يا أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_32.d2e987" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> , أتموا
 صلاتكم؛ فإنا قوم سفر) , وهذا أيضًا مروي عن النبي صلى الله عليه وسلم في
-أهل <placeName change="#d2e120" xml:id="placeName_33.d2e995">مكة</placeName> عام الفتح لا في حجة الوداع , فإنه في حجة الوداع لم يكن يصلي ب<placeName change="#d2e120" xml:id="placeName_34.d2e998">مكة</placeName> ,
+أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_33.d2e995" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> عام الفتح لا في حجة الوداع , فإنه في حجة الوداع لم يكن يصلي ب<placeName change="#d2e120 #d11e288" xml:id="placeName_34.d2e998" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ,
 بل كان يصلي بمنزله , وقد رواه أبو داود وغيره , وفي إسناده مقال.
 والمقصود أن من تدبر صلاة النبي صلى الله عليه وسلم بعرفة , ومزدلفة ,
-ومنى بأهل <placeName change="#d2e120" xml:id="placeName_35.d2e1008">مكة</placeName> , وغيرهم , وأنه لم ينقل مسلم قط عنه أنه أمرهم بإتمام؛ علم قطعًا
+ومنى بأهل <placeName change="#d2e120 #d11e288" xml:id="placeName_35.d2e1008" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> , وغيرهم , وأنه لم ينقل مسلم قط عنه أنه أمرهم بإتمام؛ علم قطعًا
 أنهم كانوا يقصرون خلفه , وهذا من العلم العام الذي لا يخفى على ابن عباس , ولا
-غيره , ولهذا لم يعلم أحد من الصحابة أمر أهل <placeName change="#d2e120" xml:id="placeName_36.d2e1015">مكة</placeName> أن يتموا خلف الإمام إذا صلى
+غيره , ولهذا لم يعلم أحد من الصحابة أمر أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_36.d2e1015" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أن يتموا خلف الإمام إذا صلى
 ركعتين , فدل هذا على أن ابن عباس إنما أجاب به من سأله إذا سافر إلى منى , أو
 عرفة سفرًا لا ينزل فيه بمنى وعرفة , بل يرجع من يومه , فهذا لا يقصر عنده؛
 لأنه قد بين أن من ذهب , ورجع من يومه لا يقصر , وإنما يقصر من سافر يومًا ,
@@ -400,7 +400,7 @@
 (للكلام بقية)
 ((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_2.d2e1053">(1) كذا بالأصل.
 (2) كذا بالأصل.
-(3) أي لم يأمروا أهل <placeName change="#d2e120" xml:id="placeName_37.d2e1059">مكة</placeName> بالإتمام؛ لأنهم يعدون في منى مسافرين.
+(3) أي لم يأمروا أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_37.d2e1059" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> بالإتمام؛ لأنهم يعدون في منى مسافرين.
 (4) أي: ليصلوا الجمعة.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_2.d2e1065">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_4.d2e1067" ref="oape:pers:3107">أحمد بن تيمية</persName>
          </byline></div>
@@ -503,7 +503,7 @@
 خصوم معاوية غير النزيهين , ومن أعداء الأمويين كذلك , فلا يوثق بها أصلاً.
 فإن عمر بن الخطاب رضي الله عنه , وكان من الفراسة بمكان لا يلحق،
 وكان يعلم من حال معاوية أكثر مما يعرفه غيره، فلو كان يظن به الهوادة في أدنى
-شيء لما ولاه أعظم قطر وهو <placeName change="#d2e120" xml:id="placeName_38.d2e1278">الشام</placeName> بعد موت أخيه يزيد , وقد تركه في منصبه
+شيء لما ولاه أعظم قطر وهو <placeName change="#d2e120 #d11e288" xml:id="placeName_38.d2e1278" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> بعد موت أخيه يزيد , وقد تركه في منصبه
 بقية حياته - أي: حياة عمر - التي تزيد على أربع سنين.
 وناهيك بشدة عمر على عماله , وما كان يعاملهم به من المراقبة الشديدة ,
 ومحاسبتهم على النقير , والقطمير , وكثرة عزلهم من وظائفهم لأقل سبب، وقد
@@ -578,7 +578,7 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_4.d2e1426">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_5.d2e1428">محاضرة مستر كراين
 عن جزيرة العرب - </head>
-<p change="#d2e120" xml:id="p_2.d2e1433">أو - <placeName change="#d2e120" xml:id="placeName_39.d2e1435">الحجاز</placeName> واليمن
+<p change="#d2e120" xml:id="p_2.d2e1433">أو - <placeName change="#d2e120 #d11e288" xml:id="placeName_39.d2e1435" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> واليمن
 في جمعية الرابطة الشرقية
 (2)
 
@@ -586,14 +586,14 @@
 (مدينة سواكن)
 زرت بعض المواني الواقعة على الشاطئ الغربي من البحر الأحمر , وكان
 القصد من هذه الزيارة مشاهدة مدينة (سواكن) القديمة التي اعتاد الحجاج أن يأتوا
-إليها من قبل إفريقية؛ ليبحروا منها إلى <placeName change="#d2e120" xml:id="placeName_40.d2e1453">مكة</placeName> وكانت قديمًا بلدة تجارية عظيمة ,
+إليها من قبل إفريقية؛ ليبحروا منها إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_40.d2e1453" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وكانت قديمًا بلدة تجارية عظيمة ,
 ولكنها اليوم خالية خاوية. ولا تمر بعض السنين عليها حتى تنعق فيها البوم
 والغربان، وذلك بسبب مزاحمة بور سودان ومصوع لها، ويوجد في ضاحيتها
 قريتان من القش , وأصل سكانهما من الحجاج الذين انقطعوا في الطريق , ولم
-يصلوا لا إلى <placeName change="#d2e120" xml:id="placeName_41.d2e1465">مكة</placeName> ولا إلى بلادهم، وكانت علامات الفقر الشديد بادية عليهم , فلا
+يصلوا لا إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_41.d2e1465" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ولا إلى بلادهم، وكانت علامات الفقر الشديد بادية عليهم , فلا
 زراعة , ولا صناعة لهم , ولا هم يتقنون كأهل الساحل صيد الأسماك.
 ***
-(الكلام على <placeName change="#d2e120" xml:id="placeName_42.d2e1475">اليمن</placeName>)
+(الكلام على <placeName change="#d2e120 #d11e288" xml:id="placeName_42.d2e1475" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>)
 (من الحديدة إلى صنعاء)
 ذهبت من مصوع إلى الحديدة ميناء صنعاء , وقد أعد لي الإمام جميع أسباب
 الراحة , واستقبلني حاكم الحديدة أحسن استقبال.
@@ -602,11 +602,11 @@
 يختلف كثيرًا عنه في نجد لوجود جبال عالية بين صنعاء والحديدة.
 ركبنا في رحلتنا البغال؛ لأن البغال تسلك حيث لا تسلك الخيل ولا الجمال ,
 وبعد ما انقضى على سفرنا من الحديدة يومان ابتدأنا نشاهد هندسة البناء في اليمن
-تختلف اختلافًا كليًّا عن هندسة البناء في <placeName change="#d2e120" xml:id="placeName_43.d2e1497">الحجاز</placeName> , وقد شاهدنا في طريقنا حقول
+تختلف اختلافًا كليًّا عن هندسة البناء في <placeName change="#d2e120 #d11e288" xml:id="placeName_43.d2e1497" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> , وقد شاهدنا في طريقنا حقول
 شجر البن في بطون الجبال والوديان.
-إن هندسة البناء في جدة , و<placeName change="#d2e120" xml:id="placeName_44.d2e1505">مكة</placeName> متقنة , وجميلة، وتدل نوافذها الكثيرة
+إن هندسة البناء في جدة , و<placeName change="#d2e120 #d11e288" xml:id="placeName_44.d2e1505" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> متقنة , وجميلة، وتدل نوافذها الكثيرة
 الواسعة , وأبوابها الكبيرة التي تفتح , وتغلق بسهولة على حب القوم للضيافة،
-وعلى عراقتهم في المدنية , وميلهم إلى ضبط الأمن، بعكس <placeName change="#d2e120" xml:id="placeName_45.d2e1512">اليمن</placeName> التي تدل عزلة
+وعلى عراقتهم في المدنية , وميلهم إلى ضبط الأمن، بعكس <placeName change="#d2e120 #d11e288" xml:id="placeName_45.d2e1512" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> التي تدل عزلة
 قراها , وانفرادها في الأماكن العالية الوعرة التي لا يصل الإنسان إليها إلا بصعوبة
 على خوف اليمانيين من غزو بعضهم بعضًا , وعلى عدم استتباب الأمن [1] وتشبه
 أبنية هذه القرى القلاع الحصينة , والدور الأول منها يخصص للحيوانات , والدور
@@ -614,17 +614,17 @@
 الأدوار الباقية , وهي عادة اثنان فما فوق؛ فتخصص للسكن , ونوافذها صغيرة جدًّا
 لا يكاد يدخل منها الهواء , ولا النور , وجميع هذه الأعمال تدل أن تلك الأبنية على
 هذا الشكل؛ قصد الدفاع عن النفس.
-ومن المعلوم أن القطرين <placeName change="#d2e120" xml:id="placeName_46.d2e1533">اليمن</placeName> و<placeName change="#d2e120" xml:id="placeName_47.d2e1536">الحجاز</placeName> يختلف بعضهما عن بعض اختلافًا
-عظيمًا , ففي <placeName change="#d2e120" xml:id="placeName_48.d2e1541">الحجاز</placeName> سهول واسعة , وصحار مقفرة , وأما <placeName change="#d2e120" xml:id="placeName_49.d2e1544">اليمن</placeName> , ففيه الجبال
+ومن المعلوم أن القطرين <placeName change="#d2e120 #d11e288" xml:id="placeName_46.d2e1533" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> و<placeName change="#d2e120 #d11e288" xml:id="placeName_47.d2e1536" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> يختلف بعضهما عن بعض اختلافًا
+عظيمًا , ففي <placeName change="#d2e120 #d11e288" xml:id="placeName_48.d2e1541" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> سهول واسعة , وصحار مقفرة , وأما <placeName change="#d2e120 #d11e288" xml:id="placeName_49.d2e1544" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> , ففيه الجبال
 المرتفعة , والوديان المنخفضة [2] , وتختلف الحياة الاجتماعية فيهما اختلافًا عظيمًا ,
 فالحجاز المقدس بنظر المسلمين تأتيه الحجاج من جميع أطراف المعمورة سنويًّا؛
-لقضاء مناسك الحج , ولذلك ترى أهل <placeName change="#d2e120" xml:id="placeName_50.d2e1554">الحجاز</placeName> مضطرين بحكم الضرورة إلى ضمان
+لقضاء مناسك الحج , ولذلك ترى أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_50.d2e1554" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> مضطرين بحكم الضرورة إلى ضمان
 راحة سكان الأرض , وقلما يأتيها الزوار , أو السياح , وأهلها يخشى بعضهم من
 بعض , ويخشون الدسائس التي يدسها لهم جيرانهم؛ فلذلك تراهم معتادين شظف
 العيش , ومعتصمين بالقلاع في رؤوس الجبال.
 على أن الإمام أعد لي جميع وسائل السفر , وكنت أينما حللت بالمساء؛ أجد
 غرفة معدة لنزولي بها , ولكنني اضطررت أحيانًا إلى النزول في بعض الخانات
-القديمة الواقعة على طريق القوافل بين عدن و<placeName change="#d2e120" xml:id="placeName_51.d2e1570">القدس</placeName>.
+القديمة الواقعة على طريق القوافل بين عدن و<placeName change="#d2e120 #d11e288" xml:id="placeName_51.d2e1570" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>.
 ولهذه الخانات أبواب , ولكن لا نوافذ لها , وفيها ممر طويل , وغرفة واسعة
 خصص قسم منها بالحيوانات , والقسم الآخر بالعائلة صاحبة الخان , وبديهي أن
 كثيرًا من الأولاد يولدن في هذه الخانات , وقد خطر لي عند ما رأيتها أن المسيح
@@ -681,7 +681,7 @@
 المقامات الصغرى في حكومته.
 ***
 (الضرائب)
-أهل <placeName change="#d2e120" xml:id="placeName_52.d2e1697">اليمن</placeName> من ذوي الفقر والبؤس الشديد، ولكنهم لانزوائهم في بقعتهم ,
+أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_52.d2e1697" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> من ذوي الفقر والبؤس الشديد، ولكنهم لانزوائهم في بقعتهم ,
 وانحباسهم عن العالم الخارجي لا يشعرون بهذه الحال.
 وإن المرء ليأخذه العجب: كيف يستطاع في هذه الفاقة أن تفرض الضرائب
 على اليمنيين , وتجبى إلى الحد المؤذن بإقامة حكومة , ولا سيما في تجهيز جيش
@@ -692,7 +692,7 @@
 وإنهم لذلك متألمون ناقمون.
 ***
 (المباني)
-قل أن ترى في مباني <placeName change="#d2e120" xml:id="placeName_53.d2e1724">اليمن</placeName> ما يقل عن ست من الطباق (أو الأدوار) , وأما
+قل أن ترى في مباني <placeName change="#d2e120 #d11e288" xml:id="placeName_53.d2e1724" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> ما يقل عن ست من الطباق (أو الأدوار) , وأما
 البناء فعلى درجة عظيمة من مخالفات الجمال , ولم أر إلا القليل مما يدل على حسن
 الذوق سواء أكان في هيئة البناء , أو مواده , أم في ملابس الناس وغنائهم , وإنما
 يستثنى من ذلك بناء الجوامع , فإن منها عددًا يبدو فيه شيء من الجمال النسبي
@@ -703,12 +703,12 @@
 ***
 (تعرفي إلى الناس)
 لم يكد يستقر بي المقام في صنعاء حتى بادر إلى زيارتي الجم الغفير من أهلها،
-وكلما أردت أن أدرس وجهًا من وجوه حياة <placeName change="#d2e120" xml:id="placeName_54.d2e1751">اليمن</placeName> كان أمري ينتشر بين الطبقات ,
+وكلما أردت أن أدرس وجهًا من وجوه حياة <placeName change="#d2e120 #d11e288" xml:id="placeName_54.d2e1751" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> كان أمري ينتشر بين الطبقات ,
 فكان يوافيني واحد , أو جماعة من أهل ذلك الشأن , فقابلت الرؤساء , والبنائين ,
 والتجار , ورجال العسكرية , ولا سيما العلماء , وفيهم القاضي الكبير الذي يحمل
 سمة المسلم التاريخي القديم , وبلغ بيننا التعرف مبلغه حتى أقبل لزيارتي المرار
 العديدة.
-ولقب (القاضي) في <placeName change="#d2e120" xml:id="placeName_55.d2e1765">اليمن</placeName> له معنى خاص؛ فإنه يطلق عادة على طائفة
+ولقب (القاضي) في <placeName change="#d2e120 #d11e288" xml:id="placeName_55.d2e1765" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> له معنى خاص؛ فإنه يطلق عادة على طائفة
 ممتازة من جميع طلاب العلم , كما أن كلمة (شيخ) تستعمل كذلك في الشمال.
 ***
 (سبأ وسد مأرب)
@@ -735,7 +735,7 @@
 لم ينقض على نزولي صنعاء عدة أيام حتى ورد نبأ بمجيء ابن الإمام ولي
 عهد إمامته بعد يوم واحد , وكان غائبًا عنها ثلاث سنين على رأس فرقة من الجند
 في القسم الشمالي من البلاد - أي (صعدة) - حيث يتشعب الطريق شعبتين:
-إحداهما تتجه إلى <placeName change="#d2e120" xml:id="placeName_56.d2e1827">مكة</placeName> , والأخرى إلى نجد، فكانت عودته بالطبع حادثة ذات شأن ,
+إحداهما تتجه إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_56.d2e1827" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> , والأخرى إلى نجد، فكانت عودته بالطبع حادثة ذات شأن ,
 فخرجت إلى بعد خمسة أميال من المدينة مع أكثر الأهالي , ولا سيما الجيش ,
 وقفتا لاستقبال القادم الكريم على أحسن ما يقال في الإجلال , والاحتفال مما يدل
 على سمو مكانة ذلك الشاب عند عامة الشعب , ذلك أن الإمام إنما يرتقي سدة
@@ -745,8 +745,8 @@
 والعزم , ودلائل الجد في الأعمال على شخصية جذابة , ولكنها على صورة أضعف
 من شخصية والده العظيم.
 (للكلام بقية)
-((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_4.d2e1851">(1) المنار: إنما كان أكثر خوف أهل <placeName change="#d2e120" xml:id="placeName_57.d2e1853">اليمن</placeName> من الترك الذين ظلوا يغزونهم أربع قرون.
-(2) في <placeName change="#d2e120" xml:id="placeName_58.d2e1858">الحجاز</placeName> من الجبال والوديان مثل ما في <placeName change="#d2e120" xml:id="placeName_59.d2e1861">اليمن</placeName> , وإنما الفرق بين القطرين أن <placeName change="#d2e120" xml:id="placeName_60.d2e1864">اليمن</placeName> قطر كثير النبات والشجر خلاف <placeName change="#d2e120" xml:id="placeName_61.d2e1868">الحجاز</placeName>.
+((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_4.d2e1851">(1) المنار: إنما كان أكثر خوف أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_57.d2e1853" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> من الترك الذين ظلوا يغزونهم أربع قرون.
+(2) في <placeName change="#d2e120 #d11e288" xml:id="placeName_58.d2e1858" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من الجبال والوديان مثل ما في <placeName change="#d2e120 #d11e288" xml:id="placeName_59.d2e1861" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> , وإنما الفرق بين القطرين أن <placeName change="#d2e120 #d11e288" xml:id="placeName_60.d2e1864" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> قطر كثير النبات والشجر خلاف <placeName change="#d2e120 #d11e288" xml:id="placeName_61.d2e1868" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>.
 (3) المنار: كذا في نسخة الترجمة التي أخذناها من الرابطة الشرقية , والصواب: الأكثرية الساحقة من سكان تلك السواحل شافعيون , ويندر وجود الزيدية فيها.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_4.d2e1874">الكاتب: <persName change="#d2e141 #d2e120" xml:lang="ar" xml:id="persName_6.d2e1876">مستر كراين</persName>
          </byline></div>
@@ -869,10 +869,10 @@
 مفتش معارف فلسطين، وعضو المجمع العلمي العربي في الشام
 
                
-ألقيت في دار الجمعية الجغرافية الملكية ب<placeName change="#d2e120" xml:id="placeName_62.d2e2134">القاهرة</placeName> العربية
+ألقيت في دار الجمعية الجغرافية الملكية ب<placeName change="#d2e120 #d11e288" xml:id="placeName_62.d2e2134" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> العربية
 وشاعرها الأكبر أحمد شوقي بك
-ليست دار العربية رمال الدهناء , أو هضبات نجد , أو <placeName change="#d2e120" xml:id="placeName_63.d2e2142">الحجاز</placeName> , أو إقليم
-الشام , أو أرض <placeName change="#d2e120" xml:id="placeName_64.d2e2147">العراق</placeName> , بل دارها كل مكان ينطق بالضاد أهله، ويتلو فيه كتاب
+ليست دار العربية رمال الدهناء , أو هضبات نجد , أو <placeName change="#d2e120 #d11e288" xml:id="placeName_63.d2e2142" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> , أو إقليم
+الشام , أو أرض <placeName change="#d2e120 #d11e288" xml:id="placeName_64.d2e2147" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> , بل دارها كل مكان ينطق بالضاد أهله، ويتلو فيه كتاب
 محمد - صلوات الله عليه - قراؤه.
 وأقوى القوم عربية بل العرب العرباء أعرفهم بأدب العربية , فأهل مصر إذًا
 هم القبيل المقدم في العربية , وهم سادات العرب.
@@ -884,7 +884,7 @@
 ذات مدنية (* إن العلا تعدي *) كما قال أبو تمام، وقد سطر أيوب الصابر بها في
 ذلك الزمان سفره , أو قصيدته (كما قال فولتير في المعجم الفلسفي) وسفر أيوب
 أجمل سفر في التوراة، وأيوب العربي كهومير هو من أكبر شعراء العالم.
-ثم جاءت هذه اللغة مواطن <placeName change="#d2e120" xml:id="placeName_65.d2e2176">الحجاز</placeName> (وكم في الهجرات من خيرات) , فنشأها
+ثم جاءت هذه اللغة مواطن <placeName change="#d2e120 #d11e288" xml:id="placeName_65.d2e2176" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> (وكم في الهجرات من خيرات) , فنشأها
 الدهر هنا أفضل تنشئة , وهذبها خير تذهيب.
 وإن البيئة التي أخرجت في الدنيا عظيمها هي التي جلت لغته , ولن تكون
 لغة ذلك العظيم لغة محمد صلى الله عليه وسلم إلا عظيمة. على أن قد تخبث البيئة
@@ -967,7 +967,7 @@
 في كل أرض وطئتها أمم <gap resp="#org_MS" change="#d2e120" xml:id="gap_19.d2e2372"/> ترعى بعبد كأنها غنم
 وقعد رهين المحبسين في كسر بيته:
 يكفيك حزنًا ذهاب الصالحين معاً <gap resp="#org_MS" change="#d2e120" xml:id="gap_20.d2e2379"/> وأننا بعدهم في الأرض قطان
-إن <placeName change="#d2e120" xml:id="placeName_66.d2e2383">العراق</placeName> وإن <placeName change="#d2e120" xml:id="placeName_67.d2e2386">الشام</placeName> مذ زمن <gap resp="#org_MS" change="#d2e120" xml:id="gap_21.d2e2389"/> صفران ما بهما (للعدل) سلطان
+إن <placeName change="#d2e120 #d11e288" xml:id="placeName_66.d2e2383" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وإن <placeName change="#d2e120 #d11e288" xml:id="placeName_67.d2e2386" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> مذ زمن <gap resp="#org_MS" change="#d2e120" xml:id="gap_21.d2e2389"/> صفران ما بهما (للعدل) سلطان
 ساس الأنام شياطين مسلطة <gap resp="#org_MS" change="#d2e120" xml:id="gap_22.d2e2394"/> في كل قطر من الوالين شيطان
 من ليس يحفل خمص الناس كلهم <gap resp="#org_MS" change="#d2e120" xml:id="gap_23.d2e2398"/> إن بات يشرب خمرًا وهو مبطان
 متى يقوم (زعيم) يستقيد لنا <gap resp="#org_MS" change="#d2e120" xml:id="gap_24.d2e2402"/> فتعرف العدل أجيال وغيطان
@@ -1145,8 +1145,8 @@
 قبحه.
 ولقد أبهج كل أديب عربي أن عرف المجددون في مصر كيف يجددون , وأي
 دين في التجدد يتبعون.
-إن لم تكن <placeName change="#d2e120" xml:id="placeName_68.d2e2814">القاهرة</placeName> حاضرة الأمم العربية السياسية , و {يَمْحُو اللَّهُ مَا يَشَاءُ
-وَيُثْبِتُ وَعِندَهُ أُمُّ الكِتَابِ} (الرعد: 39) , فإن <placeName change="#d2e120" xml:id="placeName_69.d2e2819">القاهرة</placeName> حاضرة الأمم اللغوية، ملك
+إن لم تكن <placeName change="#d2e120 #d11e288" xml:id="placeName_68.d2e2814" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> حاضرة الأمم العربية السياسية , و {يَمْحُو اللَّهُ مَا يَشَاءُ
+وَيُثْبِتُ وَعِندَهُ أُمُّ الكِتَابِ} (الرعد: 39) , فإن <placeName change="#d2e120 #d11e288" xml:id="placeName_69.d2e2819" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> حاضرة الأمم اللغوية، ملك
 الشعر فيها (شوقي) , والأقاليم العربية في المشرق والمغرب قاطبة من أعمالها،
 وأدباؤها عماله، وأهلها رعية إحسانه.
 وإن لهذا الملك علينا السمع، وإن لنا عليه الإجادة في القول، وقد (والله)
@@ -1175,9 +1175,9 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_45.d2e2877"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_46.d2e2879"/> (إسعاف النشاشيبي) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_6.d2e2881">(1) في الأصل: إله.
 (2) الشغربية , وبالزاي: اعتقال المصارع رجله برجل خصمه , وصرعه إياه بذلك.
-(3) حمَّر بتشديد الميم: تكلم بالحميرية , وظفار: بلد ب<placeName change="#d2e120" xml:id="placeName_70.d2e2887">اليمن</placeName>.
+(3) حمَّر بتشديد الميم: تكلم بالحميرية , وظفار: بلد ب<placeName change="#d2e120 #d11e288" xml:id="placeName_70.d2e2887" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>.
 (4) اجتافه: دخل في جوفه.
-(5) الِمسرَّة - بكسر الميم وتشديد الراء -: آلة المسارة , والمراد بها التلفون , وقد قلت في آخر قصيدتي الشرقية التي نظمتها , وأنا تلميذ ب<placeName change="#d2e120" xml:id="placeName_71.d2e2895">طرابلس الشام</placeName> منذ ثلث قرن:
+(5) الِمسرَّة - بكسر الميم وتشديد الراء -: آلة المسارة , والمراد بها التلفون , وقد قلت في آخر قصيدتي الشرقية التي نظمتها , وأنا تلميذ ب<placeName change="#d2e120 #d11e288" xml:id="placeName_71.d2e2895" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> منذ ثلث قرن:
 تتلى فيطرب من بالضاد ينطق من <gap resp="#org_MS" change="#d2e120" xml:id="gap_47.d2e2903"/> أرجاء فاس إلى القطر العماني
 كأنما أنا أشدو بالمسرة أو <gap resp="#org_MS" change="#d2e120" xml:id="gap_48.d2e2907"/> 
                   <gap resp="#org_MS" change="#d2e120" xml:id="gap_49.d2e2910"/> أملي على رب سلك كهربائي
@@ -1205,7 +1205,7 @@
 
                
 (س7 10) جاءتنا الأسئلة الآتية من صاحب الفضيلة الشيخ عبد القادر
-الشيبي رئيس سدنة البيت الحرام ب<placeName change="#d2e120" xml:id="placeName_73.d2e2952">مكة المكرمة</placeName>، فرأينا وقد تم باب الفتوى من هذا
+الشيبي رئيس سدنة البيت الحرام ب<placeName change="#d2e120 #d11e288" xml:id="placeName_73.d2e2952" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName>، فرأينا وقد تم باب الفتوى من هذا
 الجزء أن ننشرها هنا مع الأجوبة عنها هنا؛ ليطلع عليها حجاج هذا العام.
 بسم الله الرحمن الرحيم
 صاحب السماحة مولانا العالم العلامة السيد محمد رشيد رضا دام فضله آمين
@@ -1215,7 +1215,7 @@
 مأجورين ولكم الثواب من رب العباد.
 (ج) يحل ما يعطى عن طيب نفس بغير طلب إجماعًا، وأما الطلب
 وسؤال ما ليس بحق للسائل , فهو مذموم لغير المضطر، وسنفصل القول في ذلك
-فيما نجيب به عن السؤال الرابع , وهو فتاوى بعض مفتي <placeName change="#d2e120" xml:id="placeName_74.d2e2977">مكة المكرمة</placeName> في المسألة.
+فيما نجيب به عن السؤال الرابع , وهو فتاوى بعض مفتي <placeName change="#d2e120 #d11e288" xml:id="placeName_74.d2e2977" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> في المسألة.
 (2) هل من يتناولنا بالتشنيع والتنقيد في وظيفتنا؛ لتقديم ناس وتأخير ناس
 آخرين في دخول البيت المشرف كما تقتضيه الحالة، وفيما يصلنا من الزوار، هل
 على ولاة الأمر منع المتعرضين والمنتقدين؛ لما رواه يونس عن الزهري، عن
@@ -1240,12 +1240,12 @@
 الذي نرجوكم أن ترشدونا إليه ليكون عملنا عليه. ولكم الثواب.
 وهذا نصها:
 بسم الله الرحمن الرحيم وبه نستعين
-صورة سؤال قدم لمفاتي <placeName change="#d2e120" xml:id="placeName_75.d2e3034">مكة</placeName> المكرمة
+صورة سؤال قدم لمفاتي <placeName change="#d2e120 #d11e288" xml:id="placeName_75.d2e3034" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المكرمة
 ما قول العلماء الأعلام في ولاية الكعبة المعظمة , وخدمتها , وما يوجد فيها،
 وما يهدى لها , وما تكسى به خارجها وداخلها، وفتحها وإغلاقها، وما يأخذونه من
 النذور , وزوارها , والهدايا , ونحو ذلك؟ , هل يجوز لبني شيبة أخذه، ولا
 يشاركهم أحد في خدمتها أم لا؟ أفتونا مأجورين.
-فأجاب حضرة العلامة السيد عبد الله المرغني مفتي <placeName change="#d2e120" xml:id="placeName_76.d2e3048">مكة المكرمة</placeName> بقوله:
+فأجاب حضرة العلامة السيد عبد الله المرغني مفتي <placeName change="#d2e120 #d11e288" xml:id="placeName_76.d2e3048" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> بقوله:
 الحمد لله رب العالمين، رب زدني علمًا، اللهم يا من لا هادي لنا سواك،
 أنطقنا بما فيه رضاك، فليعلم السائل أرشدنا الله وإياه للصواب، ووفقنا لما جاءت
 به السنة ونطق به الكتاب، أنه يختص بما ذكر بنو شيبة الموجودون الآن وإلى يوم
@@ -1268,14 +1268,14 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_54.d2e3093"/> كتبه المفتقر عبد الله بن محمد المرغني
 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_55.d2e3097"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_56.d2e3099"/> مفتي <placeName change="#d2e120" xml:id="placeName_77.d2e3101">مكة المكرمة</placeName> كان الله لهما حامدًا مستغفرًا مصليًا مسلمًا
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_56.d2e3099"/> مفتي <placeName change="#d2e120 #d11e288" xml:id="placeName_77.d2e3101" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> كان الله لهما حامدًا مستغفرًا مصليًا مسلمًا
 وأفتى في عين هذا السؤال حضرة العلامة الشيخ جمال الحنفي مفتي مكة
 المكرمة بقوله: سدانة البيت الشريف خدمته , وتولي أمره , وفتح بابه وغلقه،
 فسدنتها هم خدمتها، ومن يتولى أمرها الشيبيون العبدريون الثابت نسبهم ما بقي
 الزمان، وتوالى الملوان، المتصل نسبهم إلى ابن أبي طلحة , وأبو طلحة اسمه
 عبد الله بن عبد العزيز بن عثمان بن عبد الدار بن قصي القرشي العبدري الثابتة
 لهم هذه المباشرة الشريفة جاهلية وإسلامًا كما دلت عليه الأحاديث الصحيحة، وقد
-صح أن النبي صلى الله عليه وسلم حين أخذ المفتاح من عثمان يوم فتح <placeName change="#d2e120" xml:id="placeName_78.d2e3120">مكة</placeName> حتى
+صح أن النبي صلى الله عليه وسلم حين أخذ المفتاح من عثمان يوم فتح <placeName change="#d2e120 #d11e288" xml:id="placeName_78.d2e3120" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> حتى
 ظن عثمان أن النبي صلى الله عليه وسلم لا يدفعه إليه , وقال العباس بن عبد
 المطلب: بأبي أنت وأمي يا رسول الله أعطنا المفتاح مع السقاية فأنزل الله تعالى:
 {إِنَّ اللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا الأَمَانَاتِ إِلَى أَهْلِهَا} (النساء: 58) , قال عمر رضي
@@ -1304,7 +1304,7 @@
 فمن فعل شيئًا من ذلك استحق الطرد والإبعاد، والخزي، والنكال من رب العباد؛
 لدخوله في سلك من ظلم، والله أعلم.
 أمر برقمه راجي لطف ربه الخفي جمال بن عبد الله شيخ عمر الحنفي.
-مفتي <placeName change="#d2e120" xml:id="placeName_79.d2e3186">مكة المكرمة</placeName> كان الله لهما حامدًا مصليًا مسلمًا.
+مفتي <placeName change="#d2e120 #d11e288" xml:id="placeName_79.d2e3186" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> كان الله لهما حامدًا مصليًا مسلمًا.
 وأفتى في عين هذه المسألة حضرة الشيخ عبد الله سراج الحنفي مفتي مكة
 المكرمة بقوله: الحمد لله على نعمة الإيجاد والإمداد , والصلاة والسلام على من
 حث على حفظ أمانة العباد.
@@ -1333,12 +1333,12 @@
 مفتاح الكعبة , فلهم تغييبه كما رواه الفاكهي , عن جبير بن مطعم أن رسول الله
 صلى الله عليه وسلم لما ناول المفتاح إلى عثمان قال: (غيبوه) .
 قال الزهري: فلذلك يغيب المفتاح , ولا يجوز عزل صاحب المفتاح , ولو
-كان غير مرضي الحال كما صرح به مفاتي <placeName change="#d2e120" xml:id="placeName_80.d2e3252">مكة</placeName> المشرفة؛ لأنها وظيفة من الله ,
+كان غير مرضي الحال كما صرح به مفاتي <placeName change="#d2e120 #d11e288" xml:id="placeName_80.d2e3252" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المشرفة؛ لأنها وظيفة من الله ,
 ورسوله , فيا لها من مزية لا تقاس بوظيفة , أو قضية! والله أعلم.
 قال بفمه , وأمر برقمه خادم الشريعة , والمناهج عبد الله سراج الحنفي.
-وأفتى بما يؤيد ذلك ابنه العلامة الشيخ عبد الرحمن سراج مفتي <placeName change="#d2e120" xml:id="placeName_81.d2e3261">مكة</placeName> المكرمة
+وأفتى بما يؤيد ذلك ابنه العلامة الشيخ عبد الرحمن سراج مفتي <placeName change="#d2e120 #d11e288" xml:id="placeName_81.d2e3261" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المكرمة
 بقوله: قد اطعلت على ما أجاب به والدي عبد الله سراج الحنفي , وما أجاب به
-شيخي الشيخ جمال بن عبد الله مفتي الأحناف ب<placeName change="#d2e120" xml:id="placeName_82.d2e3269">مكة</placeName> , والعلامة السيد عبد الله
+شيخي الشيخ جمال بن عبد الله مفتي الأحناف ب<placeName change="#d2e120 #d11e288" xml:id="placeName_82.d2e3269" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> , والعلامة السيد عبد الله
 المرغني؛ فوجدته هو الحق والصواب , ولا يعول على سواه , وجوابي كما أجابوا
 والله سبحانه وتعالى أعلم.
 كتبه خادم الشرعية والمنهاج عبد الرحمن بن عبد الله سراج الحنفي مفتي مكة
@@ -1350,7 +1350,7 @@
 الدار موالي ليس لهم مولى دون الله، والله ورسوله مولاهم) ، قال أبو عيسى: هذا
 حديث حسن صحيح.
 وما أشار إليه العلامة الشيخ عبد الله سراج في فتواه السابقة إلى قول المحقق
-مفتي <placeName change="#d2e120" xml:id="placeName_83.d2e3298">مكة المكرمة</placeName> في القرن العاشر العلامة ابن ظهيرة في فتواه ما نصه بلفظه: إذا
+مفتي <placeName change="#d2e120 #d11e288" xml:id="placeName_83.d2e3298" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> في القرن العاشر العلامة ابن ظهيرة في فتواه ما نصه بلفظه: إذا
 اختلف حجبة البيت بما جرت به العادة، هل يقضى لهم بتقديم أكبرهم، وربما كان
 غير مرضي الحال؟ يقضي للأكبر , وإن كان غير مرضي الحال، وإنما يجعل
 معهم مشرفًا منهم، والقضاء بما جرت به العادة تشهد له بمسائل كثيرة لا تقاس
@@ -1359,7 +1359,7 @@
 البيت) , ولما رواه يونس , عن الزهري , عن سالم , عن أبيه قال: أخبرني بلال
 وعثمان بن طلحة أن النبي صلى الله عليه وسلم قال: (إن لله بيتًا فاحترموه
 واحترموا السدنة) ، وأيضًا أخرج الحافظ ابن حجر في شرح البخاري عند دخول
-النبي صلى الله عليه وسلم من أعلا <placeName change="#d2e120" xml:id="placeName_84.d2e3321">مكة</placeName>: روى ابن عابد من طريق ابن جريح أن
+النبي صلى الله عليه وسلم من أعلا <placeName change="#d2e120 #d11e288" xml:id="placeName_84.d2e3321" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>: روى ابن عابد من طريق ابن جريح أن
 عليًّا قال للنبي صلى الله عليه وسلم: اجمع لنا الحجابة والسقاية؛ فنزلت: {إِنَّ
 اللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا الأَمَانَاتِ إِلَى أَهْلِهَا} (النساء: 58) , فدعا عثمان , فقال:
 (خذوها يا بني شيبة خالدة تالدة لا ينزعها منكم إلا ظالم) ، وفي طريق علي بن أبي
@@ -1385,7 +1385,7 @@
 (وفيها) إبهام لبعض المسائل كتغييب مفتاح البيت , ومسألة تعليل رفع بابه من
 عهد الجاهلية، هذه المسائل باختصار , فنقول:
 (أما السدانة) فهي حق بني شيبة بلا نزاع , وقد ثبت ذلك بالعمل المتواتر،
-وقد شذ في بعض القرون بعض أمراء <placeName change="#d2e120" xml:id="placeName_85.d2e3380">مكة</placeName> بأخذ مفتاح البيت الحرام من الشيخ
+وقد شذ في بعض القرون بعض أمراء <placeName change="#d2e120 #d11e288" xml:id="placeName_85.d2e3380" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> بأخذ مفتاح البيت الحرام من الشيخ
 الشيبي , فكان ذلك في نظر الناس أمرًا إمرًا، وشيئا نُكرًا، ولم يطل الأمد على
 ذلك حتى ردت الأمانة إلى أهلها وقد فصلت هذه المسألة في الرحلة الحجازية
 الأولى , وذكرت بعض الأحاديث الواردة فيها معزوة إلى مخرجيها , وهي في
@@ -1423,7 +1423,7 @@
 حرموا ذلك؟ وقد يقال: إن ذلك الكنز كان من أموال المشركين في الجاهلية ,
 وما ذكروه من الهدايا والنذور في عهد الإسلام يخالفه في حكمه , فيجب صرفه فيما
 وقف , أو نذر له , وهو مصالح البيت وحدها.
-وقد روى الأزرقي في تاريخ <placeName change="#d2e120" xml:id="placeName_86.d2e3471">مكة</placeName> أن النبي صلى الله عليه وسلم وجد في
+وقد روى الأزرقي في تاريخ <placeName change="#d2e120 #d11e288" xml:id="placeName_86.d2e3471" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أن النبي صلى الله عليه وسلم وجد في
 الجب الذي كان في الكعبة سبعين ألف أوقية من ذهب مما كان يهدى للبيت، فقال
 له علي رضي الله عنه: (يا رسول الله لو استعنت بهذا المال على حربك! فلم
 يحركه) .
@@ -1431,7 +1431,7 @@
 يتصرفوا ببعض النذور التي جرى بها العرف.
 ننقل الفروع الثلاثة الآتية منها عن كتاب (الجامع اللطيف، في فضل مكة
 وأهلها وبناء البيت الشريف) للشيخ جمال الدين محمد جاد الله القريشي المخزومي
-الحنفي من علماء <placeName change="#d2e120" xml:id="placeName_87.d2e3492">مكة</placeName> في القرن العاشر قال: فروع:
+الحنفي من علماء <placeName change="#d2e120 #d11e288" xml:id="placeName_87.d2e3492" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> في القرن العاشر قال: فروع:
 (الأول) تختص الكعبة الشريفة بما يهدى إليها , وما ينذر لها من الأموال ,
 وامتناع صرف شيء منها إلى الفقراء , والمصالح إلا أن يعرض لها نفسها عمارة ,
 فيصرف فيه , وإلا فلا يغير شيء عن وجهه.
@@ -1475,7 +1475,7 @@
 من ذلك، وعلى كل تقدير؛ فهو تحبيس (أي: وقف) لا نظير له , فلا يقاس عليه
 انتهى.
 (ثم قال الحافظ) عقب نقل هذا: (ولم أر في شيء من طريق حديث شيبة
-(أي: مع عمر) هذا ما يتعلق بالكسوة , إلا أن الفاكهي روى في كتاب <placeName change="#d2e120" xml:id="placeName_88.d2e3590">مكة</placeName> من
+(أي: مع عمر) هذا ما يتعلق بالكسوة , إلا أن الفاكهي روى في كتاب <placeName change="#d2e120 #d11e288" xml:id="placeName_88.d2e3590" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> من
 طريق علقمة بن أبي علقمة، عن أمه، عن عائشة رضي الله عنها قالت: دخل
 علي شيبة الحجبي , فقال: يا أم المؤمنين , إن ثياب الكعبة تجتمع عندنا؛ فننزعها ,
 ونحفر بئرًا , فنعمقها , وندفنها؛ لكي لا تلبسها الحائض والجنب. قالت:
@@ -1511,14 +1511,14 @@
 القاهرة على كسوة الكعبة سنة 243 , ومن ذلك العهد تصنع الكسوة في مصر في
 كل عام، وهل العبارة في القسطلاني له وهو قد توفي في سنة 923 , أم للأسنوي ,
 وهو قد توفي سنة 772؟ , الأظهر الأول، والحالة واحدة.
-وفي الجامع اللطيف: نقل الفاسي رحمه الله أن أمراء <placeName change="#d2e120" xml:id="placeName_89.d2e3671">مكة</placeName> كانوا يأخذون من
+وفي الجامع اللطيف: نقل الفاسي رحمه الله أن أمراء <placeName change="#d2e120 #d11e288" xml:id="placeName_89.d2e3671" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> كانوا يأخذون من
 السدنة ستارة باب الكعبة في كل سنة مع جانب كبير من كسوتها , أو ستة آلاف
 درهم كاملة عوضًا عن ذلك إلى أن رفع ذلك عنهم السيد عنان بن مقاس لما ولي
-أمر <placeName change="#d2e120" xml:id="placeName_90.d2e3681">مكة</placeName> سنة 788 , وتبعه أمراء <placeName change="#d2e120" xml:id="placeName_91.d2e3684">مكة</placeName> في الغالب، ثم إن السيد حسن بن عجلان
+أمر <placeName change="#d2e120 #d11e288" xml:id="placeName_90.d2e3681" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> سنة 788 , وتبعه أمراء <placeName change="#d2e120 #d11e288" xml:id="placeName_91.d2e3684" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> في الغالب، ثم إن السيد حسن بن عجلان
 بعد سنين من ولايته صار يأخذ منهم الستارة , وكسوة المقام , ويهديها لمن يريد من
 الملوك , وغيرهم. انتهى (أي: كلام الفاسي) , وقد استمر الأمر كذلك من أمراء
 مكة إلى يومنا هذا (أي: سنة 950) اهـ.
-وأقول: إن أمراء <placeName change="#d2e120" xml:id="placeName_92.d2e3696">مكة</placeName> صاروا يأخذون الكسوة العتيقة كل سنة , ويتصرفون
+وأقول: إن أمراء <placeName change="#d2e120 #d11e288" xml:id="placeName_92.d2e3696" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> صاروا يأخذون الكسوة العتيقة كل سنة , ويتصرفون
 فيها إلى عهد الملك حسين بن علي , ثم ردها الملك عبد العزيز بن السعود إلى
 الشيبي.
 ثم أورد صاحب الجامع اللطيف فروعًا في المسألة، أولها في مسألتنا وهو:
@@ -1588,7 +1588,7 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_8.d2e3832">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_9.d2e3834">دعوة مفسدي الرافضة
 يحيَى إلى قتال ابن السعود </head>
-<p change="#d2e120" xml:id="p_2.d2e3839">وأهلَ <placeName change="#d2e120" xml:id="placeName_93.d2e3841">الحجاز</placeName> إلى الثورة
+<p change="#d2e120" xml:id="p_2.d2e3839">وأهلَ <placeName change="#d2e120 #d11e288" xml:id="placeName_93.d2e3841" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إلى الثورة
 
                
 ننشر هذه الأبيات الآتية من قصيدة نشرتها <bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e273">جريدة <title level="j" change="#d11e273">حضرموت</title></bibl>  بإمضاء ابن
@@ -1607,18 +1607,18 @@
 ومن أتى جده الهادي وعترته <gap resp="#org_MS" change="#d2e120" xml:id="gap_66.d2e3894"/> من بعده ما بقوا بين الورى نعما
 نفسي الفداء لأهل البيت لا بقيت <gap resp="#org_MS" change="#d2e120" xml:id="gap_67.d2e3898"/> نفس إذا لم تسر في حبهم قدما
 يا ملجئي وأمير المؤمنين ومن <gap resp="#org_MS" change="#d2e120" xml:id="gap_68.d2e3902"/> نلقي عليه من الآمال ما عظما
-يا راعي <placeName change="#d2e120" xml:id="placeName_94.d2e3907">اليمن</placeName> الخضراء يملؤها <gap resp="#org_MS" change="#d2e120" xml:id="gap_69.d2e3910"/> تقًى وعدلاً وإيمانًا بها اعتصما
+يا راعي <placeName change="#d2e120 #d11e288" xml:id="placeName_94.d2e3907" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> الخضراء يملؤها <gap resp="#org_MS" change="#d2e120" xml:id="gap_69.d2e3910"/> تقًى وعدلاً وإيمانًا بها اعتصما
 يا تاج يعرب والإسلام قاطبة <gap resp="#org_MS" change="#d2e120" xml:id="gap_70.d2e3914"/> يا من يجير الحمى والدين والذمما
 ويا شديد العرى في كل نائبة <gap resp="#org_MS" change="#d2e120" xml:id="gap_71.d2e3919"/> أدعوك مولاي للأمر الذي قصما
 يا ابن النبي وأنت اليوم وارثه <gap resp="#org_MS" change="#d2e120" xml:id="gap_72.d2e3923"/> حتام يهدم في الإسلام من هدما
 حتام يعبث في قلب الجزيرة؟ لا <gap resp="#org_MS" change="#d2e120" xml:id="gap_73.d2e3927"/> خوف من الله لا صدق ولا شمما
 سكت للمعتدي يستن مندفعًا <gap resp="#org_MS" change="#d2e120" xml:id="gap_74.d2e3932"/> كيما يكون هو البادي الذي ظلمًا
-ثم قال يحث أهل <placeName change="#d2e120" xml:id="placeName_95.d2e3936">الحجاز</placeName> على الثورة تمهيدًا للزحف الموهوم:
-فلن يحل لكم در <placeName change="#d2e120" xml:id="placeName_96.d2e3941">الحجاز</placeName> وقد <gap resp="#org_MS" change="#d2e120" xml:id="gap_75.d2e3944"/> قنعتموا بالردى لا عزم لا همما
+ثم قال يحث أهل <placeName change="#d2e120 #d11e288" xml:id="placeName_95.d2e3936" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> على الثورة تمهيدًا للزحف الموهوم:
+فلن يحل لكم در <placeName change="#d2e120 #d11e288" xml:id="placeName_96.d2e3941" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وقد <gap resp="#org_MS" change="#d2e120" xml:id="gap_75.d2e3944"/> قنعتموا بالردى لا عزم لا همما
 بالله موتوا فقد ماتت شمائلكم <gap resp="#org_MS" change="#d2e120" xml:id="gap_76.d2e3949"/> ولا حياة لجسم يفقد الشيما
 أولاً فأحيوا زمانًا كنتمو شهبًا <gap resp="#org_MS" change="#d2e120" xml:id="gap_77.d2e3953"/> فيه وثوروا سراعًا واحملوا العلما
 كأنكم بأبي الأشبال سيدنا <gap resp="#org_MS" change="#d2e120" xml:id="gap_78.d2e3957"/> يحيى الإمام يقود البحر ملتطما
-كأنكم بحميد الدين يهتف في <gap resp="#org_MS" change="#d2e120" xml:id="gap_79.d2e3962"/> أكناف <placeName change="#d2e120" xml:id="placeName_97.d2e3964">مكة</placeName>: زال البؤس منتقما
+كأنكم بحميد الدين يهتف في <gap resp="#org_MS" change="#d2e120" xml:id="gap_79.d2e3962"/> أكناف <placeName change="#d2e120 #d11e288" xml:id="placeName_97.d2e3964" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>: زال البؤس منتقما
 من خلفه ضيغم الفتيان أحمد قد <gap resp="#org_MS" change="#d2e120" xml:id="gap_80.d2e3969"/> خاض العجاج ففر الخصم وانهزما
 وخلص البيت مما قد أحاط به <gap resp="#org_MS" change="#d2e120" xml:id="gap_81.d2e3974"/> ورد للعرب والإسلام ما عدما <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_8.d2e3976">(1) مفهوم هذا الاستدارك أن الإمام الذي يدعوه , وجماعته ليسوا من المسلمين! ! .</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_8.d2e3979">الكاتب: <persName change="#d2e141 #d2e120" xml:lang="ar" xml:id="persName_10.d2e3981">ابن زمزم</persName>
@@ -1634,7 +1634,7 @@
 
                
 تعددت الأخبار من سورية بأن كثير من حجاج الشيعة الإيرانيين قد وفدوا
-عليها في طريقهم إلى <placeName change="#d2e120" xml:id="placeName_98.d2e4002">الحجاز</placeName> عصيانًا لحكومتهم في طاعة الله تعالى.
+عليها في طريقهم إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_98.d2e4002" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> عصيانًا لحكومتهم في طاعة الله تعالى.
 وذلك أن هؤلاء الحجاج قد رأوا أن الأراجيف التي نشرت في العام الماضي
 لمنع الشيعة من الحج كانت كاذبة خاطئة، فالوهابيون لم يسألوا أحدًا من الحجاج
 عن مذهبه , ولا عن حجه , ولا كلفوا أحدًا اتباع مذهبهم , والبلاد كلها آمنة مطمئنة ,

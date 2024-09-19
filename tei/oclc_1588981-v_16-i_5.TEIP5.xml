@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_16-i_5.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_16-i_5.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e298">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_16-i_5.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_16-i_5.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1331">1331</date><date calendar="#cal_gregorian" when="1913" xml:lang="ar">مايو - 1913م</date></imprint>
                   <biblScope unit="volume" from="16" to="16" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">16</biblScope>
                   <biblScope unit="issue" from="5" to="5" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">5</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e298" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -162,9 +162,9 @@
 المجاز باعتبار ما كان عليه، وأما المجاز الآخر فمثاله قول من تجهز لسفر من بلده
 وعزم عليه، وقد طلب منه أن يعمل عملاً لا يعمله إلا المقيم: إنني مسافر فلا
 أستطيع أن أعمل بهذا العمل. ولم يقل أحد: إن السفر عبارة عن الحركة والانتقال
-بين البلاد، وقد أقام النبي صلى الله عليه وسلم في <placeName change="#d2e120" xml:id="placeName_4.d2e470">مكة</placeName> عام حجة الوداع عشرًا وهو
+بين البلاد، وقد أقام النبي صلى الله عليه وسلم في <placeName change="#d2e120 #d11e298" xml:id="placeName_4.d2e470" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> عام حجة الوداع عشرًا وهو
 يقصر. رواه الشيخان وغيرهما، وأقام فيها عام الفتح تسعة عشر يومًا يقصر الصلاة
-ويأمر أهلها بالإتمام ويقول: (يا أهل <placeName change="#d2e120" xml:id="placeName_5.d2e477">مكة</placeName>، أتموا صلاتكم فإننا قوم سفر) رواه
+ويأمر أهلها بالإتمام ويقول: (يا أهل <placeName change="#d2e120 #d11e298" xml:id="placeName_5.d2e477" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، أتموا صلاتكم فإننا قوم سفر) رواه
 مالك في الموطأ. وأقام بتبوك عشرين يومًا يقصر أيضًا، رواه أحمد وأبو داود.
 فكان غير مسافر حقيقة على رأي الشوكاني بل مجازًا، وإذًا يثبت القصر في السفر
 المجازي فلمَ لم يقل به؟ وليراجع السائل تتمة هذا البحث في تفسيرنا لقوله تعالى:
@@ -346,7 +346,7 @@
 يحكمون بينهم، وكذلك سائر المصالح؛ لأنها تتوقف على فهم كل فريق من الآخر،
 ودع عصبية الأجناس التي أثارها الاتحاديون فيهم.
 (3) أن أهل هذه المملكة مختلفون في الأديان والمذاهب والعادات والأخلاق
-اختلافًا كبيرًا بحيث إن أكثر مسلمي العرب كأهل <placeName change="#d2e120" xml:id="placeName_6.d2e863">الحجاز</placeName> و<placeName change="#d2e120" xml:id="placeName_7.d2e867">اليمن</placeName> ونجد لا يقبلون
+اختلافًا كبيرًا بحيث إن أكثر مسلمي العرب كأهل <placeName change="#d2e120 #d11e298" xml:id="placeName_6.d2e863" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> و<placeName change="#d2e120 #d11e298" xml:id="placeName_7.d2e867" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> ونجد لا يقبلون
 أن يُحكم بينهم بالقوانين التي يرضى بها مسلمو الترك، بل يعدون الحكم بها كفرًا
 يجب قتال الحكومة التي تقرره عند القدرة على ذلك، فإذًا لا يستقيم الأمر بجعل
 الإدارة والقضاء والتعليم في كل بلاد موافقًا لحالها، وهذا هو أساس اللامركزية.
@@ -384,13 +384,13 @@
 الغرب وولايات الدولة الأوربية التي انقدَّتْ منها أولا فتألفت منها عدة ممالك،
 والولايات التي انفصلت منها في هذا العام أو هذه الأيام بقوة تلك الولايات التي
 صارت ممالك قوية بعد استقلالها، هل كانت هذه الولايات الزائلة وأمثالها مما
-أخذته روسية والنمسة تدار على قطب اللامركزية، أم كانت - ما عدا <placeName change="#d2e120" xml:id="placeName_8.d2e952">طرابلس</placeName> - أشد
+أخذته روسية والنمسة تدار على قطب اللامركزية، أم كانت - ما عدا <placeName change="#d2e120 #d11e298" xml:id="placeName_8.d2e952" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> - أشد
 الولايات اتصالاً بالمركز ومعهدًا ومقرًّا لكل ما فيه من القوة؟ فإذا كانت الحكومة
 المركزية الشديدة لم تمنع أقرب الولايات إلى المركز العام وأشدها اتصالاً به من
 استيلاء أضعف الأجانب عليها، فكيف تقدر أن تمنع الولايات البعيدة عن المركز
 كالعراق وسورية أن تستولي عليها الدول الكبرى كإنكلترة وفرنسة؟ .
 كان يمكنني أن أكتفي بهذا، ولكنني أفرض أن الدولة - أعزها الله وأصلحها -
-يمكنها أن تحمي سورية من فرنسة و<placeName change="#d2e120" xml:id="placeName_9.d2e968">العراق</placeName> من إنكلترة بأساطيلها وجيوشها البرية
+يمكنها أن تحمي سورية من فرنسة و<placeName change="#d2e120 #d11e298" xml:id="placeName_9.d2e968" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> من إنكلترة بأساطيلها وجيوشها البرية
 التي تتدفق من المركز العام في طرف المملكة الأقصى، أفرض هذا فأقول: ما الذي
 يمنعها من هذه الحماية إذا كانت إدارة البلاد بأيدي أهلها وهم عثمانيون تابعون لها
 على كل حال؟ ، وما يطلبونه من اللامركزية الإدارية لا يخرج قوة البلاد العسكرية
@@ -420,7 +420,7 @@
 وراثة لسلف صالح، ولا كان الاستبداد الذي يفسد البشر أخف وطأة عليهم، بل
 ربما كان أشد؛ لأن نفوذ الحكومة الاستبدادية كان عامًّا فيهم شاملاً لهم، ولم يعم
 البلاد العربية كلها، فلا يزال فيها ملايين عجز الظلم عن التسلق إليهم، وتضاءل
-الاستبداد أن ينال منهم، ومن دونهم ملايين آخرون (أهل <placeName change="#d2e120" xml:id="placeName_10.d2e1036">اليمن</placeName>) وقفوا في وجوه
+الاستبداد أن ينال منهم، ومن دونهم ملايين آخرون (أهل <placeName change="#d2e120 #d11e298" xml:id="placeName_10.d2e1036" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>) وقفوا في وجوه
 جيشه وقفة القرن للقرن، وكانت الحرب بينهما سجالاً مدة أربعة قرون.
 ثم إن للتاريخ سريانه فيها قريب، وهو في الولايات التركية أصيل قديم.
 نعم إن العاصمة البزنطية التي كانت تكتفي في الأجيال الخالية بأن يكون لها
@@ -511,7 +511,7 @@
 أعضاء مجلس الأمة المبعوثين من الموافقين لرأيه ليقرروه في المجلس، فأي شاغل
 للدولة في هذا عن الحرب؟ وأي مانع فيها يمنع نظارة الحربية من القيام بما يجب
 عليها في قتال أعدائها؟ وهل كان تقصيرها فيما يجب عليها ناشئًا عن اشتغالها
-بهذا الحزب؟ لا لا وأما طلاب الإصلاح في <placeName change="#d2e120" xml:id="placeName_11.d2e1237">بيروت</placeName> و<placeName change="#d2e120" xml:id="placeName_12.d2e1240">الشام</placeName> و<placeName change="#d2e120" xml:id="placeName_13.d2e1243">البصرة</placeName> فقد طلبوا
+بهذا الحزب؟ لا لا وأما طلاب الإصلاح في <placeName change="#d2e120 #d11e298" xml:id="placeName_11.d2e1237" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> و<placeName change="#d2e120 #d11e298" xml:id="placeName_12.d2e1240" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> و<placeName change="#d2e120 #d11e298" xml:id="placeName_13.d2e1243" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> فقد طلبوا
 من الحكومة ما رأوه مرجوًّا لبلادهم ولم يهددوها بثورة ولا عصيان ولا امتنناع
 عما أوجبته عليهم من الضرائب والعشور، بل لم يجتمعوا أولاً لطلب الإصلاح إلا
 بإذن الحكومة، فهل يقول عاقل: إن هذا يشغل الدولة عن الحرب أو يمنعها
@@ -535,7 +535,7 @@
 المتفرنجون في أثناء الصلح وعقبه إلى بيع مرافق البلاد العربية وغيرها للدول
 الكبرى الطامعة فيها بإعطائهم الحقوق والامتيازات وتوسيع دائرة نفوذهم، بل
 وبوضع إدارتها تحت مراقبتهم، وهو ما تطلبه الدول وتسميه الفتح السلمي، وعلى
-هذا الوجه باع حقي باشا <placeName change="#d2e120" xml:id="placeName_14.d2e1298">طرابلس الغرب</placeName> لإيطالية فاستخفها الغرور قبل التنفيذ وبعد
+هذا الوجه باع حقي باشا <placeName change="#d2e120 #d11e298" xml:id="placeName_14.d2e1298" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> لإيطالية فاستخفها الغرور قبل التنفيذ وبعد
 مقدماته بإخلاء البلاد من العسكر والسلاح إلى محاولة أخذها بالفتح الحربي، وهذا
 السمسار يطوف العواصم الآن لأجل البيع، ولو نجح طلاب اللامركزية لامتنع عليه
 هذا البيع؛ لأن برنامجهم لا يجيز إعطاء امتياز فيها ولا بيع شيء منها ولا
@@ -609,7 +609,7 @@
 النبوات القديمة كعادتهم وتوهم الكاتب بدون بحث ولا تحقيق - لشيوع الجهل إذ
 ذاك - قدرة الناس على هذه المعجزات؛ لكثرة ادعائهم لها في تلك الأزمنة بشيء
 من الشعوذة أو التأثير العصبي على عامة الناس ليثبتوا صدق النبوات الماضية
-القائلة بحصولها في زمن المسيح وزمن أتباعه [3] فامتلاؤهم بروح <placeName change="#d2e120" xml:id="placeName_15.d2e1447">القدس</placeName> وتكلمهم
+القائلة بحصولها في زمن المسيح وزمن أتباعه [3] فامتلاؤهم بروح <placeName change="#d2e120 #d11e298" xml:id="placeName_15.d2e1447" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> وتكلمهم
 بألسنة جديدة قال عنه يوئيل (2: 28 - 30، راجع أيضًا أع 2: 16 - 19)
 وعدم أذية الحيات وغيرها لهم وسلامتهم من كل سوء، ذكره كتاب أشعياء (11:
 8 و65: 25) والمزامير (91: 13) وغيرهما، وشفاؤهم المرضى ذكره
@@ -746,7 +746,7 @@
 فكيف لم يروِ هذا الخبر أحد منهم مطلقًا في الأناجيل أو في الرسائل أو غيرها وبقي
 سرًّا مكتومًا بينهم حتى أفشته رسالة بولس هذه؟ وإن كان هذا الخبر وصل بولس
 بالوحي فلمَ لم يوحَ به إلى غيره ليدونه؟ وما هذا الوحي الذي يكثرون من ادعائه
-لكل نصراني في القرن الأول؟ وإذا كانت روح <placeName change="#d2e120" xml:id="placeName_16.d2e1751">القدس</placeName> توهب لكل شخص من
+لكل نصراني في القرن الأول؟ وإذا كانت روح <placeName change="#d2e120 #d11e298" xml:id="placeName_16.d2e1751" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> توهب لكل شخص من
 المؤمنين (أع 8: 14 - 20 و19: 1-7) بمجرد وضع اليد عليه فما حاجة
 الناس إذًا لهؤلاء الرسل الكثيرين وكتاباتهم ولرسائل بولس وغيره الطويلة العريضة
 إذا كانوا كلهم أنبياء متمثلين من روح الله؟
@@ -765,11 +765,11 @@
 12) إلخ إلخ.
 فلولا عبارة يوئيل السابقة 2: 28 - 13) في انسكاب روح الله على كل
 بشر، وكثرة تنبؤ الناس في آخر الزمان لما جعل كاتب سفر الأعمال جميع
-النصارى الأولين أنبياء، ولما صاغ كل هذه القصص في نزول روح <placeName change="#d2e120" xml:id="placeName_17.d2e1795">القدس</placeName> عليهم
+النصارى الأولين أنبياء، ولما صاغ كل هذه القصص في نزول روح <placeName change="#d2e120 #d11e298" xml:id="placeName_17.d2e1795" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> عليهم
 وتنبئهم، فهو في هذه المسألة أيضًا لم يخرج عما ألِفوه من عادة اختراع الحكايات
 لتطبيق النبوات عليهم. فهل مثل هذه الكتب يصح أن تعتبر تاريخية يؤخذ بما فيها
 ويعول عليها، وهي كما بينا مرارًا لم تخلُ في كل ما كُتب فيها من الأهواء
-والأغراض؟ ولماذا لا تنزل عليهم روح <placeName change="#d2e120" xml:id="placeName_18.d2e1807">القدس</placeName> الآن؟ وأين ذهبت معجزاتهم
+والأغراض؟ ولماذا لا تنزل عليهم روح <placeName change="#d2e120 #d11e298" xml:id="placeName_18.d2e1807" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> الآن؟ وأين ذهبت معجزاتهم
 وآياتهم العديدة وقد امتلأت أوربا وغيرها بالملحدين والمشككين وجماعة
 العقليين (Rationalists) وغيرهم؟ ولماذا لا تقدر النصارى على عمل الآيات
 والعجائب الآن كما وعدهم المسيح على زعمهم بقوله مثلاً (مر 17: 17) :
@@ -791,8 +791,8 @@
 (لو 24: 1 و13 و29 و 33 و44 -49) ثم صعد إلى السماء ورجعوا هم إلى
 أورشليم (عدد 51 و52) وبقطع النظر عن مناقضة لوقا نفسه في سفر الأعمال
 حيث جعل الصعود بعد أربعين يومًا من أورشليم (أع 1: 3و9) إلا أنه قال: إن
-المسيح أوصاهم أيضًا في آخر يوم أن لا يبرحوا أورشليم حتى تحل عليهم روح <placeName change="#d2e120" xml:id="placeName_19.d2e1861">القدس</placeName> (عدد 4 و8) فيستفاد من ذلك أن المسيح من أول يوم إلى آخر يوم أوصى
-تلاميذه بعدم مبارحة أورشليم إلا بعد حلول روح <placeName change="#d2e120" xml:id="placeName_20.d2e1867">القدس</placeName> عليهم. وهذه الروح لم
+المسيح أوصاهم أيضًا في آخر يوم أن لا يبرحوا أورشليم حتى تحل عليهم روح <placeName change="#d2e120 #d11e298" xml:id="placeName_19.d2e1861" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> (عدد 4 و8) فيستفاد من ذلك أن المسيح من أول يوم إلى آخر يوم أوصى
+تلاميذه بعدم مبارحة أورشليم إلا بعد حلول روح <placeName change="#d2e120 #d11e298" xml:id="placeName_20.d2e1867" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> عليهم. وهذه الروح لم
 تحل عليهم إلا يوم الخمسين أي بعد صعوده بنحو عشرة أيام (أع 2: 1-4)
 وعليه فهم لم يبرحوا أورشليم إلا بعد الصعود، فكيف إذًا قال متى: إن المسيح
 أمرهم بمبارحتها إلى الجليل وأنهم هناك رأوه؟ وكيف يمكن رفع هذا التناقض
@@ -814,13 +814,13 @@
 لا بد أن يكونوا من الذين يئسوا منه وتركوه بعد حادثة الصلب ورجعوا إلى بلادهم
 شاكِّين فيه حائرين، فكيف إذًا اجتمعوا في ذلك الوقت والمكان المعين، ولو لم يُروَ
 عن أحد منهم خبر هذه الرؤية؟ ولم فعلها المسيح بدون علم أعظم تلاميذه؟ ولم لم
-يُخبر بها الرسلَ حين ظهوره لهم؟ ولِمَ لم يخبرهم روح <placeName change="#d2e120" xml:id="placeName_21.d2e1917">القدس</placeName> بها بعد نزوله عليهم
+يُخبر بها الرسلَ حين ظهوره لهم؟ ولِمَ لم يخبرهم روح <placeName change="#d2e120 #d11e298" xml:id="placeName_21.d2e1917" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> بها بعد نزوله عليهم
 ليدونوها في الأناجيل؟ وكيف يقول متى (28: 16) إن الذين ذهبوا إلى الجليل
 ورأوه هناك كانوا هم الأحد عشر رسولاً ولم يشر إلى غيرهم، بل نص على أن
 بعض هؤلاء أيضًا شك في أن الذي رأوه هل هو المسيح أم لا؟ فكل هذه الأسباب
 تحملنا قطعًا على رد زعم بولس هذا، وعدم الاعتداد به مطلقًا.
 ومن تناقض كتبهم أيضًا في هذه المسألة - غير ما تقدم - قول يوحنا (20:
-22 و23) : إن المسيح وهبهم روح <placeName change="#d2e120" xml:id="placeName_22.d2e1934">القدس</placeName> في مساء اليوم الذي قام فيه (عدد 19)
+22 و23) : إن المسيح وهبهم روح <placeName change="#d2e120 #d11e298" xml:id="placeName_22.d2e1934" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> في مساء اليوم الذي قام فيه (عدد 19)
 مع قول لوقا: إنها لم تنزل عليهم إلا يوم الخمسين (أع 1: 4 و5 و2: 1 - 4
 ولو 24: 49) .
 ومن التناقض العجيب أن المسيح يطلب ليلاً من تلاميذه بعد قيامته أن يجسوه
@@ -855,25 +855,25 @@
 التلاميذ إلى الجليل إلى الجبل؛ ولما رأوه سجدوا له، ولكن بعضهم شكُّوا.
 وليس في إنجيل متى رؤية أخرى غير هذه وهي التي شك فيها بعضهم [9] .
 أما إنجيل يوحنا فإنه يذكر أنهم رأوه في أورشليم قبل الذهاب إلى الجليل
-مرتين وفي المرة الأولى منحهم الروح <placeName change="#d2e120" xml:id="placeName_23.d2e2013">القدس</placeName> (يو 20: 22) وفي الثانية أقنع
+مرتين وفي المرة الأولى منحهم الروح <placeName change="#d2e120 #d11e298" xml:id="placeName_23.d2e2013" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> (يو 20: 22) وفي الثانية أقنع
 توما الذي لم يره في المرة الأولى وكان شاكًّا فيه وأراه يده وجنبه حتى صدق كباقي
 التلاميذ (يو20: 20 و27) ولا ندري لماذا لم يذكر متى كل ذلك؟ وإذا كان
 التلاميذ رأوه في أورشليم المرة بعد المرة، كما قال سفر الأعمال: (1: 3) حتى
-اقتنعوا وزال عنهم كل شك وأعطوا الروح <placeName change="#d2e120" xml:id="placeName_24.d2e2024">القدس</placeName> - كما قال يوحنا - أي صاروا
+اقتنعوا وزال عنهم كل شك وأعطوا الروح <placeName change="#d2e120 #d11e298" xml:id="placeName_24.d2e2024" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> - كما قال يوحنا - أي صاروا
 أنبياء ملهمين، فكيف بعد ذلك شكوا فيه لما رأوه في الجليل على ما قال متى (28:
 17) الذي يفهم منه أنها كانت أول رؤية لهم ولذلك شك بعضهم فيها، وإذا كان
-المسيح هو الذي وهبهم روح <placeName change="#d2e120" xml:id="placeName_25.d2e2034">القدس</placeName> بنفسه قبل أن فارقهم، فما معنى قول إنجيل لوقا
+المسيح هو الذي وهبهم روح <placeName change="#d2e120 #d11e298" xml:id="placeName_25.d2e2034" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> بنفسه قبل أن فارقهم، فما معنى قول إنجيل لوقا
 (24: 49) وقول سفر الأعمال: إن المسيح أوصاهم أن لا يبرحوا أورشليم حتى
 تحل عليهم وأنها حلت عليهم بعد صعوده يوم الخمسين، كما هو صريح الإصحاح
 الأول والثاني من الأعمال كما سبق بيانه؟
 وإذا صح تفسيرهم لعبارة البارقليط التي في إنجيل يوحنا وأن المراد بها روح
 القدس هذه كما يزعمون، فما معنى قول المسيح (16: 7) لكني أقول لكم الحق:
 إنه خير لكم أن أنطلق؛ لأنه إن لم أنطلق لا يأتيكم المعزى (البارقليط) ولكن
-إن ذهبت أرسله إليكم. فإذا كانت روح <placeName change="#d2e120" xml:id="placeName_26.d2e2052">القدس</placeName> لا تنزل عليهم إلا إذا انطلق ولا
+إن ذهبت أرسله إليكم. فإذا كانت روح <placeName change="#d2e120 #d11e298" xml:id="placeName_26.d2e2052" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> لا تنزل عليهم إلا إذا انطلق ولا
 يرسلها إليهم إلا بعد ذهابه، فكيف إذًا أرسلها إليهم قبل صعوده كما قال نفس
 إنجيل يوحنا؟ (20: 22) ألا يدل ذلك على صحة قولنا في كتاب (دين الله ص
 
-               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_3.d2e2062">118 -120</hi>) أن البارقليط هو غير روح <placeName change="#d2e120" xml:id="placeName_27.d2e2065">القدس</placeName> [10] وأن المراد به محمد صلى الله
+               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_3.d2e2062">118 -120</hi>) أن البارقليط هو غير روح <placeName change="#d2e120 #d11e298" xml:id="placeName_27.d2e2065" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> [10] وأن المراد به محمد صلى الله
 عليه وسلم كما بيناه هناك؟ ولماذا كان انطلاق المسيح ونزول الروح خيرًا للتلاميذ
 من بقاء عيسى بينهم مع أنه لو بقي لأمكنه أن يعلمهم كل شيء علمه لهم روح القدس
 على حد سواء؛ إذ كل منهما أقنوم إلهي يعلم كل شيء كما يدعون؟ أليس في ذلك
@@ -1076,7 +1076,7 @@
 ((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_3.d2e2505">(1) ذهب بعض مفسريهم الآن لرفع الخلاف بين إنجيل يوحنا ومرقس (15: 25) في ساعة الصلب إلى أن ساعة يوحنا رومانية وساعة مرقص عبرية، وقد رددنا على هذه الدعوى في رسالة الصلب (ص93 و94) ونزيد الآن أن الباحثين في تواريخ الأمم قد عرفوا خطأ هذه الدعوى مطلقًا، فإن الرومانيين لم يكونوا يعدون ساعاتهم كما يعدها الإفرنج الآن، وإنما كانوا يعدونها من شروق الشمس، واليهود من الغروب كالعرب راجع كتاب (التوراة غير موثوق بها، تأليف Walter Jekyll ص86) وعليه فتفسيرهم لهذه المسألة منقوض من أوله إلى آخره ومبني على الخطأ والجهل، وقياس القديم بالحاضر في عادات الأمم، وما دامت كتبهم مملوءة بالخطأ والتناقض والتحريف والتبديل والزيادة والنقصان في المسائل الطفيفة وغير الطفيفة، وما داموا يسلِّمون بخطأ النساخ الكثير فيها بل بالزيادة عمدًا حتى في بعض العقائد المهمة كما في رسالة يوحنا الأولى (5: 7 و8) فكيف بعد ذلك يمكنا أن نقطع بشيء فيها أو نجزم بأنه من قول المسيح أو تلاميذه وأنه لم يزد خطًأ أو عمدًا وخصوصًا لأن أقدم ما عندهم من النسخ لا يتجاوز - على قولهم - القرن الرابع (راجع كتاب صدق المسيحية لمؤلفه Turton ص 309 و310) ولا أدري إذا كان الله يريد أن تكون هذه الكتب هداية للبشر في كل زمان ومكان إلى يوم القيامة، فلم لم يصُنها عن كل ما حصل لها وما وقع فيها حتى تطمئن نفوس الناس إليها وخصوصًا أهلها الذين أصبحوا أشد الناس محاربة وإنكارًا لها؛ فالحق أن الله لم يرد ذلك، وإنما جعلها درجة تحضيرية تمهيدية للقرآن المصون من التحريف والتبديل كما وعد تعالى (قر 15: 9) والباقي إلى يوم القيامة (انظر كتاب دين الله ص 82 و83) فما حفظه الناس من تلك الكتب إنما كان كافيًا لهم إلى زمن القرآن.
 (2) قارن عبارة المسيح هذه بقول القرآن: (فَلَن تَجِدَ لِسُنَّتِ اللَّهِ تَبْدِيلاً وَلَن تَجِدَ لِسُنَّتِ اللَّهِ تَحْوِيلاً) (فاطر: 43) ونحوها كثير في القرآن، أول كتاب نص على أن نواميس الكون لا تتبدل ولا تتغير، فهي ليست خاضعة لصلاة فلان، ولا لدعاء علان، ولا لكلمة مخلوق مهما كان، حتى نفس يسوع ابن الإنسان.
 (3) جاء في تلمود اليهود أن أتباع عيسى كانوا في أواخر القرن الأول وأوائل الثاني يشفون المرضى باسم يسوع ويبرئون لسع الحيات بها أيضا، ويقول العهد الجديد: إنهم يُخرجون الشياطين أيضًا يخرجونها باسم سليمان وإلى الآن نرى بعض عامة المسلمين يدّعون الكرامات ويفعلونها باسم مشايخهم كالرفاعي وغيره، فيأكلون النار ويضربون أنفسهم بالسيف ويشربون السموم ويحملون الحيات باسمهم إلى غير ذلك من كراماتهم التي تشبه ما ذكر في العهد الجديد عن النصارى، ومع أن النصارى كانوا يستعملون اسم يسوع لإخراج الشياطين على زعمهم، انظر مثلاً (أع 16: 18 و19: 13 - 17) تراه هو نفسه يعترف بأنه إنما يخرجهم بروح الله (مت 12: 28) وأن كل أعماله هي باسم الله (يو 10: 25) وكان اليهود المعاصرون له لشدة جهلهم يقولون: إنه يخرجهم ببعلزبول رئيس الشياطين (مت 12: 24) لأنهم كانوا يظنون أن الأمراض التي كان عليه السلام يشفيها هي ناشئة عن الشياطين، فأمثال هذه الأوهام شائعة بين الناس الجهلة في كل زمان ومكان وخصوصًا في الأزمنة القديمة حتى صدقها بعض الخاصة كيوسيفوس المؤرخ الشهير الذي روى أنه شاهد شخصًا يسمى اليعيزر Eliezar اليهودي يخرج الشياطين بالقسم عليها باسم سليمان في حضرةالإمبراطور فسباسيان الذي توج سنة 69م Vespasian وبحضور أولاده وجيشه، وكان هذا الرجل يضع إناءً مملوءًا بالماء على بعد من المصاب ثم يأمر الشيطان بقلبه بعد خروجه من الإنسان وبذلك كان يظهر كما يقول يوسيفوس براعة سليمان وحكمته، وإلى الآن نرى بعض النساء في مصر حتى المسلمات يزرن صورة ماري جرجس وقبره في الكنيسة والنصرانيات قد يزرن بعض قبور أولياء المسلمين أيضا؛ والكل يزعمن أنهن شفين من أمراضهن وأوجاعهن وخرجت عفاريتهن.
-(4) يرى بعض علماء اللغات أن كلمة (الحواريين) في القرآن هي معربة عن الحبشية ومعناها فيها (الرسل) أو (المرسلون) سماهم بذلك القرآن إما بحسب العرف الجاري في ذلك الزمن بين نصارى العرب كما نسمي الآن دعاة النصرانية (بالمبشرين) ؛ وإما لأن المسيح أرسلهم في حياته لدعوة اليهود إلى المسيحية كما في الأناجيل راجع (متى 10: 1 - 15 ولوقا 9: 1-6 و10: 1-12) وكذلك كان رسول الله صلى الله عليه وسلم يرسل بعض أصحابه إلى بعض الجهات لتعليم الناس الدين والحكم بينهم وغير ذلك، كمعاذ بن جبل الذي أرسله إلى <placeName change="#d2e120" xml:id="placeName_28.d2e2513">اليمن</placeName>، وكانوا يسمون أيضًا رسل رسول الله والحكمة في اختيار القرآن هذه الكلمة الحبشية دون مرادفها بالعربية هي منع الالتباس لتكون عَلَمًا خاصًّا بهؤلاء التلاميذ الممتازين من أصحاب عيسى، والظاهر من نصوص القرآن أن إيمان بعضهم على الأقل لم يكن كما يجب وخصوصًا بعد عيسى، وأن الخلاف في مسائل الدين نشأ منذ عصرهم (راجع قر 3: 53 - 54 و5: 77 و112 و117 و19: 37 و43: 65 و61: 14) فطباعهم كانت كطباع أسلافهم قوم موسى، بل قد نص المسيح نفسه على أنه لم يكن عندهم إيمان مطلقًا (مت 17: 20) وقال لبطرس أيضًا (مت 14: 31) (يا قليل الإيمان) مع أنه أعظمهم، فما بالك
+(4) يرى بعض علماء اللغات أن كلمة (الحواريين) في القرآن هي معربة عن الحبشية ومعناها فيها (الرسل) أو (المرسلون) سماهم بذلك القرآن إما بحسب العرف الجاري في ذلك الزمن بين نصارى العرب كما نسمي الآن دعاة النصرانية (بالمبشرين) ؛ وإما لأن المسيح أرسلهم في حياته لدعوة اليهود إلى المسيحية كما في الأناجيل راجع (متى 10: 1 - 15 ولوقا 9: 1-6 و10: 1-12) وكذلك كان رسول الله صلى الله عليه وسلم يرسل بعض أصحابه إلى بعض الجهات لتعليم الناس الدين والحكم بينهم وغير ذلك، كمعاذ بن جبل الذي أرسله إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_28.d2e2513" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وكانوا يسمون أيضًا رسل رسول الله والحكمة في اختيار القرآن هذه الكلمة الحبشية دون مرادفها بالعربية هي منع الالتباس لتكون عَلَمًا خاصًّا بهؤلاء التلاميذ الممتازين من أصحاب عيسى، والظاهر من نصوص القرآن أن إيمان بعضهم على الأقل لم يكن كما يجب وخصوصًا بعد عيسى، وأن الخلاف في مسائل الدين نشأ منذ عصرهم (راجع قر 3: 53 - 54 و5: 77 و112 و117 و19: 37 و43: 65 و61: 14) فطباعهم كانت كطباع أسلافهم قوم موسى، بل قد نص المسيح نفسه على أنه لم يكن عندهم إيمان مطلقًا (مت 17: 20) وقال لبطرس أيضًا (مت 14: 31) (يا قليل الإيمان) مع أنه أعظمهم، فما بالك
 بغيره؟ ! .
 (5) يقال أن توما هذا سافر إلى جزائر الهند الشرقية ومات هناك (قاموس بوست مجلد اص295) ولعله كان في رحلته هذه مصاحبًا للمسيح عليه السلام في هجرته الهندية التي ذكرناها في مقالة الصلب (153 و154) وتوما هذا هو التلميذ الوحيد بحسب الأناجيل الحالية (يو 20: 25) الذي كان عارض التلاميذ في قولهم بقيامة المسيح، وله إنجيل يوناني ذكر معجزة خلق الطين طيرًا وغيرها مما ذكره القرآن، ولكن النصارى يرفضون هذا الإنجيل.
 (6) حاشية: لا حظ أن هذا الكلام وما يأتي مبني على فرض صحة نسبة هذه الكتب إلى من نسبت إليهم كما فرضنا ذلك في مقالة الصلب ولكن بعض علماء النقد في أوربا يرى الآن أن جلَّ هذه الكتب أو كلها منسوب إلى هؤلاء الناس كذبًا كصاحب كتاب (مصادر النصرانية) المستر توماس ويتاكر وغيره عديدون من محققي الإفرنج.
@@ -1086,7 +1086,7 @@
 التاريخية، ومن زاد هذه لا يبعد عليه أن يزيد غيرها في الأناجيل الأخرى كعبارة متى المتقدمة، وأما إنجيل لوقا ويوحنا فهما متأخران وما فيهما في هذه المسألة إنما هي أقاصيص راجت بين النصارى في القرون الأولى، وهي لا شك مختلقة بدليل أنها لو كانت موجودة في زمن الكاتب للإنجيل الأول أو الثاني لما تركاها بالمرة مع أنها في غاية الأهمية عند النصارى، بل لا يوجد عندهم أهم ولا أعظم منها لإثبات دعواهم قيامة المسيح من الموت على ما فيها من التناقض والتضارب الذي بيناه مرارًا ونحن وغيرنا من علماء الإفرنج المحققين، فليس عندنا إذًا سوى رواية واحدة قديمة تستحق أن ينظر فيها بشيء من العناية، وهي رواية إنجيل متى، فنقول: إن كانت هذه الرواية ليست مما أضافوه إلى الأناجيل وصادقة، فالذي يُفهم منها أن ظهور المسيح لم يكن جليًّا ولا واضحًا، ولذلك لم تقتنع به نفس تلاميذه، فيجوز أن الذي رأوه كان برقًا أو خيالاً في الأفق كالذي ينشأ مثلاً عن انكسار أشعة النور في تلك الجبال لم يسهل عليهم الوصول إلى مكانه، وكان الرجل قد غاب عن أعينهم فلم يعثروا عليه، ولذا لم يتحققوا إن كان هو المسيح أو غيره، ولذلك أظهر بعضهم شكه فيه، ومن العجيب أن متى مع ذكره ذلك وحده لم يبين لنا صريحًا إن كان التلاميذ الشاكون زال عنهم هذا الشك حينما قرب منهم - كما قال - الشخص الذي نظروه على بعد أم بقوا شاكين بعد ذلك طول حياتهم مُصرين على عدم التصديق؟ وما كان موقفه بالنسبة إليهم، وهل كان واقفًا على الأرض أم معلقًا في الهواء؟ وهل أمْره لهم بتعميد جميع الأمم (28: 19) سمعه جميع الحاضرين أم بعضهم فقط؟ وهل تكلموا معه في غير هذه المسألة؟ وماذا كان موضوع كلامهم الآخر؟ وهل كان صوته عين صوت المسيح الذي يعرفونه وألفاظه مفهومة أو مبهمة؟ وهل سجد الشاكون معهم أم لا؟ إلى غير ذلك من المسائل التي كان يجب على الكاتب تفصيلها حتى لا تبقى النفوس متعطشة للوقوف على الحقيقة، شاكة حائرة في أعظم عقائد دينهم؛ فالظاهر أن الكاتب تجنب مثل هذه التفاصيل لأنه كان قريب العهد بتابعي الحواريين، وربما أنه خاف أن يكذبه أحد، فهو لم يكن عنده من المهارة والجراءة والمعرفة بطباع الناس ما عند غيره وأما الأناجيل الأخرى فلم تخشَ أحدًا؛ لأن زمنها أبعد عن الوقت الذي قيل أن هذه الحوادث حدثت فيه، ولمعرفة كاتبيها بطباع أهل زمنهم أكثر من غيرهم، فقالت ما قالت، فيُرى من ذلك أن أقدم رواية عندهم يحوم حولها شيء كثير من الشك، هذا إذا سلم أنها صحيحة صادقة، وأما إذا كانت مخترعة فقول الكاتب فيها (مت 28: 17) (ولكن بعضهم شكوا) ، يريد به - كعادة المزورين الخادعين - أن يُظهر للناس أنه فيما قصّه عليهم خالٍ من كل غرض ويقول الحق ولو على نفسه، فهي طريقة من طرق حسن السبك معتادة بين القصاصين الأفاكين لإحكام تلفيقهم؛ وإن كان كاتبنا هذا قد فاتته بعض أشياء لازمة لإتمام حسن السبك لبساطته وجهله، وأيضًا فإنه يريد أن يُظهر أن التلاميذ لم يكونوا سريعي التصديق ولا ميالين لاعتقاد هذه المسائل بسهولة، بل كانوا مدققين نقادين حتى لم يبالوا بالشك في هذه المسألة، ولا بإظهار شكهم لإخوانهم الذين يريد الكاتب أن يصورهم بأنهم كانوا أحرار سُمحاء في معتقدهم يتحملون خصومهم بكل أناة وعقل ويقنعونهم بالحسنى والدليل، فمن اقتنع منهم بشيء فهو لم يقتنع به - كما يريد الكاتب أن يقول - إلا بعد التثبت والتحقق منه بالبحث والفحص، فهذه القصة هي كقصة شك توما واقتناعه بعد ذلك المذكورة في إنجيل يوحنا (20: 24 - 29) فإن المراد بهما في الحقيقة المغالاة في بيان تدقيق التلاميذ بطريقة خفية وحيلة تافهة معتادة لا تدخل على البسطاء المغفلين، ولذلك ترى المبشرين الآن وفي كل زمان يتخذون مثل هذه العبارة دليلاً على أن كتبة الأناجيل كانوا مؤرخين صادقين لأنهم ذكروا هذه المسائل التي تدل على شك الحواريين وهي، - كما يتوهم هؤلاء الناس أو يزعمون -، لا تصدر إلا من المجردين عن الأغراض والأهواء الصادقين من المؤرخين. <gap resp="#org_MS" change="#d2e120" xml:id="gap_40.d2e2532"/> 
                   <gap resp="#org_MS" change="#d2e120" xml:id="gap_41.d2e2534"/>
                   
-(10) كان أقدم فرق النصارى يعتقدون أن المراد بالبارقليط شخص يظهر بعد عيسى لا روح <placeName change="#d2e120" xml:id="placeName_29.d2e2538">القدس</placeName>، (الأقنوم الإلهي عندهم) ومن هذه الفرق القائلة بذلك الغنوسيون Gnostics ومنهم الماركيونيون أتباع ماركيون Marcion من أهل القرن الثاني الذين ادعى بعضهم أن المراد بالبارقليط (بولس) راجع كتاب مصادر النصرانية لتوماس ويتاكر صفحة 144. وفي نحو سنة <date calendar="#cal_gregorian" when="0156" change="#d3e146 #d2e120" xml:id="date_6.d2e2541">156</date> ميلادية ادعى منتانوس Montanue النبوة في فريجية Phrygia قسم من آسيا الصغرى، وقال أنه هو البارقليط وصدقه في ذلك أناس كثيرون من النصارى وغيرهم إلى القرن الرابع، وفي أيام (ماني) Mani كان النصارى ينتظرون مجيء البارقليط، فلذا ادعى هذا الرجل أنه هو، وكان ذلك في سنة 275 - 276 راجع قاموس تشمبرس Chambers وكتاب (المسحاء الوثنيين) لروبرتسن Robertson صفحة 268 و274 وكتاب (ملخص تاريخ الدين) مجلد 3 ص 236 وقد بين صاحب كتاب (إظهار الحق) أيضا أن النصارى كانوا في زمن النبي صلى الله عليه وسلم ينتظرون تحقق بشارة عيسى هذه بنبي يظهر بعده، فدعوى النصارى الآن أن المراد بها روح <placeName change="#d2e120" xml:id="placeName_30.d2e2544">القدس</placeName> وأنها منذ القدم فهمها الناس بهذا المعنى - هي دعوى كاذبة، وإنما اتفق عليها النصارى بعد محمد صلى الله عليه وسلم الذي تحققت ببعثته هذه النبوة فرارًا من الإيمان به عنادًا وحسدًا (راجع أيضا كتاب دين الله ص118 - 120) ويؤيد ذلك أيضًا أن إنجيل يوحنا صرح أن أهل الكتاب كانوا في زمن عيسى عليه السلام منتظرين ثلاثة أشخاص لا بد من مجيئهم - بحسب الكتب المقدسة - قبل يوم القيامة، وهم إيليا والمسيح والنبي (انظر يو 1: 19 - 26 و7: 40 و41) وصريح عبارات يوحنا المشار إليها هنا أنهم كانوا لا يفهمون من كتبهم أن المسيح غير النبي كما هو ظاهر لمن راجعها، فدعواهم الآن أن المسيح الذي كانوا ينتظرونه هو هو عين النبي، دعوى مردودة بنصوص كتبهم وبالتاريخ أيضًا كما بيناه هنا؛ والظاهر أنهم اتفقوا عليها بعد ظهور محمد صلى الله عليه وسلم كما قلنا، فالنبي المبشر به في العهد القديم، انظر مثلا (تت 18: 15 - 22) هو هو البارقليط في العهد الجديد الذي بشر به عيسى، ولا بد من ظهوره بعده، وقد كان ذلك ولله الحمد، فظهر محمد مصدقًا لما عندهم عنه من التوراة والإنجيل، راجع أيضا فصل (البشائر) في كتابنا (دين الله) .
+(10) كان أقدم فرق النصارى يعتقدون أن المراد بالبارقليط شخص يظهر بعد عيسى لا روح <placeName change="#d2e120 #d11e298" xml:id="placeName_29.d2e2538" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>، (الأقنوم الإلهي عندهم) ومن هذه الفرق القائلة بذلك الغنوسيون Gnostics ومنهم الماركيونيون أتباع ماركيون Marcion من أهل القرن الثاني الذين ادعى بعضهم أن المراد بالبارقليط (بولس) راجع كتاب مصادر النصرانية لتوماس ويتاكر صفحة 144. وفي نحو سنة <date calendar="#cal_gregorian" when="0156" change="#d3e146 #d2e120" xml:id="date_6.d2e2541">156</date> ميلادية ادعى منتانوس Montanue النبوة في فريجية Phrygia قسم من آسيا الصغرى، وقال أنه هو البارقليط وصدقه في ذلك أناس كثيرون من النصارى وغيرهم إلى القرن الرابع، وفي أيام (ماني) Mani كان النصارى ينتظرون مجيء البارقليط، فلذا ادعى هذا الرجل أنه هو، وكان ذلك في سنة 275 - 276 راجع قاموس تشمبرس Chambers وكتاب (المسحاء الوثنيين) لروبرتسن Robertson صفحة 268 و274 وكتاب (ملخص تاريخ الدين) مجلد 3 ص 236 وقد بين صاحب كتاب (إظهار الحق) أيضا أن النصارى كانوا في زمن النبي صلى الله عليه وسلم ينتظرون تحقق بشارة عيسى هذه بنبي يظهر بعده، فدعوى النصارى الآن أن المراد بها روح <placeName change="#d2e120 #d11e298" xml:id="placeName_30.d2e2544" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> وأنها منذ القدم فهمها الناس بهذا المعنى - هي دعوى كاذبة، وإنما اتفق عليها النصارى بعد محمد صلى الله عليه وسلم الذي تحققت ببعثته هذه النبوة فرارًا من الإيمان به عنادًا وحسدًا (راجع أيضا كتاب دين الله ص118 - 120) ويؤيد ذلك أيضًا أن إنجيل يوحنا صرح أن أهل الكتاب كانوا في زمن عيسى عليه السلام منتظرين ثلاثة أشخاص لا بد من مجيئهم - بحسب الكتب المقدسة - قبل يوم القيامة، وهم إيليا والمسيح والنبي (انظر يو 1: 19 - 26 و7: 40 و41) وصريح عبارات يوحنا المشار إليها هنا أنهم كانوا لا يفهمون من كتبهم أن المسيح غير النبي كما هو ظاهر لمن راجعها، فدعواهم الآن أن المسيح الذي كانوا ينتظرونه هو هو عين النبي، دعوى مردودة بنصوص كتبهم وبالتاريخ أيضًا كما بيناه هنا؛ والظاهر أنهم اتفقوا عليها بعد ظهور محمد صلى الله عليه وسلم كما قلنا، فالنبي المبشر به في العهد القديم، انظر مثلا (تت 18: 15 - 22) هو هو البارقليط في العهد الجديد الذي بشر به عيسى، ولا بد من ظهوره بعده، وقد كان ذلك ولله الحمد، فظهر محمد مصدقًا لما عندهم عنه من التوراة والإنجيل، راجع أيضا فصل (البشائر) في كتابنا (دين الله) .
 (11) مسألة الرؤية هذه تشبه من بعض الوجوه رؤيا النبي (ص) عند المسلمين في المنام، فإنهم أيضا يقولون: إنه لا يظهر إلا للمؤمنين الصالحين، وقد خيل لبعض متصوفيهم أنه رآه وكلمة يقظة أيضًا.
 (12) إذا كان بولس صادقًا في حكاية هذه التخيلات وما ماثلها، فالأرجح أن السبب في حصولها له هو كونه عصبي المزاج كثير التفكير والإجهاد لقواه العقلية والجسمية، مع أنه كان مصابًا بداء الصرع، كما يُفهم من عبارته عن نفسه الواردة في (2 كو 12: 7-9) وأمثال هذه التخيلات معتادة عند أهل الصرع وغيرهم من ذوي الأمراض العصبية، ومن أشهر مشاهير رجال العالم العظام - كنابوليون بونابرت ويوليوس قيصر - من كان مصابًا بالصرع مثله، فإن ذلك لا ينافي كونه عاقلاً ذكيًّا مدبرًا.
 (13) لذلك ذكر رؤيتهم للمسيح في أول رسالة - كتبها كما يقولون - بعد رسالته إلى أهل
@@ -1130,7 +1130,7 @@
 المصرية، واتفق نزولي في دار قريبة من مستشفى البروتستان ومن مدرستهم
 وبيوتهم، فأرسلت إلى بعض خدمهم من مسلمي الجزيرة، وأخذت منه بعض
 المعلومات الضرورية، وظفرت بتصاوير إدارتهم الكائنة في البحرين وفي مسقط
-والكويت و<placeName change="#d2e120" xml:id="placeName_31.d2e2630">البصرة</placeName>.
+والكويت و<placeName change="#d2e120 #d11e298" xml:id="placeName_31.d2e2630" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>.
 إن الخطر مما لا يُستصغر، ولكن مما يهوِّن الخطب أن أكثر ما يشيعونه من
 نجاح مسعاهم في هذه البلاد مبالغات أو مفتريات يقصدون من نشرها إغراء
 جمعياتهم الكبرى وتشويقها حتى تبذل لهم الأموال الجسيمة.
@@ -1219,7 +1219,7 @@
 بعضًا وبأزهد الأثمان أخرى، يقصدون من ذلك إلقاء الفتن والقلاقل الداخلية فيقع
 بأس المسلمين بينهم، ويمزق الإسلام أيدي أبنائه، ولقد تأكد ظنهم من فتنة اليمن
 وما أشبه فخسروا في توزيع الأسلحة ثروة عظيمة.
-ولما ظهرت صيحة <placeName change="#d2e120" xml:id="placeName_32.d2e2826">طرابلس</placeName> ونهض العرب كأسود ضارية يستعملون تلك
+ولما ظهرت صيحة <placeName change="#d2e120 #d11e298" xml:id="placeName_32.d2e2826" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> ونهض العرب كأسود ضارية يستعملون تلك
 الأسلحة والسهام في نحور أعداء الإسلام - خابت ظنون الإفرنج وانتقضت سياستهم
 فطفقوا الآن في مواني جزيرة العرب يشترون منهم بأثمان غالية تلك الأسلحة التي
 فرقوها بينهم بأبخس الأثمان، فتضاعفت خسارتهم مرة أخرى {تِلْكَ إِذاً كَرَّةٌ خَاسِرَةٌ} (النازعات: 12) .
@@ -1252,7 +1252,7 @@
 حقيقة هذه النصرانية التي يدعوننا إليها؛ ليعلم المسلمون أنها أبعد الأديان عن دين
 المسيح الصحيح، وعن دين بولس الذي ألفه باسم المسيح وأودعه هذه الكتب التي
 يسمونها العهد الجديد. وليعلم أهل الصلاح والتقوى والغيرة الدينية من أهل
-البحرين والكويت وسائر بلاد الخليج الفارسي وعمان و<placeName change="#d2e120" xml:id="placeName_33.d2e2904">العراق</placeName> أن نشر الكتب التي
+البحرين والكويت وسائر بلاد الخليج الفارسي وعمان و<placeName change="#d2e120 #d11e298" xml:id="placeName_33.d2e2904" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> أن نشر الكتب التي
 تشكك الناس في القرآن والإسلام، ستزداد عامًا بعد عام، فعليهم أن يؤلفوا جمعية
 للدفاع عن دينهم، يكون أول عملها مجاهدة هؤلاء الدعاة المبشرين بمثل ما
 يجاهدون المسلمين به، بأن يكون أول عملها توزيع الكتب التي تبين حقيقة
@@ -1296,7 +1296,7 @@
 أخرى لهؤلاء الأغرار أعمالهم الخبيثة وأفعالهم السافلة؛ لأنها نبهت المسلمين إلى
 وجوب ترك الاتكال على الغير وإلى السعي والعمل لملتهم وأمتهم وحماية دينهم
 والنظر في أمورهم وإصلاح ذات بينهم وترقية أنفسهم، وإن كان ذلك قد جاء بعد
-خراب <placeName change="#d2e120" xml:id="placeName_34.d2e3000">البصرة</placeName>.
+خراب <placeName change="#d2e120 #d11e298" xml:id="placeName_34.d2e3000" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>.
 فقد قعدت هذه الملايين العديدة من المسلمين عن العمل من قبل اتكالاً على هذه
 الدولة التي يفتخر سلطانها - ويحق له الفخر- بخدمة الحرمين الشريفين: كعبة
 المسلمين قاطبة وروضة نبيهم أجمعين، والذي يحترمه المسلمون كل الاحترام
@@ -1313,7 +1313,7 @@
 ملؤها الخوف والفزع، وقلوب تحيط بها جيوش الاضطراب والهلع، ولا يدرون
 أين يسيرون وماذا يفعلون وأي شيء من الأعمال يقدمون.
 ولأذكر لكم مثالاً واحدًا من أمثلة رجوع المسلمين إلى أنفسهم، وخلعهم نير
-الاتكال على غيرهم عن عاتقهم، ويأسهم من <placeName change="#d2e120" xml:id="placeName_35.d2e3040">الدولة العثمانية</placeName> والحكومة الإسلامية
+الاتكال على غيرهم عن عاتقهم، ويأسهم من <placeName change="#d2e120 #d11e298" xml:id="placeName_35.d2e3040" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> والحكومة الإسلامية
 القائمة بها الأمة التركية. وهذا الرجوع والخلع وإن جاءا متأخرين عن وقتهما كثيرًا
 وربما لا تثمر المساعي اليوم ولا ينفع العمل - فإن فيهما بشارة عظيمة لأن اعتماد
 المسلمين على أنفسهم بعد اتكالهم على الله، واهتمامهم بشئونهم وأمورهم، والسعي
@@ -1338,7 +1338,7 @@
 لا شبهة في أن الله جل جلاله هو الحافظ لنوره، ولكن ألا نحب نحن بقاء هذه
 الأمانة النورانية لدينا؟ هل يختار الله غيرنا للمحافظة على هذا النور؟ ألا يبقى من
 يؤتمن على هذا النور من نسل الأمة المحمدية الموجودة؟
-منذ سنتين ونحن في ابتلاء شديد، كم استشهد من المسلمين في <placeName change="#d2e120" xml:id="placeName_36.d2e3102">طرابلس</placeName>؟ وكم
+منذ سنتين ونحن في ابتلاء شديد، كم استشهد من المسلمين في <placeName change="#d2e120 #d11e298" xml:id="placeName_36.d2e3102" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>؟ وكم
 ذُبح منهم في البلقان؟ ولم يكتفِ الظالمون بسفك دماء إخواننا بل تعدوا إلى
 انتهاك حرمات الأماكن الإسلامية في البلاد التي وقعت في أيديهم فجعلوها
 اصطبلات واتخذوها كنائس.
@@ -1511,7 +1511,7 @@
 الحق أعوانًا، ولقد أخذنا وأخذتم بذلك، حتى حالت أمور قد ذكرتم لا حاجة إلى
 ذكر ما هنالك، وما ذكرتم من الهيئة فقد أرسلنا إليكم أخانا محمد يحيى ومعه جماعة
 يتوجهون إلى رجال (المع) [4] ولا تطمئن نفسه بالدخول إلى (أبها) فيتفق
-بجانبكم بأطراف (المع) <placeName change="#d2e120" xml:id="placeName_37.d2e3482">الشام</placeName> وتحصل المذاكرة، وإن شرفتم بالقدوم فحيهلا
+بجانبكم بأطراف (المع) <placeName change="#d2e120 #d11e298" xml:id="placeName_37.d2e3482" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وتحصل المذاكرة، وإن شرفتم بالقدوم فحيهلا
 وسهلاً، وغيرنا وغيركم لا يكاد بهذه المقاصد أن يقوم، ولعلنا أن نكون السبب
 في كشف هذه المشاكل من جميع الوجوه في أقرب وقت عاجل، فترتاح الدولة في
 هذه الديار، بل في جميع الأقطار والأمصار، والأمور وإن تشعبت فإن مرجعها
@@ -1616,7 +1616,7 @@
 والحملات الإفسادية على الولايات الضعيفة كسورية. وإذ لم يفعلوا فليكن ذلك العهد
 عهد الإيقاظ والتنبيه، وعهد الاتحاديين الذي هو شر منه وأضر عهد الوحدة والعمل.
 رأى العرب من الاتحاديين ما رأوا من سفك دماء إخوانهم وتدمير بلادهم في
-اليمن والكرك وحوران، وإفساد ذات بينهم ومقاومة لغتهم في سورية و<placeName change="#d2e120" xml:id="placeName_38.d2e3703">العراق</placeName>،
+اليمن والكرك وحوران، وإفساد ذات بينهم ومقاومة لغتهم في سورية و<placeName change="#d2e120 #d11e298" xml:id="placeName_38.d2e3703" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>،
 ورأوا أن هؤلاء قد أنشأوا يهدمون ما أبقى عليه عبد الحميد من ملك بني عثمان،
 ومع ذلك لم يزدادوا إلا أملاً ورجاءً في عاصمتهم البزنطية عاصمة الجهل والغرور،
 والخيلاء والإسراف والظلم والخيانة والتدمير، ولم نر العبر والكوارث المحدقة
@@ -1633,7 +1633,7 @@
 نقل: إنها كانت أو كادت تكون بعد ذهاب الوقت.
 ماذا عملوا؟ ألَّف أهل الإخلاص والغيرة من السوريين المقيمين بمصر
 حزب اللامركزية الإدارية العثماني، فلم يجعلوه حزبًا سوريًّا ولا عربيًّا بل عثمانيًا
-عامًّا، وقام أهل ولايات سورية (<placeName change="#d2e120" xml:id="placeName_39.d2e3743">بيروت</placeName> و<placeName change="#d2e120" xml:id="placeName_40.d2e3746">الشام</placeName>) و<placeName change="#d2e120" xml:id="placeName_41.d2e3749">العراق</placeName> يطلبون الإصلاح
+عامًّا، وقام أهل ولايات سورية (<placeName change="#d2e120 #d11e298" xml:id="placeName_39.d2e3743" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> و<placeName change="#d2e120 #d11e298" xml:id="placeName_40.d2e3746" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>) و<placeName change="#d2e120 #d11e298" xml:id="placeName_41.d2e3749" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> يطلبون الإصلاح
 لولاياتهم على أساس وقواعد اللامركزية، وفي باريس مئون من العرب
 السوريين أهل العلم العصري والأدب والتجارة وطلاب العلوم العالية، أزعجهم
 صوت موسيو بوانكاره - رئيس وزارة فرنسة بالأمس ورئيس جمهوريتها اليوم - إذ
@@ -1659,7 +1659,7 @@
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_6.d2e3802">1- </hi>مقاومة الاحتلال الأجنبي للوطن.
 
-               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_7.d2e3807">2- </hi>حقوق العرب في <placeName change="#d2e120" xml:id="placeName_42.d2e3810">المملكة العثمانية</placeName>.
+               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_7.d2e3807">2- </hi>حقوق العرب في <placeName change="#d2e120 #d11e298" xml:id="placeName_42.d2e3810" ref="oape:place:1" resp="#xslt">المملكة العثمانية</placeName>.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_8.d2e3816">3 - </hi>وجوب تغيير شكل الإدارة العثمانية الحاضر وجعله من نوع اللامركزية
 الإدارية؛ إذ لا يرجى صلاح المملكة بدون ذلك، ولا بقاء لها إلا بصلاحها كما
@@ -1667,14 +1667,14 @@
 وبقاء الأمثل.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_9.d2e3828">4- </hi>المهاجرة من سورية وإليها.
-هذه المسائل هي أهم المسائل الاجتماعية الحيوية في <placeName change="#d2e120" xml:id="placeName_43.d2e3833">المملكة العثمانية</placeName>،
+هذه المسائل هي أهم المسائل الاجتماعية الحيوية في <placeName change="#d2e120 #d11e298" xml:id="placeName_43.d2e3833" ref="oape:place:1" resp="#xslt">المملكة العثمانية</placeName>،
 وأكثرها قد صار حديث ساسة الدول وجرائد الأمم، ولو لم يوجد من العرب حزب
 ولا مؤتمر يبحث فيها لجاز لجميع الأمم والدول أن تعتقد أنه لا يوجد في المملكة
 العثمانية أمة تسمى الأمة العربية، وأن تصدق مغروري جمعية الاتحاد والترقي في
 زعمهم أن العرب ليسوا أمة ولا شعبًا فيحسب لهم حساب في إدارة المملكة العثمانية
-ومصالحها، وإنما هم قسمان: عرجلة أو عراجل من الوحوش في <placeName change="#d2e120" xml:id="placeName_44.d2e3847">اليمن</placeName> وبوادي
-الشام و<placeName change="#d2e120" xml:id="placeName_45.d2e3852">العراق</placeName> و<placeName change="#d2e120" xml:id="placeName_46.d2e3855">الحجاز</placeName> ونجد ينكل بهم الجيش العثماني المظفر، وقطعان من
-الغنم في سورية ومدن <placeName change="#d2e120" xml:id="placeName_47.d2e3861">العراق</placeName> تتصرف بهم الحكومة المركزية بما تشاء من رعي
+ومصالحها، وإنما هم قسمان: عرجلة أو عراجل من الوحوش في <placeName change="#d2e120 #d11e298" xml:id="placeName_44.d2e3847" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وبوادي
+الشام و<placeName change="#d2e120 #d11e298" xml:id="placeName_45.d2e3852" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> و<placeName change="#d2e120 #d11e298" xml:id="placeName_46.d2e3855" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد ينكل بهم الجيش العثماني المظفر، وقطعان من
+الغنم في سورية ومدن <placeName change="#d2e120 #d11e298" xml:id="placeName_47.d2e3861" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> تتصرف بهم الحكومة المركزية بما تشاء من رعي
 ومن منع، وذبح وبيع.
 سيكون لحزب اللامركزية ولمؤتمره في باريس ولطلاب الإصلاح المبني على
 قواعد هذا الحزب في الولايات السورية والعراقية شأن عظيم في الآستانة وأوربة
@@ -1683,13 +1683,13 @@
 وأقلامهم لتحقيرهما وتهوين أمرهما، وهي لم تحقر شيئًا إلا وعظم ولم تعظم شيئًا
 إلا وحقر؛ لأنها مخذولة من الله المتنكبة لسنته في خلقه وشرعه، كما ثبت
 بالتجربة مرارًا، ومن ذلك أنها تلبس الحق بالباطل فتصف الشيء بضد ما هو عليه،
-وتسلك إلى كل غاية الطريق <placeName change="#d2e120" xml:id="placeName_48.d2e3883">الموصل</placeName> إلى ضدها، فهي تأمر منافقيها بأن يذيعوا
+وتسلك إلى كل غاية الطريق <placeName change="#d2e120 #d11e298" xml:id="placeName_48.d2e3883" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> إلى ضدها، فهي تأمر منافقيها بأن يذيعوا
 أن المؤتمر وحزب اللامركزية وطلاب الإصلاح يعملون بإيعاز من الأجانب ليمهدوا
 لهم طريق احتلال وطنهم، الأمر بالضد كما هو ظاهر وسيكون في المؤتمر أتم
 ظهورًا، كما توعز إليهم أن يقولوا: إنها تعمل لإحياء الجامعة الإسلامية، على حين
 نرى بعض كتابها ينشر في <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_9.d2e3895">الشرق</title><textLang mainLang="en">الإنكليزية</textLang></bibl> مقالاً يحاول فيه إقناع الإنكليز
 وغيرهم من الأوربيين بأنه لا يوجد في المملكة أحد غير هؤلاء الفتيان من الترك
-يتجرأ على كسر القيود الدينية التي تقيدت بها <placeName change="#d2e120" xml:id="placeName_49.d2e3903">الدولة العثمانية</placeName> ويطلب إعانة أوربة
+يتجرأ على كسر القيود الدينية التي تقيدت بها <placeName change="#d2e120 #d11e298" xml:id="placeName_49.d2e3903" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> ويطلب إعانة أوربة
 لهم على ذلك.
 وجملة القول أن الحكومة الاتحادية قد أضاعت بجهلها وغرورها وخبث
 طويتها جميع الممالك العثمانية الأوربية والأفريقية، وهي تساوم أوربة على بيع
@@ -1734,7 +1734,7 @@
                
 شكرنا في الجزئين الأول والثاني لإخواننا مسلمي الهند حفاوتهم بنا وحسن
 ضيافتنا، ووعدنا بأن نشكر مثل هذه الحفاوة لإخواننا العرب الكرام في مسقط
-والكويت و<placeName change="#d2e120" xml:id="placeName_50.d2e3993">العراق</placeName>، وقضت كثرة المواد التي لا يمكن تأخيرها أن نرجئ الوفاء
+والكويت و<placeName change="#d2e120 #d11e298" xml:id="placeName_50.d2e3993" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وقضت كثرة المواد التي لا يمكن تأخيرها أن نرجئ الوفاء
 بهذا الوعد إلى هذا الجزء.
 سافرت من بمبي صباح الجمعة لتسعٍ خلون من جمادى الأولى للعام الماضي
 في سفينة إنكليزية قاصدًا مسقط عن طريق كراجي، وكنت حريصًا على السفر في
@@ -1790,7 +1790,7 @@
 كتابه وحاشيته ومن سوء حظي أن كان ولي عهده السيد تيمور مسافرًا فلم أره، وظل
 هو واقفًا على الرصيف حتى بعُد الزورق عنه، فودعته الوداع الأخير بالإشارة.
 ونزل معنا أيضًا صديقنا الزواوي ونجله السيد علي ابن عم السلطان وصهره وقد
-سافر معنا قاصدًا <placeName change="#d2e120" xml:id="placeName_51.d2e4117">البصرة</placeName> فرأيت منه رفيقًا تقيًّا نقيًّا صفيًّا.
+سافر معنا قاصدًا <placeName change="#d2e120 #d11e298" xml:id="placeName_51.d2e4117" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> فرأيت منه رفيقًا تقيًّا نقيًّا صفيًّا.
 وقد مكث معنا أولاد السلطان والزواوي ساعة من الزمن في الباخرة ثم
 ودعناهم الوداع الأخير، وعادوا إلى مسقط موشحين بجلابيب شكري الخالص
 وودي الدائم، إن شاء الله تعالى (وسنصف مسقط ونتكلم عن حالة أهلها الاجتماعية
@@ -1816,11 +1816,11 @@
 العقائد والأصول والفقه وغير ذلك، على أنه لم يتلقَ عن الأساتذة فهو من مظاهر
 الذكاء العربي النادر.
 ومما أحب أن أذكره هنا، وهو من مباحث الرحلة، مسألة علاقة مبارك
-ب<placeName change="#d2e120" xml:id="placeName_52.d2e4177">الدولة العثمانية</placeName> والإنكليز، كنا نسمع المنافقين لرجال الدولة يصفون صاحب
+ب<placeName change="#d2e120 #d11e298" xml:id="placeName_52.d2e4177" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> والإنكليز، كنا نسمع المنافقين لرجال الدولة يصفون صاحب
 الكويت بالخيانة للدولة ويعيبونه بطلب حماية الإنكليز له، فسألته عن ذلك
-فقص عليَّ قصة سألت عنها بعد ذلك السيد رجبا نقيب <placeName change="#d2e120" xml:id="placeName_53.d2e4184">البصرة</placeName> مندوب الحكومة إليه
+فقص عليَّ قصة سألت عنها بعد ذلك السيد رجبا نقيب <placeName change="#d2e120 #d11e298" xml:id="placeName_53.d2e4184" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> مندوب الحكومة إليه
 فيها؛ فكان جوابه موافقًا لجواب الشيخ مبارك، ثم ذكرت ما قاله للشيخ فهد بك
-الهزال شيخ قبائل عنزه في <placeName change="#d2e120" xml:id="placeName_54.d2e4192">العراق</placeName>؛ إذ كنت في ضيافته على نهر الفرات مع
+الهزال شيخ قبائل عنزه في <placeName change="#d2e120 #d11e298" xml:id="placeName_54.d2e4192" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>؛ إذ كنت في ضيافته على نهر الفرات مع
 صديقي مراد بك أخي محمود شوكت باشا فصدق ما قاله الشيخ مبارك، وزادني
 فوائد هو أعرف الناس بها.
 وملخص ما قاله الشيخ مبارك أنه في أواخر مدة عبد الحميد ساقت الدولة بعض
@@ -1829,10 +1829,10 @@
 سَنية بوجوب خروجه من الكويت إلى الآستانة أو إلى حيث شاء من ولايات الدولة،
 والحكومة تعين له راتبًا شهريًّا يعيش به، فإن لم يخرج طائعًا دخل الجند مع
 عرب ابن الرشيد وأخرجوه بالقوة، فسألهم ما هو ذنبه الذي استحق به النفي من
-بلده وعشيرته؟ وذكر نقيب <placeName change="#d2e120" xml:id="placeName_55.d2e4214">البصرة</placeName> بما يعرف من إخلاصه للدولة وإعانته لها
+بلده وعشيرته؟ وذكر نقيب <placeName change="#d2e120 #d11e298" xml:id="placeName_55.d2e4214" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> بما يعرف من إخلاصه للدولة وإعانته لها
 بالمال عند كل حادثة وبما كان من محاربة سلفه وعشيرته لقبائل المنتفك المالكين
 للبصرة وإخراجهم منها وجعلها في حكم الدولة كما ملكهم هو وعشيرته بقوتهم
-الأحساء وغيرها، وطلب منه أن يعود إلى <placeName change="#d2e120" xml:id="placeName_56.d2e4224">البصرة</placeName> فيقنع المشير بمراجعة الآستانة.
+الأحساء وغيرها، وطلب منه أن يعود إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_56.d2e4224" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> فيقنع المشير بمراجعة الآستانة.
 فقال: إنما علينا البلاغ وليس في يدنا غيره.
 قال: فخرجت من عندهما بقصد مشاورة أهلي، وكانت حكومة الهند الإنكليزية
 قد علمت بكل ما دبرته الدولة في ذلك وبمجيء عشيرة ابن الرشيد مع العسكر إلى
@@ -1841,7 +1841,7 @@
 فقال: إن حكومتنا متفقة مع حكومة الترك على أن تبقى الكويت على حالها، لا
 يتعرضون ولا نتعرض لها؛ وإذ قد غدروا وخالفوا فقد صار لنا حق الدخول في
 أمرها، ولا يمكن أن نسمح لجندي عثماني أن يدخلها، وإذا دخلوا برضاكم
-دمرناها على رءوسكم ورءوسهم، ثم بلَّغ الأميرال ذلك لنقيب <placeName change="#d2e120" xml:id="placeName_57.d2e4247">البصرة</placeName> رسول
+دمرناها على رءوسكم ورءوسهم، ثم بلَّغ الأميرال ذلك لنقيب <placeName change="#d2e120 #d11e298" xml:id="placeName_57.d2e4247" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> رسول
 الحكومة فقفل راجعًا وبلَّغ المشير ذلك، فأمر المشير بصرف الجنود والعربان،
 قال: فما كان من تدخل الإنكليز في أمر الكويت لم يكن بطلب مني بل كان هذا
 سببه. وقد عرضوا عليَّ أن أختار لنفسي راية أرفعها على البلد وأعلن الاستقلال
@@ -1849,7 +1849,7 @@
 وقد تعجبوا من قولي لهم: إنني أختار أن أكون دائمًا عثمانيًّا، قيل لي:
 أتقول هذا بعد أن رأيت منهم ما رأيت؟ قلت: إن الوالد إذا قسا في تربية ولده
 أحيانًا لا يخرج بذلك عن كونه والده الذي تجب عليه طاعته. اهـ.
-وسأذكر في الرحلة ما أيد به نقيب <placeName change="#d2e120" xml:id="placeName_58.d2e4267">البصرة</placeName> وشيخ عنزة هذا الكلام؛ فليعتبر
+وسأذكر في الرحلة ما أيد به نقيب <placeName change="#d2e120 #d11e298" xml:id="placeName_58.d2e4267" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> وشيخ عنزة هذا الكلام؛ فليعتبر
 المعتبرون بإخلاص العرب للدولة على سوء معاملتها لهم.
 للكلام بقية <note type="footnote" place="bottom" change="#d2e120" xml:id="note_9.d2e4275"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_9.d2e4277">الكاتب: <persName change="#d2e141 #d2e120 #d3e274" xml:lang="ar" xml:id="persName_11.d2e4279" ref="oape:pers:689 viaf:51716068">
@@ -1888,7 +1888,7 @@
 المتبرع الأول له.
 (اقتران صاحب المنار)
 في الليلة الثامنة عشرة من هذا الشهر بنى صاحب هذه المجلة على سعاد
-كريمة الشيخ حسن الصفدي، وبيت الصفدي في <placeName change="#d2e120" xml:id="placeName_59.d2e4343">طرابلس الشام</placeName> من بيوتات العلم
+كريمة الشيخ حسن الصفدي، وبيت الصفدي في <placeName change="#d2e120 #d11e298" xml:id="placeName_59.d2e4343" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> من بيوتات العلم
 التي امتازت بمكارم الأخلاق وطهارة الأعراق، فأسأل الله تعالى أن يجعله بناءً
 مباركًا وقرانًا ميمونًا {رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ
 إِمَاماً} (الفرقان: 74) . <note type="footnote" place="bottom" change="#d2e120" xml:id="note_10.d2e4355"/>

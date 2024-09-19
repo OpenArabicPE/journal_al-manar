@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_29-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_29-i_6.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e276">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_29-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_29-i_6.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1347">1347</date><date calendar="#cal_gregorian" when="1928" xml:lang="ar">أكتوبر - 1928م</date></imprint>
                   <biblScope unit="volume" from="29" to="29" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">29</biblScope>
                   <biblScope unit="issue" from="6" to="6" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">6</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e276" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -424,7 +424,7 @@
 كعادتها.
 ذلك الأمر العظيم هو أنها وضعت نصب عينيها استعباد الأمة العربية وجعل
 جزيرتها المنيعة التاريخية ومعاهدها الدينية المقدسة تحت سلطانها، وهذه المعاهد
-هي المساجد الثلاثة: المسجد الحرام ب<placeName change="#d2e120" xml:id="placeName_4.d2e1002">مكة المكرمة</placeName> والمسجد النبوي المحمدي في
+هي المساجد الثلاثة: المسجد الحرام ب<placeName change="#d2e120 #d11e276" xml:id="placeName_4.d2e1002" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> والمسجد النبوي المحمدي في
 المدينة المنورة والمسجد الأقصى في بيت المقدس.
 وقد أتاحت لها الحرب الاستيلاء العسكري والسياسي على الثالث ثم استخدمت
 لقتل الأمة العربية وإفنائها في هذا القطر (فلسطين) الشعب اليهودي جريًا على
@@ -433,16 +433,16 @@
 وخليفة المسلمين بوهمه بالأمس، فكاد لأخيه الشريف علي الذي تَمَلَّك على الحجاز
 محصورًا في جدة عند خروج والده منه بأن أغراه بالذهب الإنكليزي وبنصر
 الإنكليز إياه على ابن السعود على أن يصدر إرادته السنية بجعل منطقة العقبة
-ومعان أهم مواقع <placeName change="#d2e120" xml:id="placeName_5.d2e1025">الحجاز</placeName> البحرية الحربية تابعة لشرق الأردن التي جعلها هو داخلة
+ومعان أهم مواقع <placeName change="#d2e120 #d11e276" xml:id="placeName_5.d2e1025" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> البحرية الحربية تابعة لشرق الأردن التي جعلها هو داخلة
 في دائرة الإمبراطورية البريطانية باسم الانتداب، ثم بعقده مع هذه الدولة معاهدة
-تجعل شرق الأردن وما ألحق به من <placeName change="#d2e120" xml:id="placeName_6.d2e1032">الحجاز</placeName> موقعًا حربيًّا للدولة الإنكليزية لها الحق
+تجعل شرق الأردن وما ألحق به من <placeName change="#d2e120 #d11e276" xml:id="placeName_6.d2e1032" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> موقعًا حربيًّا للدولة الإنكليزية لها الحق
 في استخدام أهله وماله في الحرب: حرب من! حرب الأمة العربية طبعًا إذ لا
 يوجد غيرها، ولما قامت أهالي البلاد تنكر هذه المعاهدة قاومهم الأمير الشريف ابن
 الشريف ابن الشريف بالقوة والقهر بمساعدة رئيس حكومته حسن خالد بك نجل
 القطب الشهير الشيخ أبي الهدى أفندي (الصيادي الرفاعي الحسيني بدعواه) .
 ربما تكون الدولة الإنكليزية قد درست حال الأمة العربية درسًا اعتقدت به أن
-الاستيلاء عليها ممكن بضرب بعضها ببعض، وذلك بجعل حاكمي <placeName change="#d2e120" xml:id="placeName_7.d2e1049">العراق</placeName> وشرق
-الأردن عدوين لابن السعود حاكم <placeName change="#d2e120" xml:id="placeName_8.d2e1054">الحجاز</placeName> ونجد فإن صح هذا - وقد يكون غير
+الاستيلاء عليها ممكن بضرب بعضها ببعض، وذلك بجعل حاكمي <placeName change="#d2e120 #d11e276" xml:id="placeName_7.d2e1049" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وشرق
+الأردن عدوين لابن السعود حاكم <placeName change="#d2e120 #d11e276" xml:id="placeName_8.d2e1054" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد فإن صح هذا - وقد يكون غير
 صحيح - فما أراها قد درست المسألة اليهودية الصهيونية من كل وجه فإن العرب
 إذا كانوا لا يزالون جاهلين متفرقين، ولا يزال يوجد الخونة في أكبر بيوتاتهم،
 فاليهود ليسوا كذلك بل هم أعظم كيدًا ومكرًا من الإنكليز، وإن كانت قد استخدمتهم
@@ -463,7 +463,7 @@
 بلفور لعهده إلى الآن متعمدة حشر ما يمكن من اليهود في فلسطين؛ لأجل إيقاد نار
 الفتنة بينهم وبين العرب بوازع الدين في الفريقين ومساعدة اليهود على العرب
 لأجل جعل هذه المنطقة من بلاد العرب يهودية بريطانية فاصلة بين عرب مصر
-وعرب سورية و<placeName change="#d2e120" xml:id="placeName_9.d2e1103">العراق</placeName>، فإن لم يكن فأقل فائدتها من ذلك أن يكون كل من الفريقين
+وعرب سورية و<placeName change="#d2e120 #d11e276" xml:id="placeName_9.d2e1103" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، فإن لم يكن فأقل فائدتها من ذلك أن يكون كل من الفريقين
 المتكافئين فيها معتمدًا على سلطانهم وحاكمهم في حفظ نفسه من الآخر.
 اليهود الصهيونيون يسوقون سائر اليهود إلى امتلاك البلاد وانتزاع المسجد
 الأقصى من المسلمين بسائق العقيدة الدينية وقد كان من أنباء هذا الشهر أنهم فتحوا
@@ -492,7 +492,7 @@
 بلاغ حكومة فلسطين
 في مساء 23 أيلول الجاري أي ليلة عيد الغفران (يوم كيبور) رفع متولي
 وقف أبي مدين الذي يقع ضمن دائرته الرصيف ومنطقة البراق (المبكى) شكوى
-إلى جناب حاكم مقاطعة <placeName change="#d2e120" xml:id="placeName_10.d2e1169">القدس</placeName> بأن حاجزًا قد أنشئ على الرصيف الملاصق
+إلى جناب حاكم مقاطعة <placeName change="#d2e120 #d11e276" xml:id="placeName_10.d2e1169" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> بأن حاجزًا قد أنشئ على الرصيف الملاصق
 للبراق، وأدخل إليه أشياء أخرى تخالف العادة المتبعة كقناديل كاز وعدد من
 الحصر وهيكل أكبر من الحجم الاعتيادي، فزار حاكم المقاطعة البراق في أثناء
 صلاة المساء، وقرَّر عملا بالعادة التي أقرتها الحكومة وجوب رفع الحاجز قبل
@@ -519,7 +519,7 @@
 وجود ضابط بوليس يهودي في المستقبل بين الذي يرسلون إلى البراق للمحافظة في
 أعياد اليهود الخطيرة، وفي الختام ترى الحكومة بأن رفع الحاجز كان ضروريًّا
 غير أنها تأسف لما وقع من جراء رفعه. انتهى.
-وقد جاء في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e1230">الجامعة</title></bibl> العربية الغرَّاء التي تصدر في <placeName change="#d2e120" xml:id="placeName_11.d2e1233">القدس الشريف</placeName> بعد
+وقد جاء في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e1230">الجامعة</title></bibl> العربية الغرَّاء التي تصدر في <placeName change="#d2e120 #d11e276" xml:id="placeName_11.d2e1233" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس الشريف</placeName> بعد
 نشر هذا البلاغ ما نصه:
 والقارئ لهذا البلاغ يشعر أن الحكومة قد وقفت موقف الضعف محاولة ستر
 اعتذارها لليهود بأنها تمسكت بوجهة نظرها في ما اتخذته من الإجراءات ضدهم في
@@ -532,7 +532,7 @@
 بقصد التمويه والتأثير على الحكومة.
 ***
 هياج الرأي العام الإسلامي والدعوة إلى عقد اجتماع
-ولما اتصل بالمسلمين في <placeName change="#d2e120" xml:id="placeName_12.d2e1265">القدس</placeName> خبر عزم اليهود على القيام بهذه المظاهرة
+ولما اتصل بالمسلمين في <placeName change="#d2e120 #d11e276" xml:id="placeName_12.d2e1265" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> خبر عزم اليهود على القيام بهذه المظاهرة
 هاجوا هياجًا عظيمًا وفكروا في ضرورة اتخاذ التدابير اللازمة لرد عادية اليهود
 فتأسست لجنة من أهل الحمية والغيرة طبعت منشورًا دعت فيه المسلمين إلى
 حضور اجتماع عام في المسجد الأقصى بعد صلاة العصر (أمس) ، وقد وصلتنا
@@ -563,7 +563,7 @@
 الموجهة إلى البراق الذي هو السور الغربي للحرم الشريف، وبعد ذلك أعد
 الحاضرون مضبطة إلى فخامة المندوب السامي يحتجون فيها على أعمال اليهود
 العدائية، وما أدت إليه من هيجان في الرأي العام كما أعدوا مضبطة أخرى طالبين
-فيها أن تسمح الحكومة بإقامة المظاهرات السلمية في <placeName change="#d2e120" xml:id="placeName_13.d2e1335">القدس</placeName> وسائر أنحاء فلسطين
+فيها أن تسمح الحكومة بإقامة المظاهرات السلمية في <placeName change="#d2e120 #d11e276" xml:id="placeName_13.d2e1335" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> وسائر أنحاء فلسطين
 والاحتجاج إلى وزارة المستعمرات وملوك المسلمين وأمرائهم والشعوب والصحف
 الإسلامية وإلى عُصْبَة الأمم وقد انتخبوا لجنة تنفيذية لتنفيذ هذه المقررات سننشر
 أسماء أفرادها فيما بعد.
@@ -580,14 +580,14 @@
 بالأمن العام، وموجهين نظرها إلى أن التساهل في مسألة حساسة خطيرة كهذه قد
 يؤدي إلى ما لا تُحْمَد عُقْبَاه؛ لأن المسلمين في فلسطين لا يمكن أن يفرطوا قط في
 ذرة من حقوقهم في هذا المكان الذي يشكل الجدار الغربي للمسجد الأقصى الشريف
-أولى القبلتين وثالث الحرمين الشريفين، ونخشى أن يتعدى الهياج <placeName change="#d2e120" xml:id="placeName_14.d2e1375">القدس</placeName> إلى سائر
+أولى القبلتين وثالث الحرمين الشريفين، ونخشى أن يتعدى الهياج <placeName change="#d2e120 #d11e276" xml:id="placeName_14.d2e1375" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> إلى سائر
 بلدان فلسطين، ثم إلى العالم الإسلامي كافة إذا لم تتدارك الحكومة الأمر بالحزم
 والشدة اهـ.
 
                
 (<title change="#d2e120" xml:id="title_6.d2e1387">المنار</title>)
 قد قام رئيس المجلس الإسلامي الفلسطيني صاحب السماحة السيد محمد أمين
-الحسيني مفتي <placeName change="#d2e120" xml:id="placeName_15.d2e1394">القدس</placeName> وأعضاؤه بما يجب عليهم من السعي لدرء هذه الفتنة من
+الحسيني مفتي <placeName change="#d2e120 #d11e276" xml:id="placeName_15.d2e1394" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> وأعضاؤه بما يجب عليهم من السعي لدرء هذه الفتنة من
 طريق الحكومة كما فعلوا الواجب من ناحية تنبيه المسلمين كما يجب عليهم في
 ذلك، وحسبنا نشر هذا الكتاب مبينًا لتلك المساعي الرسمية في ذلك.
 ***
@@ -595,7 +595,7 @@
 بشأن حوادث البراق إلى فخامة المندوب السامي
 فخامة المندوب السامي:
 (عطفًا على جميع المخابرات التحريرية والمحادثات الشفهية التي جرت بين
-المجلس الإسلامي الأعلى وبين الحكومة المركزية ب<placeName change="#d2e120" xml:id="placeName_16.d2e1415">القدس</placeName>، قديمًا وحديثًا، بشأن
+المجلس الإسلامي الأعلى وبين الحكومة المركزية ب<placeName change="#d2e120 #d11e276" xml:id="placeName_16.d2e1415" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>، قديمًا وحديثًا، بشأن
 البراق الشريف، (جدار الحرم الغربي) نلفت نظر فخامتكم إلى ما يأتي:
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_1.d2e1422">1 - </hi>أن هذه الناحية من الجدار المذكور، هي مكان البراق الشريف نسبة
@@ -604,7 +604,7 @@
 الإسراء الذي جاء نصًّا في القرآن الكريم.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_2.d2e1434">2 - </hi>أن هذا الجدار هو جدار المسجد الأقصى ثالث الحرمين الشريفين، الذي
-هو عند المسلمين عامة بمنزلة حرم <placeName change="#d2e120" xml:id="placeName_17.d2e1440">مكة</placeName> المشرفة وحرم المدينة المنورة.
+هو عند المسلمين عامة بمنزلة حرم <placeName change="#d2e120 #d11e276" xml:id="placeName_17.d2e1440" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المشرفة وحرم المدينة المنورة.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_3.d2e1445">3 - </hi>أن كل جزء من الحرم الشريف وكل جدار يحيطه بما فيه هذا الجدار
 الترابي هو في عقيدة المسلمين جزء لا يتجزأ من المسجد الأقصى المبارك الذي
@@ -679,7 +679,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_13.d2e1598"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_14.d2e1600"/> محمد أمين الحسيني
 (<title change="#d2e120" xml:id="title_7.d2e1604">المنار</title>)
-هذا وإن <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e1609">الجامعة</title></bibl> العربية لا تزال تأتينا من <placeName change="#d2e120" xml:id="placeName_18.d2e1613">القدس الشريف</placeName> بأخبار هذه
+هذا وإن <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e1609">الجامعة</title></bibl> العربية لا تزال تأتينا من <placeName change="#d2e120 #d11e276" xml:id="placeName_18.d2e1613" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس الشريف</placeName> بأخبار هذه
 الفتنة وتهييج اليهود للمسلمين بعدوانهم وتظاهرهم واحتجاج هؤلاء من بلاد فلسطين
 وغيرها من سورية ومصر على اليهود من جانبهم بالدعاية وتماديهم في العدوان
 وغرورهم بلين الحكومة البريطانية لهم وتعيينها شرطيًّا (بوليسا) منهم للمحافظة
@@ -727,7 +727,7 @@
 بعض المنصفين فيما شافهونا به (كالسيد الشهيرستاني النجفي والسيد عبد الحسين
 العاملي والمرحوم الشيخ محي الدين عسيران) على أننا لم نسلم من شر متعصبيهم،
 فقد نشرنا مرة رسالة في أول المجلد 16 من المنار (سنة 1326) لصديقنا
-العلامة المرحوم الشيخ محمد كامل الرافعي من <placeName change="#d2e120" xml:id="placeName_19.d2e1706">بغداد</placeName> كتبها في أثناء سياحته يذكر
+العلامة المرحوم الشيخ محمد كامل الرافعي من <placeName change="#d2e120 #d11e276" xml:id="placeName_19.d2e1706" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> كتبها في أثناء سياحته يذكر
 فيها قيام علماء الشيعة بدعوة الأعراب إلى التشيع، واستعانتهم على ذلك بإحلال
 متعة النكاح لمشايخ قبائلهم الذين يرغبون في الاستمتاع بكثير من النساء في كل
 وقت.
@@ -735,7 +735,7 @@
 تعصب الشيعة واحتمائهم علينا ورمينا بضد ما نقوم به من التأليف والتوحيد، فقلنا:
 إن تعليم الإعراب الجاهلين مذهب الشيعة في العبادات والحلال والحرام خير من
 بقائهم على جهلهم المعهود، وحصرنا توجيه انتقاد الكاتب في وجهته السياسية،
-وهي ما كان يشوب تلك الدعاية من التنفير من <placeName change="#d2e120" xml:id="placeName_20.d2e1727">الدولة العثمانية</placeName> والتحبيب في الدولة
+وهي ما كان يشوب تلك الدعاية من التنفير من <placeName change="#d2e120 #d11e276" xml:id="placeName_20.d2e1727" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> والتحبيب في الدولة
 الإيرانية إلخ ولم ننشر اسم الكاتب يومئذ لئلا توذيه الحكومة الحميدية لما هو معلوم
 من حالها.
 نشرنا هذا في المنار فلم نجد أحدًا منهم هاجه واحتمى عليه إلا هذا المتعصب
@@ -779,13 +779,13 @@
 (فإن اطلعنا بعد ذلك على روايات أخرى للشيعة بأسانيدها فربما نكتب في
 ذلك مقالاً تمحص فيه ما ورد من الطريقين ونحكم فيه بما نعتقد من قواعد التعارض
 والترجيح وننشر ذلك في المنار) اهـ.
-وقد أرسل علامة <placeName change="#d2e120" xml:id="placeName_21.d2e1825">الشام</placeName> المستقل الشيخ جمال الدين القاسمي (رحمه الله تعالى)
-رسالة العاملي في أثناء نشرها إلى علامة <placeName change="#d2e120" xml:id="placeName_22.d2e1830">العراق</placeName> المستقل السيد محمود شكري
+وقد أرسل علامة <placeName change="#d2e120 #d11e276" xml:id="placeName_21.d2e1825" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> المستقل الشيخ جمال الدين القاسمي (رحمه الله تعالى)
+رسالة العاملي في أثناء نشرها إلى علامة <placeName change="#d2e120 #d11e276" xml:id="placeName_22.d2e1830" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> المستقل السيد محمود شكري
 الألوسي (رحمه الله تعالى) وسأله عن رأيه فيها فأجابه برسالة تتضمن الرد الشديد
 عليها وتجهيل مؤلفها، وقد اطلعنا على هذا الرد، ولم نشأ أن ننشره لما تقدم بيانه.
 ولكن العاملي الرافضي المتعصب عاد في هذه الأيام إلى ما هو شر مما كتبه
 في تلك الرسالة؛ لأن حرية الطعن والتفريق في ظل الحكومة الفرنسية أوسع مما
-كان في عهد دستور <placeName change="#d2e120" xml:id="placeName_23.d2e1844">الدولة العثمانية</placeName>، فألف كتابًا كبيرًا استغرق خمسمائة صفحة في
+كان في عهد دستور <placeName change="#d2e120 #d11e276" xml:id="placeName_23.d2e1844" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>، فألف كتابًا كبيرًا استغرق خمسمائة صفحة في
 هذا الموضوع جعل عنوانه الرد على الوهابية، ودس فيه ما يبغي من الدعاية
 الرافضية، وإثبات الخرافات القبورية، والطعن في صاحب المنار لا فيما نشره
 مما يخالف مذهبه وتقاليده فقط، بل طعن في شخصه ونقل ما كتبه شاب إيراني
@@ -793,7 +793,7 @@
 الطعن الشخصي فيه والافتراء عليه بضد الواقع، ولا سيما في مسألة الشريف
 حسين وأولاده والاتحاديين فقد زعم أننا كنا نمدح الشريف في وقت عزه وملكه
 وزهدناه بعد فقده، وهذا كذب وبهتان كما يعلم جميع المطلعين على المنار كزعمه
-أن فيصلا هو الذي عين صاحب المنار رئيسًا للمؤتمر السوري العام في <placeName change="#d2e120" xml:id="placeName_24.d2e1865">دمشق</placeName> وكل
+أن فيصلا هو الذي عين صاحب المنار رئيسًا للمؤتمر السوري العام في <placeName change="#d2e120 #d11e276" xml:id="placeName_24.d2e1865" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> وكل
 الناس يعلمون كالشيخ العاملي أن المؤتمر انتخب صاحب المنار لرياسته انتخابًا،
 وأنه ما كان لفيصل أن يعينه تعيينًا.
 طالبني بعض أهل السنة بالرد على هذا الكتاب وقد تصفحت أهم مسائل
@@ -948,14 +948,14 @@
 الحجاز.
 ألا تراه على افترائه الكذب في طعنه بالوهابيين راضيًا بأعمال الشريف
 حسين وأولاده ومدافعًا عنهم، فالشريف عبد الله بن حسين الذي اقتطع بخداع أخيه
-الشريف علي أهم منطقة حربية غنية من أرض <placeName change="#d2e120" xml:id="placeName_25.d2e2204">الحجاز</placeName> وجعلها تحت سلطة الإنكليز،
+الشريف علي أهم منطقة حربية غنية من أرض <placeName change="#d2e120 #d11e276" xml:id="placeName_25.d2e2204" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وجعلها تحت سلطة الإنكليز،
 وهو يجبر أهل البلاد التي تولى إمارتها على إقرار المعاهدة المخزية التي عقدها
 معهم، وكذلك السيد تاج الدين الحسني رئيس حكومة سورية الحاضر هما أفضل
 وأحق بنسبهما بالحكم من جميع الوطنيين الذين اشتهروا بخدمة أمتهم ووطنهم
 وجاهدوا في سبيلها بأموالهم وأنفسهم.
 نكتفي الآن بهذا التنبيه العام للمسلمين في مقابلة الدعاية الخرافية التي نشط
 لبثها فيهم الملا محسن العاملي، ونقفي عليها بالرسالة الوجيزة التي كتبها علامة
-العراق المرحوم السيد محمود شكري الآلوسي إلى علامة <placeName change="#d2e120" xml:id="placeName_26.d2e2222">الشام</placeName> المرحوم الشيخ جمال
+العراق المرحوم السيد محمود شكري الآلوسي إلى علامة <placeName change="#d2e120 #d11e276" xml:id="placeName_26.d2e2222" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> المرحوم الشيخ جمال
 الدين القاسمي مع حذف بعض العبارات القاسية التي فيها، ننشرها الآن للضرورة
 التي أشرنا إليها، وليعلم بعض ما عندنا أولئك الذين يتوخون الاعتدال في الدعاية
 الشيعية والرد على مخالفيها كزميلنا الفاضل (صاحب <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_9.d2e2232">العرفان</title></bibl> المفيدة في بث
@@ -964,8 +964,8 @@
 {وَاللَّهُ يَقُولُ الحَقَّ وَهُوَ يَهْدِي السَّبِيلَ} (الأحزاب: 4) .
 ***
 رد السيد الآلوسي على حصون العاملي الرافضي
-صورة الكتاب الذي أرسله علامة <placeName change="#d2e120" xml:id="placeName_27.d2e2248">العراق</placeName> السيد محمود شكري الآلوسي إلى
-علامة <placeName change="#d2e120" xml:id="placeName_28.d2e2253">الشام</placeName> الشيخ جمال الدين القاسمي في الرد على صاحب رسالة (الحصون
+صورة الكتاب الذي أرسله علامة <placeName change="#d2e120 #d11e276" xml:id="placeName_27.d2e2248" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> السيد محمود شكري الآلوسي إلى
+علامة <placeName change="#d2e120 #d11e276" xml:id="placeName_28.d2e2253" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> الشيخ جمال الدين القاسمي في الرد على صاحب رسالة (الحصون
 المنيعة فيما أورده صاحب المنار في الشيعة) وشنعهم القبيحة (والعناوين للمنار) .
 
                
@@ -982,7 +982,7 @@
 وجدته أيضًا كتابًا دل دلالة صريحة على أن مصنفه من المتعصبين في الرفض،
 المغالين في البغضاء للسنة النبوية، ورأيت الإعراض عن كلا الكتابين هو الحزم،
 فإنا لو رمينا <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_4.d2e2289">…</hi> وأظن أن المقالة التي في (<title change="#d2e120" xml:id="title_10.d2e2292">المنار</title>) حررها الشيخ كامل أفندي
-الرافعي فقد مر عند ذلك التاريخ على <placeName change="#d2e120" xml:id="placeName_29.d2e2298">العراق</placeName> واجتمعنا به وسررنا بملاقاته حيث
+الرافعي فقد مر عند ذلك التاريخ على <placeName change="#d2e120 #d11e276" xml:id="placeName_29.d2e2298" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> واجتمعنا به وسررنا بملاقاته حيث
 كان سلفي العقيدة منور الفكر، فكتب ما كتب عما رأى من أحوال رافضة
 العراق، ومن العجب أن الرافضي ادعى أن فرقته أطوع الناس للحكومة مع أن
 سيفها لم يزل على رقابهم، ولم يمض يوم من الأيام إلا والحرب معهم قائمة
@@ -990,7 +990,7 @@
 ترفضوا هم أعدى الناس لدولة الإسلام، وفي هذا الأسبوع ورد تلغراف يخبر عن
 هجوم جمع منهم على شطرة المنتفق وقتلهم جمعًا من الضباط وعددًا كثيرًا من
 الأفراد، وحروبهم في العمارة شهيرة، وكذلك قبائل الديوانية والنجف والسماوة
-وكربلاء لم يزالوا قائمين على ساق الحرب مع الحكومة، واختلال <placeName change="#d2e120" xml:id="placeName_30.d2e2318">العراق</placeName> دائمًا إنما
+وكربلاء لم يزالوا قائمين على ساق الحرب مع الحكومة، واختلال <placeName change="#d2e120 #d11e276" xml:id="placeName_30.d2e2318" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> دائمًا إنما
 هو من الإرفاض، فقد تهرى أديمهم من سم ضلالهم، ولم يزالوا يفرحون بنكبات
 المسلمين حتى إنهم اتخذوا يوم انتصار الروس على المسلمين عيدًا سعيدًا، وأهل
 إيران زيَّنوا بلادهم يومئذ فرحًا وسرورًا [4] ولو بسطنا القول في هذا الباب وذكرنا
@@ -1130,10 +1130,10 @@
 وشاركونا في كثير من الشعائر، فربما نفقت خزعبلاتهم على عوام الأعراب لنيل
 شهواتهم، والتوصل إلى مقاصدهم من: جمع النذور، وأخذ الخمس، وأجرة
 قصص التعازي ونحو ذلك، مع حثهم ووعظهم على عدم طاعة الحكومة ولا
-إعانتها في شيء، حتى حصل مقصودهم وأصبح <placeName change="#d2e120" xml:id="placeName_31.d2e2645">العراق</placeName> نيرانًا تتسعر، فكم أسالوا
+إعانتها في شيء، حتى حصل مقصودهم وأصبح <placeName change="#d2e120 #d11e276" xml:id="placeName_31.d2e2645" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> نيرانًا تتسعر، فكم أسالوا
 دماء المسلمين وأضروا الحكومة ضررًا عظيمًا والحكومة لم تنتبه لذلك إلا بعد أن
 اتسع الخرق على الراقع.
-والرافضي يقول: إن <placeName change="#d2e120" xml:id="placeName_32.d2e2655">العراق</placeName> كان ولم يزل دار الروافض، مع أني أعلم أن
+والرافضي يقول: إن <placeName change="#d2e120 #d11e276" xml:id="placeName_32.d2e2655" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> كان ولم يزل دار الروافض، مع أني أعلم أن
 أقوامًا من القبائل كانوا على مذهب أهل السنة وفي هذا العصر ترفضوا منهم قبائل
 زبيد وهم عمدة قبائل الطرق قوة وشجاعة وكثرة عدد، وهكذا قسم عظيم من شمر
 وقسم من بني تميم فضلا عن العصور التي لم أدركها.
@@ -1179,7 +1179,7 @@
 ((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_3.d2e2753">(1) الرفض يراد به الغلو في التشيع فالشيعة منهم المعتدلون ومنهم الغلاة ومنهم الباطنية الملاحدة أعداء الإسلام كالعبيديين والشيخ العاملي متعصب للجميع.
 (2) يستثني المؤلف بهذا القيد ما انفرد بروايته عنه صلى الله عليه وسلم حفاظ السنة كمالك وأحمد والبخاري ومسلم وأصحاب السنن، وهل لسنته صلى الله عليه وسلم حفاظ غيرهم؟ .
 (3) المراد بالجمهور هنا العارفون بالشؤون العامة من جميع الطوائف والشيعة يطلقون هذا اللفظ ولفظ العامة على أهل السنة ويسمون شيعتهم الخاصة.
-(4) المنار: الإنصاف أن <placeName change="#d2e120" xml:id="placeName_33.d2e2761">الدولة العثمانية</placeName> هي التي أثارت عصبية الشيعة عليها بحروبها لدولة إيران وما زالت السياسة تستخدم الدين لأهواء أهلها.
+(4) المنار: الإنصاف أن <placeName change="#d2e120 #d11e276" xml:id="placeName_33.d2e2761" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> هي التي أثارت عصبية الشيعة عليها بحروبها لدولة إيران وما زالت السياسة تستخدم الدين لأهواء أهلها.
 (5) أي كحسوة طائر من بحر.
 (6) نكتفي بالأول من الأبيات التي ذكرها هنا لأن ما بعدها طعن شديد لا نستحسن نشره.
 (7) لدينا رسالة منه في هذه المتعة التي هي أقبح الزنا وأضره.</note>
@@ -1455,7 +1455,7 @@
 (أسأل الله تعالى أن يكون معك ويمدك بروح منه، ويهبك القدرة على إتمام
 هذا التفسير ومختصره، إلخ) .
 وكتب العالم العامل الأستاذ محمد بهجة البيطار مدير المعهد العلمي السعودي
-ب<placeName change="#d2e120" xml:id="placeName_34.d2e3369">مكة المكرمة</placeName> تقريظًا للتفسير ذكر فيه له عشر مزايا قد انفرد بها ثم قال في آخره:
+ب<placeName change="#d2e120 #d11e276" xml:id="placeName_34.d2e3369" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> تقريظًا للتفسير ذكر فيه له عشر مزايا قد انفرد بها ثم قال في آخره:
 (ألا وإن خصائص هذا التفسير لكثيرة، وقد ذكرنا أهمها وإذا كان شرف
 العلم تابعًا لشرف الموضوع فتفسير السيد الإمام لكتاب الله تعالى على هذه النحو
 الذي أشرنا إليه هو أفضل ما ينفق فيه المرء أعوامه وأمواله، وأستاذنا يعلم قيمة
@@ -1592,7 +1592,7 @@
 بنات أفكار الكاتب الأوربي المؤجر، بل هي إملاء الكماليين أنفسهم فإن ما يكتبه
 هؤلاء المأجورون لا يخرج عما يقوله الكماليون في الإسلام سواء في بلادهم أو في
 خارجها، من الأقطار الشرقية والغربية، حتى إن جريدة مخادنت التي تصدر في
-مدينة <placeName change="#d2e120" xml:id="placeName_35.d2e3655">القاهرة</placeName> تكتب على ملأ من الناس أن مصدر تأخر الترك اللغة العربية أو
+مدينة <placeName change="#d2e120 #d11e276" xml:id="placeName_35.d2e3655" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> تكتب على ملأ من الناس أن مصدر تأخر الترك اللغة العربية أو
 بالحري الإسلام.
 وإذا دققت النظر فيما ينشر في أوربا ومصر تجد أن روح الكماليين لا تقف
 عند القضاء على الإسلام في تركيا، بل هي ترمي إلى محو الإسلام من جميع
@@ -1645,7 +1645,7 @@
 أما مسألة الأحرف العربية وتأخيرها للسان التركي عن التقدم، فنحن نستطيع
 أن نصرِّح تصريحًا ربما رآه جمهور الناس غريبًا في بادئ الأمر إلا أنه الحقيقة
 المجردة. وهو أنه لا يوجد إلى الآن شيء يسمى اللسان التركي ودون في الكتب
-وقرأه الناس ويستطيع الشعب في تركيا وأوربا في صميم <placeName change="#d2e120" xml:id="placeName_36.d2e3776">الأناضول</placeName> والتركستان أن
+وقرأه الناس ويستطيع الشعب في تركيا وأوربا في صميم <placeName change="#d2e120 #d11e276" xml:id="placeName_36.d2e3776" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName> والتركستان أن
 يفهم جملة من جملة فهمًا صحيحًا، اللهم إلا إذا كان هناك بعض علماء الآثار
 والعاديات يقدرون على حل تلك الرطانة والتكلم بها في أتفه الأمور، وهذا أعظم
 برهان للتاريخ على أن المدنية التركية لا وجود لها ولو وجدت لكان لها كتب دُوِّنَت
@@ -1815,7 +1815,7 @@
 وقد اجتمعت هنالك برئيس الجمعية التي تشتغل بما سموه تطهير اللغة
 التركية من الألفاظ العربية وأعضائها وناظرتها، فاعتذروا لي عن عملهم بأنه فني
 محض لا علاقة له بالدين ولا بالسياسة، وإنما الغرض منه تسهيل التعليم على
-عوام الترك ولا سيما فلاحي <placeName change="#d2e120" xml:id="placeName_37.d2e4143">الأناضول</placeName>، وقد أقمت عليهم الحجة كما شرحته في
+عوام الترك ولا سيما فلاحي <placeName change="#d2e120 #d11e276" xml:id="placeName_37.d2e4143" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>، وقد أقمت عليهم الحجة كما شرحته في
 المقالات التي نشرتها في الآستانة نفسها بالعربية والتركية وفي مقالات (رحلة
 الآستانة) .
 فمصطفى كمال باشا لم يبتكر شيئًا مما يسمونه التجديد، وإنما سنحت له
@@ -1854,7 +1854,7 @@
 تقدر بسير الرجلين أو سير البغل والحمار، وهذا الذي جرَّأ ملاحدة الأفغان وإيران
 على اتباع خطوات الشيطان بترك الهداية الدينية إلى الإباحة المادية، على ما بين
 شعوبهما والشعب التركي وما بين زعمائهما وحكوماتهما من الفروق، فالشعب
-التركي قد ذللته لقواده وحكومته الخدمة العسكرية العامة، وسلطتها <placeName change="#d2e120" xml:id="placeName_38.d2e4231">القاهرة</placeName>،
+التركي قد ذللته لقواده وحكومته الخدمة العسكرية العامة، وسلطتها <placeName change="#d2e120 #d11e276" xml:id="placeName_38.d2e4231" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>،
 وأضعف شكيمته الفقر ونكبات الحرب المتوالية، التي اشتدت وطأتها في حرب
 البلقان فالحرب العامة، والملاحدة في قواده وضباطه وأطبائه وحكامه كثيرون بما
 مارسوا من التعاليم الأوربية وما تمرسوا به من مخالطة ساسة الإفرنج من زهاء
@@ -1871,8 +1871,8 @@
 ولعمري إنها لنفس كبيرة، وهمة بعيدة، وإن كنا نحن المسلمين نستنكر هذه الخطة
 الجديدة وكثير من العقلاء يرون أنها غير سديدة.
 ثم صار يطمع بأن يكون مؤسس أمة جديدة بتأسيس لغة جديدة ودين جديد
-للشعب التركي الرومي الموجود في <placeName change="#d2e120" xml:id="placeName_39.d2e4272">الأناضول</placeName> وبقية الرومالي وفيما انتزعوه من
-قطر سورية و<placeName change="#d2e120" xml:id="placeName_40.d2e4278">العراق</placeName> العربيين، واللغة والدين أقوى مقومات الشعوب ومميزاتها
+للشعب التركي الرومي الموجود في <placeName change="#d2e120 #d11e276" xml:id="placeName_39.d2e4272" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName> وبقية الرومالي وفيما انتزعوه من
+قطر سورية و<placeName change="#d2e120 #d11e276" xml:id="placeName_40.d2e4278" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> العربيين، واللغة والدين أقوى مقومات الشعوب ومميزاتها
 ولا يبعد عليه بعد ذلك أن يستبدل لقب (كمالي) بلقب (تركي) الذي يحافظ عليه
 إلى الآن، كما حافظ على اسم الإسلام مدة قليلة من الزمان، وهو لم يبق للترك
 شيئًا من مقوماتهم ولا من تاريخهم الذي كانوا به أمة مجيدة ذات دولة عزيزة، كما
@@ -2078,7 +2078,7 @@
 والبوارج الحربية فالطيارات الحديثة إلى اليوم، ولولا تنازع دول أوربة الكبرى
 على ممالكهم ولا سيما مركز القسطنطينية لزالت سلطنتهم منذ قرون أو قرنين،
 على أنهم ما زالوا ينقصونها من أطرافها حتى زالت بالحرب العالمية الأخيرة ولم
-يبق لهم منها إلا عقرها في <placeName change="#d2e120" xml:id="placeName_41.d2e4733">الأناضول</placeName> وبعض الرومللي.
+يبق لهم منها إلا عقرها في <placeName change="#d2e120 #d11e276" xml:id="placeName_41.d2e4733" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName> وبعض الرومللي.
 إن هذا الشعب على جهله الذي أضاع منه أعظم سلطنة (إمبراطورية) في
 قلب العالم تولى أمرها بضعة قرون ولم يستطع أن يستخرج شيئًا من كنوز أرضها
 الثمينة، ولا أن يجني منها ثروة تُذْكَر، ولا أن يترك فيها أثرًا عمرانيًّا يحمد، لم
@@ -2125,7 +2125,7 @@
 فأما أسباب الأمل فهي محصورة في قوة إرادة الزعماء مع ضعف الشعب،
 وفي كثرة أعوانهم المتفقين معهم على خطتهم كما تقدم، وفي تمكنهم من إبعاد القواد
 والضباط ورجال الإدارة والقضاء المخالفين لها عن المعسكرات ودواوين الحكومة
-بالقوة <placeName change="#d2e120" xml:id="placeName_42.d2e4844">القاهرة</placeName>، وفي بناء كثير من أعمالهم العسكرية والاقتصادية على قواعد الفنون
+بالقوة <placeName change="#d2e120 #d11e276" xml:id="placeName_42.d2e4844" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، وفي بناء كثير من أعمالهم العسكرية والاقتصادية على قواعد الفنون
 العصرية.
 ***
 وأما أسباب الفشل فالمعروف عندنا منها:
@@ -2161,7 +2161,7 @@
                
 كتب دينية إسلامية
 (التعريف بالنبي والقرآن الشريف)
-طبع بمطبعة دار الكتب المصرية ب<placeName change="#d2e120" xml:id="placeName_43.d2e4910">القاهرة</placeName> سنة 1345 صفحاته 110 بقطع
+طبع بمطبعة دار الكتب المصرية ب<placeName change="#d2e120 #d11e276" xml:id="placeName_43.d2e4910" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> سنة 1345 صفحاته 110 بقطع
 رسالة التوحيد.
 كتاب نفيس مختصر مفيد، تأليف صديقنا صاحب الفضيلة الأستاذ السيد
 محمد علي الببلاوي نقيب السادة الأشراف بالديار المصرية، ومراقب إحياء الآداب
@@ -2174,7 +2174,7 @@
 المعروف في البخاري وغيره وتبليغ الرسالة وإيذاء قريش له، ولمن آمن به ثم خبر
 الهجرة وما تقدمها من انتشار الإسلام في الأنصار رضي الله عنهم ثم تصدي قريش
 لقتاله فيها، وإذن الله تعالى له بالقتال دفاعًا وتأمينًا لدعوته السلمية المبنية على
-أساس الدليل والبرهان فقتاله لهم إلى أن نصره الله تعالى عليهم بفتح <placeName change="#d2e120" xml:id="placeName_44.d2e4942">مكة</placeName> والقضاء
+أساس الدليل والبرهان فقتاله لهم إلى أن نصره الله تعالى عليهم بفتح <placeName change="#d2e120 #d11e276" xml:id="placeName_44.d2e4942" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> والقضاء
 على الوثنية في جزيرة العرب.
 ويلي هذا طرف من أخلاقه العظيمة صلى الله عليه وسلم فالكلام على عموم
 رسالته، وحجة القرآن الدائمة عليها، فالكلام على شريعته وما فيها من أصول
@@ -2312,18 +2312,18 @@
 ***
 (بيان مشروعية الحجاب)
 رسالة مختصرة لصاحب الفضيلة، والمزايا الجميلة، محامي الشريعة،
-ومجاهد البدع والمعاصي الفاشية، صديقنا الأستاذ الشيخ مصطفى نجا مفتي <placeName change="#d2e120" xml:id="placeName_45.d2e5250">بيروت</placeName>،
+ومجاهد البدع والمعاصي الفاشية، صديقنا الأستاذ الشيخ مصطفى نجا مفتي <placeName change="#d2e120 #d11e276" xml:id="placeName_45.d2e5250" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>،
 كتبها بمناسبة ما فشا من تهتك النساء، ودعوة المتفرنجين إياهن إلى هتك
 الحجاب، ذكر فيها خلاصة أقوال المفسرين والفقهاء المتعلقة بالموضوع وفنَّد فيها
 شبهات السفوريين، وأودعها بعض أقوال علماء أوربة للشرق من غير المسلمين
-في الثناء على الشريعة الإسلامية، وقد طبعت في المطبعة الوطنية ب<placeName change="#d2e120" xml:id="placeName_46.d2e5262">بيروت</placeName> وتوزع
+في الثناء على الشريعة الإسلامية، وقد طبعت في المطبعة الوطنية ب<placeName change="#d2e120 #d11e276" xml:id="placeName_46.d2e5262" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> وتوزع
 فيها مجانًَا، فجزى الله كاتبها وطابعها وناشرها خير الجزاء.
 ***
 (<bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_14.d2e5272">الإصلاح</title></bibl>)
-(صحيفة دينية علمية اجتماعية أخلاقية) تصدر في <placeName change="#d2e120" xml:id="placeName_47.d2e5277">مكة المكرمة</placeName> مرتين في
+(صحيفة دينية علمية اجتماعية أخلاقية) تصدر في <placeName change="#d2e120 #d11e276" xml:id="placeName_47.d2e5277" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> مرتين في
 كل شهر، عدد صفحات الجزء منها 24 صفحة من القطع الكبير مديرها الأستاذ
-الشيخ محمد الفقي الأزهري رئيس شعبة الطبع والنشر ب<placeName change="#d2e120" xml:id="placeName_48.d2e5285">مكة</placeName>، وقيمة الاشتراك
-السنوي فيها ثلاث ريالات سعودية في <placeName change="#d2e120" xml:id="placeName_49.d2e5290">الحجاز</placeName> ونصف جنيه إنكليزي في خارجه،
+الشيخ محمد الفقي الأزهري رئيس شعبة الطبع والنشر ب<placeName change="#d2e120 #d11e276" xml:id="placeName_48.d2e5285" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وقيمة الاشتراك
+السنوي فيها ثلاث ريالات سعودية في <placeName change="#d2e120 #d11e276" xml:id="placeName_49.d2e5290" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونصف جنيه إنكليزي في خارجه،
 وقد صدر منها ثلاثة أجزاء أولها في 15 صفر سنة 1347 والثاني في 15 والثالث
 30 ربيع الأول منه، وقد استغربنا جعل أرقام كل جزء منها مستقلة غير تابع
 ثانيها لأولها، وثالثها لثانيها مع أن مديرها مختبر لأعمال الطبع بما كان من اشتغاله
@@ -2385,7 +2385,7 @@
 يستطيع أن يعيد ما سمعه بدون زيادة أو نقصان، وأنه كان يخشى أن يزيد على
 رسول الله أو ينقص من كلامه فتحامى الحديث كله تقريبًا.
 وفي صفحة <date calendar="#cal_gregorian" when="0102" change="#d3e146 #d2e120" xml:id="date_7.d2e5417">102</date> من الجزء المذكور عن السائب بن يزيد أنه صحب سعد بن
-أبي وقاص من المدينة إلى <placeName change="#d2e120" xml:id="placeName_50.d2e5422">مكة</placeName> قال: فما سمعته يحدث عن النبي صلى الله عليه
+أبي وقاص من المدينة إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_50.d2e5422" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> قال: فما سمعته يحدث عن النبي صلى الله عليه
 وسلم حديثًا حتى رجع، ثم عن يحيى بن عباد عن شعبة: دخلوا على سعد بن أبي
 وقاص فسئل عن شىء فاستعجب فقال: إني أخاف أن أحدثكم واحدًا فتزيدوا المائة.
 فهذا صحابي عظيم أيضًا كالزبير وكلاهما من العشرة يعتقد أن الحديث مهما
@@ -2476,7 +2476,7 @@
 وغيره ولم يرد عليه أحد من المتناظرين ولا من غيرهم وسنذكر خلاصته، وأما رد
 الأستاذ الشيخ صالح اليافعي فقد نشرناه في عدة أجزاء من المجلد العاشر.
 ثم إن صديقنا المرحوم رفيق بك العظم كتب بحثًا موضوعه (التدوين في
-الإسلام) وألقاه في نادي المدارس العليا في <placeName change="#d2e120" xml:id="placeName_51.d2e5636">القاهرة</placeName> وجمع فيه ما وقف عليه في
+الإسلام) وألقاه في نادي المدارس العليا في <placeName change="#d2e120 #d11e276" xml:id="placeName_51.d2e5636" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> وجمع فيه ما وقف عليه في
 كتب التاريخ من كتابة الحديث وغيره، فاقترح علينا بعض قراء المنار نشر ذلك
 البحث والتعليق عليه بما يبدو لنا من استدراك أو انتقاد، كما اقترح علينا كل من
 الدكتور محمد توفيق صدقي ومناظره الشيخ صالح اليافعي وغيرهم تمحيص كتابة
@@ -2518,7 +2518,7 @@
 مرفوعًا (اكتبوا لأبي شاه) وقد بينت أنه لا يعارض حديث أبي سعيد وما في معناه
 على قاعدتنا التي مدارها على أن نهيه صلى الله عليه وسلم عن كتابة حديثه مُرَاد
 به أن لا يتخذ دينًا عامًّا كالقرآن، وذلك أن ما أمر بكتابته لأبي شاه هو خطبة
-خطبها صلى الله عليه وسلم يوم فتح <placeName change="#d2e120" xml:id="placeName_52.d2e5735">مكة</placeName> موضوعها تحريم <placeName change="#d2e120" xml:id="placeName_53.d2e5738">مكة</placeName> ولقطة الحرم، وهذا
+خطبها صلى الله عليه وسلم يوم فتح <placeName change="#d2e120 #d11e276" xml:id="placeName_52.d2e5735" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> موضوعها تحريم <placeName change="#d2e120 #d11e276" xml:id="placeName_53.d2e5738" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ولقطة الحرم، وهذا
 من بيانه صلى الله عليه وسلم للقرآن الذي صرَّح به يوم الفتح، وصرح به في
 حجة الوداع، وأمر بتبليغه فهو خاص مستثنًى من النهي العام، وقد صرَّح البخاري
 في باب اللقطة من صحيحه بأن أبا شاه اليمني طلب أن تكتب له الخطبة المذكورة

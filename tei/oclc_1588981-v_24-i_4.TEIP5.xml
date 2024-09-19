@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_24-i_4.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_24-i_4.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e288">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_24-i_4.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_24-i_4.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1341">1341</date><date calendar="#cal_gregorian" when="1923" xml:lang="ar">أبريل - 1923م</date></imprint>
                   <biblScope unit="volume" from="24" to="24" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">24</biblScope>
                   <biblScope unit="issue" from="4" to="4" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">4</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e282" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e288" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e282" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -114,7 +114,7 @@
 فعُلم بهذا أن ملاحدة المسلمين وفُسَّاقهم المستهترين أجدر أن يكونوا أشد
 كراهية لإقامة أحكام الشريعة من غير المسلمين؛ لأنها تكلفهم ما لا تكلف غيرهم
 وتؤاخذهم بما لا تؤاخذهم به، وقد اقترح بعض هؤلاء الملاحدة على جماعة المؤتمر
-السوري العام الذي عقد في <placeName change="#d2e120" xml:id="placeName_4.d2e346">دمشق</placeName> أن يقرروا جعل الحكومة السورية غير دينية،
+السوري العام الذي عقد في <placeName change="#d2e120 #d11e288" xml:id="placeName_4.d2e346" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> أن يقرروا جعل الحكومة السورية غير دينية،
 ولا أذكر أن أحدًا من الأعضاء النصارى وافق على الاقتراح، بل صرح بعضهم
 برده كأكثر المسلمين، واقتُرِحَ في ذلك المؤتمر أن تقيد مادة الحرية الشخصية من
 القانون الأساسي بقيد عدم الإخلال بالآداب العامة، فرد هذا الاقتراح بعض هؤلاء
@@ -228,7 +228,7 @@
 تشريع من يشاركهم في وطنهم، وليس من الحق ولا من العدل أن تكلف أمة ترك
 منقبة التشريع الفضلى ومثل هذه الحكومة المثلى؛ إرضاء لفئة قليلة لا مصلحة لها
 في تركها وإنما تكرهها لمحض التعصب على السواد الأعظم من أهل وطنها،
-وناهيك بما تأرّث من الضغائن بين مسلمي <placeName change="#d2e120" xml:id="placeName_5.d2e596">الأناضول</placeName> والروم والأرمن الذين خرجوا
+وناهيك بما تأرّث من الضغائن بين مسلمي <placeName change="#d2e120 #d11e288" xml:id="placeName_5.d2e596" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName> والروم والأرمن الذين خرجوا
 على الترك في زمن محنتهم وساعدوا أعداءهم عليهم في حربهم.
 وموضوع الكلام في إقامة الخلافة في هذه البلاد التركية، فإذا رضي الترك
 بذلك وعاملوا هؤلاء الجناة البغاة بعدل الشريعة ورحمتها، فلا يُعقل أن يكرهوا ذلك
@@ -237,7 +237,7 @@
 أولئك الجناة القساة الذين خربوا ديارهم بالنار والبارود وهم يرونها بأعينهم أكوامًا
 من الرماد والأنقاض.
 وهذه حكومات جزيرة العرب إسلامية محضة ليس فيها قوانين وضعية ولا
-تشريع أوربي، وأقدَمها حكومة أئمة <placeName change="#d2e120" xml:id="placeName_6.d2e619">اليمن</placeName>، وهنالك كثير من اليهود وهم راضون من
+تشريع أوربي، وأقدَمها حكومة أئمة <placeName change="#d2e120 #d11e288" xml:id="placeName_6.d2e619" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وهنالك كثير من اليهود وهم راضون من
 حكومة الإمامة الشرعية لم يشْكوا منها ظلمًا ولا هضمًا ولا يفضِّلون عليها حكومة
 أخرى، ولو سرى إليهم سم السياسة الاستعمارية من طريق التعليم أو غيره لأفسدوهم
 على حكومتهم وأثاروهم عليها لطلب وطن قومي لهم في البلاد، وَلَوَعَدَهم نافثو السم
@@ -251,8 +251,8 @@
 قد يقاومونها بكل ما أوتوا من حول، وقوة وأحرصهم على ذلك الدولة البريطانية.
 ولا أجهل ممن يظنون أنها كانت تسعى قبل الحرب لجعل الخلافة في الأمة العربية،
 إلا الذين يظنون اليوم أنها تود تأسيس دولة أو دول عربية! ولو كانت تريد هذا من
-قبل لكان أقرب طرقه مساعدة أئمة <placeName change="#d2e120" xml:id="placeName_7.d2e653">اليمن</placeName> المجاورين لها في منطقة عدن على التُّرك
-بالسلاح والمال لتنظيم جيشهم والاستيلاء على <placeName change="#d2e120" xml:id="placeName_8.d2e659">الحجاز</placeName>؛ فإن حكومة الإمامة في اليمن
+قبل لكان أقرب طرقه مساعدة أئمة <placeName change="#d2e120 #d11e288" xml:id="placeName_7.d2e653" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> المجاورين لها في منطقة عدن على التُّرك
+بالسلاح والمال لتنظيم جيشهم والاستيلاء على <placeName change="#d2e120 #d11e288" xml:id="placeName_8.d2e659" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>؛ فإن حكومة الإمامة في اليمن
 قوية عادلة قديمة راسخة يرجع تاريخها إلى القرن الثالث من الهجرة وقد حاربتها
 الدولة العثمانية زهاء أربعة قرون لإسقاطها فعجزت عن ذلك، ولكن الحكومة
 البريطانية كانت لها بالمرصاد، وما زالت تكيد لها وتسعى بالدسائس والفتن للتدخل
@@ -269,7 +269,7 @@
 تحيا، وبيَّنا أيضًا أن هذه القاعدة قد تغيرت بما كان بين الدولتين - البريطانية
 والروسية - على مسائل الشرق، واقتسامهما بلاد إيران قبل الحرب، وأنها تجنح إلى
 إقامة خلافة عربية صورية تكون آلة بيدها بعد الحرب العامة، والتمكن من خداع
-شريف <placeName change="#d2e120" xml:id="placeName_9.d2e699">مكة</placeName> وتسخيره لمساعدتها، ونحمد الله أن جعلنا من أسباب خيبة هذا السعي
+شريف <placeName change="#d2e120 #d11e288" xml:id="placeName_9.d2e699" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وتسخيره لمساعدتها، ونحمد الله أن جعلنا من أسباب خيبة هذا السعي
 حتى لم يتم لها.
 قد عنيت الدولة البريطانية منذ أول زمن هذه الحرب بالبحث في مسألة
 الخلافة، وطفق رجالها يستطلعون علماء المسلمين وزعماءهم في مصر والسودان
@@ -290,7 +290,7 @@
 هو الاعتقاد بأنها منتصرة مع حلفائها فلا تحتاج إلى مساعدة.
 وعدت إلى بحث الخلافة في آخر مذكرة منها وهي التي أرسلتها إلى الوزير
 لويد جورج في منتصف سنة 1919 فقلت في بيان ما يرضي المسلمين من إنكلترا:
-(إن الوزير قد علم أن الاعتراف باستقلال <placeName change="#d2e120" xml:id="placeName_10.d2e747">الحجاز</placeName> وتسمية أمير <placeName change="#d2e120" xml:id="placeName_11.d2e751">مكة</placeName> ملكًا لم يكن
+(إن الوزير قد علم أن الاعتراف باستقلال <placeName change="#d2e120 #d11e288" xml:id="placeName_10.d2e747" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وتسمية أمير <placeName change="#d2e120 #d11e288" xml:id="placeName_11.d2e751" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ملكًا لم يكن
 له ذلك التأثير الذي كان الإنكليز يتوقعونه من قلوب المسلمين - ذلك بأن بلاد
 الحجاز أفقر البلاد الإسلامية وأضعفها في كل شيء، وهي موطن عبادة لا ملك
 وسيادة، ولم يكن المسلمون مضطربين من الخوف على المساجد المقدسة أن تهدم أو
@@ -300,7 +300,7 @@
 مستقلة قوية قادرة بذاتها على تنفيذ أحكام شرعه بغير معارض ولا سيطرة أجنبية،
 وهذا هو السبب في تعلق أكثر مسلمي الأرض بمحبة دولة الترك واعتبارهم إياها
 هي الدولة الممثلة لخلافة النبوة مع فقد سلطانهم لما عدا القوة والاستقلال من شرطها
-الخاصة، ولولا ذلك لاعترفوا بخلافة إمام <placeName change="#d2e120" xml:id="placeName_12.d2e775">اليمن</placeName> لشرف نسبه وعلمه بالشرع
+الخاصة، ولولا ذلك لاعترفوا بخلافة إمام <placeName change="#d2e120 #d11e288" xml:id="placeName_12.d2e775" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> لشرف نسبه وعلمه بالشرع
 واستجماعه لغير ذلك من شروط الخلافة، ذلك بأن الشروط تعد ثانوية بالنسبة إلى
 أصل المطلوب. مثال ذلك: أن الحكومة المصرية تشترط في مستخدميها أن يكونوا
 مصريي الجنس عارفين باللغة العربية حاملين لشهادات مخصوصة - ولكنها عندما
@@ -308,7 +308,7 @@
 إنما يُقَدَّم المستوفِي للشروط على غيره إذا كان قادرًا على أصل العمل المطلوب) .
 اهـ. المراد هنا من مذكرتنا إلى لويد جورج.
 وكان الغرض من هذا أن لا يغترُّوا بما يعلمون من عدم استجماع الخليفة
-التركي لشروط الخلافة، ولا بما كانوا يرمون إليه من جعل شريف <placeName change="#d2e120" xml:id="placeName_13.d2e796">مكة</placeName> خليفة بعد
+التركي لشروط الخلافة، ولا بما كانوا يرمون إليه من جعل شريف <placeName change="#d2e120 #d11e288" xml:id="placeName_13.d2e796" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> خليفة بعد
 اعترافه لهم بأن مكان الأمة العربية من إنكلترا مكان القاصر بالطفولية أو العَتَه من
 الوصي ورضاه بحمايتهم له ولها، وقد صرحنا للوزير في هذه المذكرة بأن الذي
 يرضي العالم الإسلامي من دولته ترك الشعوب الإسلامية العربية والتركية
@@ -322,7 +322,7 @@
 أنصاره في الوزارة التي خلفتها وهو لورد كرزون الذي هو أشد تعصبًا وعداوة
 للمسلمين منه؛ فلذلك لم يتغير من سياسة الدولة شيء في المسألة الإسلامية إلا ما
 اضطرت إليه من مجاملة الدولة التركية الجديدة بعد تنكيلها بالجيش اليوناني الذي
-أغرته وزارة لويد جورج بالقضاء على ما بقي للترك من القوة في <placeName change="#d2e120" xml:id="placeName_14.d2e829">الأناضول</placeName>، فأثبتت
+أغرته وزارة لويد جورج بالقضاء على ما بقي للترك من القوة في <placeName change="#d2e120 #d11e288" xml:id="placeName_14.d2e829" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>، فأثبتت
 بذلك أنها لا تلين إلا للقوة وأما الحق والعدل والوفاء بالعهود والوعود فلها في
 قاموس سياستها معانٍ أخرى غير ما يعرفه سائر البشر في لغاتهم.
 * * *
@@ -363,17 +363,17 @@
 فيهم هو الحسنُ، وما يستقبحونه منهم هو القبيحُ؛ إذ تربوا على ذلك ولم يجدوا
 أحدًا يبين لهم الحقائق. وكان هذا عونًا لهم على سلب استقلال هؤلاء المخدوعين
 والمرهبين في بعض البلاد وغلبة نفوذهم على نفوذ الحكومة في بلاد أخرى كمصر
-و<placeName change="#d2e120" xml:id="placeName_15.d2e930">الدولة العثمانية</placeName>، واستحوذ الجبن والخور على رجال الحكومات في هذه البلاد حتى
-إن أركان <placeName change="#d2e120" xml:id="placeName_16.d2e935">الدولة العثمانية</placeName> لم يتجرأوا على الإذن لنا بإنشاء مدرسة إسلامية في
+و<placeName change="#d2e120 #d11e288" xml:id="placeName_15.d2e930" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>، واستحوذ الجبن والخور على رجال الحكومات في هذه البلاد حتى
+إن أركان <placeName change="#d2e120 #d11e288" xml:id="placeName_16.d2e935" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> لم يتجرأوا على الإذن لنا بإنشاء مدرسة إسلامية في
 عاصمتها باسم (دار الدعوة والإرشاد) كما تقدم، ولم يكونوا كلهم يجهلون ما
 ذكرت، بل قال لي شيخ الإسلام حسني أفندي رحمه الله تعالى: إن عندنا قاعدة
 مطردة في الإفرنج هي أن كل ما يرغبوننا فيها فهو ضار بنا وكل ما ينفروننا عنه
 فهو نافع لنا. وإنما هو جبن بعض الرؤساء وفساد عقائد بعض، وما الجبن إلا
-غشاوة من الوهم على عين البصيرة انقشعت عن ترك <placeName change="#d2e120" xml:id="placeName_17.d2e949">الأناضول</placeName> فرأوا أنهم بعد
+غشاوة من الوهم على عين البصيرة انقشعت عن ترك <placeName change="#d2e120 #d11e288" xml:id="placeName_17.d2e949" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName> فرأوا أنهم بعد
 انكسارهم في الحرب العامة وفقدهم لتلك الممالك الواسعة أعز وأقوى مما كانوا عليه
 منذ مائتي سنة؛ إذ كانت البلاد فيها تنتقص من أطرافها ونفوذ الأجانب في عاصمة
 الدولة فوق نفوذ خليفتها وسلطانها.
-لهذا السبب ينوط الرجاء بحكومة <placeName change="#d2e120" xml:id="placeName_18.d2e961">الأناضول</placeName> ألوف الألوف من المسلمين أن
+لهذا السبب ينوط الرجاء بحكومة <placeName change="#d2e120 #d11e288" xml:id="placeName_18.d2e961" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName> ألوف الألوف من المسلمين أن
 تحيي منصب الخلافة وتجدد به مجد الإسلام وشريعته الغراء التي يُرْجَى أن يتجدد
 بإحيائها مجد الإنسانية ويدخل البشر في عصر جديد ينجون به من مفاسد المَدَنِيَّة
 المادية التي تهدد العمران الأوربي بالزوال.
@@ -510,7 +510,7 @@
 العثماني مصر ونزل ضيفًا عند صديقه صاحب المنار؛ وزار لورد كتشنر العميد
 البريطاني في ذلك الوقت بإيعاز، وكنت معه فكان مما قاله له اللورد باللغة
 العربية [2] :
-إن <placeName change="#d2e120" xml:id="placeName_19.d2e1267">الدولة العثمانية</placeName> لا تصلح بالقوانين التي تقتبسها منا - معشر الأوربيين -
+إن <placeName change="#d2e120 #d11e288" xml:id="placeName_19.d2e1267" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> لا تصلح بالقوانين التي تقتبسها منا - معشر الأوربيين -
 ونحن ما صلحت لنا هذه القوانين إلا بعد تربية تدريجية في عدة قرون كنا نغير فيها
 ونبدل بحسب اختلاف الأحوال، وإن عندكم شريعة عادلة موافقة لعقائدكم ولأحوالكم
 الاجتماعية، فالواجب على الدولة أن تعمل بها وتترك قوانين أوربة، فتقيم العدل
@@ -625,7 +625,7 @@
 به رسوله ليلة المعراج، وأن الله أمره أن لا يُعْلِمَ به أحدًا فلما أصبح وجدهم
 يتحدثون به فأنكر ذلك فقال الله له: أنا أمرتك أن لا تُعْلِمَ به أحدًا، لكن أنا الله
 أعلمتهم. إلى أمثال هذه الأكاذيب التي هي من أعظم الكفر، وهي كذب واضح فإن
-أهل الصفة لم يكونوا إلا بالمدينة ولم يكن ب<placeName change="#d2e120" xml:id="placeName_20.d2e1513">مكة</placeName> أهل الصفة، والمعراج إنما كان من
+أهل الصفة لم يكونوا إلا بالمدينة ولم يكن ب<placeName change="#d2e120 #d11e288" xml:id="placeName_20.d2e1513" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أهل الصفة، والمعراج إنما كان من
 مكة كما قال سبحانه وتعالى: {سُبْحَانَ الَّذِي أَسْرَى بِعَبْدِهِ لَيْلاً مِّنَ المَسْجِدِ الحَرَامِ إِلَى
 المَسْجِدِ الأَقْصَى الَّذِي بَارَكْنَا حَوْلَهُ} (الإسراء: 1) ومما يشبه هذا من بعض
 الوجوه رواية بعضهم عن عمر رضي الله عنه أنه قال: كان النبي صلى الله عليه
@@ -669,7 +669,7 @@
 الصحابة ولا من أهل الصفة ولا من غيرهم ولا من التابعين، بل القرون الثلاثة
 المفضلة التي قال فيها النبي صلى الله عليه وسلم: (خير القرون القرن الذي بعثت
 فيهم، ثم الذين يلونهم، ثم الذين يلونهم) لم يكن فيهم أحد يجتمع على هذا السماع
-لا في <placeName change="#d2e120" xml:id="placeName_21.d2e1611">الحجاز</placeName> ولا في <placeName change="#d2e120" xml:id="placeName_22.d2e1614">الشام</placeName> ولا في <placeName change="#d2e120" xml:id="placeName_23.d2e1617">اليمن</placeName> ولا في <placeName change="#d2e120" xml:id="placeName_24.d2e1621">العراق</placeName> ولا مصر ولا خراسان ولا
+لا في <placeName change="#d2e120 #d11e288" xml:id="placeName_21.d2e1611" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ولا في <placeName change="#d2e120 #d11e288" xml:id="placeName_22.d2e1614" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ولا في <placeName change="#d2e120 #d11e288" xml:id="placeName_23.d2e1617" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> ولا في <placeName change="#d2e120 #d11e288" xml:id="placeName_24.d2e1621" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ولا مصر ولا خراسان ولا
 المغرب. إنما كان السماع الذين يجتمعون عليه سماع القرآن وهو الذي كان الصحابة
 من أهل الصفة وغيرهم يجتمعون عليه، فكان أصحاب محمد إذا اجتمعوا أَمَرَوا واحدًا
 منهم يقرأ والباقي يستمعون، وقد روي أن النبي صلى الله عليه وسلم خرج على
@@ -982,7 +982,7 @@
 ويُظن أن أكثر هذه النقود وصلت إلى سويسرة بواسطة النورمانديين، وكذلك وجدت
 في بلدة مودون من سويسرة مسكوكات منها من سنة 170 للهجرة مضروب في أفريقيا
 ومنها ضرب إسماعيل بن أحمد في أيام الخليفة المعتضد سنة 283 للهجرة، ومنها
-ضرب في <placeName change="#d2e120" xml:id="placeName_25.d2e2303">بغداد</placeName> سنة 361 هجرية مكتوب على بعضها من الوجه الواحد (لا إله إلا
+ضرب في <placeName change="#d2e120 #d11e288" xml:id="placeName_25.d2e2303" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> سنة 361 هجرية مكتوب على بعضها من الوجه الواحد (لا إله إلا
 الله وحده لا شريك له. ركن الدولة أبو علي بويه، ومن الوجه الآخر: بسم الله، قد
 ضرب هذا الدرهم في مدينة السلام عام ثلاث مائة وأربع وستين. ووجدت على
 بعضها: محمد رسول الله. الطائع لله الملك العادل عضد الدولة أبو شجاع.
@@ -1024,9 +1024,9 @@
 هذا ما اتصل إليه علمنا من تاريخ إقامة العرب بسويسرة، أو بالأحرى
 (انتداب) العرب لإدارة تلك البلاد في القرن العاشر.
 فإن قيل: إنك تُعَرِّضُ بما تسميه دول الحلفاء اليوم (انتدابًا) على سورية
-وفلسطين و<placeName change="#d2e120" xml:id="placeName_26.d2e2400">العراق</placeName>، وهذا لا يشبه ذاك؟ أجبنا أنه لا يوجد أدنى فرق بين الانتدابين،
+وفلسطين و<placeName change="#d2e120 #d11e288" xml:id="placeName_26.d2e2400" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وهذا لا يشبه ذاك؟ أجبنا أنه لا يوجد أدنى فرق بين الانتدابين،
 فإذا كان العرب سفكوا دماء بسويسرة فهو - ولا شك - أقل جدًّا مما سفكه الحلفاء في
-سورية و<placeName change="#d2e120" xml:id="placeName_27.d2e2408">العراق</placeName>، وإذا كان أخذوا جماعة بثأر واحد فالحلفاء لم يتوقفوا دقيقة واحدة عن
+سورية و<placeName change="#d2e120 #d11e288" xml:id="placeName_27.d2e2408" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وإذا كان أخذوا جماعة بثأر واحد فالحلفاء لم يتوقفوا دقيقة واحدة عن
 تدمير قرى بتمامها ورمي القنابر الديناميتية على النساء والأطفال والعاجزين وحصد
 رءوس الألوف لأجل الانتقام من عمل رجل واحد أو عصابة مؤلفة من بضعة رجال.
 وإن قيل: إن العرب في سويسرة سلبوا ونهبوا، فهل إذا تأمل المنصف إدارة الحلفاء
@@ -1066,7 +1066,7 @@
 تتبعهم ما استخرجه لنا الكاتب من أسفار تواريخهم من عزة ومنعة، وتمكن في
 الأرض، وقتال أو إجارة للأمراء والملوك وفرض الضرائب والمكوس، وإقامة
 للصروح والحصون. ثم يكون من أمر هذه الأمة أن يذل ألوف الألوف منهم في عقر
-دارهم، ويسلمون قيادهم فيها لأعدائهم باختيارهم، حتى يكون من مثل أمير <placeName change="#d2e120" xml:id="placeName_28.d2e2501">الحجاز</placeName>،
+دارهم، ويسلمون قيادهم فيها لأعدائهم باختيارهم، حتى يكون من مثل أمير <placeName change="#d2e120 #d11e288" xml:id="placeName_28.d2e2501" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>،
 تلك البلاد المقدسة التي تحترمها الدول الكبرى ولا تدنو منها بسوء، أن يقترح
 باختياره على الدولة الإنجليزية أن تنتزع البلاد العربية حتى المقدسة من الترك
 وتجعلها تحت حمايتها - وأن يكون هذا الاقتراح في الوقت الذي كانت فيه هذه الدولة
@@ -1705,19 +1705,19 @@
 حكومته بالطعن في الوهابية ويزعمون أنهم يخدمون بذلك الدين وينصرون السنة،
 ولكننا لم نر أحدًا من هؤلاء المنافقين نصر الدين بالرد على الملاحدة ولا على دعاة
 النصرانية الذين يطعنون في أصل الإسلام وكتابه ورسوله لتنصير المسلمين، وكان
-بعض حشوية <placeName change="#d2e120" xml:id="placeName_29.d2e3883">الشام</placeName> المُتَمَلقين أشد الناس إسرافًا في الطعن في الوهابية فلا يكادون
-يُذكرون في كل البلاد العثمانية بقدر ما يذكرون في <placeName change="#d2e120" xml:id="placeName_30.d2e3889">دمشق</placeName> وحدها.
+بعض حشوية <placeName change="#d2e120 #d11e288" xml:id="placeName_29.d2e3883" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> المُتَمَلقين أشد الناس إسرافًا في الطعن في الوهابية فلا يكادون
+يُذكرون في كل البلاد العثمانية بقدر ما يذكرون في <placeName change="#d2e120 #d11e288" xml:id="placeName_30.d2e3889" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> وحدها.
 وقد خفت هذه الوطأة في السنين الأخيرة ثم اشتدت بعد أن استقرت إمارة عبد الله
 ابن الملك حسين في شرق الأردن وشاع أن الوهابية سيزحفون للاستيلاء على هذه
 المنطقة لانتزاعها من السلطة الحجازية البريطانية، وكان بعض الجرائد المسيحية
-في <placeName change="#d2e120" xml:id="placeName_31.d2e3900">دمشق</placeName> و<placeName change="#d2e120" xml:id="placeName_32.d2e3904">القدس</placeName> أول ميادين هذه الحملة، فأصحابها النصارى يطعنون في
-الوهابية ويفضلون أمراء <placeName change="#d2e120" xml:id="placeName_33.d2e3909">الحجاز</placeName> على أمراء نجد من طريق السياسة، بل ذكرت
+في <placeName change="#d2e120 #d11e288" xml:id="placeName_31.d2e3900" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> و<placeName change="#d2e120 #d11e288" xml:id="placeName_32.d2e3904" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> أول ميادين هذه الحملة، فأصحابها النصارى يطعنون في
+الوهابية ويفضلون أمراء <placeName change="#d2e120 #d11e288" xml:id="placeName_33.d2e3909" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> على أمراء نجد من طريق السياسة، بل ذكرت
 <bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e273">جريدة (<title level="j" change="#d11e273">لسان العرب</title>) </bibl> التي تأخذ راتبًا شهريًّا من الأمير عبد الله، ومنحتها <bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e282">جريدة
 <title level="j" change="#d11e282">القبلة الحجازية</title></bibl>لقب (لسان أقوامنا) أنه يجب على النصارى في سورية وفلسطين
 تأييد الملك حسين وأولاده؛ لأن حكومتهم مدنية لا إسلامية بخلاف حكومة نجد فإنها
 إسلامية دينية متعصبة. وقد فتحوا أبواب صحفهم لكل من يطعن في الوهابية من
 المسلمين طعنًا دينيًّا بحتًا لأجل هذه الغاية السياسية.
-وفي هذه الأثناء جاءتنا عدة رسائل من <placeName change="#d2e120" xml:id="placeName_34.d2e3925">دمشق</placeName> ورسالة من <placeName change="#d2e120" xml:id="placeName_35.d2e3928">بيروت</placeName> في الطعن
+وفي هذه الأثناء جاءتنا عدة رسائل من <placeName change="#d2e120 #d11e288" xml:id="placeName_34.d2e3925" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> ورسالة من <placeName change="#d2e120 #d11e288" xml:id="placeName_35.d2e3928" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> في الطعن
 في الوهابية كُتِبَ على ظهر بعضها أنها (تُوَزَّع مجانًا وقفًا لله تعالى) وعلى
 البعض الآخر (توزع مجانًا في محبة رسول الله صلى الله عليه وسلم) وغير
 معهود من أصحابها هذا السخاء في نشر العلم والدين! .
@@ -1729,10 +1729,10 @@
 على السلف الصالح والأئمة ما يعد معه الكذب على الشيخ محمد عبد الوهاب وأهل
 نجد أمرًا هينًا؛ فإن كذبًا عليه صلى الله عليه وسلم ليس ككذب على غيره، فمن كذب
 عليه متعمدًا فليتبوأ مقعده من النار، كما تواتر عنه عليه صلوات الله وسلامه. على
-أن بعض علماء <placeName change="#d2e120" xml:id="placeName_36.d2e3957">دمشق</placeName> الأثريين قد ردوا عليهم برسائل فضحوا بها ما ستروا ولقفوا
+أن بعض علماء <placeName change="#d2e120 #d11e288" xml:id="placeName_36.d2e3957" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> الأثريين قد ردوا عليهم برسائل فضحوا بها ما ستروا ولقفوا
 ما لفقوا.
-فمن هذه الرسائل ثلاث لرجل في <placeName change="#d2e120" xml:id="placeName_37.d2e3965">دمشق</placeName> يدعي الشيخ عبد القادر الكيلاني
-الإسكندراني لقيته في <placeName change="#d2e120" xml:id="placeName_38.d2e3970">دمشق</placeName> غير مرة فأوهمني أنه يكره الحشو والبدع ويحب
+فمن هذه الرسائل ثلاث لرجل في <placeName change="#d2e120 #d11e288" xml:id="placeName_37.d2e3965" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> يدعي الشيخ عبد القادر الكيلاني
+الإسكندراني لقيته في <placeName change="#d2e120 #d11e288" xml:id="placeName_38.d2e3970" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> غير مرة فأوهمني أنه يكره الحشو والبدع ويحب
 الإصلاح. وما كنت أظن فيه أن يكتب أمثال هذه الرسائل، ولكنها هي أدل على
 حقيقة حاله مما تراءى لي منه.
 (ومنها) رسالة لرجل عامي لا ندري أهو من طائفة المعممين أم من غيرهم

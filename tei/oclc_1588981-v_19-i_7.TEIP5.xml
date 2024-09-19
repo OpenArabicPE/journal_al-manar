@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_19-i_7.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_19-i_7.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e304">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_19-i_7.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_19-i_7.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e304" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e304" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e304" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1335">1335</date><date calendar="#cal_gregorian" when="1916" xml:lang="ar">ديسمبر - 1916م</date></imprint>
                   <biblScope unit="volume" from="19" to="19" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">19</biblScope>
                   <biblScope unit="issue" from="7" to="7" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">7</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e298" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e304" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e298" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -213,7 +213,7 @@
 الدين، ومن تبعهم في هداهم وهديهم إلى يوم الدين.
 أما بعد فإن الاحتفال بذكرى المولد النبوي في شهر ربيع الأول، عادة أحدثها
 في القرن السابع الملك المظفر أبو سعيد صاحب إربل، من البلاد التابعة الآن
-لولاية <placeName change="#d2e120" xml:id="placeName_4.d2e572">الموصل</placeName>، ثم انتشرت هذه العادة في الأقطار، وقد بَزَّت مصر بها جميع
+لولاية <placeName change="#d2e120 #d11e304" xml:id="placeName_4.d2e572" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName>، ثم انتشرت هذه العادة في الأقطار، وقد بَزَّت مصر بها جميع
 الأمصار، والفائدة التي ينبغي أن تُتَوَخَّى [1] في هذا اليوم الذي فَضَلَ الأيام، هي
 التذكير بخلاصة تاريخ النبي عليه أفضل الصلاة والسلام؛ ليتذكر المؤمنون منة الله
 عليهم ببعثته، وتتغذى أرواحهم بزيادة الإيمان وكمال محبته، ويحرصوا على إقامة
@@ -297,14 +297,14 @@
 وأعلاهم آدابًا، وأفصحهم ألسنة، وهم الممهدون لجمع الكلمة. فقد نقل أهل
 السير أن مالك بن النضر كان ملك العرب، وأن كعب بن لؤي كان يجمع قومه
 ويعظهم يوم الجمعة، وكانوا يسمونه يوم العَرُوبَة، وأنهم كانوا يُجِلُّونه في حياته،
-ثم إنهم أرَّخُوا بموته، وأن قُصَيًّا هو الذي جمع شمل قبائل قريش ب<placeName change="#d2e120" xml:id="placeName_5.d2e757">مكة</placeName>؛ إذ كان
+ثم إنهم أرَّخُوا بموته، وأن قُصَيًّا هو الذي جمع شمل قبائل قريش ب<placeName change="#d2e120 #d11e304" xml:id="placeName_5.d2e757" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>؛ إذ كان
 هو الوارث لمن كانوا يتولونه من خزاعة [13] . وقد تَمَلَّك عليهم فَمَلَّكُوه، إلا أنه قد
 أقر للعرب ما كانوا عليه. وذلك أنه كان يراه دينًا في نفسه، لا ينبغي له تغييره ولا
 لغيره من بعده (قال ابن إسحاق) وهو الذي أنشأ الندوة، وجعل بابها إلى الكعبة،
 وقد أجمعت قريش على طاعته وحبه، فكانت إليه الحِجَابة والسقاية والرفادة والندوة
 واللواء، ثم وزعت المناصب بعده على الزعماء [14] .
 وأفضل من ذلك كله ما وُقِّفُوا له في حداثة الرسول من التحالف الذي عُرِف
-بحلف الفضول؛ إذ تعاقدوا وتعاهدوا أن لا يجدوا ب<placeName change="#d2e120" xml:id="placeName_6.d2e775">مكة</placeName> مظلومًا إلا قاموا معه،
+بحلف الفضول؛ إذ تعاقدوا وتعاهدوا أن لا يجدوا ب<placeName change="#d2e120 #d11e304" xml:id="placeName_6.d2e775" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> مظلومًا إلا قاموا معه،
 وكانوا عونًا له على من ظلمه، إلى أن تُرَدَّ مظلمته. وفي حديث الزبير بن العوام
 عند الطبراني، ومثله حديث أم هانئ في معجمه الأوسط كتاريخ البخاري (فضَّل
 الله قريشًا بسبع خصال: فضَّلهم بأنهم عبدوا الله عشر سنين لا يعبد الله إلا
@@ -319,7 +319,7 @@
 وأوشكهم كَرَّةً بعد فرة، وخيرهم لمسكين ويتيم، وأمنعهم من ظلم الملوك) . وكان
 جدهم هاشم صاحب إيلاف قريش، الذي أخذ لهم العهد من قيصر الروم على
 حمايتهم في رحلة الصيف، وروي أنه هو الذي سَنَّ الرحلتين، وأخذ العهود
-بها من الحكومتين، حكومة <placeName change="#d2e120" xml:id="placeName_7.d2e811">اليمن</placeName> العربية، وحكومة <placeName change="#d2e120" xml:id="placeName_8.d2e814">الشام</placeName> الرومية، فاتسعت
+بها من الحكومتين، حكومة <placeName change="#d2e120 #d11e304" xml:id="placeName_7.d2e811" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> العربية، وحكومة <placeName change="#d2e120 #d11e304" xml:id="placeName_8.d2e814" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> الرومية، فاتسعت
 بهما معيشة قريش، وأمنوا في تجارتهم من كل خوف، وقد امتن الله عليهم بذلك في
 القرآن، بما عُدت به التجارة من أشرف أعمال الإنسانية، وإنما أطلق لقب
 هاشم على عمرو بن عبد مناف؛ لأنه أول من هشَّم الثريد للمسنتين العجاف [16] ،
@@ -367,7 +367,7 @@
 صلى الله عليه وسلم عن هذا الشأن، فقالوا: يا رسول الله خَبِّرْنا عن نفسك. وفي
 حديث أبي أمامة عند ابن سعد وأحمد وغيرهما: ما كان بدءُ أمرك؟ فقال:
 (دعوة أبي إبراهيم [22] ، وبشرى عيسى، ورأت أمي حين حملت بي كأنه خرج
-منها نُور أضاءت له بصرى من أرض <placeName change="#d2e120" xml:id="placeName_9.d2e925">الشام</placeName>) وقد ثبت أن هذه رؤيا كانت في
+منها نُور أضاءت له بصرى من أرض <placeName change="#d2e120 #d11e304" xml:id="placeName_9.d2e925" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>) وقد ثبت أن هذه رؤيا كانت في
 المنام، ولكنها رؤيا صادقة لا أضغاث أحلام، وصحَّح ابن حبان أن ذلك النور
 تمثل لعينيها حين أخذها المخاض فوضعته عليه أفضل الصلاة والسلام.
 ***
@@ -390,17 +390,17 @@
 صلى الله عليه وسلم
 وُلد صلى الله عليه وسلم يتيمًا، ونشأ في قومه فقيرًا، ومات والده في سن
 الشباب، ولم يترك له مالاً إلا خمسة جمال وبضع نعاج، وكان قد أَلِفَ رعي الغنم
-مع إخوته في الرضاع، فصار يرعى لأهل <placeName change="#d2e120" xml:id="placeName_10.d2e978">مكة</placeName>، فيوفر على كافله أبي طالب بما
-يأخذ على ذلك من الأجرة، ثم سافر مع عمه أبي طالب في تجارته إلى <placeName change="#d2e120" xml:id="placeName_11.d2e984">الشام</placeName>، وله
+مع إخوته في الرضاع، فصار يرعى لأهل <placeName change="#d2e120 #d11e304" xml:id="placeName_10.d2e978" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، فيوفر على كافله أبي طالب بما
+يأخذ على ذلك من الأجرة، ثم سافر مع عمه أبي طالب في تجارته إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_11.d2e984" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، وله
 من العمر اثنتا عشرة سنة وشهران وعشرة أيام، وهنالك رآه بحيرا الراهب،
 وبشر به عمه أبا طالب، وحذره من اليهود عليه، بعد أن رأى خاتم النبوة بين
-كتفيه، ثم إنه سافر إلى <placeName change="#d2e120" xml:id="placeName_12.d2e993">الشام</placeName> مرة ثانية، مُتَّجِرًا بمال خديجة تجارة المضاربة،
+كتفيه، ثم إنه سافر إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_12.d2e993" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> مرة ثانية، مُتَّجِرًا بمال خديجة تجارة المضاربة،
 فأعطته أفضل ما كانت تعطي غيره؛ إذ جاءت تلك التجارة بأرباح مضاعفة، بل
 جاءت بسعادة الدنيا والآخرة.
 كانت خديجة بنت خويلد بن عبد العزى بن قصي، أعقل وأجمل امرأة في
 قريش، كانت تُدعى في الجاهلية [الطاهرة] ، لما لها من الصيانة والفضائل
 الظاهرة، ولمَّا حدَّثها غلامها ميسرة بما رأى منه عليه الصلاة والسلام في رحلته
-معه إلى <placeName change="#d2e120" xml:id="placeName_13.d2e1010">الشام</placeName>، من الأخلاق العالية، والفضائل السامية، وما قاله بحيرا الراهب
+معه إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_13.d2e1010" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، من الأخلاق العالية، والفضائل السامية، وما قاله بحيرا الراهب
 لعمه أبي طالب، تعلقت رغبتها بأن تتخذه بعلاً، بل تَرَقَّتْ أفكارها إلى ما هو
 أعلى [23] فتم ذلك الزواج الميمُون، وكان هو ابن خمس وعشرين وهي ابنة
 أربعين، وتُوفيت بعد البعثة بعشر سنين، ولم يتزوج صلى الله عليه وسلم عليها،
@@ -427,19 +427,19 @@
 (9) الأثرة: تقديم نفسك على غيرك ولو ما هو أولى به منك فهي ضد الإيثار، والأنانية: المبالغة في حب النفس الحامل على الأثرة، وهو نسبة إلى كلمة (أنا) .
 (10) الضرائب: جمع ضريبة وهي ما يضرب على العبيد ونحوهم من المال يؤدونه أقساطًا، ومنها الجزية، وضريبة الأرض الخراج والأتاوى جمع إتاوة وهي الرشوة، وتطلق على الخراج ونحوه.
 (11) الوشيج والوشيجة: اشتباك القرابة وتداخل بعضها في بعض وأصله شجر الرماح ونحوه مما يشتبك.
-(12) أقدم مدنية وحضارة عرفها التاريخ مدنية الكلدانيين والبابليين في <placeName change="#d2e120" xml:id="placeName_14.d2e1073">العراق</placeName> والمصريين في مصر والفينيقيين في سورية وقد ثبت لدى بعض علماء العاديات (الآثار القديمة) أن أهلها من بلاد العرب.
-(13) قد كان ذلك بتزوجه لحبى بنت حليل الذي كان آخر من ولي منهم قال ابن إسحاق: فلما انتشر ولد قصي وكثر ماله وعظم شرفه هلك حليل، فرأي قصي أنه أولى بالكعبة وبأمر <placeName change="#d2e120" xml:id="placeName_15.d2e1078">مكة</placeName> من خزاعة وبني بكر وأن قريشًا قرعة إسماعيل بن إبراهيم وصريح والده، ثم قال بعد بيان ما كان في ذلك من أمره، فولي قُصي البيت وأمر <placeName change="#d2e120" xml:id="placeName_16.d2e1081">مكة</placeName> إلخ.
+(12) أقدم مدنية وحضارة عرفها التاريخ مدنية الكلدانيين والبابليين في <placeName change="#d2e120 #d11e304" xml:id="placeName_14.d2e1073" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> والمصريين في مصر والفينيقيين في سورية وقد ثبت لدى بعض علماء العاديات (الآثار القديمة) أن أهلها من بلاد العرب.
+(13) قد كان ذلك بتزوجه لحبى بنت حليل الذي كان آخر من ولي منهم قال ابن إسحاق: فلما انتشر ولد قصي وكثر ماله وعظم شرفه هلك حليل، فرأي قصي أنه أولى بالكعبة وبأمر <placeName change="#d2e120 #d11e304" xml:id="placeName_15.d2e1078" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> من خزاعة وبني بكر وأن قريشًا قرعة إسماعيل بن إبراهيم وصريح والده، ثم قال بعد بيان ما كان في ذلك من أمره، فولي قُصي البيت وأمر <placeName change="#d2e120 #d11e304" xml:id="placeName_16.d2e1081" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> إلخ.
 (14) كان لقريش من المناصب غير تلك الخمسة الأشناق والعمارة والسفارة والأعنة والقبة، والأموال المحجرة للمعبودات كالأصنام، والأيسار الذي منه الاستقسام بالأزلام، الذي يرجح به بين الإقدام والإحجام وقد عابهم عليها الإسلام: (فالحجابة) هي السدانة أي خدمة المسجد الحرام (والسقاية) توزيع الماء المحلى والقراح على جميع الحجاج (والرفادة) إسعاف الفقراء والمساكين ولا سيما الحجاج المنقطعين (والندوة) الشورى لإجالة الرأي في الأمور العظام التي اجتمعوا فيها بعد البعثة للائتمار بالنبي عليه الصلاة والسلام (واللواء) راية قريش وكانت تسمى العقاب، (والأشناق) تحمل الدايات والمغارم لمنع انتشار التعادي والتخاصم (والعمارة) حفظ بناء المسجد الحرام قيل وحفظه من اللغط وهجر الكلام (والسفارة) قيادة الفرسان في أيام الطعان أو الرهان، (والقبة) الخيمة الرسمية التي تنصب وقت الحرب ويجتمع فيها ما يجهز به الجيش.
 (15) أي لا يعبده ويوحده أحد؛ لأن أناس منهم إذ كانوا على ملة إبراهيم وكانت الوثنية قد شملت العرب كلهم كما شملت غيرهم.
 (16) المسنتون اسم فاعل من أسنت القوم أصابتهم السنة والقحط، والعجاف جمع أعجف وعجفاء وهم الذين ضعفوا وهزلت أبدانهم، العبارة مأخوذة من قول ابن الزبعري في مدح هاشم:
-عمرو العلا هشم الثريد لقومه <gap resp="#org_MS" change="#d2e120" xml:id="gap_4.d2e1093"/> ورجال <placeName change="#d2e120" xml:id="placeName_17.d2e1095">مكة</placeName> مسنتون عجاف.
+عمرو العلا هشم الثريد لقومه <gap resp="#org_MS" change="#d2e120" xml:id="gap_4.d2e1093"/> ورجال <placeName change="#d2e120 #d11e304" xml:id="placeName_17.d2e1095" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> مسنتون عجاف.
 (17) اللواء معروف واللأي الثور الوحشي ويكنى به عن حسن العينين واللأي البطء.
 (18) الفهر الحجر الذي يؤخذ باليد عادة ويدق به الشيء وقيل: مطلقًا.
 (19) الخزم: نظم اللآلئ في السلك.
 (20) عزاه الحافظ في فتح الباري إلى تخريج أبي جعفر بن حبيب في تاريخه المحبر قوله: وربيعة ومضر؛ أي ابن نزار بن معد، قوله: وأسد هو ابن خزيمة.
 (21) قال الحافظ: وله شاهد عند ابن حبيب من مرسل سعيد بن المسيب أي ومراسيله أصح المراسيل.
 (22) أي أنا مصداق دعوته التي حكاها الله عنه في قوله {رَبَّنَا وَابْعَثْ فِيهِمْ رَسُولاً مِّنْهُمْ} (البقرة: 129) الآية- ومصداق بشرى عيسى برسول يأتي من بعده.
-(23) روى الفاكهي في كتاب <placeName change="#d2e120" xml:id="placeName_18.d2e1113">مكة</placeName> عن أنس أن النبي صلى الله عليه وسلم كان عند أبي طالب فاستأذنه أن يتوجه إلى خديجة، فأذن له وبعث بعده جارية يقال لها: نبعة، فقال: انظرى ما تقول له خديجة، قالت نبعة: فرأيت عجبًا، ما هو إلا أن سمعت به خديجة فخرجت إلى الباب فأخذت بيده فضمتها إلى صدرها ونحرها، ثم قالت: بأبي أنت وأمي والله ما أفعل هذا الشيء، ولكني أرجو أن تكون أنت النبي الذي ستبعث، فإن تكن هو فاعرف حقي ومنزلتي وادع الإله الذي يبعثك لي، قالت فقال لها: (والله لئن كنت أنا هو قد اصطنعت عندي ما لا أضيعه أبدًا، وإن يكن غيري فإن الإله الذي تصنعين هذا لأجله لا يضيعك أبدًا) ويؤيد هذا ما ورد في كيفية بدء الوحي في الصحيح، أن خديجة قالت له حين خاف على نفسه عاقبة ما أصابه من المجهد، عندما ظهر له الملك (كلا والله ما يخزيك الله أبدًا، إنك لتصل الرحم وتحمل الكلّ، وتكسب المعدوم، وتقري الضيف، وتعين على نوائب الحق) وكذا ما ثبت من أنها كانت تعد له الزاد، لينقطع إلى التحنث في غار حراء، وروى الواقدي بسنده إلى نفيسة بنت أمية أخت يعلى قالت: كانت خديجة امرأة شريفة جلدة كثيرة المال، ولما تأيمت كان كل شريف من قريش يتمنى أن يتزوجها، فلما سافر النبي صلى الله عليه وسلم في تجارتها ورجع بربح وافر رغبت فيه، فأرسلتني دسيسًا إليه، فقلت له ما يمنعك أن تتزوج؟ فقال (ما في يدي شيء) فقلت: فإن كفيت ودعيت إلى المال والجمال والكفاءة؟ قال: (ومن؟) قالت: خديجة، فأجاب.
+(23) روى الفاكهي في كتاب <placeName change="#d2e120 #d11e304" xml:id="placeName_18.d2e1113" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> عن أنس أن النبي صلى الله عليه وسلم كان عند أبي طالب فاستأذنه أن يتوجه إلى خديجة، فأذن له وبعث بعده جارية يقال لها: نبعة، فقال: انظرى ما تقول له خديجة، قالت نبعة: فرأيت عجبًا، ما هو إلا أن سمعت به خديجة فخرجت إلى الباب فأخذت بيده فضمتها إلى صدرها ونحرها، ثم قالت: بأبي أنت وأمي والله ما أفعل هذا الشيء، ولكني أرجو أن تكون أنت النبي الذي ستبعث، فإن تكن هو فاعرف حقي ومنزلتي وادع الإله الذي يبعثك لي، قالت فقال لها: (والله لئن كنت أنا هو قد اصطنعت عندي ما لا أضيعه أبدًا، وإن يكن غيري فإن الإله الذي تصنعين هذا لأجله لا يضيعك أبدًا) ويؤيد هذا ما ورد في كيفية بدء الوحي في الصحيح، أن خديجة قالت له حين خاف على نفسه عاقبة ما أصابه من المجهد، عندما ظهر له الملك (كلا والله ما يخزيك الله أبدًا، إنك لتصل الرحم وتحمل الكلّ، وتكسب المعدوم، وتقري الضيف، وتعين على نوائب الحق) وكذا ما ثبت من أنها كانت تعد له الزاد، لينقطع إلى التحنث في غار حراء، وروى الواقدي بسنده إلى نفيسة بنت أمية أخت يعلى قالت: كانت خديجة امرأة شريفة جلدة كثيرة المال، ولما تأيمت كان كل شريف من قريش يتمنى أن يتزوجها، فلما سافر النبي صلى الله عليه وسلم في تجارتها ورجع بربح وافر رغبت فيه، فأرسلتني دسيسًا إليه، فقلت له ما يمنعك أن تتزوج؟ فقال (ما في يدي شيء) فقلت: فإن كفيت ودعيت إلى المال والجمال والكفاءة؟ قال: (ومن؟) قالت: خديجة، فأجاب.
 (24) وفي رواية (إذ حرمني أولاد النساء) رواه ابن عبد البر في الاستيعاب وكذا الدولابي في الذرية الطاهرة من طريق وائل بن داود - وقد وثقه أحمد- عن عبد الله البهي - وهو مقبول- عنها قالت عائشة: فقلت في نفسي: لا أذكرها بسيئة أبدًا.
 (25) كذا في الإصابة ورواية الاستيعاب عنها: (وإن كان ليذبح الشاة فيتتبع بذلك صدائق خديجة يهديها لهن) والصدائق جمع صديقة.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_2.d2e1122">الكاتب: <persName change="#d2e141 #d2e120 #d3e274" xml:lang="ar" xml:id="persName_4.d2e1124" ref="oape:pers:689 viaf:51716068">
@@ -719,13 +719,13 @@ Favus
 
          
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_3.d2e1705">
-               <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_4.d2e1707">مبايعة شريف <placeName change="#d2e120" xml:id="placeName_19.d2e1709">مكة</placeName> وأميرها
+               <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_4.d2e1707">مبايعة شريف <placeName change="#d2e120 #d11e304" xml:id="placeName_19.d2e1709" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وأميرها
 على ملك العرب</head>
 <p change="#d2e120" xml:id="p_2.d2e1715">
                
 
                
-جاء في <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e1721">القبلة</title></bibl> التي صدرت ب<placeName change="#d2e120" xml:id="placeName_20.d2e1724">مكة</placeName> في ثالث المحرم فاتحة هذا العام ما
+جاء في <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e1721">القبلة</title></bibl> التي صدرت ب<placeName change="#d2e120 #d11e304" xml:id="placeName_20.d2e1724" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> في ثالث المحرم فاتحة هذا العام ما
 نصه:
 امتلأت قاعات قصر الديوان الهاشمي العالي صباح أمس بجماهير الأشراف
 الكرام والعلماء الأعلام والأعيان العظام بحيث لم يبق في بلد الله الأمين ذو حيثية
@@ -746,7 +746,7 @@ Favus
 جلالته بالكلمات الملوكية الآتية:
 (إنني لم أكن أرى ضرورة شديدة لهذا العمل الذي جئتم من أجله؛ وذلك لما
 أعلمه من نهوض بلادي بالأمر الذي نهضنا به وشدة إخلاصها له وعضها عليه
-بالنواجذ، ولم تنحصر هذه العواطف في بلادنا وحدها بل إن لعرب <placeName change="#d2e120" xml:id="placeName_21.d2e1773">الشام</placeName> وعرب
+بالنواجذ، ولم تنحصر هذه العواطف في بلادنا وحدها بل إن لعرب <placeName change="#d2e120 #d11e304" xml:id="placeName_21.d2e1773" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وعرب
 العراق مثل ما لأهل بلادنا من الحرص على استرداد مجدهم وجمع كلمتهم. وقد
 وردت لي الرسائل من أعيانهم بذلك، على أن هذا الأمر الذي جئتم اليوم من أجله
 سينفي كل ما ربما يخطر على بال الذين يجهلون حقيقة أحوالنا من الخواطر البعيدة
@@ -848,24 +848,24 @@ Favus
 
                
 (<title change="#d5e207 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_6.d2e1991">المنار</title>)
-إن سبق أهل العلم والمكانة والرأي في <placeName change="#d2e120" xml:id="placeName_22.d2e1996">مكة المكرمة</placeName> إلى هذه المبايعة وما
-تلاها من مبايعة وفود سائر بلاد <placeName change="#d2e120" xml:id="placeName_23.d2e2001">الحجاز</placeName> الذي فصلت خبر <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e2004">القِبلة</title></bibl> في عدد
+إن سبق أهل العلم والمكانة والرأي في <placeName change="#d2e120 #d11e304" xml:id="placeName_22.d2e1996" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> إلى هذه المبايعة وما
+تلاها من مبايعة وفود سائر بلاد <placeName change="#d2e120 #d11e304" xml:id="placeName_23.d2e2001" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> الذي فصلت خبر <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e2004">القِبلة</title></bibl> في عدد
 آخر مبني على ثلاثة أسباب:
 (1) اعتقادهم أن فئة الاتحاديين الملحدة الباغية قد تغلبت على الدولة
 العثمانية بقوة الثورة والاعتماد على الألمانيين الطامعين في البلاد ووضع الدولة
 تحت وصايتهم حتى لم يعد للسلطان أدنى استقلال في حكم ولا رأي.
 (2) أن اعتداء هذه الفئة الباغية على العرب ومحاولتها إهلاكهم كما أهلكت
-الأرمن بغضًا فيهم وفي دينهم، وامتداد بغيها من <placeName change="#d2e120" xml:id="placeName_24.d2e2021">الشام</placeName> إلى <placeName change="#d2e120" xml:id="placeName_25.d2e2024">الحجاز</placeName> وما ترتب عليه من
-الحصر البحري قد اضطر أهل <placeName change="#d2e120" xml:id="placeName_26.d2e2029">الحجاز</placeName> إلى إعلان الاستقلال التام كما بيناه من قبل
+الأرمن بغضًا فيهم وفي دينهم، وامتداد بغيها من <placeName change="#d2e120 #d11e304" xml:id="placeName_24.d2e2021" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> إلى <placeName change="#d2e120 #d11e304" xml:id="placeName_25.d2e2024" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وما ترتب عليه من
+الحصر البحري قد اضطر أهل <placeName change="#d2e120 #d11e304" xml:id="placeName_26.d2e2029" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إلى إعلان الاستقلال التام كما بيناه من قبل
 وذلك لا يتحقق إلا بمبايعة الأمة المستقلة لحاكمها أو بتغلبه هو عليها بالقوة،
-وحكومة <placeName change="#d2e120" xml:id="placeName_27.d2e2037">الحجاز</placeName> من النوع الأول المشروع.
-(3) أن صاحب <placeName change="#d2e120" xml:id="placeName_28.d2e2042">الحجاز</placeName> وأهل الرأي فيها يائسون من بقاء استقلال الدول
+وحكومة <placeName change="#d2e120 #d11e304" xml:id="placeName_27.d2e2037" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من النوع الأول المشروع.
+(3) أن صاحب <placeName change="#d2e120 #d11e304" xml:id="placeName_28.d2e2042" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وأهل الرأي فيها يائسون من بقاء استقلال الدول
 العثمانية، وجازمون بأنها إما أن تكون تحت سيطرة الألمان القاسية، وإما أن
-تنحصر سلطتها في بعض ولايات <placeName change="#d2e120" xml:id="placeName_29.d2e2049">الأناضول</placeName>، فبهذا وجب على العرب أن يسارعوا
+تنحصر سلطتها في بعض ولايات <placeName change="#d2e120 #d11e304" xml:id="placeName_29.d2e2049" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>، فبهذا وجب على العرب أن يسارعوا
 بعد الاستقلال بما استطاعوا من بلادهم إلى تعيين شكل حكومتهم المستقلة، ويطالبوا
 الدول المحالفة لهم بالاعتراف باستقلالهم قبل عقد الصلح؛ لئلا تعدهم الدول من أتباع
 الترك. ونحن قد بينا رأينا في هذه المسألة في خطبتنا التي ألقيناها بين يدي
-الشريف الأعظم وعلى مسمع كُبراء <placeName change="#d2e120" xml:id="placeName_30.d2e2061">الحجاز</placeName> والحجاج في منى وسننشرها في المنار. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_5.d2e2064">(1) سقط من القبلة لفظ منهم وفي رواية لمسلم: ما بقي في الناس اثنان.
+الشريف الأعظم وعلى مسمع كُبراء <placeName change="#d2e120 #d11e304" xml:id="placeName_30.d2e2061" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> والحجاج في منى وسننشرها في المنار. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_5.d2e2064">(1) سقط من القبلة لفظ منهم وفي رواية لمسلم: ما بقي في الناس اثنان.
 (2) صبور يستوي فيه المذكر والمؤنث ولعله قال: صبورة للتناسب بين ما قبله وما بعده إذا لم يكن من غلط الطبع.
 (3) في <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e2070">القبلة</title></bibl> ذل وهو غلط فلفظ العرب مؤنث والرواية ذلت.
 (4) جرى الشيخ حفظ الله مودته في هذا على قول مشهور في كتب التفسير وفي الآية أقوال أخرى أصحها ما رواه الشيخان والترمذي وأكثر رواة التفسير المأثور عن ابن عباس قال (لم يكن بطن في زمن قريش إلا كان له فيهم قرابة) فقال: إلا أن تصلوا ما بيني وبينكم من القرابة وفسر ذلك في رواية أخرى بأن يحفظوا حق قرابته فيهم بنصره ومنعه ممن يؤذيه - صلى الله عليه وسلم - كعادتهم في حفظ القرابة بدلاً من إيذائه وجعل بعضهم النصرة بالإيمان به واتباعه ليكون بمعنى [قُلْ مَا أَسْأَلُكُمْ عَلَيْهِ مِنْ أَجْرٍ إِلاَّ مَن شَاءَ أَن يَتَّخِذَ إِلَى رَبِّهِ سَبِيلاً] (الفرقان: 57) أي: بطاعته كما قال قتادة وصرح بعضهم بأن الاستثناء هنا منقطع وقد نفي سؤال الأجر بغير استثناء في قوله تعالى [وَمَا تَسْأَلُهُمْ عَلَيْهِ مِنْ أَجْرٍ إِنْ هُوَ إِلاَّ ذِكْرٌ لِّلْعَالَمِينَ] (يوسف: 104) وقد حكى سبحانه مثل هذا عن المراسلين في هود والشعراء وغيرهما من السور.</note>
@@ -960,7 +960,7 @@ Favus
 أناسًا ثاروا على الحكومة مع أن الحكومة التركية لم تقل ذلك) .
 وزاد في فناء الأهالي واستئصالهم الجوع والطاعون، وسعت السلطة
 العسكرية أن تعالج الداء (؟) ولكن العلاج جاء متأخرًا وبعد فوات الوقت فلم يكن
-بالإمكان استخدام دواء ينجع ويفيد. وفتحت في <placeName change="#d2e120" xml:id="placeName_31.d2e2259">القدس</placeName> و<placeName change="#d2e120" xml:id="placeName_32.d2e2262">دمشق</placeName> و<placeName change="#d2e120" xml:id="placeName_33.d2e2266">بيروت</placeName> ويافا
+بالإمكان استخدام دواء ينجع ويفيد. وفتحت في <placeName change="#d2e120 #d11e304" xml:id="placeName_31.d2e2259" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> و<placeName change="#d2e120 #d11e304" xml:id="placeName_32.d2e2262" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> و<placeName change="#d2e120 #d11e304" xml:id="placeName_33.d2e2266" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> ويافا
 قاعات للشاي [2] جعل فيها ثمن الشاي والخبز والماء الساخن قليلاً أو بلا ثمن
 للفقراء والبائسين. وتألفت جمعيات للقيام مقام الأطباء في معالجة المرض وتنظيف
 المنازل والحارات والشوارع وعزل المرضى وتوزيع الأدوية التي يستطيعون
@@ -969,7 +969,7 @@ Favus
 إبر للحقن ولا غير ذلك مما يعالَج به المرضى. ثم ضاعف الأوبئة وجعلها عامة
 شاملة الجوع والضيق. وقد كانت عائلات كثيرة تستبق حياتها بضعة أيام بقشور
 الليمون والبطيخ والطماطم إلى أن يمرضوا وتعينهم إحدى جمعيات البر.
-وقد صدق أحد مراسلينا في <placeName change="#d2e120" xml:id="placeName_34.d2e2288">القدس</placeName> بقوله: إن أورشليم المقدسة تنقرض الآن
+وقد صدق أحد مراسلينا في <placeName change="#d2e120 #d11e304" xml:id="placeName_34.d2e2288" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> بقوله: إن أورشليم المقدسة تنقرض الآن
 للمرة الثالثة، ولكن انقراضها في هذه المرة هو أتم منه في المرتين السابقتين.
 والحكومة الحالية التي هي ليست مسئولة كل المسئولية عما هو واقع (؟)
 تبذل الآن ما هو بوسعها لتدارك هذه الحالة (؟) ويعاونها جميع الناس من جميع
@@ -977,7 +977,7 @@ Favus
 كصوم رمضان عند المسلمين وصوم الصيف عند اليهود، وكذلك سلك المسيحيون.
 وتجتهد السلطة العسكرية في أن توزع الحبوب بالقسط والعدل والمساواة بين
 المدن والقرى وتمنع الناس من تخزين الأقوات حتى لا تصعد الأسعار. ووزع
-جمال باشا حديثًا على فقراء <placeName change="#d2e120" xml:id="placeName_35.d2e2309">دمشق</placeName> بعض الأكل ولكن الجوع والضيق في المدن
+جمال باشا حديثًا على فقراء <placeName change="#d2e120 #d11e304" xml:id="placeName_35.d2e2309" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> بعض الأكل ولكن الجوع والضيق في المدن
 الكبرى في حال هائلة لا يستطيع قلم الكاتب وصفها وتصويرها للقارئ.
 فلا يمكن بحال من الأحوال أن تحول هذه المسكنات الوقتية التي يعالجون بها
 تلك البلاد دون احتضار الموت والنزع الأخير. فسورية هالكة مائتة لا محالة، ولا
@@ -998,7 +998,7 @@ Favus
 الضراء. ولماذا يموت السوريون جوعًا ولم يمت أحد من الألمان جوعًا وغلات
 سورية أكثر من حاجاتها وغلات ألمانيا دون حاجتها؟ ولماذا تقطع الغلات العثمانية
 الفيافي والقِفار والجبال والبحار حتى تصل ألمانية في قلب أوروبة وأهلها يموتون
-جوعًا؟ ولما تستنزف ألمانيا قوة <placeName change="#d2e120" xml:id="placeName_36.d2e2361">الدولة العثمانية</placeName> وثروة شعوبها وتسخرها كلها
+جوعًا؟ ولما تستنزف ألمانيا قوة <placeName change="#d2e120 #d11e304" xml:id="placeName_36.d2e2361" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> وثروة شعوبها وتسخرها كلها
 لخدمتها في هذه الحرب ولا تجود عليها بالأدوية التي تعالج به مرضاها وعندها من
 الأدوية ما يكفي أممًا كثيرة؟ الآن تذكرت الصحف الألمانية سورية بالرثاء،
 والاعتذار عن أحلافهم السفهاء؟

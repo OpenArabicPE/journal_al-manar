@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_19-i_9.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_19-i_9.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e298">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_19-i_9.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_19-i_9.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1335">1335</date><date calendar="#cal_gregorian" when="1917" xml:lang="ar">فبراير - 1917م</date></imprint>
                   <biblScope unit="volume" from="19" to="19" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">19</biblScope>
                   <biblScope unit="issue" from="9" to="9" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">9</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e298" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -293,7 +293,7 @@
 مرة في الرؤيا إن أثبت ذلك.
 وقد روى أنس مسألة شق الصدر في أحاديث المعراج عن أبي ذر مرفوعة
 في الصحيحين قال: كان أبو ذر يحدّث أن رسول الله -صلى الله عليه وسلم- قال:
-(فرج عن سقف بيتي وأنا ب<placeName change="#d2e120" xml:id="placeName_4.d2e742">مكة</placeName> فنزل جبريل ففرج صدري ثم غسله بماء زمزم،
+(فرج عن سقف بيتي وأنا ب<placeName change="#d2e120 #d11e298" xml:id="placeName_4.d2e742" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> فنزل جبريل ففرج صدري ثم غسله بماء زمزم،
 ثم جاء بطست من ذهب ممتلئ حكمة وإيمانًا فأفرغه في صدري ثم أطبقه، ثم أخذ
 بيدي فعرج بي إلى السماء) الحديث، فهذه الرواية لم يصرح فيها بأنه كان نائمًا،
 ويمكن حملها على المصرحة بذلك دون العكس. ولذلك جزم الحافظ بأن القول بتعدد
@@ -351,10 +351,10 @@
 وملخص الجواب أن حديث شق صدر النبي -صلى الله عليه وسلم- في
 طفوليته وتطهيره من حظ الشيطان منه في سنده مقال ومتنه ليس مرفوعًا إلى النبي
 -صلى الله عليه وسلم- وليس له حكم المرفوع. وليس متنه لا ينافي عصمة النبي
-صلى الله عليه وسلم؛ لأن حاصل معناه أن روح <placeName change="#d2e120" xml:id="placeName_5.d2e870">القدس</placeName> قد طهر قلبه وقدسه منذ
+صلى الله عليه وسلم؛ لأن حاصل معناه أن روح <placeName change="#d2e120 #d11e298" xml:id="placeName_5.d2e870" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> قد طهر قلبه وقدسه منذ
 الطفولية وقبل أن يصل إلى السن التي تكون فيها الوسوسة، وأن حديث شقه في
 قصة المعراج كانت رؤيا منامية في الراجح ولا ذكر فيها لحط الشيطان، فحاصل
-معناها أنها رمز وتمثيل لتأييد الروح <placeName change="#d2e120" xml:id="placeName_6.d2e880">القدس</placeName> والملائكة له -صلى الله عليه وسلم-
+معناها أنها رمز وتمثيل لتأييد الروح <placeName change="#d2e120 #d11e298" xml:id="placeName_6.d2e880" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> والملائكة له -صلى الله عليه وسلم-
 وإعدادهم إياه لمناجاة الله عز وجل مناجاة خاصة. وأما حديث مس الشيطان للمولود
 عند ولادته فسنده صحيح لا عبرة بمن تكلم في صحته، ولكن استثناء عيسى وحده
 مرة فيه واستثناؤه هو وأمه مرة أخرى إن كانتا غير متعارضتين فلا عموم
@@ -554,7 +554,7 @@
 (اللهم أنت السلام ومنك السلام تباركت يا ذا الجلال والإكرام) قلت: نعم قد صح
 أنه كان إذا سلم لم يقعد إلا بمقدار ما يقول ذلك (رواه مسلم) ولكن لم يصح أنه كان
 يقول ذلك رافعًا صوته ليسمعه الناس ويقولونه بقوله، وأنا قد قلت ذلك سرًّا.
-ولما جئت <placeName change="#d2e120" xml:id="placeName_7.d2e1317">بيروت</placeName> عند منصرفي من الهند أقمت فيها أيامًا كنت أقرأ درسًا بعد
+ولما جئت <placeName change="#d2e120 #d11e298" xml:id="placeName_7.d2e1317" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> عند منصرفي من الهند أقمت فيها أيامًا كنت أقرأ درسًا بعد
 الظهر في مسجد المجيدية من كل يوم، فشُغل المؤذن بعد صلاة الجمعة يومًا عن
 الأذكار والأدعية التي جرت العادة برفع صوته فيها واتباع جمهور المصلين له،
 شغلته عنها صلاة الجنازة، فظل كثير من الناس ينتظرونه متلفتين إلى اليمين وإلى
@@ -919,7 +919,7 @@ Fever Relapsing
                
 
                
-كتب بعض شبان العرب المتعلمين في مدارس <placeName change="#d2e120" xml:id="placeName_8.d2e2094">الدولة العثمانية</placeName> بالآستانة
+كتب بعض شبان العرب المتعلمين في مدارس <placeName change="#d2e120 #d11e298" xml:id="placeName_8.d2e2094" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> بالآستانة
 مقالات في الجرائد في موضوع هذا العنوان، ثم رأينا في كتاب (ثورة العرب)
 الذي صدر بالعربية من عهد قريب كلامًا مختصرًا مفيدًا في ذلك فنقلناه عنه؛ لأجل
 الاعتبار به وإثبات ما يحتاج إلى الرجوع إليه من تاريخ هذا الانقلاب الخطر. قال
@@ -997,7 +997,7 @@ Fever Relapsing
 آيت خان إلى نهج هذا الطريق المجيد في الحرب. إلخ.
 والأغرب من هذا كله الدعاء الجديد الذي ألفته جمعية (تورك يوردي)
 وجعلت الترك يستعملونه في منازلهم ومدارسهم، وقد قررت أخيرًا استعماله في
-الجوامع في الآستانة و<placeName change="#d2e120" xml:id="placeName_9.d2e2268">الأناضول</placeName>، وهذه ترجمته:
+الجوامع في الآستانة و<placeName change="#d2e120 #d11e298" xml:id="placeName_9.d2e2268" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>، وهذه ترجمته:
 (أيها الإله القادر على كل شيء أنعم على الترك بالصحة والعافية وأحسن
 إليهم بذئب أبيض [4] واشملهم برعاية مولانا السلطان الأعظم.
 (وأنت يا مملكة توران الجميلة المحبوبة أرشدينا إلى الطريق المؤدية إليك؛ لأن
@@ -1009,7 +1009,7 @@ Fever Relapsing
 أما الجيش العثماني فمعظم ضباطه وجنوده الترك من الاتحاديين ومن
 المنتسبين إلى جمعية ترك أوجاغي، وهم يحتقرون الضباط والجنود من أبناء
 العناصر العثمانية الأخرى ولا يسمون الدولة إلا الدولة التركية، وينفرون من
-تسميتها <placeName change="#d2e120" xml:id="placeName_10.d2e2298">الدولة العثمانية</placeName> لاعتقادهم أن البلاد العثمانية غير التركية ليست إلا مستعمرة
+تسميتها <placeName change="#d2e120 #d11e298" xml:id="placeName_10.d2e2298" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> لاعتقادهم أن البلاد العثمانية غير التركية ليست إلا مستعمرة
 فتحها الترك بالسيف. وهذا نموذج من الأناشيد الحماسية التي يتزعمون بها في
 الجيش:
 بزتر كزسن تركلكه أمانتسك <gap resp="#org_MS" change="#d2e120" xml:id="gap_50.d2e2307"/>
@@ -1110,7 +1110,7 @@ Fever Relapsing
 قائد اتحادي كبير جاء فيه (عرضوا العرب لرصاص العدو واعملوا على التخلص
 منهم؛ لأن قتلهم يفيدنا. أما الكُرد فاحتفظوا بهم؛ لأنهم يلزمون لنا في بلاد
 الأرمن) [7] . <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_6.d2e2522">(1) المنار: قررت وزارة الحربية في عهد ناظرها أنور باشا استعمال الحروف المنفصلة في الأمور العسكرية فقط، ثم نقلت إلينا الجرائد أخيرًا أن الاتحاديين قرروا كتابة التركية بالحروف الإفرنجية ولا ندري كيف ينفذون ذلك.
-(2) المنار: أذكر أن هذه الجمعية تشغل بتنقيح اللغة التركية وإنها هي التي دعتني إلى مجلس إدارتها في الآستانة لما بلغها أن بعض المسلمين كتبوا إلى من جاوه أنه بلغهم أن <placeName change="#d2e120" xml:id="placeName_11.d2e2526">الدولة العثمانية</placeName> تضطهد اللغة العربية وتصرح بأنها تطهر التركية منها، وأنهم لا يصدقون هذا الخبر إلا إذا أكدته أنا لهم، وأنهم حينئذ يحذفون اسم السلطان من الخطبة، ومرة اجتمعت بهم وتذاكرنا في المسألة قال لي رئيس الجمعية: إن عملنا فني محض لا دخل له في السياسة ولا الدين فنتوسل إليك أن تستعمل بنفوذك الديني لإزالة التهم السيئة التي حومت حوله وجرى بيننا محاورة ليس هذا محلها.
+(2) المنار: أذكر أن هذه الجمعية تشغل بتنقيح اللغة التركية وإنها هي التي دعتني إلى مجلس إدارتها في الآستانة لما بلغها أن بعض المسلمين كتبوا إلى من جاوه أنه بلغهم أن <placeName change="#d2e120 #d11e298" xml:id="placeName_11.d2e2526" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> تضطهد اللغة العربية وتصرح بأنها تطهر التركية منها، وأنهم لا يصدقون هذا الخبر إلا إذا أكدته أنا لهم، وأنهم حينئذ يحذفون اسم السلطان من الخطبة، ومرة اجتمعت بهم وتذاكرنا في المسألة قال لي رئيس الجمعية: إن عملنا فني محض لا دخل له في السياسة ولا الدين فنتوسل إليك أن تستعمل بنفوذك الديني لإزالة التهم السيئة التي حومت حوله وجرى بيننا محاورة ليس هذا محلها.
 (3) بلغ منهم الغرور مبلغًا لا يتصوره العقل فبينما كانت جيوش البلقانيين أمام شطلجه تهدد كيان الدولة كان أحدهم- أحمد أغايف بك- ينشئ سلسلة مقالات في <bibl type="periodical" subtype="newspaper">جريدة <title level="j" xml:lang="ota">تصوير أفكار</title></bibl> جاء فيها ما ترجمته (يجب أن تهتم تركيا بشئون إيران أعظم اهتمام؛ لأن إيران طريقنا إلى الهند والصين!) .
 (4) الذئب الأبيض إله من إلهة الترك الأقدمين وقد كان شعارًا لهم أيضًا.
 (5) اسم الجبال آلتون طاغ الذي يعده الترك التورانيون بلادهم الأصلية.
@@ -1179,7 +1179,7 @@ Fever Relapsing
 عن أحكام النسك ولا سيما واجبات الإحرام.
 كان سفرنا من مصر في أول الميزان وقد بدأ هواء الخريف المعتدل بطرد
 هواء الصيف الحار ويجليه عن أفق مصر، وكأن ما كان يرحل منه عن مصر
-يذهب إلى <placeName change="#d2e120" xml:id="placeName_12.d2e2664">الحجاز</placeName> ليحل محل هواء صيفه الذي هو أشد منه حرارة، لذلك كنا كلما
+يذهب إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_12.d2e2664" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ليحل محل هواء صيفه الذي هو أشد منه حرارة، لذلك كنا كلما
 أوغلنا في الجنوب نشعر بأن جونا يرجع بنا القهقرى إلى الصيف، فكان عامة من
 في السفينة لا يكادون يبرحون ظهرها إلا إلى حاجة غير النوم؛ إذ كان جميع ركاب
 الدرجة الثالثة ينامون على الظهر، وكذلك بعض ركاب الدرجة الثانية، وكان جل
@@ -1223,7 +1223,7 @@ Fever Relapsing
 الغم؛ لأن الدوار يشتد عليهما في الزوارق الصغيرة ذات الشّرع أو المجاديف
 ويؤلمهما طول المسافة فيها، وخافتا أن لا تصلا إلى البر إلا بحالة لا ترضيهما،
 ولكننا لم نكد نستعد للنزول إلا وكان صديقنا الكريم الشيخ محمد نصيف زكيل سيدنا
-الشريف الأعظم صاحب <placeName change="#d2e120" xml:id="placeName_13.d2e2767">الحجاز</placeName> [1] قد جاء الباخرة في زورق كهربائي أو بخاري
+الشريف الأعظم صاحب <placeName change="#d2e120 #d11e298" xml:id="placeName_13.d2e2767" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> [1] قد جاء الباخرة في زورق كهربائي أو بخاري
 (لنش) مع جماعة من سراة جدة وكبرائها لأجل استقبالنا، وقد أخبرونا بعد
 السلام أنهم قد نزلوا أمس للسؤال عنا في باخرة المنصورة، ثم إننا بعد
 استراحة الزائرين نزلنا وأنزلنا معنا في الزورق ما خف من متاعنا وصغر حجمه، وأرسلنا ما بقي في مراكب النقل الشراعية.
@@ -1232,7 +1232,7 @@ Fever Relapsing
 الشيخ محمد نصيف، وهي دار فسيحة واسعة الحجرات كثيرة النوافذ، تفيض عليها
 الشمس من دور جدة، وكان الهواء معتدلاً في هذا الثغر، لا يُشتكى برد منه ولا حر، وقد بلغني الصديق المضيف، تحية سيدنا الشريف، وصدر أمره العالي إليه
 بالعناية بنا وكان قد بلغ الديوان الهاشمي العالي موعد وصولنا كما بلغه مندوبه
-بمصر خبر سفرنا بالبرق ثم بلغ مضيفنا ب<placeName change="#d2e120" xml:id="placeName_14.d2e2789">مكة</placeName> خبر وصولنا بالمسرة (التليفون)
+بمصر خبر سفرنا بالبرق ثم بلغ مضيفنا ب<placeName change="#d2e120 #d11e298" xml:id="placeName_14.d2e2789" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> خبر وصولنا بالمسرة (التليفون)
 وتكلمت به مع إخواننا محرري <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e2795">القبلة</title></bibl>. وفي صبيحة اليوم التالي ورد على
 مضيفنا في البريد من المقام لهاشمي الأعلى رقعة شريفة هذا نصها:
 
@@ -1246,7 +1246,7 @@ Fever Relapsing
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_74.d2e2817"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_75.d2e2820"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_76.d2e2822"/> نومرو 195
-وكيل شرافة <placeName change="#d2e120" xml:id="placeName_15.d2e2826">مكة المكرمة</placeName> وإمارتها بجدة
+وكيل شرافة <placeName change="#d2e120 #d11e298" xml:id="placeName_15.d2e2826" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> وإمارتها بجدة
 معتمدنا الأعز:
 كتابك رقيم 27 الجاري، وصل وعلم ما له لا سيما من خصوص السيد رشيد
 رضا فقد أرسلنا وبتاريخه كان قصدنا نشعرك بالاستعداد لمقابلته بما يقتضي له من
@@ -1260,7 +1260,7 @@ Fever Relapsing
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_82.d2e2851"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_83.d2e2853"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_84.d2e2855"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_85.d2e2857"/> شريف <placeName change="#d2e120" xml:id="placeName_16.d2e2860">مكة</placeName> وأميرها
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_85.d2e2857"/> شريف <placeName change="#d2e120 #d11e298" xml:id="placeName_16.d2e2860" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وأميرها
 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_86.d2e2865"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_87.d2e2867"/> 
@@ -1332,17 +1332,17 @@ Fever Relapsing
 كان من تلاقينا أول مرة منذ بضعة أعوام، ذلك أنني زرت سورية عقب إعلان
 الدستور العثماني سنة 1327 فأقمت فيها أشهرًا ثم عدت إلى مصر على سفينة
 فرنسية من شركة المساجري، واتفق أن كان في هذه السفينة مصطفى بك فهمي هذا
-قاصدًا بورسعيد للسفر منها إلى <placeName change="#d2e120" xml:id="placeName_17.d2e3019">الحجاز</placeName> فرأى اسمي بين ركاب الدرجة الأولى ولم
+قاصدًا بورسعيد للسفر منها إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_17.d2e3019" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> فرأى اسمي بين ركاب الدرجة الأولى ولم
 يرني على مائدتها ولا على ظهرها مع الركاب؛ لأنني أصبت بدوار خفيف لزمت
 لأجله مخدعي، ولم يكن معي أحد فيه، فسأل عني فدل عليّ فالتقينا وتعارفنا، قال
-لي: إن سيادة أمير <placeName change="#d2e120" xml:id="placeName_18.d2e3028">مكة</placeName> الجديد سيدنا الشريف حسين طلبني لأكون كاتب السر له
+لي: إن سيادة أمير <placeName change="#d2e120 #d11e298" xml:id="placeName_18.d2e3028" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> الجديد سيدنا الشريف حسين طلبني لأكون كاتب السر له
 وكان موظفًا بولاية حلب في عمل لا أذكره الآن وإنني لما علمت بوجودك هنا
-رغبت في لقائك واغتنام الفرصة في الاستفادة من رأيك فيما ينبغي لبلاد <placeName change="#d2e120" xml:id="placeName_19.d2e3036">الحجاز</placeName> من
+رغبت في لقائك واغتنام الفرصة في الاستفادة من رأيك فيما ينبغي لبلاد <placeName change="#d2e120 #d11e298" xml:id="placeName_19.d2e3036" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من
 الإصلاح في عهد الدستور فإن أميره الجديد لا بد أن يوجه همته إلى إصلاح عظيم
 في هذه البلاد المقدسة، وأنت أولى من يستنار برأيه في هذا الأمر. فذكرت له ما
 خطر في بالي في ذلك الوقت القصير من وسائل حفظ الأمن ونشر العلم وإصلاح
 حال البدو وسكة الحديد الحجازية، وتواعدنا على المكاتبة في كل ما يتجدد من
-الشئون بتجدد الأعمال، وقد بدأ بالوفاء بوعده بعد وصوله إلى <placeName change="#d2e120" xml:id="placeName_20.d2e3050">مكة المكرمة</placeName> بمدة
+الشئون بتجدد الأعمال، وقد بدأ بالوفاء بوعده بعد وصوله إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_20.d2e3050" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> بمدة
 وجيزة، فكتب إلي كتابًا ذكر فيه أنه عرض ما سمعه مني من الآراء على سيد
 الجميع فصادف القبول والارتياح، وقد أجبته بما اقتضته الحاجة، وكان من
 غرائب عهد الدستور أنني أرسلت إليه كتابًا مسجلاً فيه كلام يتعلق بخدمة الدولة
@@ -1356,7 +1356,7 @@ Fever Relapsing
 المسائل الدينية والعلمية، والعبرة الاجتماعية والسياسية، وإنما اختلست منهم
 ساعات متفرقة كتبت فيها نبذة من التفسير للمنار ومكتوبات أرسلتها إلى مصر.
 كنت أتمنى لو ملكت وقتًا أرد فيه الزيارة للزائرين الكرام فلما غلبت على
-الوقت قلت: لعلي أملك بعد العودة من <placeName change="#d2e120" xml:id="placeName_21.d2e3083">مكة المكرمة</placeName> ما لا أملكه الآن، ولكن وقت
+الوقت قلت: لعلي أملك بعد العودة من <placeName change="#d2e120 #d11e298" xml:id="placeName_21.d2e3083" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> ما لا أملكه الآن، ولكن وقت
 العودة كان أضيق كما يُعلم في محله، ولذلك طلبنا من صديقنا أن يكتب إلينا
 أسماءهم لنؤدي لهم الشكر بالكتابة جزاءَ ما استحقوه علينا من الزيارة، فكتب إلينا
 زهاء ثلاثين منهم، وهم الذين تذكرهم، فمن أهل العلم منهم الأساتذة الشيخ محمد
@@ -1387,8 +1387,8 @@ Fever Relapsing
 لباس الإحرام اعتمادًا على الفدية. وقال لي: لو رأيتك لابسًا ثياب الحل لعزمت
 عليك أن لا تنزل جدة إلا بلباس الإحرام؛ لئلا يظن بعض الناس أنك من قبيل
 هؤلاء المتهاونين الذين يجيئون هذه البلاد غير محرمين بحج ولا عمرة، وذكر لي
-شيئًا يسيرًا مما علمته بعد ذلك تفصيلاً من حال بعض الشبان الذين جاؤوا <placeName change="#d2e120" xml:id="placeName_22.d2e3154">الحجاز</placeName>،
-ودخلوا <placeName change="#d2e120" xml:id="placeName_23.d2e3159">مكة المكرمة</placeName> نفسها، وكأنهم لا يعرفون شيئًا من مكانتها، ولا حق بيت الله
+شيئًا يسيرًا مما علمته بعد ذلك تفصيلاً من حال بعض الشبان الذين جاؤوا <placeName change="#d2e120 #d11e298" xml:id="placeName_22.d2e3154" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>،
+ودخلوا <placeName change="#d2e120 #d11e298" xml:id="placeName_23.d2e3159" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> نفسها، وكأنهم لا يعرفون شيئًا من مكانتها، ولا حق بيت الله
 وشعائره فيها، فدخلوها غير محرمين، ومروا ببيت الله تعالى غير طائفين ولا
 مصلين، وترددوا بين الصفا والمروة غير ساعين ولا مُرملين، فكانوا مضغة في
 أفواه الحجازيين، ومثالاً مشوهًا لشبان المدنية العصريين، وحجة قاطعة لألسنة
@@ -1505,7 +1505,7 @@ Fever Relapsing
 بعد هذا الاستطراد الطويل أقول: إن بعض شبابنا الذين أفسدت المدارس
 التركية أو الإفرنجية عقائدهم، وشوهت حرية الكفر والفسق أخلاقهم وآدابهم، ولم
 يكن لديهم من التجربة والخبر، ولا من حكم العقل وصحة الفكر، ما يفرقون به
-بين <placeName change="#d2e120" xml:id="placeName_24.d2e3421">الحجاز</placeName> وبين الآستانة ومصر، لم يقفوا عند حد ترك الإحرام، قبل دخول البلد
+بين <placeName change="#d2e120 #d11e298" xml:id="placeName_24.d2e3421" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وبين الآستانة ومصر، لم يقفوا عند حد ترك الإحرام، قبل دخول البلد
 الحرام، وترك الطواف والصلاة والصيام، بل تجرأ أحدهم على التصريح
 بالاعتراض على القرآن. وتجرأ على الطعن في بعض الخلفاء الراشدين، بل على
 ما هو أكبر من ذلك من الضلال المبين.
@@ -1518,7 +1518,7 @@ Fever Relapsing
 ومآلهم شر من مآلهم فإنهم لا يرجون أن يكون لهم دولة كالدولة العثمانية يغلبون
 على أمرها، ويعتزون بقوة مالها وقوة جندها، وسيظهر حالهم ومقصدهم، وما
 يكون من تأثيره في بلادهم وأمتهم.
-((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_7.d2e3452">(1) يعلم القراء أن هذا وقع قبل مبايعة أهل <placeName change="#d2e120" xml:id="placeName_25.d2e3454">الحجاز</placeName> للشريف بالمُلك ونشر الرحلة بعد المبايعة لا يقتضي استعمال لقب الملك فيما يحكى فيها عما كان قبل ذلك.</note>
+((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_7.d2e3452">(1) يعلم القراء أن هذا وقع قبل مبايعة أهل <placeName change="#d2e120 #d11e298" xml:id="placeName_25.d2e3454" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> للشريف بالمُلك ونشر الرحلة بعد المبايعة لا يقتضي استعمال لقب الملك فيما يحكى فيها عما كان قبل ذلك.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_5.d2e3458">الكاتب: <persName change="#d2e141 #d2e120 #d3e274" xml:lang="ar" xml:id="persName_7.d2e3460" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -1582,7 +1582,7 @@ Fever Relapsing
 وفهمه مما رأى وروى، ومما سمع وقرأ. ومما بينه في كتابه أن أذكياء العرب قد
 ألجأتهم سيرة الاتحاديين وسيرهم بالدولة والأحداث التي حدثت في عهد دستورهم
 إلى تأليف الجمعيات والأحزاب للمحافظة على مقومات أمتهم وترقيتها في عهد
-الدستور في ظل <placeName change="#d2e120" xml:id="placeName_26.d2e3580">الدولة العثمانية</placeName> مع الإخلاص لها والحرص على دوام الارتباط بها
+الدستور في ظل <placeName change="#d2e120 #d11e298" xml:id="placeName_26.d2e3580" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> مع الإخلاص لها والحرص على دوام الارتباط بها
 وقد صدق.
 نقلنا في هذا الجزء فصلاً من فصول الكتاب وربما ننقل عنه غيره، وقد
 بلغت صفحاته246 صفحة من قِطع المنار، وثمن النسخة منه عشرة قروش
@@ -1595,7 +1595,7 @@ Fever Relapsing
 وانتظم في سلك حكومتها الإدارية، وقد كان حظه من تنكيل حكومته بأمثاله من
 نجباء العرب النفي إلى أرضروم، ولكنه سجن في ديار بكر بضعة أشهر وهي
 قطب الرحى لتلك الأحداث، وفيها وفي طريقها رأى وروى ما دوّنه في كتيبه من
-الفظائع التي تقشعر منها الجلود، ثم تيسر له الفرار إلى <placeName change="#d2e120" xml:id="placeName_27.d2e3611">البصرة</placeName> ثم إلى الحجاز
+الفظائع التي تقشعر منها الجلود، ثم تيسر له الفرار إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_27.d2e3611" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> ثم إلى الحجاز
 فمصر وغرضه من الكتاب تبرئة الإسلام والمسلمين من قتل أحد بغير حق ولا سيما
 النساء والأطفال وبيان أن تبعة مذابح الأرمن في أعناق الحكومة الاتحادية دون
 سواها.

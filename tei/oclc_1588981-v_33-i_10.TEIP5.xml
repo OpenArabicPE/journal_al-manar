@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_33-i_10.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_33-i_10.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e282">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_33-i_10.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_33-i_10.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1352">1352</date><date calendar="#cal_gregorian" when="1934" xml:lang="ar">أبريل - 1934م</date></imprint>
                   <biblScope unit="volume" from="33" to="33" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">33</biblScope>
                   <biblScope unit="issue" from="10" to="10" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">10</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e276" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e282" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e276" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -236,7 +236,7 @@
 * * *
 (95) الصفات المستحيلة على الخالق تعالى:
 حضرة صاحب الفضيلة مولانا الأستاذ المصلح الكبير السيد محمد رشيد رضا
-منشىء <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e615">المنار</title> <pubPlace>ب<placeName change="#d2e120" xml:id="placeName_4.d2e618">القاهرة</placeName></pubPlace></bibl>.
+منشىء <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e615">المنار</title> <pubPlace>ب<placeName change="#d2e120 #d11e282" xml:id="placeName_4.d2e618" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName></pubPlace></bibl>.
 مقدمه لفضيلتكم عبد الله أوانج القطاني الطالب برواق الجاوه بالأزهر
 الشريف، وبعد فإنني تلقيت خطابًا من جدي وهو من العلماء المدرسين في بلدنا
 (فطاني بسيام) وأمرني فيه أن أرفع السؤال الآتي إلى علماء مصر لأنه حصل
@@ -321,18 +321,18 @@
 وما زال الجلاد بين هؤلاء وبين العالم الإسلامي حتى دالت الدولة للإفرنج في أكثر
 الأرض، وبقي لمسلمي الأعاجم منهم ثلاث دول صغيرة قد بينا حالها في فاتحة
 المجلد الثالث والثلاثين من المنار، وأما العرب فلم يبق لهم إلا هاتان الدولتان
-الضعيفتان في <placeName change="#d2e120" xml:id="placeName_5.d2e790">اليمن</placeName> و<placeName change="#d2e120" xml:id="placeName_6.d2e793">الحجاز</placeName> ونجد، وقد أحاط بهم الإفرنج من البر والبحر.
+الضعيفتان في <placeName change="#d2e120 #d11e282" xml:id="placeName_5.d2e790" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> و<placeName change="#d2e120 #d11e282" xml:id="placeName_6.d2e793" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد، وقد أحاط بهم الإفرنج من البر والبحر.
 فهل كان يدور في خَلَد أحد يؤمن بكتاب الله تعالى وبمحمد رسول الله أن
 يكونوا كاليهود الذين قال الله تعالى فيهم في عهد البعثة المحمدية: {بَأْسُهُم بَيْنَهُمْ
 شَدِيدٌ تَحْسَبُهُمْ جَمِيعاً وَقُلُوبُهُمْ شَتَّى ذَلِكَ بِأَنَّهُمْ قَوْمٌ لاَّ يَعْقِلُونَ} (الحشر: 14) في
 الوقت الذي يؤسس فيه اليهود بإنفاقهم وحزمهم ملكًا جديدًا بنزع قطر عظيم من
 الأقطار العربية من أهلها العرب يجلونهم عنه كما أجلى النبي صلى الله عليه وسلم
-ثم خليفته الثاني رضي الله عنه أجدادهم من <placeName change="#d2e120" xml:id="placeName_7.d2e809">الحجاز</placeName> ثم من خيبر وسائر جزيرة
+ثم خليفته الثاني رضي الله عنه أجدادهم من <placeName change="#d2e120 #d11e282" xml:id="placeName_7.d2e809" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ثم من خيبر وسائر جزيرة
 العرب، وأن يخيب السعي لعقد محالفة بينهما من حيث يفوز الإنكليز بعقد معاهدة
-مع (أحدهما) يقرهم بها على تسع مقاطعات من عقر مملكة <placeName change="#d2e120" xml:id="placeName_8.d2e817">اليمن</placeName> تكاد تبلغ الثلث
+مع (أحدهما) يقرهم بها على تسع مقاطعات من عقر مملكة <placeName change="#d2e120 #d11e282" xml:id="placeName_8.d2e817" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> تكاد تبلغ الثلث
 العامر في أطرافها، ومن حيث يفترصون وقوع هذه الفتن الشاغلة لملك العربية
 السعودية ومواتاة الأمير عبد الله وموالاته لهم لتحصين خليج العقبة، وتمكين قدم
-اليهود في فلسطين وشرق الأردن بما ألصق بها من <placeName change="#d2e120" xml:id="placeName_9.d2e826">الحجاز</placeName>؛ لِيَنْقُضُوا وصية
+اليهود في فلسطين وشرق الأردن بما ألصق بها من <placeName change="#d2e120 #d11e282" xml:id="placeName_9.d2e826" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>؛ لِيَنْقُضُوا وصية
 المصطفى صلى الله عليه وسلم (لا يبقى في جزيرة العرب دينان) .
 سبحان الله: اليهود يؤسسون لهم ملكًا في قلب بلاد العرب، وصاحبا جزيرة
 العرب يمهدان لهم السبيل باشتغال كل منهما بقتال أخيه؟ في عهد الإمامين الجليلين
@@ -356,27 +356,27 @@
 ولسان الحال يصيح بهم أصلحوا ذات بينكم، قبل أن تحاولوا الإصلاح بين من هم
 أقرب إلى الصلاح والإصلاح منكم، وهما الإمامان العظيمان يحيَى وعبد العزيز،
 فإن الرجاء في أن يفيئا إلى أمر الله لم ينقطع منهما، وإن وقعت الحرب بفساد
-الحزب الحجازي الخبيث بينهما، وإيهامه قائد جيش <placeName change="#d2e120" xml:id="placeName_10.d2e882">اليمن</placeName> بأن جميع قبائل عسير
-و<placeName change="#d2e120" xml:id="placeName_11.d2e887">الحجاز</placeName> وغيرهما ستثور على الملك السعودي في الشمال والشرق في إثر مناجزته
+الحزب الحجازي الخبيث بينهما، وإيهامه قائد جيش <placeName change="#d2e120 #d11e282" xml:id="placeName_10.d2e882" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> بأن جميع قبائل عسير
+و<placeName change="#d2e120 #d11e282" xml:id="placeName_11.d2e887" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وغيرهما ستثور على الملك السعودي في الشمال والشرق في إثر مناجزته
 له في الجنوب، وتوجيه قواه إليه، ونحن نقرأ في جرائدنا مقالاتهم الناطقة بذلك
-من مصادرها في <placeName change="#d2e120" xml:id="placeName_12.d2e894">اليمن</placeName> وعدن ومن مصر أيضًا. ومنهم من يدافع عما نال الأجانب
-من الغنيمة في <placeName change="#d2e120" xml:id="placeName_13.d2e900">اليمن</placeName>، وقد شغلوا الجمهور الإسلامي عما يعملون في العقبة،
-وجيوش <placeName change="#d2e120" xml:id="placeName_14.d2e905">اليمن</placeName> ممتدة على طول خطوط الحدود كلها، وقد واجهتها الجيوش
+من مصادرها في <placeName change="#d2e120 #d11e282" xml:id="placeName_12.d2e894" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وعدن ومن مصر أيضًا. ومنهم من يدافع عما نال الأجانب
+من الغنيمة في <placeName change="#d2e120 #d11e282" xml:id="placeName_13.d2e900" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وقد شغلوا الجمهور الإسلامي عما يعملون في العقبة،
+وجيوش <placeName change="#d2e120 #d11e282" xml:id="placeName_14.d2e905" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> ممتدة على طول خطوط الحدود كلها، وقد واجهتها الجيوش
 السعودية فيها أو كادت.
 لقد أبصر العُمي، وسمع الصم، ونطق البكم، ولم يبق خفيًّا على أحد يعقل
 ما يكيد أعداء الإسلام الطامعون لمهد الإسلام، وقبلة الإسلام، ومعقل الإسلام
 ومأرز الإسلام، وروضة نبي الإسلام، سيد البشر، ومصلح البشر، محمد عليه
 أفضل الصلاة والسلام.
-وَهَبَ الشريف علي ملك <placeName change="#d2e120" xml:id="placeName_15.d2e921">الحجاز</placeName> (بالأمس) وأمير شرق الأردن (اليوم)
-أعظم ثغور <placeName change="#d2e120" xml:id="placeName_16.d2e927">الحجاز</placeName> ومعاقلها وحصونها البحرية البرية لأخيه الشريف عبد الله، ألا
-وهو خليج العقبة، وما يتصل به من سكة حديد <placeName change="#d2e120" xml:id="placeName_17.d2e932">الحجاز</placeName> المتصلة بالمدينة المنورة،
+وَهَبَ الشريف علي ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_15.d2e921" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> (بالأمس) وأمير شرق الأردن (اليوم)
+أعظم ثغور <placeName change="#d2e120 #d11e282" xml:id="placeName_16.d2e927" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ومعاقلها وحصونها البحرية البرية لأخيه الشريف عبد الله، ألا
+وهو خليج العقبة، وما يتصل به من سكة حديد <placeName change="#d2e120 #d11e282" xml:id="placeName_17.d2e932" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> المتصلة بالمدينة المنورة،
 فجعلاه تابعًا لإمارة شرق الأردن الواقعة تحت سيطرة الإنكليز؛ ليتمكنوا به من
 السيطرة على جزيرة العرب في قلبها، كما أحاطوا بها من أطرافها، وليكون البحر
 الأحمر العربي الإسلامي بحيرة إنكليزية لا يمكن لدولة بحرية ولا برية أن تنازع
 الإنكليز سلطانهم عليه، ولا على ما يحيط به من مصر والسودان من ناحية، ومن
-فلسطين و<placeName change="#d2e120" xml:id="placeName_18.d2e946">الحجاز</placeName> و<placeName change="#d2e120" xml:id="placeName_19.d2e949">اليمن</placeName> و<placeName change="#d2e120" xml:id="placeName_20.d2e952">العراق</placeName> من سائر النواحي، إذ كانوا معتصمين في هذا
+فلسطين و<placeName change="#d2e120 #d11e282" xml:id="placeName_18.d2e946" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> و<placeName change="#d2e120 #d11e282" xml:id="placeName_19.d2e949" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> و<placeName change="#d2e120 #d11e282" xml:id="placeName_20.d2e952" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> من سائر النواحي، إذ كانوا معتصمين في هذا
 المعقل المنيع (خليج العقبة) الذي سيتصل بشط العرب وخليج فارس فيكون
-أقرب الطرق الحربية التجارية إلى الهند، ولا تنس اتصاله بثغر <placeName change="#d2e120" xml:id="placeName_21.d2e960">حيفا</placeName> على البحر
+أقرب الطرق الحربية التجارية إلى الهند، ولا تنس اتصاله بثغر <placeName change="#d2e120 #d11e282" xml:id="placeName_21.d2e960" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> على البحر
 الأبيض المتوسط، بل الأمر أعظم من ذلك.
 إن خليج العقبة لأمنع معقل بحري في العالم كله، وإنه لهو الذي يمكن
 الإنكليز من السيطرة على جزيرة العرب المقدسة وعلى بقية بلاد الأمة العربية من
@@ -384,26 +384,26 @@
 والطيارات البريطانية، واشتهر أن الإنكليز قد شرعوا في نزع أرضه من أصحاب
 الأيدي عليها لامتلاك رقبة الأرض كلها من المسلمين لتكون خالصة لهم مِلكًا
 (بالكسر) ومُلكًا (بالضم) .
-علم الإنكليز دهاة البشر أن هذه الهبة من علي بن حسين ملك <placeName change="#d2e120" xml:id="placeName_22.d2e980">الحجاز</placeName> بالأمس
+علم الإنكليز دهاة البشر أن هذه الهبة من علي بن حسين ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_22.d2e980" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بالأمس
 والطامع في عرش سورية في الغد - لأخيه عبد الله بن حسين أمير شرق الأردن
 اليوم والطامع في لقب ملك فلسطين في غد - هبة غير صحيحة في الشرع
-الإسلامي ولا في القانون الدولي، وأن لملك <placeName change="#d2e120" xml:id="placeName_23.d2e990">الحجاز</placeName> الحق كله في مطالبتهم هم
+الإسلامي ولا في القانون الدولي، وأن لملك <placeName change="#d2e120 #d11e282" xml:id="placeName_23.d2e990" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> الحق كله في مطالبتهم هم
 بردها إليه، فراودوا الملك عبد العزيز ابن السعود عنها، وطلبوا منه إقرارها من
-أول العهد باستيلائه على <placeName change="#d2e120" xml:id="placeName_24.d2e997">الحجاز</placeName> إلى اليوم فأبى، أظهروا له الود فما انخدع وما
+أول العهد باستيلائه على <placeName change="#d2e120 #d11e282" xml:id="placeName_24.d2e997" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إلى اليوم فأبى، أظهروا له الود فما انخدع وما
 ونى، وكادوا له الكيد بعد الكيد فما عثر جواده ولا كبا.
 ثارت في وجهه فتنة الدويش في نجد بإغراء حدود العرق، فظهر عليها بعد
 إهراق دماء غزيرة كانت من أعظم قواته في نجد فاضطروا إلى موادته في خاتمتها.
-ثم ثارت في وجهة فتنة ابن رفادة في <placeName change="#d2e120" xml:id="placeName_25.d2e1009">الحجاز</placeName> بتحريش الدسائس من ناحتي
+ثم ثارت في وجهة فتنة ابن رفادة في <placeName change="#d2e120 #d11e282" xml:id="placeName_25.d2e1009" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بتحريش الدسائس من ناحتي
 شرق الأردن ومصر، فلما رأوا ما قابلها به من حزم وعزم، وأنه بطش بها
 بسرعة فقضى على الفتنة القضاء المبرم، اضطروا إلى إظهار الوداد له، ورضوا
 بعجزه عن الزحف على العقبة، وإبقاء مسألتها معلقة.
 وقد ثارت في وجهه اليوم الفتنة السوءى، الطامة الكبرى، وهي استجماع
-قوى جزيرة العرب الجنوبية كلها في <placeName change="#d2e120" xml:id="placeName_26.d2e1023">اليمن</placeName>، وتوجيهها إلى قتاله في عسير فالحجاز
+قوى جزيرة العرب الجنوبية كلها في <placeName change="#d2e120 #d11e282" xml:id="placeName_26.d2e1023" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، وتوجيهها إلى قتاله في عسير فالحجاز
 ونجد، وتوجيه قواه كلها إلى مكافحتها ومقاتلتها، ودبت عقارب الدسائس لإثارة
-الفتن في <placeName change="#d2e120" xml:id="placeName_27.d2e1031">الحجاز</placeName> و<placeName change="#d2e120" xml:id="placeName_28.d2e1034">العراق</placeName> مرة أخرى، حتى إذا اشتجر في الجنوب الأقران والأقتال،
+الفتن في <placeName change="#d2e120 #d11e282" xml:id="placeName_27.d2e1031" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> و<placeName change="#d2e120 #d11e282" xml:id="placeName_28.d2e1034" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> مرة أخرى، حتى إذا اشتجر في الجنوب الأقران والأقتال،
 واستحر بين القوتين الكبريين القتال، تم للإنكليز اقتحام العقبة في الشمال، ويقال:
 إن فتنة ابن رفادة عادت سيرتها الأولى، وإن رسولاً تسلل من شرق الأردن إلى
-زعيم أو زعيمين من قبائل <placeName change="#d2e120" xml:id="placeName_29.d2e1044">الحجاز</placeName> سراء ولا تزال الأراجيف تترى.
+زعيم أو زعيمين من قبائل <placeName change="#d2e120 #d11e282" xml:id="placeName_29.d2e1044" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> سراء ولا تزال الأراجيف تترى.
 إن أفضل ما يعمل الآن هو السعي لإصلاح ذات البين، وعقد المحالفة بين
 الإمامين، على الأساس الذي اتفقا عليه وعقدا مؤتمر أبها لأجله، وقد سبق إلى ذلك
 بالقول والفعل وفد المؤتمر الإسلامي العام، فخاطب السيد أمين الحسيني كلا من
@@ -457,7 +457,7 @@
 يجب أن تبقى على ما كانت عليه من استقلالها لتكون فاصلا بين المملكتين حتى لا
 تكون مثارًا للاعتداء.
 وسبب هذا الحذر من الاتصال أن الملك يطلب منذ بضع سنين عَقَدَ معاهدة
-سلمية بينه وبين إمام <placeName change="#d2e120" xml:id="placeName_30.d2e1152">اليمن</placeName> والإمام يأبى هذا، وقد كان هجوم جنده على نجران
+سلمية بينه وبين إمام <placeName change="#d2e120 #d11e282" xml:id="placeName_30.d2e1152" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> والإمام يأبى هذا، وقد كان هجوم جنده على نجران
 واحتلالها عقب رجوع الوفد السعودي الذي مكث في عاصمته صنعاء عدة أشهر
 يبغي عقد المعاهدة وعاد أدراجه خائبًا، فعدها الملك تمهيدًا للاعتداء على ما وراءها
 من بلاده.
@@ -479,37 +479,37 @@
 وأما مسألة المصلحة العامة للعرب وللمسلمين في هذه المشكلة فالرأي الصحيح
 فيها من جميع نواحيها، يتوقف على العلم بظواهرها وخوافيها، وقوادم أجنحتها
 وخوافيها.
-وأما شرفاء <placeName change="#d2e120" xml:id="placeName_31.d2e1203">الحجاز</placeName> فقد ظهر في أحدهم الاستعداد للملك فأوتيه وهو الملك
+وأما شرفاء <placeName change="#d2e120 #d11e282" xml:id="placeName_31.d2e1203" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> فقد ظهر في أحدهم الاستعداد للملك فأوتيه وهو الملك
 فيصل رحمه الله تعالى، وقوى المتنازعين فيها، والخطر الأجنبي عليها، فأما
 الخطر البريطاني فقد بيَّناه في المقالة التي قبل هذه، وأما الطلياني فلم يظهر لنا منه
 شيء في هذه الفتنة. وأما المتنازعان الظاهران فهما الإمامان الحاكمان، ومن
 دونهما بقية آل الإدريسي وهم يجهزون على أنفسهم بجهلهم، ولم يظهر بعد السيد
 محمد الكبير أدنى استعداد للإمارة في أحد منهم، وقد عرف جميع المشتغلين
-بالسياسة ما فعل علي وعبد الله في اقتطاع منطقة العقبة ومعان من <placeName change="#d2e120" xml:id="placeName_32.d2e1219">الحجاز</placeName> ووضعها
+بالسياسة ما فعل علي وعبد الله في اقتطاع منطقة العقبة ومعان من <placeName change="#d2e120 #d11e282" xml:id="placeName_32.d2e1219" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ووضعها
 في قبضة الإنكليز، وعرفوا ما كان من عرض الملك عَلِيٍّ الحجازَ كله على
 الإنكليز باسم الحماية كما دونه الريحاني في كتابه، وعرفوا كيف وضع عبد لله
 إمارة شرق الأردن تحت السيادة الإنكليزية باسم الانتداب ورضي منهم بلقب
 الأمير، وراتب حقير، ويعرفون كيف يستخدمونه الآن وسيعلمون ما هو شر منه،
 كما يعلمون أن هذين الشريفين اللذين يعتقدان أنهما خلقا ليتحلى كل منهما بلقب ملك
 من دولة أجنبية عدو للعرب وللإسلام ليس لهما عصبية قومية ولا ثروة ولا نفوذ
-شخصي في <placeName change="#d2e120" xml:id="placeName_33.d2e1237">الحجاز</placeName> ولا في غيره، وأنهما يطلبان ملك <placeName change="#d2e120" xml:id="placeName_34.d2e1240">الحجاز</placeName> وغيره من الأجانب
-فكيف يكون أمر <placeName change="#d2e120" xml:id="placeName_35.d2e1246">الحجاز</placeName> إذا ولي أحدهما أو غيرهما من أسرتهما أمره، إن خرج
+شخصي في <placeName change="#d2e120 #d11e282" xml:id="placeName_33.d2e1237" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ولا في غيره، وأنهما يطلبان ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_34.d2e1240" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وغيره من الأجانب
+فكيف يكون أمر <placeName change="#d2e120 #d11e282" xml:id="placeName_35.d2e1246" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إذا ولي أحدهما أو غيرهما من أسرتهما أمره، إن خرج
 منه ابن السعود بما يكيدون له؟ لا جرم أنه يكون مجالا للثورات والفتن، وتبطل
 فريضة الحج والعياذ بالله تعالى فالحق أنه لم يبق في جزيرة العرب إلا قوتا الإمامة
 الزيدية، والمملكة السعودية فأيهما أرجى لمصلحة الشعوب الإسلامية، والأمة
 العربية؟
 إن الجواب الصحيح عن هذا السؤال يتوقف على العلم بحقيقة قوة إمام اليمن
 في بلاده وبصفة إدارته، وإخضاعه لزعمائها وعشائرها، ومعاملة قومه الزيدية
-للشافعية في تهامتها وبقدر استعداده لحفظ <placeName change="#d2e120" xml:id="placeName_36.d2e1264">الحجاز</placeName> وتأمينه للمسلمين، إن قدر على
+للشافعية في تهامتها وبقدر استعداده لحفظ <placeName change="#d2e120 #d11e282" xml:id="placeName_36.d2e1264" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وتأمينه للمسلمين، إن قدر على
 إخراج ابن السعود منه وحل محله دون الحجازيين، أنا لا أصف لهم ما أعلم من
 ذلك. وإن كثيرًا منهم ليعلمون ما أعلم وأكثر مما أعلم، وإني قد عنيت بخدمة ملك
 الإمام يحيى وإمارته بما يعلمه هو وقليل من الناس، وإنني لا أقول في هذا
 الموضوع شيئًا الآن، وإنما أدع القول للزمان، وربما قال كلمته الفاصلة قريبًا في
 قوته الحربية، وطال بعد المدى في انتظار قوته الإدارية، ولا يعلم إلا الله ما
 يحدث فيما بين الكلمتين مما أشار إليه الحديث (ويل للعرب من شر قد اقترب)
-كذلك لا أقول شيئًا في استعداد ابن السعود لأمن <placeName change="#d2e120" xml:id="placeName_37.d2e1282">الحجاز</placeName> وعمرانه فوق ما عرفه
+كذلك لا أقول شيئًا في استعداد ابن السعود لأمن <placeName change="#d2e120 #d11e282" xml:id="placeName_37.d2e1282" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وعمرانه فوق ما عرفه
 العالم كله بالتواتر عن مشاهدة مئات الألوف من حجاج الأقطار كلها، فما هو
-معلوم من تأمين الدولة السعودية للحجاز باليقين تعجز <placeName change="#d2e120" xml:id="placeName_38.d2e1290">اليمن</placeName> عن مثله باليقين عند
+معلوم من تأمين الدولة السعودية للحجاز باليقين تعجز <placeName change="#d2e120 #d11e282" xml:id="placeName_38.d2e1290" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> عن مثله باليقين عند
 العارفين، وإن شك فيه غيرهم، واليقين مقدم على الشك والظن.
 وأما مصلحة الأمة العربية في جزيرتهم فالقضية القطعية فيها الآن أن يحفظ
 كل من الإمامين قوته لنفسه في بلاده لإبقاء ما كان على ما كان، وعقد محالفة
@@ -589,13 +589,13 @@
 الملحقة بهذه الطبعة من كتب أئمة الفرق الثلاث الكبرى التي تضم الملايين من أهل
 القبلة، وما يرجى من مساعدتهم لنا على تعميم نشره، فأما إمام أهل السنة فإنه
 أبدى لنا عزمه على ذلك وكانت نسخ الطبعة الأولى قد نفذت، وأما إمام العترة
-والشيعة الزيدية فإنه عندما رآه كتب إلينا يستأذننا بطبعه في <placeName change="#d2e120" xml:id="placeName_39.d2e1453">اليمن</placeName> لتعميم نشره فيه
+والشيعة الزيدية فإنه عندما رآه كتب إلينا يستأذننا بطبعه في <placeName change="#d2e120 #d11e282" xml:id="placeName_39.d2e1453" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> لتعميم نشره فيه
 فكتبنا إليه بأننا سنعيد طبعه منقحًا مزيدًا فيه، فكتب ثانيًا ما يراه القراء في أول
 التقاريظ.
 وقد كان بادر إلى المساعدة على نشره من أول وهلة صاحب السعادة السريّ
 عزيز عزت باشا المصري فتبرع بثلاثين جنيهًا وزعنا بها نسخًا كثيرة في أوربة
 وغيرها، وتبرع صاحب السعادة محمد صادق المجددي وزير الأفغان المفوض في
-مصر بمائة نسخة منه للمؤتمر الإسلامي في <placeName change="#d2e120" xml:id="placeName_40.d2e1469">القدس</placeName> ليوزعها رئيسه على فروعه في
+مصر بمائة نسخة منه للمؤتمر الإسلامي في <placeName change="#d2e120 #d11e282" xml:id="placeName_40.d2e1469" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> ليوزعها رئيسه على فروعه في
 الأقطار وتبرع آخرون بعشرات من النسخ على من يظنون انتفاعهم بالكتاب. دع
 من انتدبوا للترغيب فيه، وبيعه لمن يشتريه، احتسابًا لوجه الله عز وجل.
 وأما التقاريظ فقد نشرنا طائفة مما حفظناه منها لبيان آراء المسلمين في الكتاب
@@ -917,7 +917,7 @@
 (2)
 - 5 -
 للعلامة الأستاذ الشيخ سعدي يس الدمشقي
-تكرم علامة <placeName change="#d2e120" xml:id="placeName_41.d2e2162">دمشق الشام</placeName> الشيخ محمد بهجة البيطار فأهداني كتاب
+تكرم علامة <placeName change="#d2e120 #d11e282" xml:id="placeName_41.d2e2162" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق الشام</placeName> الشيخ محمد بهجة البيطار فأهداني كتاب
 (الوحي المحمدي) كما هو شأنه مع أصحابه ومعارفه في كل كتاب نفيس يصدر،
 وذلك خُلُق طبعه الله عليه.
 وما أن اطلعت على هذا الكتاب العظيم العديم المثال حتى علمت علم
@@ -1011,7 +1011,7 @@
 ***
 -7-
 لحضرة صاحب الفضيلة الأستاذ الشيخ
-محمد رشيد ميقاتي مفتي <placeName>طرابلس الشام</placeName>
+محمد رشيد ميقاتي مفتي <placeName ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt" change="#d11e282">طرابلس الشام</placeName>
 أخي العزيز السيد عاصم آل رضا حفظك الله
 سلامًا واحترامًا (وبعد) قرأت (كتاب الوحي المحمدي) الذي أهديتنيه
 فلا تسل يا أخي عما حصل لي من المسرة، في الحظوى بما هو لعيون
@@ -1026,7 +1026,7 @@
 فزتم بسعادة الدارين، وإن لم تعملوا، وعلمتم ظاهرًا من الحياة الدنيا فزتم
 بها وحدها، وإن لم تعلموا ولم تعملوا خسرتم الدنيا والآخرة كحال بعضكم،
 وذلك هو الخسران المبين، وتعلموا حقيقة الوحي المحمدي أنه من الله رب العالمين،
-نزل به روح <placeName change="#d2e120" xml:id="placeName_43.d2e2406">القدس</placeName> جبريل الأمين، على قلب النبي الأمي محمد ختام المرسلين
+نزل به روح <placeName change="#d2e120 #d11e282" xml:id="placeName_43.d2e2406" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> جبريل الأمين، على قلب النبي الأمي محمد ختام المرسلين
 صلوات الله وسلامه عليهم أجمعين.
 فمن هذا السرور، ومن هذا الشعور، تراني يا أخي داعيًا إلى الله أن
 يكافئ مؤلف هذا الكتاب الجليل، العلامة النبيل، الفهامة لدين الإسلام، ابن
@@ -1051,7 +1051,7 @@
 ***
 طائفة من التقاريظ التي رأيناها في المجلات والجرائد
 تقريظ الأستاذ العلامة <bibl type="periodical" subtype="journal" change="#d3e268"><editor><persName>الشيخ محمد تقي الدين الهلالي</persName></editor>
-(محرر مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e2466">الضياء</title> الهندية في <pubPlace><placeName>لكنهؤ</placeName></pubPlace></bibl>، ونشر فيها)
+(محرر مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e2466">الضياء</title> الهندية في <pubPlace><placeName ref="geon:1264733 oape:place:294 wiki:Q47916" resp="#xslt" change="#d11e282">لكنهؤ</placeName></pubPlace></bibl>، ونشر فيها)
 هدية ثمينة وتحفة نفيسة وثمرة علمية يانعة، أنتجها قلم إمام هذا العصر
 وحكيمه الأكبر، مولانا السيد محمد رشيد رضا. لا زال بحر بره زاخرًا
 يقذف بالدرر، ووابل علومه يحيي القلوب الميتة، وظله الوارف حماية
@@ -1610,17 +1610,17 @@
 يوم الجمعة 23 جمادى الأولى 13 فبراير
 خلوت البارحة بالأمير فيصل ساعتين فصَّلنا فيهما الكلام في المسائل الثلاث،
 السورية والعربية والإسلامية، فسمع مني في حقائق سياسة أوربة وخفايا مسائل
-الأحزاب في <placeName change="#d2e120" xml:id="placeName_44.d2e3706">الشام</placeName> ومنها حزب جمعيته ما لم يكن يظن أنني أعرفه كما صرح لي
+الأحزاب في <placeName change="#d2e120 #d11e282" xml:id="placeName_44.d2e3706" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ومنها حزب جمعيته ما لم يكن يظن أنني أعرفه كما صرح لي
 بذلك، وبأنه يعترف بأنه ليس كثيرًا على شهرتي <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_6.d2e3711">…</hi> وذكرت له في هذا السياق
 خلاصة تقريري الذي أرسلته إلى وزير إنكلترة الأكبر لويد جورج في رمضان العام
 الماضي (1337) وما حدثت به موسيو مرسيه مدير السياسة الفرنسية في بيروت
-بمعناه قبل مجيئي إلى <placeName change="#d2e120" xml:id="placeName_45.d2e3721">الشام</placeName> (وموضوعهما سياسة الدولتين وعلاقتهما بالعرب
+بمعناه قبل مجيئي إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_45.d2e3721" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> (وموضوعهما سياسة الدولتين وعلاقتهما بالعرب
 وبالإسلام) فتعجب وقال: إنه خاطب الإنكليز بهذا المعنى كأننا كتبنا عن تشاور
 واتفاق.
 ثم فصل لي رأيه في المشتغلين بالسياسة العربية وخلاصته أن الشيوخ
 والأكابر المحافظين لا يعتد بهم في شيء، وأن أكثر الشبان مغرورون ومفترقون
 في الرأي، فمنهم من يرى وجوب الاتفاق مع الإنكليز على فرنسة أو ضدها وإن
-سمحنا لهم بما في أيديهم من <placeName change="#d2e120" xml:id="placeName_46.d2e3737">العراق</placeName> وفلسطين، ومنهم من يرى العكس وهم أقل،
+سمحنا لهم بما في أيديهم من <placeName change="#d2e120 #d11e282" xml:id="placeName_46.d2e3737" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وفلسطين، ومنهم من يرى العكس وهم أقل،
 ومنهم من يرى أن نحارب الدولتين معا، وقال: إنه متحير بينهم، ولم يبد رأيه
 بالتفصيل لأحد منهم، وأقنعته بأن يبديه لي ففعل <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_7.d2e3744">…</hi> ورأيت أهمه أنه صار على
 رأيي فيما رجع فيه عن رأيه اهـ وقد (اتفقت معه قبل الانصراف على الاجتماع
@@ -1651,7 +1651,7 @@
 أجابوه به في لندرة عندما كلمهم في مسألة ابن سعود، وهو أنه حليفهم مثل والده
 (أي خلافًا لأمل والده فيهم) وذكر له سياسته الجديدة في سورية.
 وقد ثبت لي من هذه الكتابة أنه كان يعتقد بالتبع لوالده أن إنكلترة تساعدهم
-على تأسيس دولة عربية تضم إليها سورية وفلسطين و<placeName change="#d2e120" xml:id="placeName_47.d2e3810">العراق</placeName> وأن ثقته بهذا كانت
+على تأسيس دولة عربية تضم إليها سورية وفلسطين و<placeName change="#d2e120 #d11e282" xml:id="placeName_47.d2e3810" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وأن ثقته بهذا كانت
 تابعة لثقة والده إذ كان يخبره مشافهة أن بينه وبين الإنكليز عهودًا مكتوبة في ذلك
 لم يطلعه عليها (ثم تبين له أن ليس هنالك إلا رسائل خادعة كما شرحنا ذلك في
 المنار) وقد صرح لي من قبل أنه علم بالاختبار أنهم مخادعون وبما هو شر من
@@ -1664,10 +1664,10 @@
 وعاتبوه على ذلك.
 وأقول الآن: إننا نعلم أنه لم يقصر في مساعدتهم فقد كان اتفق مع الحزب
 على طلب الولايات المتحدة قبل أن يكلمه الإنكليز في المسألة فلما كلموه جمع من
-كان في <placeName change="#d2e120" xml:id="placeName_48.d2e3844">دمشق</placeName> من الأعضاء أولي التأثير ليلاً وبلغهم أنه قد تغير رأيه الأول فجأة.
+كان في <placeName change="#d2e120 #d11e282" xml:id="placeName_48.d2e3844" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> من الأعضاء أولي التأثير ليلاً وبلغهم أنه قد تغير رأيه الأول فجأة.
 وقد كتبت في مذكرتي بعدما تقدم:
 (ولقد عجبت أشد العجب من كتابته إلى أبيه أنه ينتظر كتابًا منه ويبشره بأن
-إمام <placeName change="#d2e120" xml:id="placeName_49.d2e3853">اليمن</placeName> أجابه بأنه يرضى ويقبل أن يكون تابعًا لعرشه، فيا لله من هذا الجهل
+إمام <placeName change="#d2e120 #d11e282" xml:id="placeName_49.d2e3853" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> أجابه بأنه يرضى ويقبل أن يكون تابعًا لعرشه، فيا لله من هذا الجهل
 والغرور الذي لم أكن أظن أن الولد على ذكائه واختباره يشارك والده فيه) اهـ.
 ***
 استطراد في إمامة الزيدية ومذهبهم
@@ -1675,15 +1675,15 @@
 الزيدية وتاريخهم، ولا أن يحيى حميد الدين يعتقد هو وقومه أنه هو الإمام الأعظم
 للأمة الإسلامية وأمير المؤمنين الذي يجب على جميع المسلمين اتباعه والخضوع
 لحكمه، وأنه يجب عليه عند الإمكان قتال الخارجين والعاصين له <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_10.d2e3872">…</hi> على هذه
-القاعدة كان يقاتل <placeName change="#d2e120" xml:id="placeName_50.d2e3877">الدولة العثمانية</placeName> على قوتها وادعائها لمنصب الخلافة، نعم إنه كان
+القاعدة كان يقاتل <placeName change="#d2e120 #d11e282" xml:id="placeName_50.d2e3877" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> على قوتها وادعائها لمنصب الخلافة، نعم إنه كان
 يقابلها دفاعًا، ولكنه لو استطاع أن يهاجمها وينتزع منها جميع سلطنتها لفعل وكان
 مصيبًا.
-ولما هاجم النجديون <placeName change="#d2e120" xml:id="placeName_51.d2e3887">الحجاز</placeName> وخرج الملك حسين منه وبايع الحزب الوطني
+ولما هاجم النجديون <placeName change="#d2e120 #d11e282" xml:id="placeName_51.d2e3887" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وخرج الملك حسين منه وبايع الحزب الوطني
 فيه ولده عليًّا وسموه ملكًا كاتب علي الإمام يحيى وعرض عليه أن ينقذ الحجاز
 ويضمه إلى مملكته اليمانية على أن يكون هو وأهل بيته أمراء للحجاز من قِبَله
 تابعين له، فامتنع الإمام من قبول هذا الاقتراح؛ لأنه قدر بل علم أنه لا يستطيع
-تجهيز جيش قوي يمكنه الوصول إلى <placeName change="#d2e120" xml:id="placeName_52.d2e3899">الحجاز</placeName> والتغلب على النجديين، وإدارة البلاد
-وحكمها بقوته وبمقتضى مذهبه، وبلاد عسير تحول بين بلاده وبلاد <placeName change="#d2e120" xml:id="placeName_53.d2e3904">الحجاز</placeName> وهي
+تجهيز جيش قوي يمكنه الوصول إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_52.d2e3899" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> والتغلب على النجديين، وإدارة البلاد
+وحكمها بقوته وبمقتضى مذهبه، وبلاد عسير تحول بين بلاده وبلاد <placeName change="#d2e120 #d11e282" xml:id="placeName_53.d2e3904" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وهي
 معادية له وموالية لسلطان نجد وهو ما زال يستدل بهذا على موادته ومحاسنته للملك
 عبد العزيز آل سعود كما نوَّه بذلك في مكتوباته إلينا وإلى غيرنا.
 على أنه بلغنا أنه لما قرأ نبأ سقوط ملك علي بن الحسين واستيلاء عبد العزيز
@@ -1702,7 +1702,7 @@
 المدرسة منذ أيام فعارضه الدكتور أمين معلوف محتجًّا بأن المدرسة تابعة لحكومة
 غير دينية، فلا يجوز أن تُلْقَى فيها محاضرة في المدنية الإسلامية، فلم يلتفت
 الناظر إلى معارضته، فكلمني الدكتور محاولاً إقناعي بوجوب تركها فأقمت عليه
-الحجة، ومما أذكر من ردي عليه على تقدير التسليم له بأن حكومة <placeName change="#d2e120" xml:id="placeName_54.d2e3948">الشام</placeName> غير دينية
+الحجة، ومما أذكر من ردي عليه على تقدير التسليم له بأن حكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_54.d2e3948" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> غير دينية
 : أنه لا يوجد في الدنيا مدرسة علمية حقوقية تأبى أن يلقى فيها محاضرة علمية
 تاريخية في المدنية والتشريع الديني أو غيره، فكيف تأباه مدرسة أكثر طلابها
 ورجال حكومتها يدينون بهذا التشريع الإسلامي؟
@@ -1719,19 +1719,19 @@
 كلفني الأمير اليوم أن أكتب له بيانًا في صفة أو كيفية إبراز المسألة الوطنية
 الحاضرة (كذا) والأصول التي تبنى عليها.
 وذكر لي سبب اختيار الرجلين اللذين سيرسلهما بعد غد إلى مصر ومهمتهما
-فيها ثم إلى <placeName change="#d2e120" xml:id="placeName_55.d2e3988">مكة</placeName> يحملان كتبه إلى والده، ومنها أن يكون (أحدهما) فؤاد الخطيب
-بعيدًا عن <placeName change="#d2e120" xml:id="placeName_56.d2e3994">الشام</placeName> عند إعلان الاستقلال. <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_11.d2e3997">…</hi>
+فيها ثم إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_55.d2e3988" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> يحملان كتبه إلى والده، ومنها أن يكون (أحدهما) فؤاد الخطيب
+بعيدًا عن <placeName change="#d2e120 #d11e282" xml:id="placeName_56.d2e3994" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> عند إعلان الاستقلال. <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_11.d2e3997">…</hi>
                
 (أقول الآن: أعني بهذه النقط بأن الشيخ فؤاد أفندي الخطيب كان يطمع أن
-يكون ذا منصب كبير في حكومة <placeName change="#d2e120" xml:id="placeName_57.d2e4004">الشام</placeName> الجديدة بما يحمل من الوصية من الملك
+يكون ذا منصب كبير في حكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_57.d2e4004" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> الجديدة بما يحمل من الوصية من الملك
 حسين، والأميرُ فيصل لا يرغب في هذا، وهو يعلم أن حزب الاستقلال العربي لا
 يرغب فيه ولا يقره)
 وقد أعدت على الأمير النصيحة السابقة بوجوب ترك الاشتغال بالجزئيات
 والوظائف فأظهر لي الاقتناع. قال: ولكن تنفيذها يتوقف على وضع نظام له
 ووجود رجال من أولي الكفاية والثقة ينفذونه، فكان هذا الاعتذار كاعتذار والده من
-قبله حين نصحت له بمثل هذا في <placeName change="#d2e120" xml:id="placeName_58.d2e4020">مكة المكرمة</placeName>.
+قبله حين نصحت له بمثل هذا في <placeName change="#d2e120 #d11e282" xml:id="placeName_58.d2e4020" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName>.
 رأست في المساء جلسة الإخوان (أي أعضاء حزب الاستقلال العربي)
-فوافقنا على إرسال فؤاد الخطيب إلى <placeName change="#d2e120" xml:id="placeName_59.d2e4028">مكة</placeName>؛ لأنه لا يتوقع منه هنالك زيادة ضرر
+فوافقنا على إرسال فؤاد الخطيب إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_59.d2e4028" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>؛ لأنه لا يتوقع منه هنالك زيادة ضرر
 عما قد يعمله هنا (ومما حسبوه أن يفشي للإنكليز في مصر بعض أسرارهم، وأن
 يصور للملك حسين ما سيقومون به من الاستقلال بصورة تسوؤه أو لا ترضيه) .
 يوم الأحد 2 جمادى الآخرة (22 فبراير)
@@ -1753,7 +1753,7 @@
 حاول الإنكار فقلت له: لا تنكر فالسر مارك سايكس نفسه أخبر أصحاب
 المقطم وغيرهم بذلك، وعرف هذا وسمعه منهم رفيق بك العظم وآخرون كثيرون،
 ولأجل هذا وأمثاله أعطاك الإنكليز وسامًا بريطانيًّا <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_12.d2e4077">…</hi> دع ما كنت تأخذ منهم من
-الرواتب المالية من مالية السودان وغيرها وأنت في <placeName change="#d2e120" xml:id="placeName_60.d2e4082">مكة</placeName>. وذكرت إساءته بالوشاية
+الرواتب المالية من مالية السودان وغيرها وأنت في <placeName change="#d2e120 #d11e282" xml:id="placeName_60.d2e4082" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>. وذكرت إساءته بالوشاية
 عليَّ للملك حسين أيضًا، وأردت أن أمنعه من الاعتذار، وأكتفي منه بما يكفر عن
 ذلك في المستقبل فقال:
 لا بد أن أذكر لك الحقيقة في مسألة سايكس وبيكو، وحلف بالطلاق أنه
@@ -1765,7 +1765,7 @@
 ولست زعيمًا مثلك فأعارض وأقاوم (هذا ما كتبته وقد بسطه هو فاختصرته) .
 (أقول) سافر الشيخ فؤاد إلى مصر مع رفيقه (وقد نسيت اسمه لأنني لم
 أكتبه وليس ممن أعرفهم) يحملان كتاب الأمير فيصل إلى اللورد اللنبي، ثم سافر
-منها إلى <placeName change="#d2e120" xml:id="placeName_61.d2e4111">مكة</placeName>، وشرعنا بعد سفره نعقد الاجتماعات أنا وجماعة الحزب ووضع
+منها إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_61.d2e4111" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وشرعنا بعد سفره نعقد الاجتماعات أنا وجماعة الحزب ووضع
 الأسس لإعلان الاستقلال بعد جمع المؤتمر العام، فعقدناها في أماكن متفرقة كدور
 توفيق بك الناطور ورفيق بك التميمي وعلي رضا باشا الركابي وأرسلت الدعوة
 إلى جميع الأعضاء في سورية الشمالية والجنوبية (فلسطين) ولبنان وكنت مع
@@ -1774,7 +1774,7 @@
 بالمسألة السورية، ولم يكن قد سبق له تفكر فيها كما نقلت عنه.
 إلا أنني كنت مرتابًا في سياسته الباطنة في مسألة الاتفاق مع فرنسة وما يريده
 من تفويض الزعماء إياه في ذلك، واختيار وفد يسافر معه، فإنه لم يصرح برأيه
-فيها لأحد ممن كلمهم أمامي، وإنما أخبرني في <placeName change="#d2e120" xml:id="placeName_62.d2e4134">بيروت</placeName> أنه خيَّر من كانوا معه في
+فيها لأحد ممن كلمهم أمامي، وإنما أخبرني في <placeName change="#d2e120 #d11e282" xml:id="placeName_62.d2e4134" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> أنه خيَّر من كانوا معه في
 أوربة كما خير أصحابنا الثلاثة المعارضين له فيما ذكرته آنفًا وفاقًا لما رد به على
 خطبة الشيخ كامل في مظاهرة الجمعية الوطنية في المزة، وكنت أناقشه فيما أسمعه
 منه كلما خلوت به، ولم أكن على ثقة من كل ما أراه يقبله مني؛ لأنه لم يكن
@@ -1783,7 +1783,7 @@
 حذق السياسة، ويجاب عنه بوجوب التفرقة في أحاديث السياسة بين الأولياء
 والأعداء.
 وسأذكر في المجلد 34 ملخصًا من مذكراتي في ذلك كله، وأختمها بخلاصة
-مهمة في<head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_8.d2e4156"> العبرة بسيرة الملك فيصل </head>في <placeName change="#d2e120" xml:id="placeName_63.d2e4160">الشام</placeName> رحمه الله تعالى.
+مهمة في<head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_8.d2e4156"> العبرة بسيرة الملك فيصل </head>في <placeName change="#d2e120 #d11e282" xml:id="placeName_63.d2e4160" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> رحمه الله تعالى.
 ((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e120" xml:id="note_7.d2e4165"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_7.d2e4167">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_9.d2e4169" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>

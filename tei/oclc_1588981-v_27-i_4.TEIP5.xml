@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_27-i_4.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_27-i_4.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e276">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_27-i_4.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_27-i_4.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1344">1344</date><date calendar="#cal_gregorian" when="1926" xml:lang="ar">يوليو - 1926م</date></imprint>
                   <biblScope unit="volume" from="27" to="27" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">27</biblScope>
                   <biblScope unit="issue" from="4" to="4" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">4</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e276" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -640,7 +640,7 @@
 بالآيات الكريمة والأعمال النبوية والأبيات الشعرية وإذا ذكر اسم النبي صلى الله
 عليه وسلم قرنه بالصلاة والتسليم ولو تكرر ذلك عدة مرات.
 بدأ جلالة الملك حديثه بإظهار ارتياحه لاتجاه أفكار المسلمين إلى إيجاد رابطة
-تربطهم، وأنه قد سر كل السرور من اجتماع الوفود في <placeName change="#d2e120" xml:id="placeName_4.d2e1476">مكة المكرمة</placeName>، ومن
+تربطهم، وأنه قد سر كل السرور من اجتماع الوفود في <placeName change="#d2e120 #d11e276" xml:id="placeName_4.d2e1476" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName>، ومن
 التعرف بهم، ثم انتقل إلى الكلام في شئون الدين فقال: إن أساس سعادة المسلمين
 قائمة على التمسك بدينهم؛ لأن هذا الدين ضمن لهم سعادة الدارين والقرآن الكريم فيه
 كل ما يريده من يقصد الوصول إلى السعادة، فهو قد حثنا على التعليم وحثنا على
@@ -658,15 +658,15 @@
 منذ زمن بعيد عن وسيلة لتوثيق رابطتهم فلمّا ظهرت فكرة المؤتمر الإسلامي ارتاح
 لها زعماء المسلمين وهرعوا لتنفيذها، ولما كان جلالته هو صاحب تلك الفكرة
 والداعي إلى تحقيقها فهو جدير بشكر العالم الإسلامي. والذي نرجوه الآن هو أن
-يكون المؤتمر هو الطريق العملي <placeName change="#d2e120" xml:id="placeName_5.d2e1519">الموصل</placeName> لما ينشده كل مسلم في جميع أنحاء العالم
+يكون المؤتمر هو الطريق العملي <placeName change="#d2e120 #d11e276" xml:id="placeName_5.d2e1519" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> لما ينشده كل مسلم في جميع أنحاء العالم
 في رفعة شأن المسلمين وإصلاح أمورهم وتوطيد كلمتهم وتسهيل طرق الحج
-وتنظيم شؤونه والنهوض ب<placeName change="#d2e120" xml:id="placeName_6.d2e1526">الحجاز</placeName> والأراضي المقدسة.
+وتنظيم شؤونه والنهوض ب<placeName change="#d2e120 #d11e276" xml:id="placeName_6.d2e1526" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> والأراضي المقدسة.
 فأجابنا جلالته بأن هذه هي أمنيته. ثم أردف ذلك بقوله: إننا ما حضرنا إلى
 هذه البلاد تحت تأثير مطامع ذاتية أو تعلقًا بالملك والملكية وإنما جئنا لننقذ حرم الله
-المقدس من الأذى الذي لحقه ولحق أهله. إن في <placeName change="#d2e120" xml:id="placeName_7.d2e1536">الحجاز</placeName> ثلاثة أقسام من الناس،
+المقدس من الأذى الذي لحقه ولحق أهله. إن في <placeName change="#d2e120 #d11e276" xml:id="placeName_7.d2e1536" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ثلاثة أقسام من الناس،
 فقسم ينتسب إليه دون أن يكون من أهله، وقسم من أبنائه ولكنهم يفسدون أمره وهم
 الأمراء والبادية، وقسم آخر يريدون الخير له ولكنهم لا يستطيعون إلى ذلك سبيلاً.
-ولقد جئنا لنعمل لخير <placeName change="#d2e120" xml:id="placeName_8.d2e1545">الحجاز</placeName> والحجازيين، ونحن قد جعلنا نفسنا فداء للإسلام
+ولقد جئنا لنعمل لخير <placeName change="#d2e120 #d11e276" xml:id="placeName_8.d2e1545" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> والحجازيين، ونحن قد جعلنا نفسنا فداء للإسلام
 والمسلمين ننزل عن كل شيء مما نملكه ولكننا لا نسلم في شيئين مطلقًا (الأول)
 كتاب الله وسنة رسوله صلى الله عليه وسلم فنحن نعض عليهما بالنواجذ. (الثاني)
 شرف عربيتنا فنحن نتمسك به ونذود عنه لأنه أساس نجدنا وسر حياتنا.
@@ -702,7 +702,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_19.d2e1616"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_20.d2e1618"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_21.d2e1620"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_22.d2e1622"/> <placeName change="#d2e120" xml:id="placeName_9.d2e1624">مكة المكرمة</placeName> في 2 ذي الحجة (13 يونيه) <note type="footnote" place="bottom" change="#d2e120" xml:id="note_3.d2e1628"/>
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_22.d2e1622"/> <placeName change="#d2e120 #d11e276" xml:id="placeName_9.d2e1624" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> في 2 ذي الحجة (13 يونيه) <note type="footnote" place="bottom" change="#d2e120" xml:id="note_3.d2e1628"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_3.d2e1630">الكاتب: <persName change="#d2e141 #d2e120" xml:lang="ar" xml:id="persName_5.d2e1632">أمين الرافعي</persName>
          </byline></div>
             <pb n="n27-p275" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P3655.xhtml" change="#d2e120" xml:id="pb_9.d2e1636"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="275" xml:id="pb_10.d2e1638"/>
@@ -723,7 +723,7 @@
 الآراء تضاربت في هذا الموضوع تضاربًا كثيرًا، فرأيت أن أستقي الحقيقة من
 موردها الأصلي، فلم أجد سوى التحدث إلى رجل كبير من رجالهم، وعالم فاضل
 من علمائهم هو فضيلة الأستاذ الشيخ عبد الله بن بليهد شيخ الإسلام ورئيس القضاة
-في <placeName change="#d2e120" xml:id="placeName_10.d2e1668">مكة</placeName>.
+في <placeName change="#d2e120 #d11e276" xml:id="placeName_10.d2e1668" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>.
 عرفت فضيلته في المؤتمر الإسلامي فوجدت فيه عالمًا مُتقد الذكاء، واسع
 الاطلاع، صافي الذهن، يعرف كيف يحل المعضلات، ويوفق بين الآراء
 المختلفة ويقر الصلح محل الخصام. وقد بعثت لكم في رسالة سابقة موقفه من
@@ -810,7 +810,7 @@
 ***
 المرأة والحجاب
 وهنا كان الحديث قد انتهى فاستطرد فضيلة محدثنا من ذلك إلى إطلاعنا على
-أسئلة وردت عليه من <placeName change="#d2e120" xml:id="placeName_11.d2e1860">بيروت</placeName> ليجيب عنها، وكان منها سؤال خاص بالمرأة وحجابها
+أسئلة وردت عليه من <placeName change="#d2e120 #d11e276" xml:id="placeName_11.d2e1860" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> ليجيب عنها، وكان منها سؤال خاص بالمرأة وحجابها
 فطلبنا إليه أن ننقل السؤال والجواب عليه؛ لأنه يتعلق بمسألة هي مثار الجدل في
 مصر، وهذا ملخص السؤال.
 ما رأيكم في رفع الحجاب وكشف المرأة وجهها وكفيها في الطرقات
@@ -824,13 +824,13 @@
 أقواله فأذن لنا بعد اطلاعه عليها.
 ***
 حاشية
-قد يصادف الإنسان في <placeName change="#d2e120" xml:id="placeName_12.d2e1894">مكة</placeName> بعض النجديين المتعصبين فيرى منهم عجبًا، فمن
+قد يصادف الإنسان في <placeName change="#d2e120 #d11e276" xml:id="placeName_12.d2e1894" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> بعض النجديين المتعصبين فيرى منهم عجبًا، فمن
 ذلك أنني تقابلت مع أحدهم قبل مقابلة الأستاذ الشيخ عبد الله بن بليهد فأردت أن
 أتحدث معه في موضوع العقيدة الدينية للنجديين، ووجهت إليه سؤالاً في هذا الصدد
 فأجاب بنفور:
 (لا نعبد إلا الله ولا نشرك به شيئًا. فقلت إن السؤال يستوجب بيانًا،
 فأجابني بهذا الجواب الغريب: إني رجل جاهل لا أعرف شيئًا) .
-ثم أراد أن يهاجمني بعد ذلك فقال لي (هل أنت أجنبي عن <placeName change="#d2e120" xml:id="placeName_13.d2e1910">مكة</placeName>؟ أجبت نعم،
+ثم أراد أن يهاجمني بعد ذلك فقال لي (هل أنت أجنبي عن <placeName change="#d2e120 #d11e276" xml:id="placeName_13.d2e1910" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>؟ أجبت نعم،
 فقال: لماذا تحلق ذقنك ولا ترسلها؟ أجبته هذه مسألة تعنيني وليس هذا موضوع
 الحديث) .
 ثم استأنفت سؤاله وقلت له: (وماذا ترون في التوسل بالنبي عليه الصلاة
@@ -1044,7 +1044,7 @@
 فقال حضرة صاحب الفضيلة الأستاذ الشيخ حسين والي: إننا لم نأذن لأحد
 من مكاتبي الصحف أن يحضر.
 وقال حضرة صاحب الفضيلة الأستاذ الشيخ عبد الرحمن قراعة: جرى
-بالأمس كلام من فضيلة الأستاذ الشيخ محمد حبيب العبيدي مفتي <placeName change="#d2e120" xml:id="placeName_14.d2e2389">الموصل</placeName> بشأن
+بالأمس كلام من فضيلة الأستاذ الشيخ محمد حبيب العبيدي مفتي <placeName change="#d2e120 #d11e276" xml:id="placeName_14.d2e2389" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> بشأن
 النظام الداخلي هل للمؤتمر أن يعدله أو ينظر فيه؟ ودار كلام مني حول ذلك، ولم
 يثبت ذلك في المحضر.
 فقال حضرة صاحب الفضيلة السيد محمد علي الببلاوي: السكرتارية مؤتمنة
@@ -1162,11 +1162,11 @@
 احتجاج المؤتمر على الفظائع في سورية:
 وقال حضرة صاحب العزة جمال الحسيني بك: نريد أن نعرف الفرق بين
 البحث السياسي وغير السياسي نحن لا نريد أن نبحث شيئًا سياسيًّا هنا، لقد وردت
-علينا برقية عن حوادث <placeName change="#d2e120" xml:id="placeName_15.d2e2651">دمشق الشام</placeName>، وهي رابعة البلاد المقدسة، جاء فيها أن
+علينا برقية عن حوادث <placeName change="#d2e120 #d11e276" xml:id="placeName_15.d2e2651" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق الشام</placeName>، وهي رابعة البلاد المقدسة، جاء فيها أن
 مساجدها تهدم على رؤوس المصلين والمدرسين فيها. وهذا مؤتمر إسلامي عام
 أتعدون ذلك من المسائل السياسية أو الدينية؟
 وقال حضرة صاحب العزة وحيد بك الأيوبي: أنا موافق على أن يحتج
-المؤتمر على ما هو واقع في <placeName change="#d2e120" xml:id="placeName_16.d2e2663">دمشق</placeName> وإذا لم نحتج على هذا العمل يكون ذلك عارًا
+المؤتمر على ما هو واقع في <placeName change="#d2e120 #d11e276" xml:id="placeName_16.d2e2663" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> وإذا لم نحتج على هذا العمل يكون ذلك عارًا
 علينا. إن هؤلاء أرسلوا إلى المؤتمر يستنجدونه ويستصرخونه فيجب أن نلبي
 استصراخهم ونحتج بشدة على ما هو واقع، ليس على إخواننا المسلمين فقط بل على
 المسلمين وغيرهم.
@@ -1265,7 +1265,7 @@
 <p change="#d2e120" xml:id="p_2.d2e2863">
                
 بحث علمي ديني للأستاذ الشيخ محمد بهجة البيطار
-عضو المجمع العلمي ب<placeName change="#d2e120" xml:id="placeName_17.d2e2869">دمشق</placeName> والمؤتمر الإسلامي ب<placeName change="#d2e120" xml:id="placeName_18.d2e2872">مكة</placeName> المكرمة
+عضو المجمع العلمي ب<placeName change="#d2e120 #d11e276" xml:id="placeName_17.d2e2869" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> والمؤتمر الإسلامي ب<placeName change="#d2e120 #d11e276" xml:id="placeName_18.d2e2872" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المكرمة
 
                
 ما أشد حاجة الأمم التي تتخبط في ديجور الجهل، أو ترسف في قيود الذل،
@@ -1279,7 +1279,7 @@
 والأوضار، وأفضت بملكهم وعظمتهم إلى الزوال.
 تلوت كتاب (الموجز) في علم الاجتماع لمؤلفه العالم الضليع، والكاتب
 البليغ، عارف بك النكدي، أستاذ علم الاجتماع في معهد الحقوق وأحد أعضاء
-المجمع العلمي العربي في <placeName change="#d2e120" xml:id="placeName_19.d2e2904">دمشق</placeName> - فألفيته من أجود كتبنا العربية الحديثة، وكم يود
+المجمع العلمي العربي في <placeName change="#d2e120 #d11e276" xml:id="placeName_19.d2e2904" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> - فألفيته من أجود كتبنا العربية الحديثة، وكم يود
 الغيور على ملته أن يكون هذا العلم في جملة العلوم المتداولة يبن طلاب العلوم الدينية فإن مباحثه ليست بأدق من مباحث أصول الفقه التي يتلقونها ولا بأقل فائدة وعائدة
 منها، وإذا كان علم الأصول يتعلق باستنباط الأحكام الشرعية من أدلتها التفصيلية
 على قاعدة جلب المصالح للأمة ودرء المفاسد عنها، فإن علم الاجتماع
@@ -1534,7 +1534,7 @@
 وهل اتحدت عقلية الشرق والغرب ونفسيتهما فتكون ذرائع الإصلاح فيهما واحدة؟
 فقول (الموجز) : رأوا أن القود على إطلاقه وجرح الجارح وقطع السارق
 كان لها أيام وانفضت. أقول (فيه) إنها ما انقضت ولن تنقضي، ولا تزال الأمة
-التي تعمل بها كنجد و<placeName change="#d2e120" xml:id="placeName_20.d2e3459">اليمن</placeName> أسعد حظًّا وأهنأ عيشًا وأقل جرائم من غيرها، وسعادتهم
+التي تعمل بها كنجد و<placeName change="#d2e120 #d11e276" xml:id="placeName_20.d2e3459" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> أسعد حظًّا وأهنأ عيشًا وأقل جرائم من غيرها، وسعادتهم
 في بلادهم تنبني على أصلين (الأول) التربية الدينية التي هي أقرب
 مهذب للنفس وزاجر عن الشر (والثاني) اعتقاد أن كلاً مأخوذ بذنبه، وأن كل من
 يقوم على ما تحدثه به نفسه من قتل أو جرح ينفذ فيه مثله في الحال.
@@ -1623,8 +1623,8 @@
 وتباين نزعاتهم ومشاربهم فيفكروا في الطرق التي تعيد إليهم مجدهم وتحيي لهم
 شريعتهم وتعود عليهم بالخير في دينهم ودنياهم.
 ولقد كان أول مظهر من مظاهر هذا الإحساس ذلك المؤتمر الإسلامي الذي
-دعا إلى عقده ب<placeName change="#d2e120" xml:id="placeName_21.d2e3652">مكة المكرمة</placeName> المصلح الكبير ملك <placeName change="#d2e120" xml:id="placeName_22.d2e3656">الحجاز</placeName> عبد العزيز آل سعود
-لينظر فيما يتطلبه <placeName change="#d2e120" xml:id="placeName_23.d2e3661">الحجاز</placeName> من إصلاح وما يحتاج إليه من مساعدة.
+دعا إلى عقده ب<placeName change="#d2e120 #d11e276" xml:id="placeName_21.d2e3652" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> المصلح الكبير ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_22.d2e3656" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> عبد العزيز آل سعود
+لينظر فيما يتطلبه <placeName change="#d2e120 #d11e276" xml:id="placeName_23.d2e3661" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من إصلاح وما يحتاج إليه من مساعدة.
 وقد وفق الله شعوب المسلمين لإجابة دعوته فأرسلوا من الوفود من يمثلهم،
 ونظر المؤتمر في أمور (مهمة) وله قرارات ذات شأن خطير، ونرجو أن يكون
 فاتحة خير للحجاج خاصة ولشعوب المسلمين عامة، كما نرجو أن يوفق المفكرون
@@ -1658,12 +1658,12 @@
 رئيسها والداعي إليها الأستاذ محمد عبد الجبار الهندي، وسمعنا أن غرض هذه
 الجمعية الدفاع عن الإسلام ونشر تعاليمه وآدابه في العالم الأوروبي، وقد كتب إلينا
 بعض المسلمين المقيمين في برلين كتابًا يطعن فيه بهذه الجمعية طعنًا شديدًا ويحذرنا
-من وفد لها أرسلته إلى <placeName change="#d2e120" xml:id="placeName_24.d2e3733">الحجاز</placeName> وغيره من البلاد الإسلامية لبثّ دعوتها ثم قيل لنا: إن
+من وفد لها أرسلته إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_24.d2e3733" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وغيره من البلاد الإسلامية لبثّ دعوتها ثم قيل لنا: إن
 هذا الكاتب كان من أعضاء الجمعية وخرج أو أُخرج منها لخلاف شجر بينه وبين
 بعض مؤسسيها.
 ثم لم نلبث أن تلقينا في البريد صحائف منها مبدوءة بنداء عام منها موجه إلى
 جميع المسلمين شرحت فيه مبدأها وغايتها ووجه الحاجة إليها. يليه (حفلة مأتم)
-في إنكار العدوان على المسلمين في <placeName change="#d2e120" xml:id="placeName_25.d2e3747">الشام</placeName> وريف مراكش، وقد عقدت الجماعة لذلك
+في إنكار العدوان على المسلمين في <placeName change="#d2e120 #d11e276" xml:id="placeName_25.d2e3747" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وريف مراكش، وقد عقدت الجماعة لذلك
 احتفالاً حضره زهاء أربعمائة نسمة وألقيت فيه الخطب وختم بالدعوة إلى الجهاد في
 سبيل الله للنجاة من حكم الشيطان! ! - يليه خطاب عنوانه (صيحة الجهاد - الله
 أكبر) وموضوعه يعلم من عنوانه. يليه بلاغان نذكرهما بنصهما، ثم تعلق على
@@ -1702,7 +1702,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_64.d2e3826"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_65.d2e3828"/> حزب الله
 (طبع هذا النداء بالألمانية ووزع في حفلة المأتم الكبرى التي أقامتها الجماعة
-الإسلامية في برلين في 14 - 9 - 1296- 1925 لشهداء <placeName change="#d2e120" xml:id="placeName_26.d2e3834">بلاد الشام</placeName> والمغرب
+الإسلامية في برلين في 14 - 9 - 1296- 1925 لشهداء <placeName change="#d2e120 #d11e276" xml:id="placeName_26.d2e3834" ref="geon:6754242 oape:place:4" resp="#xslt">بلاد الشام</placeName> والمغرب
 الأقصى) .
 ***
 البلاغ الثاني
@@ -1712,7 +1712,7 @@
 بمناسبة المولد النبوي والحفلة التي أقامتها الجماعة الإسلامية في برلين
 في 12 ربيع الأول سنة 1344 - 1296
 إن حزب الله يناديكم أيها المسلمون بذكرى يوم 12 ربيع الأول سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1344" change="#d3e146 #d2e120" xml:id="date_8.d2e3857">1344</date>هـ
-(أشهر القبلة سنة <date calendar="#cal_gregorian" when="1296" change="#d3e146 #d2e120" xml:id="date_9.d2e3862">1296</date> من فتح <placeName change="#d2e120" xml:id="placeName_27.d2e3866">مكة</placeName>) ذلك اليوم المقدس الذي عمت الرحمة
+(أشهر القبلة سنة <date calendar="#cal_gregorian" when="1296" change="#d3e146 #d2e120" xml:id="date_9.d2e3862">1296</date> من فتح <placeName change="#d2e120 #d11e276" xml:id="placeName_27.d2e3866" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>) ذلك اليوم المقدس الذي عمت الرحمة
 فيه العالم بمولد محمد رسول الله صلى الله عليه وسلم، ويدعوكم أن تبذلوا جهدكم
 لتعميم هذه الرحمة مرة ثانية في العالم أجمع؛ لأن الله تعالى يقول:] وَجَاهِدُوا فِي
 اللَّهِ حَقَّ جِهَادِهِ هُوَ اجْتَبَاكُمْ [1 {وَمَا جَعَلَ عَلَيْكُمْ فِي الدِّينِ مِنْ حَرَجٍ مِّلَّةَ أَبِيكُمْ إِبْرَاهِيمَ
@@ -1741,7 +1741,7 @@
 يدعوها محمد عبد الجبار الهندي لقتال بريطانيا العظمى وفرنسا وإيطاليا وهولندا
 في وقت واحد (؟ ؟)
 قد سبق لي الاجتماع بالأخوين الهنديين محمد عبد الجبار مؤسس هذه الجمعية
-في برلين وأخيه عبد الستار في <placeName change="#d2e120" xml:id="placeName_28.d2e3932">بيروت</placeName> سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1326" change="#d3e146 #d2e120" xml:id="date_10.d2e3935">1326</date>هـ الموافق لسنة <date calendar="#cal_gregorian" when="1908" change="#d3e146 #d2e120" xml:id="date_11.d2e3938">1908</date>م
+في برلين وأخيه عبد الستار في <placeName change="#d2e120 #d11e276" xml:id="placeName_28.d2e3932" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1326" change="#d3e146 #d2e120" xml:id="date_10.d2e3935">1326</date>هـ الموافق لسنة <date calendar="#cal_gregorian" when="1908" change="#d3e146 #d2e120" xml:id="date_11.d2e3938">1908</date>م
 وجرى بيني وبين الأول مذاكرات في الإسلام والمسلمين كانت باعثًا لإعجابي
 باستقلال فكره وكبر همته وبعد آماله، ولاستغراب شذوذه في بعض المسائل
 الدينية وفهم بعض آيات القرآن، وللتفكر في عاقبة هذا الشذوذ، وما يلازمه من
@@ -1776,7 +1776,7 @@
 السواد الأعظم من اليهود والنصارى والمسلمين وأنه يوحى إليه، وادعاء خلفائه أن
 الوحي متسلسل فيهم، والنبوة موروثة عندهم، كادعاء بهاء الله البابي الفارسي
 للألوهية، وادعاء عبد الجبار الهندي الآن أنه سيقيم الخلافة الإسلامية وأنه سيقاتل
-الدول الاستعمارية الكبرى، ويخرجهم من أرض سوريا و<placeName change="#d2e120" xml:id="placeName_29.d2e4017">العراق</placeName> ومصر وتونس
+الدول الاستعمارية الكبرى، ويخرجهم من أرض سوريا و<placeName change="#d2e120 #d11e276" xml:id="placeName_29.d2e4017" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ومصر وتونس
 والجزائر ومراكش وجاوه والهند والصين، ولا يتصور ذو عقل ورشد دخول
 هذه الدعوى في قدرة هذه الجمعية البرلينية، أو أية جمعية سياسية، وإنما الذي
 يتبادر إلى الذهن أن غرض الجمعية جمع المال وابتغاء الثروة الواسعة.
@@ -1800,7 +1800,7 @@
                
 نشرت إدارة المنار في الجزء الثالث الذي قبل هذا الجزء ما كتبه شيخ
 الإسلام ابن تيمية في مسألة شروط أمير المؤمنين عمر بن الخطاب رضي الله عنه
-على أهل الذمة في <placeName change="#d2e120" xml:id="placeName_30.d2e4061">الشام</placeName>، وكنت في إبان طبع هذا الجزء في <placeName change="#d2e120" xml:id="placeName_31.d2e4064">مكة</placeName>، ولم تكن هذه
+على أهل الذمة في <placeName change="#d2e120 #d11e276" xml:id="placeName_30.d2e4061" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، وكنت في إبان طبع هذا الجزء في <placeName change="#d2e120 #d11e276" xml:id="placeName_31.d2e4064" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، ولم تكن هذه
 الشروط مما أريد نشره في المنار من آثار شيخ الإسلام رحمه الله تعالى، وإنما
 أتحرى نشر رسائله وفتاواه التي يحتاج إليها المسلمون في هذا العصر للاهتداء بها،
 والعمل بما يحققه من أحكام الشرع في النوازل والأحوال الواقعة التي جاء فيها بما
@@ -1858,7 +1858,7 @@
 
                
 تقدم في حديث أمين بك الرافعي مع الشيخ عبد الله بن بليهد رئيس القضاة
-ب<placeName change="#d2e120" xml:id="placeName_32.d2e4183">مكة المكرمة</placeName> قول هذا: أن النجديين يعتقدون أن جميع العبادات التي تُهدى إلى
+ب<placeName change="#d2e120 #d11e276" xml:id="placeName_32.d2e4183" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> قول هذا: أن النجديين يعتقدون أن جميع العبادات التي تُهدى إلى
 الموتى تصل إليهم يعني ثوابها. وهذه المسألة خلافيَّة بين علماء الحنابلة وغيرهم
 من فقهاء المذاهب وأهل الحديث المستقلين، ووصول الثواب أو العمل أو انتفاع
 الإنسان بعمل غيره خلاف نص قوله تعالى {وَأَن لَّيْسَ لِلإِنسَانِ إِلاَّ مَا سَعَى} (النجم: 39) وخلاف القياس المعقول، وقد يخصص بما ورد في السنة من استثناء
@@ -1980,11 +1980,11 @@
 التجديد آداب أمتهم ولغتها، كما يهدمون تشريعها ودينها ليكونوا كإباحيي الفرنج
 وإنْ فقدوا بذلك كل ما يفخر به الإفرنج من آداب لغاتهم وتشريعهم ودينهم! !
 ***
-(الأدب العصري في <placeName change="#d2e120" xml:id="placeName_33.d2e4450">العراق</placeName>)
-كتاب تاريخي أدبي انتقادي، يحتوي تراجم أدباء <placeName change="#d2e120" xml:id="placeName_34.d2e4455">العراق</placeName> ورسومهم ونخبة من
+(الأدب العصري في <placeName change="#d2e120 #d11e276" xml:id="placeName_33.d2e4450" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>)
+كتاب تاريخي أدبي انتقادي، يحتوي تراجم أدباء <placeName change="#d2e120 #d11e276" xml:id="placeName_34.d2e4455" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ورسومهم ونخبة من
 آثارهم بين منثور ومنظوم.
 مؤلف الكتاب (رفائيل بطي) وناشره (نعمان الأعظمي) صاحب المكتبة
-العربية ب<placeName change="#d2e120" xml:id="placeName_35.d2e4465">بغداد</placeName>، وكلاهما من أدبائها، وقد طبع الجزء الأول منه في المطبعة
+العربية ب<placeName change="#d2e120 #d11e276" xml:id="placeName_35.d2e4465" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>، وكلاهما من أدبائها، وقد طبع الجزء الأول منه في المطبعة
 السلفية بمصر سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1341" change="#d3e146 #d2e120" xml:id="date_15.d2e4470">1341</date> هـ ثم لم نر ما بعده، وفي قسم المنظوم، وهذا الكلام
 على شعر سبعة من أشهر شعرائهم المعاصرين مع تراجم ستة منهم وهم جميل
 صدقي الزهاوي، وخيري الهنداوي، ورضا الشبيبي، وعبد المحسن الكاظمي،

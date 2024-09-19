@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_14-i_12.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_14-i_12.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e315">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_14-i_12.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_14-i_12.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e304" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e315" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e315" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e315" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1329">1329</date><date calendar="#cal_gregorian" when="1911" xml:lang="ar">نوفمبر - 1911م</date></imprint>
                   <biblScope unit="volume" from="14" to="14" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">14</biblScope>
                   <biblScope unit="issue" from="12" to="12" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">12</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e309" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e315" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e309" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e181">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e184">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e190">
                <item change="#d2e120" xml:id="item_1.d2e192">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e194">num</gi> node </item>
@@ -715,12 +715,12 @@
 روى مسلم في صحيحه عن أسير بن جابر أن أهل الكوفة وفدوا إلى عمر
 وفيهم رجل ممن كان يسخر بأويس، فقال عمر: هل ههنا أحد من القرنيين؟
 فجاء ذلك الرجل فقال عمر: إن رسول الله صلى الله عليه وسلم قد قال:
-(إن رجلاً يأتيكم من <placeName change="#d2e120" xml:id="placeName_4.d2e1685">اليمن</placeName> يقال له أويس لا يدع ب<placeName change="#d2e120" xml:id="placeName_5.d2e1688">اليمن</placeName> غير أُمٍّ له قد كان به
+(إن رجلاً يأتيكم من <placeName change="#d2e120 #d11e315" xml:id="placeName_4.d2e1685" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> يقال له أويس لا يدع ب<placeName change="#d2e120 #d11e315" xml:id="placeName_5.d2e1688" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> غير أُمٍّ له قد كان به
 بياض؛ أي بَرَصٌ فدعا الله فأذهبه عنه إلا موضع الدينار أو الدرهم فمن
 لقيه منكم فليستغفر لكم) وروى أيضًا عنه عن عمر أنه قال: إني سمعت
 رسول الله صلى الله عليه وسلم يقول: (إن خير التابعين رجل يقال له
 أويس له والدة وكان به بياض فمروه فليستغفر لكم) ؛ وروى عنه أيضًا قال:
-كان عمر إذا أتى عليه أمداد أهل <placeName change="#d2e120" xml:id="placeName_6.d2e1702">اليمن</placeName> سألهم: أفيكم أويس بن عامر
+كان عمر إذا أتى عليه أمداد أهل <placeName change="#d2e120 #d11e315" xml:id="placeName_6.d2e1702" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> سألهم: أفيكم أويس بن عامر
 حتى أتى على أويس فقال له: أنت أويس بن عامر؟ قال: نعم. قال: من
 مراد ثم من قرن؟ قال: نعم. قال: فكان بك برص فبرئت منه إلا موضع
 درهم؟ قال: نعم. قال: لك والدة؟ قال: نعم. قال: سمعت رسول الله صلى
@@ -828,7 +828,7 @@
 الأفراد أمتهم على غيرها.
 * * *
 (تمثيل الوقائع التاريخية والخيالية للاعتبار)
-س65: من صاحب الإمضاء الحرفي في <placeName change="#d2e120" xml:id="placeName_7.d2e1944">دمشق الشام</placeName>.
+س65: من صاحب الإمضاء الحرفي في <placeName change="#d2e120 #d11e315" xml:id="placeName_7.d2e1944" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق الشام</placeName>.
 سيدي الأستاذ صاحب المنار الأغر.
 ما رأي الأستاذ حفظه الله في تمثيل الروايات الأخلاقية التي لا
 يشوبها من ضروب الخلاعة، أو من ظهور النساء حاسرات على
@@ -841,14 +841,14 @@
 باسم الشريعة، ورميها بسهام غير سديدة، هدانا الله بمناركم الوضَّاح إلى
 أقوم طريق. (ع..)
 ج: جاءنا مثل هذا السؤال أيضًا من دمشقي آخر أشار إلى اسمه
-بحرفي م. ن، وجاء في سؤاله أن للسؤال واقعة حال في <placeName change="#d2e120" xml:id="placeName_8.d2e1976">دمشق</placeName>، وهي
-أن تلاميذ المدرسة العثمانية ب<placeName change="#d2e120" xml:id="placeName_9.d2e1981">دمشق</placeName> مثلوا قصة زهير الأندلسي التي تشرح
+بحرفي م. ن، وجاء في سؤاله أن للسؤال واقعة حال في <placeName change="#d2e120 #d11e315" xml:id="placeName_8.d2e1976" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، وهي
+أن تلاميذ المدرسة العثمانية ب<placeName change="#d2e120 #d11e315" xml:id="placeName_9.d2e1981" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> مثلوا قصة زهير الأندلسي التي تشرح
 كيفية انقراض المسلمين من الأندلس فقام بعض الحشوية من طلاب الشهرة
 وأصحاب الدعوى يشنعون على المدرسة ويكفرون تلاميذها ومعلميها
 ويزعمون أنهم حاولوا هدم الإسلام بتذكير المسلمين بأسباب انقراض
 المسلمين من مملكة إسلامية كانت زينة ممالك الأرض بالعلوم والفنون
 والآداب، وخطبوا بذلك على المنابر في رمضان فصدق فيهم قول من قال:
-إن لمتعصبي <placeName change="#d2e120" xml:id="placeName_10.d2e1997">دمشق</placeName> في كل رمضان ثورة.
+إن لمتعصبي <placeName change="#d2e120 #d11e315" xml:id="placeName_10.d2e1997" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> في كل رمضان ثورة.
 أشار السائل الذي نشرنا نص سؤاله إلى ما صرح به السائل الآخر
 من احتجاج محرمي التمثيل على تحريمه بأنه يتضمن الغيبة وقال هذا
 المصرح: إن بعضهم حرّم قراءة الجرائد والمجلات بمثل هذا الدليل.
@@ -906,7 +906,7 @@
 موضوعة، ولم يقل أحد إن ذلك يقتضي تحريم تأليف تلك الكتب وقراءتها
 وطبعها، وفي كتب الحديث طعن في الرجال فهل نحرم علم أصول
 الحديث؟ إلا أنه ليحزننا أن يكون لأمثال هؤلاء المفتاتين المتنطعين كلمة تسمع
-في مدينة <placeName change="#d2e120" xml:id="placeName_11.d2e2126">دمشق</placeName> الفيحاء التي هي أجدر البلاد بأن تكون ينبوعًا لحياة
+في مدينة <placeName change="#d2e120 #d11e315" xml:id="placeName_11.d2e2126" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> الفيحاء التي هي أجدر البلاد بأن تكون ينبوعًا لحياة
 الدين والعلم والارتقاء في سورية وجزيرة العرب كلها، وما آفتها إلا نفر من
 المتنطعين قد جعلوا الدين عقبة في طريق الارتقاء العلمي والعملي،
 فنسأل الله تعالى أن يلهمهم الرشد، ويهديهم طريق القصد، أو أن يبصر
@@ -914,7 +914,7 @@
 ناعق منهم.
 * * *
 (خطبة الجمعة بالعربية والعجمية)
-س66 من صاحب الإمضاء في <placeName change="#d2e120" xml:id="placeName_12.d2e2147">مكة المكرمة</placeName>.
+س66 من صاحب الإمضاء في <placeName change="#d2e120 #d11e315" xml:id="placeName_12.d2e2147" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName>.
 الحمد لله الذي جعل السؤال متوسلاً لمزيل الإشكال، والصلاة
 والسلام على النبي ذي الجمال، وعلى آله وصحبه ذوي الكمال، أما بعد،
 فما قولكم دام فضلكم في أداء بعض خطبة الجمعة بالعربية وبعضها بالعجمية؛
@@ -968,7 +968,7 @@
 * * *
 الموالاة وتعاون المسلمين مع غيرهم
 واستعانتهم بهم على الخير
-س67: من صاحب الإمضاء في <placeName change="#d2e120" xml:id="placeName_13.d2e2267">دمشق الشام</placeName> صاحب سؤال 34
+س67: من صاحب الإمضاء في <placeName change="#d2e120 #d11e315" xml:id="placeName_13.d2e2267" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق الشام</placeName> صاحب سؤال 34
 و35 في ص 429.
 حضرة مدير <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_6.d2e2274">المنار</title></bibl> الأجل
 نشكركم على بيانكم للأحكام المتعلقة بمسألة دخول المسلم في جمعية
@@ -1038,7 +1038,7 @@
 (2)
 (ما يجب على المسلمين والعثمانيين من مساعدة الدولة)
 صفة العناصر العثمانية ومكانة السلطة الإسلامية من أهلها
-عدوان إيطالية على <placeName change="#d2e120" xml:id="placeName_14.d2e2416">الدولة العثمانية</placeName> هو فتح لباب المسألة الشرقية، دفعت إليه
+عدوان إيطالية على <placeName change="#d2e120 #d11e315" xml:id="placeName_14.d2e2416" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> هو فتح لباب المسألة الشرقية، دفعت إليه
 أوربة أشد دولها حماقة وغرورًا وأقلها بصرًا بالعواقب، وإن فرنسة وإنكلترة لا
 يطيب لهما مجاورة إيطالية لتونس ومصر لولا الضرورة، وهما تعلمان أن
 طرابلس الغرب لا تكون لقمة سائغة لها كما ساغت حماية تونس للأولى واحتلال
@@ -1051,7 +1051,7 @@
 أولئك الأحداث الأغرار من هضم حقوق عناصرهم، واضطهاد لغاتهم، عرض
 يزول بزوالهم، أو زوال سلطتهم المؤقتة، فلا ينبغي أن تؤاخذ الدولة بذنب تلك
 الزعنفة التي قذفتنا بها سلانيك وأزمير وأدرنه؛ بل يجب أن يعلم كل عنصر،
-وأهل كل ملة أنه لا توجد دولة أوربية تعاملهم بمثل ما تعاملهم به <placeName change="#d2e120" xml:id="placeName_15.d2e2447">الدولة العثمانية</placeName>،
+وأهل كل ملة أنه لا توجد دولة أوربية تعاملهم بمثل ما تعاملهم به <placeName change="#d2e120 #d11e315" xml:id="placeName_15.d2e2447" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>،
 وتعطيهم من الحقوق مثل ما تعطيهم هي، فإن الأوربيين قد تألَّهوا بالعظمة
 والكبرياء، فهم يرون أنفسهم آلهة للشرقيين، وإن شاركوهم في الدين، فعلى من لم
 يعم التعصب الديني قلبه، ولم تفسد الوساوس الأجنبية لبه، أن يفكر بخطر
@@ -1063,7 +1063,7 @@
 يعتزون بعزتها ويذلون بذلتها حماها اللهُ تعالى.
 الدين الإسلامي دين سلطة وحاكمية، وهذه الصفة من صفاته تكاد
 تكون أرسخ من عقيدة التوحيد في نفوس أهله، والمسلمون في مشارق
-الأرض ومغاربها يعتقدون أن <placeName change="#d2e120" xml:id="placeName_16.d2e2476">الدولة العثمانية</placeName> هي التي تقوم بها هذه الصفة،
+الأرض ومغاربها يعتقدون أن <placeName change="#d2e120 #d11e315" xml:id="placeName_16.d2e2476" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> هي التي تقوم بها هذه الصفة،
 وهي سياج عقائد الإسلام وعباداته، وأن ما عرض لها من التقصير في
 خدمة الإسلام باستبداد بعض السلاطين وفساد دين بعض الباشوات، أو
 بضغط أوربة، هو من الأعراض التي لا تلبث أن تزول بزوال أسبابها ما
@@ -1071,7 +1071,7 @@
 هذا الاعتقاد سار في جميع الشعوب الإسلامية سريان الدين في
 مداركهم وشعورهم، ولبعض همج أفريقية وجزائر المحيط الجنوبي من
 الغلو في هذه الدولة وفي سلطانها ما يدخل في باب الخرافات، حتى إن في
-البرابرة المقيمين في <placeName change="#d2e120" xml:id="placeName_17.d2e2497">القاهرة</placeName> من يعتقدون أن السلطان هو الحافظ لهم في
+البرابرة المقيمين في <placeName change="#d2e120 #d11e315" xml:id="placeName_17.d2e2497" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> من يعتقدون أن السلطان هو الحافظ لهم في
 بلادهم، وهو الذي منع العرابيين وغير العرابيين من الاعتداء عليهم.
 هذا الاعتقاد الذي تجهل الدولة كنهه فلم تعرف كيف تستفيد منه قد
 أفاد دول الاستعمار، ومهد لها سبيل الاستيلاء على الممالك الإسلامية
@@ -1107,7 +1107,7 @@
 وشدة نفورهم من الحاكم الأجنبي عنهم، فهي لذلك تخادعهم بنصب أشباح
 منهم تجعلهم آلات للحكم عليهم والتصرف بهم، حتى إن إيطالية التي هي
 أشد دولها غرارة وغرورًا، وأقلهن علمًا وتجربةً، تبحث عن أمير مسلم
-تجعله تمثالاً تحكم <placeName change="#d2e120" xml:id="placeName_18.d2e2578">طرابلس الغرب</placeName> باسمه، ولولا أن أوربة تعلم كنه شعور
+تجعله تمثالاً تحكم <placeName change="#d2e120 #d11e315" xml:id="placeName_18.d2e2578" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> باسمه، ولولا أن أوربة تعلم كنه شعور
 المسلمين بالحرص على السلطة الإسلامية، لما أطلقت على ذلك لفظ
 التعصب الديني وجعلت هذا اللقب مثار البغي والعدوان، والخطر على
 نوع الإنسان، تنفر المسلمين منه، وتهددهم بالعقاب عليه، ولكن هل
@@ -1164,12 +1164,12 @@
 عليهم مسالك الحرية الشخصية، وإن كنَّا في مقامٍ نشكو فيه من إقرارها
 لإيطالية على عدوانها الوحشي.
 للدولة على المصريين حق الأخوة الإسلامية، وحق السيادة السياسية،
-ولولاية <placeName change="#d2e120" xml:id="placeName_19.d2e2705">طرابلس</placeName> عليهم حق ثالث وهو حق الجوار، فيجب أن يكونوا هم
+ولولاية <placeName change="#d2e120 #d11e315" xml:id="placeName_19.d2e2705" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> عليهم حق ثالث وهو حق الجوار، فيجب أن يكونوا هم
 السابقين إلى كل أنواع المساعدات الممكنة، وهم أهلٌ لذلك، فلا يألون
 جهدًا، ولا يدخرون وسعًا، وقد رأينا الاضطراب ظاهرًا على عوامهم
 وخواصهم، والغيرة شاملة لجميع طبقاتهم، ويليهم مسلمو تونس فالواجب
 عليهم أن يرفعوا أصواتهم، ويمدوا سواعدهم، ويكذبوا هانوتو في زعمه
-أن فرنسة قد فصلت ولاية تونس من <placeName change="#d2e120" xml:id="placeName_20.d2e2719">مكة</placeName>، أي بترت هذا العضو من جسم
+أن فرنسة قد فصلت ولاية تونس من <placeName change="#d2e120 #d11e315" xml:id="placeName_20.d2e2719" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، أي بترت هذا العضو من جسم
 الملة الإسلامية، هذه فرصة يجب أن يغتنموها هم وأهل الجزئر ليظهروا
 للعالم الإسلامي كنه صدق فرنسة في قولها إنها بدأت تغير سياستها في
 معاملة المسلمين، تغيير تساهل وتحسين، وليعلموا أن الجبن والإحجام في هذا الوقت
@@ -1234,7 +1234,7 @@
 تركيا، وأن تدفع للدولة دريهمات تسميها ثمنا أو أجرة أو خراجا لتلك
 المملكة الإسلامية العثمانية ليسخط العثمانيون والمسلمون على الدولة
 وييأسوا منها.
-إن أخذ إيطالية لطرابلس بالقوة <placeName change="#d2e120" xml:id="placeName_21.d2e2863">القاهرة</placeName> لبعدها عن مركز قوتنا أشرف
+إن أخذ إيطالية لطرابلس بالقوة <placeName change="#d2e120 #d11e315" xml:id="placeName_21.d2e2863" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> لبعدها عن مركز قوتنا أشرف
 للدولة وأنفع للأمة من أخذها بثمن بخس، وكل ما تباع به الأوطان فهو
 بخس، وفيه من الخسة والضرر لإيطالية بقدر ما فيه من الشرف والفائدة
 لنا.
@@ -1250,7 +1250,7 @@
 المتفرنجين المارقين الذين نفثوا سموم العصبية الجنسية الجاهلية فيها،
 يميلون إلى بيع أوربة بعض الولايات العربية التي في أطراف المملكة
 كطرابلس وجنوب بلاد العرب لأجل أن يرقوا بثمنها ولايات الرومللي
-و<placeName change="#d2e120" xml:id="placeName_22.d2e2900">الأناضول</placeName>، وما يتصل بها من البلاد الخصبة ويجعلوها مركز قوة الدولة،
+و<placeName change="#d2e120 #d11e315" xml:id="placeName_22.d2e2900" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>، وما يتصل بها من البلاد الخصبة ويجعلوها مركز قوة الدولة،
 فتكون لهم دولة صغيرة قوية كدول أوربة في كل شيء، لكن بشرط أن
 يكون ذلك في غمرة من الحوادث يظهرون للأمة فيها أن الدولة فعلت ذلك
 مضطرة لا مختارة، وأنها افتدت رأس الدولة وقلبها ببعض أصابع من
@@ -1258,14 +1258,14 @@
 قد اضطررت إلى بيان هذه المسألة الآن اضطرارًا لنفطن لها الأمة
 فتقطع الطريق على وساوس شياطينها، ولا شكَّ أن السواد الأعظم من
 الأمة العثمانية يسفه أولئك الزعانف من الأفراد المتفرنجين المارقين،
-الذين يقال: إن من آثارهم ترك تحصين <placeName change="#d2e120" xml:id="placeName_23.d2e2921">طرابلس الغرب</placeName>، فيرجى أن لا
+الذين يقال: إن من آثارهم ترك تحصين <placeName change="#d2e120 #d11e315" xml:id="placeName_23.d2e2921" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName>، فيرجى أن لا
 تلدغ الأمة من جحرهم مرة أخرى.
 المسلمون أشجع الناس وأثبتهم في القتال، وقد بشرهم الرسول صلى
 الله عليه وسلم، بأنه لا يغلبون من قلة، وما خذلت دولتنا وغلبت في الحرب
 الروسية إلا بخيانة من بعض القواد والرؤساء، بعد أن نفث التفرنج
 فيهم سم الإلحاد، وجعل همهم من حياتهم التمتع باللذات والشهوات، ولعل إيطالية
 ما جمحت إلى هذا العدوان إلا اتكالاً على أفراد من هذا الصنف الممقوت
-الذي يهون عليه إضاعة هذه المملكة (<placeName change="#d2e120" xml:id="placeName_24.d2e2939">طرابلس</placeName> وبرقة) لذلك الغرض
+الذي يهون عليه إضاعة هذه المملكة (<placeName change="#d2e120 #d11e315" xml:id="placeName_24.d2e2939" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> وبرقة) لذلك الغرض
 الوهمي.
 مولانا السلطان الأعظم وأعضاء أسرته الكريمة كلهم ينبذون رأي
 أولئك الزعانف المارقين إن ظهر، وسروات العنصر التركي المبارك
@@ -1291,7 +1291,7 @@
 سبيلاً، ولا يرضيها ذلك منهم لأجل أن يرتقوا ويعتزوا؛ بل يناديهم لسان
 حالها كل يوم ولسان مقالها في بعض الأوقات بهذا المثل (وجودك ذنب لا
 يقاس به ذنب) وهل يمكن أن يوجد نداء أفصح لهجة وأصرح صيحة من
-بتر <placeName change="#d2e120" xml:id="placeName_25.d2e2999">طرابلس الغرب</placeName> من جسم الدولة.
+بتر <placeName change="#d2e120 #d11e315" xml:id="placeName_25.d2e2999" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> من جسم الدولة.
 هؤلاء الذين أفسدت تعاليم أوربة علينا قلوبهم وأفكارهم، وجعلتهم
 عونًا لها على إزالة استقلالهم من حيث لا يشعر بذلك أكثرهم، يوجد
 أشباه لهم وأمثال في الهند ومصر وتونس والجزائر، يظن أكثرهم أن
@@ -1305,7 +1305,7 @@
 مجلس الأمة، ولتذكير الجميع بما يجب أن نأخذه عن أوربة وما يجب أن
 ندعه ونتقيه كما نتفي العقارب والثعابين وجراثيم الأمراض (وميكروبات)
 الأوبئة أو أشد اتقاء.
-كارثة <placeName change="#d2e120" xml:id="placeName_26.d2e3032">طرابلس الغرب</placeName> حجة قطعية محسوسة يشترك في إدراكها
+كارثة <placeName change="#d2e120 #d11e315" xml:id="placeName_26.d2e3032" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> حجة قطعية محسوسة يشترك في إدراكها
 السمع والبصر فلا يمكن أن يوجد في الحجج أقوى من دلالتها على حكم
 أوربة علينا بالإعدام، واتفاقها على قسمة تركتنا قبل الإجهاز علينا، فيجب
 أن يعرف هذا كل فرد من أفراد رجالنا ونسائنا وأولادنا.
@@ -1314,7 +1314,7 @@
 فيها فِتْنَةٌ اعْتُدِيَ فيها على بعض الأوربيين من أية أمة منهم، أو على
 النصارى منَّا، فإذا قدرنا على منع أسباب الفتن والتعدي وتلافي ما تحدثه
 الدسائس فيها فإننا نتقي بذلك تعدي أوربة علينا، ونجعل لأنفسنا فرصة بذلك
-نرقي بها أنفسنا. أبطلت كارثة <placeName change="#d2e120" xml:id="placeName_27.d2e3055">طرابلس الغرب</placeName> هذه الشبهة وقامت بها
+نرقي بها أنفسنا. أبطلت كارثة <placeName change="#d2e120 #d11e315" xml:id="placeName_27.d2e3055" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> هذه الشبهة وقامت بها
 الحجة على أن أوربة تغتصب بلادنا بمحض العدوان وكونها محتاجة إليها
 وأحق بها منا، فإرضاؤها عنا متعذر ما دمنا أحياء، وإننا نراها قد استعجلت علينا
 بعد أن أظهر لها بعض المتفرنجين منا فسقهم وإلحادهم، كما صرّحَتْ به
@@ -1334,13 +1334,13 @@
 والذي أراه أنه لا يمكن أن نموت ميتة شرًّا من أن نقطع قطعًا قطعًا
 كالشلو ونؤكل بالتدريج فيكون موتنا إماتة لشعور جميع المسلمين وإيئاسًا
 لهم من الحياة، فيجب إذًا أن تبذلَ الدولةُ والأمة كل طاقتها في صد إيطالية
-عن <placeName change="#d2e120" xml:id="placeName_28.d2e3101">طرابلس</placeName> وإن عَرَّضَتْ كل ما فيها للخراب وكل من فيها للقتل؛ ولأََِنْ
+عن <placeName change="#d2e120 #d11e315" xml:id="placeName_28.d2e3101" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> وإن عَرَّضَتْ كل ما فيها للخراب وكل من فيها للقتل؛ ولأََِنْ
 تَأخذها إيطالية أطلالاً دَارِسَةً ليس فيها أنيس، لا من البشر ولا من اليعافير
 والعيس، خير من أن تأخذها بقلاعها وحصونها ودورها وأهلها.
 وإذا أرادت أوربة بسبب مقاومتنا لإيطالية أن تقتسم بقية بلادنا فخير لنا أن
-نُعَرِّضَ جميع جيشنا وجميع أفراد أمتنا للقتل كما قلنا في إخواننا أهل <placeName change="#d2e120" xml:id="placeName_29.d2e3113">طرابلس</placeName>، وأن
+نُعَرِّضَ جميع جيشنا وجميع أفراد أمتنا للقتل كما قلنا في إخواننا أهل <placeName change="#d2e120 #d11e315" xml:id="placeName_29.d2e3113" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>، وأن
 نُعَرِّضَ جميع بلادنا للخراب، ولا ندعها غنيمة باردة لأوربة الباغية الطاغية، كما
-نعرض <placeName change="#d2e120" xml:id="placeName_30.d2e3121">طرابلس</placeName> لذلك.
+نعرض <placeName change="#d2e120 #d11e315" xml:id="placeName_30.d2e3121" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> لذلك.
 وإذا لم يكن من الموت بد <gap resp="#org_MS" change="#d2e120" xml:id="gap_41.d2e3126"/> فمن العجز أن تموتَ جبانًا
 إن تفعل ذلك أوربة وهو ما لا ترضاه لها شعوبها التي يوجد فيها
 الجماهير من المهذبين الذين يكرهون العدوان وسفك الدماء حقيقة لا رياء
@@ -1351,12 +1351,12 @@
 والمغرب الأقصى يكون سببًا قريبًا لحياة المسلمين والصينيين حياة قريبة
 وأن القوة الآلية القليل عمالها لا يدوم لها القهر للكثرة العديدة تنفق آحادها.
 أيتها القسطنطينية العظمى، اعلمي أنه يجب أن نحيا، وأنك أنت التي
-تحكمين اليوم بوجوب حياتنا إذا أبيت أن تبيعي <placeName change="#d2e120" xml:id="placeName_31.d2e3150">طرابلس</placeName> ولو بملء الأرض ذهبًا،
+تحكمين اليوم بوجوب حياتنا إذا أبيت أن تبيعي <placeName change="#d2e120 #d11e315" xml:id="placeName_31.d2e3150" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> ولو بملء الأرض ذهبًا،
 وجعلت الدم مع العزة والشرف، أرخص من الذهب مع الذل والهوان،
 يجب أن تختاري العز على الذل، وجميع قلوبِ المسلمين معك اليوم،
 وسيتبع ذلك أموالهم وأنفسهم.
 هذا إذا أقدمت أوربة على الخطر الأخير، وإن هي أحجمت عنه فلا
-تأسفي على <placeName change="#d2e120" xml:id="placeName_32.d2e3164">طرابلس</placeName> إذا ذهبت وبقي الشرف، ونمي الشعور بالحياة
+تأسفي على <placeName change="#d2e120 #d11e315" xml:id="placeName_32.d2e3164" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> إذا ذهبت وبقي الشرف، ونمي الشعور بالحياة
 الاستقلالية، فإنها لا تلبث أن تعود هي وغيرها، والواجب على الأمة
 العثمانية في حالة الإحجام، وحفظ كيان الدولة أن تبعد عن كراسي
 الوزارة والرياسة والقيادة والنيابة في مجلس الأمة جميع المارقين
@@ -1416,7 +1416,7 @@
 يسمعون تحاورَها في جدالها، ويكتبون بعضَ أخبارِها في جرائدهم،
 وتلوكها ألسنتهم في مجالسهم، ولا ينتقلون من كل جزئية منها إلى الأمر الكلي
 الحامل عليها وهو إزالة ما بقي من ملكهم، والاتفاق على قسمة سائر تراث
-أجدادهم، وهو ما يسمى بالمسألة الشرقية، فهم يعدون مسألة <placeName change="#d2e120" xml:id="placeName_33.d2e3297">طرابلس الغرب</placeName> مسألة
+أجدادهم، وهو ما يسمى بالمسألة الشرقية، فهم يعدون مسألة <placeName change="#d2e120 #d11e315" xml:id="placeName_33.d2e3297" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> مسألة
 جزئية سببها طمع إيطالية وغرورها، وإقدامها على نكث قتل المعاهدات ونسخ
 أصول حقوق الدول، وليس الذنب ذنب إيطالية وحدها، وإنَّما هو عمل أوربة كلها
 بدليل إقرارها إياها عليه، وعدم إجابة الدول نداء الدولة العلية إذ استصرختهن
@@ -1437,7 +1437,7 @@
 بشرط أن تعطيَها بدلاً عمَّا تستحقه فيها بمقتضى قاعدة المسألة الشرقية،
 وهي أن الدول العظمى هي الوارثة لجميع الممالك الشرقية التي تسقطها.
 لا يزال يرن في آذاننا صوت تلك الجرائد التي قامت اليوم تتعصب
-لإيطالية الباغية على <placeName change="#d2e120" xml:id="placeName_34.d2e3346">الدولة العثمانية</placeName> التي بغي عليها، كانت تقول: إنه لا حق
+لإيطالية الباغية على <placeName change="#d2e120 #d11e315" xml:id="placeName_34.d2e3346" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> التي بغي عليها، كانت تقول: إنه لا حق
 لمسلم في إظهار الشفقة على مملكة مراكش لأنها ليست وطنه فشفقته إذًا
 من التعصب الإسلامي المذموم ومن دلائل الميل إلى الجامعة الإسلامية
 الممقوتة، وأمَّا تعصب الجرائد الفرنسية والإنكليزية التي تصدر في بلادنا،
@@ -1447,7 +1447,7 @@
 المصريين ورميهم بالتعصب لاستنكارهم بغي إيطالية على دولتهم التي
 يخفق علمُها فوق رؤوسِهم، ويخطب باسم سلطانها على منابرهم،
 وعطفهم على إخوتهم في الدين والعثمانية واللغة، وجيرانهم المتصلين بهم
-في الوطن من أهل <placeName change="#d2e120" xml:id="placeName_35.d2e3371">طرابلس</placeName>، فمن المنكر العظيم في مدنية أوربة التي تلقي
+في الوطن من أهل <placeName change="#d2e120 #d11e315" xml:id="placeName_35.d2e3371" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>، فمن المنكر العظيم في مدنية أوربة التي تلقي
 دروسَها علينا هذه الجرائد أن نتألم لتدمير إيطالية لبلادنا، وسفكها لدماء
 إخواننا، وأن نستنكر همجيتها ووحشيتها ونهتم لتخفيف المصائب عن
 أولئك الجيران الذين لم يقترفوا ذنبًا تحكم به أوربة عليهم بهدم وطنهم على
@@ -1463,9 +1463,9 @@
 ليضربوا علينا الذلة والمسكنة إلى الأبد؟ يذبحوننا ويأكلوننا، ويمنُّون
 علينا بعد ذلك بأنهم يمدنوننا، لا كانت هذه المدنية ولا كان الراغبون فيها
 والناشرون لها.
-أراد رجل من المغرب الأقصى أن يُرْسِلَ ولدَه إلى <placeName change="#d2e120" xml:id="placeName_36.d2e3408">بيروت</placeName> لِيَتَعَلَّمَ فِيَها،
+أراد رجل من المغرب الأقصى أن يُرْسِلَ ولدَه إلى <placeName change="#d2e120 #d11e315" xml:id="placeName_36.d2e3408" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> لِيَتَعَلَّمَ فِيَها،
 قبل نزول البلاء عليها باحتلال فرنسة لها، فأنذره الفرنسيون سوءَ عاقبةِ
-تعليمِهِ في <placeName change="#d2e120" xml:id="placeName_37.d2e3416">بيروت</placeName> وقالوا له: إننا سنملك هذه البلاد فيحرم ولدك من كل
+تعليمِهِ في <placeName change="#d2e120 #d11e315" xml:id="placeName_37.d2e3416" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> وقالوا له: إننا سنملك هذه البلاد فيحرم ولدك من كل
 شيء فيها إذا لم تعلمه في مدارسنا، فقال: إن مدارسكم لا تعلمه لغته ولا
 دينه وهما أهم ما أريد أن أعلمه إياه، إنه لا يوجد أحدٌ من أهل المغرب
 الأقصى يأمن على ما يرسل إليه من خارجه في البريد الفرنسي؛ لأنه يعلم
@@ -1542,7 +1542,7 @@
 خطرًا كبيرًا فيجب أن ندرك كنهه، وأن نبحث عن مستقبلنا مع الباغين
 المعتدين، وإلا ضاع كلُّ شيءٍ وصرنا أذل البشر، وصعب علينا مع هذا
 الاتحاد العام علينا أن نرتقي عن طبقة العبيد الأذِلاء، وأول درس عملي
-يجب أن نقوم به هو بذل المال لمساعدة <placeName change="#d2e120" xml:id="placeName_38.d2e3586">طرابلس الغرب</placeName> على نكبتها، وأن
+يجب أن نقوم به هو بذل المال لمساعدة <placeName change="#d2e120 #d11e315" xml:id="placeName_38.d2e3586" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> على نكبتها، وأن
 نستفيد بذلك كيف يكون التكافل والتعاون بيننا.
 وإذا كنَّا لم نهتدِ لكل ما أصابنا فيما مضى إلى العمل للجامعة
 الإسلامية التي نصون بها أنفسنا ونكون أمة عزيزة فعسى أن تكون
@@ -1553,7 +1553,7 @@
 * * *
 (5)
 ما يجب على العثمانيين المختلفين في اللغة والدين
-إن وثوب إيطالية على <placeName change="#d2e120" xml:id="placeName_39.d2e3613">طرابلس</placeName> كما يثب الذئب الجائع على الشاة
+إن وثوب إيطالية على <placeName change="#d2e120 #d11e315" xml:id="placeName_39.d2e3613" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> كما يثب الذئب الجائع على الشاة
 وتأييد كل من حليفتيها ومن دول الاتفاق الثلاثي لها على عدوانها على ما
 بين الفريقين من الخلاف والنزاع برهانٌ قاطعٌ على أنهم يريدون بذلك حل
 المسألة الشرقية حلاًّ حاسمًا (إن أمكنَ) وإنه ليس عند أحدٍ من تلك الدول عاطفة
@@ -1569,7 +1569,7 @@
 إن هؤلاء الوحوش الضواري ليس لهم دين إلا الدينار والنار والبارود
 والديناميت التي هي وسائل اللذات والشهوات والكبر والفخر والخيلاء، ألا
 ترى إلى ملك إيطالية كيف ملأ ماضغيه فخرًا ببغي دولته وعدوانها
-الوحشي، وقال: إنه يريد أن يري أوربة عظمتها وقوتها في حرب <placeName change="#d2e120" xml:id="placeName_40.d2e3651">طرابلس</placeName>،
+الوحشي، وقال: إنه يريد أن يري أوربة عظمتها وقوتها في حرب <placeName change="#d2e120 #d11e315" xml:id="placeName_40.d2e3651" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>،
 لتقر عينها ويسر قلبها ببغي كثرتها على قلة العثمانيين هنالك؟ ولا يخفى
 على أحد قرأ الإنجيل وعرف سيرة المسيحيين الأولِيِنَ قبل أن تشوِّه أوربة
 الديانةَ المسيحيةَ وتقلِّب أوضاعَها بأن المسيح ما أمر بالبغي والعدوان وسفكِ دماءِ
@@ -1589,12 +1589,12 @@
 ويمنعون الكاثوليك من احتفالاتهم الدينية في إنكلترا.
 ثم لما صارت الغلبة للماديين منهم لم يتركوا تلويث المسيحية بقسوتهم
 التي ورثوها عن أجدادهم الرومانيين فكانوا إلى هذا العصر يغشون
-المتدينين من شعوبهم بأنهم يريدون باعتدائهم على <placeName change="#d2e120" xml:id="placeName_41.d2e3697">الدولة العثمانية</placeName> إنقاذ
+المتدينين من شعوبهم بأنهم يريدون باعتدائهم على <placeName change="#d2e120 #d11e315" xml:id="placeName_41.d2e3697" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> إنقاذ
 رعاياها المسيحيين من ظلم المسلمين، والإدالة للصليب من الهلال، حتى
 إن الإيطاليين سالبي سلطة البابا عميد الدين الأكبر - ولا يقاس بهذا
 تعديهم على الأحباش المخالفين لهم في المذهب - قد أخذوا من أحد
 رؤساء الدين (مطران كريمونا) منشورًا يدعو فيه الإيطاليين إلى حرب
-المسلمين في <placeName change="#d2e120" xml:id="placeName_42.d2e3711">طرابلس الغرب</placeName> ويثبت لهم مشروعيتها باسم المسيح، وقد
+المسلمين في <placeName change="#d2e120 #d11e315" xml:id="placeName_42.d2e3711" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> ويثبت لهم مشروعيتها باسم المسيح، وقد
 جعلت إحدى الجرائد المسيحية بمصر عنوان هذا الخبر كلمة يعزونها إلى
 المسيح وهي: ما جئت لألقي سلامًا على الأرض، وتتمتها كما في إنجيل متَّى
 (10: 34) ما جئت لألقي سلامًا بل سيفًا.
@@ -1610,7 +1610,7 @@
 يصف ملطبرون وغيره من مؤرخي أوربة الترك بالكبر والقسوة،
 وقد مضى على الترك عدةُ قرونٍ وهم أقوى دول الأرض بأسًا، ولم يفعلوا
 في زمن جهلهم ما فعلته أوربة من التعصب الفاحش بإكراه الناس على ترك
-أديانهم أو مذاهبهم لاتباع دينها ومذهبها؛ بل ترى هذه <placeName change="#d2e120" xml:id="placeName_43.d2e3749">الدولة العثمانية</placeName> ما
+أديانهم أو مذاهبهم لاتباع دينها ومذهبها؛ بل ترى هذه <placeName change="#d2e120 #d11e315" xml:id="placeName_43.d2e3749" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> ما
 زالت أوسع حرية منهم وأشد تساهلاً حتى في هذا العصر الذي بلغوا فيه
 أَوْجَ الحرية والمدنية والدليل على ذلك وجود الملل الكثيرة والنحل المتعددة
 في بلادها إلى اليوم، وهي الآن قد جعلت حكومتها مشتركة بين المسلمين
@@ -1621,7 +1621,7 @@
 إن كثيرًا من جهلة المسيحيين الشرقيين مغرورون بمسيحية أوربة،
 فهم يظنون أن الدول الأوربية إذا استولت على البلاد العثمانية تكون خيرًا
 لهم من الدولة العلية فتساويهم بالأوربيين في الحقوق ورتب الشرف بحيث
-لا يكون بين الفريقين فرق، و<placeName change="#d2e120" xml:id="placeName_44.d2e3776">الدولة العثمانية</placeName> لَمَّا تصل في المساواة بين
+لا يكون بين الفريقين فرق، و<placeName change="#d2e120 #d11e315" xml:id="placeName_44.d2e3776" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> لَمَّا تصل في المساواة بين
 المسلم وغير المسلم إلى هذا الحد، ويخالف أولئك الأغرار في ظنهم هذا
 جميع أهل العلم من نصارى الشرق الذين عاشروا الأوربيين واختبروهم،
 والذين عملوا معهم حتى في مصر والسودان؛ وهما القطران اللذان قضت
@@ -1634,7 +1634,7 @@
 والإنكليز أحسن أخلاقًا ومعاملة من سائر الأوربيين.
 ألا فَلْيَعْلَمْ كلُّ نصراني عثماني أنه إذا وقعت بلادُه تحت سلطةِ دولةٍ
 أوربية فقد حرم من حقيقة السلطة وشرف الرياسة وعزة الحكم التي يرجى
-أن يكون له منها النصيب الوافر ببقاء <placeName change="#d2e120" xml:id="placeName_45.d2e3807">الدولة العثمانية</placeName> دستورية، ولا يذهب
+أن يكون له منها النصيب الوافر ببقاء <placeName change="#d2e120 #d11e315" xml:id="placeName_45.d2e3807" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> دستورية، ولا يذهب
 بهذا الرجاء من قلوب غير الترك من العثمانيين ما عرفوا من تعصب
 زعماء جمعية الاتحاد والترقي لجنسهم، ومحاولتهم تمييزه على جميع
 الأجناس، فإن هذا من الغرور الذي يزول بزوال أولئك الزعماء أو بزوال
@@ -1665,7 +1665,7 @@
 عَلَى كُلِّ شَيْءٍ قَدِيرٌ} (التوبة: 38-39) .
 اعلموا أن أوربة لا تبقي على أحد منكم، وإذا ساغت لها لقمة
 طرابلس الغرب فستكون ألبانيا لقمة للنمسة، وبلاد الأكراد لقمة للروسية،
-و<placeName change="#d2e120" xml:id="placeName_46.d2e3878">اليمن</placeName> كالخليج الفارسي لقمة لإنكلترة، أو مشتركة بينها وبين إيطالية،
+و<placeName change="#d2e120 #d11e315" xml:id="placeName_46.d2e3878" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> كالخليج الفارسي لقمة لإنكلترة، أو مشتركة بينها وبين إيطالية،
 وأما سورية فيقال إن إنكلترة لا ترضى إلا بجعلها فاصلة بين مصر وبين
 الأناطول الذي هو حصة ألمانيا حبيبة الترك، وذلك بأن تكون مستقلة
 تحت حماية الدول الكبرى كلها ويكون حاكمها العام أوربيًّا.
@@ -1675,7 +1675,7 @@
 تعملون ولا تتعلمون كيف تعملون، وليسومنكم سوء العذاب، وليحرمنكم
 من السلطة والثروة، وليسلطن عليكم قسوسهم ومقامريهم وخماريهم
 وبغاياهم ليفسدوا عليكم دينكم ودنياكم وصحتكم وآدابكم.
-أين أنت يا أمير <placeName change="#d2e120" xml:id="placeName_47.d2e3903">مكة</placeName> وسيد الشرفاء، أين أنت يا إمام <placeName change="#d2e120" xml:id="placeName_48.d2e3906">اليمن</placeName> يا ذا
+أين أنت يا أمير <placeName change="#d2e120 #d11e315" xml:id="placeName_47.d2e3903" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وسيد الشرفاء، أين أنت يا إمام <placeName change="#d2e120 #d11e315" xml:id="placeName_48.d2e3906" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> يا ذا
 النجدة والإباء، أين أنتم يا أمراء نجد الأمجاد، أين أنت يا صاحب كويت،
 أين أنت يا ابن سعود، أين أنت يا ابن الرشيد، ألا يدعو بعضُكم بعضًا إلى
 الاجتماع والتعاون على نصرة الدولة، ألا يجب أن تزحفوا على مصوع
@@ -1712,7 +1712,7 @@
          
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_4.d2e3973">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_5.d2e3975">مقدمات الحرب
-في <placeName change="#d2e120" xml:id="placeName_49.d2e3979">طرابلس</placeName> الغرب</head>
+في <placeName change="#d2e120 #d11e315" xml:id="placeName_49.d2e3979" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الغرب</head>
 <p change="#d2e120" xml:id="p_2.d2e3983">
                
 
@@ -1726,24 +1726,24 @@
 والشيوخ والأطفال من العرب؛ فلهذا كففنا عن التنديد بأوربة كلها.
 ثم إننا نشرنا في الجزء الماضي إنذار إيطالية الأول للدولة العلية
 وجواب الدولة عنه، وسننشر بعد ذلك ما ينبغي حفظه من تاريخ هذه الحرب
-وقد نشر بعض الذين كانوا موظفين في <placeName change="#d2e120" xml:id="placeName_50.d2e4009">طرابلس</placeName> قبل الحرب مقالةً في المؤيد
+وقد نشر بعض الذين كانوا موظفين في <placeName change="#d2e120 #d11e315" xml:id="placeName_50.d2e4009" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> قبل الحرب مقالةً في المؤيد
 بَيَّن فيها مقدماتِها وأسبابها، فرأيْنَا أن ننشرها في المنار وها هي هذه؛ قال:
-يعلم كل من له أقل عناية بتتبع سياسة إيطاليا في <placeName change="#d2e120" xml:id="placeName_51.d2e4016">طرابلس الغرب</placeName> أن هذه
+يعلم كل من له أقل عناية بتتبع سياسة إيطاليا في <placeName change="#d2e120 #d11e315" xml:id="placeName_51.d2e4016" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> أن هذه
 الحكومة ما زالت موجهة نظرها وأملها إلى هذه الولاية منذ خمسة وعشرين عامًا أو
-أكثر قصد الاستيلاء عليها بالسلم أو بالحرب لما لإيالة <placeName change="#d2e120" xml:id="placeName_52.d2e4024">طرابلس</placeName> من الأهمية الكبرى
+أكثر قصد الاستيلاء عليها بالسلم أو بالحرب لما لإيالة <placeName change="#d2e120 #d11e315" xml:id="placeName_52.d2e4024" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> من الأهمية الكبرى
 لاحتوائها على معادن شتَّى؛ ولأن سعتها تبلغ ثلاثة أضعاف سعة البلاد الإيطالية
 من أعلاها إلى أدناها.
-وكانت إيطاليا تحاذر أن تتعرض للاستيلاء على <placeName change="#d2e120" xml:id="placeName_53.d2e4033">طرابلس</placeName> الغرب
+وكانت إيطاليا تحاذر أن تتعرض للاستيلاء على <placeName change="#d2e120 #d11e315" xml:id="placeName_53.d2e4033" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الغرب
 بالقوة الحربية، مع ما تعلمه من انقطاع هذه الولاية عن عاصمة الملك
 العثماني، وبعدها عنها وعن سائر بلاد السلطنة وضعف القوة البحرية
-العثمانية؛ لأنها كانت ترى أن استيلائها على <placeName change="#d2e120" xml:id="placeName_54.d2e4043">طرابلس</placeName> لم يكن يوافق
+العثمانية؛ لأنها كانت ترى أن استيلائها على <placeName change="#d2e120 #d11e315" xml:id="placeName_54.d2e4043" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> لم يكن يوافق
 مصلحة إنكلترا وفرنسا لأسباب لا حاجة الآن إلى شرحها.
 ولهذا طرقت للوصول إلى هذا الأمل مسالك أخرى فنصبت لذلك من
-مدارسها فخًّا أولاً؛ إذ أسست في <placeName change="#d2e120" xml:id="placeName_55.d2e4053">طرابلس الغرب</placeName> مدارسَ إيطالية كثيرة
+مدارسها فخًّا أولاً؛ إذ أسست في <placeName change="#d2e120 #d11e315" xml:id="placeName_55.d2e4053" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> مدارسَ إيطالية كثيرة
 واختصت للإنفاق عليها الألوف من أموال خزينتها قاصدةً بذلك أن تشيعَ
 اللغةَ الإيطالية بين عربِ طرابلسَ، وتُؤَلِّفَ قلوبَ الأطفال والناشئة.
 ولقد أدرك وزيرُنا الغيورُ المرحوم أحمد راسم باشا يوم كان واليًا
-على <placeName change="#d2e120" xml:id="placeName_56.d2e4064">طرابلس</placeName> ما ترمي إليه إيطاليا من هذا العمل؛ فجعل يقاومه بالوسائل المشروعة
+على <placeName change="#d2e120 #d11e315" xml:id="placeName_56.d2e4064" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> ما ترمي إليه إيطاليا من هذا العمل؛ فجعل يقاومه بالوسائل المشروعة
 وينبه الأهالي إلى ما عرفه من حقيقة أمر هذه المدارس وأنها لا توافق مصلحة
 المسلمين، وكان له من العلماء والمدرسين عضد وساعد على نشر هذه
 النصيحة بين الطرابلسيين العثمانيين إلى أن نجح في عمله واتفق الجمهور على
@@ -1763,20 +1763,20 @@
 هذه المدارس ونفقاتها، ودامت الحال على ذلك إلى أن انعقد مؤتمر
 الجزيرة فتقرَّر فيه أن لا تعارض الحكومات الموقعة على صك المؤتمر
 شيئًا من المصالح الاقتصادية والسياسية التي للإيطاليين في طرابلس
-الغرب، ومن ذلك الحين أسست إيطاليا في <placeName change="#d2e120" xml:id="placeName_57.d2e4111">طرابلس الغرب</placeName> فرعًا لبنك (دي
+الغرب، ومن ذلك الحين أسست إيطاليا في <placeName change="#d2e120 #d11e315" xml:id="placeName_57.d2e4111" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> فرعًا لبنك (دي
 روما) فكان هذا البنك قطب رحى المصائب على هذه الولاية العثمانية
 والمصدر لكل دسيسة سياسية، زِدْ على ذلك أن الثلثين من رأس مال (بنك
 دي روما) هي لحضرة البابا والثلث الآخر للحكومة الإيطالية.
-تأسس هذا البنك فعلاً في <placeName change="#d2e120" xml:id="placeName_58.d2e4123">طرابلس</placeName>، ولم تلاحظ في تأسيسه حرمة البلاد
+تأسس هذا البنك فعلاً في <placeName change="#d2e120 #d11e315" xml:id="placeName_58.d2e4123" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>، ولم تلاحظ في تأسيسه حرمة البلاد
 وأحكام قوانينها، وبيان ذلك أن القانون يقضي بأن لا يؤسس مرفق من المرافق
 المالية الأجنبية في سلطنة آل عثمان إلا بإرادة سلطانية، وفضلاً عن ذلك فإن
 الخاصي والعامي يعلم أن هذا البنك إنما أُسِّسَ لاستملاك الأراضي، واستعمال
-الإيطاليين لها، ولإقراض الأهالي بالربا الفاحش، ولاحتكار التجارة في <placeName change="#d2e120" xml:id="placeName_59.d2e4135">طرابلس</placeName>،
+الإيطاليين لها، ولإقراض الأهالي بالربا الفاحش، ولاحتكار التجارة في <placeName change="#d2e120 #d11e315" xml:id="placeName_59.d2e4135" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>،
 ولأخذ امتيازات لاستثمار المناجم وإنشاء المرافئ وما أشبه ذلك، ثم إظهار القلاقل
 والاختلافات بين الحكومة المحلية والقنصلية الإيطالية التي يعظمها الخيال الإيطالي
 بالطبع حتى تصل إلى الآستانة ورومة؛ فتكون منها مسائل يختلقون منها الوسائل
 للخطة التي وضعوها لأنفسهم.
-كان والي <placeName change="#d2e120" xml:id="placeName_60.d2e4149">طرابلس الغرب</placeName> وقائدها في حين تأسيس (بنك دي روما)
+كان والي <placeName change="#d2e120 #d11e315" xml:id="placeName_60.d2e4149" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وقائدها في حين تأسيس (بنك دي روما)
 ذلك الرجل الكبير المرحوم رجب باشا، فقاوم - رحمه الله - هذا المشروع غير
 المشروع بكل قوة لديه طالبًا من مؤسسيه أن يحصلوا على إرادة سلطانية
 بتأسيسه أولاً، وفي الوقت نفسه كان يكتب إلى الآستانة مبينًا النتائج
@@ -1798,7 +1798,7 @@
 يشترط فيهما الإيجاب والقبول، كل ذلك كان يفعله المرحوم رجب
 باشا لئلا يتمكن (بنك دي روما) أو أحد من الإيطاليين من شراء الأراضي
 العثمانية واستعمارها.
-كانت العوائق المشروعة التي وقف بها والي <placeName change="#d2e120" xml:id="placeName_61.d2e4199">طرابلس</placeName> الأسبق في
+كانت العوائق المشروعة التي وقف بها والي <placeName change="#d2e120 #d11e315" xml:id="placeName_61.d2e4199" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الأسبق في
 وجه (بنك دي روما) خير وسيلة ممكنة لعرقلة مساعيه بالرغم عن
 الشكاوى الطويلة العريضة من البنك والتهديدات المختلفة الأساليب التي
 كان قنصل إيطاليا وحكومة إيطاليا يجيئان بها في كل يوم.
@@ -1814,10 +1814,10 @@
 حكومته المركزية، وأوعز الباب العالي إلى الحكومة المحلية في طرابلس
 الغرب بأن تقبل فراغ الأراضي باسم المدير العام لبنك دي روما.
 وفي ذلك الحين كان المرحوم رجب باشا قد نقل من ولاية طرابلس
-الغرب وعيَّن وزيرًا للحربية العثمانية، وخلفه على <placeName change="#d2e120" xml:id="placeName_62.d2e4237">طرابلس</placeName> أمير اللواء
+الغرب وعيَّن وزيرًا للحربية العثمانية، وخلفه على <placeName change="#d2e120 #d11e315" xml:id="placeName_62.d2e4237" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> أمير اللواء
 محمد علي سامي باشا؛ وهو رجل جندي لا يعرف شيئًا من شئون الإدارة
 وأساليب السياسة، ثم جاء بعده فوزي باشا، وأعقبه حسني باشا، وهؤلاء
-الولاة الثلاثة لم يزد مجموع مدتهم في <placeName change="#d2e120" xml:id="placeName_63.d2e4247">طرابلس</placeName> على سنتين، وقد وجد
+الولاة الثلاثة لم يزد مجموع مدتهم في <placeName change="#d2e120 #d11e315" xml:id="placeName_63.d2e4247" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> على سنتين، وقد وجد
 البنك منهم في أثنائها تسهيلات كثيرة وتسامحًا كبيرًا وكانت الجرائد
 المحلية وفي مقدمتها (تعميم حريت التركية) و (الترقي) و (أبو قشة)
 و (المرصاد) العربية تبين للحكومة والرأي العام مقاصد إيطاليا وأعمالها
@@ -1826,17 +1826,17 @@
 هذه الجرائد الصادقة أذنًا صاغيةً من الحكومة ورجالها، ولكنها أثرت في
 الرأي العام وصحَّحَت اعتقاده بشأن البنك؛ فصار يعتقد أنه مرفق سياسي
 بعد أن كان يحسبه تجاريًّا بَحْتًا ولمَّا شعر مؤسسو البنك أن معاملاته
-ستقف بسبب الحملات الصحَافية قام فأسس في <placeName change="#d2e120" xml:id="placeName_64.d2e4270">طرابلس</placeName> مطبعة وجريدتين
+ستقف بسبب الحملات الصحَافية قام فأسس في <placeName change="#d2e120 #d11e315" xml:id="placeName_64.d2e4270" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> مطبعة وجريدتين
 إيطاليتين؛ إحداهما <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e4275">إيكودي تريبولي</title></bibl>) والثانية (<bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e309">جريدة <title level="j" change="#d11e309">استيللا</title></bibl>) وصارت
 هاتان الجريدتان تدافعان عن البنك ومصالحه وتبثَّان في أذهان الناس أنه
 تجاري لا سياسي فلم ينخدع الرأي العام بأضاليلهما.
-وفي ولاية حسني باشا قَدِمَ <placeName change="#d2e120" xml:id="placeName_65.d2e4285">طرابلس</placeName> رجل من أهل الأرجنتين في
+وفي ولاية حسني باشا قَدِمَ <placeName change="#d2e120 #d11e315" xml:id="placeName_65.d2e4285" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> رجل من أهل الأرجنتين في
 جنوب أمريكا اسمه المستر (كوزمان) فأصدر جريدة سمَّاها (بروجريسو)
 وصار يطعن فيها على الحكومة الإيطالية ويُبَيِّنُ مقاصدها في طرابلس
 الغرب، ويفضح نيَّة بنك دي روما السيئة، وظل على ذلك مدة شهر
 ارتفعت فيها شكوى البنك منه إلى عنان السماء؛ ولكن لم يكن للحكومة
 العثمانية وجه لسماع تلك الشكوى.
-واتفق أنه جاء إلى <placeName change="#d2e120" xml:id="placeName_66.d2e4301">طرابلس</placeName> أيضًا مصور أميريكي من أهل الولايات
+واتفق أنه جاء إلى <placeName change="#d2e120 #d11e315" xml:id="placeName_66.d2e4301" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> أيضًا مصور أميريكي من أهل الولايات
 المتحدة، وبَيْنَا كان يصور (جامع أحمد باشا) مرَّ من أمامه صبيٌّ صغير
 حال بينه وبين الجامع فغضب المصور الأميركي وضرب الطفل.
 ولما تداخل البوليس حصل بينه وبين المصور سوء تفاهم فتطاول الأميريكي
@@ -1852,11 +1852,11 @@
 وضَحِكَ منها الكثيرون من الأجانب، وهي حادثة مؤسفة في الحقيقة
 لحدوثها في زمن إدارة دستورية.
 كانت حادثة إخراج الصحافي الأرجنتيني فوزًا كبيرًا للسياسة
-الإيطالية في <placeName change="#d2e120" xml:id="placeName_67.d2e4342">طرابلس الغرب</placeName> عقدت لها الصحف الإيطالية فصول الابتهاج
+الإيطالية في <placeName change="#d2e120 #d11e315" xml:id="placeName_67.d2e4342" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> عقدت لها الصحف الإيطالية فصول الابتهاج
 والسرور، وامتلأ بها قنصل إيطاليا غرورًا وزهوًا وخُيَلاَءَ، فأصدر أمرًا
-تحريريًّا إلى الصحف والمطبعة الإيطالية التي في <placeName change="#d2e120" xml:id="placeName_68.d2e4349">طرابلس</placeName> بأن لا تلاحظ
+تحريريًّا إلى الصحف والمطبعة الإيطالية التي في <placeName change="#d2e120 #d11e315" xml:id="placeName_68.d2e4349" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> بأن لا تلاحظ
 بعد الآن قانون المطبوعات العثماني، وما عليها إلا أن تراعي القانون
-الإيطالي فقط معلنًا بذلك لحكومته أنَّه فتح لها في <placeName change="#d2e120" xml:id="placeName_69.d2e4357">طرابلس</placeName> فتحًا جديدًا،
+الإيطالي فقط معلنًا بذلك لحكومته أنَّه فتح لها في <placeName change="#d2e120 #d11e315" xml:id="placeName_69.d2e4357" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> فتحًا جديدًا،
 ووالينا حسني باشا ظلَّ محافظًا على راحته ووظيفته ساكنًا عن كل إهانة
 واعتداء وخيانة تلحق بالوطن العزيز.
 فاتني أن أُطْلِعَ القارئ على أن (بنك دي روما) كان في خلال هذه
@@ -1871,24 +1871,24 @@
 الحصول على إرادة سلطانية بشأنه؛ لأن سفراء الدول اعترضوا على
 القانون العثماني الموضوع بشأن الشركات والمرافق المالية الأجنبية،
 ومنذ ذلك أخذت المحاكم تنظر في قضايا البنك مضطرة غير مختارة.
-وفي ولاية حسني باشا أيضًا جاءت <placeName change="#d2e120" xml:id="placeName_70.d2e4392">طرابلس</placeName> لجنة فرنسوية مؤلَّفة من
+وفي ولاية حسني باشا أيضًا جاءت <placeName change="#d2e120 #d11e315" xml:id="placeName_70.d2e4392" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> لجنة فرنسوية مؤلَّفة من
 أربعة أشخاص للبحث عن مَنَاجِمِ الفسفاط، ومعها أمر من نظارة الداخلية
 العثمانية بوجوب المحافظة على أعضائِها بقوة الجند أثناء بحثهم في
 المناجم، فلم يهضم بنك دي روما والإيطاليون هذا الأمر، وقامت جرائد
 إيطاليا تحتجُّ على حكومتها لتفريطها في المصالح الإيطالية، وإن قدوم
-الفرنسويين إلى <placeName change="#d2e120" xml:id="placeName_71.d2e4406">طرابلس</placeName> يمس شرف إيطاليا صاحبة السيادة على هذه
+الفرنسويين إلى <placeName change="#d2e120 #d11e315" xml:id="placeName_71.d2e4406" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> يمس شرف إيطاليا صاحبة السيادة على هذه
 الولاية وعلى معادنها بالطبع.
 ثم جاءت لجنة أمريكية إلى بني غازي للبحث عن الآثار القديمة؛
 فقامت قيامة الصحف الإيطالية أيضًا، وأصرت على مطالبة حكومتها بمنع
-هذه الاعتداءات وإعلان سيادة إيطاليا على <placeName change="#d2e120" xml:id="placeName_72.d2e4418">طرابلس</placeName> وإجبار الحكومة
+هذه الاعتداءات وإعلان سيادة إيطاليا على <placeName change="#d2e120 #d11e315" xml:id="placeName_72.d2e4418" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> وإجبار الحكومة
 العثمانية على إخراج اللجنتين المذكورتين.
 وكانت الجرائد المحلية تدافعَ عن حقوق العثمانيين وتُصَرِّح بأن
 الحكومة العثمانية حرةٌ في منحِ الامتيازات لمن أرادت فزادت هذه
 الكتابات في استياء الإيطاليين، وصارت صحفهم تتهدد حكومتنا
-بالاستيلاء على <placeName change="#d2e120" xml:id="placeName_73.d2e4432">طرابلس الغرب</placeName>، وبإرسال أساطيلها إليها واحتلالها،
+بالاستيلاء على <placeName change="#d2e120 #d11e315" xml:id="placeName_73.d2e4432" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName>، وبإرسال أساطيلها إليها واحتلالها،
 فصارت حضرة الكاتبة الإفرنسية الفاضلة (مادام كي دافليين) عقيلة طبيب
-الصحة في <placeName change="#d2e120" xml:id="placeName_74.d2e4440">طرابلس</placeName> تُفَنِّد مزاعم الصحف الإيطالية وتُصَرِّح بعجز إيطاليا عن
-احتلال <placeName change="#d2e120" xml:id="placeName_75.d2e4445">طرابلس</placeName> سيَّما في الدور الدستوري، فهاج الإيطاليون وهاجموا
+الصحة في <placeName change="#d2e120 #d11e315" xml:id="placeName_74.d2e4440" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> تُفَنِّد مزاعم الصحف الإيطالية وتُصَرِّح بعجز إيطاليا عن
+احتلال <placeName change="#d2e120 #d11e315" xml:id="placeName_75.d2e4445" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> سيَّما في الدور الدستوري، فهاج الإيطاليون وهاجموا
 قنصليتهم مطالبين حكومة إيطاليا بعزل زوج مادام كي دافليين وإخراجهما
 من البلد، وتعرَّض لها بعضُهم بالأذى في الشوارع، أما هي فلم تكن
 تقابلهم إلا بالحزم والعزم ضاحكة من أفعالهم وآرائهم السخيفة، ومن
@@ -1897,16 +1897,16 @@
 وفي بعض الأيام جمع حسني باشا بعض أعيان الولاية وكان صهره
 (رحمي بك) مبعوث سلانيك وأحد أعضاء جمعية الاتحاد والترقي
 حاضرًا فصار يَحُضُّهُمْ ويُحَرِّضُهُمْ على الاشتراك مع بنك دي روما ومع
-تاجرين مصريين كانا في <placeName change="#d2e120" xml:id="placeName_76.d2e4468">طرابلس</placeName>، وأن يطلبوا من الحكومة امتيازًا
+تاجرين مصريين كانا في <placeName change="#d2e120 #d11e315" xml:id="placeName_76.d2e4468" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>، وأن يطلبوا من الحكومة امتيازًا
 باستثمار مناجم الفسفاط بالاشتراك مع البنك المذكور فحصل ذلك بالفعل،
 وعقدت الشركة رسميًّا وتوجه بعض هؤلاء إلى الآستانة لأخذ الامتيازات
 فهاجت الجرائد العثمانية الكبرى لهذا المشروع وشرحت مضارَّه للرأي
 العام حتى اضطر الباب العالي إلى عدم منح الامتياز به ورجع أولئك
 الأشخاص بالخيبة والخسران.
-وجهت ولاية <placeName change="#d2e120" xml:id="placeName_77.d2e4484">طرابلس الغرب</placeName> وقيادتها بعد ذلك إلى المشير إبراهيم
+وجهت ولاية <placeName change="#d2e120 #d11e315" xml:id="placeName_77.d2e4484" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وقيادتها بعد ذلك إلى المشير إبراهيم
 أدهم باشا، ولما وصل هذا إلى مقر وظيفته شعر بواجبه الوطني الكبير؛
 إذ تحقق الأضرار الحاضرة والمستقبلة التي تنشأ عن ازدياد النفوذ
-الإيطالي في <placeName change="#d2e120" xml:id="placeName_78.d2e4494">طرابلس الغرب</placeName>، فأجاب نداء ضميره بمقاومة هذا النفوذ
+الإيطالي في <placeName change="#d2e120 #d11e315" xml:id="placeName_78.d2e4494" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName>، فأجاب نداء ضميره بمقاومة هذا النفوذ
 بالوسائل المشروعة وعدم التساهل بما لا يجيز القانون التساهل فيه،
 وسعى من جهة ثانية إلى زيادة القوة العسكرية والذخائر الحربية لسببين
 كبيرين: الأول ردع الإيطاليين وتقليص فكرة الاستيلاء من رؤوسهم،
@@ -1932,7 +1932,7 @@
 فرفض الوالي هذا الطلب، فازداد غضب الإيطاليين على الوالي وكثرت
 شكاواهم منه.
 ثم ورد على قنصل إيطاليا تلغراف بأن المستر (كوزمان) صاحب
-<bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d2e207 #d2e120" xml:id="title_9.d2e4553">البروجريسو</title></bibl>) عزم على العودة إلى <placeName change="#d2e120" xml:id="placeName_79.d2e4556">طرابلس</placeName>، ومن الواجب
+<bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d2e207 #d2e120" xml:id="title_9.d2e4553">البروجريسو</title></bibl>) عزم على العودة إلى <placeName change="#d2e120 #d11e315" xml:id="placeName_79.d2e4556" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>، ومن الواجب
 السعي لدى الحكومة المحلية في منعه من دخول المدينة، ولما راجع
 القنصل إبراهيم باشا في الأمر أجابه بأن الحكومة العثمانية اليوم حكومة
 دستورية، ولا يمكنها منع أحد من أمر لا يحظره القانون، وقد زال زمن
@@ -1944,7 +1944,7 @@
 ولكن كوزمان نزل المدينة بدون أن يمسه سوء، وهنا لم يعد الإيطاليون
 يفقهون معنى للسكينة والقانون والحق؛ بل جعلوا يصخبون ويضجون
 ويملأون الصحف بالشكوى الكاذبة وقام سفير إيطالية في الآستانة يهدد
-الباب العالي إذا بقي كوزمان في <placeName change="#d2e120" xml:id="placeName_80.d2e4585">طرابلس</placeName> فأوعز الباب العالي إلى
+الباب العالي إذا بقي كوزمان في <placeName change="#d2e120 #d11e315" xml:id="placeName_80.d2e4585" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> فأوعز الباب العالي إلى
 إبراهيم باشا بأن ينفي كوزمان حفظًا لمودة إيطاليا.
 ولما أيقن إبراهيم باشا بضعف الحكومة المركزية خاف أن يمس
 الشرف العثماني العار، فأرسل إلى كوزمان ليلاً واقترح عليه أن يسافر
@@ -1952,16 +1952,16 @@
 له بعضَ نفقاتِ سفره، وفي صباح تلك الليلة سافرَ كوزمان مُعْلِنًا ما قاله
 إبراهيم باشا، فلم يشعر أحد بأسرار الحادثة، وكتب إبراهيم باشا إلى
 الباب العالي أن كوزمان الذي كتبتم لي بشأنه بحثت عنه عند وصول
-أمرِكم فوجدته قد سافر من <placeName change="#d2e120" xml:id="placeName_81.d2e4606">طرابلس</placeName>، وبهذا حفظ الوالي العثماني الشرف
+أمرِكم فوجدته قد سافر من <placeName change="#d2e120 #d11e315" xml:id="placeName_81.d2e4606" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>، وبهذا حفظ الوالي العثماني الشرف
 العثماني.
 وأعقب ذلك أن دفعت القحة سفير إيطاليا إلى مطالبة الباب العالي
-بعزل إبراهيم باشا؛ لأنه يعرقل مصالح الإيطاليين في <placeName change="#d2e120" xml:id="placeName_82.d2e4616">طرابلس الغرب</placeName>،
+بعزل إبراهيم باشا؛ لأنه يعرقل مصالح الإيطاليين في <placeName change="#d2e120 #d11e315" xml:id="placeName_82.d2e4616" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName>،
 وبينما كان حقي باشا الصدر الأعظم وخليل بك ناظر الداخلية على عزم
 تنفيذ إشارة سفير إيطاليا اتصل الخبر بالصحف العثمانية فاحتجت على
 الباب العالي، وأنذرته خطر هذا العمل الوبيل، وأن ذلك عمل استبدادي
 والقانون الأساسي لا يجيز عزلاً بدون محاكمة، فخشي البابُ العالي هياج
 الرأي العام كما كان يحسب حسابًا لتهديد السفير فأراد أن يوفق بين
-المتناقضين ولذلك أذن للإيطاليين بالبحث عن معادن <placeName change="#d2e120" xml:id="placeName_83.d2e4632">طرابلس</placeName> فأرسلوا
+المتناقضين ولذلك أذن للإيطاليين بالبحث عن معادن <placeName change="#d2e120 #d11e315" xml:id="placeName_83.d2e4632" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> فأرسلوا
 لجنة قيل إن أكثرها من أركان الحرب وكبار الضباط الإيطاليين فصارت
 تطوف في جميع أنحاء الولاية حتى قضاء (سوكنة) في (فزان) .
 وبعد ثلاثة أشهر فقط ورد الأمر من الباب العالي بعزل إبراهيم باشا
@@ -1974,10 +1974,10 @@
 فالبلاد ما وصلت إلى هذا الخطر إلا بسوء تصرفهم، وما كانت الأمة
 لتعقل أو تفهم.
 * * *
-ترجمة التقرير الذي قدمه مبعوثا <placeName change="#d2e120" xml:id="placeName_84.d2e4663">طرابلس</placeName> الغرب
+ترجمة التقرير الذي قدمه مبعوثا <placeName change="#d2e120 #d11e315" xml:id="placeName_84.d2e4663" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الغرب
 لمجلس المبعوثين وطلبا فيه محاكمة حقي باشا
 أيها السادة
-إن <placeName change="#d2e120" xml:id="placeName_85.d2e4673">طرابلس الغرب</placeName> وبني غازي معرضتان اليوم لخطر عظيم، فقد
+إن <placeName change="#d2e120 #d11e315" xml:id="placeName_85.d2e4673" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وبني غازي معرضتان اليوم لخطر عظيم، فقد
 حاول بترهما من جسم الوطن المُقَدَّس عدو لا يعرف عدلا ولا إنسانية.
 فالوطن العزيز المُقَدَّس يفقد بفقدهما رُبْعَ أملاكِهِ، وتفقد الأمة
 العثمانية المبجلة نحو مليوني نسمة من أبنائها، وتضيع الدولة سلطتها في
@@ -1985,33 +1985,33 @@
 مليونًا من المسلمين في تلك القارة.
 إن العالم الذي يفتخر بمدنيته وحبه للإنسانية التزم جانب الطاعة
 والإذعان في مقابلة ادَّعاء إيطاليا الكاذب؛ إذِ الحقُّ هو القوة في هذا
-الزمان؛ فلهذا كانت قلوبُنا تَقْطُرُ دَمًا لِمَا آلَتْ إليه حالُ <placeName change="#d2e120" xml:id="placeName_86.d2e4693">طرابلس</placeName> الغرب
+الزمان؛ فلهذا كانت قلوبُنا تَقْطُرُ دَمًا لِمَا آلَتْ إليه حالُ <placeName change="#d2e120 #d11e315" xml:id="placeName_86.d2e4693" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الغرب
 وبنغازي البعيدتين والمعزولتين عن القوة العثمانية والملك العثماني الواسع
 وعاصمته، وكثيرًا ما حوَّلنا نظر الحكومة ونظركم إلى ذلك قائلين إنهما
 محتاجان إلى قوة بحرية عظيمة حفظًا للمواصلات والدفاع في أحوال كهذه،
 فما كان لهما حظ من ذلك.
-إن المحافظة على <placeName change="#d2e120" xml:id="placeName_87.d2e4707">طرابلس الغرب</placeName> ومنع الأعداء المجاورين من
+إن المحافظة على <placeName change="#d2e120 #d11e315" xml:id="placeName_87.d2e4707" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> ومنع الأعداء المجاورين من
 التسلط عليها يتوقفان على جعل القوة العثمانية مساوية لقوة الأعداء ونعني
 بهذا أن تكون البحرية العثمانية محاكية لبحريتهم في القوة، ولا يخفى أن
 الحكومة السابقة أَهْمَلَت الاعْتِنَاءَ بالقوة العثمانية البحرية، ولا يتسنى لها
 إبلاغُها درجة الكمال في أعوام قليلة؛ ولكنَّ الجميع يعترفون أنه كان في
 الإمكان إجراء تدابير سياسية لتخليص الوطن المنكود الحظ وتأخير أطماع
 الأعداء والاحتفاظ بشرف الأمة.
-إن المحافظة على حقوقنا في ولاية <placeName change="#d2e120" xml:id="placeName_88.d2e4726">طرابلس</placeName> وبنغازي لا تتوقف على
+إن المحافظة على حقوقنا في ولاية <placeName change="#d2e120 #d11e315" xml:id="placeName_88.d2e4726" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> وبنغازي لا تتوقف على
 قوة بحرية الدولة فقط؛ بل على سياسة خارجية أيضًا نعتمد عليها وعلى
 إصلاحات داخلية واقتصادية تلتئم مع ما يحيط بالمملكة وعلى تنظيم حربي
 يناسب الموقع والمكان.
 إن هذا المُلْكَ العثمانيَّ المقدس لا يظل أمرُه مستوثقًا بالقول ولا آمنًا
 بالمعاهدات الكاذبة كما هي حاله اليوم؛ وإنما هو في احتياج إلى عقد اتفاق
 بين الدول التي أخذت على نفسها تأييده وتمكينه بقواها الحربية والبحرية.
-إن ولاية <placeName change="#d2e120" xml:id="placeName_89.d2e4744">طرابلس الغرب</placeName> وبنغازي يجب بالنظر إلى موقعها
+إن ولاية <placeName change="#d2e120 #d11e315" xml:id="placeName_89.d2e4744" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وبنغازي يجب بالنظر إلى موقعها
 الجغرافي والملي أن يكون فيها حكام يحسنون الإدارة والاقتصاد وأن تكون
 لها إدارة ملكية ومالية قائمة بذاتها وأن تكون لها قوة عسكرية محلية - أي من
 أبنائها - لتظل مستظلة بظل العَلَمِ العثماني إلى الأبد، نعم إنه لم يكن في الإمكان
 إبلاغ بحريتنا في سنوات قليلة درجة تنطبق على آمال الأمة؛ ولكن عجبًا؛ ألم
 يكن في الوسع إجراء الأمور التي أشرنا إليها؟ !
 كلا إننا لم نجتهد ولا التفتنا إلى سياستنا الخارجية ولا إلى إدارتنا
-المالية ولا ترقية عسكرنا؛ بل تركنا <placeName change="#d2e120" xml:id="placeName_90.d2e4762">طرابلس الغرب</placeName> وبنغازي لسياسة
+المالية ولا ترقية عسكرنا؛ بل تركنا <placeName change="#d2e120 #d11e315" xml:id="placeName_90.d2e4762" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وبنغازي لسياسة
 الوفاق والاتفاق مع الدول ولنتائجها المشئومة التي تلبس كل يوم لبوسًا،
 وخدعنا نفوسنا بالتبجُّحِ بِمَقَاصِدِنَا السِلْمِيَّةِ ورغبتنا في مصافاة سائر دول
 العالم، فانتهجنا طريقًا معوجًّا في التشكيلات (الإدارة) الملكية هو في
@@ -2021,7 +2021,7 @@
 جسم الوطن للضعف حتى كادت روحه تبلغ التراقي بإيقادنا نار الحروب
 الداخلية ونار الاحتلال، وعدم التروي والتبصر، وإنفاق المال على ما
 يقضي به حسن التدبير، ثم إننا تركنا خزينة المالية تئن تحت حمل
-الملايين الثقيل، وتركنا <placeName change="#d2e120" xml:id="placeName_91.d2e4787">طرابلس الغرب</placeName> تئن من ألم الجوع والفقر فألقينا في
+الملايين الثقيل، وتركنا <placeName change="#d2e120 #d11e315" xml:id="placeName_91.d2e4787" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> تئن من ألم الجوع والفقر فألقينا في
 نفوس أهلها جبنًا، وصيرنا قوتهم ضعفًا.
 وجملة القول أننا لم نعد شيئًا على الإطلاق لهذا اليوم العصيب، فلا
 عسكر ولا وسائط دفاع في يد الشعب، وما سبب ذلك كله إلا تراخ وإهمال
@@ -2030,21 +2030,21 @@
 غفلة وتعطيل وإهمال لم نشهد لها مثيلاً حتى في عهد الإدارة السابقة،
 ومن نكد الطالع أنها وجدت في هذه الوزارة، ومن جملة ما يُذْكَرُ عن
 إهمالها وتخاذلها أنه بينما كان أعداؤنا يطمحون بأنظارهم إلى الاستيلاء
-على ولاية <placeName change="#d2e120" xml:id="placeName_92.d2e4810">طرابلس الغرب</placeName> وبنغازي لم تفكر هذه الوزارة في إلقاء الخوف
+على ولاية <placeName change="#d2e120 #d11e315" xml:id="placeName_92.d2e4810" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وبنغازي لم تفكر هذه الوزارة في إلقاء الخوف
 فيهم وإرجاعهم عن أطماعهم بتوفير الأرزاق والمهمات والجنود في
 طرابلس توفيرًا كافيًا.
-نحن مبعوثي <placeName change="#d2e120" xml:id="placeName_93.d2e4819">طرابلس</placeName> نبكي دمًا لاضطرارنا إلى عد سيئات وزارة
-حقي باشا السياسية والإدارية التي ارتكبتها في <placeName change="#d2e120" xml:id="placeName_94.d2e4825">طرابلس الغرب</placeName> فقط
+نحن مبعوثي <placeName change="#d2e120 #d11e315" xml:id="placeName_93.d2e4819" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> نبكي دمًا لاضطرارنا إلى عد سيئات وزارة
+حقي باشا السياسية والإدارية التي ارتكبتها في <placeName change="#d2e120 #d11e315" xml:id="placeName_94.d2e4825" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> فقط
 وعرضها على أولي الحل والعقد ونحصر كلامنا في ما يلي:
 
-               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_21.d2e4832">1- </hi>كان عدد الجيش المرابط دائمًا في <placeName change="#d2e120" xml:id="placeName_95.d2e4835">طرابلس الغرب</placeName> حتى في
+               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_21.d2e4832">1- </hi>كان عدد الجيش المرابط دائمًا في <placeName change="#d2e120 #d11e315" xml:id="placeName_95.d2e4835" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> حتى في
 العهد السابق يتراوح بين 15 و 20 ألفًا، وأنشئت في ذلك الحين فرق من
 الأهالي (قول أوغلي (يتراوح عددها بين أربعين وخمسين ألفًا وكانوا
 يتمرنون على استعمال السلاح حتى صار في إمكانهم معاونة الجيش
 النظامي.
 أما وزارة حقي باشا فلم تكتف بإهمال هذه القوة الأهلية كل الإهمال
 بدلاً من أن تعنى بتنظيمها؛ بل سَيَّرَتْ عددًا من الجيش النظامي في هذه
-الولاية إلى <placeName change="#d2e120" xml:id="placeName_96.d2e4854">اليمن</placeName> ولم ترجعه ولا استبدلت به سواه، وكانت هذه القوة
+الولاية إلى <placeName change="#d2e120 #d11e315" xml:id="placeName_96.d2e4854" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> ولم ترجعه ولا استبدلت به سواه، وكانت هذه القوة
 مؤلفة من ألايَيْن فأُنْزِلَتْ إلى ألاي واحد، وبناء على هذا هبط عدد جنود
 طرابلس من أربعين ألفًا إلى أقل من خمسة آلاف.
 
@@ -2054,7 +2054,7 @@
 والحكومة فتح اعتماد في ميزانية سنة <date calendar="#cal_gregorian" when="1326" change="#d3e146 #d2e120" xml:id="date_5.d2e4873">1326</date> مالية لعسكر طرابلس
 وبنغازي - لقائم مقام وكاتب ألاي واحد وأربعة يوزباشية وثلاثة عشر
 ملازمًا أولاً وواحد وعشرين جاويشًا - لم يبدأ بإجراء ذلك إلا في هذه
-السنة أي منذ أربعة أشهر وذلك في <placeName change="#d2e120" xml:id="placeName_97.d2e4883">طرابلس الغرب</placeName> فقط، ونقول - والأسف
+السنة أي منذ أربعة أشهر وذلك في <placeName change="#d2e120 #d11e315" xml:id="placeName_97.d2e4883" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> فقط، ونقول - والأسف
 ملء صدورنا -: إن هذا العمل لم ينفذ في شكل ملائم لحاجة البلاد، فقد أخذ
 ثلاثة آلاف وأربعمائة شخص فقط من الأفراد الداخلين في الأسنان
 العسكرية مع أن عددهم كان ستة عشر ألفًا، ولم تطلب الحكومة سواهم
@@ -2066,14 +2066,14 @@
 فحفظت فيها أربعين ألف بندقية من طراز مارتيني وشنايدر لتسليح الفرق
 المؤلفة من الأهالي عند الحاجة إلى معونتها فنقلت هذه البنادق إلى الآستانة
 بحجة الاستعاضة عنها بسلاح جديد ولم ترسل أسلحة بدلاً منها.
-كانت المدافع وغيرها من الأسلحة ترسل إلى <placeName change="#d2e120" xml:id="placeName_98.d2e4913">طرابلس الغرب</placeName> في
+كانت المدافع وغيرها من الأسلحة ترسل إلى <placeName change="#d2e120 #d11e315" xml:id="placeName_98.d2e4913" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> في
 العهد السابق بكل تحفظ وضبط مع أن خصومنا كانوا يعترضون على
 إرسالها في ذلك الحين؛ ولكن هذا المحذور زالَ في عهد الدستور، ولم
 يبق هناك ما يعوق إرسال الأسلحة وتحصين ولايتنا؛ لأن مجلس المبعوثان كان مستعدًّا أن ينفق المالَ في سبيلِ الدفاع عن الوطن، مع هذا تركت الوزارة ولايتنا ولم تعمر استحكاماتها وهي مطمح أنظار الأعداء.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_24.d2e4925">4- </hi>يعلم الأولاد قبل الحكومات أن الإيطاليين طامعون بالاستيلاء
-على ولاية <placeName change="#d2e120" xml:id="placeName_99.d2e4930">طرابلس الغرب</placeName> إن عاجلاً وإن آجلاً، ولهذا كان واجبًا على
-الضباط الذين في <placeName change="#d2e120" xml:id="placeName_100.d2e4935">طرابلس</placeName> والموظفين أن يكونوا ملمين باللسان المحلي
+على ولاية <placeName change="#d2e120 #d11e315" xml:id="placeName_99.d2e4930" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> إن عاجلاً وإن آجلاً، ولهذا كان واجبًا على
+الضباط الذين في <placeName change="#d2e120 #d11e315" xml:id="placeName_100.d2e4935" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> والموظفين أن يكونوا ملمين باللسان المحلي
 وواقفين على الأحوال العسكرية وطبيعة الأراضي ليستطيعوا قيادة
 العساكر الأهلية التي يجب ضمها إلى العساكر النظامية حين حدوث خطر
 كالخطر الذي نحن فيه الآن؛ ولكن الحكومة استقدمت جميع الضباط
@@ -2085,7 +2085,7 @@
 بلادهم من أطماع الأعداء قوادًا يفهمونهم ويقودونهم إبَّان الحرب، ولقد
 بات هؤلاء المنكودو الحظ في يأس وألم عظيم.
 
-               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_25.d2e4962">5- </hi>إن أهل <placeName change="#d2e120" xml:id="placeName_101.d2e4966">طرابلس الغرب</placeName> الذين قاموا في وجه العدو مدافعين عن
+               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_25.d2e4962">5- </hi>إن أهل <placeName change="#d2e120 #d11e315" xml:id="placeName_101.d2e4966" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> الذين قاموا في وجه العدو مدافعين عن
 ولايتهم التي فقدت أسباب الدفاع تقريبًا أمحلت بلادهم منذ أربعة أعوام،
 وابتلوا بغلاء وجدب شديدين هما فوق حد التصور، ولقد أوضحنا ذلك
 لحضراتكم منذ سنتين بمخاطباتنا الشفاهية وتقاريرنا الخطية، علمت
@@ -2110,7 +2110,7 @@
 معرضة لأطماع الأعداء أن يكونوا ذوي مقدرة وكفاءة وعارفين اللسان
 المحلي ليستطيعوا تولي المهام وإدارة الشئون، وأن تُعَيِّنَ الحكومةَ أشراف
 أهل البلاد وذوي النفوذ في بعض البلاد بوجه استثنائي، ووزارة حقي باشا
-أهملت ذلك كله وعينت بعض الأخصاء (المقربين) في <placeName change="#d2e120" xml:id="placeName_102.d2e5024">طرابلس</placeName> الغرب
+أهملت ذلك كله وعينت بعض الأخصاء (المقربين) في <placeName change="#d2e120 #d11e315" xml:id="placeName_102.d2e5024" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الغرب
 فأضاع الأهلون الرجاء من الانتفاع بخدم مأموري الحكومة.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_27.d2e5031">7- </hi>إن أهمية هذه الولاية تستغني عن البيان والتعريف فكان
@@ -2140,7 +2140,7 @@
 ولكن لما لم ينتبه إلى إنذارات مجلس النواب ولا إلى ما شهده واطَّلع
 عليه بالذات، ولا إلى بلاغات خلفه سفير رومية، ولا كتابات قائم مقام
 الولاية العديدة اغتنمت إيطاليا الفرصة التي سنحت، (وبينما كانت) إيطاليا
-تفاتح الدول في أثناء مسألة فاس لتحقق آمالها في <placeName change="#d2e120" xml:id="placeName_103.d2e5094">طرابلس الغرب</placeName> وتعد
+تفاتح الدول في أثناء مسألة فاس لتحقق آمالها في <placeName change="#d2e120 #d11e315" xml:id="placeName_103.d2e5094" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وتعد
 جيشها وأسطولها للاستيلاء كان حقي باشا يشهد هذه الأمور من بعيد،
 وأغرب من هذا أنه صرَّح لسفرائنا في أوربا بإجازات حتى إذا تعاظم
 الإشكال وبلغ حده من الشدة لم يكن إلا قليلون منهم في أماكن وظائفهم،
@@ -2156,14 +2156,14 @@
 كل وجه تركتهما بلا عسكر ولا سلاح ولا ذخيرة ولا ضباط ولا والٍ ولا
 قومندان ولا مؤن ولا نقود، تركتهما جائعتين فقيرتين.
 أَشَهِدَ تاريخُ الأممِ عَمًى إلى هذا الحد؟ أرأى إهمالاً كهذا الإهمال،
-أوجد ضعف محبة للوطن كهذا الضعف؟ فنحن مبعوثي <placeName change="#d2e120" xml:id="placeName_104.d2e5133">طرابلس</placeName> الغرب
+أوجد ضعف محبة للوطن كهذا الضعف؟ فنحن مبعوثي <placeName change="#d2e120 #d11e315" xml:id="placeName_104.d2e5133" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الغرب
 نمثل صورة ضمائر موكلينا وأبناء الأمة كافة بهذه النكبة التي جرتها علينا
 وزارة حقي باشا وزملائه.
 إن وزارة حقي باشا خالفت أول مادة وآخر مادة من القانون الأساسي
 في الأمور الخارجية والداخلية والمالية والحربية، ذلك القانون المعظم
 الذي هو أس الدولة الدستورية، فلهذا نطلب من مجلس المبعوثين أن
 يقومَ بوظيفته في الشأن.
-هذا ومبعوثو <placeName change="#d2e120" xml:id="placeName_105.d2e5151">طرابلس الغرب</placeName> يطلبون عملاً بالمادة الحادية والثلاثين
+هذا ومبعوثو <placeName change="#d2e120 #d11e315" xml:id="placeName_105.d2e5151" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> يطلبون عملاً بالمادة الحادية والثلاثين
 من القانون الأساسي محاكمة وزارة حقي باشا تخليصًا للوطن في المستقبل
 من تهلكة يقع فيها حتى إذا وفقنا إلى تحديد المسئولية ووجوب إنزال
 العقاب علمنا أننا خدمنا الوطن.
@@ -2172,7 +2172,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_50.d2e5165"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_51.d2e5167"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_52.d2e5170"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_53.d2e5172"/> مبعوثا <placeName change="#d2e120" xml:id="placeName_106.d2e5174">طرابلس</placeName>: محمود ناجي وصادق <note type="footnote" place="bottom" change="#d2e120" xml:id="note_4.d2e5177"/>
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_53.d2e5172"/> مبعوثا <placeName change="#d2e120 #d11e315" xml:id="placeName_106.d2e5174" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>: محمود ناجي وصادق <note type="footnote" place="bottom" change="#d2e120" xml:id="note_4.d2e5177"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_4.d2e5179">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_6.d2e5181" ref="oape:pers:3985">محمود ناجي وصادق</persName>
          </byline></div>
             <pb n="n14-p868" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P2489.xhtml" change="#d2e120" xml:id="pb_11.d2e5185"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="868" xml:id="pb_12.d2e5186"/>
@@ -2260,7 +2260,7 @@
 يتدلى من أفنانها، ألا إن هذا الكتاب خير أستاذ تؤخذ عنه البلاغة، وتتلقى
 عنه الفصاحة، ويتعلم منه كيف تستخرج درر المعاني من أصدافِهَا،
 وكيف تجري دراري الهداية في أفلاكها، وقد طبع كتاب المجازات النبوية
-في مطبعة الآداب ب<placeName change="#d2e120" xml:id="placeName_107.d2e5363">بغداد</placeName> على ورق نظيف؛ ولكن لم يعن طابعه بتصحيحه
+في مطبعة الآداب ب<placeName change="#d2e120 #d11e315" xml:id="placeName_107.d2e5363" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> على ورق نظيف؛ ولكن لم يعن طابعه بتصحيحه
 كما يجب فقد كَثُرَ فيه الغلطُ والتحريفُ ويمزج فيه الشعر والرجز بالكلام
 أحيانًا لا يميز بعضه من بعض، ولعلنا ننقل للقراء فيما يأتي من الأجزاء
 نموذجًا منه، يعلمون به أنه على عدم العناية بتصحيحه لا يستغنى عنه.
@@ -2309,7 +2309,7 @@
 في هذا العصر وفيما كان يستعمل في الزمن الماضي لنقل الأخبار
 كالمشاعل والمناور في الجبال وحمام الرسائل.
 ويلي ذلك طائفة من الفتاوى في العمل بالتلغراف للعلماء المتأخرين
-المشهورين في مصر و<placeName change="#d2e120" xml:id="placeName_108.d2e5472">الشام</placeName> و<placeName change="#d2e120" xml:id="placeName_109.d2e5476">العراق</placeName>، وقد بلغت صفحات هذا الكتاب
+المشهورين في مصر و<placeName change="#d2e120 #d11e315" xml:id="placeName_108.d2e5472" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> و<placeName change="#d2e120 #d11e315" xml:id="placeName_109.d2e5476" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وقد بلغت صفحات هذا الكتاب
 بالطبع أكثر من مائة صفحة من قطع المنار بمثل حروفه، وثمنه خمسة قروش
 صحيحة.
 الفتوى في الإسلام: رسالة أو كتيب للقاسمي بحث فيه عن منشأ
@@ -2447,13 +2447,13 @@
 
          
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_5.d2e5778">
-               <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_6.d2e5780">عِبَرُ الحرب في <placeName change="#d2e120" xml:id="placeName_110.d2e5782">طرابلس</placeName> الغرب</head>
+               <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_6.d2e5780">عِبَرُ الحرب في <placeName change="#d2e120 #d11e315" xml:id="placeName_110.d2e5782" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الغرب</head>
 <p change="#d2e120" xml:id="p_2.d2e5786">
                
 
                
 نشرنا في هذا الجزء مقالة لكاتب عليم خبير، والتقرير الذي قدمه
-مبعوثان من <placeName change="#d2e120" xml:id="placeName_111.d2e5794">طرابلس</placeName> لمجلس الأمة في الآستانة بيَّنَّا فيه حالة طرابلس
+مبعوثان من <placeName change="#d2e120 #d11e315" xml:id="placeName_111.d2e5794" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> لمجلس الأمة في الآستانة بيَّنَّا فيه حالة طرابلس
 وتقصير وزارة حقي باشا فيما يجب من تحصينها؛ بل جناية هذه الوزارة
 بتجريد هذه الإيالة بل المملكة مما كان فيها من العدة والجند وجعلها
 عرضة لاستيلاء الأجنبي عليها، وإنشاب أظفار مطامعه فيها، ولدينا
@@ -2461,8 +2461,8 @@
 إياها للخروج من سلطتها، واستعداد إيطالية للاستيلاء عليها، وفي ذلك
 من العبرة ما يمثل لكل ذكي وغبي كيف تدول الدول، وكيف تموت وتحيا
 الأمم؛ نجَّانا الله.
-ومن وجوه العبرة بكارثة <placeName change="#d2e120" xml:id="placeName_112.d2e5815">طرابلس</placeName> أننا لم نجد أحدا ولم نعلم أنه يوجد أحد
-كان يرتاب عند إعلان الحرب في الخروج <placeName change="#d2e120" xml:id="placeName_113.d2e5820">طرابلس</placeName> وبنغازي من المملكة
+ومن وجوه العبرة بكارثة <placeName change="#d2e120 #d11e315" xml:id="placeName_112.d2e5815" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> أننا لم نجد أحدا ولم نعلم أنه يوجد أحد
+كان يرتاب عند إعلان الحرب في الخروج <placeName change="#d2e120 #d11e315" xml:id="placeName_113.d2e5820" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> وبنغازي من المملكة
 العثمانية، وكان أشد الناس يأسا منها قواد الدولة ووزراؤها حتى نقل عن ناظر
 الحربية، وعن مختار باشا الغازي التصريح بأن الدفاع عنها جناية، وإنما
 تجددت لبعض الناس الآمال بما ظهر من نجدة العرب أهل البلاد وشجاعتهم
@@ -2470,7 +2470,7 @@
 هناك من الجند المنظم القليل العَدد والعُدد، وجله أو كله من بلاد سورية
 وفلسطين، فكانت الحرب سجالا، والنصر في الغالب للمعتدى عليهم حتى
 اضطر المعتدون إلى لزوم الثغور التي احتلوها ليكونوا تحت حماية أسطولهم،
-فثبت بهذا أن <placeName change="#d2e120" xml:id="placeName_114.d2e5841">اليمن</placeName> والخليج الفارسي لا رجاء في حمايتهما من الأعداء إلا
+فثبت بهذا أن <placeName change="#d2e120 #d11e315" xml:id="placeName_114.d2e5841" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> والخليج الفارسي لا رجاء في حمايتهما من الأعداء إلا
 باستعداد أهلهما للحرب بالتعليم العسكري والسلاح الجديد الكافي.
 ومن وجوه العبرة أن أكثر الشعوب الإسلامية قد انتدبت لمساعدة
 المجاهدين بالإعانات المالية وكان العرب في مصر وسورية أبسطهم يدًا،
@@ -2513,7 +2513,7 @@
 يفتنون في كل عام مرة أو مرتين ثم لا يتوبون ولا هم يذكرون.
 * * *
 جمعية الإخاء الإسلامي في بيروت
-تألفت هذه الجميعة في <placeName change="#d2e120" xml:id="placeName_115.d2e5940">بيروت</placeName> من عهد قريب لأجل التعاون على البر
+تألفت هذه الجميعة في <placeName change="#d2e120 #d11e315" xml:id="placeName_115.d2e5940" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> من عهد قريب لأجل التعاون على البر
 والتقوى والأعمال التهذيبية والاقتصادية، وبث محبة الوطن العثماني في
 نفوس جميع العناصر والأمر بالمعروف والنهي عن المنكر، وقد نشرت
 نظامها فرأينا أهم أحكامه أنه لا يقبل فيها من يقصر في أداء الفرائض
@@ -2532,7 +2532,7 @@
 عظيمًا لأن القيام بها إذا انتشرت وكثر أهلها يقلل الجرائم والمنكرات
 والمعاصي فيستريح الناس والحكومة وترتقي البلاد بسرعة عظيمة، فما
 أهلك البلاد إلا الفسق والفواحش والمنكرات الناشئة من الجهل وعدم
-الاعتداد بالدين، وكُنَّا قد ألَّفْنَا جمعية كهذه في <placeName change="#d2e120" xml:id="placeName_116.d2e5991">طرابلس الشام</placeName> عند زيارتنا
+الاعتداد بالدين، وكُنَّا قد ألَّفْنَا جمعية كهذه في <placeName change="#d2e120 #d11e315" xml:id="placeName_116.d2e5991" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> عند زيارتنا
 لها عقب إعلان الدستور، ورجونا أن يتسع نطاقها فلم يوجد رجال يقومون
 بأمرها؛ فعلة خيبتنا في كل شيء إنما هي فقد الرجال العاملين للمصلحة
 العامة.
@@ -2567,7 +2567,7 @@
 عجبت كثيرًا لمقالة (ماذا نصنع بتركيا والأتراك؟) فأتيت بهذه
 الأسطر أسألكم أي حق لنا بالتداخل في شئون تلك البلاد وأهلها؟ ومن أين
 يحق لنا نحن أن نجبر الأتراك على وضع التوراة والتلمود مكان القرآن؟
-إن تركيا تخص الأتراك وليست إيطاليا التي اغتصبت <placeName change="#d2e120" xml:id="placeName_118.d2e6079">طرابلس</placeName> مؤخرًا
+إن تركيا تخص الأتراك وليست إيطاليا التي اغتصبت <placeName change="#d2e120 #d11e315" xml:id="placeName_118.d2e6079" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> مؤخرًا
 سوى لص يجب تأديبه ومعاقبته.
 قلتم إن الديانة لا يتعلمها الناس بالسيف ثم رأيتكم تدعون الأميركان
 إلى امتشاق الحسام وطرد الأتراك المسلمين من بلادهم ونشر المسيحية

@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_15-i_2.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_15-i_2.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e298">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_15-i_2.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_15-i_2.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1330">1330</date><date calendar="#cal_gregorian" when="1912" xml:lang="ar">فبراير - 1912م</date></imprint>
                   <biblScope unit="volume" from="15" to="15" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">15</biblScope>
                   <biblScope unit="issue" from="2" to="2" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">2</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e298" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -82,7 +82,7 @@
 تعلم مبادئ القراءة والكتابة في القلمون ولاحت عليه من نشأته الأولى مخايل
 الذكاء والنجابة والعقل، واعتصم منذ طفولته بحبوة الحياء والأدب، وإنني لا أتذكر
 أن أحدًا أهانه بقول أو فعل، وكنت أنا الذي حملت الوالد رحمه الله تعالى على
-وضعه في مدرسة الحكومة الابتدائية في <placeName change="#d2e120" xml:id="placeName_4.d2e299">طرابلس</placeName> (وكنت يومئذ أطلب العلوم
+وضعه في مدرسة الحكومة الابتدائية في <placeName change="#d2e120 #d11e298" xml:id="placeName_4.d2e299" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> (وكنت يومئذ أطلب العلوم
 الدينية والعربية في تلك المدينة) وكان يضن به على المدن خوفًا على أخلاقه،
 ويحب أن يطلب العلم في غير المدارس الرسمية، وكنت أتعاهده بكل ما يحتاج إليه،
 فتلقى فيها شيئًا من مبادئ التركية والفرنسية والحساب والصرف والنحو بالتركية!!
@@ -137,7 +137,7 @@
 بالكلام المجمل والوصف الشعري.
 (1)
 كان أجدر الناس بأن يحفظ كلامه وينشر في هذا المقام صديقنا الأكبر الأستاذ
-العالم الصوفي الشيخ محمد كامل الرافعي أفضل الفضلاء في <placeName change="#d2e120" xml:id="placeName_5.d2e421">طرابلس الشام</placeName>، ولكن
+العالم الصوفي الشيخ محمد كامل الرافعي أفضل الفضلاء في <placeName change="#d2e120 #d11e298" xml:id="placeName_5.d2e421" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName>، ولكن
 ما كتبه في هذا المصاب شجون فيها ذكر ما وقع ووصف حاله هو فيها وما يعتقده
 في صديقه كاتب هذه السطور، فلا يتعلق شيء كثير منها بغرضنا، ويصح أن
 يكون منه بعض عباراته في إكباره المصاب على ما هو عليه من وقار المشيب،
@@ -223,14 +223,14 @@
 إِلَيْهِ رَاجِعُونَ} (البقرة: 156) ، منه سبحانه نستنزل الرضوان على جدث الفقيد
 العزيز، والصبر والسلوان على أفئدة أهله وعارفيه.
 (3)
-ما كتبه أكتَب علماء <placeName change="#d2e120" xml:id="placeName_7.d2e620">طرابلس الشام</placeName> وأعلم كتابها الشيخ إسماعيل أفندي الحافظ
+ما كتبه أكتَب علماء <placeName change="#d2e120 #d11e298" xml:id="placeName_7.d2e620" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> وأعلم كتابها الشيخ إسماعيل أفندي الحافظ
 المدرس في دار الفنون العثماني ومكتب النواب بالآستانة.
 سيدي الأخ الرشيد عزى الله نفسه بما يرجوه من صلاح الإسلام وإنزال
 السكينة على قلبه. أكتب هذه الكلمات بيد ترتجف أسفًا، وأنفسا تتقطع لهفًا، وبين
 قلبي قلب يكاد يقطر دمًا، ويتفطر تأثرًا وألمًا، وعلى عارضي دمع ينهل مدرارًا،
 ويتسابق انحدارًا، ثم لا يلبث أن ينقلب نارًا، تذكى فيّ أوارًا، دمع كأني أحس
 بسويداء قلبي تسيل في وليه، وسواد عيني يمتزج بأتيه، حتى لو استعملته مدادًا،
-لرقم على هذا الطرس سوادًا، وذلك شأني منذ قرأت في جرائد <placeName change="#d2e120" xml:id="placeName_9.d2e642">طرابلس</placeName> نعي ذلك
+لرقم على هذا الطرس سوادًا، وذلك شأني منذ قرأت في جرائد <placeName change="#d2e120 #d11e298" xml:id="placeName_9.d2e642" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> نعي ذلك
 الشاب الغض والحس المحض، والأدب الموفي على الروض جمالاً، والخلق
 المزري بنفحات الزهر أريجًا، والذكاء الذي يكشف أعقاب الخطوب، ويكاد يشق
 حجب الغيوب، ويستجلي خواطر القلوب، فيا له من خطب رُزئت به الفضيلة
@@ -402,7 +402,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_130.d2e1009"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_131.d2e1011"/> (الختم)
 (7)
-وكتب صفوة أدباء <placeName change="#d2e120" xml:id="placeName_10.d2e1017">بيروت</placeName> أصحاب التوقيعات كتابًا مشتركًا قالوا فيه:
+وكتب صفوة أدباء <placeName change="#d2e120 #d11e298" xml:id="placeName_10.d2e1017" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> أصحاب التوقيعات كتابًا مشتركًا قالوا فيه:
 الأستاذ العلامة مولانا السيد محمد رشيد رضا أطال الله بقاءه
 السلام على الأستاذ ورحمة الله وبركاته. وبعد فإنَّا نكتب واليد مرتجفة والقلب
 يخفق والعين تدمع للرزء الجليل الذي أصيب به الأدب والفضل والخلق الكريم
@@ -440,7 +440,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_157.d2e1094"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_158.d2e1096"/> مصطفى الغلاييني
 (8)
-وكتب صاحبا الإمضاء من سروات <placeName change="#d2e120" xml:id="placeName_11.d2e1103">بيروت</placeName> وكبار وجهائها إلى السيد الحكيم
+وكتب صاحبا الإمضاء من سروات <placeName change="#d2e120 #d11e298" xml:id="placeName_11.d2e1103" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> وكبار وجهائها إلى السيد الحكيم
 أدام الله بقاءه.
 مصابنا بالحسين عظيم، ووقعه في قلوبنا أليم، وما لهذا الخطب العميم، إلا
 جميل الصبر مما يعد من فضائل السيد الحكيم، الصادع بأمر ربه، الراضي بحكمه
@@ -478,7 +478,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_185.d2e1180"/> الداعي حسن بيهم
 (9)
 وكتب الكاتب الخطيب الشهير الشيخ أحمد طبارة صاحب <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d5e207 #d2e120" ref="oape:bibl:28 oclc:42900564" xml:id="title_6.d2e1186">الاتحاد
-العثماني</title></bibl> في <placeName change="#d2e120" xml:id="placeName_12.d2e1191">بيروت</placeName>: {إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ} (البقرة: 156) .
+العثماني</title></bibl> في <placeName change="#d2e120 #d11e298" xml:id="placeName_12.d2e1191" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>: {إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ} (البقرة: 156) .
 مولانا العلامة الأستاذ الرشيد:
 تناولت القلم لأكتب للأستاذ تعزية بالشهيد الحسين، فتراءى لي هول المصاب
 وتمثل أمامي فضل الفقيد، وأدبه الغض، وخلقه الكريم، فلم أدر ماذا أقول سوى
@@ -496,7 +496,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_193.d2e1225"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_194.d2e1227"/> أحمد حسن طبارة
 (10)
-وكتب الأديب الفاضل، سليل بيت العلم والفضائل، في <placeName change="#d2e120" xml:id="placeName_13.d2e1234">بيروت</placeName> (وهو الآن
+وكتب الأديب الفاضل، سليل بيت العلم والفضائل، في <placeName change="#d2e120 #d11e298" xml:id="placeName_13.d2e1234" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> (وهو الآن
 بمصر) .
 حضرة السيد الفاضل النبيل حفظه الله.
 أعرض أن المصاب بأخ الطرفين شقيق حضرتكم، لقد أصاب وايم الله كبدي
@@ -525,9 +525,9 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_213.d2e1291"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_214.d2e1293"/> محمد مصباح الحوت
 (11)
-وجاءنا من جمعية الإخاء الإسلامي ب<placeName change="#d2e120" xml:id="placeName_14.d2e1300">بيروت</placeName> هذا الكتاب فنشرناه بعد حذف
+وجاءنا من جمعية الإخاء الإسلامي ب<placeName change="#d2e120 #d11e298" xml:id="placeName_14.d2e1300" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> هذا الكتاب فنشرناه بعد حذف
 رسوم الخطاب، فإن لم يكن على شطرنا في موضوعه فللجمعية معنى يتصل به
-من وجه آخر، وليكن ختام ما ننشره من تعازي <placeName change="#d2e120" xml:id="placeName_15.d2e1307">بيروت</placeName> التي هي في مجموعها،
+من وجه آخر، وليكن ختام ما ننشره من تعازي <placeName change="#d2e120 #d11e298" xml:id="placeName_15.d2e1307" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> التي هي في مجموعها،
 أعرف البلاد السورية بقيمة رجالها:
 نبدي أن نبأ الفاجعة الأليمة بوفاة الشقيق قد ملأ القلوب أسفًا وحزنًا، وأسال
 من العيون حزنًا، قضى رحمه الله رحمة الأبرار، وأسكنه دار الكرامة مع الأخيار،
@@ -585,7 +585,7 @@
 نشر كاتب إنكليزي شهد حصار صنعاء في العام الماضي وعاد في هذه الأيام
 إلى إنكلترة مقالة في التيمس وصف فيها ذلك الحصار وحالة البلاد في هذا الأوان ,
 ترجمت <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e1420">المقطم</title></bibl> خلاصتها، فرأينا أن ننشرها لتكون تتمة لما نشرناه من قبل
-في مسألة <placeName change="#d2e120" xml:id="placeName_16.d2e1426">اليمن</placeName> قال الكاتب: (عقدت الحكومة العثمانية صلحًا غير مجيد مع الإمام
+في مسألة <placeName change="#d2e120 #d11e298" xml:id="placeName_16.d2e1426" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> قال الكاتب: (عقدت الحكومة العثمانية صلحًا غير مجيد مع الإمام
 يحيى بعد ما رَشَتْ زعماء الثورة بالأموال الطائلة ووعدتهم بالإصلاح، فنال الإمام
 بذلك أكثر مما كان يطمع فيه، وثبت في مركزه حاكمًا على قبائل الزيدية ولم تتغير
 الحال في ما سوى ذلك عما كانت عليه قبل بدء القتال , فالأتراك يملكون صنعاء
@@ -594,7 +594,7 @@
 الجنود ولكنه لم يُعِدْ المدافع التي غنمها في هذه الثورة أو في ثوراته السابقة ,
 واضطرت الحكومة أن ترسل خمسين ألف عسكري بقيادة عزت باشا وهو من أكبر
 قوادها للحصول على النتائج التي مر ذكرها.
-ولا يستطيع الواقف على حقيقة أحوال <placeName change="#d2e120" xml:id="placeName_17.d2e1448">اليمن</placeName> أن يقابل الأنباء التي وردت من
+ولا يستطيع الواقف على حقيقة أحوال <placeName change="#d2e120 #d11e298" xml:id="placeName_17.d2e1448" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> أن يقابل الأنباء التي وردت من
 الآستانة عن استعداد الإمام لتقديم مئة ألف مقاتل ليحاربوا الإيطاليين في طرابلس
 الغرب إلا بالابتسام. ذلك؛ لأن سلطة الإمام اسمية أكثر مما هي فعلية؛ ولأن
 الحكومة العثمانية تعجز عن نقل هؤلاء المتطوعين إلى ساحة الحرب. فالإمام إذًا
@@ -640,7 +640,7 @@
 من أن تفعل ذلك مكنت العرب من غنم عدد عظيم من البنادق وبعض المدافع من
 جيشها وهم يرفضون الآن ما تعرضه عليهم من الاقتراحات لرد هذه الأسلحة أو رد
 بعضها رفضًا باتًّا.
-وعلاوةً على ما تقدم فإن التغلب على البلاد الجبلية في <placeName change="#d2e120" xml:id="placeName_18.d2e1551">اليمن</placeName> محفوف بأخطار
+وعلاوةً على ما تقدم فإن التغلب على البلاد الجبلية في <placeName change="#d2e120 #d11e298" xml:id="placeName_18.d2e1551" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> محفوف بأخطار
 ومصاعب جمة إذا كانت الحال ملائمة لذلك؛ لأن البلاد وعرة المسالك تتخللها
 الجبال والهضاب من جميع الأنحاء فتجعل المواصلات أمرًا صعبًا جدًّا إن لم نقل
 محالاً، وفيها كثير من المعاقل الطبيعية ويسكنها قوم أشداء عُرفوا بالبسالة والإقدام؛
@@ -669,7 +669,7 @@
          
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_3.d2e1603">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_4.d2e1605">دعوة سيدي أحمد الشريف السنوسي
-إلى جهاد الإيطاليين في <placeName change="#d2e120" xml:id="placeName_19.d2e1609">طرابلس الغرب</placeName> وبرقة</head>
+إلى جهاد الإيطاليين في <placeName change="#d2e120 #d11e298" xml:id="placeName_19.d2e1609" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> وبرقة</head>
 <p change="#d2e120" xml:id="p_2.d2e1613">
                
 
@@ -777,7 +777,7 @@
 أو الأثيوبية.
 هذا ما يراه العلماء الغربيون في تقسيم اللغات السامية وتفرعاتها عن الأم التي
 نشأت منها. ولهم في موطن هذه الأم السامية الأصلي آراء ثلاثة الأول أن موطنها
-أفريقيا، والثاني أنه <placeName change="#d2e120" xml:id="placeName_20.d2e1832">العراق</placeName> وما يجاور الخليج الفارسي من أعلاه إلى اليمين
+أفريقيا، والثاني أنه <placeName change="#d2e120 #d11e298" xml:id="placeName_20.d2e1832" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وما يجاور الخليج الفارسي من أعلاه إلى اليمين
 والشمال، والثالث أنه شبه جزيرة العرب , أما الرأي الثاني فرأي العلامة الأستاذ
 جويدي صاحب المحاضرات المشهورة في الجامعة المصرية في العام الفائت , وأما
 الرأي الأول فالظاهر من كلام العلامة نولدكي أنه من القائلين به أو الذاهبين إليه ,
@@ -829,8 +829,8 @@
 فأقول:
 وجدنا اللغات السامية في البلدان الآتية:
 
-               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_1.d2e1946">1- </hi>في شمالي أفريقيا على شواطئ المتوسط من <placeName change="#d2e120" xml:id="placeName_21.d2e1949">الشام</placeName> شرقًا حتى تصل إلى
-بوغاز جبل طارق والأتلانتيكي غربًا ويشتمل ذلك على برقة و<placeName change="#d2e120" xml:id="placeName_22.d2e1954">طرابلس</placeName> الغرب
+               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_1.d2e1946">1- </hi>في شمالي أفريقيا على شواطئ المتوسط من <placeName change="#d2e120 #d11e298" xml:id="placeName_21.d2e1949" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> شرقًا حتى تصل إلى
+بوغاز جبل طارق والأتلانتيكي غربًا ويشتمل ذلك على برقة و<placeName change="#d2e120 #d11e298" xml:id="placeName_22.d2e1954" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الغرب
 وتونس والجزائر وبلاد مراكش.
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_2.d2e1962">2- </hi>في مصر وما يليها جنوبًا من بلاد الإثيوبيين أو ممالك الحبشة.
@@ -838,7 +838,7 @@
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_3.d2e1967">3- </hi>في جزيرة العرب وما والاها من فلسطين وسوريا حتى تصل آسيا
 الصغرى.
 
-               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_4.d2e1975">4- </hi>في بادية <placeName change="#d2e120" xml:id="placeName_23.d2e1978">الشام</placeName> و<placeName change="#d2e120" xml:id="placeName_24.d2e1981">العراق</placeName> من رأس الخليج الفارسي جنوبًا حتى تصل
+               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_4.d2e1975">4- </hi>في بادية <placeName change="#d2e120 #d11e298" xml:id="placeName_23.d2e1978" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> و<placeName change="#d2e120 #d11e298" xml:id="placeName_24.d2e1981" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> من رأس الخليج الفارسي جنوبًا حتى تصل
 المُوصل وديار بكر شمالاً، وليس في التاريخ ولا في الآثار ولا في التقاليد
 المتناقلة ما يشير أدنى إشارة إلى أنها كانت في غير هذه البلدان.
 هذه هي البلدان التي عاشت فيها الأمم التي تكلمت اللغات السامية لم يعرف
@@ -848,19 +848,19 @@
 ولا بد أن يكون في إحداها، وعلى هذا أجمع أرباب البحث من علماء اللغات
 والتاريخ قديمًا وحديثًا على ما أعلم وهو ظاهر قول العلامة نولدكي أيضًا.
 قلنا فيما مر: إن هنالك آراء ثلاثة في موطن السامية، الأول أنه أفريقيا
-والثاني أنه جزيرة العرب والثالث أنه <placeName change="#d2e120" xml:id="placeName_25.d2e2006">العراق</placeName> أو إقليم بابل وما يليه من بلاد
+والثاني أنه جزيرة العرب والثالث أنه <placeName change="#d2e120 #d11e298" xml:id="placeName_25.d2e2006" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> أو إقليم بابل وما يليه من بلاد
 الآشوريين. فلننظر في كل من هذه الآراء واحدًا واحدًا ولا شك أن الرأي الذي
 تتوفر فيه الأدلة التاريخية والعقلية هو أولى من صاحبيه بالقبول، دعونا ننظر أولاً
 إلى بلدان شمالي أفريقيا ونسأل تقاليد أهلها عن أهلها من أين جاءوا؟ إن البربر
 وأعني بهم سكان شمالي أفريقيا من الذين كانوا يتكلمون باللغة السامية ولا يزالون
 يتكلمون بها إلى الآن يرفضون بتاتًا أن يكون أصلهم من زنوج أفريقيا، ويصلون
-أنسابهم بأنساب العرب وأهل <placeName change="#d2e120" xml:id="placeName_26.d2e2022">اليمن</placeName> و<placeName change="#d2e120" xml:id="placeName_27.d2e2025">الشام</placeName>، والقول المعتبر في ذلك إنما هو قول
+أنسابهم بأنساب العرب وأهل <placeName change="#d2e120 #d11e298" xml:id="placeName_26.d2e2022" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> و<placeName change="#d2e120 #d11e298" xml:id="placeName_27.d2e2025" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، والقول المعتبر في ذلك إنما هو قول
 العلامة ابن خلدون صاحب التاريخ المشهور، فراجع ما نقله في أنساب البربر -
 المجلد السادس طبعة بولاق من صفحة 89 إلى 98.
 إن الواقف على ما يذكره هذه العلامة في أنساب القوم لا يشك أنهم جاءوا إلى
-تلك البلاد الواسعة من <placeName change="#d2e120" xml:id="placeName_28.d2e2037">الشام</placeName> والبلاد العربية، ولا أقول: إن البربر استعمروا بلادهم
+تلك البلاد الواسعة من <placeName change="#d2e120 #d11e298" xml:id="placeName_28.d2e2037" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> والبلاد العربية، ولا أقول: إن البربر استعمروا بلادهم
 ابتداء لم يكن فيها قبلهم أحد من الأمم ولكني أقول: إن هؤلاء الذين جاءوا البلاد
-ولغتهم من الدوحة السامية جاءوا من <placeName change="#d2e120" xml:id="placeName_29.d2e2044">الشام</placeName> وجزيرة العرب فتغلبوا مع الأيام على
+ولغتهم من الدوحة السامية جاءوا من <placeName change="#d2e120 #d11e298" xml:id="placeName_29.d2e2044" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وجزيرة العرب فتغلبوا مع الأيام على
 أهل البلاد، وصارت إليهم الدولة والسلطة واختلطوا مع من غلبوهم بالزواج
 فصاروا من ثمَّ جميعهم (الغالبون والمغلوبون) ينتسبون إلى الأمم التي كان منها
 الغالبون، لا أستطيع أن أنقل كل ما ذكره العلامة ابن خلدون في أنساب البربر
@@ -878,13 +878,13 @@
 طويلة هي أشهر من أن تذكر، وكادت دولتهم هناك أن يكون لها الغلب على أشهر
 الممالك المعروفة حينئذ لو لم تسبقها رومية العظمى إلى ذلك، وبناء على هذا
 جميعه أعيد ما قلته من أن التقاليد والتواريخ كلها تشير إلى جهة واحدة وهي أن
-الأمم السامية هم دخلاء على شمالي أفريقيا وقد جاءوا إلى هناك من <placeName change="#d2e120" xml:id="placeName_30.d2e2087">الشام</placeName> وجزيرة
+الأمم السامية هم دخلاء على شمالي أفريقيا وقد جاءوا إلى هناك من <placeName change="#d2e120 #d11e298" xml:id="placeName_30.d2e2087" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وجزيرة
 العرب، فليس شمالي أفريقيا إذن موطنًا للسامية ولا يعقل أن يكون هناك أيضًا.
 فرغنا الآن من الكلام عن شمالي أفريقيا، بقي علينا مصر والحبشة , أما
 مصر فلم أسمع عمن ذهب إلى أنها موطن السامية الأصلي وهذا مما يغنيني على
 الإطالة وإقامة الدليل على أمر يُنازع فيه، ومع ذلك أقول: إن الأثري والمؤرخ
 الشهير العلامة رولسن يرجح أن التمدن المصري القديم ليس أصليًّا فيها إنما جاءها
-عن <placeName change="#d2e120" xml:id="placeName_31.d2e2103">العراق</placeName> وبلاد العرب، ومن المشهور في الآثار والتواريخ العربية أن دولة
+عن <placeName change="#d2e120 #d11e298" xml:id="placeName_31.d2e2103" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وبلاد العرب، ومن المشهور في الآثار والتواريخ العربية أن دولة
 الرعاة في مصر وكانت سامية جاءتها من البلاد العربية، بقي علينا بلاد الحبش -
 وعامة المحققين وعلماء اللغة لا يشكون في أن الحبشة هؤلاء أعني الذين يتكلمون
 بهذه اللغة السامية هاجروا إليها من البلاد العربية، ومثل ذلك أقول في الأمهريين إن
@@ -896,17 +896,17 @@
 في أفريقيا وكانوا ما كانوا ثم خرجوا عن بَكرة أبيهم من موطنهم الأصلي في بلاد
 الزنوج ولم يتركوا أثرًا هناك يدل عليهم أصلاً، إن هذا الرأي لا يُقبل إلا مع
 البرهان الراجح إن لم نقل البرهان القاطع للشك والنافي للاحتمال.
-بقي علينا بلاد <placeName change="#d2e120" xml:id="placeName_32.d2e2132">العراق</placeName> من الخليج الفارسي إلى <placeName change="#d2e120" xml:id="placeName_33.d2e2135">الموصل</placeName> وديار بكر -
+بقي علينا بلاد <placeName change="#d2e120 #d11e298" xml:id="placeName_32.d2e2132" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> من الخليج الفارسي إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_33.d2e2135" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> وديار بكر -
 والباحثون على اتفاق بينهم أن الآشوريين جاءوا من بابل وأن لغة الآشوريين ولغة
 قدماء البابليين واحدة، والآثار البابلية تقول إن أصحاب آثارها من الذين تكلموا بهذا
 اللسان السامي لم يكونوا أصليين في البلاد وإنما كان قبلهم قوم على جانب عظيم من
 التمدن، وكان لهم لغة لكن من غير الأرومة السامية وعلى جانب من الارتقاء، فلما
 تغلب عليهم هؤلاء الساميون أخذوا عنهم الكثير من آدابهم وترجموا لغتهم
 ومكتوباتهم إلى لغتهم السامية، والمأخوذ من هذا عقلاً والواجب اعتماده أيضًا أن
-الساميين أو السامية جاءت إلى <placeName change="#d2e120" xml:id="placeName_34.d2e2153">العراق</placeName> وبابل من مكان آخر وكان أهلها غزاة فاتحين،
+الساميين أو السامية جاءت إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_34.d2e2153" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وبابل من مكان آخر وكان أهلها غزاة فاتحين،
 ولا أقرب إلى العقل من أن يكونوا نزحوا إلى هناك من الجزيرة العربية فإن
 المشاهد والمعروف في كل العصور التاريخية إلى الآن أن هؤلاء أعني أهل
-الجزيرة العربية كانوا يهاجرون من سائر أنحائها إلى <placeName change="#d2e120" xml:id="placeName_35.d2e2163">الشام</placeName> و<placeName change="#d2e120" xml:id="placeName_36.d2e2166">العراق</placeName> يستوطنون
+الجزيرة العربية كانوا يهاجرون من سائر أنحائها إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_35.d2e2163" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> و<placeName change="#d2e120 #d11e298" xml:id="placeName_36.d2e2166" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> يستوطنون
 هناك تجارًا أو زرّاعين يحرثون الأرض ويربون المواشي وإذا وجدوا نهزة للتغلب
 والتسلط على مجاوريهم انتهزوها.
 ***
@@ -921,32 +921,32 @@
 في شبه جزيرة العرب لغتان هما القحطانية والعادية. وأن القحطانية كانت بين
 السريانية والعبرانية وهي أميل إلى السريانية كما نرجح. وبيانه - قال المسعودي:
 وكان الهيثم بن عدي الطائي يقول إسماعيل تكلم بلغة جُرهُم؛ لأن إسماعيل كان
-سرياني اللسان على لغة أبيه خليل الرحمن حين أسكنه هو وأمه هاجر ب<placeName change="#d2e120" xml:id="placeName_37.d2e2202">مكة</placeName> على ما
+سرياني اللسان على لغة أبيه خليل الرحمن حين أسكنه هو وأمه هاجر ب<placeName change="#d2e120 #d11e298" xml:id="placeName_37.d2e2202" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> على ما
 ذكرنا فصاهر جرهم ونشأ على لغتها ونطق بكلامها ونزار تأبى أن يكون إسماعيل
 نشأ على لغة جُرهُم ويقولون: إن الله عزَّ وجل أعطاه هذه اللغة - إلى أن يقول:
 ووجدنا ولد قحطان بخلاف لغة ولد نزار بن معد - ويقول: وقد وجدنا (قحطان)
 سرياني اللسان وولده (يعرب) بخلاف لسانه. (راجع المسعودي مجلد أول وجه
 192 طبع المطبعة الأزهرية المصرية سنة 1353) . وقال العلامة ابن خلدون:
-وأما جرهم فكانت ديارهم ب<placeName change="#d2e120" xml:id="placeName_38.d2e2218">اليمن</placeName> وكانوا يتكلمون بالعبرانية - وقيل إنما نزلت
-جرهم <placeName change="#d2e120" xml:id="placeName_39.d2e2223">الحجاز</placeName> ثم بنو قطور بن كركر بن عملاق لقحط أصاب <placeName change="#d2e120" xml:id="placeName_40.d2e2227">اليمن</placeName> فلم يزالوا بمكة
+وأما جرهم فكانت ديارهم ب<placeName change="#d2e120 #d11e298" xml:id="placeName_38.d2e2218" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وكانوا يتكلمون بالعبرانية - وقيل إنما نزلت
+جرهم <placeName change="#d2e120 #d11e298" xml:id="placeName_39.d2e2223" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ثم بنو قطور بن كركر بن عملاق لقحط أصاب <placeName change="#d2e120 #d11e298" xml:id="placeName_40.d2e2227" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> فلم يزالوا بمكة
 إلى أن كان شأن إسماعيل عليه السلام ونبوته فآمنوا به وقاموا بأمره وورثوا ولاية
-البيت عنه حتى غلبتهم عليه خزاعة وكنانة فخرجت جرهم من <placeName change="#d2e120" xml:id="placeName_41.d2e2234">مكة</placeName> ورجعوا إلى
-ديارهم ب<placeName change="#d2e120" xml:id="placeName_42.d2e2239">اليمن</placeName> إلى أن هلكوا (ابن خلدون مجلد ثان وجه 30 طبعة بولاق) .
+البيت عنه حتى غلبتهم عليه خزاعة وكنانة فخرجت جرهم من <placeName change="#d2e120 #d11e298" xml:id="placeName_41.d2e2234" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ورجعوا إلى
+ديارهم ب<placeName change="#d2e120 #d11e298" xml:id="placeName_42.d2e2239" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> إلى أن هلكوا (ابن خلدون مجلد ثان وجه 30 طبعة بولاق) .
 وقال العلامة ابن هشام إنهم وجدوا في ركن الكعبة كتابًا بالسريانية قرأه لهم
 رجل يهودي (راجع سيرة ابن هشام جزء 1 وجه 66 طبعة بولاق) .
 يظهر من النقول التي أوردناها أن الإمامين ابن خلدون والمسعودي متفقان
-على أن جرهم قحطانية وكانت ديارهم <placeName change="#d2e120" xml:id="placeName_43.d2e2251">اليمن</placeName> أولاً (وهذا نص ابن خلدون) إلا أن
+على أن جرهم قحطانية وكانت ديارهم <placeName change="#d2e120 #d11e298" xml:id="placeName_43.d2e2251" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> أولاً (وهذا نص ابن خلدون) إلا أن
 الإمام المسعودي يقول: إن لغة جرهم السريانية، وأما ابن خلدون فيقول: إنها
 العبرانية، وأرى أن التوفيق بينهما إذا قلنا: إن القحطانية أقرب إلى السريانية سهل
 ؛ لأنه يمكننا حمل العبرانية في كلام ابن خلدون على اللغة التي كان يتكلم بها اليهود
 في أيامه وهي السريانية أو العبرانية البابلية. وإذا كانت القحطانية هي السريانية
 القديمة أو لغة قريبة منها فيترجح عندنا بل ينبغي أن تكون الحميرية التي خلفت
-القحطانية، وبقيت في الجزيرة العربية في <placeName change="#d2e120" xml:id="placeName_44.d2e2267">اليمن</placeName> إلى الجيل الثالث بعد الهجرة -
+القحطانية، وبقيت في الجزيرة العربية في <placeName change="#d2e120 #d11e298" xml:id="placeName_44.d2e2267" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> إلى الجيل الثالث بعد الهجرة -
 على ما نصه العلامة الهمداني [1] قريبة من السريانية أيضًا وأرجح أن قد بقي أثر
 كبير من هذه الحميرية في مخلاف حضور وحوالي مدينة ظفار إلى اليوم وفي
 الشحر وسواحل حضرموت أيضًا.
 قلنا: إن لغات شبه جزيرة العرب لغتان القحطانية الأولى، وقد خلفتها
-الحميرية التي بقيت في <placeName change="#d2e120" xml:id="placeName_45.d2e2281">اليمن</placeName> إلى الجيل الرابع بعد الهجرة على ما نص العلامة
+الحميرية التي بقيت في <placeName change="#d2e120 #d11e298" xml:id="placeName_45.d2e2281" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> إلى الجيل الرابع بعد الهجرة على ما نص العلامة
 الهمداني كما أشرنا قبيل الآن، والعادية وهي العربية الأولى، وأهلها من عاد
 وثمود وطسم وجديس والعماليق هم العرب العاربة، وقد انقرضوا على ما يقولون
 وخلفهم العدنانيون أو النزاريون في أغلب مواطنهم التي كانوا فيها تكلموا بلغتهم.
@@ -955,10 +955,10 @@
 كنسبة الحميرية إلى القحطانية الأولى على ما أرجح.
 دعوني أنقل ما ذكره الطبري في هؤلاء العرب العادية وفي لغتهم ومواطنهم
 وسأختصر في النقل ما استطعت. قال رحمه الله - فعمليق أبو العماليق كلهم أمم
-تفرقت في البلاد وكان أهل المشرق وأهل عمان وأهل <placeName change="#d2e120" xml:id="placeName_46.d2e2304">الحجاز</placeName> وأهل <placeName change="#d2e120" xml:id="placeName_47.d2e2307">الشام</placeName> وأهل
-مصر منهم. ومنهم كانت الجبابرة ب<placeName change="#d2e120" xml:id="placeName_48.d2e2313">الشام</placeName> الذين يقال لهم الكنعانيون، ومنهم كانت
+تفرقت في البلاد وكان أهل المشرق وأهل عمان وأهل <placeName change="#d2e120 #d11e298" xml:id="placeName_46.d2e2304" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وأهل <placeName change="#d2e120 #d11e298" xml:id="placeName_47.d2e2307" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وأهل
+مصر منهم. ومنهم كانت الجبابرة ب<placeName change="#d2e120 #d11e298" xml:id="placeName_48.d2e2313" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> الذين يقال لهم الكنعانيون، ومنهم كانت
 الفراعنة بمصر، وكان أهل البحرين وأهل عمان منهم أمة يسمون جاسم , وكان
-ساكنو المدينة منهم - وأهل نجد منهم - وأهل تيماء منهم. وكان ملك <placeName change="#d2e120" xml:id="placeName_49.d2e2320">الحجاز</placeName> منهم
+ساكنو المدينة منهم - وأهل نجد منهم - وأهل تيماء منهم. وكان ملك <placeName change="#d2e120 #d11e298" xml:id="placeName_49.d2e2320" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> منهم
 بتيماء واسمه الأرقم وكانوا ساكني نجد مع ذلك - فكانت طنم وعماليق وأميم
 وجاسم قومًا عربًا لسانهم الذي جبلوا عليه لسان عربي - وولد إرم بن سام بن نوح
 عوض بن إرم وغاثر بن عوص وعاد بن عوص وعبيل بن عوص، وولد غاثر
@@ -966,22 +966,22 @@
 المضري، فكانت العرب تقول لهذه الأمم العرب العاربة؛ لأنه لسانهم الذي جبلوا
 عليه، ويقولون لبني إسماعيل بن إبراهيم العرب المتعربة؛ لأنهم إنما تكلموا بلسان
 هذه الأمم حين سكنوا بين أظهرهم , فعاد وثمود والعماليق وأميم وجاسم وجديس
-وطسم هم العرب. فكانت عاد بهذا الرمل إلى حضرموت و<placeName change="#d2e120" xml:id="placeName_50.d2e2341">اليمن</placeName> كله، وكانت ثمود
-بالحِجْر بين <placeName change="#d2e120" xml:id="placeName_51.d2e2346">الحجاز</placeName> و<placeName change="#d2e120" xml:id="placeName_52.d2e2349">الشام</placeName> إلى وادي القرى وما حوله، ولحقت جديس بطسم فكانوا
+وطسم هم العرب. فكانت عاد بهذا الرمل إلى حضرموت و<placeName change="#d2e120 #d11e298" xml:id="placeName_50.d2e2341" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> كله، وكانت ثمود
+بالحِجْر بين <placeName change="#d2e120 #d11e298" xml:id="placeName_51.d2e2346" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> و<placeName change="#d2e120 #d11e298" xml:id="placeName_52.d2e2349" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> إلى وادي القرى وما حوله، ولحقت جديس بطسم فكانوا
 معهم باليمامة وما حولها إلى البحرين واسم اليمامة , إذ ذاك جوّ ٌ، وسكنت جاسم
 عمان فكانوا بها.
 (انظر الطبري مجلد 1 وجه 213 و214 و214 طبع ليبسك)
 يظهر مما نقلناه عن هذا المؤرخ الثقة الصلة التامة في اللغة بين هذه القبائل
 البائدة وأشهرها عاد وبين القبائل العدنانية الباقية إلى اليوم وأشهرها كان بعد قريش
-قيس وتميم. ويظهر منه أيضًا الصلة بين أهل نجد و<placeName change="#d2e120" xml:id="placeName_53.d2e2365">الحجاز</placeName> وبين الكنعانيين في
+قيس وتميم. ويظهر منه أيضًا الصلة بين أهل نجد و<placeName change="#d2e120 #d11e298" xml:id="placeName_53.d2e2365" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وبين الكنعانيين في
 الشام فإنهم جميعًا من العمالقة. ومن الصلة بينهم في النسب نستنتج الصلة في اللغة
 وعليه فتكون العربية والعبرانية من فرع واحد؛ لأنها أي العبرانية الفينيقية
 والكنعانية من فرع واحد إن لم يكونا لغة واحدة. ويظهر منه أيضًا البلدان التي
-احتلتها هذه القبائل، فإن عادا نزلت الأحقاف إلى حضرموت و<placeName change="#d2e120" xml:id="placeName_54.d2e2377">اليمن</placeName> كله، وثمود
-الحجر بين <placeName change="#d2e120" xml:id="placeName_55.d2e2382">الحجاز</placeName> و<placeName change="#d2e120" xml:id="placeName_56.d2e2386">الشام</placeName> إلى وادي القرى، وطسم وجديس اليمامة وما حولها
-إلى البحرين، وجاسم عمان والعمالقة نجدًا و<placeName change="#d2e120" xml:id="placeName_57.d2e2391">الحجاز</placeName> وتيماء، فما كان صالحًا للفلح
+احتلتها هذه القبائل، فإن عادا نزلت الأحقاف إلى حضرموت و<placeName change="#d2e120 #d11e298" xml:id="placeName_54.d2e2377" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> كله، وثمود
+الحجر بين <placeName change="#d2e120 #d11e298" xml:id="placeName_55.d2e2382" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> و<placeName change="#d2e120 #d11e298" xml:id="placeName_56.d2e2386" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> إلى وادي القرى، وطسم وجديس اليمامة وما حولها
+إلى البحرين، وجاسم عمان والعمالقة نجدًا و<placeName change="#d2e120 #d11e298" xml:id="placeName_57.d2e2391" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وتيماء، فما كان صالحًا للفلح
 والزرع فلحوه وزرعوه وما كان في طريق التجارة أقاموا فيه محطات لها من خليج
-فارس شرقًا إلى أيلة وبحر <placeName change="#d2e120" xml:id="placeName_58.d2e2398">الشام</placeName>، غربًا ومن حضرموت و<placeName change="#d2e120" xml:id="placeName_59.d2e2402">اليمن</placeName> جنوبًا إلى برية
+فارس شرقًا إلى أيلة وبحر <placeName change="#d2e120 #d11e298" xml:id="placeName_58.d2e2398" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، غربًا ومن حضرموت و<placeName change="#d2e120 #d11e298" xml:id="placeName_59.d2e2402" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> جنوبًا إلى برية
 الشام وفلسطين شمالاً، فكانت من ثم مواطنهم لذلك الحين من أحسن النقط التجارية
 . ولذلك كثر غناهم وعظمت دولتهم وأصبحوا مضرب مثل عند من خلفهم في الغني
 والقوة والعظمة وتناقلوا عنهم لعظم آثارهم أخبارًا هي أشبه بأخبار القصاص
@@ -989,7 +989,7 @@
 إلى الجن وتسخير القوات غير المنظورة كما نسبوا مثل ذلك إلى بعلبك وتدمر
 وبعض آثار بابل وآشور.
 ((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_4.d2e2420">(*) خطاب لصديقنا الأستاذ جبر أفندي ضومط معلم اللغة العربية في المدرسة الكلية الأمريكانية
-ب<placeName change="#d2e120" xml:id="placeName_60.d2e2424">بيروت</placeName> ألقاه في تلك المدرسة ثم أتحفنا به.
+ب<placeName change="#d2e120 #d11e298" xml:id="placeName_60.d2e2424" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> ألقاه في تلك المدرسة ثم أتحفنا به.
 (1) همداني وصف جزيرة العرب طبع ليدن وجه 134 - 136.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_4.d2e2430">الكاتب: <persName change="#d2e141 #d2e120 #d3e274" xml:lang="ar" xml:id="persName_6.d2e2432" ref="oape:pers:2823 viaf:65382270">
                             <forename xml:lang="ar">جبر</forename>
@@ -1050,9 +1050,9 @@
 يقتلون الناس فيها ثلاثًا وهدموا الكعبة وهي بيت الله عندهم وأوقدوا النيران بين
 أحجارها وأستارها) (الجزء الرابع صفحة 78 و79) .
 الحكاية على الإجمال أن ابن الزبير ادعى الخلافة فملك الحرمين والعراق
-وكاد يغلب على <placeName change="#d2e120" xml:id="placeName_61.d2e2545">الشام</placeName> وكان أمره كل يوم في ازدياد وبإزائه بنو أمية في <placeName change="#d2e120" xml:id="placeName_62.d2e2549">الشام</placeName> فلما
+وكاد يغلب على <placeName change="#d2e120 #d11e298" xml:id="placeName_61.d2e2545" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> وكان أمره كل يوم في ازدياد وبإزائه بنو أمية في <placeName change="#d2e120 #d11e298" xml:id="placeName_62.d2e2549" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> فلما
 تولى عبد الملك الخلافة أرسل الحجاج إلى ابن الزبير فحاصره ولاذ ابن الزبير
-ب<placeName change="#d2e120" xml:id="placeName_63.d2e2556">مكة</placeName> فنصب الحجاج المنجنيق على الزيادة التي كان زادها ابن الزبير (كما يجيء
+ب<placeName change="#d2e120 #d11e298" xml:id="placeName_63.d2e2556" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> فنصب الحجاج المنجنيق على الزيادة التي كان زادها ابن الزبير (كما يجيء
 تفصيله) .
 يعرف كل من له أدنى إلمام بالتاريخ أن الحجاج ما أراد إلا قتال ابن الزبير
 ولكونه لائذًا بالكعبة اضطر إلى نصب المنجنيق على الكعبة، ولكن مع ذلك تحرز
@@ -1062,11 +1062,11 @@
 هذا فراق بيني وبينك. وأنه أباح للحجاج ضرب الكعبة بالمنجنيق وهدم
 الكعبة وإيقاد النيران بين أستارها، فالناظر في عبارته يتوهم بل يستيقن أن
 عبد الملك تفرغ من بدء الأمر للاستهانة بالدين والقرآن والحرمين وجعل الاستهانة
-نصب عينه ومرمى غايته، وقتل ابن الزبير كان إما لأنه دافع عن <placeName change="#d2e120" xml:id="placeName_64.d2e2581">مكة</placeName> أو لكونه
+نصب عينه ومرمى غايته، وقتل ابن الزبير كان إما لأنه دافع عن <placeName change="#d2e120 #d11e298" xml:id="placeName_64.d2e2581" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> أو لكونه
 أيضًا جنس الاستهانة بالحرم.
 أما تفصيل الواقعة وتعيين بادئ الظلم فهو أن ابن الزبير لما استولى على
 الحرمين أخرج بني أمية من المدينة فخرج مروان وابنه عبد الملك وهو عليل مجدر
-فاستولى على <placeName change="#d2e120" xml:id="placeName_65.d2e2593">الشام</placeName>، وصدرت من ابن الزبير أفعال نقموا عليه لأجلها فمنها أنه
+فاستولى على <placeName change="#d2e120 #d11e298" xml:id="placeName_65.d2e2593" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، وصدرت من ابن الزبير أفعال نقموا عليه لأجلها فمنها أنه
 تحامل على بني هاشم وأظهر لهم العداوة والبغضاء [1] حتى إنه ترك الصلاة على
 النبي في الخطبة ولما سألوه عن هذا قال: إن للنبي أهل سوء يرفعون رءوسهم إذا
 سمعوا به [2] ومنها أنه هدم الكعبة ومع أن هدمها لم يكن إلا لرمتها وإصلاحها ولكن
@@ -1080,7 +1080,7 @@
 وجعل الغرض الزيادة التي كان زادها ابن الزبير، صرح بذلك العلامة البشاري في
 أحسن التقاسيم. ثم إن من مسائل الفقه أن البغاة إذا تحصنوا بالكعبة لا يمنع هذا
 عن قتالهم ولذلك أمر النبي في وقعة الفتح بقتل أحدهم وهو متعلق بأستار الكعبة
-وابن الزبير كان عند أهل <placeName change="#d2e120" xml:id="placeName_66.d2e2626">الشام</placeName> من البغاة والمارقين عن الدين.
+وابن الزبير كان عند أهل <placeName change="#d2e120 #d11e298" xml:id="placeName_66.d2e2626" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> من البغاة والمارقين عن الدين.
 ولو كان أراد الحجاج الاستهانة بالحرم فما كان مراده من رمته وإصلاحه بعد
 قتل ابن الزبير، ومعلوم أن تعمير الحَجاج هو كعبة الإسلام وقبلة المسلمين كافةً.
 أما قول عبد الملك للقرآن هذا فراق بيني وبينك، فحقيقته أن عبد الملك كان
@@ -1197,7 +1197,7 @@
 بالمدينة فاطرد أهلهم وأَخِفْ من مررت بها وانهب مال من أصبت له مالاً ممن لم
 يكن دخل في طاعتنا وأوهمْ أهل المدينة أنك تريد أنفسهم وأنه لا براءة لهم عندك <gap resp="#org_MS" change="#d2e120" xml:id="gap_248.d2e2881"/>
                
-حتى تدخل <placeName change="#d2e120" xml:id="placeName_67.d2e2885">مكة</placeName> ولا تعرض فيهما لأحد وأرهب الناس فيما بين <placeName change="#d2e120" xml:id="placeName_68.d2e2888">مكة</placeName> والمدينة ثم
+حتى تدخل <placeName change="#d2e120 #d11e298" xml:id="placeName_67.d2e2885" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ولا تعرض فيهما لأحد وأرهب الناس فيما بين <placeName change="#d2e120 #d11e298" xml:id="placeName_68.d2e2888" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> والمدينة ثم
 امض حتى تأتي صنعاء فإن لنا بها شيعة وقد جاءني كتابهم. فخرج بسر فجعل لا
 يمر بحي من أحياء العرب إلا فعل ما أمره معاوية (اليعقوبي طبع أوربا صفحة
 
@@ -1238,7 +1238,7 @@
 ((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_5.d2e2975">(1) اليعقوبي طبع أوروبا صفحة <date calendar="#cal_gregorian" when="0311" change="#d3e146 #d2e120" xml:id="date_6.d2e2977">311</date> من الجزء الثاني.
 (2) الجزء الثاني من اليعقوبي صفحة 311.
 (3) الجزء الثاني صفحة 258.
-(4) المنار: في هذا النفي بل فيما أورده الناقد في هذه المسألة نظر فقد نقل الحافظ في الإصابة عن ابن يونس أن معاوية وجه بسرًا إلى <placeName change="#d2e120" xml:id="placeName_69.d2e2986">اليمن</placeName> و<placeName change="#d2e120" xml:id="placeName_70.d2e2990">الحجاز</placeName> سنة أربعين (وأمره أن ينظر من كان في طاعة علي فيوقع بهم ففعل) فهذا كلام المحدثين لا الشيعة وأهل المحاضرة، وقد أشار في الإصابة إلى أنه لا ينبغي التشاغل بأخبار بسر الشهيرة في الفتن أي لما قيل من أن له صحبة وهل يعقل أن يكون إيقاعه بالمطيعين لعلي قاصرًا على قتله طفلي ابن عباس رضي الله عنهما؟ ؟ .</note>
+(4) المنار: في هذا النفي بل فيما أورده الناقد في هذه المسألة نظر فقد نقل الحافظ في الإصابة عن ابن يونس أن معاوية وجه بسرًا إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_69.d2e2986" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> و<placeName change="#d2e120 #d11e298" xml:id="placeName_70.d2e2990" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> سنة أربعين (وأمره أن ينظر من كان في طاعة علي فيوقع بهم ففعل) فهذا كلام المحدثين لا الشيعة وأهل المحاضرة، وقد أشار في الإصابة إلى أنه لا ينبغي التشاغل بأخبار بسر الشهيرة في الفتن أي لما قيل من أن له صحبة وهل يعقل أن يكون إيقاعه بالمطيعين لعلي قاصرًا على قتله طفلي ابن عباس رضي الله عنهما؟ ؟ .</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_5.d2e2994">الكاتب: <persName change="#d2e141 #d2e120 #d3e274" xml:lang="ar" xml:id="persName_7.d2e2996" ref="oape:pers:1883">شبلي النعماني</persName>
          </byline></div>
             <pb n="n15-p129" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P2524.xhtml" change="#d2e120" xml:id="pb_13.d2e3000"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="129" xml:id="pb_14.d2e3001"/>
@@ -1292,7 +1292,7 @@
 ثم ظهرت فكرة عقد مؤتمر إسلامي عام فاتجه نظر الأفغاني نحو مكة
 واستحسن العالم الإسلامي ذلك إلا أن السلطان عبد الحميد قد راعه اتجاه الجامعة
 الإسلامية نحو بلاد العرب التي أقلقته ثوراتها الماضية فأخفقت فكرة عقد المؤتمر
-في <placeName change="#d2e120" xml:id="placeName_71.d2e3109">مكة</placeName>.
+في <placeName change="#d2e120 #d11e298" xml:id="placeName_71.d2e3109" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>.
 أما الكواكبي فقد كان مع ذلاقة لسانه في الخطابة صاحب نظر دقيق نير، وقد
 أخذ فكرة الأفغاني في عقد المؤتمر الإسلامي فشرحها شرحًا مطولاً في كتابه الذي
 صدر باسم (سجل جمعية أم القرى) وضمن هذا الكتاب أعمال المؤتمر الذي لم
@@ -1361,7 +1361,7 @@
 نسكي مدير جريدة ترجمان التي تطبع في بغجه سراي في القريم فاقترح عقد
 المؤتمر في القطر المصري وقابل المصريون هذا الاقتراح بحمية ونشروا على
 العالم الإسلامي منشورات حماسية إلا أن هذا المؤتمر أخفق أيضًا.
-وقد قرأت في أحد أعداد <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_10.d2e3262">المنار</title> التي تصدر في <pubPlace><placeName>مصر</placeName></pubPlace></bibl>، وقد تفضل
+وقد قرأت في أحد أعداد <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_10.d2e3262">المنار</title> التي تصدر في <pubPlace><placeName ref="geon:357994 jaraid:place:3 oape:place:417 wiki:Q79" resp="#xslt" change="#d11e298">مصر</placeName></pubPlace></bibl>، وقد تفضل
 بإرسالها إليَّ المسيو ماسينيوس اقتراحًا لأحد المكاتبين يقترح به عقد المؤتمر إلا أنه
 لم يكن سببَ إخفاق المشروع فسادٌ في إدارته بل كانت هنالك صعوبات مادية تحف
 به من كل جانب.
@@ -1419,7 +1419,7 @@
 إن الجامعة الإسلامية تسير بصراحة، وأنا أعرف جامعة أخرى لا صلة لها
 بالدين. وهذه الجامعة أهلية محضة، والغرض منها إحياء تلك المدنية الإسلامية
 الشرقية القديمة وإظهار جمالها وريحها العاطر القديم. وذلك أمل تشترك فيه ضفاف
-الفرات الغنية الخصبة و<placeName change="#d2e120" xml:id="placeName_72.d2e3391">دمشق</placeName> القديمة من ورائه أن تتجدد عجائب مدائن الأندلس.
+الفرات الغنية الخصبة و<placeName change="#d2e120 #d11e298" xml:id="placeName_72.d2e3391" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> القديمة من ورائه أن تتجدد عجائب مدائن الأندلس.
 وليس هذا الأمل إسلاميًّا فقط بل إن الحمية التي يبديها الكتاب المسيحيون
 حديثو السن لا تقل عن حمية إخوانهم المسلمين قوة وشغفًا. إلا أن هذا الميل لا
 يمكن اشتراكه بالجامعة الإسلامية الدينية بدون تكلف في الألفاظ وتوسيع للدائرة إلى
@@ -1490,9 +1490,9 @@
                
 
                
-رسالة طويلة أرسلها إلى <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:30 oclc:1034550756" xml:id="title_14.d2e3552">الحقيقة</title></bibl> البيروتية من <placeName change="#d2e120" xml:id="placeName_73.d2e3555">اليمن</placeName> ضابط عثماني
+رسالة طويلة أرسلها إلى <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:30 oclc:1034550756" xml:id="title_14.d2e3552">الحقيقة</title></bibl> البيروتية من <placeName change="#d2e120 #d11e298" xml:id="placeName_73.d2e3555" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> ضابط عثماني
 شهد الحرب والصلح هنالك بنفسه، لما فيها من الفوائد الجديرة بالتأريخ قال:
-كان يوم السبت الواقع في 8 ت 1 سنة 327 يومًا عظيمًا في <placeName change="#d2e120" xml:id="placeName_74.d2e3563">اليمن</placeName> حيث
+كان يوم السبت الواقع في 8 ت 1 سنة 327 يومًا عظيمًا في <placeName change="#d2e120 #d11e298" xml:id="placeName_74.d2e3563" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> حيث
 تجلت السعادة على تلك الربوع وانمحى الشقاء والبؤس اللذان كانا يرفرفان عليها
 وأراني فخورًا في زف هذه البشرى لإخواني في الدين والوطنية.
 إن قرية (دعان) الواقعة على مسافة خمس ساعات من الشمال الشرقي من
@@ -1500,7 +1500,7 @@
 شروط الصلح بين الإمام يحيى بن حميد الدين وقائد الحملة عزت باشا فانحسم بذلك
 الخلاف وهدأت الخواطر وارتاحت النفوس، ولعمري إن الاتفاق خير وسيلة لحقن
 الدماء؛ لأن التطاحن لا يجدي نفعًا بل يكون سببًا لتأصل البغض وضعف القوة.
-وقد قام الإمام بحضور القائد وأركان حربه ونواب <placeName change="#d2e120" xml:id="placeName_75.d2e3583">اليمن</placeName> وألوف من سكانها
+وقد قام الإمام بحضور القائد وأركان حربه ونواب <placeName change="#d2e120 #d11e298" xml:id="placeName_75.d2e3583" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وألوف من سكانها
 داعية للدولة بدوام العز حتى اعتقد الناظر أن رابطة الاتحاد والإخاء ستكون أبدية
 إلى ما شاء الله لما ظهر على الوجوه من علائم الإخلاص وسيماء الاتحاد.
 وفي اليوم الرابع من الشهر المذكور كان العلم العثماني يخفق على
@@ -1517,7 +1517,7 @@
 وناظم بك، وياور القائد الملازم سرور بك، والكاتبان إلهامي وسليمان بك،
 ومبعوث الحديدة محمود نديم بك مع مبعوث صنعا، وقومندان الجندرمة برتو بك،
 ومدير مكتب الرشدية والعسكريةبصنعاء، والبكباشي بهاء الدين بك وأحد علماء
-الروضة والميرالاي أحمد بك، والسيد أحمد قاسم من أشراف <placeName change="#d2e120" xml:id="placeName_76.d2e3623">اليمن</placeName> وأحد الساعين
+الروضة والميرالاي أحمد بك، والسيد أحمد قاسم من أشراف <placeName change="#d2e120 #d11e298" xml:id="placeName_76.d2e3623" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وأحد الساعين
 في هذا الصلح. وقد ضُرب موعد الاجتماع في قرية دعان الواقعة على بعد خمس
 ساعات من الشمال الشرقي من عمران (بينهما) وبين قرية (حمر) التي هي
 مركز لاجتماع رجال الإمام يحيى كما ذكرنا.
@@ -1582,10 +1582,10 @@
 هذه القلوب التي تزينها النية الصافية.
 لا شك أن ما رأيناه من مظاهر الإخلاص وعلائم الاتفاق هو نتيجة سعي قادة
 الأفكار من الفريقين في إصلاح ذات البين، وأنا على يقين أنه لولا وجود عزت
-باشا في <placeName change="#d2e120" xml:id="placeName_77.d2e3767">اليمن</placeName> لما تم الصلح ولا رجعت السكينة إلى تلك الربوع، فكم من قواد أموا
+باشا في <placeName change="#d2e120 #d11e298" xml:id="placeName_77.d2e3767" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> لما تم الصلح ولا رجعت السكينة إلى تلك الربوع، فكم من قواد أموا
 هذه البلاد فأهلكوا الحرث والنسل ولم يتركوا نوعًا من أنواع الظلم إلا فعلوه فكان
 ذلك سببًا في إبادة ألوف من الجنود الذين ذهبوا ضحية جور هؤلاء القواد من أبناء
-الأناضول و<placeName change="#d2e120" xml:id="placeName_78.d2e3777">الروم أيلي</placeName>.
+الأناضول و<placeName change="#d2e120 #d11e298" xml:id="placeName_78.d2e3777" ref="oape:place:234" resp="#xslt">الروم أيلي</placeName>.
 تلك هي سياسة القواد السابقين التي لم يلتفت إليها عزت باشا بل نظر إلى
 المصلحة العامة قبل كل شيء، ولولا ذلك لما تسنى له الحصول على وفاق ووئام
 بين طائفتين من المسلمين تقتتلان، فهيأ للجيش العثماني عضدًا قويًّا يبلغ عدده
@@ -1631,7 +1631,7 @@
 وجدت الشيخ ناصر مبخوت واقفًا على باب حجرة الإمام حاملاً السلاح كأنه
 يؤدي وظيفة الخفر، وكان هذا الشيخ قد قدم للإمام خدمات جليلة حين وفاة والده
 وهو الذي سعى مع العلماء في إتمام البيعة له.
-إن للإمام يحيى سلطة عظيمة على <placeName change="#d2e120" xml:id="placeName_79.d2e3880">اليمن</placeName> حتى إنه يمكن للرجل أن يتجول
+إن للإمام يحيى سلطة عظيمة على <placeName change="#d2e120 #d11e298" xml:id="placeName_79.d2e3880" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> حتى إنه يمكن للرجل أن يتجول
 الأراضي اليمانية دون أن يمسه سوء إذا كان لديه رخصة من الإمام والعرب
 يحترمونه احترامًا زائدًا وذلك لشدة تعلقهم به.
 كان الوافد على الإمام حينما يقرب من منزله بدعان يطلق عياره الناري في
@@ -1703,7 +1703,7 @@
 يستتب الأمن وينقطع ورود العساكر إلى هذا القطر فيخسرون بذلك ما كانوا يؤملون.
 لذلك أطلب صدور فرمان سلطاني يتضمن قبول الشروط المار ذكرها كي
 يطمئن اليمانيون وترتاح قلوبهم ولا يعترضني المأمورون في إجراء الأحكام التي
-تخولنيها الشروط وإحالة إدارة بلاد (الشرقية) من <placeName change="#d2e120" xml:id="placeName_80.d2e4054">اليمن</placeName> التي تشابه بلاد (آنس)
+تخولنيها الشروط وإحالة إدارة بلاد (الشرقية) من <placeName change="#d2e120 #d11e298" xml:id="placeName_80.d2e4054" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> التي تشابه بلاد (آنس)
 إلى عهدتي.
 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_255.d2e4061"/> 
@@ -1719,7 +1719,7 @@
 أهلاً له.
 كانت المسألة اليمانية بعد إعلان الدستور شغل الدولة الشاغل، وقد كادت
 تقرر أن تترك الجبال الآهلة بقبائل الزيدية للإمام يديرها كيف شاء لولا أن ظهرت
-في <placeName change="#d2e120" xml:id="placeName_81.d2e4092">اليمن</placeName> تلك الحركة الأخيرة وحصل ما حصل.
+في <placeName change="#d2e120 #d11e298" xml:id="placeName_81.d2e4092" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> تلك الحركة الأخيرة وحصل ما حصل.
 أنقل للقراء اليوم الشروط التي حصل الاتفاق عليها وهي أخف وطأة من
 الأولى [*] [3] :
 
@@ -1777,7 +1777,7 @@
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_37.d2e4229">18- </hi>يخلي الإمام سبيل الرهائن الموجودين عنده من أهالي صنعاء وما
 جاورها وحراز وعمران.
 
-               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_38.d2e4236">19- </hi>يمكن لمأموري الحكومة وأتباع الإمام أن يتجولوا في أنحاء <placeName change="#d2e120" xml:id="placeName_82.d2e4240">اليمن</placeName> بشرط
+               <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_38.d2e4236">19- </hi>يمكن لمأموري الحكومة وأتباع الإمام أن يتجولوا في أنحاء <placeName change="#d2e120 #d11e298" xml:id="placeName_82.d2e4240" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> بشرط
 أن لا يخلوا بالسكينة (بالأمن) .
 
                <hi style="color:red;" change="#d2e141 #d2e120" xml:lang="ar" xml:id="hi_39.d2e4247">20- </hi>يجب على الفريقين أن لا يتعديا الحدود المعينة لهما بعد صدور الفرمان
@@ -1797,21 +1797,21 @@
 كان شيخ إسلام الزيدية جالسًا على يمينه وعلى شماله (سيد عمرو) وهو
 أول من سعى في الائتلاف والوفاق مع السيد قاسم بين الإمام يحيى وعزت باشا
 الذي كان حينئذ بجانب سيد عمرو فكأن هذا يفتخر وهو جالس بالتوفيق بين قائد
-الحملة وقائد <placeName change="#d2e120" xml:id="placeName_83.d2e4287">اليمن</placeName>.
+الحملة وقائد <placeName change="#d2e120 #d11e298" xml:id="placeName_83.d2e4287" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>.
 كان سيف الإسلام جالسًا عن شمال السيد قاسم وعلى يمين شيخ الإسلام رئيس
 أطباء الحملة اليمانية عبد السلام باشا الذي كانت له اليد البيضاء في تطمين قلوب
 العساكر حين أصابتهم الكوليرا بين صنعاء ومناخة فجمع أطباءه وأوصاهم أن لا
 يفشوا خبر وجود الوباء بين الجند لئلا ترتعد فرائصهم وتنحل قواهم.
 كان على يسار عبد السلام باشا الميرالاي أحمد عوني بك رئيس أركان حرب
-الحملة الذي مكث في <placeName change="#d2e120" xml:id="placeName_84.d2e4303">اليمن</placeName> عامين في حملة سنة <date calendar="#cal_gregorian" when="1314" change="#d3e146 #d2e120" xml:id="date_7.d2e4306">1314</date> مع المرحوم عبد الله باشا
+الحملة الذي مكث في <placeName change="#d2e120 #d11e298" xml:id="placeName_84.d2e4303" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> عامين في حملة سنة <date calendar="#cal_gregorian" when="1314" change="#d3e146 #d2e120" xml:id="date_7.d2e4306">1314</date> مع المرحوم عبد الله باشا
 وهو الذى أخمد فتنة الألبان في السنة الماضية، ولم يكد يتم مهمته حتى ندب
-للذهاب إلى <placeName change="#d2e120" xml:id="placeName_85.d2e4314">اليمن</placeName> حيث كانت المسألة اليمانية في دورها الأخير فلبى الطلب فخورًا.
+للذهاب إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_85.d2e4314" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> حيث كانت المسألة اليمانية في دورها الأخير فلبى الطلب فخورًا.
 هناك أقام خطوط الهجوم والدفاع بين صنعاء ومناخه حتى تمكن من
 الاستيلاء على الأول وشهد له بالمقدرة الحربية كثيرون.
 كنت أرى على وجهه مخايل التعقل فكأني به يقول للناظر إليه والمستطلع
-فكره: إن الذي يود فتح <placeName change="#d2e120" xml:id="placeName_86.d2e4326">اليمن</placeName> والاستيلاء عليها يجب عليه أن يجذب قلوب أهلها
+فكره: إن الذي يود فتح <placeName change="#d2e120 #d11e298" xml:id="placeName_86.d2e4326" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> والاستيلاء عليها يجب عليه أن يجذب قلوب أهلها
 ويعاملهم بالرقة لا أن يخرب بلادهم ويدعها قاعًا صفصفًا. وكان لا يحول نظره
-عن الإمام؛ لأنه لم يتمكن مدة وجوده ب<placeName change="#d2e120" xml:id="placeName_87.d2e4333">اليمن</placeName> عامين من رؤية ذلك الوجه الوضاح.
+عن الإمام؛ لأنه لم يتمكن مدة وجوده ب<placeName change="#d2e120 #d11e298" xml:id="placeName_87.d2e4333" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> عامين من رؤية ذلك الوجه الوضاح.
 دار البحث أثناء جلوسنا حول مائدة الطعام في علم الحكمة والكيمياء وخاض
 كل في هذين الموضوعين، وكنا نقارن بين اجتهاد الأقدمين والمتأخرين من هذا
 العصر.
@@ -1840,9 +1840,9 @@
 ترون منا ما يشيب له الطفل الرضيع وتتأكدون أن العرب يحقرون الموت في سبيل
 الدفاع.
 إن هذا الاتفاق جعل ما كان بيننا نسيًا منسيًّا غير أننا آسفون محزونون لما
-أصاب إخواننا ب<placeName change="#d2e120" xml:id="placeName_88.d2e4399">طرابلس الغرب</placeName> من تعدي تلك الدولة الطاغية.
+أصاب إخواننا ب<placeName change="#d2e120 #d11e298" xml:id="placeName_88.d2e4399" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> من تعدي تلك الدولة الطاغية.
 كان العرب جميعهم يتألمون من الحرب القائمة بين الدولة وإيطاليا وكثيرًا ما
-وفد علينا رؤساء العشائر يسألوننا: هل من سبيل للوصول إلى <placeName change="#d2e120" xml:id="placeName_89.d2e4407">طرابلس</placeName> الغرب
+وفد علينا رؤساء العشائر يسألوننا: هل من سبيل للوصول إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_89.d2e4407" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الغرب
 لمساعدة إخواننا؟
 بينما الجميع في هذا الحديث إذ قام سيف الإسلام بين الجميع وصرخ بصوت
 جهوري ملأ الفضاء وقال: إن أعظم قوة للإسلام هي الاتفاق ووحدة الكلمة ثم رفع
@@ -1858,26 +1858,26 @@
 إن هذا الاتفاق كان سببًا لحقن الدماء وعدم تيتم الأطفال وثكل الأمهات أبناءهم،
 ولا شك أنه سيزين تاريخ العثمانية.
 كانت الدولة تنظر إلى اليمانيين بنظرة العداء وقد روت أرضهم من دماء أبناء
-الرومللي و<placeName change="#d2e120" xml:id="placeName_90.d2e4445">الأناضول</placeName> (وغيرهم) فقتل فيها ما ينيف على الخمسمائة ألف [12]
+الرومللي و<placeName change="#d2e120 #d11e298" xml:id="placeName_90.d2e4445" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName> (وغيرهم) فقتل فيها ما ينيف على الخمسمائة ألف [12]
 وأنفقت الملايين من الدراهم في هذا السبيل إلا أن ذلك يرجع لسوء الإدارة في تلك
 القطعة.
-لما حصل الانقلاب في <placeName change="#d2e120" xml:id="placeName_91.d2e4454">المملكة العثمانية</placeName> أخذ رجالها يبحثون عن علاج يداوون
+لما حصل الانقلاب في <placeName change="#d2e120 #d11e298" xml:id="placeName_91.d2e4454" ref="oape:place:1" resp="#xslt">المملكة العثمانية</placeName> أخذ رجالها يبحثون عن علاج يداوون
 به هذا الداء العُضال المتأصل في جسم الدولة إلى أن قُدِّر لعزت باشا أن يكون
 الشفاء على يديه وقد وُفِّقَ لعقد الائتلاف مع الإمام يحيى الذي هو رئيس مليون
 ونصف من الزيدية الذين لا يبالون بالحروب يأتمرون بأمره ويخضعون لإشارته
-وللإمام ثروة عظيمة يبلغ ريعها 200000 ليرة سنويُا، وله نفوذ عظيم في <placeName change="#d2e120" xml:id="placeName_92.d2e4466">اليمن</placeName>.
-يجدر بنا أن نعترف بأن سياسة القوة التي سارت عليها الدولة في <placeName change="#d2e120" xml:id="placeName_93.d2e4471">اليمن</placeName> لا
+وللإمام ثروة عظيمة يبلغ ريعها 200000 ليرة سنويُا، وله نفوذ عظيم في <placeName change="#d2e120 #d11e298" xml:id="placeName_92.d2e4466" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>.
+يجدر بنا أن نعترف بأن سياسة القوة التي سارت عليها الدولة في <placeName change="#d2e120 #d11e298" xml:id="placeName_93.d2e4471" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> لا
 تفيد شيئًا وأنه لمن الظلم الفادح أن تغتصب أموال اليمانيين وتخرب ديارهم لا لذنب
 جنوه بل لهوى في نفوس القواد الذين كانوا يؤمون البلاد اليمانية فيهلكون الحرث
 والنسل.
-أي صلاح أدخلناه في <placeName change="#d2e120" xml:id="placeName_94.d2e4483">اليمن</placeName> منذ استيلائنا عليها. وأي صلاحية تخولنا
+أي صلاح أدخلناه في <placeName change="#d2e120 #d11e298" xml:id="placeName_94.d2e4483" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> منذ استيلائنا عليها. وأي صلاحية تخولنا
 الحاكمية عليها ما دامت الإدارة سيئة وأرباب الحل والعقد في الحكومة السالفة لا
 يرقون لحال اليمانيين ولا يرحمون.
 كانت إدارتنا لليمن حتى اليوم بالمدفع وتمنعنا -يا للأسف- عن تنفيذ خطة
 الإصلاح التي وضعت له فنحن لا ننكر على الحكومة الحالية ما أجرته في المدة
 الأخيرة؛ لأن الإصلاح لا يتأتى إلا بالقوة [13] .
 على أن فرنسا لما دخلت الجزائر أدارت أمورها بستين ألف جندي لكنما نحن
-العثمانيين لا يجمل بنا أن نفعل فعلها في <placeName change="#d2e120" xml:id="placeName_95.d2e4502">اليمن</placeName> من حيث الظلم بل من حيث
+العثمانيين لا يجمل بنا أن نفعل فعلها في <placeName change="#d2e120 #d11e298" xml:id="placeName_95.d2e4502" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> من حيث الظلم بل من حيث
 الإصلاح.
 أخطأ الذين كانوا يقولون بوجوب الزحف على (شهارة) فماذا ينفعنا؟
 فقد سبق لنا الدخول إلى (غفلة) غير أننا رجعنا بخُفَّيْ حُنين بعد أن أريقت
@@ -1890,25 +1890,25 @@
 وفدوا عليه في صنعاء زرافات زرافات واثقين من كلامه، ثم كانوا لا يلبثون بعد
 دخولهم ومحادثتهم له أن يخرجوا من عنده ملآنة أعينهم بالدموع؛ (لأنهم أيقنوا
 إخلاصه في الخدمة) وحاملي الهدايا الثمينة، إلى أن حصل الاتفاق بينهم ورفع
-الخلاف، وبدل <placeName change="#d2e120" xml:id="placeName_96.d2e4533">اليمن</placeName> ثوبه البالي بثوب جديد.
+الخلاف، وبدل <placeName change="#d2e120 #d11e298" xml:id="placeName_96.d2e4533" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> ثوبه البالي بثوب جديد.
 نعم إن هذا الاتفاق الذي حصل بين الزعيمين سيدر بالخير والبركة على
 الأقطار اليمانية فتنجلي سماؤها التي كانت متلبدة بدخان البنادق والمدافع الكثيف
 وتحرث أرضها ويشتغل فيها أهلها ويذوقون طعم الأمن والسكنية فيهدأ بالهم،
 وتسعد حالهم، وستكون الحوادث الماضية درسًا لرجال الدولة فلا يضعون الشدة
 حيث يجب أن يكون اللين اهـ ما نشر في الحقيقة بتصحيح قليل للعبارة.
 ***
-حديث في صلح <placeName change="#d2e120" xml:id="placeName_97.d2e4551">اليمن</placeName> لضابط عثماني كبير
+حديث في صلح <placeName change="#d2e120 #d11e298" xml:id="placeName_97.d2e4551" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> لضابط عثماني كبير
 نشرت <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:20 oclc:1034548778" xml:id="title_15.d2e4557">المفيد</title></bibl> البيروتية حديثًا لأحد صاحبيها أو محرريها مع أميرالألاي
-إحسان بك الذي كان رئيس أركان الحرب لفيلق <placeName change="#d2e120" xml:id="placeName_98.d2e4562">اليمن</placeName> عند إلمامه ب<placeName change="#d2e120" xml:id="placeName_99.d2e4565">بيروت</placeName> عائدًا من
+إحسان بك الذي كان رئيس أركان الحرب لفيلق <placeName change="#d2e120 #d11e298" xml:id="placeName_98.d2e4562" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> عند إلمامه ب<placeName change="#d2e120 #d11e298" xml:id="placeName_99.d2e4565" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> عائدًا من
 اليمن قال الكاتب:
-ضمني وأميرالألاي إحسان بك مجلس، ولما علمت أن قدومه من <placeName change="#d2e120" xml:id="placeName_100.d2e4573">اليمن</placeName> وأنه
+ضمني وأميرالألاي إحسان بك مجلس، ولما علمت أن قدومه من <placeName change="#d2e120 #d11e298" xml:id="placeName_100.d2e4573" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وأنه
 من كبار الضباط استطردته في الكلام إلى البحث في شئون الاتفاق مع الإمام. قلت:
 وهل لإحسان بك معرفة بعزيز بك؟ قال: نعم هو من أعز أصدقائي وهو الرجل
 الذي جمع إلى همة الشباب حكمة الشيوخ، قلت: وما عندك من نبإه؟ قال: إنه
 بطل هذا الاتفاق.
 (قلت) : وكيف كان ذلك؟ قال: (إن عزيز بك شاب غيور أنِف فخور
 يعز عليه أن يستمر القتل بين الجنود العثمانية وبين عرب البادية (كذا) وقد أتى
-هذا القطر والتحق بحملة <placeName change="#d2e120" xml:id="placeName_101.d2e4591">اليمن</placeName> وفي النية أن يوفق بين عزت باشا والإمام يحيى
+هذا القطر والتحق بحملة <placeName change="#d2e120 #d11e298" xml:id="placeName_101.d2e4591" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وفي النية أن يوفق بين عزت باشا والإمام يحيى
 حقنًا للدماء، وقد نجح مسعاه لدى قائد الحملة، فإن عزت باشا لم يكن ممن يحبون
 سفك الدماء دون طائل ولا ممن يقودون الجيوش بقصد التخريب والتدمير.
 هذه العاطفة التي وجدها عزيز بك في قلب عزت باشا سهلت عليه سبيل
@@ -1930,7 +1930,7 @@
 ومن ذلك تعلمون بسبب الحروب اليمنية، فعزت باشا وعزيز بك لم يحقنا دماء
 أبناء الأمة اليوم فقط بل إنهما حقنا دماء أبناء كثيرة لم يخلقوا بعد، والله يعلم كم
 كانت هذه الحروب تستغرق من الأجيال لولا هذا الاتفاق.
-كم يبلغ عدد الجند في <placeName change="#d2e120" xml:id="placeName_102.d2e4642">اليمن</placeName> اليوم وما هي خسارتهم في الحرب الأخيرة؟
+كم يبلغ عدد الجند في <placeName change="#d2e120 #d11e298" xml:id="placeName_102.d2e4642" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> اليوم وما هي خسارتهم في الحرب الأخيرة؟
 (يناهزون ستين تابورًا وتقدر خسارتهم بستة آلاف ومعظمهم مات بسبب
 الأمراض التي كثيرًا ما تنتشر بين الجنود لحرارة الإقليم) .
 - هل يتقاضى الإمام راتبًا من الدولة؟
@@ -1940,11 +1940,11 @@
 (وزع الإمام منشورًا على جميع القبائل الموالية له يحذرهم من الخروج
 على الدولة والتعدي على الجنود النظامية والانصراف عن مناوئة الدولة إلى
 الاهتمام بزراعة الأرض فكان من ذلك أن الجندي النظامي أصبح يروح ويغدو
-بسلاحه الكامل في أنحاء <placeName change="#d2e120" xml:id="placeName_103.d2e4667">اليمن</placeName> دون أن يعارضه معارض) .
+بسلاحه الكامل في أنحاء <placeName change="#d2e120 #d11e298" xml:id="placeName_103.d2e4667" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> دون أن يعارضه معارض) .
 (أما الرسوم الأميرية فتجبى بواسطة رجال الإمام الذين يصحبون رجال
 الجندرمة، ولم نسمع بعد عقد الاتفاق بشيء مما كان يقع بين الجباة وبين العربان
 الأمر الذي كان يفضي إلى امتشاق الحسام وسفك الدماء بين الفريقين) .
-(أكثر بلاد الدولة أمنًا اليوم هو القطر اليماني غير أن <placeName change="#d2e120" xml:id="placeName_104.d2e4678">اليمن</placeName> هي اليوم في
+(أكثر بلاد الدولة أمنًا اليوم هو القطر اليماني غير أن <placeName change="#d2e120 #d11e298" xml:id="placeName_104.d2e4678" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> هي اليوم في
 حالة البداوة، وإن في خصب أرضها وطيب تربتها ما يساعد الدولة على نقلها من
 حال إلى حال) .
 (تمد الدولة اليوم خطًّا حديديًّا من الحديدة إلى جميلة وما مدته إلى الآن يقدر
@@ -1957,14 +1957,14 @@
 قعدوا عن قتال الدولة وتعهدوا معها انصرفوا إلى الزراعة والصناعة، وإن ذكاء
 هؤلاء القوم يساعد كثيرًا على انتشار المدنية في تلك الربوع، وإن من مصلحة
 الدولة أن يساس هؤلاء سياسة الحلم لا سياسة العنف والشدة.
-(فى بعض الأنحاء من <placeName change="#d2e120" xml:id="placeName_105.d2e4710">اليمن</placeName> تنبت الأرض أربع مرات في السنة وبعضها
+(فى بعض الأنحاء من <placeName change="#d2e120 #d11e298" xml:id="placeName_105.d2e4710" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> تنبت الأرض أربع مرات في السنة وبعضها
 تنبت مرتين فإذا عنيت الدولة بزراعة البلاد اليمنية كان لها مورد جديد يزيد في
 ماليتها، وإنه ليؤسفني أن أصرح لكم بأن الحكومة أرسلت كثيرًا من الأدوات
 الزراعية ولكنها لم ترسل معلمين زراعيين حتى الآن وهذا الإهمال كان السبب في
 تعطيل هذه الأدوات.
 (إن حكومة الآستانة لم تغفل هذا الأمر فقط بل إنه مضى على عقد الاتفاق
 شهور ولم يصادق عليه إلا أول من أمس، وكثيرًا ما كان عدم وفائنا سببًا في
-خروج مشايخ <placeName change="#d2e120" xml:id="placeName_106.d2e4728">اليمن</placeName> علينا فإن الوفاء بالعهد عند العرب من الأمور التي يتوقف
+خروج مشايخ <placeName change="#d2e120 #d11e298" xml:id="placeName_106.d2e4728" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> علينا فإن الوفاء بالعهد عند العرب من الأمور التي يتوقف
 عليها بقاء ثقة المحكوم بحاكمه) .
 هل تعهد الإمام لقاء الامتيازات التي منحته إياها الدولة بالمساعدة عند الحاجة؟
 (نعم وعد بتقديم مائة ألف مقاتل بالعدة الكاملة، وهذه قوة لا يستهان بها.
@@ -1980,7 +1980,7 @@
 فإذا كان لعقد الاتفاق سبيل فمن واجب الحكومة أن لا تدع هذا السبيل) .
 - وهل في تلك الأنحاء غير الإمام يحيى والإدريسي من مشايخ العرب يعتد
 بهم؟
-(يوجد شرقي <placeName change="#d2e120" xml:id="placeName_107.d2e4766">اليمن</placeName> بعض السلاطين وسياسة عزت باشا اليوم استمالة هؤلاء
+(يوجد شرقي <placeName change="#d2e120 #d11e298" xml:id="placeName_107.d2e4766" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> بعض السلاطين وسياسة عزت باشا اليوم استمالة هؤلاء
 السلاطين دفعًا لما يتهدد البلاد من الأخطار، فإذا تغاضت الحكومة عن إرضاء
 هؤلاء فإن دولة أجنبية تستميل إليها هؤلاء خفية بما تمنحهم إياه من الأموال وما
 تقدمه لهم من الأسلحة. وأذكر لكم من هذا القبيل أن سلطانين من سلاطين شرقي
@@ -1988,7 +1988,7 @@
 إليه وعرضا عليه الإطاعة للدولة، وقد اعترفا لعزت باشا بدسائس بعض الدول
 وأطلعاه على رسائل سرية كان عمال تلك الدولة يبعثون بها إليهما.
 (إن عزت باشا يتبع الآن سياسة حسناء وقد أحسن وِفادة هذين السلطانين
-واعترف بسلطتهما شرقي <placeName change="#d2e120" xml:id="placeName_108.d2e4786">اليمن</placeName> وأعطى كلاً منهما علمًا عثمانيًّا وأنعم عليهما بالخلع
+واعترف بسلطتهما شرقي <placeName change="#d2e120 #d11e298" xml:id="placeName_108.d2e4786" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وأعطى كلاً منهما علمًا عثمانيًّا وأنعم عليهما بالخلع
 ومنحهما الأموال، وعندي أن من الواجب على الحكومة أن تسير على هذه السياسة
 مع العرب ومع بقية العناصر العثمانية.
 (وقد ينبغي للحكومة حفظًا لهذا الملك من الانقراض أن تسير في الداخلية
@@ -2011,16 +2011,16 @@
 السنة الماضية.
 كان ساسة الدولة يظنون أن إصلاح جزيرة العرب وتقويتها خطر على سلطة
 الترك يخشى أن يفضي إلى إيجاد دولة عربية مستقلة يدعي حاكمها الخلافة، وهذا
-هو السبب لجعلهم بلاد <placeName change="#d2e120" xml:id="placeName_109.d2e4843">الحجاز</placeName> خرابًا، ومتابعة الحرب في <placeName change="#d2e120" xml:id="placeName_110.d2e4846">اليمن</placeName> وغيرها كما أشار
+هو السبب لجعلهم بلاد <placeName change="#d2e120 #d11e298" xml:id="placeName_109.d2e4843" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> خرابًا، ومتابعة الحرب في <placeName change="#d2e120 #d11e298" xml:id="placeName_110.d2e4846" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> وغيرها كما أشار
 إلى ذلك إحسان بك، ولكنه لا يرجى منه أن يذكره بغير الصيغة التي ذكره بها.
 ولم يوجد في الدولة رجل أمكنه أن يجعل الجزيرة ولايات تركية أو عثمانية، ولا
 أن يجعلها ولايات ممتازة مرتبطة بالدولة بعسكريتها وخارجيتها، مع بقائها مستقلة
 في إدارتها.
 أما الآن وقد ظهر للعيان أن العرب أشد العناصر العثمانية حرصًا على
-الارتباط بالدولة والإخلاص لها، باستقتالهم في حرب إيطاليا ب<placeName change="#d2e120" xml:id="placeName_111.d2e4862">طرابلس الغرب</placeName>،
+الارتباط بالدولة والإخلاص لها، باستقتالهم في حرب إيطاليا ب<placeName change="#d2e120 #d11e298" xml:id="placeName_111.d2e4862" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName>،
 وشرائهم بقاء التبعية العثمانية بكل ما يملكون من مال ودم - وظهر أيضًا أن الدولة
 تعجز عن حفظ جزيرة العرب - وهي مهد الإسلام - من تعدي الدول البحرية كما
-عجزت عن الدفاع عن <placeName change="#d2e120" xml:id="placeName_112.d2e4872">طرابلس الغرب</placeName> ونيط الدفاع عنها بأهلها - وظهر أيضًا أن
+عجزت عن الدفاع عن <placeName change="#d2e120 #d11e298" xml:id="placeName_112.d2e4872" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> ونيط الدفاع عنها بأهلها - وظهر أيضًا أن
 الدولة العلية نفسها على خطر، بعد ما أجمعت أوروبا على عدم التزام معاملتها
 بقوانين حقوق الدول، - أما وقد ظهر كل هذا فقد صار من الواجب المحتم على
 الدولة أن تعقد الاتفاق مع جميع أمراء الجزيرة فتقر كل أمير منهم على ما هو عليه،
@@ -2028,16 +2028,16 @@
 أصول الاتفاق بينها وبينهم هو الاتحاد العام في الجيش عند الحاجة وكيفية الإنجاد
 والدفاع عن المملكة.
 ***
-حال <placeName change="#d2e120" xml:id="placeName_113.d2e4892">اليمن</placeName> على عهد السلطان
+حال <placeName change="#d2e120 #d11e298" xml:id="placeName_113.d2e4892" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> على عهد السلطان
 محمود الثاني
-كان ابتداء تحرش <placeName change="#d2e120" xml:id="placeName_114.d2e4900">الدولة العثمانية</placeName> ب<placeName change="#d2e120" xml:id="placeName_115.d2e4903">اليمن</placeName> في سنة 934 في عهد السلطان
+كان ابتداء تحرش <placeName change="#d2e120 #d11e298" xml:id="placeName_114.d2e4900" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> ب<placeName change="#d2e120 #d11e298" xml:id="placeName_115.d2e4903" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> في سنة 934 في عهد السلطان
 سليمان القانوني أي زهاء أربع مئة سنة، وقد بينا ذلك في المجلد الثالث عشر نقلاً
 عن كتاب (البرق اليماني في الفتح العثماني) ومن ذلك أن الحرب كانت سجالاً
 بين الدولة واليمانيين، وبقيت كذلك إلى الآن.
 ولما ولي السلطان محمود الثاني كانت الدولة محفوفة بالنوائب والأحداث،
 ففي زمنه كانت فتنة الإنكشارية، والحرب الروسية، وعصيان والي يانية ووالي
-بغداد، وثورة اليونان، وحرب إيران، وحرب محمد علي باشا ودخوله <placeName change="#d2e120" xml:id="placeName_116.d2e4919">الشام</placeName>، ثم
-حرب الوهابية في نجد و<placeName change="#d2e120" xml:id="placeName_117.d2e4924">الحجاز</placeName>، ولكن <placeName change="#d2e120" xml:id="placeName_118.d2e4927">اليمن</placeName> كانت راضية في ذلك العهد بالصلح
+بغداد، وثورة اليونان، وحرب إيران، وحرب محمد علي باشا ودخوله <placeName change="#d2e120 #d11e298" xml:id="placeName_116.d2e4919" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، ثم
+حرب الوهابية في نجد و<placeName change="#d2e120 #d11e298" xml:id="placeName_117.d2e4924" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، ولكن <placeName change="#d2e120 #d11e298" xml:id="placeName_118.d2e4927" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> كانت راضية في ذلك العهد بالصلح
 بينها وبين الدولة العلية على مال تؤديه. وقد وقف بعض أصدقائنا في بعض دور
 الكتب في الآستانة على صورة بعض المكتوبات الرسمية في ذلك وهذا نصها:
 
@@ -2131,14 +2131,14 @@
 (3) في المادة الأولى عند ذكر بريم كلمة (ميوم) بين قوسين كما رأيت. وفيها زيادة (وما حولها) بعد سرد أسماء البلاد وآخرها في الذكر تعز ورداع.
 (4) في نسخة طنين أن الفريقين يسعيان في الصلح والتراضي.
 (5) في نسخة طنين (الحكومة تعين الحكام للشافعية والحنفية فيما عدا الجبال) .
-(6) (لا تكلف الحكومة أهل <placeName change="#d2e120" xml:id="placeName_119.d2e5134">اليمن</placeName> غير التكاليف الشرعية) .
+(6) (لا تكلف الحكومة أهل <placeName change="#d2e120 #d11e298" xml:id="placeName_119.d2e5134" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> غير التكاليف الشرعية) .
 (7) للزيدية أن يقدموا الهدايا للإمام إما توًّا وإما بواسطة مشايخ الدولة أو الحكام، ففيها زيادة جواز تقديمها بغير واسطة.
 (8) (يؤدي الإمام عشر أراضيه) وليس فيها ذكر الحكومة.
 (9) في نسخة طنين أن جبل شيرق حوالي آنس وأن أهله في غاية الفقر.
 (10) (بعد التصديق على هذه الوثيقة الائتلافية) ائتلافنامه (بالفرمان السلطاني لا يتعدى أحد الفريقين على البلاد التي هي تحت إدارة الفريق الآخر.
 (11) المنار: نقل الكاتب ما عدا الآية الأولى من الآيات (وكذا سائر الخطبة) بالمعنى؛ لأنه لم يكن يحفظها فزاد ونقص وقدم وأخر فنقلناها كما هي لأنه الواجب.
 (12) يريد الكاتب قتلى الحروب الأخيرة من عهد حملة أحمد مختار باشا إلى حملة عزت باشا، وإلا فالقتلى هنالك يعدون بالملايين إذا ارتقينا في عدهم إلى أول تصدي الدولة لليمن في زمن السلطان سليمان وكان أكثر الجيش الذي يرسل إلى هنالك من العرب المصريين وغيرهم (راجع ص <date calendar="#cal_gregorian" when="0225" change="#d3e146 #d2e120" xml:id="date_8.d2e5150">225</date> من المجلد الثالث عشر) .
-(13) إن الكاتب على إنصافه لم ير بدًّا من عذر الحكومة الحاضرة على سوقها الحملة التي هو أحد رجالها لحرب <placeName change="#d2e120" xml:id="placeName_120.d2e5155">اليمن</placeName> ليبرئ نفسه بتبرئتها والحق أن إثمها كإثم من سبقها أو أكبر، وقد أخطأ في تقليده بعض ساسة الدولة بجعل الترك من العرب كالفرنسيس من أهل الجزائر، وأخطأ أيضًا في جعله هذا الصلح أثر قوة الحملة وهي لم يتم لها الظفر، وكان الإمام قد رغب في الصلح قبلها وكاد ثم في وزارة حلمي باشا لولا أن أوقفه الاتحاديون لتنفيذ سياسة المدفع السابقة.</note>
+(13) إن الكاتب على إنصافه لم ير بدًّا من عذر الحكومة الحاضرة على سوقها الحملة التي هو أحد رجالها لحرب <placeName change="#d2e120 #d11e298" xml:id="placeName_120.d2e5155" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> ليبرئ نفسه بتبرئتها والحق أن إثمها كإثم من سبقها أو أكبر، وقد أخطأ في تقليده بعض ساسة الدولة بجعل الترك من العرب كالفرنسيس من أهل الجزائر، وأخطأ أيضًا في جعله هذا الصلح أثر قوة الحملة وهي لم يتم لها الظفر، وكان الإمام قد رغب في الصلح قبلها وكاد ثم في وزارة حلمي باشا لولا أن أوقفه الاتحاديون لتنفيذ سياسة المدفع السابقة.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_7.d2e5159">الكاتب: <persName change="#d2e141 #d2e120 #d3e274" xml:lang="ar" xml:id="persName_9.d2e5161" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>

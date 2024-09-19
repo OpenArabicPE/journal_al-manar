@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_21-i_4.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_21-i_4.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e282">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_21-i_4.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_21-i_4.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1337">1337</date><date calendar="#cal_gregorian" when="1919" xml:lang="ar">يونيه - 1919م</date></imprint>
                   <biblScope unit="volume" from="21" to="21" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">21</biblScope>
                   <biblScope unit="issue" from="4" to="4" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">4</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e282" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -70,14 +70,14 @@
 
          
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_1.d2e248">
-               <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_2.d2e250">أمراء أعراب <placeName change="#d2e120" xml:id="placeName_4.d2e252">الشام</placeName> في القرن الثامن</head>
+               <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_2.d2e250">أمراء أعراب <placeName change="#d2e120 #d11e282" xml:id="placeName_4.d2e252" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> في القرن الثامن</head>
 <p change="#d2e120" xml:id="p_2.d2e256">
                
 وما كان يكتب لهم من تقليد الإمارة من سلاطين مصر
 
                
 جاء في (ص118) من الجزء الثاني عشر من كتاب (صبح الأعشى)
-في بيان ما يكتب من الطبقة الأولى من أمراء عربان <placeName change="#d2e120" xml:id="placeName_5.d2e266">الشام</placeName> ما نصه:
+في بيان ما يكتب من الطبقة الأولى من أمراء عربان <placeName change="#d2e120 #d11e282" xml:id="placeName_5.d2e266" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ما نصه:
 تقليد بإمرة آل فضل
 وهذه نسخة تقليد بإمرة آل فضل [1] كتب به للأمير شجاع الدين فضل بن
 عيسى عوضًا عن أخيه مهنا، عندما خرج أخوه المذكور مع (قراسنقر الأفرم) ومن
@@ -216,7 +216,7 @@
 همى القطر شبتها عبيدهم [5] ، هم من آل فضل حيث كان عليٌّها وحديثه في المسامع
 حديثها.
 فلما انتهت الإمرة إلى الأمير المرحوم شمس الدين محمد بن أبي بكر - رحمه
-الله - جمعهم على دولتنا <placeName change="#d2e120" xml:id="placeName_6.d2e575">القاهرة</placeName>، وأقام فيهم يبتغي بطاعتنا الشريفة رضا الله والدار
+الله - جمعهم على دولتنا <placeName change="#d2e120 #d11e282" xml:id="placeName_6.d2e575" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، وأقام فيهم يبتغي بطاعتنا الشريفة رضا الله والدار
 الآخرة، ثم أمده الله من ولده بمن ألقى إليه همه، وأمضى به عزمه ونفذ به حكمه
 ونفَّل قسمه.
 وكان الذي يتحمل دونه مشقات أمورهم، ويتلقى شكاوى آمرهم ومأمورهم،
@@ -254,7 +254,7 @@
 والمسارعة إلى ما يرسم لهم به ما دامت الأسفار في عصاها سير، والإفراج لعزتك
 لا تسمح به إلا لمن له حقيقة وجود، وله في الخدمة أثر موجود، ومنعهم، فلا
 يكون إلا إذا توجه منعهم، أو توانت عزائمهم وقل نفعهم، والمهابة، فانشرها
-كسمعتك في الآفاق، ودع بوارق سيوفها تشام ب<placeName change="#d2e120" xml:id="placeName_7.d2e661">الشام</placeName>، وديمها تراق ب<placeName change="#d2e120" xml:id="placeName_8.d2e664">العراق</placeName>،
+كسمعتك في الآفاق، ودع بوارق سيوفها تشام ب<placeName change="#d2e120 #d11e282" xml:id="placeName_7.d2e661" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، وديمها تراق ب<placeName change="#d2e120 #d11e282" xml:id="placeName_8.d2e664" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>،
 وخيول التقادم، فارتد منها كل سابق وسابقة تهف منهما الرياح، ويحسدهما الطير
 إذا طار بغير جناح، ولا تتخذ دوننا لك بطانةً ولا وليجةً، ولا تقطع عنا أخبارك
 البهيجة، وليعرف قومه له حقه، ويوقره من التعظيم مستحقه فإنه أميرهم، وأمره من
@@ -512,7 +512,7 @@
                
 
                
-بينما كان العرب في سورية و<placeName change="#d2e120" xml:id="placeName_9.d2e1208">العراق</placeName> يُمنون أنفسهم بالنجاة من طغيان
+بينما كان العرب في سورية و<placeName change="#d2e120 #d11e282" xml:id="placeName_9.d2e1208" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> يُمنون أنفسهم بالنجاة من طغيان
 الطورانيين , وما سامهم جلادهم جمال باشا وغيره من سوء العذاب إلى نعيم
 الاستقلال الصحيح والحرية التامة، ويتلذذون بما يقرءون في المنشورات والجرائد
 التي تنقلها إليهم العيون، أو تنثرها عليهم الطيارات (كالقبلة والمقطم والكوكب) كان
@@ -521,7 +521,7 @@
 منها، كما فعل غيرها من رجال دول الأحلاف في بلاد الترك أيضًا، وقد كان أول
 من كشف النقاب عن أسرار هذه المعاهدات السرية، أحرار الروس لما أسقطوا
 حكومتهم القيصرية ونشروا أسرارها المطوية.
-وقد اشتهر أمر معاهدة تقسيم ولايات سورية و<placeName change="#d2e120" xml:id="placeName_10.d2e1231">العراق</placeName> بين فرنسة وإنكلترة ,
+وقد اشتهر أمر معاهدة تقسيم ولايات سورية و<placeName change="#d2e120 #d11e282" xml:id="placeName_10.d2e1231" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بين فرنسة وإنكلترة ,
 وكثر كلام الجرائد الأوربية والعربية فيه، ولما ظهرت شروط الرئيس ولسن
 واتفقت الدول المتحاربة على جعلها أساسًا للصلح باعتبار ما فسرها من خطبه التي
 نشرنا أهمها من قبل، كان يُظَن أنها تنسخ هذه المعاهدة ونظائرها من المعاهدات
@@ -553,7 +553,7 @@
                
 كان أولو الإلمام بالسياسة من السوريين يعتقدون منذ آذن دول الحلفاء الدولة
 العثمانية بالحرب، أن انتصارهم يفضي إلى تقسيم بلادها بينهما على قاعدة مطامعهم
-القديمة فيها بأن تكون الآستانة لروسية وسورية لفرنسة، و<placeName change="#d2e120" xml:id="placeName_11.d2e1305">العراق</placeName> لإنكلترة، ولم
+القديمة فيها بأن تكون الآستانة لروسية وسورية لفرنسة، و<placeName change="#d2e120 #d11e282" xml:id="placeName_11.d2e1305" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> لإنكلترة، ولم
 تكن أقوال رجال السياسة منهم أنهم يبغون تحرير الأمم والشعوب مضعفةً
 لاعتقادهم هذا، ولكن منهم مَن حسَّن الظن بالرئيس ولسن إذ نادى بهذه الحرية
 وبوجوب تعميمها وتعميم العدل وعدم التفرقة بين من يجب أن يعدل فيهم، إذ
@@ -565,7 +565,7 @@
 بالسياسة: إن قواعد ولسن وخطبه لم تأت بشيء جديد إلا زيادة كليمات في معجم
 السياسة الخادع، وظل أكثر العامة يفهمون أن المراد من مساعدة الدول الموكلة
 للشعوب ليس إلا عبارةً عن إمدادها بما يعوزها من المال والسلاح وغيره كما
-يرون من مساعدة إنكلترة لحكومة <placeName change="#d2e120" xml:id="placeName_12.d2e1335">الحجاز</placeName> الموالية لها.
+يرون من مساعدة إنكلترة لحكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_12.d2e1335" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> الموالية لها.
 هذا، وإن من المعلوم المشهور أن لكل من الفرنسيس والإنكليز صنائع
 وأولياء من السوريين يلقون إليهم بالمودة، فطائفة من الموارنة من صنائع فرنسة
 وأوليائها، ولها أفراد من الطوائف أخرى قد اجتهد رجالها في تكثير عددهم بعد
@@ -589,14 +589,14 @@
 لكنوزها.
 كان الأمر كذلك إلى أن قام الاتحاديون الطورانيون من الترك ببث دعوة
 الجنسية التركية، ومحاولة تتريك جميع الخاضعين لحكمهم من الأجناس الأخرى
-بالقوة <placeName change="#d2e120" xml:id="placeName_13.d2e1390">القاهرة</placeName>، حتى دَعُّوا هذه الأجناس دعًّا إلى المحافظة على جنسياتها، وإحياء
+بالقوة <placeName change="#d2e120 #d11e282" xml:id="placeName_13.d2e1390" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، حتى دَعُّوا هذه الأجناس دعًّا إلى المحافظة على جنسياتها، وإحياء
 ما أماته الجهل والإهمال من لغاتها، ثم إلى التفكر في حريتها واستقلالها، فلما
 اتخذ الاتحاديون الحرب ذريعةً إلى تنفيذ خطتهم في القضاء على العرب في سورية
-و<placeName change="#d2e120" xml:id="placeName_14.d2e1399">العراق</placeName> بالقوة <placeName change="#d2e120" xml:id="placeName_15.d2e1403">القاهرة</placeName>، وشرعوا ينكلون بهم تقتيلاً وتصليبًا وتغريبًا ومصادرةً
-وتخريبًا - كما فعلوا بالأرمن والروم - واشتعلت نار الثورة العربية في <placeName change="#d2e120" xml:id="placeName_16.d2e1408">الحجاز</placeName> ,
+و<placeName change="#d2e120 #d11e282" xml:id="placeName_14.d2e1399" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بالقوة <placeName change="#d2e120 #d11e282" xml:id="placeName_15.d2e1403" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، وشرعوا ينكلون بهم تقتيلاً وتصليبًا وتغريبًا ومصادرةً
+وتخريبًا - كما فعلوا بالأرمن والروم - واشتعلت نار الثورة العربية في <placeName change="#d2e120 #d11e282" xml:id="placeName_16.d2e1408" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ,
 وانضوى أميره إلى دول الأحلاف المحاربة للترك والجرمان - تعلقت آمال السوريين
 الذين يسامون سوء العذاب في سورية وغيرهم من العراقيين بأن تكون لهم دولة
-عربية، يكون المؤسس لها ملك <placeName change="#d2e120" xml:id="placeName_17.d2e1418">الحجاز</placeName>، وكان النصارى كالمسلمين في تمني ذلك؛
+عربية، يكون المؤسس لها ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_17.d2e1418" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وكان النصارى كالمسلمين في تمني ذلك؛
 لأن الشدائد التي ذاقوها بأنهم عرب قد أزالت كل خلاف وشقاق كان بينهم.
 ولما احتل الحلفاء سورية بعد جلاء الترك عنها، وأخذ جزء من جنوبيها عنوةً
 أقاموا فيها ثلاث حكومات عسكريةً على قاعدة معاهدة سنة 1916: حكومة
@@ -636,9 +636,9 @@
 الأعذار التي أشرنا إليها في هذا المقال أو بغير عذر.
 من جراء ذلك ألف السوريون في البلاد وفي الممالك الأمريكية ومصر
 عدة أحزاب وجمعيات كلها تطلب الاستقلال لسورية برمتها متحدةً غير متجزئة،
-ومنها فلسطين ولبنان، إما وحدها وإما متحدة مع <placeName change="#d2e120" xml:id="placeName_18.d2e1507">العراق</placeName> وجزيرة العرب، وبعض
+ومنها فلسطين ولبنان، إما وحدها وإما متحدة مع <placeName change="#d2e120 #d11e282" xml:id="placeName_18.d2e1507" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وجزيرة العرب، وبعض
 اللبنانيين منهم يطلب أن يكون لبنان مملكةً مستقلةً، ويُضَم إليه معظم ولاية بيروت
-وجزء من ولاية <placeName change="#d2e120" xml:id="placeName_19.d2e1515">الشام</placeName> مما يكثر فيه النصارى بحيث يكون أكثر الأهالي منهم، فتكون
+وجزء من ولاية <placeName change="#d2e120 #d11e282" xml:id="placeName_19.d2e1515" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> مما يكثر فيه النصارى بحيث يكون أكثر الأهالي منهم، فتكون
 البلاد السورية مملكتين: الساحلية منهما مسيحية، والداخلية إسلامية. بهذا صرح لي
 بعض كبرائهم، وأدبائهم، فما الظن بما يصرح به بعضهم لبعضهم؟ ثم إن طلاب
 الاستقلال لسورية من هؤلاء السوريين المهاجرين منهم من يطلبه تامًّا مطلقًا ناجزًا،
@@ -688,7 +688,7 @@
 المطلوب، وليس في مؤسسي هذا الحزب أحد من الطوائف الإسلامية التي تبلغ
 أربعة أخماس أهل سورية.
 وكان في مصر قبل هذه الأحزاب - بل قبل الحرب أيضًا - جمعية تعرف
-بجمعية الاتحاد اللبناني، تطالب <placeName change="#d2e120" xml:id="placeName_20.d2e1626">الدولة العثمانية</placeName> بحقوق للبنان المعروف أو الصغير،
+بجمعية الاتحاد اللبناني، تطالب <placeName change="#d2e120 #d11e282" xml:id="placeName_20.d2e1626" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> بحقوق للبنان المعروف أو الصغير،
 فتحولت بعد الحرب إلى مطالبة الحلفاء باستقلال الجبل وتوسيع حدوده وجعله تحت
 حماية جميع الدول الكبرى، وكان لمهاجري لبنان في البلاد الأمريكية جمعية أخرى
 تعرف بجمعية النهضة اللبنانية، تطالب بتوسيع حدود لبنان وتقوية استقلاله، وجعلة
@@ -735,7 +735,7 @@
 ***
 لجنة الاستفتاء الدولية
 كان مؤتمر الحلفاء عزم على إرسال لجنة دولية إلى سورية وغيرها من
-بلاد <placeName change="#d2e120" xml:id="placeName_21.d2e1731">الدولة العثمانية</placeName>؛ لتقف على رأي أهل البلاد في أمر مستقبلها وشكل حكومتها
+بلاد <placeName change="#d2e120 #d11e282" xml:id="placeName_21.d2e1731" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>؛ لتقف على رأي أهل البلاد في أمر مستقبلها وشكل حكومتها
 والدولة التي تفضل أن تندب لمساعدتها على الاستعداد للاستقلال المعترف لها به
 مؤقتًا إلى أن تصير قادرةً على النهوض به وحدها، ثم اكتفى بجعل اللجنة من
 فضلاء الأمريكيين فأحسن صنعًا؛ لأن هؤلاء أبعد من الأوربيين عن الهوى في
@@ -754,7 +754,7 @@
 والاقتصادية التي لا تمس الاستقلال، وصرح بعضهم بعدم قبول المساعدة ألبتة،
 وبعضهم بطلبها من الولايات المتحدة دون سواها، وبعضهم من إنكلترة، وأكثر هذا
 الفريق من الدروز، وبعضهم من فرنسة، وأكثر هؤلاء من موارنة لبنان
-و<placeName change="#d2e120" xml:id="placeName_22.d2e1776">بيروت</placeName>، وما كل الموارنة يرضى بوصاية فرنسة ومساعدتها، وأما المسلمون
+و<placeName change="#d2e120 #d11e282" xml:id="placeName_22.d2e1776" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>، وما كل الموارنة يرضى بوصاية فرنسة ومساعدتها، وأما المسلمون
 فقد صرحوا في كل بلد بعدم قبول مساعدتها بحال من الأحوال، وما شذ إلا أفراد لا
 يعتد بهم، ولأجل الفرار من مساعدتها أو وصايتها، قال بعض المرجحين
 لمساعدة الولايات المتحدة: إنها إذا لم تقبل فإنهم يرجحون إنكلترة على غيرها
@@ -839,10 +839,10 @@
 وفي أثناء تلك المدة أيضًا وقع اضطراب واختلال في الروملي، فعينت
 الحكومة يومئذ لجنةً من الأعيان والمبعوثين للكشف عن أحوال تلك البلاد، وكان
 المترجم - رحمه الله - من أعضاء تلك اللجنة.
-وفي أثناء مدته نشبت الحرب في <placeName change="#d2e120" xml:id="placeName_23.d2e1950">طرابلس الغرب</placeName> , فصعد المترجم منبر
+وفي أثناء مدته نشبت الحرب في <placeName change="#d2e120 #d11e282" xml:id="placeName_23.d2e1950" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName> , فصعد المترجم منبر
 الخطابة في المجلس وهيج الخواطر وحرك السواكن ثم أجهش في البكاء، فقال له
 بعض الحاضرين من المبعوثين: لا تبكِ فإننا سنستردها، فقال: أنا لا أبكي على
-طرابلس الغرب، ولكنني أبكي على الروملي وسورية و<placeName change="#d2e120" xml:id="placeName_24.d2e1959">الحجاز</placeName> و<placeName change="#d2e120" xml:id="placeName_25.d2e1963">العراق</placeName>.
+طرابلس الغرب، ولكنني أبكي على الروملي وسورية و<placeName change="#d2e120 #d11e282" xml:id="placeName_24.d2e1959" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> و<placeName change="#d2e120 #d11e282" xml:id="placeName_25.d2e1963" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>.
 من تأمل هذه الجملة الجوابية منه يعلم أنه قد لمح من وراء حجب الغيب ما
 سيكون في المستقبل استنباطًا حدسيًّا من سوء تدبير من بيدهم الحل والعقد، وقد
 اتفق مثل هذا لغيره من أصحاب الروية، والحدس، فوقع ما توقعوه، ولله الأمر
@@ -896,7 +896,7 @@
 واسعة لتنفيذ أوامر الجمعية الخادعة بالإصلاح الذي كانت تنويه، وهو الانتقام من
 مُتنوري أبناء العرب ونابغيهم، واتخذوا الحرب فرصة لتنفيذ ما تكنه صدورهم
 من الضغائن على هذا الجنس الشريف.
-صلب المترجم ب<placeName change="#d2e120" xml:id="placeName_26.d2e2083">دمشق الشام</placeName> مع جملة من وجهاء البلاد السورية بلا محاكمة
+صلب المترجم ب<placeName change="#d2e120 #d11e282" xml:id="placeName_26.d2e2083" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق الشام</placeName> مع جملة من وجهاء البلاد السورية بلا محاكمة
 ولا سؤال عن شيء، وذلك ليلة السبت رجب سنة 1334 هجرية , و23 نيسان
 سنة <date calendar="#cal_gregorian" when="1916" change="#d3e146 #d2e120" xml:id="date_5.d2e2093">1916</date> ميلادية، وكان لسان حاله يقول:
 يا جزع نح وابك واندب جثة خلقت <gap resp="#org_MS" change="#d2e120" xml:id="gap_14.d2e2099"/> من يوم (قالوا بلى) للضنك والمحن
@@ -1007,7 +1007,7 @@
 محمد الحسيني والشيخ محيي الدين الحفار والشيخ عبد اللطيف نشابه نجل الشيخ
 محمود نشابه.
 لما بدأت بطلب العلم ألفيته يطالع مع صديقه الشيخ محمد الحسيني الذي هو
-أشهر علماء <placeName change="#d2e120" xml:id="placeName_28.d2e2409">طرابلس</placeName> اليوم، أشهر كتب المنطق والأصول والكلام، كسلم العلوم،
+أشهر علماء <placeName change="#d2e120 #d11e282" xml:id="placeName_28.d2e2409" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> اليوم، أشهر كتب المنطق والأصول والكلام، كسلم العلوم،
 ومسلم الثبوت، والمواقف، والمقاصد، ولم أدرك زمن حضوره دروس الشيوخ إلا
 درس (نيل الأوطار) على والده، ولم يتمه.
 والفصل بينه، وبين أستاذه الشيخ محمود نشابه أن أستاذه، وأستاذنا هذا وقف
@@ -1048,21 +1048,21 @@
 نجدة ومروة، شجاعة وفتوة، رأفة ورحمة، وفاء وعلو همة، وناهيك بصبره
 وثباته، وبحبه الخالص، وبإخلاصه لذي رحِمِه وإخوانه، فقد كان للأسرة الرافعية
 الكثيرة العدد في القطرين الشامي والمصري كالوالد العطوف والأم الرءوم، يقوم لكل
-منهم بما تقتضيه حاله من غنى وفقر، وصحة ومرض. كان من زار <placeName change="#d2e120" xml:id="placeName_29.d2e2501">طرابلس</placeName> من
+منهم بما تقتضيه حاله من غنى وفقر، وصحة ومرض. كان من زار <placeName change="#d2e120 #d11e282" xml:id="placeName_29.d2e2501" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> من
 المقيمين في القطر المصري منهم يرى من حفاوته به، وإقامة المآدب النفيسة له،
 والعناية بخدمته، والقيام بشؤونه ما لا ينتظر مثله من والد حفي ولا ولد بار تقي، ولا
 صديق غني وفي، ولا أمير سخي أبي.
-توفي أخوه أحمد أفندي في <placeName change="#d2e120" xml:id="placeName_30.d2e2513">اليمن</placeName> , وكان حاكمًا إداريًّا في بعض بلادها
+توفي أخوه أحمد أفندي في <placeName change="#d2e120 #d11e282" xml:id="placeName_30.d2e2513" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> , وكان حاكمًا إداريًّا في بعض بلادها
 العثمانية، وترك غلامًا وجارية صغيرين حضنتهما أمهما، ثم بلغه أنها تزوجت،
-فخاف أن يكون ذلك مضيعةً لهما، فأخذ إجازةً من الحكومة وسافر إلى <placeName change="#d2e120" xml:id="placeName_31.d2e2520">اليمن</placeName>؛
-لأجل إحضارهما وتولي تربيتهما، وبعد البحث عنهما في <placeName change="#d2e120" xml:id="placeName_32.d2e2526">اليمن</placeName> علم أن زوج
-أمهما رحل بها وبهما إلى <placeName change="#d2e120" xml:id="placeName_33.d2e2531">العراق</placeName> عاملاً للحكومة، فسافر إلى <placeName change="#d2e120" xml:id="placeName_34.d2e2534">العراق</placeName> في المحيط
+فخاف أن يكون ذلك مضيعةً لهما، فأخذ إجازةً من الحكومة وسافر إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_31.d2e2520" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>؛
+لأجل إحضارهما وتولي تربيتهما، وبعد البحث عنهما في <placeName change="#d2e120 #d11e282" xml:id="placeName_32.d2e2526" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> علم أن زوج
+أمهما رحل بها وبهما إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_33.d2e2531" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> عاملاً للحكومة، فسافر إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_34.d2e2534" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> في المحيط
 الهندي في فصل الصيف، إذ يشتد اضطرابه واصطخابه حتى إن أمواجه لتجرف
 الناس عن ظهور البواخر أحيانًا، فيضطر البحارة العاملون على الظهر إلى ربط
 أنفسهم بالحبال، وفي مثل ذلك البحر في ذلك الزمن يظهر للمسافر أنه لا مبالغة في
 تشبيه التنزيل للموج بالجبال، فما حدّث به المترجم وغيره أن السفينة عندما تقع
 بين موجتين ترى كأنها في واد عميق من أودية الجبال، وقد عجب كل من لقيه في
-سفره هذا من أهل <placeName change="#d2e120" xml:id="placeName_35.d2e2550">اليمن</placeName> و<placeName change="#d2e120" xml:id="placeName_36.d2e2554">العراق</placeName> - كأهل وطنه السوري - من شدة غيرته وعلو
+سفره هذا من أهل <placeName change="#d2e120 #d11e282" xml:id="placeName_35.d2e2550" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> و<placeName change="#d2e120 #d11e282" xml:id="placeName_36.d2e2554" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> - كأهل وطنه السوري - من شدة غيرته وعلو
 همته وتفانيه في سعيه لكفالة هذين الولدين، وما كان من غبطته وسروره بالظفر
 بهما بعد ما كابده في سبيلهما من المشاق والأهوال، وبذل ما يفوق طاقته من المال.
 وقد قال فيه أخوه الصغير (وهو لأب) : (والله لم يمضني فقد أبي كفقدي
@@ -1073,7 +1073,7 @@
 بهم كانت أشد وزيارته لهم أكثر، وقد أجمع على حبه والاعتراف بفضله والثقة
 بإخلاصه، النصارى كالمسلمين، ولم نر دارًا من دور علماء الدين في طرابلس
 كداره، يتردد عليها أهل الوجاهة والأدب من جميع الطوائف، ولا يظن القارئ أن
-سائر علماء <placeName change="#d2e120" xml:id="placeName_37.d2e2581">طرابلس</placeName> جفاة أو متكبرون، أو ضُرب على أبواب دورهم حجاب من
+سائر علماء <placeName change="#d2e120 #d11e282" xml:id="placeName_37.d2e2581" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> جفاة أو متكبرون، أو ضُرب على أبواب دورهم حجاب من
 التعصب الديني فلا يزورون ولا يزارون، كلا إنهم بالرقة واللطف مشهورون، ولكن
 الفقيد كان ممتازًا فيهم وفي سائر الناس بما ذكرنا من الشمائل والصفات، كما أنه كان
 ممتازًا بين رجال الدين بالعناية بشؤون السياسة والعمران؛ لأن نفسه كانت تعشق
@@ -1110,7 +1110,7 @@
 (ويلي هذا كلام قطعه المراقب من الكتاب) .
 ***
 مودة المترجَم وولايته لصاحب المنار
-كان بين آل بيتنا وبين الرافعية في <placeName change="#d2e120" xml:id="placeName_38.d2e2667">طرابلس</placeName> مودة ورثها الأب عن الجد،
+كان بين آل بيتنا وبين الرافعية في <placeName change="#d2e120 #d11e282" xml:id="placeName_38.d2e2667" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> مودة ورثها الأب عن الجد،
 ولكنها مع بعض الأفراد أقوى من بعض، فكان الشيخ عبد الغني أحب شيوخهم إلى
 والدي، ونجله المترجم أحب شبانهم إليه، لذلك كنت منذ الشروع في طلب العلم
 أتردد عليه وأحب مذاكرته على شدة إعراضي عن معاشرة الناس، محافظةً
@@ -1153,14 +1153,14 @@
 إقرار المنكر كفعله، وخرجت ولم ينبس أحد من الناس بكلمة استحسان ولا استهجان،
 ولما بعدت عن المكان قليلاً نظرت ورائي فوجدت أناسًا يتبعونني، ولكنهم قليل
 بالنسبة إلى من بقي.
-كان هذا الإنكار مثارًا للعجب في <placeName change="#d2e120" xml:id="placeName_39.d2e2763">طرابلس الشام</placeName>، وصار حديث الناس في
+كان هذا الإنكار مثارًا للعجب في <placeName change="#d2e120 #d11e282" xml:id="placeName_39.d2e2763" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName>، وصار حديث الناس في
 أنديتهم وسمارهم وملاهيهم، وهم بين مستحسن ومستهجن، ومعترض ومجيب،
 وكنت أرى أن أقوى المؤيدين لي، والمدافعين عني صاحب الترجمة على شدة
 أدبه مع جميع المنتسبين إلى طرق التصوف وتأثره ببعض خرافات كتب
 الشعراني، ومن العجائب أن أستاذي الشيخ حسينًا الجسر وصديقه وصديق
 والدي الشيخ عبد الله البركة من العلماء - كانا من المنكرين عليّ الناصحين ليّ
 بالسكوت عن مثل هذه الأمور، فقد دعاني معهم في تلك الأيام إبراهيم أفندي السبع
-إلى طعام أعده لنا في بستان، وهو ما يسميه أهل <placeName change="#d2e120" xml:id="placeName_41.d2e2785">طرابلس</placeName> بالسيران، وهنالك
+إلى طعام أعده لنا في بستان، وهو ما يسميه أهل <placeName change="#d2e120 #d11e282" xml:id="placeName_41.d2e2785" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> بالسيران، وهنالك
 سألني الشيخان عن حقيقة ما يتحدث به الناس في تلك الحادثة، فنصصت القول
 على غره، فصار شيخنا يدافع عن المولوية بمثل ما يؤثر في الكتب من الدفاع
 عن الصوفية، وأنا أحتج بالسنة ونصوص الشرع، حتى قال متبرمًا: إن مذهبنا
@@ -1195,7 +1195,7 @@
 السوري الذي قدمه للجنة الاستفتاء الدولية، وهذا هو النص العربي الأصلي الذي
 قدمت ترجمته بالإنكليزية:
 (إننا نحن الموقعون أدناه بإمضاءاتنا وأسمائنا أعضاء المؤتمر السوري
-العام المنعقد في <placeName change="#d2e120" xml:id="placeName_42.d2e2849">دمشق الشام</placeName> , والمؤلف من مندوبي جميع المناطق الثلاث: الجنوبية
+العام المنعقد في <placeName change="#d2e120 #d11e282" xml:id="placeName_42.d2e2849" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق الشام</placeName> , والمؤلف من مندوبي جميع المناطق الثلاث: الجنوبية
 والشرقية والغربية، الحائزين على اعتمادات سكان مقاطعاتنا وتفويضاتهم من
 مسلمين ومسيحيين وموسويين، وقد قررنا في جلستنا المنعقدة في نهار الأربعاء
 المصادف لتاريخ 2 تموز (يوليو) سنة 1919 وضع هذه اللائحة المبينة لرغبات
@@ -1269,11 +1269,11 @@
                
 
                
-اشترط دول الحلفاء في مهادنة <placeName change="#d2e120" xml:id="placeName_43.d2e2997">الدولة العثمانية</placeName> أن يكون لهم الحق في احتلال
+اشترط دول الحلفاء في مهادنة <placeName change="#d2e120 #d11e282" xml:id="placeName_43.d2e2997" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> أن يكون لهم الحق في احتلال
 جيوشهم للبلاد، والمواقع العسكرية التي يتوقف تنفيذ شروط الهدنة على احتلالها،
 كتأمين تسريح الجيش وإعادة الأسرى، وجعلوا هذا الشرط وسيلةً لاحتلال كاد
 يكون عامًّا شاملاً لجميع الولايات التركية بعدما احتلوا جميع الولايات العربية في
-سورية و<placeName change="#d2e120" xml:id="placeName_44.d2e3009">العراق</placeName> , ومن البديهي أن هذا الاحتلال يمكِّنهم من تسريح جميع الجنود
+سورية و<placeName change="#d2e120 #d11e282" xml:id="placeName_44.d2e3009" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> , ومن البديهي أن هذا الاحتلال يمكِّنهم من تسريح جميع الجنود
 العثمانية إلا ما يراه الحلفاء نافعًا لهم في حفظ الأمن تحت إدارتهم، كالشرطة
 وأعوانها، ومن جمع السلاح، بحيث يكون تقسيم البلاد بينهم سهلاً سائغًا، لا مشقة
 فيه ولا خسارة، ولم يكتفوا بجعل هذا الاحتلال لجيوش الدول الكبرى الظافرة،
@@ -1285,7 +1285,7 @@
 واحتج السلطان محمد وحيد الدين نفسه عليه بأن أعلن الاستقالة من الخلافة
 والسلطنة، وأبى ولي عهده أن يقبل المبايعة لنفسه، واضطر السلطان إلى البقاء
 في (دسته) وتألفت العصابات المسلحة في ولاية أزمير وغيرها من الأناضول
-لقتال اليونان، فحملتهم خسائر عظيمة، ثم عزم الترك في <placeName change="#d2e120" xml:id="placeName_45.d2e3038">الأناضول</placeName> على مقاتلة
+لقتال اليونان، فحملتهم خسائر عظيمة، ثم عزم الترك في <placeName change="#d2e120 #d11e282" xml:id="placeName_45.d2e3038" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName> على مقاتلة
 كل جيش يحتل بلادهم أو يجعلها تحت حماية أجنبية، وهو المتبادر من عمل
 أوربة , وفر أنور باشا وغيره من الضباط إلى القوقاز، فتولوا تأليف العصابات
 لقتال الإنكليز الذين احتلوا بعض تلك البلاد، والمساعدة على نشر البلشفية في أمم
@@ -1302,7 +1302,7 @@
 المدني، وإبطال التقاليد الضارة، ويرى العارفون بشؤون الدولة الآن أنه راض في
 الباطن من مؤسسي العصابات، كمصطفى كمال باشا وغيره، وإن كانوا غير
 خاضعين لحكومة الآستانة الخاضعة لاحتلال الحلفاء.
-فالحرب الآن في <placeName change="#d2e120" xml:id="placeName_46.d2e3078">الأناضول</placeName> مستعرة كروسية، ونيران الفتن في البلقان
+فالحرب الآن في <placeName change="#d2e120 #d11e282" xml:id="placeName_46.d2e3078" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName> مستعرة كروسية، ونيران الفتن في البلقان
 مستورة برماد دقيق تنكشف من تحته تارةً بعد أخرى، وجميع أمم الأرض
 مضطربة جائعة، وسبب ذلك كله مؤتمر الصلح الأعرج الأعشى، الذي اكتفى بعقد
 الصلح مع ألمانية ليقيدها بقيود تمكنه من التصرف في سائر الأمم بما يهوى،

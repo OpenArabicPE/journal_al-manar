@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_29-i_1.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_29-i_1.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e276">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_29-i_1.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_29-i_1.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1346">1346</date><date calendar="#cal_gregorian" when="1928" xml:lang="ar">مارس - 1928م</date></imprint>
                   <biblScope unit="volume" from="29" to="29" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">29</biblScope>
                   <biblScope unit="issue" from="1" to="1" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">1</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e276" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -146,7 +146,7 @@
 وخونة القوامين على اليتامى والمجانين، ولا أن يسوقوا مئات الألوف بل
 الملايين من شبان مستعمراتهم إلى جحيم الحرب، كما تساق الغنم إلى مجازر الذبح،
 ولا أن يستحوذوا على ذهبها وفضتها وغلالها ومواشيها وجمالها وخيلها وبغالها
-وحميرها فينتزعوها بالقوة <placeName change="#d2e120" xml:id="placeName_4.d2e413">القاهرة</placeName>، كما فعلوا في الحرب السابقة، وإن صادفوا من
+وحميرها فينتزعوها بالقوة <placeName change="#d2e120 #d11e276" xml:id="placeName_4.d2e413" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، كما فعلوا في الحرب السابقة، وإن صادفوا من
 رجال حكوماتها المحلية من يسخرونهم لذلك كما سخروا الحكومة المصرية، فكيف
 إذا لم يجدوا حكومةً وطنيةً قابلةً لمثل ذلك التسخير الذي لا يرضى به إلا الحمير؟
 فلا ييأسن مسلم ولا شرقي من تحرير أمته من رق أوربة، فإن الفرصة ستسنح عن
@@ -156,18 +156,18 @@
 الاستعمار، وطمعًا في الدرهم والدينار، وضراوة في سفك الدماء , وتفننًا في المكر
 والدهاء، وصراحة في نقض العهود، وإخلاف الوعود، كما فعلوا في البلاد
 العربية التي ضمنوا لها الاستقلال والحرية، ثم تجاوزوا بالعدوان عليها ما كانوا
-قرروه سرًّا من اقتسام ذات الثروة الغزيرة منها: تجاوزوا <placeName change="#d2e120" xml:id="placeName_5.d2e438">العراق</placeName> وسورية
+قرروه سرًّا من اقتسام ذات الثروة الغزيرة منها: تجاوزوا <placeName change="#d2e120 #d11e276" xml:id="placeName_5.d2e438" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وسورية
 الساحلية إلى الصحراء العربية، بل إلى البلاد المقدسة الحجازية، فاقتسموا سكة
 الحديد الممتدة من سورية وفلسطين إلى المدينة المنورة؛ وهي وقف إسلامي على
 الحرمين الشريفين ثم انتزع الإنكليز منطقة العقبة ومعان التابعة لمدينة الرسول
 - صلى الله عليه وسلم - وأنشئوا يقيمون فيها الثكنات العسكرية والمعاقل الحربية،
-وسيمدون فيها سكة حديدية تصل ما بين العقبة و<placeName change="#d2e120" xml:id="placeName_6.d2e452">البصرة</placeName>، أو ما بين ساحل الحجاز
+وسيمدون فيها سكة حديدية تصل ما بين العقبة و<placeName change="#d2e120 #d11e276" xml:id="placeName_6.d2e452" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>، أو ما بين ساحل الحجاز
 من البحر الأحمر وشط العرب، وحينئذ يكون أداء فريضة الحج تحت مظلة
 سلطانهم، وذلة صلبانهم من كل بر وبحر، ويكون الحرم النبوي تحت رحمة
 طياراتهم وجنودهم في كل وقت، كل هذا فعلوه بمساعدة الشريفين المكيين
-الهاشميين والحسنيين الأميرين الملكين ملك <placeName change="#d2e120" xml:id="placeName_7.d2e464">الحجاز</placeName> - بزعمه - في ذلك الوقت
+الهاشميين والحسنيين الأميرين الملكين ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_7.d2e464" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> - بزعمه - في ذلك الوقت
 الشريف علي، وأمير شرق الأردن البريطاني إلى يومنا هذا الشريف عبد الله، فإذا
-سكت العرب على هذا العدوان جهلاً، فلماذا يسكت سائر المسلمين و<placeName change="#d2e120" xml:id="placeName_8.d2e471">الحجاز</placeName> قبلة
+سكت العرب على هذا العدوان جهلاً، فلماذا يسكت سائر المسلمين و<placeName change="#d2e120 #d11e276" xml:id="placeName_8.d2e471" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> قبلة
 ومنسك للجميع؟ وماذا يخافون والله يقول: {فَلاَ تَخَافُوَهُمْ وَخَافُونِ إِن كُنتُم
 مُّؤْمِنِينَ} (آل عمران: 175) .
 سارع الإنكليز وحلفاؤهم بعد الحرب إلى استعباد ما لم يكونوا قد استعبدوه من
@@ -181,7 +181,7 @@
 لهم ما يريدون، وقامت في وجوههم ثورة مصر العزلاء، فاضطرتهم إلى إلغاء
 الحماية والاعتراف لمصر بالاستقلال والسيادة القومية. ولكنهم قدموا هذا الاعتراف
 بتحفظات، لا تزال مثار النزاع والمفاوضات.
-وقامت على إدارتهم الهندية في <placeName change="#d2e120" xml:id="placeName_9.d2e505">العراق</placeName> الثورة المسلحة، فألجأتهم إلى تأليف
+وقامت على إدارتهم الهندية في <placeName change="#d2e120 #d11e276" xml:id="placeName_9.d2e505" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> الثورة المسلحة، فألجأتهم إلى تأليف
 حكومة عراقية ملكية. لكنهم جعلوا فيصل بن حسين أخلص صنائعهم لهم ملكًا عليها،
 يحقق لهم بالسلم والاقتصاد كل ما يريدون منها، وسوف يخيب بتوفيق الله أملهم
 فيها.
@@ -190,7 +190,7 @@
 مستقلة، وكان ما كان من أمر ثورة الصين عداوة لهم ونبذًا لسيطرة امتيازاتهم
 واستعمارهم، فحاولوا تأليب أوربة عليهم كما هو المعروف من شنشنتهم، فخذلتها
 الدول في هذه المرة، وما كل مرة تسلم الجرة، فعادوا خاسرين وانقلبوا خاسئين.
-وثبت الإمام يحيى في <placeName change="#d2e120" xml:id="placeName_10.d2e527">اليمن</placeName> على سياسته السلبية معهم، فلم يستطيعوا إقناعه
+وثبت الإمام يحيى في <placeName change="#d2e120 #d11e276" xml:id="placeName_10.d2e527" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> على سياسته السلبية معهم، فلم يستطيعوا إقناعه
 بالاعتراف لهم بأدنى حق في بلاده، بل لا يزال يطالبهم بالمقاطعات التسع وبعدن
 نفسها.
 وانتزع ابن السعود الحرمين الشريفين من صنيعتهم الشريف حسين الذي ولوه
@@ -198,25 +198,25 @@
 كان ضربًا من الحماية، واضطرهم إلى الاعتراف له بالاستقلال التام المطلق في
 الحجاز ونجد وملحقاتها ولا يزال الخلاف بينهما قائمًا على السكة الحجازية ومنطقة
 العقبة ومعان، يطالبونه بالاعتراف بدخول هذه في شرق الأردن أو بالسكوت لهم
-عنها، وينذرونه تأليب عرب <placeName change="#d2e120" xml:id="placeName_11.d2e548">العراق</placeName> والأردن عليه، وتهييج مسلمي الهند وإيران
+عنها، وينذرونه تأليب عرب <placeName change="#d2e120 #d11e276" xml:id="placeName_11.d2e548" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> والأردن عليه، وتهييج مسلمي الهند وإيران
 ومصر عليه.
-نعم.. يطمع الإنكليز بالاستيلاء على <placeName change="#d2e120" xml:id="placeName_12.d2e555">الحجاز</placeName> بقوة المسلمين عامة والعرب
+نعم.. يطمع الإنكليز بالاستيلاء على <placeName change="#d2e120 #d11e276" xml:id="placeName_12.d2e555" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بقوة المسلمين عامة والعرب
 خاصة؛ لأنهم رأوا من تخاذل العرب الوطني والجنسي، مثلما رأوا من تخاذل
 المسلمين الديني، فكان زعيمان من أشهر خصومهم في الهند أشد خدمة لهم في هذا
 السبيل من أخلص صنائعهم في بلاد العرب (الملك فيصل والأمير عبد الله) ،
-هذان يهددان ملك <placeName change="#d2e120" xml:id="placeName_13.d2e567">الحجاز</placeName> ونجد، ويعتديان حدود الله بالتعدى على حدوده والتحرش
+هذان يهددان ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_13.d2e567" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ونجد، ويعتديان حدود الله بالتعدى على حدوده والتحرش
 بقوته، وذانك قد اجتهدا في إيقاع الفشل في المؤتمر الإسلامي العام الذي أجمع على
 الإنكار على الإنكليز مسألة العقبة ومعان، ومسألة اقتسام منافع السكة الحجازية
 بينهم وبين أحلافهم الفرنسيس. وما فعلا ذلك حبًا في الإنكليز بل بغضًا في ابن
-السعود؛ لأنه لم يتبع هواهما فيما يريدان أن تكون عليه حكومة <placeName change="#d2e120" xml:id="placeName_14.d2e579">الحجاز</placeName> وهو هوى
+السعود؛ لأنه لم يتبع هواهما فيما يريدان أن تكون عليه حكومة <placeName change="#d2e120 #d11e276" xml:id="placeName_14.d2e579" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وهو هوى
 باطل، وتنفيذه محال وطلبه غرور بل جنون.
 هذه حالهم في الشرق، خابوا في كل عمل، وانكشف خداعهم لكل أحد، ولم
 يبق لهم أمل جديد إلا في بلاد العرب، ولولا فيصل وعبد الله ولدا الشريف حسين،
 لرجعوا منا بخفي حنين؛ إذ كان يستحيل على التقاليد الإنكليزية أن تستولي على
-شيء من أرض <placeName change="#d2e120" xml:id="placeName_15.d2e593">الحجاز</placeName> لنفسها، وقد سبق لنا أن استنجدنا العالم الإسلامي على
+شيء من أرض <placeName change="#d2e120 #d11e276" xml:id="placeName_15.d2e593" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لنفسها، وقد سبق لنا أن استنجدنا العالم الإسلامي على
 والدهما موجد هذا الخطر فأنجد. والآن نستصرخه ليتم ما بدا، وينقذ حرم الله
 وحرم رسوله من الردى.
-إن الدفاع عن <placeName change="#d2e120" xml:id="placeName_16.d2e603">الحجاز</placeName> واجب على المسلمين أينما كانوا، كل بقدر طاقته، فإن
+إن الدفاع عن <placeName change="#d2e120 #d11e276" xml:id="placeName_16.d2e603" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> واجب على المسلمين أينما كانوا، كل بقدر طاقته، فإن
 استيلاء الإنكليز على ثغر العقبة وحده أكبر خطر على المدينة المنورة، وإن هذه
 البلاد قد حرمها الإسلام على غير المسلمين، فلا يجوز لإنكليزي ولا لغيره أن يملك
 فيها ذراعًا ولا شبرًا، ولا أن يصدر فيها نهيًا أو أمرًا، فإذا لم يبال المسلمون كافة
@@ -224,7 +224,7 @@
 العام تحت رايتهم ووصايتهم، فأي دين يبقى لهؤلاء المسلمين؟ أيظنون أن الإنكليز
 يحافظون على حرية الحج وكرامة الحرمين في ظل ملكهم حامي الكنيسة الإنجيلية،
 وهم يرون بأعينهم ويسمعون بآذانهم ويقرءون في الكتب والصحف ما يفعل دعاة
-النصرانية في ثالث الحرمين (<placeName change="#d2e120" xml:id="placeName_17.d2e623">القدس</placeName>) ؛ من الطعن في الإسلام، والتواطؤ على
+النصرانية في ثالث الحرمين (<placeName change="#d2e120 #d11e276" xml:id="placeName_17.d2e623" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>) ؛ من الطعن في الإسلام، والتواطؤ على
 تنصير جميع مسلمي الأرض، وتخصيص الحرمين الشريفين وعرفات وسائر
 العرب بالذكر؟ وقد ظهر لهم سر قوله عليه الصلاة والسلام: (إذا ذلت العرب ذل
 الإسلام) رواه أبو يعلى بسند صحيح.
@@ -236,35 +236,35 @@
 أفغانية أو هندية، ولا تعاليم سلفية وهابية أو خلفية تأويلية، بل المسألة العظمى
 وهي الطامة الكبرى مسألة الديانة الإسلامية والملة الحنفية والوصية المحمدية، كل
 ذلك على خطر الزوال، والذل والخزي والنكال؛ إذا ظل الأجانب محتلين بقواتهم
-العسكرية للعقبة ومعان إن سكتنا عن <placeName change="#d2e120" xml:id="placeName_18.d2e652">القدس</placeName> وشرق الأردن الآن، وهم يخترقون
-منها قلب الصحراء العربية إلى <placeName change="#d2e120" xml:id="placeName_19.d2e658">العراق</placeName>.
+العسكرية للعقبة ومعان إن سكتنا عن <placeName change="#d2e120 #d11e276" xml:id="placeName_18.d2e652" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> وشرق الأردن الآن، وهم يخترقون
+منها قلب الصحراء العربية إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_19.d2e658" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>.
 سبحان الله! ما بالكم تسمعون الإنكليز يصرحون بأن استقلال المصريين في
 مصرهم خطر على الهند البريطانية - وبريطانيا أقوى دول الأرض - ولا يكون
 احتلالهم هم للعقبة ومعان وعمان واستيلاؤهم على سكة الحديد الحجازية مع
-حلفائهم الفرنسيس خطرًا على <placeName change="#d2e120" xml:id="placeName_20.d2e669">الحجاز</placeName>، وليس للحجاز دولة ذات قوة برية بحرية
+حلفائهم الفرنسيس خطرًا على <placeName change="#d2e120 #d11e276" xml:id="placeName_20.d2e669" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وليس للحجاز دولة ذات قوة برية بحرية
 جوية، يمكنها أن تدفع عنه هاتين الدولتين القاهرتين كلتيهما ولا واحدة منهما،
-اللهم إلا قوة الإيمان في الشعوب الإسلامية التي يجب أن تكون مع <placeName change="#d2e120" xml:id="placeName_21.d2e677">الحجاز</placeName> إلبا
+اللهم إلا قوة الإيمان في الشعوب الإسلامية التي يجب أن تكون مع <placeName change="#d2e120 #d11e276" xml:id="placeName_21.d2e677" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إلبا
 واحدًا عليهم.
 ألا يجب عليكم شرعًا أن تستعملوا قوتكم المعنوية، فتجمعوا على مطالبة
-الدولة البريطانية بترك ما انتزعت من <placeName change="#d2e120" xml:id="placeName_22.d2e687">الحجاز</placeName> للحجاز، وتطالبوا الدولتين وسائر
-الدول بالاعتراف باستقلال <placeName change="#d2e120" xml:id="placeName_23.d2e692">الحجاز</placeName> وسائر جزيرة العرب، وبكونها بلاد حرة حيادية
+الدولة البريطانية بترك ما انتزعت من <placeName change="#d2e120 #d11e276" xml:id="placeName_22.d2e687" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> للحجاز، وتطالبوا الدولتين وسائر
+الدول بالاعتراف باستقلال <placeName change="#d2e120 #d11e276" xml:id="placeName_23.d2e692" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وسائر جزيرة العرب، وبكونها بلاد حرة حيادية
 لا يعتدي عليها أحد؟ بلى والله لئن سكتم عن هذا، ليحكمن عليكم الأجانب بالموت
 والفناء أو لتكونن أنتم والحشرات الدنيئة في نظرهم سواء.
 انظروا وتأملوا: لماذا أمر نبيكم صلى الله عليه وسلم في مرض موته بإخراج
 اليهود والنصارى من جزيرة العرب، وأن لا يبقى فيها دينان؟ على ما علمتم من
 تسامح الإسلام وما جاء به من حرية الأديان؟ أليس قد أوصى بذلك؛ لأن حرم الله
-وحرم رسوله في <placeName change="#d2e120" xml:id="placeName_24.d2e708">الحجاز</placeName>؟ وهما مهبطُ الإسلام ومثابةُ أهله ومفزعُهم وملجؤهم عند
-الشدة، ولا يتم ذلك إلا إذا كان <placeName change="#d2e120" xml:id="placeName_25.d2e713">الحجاز</placeName> خاصًّا بهم هو وسياجه من جزيرة العرب.
+وحرم رسوله في <placeName change="#d2e120 #d11e276" xml:id="placeName_24.d2e708" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>؟ وهما مهبطُ الإسلام ومثابةُ أهله ومفزعُهم وملجؤهم عند
+الشدة، ولا يتم ذلك إلا إذا كان <placeName change="#d2e120 #d11e276" xml:id="placeName_25.d2e713" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> خاصًّا بهم هو وسياجه من جزيرة العرب.
 إذا كان هذا المعنى قد خفي على بعض العلماء المتقدمين، فلا يصح أن يخفى
 على عوام المعاصرين فضلا عن العلماء ولا سيما المحدثين الذي اطلعوا على قوله
 صلى الله عليه وسلم: (إن الإيمان ليأرز إلى المدينة كما تأرز الحية إلى جُحْرها)
 رواه الشيخان من حديث أبي هريرة، وقوله صلى الله عليه وسلم: (بدأ الإسلام
 غريبًا وسيعود غريبًا كما بدأ فطوبى للغرباء، وهو يأرز بين المسجدين كما
 تأرز الحية في جُحْرها) رواه مسلم من حديث ابن عمر، وحديث (إن الدين ليأرز
-إلى <placeName change="#d2e120" xml:id="placeName_26.d2e732">الحجاز</placeName> كما تأرز الحية إلى جُحْرها، وليعقلن الدين من <placeName change="#d2e120" xml:id="placeName_27.d2e735">الحجاز</placeName> معقل الأروية
+إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_26.d2e732" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> كما تأرز الحية إلى جُحْرها، وليعقلن الدين من <placeName change="#d2e120 #d11e276" xml:id="placeName_27.d2e735" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> معقل الأروية
 من رأس الجبل) .. إلخ، رواه الترمذي عن عمرو بن عوف المزني، ومعنى أرز:
 عاد وانكمش وانضم، والمراد الذي يدل على مجموع الروايات وحالة هذا العصر:
-أن الإسلام عندما يضعف ويعود غريبًا ينكمش إلى <placeName change="#d2e120" xml:id="placeName_28.d2e745">الحجاز</placeName> ويلجأ إليه، فيعتصم به
+أن الإسلام عندما يضعف ويعود غريبًا ينكمش إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_28.d2e745" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ويلجأ إليه، فيعتصم به
 كما تعتصم الوعول في رؤوس الجبال، وهو الواقع الآن الذي أظهر لنا حكمة
 وصيته صلى الله عليه وسلم بأن لا يبقى في جزيرة العرب غير الإسلام.
 أيها المسلمون: إن الدولة البريطانية أطمع الدول ولكنها أعقلها، فإذا رأت
@@ -277,10 +277,10 @@
 صداقةٌ تامةٌ وهي خير لنا ولهم، وإما عداوةٌ عامةٌ ولن تكون شرًّا علينا منهم.
 إن الدولة البريطانية تعلم أن لدى الإمام عبد العزيز بن السعود قوة حربية لم
 تر مثلها جزيرة العرب بعد عصر الصحابة، وأن الجيش البريطاني لا يمكنه أن
-ينازل هذه القوة في نجد ولا في <placeName change="#d2e120" xml:id="placeName_29.d2e776">الحجاز</placeName>؛ لأسباب جغرافية وسياسية وتقليدية
+ينازل هذه القوة في نجد ولا في <placeName change="#d2e120 #d11e276" xml:id="placeName_29.d2e776" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>؛ لأسباب جغرافية وسياسية وتقليدية
 واقتصادية معروفة، وأن الطيارات ما صارت قوة فاصلة في الحرب ولا سيما في
 مثل هذه الأرض، فسالمته ودارته من جهة، ووضعت على حدوده في نجد
-و<placeName change="#d2e120" xml:id="placeName_30.d2e786">الحجاز</placeName> عدويه الحاقدين عليه في <placeName change="#d2e120" xml:id="placeName_31.d2e789">العراق</placeName> وشرق الأردن من جهة ثانية، وهو أقوى
+و<placeName change="#d2e120 #d11e276" xml:id="placeName_30.d2e786" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> عدويه الحاقدين عليه في <placeName change="#d2e120 #d11e276" xml:id="placeName_31.d2e789" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وشرق الأردن من جهة ثانية، وهو أقوى
 منهما، ولكنه لا يرضى أن يتقارع العرب والمصلحة لغيرهما.
 أفلم يئن للعرب أن يعرفوا كيف أسست أمبراطورية الهند وغيرها بمثل هذه
 الحيل، أو لم يئن للمسلمين أن يتقوا الوقوع اليوم في شر مما وقع فيها من أضاعوا
@@ -832,7 +832,7 @@
 المرتبة الثانية ينظر إليهم بعين الحذر والحكمة مع محبته الخير لهم، وصاحب
 المرتبة الثالثة ينظر إليهم نظر المقت والانتقام.
 هذا بعض ما استوقف نظري مما مر به. لكن أشد ما استوقفني تلك الكلمة
-الجامعة الحكيمة التي كأن روح <placeName change="#d2e120" xml:id="placeName_32.d2e1980">القدس</placeName> نطق بها على لسانك: (إذا صلحت النفس
+الجامعة الحكيمة التي كأن روح <placeName change="#d2e120 #d11e276" xml:id="placeName_32.d2e1980" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> نطق بها على لسانك: (إذا صلحت النفس
 البشرية أصلحت كل شيء تأخذ به) فوقفتني وقفة غارقة في بحار التأمل، تارةً
 أستعيد ماضي الإسلام المجيد وما طرأ على المسلمين بعد عصر النور من ظلم
 الفساد، وأخرى أنظر إلى حاضر المسلمين وما هم عليه من سوء الأحوال
@@ -912,10 +912,10 @@
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_5.d2e2147">من عهد الصليبيين</head>
 <p change="#d2e120" xml:id="p_2.d2e2150">
                
-عثر أحد العمال في حي الميناء ب<placeName change="#d2e120" xml:id="placeName_33.d2e2154">طرابلس الشام</placeName> على لوحة رخامية مكتوب
+عثر أحد العمال في حي الميناء ب<placeName change="#d2e120 #d11e276" xml:id="placeName_33.d2e2154" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> على لوحة رخامية مكتوب
 عليها بالفرنسية القديمة ما ترجمته:
-(باسم الروح <placeName change="#d2e120" xml:id="placeName_35.d2e2165">القدس</placeName> نحن بومون بنعمة الله أمير أنطاكية وكونت طرابلس
-صنعنا هذا البرج من أموال جالية <placeName change="#d2e120" xml:id="placeName_36.d2e2170">طرابلس</placeName> عام 1268 لميلاد السيد المسيح) .
+(باسم الروح <placeName change="#d2e120 #d11e276" xml:id="placeName_35.d2e2165" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> نحن بومون بنعمة الله أمير أنطاكية وكونت طرابلس
+صنعنا هذا البرج من أموال جالية <placeName change="#d2e120 #d11e276" xml:id="placeName_36.d2e2170" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> عام 1268 لميلاد السيد المسيح) .
 وقد أرسلت هذه البلاطة إلى دائرة الآثار في المفوضية الفرنسية لإصلاحها
 ووضعها في المتحف اللبناني. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_4.d2e2177"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_4.d2e2179">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_6.d2e2181" ref="oape:pers:689 viaf:51716068">
@@ -1247,7 +1247,7 @@
 <p change="#d2e120" xml:id="p_2.d2e2858">
                
 إلى شيخه ومربيه الأستاذ الإمام
-عقب نفيه إلى <placeName change="#d2e120" xml:id="placeName_37.d2e2864">بيروت</placeName> في إثر الحوادث العرابية
+عقب نفيه إلى <placeName change="#d2e120 #d11e276" xml:id="placeName_37.d2e2864" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> في إثر الحوادث العرابية
 
                
 مولاي الأفضل، ووالدي الأكمل، أحسن الله مآبه.

@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_31-i_4.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_31-i_4.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e288">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_31-i_4.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_31-i_4.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e288" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1349">1349</date><date calendar="#cal_gregorian" when="1930" xml:lang="ar">أكتوبر - 1930م</date></imprint>
                   <biblScope unit="volume" from="31" to="31" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">31</biblScope>
                   <biblScope unit="issue" from="4" to="4" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">4</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e282" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e288" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e282" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -688,9 +688,9 @@
                
 
                
-بلغنا عن بعض إخواننا من مسلمي <placeName change="#d2e120" xml:id="placeName_4.d2e1577">بيروت</placeName> أنهم غير راضين عن رد المنار
+بلغنا عن بعض إخواننا من مسلمي <placeName change="#d2e120 #d11e288" xml:id="placeName_4.d2e1577" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> أنهم غير راضين عن رد المنار
 على الشيعة في هذا العهد الذي اشتدت فيه حاجة المسلمين إلى الاتفاق والاتحاد ولا
-سيما مسلمي سورية ولبنان و<placeName change="#d2e120" xml:id="placeName_5.d2e1585">العراق</placeName> الذين اشتد عليهم ضغط المستعمرين في دينهم
+سيما مسلمي سورية ولبنان و<placeName change="#d2e120 #d11e288" xml:id="placeName_5.d2e1585" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> الذين اشتد عليهم ضغط المستعمرين في دينهم
 ودنياهم. وإنني أقسم بالله وآياته لَشديد الحرص على هذا الاتفاق وقد جاهدت في
 سبيله أكثر من ثلث قرن، ولا أعرف أحدًا في المسلمين أعتقد أو أظن أنه أشد مني
 رغبةً وحرصًا على ذلك، وقد ظهر لي باختباري الطويل وبما اطَّلعت عليه من
@@ -699,8 +699,8 @@
 وأول مَن كلَّمتهم في هذا الموضوع شيخنا الأستاذ الإمام في سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1315" change="#d3e146 #d2e120" xml:id="date_5.d2e1601">1315</date> هـ
 وآخرهم الأستاذ الثعالبي السياسي الرحالة الشهير في هذا الشهر مع أستاذ ذكي من
 شبان الشيعة العراقيين، وفيما بين هذين الزمنين تكلمت مع كثيرين من الفريقين في
-مصر وسورية والهند و<placeName change="#d2e120" xml:id="placeName_6.d2e1610">العراق</placeName>، وأعلاهم مقامًا جلالة الملك فيصل تكلمنا في هذه
-المسألة في <placeName change="#d2e120" xml:id="placeName_7.d2e1616">دمشق</placeName> سنة 1320 ثم في مصر عند إلمامه بها في عودته من أوربة في
+مصر وسورية والهند و<placeName change="#d2e120 #d11e288" xml:id="placeName_6.d2e1610" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وأعلاهم مقامًا جلالة الملك فيصل تكلمنا في هذه
+المسألة في <placeName change="#d2e120 #d11e288" xml:id="placeName_7.d2e1616" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> سنة 1320 ثم في مصر عند إلمامه بها في عودته من أوربة في
 خريف سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1345" change="#d3e146 #d2e120" xml:id="date_6.d2e1621">1345</date>هـ <date calendar="#cal_gregorian" when="1926" change="#d3e146 #d2e120" xml:id="date_7.d2e1624">1926</date>م.
 ومما علمته بالخبر والخبر أن الشيعة أشد تعصبًا وشقاقًا لأهل السنة فيما عدا
 الهند من البلاد الجامعة بين الطائفتين؛ فالفريقان فيها قرنان متكافئان، وقد اجتهدت
@@ -710,24 +710,24 @@
 سبب دخول الكاتب الحماسي الشعبي (الديمقراطي) المؤثر ظفر علي خان صاحب
 جريدة زميندار الوطنية المؤثرة دار (النواب فتح علي خان) لأول مرة ولم يدخلها
 قبل ذلك قط ولا دخل دور غيره من سلائل الأمراء من الشيعة ولا غيرهم، وقد
-رأيت لسعيي تأثيرًا حسنًا في الهند وفي إيران، ولما ألممت ب<placeName change="#d2e120" xml:id="placeName_8.d2e1647">بغداد</placeName> منصرفي من
+رأيت لسعيي تأثيرًا حسنًا في الهند وفي إيران، ولما ألممت ب<placeName change="#d2e120 #d11e288" xml:id="placeName_8.d2e1647" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> منصرفي من
 الهند جاءني وفد من النجف للزيارة والدعوة إلى النجف وأخبرني رئيسه صديقي
 العلامة السيد هبة الدين الشهرستاني أنه يوجد هنالك كثيرون من طلبة العلم على
 رأيي في الإصلاح الإسلامي يتمنون لقائي، وما منعني من زيارة النجف إلا
 المرض وإنما كان داعية الإصلاح فيهم المُلا كاظم الخُراساني وقد توفي قبل زيارتي
-للعراق رحمه الله تعالى، ولكن جمهور شيعة <placeName change="#d2e120" xml:id="placeName_9.d2e1661">العراق</placeName> شديدو التعصب باعتراف
+للعراق رحمه الله تعالى، ولكن جمهور شيعة <placeName change="#d2e120 #d11e288" xml:id="placeName_9.d2e1661" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> شديدو التعصب باعتراف
 السيد هبة الدين وبعض المنصفين منهم. وكان يوجد في شيعة سورية من يُظهر
-الميل إلى الاتفاق في عهد <placeName change="#d2e120" xml:id="placeName_10.d2e1668">الدولة العثمانية</placeName> أكثر مما يوجد في <placeName change="#d2e120" xml:id="placeName_11.d2e1672">العراق</placeName>، وكان للمنار
+الميل إلى الاتفاق في عهد <placeName change="#d2e120 #d11e288" xml:id="placeName_10.d2e1668" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> أكثر مما يوجد في <placeName change="#d2e120 #d11e288" xml:id="placeName_11.d2e1672" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وكان للمنار
 رواج عند بعض العصريين المستنيرين منهم. ولذلك قام أشهر علمائهم يطعن عليَّ
 ويتهمني بالتعصب والتفريق؛ لأنهم يكرهون الاتفاق لما ذكرته آنفًا. وقد صبرت
 عدة سنين على طعنه عليَّ قولاً وكتابةً حتى صار السكوت عنه إقرارًا لهم على ما
 قصدوا له في هذا العهد عهد الاستعمار الفرنسي المسمى بالانتداب من مناهضة
 النهضة العربية الحاضرة من مدنية ودينية بما هو أكبر خدمة للأجانب السالبين
-لاستقلال هذه البلاد، سورية و<placeName change="#d2e120" xml:id="placeName_12.d2e1688">العراق</placeName>.
+لاستقلال هذه البلاد، سورية و<placeName change="#d2e120 #d11e288" xml:id="placeName_12.d2e1688" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>.
 ذلك أنهم نشطوا في هذا العهد لتأليف الكتب والرسائل في الطعن في السنة
 السنية والخلفاء الراشدين الذين فتحوا الأمصار، ونشروا الإسلام في الأقطار،
 وأسسوا ملكه بالعدل والقوة، وتم بهم وعد الله عز وجل: {لِيُظْهِرَهُ عَلَى الدِّينِ كُلِّهِ} (التوبة: 33) والطعن في حياة السنة وأئمتها، وفي الأمة العربية بجملتها،
-وخصوا بالطعن أول ملك عربي اعترفت له الدول <placeName change="#d2e120" xml:id="placeName_13.d2e1700">القاهرة</placeName> للعرب والمسلمين
+وخصوا بالطعن أول ملك عربي اعترفت له الدول <placeName change="#d2e120 #d11e288" xml:id="placeName_13.d2e1700" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> للعرب والمسلمين
 وغيرها بالاستقلال المطلق والمساواة لها في الحقوق الدولية، طعنوا فيه وفي قومه
 بكتاب ضخم لتنفير المسلمين ولا سيما مسلمي العرب وصدهم عنه وإغرائهم
 بعداوته والبراءة منه، لا لعلة ولا ذنب إلا اتباع السنة وإقامة أركان دولته على
@@ -748,7 +748,7 @@
 وزعم أيضًا أن صاحب المنار قد انفرد دون المسلمين بموافقة ابن تيمية
 والوهابية، وزاد على ذلك الطعن في شخصه وسيرته العملية، بما هو محض
 الزور والبهتان، ليخدع الجاهلين من أهل السنة بما بيناه في الرد عليه.
-وقام في أثره من علماء شيعة <placeName change="#d2e120" xml:id="placeName_14.d2e1748">العراق</placeName> مَنْ ألف كتابًا خاصًا في الرد على كتاب
+وقام في أثره من علماء شيعة <placeName change="#d2e120 #d11e288" xml:id="placeName_14.d2e1748" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> مَنْ ألف كتابًا خاصًا في الرد على كتاب
 (منهاج السنة) لشيخ الإسلام، وآخرون ألفوا كتبًا ورسائل أخرى في الطعن على
 السنة وأهلها، دعْ ما قالوه في مؤتمرهم المشهور من تكفير الوهابية والتحريض
 على قتالهم، على ضعفهم وعجزهم.
@@ -839,7 +839,7 @@
 أعلم بالفصل بين الخصوم وتطبيق قضاياهم على أحكام الشرع، ولا يكون مع ذلك
 أعلم من عمر به، وقد كان أبو يوسف أقضى من أستاذه أبي حنيفة وزميله محمد
 بن الحسن ولم يكن أعلم منهما، ومثل هذا كثير مشاهَد في كل زمان. كان الشيخ
-محمود نشابة في طرابُلس <placeName change="#d2e120" xml:id="placeName_15.d2e1963">الشام</placeName> أعلم من أحمد أفندي سلطان بكل علوم الشرع وكان
+محمود نشابة في طرابُلس <placeName change="#d2e120 #d11e288" xml:id="placeName_15.d2e1963" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> أعلم من أحمد أفندي سلطان بكل علوم الشرع وكان
 أحمد أفندي أقضى منه، بل لم يكن الشيخ محمود نشابة علامة سورية في زمنه
 الذي أدركناه في آخره مستعدًّا لأن يكون قاضيًا.
 وأما حديث: (أنا مدينة العلم وعلي بابها) فليس بينه - على تقدير صحته -
@@ -877,7 +877,7 @@
 البخاري وقال: إنه ليس له وجه صحيح. وقال ابن معين: إنه كذب لا أصل له،
 وأورده ابن الجوزي في الموضوعات ووافقه الذهبي وغيره على ذلك، وقال ابن
 دقيق العيد: هذا الحديث لم يثبتوه وقيل: إنه باطل. اهـ.
-وقد أورده الأستاذ الشيخ محمد الحوت الكبير علامة <placeName change="#d2e120" xml:id="placeName_16.d2e2049">بيروت</placeName> في (أسنى
+وقد أورده الأستاذ الشيخ محمد الحوت الكبير علامة <placeName change="#d2e120 #d11e288" xml:id="placeName_16.d2e2049" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> في (أسنى
 المطالب) وذكر بعض ما نقله الديبع عن أستاذه الحافظ السخاوي من قول الحفاظ
 بوضعه حتى ابن معين، ثم قال: قد ولع به العلماء، وذكره من دون بيان رتبته
 خطأ، ومثله: (أنا دار الحكمة وعلي بابها) وزاد بعضهم: ( <gap resp="#org_MS" change="#d2e120" xml:id="gap_53.d2e2059"/> وأبو بكر
@@ -929,7 +929,7 @@
 الروايات في مناقب علي رضي الله عنه أكثر مما أثبتوه من مناقب غيره من
 الصحابة رضي الله عنهم وصرح بذلك إمامهم الأعظم أحمد بن حنبل وأقروه عليه،
 فهل يعدون من النواصب؟ !
-وأختم هذا البحث بالتذكير بأنني كنت نوهت بشيعة <placeName change="#d2e120" xml:id="placeName_17.d2e2170">العراق</placeName> في أول العهد
+وأختم هذا البحث بالتذكير بأنني كنت نوهت بشيعة <placeName change="#d2e120 #d11e288" xml:id="placeName_17.d2e2170" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> في أول العهد
 باستيلاء الإنكليز عليها؛ لأنهم كانوا أشد من أهل السنة في الثورة عليهم، ولما
 بلغنا عنهم من احتقار الدسيسة التي عرضها عليهم الإنكليز للتفرقة بينهم وبين أهل
 السنة؛ إذ عرضوا عليهم أن يكون القضاء في الجهات التي يكثرون فيها بمذهبهم
@@ -1375,7 +1375,7 @@
 مستعمراتها. ولولا التنازع على الاستعمار لما وقعت الحرب الكبرى الأخيرة، وإن
 الحرب المنتظرة لأجل الاستعمار والثأر معًا لأكبر هولاً وأعظم خطرًا.
 (2) إننا لا نجهل ضعف شعوبنا الإسلامية أو الشرقية تجاه فرنسة وغيرها
-من الدول <placeName change="#d2e120" xml:id="placeName_18.d2e3132">القاهرة</placeName> لهم بالقوة العسكرية - ولكننا نعلم أن هذا الضعف قد بدأ يتحول
+من الدول <placeName change="#d2e120 #d11e288" xml:id="placeName_18.d2e3132" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> لهم بالقوة العسكرية - ولكننا نعلم أن هذا الضعف قد بدأ يتحول
 إلى قوة، كما ينتظر أن تنقلب قوتهم إلى ضعف، وإنما يستحيل الضعف قوة
 بمعرفة الشعوب لأنفسها، وشعورها بالحاجة إلى تنظيم وحدتها، واعتقادها بصحة
 قاعدة موقظي الشرق (الحكيم الأفغاني والإمام المصري) :
@@ -1404,7 +1404,7 @@
 يرضى بذلك أيضًا كما قال: {وَلاَ يَرْضَى لِعِبَادِهِ الْكُفْرَ} (الزمر: 7) ولا أن
 نرضى بالظلم والضرر وقد أمرنا أن ننكر المنكر ونغيره بما نستطيع وهو مقدر،
 وأن نفر من الوباء والأمراض ونقاومها بالأدوية وهي مقدرة. كما قيل لسيدنا عمر
-أمير المؤمنين لما امتنع من دخول <placeName change="#d2e120" xml:id="placeName_19.d2e3198">الشام</placeName> لوجود الوباء فيها: أتفر من قدر الله؟! قال
+أمير المؤمنين لما امتنع من دخول <placeName change="#d2e120 #d11e288" xml:id="placeName_19.d2e3198" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> لوجود الوباء فيها: أتفر من قدر الله؟! قال
 : نفر من قدر الله إلى قدر الله، وقال إمام الصوفية وقطبهم الأكبر في عصره الشيخ
 عبد القادر الجيلاني ما معناه: إننا نغالب الأقدار بالأقدار، ولكن بدعة الصوفية
 نشرت هذه الأفكار التي استخدمتها فرنسة لإخضاع جهلة المسلمين بها، وإخماد
@@ -1511,21 +1511,21 @@
 
                
 نشرنا في الجزء الثاني من المنار مقالاً بَيَّنَّا فيه رأينا في هذه المعاهدة ونشرته
-<bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e273">جريدة <title level="j" change="#d11e273">المؤيد الجديد</title></bibl> بمصر و<bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_14.d2e3403">الجامعة</title></bibl> العربية في <placeName change="#d2e120" xml:id="placeName_20.d2e3406">القدس</placeName> مع اختصار،
-وإحدى جرائد <placeName change="#d2e120" xml:id="placeName_21.d2e3412">العراق</placeName> فغاظ ذلك نوري باشا السعيد رئيس الوزارة العراقية فلقن
-جريدة <placeName change="#d2e120" xml:id="placeName_22.d2e3417">العراق</placeName> لسان حاله مقالاً في الطعن على شخص صاحب المنار والافتراء عليه،
+<bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e273">جريدة <title level="j" change="#d11e273">المؤيد الجديد</title></bibl> بمصر و<bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_14.d2e3403">الجامعة</title></bibl> العربية في <placeName change="#d2e120 #d11e288" xml:id="placeName_20.d2e3406" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> مع اختصار،
+وإحدى جرائد <placeName change="#d2e120 #d11e288" xml:id="placeName_21.d2e3412" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> فغاظ ذلك نوري باشا السعيد رئيس الوزارة العراقية فلقن
+جريدة <placeName change="#d2e120 #d11e288" xml:id="placeName_22.d2e3417" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> لسان حاله مقالاً في الطعن على شخص صاحب المنار والافتراء عليه،
 لم يكن مثله يليق بمنصب الوزير وأدبه ولا بما كان له من التردد على صاحب
 المنار والتودد له والممالحة.
 أما المعاهدة فقد زعم أنه لم ينطق أحد باستنكارها وبيان مضارها إلا الغراب
-الذي نعب بمصر وغراب آخر رجع صداه في <placeName change="#d2e120" xml:id="placeName_23.d2e3429">العراق</placeName>، فإن كان لهذا القول مكان
+الذي نعب بمصر وغراب آخر رجع صداه في <placeName change="#d2e120 #d11e288" xml:id="placeName_23.d2e3429" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، فإن كان لهذا القول مكان
 من الصدق فالشرف فيه لصاحب المنار أنه كان الأول المقدم لهذه الحملة الصادقة
-التي حملها أعظم زعماء <placeName change="#d2e120" xml:id="placeName_24.d2e3436">العراق</placeName> على المعاهدة ولكن بعد نفوذ السهم وزعم أنه لم
+التي حملها أعظم زعماء <placeName change="#d2e120 #d11e288" xml:id="placeName_24.d2e3436" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> على المعاهدة ولكن بعد نفوذ السهم وزعم أنه لم
 يكن له شأن في المسألة العربية. كأنه يجهل أنه أحد مؤسسي الحركة العربية
 وخطباء (المنتدى الأدبي) العربي في الآستانة وحزب الاتحاد السوري بمصر
 ومكانه من حزب الاستقلال العربي وأنه المؤسس الأول لجمعية الجامعة العربية،
 وكأنه نسي تردده هو وغيره من الضباط عليه عندما يجيئون مصر وعندما
 يسافرون منها، وقوله له عندما ودعه هو بداره - آخر مرة في أيام الحرب -: يا
-نوري، إنني حجة الله عليكم قد أخبرتكم أن الإنكليز يستخدمون شرفاء <placeName change="#d2e120" xml:id="placeName_25.d2e3453">مكة</placeName> والثورة
+نوري، إنني حجة الله عليكم قد أخبرتكم أن الإنكليز يستخدمون شرفاء <placeName change="#d2e120 #d11e288" xml:id="placeName_25.d2e3453" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> والثورة
 العربية في القضاء على الأتراك والاستيلاء على العرب، فلا تكونوا آلة في يدهم
 لاستعباد أمتكم وإضاعة مستقبل بلادكم، بل اتخذوا فرصة احتياج الإنكليز إلى
 العرب لجمع ما تقدرون عليه من المال والسلاح وادِّخاره، مع السعي لجمع كلمة
@@ -1540,18 +1540,18 @@
 بقانونها، ولكن الملك حسينًا نكص ونكث فحمل عليه صاحب المنار تلك الحملات
 المعروفة.
 وأما جلالة الملك فيصل فلا يجهل نوري باشا موقف صاحب المنار معه في
-دمشق وتلك الكلمات المشهورة له التي سماها مؤرخ <placeName change="#d2e120" xml:id="placeName_26.d2e3488">الشام</placeName> الأستاذ <persName change="#d2e120 #d3e252" xml:id="persName_10.d2e3491" ref="oape:pers:878 viaf:32272677">
+دمشق وتلك الكلمات المشهورة له التي سماها مؤرخ <placeName change="#d2e120 #d11e288" xml:id="placeName_26.d2e3488" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> الأستاذ <persName change="#d2e120 #d3e252" xml:id="persName_10.d2e3491" ref="oape:pers:878 viaf:32272677">
                             <forename xml:lang="ar">محمد</forename>
                             <surname xml:lang="ar">كرد علي</surname>
                         </persName>
 (الكلمات التاريخية) كما أنه لا ينسى أنه كان رئيس المؤتمر السوري العام في
 دمشق الذي جعل فيصلاً ملكًا - وأنه واقف على أخباره هو في الوساطة بين الملك
 فيصل والجنرال غورو حتى في عهد ذلك الإنذار الشائن المهين. ولا ما قاله له
-عندما عاد بجلالته ليلاً إلى <placeName change="#d2e120" xml:id="placeName_27.d2e3502">دمشق</placeName> بعد احتلال الجنرال غورو إياها. وأنه أنكر أنه
-هو الذي أشار برجوع الملك إلى <placeName change="#d2e120" xml:id="placeName_28.d2e3508">الشام</placeName>، ولطخ بذلك غيره من حاشيته.
+عندما عاد بجلالته ليلاً إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_27.d2e3502" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> بعد احتلال الجنرال غورو إياها. وأنه أنكر أنه
+هو الذي أشار برجوع الملك إلى <placeName change="#d2e120 #d11e288" xml:id="placeName_28.d2e3508" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، ولطخ بذلك غيره من حاشيته.
 صاحب المنار يكتب في المسألة العربية للنصيحة والإرشاد وإقامة الحجة على
 الجناة على أمتهم كما صرح بذلك النوري وجعفر وغيرهما في أيام الحرب العامة
-وقد صدق رأيه بعدها، وسيظهر للأمة العربية كلها صدقه في معاهدة <placeName change="#d2e120" xml:id="placeName_29.d2e3517">العراق</placeName> وإن
+وقد صدق رأيه بعدها، وسيظهر للأمة العربية كلها صدقه في معاهدة <placeName change="#d2e120 #d11e288" xml:id="placeName_29.d2e3517" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وإن
 كان لا يود ذلك. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_8.d2e3523"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_8.d2e3525">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_11.d2e3527" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
@@ -1580,22 +1580,22 @@
 وكان يقرأ لطائفة من الطلاب دروسًا في العلوم الدينية والتاريخية وغيرها في
 بيته بعضها بالنهار وبعضها بالليل، وهو لم يتعرّف إلى الملك عبد العزيز آل سعود
 إمام السلفيين ولم يطلب منه مساعدة ولا وظيفة على كونه أكبر علماء السلفيين
-وفقهاء الحنابلة في <placeName change="#d2e120" xml:id="placeName_30.d2e3570">الحجاز</placeName>، ولكن دلَّه عليه بعض العارفين بقدره فجعله مدرسًا في
+وفقهاء الحنابلة في <placeName change="#d2e120 #d11e288" xml:id="placeName_30.d2e3570" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، ولكن دلَّه عليه بعض العارفين بقدره فجعله مدرسًا في
 الحرم الشريف قبل وفاته بسنة.
-توفاه الله تعالى في بلدة الطائف مصطاف <placeName change="#d2e120" xml:id="placeName_31.d2e3577">الحجاز</placeName> في يوم الجمعة غرة ربيع
+توفاه الله تعالى في بلدة الطائف مصطاف <placeName change="#d2e120 #d11e288" xml:id="placeName_31.d2e3577" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> في يوم الجمعة غرة ربيع
 الأول من هذا العام بمرض الزحار عن عمر ناهز السبعين رحمه الله تعالى رحمة
 واسعة، وجمعنا به في دار القرار مع المقربين والأبرار.
 استدراك على ما نشر
 من الترجمة في الجزء الثالث
-في عام 1324 و1325 كان الشريف علي باشا أمير <placeName change="#d2e120" xml:id="placeName_32.d2e3591">مكة</placeName> وهو الآن مقيم
+في عام 1324 و1325 كان الشريف علي باشا أمير <placeName change="#d2e120 #d11e288" xml:id="placeName_32.d2e3591" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وهو الآن مقيم
 بمصر وفي إمارته كان الشيخ أحمد فتة الشافعي مفتيًا للحنابلة وكان الذي يكتب له
 الفتوى ويستشار فيها الشيخ أبو بكر خوقير.
-لما صار الشريف حسين أمير <placeName change="#d2e120" xml:id="placeName_33.d2e3601">مكة</placeName> في سنة 1327 عين الشيخ أبا بكر خوقير
+لما صار الشريف حسين أمير <placeName change="#d2e120 #d11e288" xml:id="placeName_33.d2e3601" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> في سنة 1327 عين الشيخ أبا بكر خوقير
 مفتيًا للحنابلة ثم عزله، وعين الشيخ عبد الله بن حميد النجدي مفتيًا للحنابلة بمكة
-وحفيد الشيخ محمد بن حميد مفتي الحنابلة ب<placeName change="#d2e120" xml:id="placeName_34.d2e3609">مكة</placeName> سنة 1290 وهو مؤلف (السحب
+وحفيد الشيخ محمد بن حميد مفتي الحنابلة ب<placeName change="#d2e120 #d11e288" xml:id="placeName_34.d2e3609" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> سنة 1290 وهو مؤلف (السحب
 الوابلة في تراجم الحنابلة) ذيل الطبقات للحافظ ابن رجب.
 ثم عزل عبد الله بن حميد وعيّن الشيخ عمر باجُنيد الشافعي مفتيًا للحنابلة
-وهو من علماء <placeName change="#d2e120" xml:id="placeName_35.d2e3618">مكة</placeName> القبوريين - والآن دخل الوكر - وهو تلميذ با بصيل تلميذ
+وهو من علماء <placeName change="#d2e120 #d11e288" xml:id="placeName_35.d2e3618" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> القبوريين - والآن دخل الوكر - وهو تلميذ با بصيل تلميذ
 دحلان. وقد استدركت بهذا على عبارة الترجمة لئلا يقول الناس ليس بين خوقير
 وبا جنيد اتفاق حتى يكتب له الفتوى. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_9.d2e3626"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_9.d2e3628">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_12.d2e3630" ref="oape:pers:689 viaf:51716068">

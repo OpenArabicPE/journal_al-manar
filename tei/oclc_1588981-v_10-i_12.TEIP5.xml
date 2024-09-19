@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_10-i_12.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_10-i_12.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e309">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_10-i_12.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_10-i_12.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e304" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e309" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e309" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e309" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1325">1325</date><date calendar="#cal_gregorian" when="1908" xml:lang="ar">فبراير - 1908م</date></imprint>
                   <biblScope unit="volume" from="10" to="10" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">10</biblScope>
                   <biblScope unit="issue" from="12" to="12" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">12</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e303" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e309" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e303" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e181">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e184">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e190">
                <item change="#d2e120" xml:id="item_1.d2e192">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e194">num</gi> node </item>
@@ -162,7 +162,7 @@
 الآن بصدد البحث في لغتهم لم يشذوا عن هذا الناموس الطبيعي، بل نقلوا إلى
 لغتهم كثيرًا من الألفاظ الفارسية والرومية والحبشية والهيروغليفية والسنسكريتية
 إلخ، سواء كان ذلك في عصر جاهليتهم وبداوتهم، أو في عصر إسلامهم
-وحضارتهم. فقد كان شعراؤهم وتجارهم يدخلون <placeName change="#d2e120" xml:id="placeName_4.d2e472">العراق</placeName> و<placeName change="#d2e120" xml:id="placeName_5.d2e476">الشام</placeName> والحبشة ويأتون
+وحضارتهم. فقد كان شعراؤهم وتجارهم يدخلون <placeName change="#d2e120 #d11e309" xml:id="placeName_4.d2e472" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_5.d2e476" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> والحبشة ويأتون
 بألفاظ أممها في شعرهم وحديثهم، فلا تلبث أن تنشب بلغتهم وتلوكها ألسنتهم
 وتمتزج بأرقى طبقات الفصيح من كلامهم. وكفى لذلك دليلاً أن القرآن الكريم
 جاء بهذه الألفاظ في تضاعيف آياته وعباراته البليغة مثل السندس والإستبرق
@@ -562,7 +562,7 @@
 وصهيب صاحبه والحسن البصري وابن سيرين وعطاء بن أبي رباح ومجاهد وسعيد
 بن جبير ونصيب وعبد بني الحسحاس وابن المقفع - كلهم عرب في ألسنتهم لا في
 جنسهم وأنسابهم، فمنهم الهجين، والزنجي، والحبشي، والفارسي والرومي. ومثل
-عرب جاوه ومالطه وعرب أسبانيا وعرب المغرب و<placeName change="#d2e120" xml:id="placeName_6.d2e1353">الشام</placeName> ومصر ليسوا عربًا في
+عرب جاوه ومالطه وعرب أسبانيا وعرب المغرب و<placeName change="#d2e120 #d11e309" xml:id="placeName_6.d2e1353" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ومصر ليسوا عربًا في
 ألسنتهم وإن كانوا عربًا في أنسابهم. وكلنا لا ينكر أن فينا الهاشمي الذي لا يحسن
 قراءة الفاتحة، ومثله كثير في بلاد الترك وفارس والهند والصين وإذا سمَّانا التاريخ
 وعلم تقويم البلدان عربًا، فإنما يعني علماؤهما العربية الجنسية وإذا قالوا عند ذكر
@@ -603,7 +603,7 @@
 آخرها لا يستقيم كما قالوا في (تازا) طازج ثم نجمعها جموعًا ليس في آخرها
 (g) ولا (x) أعني أننا نصهرها في بودقة ونضربها بسَكة أخرى، فبعد أن
 تكون (شلنا) تصير قطعة بخمسة لا يُتعامل بها في أوربا، ولئن كان حب التقرب من أوربا يضطرنا إلى استعمال كلماتهم في لغتنا لقد حق علينا أن نستعمل
-كلمات من هم أحق منهم بالقربى وهم العامة في مصر و<placeName change="#d2e120" xml:id="placeName_7.d2e1445">الشام</placeName> والمغرب و<placeName change="#d2e120" xml:id="placeName_8.d2e1448">العراق</placeName> مع
+كلمات من هم أحق منهم بالقربى وهم العامة في مصر و<placeName change="#d2e120 #d11e309" xml:id="placeName_7.d2e1445" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> والمغرب و<placeName change="#d2e120 #d11e309" xml:id="placeName_8.d2e1448" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> مع
 اتفاقنا جميعًا على نبذها وتعيير من يدرجها في كتابته، مع إن فيها من
 الألفاظ الدقيقة المعنى ما ليس له نظير في الفصيح مثل كلمة (يادوب) فما لنا نكون
 حربًا على أممنا وسلمًا لغيرنا.
@@ -771,7 +771,7 @@
 وإني أرى أن جميع المفردات التي يتألف منها كلام أهل سوريا ومصر عربية
 الأصل إلا ما يعرف له أصل أعجمي من التركية، أو الفارسية أو اللغات الإفرنجية
 - وهو الأقل - وكذلك أساليب الكلام عندهم لا تزال كأساليب العرب في الغالب.
-ولعل ألسنة أهل <placeName change="#d2e120" xml:id="placeName_9.d2e1813">العراق</placeName> و<placeName change="#d2e120" xml:id="placeName_10.d2e1816">الحجاز</placeName> أقوم من ألسنة أهل مصر و<placeName change="#d2e120" xml:id="placeName_11.d2e1819">الشام</placeName>، كما أن
+ولعل ألسنة أهل <placeName change="#d2e120 #d11e309" xml:id="placeName_9.d2e1813" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_10.d2e1816" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أقوم من ألسنة أهل مصر و<placeName change="#d2e120 #d11e309" xml:id="placeName_11.d2e1819" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، كما أن
 ألسنة أهل هذين القطرين أقرب إلى العربية الفصحى من ألسنة أهل المغرب
 الأدنى والاقصى.
 إني أعرف من نفسي الضعف في اللغة العامية حتى إن الكلمات التي يَشْكُل
@@ -1146,7 +1146,7 @@
 ((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_3.d2e2609">(1) من مقدمات كتابه (تهافت الفلاسفة) .
 (2) لم يكد يشتهر من الكلم اليوناني في المنطق العربي غير هاتين الكلمتين فالأولى (إيساغوجي) وهي علم على الكليات الخمس، والثانية (قاطيغورياس) وهي عبارة عن المقولات العشر.
 (3) هكذا ذكر الضمير مذكرًا في هذه الكلمة وما بعدها، ولعله قد سقط قبلها كلام فيه ذكر الصيد مثل
-(جعلها (أي الذبابة) <placeName change="#d2e120" xml:id="placeName_12.d2e2617">صيدا</placeName> رمى بنفسه) إليه إلخ.
+(جعلها (أي الذبابة) <placeName change="#d2e120 #d11e309" xml:id="placeName_12.d2e2617" ref="geon:268064 oape:place:9 wiki:Q163490" resp="#xslt">صيدا</placeName> رمى بنفسه) إليه إلخ.
 (4) المهلكات هو الربع الثالث من كتاب الإحياء الذي يذكر فيه الأخلاق المذمومة وكيفية معالجتها بعد التلبس بها والاحتراس عنها قبله.
 (5) وفي نسخة الشارح زيادة لفظ (الحديث) وهي إشارة إلى أن له تتمة، وهو بطوله كما رواه البزَّار في مسنده وأبو نعيم في الحلية من حديث أنس (ثلاث كفارات وثلاث درجات وثلاث منجيات وثلاث مهلكات أما الكفارات فانتظار الصلاة بعد الصلاة وإسباغ الوضوء في البردات ونقل الأقدام إلى الجماعات، وأما الدرجات فإطعام الطعام وإفشاء السلام والصلاة بالليل والناس نيام، وأما المنجيات فالعدل في الغضب والرضا، والقصد في الفقر والغنى، وخشية الله في السر والعلانية، وأما المهلكات فشح مطاع وهوى متبع وإعجاب المرء بنفسه) ورواه بسياق المصنف غير واحد، وله أسانيد كلها ضعيفة.
 (6) العجب هو الإعجاب ولعله أراد الحسد أو نحوه فسبق قلمه إن لم يكن الغلط من الناسخين.</note>
@@ -1197,14 +1197,14 @@
 ويتربصون الفرص لمغازيهم، ويجد يد الطبيعية لم تزل موضوعة على حالها في
 تلك الطلول والديار وهاتيك المنازل والمناهل لم تدن منها يدُ الصناعة في شيء من
 الأشياء.
-كانت جزيرة العرب أقسامًا وهي اليوم كما كانت: تُهامة و<placeName change="#d2e120" xml:id="placeName_13.d2e2718">الحجاز</placeName> واليمن
-وحضرموت وظفار والبحرين ونجد وبوادي <placeName change="#d2e120" xml:id="placeName_14.d2e2724">الشام</placeName> و<placeName change="#d2e120" xml:id="placeName_15.d2e2727">العراق</placeName>. كانت هذه البلاد
-تختلف وهي الآن كذلك؛ فتهامة و<placeName change="#d2e120" xml:id="placeName_16.d2e2732">الحجاز</placeName> لم يكن فيها حرث وزرع إلا قليلاً، وكان
-أهلها أولي شظف في العيش غالبًا، ولا يزال القوم على هذه الحال. وأهل <placeName change="#d2e120" xml:id="placeName_17.d2e2737">اليمن</placeName> مع
+كانت جزيرة العرب أقسامًا وهي اليوم كما كانت: تُهامة و<placeName change="#d2e120 #d11e309" xml:id="placeName_13.d2e2718" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> واليمن
+وحضرموت وظفار والبحرين ونجد وبوادي <placeName change="#d2e120 #d11e309" xml:id="placeName_14.d2e2724" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_15.d2e2727" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>. كانت هذه البلاد
+تختلف وهي الآن كذلك؛ فتهامة و<placeName change="#d2e120 #d11e309" xml:id="placeName_16.d2e2732" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لم يكن فيها حرث وزرع إلا قليلاً، وكان
+أهلها أولي شظف في العيش غالبًا، ولا يزال القوم على هذه الحال. وأهل <placeName change="#d2e120 #d11e309" xml:id="placeName_17.d2e2737" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> مع
 محافظتهم على جميع عادات العرب كان لهم حرث وزرع وهم اليوم هكذا. وأهل
 حضرموت وظفار والبحرين كان لهم حظ بالتجارة والاتصال بالهند مع المحافظة
 على سنن العرب، ولا يزالون اليوم على هذا المنوال، وكانت نجد كالحجاز إلا في
-زيادة المزارع وهي الآن كذلك، وكانت بوادي <placeName change="#d2e120" xml:id="placeName_18.d2e2749">الشام</placeName> و<placeName change="#d2e120" xml:id="placeName_19.d2e2752">العراق</placeName> ما بين قريب إلى
+زيادة المزارع وهي الآن كذلك، وكانت بوادي <placeName change="#d2e120 #d11e309" xml:id="placeName_18.d2e2749" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_19.d2e2752" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ما بين قريب إلى
 المعمور وبعيد عنه وشأنهم مع أصحاب الممالك على حسب القرب والبعد وهي
 اليوم هكذا.
 وبالجملة كان أهل هذه الجزيرة روَّادَ معايش وطلاب أداة وماعون، ويتصل
@@ -1236,7 +1236,7 @@
 تفسد طرائقه، وأسماء الأشياء لم تتغير، وقواعد التركيب وقوانين الترتيب،
 وصيغ الإفراد والتثنية والجموع والضمائر كما هي؛ فأي تغير طرأ على لغة
 القوم؟ !
-تجد الحضري في مصر و<placeName change="#d2e120" xml:id="placeName_20.d2e2825">الشام</placeName> مثلا يقول النساء (راحوا) وهو خطأ؛ لأن
+تجد الحضري في مصر و<placeName change="#d2e120 #d11e309" xml:id="placeName_20.d2e2825" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> مثلا يقول النساء (راحوا) وهو خطأ؛ لأن
 الواو ضمير الذكور. وأما البدوي أو ابن جزيرة العرب فإنه يقول النساء رحن
 وهو الصواب كما نقل عن الأولين.
 وتجد الحضري في مصر يقول: (فلان يضرب) بفتح الراء وفي الشام
@@ -1314,9 +1314,9 @@
 العربية، وصارت هذه اللغة لغة علمٍ ودين وسياسة، فدونت بها الدواوين التي لا
 تحصى في كل فنٍ من فنون المعارف.
 وأمامنا الآن من هذا الربح حواضر عظيمة في آسيا وإفريقيا؛ ففي آسيا ديار
-العراق استعربت بعد أن كانت فارسية، وحواضر <placeName change="#d2e120" xml:id="placeName_21.d2e3010">الشام</placeName> استعربت بعد أن كانت
+العراق استعربت بعد أن كانت فارسية، وحواضر <placeName change="#d2e120 #d11e309" xml:id="placeName_21.d2e3010" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> استعربت بعد أن كانت
 سريانية وعبرانية ورومية، وفي إفريقيا مصر استعربت بعد أن كانت قبطية،
-و<placeName change="#d2e120" xml:id="placeName_22.d2e3018">طرابلس</placeName> وتونس والجزائر ومراكش استعربت بعد أن كانت بربرية، ونُسَمِّي
+و<placeName change="#d2e120 #d11e309" xml:id="placeName_22.d2e3018" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> وتونس والجزائر ومراكش استعربت بعد أن كانت بربرية، ونُسَمِّي
 مجموعَ هؤلاءِ مستعربي الأقطارِ.
 صارت هذه البلاد التي عددنا عربية؛ ولكن ليست عربيتها كتلك العربية
 الأولى؛ بَيْدَ أن هذا النقص لا يضيرها ولا يخرج بها عن كونها عربية، ولا يعدم
@@ -1350,14 +1350,14 @@
 مصر صانها الله وبارك عليها وعلى أهلها، وقبل أن نوضح له برها باللغة العربية
 نَمُرُّ بِهِ مَرَّةً على جميع مساكن هذه اللغة حتى يكون له نصيب من كل ما يحوم حوم
 مادة (ع رب) كما سبقت الإشارة إليه في صدر هذا الكلام.
-من انحدر من جزيرة العرب إلى نجد ومنها إلى <placeName change="#d2e120" xml:id="placeName_23.d2e3094">العراق</placeName> يجد ثلاث حواضر
-تتبعها بلاد كثيرة: <placeName change="#d2e120" xml:id="placeName_24.d2e3100">البصرة</placeName> و<placeName change="#d2e120" xml:id="placeName_25.d2e3103">بغداد</placeName> و<placeName change="#d2e120" xml:id="placeName_26.d2e3106">الموصل</placeName>. فأهل ولاية <placeName change="#d2e120" xml:id="placeName_27.d2e3109">البصرة</placeName> كلهم يتكلمون
-بالعربية، وأهل ولاية <placeName change="#d2e120" xml:id="placeName_28.d2e3115">بغداد</placeName> أكثرهم يتكلمون بها، وأهل ولاية <placeName change="#d2e120" xml:id="placeName_29.d2e3118">الموصل</placeName> أكثرهم
-أكراد بَيْدَ أن حاضرة هذه الولاية عربية، وفي عربية <placeName change="#d2e120" xml:id="placeName_30.d2e3123">العراق</placeName> في الجملة كثيرٌ من
-الدخيلِ ولاسيَّما في ولاية <placeName change="#d2e120" xml:id="placeName_31.d2e3128">الموصل</placeName>، والعربية في <placeName change="#d2e120" xml:id="placeName_32.d2e3132">العراق</placeName> واقفة على ما تركها أهل
+من انحدر من جزيرة العرب إلى نجد ومنها إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_23.d2e3094" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> يجد ثلاث حواضر
+تتبعها بلاد كثيرة: <placeName change="#d2e120 #d11e309" xml:id="placeName_24.d2e3100" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_25.d2e3103" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> و<placeName change="#d2e120 #d11e309" xml:id="placeName_26.d2e3106" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName>. فأهل ولاية <placeName change="#d2e120 #d11e309" xml:id="placeName_27.d2e3109" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> كلهم يتكلمون
+بالعربية، وأهل ولاية <placeName change="#d2e120 #d11e309" xml:id="placeName_28.d2e3115" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> أكثرهم يتكلمون بها، وأهل ولاية <placeName change="#d2e120 #d11e309" xml:id="placeName_29.d2e3118" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> أكثرهم
+أكراد بَيْدَ أن حاضرة هذه الولاية عربية، وفي عربية <placeName change="#d2e120 #d11e309" xml:id="placeName_30.d2e3123" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> في الجملة كثيرٌ من
+الدخيلِ ولاسيَّما في ولاية <placeName change="#d2e120 #d11e309" xml:id="placeName_31.d2e3128" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName>، والعربية في <placeName change="#d2e120 #d11e309" xml:id="placeName_32.d2e3132" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> واقفة على ما تركها أهل
 القرون الماضية من العامية لحرمانهم من الصحافة العربية، ولولا العلماء
-والمتعلمون لأضرَّ بها هذا الوقوف. ومن سار من ولاية <placeName change="#d2e120" xml:id="placeName_33.d2e3139">الموصل</placeName> إلى الغرب يلقى
-في طريقه من الديار العربية ولاية حلب؛ وحلب محسوبة من <placeName change="#d2e120" xml:id="placeName_34.d2e3144">الشام</placeName> ولكن ولاية
+والمتعلمون لأضرَّ بها هذا الوقوف. ومن سار من ولاية <placeName change="#d2e120 #d11e309" xml:id="placeName_33.d2e3139" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> إلى الغرب يلقى
+في طريقه من الديار العربية ولاية حلب؛ وحلب محسوبة من <placeName change="#d2e120 #d11e309" xml:id="placeName_34.d2e3144" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ولكن ولاية
 حلب شأنها في هذا الباب عجب؛ فإن فيها كثيرًا من القرى التركية إلى جانب
 القرى العربية وكل من أهل هذه وتلك محافظون على لسانهم وملمٌ أكثرُهم بلسانِ
 جيرانهم، فأما أهل حلب نفسها فعربيتهم كعربية البلاد الشامية، ومن أعمال هذه
@@ -1372,26 +1372,26 @@
 الاشتقاق وأساليب التركيب، وبالجملة هي عربية من كل وجه إلا أنها رديئة كلغات
 البرابرة المستعربين في المغرب.
 ومن سار من ولاية حلب إلى الجنوب يلفي ديارًا معمورة عربية محضة
-تتجزأ إلى أربع ولايات: ولاية سورية (<placeName change="#d2e120" xml:id="placeName_35.d2e3180">دمشق</placeName>) ومتصرفية لبنان وولاية بيروت
-ومتصرفية <placeName change="#d2e120" xml:id="placeName_36.d2e3185">القدس</placeName>، ولا أعرف بلادًا تختلف لهجةَ أَهْلِيهَا بمقدارِ ما تختلف لهجة
+تتجزأ إلى أربع ولايات: ولاية سورية (<placeName change="#d2e120 #d11e309" xml:id="placeName_35.d2e3180" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>) ومتصرفية لبنان وولاية بيروت
+ومتصرفية <placeName change="#d2e120 #d11e309" xml:id="placeName_36.d2e3185" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>، ولا أعرف بلادًا تختلف لهجةَ أَهْلِيهَا بمقدارِ ما تختلف لهجة
 أهل هذه البلاد؛ ولكن الدخيل في لغتهم قليل كما هو الشأن في مصر، ولم يبق في
 الشام ممن يتكلمون بلغة قديمة إلا قرية أو قريتين يتكلمون بالسريانية فيما بينهم على
 ما بلغنا، ومثل هذه المحافظة على لغة ما أكثر من ألف عام في محيط كله أجنبي
 عن هذه اللغة من غريب الأمور.
-والعربية في الديار الشامية أمثل منها في <placeName change="#d2e120" xml:id="placeName_37.d2e3199">العراق</placeName> كله؛ لأنها غير واقفة هنا
+والعربية في الديار الشامية أمثل منها في <placeName change="#d2e120 #d11e309" xml:id="placeName_37.d2e3199" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> كله؛ لأنها غير واقفة هنا
 على عاميتها الأولى كما هو الأمر هناك؛ بل هي سائرة مع الارتقاء الذي أحدثته
 الصحافة في اللغة في مصر وسورية، ومن عرف العامية في البلاد الشامية قبل
 ثلاثين سنة وعرفها اليوم يشعر بالفرق العظيم الذي أشرنا إليه.
 فإذا جاوزنا البر الأسيوي إلى العدوة الإفريقية، وهبطنا فيها مصر نجد أمامنا
 العربية كما تركناها خلفنا، فإذا سِرْنَا من مصر إلى الجنوب، وَجَدْنَاهَا في السودان
-المصري، وإذا سِرْنَا منها إلى الغرب ألفيناها في <placeName change="#d2e120" xml:id="placeName_38.d2e3216">طرابلس</placeName> فتونس فالجزائر
+المصري، وإذا سِرْنَا منها إلى الغرب ألفيناها في <placeName change="#d2e120 #d11e309" xml:id="placeName_38.d2e3216" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> فتونس فالجزائر
 فالمغرب الأقصى.
 ومن غرائب المصادفات أننا كما نجد مصر واقعة في ملتقى جغرافي بين
 عرب المشرق وعرب المغرب نجد عربيتها أيضًا في ملتقى حيوي بين العربية
 المشرقية والمغربية؛ فعربية مصر أقرب إلى العربية الصحيحة من سائر عربيات
 الأقطار المستعربة، وما قرب منها أو بعد من المشرق أو المغرب كان قربه إلى
-الصحة على نسبة قربه من هذا الملتقى؛ فلغة <placeName change="#d2e120" xml:id="placeName_39.d2e3232">الشام</placeName> - وإن خالفت لغة مصر - هي
-مثلها أو قريب منها في القرب من اللغة الصحيحة، ولغة <placeName change="#d2e120" xml:id="placeName_40.d2e3237">العراق</placeName> ليست كذلك، ولغة
+الصحة على نسبة قربه من هذا الملتقى؛ فلغة <placeName change="#d2e120 #d11e309" xml:id="placeName_39.d2e3232" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> - وإن خالفت لغة مصر - هي
+مثلها أو قريب منها في القرب من اللغة الصحيحة، ولغة <placeName change="#d2e120 #d11e309" xml:id="placeName_40.d2e3237" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ليست كذلك، ولغة
 طرابلس وتونس قريبة من لغة مصر، وليست كذلك لغة الجزائر والمغرب
 الأقصى.
 وتمتاز مصر على سائر الديار العربية بأمور أجلها كثرة العدد، فليس هناك
@@ -1399,7 +1399,7 @@
 لا يتجاوز أهلها أربعة ملايين نسمة مع أنها تمتد من حدود شبه جزيرة سيناء إلى
 جزيرة ابن عمر جنوبًا وشمالاً، ومن البحر المتوسط إلى صحراء العرب على هذا
 الامتداد شرقًا وغربًا، وهي مسافة ليست بقليلة؛ ولكن هناك أسبابًا كثيرًا جعلت
-سكانها قليلين، ومثل ذلك <placeName change="#d2e120" xml:id="placeName_41.d2e3258">العراق</placeName> باتساع المسافة، ولا يبلغ أهله أربعة ملايين،
+سكانها قليلين، ومثل ذلك <placeName change="#d2e120 #d11e309" xml:id="placeName_41.d2e3258" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> باتساع المسافة، ولا يبلغ أهله أربعة ملايين،
 وجزيرة العرب على اتساعها أكثرها فدافد، وليس لأهلها من إحصاء رسمي؛ لأن
 البداوة هي الغالبة على أكثر بقاعها؛ لكن المشهور أن أهلها كلهم الحجازيين
 واليمنيين والنجديين لا يتجاوز ثمانية ملايين، وفي إفريقيا أقاليم عربية لا يبلغ إقليم
@@ -1446,7 +1446,7 @@
 إنما يخاف على اللغة إذا خَلَتْ من مزاياها المعنوية، إذا خوت من العلم، إذا
 خلت من الأهل، إذا فقدت كل كتبها، إذا حرمت في المجتمعات كلها كل حظ من
 حظوظ اللغات الأخرى.
-لو خيف على لغة من دخول الغريب فيها لكانت تركية <placeName change="#d2e120" xml:id="placeName_42.d2e3363">الدولة العثمانية</placeName> أحق
+لو خيف على لغة من دخول الغريب فيها لكانت تركية <placeName change="#d2e120 #d11e309" xml:id="placeName_42.d2e3363" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> أحق
 اللغات أن يخاف عليها؛ لأن نصف كلمها دخيل من العربي، وربعها دخيل من
 الفارسي، والربع الرابع تركي وأكثره أدوات ومشتقات؛ ولكن لا خوف على لغة
 ما من مثل هذا إذا سلمت أساليب التركيب وضاع أصل الدخيل فيها عند الكاتبين
@@ -1735,7 +1735,7 @@
 والسودان وثلاثون فرنكًا لغيرهم، وثمن العدد الواحد ثلاثة قروش.</bibl>
 ***
 <bibl type="periodical">(السياسة المصورة)
- جريدة أسبوعية سياسية مصورة بالألوان يصدرها في <placeName change="#d2e120" xml:id="placeName_43.d2e4007">القاهرة</placeName> عبد الحميد
+ جريدة أسبوعية سياسية مصورة بالألوان يصدرها في <placeName change="#d2e120 #d11e309" xml:id="placeName_43.d2e4007" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> عبد الحميد
  أفندي زكي وصور هذه الجريدة كلها في السياسة المصرية وهي مطبوعة طبعًا متقنًا
  في أوربا ويكتب فصولها الافتتاحية حافظ أفندي إبراهيم غالبًا، وقيمة الاشتراك
  السنوي فيها 50 قرشًا في مصر و 15 فرنكًا في سائر البلاد.</bibl> <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_6.d2e4016">(1) ص 14: 51.
@@ -1828,7 +1828,7 @@
 غرة زانويه (يناير) سنة 1908 و22 ذي القعدة سنة 1325.
 حضرة السيد المفضال العلامة منشئ <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_13.d2e4191">المنار</title></bibl> الأغر أدام الله ظلكم
 العالي: بعد إهداء كمال السلام وأسنى التحيات أظنكم تعرفون الكاتب الشاعر
-الشهير ذكاء المُلْك صاحب <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_14.d2e4199">تربيت</title>) <textLang mainLang="fa">الفارسية</textLang> المنطبعة <pubPlace>ب<placeName>طهران</placeName></pubPlace>
+الشهير ذكاء المُلْك صاحب <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_14.d2e4199">تربيت</title>) <textLang mainLang="fa">الفارسية</textLang> المنطبعة <pubPlace>ب<placeName ref="geon:112931 oape:place:300 wiki:Q3616" resp="#xslt" change="#d11e309">طهران</placeName></pubPlace>
 ومنشئها منذ إحدى عشرة سنة</bibl>، فقد كان بينه وبين الأستاذ الإمام المرحوم
 الشيخ محمد عبده علائق ودية ومكاتبات متواصلة، وكان الأستاذ الإمام يقرأ
 <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d2e207 #d2e120" xml:id="title_15.d2e4208">تربيت</title></bibl>) ويقدرها أعظم الجرائد الفارسية نفوذًا في الدوائر العالية،
@@ -1838,7 +1838,7 @@
 في جريدته (تربيت) من خدمات الأستاذ الإمام للعالم الإسلامي أجمع ومن
 جملة عبارته:
 الأستاذ الإمام الشيخ محمد عبده هو العالم الحقيقي الوحيد في كافة
-الأنحاء الإسلامية من مراكش إلى الصين ومن تركستان إلى <placeName change="#d2e120" xml:id="placeName_44.d2e4227">اليمن</placeName> والسودان
+الأنحاء الإسلامية من مراكش إلى الصين ومن تركستان إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_44.d2e4227" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> والسودان
 الذي يعلم الغرض الأصلي من الإسلام، ويعرف تطبيق قواعده على مقتضيات
 العصر، ولأجل تربية أمثال هذا الرجل بعث نبينا صلى الله عليه وسلم، فإن
 نبغ بين علماء الإسلام كثيرون أمثاله فإن الإسلام يبقى ثابت الأركان
@@ -1926,7 +1926,7 @@
 في أصفهان، وكان يمكنه أن يفيد بلاده بأكثر مما أفادها؛ ولكن عموم الجهل يومئذٍ
 حال دون ذلك.
 أما فقيدنا ذكاء الملك فإنه بعد أن حَصَّلَ علوم العربية وأدبياتها ومبادي سائر
-العلوم سافر من أصفهان إلى <placeName change="#d2e120" xml:id="placeName_45.d2e4407">العراق</placeName> العربي لأجل تكميل تلك المبادي فمكث هناك
+العلوم سافر من أصفهان إلى <placeName change="#d2e120 #d11e309" xml:id="placeName_45.d2e4407" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> العربي لأجل تكميل تلك المبادي فمكث هناك
 طائفة من الزمان ثم عاد إلى أصفهان، وكان والده قد عاد من الهند فكانت نتيجة
 تآلف الأب والابن بما كان أتقنه كل منهما ظهور نهضة جديدة في العلم والسياسة؛
 فكان ما تولد في دماغه يومئذٍ من قوة النهضة العلمية هو ما نراه الآن في أدمغة
@@ -1937,8 +1937,8 @@
 أمريكا الشهيرة، وقل ورود القطن إلى معامل أوربا، فانتهز الفقيد هذه الفرصة
 فاشترى بجميع ما يملكه قطنًا وسافر به إلى الهند؛ ولكن ساورته الأنواء الشديدة في
 البحر فاضطر إلى إلقاء بضاعته كلها في البحر كغيره وعاد إلى شيزار بِخُفَّيْ حُنَيْن.
-ثم سافر سائحًا إلى كرمان ويزد و<placeName change="#d2e120" xml:id="placeName_46.d2e4434">العراق</placeName> العجمي وركمان شاه وهمدان
-و<placeName change="#d2e120" xml:id="placeName_47.d2e4439">العراق</placeName> العربي وغيرها من الأقطار، فلبث في سياحته هذه أربع عشرة سنة وكان
+ثم سافر سائحًا إلى كرمان ويزد و<placeName change="#d2e120 #d11e309" xml:id="placeName_46.d2e4434" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> العجمي وركمان شاه وهمدان
+و<placeName change="#d2e120 #d11e309" xml:id="placeName_47.d2e4439" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> العربي وغيرها من الأقطار، فلبث في سياحته هذه أربع عشرة سنة وكان
 في كل مكان موضع الحفاوة والإكرام من العظماء والأمراء مثل محمد حسين خان
 وكيل الملك وإمام قلى ميرزا عماد الدولة وأولاده وسائر أهل الكمال والذوق.
 ثم ملّ السياحة واتخذ طهران مقامًا له فصحبه المرحوم محمد حسين خان اعتماد

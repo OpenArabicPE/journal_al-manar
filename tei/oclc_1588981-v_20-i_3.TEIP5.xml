@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_20-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_20-i_3.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e298">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_20-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_20-i_3.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1335">1335</date><date calendar="#cal_gregorian" when="1917" xml:lang="ar">سبتمبر - 1917م</date></imprint>
                   <biblScope unit="volume" from="20" to="20" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">20</biblScope>
                   <biblScope unit="issue" from="3" to="3" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">3</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e298" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -230,34 +230,34 @@
 (5)
 
                
-مقامنا ب<placeName change="#d2e120" xml:id="placeName_4.d2e608">مكة</placeName> قبل الحج
-تقدم أنني دخلت <placeName change="#d2e120" xml:id="placeName_5.d2e614">مكة</placeName> ضحوة يوم الأحد (وهو الثالث من أيام ذي الحجة
-بحسب تقاويم مصر وهو ما ثبت لدى حكومة <placeName change="#d2e120" xml:id="placeName_6.d2e619">مكة</placeName> بعد وكانوا يعدونه الرابع في
+مقامنا ب<placeName change="#d2e120 #d11e298" xml:id="placeName_4.d2e608" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> قبل الحج
+تقدم أنني دخلت <placeName change="#d2e120 #d11e298" xml:id="placeName_5.d2e614" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ضحوة يوم الأحد (وهو الثالث من أيام ذي الحجة
+بحسب تقاويم مصر وهو ما ثبت لدى حكومة <placeName change="#d2e120 #d11e298" xml:id="placeName_6.d2e619" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> بعد وكانوا يعدونه الرابع في
 تقاويمها) وإنني كنت متمتعًا بالعمرة إلى الحج، وإنني لم أتجاوز يوم الأحد دار
 السيد الزواوي التي جئتها بعد الطواف والسعي إلا مساءً؛ إذ جئت المنزل الذي أُعد
 لي من قِبَل الأمير - أحسن الله كرامته - وإنني لم أخرج منه إلا ليلاً بعد وصول
 السيدة الوالدة والرفاق إلى قصر الأمير للتشريف بزيارته. ولقيت في القصر نجله
-النجيب صديقي الشريف عبد الله، وليس في <placeName change="#d2e120" xml:id="placeName_7.d2e633">مكة</placeName> من أنجاله النجباء سواه؛ إذ كان
+النجيب صديقي الشريف عبد الله، وليس في <placeName change="#d2e120 #d11e298" xml:id="placeName_7.d2e633" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> من أنجاله النجباء سواه؛ إذ كان
 قد وجَّه الأمراء الثلاثة عليًّا وفيصلاً وزيدًا إلى فتح المدينة المنورة والأمير عبد
 الله إلى فتح الطائف، وتقدم أن فتح الطائف قد تم على يديه قبيل قدومنا، وأنه دخل
 مكة منصرفًا عنها في وقت دخولنا.
 وفي اليوم الثاني - وهو يوم الاثنين رابع ذي الحجة - علم الناس بوصولي
-إلى <placeName change="#d2e120" xml:id="placeName_8.d2e647">مكة</placeName> مع الحجاج المصريين، وذكرته <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e650">القبلة</title></bibl> في عددها الخامس عشر
+إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_8.d2e647" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> مع الحجاج المصريين، وذكرته <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e650">القبلة</title></bibl> في عددها الخامس عشر
 الذي صدر فيه، فأقبل الكثيرون من الشرفاء والعلماء والوجهاء بزيارتنا وفي
 مقدمتهم الأمير الشريف عبد الله وبعض مَن يشار إليهم بعد، وبقينا إلى يوم التروية
 - وهو يوم الجمعة ثامن ذي الحجة - لا عمل لنا إلا عبادة الله تعالى، وأخصها
 التطوف ببيته، وإلا لقاء الناس في الدار وفي الحرم والاستفادة من مذاكراتهم.
-وقد كنت مدة إقامتي ب<placeName change="#d2e120" xml:id="placeName_9.d2e664">مكة</placeName> ضعيف البدن بنزف دم كان قد عرض لي، لم
+وقد كنت مدة إقامتي ب<placeName change="#d2e120 #d11e298" xml:id="placeName_9.d2e664" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ضعيف البدن بنزف دم كان قد عرض لي، لم
 يسبق لي مثله، فكنت لا أستطيع الطواف إلا في وقت الأصيل ووقت السحر،
 وثقل عليَّ الحر، على أنه لم يكد يتجاوز الدرجة 35 من ميزان سنتكراد إلا قليلاً،
 ولم أكن أجد راحة في جسمي إلا حيث كانت راحة روحي، وما ذاك إلا في الحرم
-الشريف. ولا يوجد في بطن <placeName change="#d2e120" xml:id="placeName_10.d2e676">مكة</placeName> مكان كالحرم يتخلله الهواء لسعته وكثرة الفجاج
+الشريف. ولا يوجد في بطن <placeName change="#d2e120 #d11e298" xml:id="placeName_10.d2e676" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> مكان كالحرم يتخلله الهواء لسعته وكثرة الفجاج
 الموصلة إليه من الجهات الأربع، ولولا أن وصفه مبين بالتفصيل - في كتب
 المتقدمين والمتأخرين من المؤرخين والرحالين - لوصفته في هذه الرحلة الوجيزة.
 وكنت أصلي الفجر كل يوم بجانب مقام إبراهيم عليه الصلاة والسلام وعلى
 آله الكرام، وأصلي المغرب والعشاء في الجانب الشرقي من الحرم مع صديقنا
 الشريف أبي نمي الذي يعشق فضله وأخلاقه كثير من فضلاء المصريين؛ إذ
-عرفوه بإقامته في <placeName change="#d2e120" xml:id="placeName_11.d2e692">القاهرة</placeName> عدة سنين، وكانت داره في مصر بجوار دارنا من شارع
+عرفوه بإقامته في <placeName change="#d2e120 #d11e298" xml:id="placeName_11.d2e692" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> عدة سنين، وكانت داره في مصر بجوار دارنا من شارع
 درب الجماميز، واتفق أن زاويته في جدار الحرم الشريف بالقرب من باب إبراهيم
 - وكذا داره - فهي بجوار المنزل الذي أُنزلنا فيه كما علم مما تقدم. وكان خدمه
 يفرشون له في كل أصيل سجادة أو سجادتين تجاه زاويته، حيث يصلي مع بعض
@@ -265,8 +265,8 @@
 صلاة العشاء.
 لم أجد قوة على رد كل مَن زارني ولم أتمكن من إحصائهم، فنويت أن أرجئ
 النظر في ذلك إلى ما بعد الانتهاء من أعمال النسك، ولكنني زرت فوزي بك
-البكري من سروات <placeName change="#d2e120" xml:id="placeName_12.d2e713">دمشق الشام</placeName> في داره وعبد العزيز بك المصري في منزله وكلاً
-من الشيخ كامل قصاب أحد علماء <placeName change="#d2e120" xml:id="placeName_13.d2e718">الشام</placeName> ومحب الدين أفندي الخطيب وفؤاد أفندي
+البكري من سروات <placeName change="#d2e120 #d11e298" xml:id="placeName_12.d2e713" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق الشام</placeName> في داره وعبد العزيز بك المصري في منزله وكلاً
+من الشيخ كامل قصاب أحد علماء <placeName change="#d2e120 #d11e298" xml:id="placeName_13.d2e718" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ومحب الدين أفندي الخطيب وفؤاد أفندي
 الخطيب في إدارة <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_6.d2e723">القبلة</title></bibl>، وكلهم يعملون فيها، وكثر التلاقي بيني وبين
 هؤلاء، والحديث معهم في الشؤون السياسية الحاضرة، ونعرف أخبار الحجاز
 منهم.
@@ -275,7 +275,7 @@
 الجديدة كما يأتي) ، ثم لم يتيسر لي بعد الحج زيارة أحد ممن زارني، كما يعلم مما
 يأتي إلا نائب الشرع الشريف الشيخ يونس أفندي، فإنني زُرته في المحكمة
 الشرعية، وكنت عرفته مجاورًا في رواق الشوام بالأزهر، إذ كان يحضر دروس
-الأستاذ الإمام، وزرت الشيخ عبد الملك الخطيب من أدباء <placeName change="#d2e120" xml:id="placeName_14.d2e744">مكة</placeName> قبل السفر منها بيوم
+الأستاذ الإمام، وزرت الشيخ عبد الملك الخطيب من أدباء <placeName change="#d2e120 #d11e298" xml:id="placeName_14.d2e744" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> قبل السفر منها بيوم
 واحد. وكنت أود أن أزور الشيخ عبد الله سراج قاضي القضاة ووكيل رئيس
 النظار في الحكومة الجديدة، وأخلو به في داره ساعة للمذاكرة في الشئون الحجازية،
 فلم أجد فرصة لذلك، وكان قد تفضَّل بزيارتي في دار الضيافة الهاشمية، وأثنى
@@ -293,13 +293,13 @@
 نفسه بطعن بطنه به، حتى ينفد من ظهره) ، قال: فأعطته إياه، فجاء به إلى
 النبي صلى الله عليه وسلم، فدفعه إليه، ففتح الباب. وظاهر هذه الرواية أن
 النبي صلى الله عليه وسلم هو الذي فتح الباب، وورد التصريح بذلك في رواية
-عنه أيضًا، سندها ضعيف في تاريخ <placeName change="#d2e120" xml:id="placeName_15.d2e786">مكة</placeName> للفاكهي قال: (أي ابن عمر) كان بنو
+عنه أيضًا، سندها ضعيف في تاريخ <placeName change="#d2e120 #d11e298" xml:id="placeName_15.d2e786" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> للفاكهي قال: (أي ابن عمر) كان بنو
 أبي طلحة يزعمون أنه لا يستطيع أحد فتح الكعبة غيرهم، فأخذ رسول الله صلى
 الله عليه وسلم المفتاح، ففتحها بيده. ولكن روى عنه البخاري من طريق فليح أنه
 قال: وقال لعثمان: (ائتنا بالمفتاح) ، فجاءه بالمفتاح، ففتح له الباب، فدخل.
 وفي هذه الرواية أيضًا أنه كان مردفًا لأسامة على القصواء، وهي ناقته صلى الله
 عليه وسلم، وفي رواية أخرى للبخاري وغيره أنه صلى الله عليه وسلم أقبل يوم
-الفتح من أعلى <placeName change="#d2e120" xml:id="placeName_16.d2e802">مكة</placeName> على راحلته مردفًا أسامة بن زيد الحديث.
+الفتح من أعلى <placeName change="#d2e120 #d11e298" xml:id="placeName_16.d2e802" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> على راحلته مردفًا أسامة بن زيد الحديث.
 وقال الحافظ في الفتح: روى عبد الرزاق والطبراني من جهته من مرسل
 الزهري أن النبي صلى الله عليه وسلم قال لعثمان يوم الفتح: (ائتني بمفتاح
 الكعبة) فأبطأ عليه، ورسول الله صلى الله عليه وسلم ينتظره، حتى إنه ليتحدَّر منه
@@ -330,7 +330,7 @@
 شيبة من الإصابة أيضًا، ثم قال: وذكر الواقدي أن النبي صلى الله عليه وسلم
 أعطاها يوم الفتح لعثمان، وأن عثمان ولي الحجابة إلى أن مات، فوليها شيبة،
 واستمرت في ولده. اهـ. وهذا هو الصواب، وقد استمرت في ولده إلى اليوم،
-وبهذا حفظ نسبهم، وعظم حسبهم، وقد نزعها منهم بعض أمراء <placeName change="#d2e120" xml:id="placeName_17.d2e872">مكة</placeName>، ثم عادت
+وبهذا حفظ نسبهم، وعظم حسبهم، وقد نزعها منهم بعض أمراء <placeName change="#d2e120 #d11e298" xml:id="placeName_17.d2e872" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، ثم عادت
 إليهم كما يؤخذ من بعض كتب التاريخ.
 أقول: ولأهل هذا البيت أن يفخروا على جميع الناس بهذه الوظيفة القديمة
 الثابتة من قبل الإسلام، التي أقرها الله تعالى ورسوله لهم في محكم القرآن، وبأن
@@ -354,18 +354,18 @@
 وهو رجل جليل المنظر، لطيف المعاشرة، حسن المفاكهة، له مشاركة في العلوم
 الإسلامية، والآداب العربية، وحظ من المدنية العصرية، ورأيته على مشربي في
 العناية بأمر الماء النقي البارد، فهو لا يشرب من ماء عين زبيدة التي يشرب منها
-أهل <placeName change="#d2e120" xml:id="placeName_18.d2e928">مكة</placeName>، بل يستعذب له الماء من بئر في ضواحيها - كما كان يستعذب الماء من
+أهل <placeName change="#d2e120 #d11e298" xml:id="placeName_18.d2e928" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، بل يستعذب له الماء من بئر في ضواحيها - كما كان يستعذب الماء من
 آبار السقيا للرسول الأعظم، صلى الله عليه وعلى آله وسلم - ويثلج له الماء في
 داره، وعنده روايا إفرنجية من نوع الترمس الأسطواني المشهور، يحمل له فيها
 الماء المثلوج مع قطع من الجليد المصنوع، إذا خرج هو منها إلى سفر قريب
 كعرفة أو جدة. وقد أقام في الآستانة زمنًا وهو يعرف اللغة التركية.
-رخاء المعيشة ب<placeName change="#d2e120" xml:id="placeName_19.d2e942">مكة</placeName>:
-وعلى ذكر الثلج أذكر من خبر رخاء المعيشة في <placeName change="#d2e120" xml:id="placeName_20.d2e947">مكة المكرمة</placeName> أن أهل هذا
+رخاء المعيشة ب<placeName change="#d2e120 #d11e298" xml:id="placeName_19.d2e942" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>:
+وعلى ذكر الثلج أذكر من خبر رخاء المعيشة في <placeName change="#d2e120 #d11e298" xml:id="placeName_20.d2e947" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> أن أهل هذا
 البلد الأمين يتمتعون أبدًا بدعاء إبراهيم صلى الله عليه وآله وسلم، الذي حكاه الله
 عنه في قوله: {وَارْزُقْهُم مِّنَ الثَّمَرَاتِ لَعَلَّهُمْ يَشْكُرُونَ} (إبراهيم: 37) ،
-ودعائه أن يبارك الله لهم في اللحم، عندما زار بيت إسماعيل ب<placeName change="#d2e120" xml:id="placeName_21.d2e957">مكة</placeName> بعد زواجه
+ودعائه أن يبارك الله لهم في اللحم، عندما زار بيت إسماعيل ب<placeName change="#d2e120 #d11e298" xml:id="placeName_21.d2e957" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> بعد زواجه
 الثاني، كما ثبت في حديث ابن عباس عند البخاري، الذي ذكرنا القسم الأول منه
-في بيان حكمة السعي بين الصفا والمروة من هذه الرحلة. فاللحم في <placeName change="#d2e120" xml:id="placeName_22.d2e964">مكة</placeName> كثير
+في بيان حكمة السعي بين الصفا والمروة من هذه الرحلة. فاللحم في <placeName change="#d2e120 #d11e298" xml:id="placeName_22.d2e964" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> كثير
 رخيص، وهو جيد شديد السمن، والثمرات والخضر فيها كثيرة رخيصة أيضًا،
 على أنهم يرفعون أثمان كل شيء في موسم الحج. وقد كنا في دار الضيافة
 الهاشمية تُستطاب لنا ألوان اللحم والخضر في كل غداء وعشاء، ولكن كان يغلب
@@ -373,12 +373,12 @@
 عنب الطائف ورمانها الجيدان لما طابت لنا المعيشة، وكان لدينا طاهٍ يحسن الطبخ
 على الطريقتين المكية والتركية، ثم استحسنت الوالدة أن تتولى الطبخ لنا إحدى
 الجاريتين اللتين خُصصتا للخدمة المنزلية، وأما الثلج أو الجليد فقد قيل لنا إنه كان
-له معمل في <placeName change="#d2e120" xml:id="placeName_23.d2e985">مكة</placeName> وقد كُسر وتعطل. ووجدنا بعض الهنود هنالك يعملون قطعًا
+له معمل في <placeName change="#d2e120 #d11e298" xml:id="placeName_23.d2e985" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وقد كُسر وتعطل. ووجدنا بعض الهنود هنالك يعملون قطعًا
 صغيرة من الجليد يجمدونها في قوالب من الزنك، ويبيعونها بأثمان غالية جدًّا
 لمعتادي شرب الماء المثلوج كالشيخ الشيبي، فكنت أشتري منهم كل يوم؛ إذ لم
 أجد ماء كيزان الفخار مقبولاً، وإن كنا في شهر الميزان، خلافًا للمثل الحجازي
 القائل: إذا دخلت الشمس في الميزان يبرد الماء في الكيزان.
-وقد ذكر الرحالة محمد بن جبير الأندلسي في رحلته ما وجد في <placeName change="#d2e120" xml:id="placeName_24.d2e999">مكة</placeName> من
+وقد ذكر الرحالة محمد بن جبير الأندلسي في رحلته ما وجد في <placeName change="#d2e120 #d11e298" xml:id="placeName_24.d2e999" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> من
 الثمرات والبقول، كما ذكر غير ذلك من خيراتها وتحفها، قال: وأما الأرزاق
 والفواكه وسائر الطيبات فكنا نظن أن الأندلس اختصت من ذلك بحظ له المَزِيَّة على
 سائر حظوظ البلاد، حتى حللنا هذه البلاد المباركة، فألفيناها تغصّ بالنعم والفواكه
@@ -389,7 +389,7 @@
 الاستمتاع بطيب رياه، عن أكلك إياه، حتى إذا ذقته خُيِّلَ إليك أنه شبيه بسكر
 مُذاب، أو بجنى النحل اللباب <gap resp="#org_MS" change="#d2e120" xml:id="gap_29.d2e1023"/> إلخ، وأطنب في وصف جودة اللحم وسمنه
 ولينه وسهولة هضمه، وهو كما قال، نحن لم ندرك كل ما أدرك من الثمرات،
-فإنه جاء <placeName change="#d2e120" xml:id="placeName_25.d2e1030">مكة</placeName> في قلب الصيف من سنة 579، وبقي فيها إلى أواخر الشتاء.
+فإنه جاء <placeName change="#d2e120 #d11e298" xml:id="placeName_25.d2e1030" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> في قلب الصيف من سنة 579، وبقي فيها إلى أواخر الشتاء.
 والبطيخ الأصفر - الذي أدركناه - دون النوع الجيد منه في مصر المعروف
 بالشمام.
 * * *
@@ -398,7 +398,7 @@
 ليلة السبت شددنا الرحال إلى عرفات محرمين بالحج، وقد قال لي صديقنا السيد
 الزواوي في صبيحة ذلك اليوم: إن سيدنا الأمير - أيده الله تعالى - قد كان
 استحسن أن نخرج معه إلى عرفة، ونكون في صحبته هنالك وفي منى إلى أن
-تعودوا إلى <placeName change="#d2e120" xml:id="placeName_26.d2e1053">مكة</placeName>، ولما ذكر لي ذلك مستشيرًا فيه ذكَّرته بوجود والدتكم معكم، وقلت
+تعودوا إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_26.d2e1053" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، ولما ذكر لي ذلك مستشيرًا فيه ذكَّرته بوجود والدتكم معكم، وقلت
 لعل الأوْلى أن يخرج في خدمتها؛ لأن ذلك آنس لها وأقر لعينها ومزيد ثواب له،
 فاستحسن ذلك، وأمرني بتجهيز الرواحل والمؤنة وسائر ما يلزم وأمر بصرف
 عشرين جنيهًا لنفقة عرفة خاصة، وقد عهد إلى إبراهيم (وهو وكيل الخرج
@@ -418,7 +418,7 @@
 وركبت أنا ومحمد نجيب أفندي في شقدف، وركب وكيل الخرج مع الأستاذ الشيخ
 خالد في شقدف، وركب والد وكيل الخرج الجمل الذي يحمل الخيام والأثاث
 والماعون والمؤنة، وركب السيد عبد الرحمن دابة فارهة، وسرنا الهُوَينا في
-أسواق <placeName change="#d2e120" xml:id="placeName_27.d2e1099">مكة</placeName> قاصدين عرفة، بعد أن أحرمنا جميعًا، وأهللنا بالحج من منزلنا، إلا
+أسواق <placeName change="#d2e120 #d11e298" xml:id="placeName_27.d2e1099" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> قاصدين عرفة، بعد أن أحرمنا جميعًا، وأهللنا بالحج من منزلنا، إلا
 الذي ذهب بالخيام والماعون فإنه سبقنا، وتأخر عنا السيد الزواوي الكبير، ثم
 أدركنا، وبعد سرى نحو من ست ساعات، وصلنا إلى حيث ضربت خيامنا من
 عرفات، وذلك بالقرب من موقف النبي صلى الله عليه وسلم حيث مسجد
@@ -427,15 +427,15 @@
 كان مَن لم يَسُقْ الهدي من الصحابة الذين كانوا مع النبي صلى الله عليه وسلم
 في حجة الوداع، قد قلبوا حجهم إلى عمرة بأمره صلى الله عليه وسلم وبعد طواف
 العمرة وسعيها قصروا شعورهم، وتمتعوا إلى يوم التروية، وكانوا نازلين في
-خارج <placeName change="#d2e120" xml:id="placeName_28.d2e1122">مكة</placeName>، فلما خرجوا معه صلى الله عليه وسلم فيه إلى منى أهلّوا بالحج من
+خارج <placeName change="#d2e120 #d11e298" xml:id="placeName_28.d2e1122" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، فلما خرجوا معه صلى الله عليه وسلم فيه إلى منى أهلّوا بالحج من
 الأبطح - وهو ما انبطح من الأرض في أول طريق منى ما بين الجبلين إلى مقبرة
 مكة (المعلى) ويسمى البطحاء والمحصب - وقد صلى النبي صلى الله عليه
 وسلم الظهر والعصر يوم التروية بمنى، وبات في ليلة عرفة وإنما رحل منها بعد
 طلوع الشمس، ففي ذلك عدة سنن لم تتيسر لنا. والخروج في كل وقت من يوم
 الترويه مباح، وكره مالك التقدم إليها قبله، والتأخر عنه إلا إن أدركه وقت الجمعة
-ب<placeName change="#d2e120" xml:id="placeName_29.d2e1138">مكة</placeName>، فيصليها فيها كما فعلنا. وروى ابن المنذر أن عائشة لم تخرج من <placeName change="#d2e120" xml:id="placeName_30.d2e1141">مكة</placeName> يوم
+ب<placeName change="#d2e120 #d11e298" xml:id="placeName_29.d2e1138" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، فيصليها فيها كما فعلنا. وروى ابن المنذر أن عائشة لم تخرج من <placeName change="#d2e120 #d11e298" xml:id="placeName_30.d2e1141" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> يوم
 التروية حتى دخل الليل، وذهب ثلثه. اهـ من نيل الأوطار.
-صفة الطريق من <placeName change="#d2e120" xml:id="placeName_31.d2e1149">مكة</placeName> إلى عرفات:
+صفة الطريق من <placeName change="#d2e120 #d11e298" xml:id="placeName_31.d2e1149" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> إلى عرفات:
 خرجنا من الدار وهي غربي الحرم بقرب بابه المعروف بباب إبراهيم [3] ،
 فسرنا في الشارع الكبير، مائلين يمينًا إلى جهة الجنوب الشرقي، حيث يكون
 الحرم الشريف عن يسارنا، ويسمى ذلك الموقع بالسوق الصغير، ويليه من
@@ -443,19 +443,19 @@
 حيث يكون السعي بين الصفا والمروة، فالقشيشية فسوق الليل الذي كان فيه ميلاد
 النبي الأعظم، صلى الله عليه وآله وسلم، وهنالك يتحول السائر في الطريق إلى
 جهة الشمال، فيمر بالغزة، وفيها قصر الإمارة عن يمينه، فالنقا فالسليمانية عن
-يساره، وهذا القسم الشمالي من <placeName change="#d2e120" xml:id="placeName_32.d2e1169">مكة</placeName> واقع بين جبل أبي قبيس من جهة الشرق وجبل
+يساره، وهذا القسم الشمالي من <placeName change="#d2e120 #d11e298" xml:id="placeName_32.d2e1169" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> واقع بين جبل أبي قبيس من جهة الشرق وجبل
 قيعقعان وجبل الهندي من جهة الغرب، ودونهما جبل لعلع الصغير عند النقا.
-ومتى جاوز الخارج من <placeName change="#d2e120" xml:id="placeName_33.d2e1177">مكة</placeName> عمرانها من هذا القسم - يرى عن يساره مقبرتها
+ومتى جاوز الخارج من <placeName change="#d2e120 #d11e298" xml:id="placeName_33.d2e1177" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> عمرانها من هذا القسم - يرى عن يساره مقبرتها
 المعلاة أو المعلى، وفيها قبر السيدة خديجة أم المؤمنين، وجدة آل البيت الطاهرين،
-عليها وعليهم السلام، وهذه الجهة هي أعلى <placeName change="#d2e120" xml:id="placeName_34.d2e1184">مكة</placeName>، وتسمى الحَجُون (بفتح الحاء
+عليها وعليهم السلام، وهذه الجهة هي أعلى <placeName change="#d2e120 #d11e298" xml:id="placeName_34.d2e1184" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وتسمى الحَجُون (بفتح الحاء
 المهملة) التي قال فيها الحارث بن مضاض الجرهمي:
-كأن لم يكن بين الحجون إلى الصفا <gap resp="#org_MS" change="#d2e120" xml:id="gap_30.d2e1192"/> أنيس ولم يسمر ب<placeName change="#d2e120" xml:id="placeName_35.d2e1194">مكة</placeName> سامر
+كأن لم يكن بين الحجون إلى الصفا <gap resp="#org_MS" change="#d2e120" xml:id="gap_30.d2e1192"/> أنيس ولم يسمر ب<placeName change="#d2e120 #d11e298" xml:id="placeName_35.d2e1194" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> سامر
 بل نحن كنا أهلها فأبادنا <gap resp="#org_MS" change="#d2e120" xml:id="gap_31.d2e1199"/> صروف الليالي والجدود العواثر
 ويدخل فيها من ثنية كداء [4] التي دخل منها رسول الله صلى الله عليه وسلم
 مكة عام الفتح وفي حجة الوداع وهي في أعلى الجبل الذي على يسار المار إلى
 المقبرة، ويقال لثنية كداء الثنية العليا، وللثنية الأخرى التي دخلنا منها الثنية
 السفلى، وتسمى كُدَى (بالضم والقصر) ومنها خرج النبي صلى الله عليه وسلم
-من <placeName change="#d2e120" xml:id="placeName_36.d2e1212">مكة</placeName>، وهي بقرب شعب الشاميين من ناحية جبل قيعقعان. وهناك باب الشبيكة
+من <placeName change="#d2e120 #d11e298" xml:id="placeName_36.d2e1212" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وهي بقرب شعب الشاميين من ناحية جبل قيعقعان. وهناك باب الشبيكة
 المشهور بعد جرول.
 ووراء المعلى في طريق منى مكان يسمى البياضية مطلق الهواء، فيه قصور
 لبعض الشرفاء. ومن هناك يتحول طريق منى إلى الشرق، وهو وادٍ يختلف
@@ -466,10 +466,10 @@
 البري من شجر السدر وهو ذو شوك ونبقه صغير، والسلم الشجر الذي يسمى ورقه
 القرظ، ويُدبغ به، وهما من أشجار تلك البلاد.
 وأول منى العقبة التي فيها الجمرة المنسوبة إليها وسيأتي ذكرها. والمسافة
-بين <placeName change="#d2e120" xml:id="placeName_37.d2e1241">مكة</placeName> ومنى فرسخ واحد أي ثلاثة أميال كما قالوا، ففي معجم البلدان لياقوت:
+بين <placeName change="#d2e120 #d11e298" xml:id="placeName_37.d2e1241" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ومنى فرسخ واحد أي ثلاثة أميال كما قالوا، ففي معجم البلدان لياقوت:
 مِنًى بالكسر والتنوين في درج الوادي الذي ينزله الحاج ويرمي فيه الجمار، يسمى
 بذلك لما يمنى فيه، أي يُراق من الدماء - أي دماء الأنعام للنسك - إلى أن قال:
-وهي بُلَيْدة على فرسخ من <placeName change="#d2e120" xml:id="placeName_38.d2e1251">مكة</placeName>، طولها ميلان، تعمّر أيام الموسم، وتخلو بقية
+وهي بُلَيْدة على فرسخ من <placeName change="#d2e120 #d11e298" xml:id="placeName_38.d2e1251" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، طولها ميلان، تعمّر أيام الموسم، وتخلو بقية
 السنة إلا ممن يحفظها، وقلّ أن يكون للإسلام بلد مذكور إلا ولأهله بمنى مضرب.
 اهـ.، والمراد بالمضرب: المكان الذي تُضرب فيه خيام الحاج. وهذه الطريق
 يقطعها راكبو الخيل - وكذا الحمير - في ساعة واحدة وراكبو الإبل في ساعتين،
@@ -487,7 +487,7 @@
 المزدلفة، وسيأتي الكلام على المبيت فيها للنسك.
 والمسافة بين المزدلفة وعرفات ساعة ونصف على الدواب، ويمكن قطعها
 بأقل من ذلك، وثلاث ساعات للإبل. وبين المزدلفة وعرفة مضيق الأخشبين
-ووادي نمرة وبطن عرنة، وقال العلماء: إن المسافة بين <placeName change="#d2e120" xml:id="placeName_39.d2e1293">مكة</placeName> وعرفة تسعة أميال
+ووادي نمرة وبطن عرنة، وقال العلماء: إن المسافة بين <placeName change="#d2e120 #d11e298" xml:id="placeName_39.d2e1293" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وعرفة تسعة أميال
 تقريبًا، نقله الزَّبِيدي شارح القاموس والإحياء، ولكنه ذكر - عند الكلام على نمرة
 - أنها على مسافة أحد عشر ميلاً.
 ((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_2.d2e1303">(1) الإقهاء: فقد شهوة الطعام.
@@ -614,7 +614,7 @@
 البشري من شيوخ المسجد الزينبي، وأنه تعب في طلب العلم تعبًا شديدًا، ولقي من
 الدهر مقاومات عظيمة، وأنه كان يتعبد في المسجد الزينبي ليلاً، ويذهب إلى
 الأزهر نهارًا لتلقي الدروس، وأن خاله عُين أمينًا لكساوي المحمل في أول ولاية
-سعيد باشا، فخرج معه إلى <placeName change="#d2e120" xml:id="placeName_40.d2e1595">الحجاز</placeName> حاجًّا، وبعد أن أدى فريضة الحج عاد إلى
+سعيد باشا، فخرج معه إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_40.d2e1595" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> حاجًّا، وبعد أن أدى فريضة الحج عاد إلى
 مصر، وبقي يشتغل بالتدريس حتى سنة 1273 تقريبًا) .
 وإن أول عهده بالوظائف أن (عُين إمامًا لمسجد إينال بمرتب 90 فضة في
 الشهر) ، وفي سنة <date calendar="#cal_gregorian" when="1291" change="#d3e146 #d2e120" xml:id="date_5.d2e1605">1291</date> مات الشيخ علي العدوي فنِيط به التدريس في المسجد
@@ -719,50 +719,50 @@
                
 قالت <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e1800">المقطم</title></bibl>) في فاتحة مقالة طويلة نُشرت في صدر العدد الذي
 صدر في 19 جمادى الأولى سنة 1335 - 13 مارس سنة 1917:
-قُضي الأمر في <placeName change="#d2e120" xml:id="placeName_41.d2e1808">العراق</placeName>، وسقطت <placeName change="#d2e120" xml:id="placeName_42.d2e1811">بغداد</placeName> عاصمة الخلفاء العباسيين، ومباءة
+قُضي الأمر في <placeName change="#d2e120 #d11e298" xml:id="placeName_41.d2e1808" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وسقطت <placeName change="#d2e120 #d11e298" xml:id="placeName_42.d2e1811" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> عاصمة الخلفاء العباسيين، ومباءة
 مجدهم، وعُنوان فخرهم، واستولى البريطانيون على منبت أثلة المنصور
 والمهدي وهارون الرشيد والمأمون، وموئل العلماء والشعراء والأدباء في عصر
 الشرق الذهبي الحديث، أي ذكرى تهيج في خاطر العربي إذا ذكر اسم بغداد
 والزوراء ودار السلام؟ بل أي مجد يتحلى لعينيه عند سماع اسمها من دولة
 عظيمة الأركان، متينة البنيان، قامت على العدل والنظام والعلم والأمان، وشعب
 ناهض ناشط لطلب العلم وإتقان الصناعة وترويج التجارة، وتوسيع نطاق الزراعة
-وبسط السيادة، وإضاءة مصباح العلم لتمزيق دياجير الظلام، <placeName change="#d2e120" xml:id="placeName_43.d2e1829">بغداد</placeName> دار العلم
-والمجد، و<placeName change="#d2e120" xml:id="placeName_44.d2e1835">بغداد</placeName> مقر العظمة والثروة و<placeName change="#d2e120" xml:id="placeName_45.d2e1838">بغداد</placeName> عاصمة العرب وقاعدة الشرق.
+وبسط السيادة، وإضاءة مصباح العلم لتمزيق دياجير الظلام، <placeName change="#d2e120 #d11e298" xml:id="placeName_43.d2e1829" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> دار العلم
+والمجد، و<placeName change="#d2e120 #d11e298" xml:id="placeName_44.d2e1835" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> مقر العظمة والثروة و<placeName change="#d2e120 #d11e298" xml:id="placeName_45.d2e1838" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> عاصمة العرب وقاعدة الشرق.
 هذا إرث مجيد ظل بيد الشرقيين اثني عشر قرنًا شاهدًا ناطقًا بعظمة أسلافهم
 يناوح خرائب بابل وآثار نينوى، حتى صار أمره إلى الاتحاديين، فضاع منهم،
-كما ضاع سواه، وصارت <placeName change="#d2e120" xml:id="placeName_46.d2e1848">بغداد</placeName> في يد مَن يعرف قيمتها، ويقدرها حق قدرها.
+كما ضاع سواه، وصارت <placeName change="#d2e120 #d11e298" xml:id="placeName_46.d2e1848" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> في يد مَن يعرف قيمتها، ويقدرها حق قدرها.
 هذا ميراث العرب الكرام أخذه الاتحاديون، كما يأخذ الصبي الكرة، وقذفوا
 به، كما يقذف بها، فأفلت من يدهم، وهم يسيرون الجيوش إلى بلدان أوربة
 فاتحين، وثغور تركيا وكبار مدنها تسقط الواحدة بعد الأخرى، هذه سُنَّة الله في
 خلقه، وقد سخر الاتحاديين لإنفاذ مشيئته وإنزال قضائه ".
 ثم قال في فاتحة العدد الذي صدر في 22 جُمادى الأولى بعد كلام، علل فيه
-تسمية الجرائد الإنكليزية <placeName change="#d2e120" xml:id="placeName_47.d2e1864">بغداد</placeName> مدينة الشعر والخيال بأنهم أخذوا ذلك من كتاب ألف
+تسمية الجرائد الإنكليزية <placeName change="#d2e120 #d11e298" xml:id="placeName_47.d2e1864" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> مدينة الشعر والخيال بأنهم أخذوا ذلك من كتاب ألف
 ليلة وليلة، الذي هو أشهر كتاب عند الإنكليز بعد التوراة والإنجيل:
-أما العرب فينظرون إلى <placeName change="#d2e120" xml:id="placeName_48.d2e1871">بغداد</placeName> من وجهة أخرى، وإن لم يغفلوا وجهة
+أما العرب فينظرون إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_48.d2e1871" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> من وجهة أخرى، وإن لم يغفلوا وجهة
 الشعر والخيال، فالعرب في مقدمة الأمم التي تجلّ الشعر والشعراء، ولكن العرب
-يرون في <placeName change="#d2e120" xml:id="placeName_49.d2e1879">بغداد</placeName> القديمة عنوان مجد جنسهم، ورمزًا إلى أكبر شأو بلغته حضارتهم،
+يرون في <placeName change="#d2e120 #d11e298" xml:id="placeName_49.d2e1879" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> القديمة عنوان مجد جنسهم، ورمزًا إلى أكبر شأو بلغته حضارتهم،
 ويذكرون أن عصرها الأول كان عصرهم الذهبي؛ إذ منها انبلج صُبح العلم في
 العصور الحديثة، فأضاء الشرق والغرب.
-إن العرب يرون في <placeName change="#d2e120" xml:id="placeName_50.d2e1888">بغداد</placeName> الأولى مقر العلم والحكمة، وخزانة معارف الشرق،
+إن العرب يرون في <placeName change="#d2e120 #d11e298" xml:id="placeName_50.d2e1888" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> الأولى مقر العلم والحكمة، وخزانة معارف الشرق،
 ومدرسته التي نبغ فيها العلماء والأطباء والفلاسفة والفلكيون والكيماويون
 والشعراء والكُتاب واللغويون والمهندسون برعاية العباسيين، وعناية أفاضل
 خلفائهم، ولا سيما المأمون الذي كان عضد العلم وسند العلماء.
-قال السر هنري رولنصن المؤرخ الشهير كلامه عن <placeName change="#d2e120" xml:id="placeName_51.d2e1900">بغداد</placeName> ما نصه: وقد
-نافست <placeName change="#d2e120" xml:id="placeName_52.d2e1906">بغداد</placeName> قرطبة في الآداب والعلم والصناعة والفنون، فكان لهاتين المدينتين
-سيادة العالم من هذا القبيل. أما في التجارة والثروة فإن قرطبة لم تبلغ شأو <placeName change="#d2e120" xml:id="placeName_53.d2e1911">بغداد</placeName>.
-وكانت <placeName change="#d2e120" xml:id="placeName_54.d2e1916">بغداد</placeName> عاصمة الإسلام الدينية والعاصمة السياسية لمعظم بلدانه، لما كان
+قال السر هنري رولنصن المؤرخ الشهير كلامه عن <placeName change="#d2e120 #d11e298" xml:id="placeName_51.d2e1900" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> ما نصه: وقد
+نافست <placeName change="#d2e120 #d11e298" xml:id="placeName_52.d2e1906" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> قرطبة في الآداب والعلم والصناعة والفنون، فكان لهاتين المدينتين
+سيادة العالم من هذا القبيل. أما في التجارة والثروة فإن قرطبة لم تبلغ شأو <placeName change="#d2e120 #d11e298" xml:id="placeName_53.d2e1911" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>.
+وكانت <placeName change="#d2e120 #d11e298" xml:id="placeName_54.d2e1916" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> عاصمة الإسلام الدينية والعاصمة السياسية لمعظم بلدانه، لما كان
 الإسلام ركن حضارة الدنيا.
-هذه هي <placeName change="#d2e120" xml:id="placeName_55.d2e1924">بغداد</placeName> كما يراها العرب الذين يعرفون تاريخ قومهم، ويحفظون ذكر
+هذه هي <placeName change="#d2e120 #d11e298" xml:id="placeName_55.d2e1924" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> كما يراها العرب الذين يعرفون تاريخ قومهم، ويحفظون ذكر
 عظمة جنسهم، ويتحسرون على أيام الرشيد والمأمون، ويتمنون لو أتيح للعرب أن
 ينهضوا مثل نهضتهم في ذلك العصر السعيد، ويتعاونوا على رفع شأنهم بإتقان
 العلم وتنشيط الصناعة والتفاني في تأييد المجموع.
-كانت <placeName change="#d2e120" xml:id="placeName_56.d2e1936">بغداد</placeName> لسلطنة العرب كلندن اليوم لسلطنة البريطانيين، فكانت مركز
+كانت <placeName change="#d2e120 #d11e298" xml:id="placeName_56.d2e1936" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> لسلطنة العرب كلندن اليوم لسلطنة البريطانيين، فكانت مركز
 قوتهم، ومجمع علمهم، وركن صناعتهم، وسوق تجارتهم، ومجلس حكومتهم،
 وكان خلفاؤها ينظرون في الجهات الأربع ويعلمون أن الرياح كيفما هبت فإنها تهب
 عليهم من ولاياتهم وممالكهم، حتى لقد قال الرشيد - يخاطب السحابة -: (أمطري
 حيث شئت فإن خيركِ يأتيني) .
-إن <placeName change="#d2e120" xml:id="placeName_57.d2e1950">بغداد</placeName> صارت الآن للعرب مدينة الشعر والخيال؛ إذ لا سبيل إلا بهما إلى
-تمثُّل عظمتها الماضية، أما في عصر العرب الذهبي فقد كانت <placeName change="#d2e120" xml:id="placeName_58.d2e1955">بغداد</placeName> جامعة لأبهة
+إن <placeName change="#d2e120 #d11e298" xml:id="placeName_57.d2e1950" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> صارت الآن للعرب مدينة الشعر والخيال؛ إذ لا سبيل إلا بهما إلى
+تمثُّل عظمتها الماضية، أما في عصر العرب الذهبي فقد كانت <placeName change="#d2e120 #d11e298" xml:id="placeName_58.d2e1955" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> جامعة لأبهة
 الملك وشرف العلم ومجد الصناعة وعظمة التجارة وإتقان الفنون وبراعة النظام،
 فكان الخيال والشعر فيها تفكهة يلطفان من أخلاق أهلها، وهم في طلب العلى
 جادون، وإلى التقدم والارتقاء والنجاح ناشطون، وفي ذلك يقول أحد شعرائهم:

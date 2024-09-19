@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_33-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_33-i_6.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e276">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_33-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_33-i_6.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e276" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1352">1352</date><date calendar="#cal_gregorian" when="1933" xml:lang="ar">أكتوبر - 1933م</date></imprint>
                   <biblScope unit="volume" from="33" to="33" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">33</biblScope>
                   <biblScope unit="issue" from="6" to="6" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">6</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e276" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -910,12 +910,12 @@
 رحمه الله تعالى
 
                
-ولد فيصل بن حسين في <placeName change="#d2e120" xml:id="placeName_4.d2e2049">مكة المكرمة</placeName> وربي في طفولته بالبادية كما كان يربى
+ولد فيصل بن حسين في <placeName change="#d2e120 #d11e276" xml:id="placeName_4.d2e2049" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> وربي في طفولته بالبادية كما كان يربى
 شرفاؤها وكبراؤها من قبل الإسلام، ويعلم هذا جمهور مسلمي الأرض من سيرة
 المصطفى عليه الصلاة والسلام، ثم ربي التربية الثانية في مراهقته وصباه في
-الآستانة عاصمة آل عثمان، كأمثاله من أولاد كبار شرفاء <placeName change="#d2e120" xml:id="placeName_5.d2e2059">مكة</placeName> المرشحين للإمارة،
+الآستانة عاصمة آل عثمان، كأمثاله من أولاد كبار شرفاء <placeName change="#d2e120 #d11e276" xml:id="placeName_5.d2e2059" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المرشحين للإمارة،
 وكان غرض الدولة التركية من ذلك معروفًا لجميع الذين يعرفون سياستها في
-الشعب العربي ولا سيما شرفاء <placeName change="#d2e120" xml:id="placeName_6.d2e2066">مكة</placeName>، ومنها أنها كانت تحول دون تعليم نابتتهم في
+الشعب العربي ولا سيما شرفاء <placeName change="#d2e120 #d11e276" xml:id="placeName_6.d2e2066" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، ومنها أنها كانت تحول دون تعليم نابتتهم في
 المدارس المدنية الرسمية وغير الرسمية، وكان آباؤهم يكفونها أمر تعليمهم في
 المدارس الدينية لعدم شعورهم بالحاجة إليه، بل كانوا يترفعون عنه؛ لأن أرفع أمر
 النابغ فيه أن يكون قاضيًا أو مفتيًا أو مدرسًا في مسجد، فكان قلما يتعلم أحد منهم
@@ -923,7 +923,7 @@
 به أهلاً للنهوض بعمل عظيم، ومرجعًا أو مرشدًا وإمامًا للعاملين، ولا لما دون ذلك
 مما يترفعون عنه من قضاء أو إفتاء أو تعليم، ولقد مرت القرون وتعاقبت الأجيال
 ولم تخرج لنا هذه الأسرة الهاشمية رجلاً عظيمًا في علم نافع ولا عمل رافع، ولا
-إصلاح ديني ولا اجتماعي ولا سياسي، وما زالت إمارة <placeName change="#d2e120" xml:id="placeName_7.d2e2087">الحجاز</placeName> موروثة فيهم من
+إصلاح ديني ولا اجتماعي ولا سياسي، وما زالت إمارة <placeName change="#d2e120 #d11e276" xml:id="placeName_7.d2e2087" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> موروثة فيهم من
 قبل دولة الترك بقرون، وما كانت تزداد البلاد في عهدهم إلا خرابًا، ولا أهلها إلا
 تبابًا، ولو قام فيها مصلح عظيم منهم لكان تأثيره في إحياء مجد الإسلام بالعرب
 ومجد العرب بالإسلام ما يفوق تأثير سبعين مصلحًا من غيرهم، لما لهم من المكانة
@@ -933,22 +933,22 @@
 من خبر شجاعته وأن أخاه عبد الله فاخر بعض الشجعان وهدَّده مرة فقال: تراني
 أنا راعي الهدلة [1] تراني أنا أخو فيصل. وكان من تأثير تربية الآستانة في نفسه
 أن سياسته كانت تركية محضًا فلم يكن يفكر في أن لأمته العربية وجودًا يجب أن
-يعنى به. ولقد سمعت من لسانه في أول حديث دار بيني وبينه في <placeName change="#d2e120" xml:id="placeName_8.d2e2112">بيروت</placeName> (في
+يعنى به. ولقد سمعت من لسانه في أول حديث دار بيني وبينه في <placeName change="#d2e120 #d11e276" xml:id="placeName_8.d2e2112" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> (في
 14 جمادى الأولى سنة 1338 - 4 فبراير سنة 1920) أنه كان يرى الخير لوالده
 وأهل بيته بل لأمته في الإخلاص لدولة الترك ودوام الانتفاع أو قال الترقي بهم،
-وأنه إنما تحول عن هذه السياسة لما جاء <placeName change="#d2e120" xml:id="placeName_9.d2e2121">الشام</placeName> قبيل الحرب وبعدها، ورأى قومه
+وأنه إنما تحول عن هذه السياسة لما جاء <placeName change="#d2e120 #d11e276" xml:id="placeName_9.d2e2121" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> قبيل الحرب وبعدها، ورأى قومه
 كلهم على خلاف رأيه، على حد قول الشاعر
 وهل أنا إلا من غزية إن غوت <gap resp="#org_MS" change="#d2e120" xml:id="gap_59.d2e2129"/> غويت وإن ترشد غزية أرشد
-وإنه يومئذ اتفق مع إخواننا في <placeName change="#d2e120" xml:id="placeName_10.d2e2133">الشام</placeName> على العمل للقضية العربية، وانتظم في
+وإنه يومئذ اتفق مع إخواننا في <placeName change="#d2e120 #d11e276" xml:id="placeName_10.d2e2133" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> على العمل للقضية العربية، وانتظم في
 جمعيتهم السرية. ثم كان من عمله في الثورة العربية التي أعلنها والده ما كان به
 أظهر رجالها، وحارب الترك مع الإنكليز حربًا كسبته وكسبت العرب ثناء رسميًّا
-له قيمة سياسية عظيمة. ودخل <placeName change="#d2e120" xml:id="placeName_11.d2e2143">دمشق</placeName> عقب انسحاب الترك منها دخول الفاتح
+له قيمة سياسية عظيمة. ودخل <placeName change="#d2e120 #d11e276" xml:id="placeName_11.d2e2143" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> عقب انسحاب الترك منها دخول الفاتح
 الظافر، وسافر بعد ذلك إلى أوربة وشهد مؤتمر الصلح الأكبر، ودخل في إثر ذلك
 أبواب السياسة، ثم بايعته الأمة السورية وجعلته ملكها، ثم نادت بسقوطه وتحدثت
 بالهجوم والدمور عليه للفتك به، فوضع الحرس الحجازي المسلح على بابه، إذ
 أذيع فيها قبوله لإنذار الجنرال غورو المُخْزِي، وزاد السخط عليه بدخول دمشق
 في الليلة التي دخلها الجيش الفرنسي محتلا لها، مؤملا أن يرضى ببقائه ملكًا فيها،
-ولكنه أخرجه منها ليلا، ثم كان من أمر توليه ملك <placeName change="#d2e120" xml:id="placeName_12.d2e2159">العراق</placeName> ما كان، وما لقي فيه من
+ولكنه أخرجه منها ليلا، ثم كان من أمر توليه ملك <placeName change="#d2e120 #d11e276" xml:id="placeName_12.d2e2159" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> ما كان، وما لقي فيه من
 مقاومة وما طرأ عليه من أطوار، وما زال يرسب ويطفو، ويسف ويسمو، حتى
 صار سياسي الأمة العربية المحنك، وجذيلها المحكك وتجلى فيه من عبقرية الذكاء
 والحزم، ونباهة الشأن وإدارة الملك، ما انتهى به أمره إلى ما علمنا من ثقة به
@@ -962,11 +962,11 @@
 لتحقيقها، منها مبالغته في المواتاة لكل معاشريه والاستجابة لمطالبهم المتناقضة،
 ومساعدتهم على الأعمال المتعارضة، ومنها أنه كان على شدة صراحته يكاد يتعذر
 على أقرب الناس إليه أن يعرف كُنْه سريرته، ويثق بإصراره على رأيه، وثباته
-على ما يبديه له منه. هكذا كان عهدي به في <placeName change="#d2e120" xml:id="placeName_13.d2e2193">دمشق</placeName>.
+على ما يبديه له منه. هكذا كان عهدي به في <placeName change="#d2e120 #d11e276" xml:id="placeName_13.d2e2193" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>.
 ولولا ما أوتي من المرونة والحلم، والحرية واللطف، والاعتبار بالحوادث،
 وممارسة الكوارث، وتربية نفسه بها، والارتياح إلى إعطاء كل ذي حق حقه فيها
 لكان الخوف عليه أكبر من الرجاء فيه، وبهذا فضل والده وأخاه الذين سبقاه إلى
-التفكير في القضية العربية، والخروج على <placeName change="#d2e120" xml:id="placeName_14.d2e2204">الدولة العثمانية</placeName> من قبل أن يُتَاح لهما
+التفكير في القضية العربية، والخروج على <placeName change="#d2e120 #d11e276" xml:id="placeName_14.d2e2204" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> من قبل أن يُتَاح لهما
 القيام بإعلان الثورة، ويفتح لها باب الرجاء في سيادة الأمة.
 ليس من مذهب المنار تدوين وقائع التاريخ، ولا من مشربه سرد المناقب
 والمثالب، وإنما صاحبه قرآني يبحث عن العبرة، ويجليها في قالب الحكمة
@@ -988,7 +988,7 @@
 كتاريخ الوحدة الجرمانية والوحدة الطليانية.
 ثم علمت علمًا صحيحًا أنه موطن نفسه على السعي لسورية وفلسطين معًا،
 متوسلاً بنفوذه عند الدولة الإنكليزية، وأنه يعتقد أن وجود الملك عبد العزيز بن
-السعود في <placeName change="#d2e120" xml:id="placeName_15.d2e2255">الحجاز</placeName> رحمة للعرب والجزيرة، وأنه لا يوجد في الأمة العربية من
+السعود في <placeName change="#d2e120 #d11e276" xml:id="placeName_15.d2e2255" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> رحمة للعرب والجزيرة، وأنه لا يوجد في الأمة العربية من
 يقدر على حفظ الأمن فيها ودرء الفتن وتقدم العمران مثله أو غيره، وأنه يجب
 الاتفاق والتعاون معه، على أنه كان يرى مع هذا أنه لا يرجى أن يكون لهذا الرجل
 الفذ الوحيد في مواهبه، من يستطيع من ولده أو غيرهم أن يضطلع بما اضطلع هو
@@ -1001,12 +1001,12 @@
 ما قلبه على ابن السعود من الضغن والحفيظة ولكن كان من سوء حظه وحظ أمته
 أنه تَأَمَّرَ على بدوٍ جاهلين، وإن كانوا مسلحين، وحَضَرٍ أكثرُهُمْ متملقون
 مسترزقون: والمجاهدون منهم قليلون مستضعفون، فلم يلق منهم ما لقي فيصل في
-الشام ثم في <placeName change="#d2e120" xml:id="placeName_16.d2e2287">العراق</placeName> من معارضة ومناهضة، ومشادة ومحادة، كانت خيرًا له من
+الشام ثم في <placeName change="#d2e120 #d11e276" xml:id="placeName_16.d2e2287" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> من معارضة ومناهضة، ومشادة ومحادة، كانت خيرًا له من
 المواتاة والموادة، وإنني أبسط ما بلوته بنفسي من خير الأخوين من مبتدئه إلى
 منتهاه بالإيجاز:
 عرفت الشريف عبد الله في الآستانة سنة 1328 (الموافقة سنة <date calendar="#cal_gregorian" when="1910" change="#d3e146 #d2e120" xml:id="date_7.d2e2296">1910</date>م)
 وكان عبيد الله أفندي مبعوث أيدين وصاحب <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_9.d2e2302" ref="wiki:Q124972025" resp="#pers_TG">العرب</title></bibl> الخادعة يطعن في والده
-الشريف حسين أمير <placeName change="#d2e120" xml:id="placeName_17.d2e2307">مكة المكرمة</placeName> طعنًا مسمومًا نافذًا، ولم يدافع عنه أحد من أبناء
+الشريف حسين أمير <placeName change="#d2e120 #d11e276" xml:id="placeName_17.d2e2307" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> طعنًا مسمومًا نافذًا، ولم يدافع عنه أحد من أبناء
 الأمة العربية، وكان هذا قد أطراني في جريدته إطراء ظاهرًا وسماني مجددًا، ثم
 لما شعر بنجاح مشروع الدعوى والإرشاد الذي دعت إليه الدولة الاتحادية قلب لي
 ظهر المِجَنّ، واتهمني بالتفريق بين الترك والعرب، فقامت عليه قيامة الجرائد
@@ -1169,7 +1169,7 @@
 على الخطوب، وأيده في مغالبة الدهر هو صوت امرأة، حتى إذا ماتت تلك المرأة
 العظيمة بكاها الرسول الكريم بكاءه على حده القاطع وركنه الشديد.
 فهل بقيت للمرأة تلك النفس الراضية المطمئنة، وتلك الروح الشفافة العالية،
-وتلك القوة المعنوية <placeName change="#d2e120" xml:id="placeName_18.d2e2656">القاهرة</placeName>؟ ! لا يا سيدتي الفاضلة، لم يبق للمرأة من هذه الآيات
+وتلك القوة المعنوية <placeName change="#d2e120 #d11e276" xml:id="placeName_18.d2e2656" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>؟ ! لا يا سيدتي الفاضلة، لم يبق للمرأة من هذه الآيات
 الثلاث آية واحدة.
 كانوا يقولون: انتظروا حتى تسفر المرأة فهي محجوبة لا ترى النور ولا
 تحس الحياة، وهي مكتوفة لا تملك الأمر ولا تقوى على العمل، وهي مستعبدة لا
@@ -1216,10 +1216,10 @@
 وقال: لا شيء. قلت: كلا بل هناك شيء خطير، وأنت هنا وحدك لا يعينك أحد،
 وأنا أولى بك من أي رجل سواي، قال: إذن فدع مكانك وأقبل معي، قلت: أنا
 معك وأومأت إلى ولدي فأقبلا، ثم قال لي وأنا أسير معه على غير هدًى: لقد
-حدثني في التليفون من أثق به أنه رأى زوجتي في مقصف محطة <placeName change="#d2e120" xml:id="placeName_19.d2e2761">القاهرة</placeName> مع رجل
+حدثني في التليفون من أثق به أنه رأى زوجتي في مقصف محطة <placeName change="#d2e120 #d11e276" xml:id="placeName_19.d2e2761" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> مع رجل
 لا يعرفه، وعرف من حديثهما أنهما ينتظران القطار الذاهب إلى القناطر، وأصغى
 صاحبي إليها فوجدهما يتكلمان عن صلة مجرمة وحب أثيم. هناك اتخذت سيارة
-من قلب <placeName change="#d2e120" xml:id="placeName_20.d2e2771">القاهرة</placeName> فأخذت تطوي الأرض حتى بلغت هذا المكان، قلت: وما لك لا
+من قلب <placeName change="#d2e120 #d11e276" xml:id="placeName_20.d2e2771" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> فأخذت تطوي الأرض حتى بلغت هذا المكان، قلت: وما لك لا
 تفترض الكذب والوقيعة في حديث محدثك، قال: كلا إن محدثي من أقرب الناس
 إليَّ، وأعطفهم عليَّ، وأحبهم إلى نفسي، ولا غاية له في الكذب، ولا مأرب له
 في الوقيعة، قلت: إن القطار الذي أشار إليه لم يأت بعد وهنا خرج صاحبي عن
@@ -1256,7 +1256,7 @@
 الكريم الشريف على أن فصلها بالطلاق، وأشفقت عليه من هذا الموقف المر
 فاجتذبته، وانتقلت به إلى حيث أقيم وأصيب المسكين برعاف نازق تفجر منه دمه
 حتى جرى على أرض العربة، ورغم عنايتي به لم ينقطع النزيف حتى انتهينا إلى
-محطة <placeName change="#d2e120" xml:id="placeName_21.d2e2854">القاهرة</placeName> فأسعف بالعلاج.
+محطة <placeName change="#d2e120 #d11e276" xml:id="placeName_21.d2e2854" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> فأسعف بالعلاج.
 ولهذه المرأة بنون وبنات ولها مع زوجها أعوام وأعوام، وبينما الدم ينزف
 من الرجل والخطر يحيط به كان يتكلم في غيظ محرق وفي بكاء مر عما بذله لهذه
 المرأة من ود وإخلاص، وعما قدمه لها من بر ومعروف.
@@ -1411,7 +1411,7 @@
 هذا النوع من المعاجم الجامعة ضروري لكل أمة لها لغة راقية مدونة كمعاجم
 اللغة يتوقف عليها تقدمها العلمي، وقد كان أول من تصدى لسد هذه الخلة في
 نهضتنا العربية الحديثة المعلم بطرس البستاني الشهير صاحب المعاجم العربية
-والمصنفات والصحف في <placeName change="#d2e120" xml:id="placeName_22.d2e3164">بيروت</placeName> في الثلث الأخير من القرن الميلادي الماضي،
+والمصنفات والصحف في <placeName change="#d2e120 #d11e276" xml:id="placeName_22.d2e3164" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> في الثلث الأخير من القرن الميلادي الماضي،
 وقد حبذ رأيه هذا والي سورية التركي والصدر الأعظم للدولة وشجَّعاه ووعداه
 بالمساعدة، وسبق إلى هذه المساعدة إسماعيل باشا خديو مصر فاشترك بألف نسخة
 من كل جزء يصدر من هذه الدائرة وأهدى مؤلفها مكتبة كبيرة من مطبوعات مصر
@@ -1419,7 +1419,7 @@
 ضروري للأمة، ولكن البستاني توفي بعد إصدار عدة مجلدات فتولى العمل بعده
 نجله سليم البستاني فانتهى عمله بإتمام الجزء التاسع، وبعد وفاته تولى ذلك سليمان
 البستاني بمساعدة أخويه نسيب ونجيب فأصدر الجزءين العاشر والحادي عشر الذي
-انتهى بخلاصة تاريخ <placeName change="#d2e120" xml:id="placeName_23.d2e3184">الدولة العثمانية</placeName> من حرف العين. وكان المعلم بطرس أصدر
+انتهى بخلاصة تاريخ <placeName change="#d2e120 #d11e276" xml:id="placeName_23.d2e3184" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> من حرف العين. وكان المعلم بطرس أصدر
 الجزء الأول في سنة <date calendar="#cal_gregorian" when="1876" change="#d3e146 #d2e120" xml:id="date_8.d2e3190">1876</date> م ثم كان صدور الجزء الحادي عشر في سنة 1900
 وحال دون المضي في العمل كساد العلم وعدم وجود أمير ولا كبير كإسماعيل باشا
 يساعد عليه، وهو يحتاج إلى نفقات كثيرة ومساعدين على النسخ والترجمة من
@@ -1540,15 +1540,15 @@
 
          
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_9.d2e3439">
-               <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_10.d2e3441">مدرسة دار الحديث ب<placeName change="#d2e120" xml:id="placeName_24.d2e3443">مكة</placeName> المكرمة</head>
+               <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_10.d2e3441">مدرسة دار الحديث ب<placeName change="#d2e120 #d11e276" xml:id="placeName_24.d2e3443" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المكرمة</head>
 <p change="#d2e120" xml:id="p_2.d2e3447">
                
 
                
-أسست في <placeName change="#d2e120" xml:id="placeName_25.d2e3453">مكة المكرمة</placeName> مدرسة لإحياء علم الحديث بهذا الاسم، وقد جاءنا من
+أسست في <placeName change="#d2e120 #d11e276" xml:id="placeName_25.d2e3453" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> مدرسة لإحياء علم الحديث بهذا الاسم، وقد جاءنا من
 مديرها بيان لذلك قال فيه بعد مقدمة وجيزة ما نصه:
 ولما كان المسلمون في أشد الحاجة إلى إحياء سنة رسول الله صلى الله عليه
-وسلم؛ لأن حياتهم متوقفة على ذلك، وكانت <placeName change="#d2e120" xml:id="placeName_26.d2e3463">مكة المكرمة</placeName> مهبط الوحي، ومشرق
+وسلم؛ لأن حياتهم متوقفة على ذلك، وكانت <placeName change="#d2e120 #d11e276" xml:id="placeName_26.d2e3463" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> مهبط الوحي، ومشرق
 نور الرسالة، وفيها قبلة المسلمين، فكَّر جماعة من أهل الغيرة في إنشاء مدرسة
 بها لهذا الغرض، وقد وفقنا الله تعالى -وله الحمد والمنة- لافتتاحها في 12 ربيع
 الأول سنة 1352 بعد الاستئذان من أولي الأمر، ولم يبق إلا مساعدة المسلمين لها
@@ -1583,14 +1583,14 @@
 (الثالث) إشراك الطلبة في الدرس حتى لا يكون كالخطابة والمحاضرة تلقى
 عليهم وهم سكوت، ثم ينصرفون.
 (الرابع) تعويد الطلبة التفكير الصحيح وحرية الرأي وتثقيف عقولهم.
-وللمدرسة هيئة إدارية متشكلة من أعيان <placeName change="#d2e120" xml:id="placeName_27.d2e3540">الحجاز</placeName> وعلمائه الموقعين على هذه
+وللمدرسة هيئة إدارية متشكلة من أعيان <placeName change="#d2e120 #d11e276" xml:id="placeName_27.d2e3540" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وعلمائه الموقعين على هذه
 النشرة.
 الأعضاء المستشارون: وكذلك لها أعضاء مستشارون في سائر الممالك
 الإسلامية من العلماء والأعيان، فالمدرسة ترحب بكل غيور على السنة وتدعوه إلى
 معاونتها بكل ما أمكن من جاه ومال ورأي وعلم، والله لا يضيع أجر من أحسن
 عملاً.
 طريقة الإعانة المالية:
-(1) إذا كان المتبرع ب<placeName change="#d2e120" xml:id="placeName_28.d2e3558">مكة المكرمة</placeName> فنرجوه أن يسلم الإعانة لمدير المدرسة
+(1) إذا كان المتبرع ب<placeName change="#d2e120 #d11e276" xml:id="placeName_28.d2e3558" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> فنرجوه أن يسلم الإعانة لمدير المدرسة
 أو لأمين صندوقها ويأخذ سند الاستلام.
 (2) وأما من كان في الخارج فعليه أن يرسل الأوراق المالية ضمن
 ظروف مسجلة باسم المدير أو يرسل حوالة على البريد أو أحد البنوك أو أحد التجار
@@ -1598,7 +1598,7 @@
 من لم يصله الوصل في ظرف شهرين، فله أن يراجع المدير بشأن إعانته وليس
 لدار الحديث وكيل طواف متنقل في البلاد يجمع باسمها الإعانات فنحذر الناس من
 المحتالين وننصحهم ألا يعطوا أحدًا شيئًا باسم دار الحديث، وليعلموا أن ليس في
-الحجاز كله دار حديث مصرَّح لها رسميًّا غير التي ب<placeName change="#d2e120" xml:id="placeName_29.d2e3578">مكة</placeName>. وفي الختام نسأل الله
+الحجاز كله دار حديث مصرَّح لها رسميًّا غير التي ب<placeName change="#d2e120 #d11e276" xml:id="placeName_29.d2e3578" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>. وفي الختام نسأل الله
 تعالى أن يوفقنا لما يحبه ويرضاه وينجحنا في مقصدنا، وهو تخريج طائفة من
 العلماء المحققين المستقلين في الفكر، والمتبعين للسلف الصالح في فهمهم للدين
 والعمل به والدعوة إليه، وما ذلك على الله بعزيز (وقد ضافت الصفحة عن ذكر

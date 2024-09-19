@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_3-i_18.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_3-i_18.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e298">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_3-i_18.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_3-i_18.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1318">1318</date><date calendar="#cal_gregorian" xml:lang="ar" when="1900-08-27">27 أغسطس 1900</date></imprint>
                   <biblScope unit="volume" from="3" to="3" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">3</biblScope>
                   <biblScope unit="issue" from="18" to="18" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">18</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e298" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -76,23 +76,23 @@
 نبذة رابعة
 
                
-مدرسة <placeName change="#d2e120" xml:id="placeName_4.d2e283">بغداد</placeName> وطريقة علمائها. اعتراف الإفرنجة لهم بالفضل. الأرصاد
+مدرسة <placeName change="#d2e120 #d11e298" xml:id="placeName_4.d2e283" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> وطريقة علمائها. اعتراف الإفرنجة لهم بالفضل. الأرصاد
 المأمونية. أبو الوفاء الفلكي الميكانيكي واختراعاته ومصنفاته. التتار واهتداؤهم
 ونصرهم للعلم. مرصد مراغة وامتيازه. الفلك في مصر. ابن يونس والزيج
 الحاكمي ومرصد المقطم. اختراع الربع المثقوب وبندول الساعة الدقاقة. الفلك في
 الأندلس والمغرب.. ..
 ألمعنا في النبذة الماضية باشتغال علماء الإسلام بالفلك وما كان لهم من
-الاكتشاف والتنقيح والتصنيف ألا وإن مدرسة <placeName change="#d2e120" xml:id="placeName_5.d2e299">بغداد</placeName> كانت منبع هذا العلم كغيره
+الاكتشاف والتنقيح والتصنيف ألا وإن مدرسة <placeName change="#d2e120 #d11e298" xml:id="placeName_5.d2e299" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> كانت منبع هذا العلم كغيره
 ومنها استمد سائر المسلمين الذين استمد من سؤرهم الغربيون بل الذين ترك أبناؤهم
 تراثهم للأجانب فاستأثروا به وأنموه وصار مفخرًا لهم وحجة علينا. ولا يزال
 فضلاؤهم يعترفون لنا بهذا الحق. قال بعض مؤرخي الإفرنجة: إن العرب
-استقاموا عدة قرون على الطريقة التي وضعها علماء مدرسة <placeName change="#d2e120" xml:id="placeName_6.d2e311">بغداد</placeName> واتبعوا قواعدهم
+استقاموا عدة قرون على الطريقة التي وضعها علماء مدرسة <placeName change="#d2e120 #d11e298" xml:id="placeName_6.d2e311" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> واتبعوا قواعدهم
 وهي الانتقال من المعلوم إلى المجهول والوقوف على حقيقة الحوادث الفلكية
 والانتقال من النظر في المسببات إلى اجتلاء الأسباب لا يعولون إلا على ما
 اتضحت صحته وعرفت حقيقته , ولهذا عَوَّلَ مَنْ بعدهم على مؤلفاتهم واعترف
 ثابت بن قرة بأن ما في يده من الأرصاد الموضوعة في زمن المأمون كافية في تقدم
 علم الفلك , ومما يقضي بالعجب على الأوربيين أن العرب وصلوا إلى تلك الغاية
-من المعارف الفلكية في <placeName change="#d2e120" xml:id="placeName_7.d2e327">بغداد</placeName> من غير مرقب (تلسكوب) ولا إسطرلاب.
+من المعارف الفلكية في <placeName change="#d2e120 #d11e298" xml:id="placeName_7.d2e327" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> من غير مرقب (تلسكوب) ولا إسطرلاب.
 ذكرنا أن الذين نبغوا في علم الفلك على عهد عضد الدولة وأخيه كثيرون.
 ومن أشهر هؤلاء أبو الوفاء محمد بن محمد الحاسب الذي اعترف بفضله المجمع
 العلمي في باريس فقد أتقن هذا مع علم الفلك علم الميكانيكا ورصد ميل وسط منطقة
@@ -117,29 +117,29 @@
 فتارةً كان الأول يهدي إلى الثاني , وطورًا كان الثاني يرشد إلى الأول , ولا غرو
 فهكذا شأن السبب مع المسبب والعلة مع المعلول. جمع هلاكو خان (وقد اختلف
 المؤرخون في إسلامه) العلماء الرياضين والفلكيين وغيرهم واختار منهم نصير
-الدين الطوسي فأفاض عليه الأموال فجمع الكتب الفلكية من <placeName change="#d2e120" xml:id="placeName_8.d2e391">بغداد</placeName>، و<placeName change="#d2e120" xml:id="placeName_9.d2e394">الشام</placeName> ,
-و<placeName change="#d2e120" xml:id="placeName_10.d2e400">الموصل</placeName> , وخراسان , وبنى بالمراغة المرصد المشهور وجعل في قبته ثقبًا تعرف
+الدين الطوسي فأفاض عليه الأموال فجمع الكتب الفلكية من <placeName change="#d2e120 #d11e298" xml:id="placeName_8.d2e391" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>، و<placeName change="#d2e120 #d11e298" xml:id="placeName_9.d2e394" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ,
+و<placeName change="#d2e120 #d11e298" xml:id="placeName_10.d2e400" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> , وخراسان , وبنى بالمراغة المرصد المشهور وجعل في قبته ثقبًا تعرف
 بأشعة الشمس النافذة منه درجات ودقائق سيرها اليومي وارتفاعها في كل فصل
 فكان ذلك منه استعمالاً جديدًا للربع المثقوب الذي استعمله العرب من قبله. وجعل
 في المرصد دوائر رصدية كبارًا وأرباع دوائر وكرات سماوية وأرضية وجميع
 أنواع الإصطرلاب واستعمل فيه كثيرين من العلماء. وبنى ألوغ بيك مرصدًا في
-دمشق ولما أتم كوبلاي خان أخو هلاكو فتح الصين نقل مؤلفات علماء <placeName change="#d2e120" xml:id="placeName_11.d2e414">بغداد</placeName> إليها ,
+دمشق ولما أتم كوبلاي خان أخو هلاكو فتح الصين نقل مؤلفات علماء <placeName change="#d2e120 #d11e298" xml:id="placeName_11.d2e414" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> إليها ,
 وخلف ابنُ الشاطرِ الطوسيَّ فعمل أزياجًا اعتمد عليها العلماء بعده , ولا ننسى أن
 تيمورلنك وأولاده نصروا العلم بعد ذلك العيث والإفساد ومرصدهم في سمرقند كان
 مشهورًا.
 ***
 علم الفلك في مصر والأندلس والغرب الأقصى
 قضت سنة الله - تعالى - بأن يكون نمو العلوم والفنون على حسب قوة
-الدولة وسعة العمران لذلك تقلصت ظلال المعارف من <placeName change="#d2e120" xml:id="placeName_12.d2e432">بغداد</placeName> بعدما أفلت شمس
+الدولة وسعة العمران لذلك تقلصت ظلال المعارف من <placeName change="#d2e120 #d11e298" xml:id="placeName_12.d2e432" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> بعدما أفلت شمس
 العباسيين على ما بينا قبل. ولما دالت الدولة إلى الفاطميين في مصر طار
 المشتغلون بالعلم في جو السماء يسامرون النجم الثاقب ويسايرون الفلك الدائب
-وقد انتهت رياسة هذا الفن في <placeName change="#d2e120" xml:id="placeName_13.d2e442">القاهرة</placeName> إلى ابن يونس الفلكي الشهير صاحب
+وقد انتهت رياسة هذا الفن في <placeName change="#d2e120 #d11e298" xml:id="placeName_13.d2e442" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> إلى ابن يونس الفلكي الشهير صاحب
 الزيج الحاكمي ومرصد جبل المقطم المتوفى سنة <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="0389" change="#d3e146 #d2e120" xml:id="date_6.d2e447">389</date>هـ.
 جرى ابن يونس هذا على آثار أبي الوفاء الذي نوهنا به آنفًا واتبع خطواته
-ونظر في مؤلفات علماء <placeName change="#d2e120" xml:id="placeName_14.d2e454">بغداد</placeName> وغيرهم وانتقد على أزياج النيريزي (الذي نوهنا به
+ونظر في مؤلفات علماء <placeName change="#d2e120 #d11e298" xml:id="placeName_14.d2e454" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> وغيرهم وانتقد على أزياج النيريزي (الذي نوهنا به
 في النبذة الثالثة) بعدم استقصائه في إصلاح أغلاط الفلكيين على أنه اعترف بفضله
 واستفاد من أزياجه , وهو الذي اخترع الربع ذا الثقب وبندول الساعة الدقاقة وقد
-خلف في الشرق كله المجسطي البطليموسي ورسائل علماء <placeName change="#d2e120" xml:id="placeName_15.d2e464">بغداد</placeName> وظهر زيجه في
+خلف في الشرق كله المجسطي البطليموسي ورسائل علماء <placeName change="#d2e120 #d11e298" xml:id="placeName_15.d2e464" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> وظهر زيجه في
 الفرس من بعده بنحو سبعين سنة. ومن مشاهير الفلكيين الأولين في مصر العتقي ,
 وممن جاء بعد ابن يونس حسن بن هيثم الذي ألف أكثر من ثمانين كتابًا ومجموعًا
 في الأرصاد، وشرح المجسطي وتعاريف مبادئ إقليدس , وقد انتفع بأزياجه
@@ -162,7 +162,7 @@
 الباطلة التي كان يجهلها المتقدمون , ومنهم أبو الحسن صاحب كتاب البدايات
 والنهايات الذي طاف شبه جزيرة الأندلس وجزءًا عظيمًا من شمال أفريقية وحرر
 ارتفاع القطب الشمالي في 41 مدينة أولها أفرانه على الساحل الغربي من بلاد
-المغرب وآخرها <placeName change="#d2e120" xml:id="placeName_16.d2e517">القاهرة</placeName> , فأين تلك الهمم العالية في تحرير مسائل العلوم والعزيمة
+المغرب وآخرها <placeName change="#d2e120 #d11e298" xml:id="placeName_16.d2e517" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> , فأين تلك الهمم العالية في تحرير مسائل العلوم والعزيمة
 الماضية في جوب الأقطار وقطع أجواز البحار؟ أواه إنني أسمع الكون الأعظم
 يجاوبني قائلاً: إن هذه الروح قد انتقلت من المسلمين إلى الأوربيين والأمريكيين.
 حتى صار الأولون يعجبون من الآخرين. عندما يرونهم سائحين ومؤلفين
@@ -371,7 +371,7 @@
 الأمة لا تحيَى بدون لغة فإذا وجد في عالمنا الأدبي من يشتغل بإقامة أحد هذين
 الركنين لا ينبغي لنا أن نهضم حقوقه لأنه لم يقم الركنين كليهما معاً.
 لهذا نلوم الأديب مصطفى صادق أفندي صاحب مقالة (الشعر العربي) على
-هضمه حقوق شعراء <placeName change="#d2e120" xml:id="placeName_17.d2e941">العراق</placeName> المتأخرين الذين عرّف بعضهم وعرّض ببعض وهم
+هضمه حقوق شعراء <placeName change="#d2e120 #d11e298" xml:id="placeName_17.d2e941" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> المتأخرين الذين عرّف بعضهم وعرّض ببعض وهم
 في الطبقة العليا بالنسبة لعصرهم , وليت لنا عشرة في المائة من المشتغلين بالعلم
 في الأزهر وغيره يفهمون كلامهم من غير مراجعة معاجم اللغة وإطالة النظر. فإذا
 كان الأديب يغمز من لا يأتي بالمعاني الجديدة والاكتشافات العصرية في شعره فنحن
@@ -443,7 +443,7 @@
 ونحلهم وأجناسهم وأقطارهم ويشاركهم المسلمون في الأقطار التي تحكمها الدول
 الغير المسلمة. هؤلاء ومن يماثلهم في الاعتقاد برئيسهم الديني وأولئك برئيسهم
 الدنيوي. قلنا ما هو عيد واحد ولكنه أعياد ونقول: ما هو احتفال واحد ولكنها
-احتفالات فقد علم الناس أن الاحتفال بالشروع في مشروع سكة حديد <placeName change="#d2e120" xml:id="placeName_18.d2e1081">الحجاز</placeName> سيكون
+احتفالات فقد علم الناس أن الاحتفال بالشروع في مشروع سكة حديد <placeName change="#d2e120 #d11e298" xml:id="placeName_18.d2e1081" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> سيكون
 في ذلك اليوم الأزهر والعيد الأكبر وسيحتفل فيه أيضًا بافتتاح كثير من المدارس
 والمشروعات النافعة للبلاد والعباد.
 ولله درّ المصريين فإنهم السابقون في هذا المضمار ولذلك نراهم منذ أيام قد
@@ -539,7 +539,7 @@
 المدرسة.
 (3) إذا خرج التلميذ أو أخرجته المدرسة لمخالفة قوانينها لا يسترجع شيئًا
 بل يطالب بالمصاريف المستحقة عليه وتحفظ الأمتعة لوفاء المطلوب برمته.
-(4) كل تلميذ من خارج <placeName change="#d2e120" xml:id="placeName_19.d2e1293">بيروت</placeName> يجب أن يكون له وكيل مسئول بدفع
+(4) كل تلميذ من خارج <placeName change="#d2e120 #d11e298" xml:id="placeName_19.d2e1293" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> يجب أن يكون له وكيل مسئول بدفع
 المعينات والمصاريف المدرسية في أوقاتها إلى المدرسة ويقوم بلوازمه من كسوة
 ومصاريف خصوصية وخلافها.
 (5) أن الطلبة الذين يرغبون بتعلم بعض الفنون الاختيارية مكلفون بدفع

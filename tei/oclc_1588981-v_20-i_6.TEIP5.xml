@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_20-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_20-i_6.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e298">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_20-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_20-i_6.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1336">1336</date><date calendar="#cal_gregorian" when="1918" xml:lang="ar">فبراير - 1918م</date></imprint>
                   <biblScope unit="volume" from="20" to="20" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">20</biblScope>
                   <biblScope unit="issue" from="6" to="6" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">6</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e298" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -130,7 +130,7 @@
 وقد علم من هذا التفصيل كلام المحققين بالإجمال. ومن التفصيل فيه قول
 الحافظ: مذهب الحنابلة جواز الصورة في الثوب، ولو كان معلقًا إلا أن يكون على
 جدار، ومذهب القاسم بن محمد بن أبي بكر رضي الله عنه أن ما لا ظل له لا بأس
-باتخاذه مطلقًا، فقد صح أنه كان في بيته ب<placeName change="#d2e120" xml:id="placeName_4.d2e398">مكة</placeName> حجلة فيها تصاوير كما تقدم، ومنه
+باتخاذه مطلقًا، فقد صح أنه كان في بيته ب<placeName change="#d2e120 #d11e298" xml:id="placeName_4.d2e398" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> حجلة فيها تصاوير كما تقدم، ومنه
 حمل أبي علي الفارسي الوعيد بعذاب المصورين على المشبهة الذين يعتقدون أن لله
 تعالى صورة كصور خلقه، تعالى عن ذلك، وجعل الحافظ ابن حبان حديث امتناع
 الملائكة من دخول بيت فيه صورة خاصًّا بالنبي صلى الله عليه وسلم، وجعل
@@ -177,7 +177,7 @@
 بالأرض، أي جعله مساويًا لها. ولكن أجاز الفقهاء رفع القبور قدر شبر، كما رفع
 الصحابة قبر النبي صلى الله عليه وسلم وصاحبيه رضي الله عنهما. وقدر بعض
 مَن رأى القبر الشريف من السلف ارتفاعه بأربعة أصابع، نقله الحافظ في الفتح،
-والظاهر أنه اعتمده، وقال الشافعي في الأم: (ورأيت الأئمة ب<placeName change="#d2e120" xml:id="placeName_5.d2e507">مكة</placeName> يأمرون بهدم ما
+والظاهر أنه اعتمده، وقال الشافعي في الأم: (ورأيت الأئمة ب<placeName change="#d2e120 #d11e298" xml:id="placeName_5.d2e507" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> يأمرون بهدم ما
 يُبنَى) . قال النووي - عند نقله في شرح مسلم: ويؤيد الهدم - قوله: (ولا قبرًا
 مشرفًا إلا سويته) . اهـ.
 وأما الخلف من العوام والحكام فخالفوا جميع الأحاديث والآثار في المسألة
@@ -187,7 +187,7 @@
 الأزهر وقضاة الشرع والمفتين، ولكنهم لا يزالون يشددون في صناعة التصوير
 نفسها على كثرة منافعها، وشدة الحاجة إليها في غير ما تساهل الجمهور في اتخاذه
 من أعمالها.
-سألني بعض العلماء البصراء في <placeName change="#d2e120" xml:id="placeName_6.d2e532">طرابلس الشام</placeName> مرة عن التصوير؛ إذ قلت:
+سألني بعض العلماء البصراء في <placeName change="#d2e120 #d11e298" xml:id="placeName_6.d2e532" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> مرة عن التصوير؛ إذ قلت:
 إنه يعد الآن من أركان العمران والحضارة، هل له فائدة يُعتدّ بها شرعًا؟ فإن ما
 فتن به الناس من زينة التصاوير ليس بالأمر النافع الذي يرخص في هذه الصناعة
 لأجله، ولو في غير ما تُخشى عبادته أو تعظيمه تعظيمًا دينيًّا، فقلت له -
@@ -264,8 +264,8 @@
 
                
 طواف الإفاضة:
-بعد ذلك ركبت دابتي وقصدت <placeName change="#d2e120" xml:id="placeName_8.d2e691">مكة المكرمة</placeName> فطفت طواف الإفاضة وهو
-طواف الركن الذي لا يتم الحج بدونه، وفي أثناء طوافنا شرع أهل <placeName change="#d2e120" xml:id="placeName_9.d2e697">مكة</placeName> في صلاة
+بعد ذلك ركبت دابتي وقصدت <placeName change="#d2e120 #d11e298" xml:id="placeName_8.d2e691" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> فطفت طواف الإفاضة وهو
+طواف الركن الذي لا يتم الحج بدونه، وفي أثناء طوافنا شرع أهل <placeName change="#d2e120 #d11e298" xml:id="placeName_9.d2e697" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> في صلاة
 العيد ورأيت الأمير يصلي معهم مأمومًا. وكان الرجال يصلون في الجهة الغربية
 من الكعبة المعظمة والنساء في الجهة الجنوبية وهن كثيرات جدًّا، ثم سعينا بين
 الصفا والمروة وهو من أركان الحج وقد سعيت في هذه المرة ماشيًا. وقد اختلفت
@@ -276,12 +276,12 @@
 حديث عائشة مُدْرَج من كلام الزهري لا من كلامها، فمذهب المحدثين أن السعي لا
 يتكرر، ويقول كثير من الفقهاء: إن لكل نسك سعيًا لا يُسقطه السعي بعد طواف
 القدوم، وإن السعي للعمرة لا يغني عن السعي بعد طواف الإفاضة للحج، ولم
-يصلِّ النبي صلى الله عليه وسلم العيد يوم النحر ب<placeName change="#d2e120" xml:id="placeName_10.d2e724">مكة</placeName> ولا بمنى، كما أنه لم يصلِّ
+يصلِّ النبي صلى الله عليه وسلم العيد يوم النحر ب<placeName change="#d2e120 #d11e298" xml:id="placeName_10.d2e724" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ولا بمنى، كما أنه لم يصلِّ
 الجمعة بعرفة؛ لأنه مسافر، ولم يكن يصليهما في السفر، وقال بعض العلماء: إن
 رمي جمرة العقبة للحاج كصلاة العيد لغيره فصلاة العيد لا تُطلب منه، وإن كان
 مكيًّا. ونسأل الله تعالى أن يوفقنا لإقامة السنة على الوجه الأكمل في حجة أخرى أو
 حجات كثيرة.
-هذا، وإنني بعد الطواف والسعي جئت منزلنا ب<placeName change="#d2e120" xml:id="placeName_11.d2e738">مكة</placeName> واستحضرت حلاقًا فأخذ
+هذا، وإنني بعد الطواف والسعي جئت منزلنا ب<placeName change="#d2e120 #d11e298" xml:id="placeName_11.d2e738" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> واستحضرت حلاقًا فأخذ
 شعر رأسي كله بالآلة المعروفة بالمكنة أخذًا أقرب إلى الحلق منه إلى التقصير ثم
 عدت إلى منى وقد تحللت من الحج تحللاً كاملاً، ولله الحمد أولاً وآخرًا، وإياه
 نسأل أن يجعله حجًّا مقبولاً وسعيًا مشكورًا. وقد بقي من أعمال الحج التي لا
@@ -294,7 +294,7 @@
 مجمع الحصى التي ترمى شبهت باجتماع القبيلة على مَن ناوأها. وقال أبو العباس:
 أصلها من جمرته ودهرته إذا نحيته، والتجمير: رمي الجمار، والمجمر
 (كالمعظم) : موضع رمي الجمار. فأما جمرة العقبة فهي في عقبة منى التي ينحدر
-منها السائر إلى <placeName change="#d2e120" xml:id="placeName_12.d2e769">مكة</placeName> على جانب الطريق، وأما الجمرة الوسطى والصغرى فهما في
+منها السائر إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_12.d2e769" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> على جانب الطريق، وأما الجمرة الوسطى والصغرى فهما في
 وسط الطريق الذي يشق منى نصفين، وتعرف مواقعهما من صورة منى
 (خريطتها) وفي موضع كل من الوسطى والصغرى بناء يقرب من شكل المنارة
 أو المسلة، قليل الارتفاع، حوله حظيرة مستديرة، وكانت دارنا عند الجمرة
@@ -331,7 +331,7 @@
 ينبغي أن يكون مسلكهم في هذه الحال على كل تقدير يتصوره الذهن، وقد
 استحسنوا أن يجتمعوا ليلاً، ويكاشفوني بآرائهم، ويتعرفوا رأيي (والمستشار
 مؤتمن) ، ففعلوا. ومما يعد من الغريب عند كثير من الناس - أن ما كان يجول
-في أذهان أهل البلاد المختلفة ب<placeName change="#d2e120" xml:id="placeName_13.d2e838">مكة</placeName> في هذه المسألة هو عين ما كان يجول في أذهان
+في أذهان أهل البلاد المختلفة ب<placeName change="#d2e120 #d11e298" xml:id="placeName_13.d2e838" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> في هذه المسألة هو عين ما كان يجول في أذهان
 أهل مصر من الآراء والظنون. ثم ماذا كان؟
 علمنا يوم الخميس سابع ذي الحجة أنه قد تألفت فيها حكومة جديدة، على
 الوجه الذي نُشر بعد الحج في العدد السابع عشر من <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e848">القبلة</title></bibl>) بتاريخ 15 ذي
@@ -374,7 +374,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_8.d2e932"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_9.d2e934"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_10.d2e936"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_11.d2e938"/> شريف <placeName change="#d2e120" xml:id="placeName_14.d2e941">مكة</placeName> وأميرها
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_11.d2e938"/> شريف <placeName change="#d2e120 #d11e298" xml:id="placeName_14.d2e941" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وأميرها
 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_12.d2e946"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_13.d2e948"/> 
@@ -412,7 +412,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_27.d2e1021"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_28.d2e1023"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_29.d2e1025"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_30.d2e1027"/> شريف <placeName change="#d2e120" xml:id="placeName_15.d2e1029">مكة</placeName> وأميرها
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_30.d2e1027"/> شريف <placeName change="#d2e120 #d11e298" xml:id="placeName_15.d2e1029" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وأميرها
 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_31.d2e1035"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_32.d2e1037"/> 
@@ -443,14 +443,14 @@
 ثم عاد الناس إلى الحديث في هذه المسألة في مساء يوم العيد بمنى، وأُشيع
 أن المبايعة يحتمل أن تكون ضحوة غد في أثناء الاحتفال المعتاد في سرادق الأمير؛
 ذلك بأن العادة قد مضت بأن تكون ضحوة اليوم الأول من أيام منى موعد تهنئة
-الأمير الشريف بالعيد، وإتمام المناسك، فكان يحضر لديه والي <placeName change="#d2e120" xml:id="placeName_16.d2e1100">الحجاز</placeName> وقائد الجند
+الأمير الشريف بالعيد، وإتمام المناسك، فكان يحضر لديه والي <placeName change="#d2e120 #d11e298" xml:id="placeName_16.d2e1100" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وقائد الجند
 فيه، وأمير الحج الشامي والمصري، وكبار الشرفاء والعلماء وكبراء رجال
-الحكومة ووجهاء <placeName change="#d2e120" xml:id="placeName_17.d2e1107">مكة المكرمة</placeName> والحجاج، ويُتلى الفرمان السلطاني الذي يعهد فيه
-إلى الشريف بالنظر في شؤون الحج وحفظه في <placeName change="#d2e120" xml:id="placeName_18.d2e1112">الحجاز</placeName> <gap resp="#org_MS" change="#d2e120" xml:id="gap_41.d2e1116"/> ، ويخلع الوالي على
+الحكومة ووجهاء <placeName change="#d2e120 #d11e298" xml:id="placeName_17.d2e1107" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName> والحجاج، ويُتلى الفرمان السلطاني الذي يعهد فيه
+إلى الشريف بالنظر في شؤون الحج وحفظه في <placeName change="#d2e120 #d11e298" xml:id="placeName_18.d2e1112" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> <gap resp="#org_MS" change="#d2e120" xml:id="gap_41.d2e1116"/> ، ويخلع الوالي على
 الأمير الخلعة السلطانية.
 ولما أشيع ما أشيع جاءني أولئك الأصحاب ليلاً للمذاكرة في الأمر، وبعد
 طول التشاور فيه اقترحوا عليَّ أن أذهب إلى مخيم الإمارة لاكتشاف الحقيقة؛ إذ
-قيل إن جمهور رجال الحكومة الجديدة وشرفاء <placeName change="#d2e120" xml:id="placeName_19.d2e1126">مكة</placeName> ووجهاءها يرون وجوب المبايعة
+قيل إن جمهور رجال الحكومة الجديدة وشرفاء <placeName change="#d2e120 #d11e298" xml:id="placeName_19.d2e1126" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> ووجهاءها يرون وجوب المبايعة
 بالخلافة، وإن سيدنا الأمير مخالف لهم في ذلك، ويرى ترك ذلك إلى جماعة
 المسلمين في سائر الأقطار، وقد بيّن هذا المعنى بعد ذلك في بعض المنشورات
 الهاشمية. ولما كان منزلنا بعيدًا عن مخيم الإمارة، وكان الإخوان يعلمون أن
@@ -494,7 +494,7 @@
 37) ، فهذه الآية أخص من الآيات الناطقة بإنزال القرآن عربيًّا؛ لأنها مصرحة
 بأن حكم هذا الدين عربي، مع العلم بأن كتابه المتعبَّد به عربي، وهذه البلاد
 العربية هي مهد هذا الدين، ومهبط وحيه، ومشرق نوره، وكان أهلها هم السابقين
-إلى تلقيه، والاهتداء به، ثم تبعهم فيه غيرهم من عرب <placeName change="#d2e120" xml:id="placeName_20.d2e1231">الحجاز</placeName>، فسائر هذه
+إلى تلقيه، والاهتداء به، ثم تبعهم فيه غيرهم من عرب <placeName change="#d2e120 #d11e298" xml:id="placeName_20.d2e1231" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، فسائر هذه
 الجزيرة العربية. ثم حمله العرب إلى سائر الأقطار، ونشروه فيها، فامتد في
 الجيل الأول منهم، حتى عَمَّ نوره الشرق والغرب، وأروا الأمم بإقامة أحكامه من
 العدل والرحمة ما لم يعرفوا، ولم يسمعوا له نظيرًا، كما اعترف بذلك المنصفون
@@ -502,10 +502,10 @@
 ثم طرأ الضعف على السلطة الإسلامية بتفرُّق الوحدة العربية الكافلة لها،
 وتغلغل الأعاجم في الدول الإسلامية التي تعددت بسبب ضعف سلطة الخلافة، فبعد
 أن كانت الفتوحات الإسلامية في مد، لا جزر معه - صارت دول الطوائف
-الإسلامية بين مد وجزر، وقوة وضعف، حتى وصلت <placeName change="#d2e120" xml:id="placeName_21.d2e1252">الدولة العثمانية</placeName> منها إلى
+الإسلامية بين مد وجزر، وقوة وضعف، حتى وصلت <placeName change="#d2e120 #d11e298" xml:id="placeName_21.d2e1252" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> منها إلى
 درجة عالية، ومكانة سامية، من القوة الحربية، وسعة الفتح والتغلب، فسُرَّ بها
 المسلمون، ورضي بعض حكامهم المستقلين بسيادتها طوعًا واختيارًا، كما دخل
-بعضهم تحتها اضطرارًا، وقد كان أمراء <placeName change="#d2e120" xml:id="placeName_22.d2e1261">مكة</placeName> العظام أهل بيت سيدنا هذا (وأشار
+بعضهم تحتها اضطرارًا، وقد كان أمراء <placeName change="#d2e120 #d11e298" xml:id="placeName_22.d2e1261" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> العظام أهل بيت سيدنا هذا (وأشار
 الخطيب إلى جلالة مولانا الأمير) في مقدمة مَن أيد هذه الدولة، واعترفوا بسلطتها
 وسيادتها؛ لأجل جمع كلمة المسلمين بها، وإعلاء شأن الشريعة الإسلامية بنفوذها
 (ههنا قال جلالة سيدنا للخطيب: صدقت) .
@@ -513,7 +513,7 @@
 قرون، وإنني أذكر لكم بعض الشواهد على ذلك من تاريخها الرسمي منذ مئة سنة
 ونَيِّف:
 إن محمد علي باشا - الذي كان واليًا للدولة على مصر -قد زحف على
-سورية، ففتحها، ثم على <placeName change="#d2e120" xml:id="placeName_23.d2e1282">الأناضول</placeName>، فتوغَّل فيها، ولولا أن الدولة الإنكليزية
+سورية، ففتحها، ثم على <placeName change="#d2e120 #d11e298" xml:id="placeName_23.d2e1282" ref="geon:323835 oape:place:238" resp="#xslt">الأناضول</placeName>، فتوغَّل فيها، ولولا أن الدولة الإنكليزية
 أكرهته على الرجوع إلى مصر لاستولى على بلاد الدولة كلها. وكان ذلك على
 عهد السلطان محمود الذي كان يعد مصلحًا في الدولة، ومجددًا لها بقضائه على
 عسكر الإنكشارية المختل، وإدخاله نظام الجندية الأوروبي في الدولة.
@@ -547,7 +547,7 @@
 تمزق مسامع أهل الآستانة. وكان السبب الحسي لذلك قلة ما عند الجيش العثماني
 من المؤنة والذخيرة والدواب وسائر أسباب الحرب.
 وقد خسرت الدولة في عهدهم المشؤوم من الممالك ما لم تخسر مثله في عدة
-أجيال: خسرت البوسنة والهرسك ببيع الجمعية إياهما للنمسة، و<placeName change="#d2e120" xml:id="placeName_24.d2e1359">طرابلس</placeName> الغرب
+أجيال: خسرت البوسنة والهرسك ببيع الجمعية إياهما للنمسة، و<placeName change="#d2e120 #d11e298" xml:id="placeName_24.d2e1359" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الغرب
 وبرقة ببيعها إياهما لإيطالية، ومكدونية وألبانية وكريت وجزائر الأرخبيل،
 ونسكت عما خسرته في هذه الحرب من الولايات، فقد أضاعوا نصف الدولة في
 بضع سنين، وحمَّلوها فيها من أثقال الديون ما لم تحمل مثله قبلهم في بضعة قرون.
@@ -565,7 +565,7 @@
 أحكام شريعته، وحرمان المسلمين من آخر ما كان لهم من الاستقلال السياسي على
 عِلاَّته.
 لم نَرَ أحدًا من زعماء المسلمين وكبرائهم قدر الحال الخطرة التي وصل إليها
-الإسلام قدرها، وانبرى لتداركها إلا هذا الرجل العظيم - أمير <placeName change="#d2e120" xml:id="placeName_25.d2e1401">مكة</placeName> وشريفها - فإنه
+الإسلام قدرها، وانبرى لتداركها إلا هذا الرجل العظيم - أمير <placeName change="#d2e120 #d11e298" xml:id="placeName_25.d2e1401" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> وشريفها - فإنه
 (؟) ، أي أن الدولة - وهو من أعلم أهلها بحالها - قد أمست على شفا جُرُف،
 وأن ملاحدة الاتحاديين قد اتخذوا الأحكام العرفية والقوة العسكرية ذريعة للتنكيل
 بالأمة العربية بتقتيل رجال الفكر والعمل ومصادرة أموال أهل الثروة منها؛ حتى
@@ -574,25 +574,25 @@
 الخطر لفعل، ولو بذل في ذلك دمه ودم هؤلاء الأنجال الكرام (هنا قال الأمير -
 حفظه الله تعالى - للخطيب: صدقت) .
 لكن العمل - لإنقاذ الدولة نفسها من الخطر - قد أصبح فوق طاقته وطاقة
-غيره ( <gap resp="#org_MS" change="#d2e120" xml:id="gap_42.d2e1424"/> : صدقت) ، فرأى أن يبدأ بالمستطاع، وهو إنقاذ <placeName change="#d2e120" xml:id="placeName_26.d2e1426">الحجاز</placeName> - مهد
+غيره ( <gap resp="#org_MS" change="#d2e120" xml:id="gap_42.d2e1424"/> : صدقت) ، فرأى أن يبدأ بالمستطاع، وهو إنقاذ <placeName change="#d2e120 #d11e298" xml:id="placeName_26.d2e1426" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> - مهد
 الإسلام ومشرق نوره - مما نزل به من البلاء والشقاء، ثم إنقاذ غيره مما يمكن
 إنقاذه من البلاد العربية؛ ليكون ذلك بيئة الحفظ الاستقلال الإسلامي، وعدم زواله
-بما يُخشى ويُتوقع أن يحل ب<placeName change="#d2e120" xml:id="placeName_27.d2e1435">الدولة العثمانية</placeName> والعياذ بالله تعالى ( <gap resp="#org_MS" change="#d2e120" xml:id="gap_43.d2e1439"/> : صدقت) .
+بما يُخشى ويُتوقع أن يحل ب<placeName change="#d2e120 #d11e298" xml:id="placeName_27.d2e1435" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> والعياذ بالله تعالى ( <gap resp="#org_MS" change="#d2e120" xml:id="gap_43.d2e1439"/> : صدقت) .
 لا يخفى على ذِي بصيرة أن الاتحاديين ما حشروا الألوف من جيوشهم في
 الحجاز إلا بنية سيئة؛ لأنهم يعلمون - كما نعلم - أن أعداءهم الحلفاء لا يحاولون
-الاستيلاء على <placeName change="#d2e120" xml:id="placeName_28.d2e1447">الحجاز</placeName>، ولا يحاربون أهله، فكان من المعقول أن يرسلوا تلك
+الاستيلاء على <placeName change="#d2e120 #d11e298" xml:id="placeName_28.d2e1447" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، ولا يحاربون أهله، فكان من المعقول أن يرسلوا تلك
 الجيوش إلى قتال أعدائهم الروس، وإنقاذ ما فتحوه من الولايات التركية، ولكن
 التنكيل بالعرب أهم عندهم من دفع الروس عن عقر دارهم. ولو تم لهم ما أرادوا
-لرأينا من فظائعهم في <placeName change="#d2e120" xml:id="placeName_29.d2e1457">الحجاز</placeName> ما هو أشد من فظائعهم في <placeName change="#d2e120" xml:id="placeName_30.d2e1460">الشام</placeName> ( <gap resp="#org_MS" change="#d2e120" xml:id="gap_44.d2e1463"/> : صدقت) .
-نعم، إن الحلفاء لا يحاربون <placeName change="#d2e120" xml:id="placeName_31.d2e1468">الحجاز</placeName>، ولكن وجود الجيوش الاتحادية فيه
+لرأينا من فظائعهم في <placeName change="#d2e120 #d11e298" xml:id="placeName_29.d2e1457" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ما هو أشد من فظائعهم في <placeName change="#d2e120 #d11e298" xml:id="placeName_30.d2e1460" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ( <gap resp="#org_MS" change="#d2e120" xml:id="gap_44.d2e1463"/> : صدقت) .
+نعم، إن الحلفاء لا يحاربون <placeName change="#d2e120 #d11e298" xml:id="placeName_31.d2e1468" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، ولكن وجود الجيوش الاتحادية فيه
 ألجأهم إلى ضرب الحصر البحري على ثغوره؛ فضاقت المعيشة على أهله، حتى
 باعوا حُليهم وأثاثهم وأبواب بيوتهم وخشب سقفها، ولو طال عليهم أمد ذلك سنة
 أخرى لأكلتهم المجاعة، وما يتبعها عادة من الأوبئة ( <gap resp="#org_MS" change="#d2e120" xml:id="gap_45.d2e1477"/> : صدقت) .
-أعلن سيدنا هذا استقلال العرب في <placeName change="#d2e120" xml:id="placeName_32.d2e1482">الحجاز</placeName> - والحاجة قد اشتدت إليه حتى
+أعلن سيدنا هذا استقلال العرب في <placeName change="#d2e120 #d11e298" xml:id="placeName_32.d2e1482" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> - والحاجة قد اشتدت إليه حتى
 وصلت إلى حد الضرورة - وما كان ليوجد في الأمة العربية ولا الأمة الإسلامية
 كلها مَن آتاه الله من البصيرة والشجاعة والثقة بالله والتوكل عليه ما ينهض به للقيام
 بهذا العبء العظيم، ولولا ثقته بالله وتوكله عليه لما تجرأ على ذلك؛ لأننا كلنا نعلم
-أنه لا يوجد في <placeName change="#d2e120" xml:id="placeName_33.d2e1493">الحجاز</placeName> قوة عسكرية ولا ثروة مالية يُعتمد عليها في مثل هذا العمل
+أنه لا يوجد في <placeName change="#d2e120 #d11e298" xml:id="placeName_33.d2e1493" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> قوة عسكرية ولا ثروة مالية يُعتمد عليها في مثل هذا العمل
 (تصديق <gap resp="#org_MS" change="#d2e120" xml:id="gap_46.d2e1499"/> ) .
 كلنا نعلم أنه لا يوجد في الدنيا كلها مكان يصلح لتأسيس دولة إسلامية تخلف
 الدولة العثمانية إذا وقع بها ما نخشاه عليها إلا جزيرة العرب، وما يتصل بها من
@@ -606,12 +606,12 @@
 الشعور!
 أيها الحجازيون، مَن يكفر منكم لهذا الرجل المصلح المنقذ هذه النعمة فهو
 أكفر الناس للنعم. أيها المسلمون، يجب أن تعلموا أن هذا العمل أعظم خدمة
-للإسلام في هذا الزمن؛ فإن <placeName change="#d2e120" xml:id="placeName_34.d2e1529">الدولة العثمانية</placeName> إن سَلِمت من السقوط وحُفظ استقلالها
-لم يكن استقلال العرب في <placeName change="#d2e120" xml:id="placeName_35.d2e1534">الحجاز</placeName> وغيره مانعًا من ذلك، ولا من تعاضد العرب
+للإسلام في هذا الزمن؛ فإن <placeName change="#d2e120 #d11e298" xml:id="placeName_34.d2e1529" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> إن سَلِمت من السقوط وحُفظ استقلالها
+لم يكن استقلال العرب في <placeName change="#d2e120 #d11e298" xml:id="placeName_35.d2e1534" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وغيره مانعًا من ذلك، ولا من تعاضد العرب
 والترك مع حفظ حقوق كل منهم. وإن سقطت وفقدت استقلالها لم يكن هذا
 الاستقلال هو السبب فيه، ولكنه يكون سببًا لحفظ استقلال الحكم الإسلامي في
 أشرف بقاع الإسلام، بل لا يغيب عن أذهانكم أنه لولا إعلان هذا الاستقلال لترتب
-على سقوط <placeName change="#d2e120" xml:id="placeName_36.d2e1546">الدولة العثمانية</placeName> وقوع حرم الله تعالى وحرم رسول الله صلى الله عليه
+على سقوط <placeName change="#d2e120 #d11e298" xml:id="placeName_36.d2e1546" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> وقوع حرم الله تعالى وحرم رسول الله صلى الله عليه
 وسلم غنيمة في أيدي الدول الفاتحة. فإن تركوهما بعد ذلك لنا كان لهم منَّة التصدُّق
 بهما علينا. وإلا كانا تحت سيادتهم والعياذ بالله تعالى. وبهذا يتبين لكم أن هذا
 العمل العظيم - الذي قام به هذا الزعيم العظيم - قد أنقذ الحرمين الشريفين، وما
@@ -625,17 +625,17 @@
 فكره ورأيه، ولم يسبق له مكاشفتي به، وأنه لم يرني إلا منذ أيام قليلة، وهو
 صادق فيما قال، وأنني ما كنت أرجو أن يرضيه خطابي إلا من باب حسن الظن
 فيه، الذي استنبطته مما كنت أعلم من سوء نية جمال باشا وأعوانه، ومن منشورَيْه
-الدالين على قيامه بما قام به في <placeName change="#d2e120" xml:id="placeName_37.d2e1583">الحجاز</placeName> لأجل الداعية التي وصلت إلى حد الاضطرار،
+الدالين على قيامه بما قام به في <placeName change="#d2e120 #d11e298" xml:id="placeName_37.d2e1583" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> لأجل الداعية التي وصلت إلى حد الاضطرار،
 وإنها ضرورة تُقدَّر بقدرها، وهذا هو الحكم الشرعي في مثلها، وقد جعلتها مقدمة
 للسعي إلى ذلك.
 وأقول: إن وقْع الخطبة قد كان حسنًا في سمع الجمهور، وكانت موضع حديث
-الناس وثنائهم، حدثني بذلك الكثيرون في منى، ثم في <placeName change="#d2e120" xml:id="placeName_38.d2e1595">مكة</placeName>، وقد علمت أنها
+الناس وثنائهم، حدثني بذلك الكثيرون في منى، ثم في <placeName change="#d2e120 #d11e298" xml:id="placeName_38.d2e1595" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وقد علمت أنها
 جمعت بين إرضاء الفريقين المتعارضين في الرأي: فريق المتشائمين من ثورة
-الحجاز، الخائفين أن تكون سببًا لضعف <placeName change="#d2e120" xml:id="placeName_39.d2e1602">الدولة العثمانية</placeName>، على حين لا استعداد
+الحجاز، الخائفين أن تكون سببًا لضعف <placeName change="#d2e120 #d11e298" xml:id="placeName_39.d2e1602" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>، على حين لا استعداد
 لإنشاء دولة إسلامية تحل محلها، وفريق المتفائلين الذين يرجون أن تكون مبدأ
 دولة عربية مستقلة، تحيا بها حضارة العرب الزاهية الزاهرة، حتى أن أصحاب
 فكرة المبايعة كانوا يرجون - عند سماع الخطبة - أن تكون مقدمة للمبايعة.
-زارني بعد نزولنا من منى إلى <placeName change="#d2e120" xml:id="placeName_40.d2e1614">مكة</placeName> الشيخ عبد الملك الخطيب أحد أدباء مكة
+زارني بعد نزولنا من منى إلى <placeName change="#d2e120 #d11e298" xml:id="placeName_40.d2e1614" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> الشيخ عبد الملك الخطيب أحد أدباء مكة
 المقربين من الحضرة الهاشمية - وقد تقدم ذكره في هذه الرحلة - فكان جُل حديثه
 الثناء على الخطبة، وقال: إنني كنت في الحضرة الهاشمية أذكر محاسنها، وأنوه
 بها، وإن سيدنا وافقني على ذلك، وساهمني فيه، ثم ذكر أنه كان ينقصها شيء
@@ -655,7 +655,7 @@
 على الوجه الذي أشرت إليه في خاتمة الخطبة، فأظهر لي الاستحسان، وأحال
 على الزمان، وقراء المنار يعرفون رأيي مما بسطته في المقالة التاريخية (المسألة
 العربية) ، التي نشرتها في الجزء الأول من المجلد العشرين، ومنه أن الثورة
-الحجازية قد أدت وظيفتها، وأفادت ما رجوناه منها. فأنقذ <placeName change="#d2e120" xml:id="placeName_41.d2e1663">الحجاز</placeName>، وأوقفت بغي
+الحجازية قد أدت وظيفتها، وأفادت ما رجوناه منها. فأنقذ <placeName change="#d2e120 #d11e298" xml:id="placeName_41.d2e1663" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وأوقفت بغي
 البغاة، وأحمد الله أنني كنت أسعى إلى تنفيذ هذه المقاصد على تلك القواعد، وأنني
 الآن معتزل لأعمال السياسة وأهلها، منتظر حكم العزيز الحكيم في أمر أمتي
 والشعوب كلها. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_3.d2e1672"/>
@@ -676,7 +676,7 @@
 
                
 بقي مما ينبغي أن يُذكر في ترجمته، ما انفرد به دون أمثاله من شيوخ الأزهر
-كإنكاره كتابةً على <placeName change="#d2e120" xml:id="placeName_42.d2e1697">الدولة العثمانية</placeName> الفتك بالأرمن في أطنة، وكرئاسته لاحتفال اللجنة
+كإنكاره كتابةً على <placeName change="#d2e120 #d11e298" xml:id="placeName_42.d2e1697" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> الفتك بالأرمن في أطنة، وكرئاسته لاحتفال اللجنة
 السورية التي عُقدت في دار التمثيل الأميرية لإعانة طلبة العلم السوريين في الأزهر،
 تلك اللجنة التي قال - في حمدها بحق -: إنها مسيحية، ليس فيها إلا مسلم واحد
 تسعى لإعانة مسلمين ليس فيهم نصراني واحد! وغير ذلك من الأمور المدنية

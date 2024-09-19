@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_26-i_5.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_26-i_5.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e282">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_26-i_5.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_26-i_5.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1344">1344</date><date calendar="#cal_gregorian" when="1925" xml:lang="ar">سبتمبر - 1925م</date></imprint>
                   <biblScope unit="volume" from="26" to="26" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">26</biblScope>
                   <biblScope unit="issue" from="5" to="5" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">5</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e276" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e282" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e276" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -949,25 +949,25 @@
 غفلة هذه الشعوب وخيانة الكثير من أكابر مجرميها لها على الإسراع في القضاء
 الأخير على الإسلام والمسلمين الذين يعتقدون أن لا يتم لهم إلا بالاستيلاء على
 الحجاز، وقد بدؤوا السعي لذلك باصطناع الشريف حسين بن علي وأولاده،
-فأطمعوهم بأن يجعلوهم خلفاء وملوكًا في البلاد العربية <placeName change="#d2e120" xml:id="placeName_4.d2e2209">الحجاز</placeName> وغيره تحت حمايتهم
+فأطمعوهم بأن يجعلوهم خلفاء وملوكًا في البلاد العربية <placeName change="#d2e120 #d11e282" xml:id="placeName_4.d2e2209" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وغيره تحت حمايتهم
 وفي معدة إمبراطوريتهم المستعدة لهضم العالم كله، فرضوا وخدموهم بجد
 وإخلاص حتى تم لهم احتلال البلاد العربية من البحر الأحمر إلى شط العرب فخليج
-فارس، وكان نفوذهم في <placeName change="#d2e120" xml:id="placeName_5.d2e2219">الحجاز</placeName> نفسه أقوى منه في غيره؛ حتى كان الملك حسين
+فارس، وكان نفوذهم في <placeName change="#d2e120 #d11e282" xml:id="placeName_5.d2e2219" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> نفسه أقوى منه في غيره؛ حتى كان الملك حسين
 إذا استاء منهم يرفع استقالته إلى الحكومة البريطانية رسميًّا، وينشر ذلك في
 جريدته (القبلة) كما نقلناه عنها مرارًا. ٍ
 إن أولاد حسين صغار النفوس كبار الشهوات، همهم اللذة وحب الفخفخة
 الظاهرة، لذلك رضي فيصل وعبد الله منهم بالملك والإمارة الصورية في خدمة
 الإنكليز، وأما حسين فكبير النفس، عاشق للحكم والسلطان الاستبدادي، واسع
 الطمع، زاهد في الشهوات البدنية، فلذلك لم يكن راضيًا من الإنكليز بحصرهم
-سلطته في <placeName change="#d2e120" xml:id="placeName_6.d2e2237">الحجاز</placeName>، وظل يطالبهم بما وعدوه من تأسيس مملكة عربية واسعة تحت
-حمايتهم حتى ملوا وسئموا منه، ولم يبالوا بإخراج الوهابية إياه من <placeName change="#d2e120" xml:id="placeName_7.d2e2242">الحجاز</placeName> بعد
+سلطته في <placeName change="#d2e120 #d11e282" xml:id="placeName_6.d2e2237" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وظل يطالبهم بما وعدوه من تأسيس مملكة عربية واسعة تحت
+حمايتهم حتى ملوا وسئموا منه، ولم يبالوا بإخراج الوهابية إياه من <placeName change="#d2e120 #d11e282" xml:id="placeName_7.d2e2242" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بعد
 علمهم بكره العالم الإسلامي له، وعدم طمعهم بخدمة جديدة يسديها إليهم.
-ثم أرادوا أن يستفيدوا من التنازع على <placeName change="#d2e120" xml:id="placeName_8.d2e2250">الحجاز</placeName>، فساوموا سلطان نجد، فأبى
+ثم أرادوا أن يستفيدوا من التنازع على <placeName change="#d2e120 #d11e282" xml:id="placeName_8.d2e2250" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، فساوموا سلطان نجد، فأبى
 الدخول في المساومة معهم، ورد مندوبهم مستر (فلبي) بخفي حنين، وأعلن رأيه
-الرسمي في <placeName change="#d2e120" xml:id="placeName_9.d2e2257">الحجاز</placeName> وهو تفويض أمر شكل الحكم فيه وإصلاحه إلى رأي مؤتمر
+الرسمي في <placeName change="#d2e120 #d11e282" xml:id="placeName_9.d2e2257" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وهو تفويض أمر شكل الحكم فيه وإصلاحه إلى رأي مؤتمر
 إسلامي عام، مع عدم السماح لأدنى نفوذ أجنبي أن يصل إليه.
 وأما حسين وأولاده فتربصوا بهم الحاجة إلى المال والذخيرة، وساوموهم
-على منطقة العقبة ومعان من شمالي <placeName change="#d2e120" xml:id="placeName_10.d2e2267">الحجاز</placeName> فرضوا ببيعها لهم باسم الانتداب،
+على منطقة العقبة ومعان من شمالي <placeName change="#d2e120 #d11e282" xml:id="placeName_10.d2e2267" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> فرضوا ببيعها لهم باسم الانتداب،
 وجعلها من إمارة عبد الله، فطلبوا خروج (الملك) حسين منها؛ إذ بقاؤه فيها يسوغ
 للوهابيين مهاجمتها، فتمنع ظاهرًا أو باطنًا لعدم رضاه بمكان آخر يقيم فيه أو ظاهرًا
 فقط - الله أعلم - ثم رضي بالخروج منها بعد إنذار حقيقي أو صوري - الله أعلم -
@@ -992,20 +992,20 @@
 وأما أصحاب الأصوات العالية التي تتجاوب أصداؤها في الأقطار، وتطير
 بها البرقيات كل مطار، لما لها من الصفة الرسمية أو شبه الرسمية؛ كالملوك،
 والأمراء، ورؤساء الهيئات العلمية، والزعماء، فقد ظلوا صامتين - اللهم إلا
-جمعية العلماء وجمعية الخلافة في الهند - كأن أمر اعتداء الإنكليز على <placeName change="#d2e120" xml:id="placeName_11.d2e2326">الحجاز</placeName> أمر
+جمعية العلماء وجمعية الخلافة في الهند - كأن أمر اعتداء الإنكليز على <placeName change="#d2e120 #d11e282" xml:id="placeName_11.d2e2326" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> أمر
 عادي لا يؤبه له.
 ومن العجيب أن وجد في رجال الإنكليز المشهورين أنفسهم من أنكروا على
-حكومتهم حق ضم شيء من أرض <placeName change="#d2e120" xml:id="placeName_12.d2e2336">الحجاز</placeName> إلى منطقة الانتداب، ولم يوجد من
+حكومتهم حق ضم شيء من أرض <placeName change="#d2e120 #d11e282" xml:id="placeName_12.d2e2336" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إلى منطقة الانتداب، ولم يوجد من
 أمراء المسلمين وحكوماتهم ولا من جماعاتهم الرسمية من فعل ذلك.
 إن هؤلاء لا يجهلون أن وضع الإنكليز أقدامهم بقرب المدينة المنورة بحجة
 حماية شرق الأردن من الوهابيين أو غيرهم سيحملهم على الاستيلاء على المدينة
-المنورة نفسها لحماية العقبة ومعان، ثم الاستيلاء على <placeName change="#d2e120" xml:id="placeName_13.d2e2348">مكة</placeName>؛ لأجل حماية المدينة
+المنورة نفسها لحماية العقبة ومعان، ثم الاستيلاء على <placeName change="#d2e120 #d11e282" xml:id="placeName_13.d2e2348" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>؛ لأجل حماية المدينة
 المنورة، فأين أنتم أيها المسلمون وأين وصية رسولكم - صلى الله عليه وسلم -
 في مرض موته؟
 وأعجب من هذا السكوت والسكون أن الإنكليز مع هذا العدوان على الإسلام
 يهيجون الشعوب الإسلامية على السلطان ابن السعود الذي أعلن رسميًّا أنه يمنع أي
-نفوذ أجنبي أن ينفذ إلى <placeName change="#d2e120" xml:id="placeName_14.d2e2362">الحجاز</placeName>، ويحملونهم على الانتصار للشريف علي الذي
-وهب لهم منطقة من <placeName change="#d2e120" xml:id="placeName_15.d2e2367">الحجاز</placeName> حربية بحرية برية، فأذاعوا في العالم أن الوهابيين
+نفوذ أجنبي أن ينفذ إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_14.d2e2362" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، ويحملونهم على الانتصار للشريف علي الذي
+وهب لهم منطقة من <placeName change="#d2e120 #d11e282" xml:id="placeName_15.d2e2367" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> حربية بحرية برية، فأذاعوا في العالم أن الوهابيين
 أطلقوا رصاصهم أو نارهم على قبة الحرم النبوي الشريف، وأنهم هدموا قبر
 حمزة - رضي الله تعالى عنه -، وهي فرية افتراها سماسرة الشريف علي
 بمصر، ونشروها في المقطم؛ فطارت بها البرقيات البريطانية، ودبر وفد الشريف
@@ -1021,8 +1021,8 @@
 الأمور الإسلامية، وآخرها زعمها أن الرأي الإسلامي العام بمصر مؤيد للشيخ علي
 عبد الرازق في زعمه أن حكومة الإسلام لا دينية، وفي إهانته للإسلام والمسلمين المفيدة لسياستهم في الاستعمار، ودعوة مبشريهم إلى تنصير المسلمين.
 ولم ينس المسلمون الأكاذيب الحجازية البريطانية التي أذيعت قبل موسم الحج
-لصرف المسلمين عن أداء الفريضة، كقولهم: إن أساطيل <placeName change="#d2e120" xml:id="placeName_16.d2e2405">الحجاز</placeName> تمنع الحجاج من
-النزول في ثغري رابغ والقنفذة، وأن جنود <placeName change="#d2e120" xml:id="placeName_17.d2e2410">الحجاز</placeName> تقطع عليهم الطريق إذا أمكنهم
+لصرف المسلمين عن أداء الفريضة، كقولهم: إن أساطيل <placeName change="#d2e120 #d11e282" xml:id="placeName_16.d2e2405" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> تمنع الحجاج من
+النزول في ثغري رابغ والقنفذة، وأن جنود <placeName change="#d2e120 #d11e282" xml:id="placeName_17.d2e2410" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> تقطع عليهم الطريق إذا أمكنهم
 النزول، وإنهم مع ذلك لا يجدون ماءً ولا قوتًا، ثم ظهر أن ذلك كذب صادر عن
 سوء نية، فقد ذهب الألوف من أهل الهند الذين لم يصدقوا الإنكليز ولا دعاة
 الشريف علي، ونزلوا في تلك الثغور، وأدوا الفريضة بأمان واطمئنان وراحة لم
@@ -1033,7 +1033,7 @@
 وظهر الحق، وبطل ما كانوا يعملون اهـ.
 ***
 ما نشره الديوان الملكي في الجرائد
-بعنوان بين <placeName change="#d2e120" xml:id="placeName_18.d2e2437">الحجاز</placeName> ومصر
+بعنوان بين <placeName change="#d2e120 #d11e282" xml:id="placeName_18.d2e2437" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ومصر
 ديوان جلالة الملك:
 (1) صورة البرقية المرسلة من حضرة صاحب الجلالة الملك إلى عظمة
 السلطان عبد العزيز سلطان نجد في 11 صفر سنة 1344 -30 أغسطس سنة
@@ -1061,7 +1061,7 @@
 حضرة صاحب الجلالة الملك في 16 صفر سنة 1344 - 4 سبتمبر سنة 1925.
 حضرة صاحب الجلالة ملك مصر المعظم الملك فؤاد دامت معاليه:
 إني أشكركم من صميم فؤادي على غيرتكم الدينية، وإني أقدر ما شرحتموه
-حق قدره - إن حرم المدينة كحرم <placeName change="#d2e120" xml:id="placeName_19.d2e2501">مكة</placeName> نفديه بأرواحنا وكل ما نملك، وإن ديننا
+حق قدره - إن حرم المدينة كحرم <placeName change="#d2e120 #d11e282" xml:id="placeName_19.d2e2501" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> نفديه بأرواحنا وكل ما نملك، وإن ديننا
 يحمينا من الإتيان بأي حدث في المدينة المنورة، وسنحافظ على آثار السلف وكل
 ما هو في المدينة مما يهم كل مسلم المحافظة عليه - إن العدو يحاول أن يشوه
 وجهة جهادنا بما يفتريه من الكذب والبهتان، يحاول أن ينال بالبهتان ما عجز عنه
@@ -1071,7 +1071,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_57.d2e2517"/> عبد العزيز بن عبد الرحمن السعود
 
                
-(3) صورة البرقية الواردة من جلالة الملك علي ملك <placeName change="#d2e120" xml:id="placeName_20.d2e2524">الحجاز</placeName> إلى حضرة
+(3) صورة البرقية الواردة من جلالة الملك علي ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_20.d2e2524" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> إلى حضرة
 صاحب الجلالة الملك في 13 صفر سنة 1344 (أول سبتمبر سنة 1925) .
 صاحب الجلالة الملك فؤاد الأول ملك مصر المعظم:
 أهدي لجلالتكم الملوكية أعظم الشكر على غيرتكم الإسلامية الجديرة بذاتكم
@@ -1079,7 +1079,7 @@
 قتال، ولا يستكثر ذلك على سليل محمد علي الكبير الذي سبقت له خدمة هذه الديار
 المباركة من قبل، وفي مثل هذه الكارثة نفسها مادة ومعنى، ونبرأ إلى الله أن يكون
 أحد منا - نحن أبناء الحرمين الشريفين - أراد القتال أو أخذ على الاستمرار فيه،
-سواء ذلك في <placeName change="#d2e120" xml:id="placeName_21.d2e2544">مكة</placeName> المشرفة أو المدينة المنورة، ونسجل على المتسبب مسؤولية ما
+سواء ذلك في <placeName change="#d2e120 #d11e282" xml:id="placeName_21.d2e2544" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> المشرفة أو المدينة المنورة، ونسجل على المتسبب مسؤولية ما
 تهدم منها من آثار، وما لا يزال يصيبها من أذى كجعل القبة الخضراء النبوية هدفًا للرصاص، وسائر قبب وقبور أهل البيت في البقيع، وتخريب مسجد سيدنا
 حمزة، وهدم ضريحه الشريف طبقًا للأساس الذي قام عليه المذهب الوهابي
 المعلوم، وبهذه المناسبة نؤكد لجلالتكم أننا قائمون بالواجب الديني والوطني من بذل
@@ -1104,29 +1104,29 @@
 نشر الديوان الملكي هذه البرقيات الثلاث في الجرائد بهذا الترتيب، وقد راب
 المفكرين علم الشريف علي بالبرقية المرسلة إلى سلطان نجد قبل وصولها إليه
 وجوابه عنها، وجعلها وسيلة للدعاية الهاشمية التي كانت أساس ما يدعيه من
-امتلاك <placeName change="#d2e120" xml:id="placeName_22.d2e2605">الحجاز</placeName> الذي ترتب عليه بيعه منطقة من أعظم مناطقه البرية البحرية
+امتلاك <placeName change="#d2e120 #d11e282" xml:id="placeName_22.d2e2605" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> الذي ترتب عليه بيعه منطقة من أعظم مناطقه البرية البحرية
 للإنكليز؛ بجعلها تحت الانتداب البريطاني على فلسطين وشرق الأردن، كما كانت
 أساس ادعاء أبيه الملك على جميع البلاد العربية والخلافة على الأمة الإسلامية.
 ولا يزال الشريف علي هذا وأخوته متمسكين بخلافة أبيهم إذ نص في صك
 بيعه منطقة العقبة ومعان للإنكليز، أنه يشترط أن يكون التسليم بعد (خروج
 الخليفة الأعظم منها) ، وهو يحرض ملك مصر بهذه البرقية على مساعدته على
-إخراج سلطان نجد من <placeName change="#d2e120" xml:id="placeName_23.d2e2621">الحجاز</placeName>، كما فعل جده محمد علي بإخراج سلف سلطان نجد
-منه، ويدعي مع هذا أنه لا يريد الحرب في <placeName change="#d2e120" xml:id="placeName_24.d2e2626">الحجاز</placeName> (! !) ، وتحاول الدعاية
+إخراج سلطان نجد من <placeName change="#d2e120 #d11e282" xml:id="placeName_23.d2e2621" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، كما فعل جده محمد علي بإخراج سلف سلطان نجد
+منه، ويدعي مع هذا أنه لا يريد الحرب في <placeName change="#d2e120 #d11e282" xml:id="placeName_24.d2e2626" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> (! !) ، وتحاول الدعاية
 الهاشمية بث هذه الفتنة، وتخويف ابن سعود من مصر؛ ليقر الإنكليز على ما
-أخذوا من <placeName change="#d2e120" xml:id="placeName_25.d2e2634">الحجاز</placeName>، كما فعلت بتخويف المسلمين من خطر الحج فمنعته الحكومة
+أخذوا من <placeName change="#d2e120 #d11e282" xml:id="placeName_25.d2e2634" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، كما فعلت بتخويف المسلمين من خطر الحج فمنعته الحكومة
 المصرية.
-وفات الشريف علي أن محمد علي وشرفاء <placeName change="#d2e120" xml:id="placeName_26.d2e2641">مكة</placeName> كانوا خاضعين لخلافة
-السلطان العثماني الذي خلص له ملك <placeName change="#d2e120" xml:id="placeName_27.d2e2647">الحجاز</placeName> بإخراج الوهابية منه، والملك فؤاد
-غير خاضع لخلافة حسين بن علي؛ فينقذ له <placeName change="#d2e120" xml:id="placeName_28.d2e2652">الحجاز</placeName> ويكون تابعًا لخلافته، بل هو
+وفات الشريف علي أن محمد علي وشرفاء <placeName change="#d2e120 #d11e282" xml:id="placeName_26.d2e2641" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> كانوا خاضعين لخلافة
+السلطان العثماني الذي خلص له ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_27.d2e2647" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بإخراج الوهابية منه، والملك فؤاد
+غير خاضع لخلافة حسين بن علي؛ فينقذ له <placeName change="#d2e120 #d11e282" xml:id="placeName_28.d2e2652" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ويكون تابعًا لخلافته، بل هو
 ملك دستوري لا يمكنه الإقدام على عمل كبير كهذا إلا بإقرار برلمان دولته عليه،
 ولا يعقل ذلك إلا بمبايعة الملك والبرلمان وكبار العلماء والجند من المصريين
 لحسين بالخلافة.
 وأما إذا أراد الشريف علي بإنقاذ ملك مصر للحجاز، جعله تابعًا لمصر فما
 عليه إلا أن يعلن هو ورجال حكومته ذلك، ويبايعوا ملك مصر، ويخرجوا من هذه
-الورطة التي اضطرته إلى بيع جزء من <placeName change="#d2e120" xml:id="placeName_29.d2e2668">الحجاز</placeName> للأجانب، ولا يعلم إلى أي حد
+الورطة التي اضطرته إلى بيع جزء من <placeName change="#d2e120 #d11e282" xml:id="placeName_29.d2e2668" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> للأجانب، ولا يعلم إلى أي حد
 تنتهي به، وهو لا يملك مالاً ولا جندًا بل يتكل على الأجانب؛ ليبقى ممتعًا بلقب
-ملك <placeName change="#d2e120" xml:id="placeName_30.d2e2676">الحجاز</placeName>، وليعود والده خليفة في <placeName change="#d2e120" xml:id="placeName_31.d2e2679">الحجاز</placeName>، فما له ولملك مصر ولخداع المسلمين
-بالمحافظة على <placeName change="#d2e120" xml:id="placeName_32.d2e2684">الحجاز</placeName> والآثار فيه؟
+ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_30.d2e2676" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وليعود والده خليفة في <placeName change="#d2e120 #d11e282" xml:id="placeName_31.d2e2679" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، فما له ولملك مصر ولخداع المسلمين
+بالمحافظة على <placeName change="#d2e120 #d11e282" xml:id="placeName_32.d2e2684" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> والآثار فيه؟
 ومتى كان الشريف علي وأبوه وإخوته يعرفون الإسلام أو يعملون بما يعرفه
 كل أحد منه؟ في أي كتاب من كتبه تعلموا أن الإسلام مبني على تعظيم القبور،
 واستحلال بيع الأراضي المقدسة لغير المسلمين؟ هل أخذوه من وصية النبي صلى
@@ -1138,14 +1138,14 @@
 حديث علي - كرم الله وجهه - في صحيح مسلم، وهو قوله لأبي هياج الأسدي:
 ألا أبعثك على ما بعثني عليه رسول الله صلى الله عليه وسلم أن لا تدع تمثالاً إلا
 طمسته، ولا قبرًا مشرفًا (أي: مرتفعًا) إلا سويته: (أي هدمته وسويته
-بالتراب) ، وقال الشافعي في الأم: ورأيت الأئمة ب<placeName change="#d2e120" xml:id="placeName_33.d2e2713">مكة</placeName> يأمرون بهدم ما يبنى:
+بالتراب) ، وقال الشافعي في الأم: ورأيت الأئمة ب<placeName change="#d2e120 #d11e282" xml:id="placeName_33.d2e2713" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> يأمرون بهدم ما يبنى:
 (أي: من القبور) قال النووي: ويؤيد الهدم قوله: (ولا قبرًا مشرفًا إلا
 سويته) اهـ.
 نعم إن الألوف من عوام المسلمين في بلاد كثيرة غير نجد يجهلون هذه
 الأحاديث الصحيحة ويخالفون هديها، وفيهم تنفع دعاية علي بن حسين وتضليلهم،
 ولكن لا تروج هذه الدعاية لدى ملك مصر الذي يحف بعرشه كبار علماء الأزهر،
 ويعلم فوق ما يعلمون من سوء عاقبة جعل منطقة العقبة ومعان تحت الانتداب
-البريطاني، ومن الخطر على سائر <placeName change="#d2e120" xml:id="placeName_34.d2e2732">الحجاز</placeName> وعلى شعائر الإسلام، ويعلم أن الأمير
+البريطاني، ومن الخطر على سائر <placeName change="#d2e120 #d11e282" xml:id="placeName_34.d2e2732" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وعلى شعائر الإسلام، ويعلم أن الأمير
 عبد الله بن حسين ليس له من الحق في إمارة شرق الأردن الحقيرة عشر معشار ما
 لدولة مصر من الحق في القطر السوداني العظيم، وقد طرد الإنكليز منه الجيش
 المصري الذي فتحه بعد إكراه الإنكليز للحكومة المصرية على التخلي عنه، وهو
@@ -1157,7 +1157,7 @@
 الإسلامي إعادة بنائها، فلا يسع ابن السعود مخالفته، وأما استرجاع ما باعه
 الشريف علي للإنكليز فليس رده بالسهل على المؤتمر الإسلامي ولا على غيره
 {فَاعْتَبِرُوا يَا أُوْلِي الأَبْصَارِ} (الحشر: 2) .
-((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_2.d2e2761">(1) علمنا بعد نشرنا لهذه المقالة في الأهرام أن مجلس إدارة الأمور الشرعية في <placeName change="#d2e120" xml:id="placeName_35.d2e2763">القدس</placeName> المسمى بالمجلس الإسلامي الأعلى أرسل إلى الهند برقية يؤكد بها الدعاية الهاشمية البريطانية في هذه المسألة جناياته الإسلامية، فأسفنا لغرور هذا المجلس بلقبه، وتدخله في مضايق هذه الفتن، وكانت أولى مبايعته لحسين بالخلافة، وهو مجلس إداري محلي ليس له من الصفات العلمية الدينية ولا غيرها من يوهمه اسمه، ولا ما يعطيه هذه الحقوق، وسنعود إلى بيان ذلك في الجزء التالي.
+((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_2.d2e2761">(1) علمنا بعد نشرنا لهذه المقالة في الأهرام أن مجلس إدارة الأمور الشرعية في <placeName change="#d2e120 #d11e282" xml:id="placeName_35.d2e2763" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> المسمى بالمجلس الإسلامي الأعلى أرسل إلى الهند برقية يؤكد بها الدعاية الهاشمية البريطانية في هذه المسألة جناياته الإسلامية، فأسفنا لغرور هذا المجلس بلقبه، وتدخله في مضايق هذه الفتن، وكانت أولى مبايعته لحسين بالخلافة، وهو مجلس إداري محلي ليس له من الصفات العلمية الدينية ولا غيرها من يوهمه اسمه، ولا ما يعطيه هذه الحقوق، وسنعود إلى بيان ذلك في الجزء التالي.
 (2) وقد أرسل السلطان برقية أخرى لنقابة الصحابة كذب بها دعوى إطلاق الرصاص على قبة الحرم الشريف تكذيبًا صريحًا.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_2.d2e2769">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_4.d2e2771" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>

@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_22-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_22-i_6.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e282">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_22-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_22-i_6.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e276" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e282" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1339">1339</date><date calendar="#cal_gregorian" when="1921" xml:lang="ar">يونيه - 1921م</date></imprint>
                   <biblScope unit="volume" from="22" to="22" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">22</biblScope>
                   <biblScope unit="issue" from="6" to="6" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">6</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" who="#pers_TG" xml:id="d11e276" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e282" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e276" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -192,7 +192,7 @@
 وإذا ثبت كونها كذلك بالفعل فذلك لا يدل على الشرطية لا عند أهل الاتباع المحض
 ولا عند أهل الرأي في التعبد، مثال ذلك المطابق له المسح على العمامة، قد ثبت في
 السنة، فهل يشترط في مسحنا العمامة أن تكون كعمامة الرسول صلى الله عليه
-وسلم في صفات نسيجها ككونها من القطن أو الصوف؟ وكونه من نسيج <placeName change="#d2e120" xml:id="placeName_4.d2e514">اليمن</placeName> أو
+وسلم في صفات نسيجها ككونها من القطن أو الصوف؟ وكونه من نسيج <placeName change="#d2e120 #d11e282" xml:id="placeName_4.d2e514" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> أو
 غيرها وكون طولها كذا ذراعًا؟
 إن من الأصول التي لا يتمارى فيها عاقلان أن أمثال هذه الصفات والأحوال
 التي كان عليها النبي صلى الله عليه وسلم وأصحابه في لباسهم وأكلهم وشربهم
@@ -443,7 +443,7 @@
 البلاد أمران (أحدهما) ترك العلماء فريضة الدعوة إلى الخير والأمر بالمعروف
 والنهي عن المنكر و (ثانيهما) عدم وجود حكومة إسلامية تحافظ على الشعائر
 الدينية، ومقومات الأمة ومشخصاتها الملية، ولذلك لا ترى مثل هذا التهاون في
-بلاد نجد وبلاد الأفغان وكذا بلاد <placeName change="#d2e120" xml:id="placeName_5.d2e1058">اليمن</placeName> التي لم يتول الترك الحكم فيها، كجبال
+بلاد نجد وبلاد الأفغان وكذا بلاد <placeName change="#d2e120 #d11e282" xml:id="placeName_5.d2e1058" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName> التي لم يتول الترك الحكم فيها، كجبال
 الزيدية، ولكن بعض هؤلاء المتدينين قد غلوا في دينهم حتى وقعوا في مثل ما
 أنكروا، وفيما هو شر منه كتحريم ما لم يحرم الله ورسوله، افتراء على الله،
 وقولاً عليه بغير علم، وتكفير المسلمين بما ليس كفرًا ولا محرمًا.
@@ -485,7 +485,7 @@
 التي كان يرأسها إنكليزي أمر بالتشديد في مراقبة المنار بما لا يشدد في مراقبة سائر
 الصحف؛ لأنه في اعتقادهم أشد تأثيرًا في أنفس المسلمين بما له من النفوذ
 الديني [1] وإنما أعني مراقبة السلطة الإنكليزية التي تحول إليها مراقبة المطبوعات
-في الداخلية ما يكتب في مسائل معينة من أهمها المسألة العربية و<placeName change="#d2e120" xml:id="placeName_6.d2e1142">الحجاز</placeName>. على
+في الداخلية ما يكتب في مسائل معينة من أهمها المسألة العربية و<placeName change="#d2e120 #d11e282" xml:id="placeName_6.d2e1142" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>. على
 أننا راعينا في تلك المقالة مقتضى الحال وأحكام الزمان، فسكتنا عن بعض الحقائق
 وبيَّنا بعضها بالتصريح، واضطررنا في البعض الآخر إلى الإيماء والتلويح، وأننا
 نذكر في هذا المقال الذي نكتبه بعد إلغاء المراقبة على الصحف في مصر بعض
@@ -500,13 +500,13 @@
 وكنا نعتقد أن الدول الأوربية الاستعمارية تريد الاستعجال بحل المسألة
 الشرقية اغتنامًا لفرصة تهور الاتحاديين وتنفيرهم للعناصر العثمانية بغلوهم في
 العصبية التركية، وقد شرحنا هذا الاعتقاد في المقالات العشر التي كتبناها بعنوان
-(المسألة الشرقية) بمناسبة استيلاء إيطالية على سواحل برقة و<placeName change="#d2e120" xml:id="placeName_7.d2e1178">طرابلس</placeName> الغرب
+(المسألة الشرقية) بمناسبة استيلاء إيطالية على سواحل برقة و<placeName change="#d2e120 #d11e282" xml:id="placeName_7.d2e1178" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> الغرب
 ونشرناها في المؤيد ثم في المنار، وكان نشرها في المؤيد مثيرًا لبعض وكلاء
 الدول الأوربية وحاملاً لهم على مراجعة العميد البريطاني بمصر، وإيعاز العميد
 إلى رئيس الوزارة المصرية بإيذان صاحب المؤيد بالأمر، ووجوب مطالبته إياي
-بتخفيف الحملة عن الدول بجملتها، وحصر الكلام في إيطالية ومسألة <placeName change="#d2e120" xml:id="placeName_8.d2e1190">طرابلس</placeName>.
+بتخفيف الحملة عن الدول بجملتها، وحصر الكلام في إيطالية ومسألة <placeName change="#d2e120 #d11e282" xml:id="placeName_8.d2e1190" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>.
 وقد حملنا في المنار على الحكومة الاتحادية بما كانت وضعته من أساس
-الاتفاق مع الدولة البريطانية على جعل <placeName change="#d2e120" xml:id="placeName_9.d2e1197">العراق</placeName> منطقة نفوذ اقتصادي لها، ومشروع
+الاتفاق مع الدولة البريطانية على جعل <placeName change="#d2e120 #d11e282" xml:id="placeName_9.d2e1197" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> منطقة نفوذ اقتصادي لها، ومشروع
 الاتفاق مع فرنسة على مثل ذلك في سورية، كما حملنا عليها في اتفاقها السري مع
 إيطالية واعتقدنا أن الاتحاديين يريدون تنفيذ وعيدهم في العرب بعد أن أنذرنا غير
 واحد من زعمائهم بأنهم يبيعوننا ويُرَقُّون شعبهم بثمننا، ولأجل هذا اندفع العرب
@@ -525,7 +525,7 @@
 وعد الإنكليز باستقلال
 العرب ومساعيهم معنا
 في هذه الأثناء بلغنا بعض رجال الدولة البريطانية هنا بأن حكومتهم عزمت
-على العطف على العرب ومساعدتهم بنفوذها الأدبي عند <placeName change="#d2e120" xml:id="placeName_10.d2e1241">الدولة العثمانية</placeName> على ما
+على العطف على العرب ومساعدتهم بنفوذها الأدبي عند <placeName change="#d2e120 #d11e282" xml:id="placeName_10.d2e1241" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> على ما
 يطلبون من الإصلاح إذا بقيت الدولة على الحياد الذي تتظاهر به، وأما إذا
 انضمت إلى ألمانية في الحرب فإنها تساعدهم على الاستقلال وتكوين دولة عربية.
 ولما اصطلت الدولة بنار الحرب وقع الرعب في قلوبنا، وكان أخوف ما نخاف
@@ -541,21 +541,21 @@
 أن يصرحوا فيه بالمراد تصريحًا لا يحتمل التأويل، ككونهم يتعهدون باستقلال
 هذه البلاد إذا ظفروا في الحرب، وبحمل حلفائهم على ذلك، وبعدم أخذ شيء من
 البلاد العربية، لا باسم الفتح والامتلاك، ولا الحماية ولا الاحتلال، ولا بأي اسم
-من أمثال هذه الأسماء، وبأنهم يخرجون من البلاد التي دخلوها كالفاو و<placeName change="#d2e120" xml:id="placeName_11.d2e1279">البصرة</placeName>،
+من أمثال هذه الأسماء، وبأنهم يخرجون من البلاد التي دخلوها كالفاو و<placeName change="#d2e120 #d11e282" xml:id="placeName_11.d2e1279" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName>،
 والتي سيدخلونها من بعد بلا شرط ولا قيد. وبعد التشاور بينهم ومراجعة حكومتهم
 العليا بلندن في ذلك حذفوا هذه القيود، وكانوا يرجون منا مساعدةً بناء على تلك
 الوعود، فكتبنا لهم مذكرة بعد مذكرة في الاحتجاج على ما ظهر لنا منهم، وبيان
 خوف العرب على بلادهم من إنكلترة دون سواها واعتقادهم أنها هي الخصم لهم،
 وتحذيرهم من الغرور بما تكتب جرائدهم وبعض الجرائد المداهنة لهم من وصفهم
-بأنهم أصدقاء العرب، وأن العرب أصدقاؤهم، وبيان مكان <placeName change="#d2e120" xml:id="placeName_12.d2e1295">الدولة العثمانية</placeName> من
+بأنهم أصدقاء العرب، وأن العرب أصدقاؤهم، وبيان مكان <placeName change="#d2e120 #d11e282" xml:id="placeName_12.d2e1295" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> من
 الإسلام والمسلمين، وما هم مستهدفون له من عداوة العالم الإسلامي لهم، وفي
 مقدمته مسلمو الهند وجعلهم إلبًا واحدًا عليهم إذا هم استولوا على بلاد العراق
-وسورية، ومنها البلاد المقدسة وما يترتب على ذلك من صيرورة <placeName change="#d2e120" xml:id="placeName_13.d2e1305">الحجاز</placeName> تحت
+وسورية، ومنها البلاد المقدسة وما يترتب على ذلك من صيرورة <placeName change="#d2e120 #d11e282" xml:id="placeName_13.d2e1305" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> تحت
 رحمة تصرفهم مع محاربتهم للدولة التي يعترف لها السواد الأعظم من المسلمين
 بأنها دولة الخلافة، إذ يعتقدون حينئذ حقية ما تتهم به دولتهم من عزمها على إزالة
 الحكم الإسلامي من الأرض، وأن السلطة الإسلامية في نظر المسلمين أهم المهمات،
 وثانية عقيدة التوحيد؛ لأنها سياجها وحفاظها، وأن هذا هو السبب في تعلق
-مسلمي الأرض ب<placeName change="#d2e120" xml:id="placeName_14.d2e1319">الدولة العثمانية</placeName> وحبها. وبَيَّنَّا لهم في أول تلك المذكرات أن
+مسلمي الأرض ب<placeName change="#d2e120 #d11e282" xml:id="placeName_14.d2e1319" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> وحبها. وبَيَّنَّا لهم في أول تلك المذكرات أن
 الاستيلاء على البلاد العربية وحفظ السلطة الأجنبية فيها ليس بالأمر السهل، ولا
 بالمركب المذلل، بل يحتاج إلى قوة برية كبيرة جدًّا لمنع الثورات إلخ.
 كان غرضنا من هذه المذكرات إقناع الدولة البريطانية بأنه لا يمكن لها أن
@@ -573,7 +573,7 @@
 الإنكليزية بوعد بريطانية العظمى بالعطف على العرب، وما ينتظر من سعادة
 البلاد العربية إذا تحررت من سلطة الترك، وإعادتها مجد هارون الرشيد والمأمون،
 وعلمنا مما دار بيننا وبين رجالهم الذين بمصر، ومن مذاكراتنا مع السر مارك
-سايكس الذي أرسلته السلطة العليا من لندن إلى مصر و<placeName change="#d2e120" xml:id="placeName_15.d2e1361">العراق</placeName> لدرس المسألة
+سايكس الذي أرسلته السلطة العليا من لندن إلى مصر و<placeName change="#d2e120 #d11e282" xml:id="placeName_15.d2e1361" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> لدرس المسألة
 العربية سنة 1915 - أن القوم ثابتون على طمعهم في بلادنا، وهو ما كنا نعلمه قبل
 الحرب بسنين كثيرة، ونوهنا به في المنار مرارًا، وكان لهم طمع في مساعدتنا
 إياهم على إقناع العرب بما أشرنا إليه آنفًا، ولو بكتابة شيء ما في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e1371">الكوكب</title></bibl>
@@ -582,14 +582,14 @@
 ما كان بين الإنكليز
 وأمراء العرب
 ولى الإنكليز وجوههم شطر أمراء العرب وزعمائهم في الجزيرة والعراق
-وسورية للاستعانة بهم على مناوأة <placeName change="#d2e120" xml:id="placeName_16.d2e1386">الدولة العثمانية</placeName> بالخروج عليها أو خذلانها،
-فأعرض عنهم إمام <placeName change="#d2e120" xml:id="placeName_17.d2e1391">اليمن</placeName>، ووالى الدولة في الحرب كما عاهدها في السلم، وواتاهم
-أمير نجد وسيد عسير على الوقوف على الحياد، ووالاهم شريف <placeName change="#d2e120" xml:id="placeName_18.d2e1397">مكة</placeName> بإعلان
-استقلال <placeName change="#d2e120" xml:id="placeName_19.d2e1402">الحجاز</placeName> ومقاومة طغمة الاتحاد والترقي الطاغية الباغية أولاً، ثم بمناوأة
-الدولة ومحاربتها ومساعدة الجيش الإنكليزي على فتح بيت المقدس و<placeName change="#d2e120" xml:id="placeName_20.d2e1407">الشام</placeName>، وقد
-انخدع أهل سورية و<placeName change="#d2e120" xml:id="placeName_21.d2e1413">العراق</placeName> بهذه الموالاة والمحالفة، وصدقوا التغرير الذي كان
+وسورية للاستعانة بهم على مناوأة <placeName change="#d2e120 #d11e282" xml:id="placeName_16.d2e1386" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> بالخروج عليها أو خذلانها،
+فأعرض عنهم إمام <placeName change="#d2e120 #d11e282" xml:id="placeName_17.d2e1391" ref="geon:69543 oape:place:233" resp="#xslt">اليمن</placeName>، ووالى الدولة في الحرب كما عاهدها في السلم، وواتاهم
+أمير نجد وسيد عسير على الوقوف على الحياد، ووالاهم شريف <placeName change="#d2e120 #d11e282" xml:id="placeName_18.d2e1397" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> بإعلان
+استقلال <placeName change="#d2e120 #d11e282" xml:id="placeName_19.d2e1402" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> ومقاومة طغمة الاتحاد والترقي الطاغية الباغية أولاً، ثم بمناوأة
+الدولة ومحاربتها ومساعدة الجيش الإنكليزي على فتح بيت المقدس و<placeName change="#d2e120 #d11e282" xml:id="placeName_20.d2e1407" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، وقد
+انخدع أهل سورية و<placeName change="#d2e120 #d11e282" xml:id="placeName_21.d2e1413" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بهذه الموالاة والمحالفة، وصدقوا التغرير الذي كان
 يوجه إليهم في المنشورات والجرائد، ولا سيما <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e1418">الكوكب</title></bibl>، ووافق ذلك شدة
-طغيان الاتحاديين وتنكيلهم بعرب سورية و<placeName change="#d2e120" xml:id="placeName_22.d2e1423">العراق</placeName> تقتيلاً وتصليبًا وتغريبًا وتعذيبًا،
+طغيان الاتحاديين وتنكيلهم بعرب سورية و<placeName change="#d2e120 #d11e282" xml:id="placeName_22.d2e1423" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> تقتيلاً وتصليبًا وتغريبًا وتعذيبًا،
 فوجد المضطهدون منهم مهربًا وملجأ من العذاب، ففروا إليه بآمال كبيرة إذ ظنوا
 أن حوادث الزمان قد مهدت السبيل بهذه الحرب واشتغال الدول الأوربية الطامعة
 بعضها ببعض لاستقلال البلاد العربية وإعادة حضارة العرب الزاهية العالية التي
@@ -597,14 +597,14 @@
 زعماء أكفاء يغتنمونها من غير أن يجنوا على الجامعة الإسلامية بإسقاط الدولة
 العثمانية.
 ***
-ثورة <placeName change="#d2e120" xml:id="placeName_23.d2e1444">الحجاز</placeName> والاتفاق مع بريطانية
-كانت حركة الشريف الأولى في <placeName change="#d2e120" xml:id="placeName_24.d2e1449">الحجاز</placeName> من النتائج التي تقتضيها المقدمات
+ثورة <placeName change="#d2e120 #d11e282" xml:id="placeName_23.d2e1444" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> والاتفاق مع بريطانية
+كانت حركة الشريف الأولى في <placeName change="#d2e120 #d11e282" xml:id="placeName_24.d2e1449" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من النتائج التي تقتضيها المقدمات
 التي سبقتها بحسب سنة الاجتماع، وكان يمكن أن يكون أقل ما يقال فيها ما قلناه
 عقب حدوثها، إما أن تنفع وإما ألا تضر، وأكبر ما يرجى منها أن تتخذ وسيلة
 لجمع كلمة العرب في الجزيرة وتنظيم القوة لحفظ البلاد العربية من السقوط تحت
 سلطة دولة أجنبية إذا غُلبت الدولة بالتبع لانكسار حليفتيها الكبريين ألمانية والنمسة،
 وكان هذا ما يجب القيام به على من استطاع إليه سبيلاً من كل عربي وكل مسلم
-أيضًا، ولو كان من الترك الذين يهمهم شأن الإسلام. ولما ذهبت إلى <placeName change="#d2e120" xml:id="placeName_25.d2e1465">الحجاز</placeName> عقب
+أيضًا، ولو كان من الترك الذين يهمهم شأن الإسلام. ولما ذهبت إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_25.d2e1465" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> عقب
 ثورته لأداء فريضة الحج صرحت لأميره (وملكه اليوم) برأيي وما أعجبني من
 جعل خروجه وعدائه خاصًّا بالاتحاديين الذي فرقوا الكلمة ونكلوا بالعرب السوريين
 وغيرهم في الوقت الذي هم أحوج فيه إلى التأليف والاتحاد، وما يجب من اتقاء
@@ -624,11 +624,11 @@
 يوجد لا هذا ولا ذاك - وذكر أسماءهم - ولكن هذا الناقل ممن بلونا عليهم الكذب،
 وقد كذب لنا وعلينا وله وعليه. وقد يصدق الكذوب، وكان ما قاله هو الواقع، بل
 كان من الواقع أن تقاتل مع ابن سعود بدلاً من أن يتحدا.
-ثم إن الشريف بعد أن بايعه أهل <placeName change="#d2e120" xml:id="placeName_26.d2e1515">الحجاز</placeName> باسم ملك العرب واعترف له حلفاؤه
-من الإنكليز والفرنسيس بملك <placeName change="#d2e120" xml:id="placeName_27.d2e1520">الحجاز</placeName> فقط، جاهر بعداوة <placeName change="#d2e120" xml:id="placeName_28.d2e1524">الدولة العثمانية</placeName> والترك،
+ثم إن الشريف بعد أن بايعه أهل <placeName change="#d2e120 #d11e282" xml:id="placeName_26.d2e1515" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> باسم ملك العرب واعترف له حلفاؤه
+من الإنكليز والفرنسيس بملك <placeName change="#d2e120 #d11e282" xml:id="placeName_27.d2e1520" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> فقط، جاهر بعداوة <placeName change="#d2e120 #d11e282" xml:id="placeName_28.d2e1524" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> والترك،
 وبذل الجهد في قتالهم، فخاب أملنا في وقوف ثورته عند الحد الأدنى مما رجوناه
 منها بعد أن رفض السعي إلى الحد الأعلى أو السماح به، وقد أشرنا إلى ذلك بقولنا
-في بيان الحالة السياسية في <placeName change="#d2e120" xml:id="placeName_29.d2e1533">الحجاز</placeName> من الرحلة الحجازية (ص <date calendar="#cal_gregorian" when="0281" change="#d3e146 #d2e120" xml:id="date_4.d2e1536">281</date> من المجلد
+في بيان الحالة السياسية في <placeName change="#d2e120 #d11e282" xml:id="placeName_29.d2e1533" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> من الرحلة الحجازية (ص <date calendar="#cal_gregorian" when="0281" change="#d3e146 #d2e120" xml:id="date_4.d2e1536">281</date> من المجلد
 العشرين) عند الكلام على ما كان يراد من مبايعة الشريف بالخلافة وسعينا إلى
 مقاومة ذلك:
 (بِتُّ ليلتي أفكر في هذه المسألة.. . وكان رأيي في مسألة الخلافة هو ما
@@ -637,19 +637,19 @@
 كله، ولا للدولة العثمانية أيضًا، وكذلك كانت الثورة في أول عهدها) .
 فمفهوم هذه الجملة الأخيرة أن الثورة الحجازية تحولت عند كتابة هذه النبذة
 من الرحلة عما كانت عليه من ذلك في أول عهدها، ومنه الوقت الذي كنت فيه
-ب<placeName change="#d2e120" xml:id="placeName_30.d2e1559">مكة</placeName>، وهذا كل ما كان يمكن التلميح إليه تحت عين المراقبة (وذلك في ربيع
+ب<placeName change="#d2e120 #d11e282" xml:id="placeName_30.d2e1559" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، وهذا كل ما كان يمكن التلميح إليه تحت عين المراقبة (وذلك في ربيع
 الآخر سنة 1336 فبراير سنة 1918) ولمحت قبله في (ص 280) إلى الحديث
-الذي دار بيني وبين الشريف الأمير في شكل حكومة <placeName change="#d2e120" xml:id="placeName_31.d2e1567">الحجاز</placeName> الجديدة بقولي: إنني
+الذي دار بيني وبين الشريف الأمير في شكل حكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_31.d2e1567" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> الجديدة بقولي: إنني
 ذكرت له رأيي مفصلاً تفصيلاً، وأقول الآن: إن ذلك تفصيل كان في بيان
 محظورات انتحاله لمنصب الخلافة، وما يترتب عليه من المفاسد مع كونه هو
 مبايعًا للسلطان محمد رشاد، وحديث: (إذا بويع لخليفتين فاقتلوا الآخر منهما)
-(رواه مسلم في صحيحه) وكون بيعة أهل <placeName change="#d2e120" xml:id="placeName_32.d2e1578">الحجاز</placeName> له لا تصح؛ لأنهم ليسوا أهل
+(رواه مسلم في صحيحه) وكون بيعة أهل <placeName change="#d2e120 #d11e282" xml:id="placeName_32.d2e1578" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> له لا تصح؛ لأنهم ليسوا أهل
 الحل والعقد في الأمة الإسلامية، وهم خاضعون لسلطته وحكمه غير أحرار في
-اختيارهم، وكراهة العالم الإسلامي كله لثورة <placeName change="#d2e120" xml:id="placeName_33.d2e1586">الحجاز</placeName> وغير هذا مما لم يكن
+اختيارهم، وكراهة العالم الإسلامي كله لثورة <placeName change="#d2e120 #d11e282" xml:id="placeName_33.d2e1586" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وغير هذا مما لم يكن
 التصريح به ممكنًا في عهد المراقبة، وقد كان الشريف يؤمل أن أكون من أنصار
-الثورة وأعمال <placeName change="#d2e120" xml:id="placeName_34.d2e1593">الحجاز</placeName>، وكان هذا ما يجب عليَّ لو جرت الأعمال على ما أعتقد
+الثورة وأعمال <placeName change="#d2e120 #d11e282" xml:id="placeName_34.d2e1593" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، وكان هذا ما يجب عليَّ لو جرت الأعمال على ما أعتقد
 صلاحه كما صرَّحت له عند وداعه، ولما لم أفعل أظهرت حكومته لي العداء،
-وأمرت بمنع المنار من دخول <placeName change="#d2e120" xml:id="placeName_35.d2e1601">الحجاز</placeName> بحجة أنني طعنت في رجالها بما يرفع الثقة
+وأمرت بمنع المنار من دخول <placeName change="#d2e120 #d11e282" xml:id="placeName_35.d2e1601" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بحجة أنني طعنت في رجالها بما يرفع الثقة
 منها، ونشر ذلك في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_10.d2e1606">القبلة</title></bibl> ولله الحمد، فلما علمت به كان أول ما خطر على
 قلبي قوله تعالى: {إِنَّ اللَّهَ يُدَافِعُ عَنِ الَّذِينَ آمَنُوا} (الحج: 38) فإنه يدفع
 عني اتهام كثير من الناس إياي بمشايعة هذه الثورة مطلقًا، وأردت نشر بلاغ
@@ -657,9 +657,9 @@
 النيل) في الإسكندرية وسعى بعض رجال المكتب العربي في الصلح بحملي على
 تأويل لما كتبت اقترحوه، فلم أقبل، ولكنني أشرت إلى سبب ما كتبته وغرضي
 الصحيح منه بما لا يرضي الشريف، على أن غضبه كان لسبب آخر.
-والسبب الذي جرَّأ أمير <placeName change="#d2e120" xml:id="placeName_36.d2e1625">مكة</placeName> بالأمس وملك <placeName change="#d2e120" xml:id="placeName_37.d2e1628">الحجاز</placeName> اليوم على ما فعل وجعله لا
+والسبب الذي جرَّأ أمير <placeName change="#d2e120 #d11e282" xml:id="placeName_36.d2e1625" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> بالأمس وملك <placeName change="#d2e120 #d11e282" xml:id="placeName_37.d2e1628" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> اليوم على ما فعل وجعله لا
 يبالي بالترك ولا بأمراء جزيرة العرب - هو الاتفاق الذي عقده مع بريطانية العظمى
-قبل الثورة، فإنه كان يظن أن سيحكم به جزيرة العرب وسورية و<placeName change="#d2e120" xml:id="placeName_38.d2e1635">العراق</placeName> بقوة
+قبل الثورة، فإنه كان يظن أن سيحكم به جزيرة العرب وسورية و<placeName change="#d2e120 #d11e282" xml:id="placeName_38.d2e1635" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بقوة
 بريطانية العظمى التي لا تعلوها قوة في العالم، وقد أشرنا إلى ذلك في بيان صفاته
 من الرحلة الحجازية بقولنا (ص<date calendar="#cal_gregorian" when="0357" change="#d3e146 #d2e120" xml:id="date_5.d2e1643">357</date> م 30) (ومنها أن ثقته بالدولة البريطانية
 وتقديره لقوتها وعظمتها لا حد لهما ولا سلطان لشيء عليهما) فلهذا لم يكن لأحد
@@ -735,9 +735,9 @@
 اتفاق سنة 1916 على قسمة البلاد العربية
 وضع هذا الاتفاق كل من السير مارك سايكس المستشرق أحد أعضاء مجلس
 النواب البريطاني وموسيو جورج بيكو الذي كان قنصل فرنسة، الجنرال في
-بيروت إلى عهد إعلان الحلفاء الحرب على <placeName change="#d2e120" xml:id="placeName_39.d2e1806">الدولة العثمانية</placeName>، وبعد أن أقنعا دولتيهما
+بيروت إلى عهد إعلان الحلفاء الحرب على <placeName change="#d2e120 #d11e282" xml:id="placeName_39.d2e1806" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName>، وبعد أن أقنعا دولتيهما
 به ألَّفا وفدًا وحضرا إلى مصر، ثم سافرا إلى جدة لأجل التمهيد لقبوله عند
-السوريين وملك <placeName change="#d2e120" xml:id="placeName_40.d2e1814">الحجاز</placeName>. وقد ألفا في أوائل رجب سنة 1335 وأواخر إبريل سنة
+السوريين وملك <placeName change="#d2e120 #d11e282" xml:id="placeName_40.d2e1814" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>. وقد ألفا في أوائل رجب سنة 1335 وأواخر إبريل سنة
 1917 جمعية من السوريين فيها ثلاثة أو أربعة من المسلمين وواحد من وجهاء
 الدروز، وباقي أعضائها من المسيحيين لأجل الاتفاق بين أبناء ملل البلاد على ما
 سيكون عليه في ظل هذا الاتفاق قبل إعلانه. (وفي هذه المرة لم يطلب السر
@@ -750,14 +750,14 @@
 (28 يونيو) أنه فهم السير مارك سايكس نفسه أنهم يريدون إعطاء سواحل سورية
 كلها لفرنسة؛ لأنها البلاد التي كان الصليبيون قد احتلوها في أثناء الحروب
 الصليبية المشهورة. وقوله (في 10 أغسطس) بعد أن عاد السير مارك سايكس
-وموسيو جورج بيكو من زيارة ملك <placeName change="#d2e120" xml:id="placeName_41.d2e1845">الحجاز</placeName> بجدة: إن الشريف وافقهم على أن تكون
+وموسيو جورج بيكو من زيارة ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_41.d2e1845" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بجدة: إن الشريف وافقهم على أن تكون
 سواحل سورية لفرنسة. وقد ذكر سايكس لمحدثي من أقنع الشريف من المستخدمين
 عنده بذلك، ولقنه ما اقترح هو عليه أن يقوله لموسيو جورج بيكو فأقنعه به، فلم
 يخالف بحرف منه (ولكن هذا الرجل قال بعد: إنه أوهمهم أنه هو الذي أقنعه،
 والحق أن الملك لم يعارض فيحتاج إلى إقناع. ثم بعد بضعة أيام أخبرني بذلك رجلان
 آخران ممن كانوا يلقون سايكس أو من أعضاء اللجنة التي ألفها، ثم بعد سماعنا هذا
-بأسبوع أو أسبوعين جاء <placeName change="#d2e120" xml:id="placeName_42.d2e1861">القاهرة</placeName> أحد القواد الذين كانوا مع الأمير فيصل فألفيناه معتقدًا
-أن الملك وافق الإنكليز والفرنسيس على ما قررا في شأن سورية و<placeName change="#d2e120" xml:id="placeName_43.d2e1867">العراق</placeName>، ثم سمعت
+بأسبوع أو أسبوعين جاء <placeName change="#d2e120 #d11e282" xml:id="placeName_42.d2e1861" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> أحد القواد الذين كانوا مع الأمير فيصل فألفيناه معتقدًا
+أن الملك وافق الإنكليز والفرنسيس على ما قررا في شأن سورية و<placeName change="#d2e120 #d11e282" xml:id="placeName_43.d2e1867" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، ثم سمعت
 هذا الخبر بعينه بعد شهر من مسلم آخر كان مشتغلاً بهذا العمل مع اللجان. ثم أخبرنا
 بعض من كانوا مع الأمير فيصل أنهم رأوا كتابًا من والده له يذكر فيه ذلك، ويعلله
 بأن فرنسة تحفظ له سواحل سورية من التعدي عليها إلى أن يصير للدولة العربية
@@ -775,7 +775,7 @@
 إلى مصر في منتصف شهر فبراير منها بريد أوربة شارحًا ذلك، فأمرت المراقبة
 بمنع الخوض فيه في الجرائد إلى أن تمهد له السياسة ما ترجو أن يكون مقبولاً عند
 جماهير السوريين المختلفي الأحزاب والآراء. وكانت وصلت إليّ في هذا البريد
-<bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e276">جريدة <title level="j" change="#d11e276">المستقبل</title> <textLang mainLang="ar">العربية</textLang> التي تصدرها في <pubPlace><placeName>باريس</placeName></pubPlace> جمعية موسيو شكري غانم
+<bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e276">جريدة <title level="j" change="#d11e276">المستقبل</title> <textLang mainLang="ar">العربية</textLang> التي تصدرها في <pubPlace><placeName ref="geon:2988507 oape:place:322 wiki:Q90" resp="#xslt" change="#d11e282">باريس</placeName></pubPlace> جمعية موسيو شكري غانم
 السورية بنفقة الحكومة <textLang mainLang="fr">الفرنسية</textLang></bibl> مفصلة لإعلان هذا الاتفاق في لندرة، ثم في
 باريس كما ذكرناه بعد ذلك في الجزء الأول من مجلد المنار الحادي والعشرين
 (فليراجعه من شاء عند مطالعة هذه المقالة في ص 34) .
@@ -807,7 +807,7 @@
 الخلاف فيما عدا ذلك من مستقبل البلاد فأمره سهل متى تم لنا إنقاذ البلاد (وقال) :
 إني قرأت تقرير جمعية الاتحاد اللبناني فرأيت أن الخلاف بينها وبيننا بسيط يمكن
 تلافيه بتعديل خفيف، فهي تريد استقلال لبنان ونحن نبغي استقلال لبنان وسورية
-و<placeName change="#d2e120" xml:id="placeName_44.d2e1980">العراق</placeName>، أي البلاد العربية (وهنا صفق له الكثيرون) ثم نوه بأننا كلنا عرب،
+و<placeName change="#d2e120 #d11e282" xml:id="placeName_44.d2e1980" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، أي البلاد العربية (وهنا صفق له الكثيرون) ثم نوه بأننا كلنا عرب،
 ومصلحتنا واحدة.
 وبعد هذا التمهيد بالإسهاب حاول أن يأخذ قرارًا من الحاضرين بالأمرين
 اللذين زعم السير مارك سايكس بخطابه في الجمعية السورية بباريس أنه يمكن
@@ -821,7 +821,7 @@
 نحسن الظن بهم ونقوم بما تقتضيه السياسة من إظهار الثقة بهم، وإن ظهر لنا من
 أقوالهم وأعمالهم ما لا ينطبق على أفكار البعض منا، فمن العقل الآن أن نترك
 البحث في ذلك، ومتى صار السوري في سورية، واللبناني في لبنان، والعراقي
-في <placeName change="#d2e120" xml:id="placeName_45.d2e2014">العراق</placeName>، فعند ذلك يكون المجال أمامنا واسعًا في البحث عن مستقبل البلاد.
+في <placeName change="#d2e120 #d11e282" xml:id="placeName_45.d2e2014" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، فعند ذلك يكون المجال أمامنا واسعًا في البحث عن مستقبل البلاد.
 ثم قال: إنه سمع من بعض الحاضرين كلمات تدل على سوء الظن والتشاؤم،
 ومنها قول الكاظمي:
 قد مُنعنا الحق الصراح وأُعطي <gap resp="#org_MS" change="#d2e120" xml:id="gap_25.d2e2023"/> غيرنا حقنا بلا استحقاق
@@ -861,7 +861,7 @@
 هم أقوى منا في السياسة، هم أقوى منا في الحرب. وذكرت الجيوش والسلاح
 والأساطيل البحرية والجوية، فأنى لنا أن نتفصّى من سلطانهم القاهر؟
 نعم قد قالوا: إنهم لا يريدون أن يثقلوا علينا بالسيطرة الاستعمارية، وأن
-فرنسة تقود السوريين إلى الحياة والاستقلال كما تفعل بريطانية في <placeName change="#d2e120" xml:id="placeName_46.d2e2109">العراق</placeName>، ولعل
+فرنسة تقود السوريين إلى الحياة والاستقلال كما تفعل بريطانية في <placeName change="#d2e120 #d11e282" xml:id="placeName_46.d2e2109" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، ولعل
 مرادهم أنهم يجعلون لنا أميرًا منا، وكثيرًا من المستخدمين، وهذا تصريح بأنهم
 يريدون استعمار بلادنا والسيادة علينا، وإنما يهونون علينا الخطب بأنه استعمار
 هين لين لا قاسٍ شديد، ونحن نريد أن نكون أحرارًا مستقلين، لا عبيدًا مسودين،
@@ -928,8 +928,8 @@
 ولا سيما المسلمين، وعللت له ذلك بما هو معلوم بالضرورة، قال: كان الغرض
 من تلك الخطب والتصريحات إرضاء السوريين، فهل جاءت بضد المراد منها؟
 قلت: إنها جاءت بالأثر الطبيعي الذي يجب أن يترتب عليها، وإن كان المراد
-ضده. قال: إن السير مارك سايكس صرح في خطابه بأن <placeName change="#d2e120" xml:id="placeName_47.d2e2257">الحجاز</placeName> قد استقل، فلا
-يعقل أن يرفض استقلال سورية التام و<placeName change="#d2e120" xml:id="placeName_48.d2e2263">الحجاز</placeName> مستقل. قلت: هذه مسألة نظرية
+ضده. قال: إن السير مارك سايكس صرح في خطابه بأن <placeName change="#d2e120 #d11e282" xml:id="placeName_47.d2e2257" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> قد استقل، فلا
+يعقل أن يرفض استقلال سورية التام و<placeName change="#d2e120 #d11e282" xml:id="placeName_48.d2e2263" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> مستقل. قلت: هذه مسألة نظرية
 ذكرت مع كلام ينقضها وهو أن إنكلترة وفرنسة اتفقتا على اقتسام بلادنا، قال:
 إنهم صرحوا بترك العزم على السيطرة الاستعمارية، قلت: لا معنى لهذا، وقد
 اقتسمتم البلاد إلا أنكم تريدون الرفق والإحسان في إدارتها، ونحن نريد الحرية
@@ -979,7 +979,7 @@
 لتأليب العرب وحملهم على الثورة والخروج على الترك، فكتبت الجمعية تقريرًا
 بينت فيه أنه يجب العمل في سورية باسم الشريف. سواء كان بدعوة البدو إلى
 القتال أو بغير ذلك، فإن لم يفعل الإنكليز ذلك وقعوا في مثل الغلط الذي ارتكبوه
-في <placeName change="#d2e120" xml:id="placeName_49.d2e2374">العراق</placeName>، فأدَّى إلى قتال العرب لهم وتأخير فتحه، وأن العرب في سورية
+في <placeName change="#d2e120 #d11e282" xml:id="placeName_49.d2e2374" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، فأدَّى إلى قتال العرب لهم وتأخير فتحه، وأن العرب في سورية
 سيفعلون ذلك إذا لم يكن عملهم باسم الشريف، وكان المتكلم من صنف الضباط،
 قال: وإننا أقنعناهم بذلك - بالتقرير المشترك وبالكلام - وصدقه رفيقه وهو ممن
 جاهد بالخطابة والكتابة في هذه السبيل، وأرسل إلى بلاد الدروز مرتين لاستمالتهم
@@ -1000,11 +1000,11 @@
 ولا أترك في هذه الخلاصة التاريخية ما نشر في بعض الجرائد السورية
 وسمي بعهد السبعة، وحقيقته أن الألمان أرسلوا بعد كسر الروس وعقد الصلح معهم
 جيشًا ألمانيًّا إلى البلاد العثمانية عن طريق سيباستبول فخافت إنكلترة أن تكون
-وجهته <placeName change="#d2e120" xml:id="placeName_50.d2e2423">العراق</placeName>، فكان من أعمالهم الاحتياطية لذلك أن أقنع بعض المشتغلين بالسياسة
+وجهته <placeName change="#d2e120 #d11e282" xml:id="placeName_50.d2e2423" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، فكان من أعمالهم الاحتياطية لذلك أن أقنع بعض المشتغلين بالسياسة
 منهم بمصر سبعة من الذين يجتمعون بهم بأن يسعوا إلى مساعدتهم على تكوين قوة
 حربية للدفاع عن البلاد العربية على أن تتعهد بريطانية العظمى بالاعتراف لهم بكل
 ما يأخذونه من بلادهم بالسيف، فيكونون مستقلين فيه. ولما لم توجه تلك القوة
-الألمانية إلى <placeName change="#d2e120" xml:id="placeName_51.d2e2435">العراق</placeName> سكت الإنكليز عن هذا العمل وأعرضوا عنه.
+الألمانية إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_51.d2e2435" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> سكت الإنكليز عن هذا العمل وأعرضوا عنه.
 ***
 فصل ثان في المسألة العربية
 بعد انتصار الحلفاء
@@ -1021,22 +1021,22 @@
 وقد سبق لنا قول في انتهاء الحرب وكيف كانت لمصلحة الحلفاء وتكرر ذلك
 في المنار [4] ومقالة في (المسألة السورية والأحزاب) بعد الحرب [5] وفيها بيان
 استفتاء اللجنة الأمريكية لأهل البلاد السورية في مستقبلهم وما يسمى الانتداب.
-ومقالة في (استقلال سورية و<placeName change="#d2e120" xml:id="placeName_52.d2e2475">العراق</placeName>) [6] وأقوال أخرى في شؤون سورية بعد
+ومقالة في (استقلال سورية و<placeName change="#d2e120 #d11e282" xml:id="placeName_52.d2e2475" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>) [6] وأقوال أخرى في شؤون سورية بعد
 الاحتلال المختلط فيها، ووثائق تاريخية تراجع في مجلدي المنار 20 و 21. وقد
 نشرت الجرائد العربية في سورية ومصر وأمريكة الشمالية والجنوبية الشيء
 الكثير مما كان من أمر المحتلين قبل الشروع في تنفيذ اتفاق سنة 1916 وبعده،
 ولا سيما الثورات والقتال في كل من سورية الشمالية والجنوبية (فلسطين) - ولا
 تزال في ازدياد - وإعلان المؤتمرين السوري والعراقي لاستقلال القطرين، وجعل
 فيصل ملكًا على سورية، واختيار أخيه عبد الله ملكًا للعراق، وما كان من زحف
-الجنرال غورو على <placeName change="#d2e120" xml:id="placeName_53.d2e2493">دمشق</placeName> وإخراجه لفيصل منها، ثم جعله البلاد السورية عدة
+الجنرال غورو على <placeName change="#d2e120 #d11e282" xml:id="placeName_53.d2e2493" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> وإخراجه لفيصل منها، ثم جعله البلاد السورية عدة
 دول تحت سلطته، كما نقلت عن برقيات أوربة وجرائدها بعض أخبار الثورة الكبرى
-في <placeName change="#d2e120" xml:id="placeName_54.d2e2500">العراق</placeName> التي كانت تقاتل أكثر من مائة ألف جندي من العساكر البريطانية،
-واضطرار إنكلترة بذلك إلى العدول عن جعل <placeName change="#d2e120" xml:id="placeName_55.d2e2506">العراق</placeName> تابعة للهند الإنكليزية وإعلانها
-العزم على تأسيس دولة عربية بريطانية في <placeName change="#d2e120" xml:id="placeName_56.d2e2511">بغداد</placeName> وتأليف حكومة وطنية مؤقتة فيه
+في <placeName change="#d2e120 #d11e282" xml:id="placeName_54.d2e2500" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> التي كانت تقاتل أكثر من مائة ألف جندي من العساكر البريطانية،
+واضطرار إنكلترة بذلك إلى العدول عن جعل <placeName change="#d2e120 #d11e282" xml:id="placeName_55.d2e2506" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> تابعة للهند الإنكليزية وإعلانها
+العزم على تأسيس دولة عربية بريطانية في <placeName change="#d2e120 #d11e282" xml:id="placeName_56.d2e2511" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> وتأليف حكومة وطنية مؤقتة فيه
 والاستعداد لانتخاب جمعية وطنية تؤلف الحكومة الثابتة وتختار الأمير أو الملك لها،
 وترشيحهم الشريف فيصل للعراق وبث الدعوة له، وتأليف حكومة جديدة في
-شرق الأردن تابعة لحكومة <placeName change="#d2e120" xml:id="placeName_57.d2e2521">القدس</placeName> الصهيونية الإنكليزية، وجعل الأمير عبد الله
-أميرًا عليها بعد أن جاءها من <placeName change="#d2e120" xml:id="placeName_58.d2e2526">الحجاز</placeName> بقصد الاستعداد لإخراج فرنسة من سورية،
+شرق الأردن تابعة لحكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_57.d2e2521" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName> الصهيونية الإنكليزية، وجعل الأمير عبد الله
+أميرًا عليها بعد أن جاءها من <placeName change="#d2e120 #d11e282" xml:id="placeName_58.d2e2526" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بقصد الاستعداد لإخراج فرنسة من سورية،
 وبث الدعوة لذلك، وجدد المبايعة لأخيه (الملك فيصل) .
 كل ذلك معروف بالتفصيل لقراء المنار في مصر وسورية وأمريكة، وسنزيده
 هنا بيانًا وتحقيقًا لم نسبق إلى مثله فيما نعلم كما ينتظره الكثيرون منا، ونحمد الله
@@ -1055,7 +1055,7 @@
 وكان آخر تلك النصائح مذكرة أرسلناها إلى مستر لويد جورج رئيس الوزارة
 البريطانية منذ سنتين كاملتين بيّنَّا له فيها أن ما كنا نصحنا به لرجالهم بمصر قد
 ظهر صدقه، وأن ما جروا عليه مع حكومتهم في المسألة العربية مخالفًا له كان هو
-الخطأ، بما وقع في <placeName change="#d2e120" xml:id="placeName_59.d2e2570">العراق</placeName> وسورية ومصر والهند، وأن إنكلترة ستكون هي
+الخطأ، بما وقع في <placeName change="#d2e120 #d11e282" xml:id="placeName_59.d2e2570" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وسورية ومصر والهند، وأن إنكلترة ستكون هي
 المغبونة بقسمة تراث العالم الإسلامي بين الحلفاء بعداوة الشرق وحسد الغرب لها،
 وإن عداوة أكثر من ثلاثمائة مليون من المسلمين احتقارًا لهم بضعفهم، ليس من العقل
 والحكمة لأنهم لا يكونون أضعف من ميكروبات الأمراض والأوبئة، وأنهم سيكوِّنون
@@ -1063,7 +1063,7 @@
 مستهدفون فيه لعداوة أكثر شعوب أوربة، وإن الخير لأمتهم في تأسيس الصداقة
 بينها وبين العالم الإسلامي باستقلال الشعوب العربية - وفي مقدمتها الشعب
 المصري - والتركية والفارسية جميعًا.
-ونصحنا لرجال فرنسة في <placeName change="#d2e120" xml:id="placeName_60.d2e2591">بيروت</placeName> بمثل ذلك بعد أن ذكرنا لهم ملخصه ولم
+ونصحنا لرجال فرنسة في <placeName change="#d2e120 #d11e282" xml:id="placeName_60.d2e2591" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> بمثل ذلك بعد أن ذكرنا لهم ملخصه ولم
 نطلب منهم إلا استقلال سورية وربح صداقة الأمة العربية كلها بذلك واتقاء ما يقع
 عليهم من الغبن بعداوتها، ومنه أن سورية لا تسلم لهم في المستقبل، وقد قال لنا
 موسيو روبير دوكيه سكرتير الجنرال غورو: إن هذا الرأي جيد وهو من الممكنات
@@ -1095,7 +1095,7 @@
 سلطانه على الحزب على ما أوقع فيه من الشقاق، فالحزب هو الذي منعه من العودة
 إلى أوربة، وحمله على قبول إعلان استقلال سورية وجعله ملكًا عليها وأرضاه
 بجعل ملكها إرثًا في ذريته، وبجعل الراية الحجازية راية لسورية مع زيادة نجم
-أبيض في الزاوية الحمراء التي هي رمز علم شرفاء <placeName change="#d2e120" xml:id="placeName_61.d2e2663">مكة</placeName> فيها، وجعل القواعد التي
+أبيض في الزاوية الحمراء التي هي رمز علم شرفاء <placeName change="#d2e120 #d11e282" xml:id="placeName_61.d2e2663" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> فيها، وجعل القواعد التي
 بنى عليها المؤتمر السوري إعلان الاستقلال قائمة على أساس الاعتراف بأنه قد
 حارب الترك من قِبل والده مع جيوش الحلفاء لأجل تحرير البلاد العربية وتحقيق
 استقلالها الذي كان ينشده أحرارها، وأرادوا أن يكون هذا حجة على الحلفاء،
@@ -1104,14 +1104,14 @@
 الاستقلال السوري قد عرفوا الحقائق في هذه الشؤون إذ زالت تلك الظلل والغواشي
 التي كانت تحجبها عن أبصارهم، ثم عرفها كل أحد بعد رفض الحلفاء التصديق
 على الاستقلال، وما كان من أعمالهم العسكرية والإدارية في سورية الجنوبية
-والشمالية، يدل على ذلك ما كان يلقى في المؤتمر السوري العام ب<placeName change="#d2e120" xml:id="placeName_62.d2e2686">دمشق</placeName> من
+والشمالية، يدل على ذلك ما كان يلقى في المؤتمر السوري العام ب<placeName change="#d2e120 #d11e282" xml:id="placeName_62.d2e2686" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> من
 الخطب في إنكار تلك الأعمال والطعن فيها، وما كان بين المؤتمر وبين الملك
 فيصل ووزارتيه مما نلم به بعد.
 ولقد علم الذين قاموا بدعوة إعلان الاستقلال وتهيئة أسبابها ومقدماتها بعد
 ممارسة الحوادث أن فيصلاً قائد للحلفاء موكول إليه حفظ الأمن في المنطقة الشرقية
 إلى أن يفرغوا من إيراد ما يريدون من أمر مستقبل البلاد، وأنه قوة رسمية ومالية،
 فإن الإنكليز كانوا يدفعون له راتبًا، وكانوا يعطونه حصة المنطقة الشرقية من
-جمرك <placeName change="#d2e120" xml:id="placeName_63.d2e2704">حيفا</placeName>، وصار الفرنسيس يعطونه مثل ذلك من جمرك <placeName change="#d2e120" xml:id="placeName_64.d2e2708">بيروت</placeName> بعد الموادة
+جمرك <placeName change="#d2e120 #d11e282" xml:id="placeName_63.d2e2704" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName>، وصار الفرنسيس يعطونه مثل ذلك من جمرك <placeName change="#d2e120 #d11e282" xml:id="placeName_64.d2e2708" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> بعد الموادة
 وقطعوه عند المحادة، وأنه يائس من الاستقلال التام الناجز، وإن كان أولى من
 غيره بحبه، وأنه لين سلس، كان في أول العهد يسير في البلاد كما يشاء
 البريطانيون، ثم جاءها أخيرًا من فرنسة يدعو إلى الاتفاق مع الفرنسيس، فأرادوا
@@ -1183,7 +1183,7 @@
 الأمر على منبر المؤتمر وكان معه رئيس الوزارة وانصرفا واجمين ممتقعين،
 وكان بعض الأعضاء يريد عدم امتثال هذا الأمر فأقنعتهم بأن هذا خير للمؤتمر
 وأني سررت به، ولولاه لاقترحت على الأعضاء أن يقرروا ذلك من تلقاء أنفسهم،
-ذلك بأن <placeName change="#d2e120" xml:id="placeName_65.d2e2867">دمشق</placeName> كانت في أشد الهياج والسخط على ملكها ووزارته سواء في
+ذلك بأن <placeName change="#d2e120 #d11e282" xml:id="placeName_65.d2e2867" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> كانت في أشد الهياج والسخط على ملكها ووزارته سواء في
 ذلك الأحزاب والجماعات والأفراد وكلهم يرجون من المؤتمر ما لا قبل له به، وما
 ثم إلا إلزام الملك والوزارة برد إنذار الجنرال غورو والدفاع عن البلد إن هوجمت
 بغيًّا وعدوانًا، أو إسقاطهم وإقامة حكم عسكري مفوض (دكتاتور) يدافع عن البلاد
@@ -1197,8 +1197,8 @@
 انفض المؤتمر وكانت المراسلة بين الملك فيصل والجنرال غورو على قبول
 مواد إنذاره متصلة، فلما أصر على قبولها كلها أمر الملكَ قبل كل شيء بتسريح
 الجيش السوري من ثكناته ومواقعه الحربية وأهمها مضيق مجدل عنجر الحصين
-في طريق جيش الجنرال غورو الزاحف على <placeName change="#d2e120" xml:id="placeName_66.d2e2900">الشام</placeName>، فسرح الجيش بغير نظام
-فترتب على ذلك نهب الأسلحة والذخائر، وأحدث ثورة في شوارع <placeName change="#d2e120" xml:id="placeName_67.d2e2906">دمشق</placeName>، وهاج
+في طريق جيش الجنرال غورو الزاحف على <placeName change="#d2e120 #d11e282" xml:id="placeName_66.d2e2900" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>، فسرح الجيش بغير نظام
+فترتب على ذلك نهب الأسلحة والذخائر، وأحدث ثورة في شوارع <placeName change="#d2e120 #d11e282" xml:id="placeName_67.d2e2906" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، وهاج
 الشعب هياجًا شديدًا، وكثر التصريح في الشوارع بالهتاف للمؤتمر وبسب الملك
 فيصل وأبيه والتحدث بخيانته ووجوب قتله، وقد اضطرت الحكومة بمن بقي عندها
 من الجند لحفظ الأمن من أن تقاتل الثورة بالسلاح حتى إنها استعملت المدافع الرشاشة
@@ -1206,7 +1206,7 @@
 قبلت الحكومة برياسة الملك فيصل جميع مطالب الجنرال غورو ومنها قبول
 الوصاية بلا شرط ولا قيد، فأصبحت بذلك ساقطة مع ملكها غير شرعية بقرار
 المؤتمر المذكور آنفًا، ثم إنها علمت في اليوم التالي لتسريحها الجيش (وهو 20
-يوليو) أن جنود الجنرال غورو زاحفة على <placeName change="#d2e120" xml:id="placeName_68.d2e2926">دمشق</placeName>، وعلمت بعد المراجعة بين
+يوليو) أن جنود الجنرال غورو زاحفة على <placeName change="#d2e120 #d11e282" xml:id="placeName_68.d2e2926" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، وعلمت بعد المراجعة بين
 الملك وبينه أن حجته على الزحف أن جواب القبول تأخر عن موعده، وهو الساعة
 الثانية عشرة من نصف الليل، وكان قد أصدر أمره للجيش بالزحف، ولا يمكنه
 إيقافه بعد، وقد احتل المواقع الحصينة كمجدل عنجر، وهي تقول إنما كان الذي
@@ -1214,13 +1214,13 @@
 الرسمي بقبول الشروط عاليه، وأن سبب تأخر برقية التفصيل انقطاع السلك
 البرقي باستعمال الجيش الفرنسي له.
 عظم الخطب على فيصل ووزرائه لما رأوا أنهم سلموا بقبول الوصاية مع
-تلك الشروط المخزية ليدفعوا الاحتلال عن <placeName change="#d2e120" xml:id="placeName_69.d2e2947">دمشق</placeName> ويبقوا فيها متمتعين في ظل
+تلك الشروط المخزية ليدفعوا الاحتلال عن <placeName change="#d2e120 #d11e282" xml:id="placeName_69.d2e2947" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> ويبقوا فيها متمتعين في ظل
 الوصاية وخدمتها بما كانوا عليه بعد أن قالوا في عدم إمكان قبولها ما قالوا من
 المبالغات، ونبذ فيصل من يقبلها بأقبح الألقاب، وعلموا أنهم خسروا كل شيء
 وظهر لهم أن العقل والكياسة في التسليم أن يكون آخر ما ينفذ من الشروط تسريح
 الجند، فصدر الأمر لباقي الجيش بالتوقف عن الانسحاب فوقف غربي (خان
 ميسلون) ووقف الجيش الفرنسي الزاحف وراءه على بعد مرمى القنابل منه،
-وجعلت هذه فرصة لاستئناف المفاوضة في إيقاف الزحف على <placeName change="#d2e120" xml:id="placeName_70.d2e2963">دمشق</placeName>، وتولى ذلك
+وجعلت هذه فرصة لاستئناف المفاوضة في إيقاف الزحف على <placeName change="#d2e120 #d11e282" xml:id="placeName_70.d2e2963" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، وتولى ذلك
 ساطع بك الحصري (وزير المعارف) فسافر إلى الجنرال غورو فلم يلق نجاحًا.
 وفي يوم الخميس (6 ذي القعدة 22 يوليو) زار فيصل وزارة الحربية وكلم
 جموع المتطوعة وحثهم على الجهاد، وكان جمع الزعماء ورؤساء الأحزاب وبلغهم
@@ -1236,19 +1236,19 @@
 اليوسف وذلك بعد انتهاء معركة خان ميسلون التي قتل فيها وزير حربيته يوسف
 بك العظمة وفرقت الطيارات شمل من كان معه من العسكر النظامي، ويقال إنهم
 كانوا زهاء خمسمائة جندي، وعاد في المساء جميل بك الألشي حاجبه الأول وكان
-ذهب مع موسيو كوس - الذي كان ضابط الارتباط الفرنسي في <placeName change="#d2e120" xml:id="placeName_71.d2e3001">دمشق</placeName>، وصار بعد
+ذهب مع موسيو كوس - الذي كان ضابط الارتباط الفرنسي في <placeName change="#d2e120 #d11e282" xml:id="placeName_71.d2e3001" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، وصار بعد
 الاحتلال رئيس البعثة الفرنسية للانتداب مدة من الزمن - إلى الجنرال غورو
-للاتفاق معه باسم الملك على صفة دخول <placeName change="#d2e120" xml:id="placeName_72.d2e3008">دمشق</placeName>، وقد عاد معه في سيارته مبتهجًا
+للاتفاق معه باسم الملك على صفة دخول <placeName change="#d2e120 #d11e282" xml:id="placeName_72.d2e3008" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، وقد عاد معه في سيارته مبتهجًا
 مسرورًا.
 وفي صباح يوم الأحد (9 ذي القعدة 25 يوليو) رأيت نوري باشا السعيد
-فأخبرني أن الجيش الفرنسي يدخل <placeName change="#d2e120" xml:id="placeName_73.d2e3018">الشام</placeName> بين الساعة 9 والدقيقة 10 ويعسكر في
+فأخبرني أن الجيش الفرنسي يدخل <placeName change="#d2e120 #d11e282" xml:id="placeName_73.d2e3018" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> بين الساعة 9 والدقيقة 10 ويعسكر في
 (المزة) من ضواحي البلد وأن الملك يدخلها الساعة 10 ونصف، ولكنه لم يدخلها
 إلا في منتصف ليلة الإثنين، وألف وزارة جديدة من الموالين أو الميالين إلى فرنسة
-رئيسها علاء الدين بك الدروبي، وقد كانت عودته إلى <placeName change="#d2e120" xml:id="placeName_74.d2e3027">دمشق</placeName> من الغرائب، ورأيت
+رئيسها علاء الدين بك الدروبي، وقد كانت عودته إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_74.d2e3027" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> من الغرائب، ورأيت
 نوري باشا في صباح الإثنين أيضًا، فأخبرني بأن القائد الفرنسي قبل الوزارة
 الجديدة، وأنهم لا يعترفون بالملك، فقلت له: وكيف عدتم به إلى العاصمة؟ قال:
 لم يكن هذا برأيي وإنما هو رأي جماعته الذين ورطوه وفي مقدمتهم الدكتور فلان،
-وفي يوم الثلاثاء بلغته السلطة المحتلة وجوب الخروج من <placeName change="#d2e120" xml:id="placeName_75.d2e3039">الشام</placeName> قبل نصف الليل،
+وفي يوم الثلاثاء بلغته السلطة المحتلة وجوب الخروج من <placeName change="#d2e120 #d11e282" xml:id="placeName_75.d2e3039" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> قبل نصف الليل،
 بلغني ذلك بعد العشاء، فذهبت إلى داره لوداعه على ما كان وقع من الجفاء بيننا
 قبل الإنذار الفرنسي الذي لا علاقة له بالمودة الشخصية، فوجدت في الدار أفرادًا
 من الشرطة بلغني أنهم حرس على أثاث الدار لئلا يؤخذ شيء منها، ومكثت معه
@@ -1258,7 +1258,7 @@
 يوسف بك العظمة
 ولا بد لي من كتابة كلمة في هذه الخلاصة التاريخية بشأن يوسف بك العظمة
 الذي كنت معجبًا بما أوتي من الذكاء والنظام والهمة والنشاط والوطنية وحسن
-السلوك منذ عرفته معتمدًا للحكومة العربية في <placeName change="#d2e120" xml:id="placeName_76.d2e3064">بيروت</placeName> إلى أن عين وزيرًا للحربية
+السلوك منذ عرفته معتمدًا للحكومة العربية في <placeName change="#d2e120 #d11e282" xml:id="placeName_76.d2e3064" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> إلى أن عين وزيرًا للحربية
 باقتراحي وسعيي مع بعض الإخوان، استبد يوسف بالعمل في وزارة الحربية وكان
 يكتم أعماله حتى عن رئيس الوزارة، بل يعمي الأمر إلا على الملك فيما أظن،
 ولما اشتدت الأزمة سألته هل هو مستعد للدفاع؟ قال: نعم، إذا وافق الملك، وإذا
@@ -1299,7 +1299,7 @@
 تكن حاله؛ لأنه ناصبهم وأغرى العصابات والعشائر بهم، وصار له نفوذ في البلاد
 يمكن أن يكون خطرًا عليهم في كل وقت، ولا سيما إذا اشتد الخلاف بينهم وبين
 إنكلترة التي يعُدُّونه من صنائعها المخلصين لها، فهو قد حارب الأمير فيصلاً القائد
-الحجازي الذي يعده أجنبيًّا عن سورية لإنقاذ سورية من نفوذ دولة <placeName change="#d2e120" xml:id="placeName_77.d2e3156">الحجاز</placeName>، ولو
+الحجازي الذي يعده أجنبيًّا عن سورية لإنقاذ سورية من نفوذ دولة <placeName change="#d2e120 #d11e282" xml:id="placeName_77.d2e3156" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>، ولو
 باسم الانتداب والوصاية الفرنسية، وعد ما أخذه من السلاح والذخائر الحربية
 غنيمة حربية، وكل ذلك بَيِّن ظاهر في الأقوال والمكتوبات الرسمية.
 ***
@@ -1307,8 +1307,8 @@
 إن ما تفاقم على الدولة البريطانية من معضلات المشكلات المالية والسياسية
 والاستعمارية والاجتماعية، وإعيائها دون حل عقدها أو عقدة منها - قد اضطرها إلى
 ترك جزيرة العرب لأمرائها مع اصطناع ما أمكن اصطناعه منهم، والتمهيد للتدخل
-الاقتصادي والفني بالتدريج ثم الاستعانة بأوليائها - ملك <placeName change="#d2e120" xml:id="placeName_78.d2e3177">الحجاز</placeName> وأولاده - في سورية
-وفلسطين و<placeName change="#d2e120" xml:id="placeName_79.d2e3182">العراق</placeName> بعد الإعراض عنهم وعدم المبالاة بصراخ <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_12.d2e3185">القبلة</title></bibl> بمكة
+الاقتصادي والفني بالتدريج ثم الاستعانة بأوليائها - ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_78.d2e3177" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وأولاده - في سورية
+وفلسطين و<placeName change="#d2e120 #d11e282" xml:id="placeName_79.d2e3182" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بعد الإعراض عنهم وعدم المبالاة بصراخ <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_12.d2e3185">القبلة</title></bibl> بمكة
 بالاستعطاف والاستعانة والتذكير بالعهود والوعود والنجابة والحسبات البريطانية،
 وعد حليفها الملك الخروج عن مرضاتها مساويًا للردة والخروج عن رحمة الله تعالى
 وتمثله في ندائها بقول الشاعر:
@@ -1318,33 +1318,33 @@
 دافعي الضرائب في بريطانية العظمى إلى أن تنحل عُقد المشكلات وتؤسس وسائل
 القوة في داخلية البلاد العربية بأقل ما يمكن من النفقة، والثاني دفع إغارة العرب
 من وراء الأردن على فلسطين ومساعدتهم لأهلها على اليهود الصهيونيين، والثالث
-إخضاع <placeName change="#d2e120" xml:id="placeName_80.d2e3210">العراق</placeName> والاستعانة بحكومته الجديدة على مقاومة الترك وحلفائهم من مسلمي
+إخضاع <placeName change="#d2e120 #d11e282" xml:id="placeName_80.d2e3210" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> والاستعانة بحكومته الجديدة على مقاومة الترك وحلفائهم من مسلمي
 الشرق وبولشفيك الروس إذا أصروا على تنفيذ فكرة الجامعة الإسلامية ومقاومة
 الاستعمار الإنكليزي في البلاد العربية والعجمية، وبلغنا أنهم أعادوا الراتب
-الشهري لملك <placeName change="#d2e120" xml:id="placeName_81.d2e3220">الحجاز</placeName> بعد دعوة ولده فيصل الأخيرة إلى لندن فجعلوه 18 ألف جنيه
+الشهري لملك <placeName change="#d2e120 #d11e282" xml:id="placeName_81.d2e3220" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> بعد دعوة ولده فيصل الأخيرة إلى لندن فجعلوه 18 ألف جنيه
 أو 20.
 ***
 عمل وزير المستعمرات بمصر وفلسطين
 جاء مستر تشرشل وزير المستعمرات البريطانية مصر في شهر مارس
 الماضي، ونظر في مسألة حظائر الطيران فيها، وقابل فيها الوفد العراقي
-الإنكليزي الذي استحضر لأجل الاتفاق معه على أمور <placeName change="#d2e120" xml:id="placeName_82.d2e3236">العراق</placeName> المالية والعسكرية،
+الإنكليزي الذي استحضر لأجل الاتفاق معه على أمور <placeName change="#d2e120 #d11e282" xml:id="placeName_82.d2e3236" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> المالية والعسكرية،
 ثم سافر إلى فلسطين فآذن أهلها بدوام السلطة الإنكليزية على البلاد، وتنفيذها لوعد
-بلفور بجعلها وطنًا قوميًّا لليهود، وقابل الشريف عبد الله بن الحسين ملك <placeName change="#d2e120" xml:id="placeName_83.d2e3243">الحجاز</placeName>،
+بلفور بجعلها وطنًا قوميًّا لليهود، وقابل الشريف عبد الله بن الحسين ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_83.d2e3243" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName>،
 وجعله حاكمًا لشرق الأردن بالتبع لحكومة فلسطين واستمداد السلطة من معتمدها
 السامي، وأعطاه من القوة العسكرية والطيارات ما يمكنه من إخضاع كل من يشذ
 من عرب تلك البلاد عما يراد بها، وتأمين ما تنشئه السلطة البريطانية فيها من
 أسباب المواصلات ووسائل القوة، وأولهما محطة التلغراف اللاسلكي وحظيرة
-الطيارات، ويلي ذلك مد السكة الحديدية العسكرية من فلسطين إلى <placeName change="#d2e120" xml:id="placeName_84.d2e3257">العراق</placeName>، وقد
-قرروا إعطاءه حصة جمرك <placeName change="#d2e120" xml:id="placeName_85.d2e3263">حيفا</placeName> للداخلية وهي 130 ألف جنيه في السنة.
+الطيارات، ويلي ذلك مد السكة الحديدية العسكرية من فلسطين إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_84.d2e3257" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وقد
+قرروا إعطاءه حصة جمرك <placeName change="#d2e120 #d11e282" xml:id="placeName_85.d2e3263" ref="geon:294801 oape:place:35 wiki:Q41621" resp="#xslt">حيفا</placeName> للداخلية وهي 130 ألف جنيه في السنة.
 ***
 تكريم وجيه عراقي
 لجعفر باشا العسكري
 كان في أعضاء الوفد العراقي جعفر باشا العسكري الذي كان أحد قواد
-الشريف فيصل في حرب فلسطين وسورية، وعهد إليه الإنكليز في <placeName change="#d2e120" xml:id="placeName_86.d2e3277">العراق</placeName> بتأسيس
-الجيش الوطني بعد أن ذهب إلى <placeName change="#d2e120" xml:id="placeName_87.d2e3282">بغداد</placeName> لأجل بث الدعوة لجعل الشريف فيصل ملكًا
-للعراق، وكان قد جاء مصر منذ أشهر شاب من وجهاء <placeName change="#d2e120" xml:id="placeName_88.d2e3287">البصرة</placeName> والمشايعين للإنكليز
+الشريف فيصل في حرب فلسطين وسورية، وعهد إليه الإنكليز في <placeName change="#d2e120 #d11e282" xml:id="placeName_86.d2e3277" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بتأسيس
+الجيش الوطني بعد أن ذهب إلى <placeName change="#d2e120 #d11e282" xml:id="placeName_87.d2e3282" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName> لأجل بث الدعوة لجعل الشريف فيصل ملكًا
+للعراق، وكان قد جاء مصر منذ أشهر شاب من وجهاء <placeName change="#d2e120 #d11e282" xml:id="placeName_88.d2e3287" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> والمشايعين للإنكليز
 وهو (عبد القادر بك آل باش أعيان) وقد دعا هذا الوجيه طائفة من وجهاء مصر
-وسورية و<placeName change="#d2e120" xml:id="placeName_89.d2e3295">العراق</placeName> إلى حفلة شاي في فندق شبرد تكريمًا لجعفر باشا في 18 مارس
+وسورية و<placeName change="#d2e120 #d11e282" xml:id="placeName_89.d2e3295" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> إلى حفلة شاي في فندق شبرد تكريمًا لجعفر باشا في 18 مارس
 ولما جاءتني رقمة الدعوة خطر لي أنه ربما كان لها معنى سياسي، ولما جئنا
 للفندق دعينا إلى حديقته لأجل تصويرنا مع المحتفل به مجتمعين، فأبيت ذلك مع
 أفراد آخرين، وبعد شرب الشاي استنشد شاعر العرب الشيخ عبد المحسن الكاظمي
@@ -1359,7 +1359,7 @@
 السير مارك سايكس المحب المخلص للعرب، وكلَّمته بذلك في هذا الفندق الذي نحن
 فيه، فأجابني قائلاً: إننا فعلنا هذا لمصلحة العرب أيضًا؛ لأنهم إذا ظلمهم أحد
 الفريقين وشدد عليهم الوطأة احتجوا عليه بلين الفريق الآخر وحسن إدارته وعدله! !
-ثم ذكر مسألة مصر و<placeName change="#d2e120" xml:id="placeName_90.d2e3330">العراق</placeName> وعزم الإنكليز على منحهما الاستقلال، وما
+ثم ذكر مسألة مصر و<placeName change="#d2e120 #d11e282" xml:id="placeName_90.d2e3330" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وعزم الإنكليز على منحهما الاستقلال، وما
 يجب من نبذ كل خلاف في هذه السبيل، والإجماع على تأييد الحكومتين اللتين
 تؤسسان في القطرين؛ لأنهما تجربة إذا فشلت قضي على الأمة العربية والشرق
 كله بأنه غير أهل للاستقلال بنفسه، ثم ختم الخطاب بقوله: إنه يعتقد أن جميع
@@ -1399,23 +1399,23 @@
 تخرج عن كونها عربية، وقد بُحَّت أصوات أهل البلاد من إقامة الحجج والبراهين،
 فلم تغنِ عنهم شيئًا، وقد سبق لي في سنة 1915 جدال عنيف مع السير مارك
 سايكس في هذا الفندق علمت منه ما يُسرون لبلادنا.
-وأما مشروع تأسيس حكومة وطنية في <placeName change="#d2e120" xml:id="placeName_91.d2e3420">العراق</placeName> تابعة لوزارة المستعمرات
+وأما مشروع تأسيس حكومة وطنية في <placeName change="#d2e120 #d11e282" xml:id="placeName_91.d2e3420" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> تابعة لوزارة المستعمرات
 الإنكليزية فهو لا يغر أحدًا من العرب؛ لأنهم يطلبون الاستقلال لا الاستعمار
 الأجنبي، وغرض الدولة البريطانية منه معروف صرح به ناظر المستعمرات،
 وهو استعمار البلاد بأقل ما يمكن من النفقة لإسكات دافعي الضرائب عن المعارضة
 للحكومة فيه.
-قرن الخطيب مشروع حكومة <placeName change="#d2e120" xml:id="placeName_92.d2e3434">العراق</placeName> بمشروع استقلال مصر الذي يطلبه
+قرن الخطيب مشروع حكومة <placeName change="#d2e120 #d11e282" xml:id="placeName_92.d2e3434" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> بمشروع استقلال مصر الذي يطلبه
 الوفد المصري، وأين هو منه؟ إن المصريين يطلبون أن تكون بلادهم دولة
 مستقلة في داخليتها وخارجيتها ذات مجلس نيابي منتخب وحكومة مسئولة لديه،
 وسفراء وقناصل في الممالك الأجنبية، وأن يُعقد بينها وبين إنكلترة اتفاق أو
 محالفة تحفظ هذه بها مصالحها، وتكون ممتازة بها على غيرها من الدول، فإذا
-كانت إنكلترة تسمح بمثل هذا في <placeName change="#d2e120" xml:id="placeName_93.d2e3448">العراق</placeName> يكون اقتراحه وجيهًا جديرًا بأن يقبل
+كانت إنكلترة تسمح بمثل هذا في <placeName change="#d2e120 #d11e282" xml:id="placeName_93.d2e3448" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> يكون اقتراحه وجيهًا جديرًا بأن يقبل
 بالتحفظ الواجب.
 (ثم بينت أن الأمة العربية قد عرفت الحقائق فلا تنخدع بخلابة الألفاظ ولا
 يعوزها إلا جمع الكلمة، واتحاد كاتحاد الشعب المصري بين أبناء الملل والمذاهب
 وإلا أضاعت نفسها) .
 قلت: وإني أذكر في هذا المقام حديثًا لي مع مدير المخابرات البريطانية
-ب<placeName change="#d2e120" xml:id="placeName_94.d2e3464">دمشق</placeName>، إذ كان تفضل بدعوتي إلى شرب الشاي عنده فجئته مع بديع أفندي
+ب<placeName change="#d2e120 #d11e282" xml:id="placeName_94.d2e3464" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName>، إذ كان تفضل بدعوتي إلى شرب الشاي عنده فجئته مع بديع أفندي
 الحوراني - ولعله معنا هنا - ودار حديث بيننا على المائدة في المسألة المصرية، ثم
 في المسألة السورية قال: أترى أن سورية تستغني عن مساعدة أجنبية؟ قلت: لعلكم
 تظنون أن مثلي يستحي أن يدعي أن بلاده وصلت في الارتقاء والعمران إلى الدرجة
@@ -1467,7 +1467,7 @@
 يغلب علي التشاؤم من مساعيهم ولم أر فيها مجالاً للتفاؤل وحسن الظن كما شرحته
 في هذا المقال، وإنني لم أختلف مع صديقي الدكتور شاهبندر في مسألة من المسائل
 التي كنت فيها متشائمًا وكان متفائلاً، إلا وظهر أنني كنت المصيب، فليتذكر أول
-الخلاف في إثر قدومه من <placeName change="#d2e120" xml:id="placeName_95.d2e3583">العراق</placeName> إلى مصر وأوسطه وآخره في دعوته إياي مع
+الخلاف في إثر قدومه من <placeName change="#d2e120 #d11e282" xml:id="placeName_95.d2e3583" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> إلى مصر وأوسطه وآخره في دعوته إياي مع
 آخرين إلى إمضاء تقريره المعهود وفي موقفنا في هذا الاحتفال.
 ***
 ختم المقال بالتفاؤل بالمآل
@@ -1480,7 +1480,7 @@
 أن أوفق للسعي مع أحرار المنصفين منهم، وهم ولله الحمد كثيرون.
 وأود لو يعلم هؤلاء الأحرار حقيقة أمور الشرق من أحرار أهله ولا يكتفوا
 ببلاغات السياسة الاستعمارية وما يختزله أهلها من أقوال مديري المخابرات لهم.
-أود لو يعلم أحرار فرنسة الكرام أن ملك <placeName change="#d2e120" xml:id="placeName_96.d2e3615">الحجاز</placeName> وأولاده لا يمثلون الأمة
+أود لو يعلم أحرار فرنسة الكرام أن ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_96.d2e3615" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وأولاده لا يمثلون الأمة
 العربية، بل السواد الأعظم من العرب ومن مسلمي الأعاجم غير راضين عنهم
 وأنه ليس من مصلحة فرنسة معاداة هذه الأمة في هذا البيت منها، ولا بجعلها
 خصمًا للترك، وأنه لا يمكن أن تنال دولتهم عطف العالم الإسلامي مع مقاومتها
@@ -1514,7 +1514,7 @@
 (4) راجع ص 6 من فاتحة المجلد 81 ومقالة (عاقبة الحرب) فيه (ص 337) .
 (5) ص <date calendar="#cal_gregorian" when="0197" change="#d3e146 #d2e120" xml:id="date_6.d2e3689">197</date> منه.
 (6) (ص434) منه.
-(7) إنما لقبناه هنا بالشريف لأنه اللقب المشهور الثابت له وقد صار أميرًا مؤقتًا لقسم من سورية من قِبل الحلفاء ثم ملكًا عليها بنصب المؤتمر السوري العام وموافقة <placeName change="#d2e120" xml:id="placeName_97.d2e3697">الشام</placeName> ثم مهاجرا سياسيًّا في أوربة ثم مرشحًا من بريطانية العظمى لدولة <placeName change="#d2e120" xml:id="placeName_98.d2e3700">العراق</placeName>.</note>
+(7) إنما لقبناه هنا بالشريف لأنه اللقب المشهور الثابت له وقد صار أميرًا مؤقتًا لقسم من سورية من قِبل الحلفاء ثم ملكًا عليها بنصب المؤتمر السوري العام وموافقة <placeName change="#d2e120 #d11e282" xml:id="placeName_97.d2e3697" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> ثم مهاجرا سياسيًّا في أوربة ثم مرشحًا من بريطانية العظمى لدولة <placeName change="#d2e120 #d11e282" xml:id="placeName_98.d2e3700" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_2.d2e3704">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_4.d2e3706" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -1532,7 +1532,7 @@
 
                
 قررت لجنة عصبة الأمم المختصة بالنظر في الوصايات العليا المفروضة على
-الأقطار المنفصلة من <placeName change="#d2e120" xml:id="placeName_99.d2e3726">الدولة العثمانية</placeName> في 8 دسمبر (كانون الأول) سنة 1920
+الأقطار المنفصلة من <placeName change="#d2e120 #d11e282" xml:id="placeName_99.d2e3726" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> في 8 دسمبر (كانون الأول) سنة 1920
 التحفظات الآتية لتقدمها للهيئة العامة وهي:
 (1) لا يسمح للدولة المنتدبة باستخدام وسيلة لزيادة قواتها العسكرية.
 (2) يجب على الدولة المنتدبة أن لا تستخدم القوة التي يمنحها إياها الانتداب

@@ -13,7 +13,7 @@
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_18-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_18-i_6.TEIP5.xml</idno></publicationStmt>
+         <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e298">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_18-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_18-i_6.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
             <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
@@ -32,9 +32,9 @@
                                 </persName>
                             </editor>
                   <imprint xml:lang="ar" change="#d2e120 #d2e298" xml:id="imprint_1.d2e86"><publisher change="#d2e120" xml:id="publisher_1.d2e88"/><pubPlace xml:lang="ar" change="#d2e120" xml:id="pubPlace_1.d2e90">
-                                    <placeName xml:lang="ar" ref="geon:360630" change="#d2e120" xml:id="placeName_1.d2e92">القاهرة</placeName>
-                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630" change="#d2e120" xml:id="placeName_2.d2e95">al-Qāhira</placeName>
-                                    <placeName xml:lang="en" ref="geon:360630" change="#d2e120" xml:id="placeName_3.d2e98">Cairo</placeName>
+                                    <placeName xml:lang="ar" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_1.d2e92" resp="#xslt">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_2.d2e95" resp="#xslt">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" change="#d2e120 #d11e298" xml:id="placeName_3.d2e98" resp="#xslt">Cairo</placeName>
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1333">1333</date><date calendar="#cal_gregorian" when="1915" xml:lang="ar">يوليو - 1915م</date></imprint>
                   <biblScope unit="volume" from="18" to="18" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">18</biblScope>
                   <biblScope unit="issue" from="6" to="6" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">6</biblScope>
@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e298" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -231,7 +231,7 @@
 (2) في الأصل عن من قاله.
 (3) الحديث الضعيف عند أحمد هو الحسن عند الجمهور.
 (4) الحدود المكانية أولى بهذا الحكم من الحدود الزمانية كمواقيت الحج، وقد عبر عنها في الأحاديث بمادة الحد، كما في حديث ابن عمر في البخاري (أن رسول الله - صلى الله عليه وسلم - حد لأهل نجد قرنا) ، وقد مضى عمل النبي - صلى الله عليه وسلم - وأصحابه على ذلك فيصدق على مخالفة الحديث الآتي (من عمل عملاً ليس عليه أمرنا فهو رد) وقد أنكر عثمان على من أحرم من خراسان، وأنكر مالك على من أراد الإحرام من مسجد الرسول بالمدينة وقال له: أخشى عليك الفتنة، وحديث أم سلمة في الإهلال من المسجد الأقصى لا يصح، وما روي في تفسير إتمام الحج والعمرة، (أن تحرم من دويرة أهلك) فمعناه أن تنوي الحج منها كما يفسره ما روي عن ابن عباس وغيره من قوله:
-(أن تحرم من دويرة أهلك) لا تريد إلا الحج والعمرة، وتهل من الميقات، ليس أن تخرج لتجارة، ولا لحاجة حتى إذا كنت قريبًا من <placeName change="#d2e120" xml:id="placeName_4.d2e618">مكة</placeName>، قلت لو حججت أو اعتمرت! وذلك يجزئ؛ ولكن التمام أن تخرج له لا لغيره "، وبهذا تتفق هذه الرواية مع تفسير الجمهور وظواهر النصوص والسنة العملية.</note>
+(أن تحرم من دويرة أهلك) لا تريد إلا الحج والعمرة، وتهل من الميقات، ليس أن تخرج لتجارة، ولا لحاجة حتى إذا كنت قريبًا من <placeName change="#d2e120 #d11e298" xml:id="placeName_4.d2e618" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>، قلت لو حججت أو اعتمرت! وذلك يجزئ؛ ولكن التمام أن تخرج له لا لغيره "، وبهذا تتفق هذه الرواية مع تفسير الجمهور وظواهر النصوص والسنة العملية.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_1.d2e622">الكاتب: <persName change="#d2e141 #d2e120 #d3e274" xml:lang="ar" xml:id="persName_3.d2e624" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -368,7 +368,7 @@
 هذا الجسم يُحْدِث ضخامة فظيعة في عظام الأطراف العليا والسفلى، وكذلك في
 عظام الوجه.
 (6) الغدة الصنوبرية: هي أيضًا داخل الجمجمة تحت مؤخر الجسم
-المندمل <placeName change="#d2e120" xml:id="placeName_5.d2e901">الموصل</placeName> بين فصي المخ، في وسطها تجويف صغير، ولم تُعْلَم لهذا الجسم
+المندمل <placeName change="#d2e120 #d11e298" xml:id="placeName_5.d2e901" ref="geon:99072 oape:place:211 wiki:Q83317" resp="#xslt">الموصل</placeName> بين فصي المخ، في وسطها تجويف صغير، ولم تُعْلَم لهذا الجسم
 وظيفة إلى الآن، وغاية ما يُعْرَف عنه أنه أثر ضامر لعين ثالثة.
 وتوجد هذه العين في حال أحسن منا في الإنسان في الأورال (الغطاء)
 [Lizards] خصوصًا في النوع المسمى بالإفرنجية (هتيريا) [Hatteria] ، وهي
@@ -1017,7 +1017,7 @@ Hydrotherapy نجحت نجاحًا عظيمًا في شفاء كثير من ال
 أمية فابتدأ الخط يسمو ويرتقي، وكثر عدد المشتغلين به، وفي أواخر أيامهم تفرع
 الخط الكوفي، وكانت تكتب به المصاحف منذ أيام الراشدين إلى أربعة أقلام اشتقها
 بعضها من بعض كاتب اسمه قطبة المحرر كان أَكْتَبَ أهل زمانه، ثم اشتهر بعده
-في أوائل الدولة العباسية رجلان من أهل <placeName change="#d2e120" xml:id="placeName_6.d2e2305">الشام</placeName> انتهت إليهما الرئاسة في جودة الخط
+في أوائل الدولة العباسية رجلان من أهل <placeName change="#d2e120 #d11e298" xml:id="placeName_6.d2e2305" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName> انتهت إليهما الرئاسة في جودة الخط
 وهما: الضحاك بن عجلان كان في خلافة السفاح، فزاد على قطبة، وإسحاق بن
 حماد، وكان في خلافة المنصور والمهدي فزاد بعد الضحاك، وزاد غيره حتى بلغ
 عدد الأقلام العربية إلى أوائل الدولة العباسية 12 قلمًا، كان لكل قلم عمل خاص
@@ -1061,7 +1061,7 @@ Hydrotherapy نجحت نجاحًا عظيمًا في شفاء كثير من ال
 برز في هذه الأقلام جملة من العلماء، وما زال الخط يتفرع إلى الآن، فقد
 ظهر بعد هذه الستة الأقلام القلم الديواني، والقلم الدشتي، والقلم الفارسي، وغيره،
 وبقي الأمر تابعًا لارتفاع الدولة، وانخفاض شأنها (انظر شكل 5) ، فإنه لما
-تضعضعت خلافة <placeName change="#d2e120" xml:id="placeName_7.d2e2422">بغداد</placeName>، وانتقلت الخلافة إلى مصر و<placeName change="#d2e120" xml:id="placeName_8.d2e2425">القاهرة</placeName> انتقل الخط والكتابة
+تضعضعت خلافة <placeName change="#d2e120 #d11e298" xml:id="placeName_7.d2e2422" ref="geon:98182 oape:place:216 wiki:Q1530" resp="#xslt">بغداد</placeName>، وانتقلت الخلافة إلى مصر و<placeName change="#d2e120 #d11e298" xml:id="placeName_8.d2e2425" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> انتقل الخط والكتابة
 والعلم إليها، وسرى منها إلى مضافاتها من البلاد التابعة لدولتها وإلى ما جاورها،
 وما زال الخط في جميع هذه الأماكن آخذًا في الجودة إلى هذا العهد، وصار
 للحروف قوانين في وضعها، وأشكالها متعارفة بين الخطاطين، وقد حفظ لنا
@@ -1111,7 +1111,7 @@ Hydrotherapy نجحت نجاحًا عظيمًا في شفاء كثير من ال
 وغيرها، ويغلب استعماله أيضًا في المراسلات الاعتيادية، وقد أسلفنا أنه، والقلم
 الهمايوني من مستحدثات الأتراك، وهما يُستعملان عندهم إلى الآن، وقد انتشر
 الرقعة بسلطة الأتراك في جزء من البلدان العربية، ومع أنه مكروه من بعض
-العرب الخلص لأنه خط تركي [4] ، فهو مستعمل في مصر، و<placeName change="#d2e120" xml:id="placeName_9.d2e2536">العراق</placeName>، وسوريا
+العرب الخلص لأنه خط تركي [4] ، فهو مستعمل في مصر، و<placeName change="#d2e120 #d11e298" xml:id="placeName_9.d2e2536" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، وسوريا
 مثل القلم الثلث المستعمل عند الجميع، إلا أن الثلث يستعمل في الزخرفة والتزويق
 أكثر من استعماله في الكتابة العادية.
 (6) قلم التعليق: أو الكتابة الفارسية المحرفة، وهو يستعمل في تركيا
@@ -1204,7 +1204,7 @@ Hydrotherapy نجحت نجاحًا عظيمًا في شفاء كثير من ال
 وضبط الحروف العربية
 أما الإعجام أو النقط فيظن أنها كانت موجودة في بعض الحروف قبل الإسلام
 وتُنُوسِيَتْ، ولكن المشهور أن اختراعها كان في زمن عبد الملك بن مروان، وذلك
-لما كثر التصحيف خصوصًا في <placeName change="#d2e120" xml:id="placeName_10.d2e2744">العراق</placeName>، والتبست القرءاة على الناس لتكاثر
+لما كثر التصحيف خصوصًا في <placeName change="#d2e120 #d11e298" xml:id="placeName_10.d2e2744" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>، والتبست القرءاة على الناس لتكاثر
 الأعاجم من القراء، والعربية ليست لغتهم، فصعب عليهم التمييز بين الأحرف
 المتشابهة ففزع الحجاج إلى كتابه، وسألهم أن يضعوا لهذه الأحرف المتشابهة
 علامات، ودعا نصر بن عاصم الليثي، ويحيى بن يعمر العدواني (تلميذي أبي
@@ -1274,24 +1274,24 @@ Hydrotherapy نجحت نجاحًا عظيمًا في شفاء كثير من ال
                
 للسلطان عبد الحميد حسنة عظيمة في البلاد العربية، لا يصدنا عن
 الاعتراف بها، ما قيل من نيته فيها وغرضه منها، ألا وهي سكة الحديد الحجازية،
-التي كان يظن ويقال إنه كان الباعث له على إنشائها جعل <placeName change="#d2e120" xml:id="placeName_11.d2e2890">الحجاز</placeName> كسائر البلاد
+التي كان يظن ويقال إنه كان الباعث له على إنشائها جعل <placeName change="#d2e120 #d11e298" xml:id="placeName_11.d2e2890" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> كسائر البلاد
 العثمانية في الخضوع لحكومته، والتمكن من سوق الجيوش إليها عند الحاجة،
-والمعروف من رأي كثير من رجال الدولة إزالة إمارة الشرفاء من <placeName change="#d2e120" xml:id="placeName_12.d2e2897">الحجاز</placeName> منهم
+والمعروف من رأي كثير من رجال الدولة إزالة إمارة الشرفاء من <placeName change="#d2e120 #d11e298" xml:id="placeName_12.d2e2897" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> منهم
 أحمد مختار باشا الغازي، ولا يكون ذلك سهلاً مأمون العاقبة إلا بإتمام هذه السكة،
-وهذا هو السبب فيما اشتهر من معارضة شرفاء <placeName change="#d2e120" xml:id="placeName_13.d2e2905">مكة</placeName> لمد هذه السكة بين الحرمين
+وهذا هو السبب فيما اشتهر من معارضة شرفاء <placeName change="#d2e120 #d11e298" xml:id="placeName_13.d2e2905" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> لمد هذه السكة بين الحرمين
 الشريفين.
 كنا ولا نزال نرى أن هذه السكة من أكبر الحسنات، على علمنا بما هنالك
 من الأقوال والظنون والنيات؛ ولكن للسلطان عبد الحميد سيئة من جنس هذه
 الحسنة يزيد وزرها على أجر هذه - إن حسنت النية فيها - أضعافًا كثيرة لعلها
-تزيد على سبع مئة ضِعْف، ألا وهي سكة الحديد الألمانية بين الآستانة، و<placeName change="#d2e120" xml:id="placeName_14.d2e2919">العراق</placeName>.
+تزيد على سبع مئة ضِعْف، ألا وهي سكة الحديد الألمانية بين الآستانة، و<placeName change="#d2e120 #d11e298" xml:id="placeName_14.d2e2919" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>.
 من شروط هذه السكة أن الشركة الألمانية تملك عشرين ألف متر (20 كيلو)
 عن جانبيها ملكًا خالصًا، فعشرون ألف متر تمتد من أقصى مغرب المملكة الشمالي
-إلى أقصى مشرقها الجنوبي، يكوِّن مملكة كبيرة في قلب <placeName change="#d2e120" xml:id="placeName_15.d2e2928">المملكة العثمانية</placeName> مساحتها
+إلى أقصى مشرقها الجنوبي، يكوِّن مملكة كبيرة في قلب <placeName change="#d2e120 #d11e298" xml:id="placeName_15.d2e2928" ref="oape:place:1" resp="#xslt">المملكة العثمانية</placeName> مساحتها
 ضعفا مساحة الأرض التي تزرع في المملكة المصرية، وهي منها في أعز مكان،
 كالقلب من بدن الإنسان، فكما أن القلب مصدر الحياة للبدن، كذلك تكون هذه السكة
 مصدر الثروة والقوة والعمران في المملكة، فكيف يعيش من يكون قلبه في قبضة
 أجنبي عنه، وقد كانت بريطانية العظمى على قوتها تعد وصول هذه السكة إلى
-الكويت، أو <placeName change="#d2e120" xml:id="placeName_16.d2e2942">البصرة</placeName> خطرًا على مصالحها التجارية في <placeName change="#d2e120" xml:id="placeName_17.d2e2946">العراق</placeName> وخليج فارس، بل
+الكويت، أو <placeName change="#d2e120 #d11e298" xml:id="placeName_16.d2e2942" ref="geon:99532 oape:place:210 wiki:Q48195" resp="#xslt">البصرة</placeName> خطرًا على مصالحها التجارية في <placeName change="#d2e120 #d11e298" xml:id="placeName_17.d2e2946" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وخليج فارس، بل
 خطرًا على ممالكها الهندية، أفلا تكون هذه السكة في قلب مملكة خطرًا عليها؟ بل
 إنها وهي لغيرنا أعظم الأخطار لو كانت غفلاً عن ذلك الشرط، فكيف تكون مع
 ذلك الشرط؟
@@ -1304,7 +1304,7 @@ Hydrotherapy نجحت نجاحًا عظيمًا في شفاء كثير من ال
 ألماني في بلجيكة للعب الكرة في داره ظهر بعد الحرب أنه أعد لنصب أثقل المدافع
 وأقواها، وأنه وضع على البعد المناسب بينه وبين الحصون البلجيكية، وما كان
 يمكن دكها وتدميرها إلا منه.
-كنا قرأنا في المقطم أن من شروط التحالف بين ألمانية، و<placeName change="#d2e120" xml:id="placeName_18.d2e2977">الدولة العثمانية</placeName> أن
+كنا قرأنا في المقطم أن من شروط التحالف بين ألمانية، و<placeName change="#d2e120 #d11e298" xml:id="placeName_18.d2e2977" ref="oape:place:1" resp="#xslt">الدولة العثمانية</placeName> أن
 الأولى لا ترضى بعقد صلح إلا إذا اشترط فيه سلامة أملاك الثانية، وأنها تعطيها
 خمس الغرامة الحربية التي ترجو أن تأخذها، على كونها هي التي تقدم لها السلاح،
 والذخيرة، والمال لأجل الحرب، وقرأنا وسمعنا أنها وعدتها ببلاد القوقاس،
