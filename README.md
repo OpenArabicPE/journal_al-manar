@@ -54,4 +54,17 @@ The digital text was downloaded from shamela.ws. Digital facsimiles are availabl
         2. XSLT: wrap the entire content of these `<div>`s in `<div type="item" subtype="article">`
 - empty notes
 
+# named entities
+## periodicals
+
+Periodicals have been marked-up in an automated process with manual corrections after removing `<lb/>` elements.
+
+Automated linking to the authoritative bibliography was first done on 20 September 2024. Results
+
+- 1527 successful links of titles
+    - 895 in a second run
+- 193 outright failures
+- 817 failures for ambigous mentions or references to titles that had not been published yet.
+    - the latter is a faulty implementation based on the error messages 
+
 [sakhrit]: https://archive.alsharekh.org/

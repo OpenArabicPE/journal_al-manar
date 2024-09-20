@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e282" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e276" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-20" who="#pers_TG" xml:id="d11e303" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e292" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e282" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e276" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -79,7 +79,7 @@
 عن خلافة آدم ونبوته ومعصيته
 (52-56) من صاحب الإمضاء:
 حضرة صاحب الفضيلة أستاذنا الحجة السيد محمد رشيد رضا صاحب <bibl resp="#xslt" type="periodical" subtype="journal" change="#d11e276">مجلة
-<title level="j" change="#d11e276">المنار</title> الغراء</bibl>بمصر.
+<title level="j" change="#d11e276 #d11e292 #d11e303" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" resp="#xslt">المنار</title> الغراء</bibl>بمصر.
 السلام عليكم ورحمة الله وبركاته من أخ أو ابن يعتقد فيكم الصراحة في القول
 والإخلاص في العمل، والصدع بالحقيقة متى استبانت، لذا يحفزني إلى الكتابة
 إليكم اليوم سؤال طالما جشأت به نفسي وجاشت، عَلَّنِي أجد لديكم ما يشفي
@@ -228,7 +228,7 @@
 وأخذ جمهور العلماء بهذا وبقي فيهم من يفتي بالأول وهو الأصل، وقد
 اعتمدته الحكومة المصرية في محاكمها الشرعية في هذا العصر، وهو الذي أعتقده
 وبسطت أدلته في تفسير الآية من جزء التفسير الثاني، وفي مواضع من <bibl resp="#xslt" type="periodical" subtype="journal" change="#d11e276">مجلة
-<title level="j" change="#d11e276">المنار</title></bibl>. فمن وقع له ذلك، وكان من أهل النظر والفهم فعليه أن ينظر في أدلة
+<title level="j" change="#d11e276 #d11e292 #d11e303" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" resp="#xslt">المنار</title></bibl>. فمن وقع له ذلك، وكان من أهل النظر والفهم فعليه أن ينظر في أدلة
 المسألة التي بسطناها نحن وغيرنا ويعمل بما يراه الأرجح من جهة الديانة، ومن لم
 يكن من أهل النظر استفتى من يثق بعلمه ودينه وعمل بفتواه. وأما من جهة
 القضاء إذا اختلف مع مطلقته في ذلك فالواجب اتباع ما يقضي به قاضي بلده فإن
@@ -236,7 +236,7 @@
 * * *
 (95) الصفات المستحيلة على الخالق تعالى:
 حضرة صاحب الفضيلة مولانا الأستاذ المصلح الكبير السيد محمد رشيد رضا
-منشىء <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e615">المنار</title> <pubPlace>ب<placeName change="#d2e120 #d11e282" xml:id="placeName_4.d2e618" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName></pubPlace></bibl>.
+منشىء <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120 #d11e292" xml:id="title_5.d2e615" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" resp="#xslt">المنار</title> <pubPlace>ب<placeName change="#d2e120 #d11e282" xml:id="placeName_4.d2e618" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName></pubPlace></bibl>.
 مقدمه لفضيلتكم عبد الله أوانج القطاني الطالب برواق الجاوه بالأزهر
 الشريف، وبعد فإنني تلقيت خطابًا من جدي وهو من العلماء المدرسين في بلدنا
 (فطاني بسيام) وأمرني فيه أن أرفع السؤال الآتي إلى علماء مصر لأنه حصل
@@ -409,7 +409,7 @@
 بالقول والفعل وفد المؤتمر الإسلامي العام، فخاطب السيد أمين الحسيني كلا من
 الإمامين في عيد الأضحى، وجاءتني منه برقية بالخير كلفني فيها الإبراق إليهما
 بتأييد وساطة المؤتمر الإسلامي، ووصلت إليَّ هذه البرقية يوم الخميس 29 مارس
-ونشر خبرها في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_6.d2e1060">الجهاد</title></bibl> الغراء، ثم نشرت الجرائد برقيات أخرى من
+ونشر خبرها في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d11e303" xml:id="title_6.d2e1060" ref="NA" resp="#xslt">الجهاد</title></bibl> الغراء، ثم نشرت الجرائد برقيات أخرى من
 سماحته إلى بعض الأمراء والكبراء في مصر وغيرها، (وقد ألف الوفد بالفعل
 فسافر بعد كتابة ما تقدم للمنار وقبل نشره) وأيده بالبرقيات أشهر أمراء مصر
 وزعمائها.
@@ -608,7 +608,7 @@
 الرحمن.
 وأما الذين استأذنونا بترجمته باللغات المختلفة فقد أذنا لهم كلهم لأول وهلة،
 ولم نلبث أن علمنا أن أحد مترجميه باللغة الأوردية (الهندية) قد أتم عمله، وهو
-تلميذنا الشيخ عبد الرزاق المليح آبادي مؤسس <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e1500">هند الجديد</title></bibl>) في كلكتة،
+تلميذنا الشيخ عبد الرزاق المليح آبادي مؤسس <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة (<title level="j" change="#d11e303" xml:id="title_7.d2e1500" ref="NA" resp="#xslt">هند الجديد</title></bibl>) في كلكتة،
 وهو ينتظر صدور الطبعة الثانية ليدخل في ترجمته ما يجده من تنقيح وزيادة، وإن
 مترجمًا آخر بها ينشر ترجمته في بعض الصحف تعجيلاً للفائدة.
 وكذلك يترجمه آخران باللغة الصينية (أحدهما) الشيخ بدر الدين الصيني
@@ -1051,7 +1051,7 @@
 ***
 طائفة من التقاريظ التي رأيناها في المجلات والجرائد
 تقريظ الأستاذ العلامة <bibl type="periodical" subtype="journal" change="#d3e268"><editor><persName>الشيخ محمد تقي الدين الهلالي</persName></editor>
-(محرر مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e2466">الضياء</title> الهندية في <pubPlace><placeName ref="geon:1264733 oape:place:294 wiki:Q47916" resp="#xslt" change="#d11e282">لكنهؤ</placeName></pubPlace></bibl>، ونشر فيها)
+(محرر مجلة <title level="j" change="#d11e303" xml:id="title_8.d2e2466" ref="NA" resp="#xslt">الضياء</title> الهندية في <pubPlace><placeName ref="geon:1264733 oape:place:294 wiki:Q47916" resp="#xslt" change="#d11e282">لكنهؤ</placeName></pubPlace></bibl>، ونشر فيها)
 هدية ثمينة وتحفة نفيسة وثمرة علمية يانعة، أنتجها قلم إمام هذا العصر
 وحكيمه الأكبر، مولانا السيد محمد رشيد رضا. لا زال بحر بره زاخرًا
 يقذف بالدرر، ووابل علومه يحيي القلوب الميتة، وظله الوارف حماية
@@ -1104,11 +1104,11 @@
 (وهنا لخص الأستاذ مقاصد القرآن العشرة وخاتمة الكتاب فجزاه الله
 عن نفسه ودينه وأخيه المؤلف أفضل الجزاء) .
 ***
-تقريظ <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_9.d2e2584">الشبان المسلمين</title></bibl> لكتاب الوحي المحمدي
+تقريظ <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d11e303" xml:id="title_9.d2e2584" ref="NA" resp="#xslt">الشبان المسلمين</title></bibl> لكتاب الوحي المحمدي
 لرئيس تحريرها الأستاذ النحرير الدكتور يحيى الدرديري
 الأستاذ العلامة السيد محمد رشيد رضا ليس بغريب على القارئ حتى نقدمه
 إليه بمقدمة تشرح تاريخه وماضيه في الجهاد القلمي للإسلام. وبحسب القارئ
-أنه يعلم أنه منشئ <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_10.d2e2596">المنار</title></bibl>، وأنه وارث علم الأستاذ الإمام الشيخ محمد
+أنه يعلم أنه منشئ <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120 #d11e292 #d11e303" xml:id="title_10.d2e2596" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" resp="#xslt">المنار</title></bibl>، وأنه وارث علم الأستاذ الإمام الشيخ محمد
 عبده، ومذيعه على الناس إذاعة لولاها ما كتب له هذا الذكر الخالد العريض.
 وقد أخرج للمكتبة الإسلامية العربية في هذا العام كتابًا قيمًا في إثبات الوحي
 المحمدي بالقرآن، ودعوة شعوب المدنِيَّة إلى الإسلام دين الأخوة الإنسانية
@@ -1125,7 +1125,7 @@
 ***
 تقريظ
 (بقلم الأديب الكبير الكاتب النحرير الأستاذ الشيخ عبد العزيز البشري)
-نشر في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_11.d2e2636">البلاغ</title></bibl> الغراء
+نشر في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d11e303" xml:id="title_11.d2e2636" ref="NA" resp="#xslt">البلاغ</title></bibl> الغراء
 شغلتي أشغال عن مطالعة هذا الكتاب أول مظهره. حتى إذا تفرغت وتهيأت
 لي الأسباب تجردت في قراءته وتدبره. ولقد تناولته والظن معقود بأنه من جنس ما
 خرج من الكتب في بابه، على أنني ما كدت أسترسل فيه حتى جعل يتعاظمني
@@ -1250,7 +1250,7 @@
 * * *
 تقريظ الكاتب الكبير
 عباس محمود العقاد
-نشر في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_13.d2e2915">الجهاد</title></bibl>
+نشر في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d11e303" xml:id="title_13.d2e2915" ref="NA" resp="#xslt">الجهاد</title></bibl>
 أكثر من قرأت لهم من كتاب المباحث الدينية الأحياء اثنان: هما السيد
 محمد رشيد رضا صاحب المنار والأستاذ محمد فريد وجدي صاحب التواليف
 والتصانيف الكثيرة المعروفة باسمه.
@@ -1440,7 +1440,7 @@
 * * *
 كلمة للأستاذ محمد لطفي جمعة المحامي
 الكاتب الخطيب المصنف الشهير
-نشرت في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_15.d2e3332">البلاغ</title> في <date when="1933-09-13">23 جمادى الأولى سنة 1352 الموافق 13
+نشرت في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d11e303" xml:id="title_15.d2e3332" ref="NA" resp="#xslt">البلاغ</title> في <date when="1933-09-13">23 جمادى الأولى سنة 1352 الموافق 13
 سبتمبر سنة 1933</date>.</bibl>
 الوحي المحمدي كتاب من تأليف العالم العلامة السيد محمد رشيد رضا منشئ
 المنار الأغر، وغاية المؤلف ثبوت النبوة بالقرآن، ودعوة شعوب المدنية إلى
@@ -1533,7 +1533,7 @@
 * * *
 تقريظ الأستاذ عبد السميع البطل
 المدرس بمدرسة رقي المعارف الثانوية
-ونشر في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_17.d2e3545">الجهاد</title></bibl> مختصرًا
+ونشر في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d11e303" xml:id="title_17.d2e3545" ref="NA" resp="#xslt">الجهاد</title></bibl> مختصرًا
 استهدف الإسلام منذ فجر التاريخ، لكثير من الشبهات التي كان يصوبها نحوه
 خصومه من الملاحدة، وأعداؤه من السياسيين، وكان العلماء في كل عصر
 يتصدون للرد على هذه الشبهات ويجدعون أنوفها، فيظل واضح الطريق، نيِّر

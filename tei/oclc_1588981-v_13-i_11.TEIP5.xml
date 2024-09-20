@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e309" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e303" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-20" who="#pers_TG" xml:id="d11e330" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e319" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e309" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e303" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e181">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e184">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e190">
                <item change="#d2e120" xml:id="item_1.d2e192">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e194">num</gi> node </item>
@@ -246,7 +246,7 @@
                
 س 53 من م. ب. ع في سمبس برنيو (جاوه)
 حضرة فخر الأنام، سعد الملة وشيخ الإسلام، سيدي الأستاذ العلاَّمة السيد
-محمد رشيد رضا صاحب <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_5.d2e638">المنار</title></bibl> الغراء، أدام الله بعزيز وجوده النفع آمين.
+محمد رشيد رضا صاحب <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120 #d11e319" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_5.d2e638" resp="#xslt">المنار</title></bibl> الغراء، أدام الله بعزيز وجوده النفع آمين.
 وبعد إهداء أشرف التحية وأزكى السلام، فيا سيدي وعمدتي، أرجو منكم
 الالتفات إلى ما ألقيه إليكم من الأسئلة؛ لتجيبوني عنها، وهي:
 هل تُحدّ مسافة القصر بحديث (يا أهل <placeName change="#d2e120 #d11e309" xml:id="placeName_7.d2e648" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> لا تَقْصروا في أدنى من أربعة
@@ -317,7 +317,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_31.d2e786"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_32.d2e788"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_33.d2e790"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_34.d2e792"/> المترجم من <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_6.d2e795">الشورى</title></bibl> عدد33
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_34.d2e792"/> المترجم من <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d11e330" xml:id="title_6.d2e795" ref="NA" resp="#xslt">الشورى</title></bibl> عدد33
 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_35.d2e800"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_36.d2e802"/> 
@@ -615,7 +615,7 @@
                
 
                
-نشرت <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:25 oclc:792755902" xml:id="title_7.d2e1477">المؤيد</title></bibl> في شهر شعبان من هذه السنة مقالة لجميل صدقي أفندي
+نشرت <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d5e196 #d2e120 #d11e319" ref="oclc:792755902 jaraid:bibl:t1r328 oape:bibl:25 wiki:Q124972384" xml:id="title_7.d2e1477" resp="#xslt">المؤيد</title></bibl> في شهر شعبان من هذه السنة مقالة لجميل صدقي أفندي
 الزهاوي الشاعر البغدادي المشهور، ينتصر فيها بتخيلاته الشعرية للناس على
 الشريعة الإسلامية الحكيمة، ومقالة أخرى يدعو فيها العرب إلى ترك اللغة العربية
 الفصيحة واستعمال اللغات العامية التي يتخاطبون بها على سخفها وعسر ضبطها،
@@ -764,7 +764,7 @@
 بعد كتابة المقالة، جاءنا المؤيد يقول: إنهم قابلوا خط رسالة مقالة الدفاع عن
 المرأة بخط بعض القصائد التي كان أرسلها الزهاوي للمريد من قبل؛ فوجدوا الخط
 مختلفًا غير متشابه، فإذا أنكر الزهاوي تلك المقالة وتبرأ مما فيها من الاعتراض
-على الشريعة تبرؤًا جليًّا واضحًا لا كما كتب في <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e1818">الرقيب</title></bibl>، فإن ما كتبه المؤيد
+على الشريعة تبرؤًا جليًّا واضحًا لا كما كتب في <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d11e330" xml:id="title_8.d2e1818" ref="NA" resp="#xslt">الرقيب</title></bibl>، فإن ما كتبه المؤيد
 الآن يصلح حجة على تأييد إنكاره، وحينئذ نطالب الحكومة والأهالي بجعل الحادثة
 كأن لم تكن شيئًا مذكورًا. <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_6.d2e1825">(1) الظاهر أن الأصل اشتهت غيره بدليل مقابله.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_6.d2e1828">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_8.d2e1830" ref="oape:pers:689 viaf:51716068">
@@ -962,10 +962,10 @@
                
 
                
-أَنشأت <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_10.d2e2236">الشورى</title> التي تصدر في <pubPlace><placeName ref="geon:515003 oape:place:352 wiki:Q5337" resp="#xslt" change="#d11e309">أرينبوغ</placeName></pubPlace> من روسية في عددها السابع
+أَنشأت <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d11e330" xml:id="title_10.d2e2236" ref="NA" resp="#xslt">الشورى</title> التي تصدر في <pubPlace><placeName ref="geon:515003 oape:place:352 wiki:Q5337" resp="#xslt" change="#d11e309">أرينبوغ</placeName></pubPlace> من روسية في عددها السابع
 عشر الصادر في سنة <date calendar="#cal_gregorian" when="1910" change="#d3e146 #d2e120" xml:id="date_7.d2e2241">1910</date> مقالة عنوانها (<title level="a">نحن والمبشرون</title>)</bibl> بقلم هادي أفندي
 أطلاسف؛ الذي كان عضوًا في مجلس (الدوما) الأول، فاستحسنَّا نقلها لقراء
-<bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d2e207 #d5e212 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_11.d2e2249">المنار</title></bibl> الأغر، وتصرفنا فيها تصرفًا قليلاً.
+<bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d2e207 #d5e212 #d2e120 #d11e319" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_11.d2e2249" resp="#xslt">المنار</title></bibl> الأغر، وتصرفنا فيها تصرفًا قليلاً.
 بعدما بيّن حضرته في مقالته معنى التبشير لأبناء جنسه، قال: ما يأتي بعد.
 إننا نعرف من الجمعيات جمعية تدعى (جمعية مبشري الكاثوليك) المقصد
 الأساسي لها؛ هو التبشير بالنصرانية والاجتهاد في تنصير المجوس والوثنيين
@@ -1006,11 +1006,11 @@
 واحد منهما على الجمعية (سبعة آلاف روبل) ، ولوجدنا ربح هذه الجمعية أنقص
 من ربح تلك التي تصدت لتنصير المجوس بكثير.
 أُسست في غضون هذه الأسابيع فقط في (أيركوتسكي) جمعية تدعى أيضًا
-جمعية المبشرين، فأسرعت <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_11.d2e2344">الربيج</title>) (جريدة <textLang mainLang="ru">روسية</textLang> تصدر في
+جمعية المبشرين، فأسرعت <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d2e191 #d2e120 #d11e319" xml:id="title_11.d2e2344" ref="oape:bibl:3929" resp="#xslt">الربيج</title>) (جريدة <textLang mainLang="ru">روسية</textLang> تصدر في
 <pubPlace><placeName ref="geon:498817 oape:place:355 wiki:Q656" resp="#xslt" change="#d11e309">بطرسبورج</placeName></pubPlace>)</bibl> باللوم عليها في مقالتها التي نشرتها في عددها الموفي مئتين، قالت
 فيها: إن مبشرينا لا يعرفون ما يجب عليهم؛ لأنهم كُسالى من جهة وجهلاء من
 أخرى، ولا يَقدرون أن يؤدوا وظيفتهم التي أخذوها على عاتقهم حق التأدية، ولكني
-لا أوافق فكرة <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_12.d2e2356">الربيج</title></bibl>) ، بل أريد أن أخالفها، أريد أن أمدح هؤلاء
+لا أوافق فكرة <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d2e191 #d2e120 #d11e319" xml:id="title_12.d2e2356" ref="oape:bibl:3929" resp="#xslt">الربيج</title></bibl>) ، بل أريد أن أخالفها، أريد أن أمدح هؤلاء
 المبشرين ولا أعيبهم، ولكن مدحي لهم يكون كأضحوكة كما أنهم كذلك، وإني وإن
 لم أستحسن أن أمدحهم من حيث إنهم يحاولون دائمًا أن ينصّروا المسلمين،
 ويجتهدون في ذلك بالتشمير عن ساعد جدهم، لا أرى بأسًا بمدحهم من جهة أخرى،
@@ -1027,17 +1027,17 @@
 المبشرين في زمانه، وأعلمهم وأكثرهم دعاء (ولبوبيدونسف) ، وهذا أيضًا كان
 كذلك، حتى إنني أعد تلك المكاتيب أنفع وأفيد من مكاتيب الإمام الرباني كرات
 عديدة.
-<bibl type="periodical" subtype="journal" change="#d3e296">الآن تصدر في مدينة <pubPlace><placeName ref="geon:524901 oape:place:357" resp="#xslt" change="#d11e309">مسكوف</placeName></pubPlace> مجلة تدعى مجلة (<title level="j" change="#d2e191 #d2e120" xml:id="title_13.d2e2396">فيرنوست</title></bibl>) من قِبل المبشر
+<bibl type="periodical" subtype="journal" change="#d3e296">الآن تصدر في مدينة <pubPlace><placeName ref="geon:524901 oape:place:357" resp="#xslt" change="#d11e309">مسكوف</placeName></pubPlace> مجلة تدعى مجلة (<title level="j" change="#d2e191 #d2e120 #d11e319" xml:id="title_13.d2e2396" ref="oape:bibl:3991" resp="#xslt">فيرنوست</title></bibl>) من قِبل المبشر
 (واسترغوف) المشهور في مجلس (السناتو) ، ويكتب في هذه المجلة أشياء
 كثيرة في شأن المسلمين، وعلى الخصوص المقالات التي تكتب بقلم (واسترغوف)
 نفسه وقلم كاتب آخر يدعى (ميدفيدسكي) ، تكون عائدة للملل غير ملة الروس
-وفي هذه المجلة <bibl type="periodical" subtype="journal" change="#d3e296">مجلة (<title level="j" change="#d2e191 #d2e120" xml:id="title_14.d2e2408">فيرنوست</title></bibl>) من تنبيه الأفكار وإحياء الشعور الإسلامي
+وفي هذه المجلة <bibl type="periodical" subtype="journal" change="#d3e296">مجلة (<title level="j" change="#d2e191 #d2e120 #d11e319" xml:id="title_14.d2e2408" ref="oape:bibl:3991" resp="#xslt">فيرنوست</title></bibl>) من تنبيه الأفكار وإحياء الشعور الإسلامي
 لمن يُعْنَى بقراءتهما ومطالعتهما مطالعة جيدة، ما ليس في قراءة <bibl resp="#xslt" type="periodical" subtype="journal" change="#d11e303">مجلة
-(<title level="j" change="#d11e303">دين ومعيشت</title>)</bibl> التي من شأنها أن تكون دائمًا عقبة كأداة أمام العلوم والمعارف،
+(<title level="j" change="#d11e303 #d11e319" ref="oape:bibl:3980" resp="#xslt">دين ومعيشت</title>)</bibl> التي من شأنها أن تكون دائمًا عقبة كأداة أمام العلوم والمعارف،
 ولا أثر لها في المحافظة على الدين ولا المعيشة وإن ادعت ذلك، بل لا يمكن
 لأحد تحصيل تلك التيقظات والتنبيهات من مجلة دينية محضة أيضًا.
 ولو كان الأمر لي في قراءة المجلات المنبهة للإنسان من سباته العميق كما
-أريد، لأمرت كل مشايخ التتر بقراءة <bibl type="periodical" subtype="journal" change="#d3e296">مجلة (<title level="j" change="#d2e191 #d2e120" xml:id="title_15.d2e2424">ففيرنوست</title></bibl>) ؛ لكي يعتبروا بما فيها
+أريد، لأمرت كل مشايخ التتر بقراءة <bibl type="periodical" subtype="journal" change="#d3e296">مجلة (<title level="j" change="#d2e191 #d2e120 #d11e319" xml:id="title_15.d2e2424" ref="oape:bibl:3991" resp="#xslt">ففيرنوست</title></bibl>) ؛ لكي يعتبروا بما فيها
 ويكونوا بعد ذلك أثبت قدمًا في الدين الإسلامي المبين.
 نرى في بادئ النظر أن المبشرين أشد الناس ضررًا للمسلمين، وإذا أمعنا
 النظر لا نجدهم كذلك، بل نجدهم عكس ما نعتقد فيهم، نجدهم مما لا بد منهم في
@@ -1055,7 +1055,7 @@
 العميق، بنداء لطيف جدًّا يعادل نداء المؤذن (حي على الفلاح) . <note type="footnote" place="bottom" change="#d2e120" xml:id="note_8.d2e2460"/>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_8.d2e2462">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_10.d2e2464" ref="oape:pers:997">
                             <roleName type="pseudonym">أحد قراء 
-                                <title level="j">المنار</title></roleName>
+                                <title level="j" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" change="#d11e319 #d11e330" resp="#xslt">المنار</title></roleName>
                         </persName>
          </byline></div>
             <pb n="n13-p857" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P2349.xhtml" change="#d2e120" xml:id="pb_19.d2e2469"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="857" xml:id="pb_20.d2e2470"/>
@@ -1462,7 +1462,7 @@
 والمجهودات التي تبذل في سبيل التخلص من الأجانب في الإسلام.
 ولما كان المسيو أيدموند مونتيه كاهنًا بروتستانتيًا حر الأفكار، كانت أفكاره
 وآراؤه في هذا الشأن من الأهمية بحيث لا يستهان بها.
-لذلك أرسلت <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_18.d2e3351">السبيكل</title></bibl>) إلى جنابه من يسأله عن آرائه في شأن
+لذلك أرسلت <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d2e191 #d2e120 #d11e319" xml:id="title_18.d2e3351" ref="oape:bibl:3939" resp="#xslt">السبيكل</title></bibl>) إلى جنابه من يسأله عن آرائه في شأن
 الموضوعات التي سيجعلها موضوع بحثه، فصرح له بالتصريحات الآتية:
 أما آرائي فيها فهي كثيرة جدًّا، وإن السؤال الذي ألقيته عليّ سؤال مركب
 كثير الفروع، فاسمح لي أن أحييك عليه بعده أجوبة؛ لأن الإسلام يظهر أمامنا في
@@ -1529,10 +1529,10 @@
 نجد، ولا سيما إخضاع أكبر أمرائها ورئيس عشائرها الأمير عبد العزيز آل سعود
 للدولة العلية، وحمله على الثقة بها، ولكنه لم يسلم من اللوم والمؤاخذة حتى قالت
 بعض تلك الجرائد: إن سعيه كان حسنًا ولكنه كان مخطئًا فيه؛ لأنه ليس له صفة
-ولا سلطة تجيز له أن يحل ويعقد، وقد كانت <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_19.d2e3503">يكي تصوير أفكار</title></bibl>)
+ولا سلطة تجيز له أن يحل ويعقد، وقد كانت <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d2e191 #d2e120 #d11e319" xml:id="title_19.d2e3503" ref="oape:bibl:399 wiki:Q124970184" resp="#xslt">يكي تصوير أفكار</title></bibl>)
 خاضت في مثل هذا الإنكار والتجاهل، ثم اقترحت على سليمان بك نظيف - الذي
 كان إلى عهد قريب واليًا للبصرة - أن يكتب إليها شيئًا مما وصل إليه اختباره عن
-عرب الجزيرة، فكتب إليها مقالاً ترجمته <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:20 oclc:1034548778" xml:id="title_20.d2e3513">المفيد</title></bibl>، فنقلناه عنها لما فيه من
+عرب الجزيرة، فكتب إليها مقالاً ترجمته <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d5e196 #d2e120 #d11e319" ref="oclc:1034548778 jaraid:bibl:t1r2374 oape:bibl:20 wiki:Q124972811" xml:id="title_20.d2e3513" resp="#xslt">المفيد</title></bibl>، فنقلناه عنها لما فيه من
 الإنصاف واستقلال الرأي [1] هو: قال الكاتب:
 إن السلطة العثمانية في جنوب <placeName change="#d2e120 #d11e309" xml:id="placeName_31.d2e3520" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وجزيرة <placeName change="#d2e120 #d11e309" xml:id="placeName_32.d2e3523" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> لا تتأيد؛ ما لم تتأيد
 العدالة وحسن الإدارة، ففي كل وقعة من الوقائع خطر يتطاير شرره.
@@ -1664,7 +1664,7 @@
 ألفت لجنة في الأزهر بهذا الاسم رئيسها الشيخ محمد شاكر وكيل المشيخة، ولما
 بلغني خبرها وأنا في الآستانة سررت سرورًا عظيمًا، ثم بلغني أن عمل هذه اللجنة
 محصورًا في اقتراح إنشاء خطب في بعض المسائل الدينية؛ كالحث على العبادات
-والنهي عن المحرمات؛ لأجل أن تنشر في <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_22.d2e3852">الملاجئ</title> العباسية</bibl> وتصل إلى
+والنهي عن المحرمات؛ لأجل أن تنشر في <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d11e330" xml:id="title_22.d2e3852" ref="NA" resp="#xslt">الملاجئ</title> العباسية</bibl> وتصل إلى
 خطباء المساجد واطلعت على بعض تلك الخطب التي قبلتها اللجنة وأجازت منشئها،
 فإذا هي ليست خيرًا من خطب خطيب جامع الست الشامية وخطيب جامع عزبان
 ولا مثلها، نعم.. إنها أمثل من خطب خطيب جامع الحين ومن في طبقته من
@@ -1676,9 +1676,9 @@
 
                
 * * *
-(باب الانتقاد على <title level="j">المنار</title> وصاحبه)
-انتقد صاحب <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_23.d2e3885">البريد</title> التي تصدر في (<pubPlace><placeName ref="geon:3451190 oape:place:380 wiki:Q8678" resp="#xslt" change="#d11e309">ريو دي جانيرو</placeName></pubPlace>)</bibl> ما كتبناه في
-خطاب علماء الإسلام؛ الذي نشرناه في <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_24.d2e3890">الحضارة</title></bibl> ونحن في الآستانة، وفي
+(باب الانتقاد على <title level="j" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" change="#d11e319 #d11e330" resp="#xslt">المنار</title> وصاحبه)
+انتقد صاحب <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d2e120 #d11e319" xml:id="title_23.d2e3885" ref="jaraid:bibl:t1r2196 oape:bibl:1700 wiki:Q124970638" resp="#xslt">البريد</title> التي تصدر في (<pubPlace><placeName ref="geon:3451190 oape:place:380 wiki:Q8678" resp="#xslt" change="#d11e309">ريو دي جانيرو</placeName></pubPlace>)</bibl> ما كتبناه في
+خطاب علماء الإسلام؛ الذي نشرناه في <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d11e330" xml:id="title_24.d2e3890" ref="NA" resp="#xslt">الحضارة</title></bibl> ونحن في الآستانة، وفي
 المنار انتقد منه حثنا العلماء على الاستعانة بالمبعوثين؛ لأجل الوصول إلى حقوقهم
 في التعليم والمناصب الشرعية، وعلى الاجتهاد في جعل المبعوثين في الانتخاب
 الآتي منهم، وممن يرجى أن يساعدهم على خدمة ملتهم.
@@ -1714,8 +1714,8 @@
          <div type="item" subtype="article" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_12.d2e3953"><p change="#d2e120" xml:id="p_2.d2e3954">باب <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_14.d2e3956">الانتقاد على المنار</head> وصاحبه
 
                
-انتقد صاحب <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_25.d2e3963">البريد</title> التي تصدر في (<pubPlace><placeName ref="geon:3451190 oape:place:380 wiki:Q8678" resp="#xslt" change="#d11e309">ريو دي جانيرو</placeName></pubPlace>)</bibl> ما كتبناه في
-خطاب علماء الإسلام؛ الذي نشرناه في <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_26.d2e3969">الحضارة</title></bibl> ونحن في الآستانة، وفي
+انتقد صاحب <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d2e120 #d11e319" xml:id="title_25.d2e3963" ref="jaraid:bibl:t1r2196 oape:bibl:1700 wiki:Q124970638" resp="#xslt">البريد</title> التي تصدر في (<pubPlace><placeName ref="geon:3451190 oape:place:380 wiki:Q8678" resp="#xslt" change="#d11e309">ريو دي جانيرو</placeName></pubPlace>)</bibl> ما كتبناه في
+خطاب علماء الإسلام؛ الذي نشرناه في <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d11e330" xml:id="title_26.d2e3969" ref="NA" resp="#xslt">الحضارة</title></bibl> ونحن في الآستانة، وفي
 المنار انتقد منه حثنا العلماء على الاستعانة بالمبعوثين؛ لأجل الوصول إلى حقوقهم
 في التعليم والمناصب الشرعية، وعلى الاجتهاد في جعل المبعوثين في الانتخاب
 الآتي منهم، وممن يرجى أن يساعدهم على خدمة ملتهم.

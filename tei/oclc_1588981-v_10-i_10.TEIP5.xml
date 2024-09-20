@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e310" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e304" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-20" who="#pers_TG" xml:id="d11e331" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e320" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e310" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e304" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e291" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e298" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e288" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e274" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e218" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e207" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e159">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e162">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e165">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e168">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e170">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e176">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e179">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e185">
                <item change="#d2e120" xml:id="item_1.d2e187">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e189">num</gi> node </item>
@@ -602,7 +602,7 @@
 من المسائل فأجابه عما سأل، وله من الكتب كتاب (الأمثال) وكتاب (الملوك) أخبار الماضين.
 ومنهم سليم بن قيس الهلالي أحد أصحاب علي بن أبي طالب، وله كتاب في
 الحديث ويوجد هذا الكتاب إلى الآن في مكتبة السيد ناصر حسين الموسوي إمام
-الشيعة في مدينة لكناؤ في الهند، كما ذكر ذلك صاحب <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:11 oclc:792754974" xml:id="title_6.d2e1462">البيان</title> الهندية<pubPlace><placeName ref="geon:1269750 oape:place:293 wiki:Q668" resp="#xslt" change="#d11e310"/></pubPlace></bibl> في العدد
+الشيعة في مدينة لكناؤ في الهند، كما ذكر ذلك صاحب <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120 #d11e320" ref="oclc:5123270 jaraid:bibl:t1r592 oape:bibl:11 wiki:Q21605653" xml:id="title_6.d2e1462" resp="#xslt">البيان</title> الهندية<pubPlace><placeName ref="geon:1269750 oape:place:293 wiki:Q668" resp="#xslt" change="#d11e310"/></pubPlace></bibl> في العدد
 السادس من سنته الرابعة وذكر غير ذلك عدة كتب لأصحاب علي موجودة عند
 الشيعة الإمامية يضيق المقام عن ذكرها.
 وأظن أن في هذا كله بيانًا كافيًا يقنع الذاهبين إلى أن المسلمين لم يدونوا
@@ -1177,21 +1177,21 @@
 وما صرح به هذا الحزب في قانونه من كون طلب المجلس النيابي أصلاً من
 أصوله، لا ينافي تأييده لسياسة الأمير صاحب الحكم الشخصي، فإن طلب المجلس
 النيابي مرضي للأمير أيده الله بتوفيقه، كما علم من حديثه المشهور مع مكاتب
-<bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e296">جريدة (<title level="j" change="#d11e296">الطان</title>) <textLang mainLang="fr">الفرنسية</textLang></bibl> ، بل لا يبعد أن يكون هو أول من فكر بوجوب طلب الأمة
+<bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e296">جريدة (<title level="j" change="#d11e296 #d11e320" ref="oclc:263593774 oape:bibl:21 wiki:Q125629305" resp="#xslt">الطان</title>) <textLang mainLang="fr">الفرنسية</textLang></bibl> ، بل لا يبعد أن يكون هو أول من فكر بوجوب طلب الأمة
 له كما يقول بعض العقلاء.
-وأما الحزب الوطني فمؤسسه الآن مصطفى كامل باشا صاحب <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e2766">اللواء</title></bibl>،
+وأما الحزب الوطني فمؤسسه الآن مصطفى كامل باشا صاحب <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d11e331" xml:id="title_8.d2e2766" ref="NA" resp="#xslt">اللواء</title></bibl>،
 وهو رئيسه، وهو جزء من الحزب الوطني الذي كان موجودًا بالقوة أو بالفعل من
 قبل على ما بيناه في صدر هذا المقال، والقسم الآخر من ذلك الحزب هو حزب
 الإصلاح الدستوري. والفرق بين هذين الحزبين على ما أرى وهو رأي يوافقني عليه
 كثير من العقلاء هو أن حزب الإصلاح الدستوري يجمعه الرأي وبه يعمل،
 والحزب الوطني يجمعه الإحساس والشعور وبه يعمل، وإن شخص صاحب <bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e304">جريدة
-<title level="j" change="#d11e304">المؤيد</title></bibl>ليس ركنًا من أركان الحزب الأول وإن كان قطبه وأقدر العاملين فيه ولكن
-شخص صاحب <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_9.d2e2785">اللواء</title></bibl> ركن من أركان الحزب الآخر مقصود بالذات منه،
+<title level="j" change="#d11e304 #d11e320" ref="oclc:792755902 jaraid:bibl:t1r328 oape:bibl:25 wiki:Q124972384" resp="#xslt">المؤيد</title></bibl>ليس ركنًا من أركان الحزب الأول وإن كان قطبه وأقدر العاملين فيه ولكن
+شخص صاحب <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d11e331" xml:id="title_9.d2e2785" ref="NA" resp="#xslt">اللواء</title></bibl> ركن من أركان الحزب الآخر مقصود بالذات منه،
 ولذلك اتفقوا على أن يكون رئيس الحزب ما دام حيًّا بلا شرط ولا قيد. ويظهر لنا
 أن المعجبين بالحزب الوطني أكثر عددًا من المعجبين بغيره من الأحزاب؛ لأن منهم
 فيما يقال أكثر تلاميذ المدارس والخائضين في السياسة من العامة وذلك معقول؛ لأن
 هؤلاء الذين يتبعون داعي الشعور ويخضعون لسلطان الوجدان ويحبون الغلو أكثر
-ممن عداهم. وقد سلكت <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_10.d2e2799">اللواء</title></bibl> طريقة تحريك الوجدان وتهييج الشعور
+ممن عداهم. وقد سلكت <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d11e331" xml:id="title_10.d2e2799" ref="NA" resp="#xslt">اللواء</title></bibl> طريقة تحريك الوجدان وتهييج الشعور
 الوطني بعناية عظيمة تناسب الاستعداد الغالب على الشعب. ويظن أن غرض
 صاحبها من ذلك ومن نشر الدعوة إلى حزبه في الأرياف؛ هو أن يستميل رأي
 السواد الأعظم إلى نفسه، حتى يكون زعيمًا حقيقيًّا إذا دعا إلى شيء تؤيده الأمة
@@ -1230,7 +1230,7 @@
 التونسية، وقدم هذا التقرير إلى مؤتمر الاستعمار الذي اجتمع في مرسيليا سنة
 1906 الموسيو ميلي الذي كان في منصب الوزير المقيم لفرنسا بتونس، وجعل له
 مقدمة بقلمه تلاها في المؤتمر. وقد ترجمها في هذه الأيام بعض التونسيين،
-ونشرها في <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_11.d2e2874">الزهرة</title></bibl>، فرأينا أن ننشر الترجمة في المنار بعد تصحيحٍ ما
+ونشرها في <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d11e331" xml:id="title_11.d2e2874" ref="NA" resp="#xslt">الزهرة</title></bibl>، فرأينا أن ننشر الترجمة في المنار بعد تصحيحٍ ما
 لعباراتها وهي:
 هذا التقرير على صغر حجمه يبين مسألة من أكبر المسائل الحالية وهي العلاقة
 بين أوروبا والإسلام.
@@ -1813,7 +1813,7 @@
 عن الحقائق العلمية والمذاهب المتينة في أبواب الشرع الشريف. وكم لها من
 التنبيه الرشيد على وجوب التمسك بالآداب العالية ونبذ التقاليد التي ما أنزل الله
 بها من سلطان.
-نهنئ العلم وفن الكتابة في شخص <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_13.d2e4124">المنار</title></bibl> التي فتح الله عليها بالثبات
+نهنئ العلم وفن الكتابة في شخص <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120 #d11e320" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_13.d2e4124" resp="#xslt">المنار</title></bibl> التي فتح الله عليها بالثبات
 النادر لأمثالها في الشرق فإنها ستتم بعد الغد السنة العاشرة من عمرها. وندعوا لها
 بطول البقاء قائمة على خدمتها الإرشادية حاملة على الدخائل التي ظن القوم أنها من
 الدين وليست منه في شئ. ولا شك في أن من يقف مثل هذا الموقف غير المألوف
@@ -1829,7 +1829,7 @@
 شوال) :
 
                
-الاحتفال ب<bibl resp="#xslt" type="periodical" subtype="journal" change="#d11e296">مجلة <title level="j" change="#d11e296">المنار</title></bibl>
+الاحتفال ب<bibl resp="#xslt" type="periodical" subtype="journal" change="#d11e296">مجلة <title level="j" change="#d11e296 #d11e320 #d11e331" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" resp="#xslt">المنار</title></bibl>
 للعقلاء كلمة واحدة على أن الديانات مُصلحة للنفوس وناحية بها مناحي الخير،
 وكذلك اتفقوا على أن الديانات الثلاث المعروفات في ديارنا هذه لا تضاد بينها في
 الحقيقة ونفس الأمر، وإنما يوجد في كل متأخرة منها عن أختها بعض زيادات
@@ -1877,19 +1877,19 @@
 الثقة عند أكابر الأمة منذ نشأتها.
 ونحن نثني على حضرة الداعي والمدعو ونسأل الله أن يكثر من هذه الأريحية
 في صدور وجهائنا وفضلائنا.
-وجاء في <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_15.d2e4267">الظاهر</title></bibl> ما نصه:
+وجاء في <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d11e331" xml:id="title_15.d2e4267" ref="NA" resp="#xslt">الظاهر</title></bibl> ما نصه:
 أرسل إلينا حضرة عزتلو الأصولي البارع إسماعيل بك عاصم المحامي
 الشهير خطبته التي ألقاها في الحفلة التي أعدها أخيرا في داره للعلماء والكتاب
-أصحاب المجلات المصرية ومحرريها بإتمام <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_16.d2e4277">المنار</title></bibl> للسنة العاشرة من عمرها.
+أصحاب المجلات المصرية ومحرريها بإتمام <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120 #d11e320" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_16.d2e4277" resp="#xslt">المنار</title></bibl> للسنة العاشرة من عمرها.
 وقد افتتحها حضرته بمقدمة أمل فيها أن تكون الحفلة فاتحة لأمثالها في المستقبل، ثم
-استطرد منها إلى ذكر <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_17.d2e4284">المنار</title></bibl> وخدمتها العلمية والدينية وأخلاق صاحبها وعلمه
+استطرد منها إلى ذكر <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120 #d11e320" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_17.d2e4284" resp="#xslt">المنار</title></bibl> وخدمتها العلمية والدينية وأخلاق صاحبها وعلمه
 وأدبه مبينا أن تقدير العاملين تنفع الأمة - وخدمتها وتشجعهم على أعمالهم حسًّا ومعنًى
 مما يزيد في رقي البلاد وتقدمها. وختمها بالشكر على الذين أجابوا الدعوة وحضروا
 الحفلة، فنشكره أجل شكر على حسن صنيعه هذا ونرجو أن يقتدي به أدباء الأمة
 وأفاضلها لتكون الفائدة أعم والنفع أتم.
 وجاء في المؤيد الذي صدر في 25 شوال ما يأتي:
 احتفل حضرة القانوني الفاضل عزتلو إسماعيل بك عاصم المحامي ليلة الجمعة
-في داره بالعباسية بدخول <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_18.d2e4303">المنار</title></bibl> في سنتها العاشرة احتفالا شائقا دعا إليه أرباب
+في داره بالعباسية بدخول <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120 #d11e320" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_18.d2e4303" resp="#xslt">المنار</title></bibl> في سنتها العاشرة احتفالا شائقا دعا إليه أرباب
 المجلات المصرية. وبعد الطعام خطبهم حضرة المحتفل في فضل المجلات،
 واستطرد إلى ذكر المجلة المحتفل بها وعدَّد فضل صاحبها. فأجابه حضرة
 صاحب المنار بعبارات الشكر وأثنى على رصفائه الحاضرين أطيب الثناء، ثم قام
@@ -1901,23 +1901,23 @@
 الاحتفال الأدبي الكبير
 دعا حضرة الأصولي الفاضل عزتلو إسماعيل بك عاصم المحامي الشهير
 مساء أمس إلى حفلة أدبية أقامها في منزله بالعباسية لحضرات أصحاب المجلات
-العلمية الأدبية لمناسبة دخول <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_19.d2e4332">المنار</title></bibl> في سنتها العاشرة وتمهيدًا لموالاة هذه
+العلمية الأدبية لمناسبة دخول <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120 #d11e320" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_19.d2e4332" resp="#xslt">المنار</title></bibl> في سنتها العاشرة وتمهيدًا لموالاة هذه
 الاجتماعات الأدبية لتكون واسطة في زيادة التآلف والتعارف بين جماعة المشتغلين
 بالصحافة. فلبي دعوته جميع أصحاب هذه المجلات إلا واحدًا أو اثنين اعتذرا عن
 عدم الحضور لأسباب قسرية، فكان عدد الحاضرين منهم لا يقل عن العشرين وكلهم
 من كبار رجال الصحافة المشهورين، وهم أصحاب المقتطف والهلال والمفتاح
-والمنار والمقتبس ومجلة سركيس والهدى وحكمت ومرآة العلوم و<bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_20.d2e4346">الاجتهاد</title>
+والمنار والمقتبس ومجلة سركيس والهدى وحكمت ومرآة العلوم و<bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d2e120 #d11e320" xml:id="title_20.d2e4346" ref="oape:bibl:3915" resp="#xslt">الاجتهاد</title>
 <textLang mainLang="ota">التركية</textLang></bibl>.
 ولما انتظم عقد اجتماعهم أخذوا يتبادلون عبارات التحية والمودة ويتباحثون في
 ما يرقي شأن مهنتهم ويعلي مكانتها، ثم دعاهم حضرة المحتفل الفاضل إلى قاعة
 الطعام التي كانت في أبهى زخرفها وزينتها، حيث اجتمعوا حول مائدة فاخرة على
 الطراز الأوربي، فتناولوا ما لذ وطاب. ثم انبرى الخطباء منهم وهم
 حضرات إسماعيل بك عاصم والدكتور يعقوب صروف وفارس نمر صاحبا المقتطف
-وتوفيق أفندي عزوز صاحب <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_21.d2e4363">المفتاح</title></bibl> والسيد أفندي محمد صاحب <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_22.d2e4366">الهدى</title></bibl>
+وتوفيق أفندي عزوز صاحب <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d2e120 #d11e320" xml:id="title_21.d2e4363" ref="oclc:5183901 jaraid:bibl:t1r814 oape:bibl:1207 wiki:Q124972809" resp="#xslt">المفتاح</title></bibl> والسيد أفندي محمد صاحب <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d11e331" xml:id="title_22.d2e4366" ref="NA" resp="#xslt">الهدى</title></bibl>
 والمجلة المدرسية فتكلموا بما يناسب المقام، فهنأوا المحتفل به على تقدم مجلته
 وارتقائها وأثنوا على حضرة إسماعيل بك عاصم الذي كان واسطة عقد هذا الاجتماع
 وتمنوا جميعا أن تكثر بينهم مثل هذه الاجتماعات الأدبية المفيدة. ثم نهض حضرة
-الشيخ رشيد رضا صاحب <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_23.d2e4377">المنار</title></bibl> فأثنى على المحتفلين به جميعا وأظهر لهم
+الشيخ رشيد رضا صاحب <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120 #d11e320" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_23.d2e4377" resp="#xslt">المنار</title></bibl> فأثنى على المحتفلين به جميعا وأظهر لهم
 خجله من احتفائهم به وإكرامهم له عن غير جدارة واستحقاق بعبارات كلها في منتهى
 البلاغة وحسن التعبير. ومن ثم انصرف الجميع وكلهم ألسنة تلهج بالشكر والثناء
 على صاحب هذه الحفلة بعد أن قرروا إعادة مثل هذا الاحتفال الصحافي مرة في كل
@@ -1925,7 +1925,7 @@
 وجاء في المقطم الذي صدر في غد يوم الاحتفال ما نصه:
 أولَمَ حضرة الخطيب الشهير والأصولي الفاضل إسماعيل بك عاصم مساء
 أمس وليمة فاخرة في منزله بالعباسية لحضرات أصحاب المجلات العلمية والأدبية في
-هذه العاصمة - احتفالاً بدخول <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_24.d2e4398">المنار</title></bibl> الغراء في سنتها العاشرة ومد لهم مائدة
+هذه العاصمة - احتفالاً بدخول <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120 #d11e320" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_24.d2e4398" resp="#xslt">المنار</title></bibl> الغراء في سنتها العاشرة ومد لهم مائدة
 مزدانة بالأثمار من <placeName change="#d2e120 #d11e310" xml:id="placeName_29.d2e4403" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق الشام</placeName> وحلب و<placeName change="#d2e120 #d11e310" xml:id="placeName_30.d2e4406" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> ولبنان وأدار الندل - هو
 بضمتين خادم الدعوة - عليها ما لذ وطاب من الطعام المتعدد الألوان , ولما انتهى
 المدعوون من العشاء وقف سعادة الفاضل صاحب الدعوة وسط جمع كله من رجال
@@ -1933,13 +1933,13 @@
 ليطلع القراء الكرام عليها , ثم وقف حضرة العالم الفاضل السيد رشيد رضا
 المحتفل به ورد على تلك الخطبة ردا كله اتضاع واحتشام بكلام قل ودل ووقع في
 النفس وقعا حسنا، وتلاه آخرون من المدعوين فخطبوا في مدح المحتفل والمحتفل به
-وأظهروا فوائد <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_25.d2e4424">المنار</title></bibl> وشهدوا بالفضل لصاحبها المفضال.
+وأظهروا فوائد <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120 #d11e320" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_25.d2e4424" resp="#xslt">المنار</title></bibl> وشهدوا بالفضل لصاحبها المفضال.
 ثم اتفق المدعوون على أن يجتمعوا للأنس والسمر وتوثيق عرى المودة
 والصداقة مرارا في هذا الشتاء ويبحثوا في غضون ذلك عن أحسن الطرق التي
 تتجه مساعيهم فيها لخير الجمهور ونفع أهل القطر.
-وجاء في <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_26.d2e4436">المنبر</title></bibl> الصادرة في 27 شوال ما نصه:
+وجاء في <bibl type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d11e331" xml:id="title_26.d2e4436" ref="NA" resp="#xslt">المنبر</title></bibl> الصادرة في 27 شوال ما نصه:
 فاتنا أن نشير إلى الاجتماع الأدبي الذي عقده في منزله مساء الخميس الماضي
-حضرة صاحب العزة إسماعيل بك عاصم المحامي الشهير، احتفالا بإتمام <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_27.d2e4444">المنار</title></bibl>
+حضرة صاحب العزة إسماعيل بك عاصم المحامي الشهير، احتفالا بإتمام <bibl type="periodical" subtype="journal" change="#d3e291">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120 #d11e320" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_27.d2e4444" resp="#xslt">المنار</title></bibl>
 الغراء للسنة العاشرة من سني حياتها. لقد كان جامعا لنخبة أهل الفضل من أصحاب
 المجلات المصرية ومحرريها، حافلا بالشائق والمعجب من الآراء والأفكار وقد
 استهل الاحتفال حضرة صاحب الدعوة بخطبة في إطراء حضرة المحتفل وفي شؤون

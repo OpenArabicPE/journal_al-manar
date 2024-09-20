@@ -65,7 +65,7 @@
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e343" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e337" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e330" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change>
+        <revisionDesc><tei:change when="2024-09-20" who="#pers_TG" xml:id="d11e364" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e353" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e343" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e337" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e330" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change>
             <change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change>
             <change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change>
             <change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change>
@@ -427,7 +427,7 @@
 طريقة الأستاذ الإمام هي الطريقة المثلى لإصلاح حال المسلمين، ويوجد في
 المسلمين أنفسهم من يقول بضرر تعاليمه عن جهل وغباوة، أو تقليد للمرجفين عن
 بغي وحسد.
-نشرت <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_5.d2e1120">الأهرام</title></bibl> منذ شهرين مقالة مترجمة عن <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة <title change="#d2e191 #d5e196 #d2e120" level="j" ref="oape:bibl:21 oclc:263593774" xml:id="title_6.d2e1123">الطان</title></bibl> الفرنسية
+نشرت <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة <title change="#d2e191 #d2e120 #d11e353 #d11e364" level="j" xml:id="title_5.d2e1120" ref="oclc:508226561 oape:bibl:56 wiki:Q286468" resp="#xslt">الأهرام</title></bibl> منذ شهرين مقالة مترجمة عن <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة <title change="#d2e191 #d5e196 #d2e120 #d11e353" level="j" ref="oclc:263593774 oape:bibl:21 wiki:Q125629305" xml:id="title_6.d2e1123" resp="#xslt">الطان</title></bibl> الفرنسية
 الشهيرة جاء فيها: إن المسلمين في تونس ثلاث طبقات (الأولى الجامدة) وهي
 التي تحرص على بقاء المسلمين على ما هم عليه، وتنفر من العلوم العصرية
 والمدنية الغربية وأهلها هم الأكثرون.
@@ -437,7 +437,7 @@
 (الثالثة المعتدلة) وهي التي تعمل لترقية المسلمين في العلوم والمدنية مع
 المحافظة على دين الإسلام، وهي التي يُرْجَى منها الخير للبلاد التونسية، وأهلها
 يتبعون التعاليم التي كان يلقيها في مصر الشيخ محمد عبده، والتي تنشرها بينهم
-<bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e207 #d5e212 #d2e120" level="j" ref="oape:bibl:2 oclc:1588981" xml:id="title_7.d2e1148">المنار</title></bibl>. وقد كتب أكثر من واحد من الإفرنج مثل هذا عن مسلمي مصر، وهو
+<bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e207 #d5e212 #d2e120 #d11e353" level="j" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_7.d2e1148" resp="#xslt">المنار</title></bibl>. وقد كتب أكثر من واحد من الإفرنج مثل هذا عن مسلمي مصر، وهو
 ما كتبه لورد كرومر في تقاريره وتاريخه لمصر.
 فهذه طريقتنا أيها الإخوان في الإصلاح. نريد أن نجمع لأمتنا بين مصالح
 الدنيا والآخرة، وقد عرف هذا كُتَّاب الإفرنج واعترفوا بفائدته فلا ينبغي للمسلمين
@@ -684,7 +684,7 @@
 (كارت فيزيت) أنه مبعوث <placeName change="#d2e120 #d11e343" xml:id="placeName_15.d2e1722" ref="geon:281184 oape:place:6 wiki:Q1218" resp="#xslt">القدس</placeName>، ويقدمها إلى وزراء الدولة ورجالها لدى زيارته
 لهم في <placeName change="#d2e120 #d11e343" xml:id="placeName_16.d2e1727" ref="geon:745044 jaraid:place:9 oape:place:3 wiki:Q406" resp="#xslt">الأستانة</placeName>، وإلى سفراء الدول الأجنبية وموظفي نظارات الخارجية في أوربا،
 ولما اجتمع بصديقه خليل غانم مبعوث <placeName change="#d2e120 #d11e343" xml:id="placeName_17.d2e1732" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> في الاجتماع الثاني للمجلس ومنشئ
-المقالات الرنانة في <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_7.d2e1738">الديبا</title></bibl> وغيرها من جرائد باريس وذلك قبيل وفاتهما -
+المقالات الرنانة في <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة <title change="#d2e191 #d2e120 #d11e353" level="j" xml:id="title_7.d2e1738" ref="oclc:10481154 oape:bibl:153 wiki:Q125629290" resp="#xslt">الديبا</title></bibl> وغيرها من جرائد باريس وذلك قبيل وفاتهما -
 آخذه لكتابته في بطاقة الزيارة كلمة المبعوث السابق (Député- Ex) فمحا كلمة
 (سابق) ، لأن صفة المبعوثية إنما هي بإرادة الأمة وانتخابها، فهي لا تزول عن
 صاحبها إلا بانتخاب آخر، ومجلس المبعوثان لم يلغ إلغاءً، وإنما عطل إلى أجل
@@ -760,7 +760,7 @@
 (صدارة كجوك سعيد باشا وأعماله)
 ثم عين لمسند الصدارة سعيد باشا، المشهور بسعيد باشا الصغير (كجوك
 سعيد) تمييزًا له عن سَمِيّه ناظر الداخلية الكردي الأصل والمتوفى قبل بضع سنين،
-وكان سعيد باشا الصغير محررًا في <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة (<title change="#d2e191 #d2e120" level="j" xml:id="title_8.d2e1918">حوادث</title></bibl>) ، فاتصل بالداماد محمود
+وكان سعيد باشا الصغير محررًا في <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة (<title change="#d11e364" level="j" xml:id="title_8.d2e1918" ref="NA" resp="#xslt">حوادث</title></bibl>) ، فاتصل بالداماد محمود
 جلال الدين باشا ودخل بوساطته المابين وصار باشكاتب له، وهو المتسبب في إبعاد
 مدحت باشا وتعطيل أحكام القانون الأساسي، وإعلان الحرب، وعزل القائد
 (السردار) عبد الكريم باشا وإخلائه موقع (بيله) أمام بلفنا، ومداخلة المابين في
@@ -926,7 +926,7 @@
 الآستانة، وعُيِّنَ مديرًا للمدرسة الإعدادية في مدينة بروسة، فأحس من نفسه بلزوم
 السفر إلى أوربا للاطّلاع على علومها ومدنيتها، فذهب إلى باريس سنة 1890
 واختلف إلى مدرسة الزراعة، لشدة احتياج المملكة إلى العلوم الزراعية، وتعرف
-إلى علي شفقتي بك، الذي كان يصدر <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة (<title change="#d2e191 #d2e120" level="j" xml:id="title_9.d2e2298">استقبال</title></bibl>) في إيطاليا ثم في فرنسا،
+إلى علي شفقتي بك، الذي كان يصدر <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة (<title change="#d2e191 #d2e120 #d11e353" level="j" xml:id="title_9.d2e2298" ref="jaraid:bibl:t1r143 oape:bibl:661 wiki:Q124970261" resp="#xslt">استقبال</title></bibl>) في إيطاليا ثم في فرنسا،
 وهو من رجال السلطان مراد. وكان رضا بك كثير التردد على المكتبة الأهلية في
 باريس، فاطلع فيها على أهم الكتب والفنون، واشتغل بالمسائل السياسية، وحرر
 لائحة مفصلة مشتملة على رسائل في إصلاح الإدارة والمالية والزراعة والتجارة
@@ -949,7 +949,7 @@
 (التساهل الديني) رد فيها على الذين يتهمون المسلمين بالتعصب، واستدل بكثير من
 الآيات القرآنية والأحاديث النبوية، مما دل على غزارة علمه. وأما اللائحة التي
 مر ذكرها، فهي رسالة باللغة التركية مشتملة على تحقيق وعلم وسياسة في إصلاح
-إدارة الدولة ولما تنشر، <bibl type="periodical" subtype="newspaper">وكانت جريدته (<title level="j">مشورت</title>) تصدر <textLang mainLang="ota">بالتركية</textLang> <textLang mainLang="fr">والفرنساوية</textLang>
+إدارة الدولة ولما تنشر، <bibl type="periodical" subtype="newspaper">وكانت جريدته (<title level="j" ref="oape:bibl:3999" change="#d11e353" resp="#xslt">مشورت</title>) تصدر <textLang mainLang="ota">بالتركية</textLang> <textLang mainLang="fr">والفرنساوية</textLang>
 في كل أسبوع أو أسبوعين مرة</bibl>، ثم اقتصر على القسم الفرنساوي، وهي صغيرة
 الحجم، مضى على إنشائها أربع عشرة سنة، ويتألف منها مجلدان أو أكثر، وربما
 كان له غير ذلك من المؤلفات. فإنه كثير الدرس والتحقيق، يقضي الساعات
@@ -965,7 +965,7 @@
 شتى، ونظر واختبار ونفاذ بصيرة، وليس ذلك في مقدور من درس سنتين أو أكثر
 في مدرسة طبية، لا تدرس فيها العلوم السياسية والحقوقية ولا العلوم الشرقية التي
 هي موضوع بحث العلماء المستشرقين. فقبل أحمد رضا بك الانضمام إلى الجمعية،
-وصار رئيسًا لفرع باريس، ونشر <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة (<title change="#d2e191 #d2e120" level="j" xml:id="title_10.d2e2386">مشورت</title>) <textLang mainLang="ota">بالتركية</textLang> <textLang mainLang="fr">والفرنساوية</textLang></bibl> ناطقة
+وصار رئيسًا لفرع باريس، ونشر <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة (<title change="#d2e191 #d2e120 #d11e353" level="j" xml:id="title_10.d2e2386" ref="oape:bibl:3999" resp="#xslt">مشورت</title>) <textLang mainLang="ota">بالتركية</textLang> <textLang mainLang="fr">والفرنساوية</textLang></bibl> ناطقة
 بمقاصد الجمعية.
 * * *
 (معاكسة المابين للأحرار في أوربا)
@@ -978,7 +978,7 @@
 المعزولون يقصدون باريس، فيكون ذلك سببًا لعودتهم إلى وظائفهم. ودخل في
 حزب تركيا الفتاة الصبيان الذين لم يبلغوا الخامسة عشرة، والتونسيون حتى الأجانب
 من الطليان واليونان، وأصبحت سفارة باريس مرجعًا للجميع، كأنها أعظم دائرة
-من دوائر الباب العالي! ! وأقدم الجرائد التي أبطلت <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_11.d2e2417">المرصد</title></bibl> العربية التي
+من دوائر الباب العالي! ! وأقدم الجرائد التي أبطلت <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة <title change="#d2e191 #d2e120 #d11e353" level="j" xml:id="title_11.d2e2417" ref="jaraid:bibl:t1r1377 oape:bibl:2395 wiki:Q124972705" resp="#xslt">المرصد</title></bibl> العربية التي
 تعين صاحبها عضوًا في شورى الدولة، فحسده عزت باشا العابد حتى صرف قوة
 عقله وذكائه في سبيل الوصول إلى ما وصل إليه. وظهرت عدة جرائد ورسائل
 ومحررين بالتركية والعربية والكردية والفرنساوية والألبانية وغيرها، منهم أصحاب
@@ -995,7 +995,7 @@
 إلى مسامع الحضرة السلطانية، وإفهام الدول الأوربية الموقعة على معاهدة برلين،
 بأن لحزبهم السياسي كيانًا ووجودًا، وأن غايتهم إعادة القانون الأساسي، فكادت
 أوربا تعتد بوجودهم، كما ظهر من انتصار الجرائد الباريسية لصاحب <bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e337">جريدة
-(<title level="j" change="#d11e337">مشورت</title>) </bibl>يوم محاكمته في باريس والحكم عليه بفرنك واحد مع تطبيق قانون
+(<title level="j" change="#d11e337 #d11e353" ref="oape:bibl:3999" resp="#xslt">مشورت</title>) </bibl>يوم محاكمته في باريس والحكم عليه بفرنك واحد مع تطبيق قانون
 بيرانجه القاضي بالسماح عنه. وبينا كان المابين يقدم رجلاً ويؤخر أخرى في إجابة
 حزب تركيا الفتاة إلى مطالبهم الإصلاحية وإعادة القانون الأساسي، وإذا بالمشكلة
 الكريدية ولدت الحرب بين الدولة العلية واليونان (نيسان - مارس 1897) وتم
@@ -1598,7 +1598,7 @@
 </p>
                 <div subtype="article" type="item">
                     <p change="#d2e120">شاع أمس في الثغر أنه بوصول <persName>الأستاذ السيد محمد رشيد رضا</persName>
-                        <persName>منشئ <title level="j">المنار</title></persName>
+                        <persName>منشئ <title level="j" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" change="#d11e353 #d11e364" resp="#xslt">المنار</title></persName>
 الأغر إلى <placeName change="#d2e120 #d11e343" xml:id="placeName_76.d2e3959" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> تصدى له بعضهم وضربه بعصا فجرحه في رأسه ثم ابتدره
 بإطلاق الرصاص فأخطأه، فكان لهذا الخبر رنة أسف لدى الجميع، وإنا نبشر الكل
 بأن الأستاذ في سلامة وعافية والحمد لله، وهذا نص تلغراف تلقيناه في هذا الصباح
@@ -1623,12 +1623,12 @@
 
 * * *
 </p>
-                    <byline>(<title change="#d5e212 #d2e120" level="j" ref="oape:bibl:28 oclc:42900564" xml:id="title_12.d2e4028">الاتحاد العثماني</title>)</byline>
+                    <byline>(<title change="#d5e212 #d2e120 #d11e353" level="j" ref="oclc:42900564 jaraid:bibl:t1r2365 oape:bibl:28 wiki:Q124970299" xml:id="title_12.d2e4028" resp="#xslt">الاتحاد العثماني</title>)</byline>
                 </div>
                 <div subtype="article" type="item">
                     <p change="#d2e120">كتب إلينا من <placeName change="#d2e120 #d11e343" xml:id="placeName_78.d2e4036" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> أن حضرة العلامة <persName>السيد رشيد أفندي رضا</persName>
                         <persName>صاحب
-<bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e207 #d5e212 #d2e120" level="j" ref="oape:bibl:2 oclc:1588981" xml:id="title_13.d2e4041">المنار</title></bibl></persName> وافى الفيحاء مساء الجمعة الماضي على أنه قبل وصوله إلى الدار
+<bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e207 #d5e212 #d2e120 #d11e353" level="j" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_13.d2e4041" resp="#xslt">المنار</title></bibl></persName> وافى الفيحاء مساء الجمعة الماضي على أنه قبل وصوله إلى الدار
 المعدة لنزوله هجم عليه أحد الأهالي وضربه بعصا على رأسه رغمًا عن شدة ازدحام
 الناس الملاقين حوله. ثم أطلق عياره الناري في الهواء وأخذ يطوف في الأسواق
 كأنه لم يأت شيئًا مذكورًا.
@@ -1638,11 +1638,11 @@
 
 * * *
 </p>
-                    <byline>(<title level="j">لسان الحال</title>)</byline>
+                    <byline>(<title level="j" change="#d11e353 #d11e364" ref="jaraid:bibl:t1r112 oape:bibl:349 wiki:Q6559136" resp="#xslt">لسان الحال</title>)</byline>
                 </div>
                 <div subtype="article" type="item">
                     <p change="#d2e120">صرف حضرة العلامة <persName>السيد رشيد رضا</persName>
-                        <persName>صاحب <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e191 #d5e196 #d2e120" level="j" ref="oape:bibl:2 oclc:1588981">المنار</title></bibl></persName> الإسلامية 12
+                        <persName>صاحب <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e191 #d5e196 #d2e120 #d11e353" level="j" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" resp="#xslt">المنار</title></bibl></persName> الإسلامية 12
 سنة في القطر المصري بعيدًا عن أهله ووطنه، وأصاب أهله وذويه ما أصابهم
 من اضطهاد المعتدين، كما يذكر أكثر قراء هذه الجريدة التي وقفت وقتئذ في
 وجه الظالمين وقفة طويلة. ولما أعلن الدستور، سافر السيد رشيد إلى <placeName change="#d2e120 #d11e343" xml:id="placeName_79.d2e4093" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName>،
@@ -1670,12 +1670,12 @@
 
 * * *
 </p>
-                    <byline>(<title level="j">الأهرام</title>)</byline>
+                    <byline>(<title level="j" change="#d11e364" ref="NA" resp="#xslt">الأهرام</title>)</byline>
                 </div>
                 <div subtype="article" type="item">
                     <p change="#d2e120">اعتداء ذميم - ورد كتاب من <placeName change="#d2e120 #d11e343" xml:id="placeName_89.d2e4198" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس</placeName> ينبئ بأن أحد الأشقياء المدعو كامل
 المقدم هجم على حضرة العالم الفاضل <persName>السيد رشيد رضا</persName>
-                        <persName>صاحب <title level="j">المنار</title></persName>، بينما كان
+                        <persName>صاحب <title level="j" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" change="#d11e353 #d11e364" resp="#xslt">المنار</title></persName>، بينما كان
 جمهور عظيم يحتفل بقدومه، وضربه بعصا على رأسه، ولكن فضيلة <persName>الشيخ محمد
 كامل الرافعي</persName> تلقى العصا قبل أن تصيب السيد رشيدًا بسوء. فكان للحادث وقع
 كبير، وازداد على أثره ميل الجمهور إلى السيد رشيد، وكتبت لجنة الاتحاد
@@ -1686,12 +1686,12 @@
  
 * * *
 </p>
-                    <byline>(<title level="j">الجريدة</title>)</byline>
+                    <byline>(<title level="j" change="#d11e364" ref="NA" resp="#xslt">الجريدة</title>)</byline>
                 </div>
                 <div subtype="article" type="item">
                     <p change="#d2e120">أتانا من غير مكاتبنا في <placeName change="#d2e120 #d11e343" xml:id="placeName_92.d2e4253" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName> أن حضرة العالم الفاضل <persName>السيد محمد
 رشيد رضا</persName>
-                        <persName>صاحب <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e191 #d5e196 #d2e120" level="j" ref="oape:bibl:2 oclc:1588981">المنار</title></bibl></persName> وصل إليها يوم الجمعة الماضي، فاستقبله جمهور
+                        <persName>صاحب <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e191 #d5e196 #d2e120 #d11e353" level="j" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" resp="#xslt">المنار</title></bibl></persName> وصل إليها يوم الجمعة الماضي، فاستقبله جمهور
 كبير من العلماء والأعيان ورجال جمعية الاتحاد والترقي على ظهر الباخرة،
 ووقفت الناس على المرفأ لرؤيته وأعدت له الجمعية عربة خصوصية ركب فيها
 والموسيقى تصدح أمامه حتى قرب من دار <persName>الشيخ محمد كامل الرافعي</persName> , ففاجأه هناك
@@ -1709,23 +1709,23 @@
 
 * * *
 </p>
-                    <byline>(<title level="j">المقطم</title>)</byline>
+                    <byline>(<title level="j" change="#d11e353 #d11e364" ref="oclc:243472096 jaraid:bibl:t1r329 oape:bibl:257 wiki:Q124972832" resp="#xslt">المقطم</title>)</byline>
                 </div>
                 <div subtype="article" type="item">
                     <p change="#d2e120">كان حضرة الفاضل <persName>الشيخ محمد رشيد رضا</persName>
-                        <persName>صاحب <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e191 #d5e196 #d2e120" level="j" ref="oape:bibl:2 oclc:1588981" xml:id="title_15.d2e4333">المنار</title></bibl></persName> في مصر،
+                        <persName>صاحب <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e191 #d5e196 #d2e120 #d11e353" level="j" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_15.d2e4333" resp="#xslt">المنار</title></bibl></persName> في مصر،
 قد سافر في الأسبوع الفائت إلى <placeName change="#d2e120 #d11e343" xml:id="placeName_97.d2e4338" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName> ومنها إلى وطنه <placeName change="#d2e120 #d11e343" xml:id="placeName_98.d2e4341" ref="geon:266826 oape:place:30 wiki:Q168954" resp="#xslt">طرابلس الشام</placeName>، بعد أن
 حالت الأحوال الماضية دون ذهابه إلى وطنه زمنًا طويلاً. وقرأنا اليوم في جريدتي
-<title level="j">الاتحاد العثماني</title> و<title level="j">الأحوال</title> ما خلاصته أن حضرة <persName>الشيخ رشيد رضا</persName> وصل إلى
+<title level="j" change="#d11e364" ref="NA" resp="#xslt">الاتحاد العثماني</title> و<title level="j" change="#d11e364" ref="NA" resp="#xslt">الأحوال</title> ما خلاصته أن حضرة <persName>الشيخ رشيد رضا</persName> وصل إلى
 طرابلس مساء الجمعة في 25 الماضي فاحتفل باستقباله حتى إذا اقترب من <placeName ref="NA" resp="#xslt">سوق
-العطارين</placeName> تصدى له <persName>كامل المقدم</persName> (وفي رواية <title level="j">الأحوال</title> أنه <persName>عبد القادر مؤدن</persName>)
+العطارين</placeName> تصدى له <persName>كامل المقدم</persName> (وفي رواية <title level="j" change="#d11e364" ref="NA" resp="#xslt">الأحوال</title> أنه <persName>عبد القادر مؤدن</persName>)
 وابتدره بضربة على رأسه وضربة ثانية فتلقاها الشيخ محمد الرافعي ونزع العصا
 من يده، فما كان من الرجل إلا أن أشهر مسدسين , ثم أطلق عيارًا ناريًّا، فلم
 يصب أحدًا، وأركن إلى الفرار، وقد كان الأستاذ أدخل إحدى الدور القريبة، فأخذ
-بعد ذلك إلى دار <persName>الشيخ محمد الرافعي</persName>، ولم يزل هناك، وقد اتفقت <title level="j">الأحوال</title> و<title level="j">الاتحاد
+بعد ذلك إلى دار <persName>الشيخ محمد الرافعي</persName>، ولم يزل هناك، وقد اتفقت <title level="j" change="#d11e364" ref="NA" resp="#xslt">الأحوال</title> و<title level="j" change="#d11e364" ref="NA" resp="#xslt">الاتحاد
 العثماني</title> على تواني من بيدهم أمر الضبط في هذه الحادثة.
 و<title change="#d5e212 #d2e120" ref="oape:bibl:25 oclc:792755902">المؤيد</title> يأسف لهذا الحادث ويستنكر هذا الاعتداء ويرجو أن يكون ناشئًا عن
-تهوس فرد واحد فقط، وأن يتمتع حضرة <persName>صاحب <title level="j">المنار</title></persName> بكل هناء وسرور في
+تهوس فرد واحد فقط، وأن يتمتع حضرة <persName>صاحب <title level="j" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" change="#d11e353 #d11e364" resp="#xslt">المنار</title></persName> بكل هناء وسرور في
 زيارته لوطنه.
   </p>
                     <byline>(<title change="#d5e212 #d2e120" ref="oape:bibl:25 oclc:792755902" xml:id="title_16.d2e4400">المؤيد</title>)</byline>

@@ -43,7 +43,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e282" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e276" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2024-09-20" who="#pers_TG" xml:id="d11e303" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e292" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e282" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" who="#pers_TG" xml:id="d11e276" xml:lang="en">Automatically marked up references to periodicals with <tag>bibl type="periodical"</tag> and <tag>title level="j"</tag>.</change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -81,7 +81,7 @@
 من محمد أحمد عبد السلام إلى فضيلة مولانا الأكبر محيي السنة ومميت البدعة
 معدن الأسرار الربانية وخزائن العلوم الاصطفائية، ووارث الحضرة النبوية، شيخ
 الإسلام والمسلمين، وإمام أئمة وقته أجمعين [1] الفاضل السيد محمد رشيد رضا
-صاحب <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_5.d2e272">المنار</title></bibl> حرسه الله تعالى وفسح في مدته ونفع به المسلمين آمين.
+صاحب <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120 #d11e292 #d11e303" xml:id="title_5.d2e272" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" resp="#xslt">المنار</title></bibl> حرسه الله تعالى وفسح في مدته ونفع به المسلمين آمين.
 السلام عليكم ورحمة الله وبركاته، وبعد فالرجا إفادتي عن الآتي ذكره ولك الفضل والشكر والمنة.
 ***
 شروط مكان الجمعة
@@ -273,14 +273,14 @@
 حضرة صاحب الفضيلة الأستاذ الجليل الشيخ محمد رشيد رضا صاحب
 المنار.
 أُحيي فضيلتكم وبعد: دفاعكم عن الدين الإسلامي شجعني على سؤالي هذا
-وردكم على منتقديه يبشر بنشر جوابه إما على صفحات الجرائد أو في <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_6.d2e696">المنار</title></bibl>
+وردكم على منتقديه يبشر بنشر جوابه إما على صفحات الجرائد أو في <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120 #d11e292 #d11e303" xml:id="title_6.d2e696" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" resp="#xslt">المنار</title></bibl>
 ما رأي فضيلتكم في آنسة مسلمة تحرض النساء المسلمات على خروجهن
 عاريات الوجوه يسرن في الطرقات والأسواق أمام غير المحارم وتحثهن على
 التبرج والزينة لغير أزواجهن وآبائهن <gap resp="#org_MS" change="#d2e120" xml:id="gap_27.d2e704"/> إلخ، وما ورد في آية النور التي أولها
 ] وَقُل لِّلْمُؤْمِنَاتِ <gap resp="#org_MS" change="#d2e120" xml:id="gap_28.d2e709"/> إلخ [ (النور: 31) وتقول الآنسة المشار إليها: إن الشرع
 الإسلامي مُجحف بحقوق المرأة خصوصًا في مسألة الميراث وتبيح لنفسها شرعًا
 جديدًا ملائمًا لرأيها تنادي فيه بتسوية المرأة بالرجل في الميراث؟ أفيدونا يا
-صاحب الفضيلة على صفحات الجرائد أو في <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120" xml:id="title_7.d2e717">المنار</title></bibl> وإني لا أضن على
+صاحب الفضيلة على صفحات الجرائد أو في <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120 #d11e292 #d11e303" xml:id="title_7.d2e717" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" resp="#xslt">المنار</title></bibl> وإني لا أضن على
 فضيلتكم بنشر نفس سؤالي قبل الجواب.
 وتفضلوا يا صاحب الفضيلة بقبول عظيم إجلال.
 
@@ -548,7 +548,7 @@
 <p change="#d2e120" xml:id="p_2.d2e1370">[*]
 
                
-(رد على مقال للدكتور طه حسين نشر في العدد 19 من <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_8.d2e1376">السياسة</title></bibl>
+(رد على مقال للدكتور طه حسين نشر في العدد 19 من <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d11e303" xml:id="title_8.d2e1376" ref="NA" resp="#xslt">السياسة</title></bibl>
 الأسبوعية في 17 يوليو سنة 1926) .
 نشر الدكتور هيكل في العدد الرابع عشر من السياسة الأسبوعية مقالاً بحث
 فيه في العلم والدين وما بينهما من وفاق أو خلاف، وقد انتهى به بحثه إلى أنه لا
@@ -1325,7 +1325,7 @@
 في (منى) من أرض الحرم المكي المقدسة فقد طارت به الشركات البرقية،
 وخاضت فيه جرائد الشرق والغرب، ولم أر جريدة من الجرائد المصرية ولا
 السورية بينت الحادثة كما وقعت على كثرة من كان في موسم الحج من مراسلي هذه
-الجرائد، و<bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_10.d2e3084">أم القرى</title></bibl>) المكية وهي التي تحرت الصدق في الرواية
+الجرائد، و<bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة (<title level="j" change="#d2e191 #d2e120 #d11e292" xml:id="title_10.d2e3084" ref="jaraid:bibl:t1r1356 oape:bibl:2749 wiki:Q6808828" resp="#xslt">أم القرى</title></bibl>) المكية وهي التي تحرت الصدق في الرواية
 اختصرت الخبر، وأوجزت فيه، ومن الغريب أن البلاغ الذي أذاعته الوكالة
 الحجازية النجدية بمصر لم يخلُ من غلط ولم يبين الحقيقة ومن كل وجه، وسنبينها
 في رحلتنا الحجازية.
@@ -1361,7 +1361,7 @@
 جلالة عبد العزيز آل سعود على <placeName change="#d2e120 #d11e282" xml:id="placeName_41.d2e3168" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وبإرسال وفد رسمي إلى المؤتمر الإسلامي
 الذي دعا إليه وأقامه ب<placeName change="#d2e120 #d11e282" xml:id="placeName_42.d2e3173" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة المكرمة</placeName>، ثم إنها علمت من خطأ أمير الحج ما لم يعلمه
 أصحاب الجرائد والجمهور، وإنما علمته من تقريره الرسمي الذي هو أكبر حجة
-عليه كما يدل عليه ما نشره في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_11.d2e3181">الأهرام</title></bibl>، علمت هذا وثبت عندها أن جلالة
+عليه كما يدل عليه ما نشره في <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120 #d11e292 #d11e303" xml:id="title_11.d2e3181" ref="oclc:508226561 oape:bibl:56 wiki:Q286468" resp="#xslt">الأهرام</title></bibl>، علمت هذا وثبت عندها أن جلالة
 ملك <placeName change="#d2e120 #d11e282" xml:id="placeName_43.d2e3186" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> وسلطان نجد برهن بمعاملته لأمير الحج وبغير ذلك على شدة حرصه
 على موادة مصر والحكومة المصرية، وهي أجدر بأن تعلم ما لا يعلم الجمهور من
 مصلحة البلاد في هذه الموادة.
@@ -1432,7 +1432,7 @@
 آله وأطلقوا القول في ذلك حتى إن بعض حجاج بلدنا في الموسم الأخير قالوا لي
 ب<placeName change="#d2e120 #d11e282" xml:id="placeName_47.d2e3346" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName>: إننا كنا سمعنا أن الوهابية منعوا الشهادة بالرسالة من الأذان ويعاقبون من يصلي على النبي - صلى الله عليه وسلم - وقد سمعنا الأذان في الحرم كاملاً كما
 نعلمه (! !) وذكر أمين بك الرافعي في رسالة من رسائله المكية إلى <bibl resp="#xslt" type="periodical" subtype="newspaper" change="#d11e276">جريدة
-<title level="j" change="#d11e276">السياسة</title></bibl>حديثًا، جرى بينه وبين الملك عبد العزيز آل سعود فنص فيه أن من عادته
+<title level="j" change="#d11e303" ref="NA" resp="#xslt">السياسة</title></bibl>حديثًا، جرى بينه وبين الملك عبد العزيز آل سعود فنص فيه أن من عادته
 تكرار الصلاة والسلام على النبي - صلى الله عليه وسلم - كلما ذكره في المجلس
 وإن كثر، وهو لم يعهد هذا من أحد غيره.
 هذا مثل واضح من مطاعن أعداء الوهابية فيهم بالباطل والتحريف جعلوا
@@ -1463,7 +1463,7 @@
 لحفلة الموسيقى العسكرية في حديقة الأزبكية وتصفيقه للعازفين فأنكرا ذلك أيضًا،
 وقالا: إنه إنما دخل الحديقة لحضور حفلة شرب الشاي التي دعي إليها ولم
 يحضر محل عزف الموسيقى، وإنما سمعها من بعد بغير قصد ولم يصفق لها،
-وقد وعدا بتكذيب الخبرين في الجرائد ولم يفعلا، بل نقلت <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة (<title level="j" change="#d2e191 #d2e120" xml:id="title_12.d2e3424">الكوكب</title></bibl>)
+وقد وعدا بتكذيب الخبرين في الجرائد ولم يفعلا، بل نقلت <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة (<title level="j" change="#d11e303" xml:id="title_12.d2e3424" ref="NA" resp="#xslt">الكوكب</title></bibl>)
 بعد ذلك في حديث لأحد محرريها مع الأمير ومهمنداره أنه زار المشهد (؟) ولم
 يكذبه أحد والظاهر أن لحاشية الأمير أغراضًا في مثل هذا.
 وجملة القول أن وجود الأمير في مصر كان حجة مشاهدة على أن من
@@ -1804,7 +1804,7 @@
 لخطة المنار، ولأن فيه بدعًا لم يسبق لنا الإنكار عليها، وتجد ذلك في باب المقالات
 (ص 469) .
 ***
-(<bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120" xml:id="title_13.d2e4203">الصراط</title></bibl> المستقيم)
+(<bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120 #d11e292" xml:id="title_13.d2e4203" ref="jaraid:bibl:t1r1920 oape:bibl:1530 wiki:Q124971909" resp="#xslt">الصراط</title></bibl> المستقيم)
 وقد أتمت هذه الجريدة الإسلامية الوطنية الفلسطينية السنة الأولى بجد
 وثبات من مؤسسها ومحررها الأستاذ الفاضل الشيخ عبد الله القلقيلي الأزهري فقد
 نوهض واعتدي عليه وأحرقت مطبعة جريدته؛ فصبر صبرًا يبشر بنجاحه في

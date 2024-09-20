@@ -45,7 +45,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e341" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e334" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change>
+      <revisionDesc><tei:change when="2024-09-20" who="#pers_TG" xml:id="d11e362" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e351" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e341" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e334" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change>
          <change when="2019-12-18" who="#pers_TG" xml:lang="en">Corrected the mark-up of the final section from <gi>note</gi> to <gi>div</gi>. Added links to external files.</change>
          <change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change>
          <change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change>
@@ -594,7 +594,7 @@
          <p change="#d2e120" xml:id="p_2.d2e1462">
  
 ما يتعلم في السفينة
-الشذرة الخامسة عشرة من <bibl type="periodical" subtype="newspaper" change="#d3e334">جريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_5.d2e1470">الدكتور</title></bibl> أراسم
+الشذرة الخامسة عشرة من <bibl type="periodical" subtype="newspaper" change="#d3e334">جريدة <title change="#d2e191 #d2e120 #d11e351" level="j" xml:id="title_5.d2e1470" ref="oape:bibl:3928" resp="#xslt">الدكتور</title></bibl> أراسم
 في اليوم الخامس من شهر مارس بلغنا مينا جرافسند [1] حيث سلم مُعَرِّف
 التأميز [2] زمام سفينتنا إلى مُعِّرف البوغاز الذي أخذ الآن على نفسه إبلاغنا ما
 وراء مصب النهر.
@@ -676,7 +676,7 @@
 
             
 حضرة الأستاذ العالم الفاضل <persName>الشيخ محمد رشيد أفندي رضا</persName> <persName>صاحب جريدة
-<title level="j">المنار</title></persName> الأغر لازال ملجأ لكل خير.
+<title level="j" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" change="#d11e351 #d11e362" resp="#xslt">المنار</title></persName> الأغر لازال ملجأ لكل خير.
 الغرض من المناظرة التوصيل للحقيقة , ولجريدتكم الغراء السبق في هذا
 الميدان الذي أعرف نفسي بأني لست من فرسانه وأن دخولي فيه يعد تطفلاً مني
 على ذويه , لكن شدة غيرتي على بنات نوعي ذوات الخدر اضطرني للدفاع عنهن
@@ -684,7 +684,7 @@
             <orig>س</orig>
             <corr resp="#pers_TG">ش</corr>
             </choice>. ع</persName></author> مدرجة في
-<biblScope from="1485" to="1485" unit="issue">عدد <date calendar="#cal_gregorian" change="#d3e146 #d2e120" when="1485" xml:id="date_6.d2e1668">1485</date></biblScope> من جريدة <title level="j">ثمرات الفنون</title> الغراء</bibl></ref> , فرأيت حضرة الكاتب من جهة
+<biblScope from="1485" to="1485" unit="issue">عدد <date calendar="#cal_gregorian" change="#d3e146 #d2e120" when="1485" xml:id="date_6.d2e1668">1485</date></biblScope> من جريدة <title level="j" ref="oclc:30431084 jaraid:bibl:t1r98 oape:bibl:62 wiki:Q124973713" change="#d11e351" resp="#xslt">ثمرات الفنون</title> الغراء</bibl></ref> , فرأيت حضرة الكاتب من جهة
 يعترف بأن الرجل في <placeName change="#d2e120 #d11e341" xml:id="placeName_5.d2e1674" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">دمشق</placeName> لم يكن أحسن أخلاقًا من أخته، وأنه هو الذي جعلها
 بالدرك الأسفل من الجهل، ومن جهه أخرى ينعطف ويوجه الملام عليها بتبذير
 ابنها بقوله: إن أمه هي السبب , فإنه لما شرع بالمشي وأخذ يخرج إلى السوق
@@ -698,7 +698,7 @@
 هل المرأة هي التي قالت لابنها: إذا كبرت يا بني فأخرب ما بناه أسلافك من
 مدارس العلم والتعليم، واجعل البعض منها بيوتًا لسكناك , والبعض بيتًا لمركبتك ,
 والبعض إسطبلاً للدواب، والبعض قاعًا صفصفًا يأوي إليه الغراب، وابتلع ما
-وقفه أسلافك على هذه المدارس، ولا تُبْقِ لها غير الاسم بكتاب المدارس؟<note change="#d2e141 #d2e120" n="*" place="bottom" type="footnote" xml:id="note_4.d2e1864" xml:lang="ar"><title level="j">المنار</title>: تعني الكاتبة الكتاب الذي أحصيت فيه أسماء مدارس <placeName change="#d2e120 #d11e341" xml:id="placeName_11.d2e1866" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>.</note> هل
+وقفه أسلافك على هذه المدارس، ولا تُبْقِ لها غير الاسم بكتاب المدارس؟<note change="#d2e141 #d2e120" n="*" place="bottom" type="footnote" xml:id="note_4.d2e1864" xml:lang="ar"><title level="j" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" change="#d11e351 #d11e362" resp="#xslt">المنار</title>: تعني الكاتبة الكتاب الذي أحصيت فيه أسماء مدارس <placeName change="#d2e120 #d11e341" xml:id="placeName_11.d2e1866" ref="geon:170654 jaraid:place:15 oape:place:61 wiki:Q3766" resp="#xslt">الشام</placeName>.</note> هل
 المرأة هي التي علمت ابنها الخزعبلات، وقالت له: اترك طلب العلم وتزيَّ بشعار
 العلماء حتى تغش بأقوالك وأفعالك الظاهرة البسطاء من إخوانك وأخواتك , واترك
 التجارة والصناعة والزراعة , واتخذ لك مهنة خرافية فادَّع أنك مشارك للعفاريت
@@ -756,7 +756,7 @@
             <head>(تاريخ التمدن الإسلامي)</head>
             <p>
 صدر الجزء الثالث من هذا الكتاب لمؤلفه <persName>جرجي أفندى زيدان</persName> <persName>صاحب مجلة
-<title level="j">الهلال</title></persName> وهو يبحث (فى العلم والأدب، وما كان منهما عند العرب قبل الإسلام من
+<title level="j" change="#d11e362" ref="NA" resp="#xslt">الهلال</title></persName> وهو يبحث (فى العلم والأدب، وما كان منهما عند العرب قبل الإسلام من
 التغيير في القرائح والعقول , وما نقل عن اللغات الأجنبية من العلوم , وما كان من
 تأثير التمدن الإسلامي في كل ذلك) فما كان قبل الإسلام هو النجوم والأنواء
 والميثولوجيا والكهانة، ويعني بالميثولوجيا: الخرافات المتعلقة بتأليه النجوم
@@ -882,9 +882,9 @@
 كتاب وضعه <persName>موسيو ليون روس</persName> السياسي الفرنسي الذي أقام في بلاد المسلمين
 30 سنة، وتعلم في أثنائها اللغة العربية وفنونها، وقرأ العلوم الإسلامية، وعاشر
 المسلمين في الجزائر وتونس والآستانة ومصر و<placeName change="#d2e120 #d11e341" xml:id="placeName_12.d2e2161" ref="geon:11785447 oape:place:217" resp="#xslt">الحجاز</placeName> , وقد <bibl>عربت جريدة
-<title level="j">اللواء المصري</title>ة عنه الجملة الآتية (فى <biblScope from="1506" to="1506" unit="issue">عدد 1506</biblScope> الصادر في <date calendar="#cal_islamic">22 ج 2</date>)</bibl>
+<title level="j" ref="oclc:259836358 jaraid:bibl:t1r1108 oape:bibl:2423 wiki:Q124972378" change="#d11e351" resp="#xslt">اللواء المصري</title>ة عنه الجملة الآتية (فى <biblScope from="1506" to="1506" unit="issue">عدد 1506</biblScope> الصادر في <date calendar="#cal_islamic">22 ج 2</date>)</bibl>
 فنشرناها نقلاً عنها لتكون حجة على متعصبي النصارى، وعلى أمثال صاحب
-<bibl type="periodical" subtype="newspaper" change="#d3e334">جريدة <title change="#d2e207 #d2e120" level="j" xml:id="title_7.d2e2170">اللواء</title></bibl> الذي ينتصر للمشايخ الجامدين الذين وصفهم صاحب الكتاب، كما
+<bibl type="periodical" subtype="newspaper" change="#d3e334">جريدة <title change="#d11e362" level="j" xml:id="title_7.d2e2170" ref="NA" resp="#xslt">اللواء</title></bibl> الذي ينتصر للمشايخ الجامدين الذين وصفهم صاحب الكتاب، كما
 يتحامل على المصلحين الذين يبينون انطباق الإسلام على المدنية الفاضلة،
 ويدعون إلى أصوله الكاملة التي طمس التقليد معالمها , وعبرة لنابتة المسلمين أبناء
 التربية الحديثة الذين كفروا بهذا الدين تقليدًا للإفرنج الجاهلين به، أو المتعصبين
@@ -931,7 +931,7 @@
 بشيوخ عقلاء مثل الشيخ محمد عبده وغيره من المصلحين، كان خير دين أخرج
 للناس، وكان المسلمون أرقى العالمين اهـ.
 (<title change="#d5e212 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_7.d2e2280">المنار</title>)
-قد سررنا من نشر <bibl type="periodical" subtype="newspaper" change="#d3e334">جريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_8.d2e2285">اللواء</title></bibl> لهذه النبذة، كما سررنا من كتابة ذلك
+قد سررنا من نشر <bibl type="periodical" subtype="newspaper" change="#d3e334">جريدة <title change="#d11e362" level="j" xml:id="title_8.d2e2285" ref="NA" resp="#xslt">اللواء</title></bibl> لهذه النبذة، كما سررنا من كتابة ذلك
 الفرنسي لها، فعسى أن نراها بعد الآن معترفة على الدوام بمثل ما اعترف به هذا
 السياسي الكبير، والعالم المنصف، وأن لا تنتصر بعد لأولئك الشيوخ الجامدين
 على العقلاء المصلحين، وإن كان الحق يعلو كل انتصار حيث يجد حرية، وأن

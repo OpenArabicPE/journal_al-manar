@@ -45,7 +45,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e337" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e330" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change>
+      <revisionDesc><tei:change when="2024-09-20" who="#pers_TG" xml:id="d11e358" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e347" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e337" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e330" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change>
          <change when="2020-01-15" who="#pers_TG" xml:lang="en">added mark-up to articles in a section</change>
          <change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change>
          <change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change>
@@ -1065,7 +1065,7 @@
 (10)
  
 التنظيم المادي لإرساليات التبشير
-استمرت <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e191 #d2e120" level="j" xml:id="title_6.d2e2607">العالم الإسلامي</title></bibl> الفرنسية في تلخيص تقرير جمعية التبشير
+استمرت <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d11e358" level="j" xml:id="title_6.d2e2607" ref="NA" resp="#xslt">العالم الإسلامي</title></bibl> الفرنسية في تلخيص تقرير جمعية التبشير
 الكنيسية فأشارت إلى ما جاء فيه بخصوص أعمال مبشري هذه الجمعية في أفريقيا
 الشرقية، وقد كان الدكتور (كريف) أول من دخل هذه الديار وذلك أنه طرد من
 بلاد الحبشة سنة 1844 فهبط إلى (منبسه) ثم تبعه مبشرون آخرون أخذوا
@@ -1138,7 +1138,7 @@
 1862 بعد أن تخرج فيها بعض المبشرين ثم تأسست إرسالية تبشيرية في مصر
 ستة معاهد للتبشير فيها كثير من النساء المبشرات لها مدرسة تبشيرية ومدرسة
 داخلية ومدرستان للبنات في <placeName change="#d2e120 #d11e337" xml:id="placeName_19.d2e2782" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> ومدرسة عالية في حلوان، ولهذه الجمعية مكتبة
-عامة في <placeName change="#d2e120 #d11e337" xml:id="placeName_20.d2e2788" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، ويقوم مبشروها بنشر <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e191 #d2e120" level="j" xml:id="title_7.d2e2791">الشرق</title></bibl> والغرب، وتبلغ ميزانيتهم في
+عامة في <placeName change="#d2e120 #d11e337" xml:id="placeName_20.d2e2788" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>، ويقوم مبشروها بنشر <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d11e358" level="j" xml:id="title_7.d2e2791" ref="NA" resp="#xslt">الشرق</title></bibl> والغرب، وتبلغ ميزانيتهم في
 القطر المصري 160 ألف فرنك، أما الإيرادات التي يتلقا المبشرون من الوطنيين
 فلا تكاد تبلغ 450 فرنكًا، وهذه الجمعية لا ترى إرساليتها التبشيرية في مصر أهم
 ما لديها كما يتضح من تقريرها السنوي. وقد كانت سنة <date calendar="#cal_gregorian" change="#d3e146 #d2e120" when="1910" xml:id="date_7.d2e2801">1910</date> مهددة بصعوبات
@@ -1358,8 +1358,8 @@
 وتأسيس مدارس للمبشرين واتخاذ التدابير لصيانة المسلمين المتنصرين من تعدي
 بني جلدتهم، وقد تمكنت هذه الجمعية من إخراج خطتها إلى حيز الفعل بفضل
 القسيس (أفاتارنيان) المولوى الذي اعتنق النصرانية بعد أن قرأ الإنجيل ثم قام
-بالتبشير <bibl type="periodical" subtype="journal" change="#d3e330">في <pubPlace><placeName ref="geon:732800 oape:place:283" resp="#xslt" change="#d11e337">البلاد البلغارية</placeName></pubPlace> وأنشأ مجلة (<title change="#d2e191 #d2e120" level="j" xml:id="title_8.d2e3299">شاهد الحقائق</title></bibl>) فأفعمها بالمقالات
-التبشيرية ونشر <bibl type="periodical" subtype="journal">مجلة أخرى سماها (<title level="j" xml:lang="ota">كونش</title>) أي: الشمس</bibl>، ويعني بهذا الاسم أنه
+بالتبشير <bibl type="periodical" subtype="journal" change="#d3e330">في <pubPlace><placeName ref="geon:732800 oape:place:283" resp="#xslt" change="#d11e337">البلاد البلغارية</placeName></pubPlace> وأنشأ مجلة (<title change="#d2e191 #d2e120 #d11e347" level="j" xml:id="title_8.d2e3299" ref="oape:bibl:3988" resp="#xslt">شاهد الحقائق</title></bibl>) فأفعمها بالمقالات
+التبشيرية ونشر <bibl type="periodical" subtype="journal">مجلة أخرى سماها (<title level="j" xml:lang="ota" ref="oape:bibl:3943" change="#d11e347" resp="#xslt">كونش</title>) أي: الشمس</bibl>، ويعني بهذا الاسم أنه
 يرغَب في بث الأفكار الدينية المسيحية بين المسلمين، وقد انتشرت المجلة في
 البلاد العثمانية والبلغارية، وكانت تلاقي بعض الأوقات معارضات شديدة.
 ومما قاله رئيس إرساليات التبشير الألمانية في تقريره عن أعمالها (أن نار
@@ -1369,7 +1369,7 @@
 عاصمة الخلافة فإن كل المجهودات التي نبذلها لا تأتي بفائدة إذا لم نتوصل إلى
 قضاء لبانتنا فيها، ويجب أن يكون جُل ما تتوخاه جمعية إرساليات التبشير الألمانية
 هو بذل مجهوداتها نحو هذه العاصمة وهي قلب العالم الإسلامي [4] ) .
-وقد نشرت <bibl type="periodical" subtype="journal" change="#d3e330"><title change="#d2e191 #d2e120" level="j" xml:id="title_9.d2e3326">مجلة الشرق المسيحي</title></bibl> والتبشير الإسلامي الألمانية التي هي لسان
+وقد نشرت <bibl type="periodical" subtype="journal" change="#d3e330"><title change="#d11e358" level="j" xml:id="title_9.d2e3326" ref="NA" resp="#xslt">مجلة الشرق المسيحي</title></bibl> والتبشير الإسلامي الألمانية التي هي لسان
 حال جمعية إرساليات التبشير الألمانية مقالة بخصوص تعيين الدكتور (ريتشر)
 رئيسًا لهذه الجمعية ومما قالته: (أن أهمية أعمال التبشير بين المسلمين تزداد يومًا
 بعد يوم وتستغرق أكثر مجهودات ووسائل المبشرين الألمانيين حتى أن الجمعية
@@ -1695,7 +1695,7 @@
 </p>
             <div type="section">
                <head>خطاب مقصودف أفندي في الجلسة الختامية لمجلس الدوما</head>
-               <byline>(تمهيد لمراسل <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة (<title change="#d2e191 #d2e120" level="j" xml:id="title_10.d2e4108">وقت</title></bibl>)</byline>
+               <byline>(تمهيد لمراسل <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة (<title change="#d2e191 #d2e120 #d11e347" level="j" xml:id="title_10.d2e4108" ref="oape:bibl:397 wiki:Q125629546" resp="#xslt">وقت</title></bibl>)</byline>
                <p change="#d2e120">
 
 
@@ -1784,7 +1784,7 @@
             <div subtype="article" type="item">
                <head>(أحوال مسلمي الصين)</head>
                <p change="#d2e120" xml:id="p_2.d2e4293"> جمعية إسلامية في بكين
-<note place="inline" type="bibliographic">جاء في <bibl><biblScope from="1016" to="1016" unit="issue">العدد الـ1016</biblScope> من جريدة <title level="j">وقت</title> <textLang mainLang="ru">الروسية</textLang> تحت هذا العنوان لمكاتبها
+<note place="inline" type="bibliographic">جاء في <bibl><biblScope from="1016" to="1016" unit="issue">العدد الـ1016</biblScope> من جريدة <title level="j" ref="oape:bibl:3975" change="#d11e347" resp="#xslt">وقت</title> <textLang mainLang="ru">الروسية</textLang> تحت هذا العنوان لمكاتبها
 في <placeName ref="oape:place:837" resp="#xslt" change="#d11e337">بكين</placeName></bibl> ما ترجمته.</note>
 كان زعماء المسلمين في <placeName ref="oape:place:837" resp="#xslt" change="#d11e337">بكين</placeName> (عاصمة الصين) قد أجمعوا على عقد
 اجتماع كبير في 2 يوليو سنة 1912. فدعوا مسلمي العاصمة جميعًا بواسطة
@@ -1832,7 +1832,7 @@
 واحدًا من الوجهاء يُدعى عبد الله وهو شاب تخرج من المدرسة الصينية، وعينوا
 عبد الرحمن أفندي مفتي <placeName ref="oape:place:837" resp="#xslt" change="#d11e337">بكين</placeName> وكيلاً له ثم انتخبوا أعضاء لها من وجهاء مسلمي
 العاصمة مثل أبي بكر أفندي من أئمة <placeName ref="oape:place:837" resp="#xslt" change="#d11e337">بكين</placeName> ومحمد صالح أفندي صاحب جريدة
-(<title level="j">آياقوباو</title>) الإسلامية. وبعد تمام الانتخابات خطب السيد طاهر أفندي باللغة العربية
+(<title level="j" ref="oape:bibl:3893" change="#d11e347" resp="#xslt">آياقوباو</title>) الإسلامية. وبعد تمام الانتخابات خطب السيد طاهر أفندي باللغة العربية
 وهذه خلاصة خطبته: إن حياة الأمة والحكومات مربوطة بالاتفاق والاتحاد، وأن
 كثيرًا من الأمم تعيش بسبب اتحاد أبنائها حافظة حقوقها بل حاكمة على غيرها كما
 أن كثيرًا منها تكون بسبب فقدان الوفاق بين أبنائها مرذولة ومحقرة وتهلك هلاكًا
@@ -1945,7 +1945,7 @@
 وفي مجلس الافتتاح خطب السيد طاهر أفندي باللغة العربية خطبة وجيزة ذكر
 فيها وجوب التعلم وبيَّن أسباب تأخر المسلمين ومن أكبرها ترك المسلمين العمل
 بالقرآن الكريم، وعدهم الخرافات والبدع من الدين، وجهلهم حقيقة الإسلام،
-وترجمها أبو بكر أفندي إلى اللغة الصينية. ثم خطب صاحب <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة (<title change="#d2e191 #d2e120" level="j" xml:id="title_11.d2e4703">آياقوباو</title></bibl>)
+وترجمها أبو بكر أفندي إلى اللغة الصينية. ثم خطب صاحب <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة (<title change="#d2e191 #d2e120 #d11e347" level="j" xml:id="title_11.d2e4703" ref="oape:bibl:3893" resp="#xslt">آياقوباو</title></bibl>)
 محمد صالح أفندي وبين أسباب ارتقاء الأمة بأنها كثرة مدارسها الابتدائية، وسعي
 الشيوخ والشبان بالاتفاق لترقية شؤونها وتربية الأولاد الذين هم آباء الأمة في
 المستقبل تربية معنوية، ثم خاطب الأولاد وقال لهم: (اجتهدوا أيها الأولاد النجباء
@@ -1969,7 +1969,7 @@
 بعض مراقبي نظارة المعارف في إدارة المكس (الجمرك) من حفظه، وكان عنده
 كتاب فيه أسماء أخرى كثيرة أحرقه بعد الانقلاب. وهذا ما كتبه:
 </p>
-               <p change="#d2e120"><bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e207 #d5e212 #d2e120" level="j" ref="oape:bibl:2 oclc:1588981" xml:id="title_12.d2e4793">المنار</title></bibl>. كتاب سجل جمعية أم القرى. جريدة مشورت. جريدة
+               <p change="#d2e120"><bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e207 #d5e212 #d2e120 #d11e347" level="j" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_12.d2e4793" resp="#xslt">المنار</title></bibl>. كتاب سجل جمعية أم القرى. جريدة مشورت. جريدة
 شوراي امت. جريدة. شوراي عثماني (الشورى العثمانية) . جريدة ميزان.
 استبداد. حريت. اختلال. استقلال. اتحاد. اتحاد عثماني. اتحاد إسلامي.
 عثمانلي. عثمانليلر. ارناؤرد. ارناؤردلق. ارناؤردلر. مكدونية.
@@ -2067,29 +2067,29 @@
 هذا كله هل قَنع المتغافلون والمتكايسون الآن، بما أثبتّه في مقالاتي العشرة
 (المسألة الشرقية) منذ عام؟
 ***
-(<bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e191 #d2e120" level="j" xml:id="title_12.d2e4997">العالم الإسلامي</title></bibl> و<title level="j">المنار</title>)
+(<bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d11e358" level="j" xml:id="title_12.d2e4997" ref="NA" resp="#xslt">العالم الإسلامي</title></bibl> و<title level="j" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" change="#d11e347 #d11e358" resp="#xslt">المنار</title>)
 (ومسألة الغارة على العالم الإسلامي)
-لما علمت أن <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e191 #d2e120" level="j" xml:id="title_13.d2e5005">العالم الإسلامي</title></bibl> الفرنسية قد خصصت جزء شهر نوفمبر
+لما علمت أن <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d11e358" level="j" xml:id="title_13.d2e5005" ref="NA" resp="#xslt">العالم الإسلامي</title></bibl> الفرنسية قد خصصت جزء شهر نوفمبر
 سنة <date calendar="#cal_gregorian" change="#d3e146 #d2e120" when="1911" xml:id="date_16.d2e5010">1911</date> من أجزائها للبحث في مستقبل الإسلام وغارة المسيحية عليه أحببت أن
 يترجم ما كتبته بالعربية وينشر في المنار وغيره من صحفنا ليستفيد المسلمون من
 هذا البحث المستفيض في شئونهم الذي تعجز صحفهم عن مثله من تلقاء أنفسها،
 فعهدت إلى صديقي مساعد أفندي اليافي بأن يشتري ذلك الجزء ويترجمه فلم يجده
 عند باعة الصحف الإفرنجية فعهد إلى بعضهم باستحضاره من أوروبا وسافرت إلى
-الهند قبل أن يصل، فأوصيته بأن يترجمه عند وصوله لينشر في <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة <title change="#d2e191 #d5e196 #d2e120" level="j" ref="oape:bibl:25 oclc:792755902" xml:id="title_14.d2e5024">المؤيد</title></bibl>
+الهند قبل أن يصل، فأوصيته بأن يترجمه عند وصوله لينشر في <bibl type="periodical" subtype="newspaper" change="#d3e330">جريدة <title change="#d2e191 #d5e196 #d2e120 #d11e347" level="j" ref="oclc:792755902 jaraid:bibl:t1r328 oape:bibl:25 wiki:Q124972384" xml:id="title_14.d2e5024" resp="#xslt">المؤيد</title></bibl>
 (وهو الآن محرر ومترجم فيها) ثم المنار وكان الأمر كذلك. وإنني كنت ولا أزال
 عازماً على التعليق على هذا البحث بعد إتمام نشره في المنار. وقد رأيت بعض ما
 نشر من البحث متفرقاً وأنا في سياحتي في الهند و<placeName change="#d2e120 #d11e337" xml:id="placeName_33.d2e5033" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName> وسورية.
 عدت إلى <placeName change="#d2e120 #d11e337" xml:id="placeName_34.d2e5038" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> في اليوم التاسع عشر من هذا الشهر (الموافق أول أكتوبر)
 وكنت لم أطلع على الجزء التاسع من منار هذا العام فلما اطلعت عليه وجدت فيه
-مقالة تُرجمت عن <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e191 #d2e120" level="j" xml:id="title_15.d2e5046">العالم الإسلامي</title></bibl> في الانتقاد على المنار والمؤيد والاتحاد
+مقالة تُرجمت عن <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d11e358" level="j" xml:id="title_15.d2e5046" ref="NA" resp="#xslt">العالم الإسلامي</title></bibl> في الانتقاد على المنار والمؤيد والاتحاد
 العثماني. ورأيت ذيلاً للمقالة عن لسان المنار هذا نصه: (موعدنا الجزء الآتي
-للرد على ما جاء في مقال <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e191 #d2e120" level="j" xml:id="title_16.d2e5053">العالم الإسلامي</title></bibl>) وهذا الذيل قد وضعه أخي السيد
-صالح وكيل إدارة المنار، وهو الذي كتب أولاً أن <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e191 #d2e120" level="j" xml:id="title_17.d2e5059">العالم الإسلامي</title></bibl> ظهرت
+للرد على ما جاء في مقال <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d11e358" level="j" xml:id="title_16.d2e5053" ref="NA" resp="#xslt">العالم الإسلامي</title></bibl>) وهذا الذيل قد وضعه أخي السيد
+صالح وكيل إدارة المنار، وهو الذي كتب أولاً أن <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d11e358" level="j" xml:id="title_17.d2e5059" ref="NA" resp="#xslt">العالم الإسلامي</title></bibl> ظهرت
 بمظهر جديد بعد احتلال فرنسة لمراكش ودخول بلاد فارس تحت النفوذ الروسي
 الإنكليزي واعتداء إيطالية على <placeName change="#d2e120 #d11e337" xml:id="placeName_35.d2e5066" ref="geon:2210247 oape:place:222 wiki:Q3579" resp="#xslt">طرابلس الغرب</placeName>.
 إنني كنت عند سفري جعلت أخي السيد صالحاً وكيلاً للمنار، ولكنني لم آذن
 له أن يكتب شيئًا باسم المنار، ولذلك كان يذيل ما كتبه باسمه حتى الهامش الذي
-وضعه في أول نبذة من ترجمة مقالة <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d2e191 #d2e120" level="j" xml:id="title_18.d2e5076">العالم الإسلامي</title></bibl> وغيره، ولكنه بلسان
+وضعه في أول نبذة من ترجمة مقالة <bibl type="periodical" subtype="journal" change="#d3e330">مجلة <title change="#d11e358" level="j" xml:id="title_18.d2e5076" ref="NA" resp="#xslt">العالم الإسلامي</title></bibl> وغيره، ولكنه بلسان
 المنار وَعَدَ بالرد على مقالة هذه المجلة في الانتقاد على المنار وغيره لحسبانه أنني
 سأصل إلى <placeName change="#d2e120 #d11e337" xml:id="placeName_36.d2e5083" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName> قبل إتمام هذا الجزء وأنني سأكتب الرد الذي وعدت به.
 فعُلم من هذا أن تلك المجلة الراقية قد استعجلت بالرد على المنار فإنه لما يبيّن

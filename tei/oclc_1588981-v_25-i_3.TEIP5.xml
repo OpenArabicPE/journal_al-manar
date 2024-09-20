@@ -45,7 +45,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e303" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change>
+      <revisionDesc><tei:change when="2024-09-20" who="#pers_TG" xml:id="d11e324" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e313" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e303" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change>
          <change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change>
          <change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change>
          <change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change>
@@ -655,7 +655,7 @@
  
 (<title change="#d2e120" xml:id="title_6.d2e1574">المنار</title>)
 هذا هو الاستقلال الذي كانت جرائد الدعاية البريطانية تبشر به السوريين مع
-سائر العرب , وفي مقدمتها <bibl>جريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_7.d2e1582">القبلة</title></bibl> , <bibl>وجريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_8.d2e1585">الكوكب</title></bibl> , <bibl>وجريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_9.d2e1588">المقطم</title></bibl>.
+سائر العرب , وفي مقدمتها <bibl>جريدة <title change="#d2e191 #d2e120 #d11e313" level="j" xml:id="title_7.d2e1582" ref="jaraid:bibl:t1r1431 oape:bibl:2144 wiki:Q124972242" resp="#xslt">القبلة</title></bibl> , <bibl>وجريدة <title change="#d11e324" level="j" xml:id="title_8.d2e1585" ref="NA" resp="#xslt">الكوكب</title></bibl> , <bibl>وجريدة <title change="#d2e191 #d2e120 #d11e313" level="j" xml:id="title_9.d2e1588" ref="oclc:243472096 jaraid:bibl:t1r329 oape:bibl:257 wiki:Q124972832" resp="#xslt">المقطم</title></bibl>.
 هذا هو الاستقلال الذي كان فيصل يحلف الأيمان المغلظة في خطبه ومحادثاته
 بأنه لا يقبله إلا تامًّا ناجزًا مطلقًا من قيود الحماية والوصاية , وكل تدخل أجنبي
 وإلا كان بريئًا من دم محمد , ومن نسب محمد صلى الله عليه وسلم. وكان يطلب
@@ -956,12 +956,12 @@
 شهد بذلك بعض أقطاب السياسة من الأوربيين أولي العلم والاختبار لأمور الشرق
 الذين وصفوه بالحزب الوسط بين جمود السواد الأكبر , وبين غلاة المتفرنجين.
 صرح اللورد كرومر بهذا في تأبينه للأستاذ الإمام في تقريره عن مصر سنة 1905 ,
-وسبقه إلى ذلك مراسل <bibl>جريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_12.d2e2297">الطان</title> <textLang mainLang="fr">الفرنسية</textLang></bibl> بتونس.
+وسبقه إلى ذلك مراسل <bibl>جريدة <title change="#d2e191 #d2e120 #d11e313" level="j" xml:id="title_12.d2e2297" ref="oclc:263593774 oape:bibl:21 wiki:Q125629305" resp="#xslt">الطان</title> <textLang mainLang="fr">الفرنسية</textLang></bibl> بتونس.
 بعد هذا أنقل إليك ما كتبه أحد تلاميذ الفقيد من دعاة التفرنج أنصار الجديد
 أعداء القديم فيه من هذه الجهة.
 ***
 رأي تلميذ له فيه
-<bibl>كتب الدكتور <author><persName>طه حسين</persName></author> مقالاً فيه نشره في جريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_13.d2e2311">السياسة</title></bibl> , وهو أحد كتابها
+<bibl>كتب الدكتور <author><persName>طه حسين</persName></author> مقالاً فيه نشره في جريدة <title change="#d11e324" level="j" xml:id="title_13.d2e2311" ref="NA" resp="#xslt">السياسة</title></bibl> , وهو أحد كتابها
 ذكر فيه أن الأستاذ المهدي كان له تأثير عظيم في أنفس تلاميذه الكثيرين , وأنهم
 كانوا يحبونه حبًّا شديدًا , وأن منهم كثيرًا من كبار المعلمين والقضاة والمحامين من
 شيوخ مصر وشبانها ثم قال:
@@ -1003,7 +1003,7 @@
 يرقصن مع الرجال الأجانب , والوطنيين في مصر الجديدة وشارع عماد الدين كما
 يرقص أخواتهن التركيات في مراقص غلطه وبيرا مع رجال الروم والإفرنج بإغواء ملاحدة المتفرنجين هنالك؟
 إن شأن غلاة التفرنج في مصر لعجيب، وأعجب منه تفضيل مثل الدكتور
-طه المدرس في الجامعة المصرية , والمحرر في <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_15.d2e2412">السياسة</title></bibl> هؤلاء الغلاة على
+طه المدرس في الجامعة المصرية , والمحرر في <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title change="#d11e324" level="j" xml:id="title_15.d2e2412" ref="NA" resp="#xslt">السياسة</title></bibl> هؤلاء الغلاة على
 المعتدلين الذين يرشدون الأمة إلى كل نافع ويزجرونها عن كل ضار من قديم وجديد.
 إن هؤلاء الغلاة في التفرنج أشد إفسادًا لأممهم من الجامدين على كل جديد ,
 فهم الذين يبددون ثروتها في الفسق والفجور، وهم الذين يفسدون أخلاقها وآدابها
@@ -1303,7 +1303,7 @@
 جريدته (القبلة) تصريحاً رسميًّا بما صدق أقوالنا الماضية؛ لما سأله رئيس
 مؤتمر الجزيرة الذي هو من أبواق دعايته عن مراده بالوحدة، ونشرنا تصريحه في
 المنار والأهرام، فقرأه الكثيرون في البلاد السورية، كما قرأه آخرون في الجزء
-الذي صدر من <bibl subtype="newspaper" type="periodical">جريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_16.d2e3106">القبلة</title> في 6 ربيع الآخر من هذه السنة</bibl>، ولم يكن هذا ولا ذاك
+الذي صدر من <bibl subtype="newspaper" type="periodical">جريدة <title change="#d2e191 #d2e120 #d11e313" level="j" xml:id="title_16.d2e3106" ref="jaraid:bibl:t1r1431 oape:bibl:2144 wiki:Q124972242" resp="#xslt">القبلة</title> في 6 ربيع الآخر من هذه السنة</bibl>، ولم يكن هذا ولا ذاك
 بصارف للمخدوعين بالدعاية السابقة من طلاب الوحدة العربية أن يظنوا أنه يسعى
 لها، وأن يوجهوا وجوههم إليه فيها.
 فهذه الوقائع زادت الملك حسينًا إيمانًا وتسليمًا بأن الدعاية (البوربغندة) تقلب
@@ -1386,15 +1386,15 @@
 معتقدًا أن الدعاية (البوربغندة) تُتِمُّ خلقها، وتنفخ الروح فيها، كما فعلت بمنصب
 (ملك البلاد العربية) قبلها , ويكفي في هذه الحياة عنده أن يبث لها دعاية جديدة
 بين حجاج الآفاق، ويستعين بها في الجزيرة على بث الشقاق، وأن تقول <bibl>جريدة
-<title level="j">القبلة</title> ب<pubPlace><placeName change="#d2e120 #d11e303" xml:id="placeName_49.d2e3346" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName></pubPlace></bibl>، <bibl>وجريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_17.d2e3349">الشرق العربي</title> الرسمية في <pubPlace><placeName ref="geon:250441 jaraid:place:73 oape:place:508 wiki:Q3805" resp="#xslt" change="#d11e303">عمان</placeName></pubPlace></bibl>، وجرائد <title level="j">الطبل</title> و<title level="j">الزمر</title>
-<bibl>و<title level="j">لسان العرب</title> بفلسطين</bibl>، <bibl type="periodical">وجريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_18.d2e3354">الحقيقة</title> <pubPlace>ب<placeName change="#d2e120 #d11e303" xml:id="placeName_50.d2e3358" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName></pubPlace></bibl>، وأمثالهن من جرائد سورية
+<title level="j" ref="jaraid:bibl:t1r1431 oape:bibl:2144 wiki:Q124972242" change="#d11e313" resp="#xslt">القبلة</title> ب<pubPlace><placeName change="#d2e120 #d11e303" xml:id="placeName_49.d2e3346" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName></pubPlace></bibl>، <bibl>وجريدة <title change="#d2e191 #d2e120 #d11e313" level="j" xml:id="title_17.d2e3349" ref="jaraid:bibl:t1r2779 oape:bibl:2562 wiki:Q60574034" resp="#xslt">الشرق العربي</title> الرسمية في <pubPlace><placeName ref="geon:250441 jaraid:place:73 oape:place:508 wiki:Q3805" resp="#xslt" change="#d11e303">عمان</placeName></pubPlace></bibl>، وجرائد <title level="j" ref="jaraid:bibl:t1r2641 oape:bibl:2272 wiki:Q124964216" change="#d11e313" resp="#xslt">الطبل</title> و<title level="j" ref="oape:bibl:3863 wiki:Q124975211" change="#d11e313" resp="#xslt">الزمر</title>
+<bibl>و<title level="j" change="#d11e324" ref="NA" resp="#xslt">لسان العرب</title> بفلسطين</bibl>، <bibl type="periodical">وجريدة <title change="#d2e191 #d2e120 #d11e313" level="j" xml:id="title_18.d2e3354" ref="oclc:792755177 jaraid:bibl:t1r2372 oape:bibl:30 wiki:Q124971025" resp="#xslt">الحقيقة</title> <pubPlace>ب<placeName change="#d2e120 #d11e303" xml:id="placeName_50.d2e3358" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName></pubPlace></bibl>، وأمثالهن من جرائد سورية
 و<placeName change="#d2e120 #d11e303" xml:id="placeName_51.d2e3363" ref="geon:99237 oape:place:209" resp="#xslt">العراق</placeName>: إن صاحب الجلالة الهاشمية، هو خليفة المسلمين، وأمير المؤمنين،
 وملك العرب أجمعين. بل يقدر الملك حسين ودعاته أن يستأجروا في مصر
 وغيرها أمثال هذه الجرائد لذلك.
 حمل الرجل اللقب وانقلب إلى بلده مسرورًا، وظل الأمير عبد الله حيث كان
 بالرغم من أنوف السكان والجيران، وصارت إمارته شرًّا مما كانت، وأبعد عن
 الاستقلال، واشتد ضغط الفرنسيس على المسلمين الذين بايعوه، فاعتقل أفراد من
-الوجهاء وأخرج آخرون، وفر دعاته أصحاب <bibl>جريدة <title change="#d2e191 #d2e120" level="j" xml:id="title_19.d2e3379">الحقيقة</title></bibl> هاربين من <placeName change="#d2e120 #d11e303" xml:id="placeName_52.d2e3382" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>،
+الوجهاء وأخرج آخرون، وفر دعاته أصحاب <bibl>جريدة <title change="#d11e324" level="j" xml:id="title_19.d2e3379" ref="NA" resp="#xslt">الحقيقة</title></bibl> هاربين من <placeName change="#d2e120 #d11e303" xml:id="placeName_52.d2e3382" ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt">بيروت</placeName>،
 وازدادت المسألة العربية بعدًا عن الوحدة بفشل مؤتمر الكويت الذي كان سببه
 اقتراحات (منقذ العرب ومؤسس وحدتهم) واقتراحات ولده الأمير عبد الله التي
 أملاها الغرور بالاتكال على الإنكليز في تمليكهم لنجد وغيرها من الجزيرة، وما كان
