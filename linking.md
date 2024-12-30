@@ -46,12 +46,12 @@ lang: en
 | أنيس التلميذ                       | SUCCESS | oclc_1588981-v_1-i_9.TEIP5.xml#bibl_2                 | linked to the authority file.                                       |
 | أنيس الجليس                        | WARNING | oclc_1588981-v_2-i_48.TEIP5.xml#title_15.d2e1254      | could not be linked to the authority file due to ambiguous matches. |
 | أنين مظلوم                         | SUCCESS | oclc_1588981-v_2-i_15.TEIP5.xml#p_2.d2e1050           | linked to the authority file.                                       |
-| أوقيانوس                           | FAILURE | oclc_1588981-v_11-i_12.TEIP5.xml#p_2.d2e1461          | could not be found in the authority file.                           |
+| أوقيانوس                           | SUCCESS | oclc_1588981-v_11-i_12.TEIP5.xml#p_2.d2e1461          | linked to the authority file.                                       |
 | إرساليات التبشير البروتستانية      | SUCCESS | oclc_1588981-v_15-i_7.TEIP5.xml#p_2.d2e945            | linked to the authority file.                                       |
 | إرساليات التبشير البروتستانية      | SUCCESS | oclc_1588981-v_15-i_7.TEIP5.xml#title_10.d2e1394      | linked to the authority file.                                       |
 | إسبوعية                            | SUCCESS | oclc_1588981-v_5-i_19.TEIP5.xml#p_2.d2e3015           | linked to the authority file.                                       |
 | إسلامك ريبويو                      | SUCCESS | oclc_1588981-v_17-i_10.TEIP5.xml#title_6.d2e3224      | linked to the authority file.                                       |
-| إسلاميك كلتشر                      | FAILURE | oclc_1588981-v_34-i_7.TEIP5.xml#p_2.d2e249            | could not be found in the authority file.                           |
+| إسلاميك كلتشر                      | SUCCESS | oclc_1588981-v_34-i_7.TEIP5.xml#p_2.d2e249            | linked to the authority file.                                       |
 | إقدام                              | SUCCESS | oclc_1588981-v_1-i_49.TEIP5.xml#title_7.d2e1111       | linked to the authority file.                                       |
 | إقدام                              | SUCCESS | oclc_1588981-v_12-i_11.TEIP5.xml#title_13.d2e2052     | linked to the authority file.                                       |
 | إقدام                              | SUCCESS | oclc_1588981-v_12-i_11.TEIP5.xml#title_6.d2e1268      | linked to the authority file.                                       |
@@ -104,8 +104,8 @@ lang: en
 | الأحكام                            | SUCCESS | oclc_1588981-v_8-i_12.TEIP5.xml#title_10.d2e796       | linked to the authority file.                                       |
 | الأحكام                            | SUCCESS | oclc_1588981-v_8-i_6.TEIP5.xml#title_5.d2e1420        | linked to the authority file.                                       |
 | الأحكام الشرعية                    | FAILURE | oclc_1588981-v_10-i_9.TEIP5.xml#title_25.d2e4308      | could not be found in the authority file.                           |
+| الأحكام العدلية                    | SUCCESS | oclc_1588981-v_19-i_6.TEIP5.xml#p_2.d2e2267           | linked to the authority file.                                       |
 | الأحكام العدلية                    | SUCCESS | oclc_1588981-v_21-i_1.TEIP5.xml#p_2.d2e570            | linked to the authority file.                                       |
-| الأحكام العدلية التي               | FAILURE | oclc_1588981-v_19-i_6.TEIP5.xml#p_2.d2e2267           | could not be found in the authority file.                           |
 | الأحوال                            | WARNING | oclc_1588981-v_11-i_10.TEIP5.xml#div_8.d2e3920        | could not be linked to the authority file due to ambiguous matches. |
 | الأحوال                            | WARNING | oclc_1588981-v_11-i_10.TEIP5.xml#div_8.d2e3920        | could not be linked to the authority file due to ambiguous matches. |
 | الأحوال                            | WARNING | oclc_1588981-v_11-i_10.TEIP5.xml#div_8.d2e3920        | could not be linked to the authority file due to ambiguous matches. |
@@ -113,6 +113,7 @@ lang: en
 | الأخبار                            | WARNING | oclc_1588981-v_10-i_1.TEIP5.xml#title_9.d2e3678       | could not be linked to the authority file due to ambiguous matches. |
 | الأخبار                            | WARNING | oclc_1588981-v_10-i_5.TEIP5.xml#p_2.d2e3931           | could not be linked to the authority file due to ambiguous matches. |
 | الأخبار                            | WARNING | oclc_1588981-v_10-i_5.TEIP5.xml#title_26.d2e4102      | could not be linked to the authority file due to ambiguous matches. |
+| الأخبار                            | WARNING | oclc_1588981-v_12-i_6.TEIP5.xml#title_11.d2e2102      | could not be linked to the authority file due to ambiguous matches. |
 | الأخبار                            | WARNING | oclc_1588981-v_13-i_12.TEIP5.xml#title_9.d2e1279      | could not be linked to the authority file due to ambiguous matches. |
 | الأخبار                            | WARNING | oclc_1588981-v_14-i_3.TEIP5.xml#title_6.d2e2743       | could not be linked to the authority file due to ambiguous matches. |
 | الأخبار                            | WARNING | oclc_1588981-v_14-i_3.TEIP5.xml#title_7.d2e2757       | could not be linked to the authority file due to ambiguous matches. |
@@ -160,10 +161,8 @@ lang: en
 | الأخبار                            | WARNING | oclc_1588981-v_33-i_2.TEIP5.xml#title_14.d2e3814      | could not be linked to the authority file due to ambiguous matches. |
 | الأخبار الإسلامية                  | FAILURE | oclc_1588981-v_28-i_8.TEIP5.xml#p_2.d2e4609           | could not be found in the authority file.                           |
 | الأخبار الإسلامية                  | FAILURE | oclc_1588981-v_6-i_13.TEIP5.xml#p_2.d2e2147           | could not be found in the authority file.                           |
-| الأخبارأحد                         | FAILURE | oclc_1588981-v_12-i_6.TEIP5.xml#title_11.d2e2102      | could not be found in the authority file.                           |
 | الأديان                            | SUCCESS | oclc_1588981-v_18-i_3.TEIP5.xml#title_5.d2e283        | linked to the authority file.                                       |
 | الأديان                            | SUCCESS | oclc_1588981-v_18-i_3.TEIP5.xml#title_6.d2e369        | linked to the authority file.                                       |
-| الأرجنتين التي                     | FAILURE | oclc_1588981-v_24-i_2.TEIP5.xml#p_2.d2e4237           | could not be found in the authority file.                           |
 | الأزهر                             | SUCCESS | oclc_1588981-v_31-i_5.TEIP5.xml#title_11.d2e2019      | linked to the authority file.                                       |
 | الأزهر                             | SUCCESS | oclc_1588981-v_31-i_5.TEIP5.xml#title_15.d2e2691      | linked to the authority file.                                       |
 | الأزهر                             | SUCCESS | oclc_1588981-v_31-i_5.TEIP5.xml#title_16.d2e2844      | linked to the authority file.                                       |
@@ -254,13 +253,13 @@ lang: en
 | الأمكنة                            | FAILURE | oclc_1588981-v_6-i_19.TEIP5.xml#title_7.d2e877        | could not be found in the authority file.                           |
 | الأهالي                            | WARNING | oclc_1588981-v_16-i_2.TEIP5.xml#p_2.d2e280            | could not be linked to the authority file due to ambiguous matches. |
 | الأهالي                            | WARNING | oclc_1588981-v_16-i_2.TEIP5.xml#title_5.d2e349        | could not be linked to the authority file due to ambiguous matches. |
+| الأهرام                            | SUCCESS | oclc_1588981-v_17-i_12.TEIP5.xml#p_2.d2e3057          | linked to the authority file.                                       |
 | الأهرام                            | SUCCESS | oclc_1588981-v_2-i_22.TEIP5.xml#p_2.d2e280            | linked to the authority file.                                       |
 | الأهرام                            | SUCCESS | oclc_1588981-v_2-i_22.TEIP5.xml#p_2.d2e280            | linked to the authority file.                                       |
 | الأهرام                            | SUCCESS | oclc_1588981-v_2-i_22.TEIP5.xml#p_2.d2e280            | linked to the authority file.                                       |
 | الأهرام                            | SUCCESS | oclc_1588981-v_2-i_22.TEIP5.xml#p_2.d2e280            | linked to the authority file.                                       |
 | الأهرام                            | WARNING | oclc_1588981-v_11-i_10.TEIP5.xml#div_8.d2e3920        | could not be linked to the authority file due to ambiguous matches. |
-| الأهرام اليومية التي               | FAILURE | oclc_1588981-v_17-i_12.TEIP5.xml#p_2.d2e3057          | could not be found in the authority file.                           |
-| الأيام التي                        | FAILURE | oclc_1588981-v_3-i_2.TEIP5.xml#p_2.d2e539             | could not be found in the authority file.                           |
+| الأيام                             | SUCCESS | oclc_1588981-v_3-i_2.TEIP5.xml#p_2.d2e539             | linked to the authority file.                                       |
 | الأيجبت                            | SUCCESS | oclc_1588981-v_14-i_3.TEIP5.xml#title_9.d2e3804       | linked to the authority file.                                       |
 | الأيكو                             | SUCCESS | oclc_1588981-v_32-i_5.TEIP5.xml#p_2.d2e648            | linked to the authority file.                                       |
 | الأيكو                             | SUCCESS | oclc_1588981-v_32-i_5.TEIP5.xml#p_2.d2e648            | linked to the authority file.                                       |
@@ -338,7 +337,7 @@ lang: en
 | الباتري                            | SUCCESS | oclc_1588981-v_22-i_4.TEIP5.xml#title_8.d2e4327       | linked to the authority file.                                       |
 | الباقري                            | FAILURE | oclc_1588981-v_35-i_9.TEIP5.xml#title_5.d2e628        | could not be found in the authority file.                           |
 | البال مال غازيت                    | SUCCESS | oclc_1588981-v_15-i_12.TEIP5.xml#title_11.d2e2577     | linked to the authority file.                                       |
-| البال مال كازيت                    | FAILURE | oclc_1588981-v_8-i_12.TEIP5.xml#note_1.d2e270         | could not be found in the authority file.                           |
+| البال مال كازيت                    | SUCCESS | oclc_1588981-v_8-i_12.TEIP5.xml#note_1.d2e270         | linked to the authority file.                                       |
 | البايي                             | SUCCESS | oclc_1588981-v_20-i_1.TEIP5.xml#title_6.d2e3082       | linked to the authority file.                                       |
 | البحرية                            | SUCCESS | oclc_1588981-v_15-i_4.TEIP5.xml#title_13.d2e3256      | linked to the authority file.                                       |
 | البراميد                           | SUCCESS | oclc_1588981-v_4-i_8.TEIP5.xml#title_6.d2e1774        | linked to the authority file.                                       |
@@ -386,7 +385,7 @@ lang: en
 | التمدن                             | SUCCESS | oclc_1588981-v_6-i_21.TEIP5.xml#p_2.d2e433            | linked to the authority file.                                       |
 | التمدن                             | SUCCESS | oclc_1588981-v_6-i_24.TEIP5.xml#title_12.d2e1552      | linked to the authority file.                                       |
 | التهذيب                            | WARNING | oclc_1588981-v_10-i_9.TEIP5.xml#title_21.d2e4121      | could not be linked to the authority file due to ambiguous matches. |
-| التيمس الإنكليزية                  | FAILURE | oclc_1588981-v_33-i_8.TEIP5.xml#p_2.d2e1342           | could not be found in the authority file.                           |
+| التيمس                             | SUCCESS | oclc_1588981-v_33-i_8.TEIP5.xml#p_2.d2e1342           | linked to the authority file.                                       |
 | الثمرات                            | SUCCESS | oclc_1588981-v_1-i_32.TEIP5.xml#p_2.d2e1186           | linked to the authority file.                                       |
 | الثمرات                            | WARNING | oclc_1588981-v_1-i_34.TEIP5.xml#title_5.d2e779        | could not be linked to the authority file due to ambiguous matches. |
 | الثمرات                            | WARNING | oclc_1588981-v_2-i_36.TEIP5.xml#title_10.d2e1209      | could not be linked to the authority file due to ambiguous matches. |
@@ -500,12 +499,12 @@ lang: en
 | الحضارة                            | WARNING | oclc_1588981-v_19-i_3.TEIP5.xml#title_15.d2e3139      | could not be linked to the authority file due to ambiguous matches. |
 | الحضارة                            | WARNING | oclc_1588981-v_19-i_3.TEIP5.xml#title_9.d2e2163       | could not be linked to the authority file due to ambiguous matches. |
 | الحضارة                            | WARNING | oclc_1588981-v_35-i_3.TEIP5.xml#title_9.d2e1048       | could not be linked to the authority file due to ambiguous matches. |
+| الحقيقة                            | SUCCESS | oclc_1588981-v_13-i_8.TEIP5.xml#p_2.d2e1224           | linked to the authority file.                                       |
 | الحقيقة                            | WARNING | oclc_1588981-v_22-i_10.TEIP5.xml#title_7.d2e2730      | could not be linked to the authority file due to ambiguous matches. |
 | الحقيقة                            | WARNING | oclc_1588981-v_22-i_8.TEIP5.xml#title_5.d2e1432       | could not be linked to the authority file due to ambiguous matches. |
 | الحقيقة                            | WARNING | oclc_1588981-v_22-i_8.TEIP5.xml#title_6.d2e1610       | could not be linked to the authority file due to ambiguous matches. |
 | الحقيقة                            | WARNING | oclc_1588981-v_25-i_3.TEIP5.xml#title_19.d2e3379      | could not be linked to the authority file due to ambiguous matches. |
 | الحقيقة                            | WARNING | oclc_1588981-v_25-i_5.TEIP5.xml#title_20.d2e3620      | could not be linked to the authority file due to ambiguous matches. |
-| الحقيقة البيروتية                  | FAILURE | oclc_1588981-v_13-i_8.TEIP5.xml#p_2.d2e1224           | could not be found in the authority file.                           |
 | الحكومة                            | WARNING | oclc_1588981-v_10-i_1.TEIP5.xml#title_13.d2e4255      | could not be linked to the authority file due to ambiguous matches. |
 | الحكومة                            | WARNING | oclc_1588981-v_10-i_4.TEIP5.xml#title_7.d2e2373       | could not be linked to the authority file due to ambiguous matches. |
 | الحكومة                            | WARNING | oclc_1588981-v_11-i_3.TEIP5.xml#title_6.d2e1794       | could not be linked to the authority file due to ambiguous matches. |
@@ -536,7 +535,7 @@ lang: en
 | الدكتور                            | SUCCESS | oclc_1588981-v_7-i_12.TEIP5.xml#title_6.d2e1305       | linked to the authority file.                                       |
 | الدكتور                            | SUCCESS | oclc_1588981-v_7-i_13.TEIP5.xml#title_5.d2e1470       | linked to the authority file.                                       |
 | الدولة                             | SUCCESS | oclc_1588981-v_6-i_13.TEIP5.xml#title_7.d2e2163       | linked to the authority file.                                       |
-| الديبيش كولونيال                   | FAILURE | oclc_1588981-v_13-i_4.TEIP5.xml#title_11.d2e3758      | could not be found in the authority file.                           |
+| الديبيش كولونيال                   | SUCCESS | oclc_1588981-v_13-i_4.TEIP5.xml#title_11.d2e3758      | linked to the authority file.                                       |
 | الديلي                             | SUCCESS | oclc_1588981-v_11-i_4.TEIP5.xml#title_6.d2e1106       | linked to the authority file.                                       |
 | الديلي                             | SUCCESS | oclc_1588981-v_17-i_1.TEIP5.xml#title_7.d2e1053       | linked to the authority file.                                       |
 | الديلي                             | SUCCESS | oclc_1588981-v_23-i_4.TEIP5.xml#title_7.d2e1021       | linked to the authority file.                                       |
@@ -623,7 +622,7 @@ lang: en
 | السمير                             | WARNING | oclc_1588981-v_3-i_8.TEIP5.xml#title_7.d2e1007        | could not be linked to the authority file due to ambiguous matches. |
 | السمير                             | WARNING | oclc_1588981-v_5-i_8.TEIP5.xml#title_5.d2e1722        | could not be linked to the authority file due to ambiguous matches. |
 | السنة                              | SUCCESS | oclc_1588981-v_3-i_22.TEIP5.xml#title_5.d2e1071       | linked to the authority file.                                       |
-| السياسة                            | FAILURE | oclc_1588981-v_6-i_4.TEIP5.xml#p_2.d2e822             | could not be found in the authority file.                           |
+| السياسة                            | SUCCESS | oclc_1588981-v_6-i_4.TEIP5.xml#p_2.d2e822             | linked to the authority file.                                       |
 | السياسة                            | WARNING | oclc_1588981-v_24-i_4.TEIP5.xml#title_7.d2e3055       | could not be linked to the authority file due to ambiguous matches. |
 | السياسة                            | WARNING | oclc_1588981-v_24-i_4.TEIP5.xml#title_9.d2e3410       | could not be linked to the authority file due to ambiguous matches. |
 | السياسة                            | WARNING | oclc_1588981-v_24-i_7.TEIP5.xml#title_7.d2e4116       | could not be linked to the authority file due to ambiguous matches. |
@@ -673,6 +672,7 @@ lang: en
 | السياسة                            | WARNING | oclc_1588981-v_28-i_3.TEIP5.xml#title_8.d2e4088       | could not be linked to the authority file due to ambiguous matches. |
 | السياسة                            | WARNING | oclc_1588981-v_28-i_4.TEIP5.xml#p_2.d2e2256           | could not be linked to the authority file due to ambiguous matches. |
 | السياسة                            | WARNING | oclc_1588981-v_28-i_4.TEIP5.xml#p_2.d2e2256           | could not be linked to the authority file due to ambiguous matches. |
+| السياسة                            | WARNING | oclc_1588981-v_28-i_4.TEIP5.xml#p_2.d2e3957           | could not be linked to the authority file due to ambiguous matches. |
 | السياسة                            | WARNING | oclc_1588981-v_28-i_4.TEIP5.xml#title_10.d2e2435      | could not be linked to the authority file due to ambiguous matches. |
 | السياسة                            | WARNING | oclc_1588981-v_28-i_4.TEIP5.xml#title_12.d2e2644      | could not be linked to the authority file due to ambiguous matches. |
 | السياسة                            | WARNING | oclc_1588981-v_28-i_4.TEIP5.xml#title_16.d2e3212      | could not be linked to the authority file due to ambiguous matches. |
@@ -711,11 +711,10 @@ lang: en
 | السياسة                            | WARNING | oclc_1588981-v_30-i_1.TEIP5.xml#title_5.d2e565        | could not be linked to the authority file due to ambiguous matches. |
 | السياسة                            | WARNING | oclc_1588981-v_30-i_2.TEIP5.xml#title_5.d2e1726       | could not be linked to the authority file due to ambiguous matches. |
 | السياسة                            | WARNING | oclc_1588981-v_30-i_9.TEIP5.xml#title_5.d2e2779       | could not be linked to the authority file due to ambiguous matches. |
+| السياسة                            | WARNING | oclc_1588981-v_32-i_4.TEIP5.xml#p_2.d2e2402           | could not be linked to the authority file due to ambiguous matches. |
 | السياسة                            | WARNING | oclc_1588981-v_32-i_9.TEIP5.xml#title_10.d2e773       | could not be linked to the authority file due to ambiguous matches. |
 | السياسة                            | WARNING | oclc_1588981-v_33-i_5.TEIP5.xml#title_7.d2e2060       | could not be linked to the authority file due to ambiguous matches. |
 | السياسة                            | WARNING | oclc_1588981-v_34-i_10.TEIP5.xml#title_11.d2e2341     | could not be linked to the authority file due to ambiguous matches. |
-| السياسة التي                       | FAILURE | oclc_1588981-v_28-i_4.TEIP5.xml#p_2.d2e3957           | could not be found in the authority file.                           |
-| السياسة التي                       | FAILURE | oclc_1588981-v_32-i_4.TEIP5.xml#p_2.d2e2402           | could not be found in the authority file.                           |
 | السياسة الغرور                     | FAILURE | oclc_1588981-v_28-i_3.TEIP5.xml#p_2.d2e4041           | could not be found in the authority file.                           |
 | السياسة المصرية                    | FAILURE | oclc_1588981-v_28-i_4.TEIP5.xml#p_2.d2e3554           | could not be found in the authority file.                           |
 | السياسة المصرية                    | FAILURE | oclc_1588981-v_28-i_8.TEIP5.xml#p_2.d2e4609           | could not be found in the authority file.                           |
@@ -977,7 +976,8 @@ lang: en
 | الفجر                              | WARNING | oclc_1588981-v_22-i_9.TEIP5.xml#title_7.d2e528        | could not be linked to the authority file due to ambiguous matches. |
 | الفجر                              | WARNING | oclc_1588981-v_22-i_9.TEIP5.xml#title_9.d2e720        | could not be linked to the authority file due to ambiguous matches. |
 | الفرائد                            | WARNING | oclc_1588981-v_13-i_2.TEIP5.xml#p_2.d2e2554           | could not be linked to the authority file due to ambiguous matches. |
-| الفضيلة                            | FAILURE | oclc_1588981-v_6-i_4.TEIP5.xml#p_2.d2e822             | could not be found in the authority file.                           |
+| الفضيلة                            | SUCCESS | oclc_1588981-v_6-i_4.TEIP5.xml#p_2.d2e822             | linked to the authority file.                                       |
+| الفطرة                             | SUCCESS | oclc_1588981-v_24-i_2.TEIP5.xml#p_2.d2e4237           | linked to the authority file.                                       |
 | الفطرة                             | SUCCESS | oclc_1588981-v_29-i_5.TEIP5.xml#title_8.d2e1910       | linked to the authority file.                                       |
 | الفطرة                             | SUCCESS | oclc_1588981-v_29-i_5.TEIP5.xml#title_9.d2e1915       | linked to the authority file.                                       |
 | الفطرة                             | SUCCESS | oclc_1588981-v_30-i_8.TEIP5.xml#title_10.d2e3648      | linked to the authority file.                                       |
@@ -990,7 +990,7 @@ lang: en
 | الفلاح المصري                      | FAILURE | oclc_1588981-v_31-i_9.TEIP5.xml#p_2.d2e2828           | could not be found in the authority file.                           |
 | الفيجارو                           | SUCCESS | oclc_1588981-v_22-i_4.TEIP5.xml#title_9.d2e4446       | linked to the authority file.                                       |
 | الفيغارو                           | FAILURE | oclc_1588981-v_35-i_9.TEIP5.xml#title_6.d2e693        | could not be found in the authority file.                           |
-| القاهرة                            | FAILURE | oclc_1588981-v_6-i_4.TEIP5.xml#p_2.d2e822             | could not be found in the authority file.                           |
+| القاهرة                            | SUCCESS | oclc_1588981-v_6-i_4.TEIP5.xml#p_2.d2e822             | linked to the authority file.                                       |
 | القاهرة                            | WARNING | oclc_1588981-v_30-i_1.TEIP5.xml#title_7.d2e1114       | could not be linked to the authority file due to ambiguous matches. |
 | القبلة                             | SUCCESS | oclc_1588981-v_19-i_6.TEIP5.xml#title_10.d2e2248      | linked to the authority file.                                       |
 | القبلة                             | SUCCESS | oclc_1588981-v_19-i_6.TEIP5.xml#title_11.d2e2810      | linked to the authority file.                                       |
@@ -1148,7 +1148,7 @@ lang: en
 | الكوكب                             | WARNING | oclc_1588981-v_25-i_1.TEIP5.xml#title_12.d2e2472      | could not be linked to the authority file due to ambiguous matches. |
 | الكوكب                             | WARNING | oclc_1588981-v_25-i_3.TEIP5.xml#title_8.d2e1585       | could not be linked to the authority file due to ambiguous matches. |
 | الكوكب                             | WARNING | oclc_1588981-v_27-i_6.TEIP5.xml#title_12.d2e3424      | could not be linked to the authority file due to ambiguous matches. |
-| الكوكب المصري التي                 | FAILURE | oclc_1588981-v_2-i_8.TEIP5.xml#p_2.d2e927             | could not be found in the authority file.                           |
+| الكوكب المصري                      | SUCCESS | oclc_1588981-v_2-i_8.TEIP5.xml#p_2.d2e927             | linked to the authority file.                                       |
 | الكومندايتور                       | SUCCESS | oclc_1588981-v_16-i_8.TEIP5.xml#title_11.d2e2409      | linked to the authority file.                                       |
 | الكويت                             | SUCCESS | oclc_1588981-v_30-i_7.TEIP5.xml#title_12.d2e3685      | linked to the authority file.                                       |
 | الكويت                             | SUCCESS | oclc_1588981-v_31-i_1.TEIP5.xml#title_8.d2e1564       | linked to the authority file.                                       |
@@ -1285,7 +1285,7 @@ lang: en
 | المحبة                             | WARNING | oclc_1588981-v_2-i_10.TEIP5.xml#title_9.d2e949        | could not be linked to the authority file due to ambiguous matches. |
 | المحروسة                           | FAILURE | oclc_1588981-v_11-i_12.TEIP5.xml#p_2.d2e1461          | could not be found in the authority file.                           |
 | المحيط                             | WARNING | oclc_1588981-v_11-i_12.TEIP5.xml#title_14.d2e1596     | could not be linked to the authority file due to ambiguous matches. |
-| المدرسة                            | FAILURE | oclc_1588981-v_11-i_12.TEIP5.xml#p_2.d2e1461          | could not be found in the authority file.                           |
+| المدرسة                            | SUCCESS | oclc_1588981-v_11-i_12.TEIP5.xml#p_2.d2e1461          | linked to the authority file.                                       |
 | المراقب                            | WARNING | oclc_1588981-v_15-i_6.TEIP5.xml#title_18.d2e3740      | could not be linked to the authority file due to ambiguous matches. |
 | المرشد                             | SUCCESS | oclc_1588981-v_9-i_11.TEIP5.xml#bibl_2                | linked to the authority file.                                       |
 | المرصد                             | SUCCESS | oclc_1588981-v_11-i_10.TEIP5.xml#title_11.d2e2417     | linked to the authority file.                                       |
@@ -1299,7 +1299,7 @@ lang: en
 | المسلم                             | SUCCESS | oclc_1588981-v_32-i_10.TEIP5.xml#title_22.d2e4000     | linked to the authority file.                                       |
 | المسلمين                           | FAILURE | oclc_1588981-v_7-i_1.TEIP5.xml#title_6.d2e1137        | could not be found in the authority file.                           |
 | المسلمين                           | FAILURE | oclc_1588981-v_7-i_5.TEIP5.xml#title_5.d2e889         | could not be found in the authority file.                           |
-| المشرق البيروتية                   | FAILURE | oclc_1588981-v_16-i_1.TEIP5.xml#p_2.d2e1649           | could not be found in the authority file.                           |
+| المشرق                             | SUCCESS | oclc_1588981-v_16-i_1.TEIP5.xml#p_2.d2e1649           | linked to the authority file.                                       |
 | المشيخة                            | FAILURE | oclc_1588981-v_32-i_10.TEIP5.xml#note_4.d2e1801       | could not be found in the authority file.                           |
 | المشيخة                            | FAILURE | oclc_1588981-v_32-i_10.TEIP5.xml#p_2.d2e1472          | could not be found in the authority file.                           |
 | المشيخة                            | FAILURE | oclc_1588981-v_32-i_10.TEIP5.xml#p_2.d2e1472          | could not be found in the authority file.                           |
@@ -1381,8 +1381,11 @@ lang: en
 | المنار                             | SUCCESS | oclc_1588981-v_13-i_11.TEIP5.xml#persName_10.d2e2464  | linked to the authority file.                                       |
 | المنار                             | SUCCESS | oclc_1588981-v_14-i_6.TEIP5.xml#p_2.d2e280            | linked to the authority file.                                       |
 | المنار                             | SUCCESS | oclc_1588981-v_15-i_10.TEIP5.xml#div_7.d2e4288        | linked to the authority file.                                       |
+| المنار                             | SUCCESS | oclc_1588981-v_19-i_7.TEIP5.xml#p_2.d2e275            | linked to the authority file.                                       |
 | المنار                             | SUCCESS | oclc_1588981-v_24-i_4.TEIP5.xml#title_5.d2e1221       | linked to the authority file.                                       |
 | المنار                             | SUCCESS | oclc_1588981-v_29-i_10.TEIP5.xml#title_7.d2e2463      | linked to the authority file.                                       |
+| المنار                             | SUCCESS | oclc_1588981-v_30-i_7.TEIP5.xml#p_2.d2e966            | linked to the authority file.                                       |
+| المنار                             | SUCCESS | oclc_1588981-v_32-i_10.TEIP5.xml#p_2.d2e253           | linked to the authority file.                                       |
 | المنار                             | SUCCESS | oclc_1588981-v_5-i_16.TEIP5.xml#p_2.d2e2072           | linked to the authority file.                                       |
 | المنار                             | SUCCESS | oclc_1588981-v_7-i_13.TEIP5.xml#note_4.d2e1864        | linked to the authority file.                                       |
 | المنار                             | SUCCESS | oclc_1588981-v_7-i_13.TEIP5.xml#p_2.d2e1647           | linked to the authority file.                                       |
@@ -1391,9 +1394,6 @@ lang: en
 | المنار الإسلامي                    | FAILURE | oclc_1588981-v_9-i_1.TEIP5.xml#p_2.d2e3822            | could not be found in the authority file.                           |
 | المنار الإسلامية                   | FAILURE | oclc_1588981-v_19-i_4.TEIP5.xml#p_2.d2e2142           | could not be found in the authority file.                           |
 | المنار الإسلامية                   | FAILURE | oclc_1588981-v_29-i_2.TEIP5.xml#p_2.d2e1984           | could not be found in the authority file.                           |
-| المنار الغراء التي                 | FAILURE | oclc_1588981-v_19-i_7.TEIP5.xml#p_2.d2e275            | could not be found in the authority file.                           |
-| المنار الغرَّاء                    | FAILURE | oclc_1588981-v_30-i_7.TEIP5.xml#p_2.d2e966            | could not be found in the authority file.                           |
-| المنار الغرَّاء                    | FAILURE | oclc_1588981-v_32-i_10.TEIP5.xml#p_2.d2e253           | could not be found in the authority file.                           |
 | المنار،                            | FAILURE | oclc_1588981-v_12-i_1.TEIP5.xml#p_2.d2e275            | could not be found in the authority file.                           |
 | المناظر                            | SUCCESS | oclc_1588981-v_2-i_40.TEIP5.xml#title_5.d2e942        | linked to the authority file.                                       |
 | المناظر                            | SUCCESS | oclc_1588981-v_3-i_1.TEIP5.xml#title_11.d2e1644       | linked to the authority file.                                       |
@@ -1519,6 +1519,7 @@ lang: en
 | الوفاق                             | WARNING | oclc_1588981-v_35-i_2.TEIP5.xml#title_5.d2e380        | could not be linked to the authority file due to ambiguous matches. |
 | الوقائع                            | FAILURE | oclc_1588981-v_4-i_13.TEIP5.xml#title_12.d2e1547      | could not be found in the authority file.                           |
 | الوقائع                            | FAILURE | oclc_1588981-v_8-i_11.TEIP5.xml#title_5.d2e842        | could not be found in the authority file.                           |
+| الوقائع الرسمية                    | FAILURE | oclc_1588981-v_2-i_8.TEIP5.xml#p_2.d2e927             | could not be found in the authority file.                           |
 | الوقائع الرسمية                    | FAILURE | oclc_1588981-v_28-i_7.TEIP5.xml#p_2.d2e3097           | could not be found in the authority file.                           |
 | الوقائع المصرية                    | SUCCESS | oclc_1588981-v_10-i_7.TEIP5.xml#p_2.d2e3996           | linked to the authority file.                                       |
 | الوقت                              | SUCCESS | oclc_1588981-v_14-i_5.TEIP5.xml#title_10.d2e3210      | linked to the authority file.                                       |
@@ -1533,7 +1534,7 @@ lang: en
 | بودابست هيرلاب                     | SUCCESS | oclc_1588981-v_15-i_1.TEIP5.xml#title_8.d2e2436       | linked to the authority file.                                       |
 | بودابست هيرلات                     | SUCCESS | oclc_1588981-v_14-i_12.TEIP5.xml#title_13.d2e6106     | linked to the authority file.                                       |
 | بيام                               | SUCCESS | oclc_1588981-v_17-i_8.TEIP5.xml#title_5.d2e1522       | linked to the authority file.                                       |
-| بيان الحق                          | FAILURE | oclc_1588981-v_11-i_12.TEIP5.xml#p_2.d2e1461          | could not be found in the authority file.                           |
+| بيان الحق                          | SUCCESS | oclc_1588981-v_11-i_12.TEIP5.xml#p_2.d2e1461          | linked to the authority file.                                       |
 | بيان الحق                          | SUCCESS | oclc_1588981-v_13-i_10.TEIP5.xml#title_9.d2e1404      | linked to the authority file.                                       |
 | بيان الحق                          | SUCCESS | oclc_1588981-v_14-i_2.TEIP5.xml#p_2.d2e1738           | linked to the authority file.                                       |
 | بيروت                              | WARNING | oclc_1588981-v_1-i_32.TEIP5.xml#p_2.d2e1186           | could not be linked to the authority file due to ambiguous matches. |
@@ -1597,8 +1598,8 @@ lang: en
 | تصوير أفكار                        | SUCCESS | oclc_1588981-v_12-i_7.TEIP5.xml#title_8.d2e752        | linked to the authority file.                                       |
 | تصوير أفكار                        | SUCCESS | oclc_1588981-v_19-i_9.TEIP5.xml#note_6.d2e2522        | linked to the authority file.                                       |
 | تونس                               | SUCCESS | oclc_1588981-v_9-i_11.TEIP5.xml#p_2.d2e3286           | linked to the authority file.                                       |
-| ثروت فتون                          | FAILURE | oclc_1588981-v_12-i_5.TEIP5.xml#title_5.d2e610        | could not be found in the authority file.                           |
 | ثروت فنون                          | SUCCESS | oclc_1588981-v_11-i_8.TEIP5.xml#p_2.d2e3639           | linked to the authority file.                                       |
+| ثروت فنون                          | SUCCESS | oclc_1588981-v_12-i_5.TEIP5.xml#title_5.d2e610        | linked to the authority file.                                       |
 | ثمرات الفنون                       | SUCCESS | oclc_1588981-v_1-i_30.TEIP5.xml#p_2.d2e931            | linked to the authority file.                                       |
 | ثمرات الفنون                       | SUCCESS | oclc_1588981-v_2-i_13.TEIP5.xml#p_2.d2e800            | linked to the authority file.                                       |
 | ثمرات الفنون                       | SUCCESS | oclc_1588981-v_2-i_2.TEIP5.xml#p_2.d2e1062            | linked to the authority file.                                       |
@@ -1608,7 +1609,6 @@ lang: en
 | ثمرات الفنون                       | SUCCESS | oclc_1588981-v_4-i_22.TEIP5.xml#note_2.d2e748         | linked to the authority file.                                       |
 | ثمرات الفنون                       | SUCCESS | oclc_1588981-v_6-i_14.TEIP5.xml#p_2.d2e1997           | linked to the authority file.                                       |
 | ثمرات الفنون                       | SUCCESS | oclc_1588981-v_9-i_10.TEIP5.xml#p_2.d2e2102           | linked to the authority file.                                       |
-| جريدة يومية سياسية أدبية عمرانية   | FAILURE | oclc_1588981-v_11-i_12.TEIP5.xml#p_2.d2e1461          | could not be found in the authority file.                           |
 | جهرنما                             | SUCCESS | oclc_1588981-v_23-i_3.TEIP5.xml#title_10.d2e2512      | linked to the authority file.                                       |
 | جهره نما                           | FAILURE | oclc_1588981-v_15-i_7.TEIP5.xml#p_2.d2e3567           | could not be found in the authority file.                           |
 | جورنال دو جنيف                     | FAILURE | oclc_1588981-v_31-i_7.TEIP5.xml#title_7.d2e1369       | could not be found in the authority file.                           |
@@ -1807,6 +1807,7 @@ lang: en
 | مشورت                              | SUCCESS | oclc_1588981-v_11-i_10.TEIP5.xml#p_2.d2e1230          | linked to the authority file.                                       |
 | مشورت                              | SUCCESS | oclc_1588981-v_11-i_10.TEIP5.xml#title_10.d2e2386     | linked to the authority file.                                       |
 | مصباح الشرق                        | SUCCESS | oclc_1588981-v_1-i_23.TEIP5.xml#title_8.d2e988        | linked to the authority file.                                       |
+| مصباح الشرق                        | SUCCESS | oclc_1588981-v_1-i_33.TEIP5.xml#p_2.d2e1226           | linked to the authority file.                                       |
 | مصر                                | SUCCESS | oclc_1588981-v_23-i_1.TEIP5.xml#title_6.d2e1615       | linked to the authority file.                                       |
 | معارف                              | SUCCESS | oclc_1588981-v_34-i_7.TEIP5.xml#title_6.d2e647        | linked to the authority file.                                       |
 | معلومات                            | SUCCESS | oclc_1588981-v_1-i_13.TEIP5.xml#p_2.d2e1226           | linked to the authority file.                                       |
@@ -1912,4 +1913,3 @@ lang: en
 | يكي غزته                           | SUCCESS | oclc_1588981-v_13-i_6.TEIP5.xml#title_8.d2e3223       | linked to the authority file.                                       |
 | يني غزته                           | SUCCESS | oclc_1588981-v_12-i_11.TEIP5.xml#title_18.d2e4675     | linked to the authority file.                                       |
 | يني غزته                           | SUCCESS | oclc_1588981-v_12-i_11.TEIP5.xml#title_20.d2e4748     | linked to the authority file.                                       |
-|                                    |         |                                                       |                                                                     |
