@@ -34,7 +34,7 @@ The digital text was downloaded from shamela.ws. Digital facsimiles are availabl
 # to do
 ## structure
 
-- there are many articles, which are still marked-up as notes
+- [ ] there are many articles, which are still marked-up as notes
 - paragraphs: the mark-up contains only line breaks but not paragraphs
 - poetry:
 - sections:
@@ -53,6 +53,10 @@ The digital text was downloaded from shamela.ws. Digital facsimiles are availabl
             + replace: `$1"section"$2`
         2. XSLT: wrap the entire content of these `<div>`s in `<div type="item" subtype="article">`
 - empty notes
+
+## entity linking
+
+- [x] fix/debug the linking code: even though I added originally missing periodicals to the authority file, the linking algorithm does not find titles such as "أوقيانوس"
 
 # named entities
 ## periodicals
