@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e303">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_14-i_3.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_14-i_3.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
-            <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
+            <biblStruct xmlns:ns1="https://openarabicpe.github.io/ns" xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
                   <title level="j" xml:lang="ar" change="#d2e120" xml:id="title_3.d2e50">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes" change="#d2e120" xml:id="title_4.d2e53">al-Manār</title>
@@ -38,12 +38,12 @@
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1329">1329</date><date calendar="#cal_gregorian" when="1911" xml:lang="ar">مارس - 1911م</date></imprint>
                   <biblScope unit="volume" from="14" to="14" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">14</biblScope>
                   <biblScope unit="issue" from="3" to="3" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">3</biblScope>
-                  <biblScope unit="page" from="" to="" change="#d2e120" xml:id="biblScope_3.d2e113"/>
+                  <biblScope unit="page" from="178" to="249" change="#d2e120" xml:id="biblScope_3.d2e113"/>
                </monogr>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2024-12-30" who="#pers_TG" xml:id="d11e335" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-20" who="#pers_TG" xml:id="d11e324" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e313" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e303" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2025-01-02" who="#pers_TG" xml:lang="en" xml:id="d3e346">Automatically split all <tei:tag>div type="section"</tei:tag> into subsections of <tei:tag>div type="article"</tei:tag>, using paragraphs with a length of 30 or less as indicator of a heading.</tei:change><tei:change when="2024-12-30" who="#pers_TG" xml:id="d11e335" xml:lang="en">Added references to local authority file (<tei:ref target="../../../../OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">../../../../OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-20" who="#pers_TG" xml:id="d11e324" xml:lang="en">Added references to local authority file (<tei:ref target="../../../../OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">../../../../OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e313" xml:lang="en">Added references to local authority file (<tei:ref target="../../../../OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">../../../../OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e303" xml:lang="en">Added references to local authority file (<tei:ref target="../../../../OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">../../../../OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e296" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e304" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e293" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e279" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e223" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-08-22" who="#pers_TG" xml:id="d5e212" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e148">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e151">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_1.d2e154">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-08-22" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e157">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e159">title level="j"</tag>.</change><change when="2019-08-19" who="#pers_TG" xml:id="d5e196" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e120" xml:id="ref_1.d2e164">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e120" xml:id="gi_1.d2e167">titles</gi>s without such references based on  <gi change="#d2e120" xml:id="gi_2.d2e170">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_3.d2e173">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e175">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_3.d2e181">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_4.d2e184">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e190">
                <item change="#d2e120" xml:id="item_1.d2e192">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_5.d2e194">num</gi> node </item>
@@ -295,7 +295,7 @@
 كائن بالتقدير، ولا تقولون كما تقول المعتزلة بالخلق، ولا كما تقول المجبرة، فهل
 هذا إلا تناقض.
 فيا سيدي إمام العصر ومقتدى المسلمين مولانا السيد محمد رشيد رضا صاحب
-<bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d2e207 #d5e212 #d2e120 #d11e313" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_5.d2e777" resp="#xslt">المنار</title></bibl>، المرجو من ألطافكم أن لا تحقروا هذه الديار، ولا تنظروا إليها إلا
+<bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d2e207 #d5e212 #d2e120 #d11e313" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" xml:id="title_5.d2e777" resp="#xslt">المنار</title></bibl>، المرجو من ألطافكم أن لا تحقروا هذه الديار، ولا تنظروا إليها إلا
 نظر الوالد إلى ولده، فإن أهل هذه الديار إلى الآن، كانوا على قدم الجد في إقامة
 شعائر الدين. لكن منذ سنين قد حدث فيهم بعض المتفرنجين، فإذا هم على شفا
 جرف هار لولا عناية الله ثم إرشاد العلماء الجامعين بين المعقول والمنقول، أجيبوا
@@ -425,7 +425,7 @@
 عيد الفطر وعيد النحر مطلقًا، فمن احتاج أو اضطر إلى عقد بيع أو غيره في أيام
 العيد أو الجمعة غير وقت صلاتها، وعقده يكون صحيحًا ولا يأثم المتعاقدان، وهذا
 لا يمنع أن يجعل الجمهور هذه الأيام أعيادًا سنوية وأسبوعية، فالإسلام شرع لنا
-كل ما فيه الخير لنا من غير تضييق علينا. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_1.d2e1069"/>
+كل ما فيه الخير لنا من غير تضييق علينا.
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_1.d2e1071">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_3.d2e1073" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -681,7 +681,7 @@
 الجنسيات الجديدة التي أحدثها التفرنج، ورأينا أن المسلمين لا يرتقون ولا يرتقي
 سائر أهل وطنهم إلا باتباعهم هم هدى الإسلام نفسه، وكم أقمنا على ذلك
 من البراهين، ونحن مستعدون لإثبات ذلك في كل حين.
-((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e120" xml:id="note_2.d2e1618"/>
+((يتبع بمقال تالٍ))
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_2.d2e1620">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_4.d2e1622" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -692,7 +692,7 @@
 
 
          
-         <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_3.d2e1629">المسلمون والقبط
+         <div type="item" subtype="article"><p>المسلمون والقبط
 (النبذة الثانية)
 عجبنا من الحركة القبطية الأخيرة وحق لنا العجب، وأن نبحث عن العلة
 والسبب، شرذمة قليلة في أمّة كبيرة تأكل من ثمراتها زهاء ثلاثين من المئة، وهي
@@ -1201,12 +1201,12 @@
 وفي العام الماضي كثر خوض الجرائد الأوربية المصرية وبعض جرائد
 المسيحيين العربية في هذا المسألة، وتحدثت بوجوب تقرير الحكومة المصرية للعيد
 الأسبوعي وجعله إجباريًّا للحكومة والأمة، وكانت تحوم حول يوم الأحد لترجحه
-على غيره، فتدندن وتجمجم تارة وتبين تارة أخرى، وكانت <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d11e335" xml:id="title_6.d2e2743" ref="NA" resp="#xslt">الأخبار</title></bibl> الغراء
+على غيره، فتدندن وتجمجم تارة وتبين تارة أخرى، وكانت <bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d11e335" xml:id="title_6.d2e2743" ref="NA" resp="#xslt">الأخبار</title></bibl> الغراء
 تختار صفوة أقوال تلك الجرائد في ذلك، وهي هي الجريدة التي تنصر ببراعتها
 دينًا على دين، وحزبًا على حزب، وطائفة على طائفة وأمة أو دولة على أخرى،
 من غير أن يكتب صاحبها كلمة واحدة بإمضائه، أو يصرح بأن ذلك من مذهبه
 وآرائه، وإنما ينال ما يريد بعناوينه ومختاراته (كالسيل يقذف جلمودًا بجلمود) .
-إنني أرفع صوتي مشيدًا بالثناء على <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d11e335" xml:id="title_7.d2e2757" ref="NA" resp="#xslt">الأخبار</title></bibl> وجرائد القبط والإفرنج
+إنني أرفع صوتي مشيدًا بالثناء على <bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d11e335" xml:id="title_7.d2e2757" ref="NA" resp="#xslt">الأخبار</title></bibl> وجرائد القبط والإفرنج
 وسائر جرائد النصارى التي تؤيد ترجيح يوم الأحد على يوم الجمعة وترجيح كل ما
 ينسب إلى ملتهم على غيره، أثني على أصحاب هذه الجرائد وكتابها بالارتقاء الملي،
 والجهاد الأدبي الذي يجعلون به ملتهم قدوة الملل، وقومهم سادة الأقوام، وأي
@@ -1434,15 +1434,15 @@
 الشعب التي تموت وتفنى: الحي يتغذى دائمًا بما يتصل به من الأغذية، والمشرف
 على الموت تنحل عناصره وتتفرق، فتكون غذاء للأحياء الأخرى، والحياة قسمان:
 حياة مادية وحياة معنوية، وسنة الله تعالى في نظامها واحدة.
-((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e120" xml:id="note_3.d2e3260"/>
-            </note>
+((يتبع بمقال تالٍ))
+            </p></div>
             <pb n="n14-p226" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P2397.xhtml" change="#d2e120" xml:id="pb_9.d2e3263"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="226" xml:id="pb_10.d2e3265"/>
 
 
          
          <div type="section" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_3.d2e3267">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_4.d2e3269">تقريظ المطبوعات الجديدة</head>
-<p change="#d2e120" xml:id="p_2.d2e3272">
+<div type="item" subtype="article" change="#d3e346"><p>
                
 (الرحلة الحجازية)
 (لولي النعم الحاج عباس حلمي باشا الثاني خديوِ مصر)
@@ -1545,8 +1545,8 @@
 السنة والمعتزلة والدور والتسلسل، ثم تكلم في الصفات وتعلقها، والنبوة والإمامة،
 وذكر الإسراء والمعراج والرؤيا، ثم السمعيات والكلام في هذه العقيدة على
 الطريقة المعروفة في كتب المتأخرين من السنوسي ومن بعده، ولكن الترتيب أحسن
-والعبارة أجلى.
-***
+والعبارة أجلى.</p>
+<ab>***</ab></div><div type="item" subtype="article" change="#d3e346"><p>
 (تمرين الإملاء، في الخلق والأدب واللغة والإنشاء)
 للشيخ حسين والي كتاب اسمه الإملاء في علم الرسم سبق لنا تقريظه، وقد
 قرر تدريس ذلك الكتاب في الأزهر وفي مدرسة القضاء الشرعي ودار العلوم
@@ -1564,11 +1564,11 @@
 والمتكلمين في الجن، وختم الكلام في تمثل الأرواح، وكون الجن من الأرواح،
 وما جاء من علماء الإفرنج في ذلك مترجمًا من معجم لاروس الفرنسي ودائرة
 المعارف البريطانية، وفي مسألة التعزيم ودعوى سكنى الجن في الخرائب وغير
-ذلك. وقد نشر ذلك كله في <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120 #d11e313" ref="oclc:1644284 oape:bibl:533 wiki:Q124964353" xml:id="title_8.d2e3549" resp="#xslt">المقتبس</title></bibl>، ثم طبعه على حدته وهو مفيد في بابه
+ذلك. وقد نشر ذلك كله في <bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d2e191 #d5e196 #d2e120 #d11e313" ref="oclc:1644284 oape:bibl:533 wiki:Q124964353" xml:id="title_8.d2e3549" resp="#xslt">المقتبس</title></bibl>، ثم طبعه على حدته وهو مفيد في بابه
 لا يستغني عنه من يريد تمحيص هذا المبحث، وفي هذه الرسالة من الفكاهة
 والأدب وغرائب الروايات عن الجن ما يلذ لكل قارئ، فهي رسالة قد جمعت بين
-اللذة والفائدة. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_5.d2e3558"/>
-            </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_3.d2e3560">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_5.d2e3562" ref="oape:pers:689 viaf:51716068">
+اللذة والفائدة.
+            </p></div><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_3.d2e3560">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_5.d2e3562" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
                             <surname>رضا</surname>
@@ -1580,7 +1580,7 @@
          
          <div type="section" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_4.d2e3569">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_5.d2e3571">الأخبار والآراء</head>
-<p change="#d2e120" xml:id="p_2.d2e3574">
+<div type="item" subtype="article" change="#d3e346"><p>
                
 (مسجد في لوندره)
 لوندره عاصمة دولة إنكلترة أكبر مدينة في الأرض، وأكثرها ساكنًا، وهى
@@ -1631,8 +1631,8 @@
 المسلمين في العصور الأولى ببناء المسجد أينما وجدوا، حتى في بلاد الأجانب،
 وذكر من الشواهد على هذا المسجد الذي بناه بعض الصحابة في غلطة من الآستانة،
 وحث الناس على التبرع للمشروع، وقال: إنه هو يتبرع بعشرة جنيهات على
-قدر حاله، واعتذر عن إظهار ذلك مع نهي الدين عن إظهار الصدقات.
-***
+قدر حاله، واعتذر عن إظهار ذلك مع نهي الدين عن إظهار الصدقات.</p>
+<ab>***</ab></div><div type="item" subtype="article" change="#d3e346"><p>
 (إظهار الصدقات وإخفاؤها)
 بعد أن أتم أحمد ذكي بك خطابه المفيد، قام كاتب هذه السطور فألقى خطابًا
 وجيزًا في الاستدراك على ما قاله الخطيب في مسألة إظهار الصدقات وبيان الحق
@@ -1685,7 +1685,7 @@
 ولم أكتب كلمة في موضوع الخلاف. ونصبت للمدعوين موائد الطعام وبعد الفراغ
 من العشاء، قام في القوم الشيخ حسن السرهويتي من علماء المنوفية، فشكر
 الحاضرين بالنيابة عن حسن باشا زايد، ثم خطب في المعنى المقصود سيف النصر
-باشا وحسين بك هلال وموسيو كولرا محرر القسم الفرنسي من <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d2e120 #d11e313" xml:id="title_9.d2e3804" ref="oape:bibl:3911" resp="#xslt">الأيجبت</title></bibl>،
+باشا وحسين بك هلال وموسيو كولرا محرر القسم الفرنسي من <bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d2e191 #d2e120 #d11e313" xml:id="title_9.d2e3804" ref="oape:bibl:3911" resp="#xslt">الأيجبت</title></bibl>،
 ومستر منسفيلد محرر القسم الإنكليزي فيها، ثم الشيخ علي يوسف مدير المؤيد
 وموسى باشا غالب.
 هؤلاء هم الخطباء الذين كانوا مندوبين للخطابة، ثم اقترح الشيخ علي يوسف
@@ -1767,8 +1767,8 @@
 كثيرًا من النابتة، فهو إذًا ليس فردًا متعلمًا ولكنه أمة معلمة.
 التعليم يحتاج إلى المال، وإنما يكون ارتقاء الأمة بالأغنياء الذين يبذلون
 أموالهم لترقية الأمة ورفعة شأنها، لا بالذين يدعون خدمتها بالقول فقط، أولئك
-الباذلون المحسنون هم زعماء الأمة ومربوها، فنسأل الله أن يكثر فينا من أمثالهم.
-***
+الباذلون المحسنون هم زعماء الأمة ومربوها، فنسأل الله أن يكثر فينا من أمثالهم.</p>
+<ab>***</ab></div><div type="item" subtype="article" change="#d3e346"><p>
 (عقد قران صاحب المنار)
 في يوم الجمعة سادس عشر ربيع الأول الأنور، احتفل في ددّه من أعمال
 الكورة الشمالية بجبل لبنان؛ بالعقد لصاحب المنار على الأميرة أمينة كريمة
@@ -1782,10 +1782,10 @@
 وتوفرت فيه أسباب السرور، فلم يشب صفوها كدرعلى كثرة الشبان الذين يحملون
 السلاح من أهل القريتين وغيرهما، وقد طير البرق خبره إلى مصر في حينه،
 فنشر في الجرائد الكبرى كالمؤيد والمقطم والأهرام، فنسأل الله التوفيق في هذا
-الطور الجديد في الحياة.
-***
+الطور الجديد في الحياة.</p>
+<ab>***</ab></div><div type="item" subtype="article" change="#d3e346"><p>
 (الوطنية والإسلام)
-نشرت <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d11e335" xml:id="title_10.d2e4030" ref="NA" resp="#xslt">العلم</title></bibl>) لسان حال الحزب الوطني بمصر في (ع 279 الذي
+نشرت <bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="newspaper" change="#d3e296">جريدة (<title level="j" change="#d11e335" xml:id="title_10.d2e4030" ref="NA" resp="#xslt">العلم</title></bibl>) لسان حال الحزب الوطني بمصر في (ع 279 الذي
 صدر في 11 ربيع الآخر) ترجمة كلام لمجلة (العالم الإسلامي) الفرنسية التي
 تصدر بباريس، ذكر صاحبه الحركة الوطنية المصرية وعزاها إلى مصطفى كامل
 باشا وخطأها بمثل قوله: وإنما كنا نعتقد فقط بأن ارتباط الإسلام بالنهضات الوطنية،
@@ -1795,13 +1795,13 @@
 على انتشار الحركة الإسلامية لا الحركة الوطنية المقيدة في دائرة من الدوائر.
 (وإننا مع عدم إنكار الخدمات العظمى التي قام بها الحزب الوطني للأمة
 المصرية، نخاف أن يسير بها في مأزق ضيق؛ لأنه لم يتبع الطريق الذي نراه
-صالحًا) ا. هـ المراد بنص ترجمة <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d11e335" xml:id="title_11.d2e4055" ref="NA" resp="#xslt">العلم</title></bibl> الركيكة.
-وقد عقبت <bibl type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d11e335" xml:id="title_12.d2e4061" ref="NA" resp="#xslt">العلم</title></bibl> على ذلك بهذه الجملة (يريد الكاتب أن يقول: بأن
+صالحًا) ا. هـ المراد بنص ترجمة <bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d11e335" xml:id="title_11.d2e4055" ref="NA" resp="#xslt">العلم</title></bibl> الركيكة.
+وقد عقبت <bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="newspaper" change="#d3e296">جريدة <title level="j" change="#d11e335" xml:id="title_12.d2e4061" ref="NA" resp="#xslt">العلم</title></bibl> على ذلك بهذه الجملة (يريد الكاتب أن يقول: بأن
 الحزب الوطني أخطأ في عدم جعل الدين قاعدة لحركته، والجامعة الإسلامية وسيلة
-لتحقيق مقاصده، وهذا هو مبدأ المجلة (أي <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d11e335" xml:id="title_13.d2e4068" ref="NA" resp="#xslt">العالم الإسلامي</title></bibl>) التي نعرب
+لتحقيق مقاصده، وهذا هو مبدأ المجلة (أي <bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d11e335" xml:id="title_13.d2e4068" ref="NA" resp="#xslt">العالم الإسلامي</title></bibl>) التي نعرب
 عنها مقال اليوم، كما أشرنا إلى ذلك سلفًا وهو ما لا نوافق عليه) .
 (<title change="#d5e212 #d2e120" ref="oape:bibl:2 oclc:1588981" xml:id="title_14.d2e4076">المنار</title>)
-إن صاحب <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d11e335" xml:id="title_15.d2e4081" ref="NA" resp="#xslt">العالم الإسلامي</title></bibl> لم يذكر الجامعة الإسلامية، وإنما يعني أن
+إن صاحب <bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d11e335" xml:id="title_15.d2e4081" ref="NA" resp="#xslt">العالم الإسلامي</title></bibl> لم يذكر الجامعة الإسلامية، وإنما يعني أن
 مصر لا ترتقي إلا بارتقاء المسلمين الذين هم السواد الأعظم بحركة إصلاح إسلامية
 لا بدعوة وطنية، والحزب الوطني على خلاف ذلك؛ فإنه يفضل الحركة الوطنية
 على الإسلامية.
@@ -1813,10 +1813,10 @@
 على القبط أن لا يعودوا بعد إلى مثل ما كانوا عليه من التحامل على الحزب الوطني
 فإنه كان في هذه الأيام أقرب إليهم من سائر الأحزاب، ولم يرفع صوته الجهوري
 المعروف في الدعوة إلى المؤتمر الإسلامي، بل جارى سائر الأحزاب بقدر
-الضرورة.
-***
-(رأي <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d11e335" xml:id="title_16.d2e4114" ref="NA" resp="#xslt">الشرق</title></bibl> والغرب، في جماعة الدعوة والإرشاد)
-لدعاة النصرانية عدة صحف في مصر منها <bibl type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d11e335" xml:id="title_17.d2e4120" ref="NA" resp="#xslt">الشرق</title></bibl> والغرب لقسوس
+الضرورة.</p>
+<ab>***</ab></div><div type="item" subtype="article" change="#d3e346"><p>
+(رأي <bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d11e335" xml:id="title_16.d2e4114" ref="NA" resp="#xslt">الشرق</title></bibl> والغرب، في جماعة الدعوة والإرشاد)
+لدعاة النصرانية عدة صحف في مصر منها <bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="journal" change="#d3e296">مجلة <title level="j" change="#d11e335" xml:id="title_17.d2e4120" ref="NA" resp="#xslt">الشرق</title></bibl> والغرب لقسوس
 الإنكليز، ويكنون بالشرق عن الإسلام وبالغرب عن النصرانية، وقد بلغني أن
 رأس مال هذه المجلة الصغيرة ستة آلاف جنيه، وهي من تبرعات الإنكليز
 الحريصين على نشر دينهم ومذهبهم في هذه البلاد، فهل يعتبر بذلك المسلمون.
@@ -1854,15 +1854,15 @@
 الحكام، ويكرهون لقاءهم إلا لحاجة دينية؛ كالحث على الخير والأمر بالمعروف
 والنهي عن المنكر، فهل يضيق فكر الأوربيين الواسع عن التصديق باتباع جماعة
 من المسلمين لسلفهم الصالح في الدين الخالص من شوائب السياسة وأهواء الحكام،
-مع وجود ذلك في جميع الأمم والأقوام؟
-***
+مع وجود ذلك في جميع الأمم والأقوام؟</p>
+<ab>***</ab></div><div type="item" subtype="article" change="#d3e346"><p>
 (المؤتمر المصري)
 اقترحنا على المؤتمر المصري أن يكون له خمس لجان دائمة في المركز العام
 ب<placeName change="#d2e120 #d11e303" xml:id="placeName_14.d2e4214" ref="geon:360630 jaraid:place:1 oape:place:226 wiki:Q85" resp="#xslt">القاهرة</placeName>: لجنة للإدارة، ولجنة للتعليم والتربية، ولجنة للوعظ والإرشاد وإصلاح
 حال العامة في دينها ودنياها، ولجنة مالية اقتصادية لحفظ الثروة وتنميتها، ولجنة
 خيرية لإعانة المنكوبين والمعوزين، وبينا كيفية تأليف هذه اللجان وعلمها،
-وسننشر ذلك في الجزء الآتي. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_6.d2e4224"/>
-            </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_4.d2e4226">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_6.d2e4228" ref="oape:pers:689 viaf:51716068">
+وسننشر ذلك في الجزء الآتي.
+            </p></div><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_4.d2e4226">الكاتب: <persName change="#d2e141 #d2e120 #d3e279" xml:lang="ar" xml:id="persName_6.d2e4228" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
                             <surname>رضا</surname>

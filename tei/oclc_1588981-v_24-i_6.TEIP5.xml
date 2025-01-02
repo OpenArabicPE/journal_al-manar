@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e276">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_24-i_6.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_24-i_6.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
-            <biblStruct xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
+            <biblStruct xmlns:ns1="https://openarabicpe.github.io/ns" xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
                   <title level="j" xml:lang="ar" change="#d2e120" xml:id="title_3.d2e50">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes" change="#d2e120" xml:id="title_4.d2e53">al-Manār</title>
@@ -38,12 +38,12 @@
                                 </pubPlace><date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1341">1341</date><date calendar="#cal_gregorian" when="1923" xml:lang="ar">يونيه - 1923م</date></imprint>
                   <biblScope unit="volume" from="24" to="24" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_1.d2e106">24</biblScope>
                   <biblScope unit="issue" from="6" to="6" change="#d2e128 #d2e141 #d2e120" xml:lang="ar" xml:id="biblScope_2.d2e109">6</biblScope>
-                  <biblScope unit="page" from="" to="" change="#d2e120" xml:id="biblScope_3.d2e113"/>
+                  <biblScope unit="page" from="419" to="488" change="#d2e120" xml:id="biblScope_3.d2e113"/>
                </monogr>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2024-09-20" who="#pers_TG" xml:id="d11e297" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e286" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e276" xml:lang="en">Added references to local authority file (<tei:ref target="/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
+      <revisionDesc><tei:change when="2025-01-02" who="#pers_TG" xml:lang="en" xml:id="d3e308">Automatically split all <tei:tag>div type="section"</tei:tag> into subsections of <tei:tag>div type="article"</tei:tag>, using paragraphs with a length of 30 or less as indicator of a heading.</tei:change><tei:change when="2024-09-20" who="#pers_TG" xml:id="d11e297" xml:lang="en">Added references to local authority file (<tei:ref target="../../../../OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">../../../../OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e286" xml:lang="en">Added references to local authority file (<tei:ref target="../../../../OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">../../../../OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2024-09-19" who="#pers_TG" xml:id="d11e276" xml:lang="en">Added references to local authority file (<tei:ref target="../../../../OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">../../../../OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2024-09-09" xml:lang="en">removed milestones: lb</change><change when="2024-06-28" who="#pers_TG" xml:id="d3e268" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><change when="2019-11-21" who="#pers_TG" xml:id="d2e276" xml:lang="en">Added publication dates based on the <gi>dateline</gi> in body/div[@subtype='masthead']</change><change when="2019-11-21" who="#pers_TG" xml:id="d2e266" xml:lang="en">Wrapped the beginning of <gi>body</gi> in a <gi>div</gi> and added a <gi>dateline</gi></change><change when="2019-11-21" who="#pers_TG" xml:id="d3e252" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-11-16" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-11-08" who="#pers_TG" xml:id="d2e120">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-09-04" who="#pers_TG" xml:id="d3e196" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e124"><item change="#d2e120" xml:id="item_1.d2e125">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_1.d2e127">num</gi> node </item><item change="#d2e120" xml:id="item_1.d2e130"><gi change="#d2e120" xml:id="gi_1.d2e131">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e120" xml:id="item_1.d2e134">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e120" xml:id="gi_1.d2e137">date</gi> with the appropriate <att change="#d2e120" xml:id="att_1.d2e140">calendar</att> and <att change="#d2e120" xml:id="att_1.d2e143">datingMethod</att> attributes</change><change when="2019-05-13" who="#pers_TG" xml:lang="en" change="#d2e120" xml:id="change_2.d2e146">Automatically marked up references to periodicals with <tag change="#d2e120" xml:id="tag_1.d2e148">title level="j"</tag>.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d2e170" xml:lang="en">Marked-up sections indicated by the presence of <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_1.d2e154">tei:head</gi> into <gi xmlns:xd="http://www.pnp-software.com/XSLTdoc" xml:lang="en" change="#d2e120" xml:id="gi_2.d2e157">xml:div</gi>s.</change>
          <change when="2019-05-12" who="#pers_TG" xml:id="d3e146" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e120" xml:id="list_1.d2e163">
                <item change="#d2e120" xml:id="item_1.d2e165">occurrences of "سنة" and "عام" followed by a <gi change="#d2e120" xml:id="gi_3.d2e167">num</gi> node </item>
@@ -308,7 +308,7 @@
 مفهوم كلمة (الجبت) ففي حديث قطن بن قبيصة مرفوعًا عند أبي داود
 (العيافة والطيرة والطرق من الجبت) وفسر العيافة بالخط وهو ضرب الرمل، وهو
 من تفسير العام ببعض أفراده فالجبت يشمل كل الخرافات كالطرق وهو الضرب
-بالحصى والودع أو حب الفول لمعرفة البخت وغيره من أمر الغيب. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_2.d2e761"/>
+بالحصى والودع أو حب الفول لمعرفة البخت وغيره من أمر الغيب.
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_2.d2e763">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_4.d2e765" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -399,7 +399,7 @@
 الفهم الملكي أعلن المعاهدة ب<placeName change="#d2e120 #d11e276" xml:id="placeName_11.d2e959" ref="geon:104515 oape:place:220 wiki:Q5806" resp="#xslt">مكة</placeName> يوم عيد الفطر باحتفال رسمي حافل، وتضمن
 الإعلان الملكي الأمر بجعل هذا اليوم عيدًا. وهاك نص الإعلان منقولاً عن العدد
 
-            <date calendar="#cal_gregorian" when="0688" change="#d3e146 #d2e120" xml:id="date_6.d2e966">688</date> من <bibl type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120 #d11e286" xml:id="title_6.d2e970" ref="jaraid:bibl:t1r1431 oape:bibl:2144 wiki:Q124972242" resp="#xslt">القبلة</title></bibl> الرسمية المؤرخ في 5 شوال الحال بعد ذكر الاحتفال بعيد
+            <date calendar="#cal_gregorian" when="0688" change="#d3e146 #d2e120" xml:id="date_6.d2e966">688</date> من <bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="newspaper" change="#d3e268">جريدة <title level="j" change="#d2e191 #d2e120 #d11e286" xml:id="title_6.d2e970" ref="jaraid:bibl:t1r1431 oape:bibl:2144 wiki:Q124972242" resp="#xslt">القبلة</title></bibl> الرسمية المؤرخ في 5 شوال الحال بعد ذكر الاحتفال بعيد
 الفطر:
 عيد على عيد
 إعلان استقلال العرب ووحدتهم في جميع الجزيرة العربية
@@ -451,7 +451,7 @@
 (2) أنها مبنية على المقررات السابقة، وهي التي عرضها أمير مكة
 حسين بن علي على الدولة البريطانية في بيان شروط قيامه بالثورة العربية فقبلتها
 مع تحفظات مبينة في كتب السر هنري مكماهون له وقد نشرنا ذلك كله في الجزء
-الثامن من <bibl type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120 #d11e286 #d11e297" xml:id="title_7.d2e1092" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" resp="#xslt">المنار</title></bibl> م23 الذي صدر في سلخ صفر من هذا العام (الموافق 20
+الثامن من <bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="journal" change="#d3e268">مجلة <title level="j" change="#d2e191 #d2e120 #d11e286 #d11e297" xml:id="title_7.d2e1092" ref="oclc:1588981 jaraid:bibl:t1r678 oape:bibl:2 wiki:Q4702794" resp="#xslt">المنار</title></bibl> م23 الذي صدر في سلخ صفر من هذا العام (الموافق 20
 أكتوبر سنة 1922) .
 ولعل القراء يتذكرون أن المادة الأولى من تلك المقررات: أن الحكومة
 البريطانية تتعهد بتشكيل حكومة عربية مستقلة <gap resp="#org_MS" change="#d2e120" xml:id="gap_15.d2e1101"/> إلخ، وأن المادة الثانية نص
@@ -1399,7 +1399,7 @@
 الألفاظ في اللغة وهو لفظ الكفر المرادف للتغطية والستر، كما سمى الزراع كفارًا
 في قوله تعالى: {كَمَثَلِ غَيْثٍ أَعْجَبَ الكُفَّارَ نَبَاتُهُ} (الحديد: 20) لأنهم يَكفرون
 الحب الذي يزرعونه بالتراب، ويطلق لفظ الكافر في لغتنا على الليل وعلى البحر.
-((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e120" xml:id="note_8.d2e3232"/>
+((يتبع بمقال تالٍ))
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_8.d2e3234">الكاتب: <persName change="#d2e141 #d2e120" xml:lang="ar" xml:id="persName_10.d2e3236">مصطفى عبد الرازق</persName>
          </byline></div>
             <pb n="n24-p473" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P3393.xhtml" change="#d2e120" xml:id="pb_19.d2e3241"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="473" xml:id="pb_20.d2e3242"/>
@@ -1568,7 +1568,7 @@
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_73.d2e3625"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_74.d2e3627"/> 
                <gap resp="#org_MS" change="#d2e120" xml:id="gap_75.d2e3629"/> 
-               <gap resp="#org_MS" change="#d2e120" xml:id="gap_76.d2e3631"/> النجف (عبد المولى آل طريح قدس سره) <note type="footnote" place="bottom" change="#d2e120" xml:id="note_9.d2e3634"/>
+               <gap resp="#org_MS" change="#d2e120" xml:id="gap_76.d2e3631"/> النجف (عبد المولى آل طريح قدس سره)
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_9.d2e3636">الكاتب: <persName change="#d2e141 #d2e120" xml:lang="ar" xml:id="persName_11.d2e3638">عبد المولى آل طريح ـ بغدادي</persName>
          </byline></div>
             <pb n="n24-p478" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P3394.xhtml" change="#d2e120" xml:id="pb_21.d2e3642"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="478" xml:id="pb_22.d2e3643"/>
@@ -1577,7 +1577,7 @@
          
          <div type="section" change="#d2e141 #d2e170 #d2e120" xml:lang="ar" xml:id="div_10.d2e3645">
                <head change="#d2e141 #d2e120" xml:lang="ar" xml:id="head_11.d2e3647">تقريظ المطبوعات الجديدة</head>
-<p change="#d2e120" xml:id="p_2.d2e3650">
+<div type="item" subtype="article" change="#d3e308"><p>
                
 
                
@@ -1594,8 +1594,8 @@
 طبع هذا المختصر بمطبعة السعادة على ورق جيد بقطع المنار مع تعليق عليه
 لأخينا السلفي الشهير الشيخ محمد منير أحد علماء الأزهر الشريف فبلغت صفحاته
 91 صفحة، وهو يطلب منه ومن مكتبة المنار وثمن النسخة منه ستة قروش
-صحيحة فنحث كل قارئ على اقتنائه ومطالعته.
-***
+صحيحة فنحث كل قارئ على اقتنائه ومطالعته.</p>
+<ab>***</ab></div><div type="item" subtype="article" change="#d3e308"><p>
 (تلبيس إبليس)
 كتاب جليل القدر كبير الفائدة للحافظ أبي الفرج عبد الرحمن بن الجوزي
 في الإرشاد إلى التزام هداية الشرع باتباع أهل السنة والجماعة، والتنفير عن البدعة
@@ -1622,8 +1622,8 @@
             <date calendar="#cal_gregorian" when="0440" change="#d3e146 #d2e120" xml:id="date_13.d2e3739">440</date> مع الفهرس وجعل الاسم الأول له (نقد العلم والعلماء) وعني بتصحيحه
 أخونا الشيخ محمد منير الدمشقي السلفي من علماء الأزهر، وهو يُطلب منه ومن
 مكتبة المنار وغيرها وثمن النسخة منه 16 قرشًا صحيحًا فننصح لكل قارئ
-بمطالعته.
-***
+بمطالعته.</p>
+<ab>***</ab></div><div type="item" subtype="article" change="#d3e308"><p>
 (هدي الرسول)
 مختصر وجيز لكتاب (زاد المعاد في هدي خير العباد) الذي هو أشهر كتب
 المحقق ابن القيم الممتازة بين كتب أكبر علماء الإسلام في بيان ما صح في السنة،
@@ -1653,8 +1653,8 @@
 بعض مسائله من قبيل الاجتهاد في معرفة القبلة.
 وقد عني جماعة من العلماء بطبع الكتاب في مطبعة المنار طبعًا حسنًا على
 ورق حسن، فنحُثُّ القراء على مطالعته وعسى أن يبعث ذلك هممهم على مطالعة
-أصله، وهو يُطْلَب من مكتبة المنار بمصر، وثمن النسخة منه 10 قروش. <note type="footnote" place="bottom" change="#d2e120" xml:id="note_10.d2e3816"/>
-            </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_10.d2e3818">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_12.d2e3820" ref="oape:pers:689 viaf:51716068">
+أصله، وهو يُطْلَب من مكتبة المنار بمصر، وثمن النسخة منه 10 قروش.
+            </p></div><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_10.d2e3818">الكاتب: <persName change="#d2e141 #d2e120 #d3e252" xml:lang="ar" xml:id="persName_12.d2e3820" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
                             <surname>رضا</surname>
