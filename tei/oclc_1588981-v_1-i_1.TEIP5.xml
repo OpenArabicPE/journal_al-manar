@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:oape="https://openarabicpe.github.io/ns" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" next="oclc_1588981-v_1-i_2.TEIP5.xml" xml:id="oclc_1588981-v_1-i_1">
-  <teiHeader change="#d2e120" xml:id="teiHeader_1.d2e7" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:oape="https://openarabicpe.github.io/ns" xmlns:tei="http://www.tei-c.org/ns/1.0" change="#d2e141" next="oclc_1588981-v_1-i_2.TEIP5.xml" xml:id="oclc_1588981-v_1-i_1"><teiHeader change="#d2e120" xml:id="teiHeader_1.d2e7" xml:lang="en">
     <fileDesc change="#d2e141 #d2e120" xml:id="fileDesc_1.d2e9" xml:lang="en">
       <titleStmt change="#d2e141 #d2e120" xml:id="titleStmt_1.d2e11" xml:lang="en">
         <title change="#d2e141 #d2e120" xml:id="title_1.d2e13" xml:lang="en">مجلة المنار</title>
@@ -44,7 +43,8 @@
         </biblStruct>
       </sourceDesc>
     </fileDesc>
-    <revisionDesc>
+    <revisionDesc><tei:change when="2025-01-02" who="#pers_TG" xml:id="d3e411">Added <tei:gi>graphic</tei:gi> for 30 pages with references to digital images.</tei:change>
+      <tei:change when="2025-01-02" who="#pers_TG" xml:id="d3e406">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change>
       <tei:change when="2025-01-02" who="#pers_TG" xml:id="d3e401">Added <tei:gi>graphic</tei:gi> for 30 pages with references to digital images.</tei:change>
       <tei:change when="2024-12-30" who="#pers_TG" xml:id="d11e401" xml:lang="en">Added references to local authority file (<tei:ref target="../../../../OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">../../../../OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
       <tei:change when="2024-09-20" who="#pers_TG" xml:id="d11e349" xml:lang="en">Added references to local authority file (<tei:ref target="../../../../OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en">../../../../OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and other available IDs to <tei:gi xml:lang="en">titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
@@ -138,102 +138,9 @@
         s.</change>
       <change change="#d2e120" when="2019-03-29" who="#pers_TG" xml:id="change_11.d2e269" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
     </revisionDesc>
-  </teiHeader>
-  <tei:facsimile xml:id="facs">
-    <tei:surface xml:id="facs_1">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=21" xml:id="facs_1-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_2">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=22" xml:id="facs_2-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_3">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=23" xml:id="facs_3-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_4">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=24" xml:id="facs_4-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_5">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=25" xml:id="facs_5-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_6">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=26" xml:id="facs_6-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_7">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=27" xml:id="facs_7-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_8">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=28" xml:id="facs_8-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_9">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=29" xml:id="facs_9-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_10">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=30" xml:id="facs_10-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_11">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=31" xml:id="facs_11-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_12">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=32" xml:id="facs_12-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_13">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=33" xml:id="facs_13-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_14">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=34" xml:id="facs_14-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_15">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=35" xml:id="facs_15-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_16">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=36" xml:id="facs_16-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_17">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=37" xml:id="facs_17-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_18">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=38" xml:id="facs_18-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_19">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=39" xml:id="facs_19-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_20">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=40" xml:id="facs_20-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_21">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=41" xml:id="facs_21-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_22">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=42" xml:id="facs_22-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_23">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=43" xml:id="facs_23-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_24">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=44" xml:id="facs_24-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_25">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=45" xml:id="facs_25-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_26">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=46" xml:id="facs_26-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_27">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=47" xml:id="facs_27-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_28">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=48" xml:id="facs_28-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_29">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=49" xml:id="facs_29-g_3"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_30">
-      <tei:graphic mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=50" xml:id="facs_30-g_3"/>
-    </tei:surface>
-  </tei:facsimile>
-  <text change="#d2e120" xml:id="text_1.d2e274" xml:lang="ar">
+  </teiHeader><tei:facsimile xml:id="facs"><tei:surface xml:id="facs_1"><tei:graphic xml:id="facs_1-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=21" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_2"><tei:graphic xml:id="facs_2-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=22" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_3"><tei:graphic xml:id="facs_3-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=23" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_4"><tei:graphic xml:id="facs_4-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=24" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_5"><tei:graphic xml:id="facs_5-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=25" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_6"><tei:graphic xml:id="facs_6-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=26" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_7"><tei:graphic xml:id="facs_7-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=27" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_8"><tei:graphic xml:id="facs_8-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=28" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_9"><tei:graphic xml:id="facs_9-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=29" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_10"><tei:graphic xml:id="facs_10-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=30" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_11"><tei:graphic xml:id="facs_11-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=31" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_12"><tei:graphic xml:id="facs_12-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=32" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_13"><tei:graphic xml:id="facs_13-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=33" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_14"><tei:graphic xml:id="facs_14-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=34" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_15"><tei:graphic xml:id="facs_15-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=35" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_16"><tei:graphic xml:id="facs_16-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=36" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_17"><tei:graphic xml:id="facs_17-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=37" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_18"><tei:graphic xml:id="facs_18-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=38" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_19"><tei:graphic xml:id="facs_19-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=39" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_20"><tei:graphic xml:id="facs_20-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=40" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_21"><tei:graphic xml:id="facs_21-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=41" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_22"><tei:graphic xml:id="facs_22-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=42" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_23"><tei:graphic xml:id="facs_23-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=43" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_24"><tei:graphic xml:id="facs_24-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=44" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_25"><tei:graphic xml:id="facs_25-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=45" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_26"><tei:graphic xml:id="facs_26-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=46" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_27"><tei:graphic xml:id="facs_27-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=47" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_28"><tei:graphic xml:id="facs_28-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=48" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_29"><tei:graphic xml:id="facs_29-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=49" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_30"><tei:graphic xml:id="facs_30-g_3" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=hvd.32044093672442;seq=50" mimeType="image/jpeg"/></tei:surface></tei:facsimile><text change="#d2e120" xml:id="text_1.d2e274" xml:lang="ar">
     <pb change="#d2e120" corresp="../epub/6947/OEBPS/xhtml/P6.xhtml" ed="shamela" n="" xml:id="pb_1.d2e276"/>
-    <pb change="#d2e121 #d2e120" ed="print" edRef="#edition_1" n="" xml:id="pb_2.d2e277"/>
+    <pb change="#d2e121 #d2e120 #d3e406" ed="print" edRef="#edition_1" facs="#facs_" n="" xml:id="pb_2.d2e277"/>
     <body change="#d2e141 #d2e120" xml:id="body_1.d2e279" xml:lang="ar">
       <div change="#d2e313" subtype="masthead" type="item">
         <head change="#d2e141 #d2e120" xml:id="head_1.d2e281" xml:lang="ar">
@@ -242,7 +149,7 @@
       </div>
       <date calendar="#cal_gregorian" change="#d2e141 #d2e120" when="1898" xml:id="date_3.d2e289" xml:lang="ar">فبراير - 1898م</date>
       <pb change="#d2e120" corresp="../epub/6947/OEBPS/xhtml/P7.xhtml" ed="shamela" n="n1-p1" xml:id="pb_3.d2e292"/>
-      <pb change="#d2e121 #d2e120" ed="print" edRef="#edition_1" n="1" xml:id="pb_4.d2e293"/>
+      <pb change="#d2e121 #d2e120 #d3e406" ed="print" edRef="#edition_1" facs="#facs_1" n="1" xml:id="pb_4.d2e293"/>
       <div change="#d2e141 #d2e170 #d2e120" subtype="article" type="item" xml:id="div_1.d2e295" xml:lang="ar">
         <head change="#d2e141 #d2e120" xml:id="head_2.d2e297" xml:lang="ar">مقدمة الطبعة الثانية للمجلد الأول من المنار</head>
         <p change="#d2e120" xml:id="p_2.d2e300">
@@ -696,7 +603,7 @@
         <persName change="#d2e141 #d2e196 #d2e120" ref="oape:pers:689 viaf:51716068" xml:id="persName_3.d2e672" xml:lang="ar"> <forename change="#d2e120" xml:id="forename_4.d2e674">محمد</forename> <forename change="#d2e120" xml:id="forename_5.d2e677">رشيد</forename> <surname change="#d2e120" xml:id="surname_3.d2e680">رضا</surname></persName> </byline>
       </div>
       <pb change="#d2e120" corresp="../epub/6947/OEBPS/xhtml/P8.xhtml" ed="shamela" n="n1-p9" xml:id="pb_5.d2e685"/>
-      <pb change="#d2e121 #d2e120" ed="print" edRef="#edition_1" n="9" xml:id="pb_6.d2e686"/>
+      <pb change="#d2e121 #d2e120 #d3e406" ed="print" edRef="#edition_1" facs="#facs_9" n="9" xml:id="pb_6.d2e686"/>
       <div change="#d2e141 #d2e170 #d2e120" subtype="article" type="item" xml:id="div_2.d2e688" xml:lang="ar">
         <head change="#d2e141 #d2e120" xml:id="head_3.d2e690" xml:lang="ar">فاتحة السنة الأولى للمنار</head>
         <p change="#d2e120" xml:id="p_2.d2e693">
@@ -1016,7 +923,7 @@
         <persName change="#d2e141 #d2e196 #d2e120" ref="oape:pers:689 viaf:51716068" xml:id="persName_4.d2e923" xml:lang="ar"> <forename change="#d2e120" xml:id="forename_6.d2e925">محمد</forename> <forename change="#d2e120" xml:id="forename_7.d2e928">رشيد</forename> <surname change="#d2e120" xml:id="surname_4.d2e931">رضا</surname></persName> </byline>
       </div>
       <pb change="#d2e120" corresp="../epub/6947/OEBPS/xhtml/P9.xhtml" ed="shamela" n="n1-p14" xml:id="pb_7.d2e935"/>
-      <pb change="#d2e121 #d2e120" ed="print" edRef="#edition_1" n="14" xml:id="pb_8.d2e936"/>
+      <pb change="#d2e121 #d2e120 #d3e406" ed="print" edRef="#edition_1" facs="#facs_14" n="14" xml:id="pb_8.d2e936"/>
       <div change="#d2e141 #d2e170 #d2e120" subtype="article" type="item" xml:id="div_3.d2e938" xml:lang="ar">
         <head change="#d2e141 #d2e120" xml:id="head_4.d2e940" xml:lang="ar">اصطلاحات كُتَّاب العصر</head>
         <p change="#d2e120" xml:id="p_2.d2e943">
@@ -1294,7 +1201,7 @@
         <persName change="#d2e141 #d2e196 #d2e120" ref="oape:pers:689 viaf:51716068" xml:id="persName_5.d2e1143" xml:lang="ar"> <forename change="#d2e120" xml:id="forename_8.d2e1145">محمد</forename> <forename change="#d2e120" xml:id="forename_9.d2e1148">رشيد</forename> <surname change="#d2e120" xml:id="surname_5.d2e1151">رضا</surname></persName> </byline>
       </div>
       <pb change="#d2e120" corresp="../epub/6947/OEBPS/xhtml/P10.xhtml" ed="shamela" n="n1-p19" xml:id="pb_9.d2e1155"/>
-      <pb change="#d2e121 #d2e120" ed="print" edRef="#edition_1" n="19" xml:id="pb_10.d2e1157"/>
+      <pb change="#d2e121 #d2e120 #d3e406" ed="print" edRef="#edition_1" facs="#facs_19" n="19" xml:id="pb_10.d2e1157"/>
       <div change="#d2e141 #d2e170 #d2e120" subtype="article" type="item" xml:id="div_4.d2e1159" xml:lang="ar">
         <head change="#d2e141 #d2e120" xml:id="head_5.d2e1161" xml:lang="ar">مشروع مفيد</head>
         <p change="#d2e120" xml:id="p_2.d2e1164">
@@ -1530,7 +1437,7 @@
         <persName change="#d2e141 #d2e196 #d2e120" ref="oape:pers:689 viaf:51716068" xml:id="persName_6.d2e1353" xml:lang="ar"> <forename change="#d2e120" xml:id="forename_10.d2e1355">محمد</forename> <forename change="#d2e120" xml:id="forename_11.d2e1358">رشيد</forename> <surname change="#d2e120" xml:id="surname_6.d2e1361">رضا</surname></persName> </byline>
       </div>
       <pb change="#d2e120" corresp="../epub/6947/OEBPS/xhtml/P11.xhtml" ed="shamela" n="n1-p23" xml:id="pb_11.d2e1365"/>
-      <pb change="#d2e121 #d2e120" ed="print" edRef="#edition_1" n="23" xml:id="pb_12.d2e1366"/>
+      <pb change="#d2e121 #d2e120 #d3e406" ed="print" edRef="#edition_1" facs="#facs_23" n="23" xml:id="pb_12.d2e1366"/>
       <div change="#d2e141 #d2e170 #d2e120" subtype="article" type="item" xml:id="div_5.d2e1368" xml:lang="ar">
         <head change="#d2e141 #d2e120" xml:id="head_6.d2e1370" xml:lang="ar">مجمل الأحوال السياسية</head>
         <p change="#d2e120" xml:id="p_2.d2e1373">
@@ -1985,7 +1892,6 @@
         <persName change="#d2e141 #d2e196 #d2e120" ref="oape:pers:689 viaf:51716068" xml:id="persName_7.d2e1701" xml:lang="ar"> <forename change="#d2e120" xml:id="forename_12.d2e1703">محمد</forename> <forename change="#d2e120" xml:id="forename_13.d2e1706">رشيد</forename> <surname change="#d2e120" xml:id="surname_7.d2e1709">رضا</surname></persName> </byline>
       </div>
       <pb change="#d2e120" corresp="../epub/6947/OEBPS/xhtml/P12.xhtml" ed="shamela" n="" xml:id="pb_13.d2e1713"/>
-      <pb change="#d2e121 #d2e120" ed="print" edRef="#edition_1" n="" xml:id="pb_14.d2e1714"/>
+      <pb change="#d2e121 #d2e120 #d3e406" ed="print" edRef="#edition_1" facs="#facs_" n="" xml:id="pb_14.d2e1714"/>
     </body>
-  </text>
-</TEI>
+  </text></TEI>
