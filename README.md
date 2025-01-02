@@ -35,25 +35,43 @@ The digital text was downloaded from shamela.ws. Digital facsimiles are availabl
 # to do
 ## structure
 
-- [ ] there are many articles, which are still marked-up as notes
+- [x] there are many articles, which are still marked-up as notes: one can find them based on the length of the string
+    - [ ] some are deeply nested: /note/note/note/note
+    - [ ] add heads to the new `<div>`s based on the first line of the child `<p>`
 - paragraphs: the mark-up contains only line breaks but not paragraphs
 - poetry:
 - sections:
     + titles:
         * new publications/ review section
-            + done تقريظ المطبوعات الجديدة
-            + done تقريظ المطبوعات الحديثة
-            + done تقريظ المطبوعات
-        + done الأخبار والآراء
+            * [x] it seems that quite a bit went wrong with these!
+            + [x] تقريظ المطبوعات الجديدة
+            + [x] تقريظ المطبوعات الحديثة
+            + [x] تقريظ المطبوعات
+            + [ ] تقريظ
+            + [ ] التقاريظ
+        + [x] الأخبار والآراء
+        + [ ] أهم أخبار ...
+        + [ ] أخبار الآستانة
+        + [ ] أخبار وآراء
+        + [ ] مقتبسات من الجرائد
+        + [ ] مجمل الأحوال السياسية
+        + [ ] شؤونات إسلامية
+        + [ ] مقتطفات الجرائد
+        + [ ] آثار علمية أدبية
+        + [ ] أسئلة من جاوه
     + dividers of articles in sections
-        * a line with 3 asterisks
+        * [x] a line with 3 asterisks: implemented in XSLT 
+            * can also be `* * *`
         * the next line is wrapped in brackets
     + workflow:
         1. Regex: search and replace
             + find: `(<div[^>]+type=)"item" subtype="article"([^>]+>\s+<head[^>]+>تقريظ المطبوعات الجديدة</head>)`
             + replace: `$1"section"$2`
         2. XSLT: wrap the entire content of these `<div>`s in `<div type="item" subtype="article">`
-- empty notes
+- [x] empty notes
+- bylines: `xml:id="gap_25.d2e2026"/> محمد نجيب الحسيني</div>`
+- some issues have almost no substructure at all
+    - vol. 10, nr. 12
 
 ## entity linking
 

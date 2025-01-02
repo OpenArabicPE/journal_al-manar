@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt change="#d2e141 #d2e120 #d2e120" xml:lang="en" xml:id="publicationStmt_1.d2e38"><authority><persName xml:id="pers_TG"><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName ref="geon:276781 jaraid:place:2 oape:place:26 wiki:Q3820" resp="#xslt" change="#d11e298">Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-manar/blob/master/tei/oclc_1588981-v_4-i_19.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_4-i_19.TEIP5.xml</idno></publicationStmt>
          <sourceDesc change="#d2e141 #d2e120" xml:lang="en" xml:id="sourceDesc_1.d2e44">
-            <biblStruct  xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
+            <biblStruct xmlns:ns1="https://openarabicpe.github.io/ns" xml:lang="ar" change="#d2e120" xml:id="biblStruct_1.d2e46">
                <monogr change="#d2e141 #d2e120" xml:lang="ar" xml:id="monogr_1.d2e48">
                   <title level="j" xml:lang="ar" change="#d2e120" xml:id="title_3.d2e50">المنار</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes" change="#d2e120" xml:id="title_4.d2e53">al-Manār</title>
@@ -448,7 +448,7 @@
 
 
          
-         <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_4.d2e1051">تتمة الدرس (31)
+         <div type="item" subtype="article"><p>تتمة الدرس (31)
 في شبهات على وظائف الرسل وأجوبتها
 المسألة (76) شبهة على الوظيفة الثالثة:
 يقولون: إن الأديان السماوية الثلاثة لم تتفق أيضًا في أمر الآخرة، فبعضها
@@ -578,7 +578,7 @@
 والفلاسفة لا تكون إلا عادلة؛ وإنما منشأ هذا الخلل التقاليد الإكليركية (أي تقاليد
 رجال الدين) وحسبك بهذه الشهادة من هذا السياسي الكبير.
 ((يتبع بمقال تالٍ))
-            </note>
+            </p></div>
             <pb n="n4-p743" ed="shamela" corresp="../epub/6947/OEBPS/xhtml/P973.xhtml" change="#d2e120" xml:id="pb_11.d2e1335"/><pb change="#d2e120 #d2e120" ed="print" edRef="#edition_1" n="743" xml:id="pb_12.d2e1336"/>
 
 
@@ -868,7 +868,7 @@
 ثم سألت ف.. عن انتخاب رئيسة الخدم، وعن الرواتب للجواري والهدايا
 للقديمات، وعن كيفية ابتياعهن، وسنبين في الجزء الآتي الجواب عن الأخير؛
 لأنه كان تمهيدًا للبحث في الرق والإماء والتسري وغير ذلك من الفوائد.
-((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_8.d2e2035">(1) نُشرت هذه المحاورات ومقدمتها في <bibl  type="periodical" subtype="newspaper" change="#d3e291">جريدة (<title level="j" change="#d2e191 #d2e120 #d11e308" xml:id="title_5.d2e2037" ref="oape:bibl:486 wiki:Q125629445" resp="#xslt">ترجمان حقيقت</title></bibl>) التركية منذ سنتين، وعُربت لجريدة الثمرات الغراء تعريبًا ضعيفًا، ونحن نأتي بملخصها بعبارة أصح من الأول.</note>
+((يتبع بمقال تالٍ)) <note type="footnote" place="bottom" change="#d2e141 #d2e120" xml:lang="ar" xml:id="note_8.d2e2035">(1) نُشرت هذه المحاورات ومقدمتها في <bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="newspaper" change="#d3e291">جريدة (<title level="j" change="#d2e191 #d2e120 #d11e308" xml:id="title_5.d2e2037" ref="oape:bibl:486 wiki:Q125629445" resp="#xslt">ترجمان حقيقت</title></bibl>) التركية منذ سنتين، وعُربت لجريدة الثمرات الغراء تعريبًا ضعيفًا، ونحن نأتي بملخصها بعبارة أصح من الأول.</note>
             </p><byline change="#d2e141 #d2e120" xml:lang="ar" xml:id="byline_6.d2e2041">الكاتب: <persName change="#d2e141 #d2e120 #d3e274" xml:lang="ar" xml:id="persName_8.d2e2043" ref="oape:pers:689 viaf:51716068">
                             <forename>محمد</forename>
                             <forename>رشيد</forename>
@@ -929,9 +929,9 @@
 ***
 مستقبل الإسلام في رأي
 المسلمين الجغرافيين
-عثرنا بالمصادفة على مقالة في <bibl  type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d11e330" xml:id="title_6.d2e2163" ref="NA" resp="#xslt">اللواء</title> عنوانها (<title level="a">مستقبل الإسلام</title>)</bibl>
+عثرنا بالمصادفة على مقالة في <bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="newspaper" change="#d3e291">جريدة <title level="j" change="#d11e330" xml:id="title_6.d2e2163" ref="NA" resp="#xslt">اللواء</title> عنوانها (<title level="a">مستقبل الإسلام</title>)</bibl>
 وهي لرجل جزائري منحته الجريدة لقب (العالم) وذكرت أن مقالته نشرت في
-(<bibl  type="periodical" subtype="journal" change="#d3e291"><title level="j" change="#d2e191 #d2e120 #d11e308" xml:id="title_7.d2e2170" ref="oape:bibl:3956" resp="#xslt">مجلة المسائل السياسية والاستعمارية</title></bibl>) ويظهر لمتصفح المقالة أن كاتبها تلقى
+(<bibl xmlns:ns1="https://openarabicpe.github.io/ns" type="periodical" subtype="journal" change="#d3e291"><title level="j" change="#d2e191 #d2e120 #d11e308" xml:id="title_7.d2e2170" ref="oape:bibl:3956" resp="#xslt">مجلة المسائل السياسية والاستعمارية</title></bibl>) ويظهر لمتصفح المقالة أن كاتبها تلقى
 خواص الإسلام ومزاياه من المسلمين الجغرافيين، لا من الكتاب والسنة وسيرة
 السلف الصالح؛ ولذلك لم يفده ذكاؤه في التمييز بين ما هو من الإسلام، وما هو
 من جماهير المنتسبين إليه اليوم، فغلط كثيرًا، ونسب للإسلام ما هو بريء منه.
