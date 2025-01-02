@@ -29,7 +29,8 @@ The digital text was downloaded from shamela.ws. Digital facsimiles are availabl
     - consider, for instance [v.25(3)](tei/oclc_1588981-v_25-i_3.TEIP5.xml) published in March 1924 (facsimiles are [here](https://archive.alsharekh.org/contents/33/3412)):
         - The text "[سكة الحديد الحجازية](tei/oclc_1588981-v_25-i_3.TEIP5.xml#div_3.d2e1002)" clearly states in its opening paragraph that it was written by an anonymous "Syrian scholar" but shamela added Muḥammad Rashīd Riḍā as author anyway.
         - The same is true for the following article "[الوثائق الرسمية في المسألة العربية](tei/oclc_1588981-v_25-i_3.TEIP5.xml#div_4.d2e1348)", which provides some texts from other sources and adds a very short comment from al-Manār. Again shamela added Muḥammad Rashīd Riḍā as author.
-4. The facsimiles from [sakhrit][sakhrit] confirm that shamela's page numbers correspond to the **second** printed edition (published in 1327 aH.). However, there are only page numbers between articles! This means, they can only be used as an approximation.
+4. The facsimiles from [sakhrit][sakhrit] confirm that shamela's **page numbers correspond to the second printed edition** (published in 1327 aH.). However, there are only page numbers between articles! This means, they can only be used as an approximation.
+5. Unlike previously assumed, **line breaks** originally found in the shamela files, **did not correspond to features in the facsimiles** and were thus not encoded with `<lb/>`.
 
 # to do
 ## structure
